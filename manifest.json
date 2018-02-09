@@ -19,6 +19,7 @@
     },
     "permissions": [
         "https://api.openstreetmap.org/",
+        "https://cdn.crowdin.com/*",
         "https://*.github.com/",
         "https://*.githubusercontent.com/",
         "http://*.baseflight.net/",
