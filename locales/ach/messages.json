@@ -1,0 +1,3424 @@
+{
+    "translation_version": {
+        "message": "crwdns7572:0crwdne7572:0"
+    },
+    "windowTitle": {
+        "message": "crwdns7573:0crwdne7573:0",
+        "description": "Title of the application window, usually not translated"
+    },
+    "warningTitle": {
+        "message": "crwdns7574:0crwdne7574:0"
+    },
+    "noticeTitle": {
+        "message": "crwdns7575:0crwdne7575:0"
+    },
+    "options_title": {
+        "message": "crwdns7576:0crwdne7576:0"
+    },
+    "connect": {
+        "message": "crwdns7577:0crwdne7577:0"
+    },
+    "connecting": {
+        "message": "crwdns7578:0crwdne7578:0"
+    },
+    "disconnect": {
+        "message": "crwdns7579:0crwdne7579:0"
+    },
+    "portsSelectManual": {
+        "message": "crwdns7580:0crwdne7580:0"
+    },
+    "portOverrideText": {
+        "message": "crwdns7581:0crwdne7581:0"
+    },
+    "autoConnect": {
+        "message": "crwdns7582:0crwdne7582:0"
+    },
+    "close": {
+        "message": "crwdns7583:0crwdne7583:0"
+    },
+    "autoConnectEnabled": {
+        "message": "crwdns7584:0crwdne7584:0"
+    },
+    "autoConnectDisabled": {
+        "message": "crwdns7585:0crwdne7585:0"
+    },
+    "expertMode": {
+        "message": "crwdns7586:0crwdne7586:0"
+    },
+    "permanentExpertMode": {
+        "message": "crwdns7587:0crwdne7587:0"
+    },
+    "userLanguageSelect": {
+        "message": "crwdns7588:0crwdne7588:0"
+    },
+    "language_default": {
+        "message": "crwdns7589:0crwdne7589:0"
+    },
+    "language_ca": {
+        "message": "crwdns7590:0crwdne7590:0"
+    },
+    "language_de": {
+        "message": "crwdns7591:0crwdne7591:0"
+    },
+    "language_en": {
+        "message": "crwdns7592:0crwdne7592:0"
+    },
+    "language_es": {
+        "message": "crwdns7593:0crwdne7593:0"
+    },
+    "language_fr": {
+        "message": "crwdns7594:0crwdne7594:0"
+    },
+    "language_it": {
+        "message": "crwdns7595:0crwdne7595:0"
+    },
+    "language_ko": {
+        "message": "crwdns7596:0crwdne7596:0"
+    },
+    "language_lv": {
+        "message": "crwdns7597:0crwdne7597:0"
+    },
+    "language_zh_CN": {
+        "message": "crwdns7598:0crwdne7598:0"
+    },
+    "sensorDataFlashNotFound": {
+        "message": "crwdns7599:0crwdne7599:0",
+        "description": "Text of the dataflash image in the header of the page."
+    },
+    "sensorDataFlashFreeSpace": {
+        "message": "crwdns7600:0crwdne7600:0",
+        "description": "Text of the dataflash image in the header of the page."
+    },
+    "sensorStatusGyro": {
+        "message": "crwdns7601:0crwdne7601:0"
+    },
+    "sensorStatusGyroShort": {
+        "message": "crwdns7602:0crwdne7602:0",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusAccel": {
+        "message": "crwdns7603:0crwdne7603:0"
+    },
+    "sensorStatusAccelShort": {
+        "message": "crwdns7604:0crwdne7604:0",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusMag": {
+        "message": "crwdns7605:0crwdne7605:0"
+    },
+    "sensorStatusMagShort": {
+        "message": "crwdns7606:0crwdne7606:0",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusBaro": {
+        "message": "crwdns7607:0crwdne7607:0"
+    },
+    "sensorStatusBaroShort": {
+        "message": "crwdns7608:0crwdne7608:0",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusGPS": {
+        "message": "crwdns7609:0crwdne7609:0"
+    },
+    "sensorStatusGPSShort": {
+        "message": "crwdns7610:0crwdne7610:0",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusSonar": {
+        "message": "crwdns7611:0crwdne7611:0"
+    },
+    "sensorStatusSonarShort": {
+        "message": "crwdns7612:0crwdne7612:0",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "checkForConfiguratorUnstableVersions": {
+        "message": "crwdns7613:0crwdne7613:0"
+    },
+    "configuratorUpdateNotice": {
+        "message": "crwdns7614:0crwdne7614:0"
+    },
+    "configuratorUpdateWebsite": {
+        "message": "crwdns7615:0crwdne7615:0"
+    },
+    "deviceRebooting": {
+        "message": "crwdns7616:0crwdne7616:0"
+    },
+    "deviceReady": {
+        "message": "crwdns7617:0crwdne7617:0"
+    },
+    "backupFileIncompatible": {
+        "message": "crwdns7618:0crwdne7618:0"
+    },
+    "backupFileUnmigratable": {
+        "message": "crwdns7619:0crwdne7619:0"
+    },
+    "configMigrationFrom": {
+        "message": "crwdns7620:0crwdne7620:0"
+    },
+    "configMigratedTo": {
+        "message": "crwdns7621:0crwdne7621:0"
+    },
+    "configMigrationSuccessful": {
+        "message": "crwdns7622:0crwdne7622:0"
+    },
+    "tabFirmwareFlasher": {
+        "message": "crwdns7623:0crwdne7623:0"
+    },
+    "tabLanding": {
+        "message": "crwdns7624:0crwdne7624:0"
+    },
+    "tabHelp": {
+        "message": "crwdns7625:0crwdne7625:0"
+    },
+    "tabSetup": {
+        "message": "crwdns7626:0crwdne7626:0"
+    },
+    "tabSetupOSD": {
+        "message": "crwdns7627:0crwdne7627:0"
+    },
+    "tabConfiguration": {
+        "message": "crwdns7628:0crwdne7628:0"
+    },
+    "tabPorts": {
+        "message": "crwdns7629:0crwdne7629:0"
+    },
+    "tabPidTuning": {
+        "message": "crwdns7630:0crwdne7630:0"
+    },
+    "tabReceiver": {
+        "message": "crwdns7631:0crwdne7631:0"
+    },
+    "tabModeSelection": {
+        "message": "crwdns7632:0crwdne7632:0"
+    },
+    "tabServos": {
+        "message": "crwdns7633:0crwdne7633:0"
+    },
+    "tabFailsafe": {
+        "message": "crwdns7634:0crwdne7634:0"
+    },
+    "tabTransponder": {
+        "message": "crwdns7635:0crwdne7635:0"
+    },
+    "tabOsd": {
+        "message": "crwdns7636:0crwdne7636:0"
+    },
+    "tabPower": {
+        "message": "crwdns7637:0crwdne7637:0"
+    },
+    "tabGPS": {
+        "message": "crwdns7638:0crwdne7638:0"
+    },
+    "tabMotorTesting": {
+        "message": "crwdns7639:0crwdne7639:0"
+    },
+    "tabLedStrip": {
+        "message": "crwdns7640:0crwdne7640:0"
+    },
+    "tabRawSensorData": {
+        "message": "crwdns7641:0crwdne7641:0"
+    },
+    "tabCLI": {
+        "message": "crwdns7642:0crwdne7642:0"
+    },
+    "tabLogging": {
+        "message": "crwdns7643:0crwdne7643:0"
+    },
+    "tabOnboardLogging": {
+        "message": "crwdns7644:0crwdne7644:0"
+    },
+    "tabAdjustments": {
+        "message": "crwdns7645:0crwdne7645:0"
+    },
+    "tabAuxiliary": {
+        "message": "crwdns7646:0crwdne7646:0"
+    },
+    "logActionHide": {
+        "message": "crwdns7647:0crwdne7647:0"
+    },
+    "logActionShow": {
+        "message": "crwdns7648:0crwdne7648:0"
+    },
+    "serialPortOpened": {
+        "message": "crwdns7649:0crwdne7649:0"
+    },
+    "serialPortOpenFail": {
+        "message": "crwdns7650:0crwdne7650:0"
+    },
+    "serialPortClosedOk": {
+        "message": "crwdns7651:0crwdne7651:0"
+    },
+    "serialPortClosedFail": {
+        "message": "crwdns7652:0crwdne7652:0"
+    },
+    "serialUnrecoverable": {
+        "message": "crwdns7653:0crwdne7653:0"
+    },
+    "usbDeviceOpened": {
+        "message": "crwdns7654:0crwdne7654:0"
+    },
+    "usbDeviceOpenFail": {
+        "message": "crwdns7655:0crwdne7655:0"
+    },
+    "usbDeviceClosed": {
+        "message": "crwdns7656:0crwdne7656:0"
+    },
+    "usbDeviceCloseFail": {
+        "message": "crwdns7657:0crwdne7657:0"
+    },
+    "usbDeviceUdevNotice": {
+        "message": "crwdns7658:0crwdne7658:0"
+    },
+    "stm32UsbDfuNotFound": {
+        "message": "crwdns7659:0crwdne7659:0"
+    },
+    "stm32TimedOut": {
+        "message": "crwdns7660:0crwdne7660:0"
+    },
+    "stm32WrongResponse": {
+        "message": "crwdns7661:0crwdne7661:0"
+    },
+    "stm32ContactingBootloader": {
+        "message": "crwdns7662:0crwdne7662:0"
+    },
+    "stm32ContactingBootloaderFailed": {
+        "message": "crwdns7663:0crwdne7663:0"
+    },
+    "stm32ResponseBootloaderFailed": {
+        "message": "crwdns7664:0crwdne7664:0"
+    },
+    "stm32GlobalEraseExtended": {
+        "message": "crwdns7665:0crwdne7665:0"
+    },
+    "stm32LocalEraseExtended": {
+        "message": "crwdns7666:0crwdne7666:0"
+    },
+    "stm32GlobalErase": {
+        "message": "crwdns7667:0crwdne7667:0"
+    },
+    "stm32LocalErase": {
+        "message": "crwdns7668:0crwdne7668:0"
+    },
+    "stm32Erase": {
+        "message": "crwdns7669:0crwdne7669:0"
+    },
+    "stm32Flashing": {
+        "message": "crwdns7670:0crwdne7670:0"
+    },
+    "stm32Verifying": {
+        "message": "crwdns7671:0crwdne7671:0"
+    },
+    "stm32ProgrammingSuccessful": {
+        "message": "crwdns7672:0crwdne7672:0"
+    },
+    "stm32ProgrammingFailed": {
+        "message": "crwdns7673:0crwdne7673:0"
+    },
+    "stm32AddressLoadFailed": {
+        "message": "crwdns7674:0crwdne7674:0"
+    },
+    "stm32AddressLoadSuccess": {
+        "message": "crwdns7675:0crwdne7675:0"
+    },
+    "stm32AddressLoadUnknown": {
+        "message": "crwdns7676:0crwdne7676:0"
+    },
+    "stm32NotReadProtected": {
+        "message": "crwdns7677:0crwdne7677:0"
+    },
+    "stm32ReadProtected": {
+        "message": "crwdns7678:0crwdne7678:0"
+    },
+    "stm32UnprotectSuccessful": {
+        "message": "crwdns7679:0crwdne7679:0"
+    },
+    "stm32UnprotectUnplug": {
+        "message": "crwdns7680:0crwdne7680:0"
+    },
+    "stm32UnprotectFailed": {
+        "message": "crwdns7681:0crwdne7681:0"
+    },
+    "stm32UnprotectInitFailed": {
+        "message": "crwdns7682:0crwdne7682:0"
+    },
+    "noConfigurationReceived": {
+        "message": "crwdns7683:0crwdne7683:0"
+    },
+    "firmwareVersionNotSupported": {
+        "message": "crwdns7684:0crwdne7684:0"
+    },
+    "firmwareTypeNotSupported": {
+        "message": "crwdns7685:0crwdne7685:0"
+    },
+    "firmwareUpgradeRequired": {
+        "message": "crwdns7686:0crwdne7686:0"
+    },
+    "infoVersions": {
+        "message": "crwdns7687:0crwdne7687:0"
+    },
+    "releaseCheckLoaded": {
+        "message": "crwdns7688:0crwdne7688:0"
+    },
+    "releaseCheckFailed": {
+        "message": "crwdns7689:0crwdne7689:0"
+    },
+    "releaseCheckCached": {
+        "message": "crwdns7690:0crwdne7690:0"
+    },
+    "releaseCheckNoInfo": {
+        "message": "crwdns7691:0crwdne7691:0"
+    },
+    "tabSwitchConnectionRequired": {
+        "message": "crwdns7692:0crwdne7692:0"
+    },
+    "tabSwitchWaitForOperation": {
+        "message": "crwdns7693:0crwdne7693:0"
+    },
+    "tabSwitchUpgradeRequired": {
+        "message": "crwdns7694:0crwdne7694:0"
+    },
+    "firmwareVersion": {
+        "message": "crwdns7695:0crwdne7695:0"
+    },
+    "apiVersionReceived": {
+        "message": "crwdns7696:0crwdne7696:0"
+    },
+    "uniqueDeviceIdReceived": {
+        "message": "crwdns7697:0crwdne7697:0"
+    },
+    "craftNameReceived": {
+        "message": "crwdns7698:0crwdne7698:0"
+    },
+    "armingDisabled": {
+        "message": "crwdns7699:0crwdne7699:0"
+    },
+    "armingEnabled": {
+        "message": "crwdns7700:0crwdne7700:0"
+    },
+    "runawayTakeoffPreventionDisabled": {
+        "message": "crwdns7701:0crwdne7701:0"
+    },
+    "runawayTakeoffPreventionEnabled": {
+        "message": "crwdns7702:0crwdne7702:0"
+    },
+    "boardInfoReceived": {
+        "message": "crwdns7703:0crwdne7703:0"
+    },
+    "buildInfoReceived": {
+        "message": "crwdns7704:0crwdne7704:0"
+    },
+    "fcInfoReceived": {
+        "message": "crwdns7705:0crwdne7705:0"
+    },
+    "versionLabelTarget": {
+        "message": "crwdns7706:0crwdne7706:0"
+    },
+    "versionLabelFirmware": {
+        "message": "crwdns7707:0crwdne7707:0"
+    },
+    "versionLabelConfigurator": {
+        "message": "crwdns7708:0crwdne7708:0"
+    },
+    "notifications_app_just_updated_to_version": {
+        "message": "crwdns7709:0crwdne7709:0"
+    },
+    "notifications_click_here_to_start_app": {
+        "message": "crwdns7710:0crwdne7710:0"
+    },
+    "statusbar_port_utilization": {
+        "message": "crwdns7711:0crwdne7711:0"
+    },
+    "statusbar_usage_download": {
+        "message": "crwdns7712:0crwdne7712:0"
+    },
+    "statusbar_usage_upload": {
+        "message": "crwdns7713:0crwdne7713:0"
+    },
+    "statusbar_packet_error": {
+        "message": "crwdns7714:0crwdne7714:0"
+    },
+    "statusbar_i2c_error": {
+        "message": "crwdns7715:0crwdne7715:0"
+    },
+    "statusbar_cycle_time": {
+        "message": "crwdns7716:0crwdne7716:0"
+    },
+    "statusbar_cpu_load": {
+        "message": "crwdns7717:0crwdne7717:0"
+    },
+    "dfu_connect_message": {
+        "message": "crwdns7718:0crwdne7718:0"
+    },
+    "dfu_erased_kilobytes": {
+        "message": "crwdns7719:0crwdne7719:0"
+    },
+    "dfu_device_flash_info": {
+        "message": "crwdns7720:0crwdne7720:0"
+    },
+    "dfu_error_image_size": {
+        "message": "crwdns7721:0crwdne7721:0"
+    },
+    "eeprom_saved_ok": {
+        "message": "crwdns7722:0crwdne7722:0"
+    },
+    "defaultWelcomeIntro": {
+        "message": "crwdns7723:0crwdne7723:0"
+    },
+    "defaultWelcomeHead": {
+        "message": "crwdns7724:0crwdne7724:0"
+    },
+    "defaultWelcomeText": {
+        "message": "crwdns7725:0crwdne7725:0"
+    },
+    "defaultContributingHead": {
+        "message": "crwdns7726:0crwdne7726:0"
+    },
+    "defaultContributingText": {
+        "message": "crwdns7727:0crwdne7727:0"
+    },
+    "defaultChangelogAction": {
+        "message": "crwdns7728:0crwdne7728:0"
+    },
+    "defaultChangelogHead": {
+        "message": "crwdns7729:0crwdne7729:0"
+    },
+    "defaultButtonFirmwareFlasher": {
+        "message": "crwdns7730:0crwdne7730:0"
+    },
+    "defaultDonateHead": {
+        "message": "crwdns7731:0crwdne7731:0"
+    },
+    "defaultDonateText": {
+        "message": "crwdns7732:0crwdne7732:0"
+    },
+    "defaultDonate": {
+        "message": "crwdns7733:0crwdne7733:0"
+    },
+    "defaultSponsorsHead": {
+        "message": "crwdns7734:0crwdne7734:0"
+    },
+    "defaultDocumentationHead": {
+        "message": "crwdns7735:0crwdne7735:0"
+    },
+    "defaultDocumentation": {
+        "message": "crwdns7736:0crwdne7736:0"
+    },
+    "defaultDocumentation1": {
+        "message": "crwdns7737:0crwdne7737:0"
+    },
+    "defaultDocumentation2": {
+        "message": "crwdns7738:0crwdne7738:0"
+    },
+    "defaultSupportHead": {
+        "message": "crwdns7739:0crwdne7739:0"
+    },
+    "defaultSupportSubline1": {
+        "message": "crwdns7740:0crwdne7740:0"
+    },
+    "defaultSupportSubline2": {
+        "message": "crwdns7741:0crwdne7741:0"
+    },
+    "defaultSupport": {
+        "message": "crwdns7742:0crwdne7742:0"
+    },
+    "defaultSupport1": {
+        "message": "crwdns7743:0crwdne7743:0"
+    },
+    "defaultSupport2": {
+        "message": "crwdns7744:0crwdne7744:0"
+    },
+    "defaultSupport3": {
+        "message": "crwdns7745:0crwdne7745:0"
+    },
+    "defaultSupport4": {
+        "message": "crwdns7746:0crwdne7746:0"
+    },
+    "defaultSupport5": {
+        "message": "crwdns7747:0crwdne7747:0"
+    },
+    "initialSetupBackupAndRestoreApiVersion": {
+        "message": "crwdns7748:0crwdne7748:0"
+    },
+    "initialSetupButtonCalibrateAccel": {
+        "message": "crwdns7749:0crwdne7749:0"
+    },
+    "initialSetupCalibrateAccelText": {
+        "message": "crwdns7750:0crwdne7750:0"
+    },
+    "initialSetupButtonCalibrateMag": {
+        "message": "crwdns7751:0crwdne7751:0"
+    },
+    "initialSetupCalibrateMagText": {
+        "message": "crwdns7752:0crwdne7752:0"
+    },
+    "initialSetupButtonCalibratingText": {
+        "message": "crwdns7753:0crwdne7753:0"
+    },
+    "initialSetupButtonReset": {
+        "message": "crwdns7754:0crwdne7754:0"
+    },
+    "initialSetupResetText": {
+        "message": "crwdns7755:0crwdne7755:0"
+    },
+    "initialSetupButtonBackup": {
+        "message": "crwdns7756:0crwdne7756:0"
+    },
+    "initialSetupButtonRestore": {
+        "message": "crwdns7757:0crwdne7757:0"
+    },
+    "initialSetupBackupRestoreText": {
+        "message": "crwdns7758:0crwdne7758:0"
+    },
+    "initialSetupBackupSuccess": {
+        "message": "crwdns7759:0crwdne7759:0"
+    },
+    "initialSetupRestoreSuccess": {
+        "message": "crwdns7760:0crwdne7760:0"
+    },
+    "initialSetupButtonResetZaxis": {
+        "message": "crwdns7761:0crwdne7761:0"
+    },
+    "initialSetupButtonResetZaxisValue": {
+        "message": "crwdns7762:0crwdne7762:0"
+    },
+    "initialSetupMixerHead": {
+        "message": "crwdns7763:0crwdne7763:0"
+    },
+    "initialSetupThrottleHead": {
+        "message": "crwdns7764:0crwdne7764:0"
+    },
+    "initialSetupMinimum": {
+        "message": "crwdns7765:0crwdne7765:0"
+    },
+    "initialSetupMaximum": {
+        "message": "crwdns7766:0crwdne7766:0"
+    },
+    "initialSetupFailsafe": {
+        "message": "crwdns7767:0crwdne7767:0"
+    },
+    "initialSetupMinCommand": {
+        "message": "crwdns7768:0crwdne7768:0"
+    },
+    "initialSetupBatteryHead": {
+        "message": "crwdns7769:0crwdne7769:0"
+    },
+    "initialSetupMinCellV": {
+        "message": "crwdns7770:0crwdne7770:0"
+    },
+    "initialSetupMaxCellV": {
+        "message": "crwdns7771:0crwdne7771:0"
+    },
+    "initialSetupVoltageScale": {
+        "message": "crwdns7772:0crwdne7772:0"
+    },
+    "initialSetupAccelTrimsHead": {
+        "message": "crwdns7773:0crwdne7773:0"
+    },
+    "initialSetupPitch": {
+        "message": "crwdns7774:0crwdne7774:0"
+    },
+    "initialSetupRoll": {
+        "message": "crwdns7775:0crwdne7775:0"
+    },
+    "initialSetupMagHead": {
+        "message": "crwdns7776:0crwdne7776:0"
+    },
+    "initialSetupDeclination": {
+        "message": "crwdns7777:0crwdne7777:0"
+    },
+    "initialSetupInfoHead": {
+        "message": "crwdns7778:0crwdne7778:0"
+    },
+    "initialSetupBattery": {
+        "message": "crwdns7779:0crwdne7779:0"
+    },
+    "initialSetupBatteryValue": {
+        "message": "crwdns7780:0crwdne7780:0"
+    },
+    "initialSetupDrawn": {
+        "message": "crwdns7781:0crwdne7781:0"
+    },
+    "initialSetupDrawing": {
+        "message": "crwdns7782:0crwdne7782:0"
+    },
+    "initialSetupBatteryMahValue": {
+        "message": "crwdns7783:0crwdne7783:0"
+    },
+    "initialSetupBatteryAValue": {
+        "message": "crwdns7784:0crwdne7784:0"
+    },
+    "initialSetupRSSI": {
+        "message": "crwdns7785:0crwdne7785:0"
+    },
+    "initialSetupRSSIValue": {
+        "message": "crwdns7786:0crwdne7786:0"
+    },
+    "initialSetupArmingDisableFlags": {
+        "message": "crwdns7787:0crwdne7787:0"
+    },
+    "initialSetupArmingAllowed": {
+        "message": "crwdns7788:0crwdne7788:0"
+    },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "crwdns7789:0crwdne7789:0"
+    },
+    "initialSetupGPSHead": {
+        "message": "crwdns7790:0crwdne7790:0"
+    },
+    "initialSetupInstrumentsHead": {
+        "message": "crwdns7791:0crwdne7791:0"
+    },
+    "initialSetupButtonSave": {
+        "message": "crwdns7792:0crwdne7792:0"
+    },
+    "initialSetupModel": {
+        "message": "crwdns7793:0crwdne7793:0"
+    },
+    "initialSetupAttitude": {
+        "message": "crwdns7794:0crwdne7794:0"
+    },
+    "initialSetupAccelCalibStarted": {
+        "message": "crwdns7795:0crwdne7795:0"
+    },
+    "initialSetupAccelCalibEnded": {
+        "message": "crwdns7796:0crwdne7796:0"
+    },
+    "initialSetupMagCalibStarted": {
+        "message": "crwdns7797:0crwdne7797:0"
+    },
+    "initialSetupMagCalibEnded": {
+        "message": "crwdns7798:0crwdne7798:0"
+    },
+    "initialSetupSettingsRestored": {
+        "message": "crwdns7799:0crwdne7799:0"
+    },
+    "initialSetupEepromSaved": {
+        "message": "crwdns7800:0crwdne7800:0"
+    },
+    "featureNone": {
+        "message": "crwdns7801:0crwdne7801:0"
+    },
+    "featureRX_PPM": {
+        "message": "crwdns7802:0crwdne7802:0"
+    },
+    "featureVBAT": {
+        "message": "crwdns7803:0crwdne7803:0"
+    },
+    "featureINFLIGHT_ACC_CAL": {
+        "message": "crwdns7804:0crwdne7804:0"
+    },
+    "featureRX_SERIAL": {
+        "message": "crwdns7805:0crwdne7805:0"
+    },
+    "featureMOTOR_STOP": {
+        "message": "crwdns7806:0crwdne7806:0"
+    },
+    "featureSERVO_TILT": {
+        "message": "crwdns7807:0crwdne7807:0"
+    },
+    "featureSOFTSERIAL": {
+        "message": "crwdns7808:0crwdne7808:0"
+    },
+    "featureSOFTSERIALTip": {
+        "message": "crwdns7809:0crwdne7809:0"
+    },
+    "featureGPS": {
+        "message": "crwdns7810:0crwdne7810:0"
+    },
+    "featureGPSTip": {
+        "message": "crwdns7811:0crwdne7811:0"
+    },
+    "featureSONAR": {
+        "message": "crwdns7812:0crwdne7812:0"
+    },
+    "featureTELEMETRY": {
+        "message": "crwdns7813:0crwdne7813:0"
+    },
+    "featureCURRENT_METER": {
+        "message": "crwdns7814:0crwdne7814:0"
+    },
+    "feature3D": {
+        "message": "crwdns7815:0crwdne7815:0"
+    },
+    "featureRX_PARALLEL_PWM": {
+        "message": "crwdns7816:0crwdne7816:0"
+    },
+    "featureRX_MSP": {
+        "message": "crwdns7817:0crwdne7817:0"
+    },
+    "featureRSSI_ADC": {
+        "message": "crwdns7818:0crwdne7818:0"
+    },
+    "featureLED_STRIP": {
+        "message": "crwdns7819:0crwdne7819:0"
+    },
+    "featureDISPLAY": {
+        "message": "crwdns7820:0crwdne7820:0"
+    },
+    "featureDISPLAYTip": {
+        "message": "crwdns7821:0crwdne7821:0"
+    },
+    "featureONESHOT125": {
+        "message": "crwdns7822:0crwdne7822:0"
+    },
+    "featureONESHOT125Tip": {
+        "message": "crwdns7823:0crwdne7823:0"
+    },
+    "featureBLACKBOX": {
+        "message": "crwdns7824:0crwdne7824:0"
+    },
+    "featureBLACKBOXTip": {
+        "message": "crwdns7825:0crwdne7825:0"
+    },
+    "featureRX_SPI": {
+        "message": "crwdns7826:0crwdne7826:0"
+    },
+    "featureESC_SENSOR": {
+        "message": "crwdns7827:0crwdne7827:0"
+    },
+    "featureCHANNEL_FORWARDING": {
+        "message": "crwdns7828:0crwdne7828:0"
+    },
+    "featureTRANSPONDER": {
+        "message": "crwdns7829:0crwdne7829:0"
+    },
+    "featureTRANSPONDERTip": {
+        "message": "crwdns7830:0crwdne7830:0"
+    },
+    "featureAIRMODE": {
+        "message": "crwdns7831:0crwdne7831:0"
+    },
+    "featureSUPEREXPO_RATES": {
+        "message": "crwdns7832:0crwdne7832:0"
+    },
+    "featureSDCARD": {
+        "message": "crwdns7833:0crwdne7833:0"
+    },
+    "featureOSD": {
+        "message": "crwdns7834:0crwdne7834:0"
+    },
+    "featureVTX": {
+        "message": "crwdns7835:0crwdne7835:0"
+    },
+    "featureANTI_GRAVITY": {
+        "message": "crwdns7836:0crwdne7836:0"
+    },
+    "featureDYNAMIC_FILTER": {
+        "message": "crwdns7837:0crwdne7837:0"
+    },
+    "featureFAILSAFE": {
+        "message": "crwdns7838:0crwdne7838:0"
+    },
+    "featureFAILSAFEOld": {
+        "message": "crwdns7839:0crwdne7839:0"
+    },
+    "featureFAILSAFETip": {
+        "message": "crwdns7840:0crwdne7840:0"
+    },
+    "featureFAILSAFEOldTip": {
+        "message": "crwdns7841:0crwdne7841:0"
+    },
+    "configurationFeatureEnabled": {
+        "message": "crwdns7842:0crwdne7842:0"
+    },
+    "configurationFeatureName": {
+        "message": "crwdns7843:0crwdne7843:0"
+    },
+    "configurationFeatureDescription": {
+        "message": "crwdns7844:0crwdne7844:0"
+    },
+    "configurationMixer": {
+        "message": "crwdns7845:0crwdne7845:0"
+    },
+    "configurationFeatures": {
+        "message": "crwdns7846:0crwdne7846:0"
+    },
+    "configurationReceiver": {
+        "message": "crwdns7847:0crwdne7847:0"
+    },
+    "configurationReceiverMode": {
+        "message": "crwdns7848:0crwdne7848:0"
+    },
+    "configurationRSSI": {
+        "message": "crwdns7849:0crwdne7849:0"
+    },
+    "configurationRSSIHelp": {
+        "message": "crwdns7850:0crwdne7850:0"
+    },
+    "configurationEscFeatures": {
+        "message": "crwdns7851:0crwdne7851:0"
+    },
+    "configurationFeaturesHelp": {
+        "message": "crwdns7852:0crwdne7852:0"
+    },
+    "configurationSerialRXHelp": {
+        "message": "crwdns7853:0crwdne7853:0"
+    },
+    "configurationSpiRxHelp": {
+        "message": "crwdns7854:0crwdne7854:0"
+    },
+    "configurationOtherFeaturesHelp": {
+        "message": "crwdns7855:0crwdne7855:0"
+    },
+    "configurationBoardAlignment": {
+        "message": "crwdns7856:0crwdne7856:0"
+    },
+    "configurationBoardAlignmentRoll": {
+        "message": "crwdns7857:0crwdne7857:0"
+    },
+    "configurationBoardAlignmentPitch": {
+        "message": "crwdns7858:0crwdne7858:0"
+    },
+    "configurationBoardAlignmentYaw": {
+        "message": "crwdns7859:0crwdne7859:0"
+    },
+    "configurationSensorAlignmentGyro": {
+        "message": "crwdns7860:0crwdne7860:0"
+    },
+    "configurationSensorAlignmentAcc": {
+        "message": "crwdns7861:0crwdne7861:0"
+    },
+    "configurationSensorAlignmentMag": {
+        "message": "crwdns7862:0crwdne7862:0"
+    },
+    "configurationSensorAlignmentDefaultOption": {
+        "message": "crwdns7863:0crwdne7863:0"
+    },
+    "configurationAccelTrims": {
+        "message": "crwdns7864:0crwdne7864:0"
+    },
+    "configurationAccelTrimRoll": {
+        "message": "crwdns7865:0crwdne7865:0"
+    },
+    "configurationAccelTrimPitch": {
+        "message": "crwdns7866:0crwdne7866:0"
+    },
+    "configurationArming": {
+        "message": "crwdns7867:0crwdne7867:0"
+    },
+    "configurationArmingHelp": {
+        "message": "crwdns7868:0crwdne7868:0"
+    },
+    "configurationMagDeclination": {
+        "message": "crwdns7869:0[deg]crwdne7869:0"
+    },
+    "configurationReverseMotorSwitch": {
+        "message": "crwdns7870:0crwdne7870:0"
+    },
+    "configurationReverseMotorSwitchHelp": {
+        "message": "crwdns7871:0crwdne7871:0"
+    },
+    "configurationAutoDisarmDelay": {
+        "message": "crwdns7872:0[seconds]crwdne7872:0"
+    },
+    "configurationDisarmKillSwitch": {
+        "message": "crwdns7873:0crwdne7873:0"
+    },
+    "configurationDisarmKillSwitchHelp": {
+        "message": "crwdns7874:0crwdne7874:0"
+    },
+    "configurationDigitalIdlePercent": {
+        "message": "crwdns7875:0[percent]crwdne7875:0"
+    },
+    "configurationDigitalIdlePercentHelp": {
+        "message": "crwdns7876:0crwdne7876:0"
+    },
+    "configurationThrottleMinimum": {
+        "message": "crwdns7877:0crwdne7877:0"
+    },
+    "configurationThrottleMinimumHelp": {
+        "message": "crwdns7878:0crwdne7878:0"
+    },
+    "configurationThrottleMaximum": {
+        "message": "crwdns7879:0crwdne7879:0"
+    },
+    "configurationThrottleMinimumCommand": {
+        "message": "crwdns7880:0crwdne7880:0"
+    },
+    "configurationThrottleMinimumCommandHelp": {
+        "message": "crwdns7881:0crwdne7881:0"
+    },
+    "configurationDshotBeeper": {
+        "message": "crwdns7882:0crwdne7882:0"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "crwdns7883:0crwdne7883:0"
+    },
+    "configurationDshotBeaconTone": {
+        "message": "crwdns7884:0crwdne7884:0"
+    },
+    "configurationBeeper": {
+        "message": "crwdns7885:0crwdne7885:0"
+    },
+    "beeperGYRO_CALIBRATED": {
+        "message": "crwdns7886:0crwdne7886:0"
+    },
+    "beeperRX_LOST": {
+        "message": "crwdns7887:0crwdne7887:0"
+    },
+    "beeperRX_LOST_LANDING": {
+        "message": "crwdns7888:0crwdne7888:0"
+    },
+    "beeperDISARMING": {
+        "message": "crwdns7889:0crwdne7889:0"
+    },
+    "beeperARMING": {
+        "message": "crwdns7890:0crwdne7890:0"
+    },
+    "beeperARMING_GPS_FIX": {
+        "message": "crwdns7891:0crwdne7891:0"
+    },
+    "beeperBAT_CRIT_LOW": {
+        "message": "crwdns7892:0crwdne7892:0"
+    },
+    "beeperBAT_LOW": {
+        "message": "crwdns7893:0crwdne7893:0"
+    },
+    "beeperGPS_STATUS": {
+        "message": "crwdns7894:0crwdne7894:0"
+    },
+    "beeperRX_SET": {
+        "message": "crwdns7895:0crwdne7895:0"
+    },
+    "beeperDISARM_REPEAT": {
+        "message": "crwdns7896:0crwdne7896:0"
+    },
+    "beeperACC_CALIBRATION": {
+        "message": "crwdns7897:0crwdne7897:0"
+    },
+    "beeperACC_CALIBRATION_FAIL": {
+        "message": "crwdns7898:0crwdne7898:0"
+    },
+    "beeperREADY_BEEP": {
+        "message": "crwdns7899:0crwdne7899:0"
+    },
+    "beeperMULTI_BEEPS": {
+        "message": "crwdns7900:0crwdne7900:0"
+    },
+    "beeperARMED": {
+        "message": "crwdns7901:0crwdne7901:0"
+    },
+    "beeperSYSTEM_INIT": {
+        "message": "crwdns7902:0crwdne7902:0"
+    },
+    "beeperUSB": {
+        "message": "crwdns7903:0crwdne7903:0"
+    },
+    "beeperBLACKBOX_ERASE": {
+        "message": "crwdns7904:0crwdne7904:0"
+    },
+    "configuration3d": {
+        "message": "crwdns7905:0crwdne7905:0"
+    },
+    "configuration3dDeadbandLow": {
+        "message": "crwdns7906:0crwdne7906:0"
+    },
+    "configuration3dDeadbandHigh": {
+        "message": "crwdns7907:0crwdne7907:0"
+    },
+    "configuration3dNeutral": {
+        "message": "crwdns7908:0crwdne7908:0"
+    },
+    "configuration3dDeadbandThrottle": {
+        "message": "crwdns7909:0crwdne7909:0"
+    },
+    "configurationSystem": {
+        "message": "crwdns7910:0crwdne7910:0"
+    },
+    "configurationLoopTime": {
+        "message": "crwdns7911:0crwdne7911:0"
+    },
+    "configurationCalculatedCyclesSec": {
+        "message": "crwdns7912:0[Hz]crwdne7912:0"
+    },
+    "configurationLoopTimeHelp": {
+        "message": "crwdns7913:0crwdne7913:0"
+    },
+    "configurationGPS": {
+        "message": "crwdns7914:0crwdne7914:0"
+    },
+    "configurationGPSProtocol": {
+        "message": "crwdns7915:0crwdne7915:0"
+    },
+    "configurationGPSBaudrate": {
+        "message": "crwdns7916:0crwdne7916:0"
+    },
+    "configurationGPSubxSbas": {
+        "message": "crwdns7917:0crwdne7917:0"
+    },
+    "configurationGPSAutoBaud": {
+        "message": "crwdns7918:0crwdne7918:0"
+    },
+    "configurationGPSAutoConfig": {
+        "message": "crwdns7919:0crwdne7919:0"
+    },
+    "configurationGPSHelp": {
+        "message": "crwdns7920:0crwdne7920:0"
+    },
+    "configurationSerialRX": {
+        "message": "crwdns7921:0crwdne7921:0"
+    },
+    "configurationSpiRX": {
+        "message": "crwdns7922:0crwdne7922:0"
+    },
+    "configurationEepromSaved": {
+        "message": "crwdns7923:0crwdne7923:0"
+    },
+    "configurationButtonSave": {
+        "message": "crwdns7924:0crwdne7924:0"
+    },
+    "portsIdentifier": {
+        "message": "crwdns7925:0crwdne7925:0"
+    },
+    "portsConfiguration": {
+        "message": "crwdns7926:0crwdne7926:0"
+    },
+    "portsSerialRx": {
+        "message": "crwdns7927:0crwdne7927:0"
+    },
+    "portsSensorIn": {
+        "message": "crwdns7928:0crwdne7928:0"
+    },
+    "portsTelemetryOut": {
+        "message": "crwdns7929:0crwdne7929:0"
+    },
+    "portsPeripherals": {
+        "message": "crwdns7930:0crwdne7930:0"
+    },
+    "portsHelp": {
+        "message": "crwdns7931:0crwdne7931:0"
+    },
+    "portsMSPHelp": {
+        "message": "crwdns7932:0crwdne7932:0"
+    },
+    "portsFirmwareUpgradeRequired": {
+        "message": "crwdns7933:0crwdne7933:0"
+    },
+    "portsButtonSave": {
+        "message": "crwdns7934:0crwdne7934:0"
+    },
+    "portsTelemetryDisabled": {
+        "message": "crwdns7935:0crwdne7935:0"
+    },
+    "portsFunction_MSP": {
+        "message": "crwdns7936:0crwdne7936:0"
+    },
+    "portsFunction_GPS": {
+        "message": "crwdns7937:0crwdne7937:0"
+    },
+    "portsFunction_TELEMETRY_FRSKY": {
+        "message": "crwdns7938:0crwdne7938:0"
+    },
+    "portsFunction_TELEMETRY_HOTT": {
+        "message": "crwdns7939:0crwdne7939:0"
+    },
+    "portsFunction_TELEMETRY_LTM": {
+        "message": "crwdns7940:0crwdne7940:0"
+    },
+    "portsFunction_TELEMETRY_MAVLINK": {
+        "message": "crwdns7941:0crwdne7941:0"
+    },
+    "portsFunction_TELEMETRY_MSP": {
+        "message": "crwdns7942:0crwdne7942:0"
+    },
+    "portsFunction_TELEMETRY_SMARTPORT": {
+        "message": "crwdns7943:0crwdne7943:0"
+    },
+    "portsFunction_TELEMETRY_IBUS": {
+        "message": "crwdns7944:0crwdne7944:0"
+    },
+    "portsFunction_TELEMETRY_JETIXBUS": {
+        "message": "crwdns7945:0crwdne7945:0"
+    },
+    "portsFunction_TELEMETRY_CRSF": {
+        "message": "crwdns7946:0crwdne7946:0"
+    },
+    "portsFunction_TELEMETRY_SRXL": {
+        "message": "crwdns7947:0crwdne7947:0"
+    },
+    "portsFunction_ESC_SENSOR": {
+        "message": "crwdns7948:0crwdne7948:0"
+    },
+    "portsFunction_RX_SERIAL": {
+        "message": "crwdns7949:0crwdne7949:0"
+    },
+    "portsFunction_BLACKBOX": {
+        "message": "crwdns7950:0crwdne7950:0"
+    },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "crwdns7951:0crwdne7951:0"
+    },
+    "portsFunction_IRC_TRAMP": {
+        "message": "crwdns7952:0crwdne7952:0"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "crwdns7953:0crwdne7953:0"
+    },
+    "pidTuningProfileOption": {
+        "message": "crwdns7954:0crwdne7954:0"
+    },
+    "pidTuningRateProfileOption": {
+        "message": "crwdns7955:0crwdne7955:0"
+    },
+    "portsFunction_LIDAR_TF": {
+        "message": "crwdns7956:0crwdne7956:0"
+    },
+    "pidTuningUpgradeFirmwareToChangePidController": {
+        "message": "crwdns7957:0crwdne7957:0"
+    },
+    "pidTuningSubTabPid": {
+        "message": "crwdns7958:0crwdne7958:0"
+    },
+    "pidTuningSubTabFilter": {
+        "message": "crwdns7959:0crwdne7959:0"
+    },
+    "pidTuningShowAllPids": {
+        "message": "crwdns7960:0crwdne7960:0"
+    },
+    "pidTuningHideUnusedPids": {
+        "message": "crwdns7961:0crwdne7961:0"
+    },
+    "pidTuningNonProfilePidSettings": {
+        "message": "crwdns7962:0crwdne7962:0"
+    },
+    "pidTuningAntiGravityGain": {
+        "message": "crwdns7963:0crwdne7963:0"
+    },
+    "pidTuningAntiGravityThres": {
+        "message": "crwdns7964:0crwdne7964:0"
+    },
+    "pidTuningPidSettings": {
+        "message": "crwdns7965:0crwdne7965:0"
+    },
+    "receiverRcInterpolation": {
+        "message": "crwdns7966:0crwdne7966:0"
+    },
+    "receiverRcInterpolationHelp": {
+        "message": "crwdns7967:0crwdne7967:0"
+    },
+    "receiverRcInterpolationIntervalHelp": {
+        "message": "crwdns7968:0crwdne7968:0"
+    },
+    "receiverRcInterpolationOff": {
+        "message": "crwdns7969:0crwdne7969:0"
+    },
+    "receiverRcInterpolationDefault": {
+        "message": "crwdns7970:0crwdne7970:0"
+    },
+    "receiverRcInterpolationAuto": {
+        "message": "crwdns7971:0crwdne7971:0"
+    },
+    "receiverRcInterpolationManual": {
+        "message": "crwdns7972:0crwdne7972:0"
+    },
+    "receiverRcInterpolationInterval": {
+        "message": "crwdns7973:0[ms]crwdne7973:0"
+    },
+    "pidTuningDtermSetpointTransition": {
+        "message": "crwdns7974:0crwdne7974:0"
+    },
+    "pidTuningDtermSetpoint": {
+        "message": "crwdns7975:0crwdne7975:0"
+    },
+    "pidTuningDtermSetpointTransitionHelp": {
+        "message": "crwdns7976:0crwdne7976:0"
+    },
+    "pidTuningDtermSetpointHelp": {
+        "message": "crwdns7977:0crwdne7977:0"
+    },
+    "pidTuningProportional": {
+        "message": "crwdns7978:0crwdne7978:0"
+    },
+    "pidTuningIntegral": {
+        "message": "crwdns7979:0crwdne7979:0"
+    },
+    "pidTuningDerivative": {
+        "message": "crwdns7980:0crwdne7980:0"
+    },
+    "pidTuningRcRate": {
+        "message": "crwdns7981:0crwdne7981:0"
+    },
+    "pidTuningMaxVel": {
+        "message": "crwdns7982:0crwdne7982:0"
+    },
+    "pidTuningRate": {
+        "message": "crwdns7983:0crwdne7983:0"
+    },
+    "pidTuningSuperRate": {
+        "message": "crwdns7984:0crwdne7984:0"
+    },
+    "pidTuningRatesPreview": {
+        "message": "crwdns7985:0crwdne7985:0"
+    },
+    "pidTuningRcExpo": {
+        "message": "crwdns7986:0crwdne7986:0"
+    },
+    "pidTuningTPA": {
+        "message": "crwdns7987:0crwdne7987:0"
+    },
+    "pidTuningTPABreakPoint": {
+        "message": "crwdns7988:0crwdne7988:0"
+    },
+    "pidTuningFilter": {
+        "message": "crwdns7989:0crwdne7989:0"
+    },
+    "pidTuningFilterFrequency": {
+        "message": "crwdns7990:0crwdne7990:0"
+    },
+    "pidTuningRatesCurve": {
+        "message": "crwdns7991:0crwdne7991:0"
+    },
+    "throttle": {
+        "message": "crwdns7992:0crwdne7992:0"
+    },
+    "pidTuningButtonSave": {
+        "message": "crwdns7993:0crwdne7993:0"
+    },
+    "pidTuningButtonRefresh": {
+        "message": "crwdns7994:0crwdne7994:0"
+    },
+    "pidTuningProfileHead": {
+        "message": "crwdns7995:0crwdne7995:0"
+    },
+    "pidTuningControllerHead": {
+        "message": "crwdns7996:0crwdne7996:0"
+    },
+    "pidTuningCopyProfile": {
+        "message": "crwdns7997:0crwdne7997:0"
+    },
+    "pidTuningCopyRateProfile": {
+        "message": "crwdns7998:0crwdne7998:0"
+    },
+    "dialogCopyProfileText": {
+        "message": "crwdns7999:0crwdne7999:0"
+    },
+    "dialogCopyRateProfileText": {
+        "message": "crwdns8000:0crwdne8000:0"
+    },
+    "dialogCopyProfileTitle": {
+        "message": "crwdns8001:0crwdne8001:0"
+    },
+    "dialogCopyProfileNote": {
+        "message": "crwdns8002:0crwdne8002:0"
+    },
+    "dialogCopyProfileConfirm": {
+        "message": "crwdns8003:0crwdne8003:0"
+    },
+    "dialogCopyProfileClose": {
+        "message": "crwdns8004:0crwdne8004:0"
+    },
+    "pidTuningResetProfile": {
+        "message": "crwdns8005:0crwdne8005:0"
+    },
+    "pidTuningProfileReset": {
+        "message": "crwdns8006:0crwdne8006:0"
+    },
+    "pidTuningReceivedProfile": {
+        "message": "crwdns8007:0crwdne8007:0"
+    },
+    "pidTuningReceivedRateProfile": {
+        "message": "crwdns8008:0crwdne8008:0"
+    },
+    "pidTuningLoadedProfile": {
+        "message": "crwdns8009:0crwdne8009:0"
+    },
+    "pidTuningLoadedRateProfile": {
+        "message": "crwdns8010:0crwdne8010:0"
+    },
+    "pidTuningDataRefreshed": {
+        "message": "crwdns8011:0crwdne8011:0"
+    },
+    "pidTuningEepromSaved": {
+        "message": "crwdns8012:0crwdne8012:0"
+    },
+    "receiverHelp": {
+        "message": "crwdns8013:0crwdne8013:0"
+    },
+    "tuningHelp": {
+        "message": "crwdns8014:0crwdne8014:0"
+    },
+    "receiverThrottleMid": {
+        "message": "crwdns8015:0crwdne8015:0"
+    },
+    "receiverThrottleExpo": {
+        "message": "crwdns8016:0crwdne8016:0"
+    },
+    "receiverStickMin": {
+        "message": "crwdns8017:0crwdne8017:0"
+    },
+    "receiverHelpStickMin": {
+        "message": "crwdns8018:0crwdne8018:0"
+    },
+    "receiverStickCenter": {
+        "message": "crwdns8019:0crwdne8019:0"
+    },
+    "receiverHelpStickCenter": {
+        "message": "crwdns8020:0crwdne8020:0"
+    },
+    "receiverStickMax": {
+        "message": "crwdns8021:0crwdne8021:0"
+    },
+    "receiverHelpStickMax": {
+        "message": "crwdns8022:0crwdne8022:0"
+    },
+    "receiverDeadband": {
+        "message": "crwdns8023:0crwdne8023:0"
+    },
+    "receiverHelpDeadband": {
+        "message": "crwdns8024:0crwdne8024:0"
+    },
+    "receiverYawDeadband": {
+        "message": "crwdns8025:0crwdne8025:0"
+    },
+    "receiverHelpYawDeadband": {
+        "message": "crwdns8026:0crwdne8026:0"
+    },
+    "recevier3dDeadbandThrottle": {
+        "message": "crwdns8027:0crwdne8027:0"
+    },
+    "receiverHelp3dDeadbandThrottle": {
+        "message": "crwdns8028:0crwdne8028:0"
+    },
+    "receiverChannelMap": {
+        "message": "crwdns8029:0crwdne8029:0"
+    },
+    "receiverChannelDefaultOption": {
+        "message": "crwdns8030:0crwdne8030:0"
+    },
+    "receiverChannelMapTitle": {
+        "message": "crwdns8031:0crwdne8031:0"
+    },
+    "receiverRssiChannel": {
+        "message": "crwdns8032:0crwdne8032:0"
+    },
+    "receiverRssiChannelDisabledOption": {
+        "message": "crwdns8033:0crwdne8033:0"
+    },
+    "receiverRefreshRateTitle": {
+        "message": "crwdns8034:0crwdne8034:0"
+    },
+    "receiverButtonSave": {
+        "message": "crwdns8035:0crwdne8035:0"
+    },
+    "receiverButtonRefresh": {
+        "message": "crwdns8036:0crwdne8036:0"
+    },
+    "receiverButtonSticks": {
+        "message": "crwdns8037:0crwdne8037:0"
+    },
+    "receiverDataRefreshed": {
+        "message": "crwdns8038:0crwdne8038:0"
+    },
+    "receiverEepromSaved": {
+        "message": "crwdns8039:0crwdne8039:0"
+    },
+    "receiverModelPreview": {
+        "message": "crwdns8040:0crwdne8040:0"
+    },
+    "receiverMspWarningText": {
+        "message": "crwdns8041:0crwdne8041:0"
+    },
+    "receiverMspEnableButton": {
+        "message": "crwdns8042:0crwdne8042:0"
+    },
+    "auxiliaryHelp": {
+        "message": "crwdns8043:0crwdne8043:0"
+    },
+    "auxiliaryMin": {
+        "message": "crwdns8044:0crwdne8044:0"
+    },
+    "auxiliaryMax": {
+        "message": "crwdns8045:0crwdne8045:0"
+    },
+    "auxiliaryAddRange": {
+        "message": "crwdns8046:0crwdne8046:0"
+    },
+    "auxiliaryButtonSave": {
+        "message": "crwdns8047:0crwdne8047:0"
+    },
+    "auxiliaryEepromSaved": {
+        "message": "crwdns8048:0crwdne8048:0"
+    },
+    "auxiliaryAutoChannelSelect": {
+        "message": "crwdns8049:0crwdne8049:0"
+    },
+    "adjustmentsHelp": {
+        "message": "crwdns8050:0crwdne8050:0"
+    },
+    "adjustmentsExamples": {
+        "message": "crwdns8051:0crwdne8051:0"
+    },
+    "adjustmentsExample1": {
+        "message": "crwdns8052:0crwdne8052:0"
+    },
+    "adjustmentsExample2": {
+        "message": "crwdns8053:0crwdne8053:0"
+    },
+    "adjustmentsColumnEnable": {
+        "message": "crwdns8054:0crwdne8054:0"
+    },
+    "adjustmentsColumnUsingSlot": {
+        "message": "crwdns8055:0crwdne8055:0"
+    },
+    "adjustmentsColumnWhenChannel": {
+        "message": "crwdns8056:0crwdne8056:0"
+    },
+    "adjustmentsColumnIsInRange": {
+        "message": "crwdns8057:0crwdne8057:0"
+    },
+    "adjustmentsColumnThenApplyFunction": {
+        "message": "crwdns8058:0crwdne8058:0"
+    },
+    "adjustmentsColumnViaChannel": {
+        "message": "crwdns8059:0crwdne8059:0"
+    },
+    "adjustmentsSlot0": {
+        "message": "crwdns8060:0crwdne8060:0"
+    },
+    "adjustmentsSlot1": {
+        "message": "crwdns8061:0crwdne8061:0"
+    },
+    "adjustmentsSlot2": {
+        "message": "crwdns8062:0crwdne8062:0"
+    },
+    "adjustmentsSlot3": {
+        "message": "crwdns8063:0crwdne8063:0"
+    },
+    "adjustmentsMin": {
+        "message": "crwdns8064:0crwdne8064:0"
+    },
+    "adjustmentsMax": {
+        "message": "crwdns8065:0crwdne8065:0"
+    },
+    "adjustmentsFunction0": {
+        "message": "crwdns8066:0crwdne8066:0"
+    },
+    "adjustmentsFunction1": {
+        "message": "crwdns8067:0crwdne8067:0"
+    },
+    "adjustmentsFunction2": {
+        "message": "crwdns8068:0crwdne8068:0"
+    },
+    "adjustmentsFunction3": {
+        "message": "crwdns8069:0crwdne8069:0"
+    },
+    "adjustmentsFunction4": {
+        "message": "crwdns8070:0crwdne8070:0"
+    },
+    "adjustmentsFunction5": {
+        "message": "crwdns8071:0crwdne8071:0"
+    },
+    "adjustmentsFunction6": {
+        "message": "crwdns8072:0crwdne8072:0"
+    },
+    "adjustmentsFunction7": {
+        "message": "crwdns8073:0crwdne8073:0"
+    },
+    "adjustmentsFunction8": {
+        "message": "crwdns8074:0crwdne8074:0"
+    },
+    "adjustmentsFunction9": {
+        "message": "crwdns8075:0crwdne8075:0"
+    },
+    "adjustmentsFunction10": {
+        "message": "crwdns8076:0crwdne8076:0"
+    },
+    "adjustmentsFunction11": {
+        "message": "crwdns8077:0crwdne8077:0"
+    },
+    "adjustmentsFunction12": {
+        "message": "crwdns8078:0crwdne8078:0"
+    },
+    "adjustmentsFunction13": {
+        "message": "crwdns8079:0crwdne8079:0"
+    },
+    "adjustmentsFunction14": {
+        "message": "crwdns8080:0crwdne8080:0"
+    },
+    "adjustmentsFunction15": {
+        "message": "crwdns8081:0crwdne8081:0"
+    },
+    "adjustmentsFunction16": {
+        "message": "crwdns8082:0crwdne8082:0"
+    },
+    "adjustmentsFunction17": {
+        "message": "crwdns8083:0crwdne8083:0"
+    },
+    "adjustmentsFunction18": {
+        "message": "crwdns8084:0crwdne8084:0"
+    },
+    "adjustmentsFunction19": {
+        "message": "crwdns8085:0crwdne8085:0"
+    },
+    "adjustmentsFunction20": {
+        "message": "crwdns8086:0crwdne8086:0"
+    },
+    "adjustmentsFunction21": {
+        "message": "crwdns8087:0crwdne8087:0"
+    },
+    "adjustmentsFunction22": {
+        "message": "crwdns8088:0crwdne8088:0"
+    },
+    "adjustmentsFunction23": {
+        "message": "crwdns8089:0crwdne8089:0"
+    },
+    "adjustmentsFunction24": {
+        "message": "crwdns8090:0crwdne8090:0"
+    },
+    "adjustmentsSave": {
+        "message": "crwdns8091:0crwdne8091:0"
+    },
+    "adjustmentsEepromSaved": {
+        "message": "crwdns8092:0crwdne8092:0"
+    },
+    "transponderNotSupported": {
+        "message": "crwdns8093:0crwdne8093:0"
+    },
+    "transponderInformation": {
+        "message": "crwdns8094:0crwdne8094:0"
+    },
+    "transponderConfigurationType": {
+        "message": "crwdns8095:0crwdne8095:0"
+    },
+    "transponderType0": {
+        "message": "crwdns8096:0crwdne8096:0"
+    },
+    "transponderType1": {
+        "message": "crwdns8097:0crwdne8097:0"
+    },
+    "transponderType2": {
+        "message": "crwdns8098:0crwdne8098:0"
+    },
+    "transponderType3": {
+        "message": "crwdns8099:0crwdne8099:0"
+    },
+    "transponderConfiguration1": {
+        "message": "crwdns8100:0crwdne8100:0"
+    },
+    "transponderConfiguration2": {
+        "message": "crwdns8101:0crwdne8101:0"
+    },
+    "transponderConfiguration3": {
+        "message": "crwdns8102:0crwdne8102:0"
+    },
+    "transponderData1": {
+        "message": "crwdns8103:0crwdne8103:0"
+    },
+    "transponderData2": {
+        "message": "crwdns8104:0crwdne8104:0"
+    },
+    "transponderData3": {
+        "message": "crwdns8105:0crwdne8105:0"
+    },
+    "transponderDataHelp1": {
+        "message": "crwdns8106:0crwdne8106:0"
+    },
+    "transponderHelp1": {
+        "message": "crwdns8107:0crwdne8107:0"
+    },
+    "transponderHelp2": {
+        "message": "crwdns8108:0crwdne8108:0"
+    },
+    "transponderDataHelp3": {
+        "message": "crwdns8109:0crwdne8109:0"
+    },
+    "transponderHelp3": {
+        "message": "crwdns8110:0crwdne8110:0"
+    },
+    "transponderButtonSave": {
+        "message": "crwdns8111:0crwdne8111:0"
+    },
+    "transponderButtonSaveReboot": {
+        "message": "crwdns8112:0crwdne8112:0"
+    },
+    "transponderDataInvalid": {
+        "message": "crwdns8113:0crwdne8113:0"
+    },
+    "transponderEepromSaved": {
+        "message": "crwdns8114:0crwdne8114:0"
+    },
+    "servosFirmwareUpgradeRequired": {
+        "message": "crwdns8115:0crwdne8115:0"
+    },
+    "servosChangeDirection": {
+        "message": "crwdns8116:0crwdne8116:0"
+    },
+    "servosName": {
+        "message": "crwdns8117:0crwdne8117:0"
+    },
+    "servosMid": {
+        "message": "crwdns8118:0crwdne8118:0"
+    },
+    "servosMin": {
+        "message": "crwdns8119:0crwdne8119:0"
+    },
+    "servosMax": {
+        "message": "crwdns8120:0crwdne8120:0"
+    },
+    "servosAngleAtMin": {
+        "message": "crwdns8121:0crwdne8121:0"
+    },
+    "servosAngleAtMax": {
+        "message": "crwdns8122:0crwdne8122:0"
+    },
+    "servosDirectionAndRate": {
+        "message": "crwdns8123:0crwdne8123:0"
+    },
+    "servosLiveMode": {
+        "message": "crwdns8124:0crwdne8124:0"
+    },
+    "servosButtonSave": {
+        "message": "crwdns8125:0crwdne8125:0"
+    },
+    "servosNormal": {
+        "message": "crwdns8126:0crwdne8126:0"
+    },
+    "servosReverse": {
+        "message": "crwdns8127:0crwdne8127:0"
+    },
+    "servosEepromSave": {
+        "message": "crwdns8128:0crwdne8128:0"
+    },
+    "gpsHead": {
+        "message": "crwdns8129:0crwdne8129:0"
+    },
+    "gpsMapHead": {
+        "message": "crwdns8130:0crwdne8130:0"
+    },
+    "gpsMapMessage1": {
+        "message": "crwdns8131:0crwdne8131:0"
+    },
+    "gpsMapMessage2": {
+        "message": "crwdns8132:0crwdne8132:0"
+    },
+    "gps3dFix": {
+        "message": "crwdns8133:0crwdne8133:0"
+    },
+    "gpsFixTrue": {
+        "message": "crwdns8134:0crwdne8134:0"
+    },
+    "gpsFixFalse": {
+        "message": "crwdns8135:0crwdne8135:0"
+    },
+    "gpsAltitude": {
+        "message": "crwdns8136:0crwdne8136:0"
+    },
+    "gpsLat": {
+        "message": "crwdns8137:0crwdne8137:0"
+    },
+    "gpsLon": {
+        "message": "crwdns8138:0crwdne8138:0"
+    },
+    "gpsSpeed": {
+        "message": "crwdns8139:0crwdne8139:0"
+    },
+    "gpsSats": {
+        "message": "crwdns8140:0crwdne8140:0"
+    },
+    "gpsDistToHome": {
+        "message": "crwdns8141:0crwdne8141:0"
+    },
+    "gpsSignalStrHead": {
+        "message": "crwdns8142:0crwdne8142:0"
+    },
+    "gpsSignalStr": {
+        "message": "crwdns8143:0crwdne8143:0"
+    },
+    "gpsSignalSatId": {
+        "message": "crwdns8144:0crwdne8144:0"
+    },
+    "gpsSignalQty": {
+        "message": "crwdns8145:0crwdne8145:0"
+    },
+    "motorsText": {
+        "message": "crwdns8146:0crwdne8146:0"
+    },
+    "motorNumber1": {
+        "message": "crwdns8147:0crwdne8147:0"
+    },
+    "motorNumber2": {
+        "message": "crwdns8148:0crwdne8148:0"
+    },
+    "motorNumber3": {
+        "message": "crwdns8149:0crwdne8149:0"
+    },
+    "motorNumber4": {
+        "message": "crwdns8150:0crwdne8150:0"
+    },
+    "motorNumber5": {
+        "message": "crwdns8151:0crwdne8151:0"
+    },
+    "motorNumber6": {
+        "message": "crwdns8152:0crwdne8152:0"
+    },
+    "motorNumber7": {
+        "message": "crwdns8153:0crwdne8153:0"
+    },
+    "motorNumber8": {
+        "message": "crwdns8154:0crwdne8154:0"
+    },
+    "servosText": {
+        "message": "crwdns8155:0crwdne8155:0"
+    },
+    "servoNumber1": {
+        "message": "crwdns8156:0crwdne8156:0"
+    },
+    "servoNumber2": {
+        "message": "crwdns8157:0crwdne8157:0"
+    },
+    "servoNumber3": {
+        "message": "crwdns8158:0crwdne8158:0"
+    },
+    "servoNumber4": {
+        "message": "crwdns8159:0crwdne8159:0"
+    },
+    "servoNumber5": {
+        "message": "crwdns8160:0crwdne8160:0"
+    },
+    "servoNumber6": {
+        "message": "crwdns8161:0crwdne8161:0"
+    },
+    "servoNumber7": {
+        "message": "crwdns8162:0crwdne8162:0"
+    },
+    "servoNumber8": {
+        "message": "crwdns8163:0crwdne8163:0"
+    },
+    "motorsResetMaximumButton": {
+        "message": "crwdns8164:0crwdne8164:0"
+    },
+    "motorsResetMaximum": {
+        "message": "crwdns8165:0crwdne8165:0"
+    },
+    "motorsSensorGyroSelect": {
+        "message": "crwdns8166:0crwdne8166:0"
+    },
+    "motorsSensorAccelSelect": {
+        "message": "crwdns8167:0crwdne8167:0"
+    },
+    "motorsMaster": {
+        "message": "crwdns8168:0crwdne8168:0"
+    },
+    "motorsNotice": {
+        "message": "crwdns8169:0crwdne8169:0"
+    },
+    "motorsEnableControl": {
+        "message": "crwdns8170:0crwdne8170:0"
+    },
+    "sensorsInfo": {
+        "message": "crwdns8171:0crwdne8171:0"
+    },
+    "sensorsRefresh": {
+        "message": "crwdns8172:0crwdne8172:0"
+    },
+    "sensorsScale": {
+        "message": "crwdns8173:0crwdne8173:0"
+    },
+    "sensorsGyroSelect": {
+        "message": "crwdns8174:0crwdne8174:0"
+    },
+    "sensorsAccelSelect": {
+        "message": "crwdns8175:0crwdne8175:0"
+    },
+    "sensorsMagSelect": {
+        "message": "crwdns8176:0crwdne8176:0"
+    },
+    "sensorsBaroSelect": {
+        "message": "crwdns8177:0crwdne8177:0"
+    },
+    "sensorsSonarSelect": {
+        "message": "crwdns8178:0crwdne8178:0"
+    },
+    "sensorsDebugSelect": {
+        "message": "crwdns8179:0crwdne8179:0"
+    },
+    "sensorsGyroTitle": {
+        "message": "crwdns8180:0crwdne8180:0"
+    },
+    "sensorsAccelTitle": {
+        "message": "crwdns8181:0crwdne8181:0"
+    },
+    "sensorsMagTitle": {
+        "message": "crwdns8182:0crwdne8182:0"
+    },
+    "sensorsBaroTitle": {
+        "message": "crwdns8183:0crwdne8183:0"
+    },
+    "sensorsSonarTitle": {
+        "message": "crwdns8184:0crwdne8184:0"
+    },
+    "sensorsDebugTitle": {
+        "message": "crwdns8185:0crwdne8185:0"
+    },
+    "cliInfo": {
+        "message": "crwdns8186:0crwdne8186:0"
+    },
+    "cliInputPlaceholder": {
+        "message": "crwdns8187:0crwdne8187:0"
+    },
+    "cliEnter": {
+        "message": "crwdns8188:0crwdne8188:0"
+    },
+    "cliReboot": {
+        "message": "crwdns8189:0crwdne8189:0"
+    },
+    "cliSaveToFileBtn": {
+        "message": "crwdns8190:0crwdne8190:0"
+    },
+    "loggingNote": {
+        "message": "crwdns8191:0crwdne8191:0"
+    },
+    "loggingSamplesSaved": {
+        "message": "crwdns8192:0crwdne8192:0"
+    },
+    "loggingLogSize": {
+        "message": "crwdns8193:0crwdne8193:0"
+    },
+    "loggingButtonLogFile": {
+        "message": "crwdns8194:0crwdne8194:0"
+    },
+    "loggingStart": {
+        "message": "crwdns8195:0crwdne8195:0"
+    },
+    "loggingStop": {
+        "message": "crwdns8196:0crwdne8196:0"
+    },
+    "loggingBack": {
+        "message": "crwdns8197:0crwdne8197:0"
+    },
+    "loggingErrorNotConnected": {
+        "message": "crwdns8198:0crwdne8198:0"
+    },
+    "loggingErrorLogFile": {
+        "message": "crwdns8199:0crwdne8199:0"
+    },
+    "loggingErrorOneProperty": {
+        "message": "crwdns8200:0crwdne8200:0"
+    },
+    "loggingAutomaticallyRetained": {
+        "message": "crwdns8201:0crwdne8201:0"
+    },
+    "blackboxNotSupported": {
+        "message": "crwdns8202:0crwdne8202:0"
+    },
+    "blackboxMaybeSupported": {
+        "message": "crwdns8203:0crwdne8203:0"
+    },
+    "blackboxConfiguration": {
+        "message": "crwdns8204:0crwdne8204:0"
+    },
+    "blackboxButtonSave": {
+        "message": "crwdns8205:0crwdne8205:0"
+    },
+    "blackboxLoggingNone": {
+        "message": "crwdns8206:0crwdne8206:0"
+    },
+    "blackboxLoggingFlash": {
+        "message": "crwdns8207:0crwdne8207:0"
+    },
+    "blackboxLoggingSdCard": {
+        "message": "crwdns8208:0crwdne8208:0"
+    },
+    "blackboxLoggingSerial": {
+        "message": "crwdns8209:0crwdne8209:0"
+    },
+    "serialLoggingSupportedNote": {
+        "message": "crwdns8210:0crwdne8210:0"
+    },
+    "sdcardNote": {
+        "message": "crwdns8211:0crwdne8211:0"
+    },
+    "dataflashUsedSpace": {
+        "message": "crwdns8212:0crwdne8212:0"
+    },
+    "dataflashFreeSpace": {
+        "message": "crwdns8213:0crwdne8213:0"
+    },
+    "dataflashUnavSpace": {
+        "message": "crwdns8214:0crwdne8214:0"
+    },
+    "dataflashLogsSpace": {
+        "message": "crwdns8215:0crwdne8215:0"
+    },
+    "dataflashNote": {
+        "message": "crwdns8216:0crwdne8216:0"
+    },
+    "dataflashNotPresentNote": {
+        "message": "crwdns8217:0crwdne8217:0"
+    },
+    "dataflashFirmwareUpgradeRequired": {
+        "message": "crwdns8218:0crwdne8218:0"
+    },
+    "dataflashButtonSaveFile": {
+        "message": "crwdns8219:0crwdne8219:0"
+    },
+    "dataflashButtonErase": {
+        "message": "crwdns8220:0crwdne8220:0"
+    },
+    "dataflashConfirmEraseTitle": {
+        "message": "crwdns8221:0crwdne8221:0"
+    },
+    "dataflashConfirmEraseNote": {
+        "message": "crwdns8222:0crwdne8222:0"
+    },
+    "dataflashSavingTitle": {
+        "message": "crwdns8223:0crwdne8223:0"
+    },
+    "dataflashSavingNote": {
+        "message": "crwdns8224:0crwdne8224:0"
+    },
+    "dataflashSavingNoteAfter": {
+        "message": "crwdns8225:0crwdne8225:0"
+    },
+    "dataflashButtonSaveCancel": {
+        "message": "crwdns8226:0crwdne8226:0"
+    },
+    "dataflashButtonSaveDismiss": {
+        "message": "crwdns8227:0crwdne8227:0"
+    },
+    "dataflashButtonEraseConfirm": {
+        "message": "crwdns8228:0crwdne8228:0"
+    },
+    "dataflashButtonEraseCancel": {
+        "message": "crwdns8229:0crwdne8229:0"
+    },
+    "dataflashFileWriteFailed": {
+        "message": "crwdns8230:0crwdne8230:0"
+    },
+    "sdcardStatusNoCard": {
+        "message": "crwdns8231:0crwdne8231:0"
+    },
+    "sdcardStatusReboot": {
+        "message": "crwdns8232:0crwdne8232:0"
+    },
+    "sdcardStatusReady": {
+        "message": "crwdns8233:0crwdne8233:0"
+    },
+    "sdcardStatusStarting": {
+        "message": "crwdns8234:0crwdne8234:0"
+    },
+    "sdcardStatusFileSystem": {
+        "message": "crwdns8235:0crwdne8235:0"
+    },
+    "sdcardStatusUnknown": {
+        "message": "crwdns8236:0crwdne8236:0"
+    },
+    "firmwareFlasherReleaseSummaryHead": {
+        "message": "crwdns8237:0crwdne8237:0"
+    },
+    "firmwareFlasherReleaseName": {
+        "message": "crwdns8238:0crwdne8238:0"
+    },
+    "firmwareFlasherReleaseVersionUrl": {
+        "message": "crwdns8239:0crwdne8239:0"
+    },
+    "firmwareFlasherReleaseNotes": {
+        "message": "crwdns8240:0crwdne8240:0"
+    },
+    "firmwareFlasherReleaseDate": {
+        "message": "crwdns8241:0crwdne8241:0"
+    },
+    "firmwareFlasherReleaseStatus": {
+        "message": "crwdns8242:0crwdne8242:0"
+    },
+    "firmwareFlasherReleaseTarget": {
+        "message": "crwdns8243:0crwdne8243:0"
+    },
+    "firmwareFlasherReleaseFile": {
+        "message": "crwdns8244:0crwdne8244:0"
+    },
+    "firmwareFlasherReleaseStatusReleaseCandidate": {
+        "message": "crwdns8245:0crwdne8245:0"
+    },
+    "firmwareFlasherReleaseFileUrl": {
+        "message": "crwdns8246:0crwdne8246:0"
+    },
+    "firmwareFlasherTargetWarning": {
+        "message": "crwdns8247:0crwdne8247:0"
+    },
+    "firmwareFlasherPath": {
+        "message": "crwdns8248:0crwdne8248:0"
+    },
+    "firmwareFlasherSize": {
+        "message": "crwdns8249:0crwdne8249:0"
+    },
+    "firmwareFlasherStatus": {
+        "message": "crwdns8250:0crwdne8250:0"
+    },
+    "firmwareFlasherProgress": {
+        "message": "crwdns8251:0crwdne8251:0"
+    },
+    "firmwareFlasherLoadFirmwareFile": {
+        "message": "crwdns8252:0crwdne8252:0"
+    },
+    "firmwareFlasherNoReboot": {
+        "message": "crwdns8253:0crwdne8253:0"
+    },
+    "firmwareFlasherOnlineSelectBoardDescription": {
+        "message": "crwdns8254:0crwdne8254:0"
+    },
+    "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
+        "message": "crwdns8255:0crwdne8255:0"
+    },
+    "firmwareFlasherNoRebootDescription": {
+        "message": "crwdns8256:0crwdne8256:0"
+    },
+    "firmwareFlasherFlashOnConnect": {
+        "message": "crwdns8257:0crwdne8257:0"
+    },
+    "firmwareFlasherFlashOnConnectDescription": {
+        "message": "crwdns8258:0crwdne8258:0"
+    },
+    "firmwareFlasherFullChipErase": {
+        "message": "crwdns8259:0crwdne8259:0"
+    },
+    "firmwareFlasherFullChipEraseDescription": {
+        "message": "crwdns8260:0crwdne8260:0"
+    },
+    "firmwareFlasherFlashDevelopmentFirmware": {
+        "message": "crwdns8261:0crwdne8261:0"
+    },
+    "firmwareFlasherFlashDevelopmentFirmwareDescription": {
+        "message": "crwdns8262:0crwdne8262:0"
+    },
+    "firmwareFlasherManualPort": {
+        "message": "crwdns8263:0crwdne8263:0"
+    },
+    "firmwareFlasherManualBaud": {
+        "message": "crwdns8264:0crwdne8264:0"
+    },
+    "firmwareFlasherManualBaudDescription": {
+        "message": "crwdns8265:0crwdne8265:0"
+    },
+    "firmwareFlasherBaudRate": {
+        "message": "crwdns8266:0crwdne8266:0"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "crwdns8267:0crwdne8267:0"
+    },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "crwdns8268:0crwdne8268:0"
+    },
+    "firmwareFlasherOptionLoading": {
+        "message": "crwdns8269:0crwdne8269:0"
+    },
+    "firmwareFlasherOptionLabelSelectFirmware": {
+        "message": "crwdns8270:0crwdne8270:0"
+    },
+    "firmwareFlasherOptionLabelSelectBoard": {
+        "message": "crwdns8271:0crwdne8271:0"
+    },
+    "firmwareFlasherOptionLabelSelectFirmwareVersion": {
+        "message": "crwdns8272:0crwdne8272:0"
+    },
+    "firmwareFlasherOptionLabelSelectFirmwareVersionFor": {
+        "message": "crwdns8273:0crwdne8273:0"
+    },
+    "firmwareFlasherButtonLoadLocal": {
+        "message": "crwdns8274:0[Local]crwdne8274:0"
+    },
+    "firmwareFlasherButtonLoadOnline": {
+        "message": "crwdns8275:0[Online]crwdne8275:0"
+    },
+    "firmwareFlasherButtonDownloading": {
+        "message": "crwdns8276:0crwdne8276:0"
+    },
+    "firmwareFlasherFlashFirmware": {
+        "message": "crwdns8277:0crwdne8277:0"
+    },
+    "firmwareFlasherGithubInfoHead": {
+        "message": "crwdns8278:0crwdne8278:0"
+    },
+    "firmwareFlasherCommiter": {
+        "message": "crwdns8279:0crwdne8279:0"
+    },
+    "firmwareFlasherDate": {
+        "message": "crwdns8280:0crwdne8280:0"
+    },
+    "firmwareFlasherHash": {
+        "message": "crwdns8281:0crwdne8281:0"
+    },
+    "firmwareFlasherUrl": {
+        "message": "crwdns8282:0crwdne8282:0"
+    },
+    "firmwareFlasherMessage": {
+        "message": "crwdns8283:0crwdne8283:0"
+    },
+    "firmwareFlasherWarningText": {
+        "message": "crwdns8284:0crwdne8284:0"
+    },
+    "firmwareFlasherRecoveryHead": {
+        "message": "crwdns8285:0crwdne8285:0"
+    },
+    "firmwareFlasherRecoveryText": {
+        "message": "crwdns8286:0crwdne8286:0"
+    },
+    "firmwareFlasherButtonLeave": {
+        "message": "crwdns8287:0crwdne8287:0"
+    },
+    "firmwareFlasherFirmwareNotLoaded": {
+        "message": "crwdns8288:0crwdne8288:0"
+    },
+    "firmwareFlasherFirmwareLocalLoaded": {
+        "message": "crwdns8289:0crwdne8289:0"
+    },
+    "firmwareFlasherHexCorrupted": {
+        "message": "crwdns8290:0crwdne8290:0"
+    },
+    "firmwareFlasherRemoteFirmwareLoaded": {
+        "message": "crwdns8291:0crwdne8291:0"
+    },
+    "firmwareFlasherFailedToLoadOnlineFirmware": {
+        "message": "crwdns8292:0crwdne8292:0"
+    },
+    "firmwareFlasherNoFirmwareSelected": {
+        "message": "crwdns8293:0crwdne8293:0"
+    },
+    "firmwareFlasherNoValidPort": {
+        "message": "crwdns8294:0crwdne8294:0"
+    },
+    "firmwareFlasherWritePermissions": {
+        "message": "crwdns8295:0crwdne8295:0"
+    },
+    "firmwareFlasherFlashTrigger": {
+        "message": "crwdns8296:0crwdne8296:0"
+    },
+    "firmwareFlasherPreviousDevice": {
+        "message": "crwdns8297:0crwdne8297:0"
+    },
+    "ledStripHelp": {
+        "message": "crwdns8298:0crwdne8298:0"
+    },
+    "ledStripButtonSave": {
+        "message": "crwdns8299:0crwdne8299:0"
+    },
+    "ledStripColorSetupTitle": {
+        "message": "crwdns8300:0crwdne8300:0",
+        "description": "Color setup title of the led strip"
+    },
+    "ledStripH": {
+        "message": "crwdns8301:0crwdne8301:0",
+        "description": "Abbreviation of Hue in HSV (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripS": {
+        "message": "crwdns8302:0crwdne8302:0",
+        "description": "Abbreviation of Saturation in HSV  (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripV": {
+        "message": "crwdns8303:0crwdne8303:0",
+        "description": "Abbreviation of Brightness in HSV  (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripRemainingText": {
+        "message": "crwdns8304:0crwdne8304:0",
+        "description": "In the LED STRIP, text next the counter of leds remaining"
+    },
+    "ledStripClearSelectedButton": {
+        "message": "crwdns8305:0crwdne8305:0",
+        "description": "In the LED STRIP, clear selected leds"
+    },
+    "ledStripClearAllButton": {
+        "message": "crwdns8306:0crwdne8306:0",
+        "description": "In the LED STRIP, clear all leds"
+    },
+    "ledStripEepromSaved": {
+        "message": "crwdns8307:0crwdne8307:0"
+    },
+    "ledStripVtxOverlay": {
+        "message": "crwdns8308:0crwdne8308:0"
+    },
+    "ledStripFunctionSection": {
+        "message": "crwdns8309:0crwdne8309:0"
+    },
+    "ledStripFunctionTitle": {
+        "message": "crwdns8310:0crwdne8310:0"
+    },
+    "ledStripFunctionNoneOption": {
+        "message": "crwdns8311:0crwdne8311:0",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionColorOption": {
+        "message": "crwdns8312:0crwdne8312:0",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionModesOption": {
+        "message": "crwdns8313:0crwdne8313:0",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionArmOption": {
+        "message": "crwdns8314:0crwdne8314:0",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionBatteryOption": {
+        "message": "crwdns8315:0crwdne8315:0",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionRSSIOption": {
+        "message": "crwdns8316:0crwdne8316:0",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionGPSOption": {
+        "message": "crwdns8317:0crwdne8317:0",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionRingOption": {
+        "message": "crwdns8318:0crwdne8318:0",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripColorModifierTitle": {
+        "message": "crwdns8319:0crwdne8319:0"
+    },
+    "ledStripModeColorsTitle": {
+        "message": "crwdns8320:0crwdne8320:0"
+    },
+    "ledStripModeColorsModeOrientation": {
+        "message": "crwdns8321:0crwdne8321:0",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeHeadfree": {
+        "message": "crwdns8322:0crwdne8322:0",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeHorizon": {
+        "message": "crwdns8323:0crwdne8323:0",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAngle": {
+        "message": "crwdns8324:0crwdne8324:0",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeMag": {
+        "message": "crwdns8325:0crwdne8325:0",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBaro": {
+        "message": "crwdns8326:0crwdne8326:0",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripDirN": {
+        "message": "crwdns8327:0crwdne8327:0",
+        "description": "North direction in Color Mode in Led Strip"
+    },
+    "ledStripDirE": {
+        "message": "crwdns8328:0crwdne8328:0",
+        "description": "East direction in Color Mode in Led Strip"
+    },
+    "ledStripDirS": {
+        "message": "crwdns8329:0crwdne8329:0",
+        "description": "South direction in Color Mode in Led Strip"
+    },
+    "ledStripDirW": {
+        "message": "crwdns8330:0crwdne8330:0",
+        "description": "West direction in Color Mode in Led Strip"
+    },
+    "ledStripDirU": {
+        "message": "crwdns8331:0crwdne8331:0",
+        "description": "Up direction in Color Mode in Led Strip"
+    },
+    "ledStripDirD": {
+        "message": "crwdns8332:0crwdne8332:0",
+        "description": "Down direction in Color Mode in Led Strip"
+    },
+    "ledStripModesOrientationTitle": {
+        "message": "crwdns8333:0crwdne8333:0",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModesSpecialColorsTitle": {
+        "message": "crwdns8334:0crwdne8334:0",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeDisarmed": {
+        "message": "crwdns8335:0crwdne8335:0",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeArmed": {
+        "message": "crwdns8336:0crwdne8336:0",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAnimation": {
+        "message": "crwdns8337:0crwdne8337:0",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBlinkBg": {
+        "message": "crwdns8338:0crwdne8338:0",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoSats": {
+        "message": "crwdns8339:0crwdne8339:0",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoLock": {
+        "message": "crwdns8340:0crwdne8340:0",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSLocked": {
+        "message": "crwdns8341:0crwdne8341:0",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripWiring": {
+        "message": "crwdns8342:0crwdne8342:0",
+        "description": "One of the modes in Led Strip"
+    },
+    "ledStripWiringMode": {
+        "message": "crwdns8343:0crwdne8343:0",
+        "description": "One of the wiring modes in Led Strip"
+    },
+    "ledStripWiringClearControl": {
+        "message": "crwdns8344:0crwdne8344:0",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringClearAllControl": {
+        "message": "crwdns8345:0crwdne8345:0",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringMessage": {
+        "message": "crwdns8346:0crwdne8346:0",
+        "description": "Message in the wiring modes in Led Strip"
+    },
+    "ledStripVtxFunction": {
+        "message": "crwdns8347:0crwdne8347:0"
+    },
+    "ledStripBlinkTitle": {
+        "message": "crwdns8348:0crwdne8348:0"
+    },
+    "ledStripBlinkAlwaysOverlay": {
+        "message": "crwdns8349:0crwdne8349:0"
+    },
+    "ledStripBlinkLandingOverlay": {
+        "message": "crwdns8350:0crwdne8350:0"
+    },
+    "ledStripOverlayTitle": {
+        "message": "crwdns8351:0crwdne8351:0"
+    },
+    "ledStripWarningsOverlay": {
+        "message": "crwdns8352:0crwdne8352:0"
+    },
+    "ledStripIndecatorOverlay": {
+        "message": "crwdns8353:0crwdne8353:0"
+    },
+    "colorBlack": {
+        "message": "crwdns8354:0crwdne8354:0"
+    },
+    "colorWhite": {
+        "message": "crwdns8355:0crwdne8355:0"
+    },
+    "colorRed": {
+        "message": "crwdns8356:0crwdne8356:0"
+    },
+    "colorOrange": {
+        "message": "crwdns8357:0crwdne8357:0"
+    },
+    "colorYellow": {
+        "message": "crwdns8358:0crwdne8358:0"
+    },
+    "colorLimeGreen": {
+        "message": "crwdns8359:0crwdne8359:0"
+    },
+    "colorGreen": {
+        "message": "crwdns8360:0crwdne8360:0"
+    },
+    "colorMintGreen": {
+        "message": "crwdns8361:0crwdne8361:0"
+    },
+    "colorCyan": {
+        "message": "crwdns8362:0crwdne8362:0"
+    },
+    "colorLightBlue": {
+        "message": "crwdns8363:0crwdne8363:0"
+    },
+    "colorBlue": {
+        "message": "crwdns8364:0crwdne8364:0"
+    },
+    "colorDarkViolet": {
+        "message": "crwdns8365:0crwdne8365:0"
+    },
+    "colorMagenta": {
+        "message": "crwdns8366:0crwdne8366:0"
+    },
+    "colorDeepPink": {
+        "message": "crwdns8367:0crwdne8367:0"
+    },
+    "controlAxisRoll": {
+        "message": "crwdns8368:0[A]crwdne8368:0"
+    },
+    "controlAxisPitch": {
+        "message": "crwdns8369:0[E]crwdne8369:0"
+    },
+    "controlAxisYaw": {
+        "message": "crwdns8370:0[R]crwdne8370:0"
+    },
+    "controlAxisThrottle": {
+        "message": "crwdns8371:0[T]crwdne8371:0"
+    },
+    "controlAxisAux1": {
+        "message": "crwdns8372:0crwdne8372:0"
+    },
+    "controlAxisAux2": {
+        "message": "crwdns8373:0crwdne8373:0"
+    },
+    "controlAxisAux3": {
+        "message": "crwdns8374:0crwdne8374:0"
+    },
+    "controlAxisAux4": {
+        "message": "crwdns8375:0crwdne8375:0"
+    },
+    "controlAxisAux5": {
+        "message": "crwdns8376:0crwdne8376:0"
+    },
+    "controlAxisAux6": {
+        "message": "crwdns8377:0crwdne8377:0"
+    },
+    "controlAxisAux7": {
+        "message": "crwdns8378:0crwdne8378:0"
+    },
+    "controlAxisAux8": {
+        "message": "crwdns8379:0crwdne8379:0"
+    },
+    "controlAxisAux9": {
+        "message": "crwdns8380:0crwdne8380:0"
+    },
+    "controlAxisAux10": {
+        "message": "crwdns8381:0crwdne8381:0"
+    },
+    "controlAxisAux11": {
+        "message": "crwdns8382:0crwdne8382:0"
+    },
+    "controlAxisAux12": {
+        "message": "crwdns8383:0crwdne8383:0"
+    },
+    "controlAxisAux13": {
+        "message": "crwdns8384:0crwdne8384:0"
+    },
+    "controlAxisAux14": {
+        "message": "crwdns8385:0crwdne8385:0"
+    },
+    "controlAxisAux15": {
+        "message": "crwdns8386:0crwdne8386:0"
+    },
+    "controlAxisAux16": {
+        "message": "crwdns8387:0crwdne8387:0"
+    },
+    "pidTuningBasic": {
+        "message": "crwdns8388:0crwdne8388:0"
+    },
+    "pidTuningYawJumpPrevention": {
+        "message": "crwdns8389:0crwdne8389:0"
+    },
+    "pidTuningYawJumpPreventionHelp": {
+        "message": "crwdns8390:0crwdne8390:0"
+    },
+    "pidTuningRcExpoPower": {
+        "message": "crwdns8391:0crwdne8391:0"
+    },
+    "pidTuningRcExpoPowerHelp": {
+        "message": "crwdns8392:0crwdne8392:0"
+    },
+    "pidTuningLevel": {
+        "message": "crwdns8393:0crwdne8393:0"
+    },
+    "pidTuningAltitude": {
+        "message": "crwdns8394:0crwdne8394:0"
+    },
+    "pidTuningMag": {
+        "message": "crwdns8395:0crwdne8395:0"
+    },
+    "pidTuningGps": {
+        "message": "crwdns8396:0crwdne8396:0"
+    },
+    "pidTuningStrength": {
+        "message": "crwdns8397:0crwdne8397:0"
+    },
+    "pidTuningTransition": {
+        "message": "crwdns8398:0crwdne8398:0"
+    },
+    "pidTuningHorizon": {
+        "message": "crwdns8399:0crwdne8399:0"
+    },
+    "pidTuningAngle": {
+        "message": "crwdns8400:0crwdne8400:0"
+    },
+    "pidTuningLevelAngleLimit": {
+        "message": "crwdns8401:0crwdne8401:0"
+    },
+    "pidTuningLevelSensitivity": {
+        "message": "crwdns8402:0crwdne8402:0"
+    },
+    "pidTuningLevelHelp": {
+        "message": "crwdns8403:0crwdne8403:0"
+    },
+    "pidTuningNonProfileFilterSettings": {
+        "message": "crwdns8404:0crwdne8404:0"
+    },
+    "pidTuningGyroLowpassFrequency": {
+        "message": "crwdns8405:0[Hz]crwdne8405:0"
+    },
+    "pidTuningGyroLowpassFrequencyHelp": {
+        "message": "crwdns8406:0[Hz]crwdne8406:0"
+    },
+    "pidTuningGyroNotch1Enable": {
+        "message": "crwdns8407:0crwdne8407:0"
+    },
+    "pidTuningGyroNotch1Frequency": {
+        "message": "crwdns8408:0[Hz]crwdne8408:0"
+    },
+    "pidTuningGyroNotch2Enable": {
+        "message": "crwdns8409:0crwdne8409:0"
+    },
+    "pidTuningGyroNotch2Frequency": {
+        "message": "crwdns8410:0[Hz]crwdne8410:0"
+    },
+    "pidTuningGyroNotchFrequencyHelp": {
+        "message": "crwdns8411:0crwdne8411:0"
+    },
+    "pidTuningGyroNotch1Cutoff": {
+        "message": "crwdns8412:0[Hz]crwdne8412:0"
+    },
+    "pidTuningGyroNotch2Cutoff": {
+        "message": "crwdns8413:0[Hz]crwdne8413:0"
+    },
+    "pidTuningGyroNotchCutoffHelp": {
+        "message": "crwdns8414:0crwdne8414:0"
+    },
+    "pidTuningFilterSettings": {
+        "message": "crwdns8415:0crwdne8415:0"
+    },
+    "pidTuningDTermLowpassType": {
+        "message": "crwdns8416:0crwdne8416:0"
+    },
+    "pidTuningDTermLowpassTypeTip": {
+        "message": "crwdns8417:0crwdne8417:0"
+    },
+    "pidTuningDTermLowpassFrequency": {
+        "message": "crwdns8418:0[Hz]crwdne8418:0"
+    },
+    "pidTuningDTermLowpassFrequencyHelp": {
+        "message": "crwdns8419:0[Hz]crwdne8419:0"
+    },
+    "pidTuningDTermNotchEnable": {
+        "message": "crwdns8420:0crwdne8420:0"
+    },
+    "pidTuningDTermNotchFrequency": {
+        "message": "crwdns8421:0[Hz]crwdne8421:0"
+    },
+    "pidTuningDTermNotchFrequencyHelp": {
+        "message": "crwdns8422:0[Hz]crwdne8422:0"
+    },
+    "pidTuningDTermNotchCutoff": {
+        "message": "crwdns8423:0[Hz]crwdne8423:0"
+    },
+    "pidTuningDTermNotchCutoffHelp": {
+        "message": "crwdns8424:0crwdne8424:0"
+    },
+    "pidTuningYawLowpassFrequency": {
+        "message": "crwdns8425:0[Hz]crwdne8425:0"
+    },
+    "pidTuningYawLowpassFrequencyHelp": {
+        "message": "crwdns8426:0[Hz]crwdne8426:0"
+    },
+    "pidTuningVbatPidCompensation": {
+        "message": "crwdns8427:0crwdne8427:0"
+    },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "crwdns8428:0crwdne8428:0"
+    },
+    "configHelp2": {
+        "message": "crwdns8429:0crwdne8429:0"
+    },
+    "failsafeFeaturesHelpOld": {
+        "message": "crwdns8430:0crwdne8430:0"
+    },
+    "failsafePaneTitleOld": {
+        "message": "crwdns8431:0crwdne8431:0"
+    },
+    "failsafeFeaturesHelpNew": {
+        "message": "crwdns8432:0crwdne8432:0"
+    },
+    "failsafePulsrangeTitle": {
+        "message": "crwdns8433:0crwdne8433:0"
+    },
+    "failsafePulsrangeHelp": {
+        "message": "crwdns8434:0crwdne8434:0"
+    },
+    "failsafeRxMinUsecItem": {
+        "message": "crwdns8435:0crwdne8435:0"
+    },
+    "failsafeRxMaxUsecItem": {
+        "message": "crwdns8436:0crwdne8436:0"
+    },
+    "failsafeChannelFallbackSettingsTitle": {
+        "message": "crwdns8437:0crwdne8437:0"
+    },
+    "failsafeChannelFallbackSettingsHelp": {
+        "message": "crwdns8438:0crwdne8438:0"
+    },
+    "failsafeChannelFallbackSettingsAuto": {
+        "message": "crwdns8439:0crwdne8439:0"
+    },
+    "failsafeChannelFallbackSettingsHold": {
+        "message": "crwdns8440:0crwdne8440:0"
+    },
+    "failsafeStageTwoSettingsTitle": {
+        "message": "crwdns8441:0crwdne8441:0"
+    },
+    "failsafeDelayItem": {
+        "message": "crwdns8442:0crwdne8442:0"
+    },
+    "failsafeDelayHelp": {
+        "message": "crwdns8443:0crwdne8443:0"
+    },
+    "failsafeThrottleLowItem": {
+        "message": "crwdns8444:0crwdne8444:0"
+    },
+    "failsafeThrottleLowHelp": {
+        "message": "crwdns8445:0crwdne8445:0"
+    },
+    "failsafeThrottleItem": {
+        "message": "crwdns8446:0crwdne8446:0"
+    },
+    "failsafeOffDelayItem": {
+        "message": "crwdns8447:0crwdne8447:0"
+    },
+    "failsafeOffDelayHelp": {
+        "message": "crwdns8448:0crwdne8448:0"
+    },
+    "failsafeSubTitle1": {
+        "message": "crwdns8449:0crwdne8449:0"
+    },
+    "failsafeProcedureItemSelect1": {
+        "message": "crwdns8450:0crwdne8450:0"
+    },
+    "failsafeProcedureItemSelect2": {
+        "message": "crwdns8451:0crwdne8451:0"
+    },
+    "failsafeKillSwitchItem": {
+        "message": "crwdns8452:0crwdne8452:0"
+    },
+    "failsafeKillSwitchHelp": {
+        "message": "crwdns8453:0crwdne8453:0"
+    },
+    "powerButtonSave": {
+        "message": "crwdns8454:0crwdne8454:0"
+    },
+    "powerFirmwareUpgradeRequired": {
+        "message": "crwdns8455:0crwdne8455:0"
+    },
+    "powerBatteryVoltageMeterSource": {
+        "message": "crwdns8456:0crwdne8456:0"
+    },
+    "powerBatteryVoltageMeterTypeNone": {
+        "message": "crwdns8457:0crwdne8457:0"
+    },
+    "powerBatteryVoltageMeterTypeAdc": {
+        "message": "crwdns8458:0crwdne8458:0"
+    },
+    "powerBatteryVoltageMeterTypeEsc": {
+        "message": "crwdns8459:0crwdne8459:0"
+    },
+    "powerBatteryCurrentMeterSource": {
+        "message": "crwdns8460:0crwdne8460:0"
+    },
+    "powerBatteryCurrentMeterTypeNone": {
+        "message": "crwdns8461:0crwdne8461:0"
+    },
+    "powerBatteryCurrentMeterTypeAdc": {
+        "message": "crwdns8462:0crwdne8462:0"
+    },
+    "powerBatteryCurrentMeterTypeVirtual": {
+        "message": "crwdns8463:0crwdne8463:0"
+    },
+    "powerBatteryCurrentMeterTypeEsc": {
+        "message": "crwdns8464:0crwdne8464:0"
+    },
+    "powerBatteryCurrentMeterTypeMsp": {
+        "message": "crwdns8465:0crwdne8465:0"
+    },
+    "powerBatteryMinimum": {
+        "message": "crwdns8466:0crwdne8466:0"
+    },
+    "powerBatteryMaximum": {
+        "message": "crwdns8467:0crwdne8467:0"
+    },
+    "powerBatteryWarning": {
+        "message": "crwdns8468:0crwdne8468:0"
+    },
+    "powerVoltageHead": {
+        "message": "crwdns8469:0crwdne8469:0"
+    },
+    "powerVoltageValue": {
+        "message": "crwdns8470:0crwdne8470:0"
+    },
+    "powerAmperageValue": {
+        "message": "crwdns8471:0crwdne8471:0"
+    },
+    "powerVoltageId10": {
+        "message": "crwdns8472:0crwdne8472:0"
+    },
+    "powerVoltageId20": {
+        "message": "crwdns8473:0crwdne8473:0"
+    },
+    "powerVoltageId30": {
+        "message": "crwdns8474:0crwdne8474:0"
+    },
+    "powerVoltageId40": {
+        "message": "crwdns8475:0crwdne8475:0"
+    },
+    "powerVoltageId50": {
+        "message": "crwdns8476:0crwdne8476:0"
+    },
+    "powerVoltageId60": {
+        "message": "crwdns8477:0crwdne8477:0"
+    },
+    "powerVoltageId61": {
+        "message": "crwdns8478:0crwdne8478:0"
+    },
+    "powerVoltageId62": {
+        "message": "crwdns8479:0crwdne8479:0"
+    },
+    "powerVoltageId63": {
+        "message": "crwdns8480:0crwdne8480:0"
+    },
+    "powerVoltageId64": {
+        "message": "crwdns8481:0crwdne8481:0"
+    },
+    "powerVoltageId65": {
+        "message": "crwdns8482:0crwdne8482:0"
+    },
+    "powerVoltageId66": {
+        "message": "crwdns8483:0crwdne8483:0"
+    },
+    "powerVoltageId67": {
+        "message": "crwdns8484:0crwdne8484:0"
+    },
+    "powerVoltageId68": {
+        "message": "crwdns8485:0crwdne8485:0"
+    },
+    "powerVoltageId69": {
+        "message": "crwdns8486:0crwdne8486:0"
+    },
+    "powerVoltageId70": {
+        "message": "crwdns8487:0crwdne8487:0"
+    },
+    "powerVoltageId71": {
+        "message": "crwdns8488:0crwdne8488:0"
+    },
+    "powerVoltageId80": {
+        "message": "crwdns8489:0crwdne8489:0"
+    },
+    "powerVoltageId81": {
+        "message": "crwdns8490:0crwdne8490:0"
+    },
+    "powerVoltageId82": {
+        "message": "crwdns8491:0crwdne8491:0"
+    },
+    "powerVoltageId83": {
+        "message": "crwdns8492:0crwdne8492:0"
+    },
+    "powerVoltageId84": {
+        "message": "crwdns8493:0crwdne8493:0"
+    },
+    "powerVoltageId85": {
+        "message": "crwdns8494:0crwdne8494:0"
+    },
+    "powerVoltageScale": {
+        "message": "crwdns8495:0crwdne8495:0"
+    },
+    "powerVoltageDivider": {
+        "message": "crwdns8496:0crwdne8496:0"
+    },
+    "powerVoltageMultiplier": {
+        "message": "crwdns8497:0crwdne8497:0"
+    },
+    "powerAmperageHead": {
+        "message": "crwdns8498:0crwdne8498:0"
+    },
+    "powerAmperageId10": {
+        "message": "crwdns8499:0crwdne8499:0"
+    },
+    "powerAmperageId50": {
+        "message": "crwdns8500:0crwdne8500:0"
+    },
+    "powerAmperageId60": {
+        "message": "crwdns8501:0crwdne8501:0"
+    },
+    "powerAmperageId61": {
+        "message": "crwdns8502:0crwdne8502:0"
+    },
+    "powerAmperageId62": {
+        "message": "crwdns8503:0crwdne8503:0"
+    },
+    "powerAmperageId63": {
+        "message": "crwdns8504:0crwdne8504:0"
+    },
+    "powerAmperageId64": {
+        "message": "crwdns8505:0crwdne8505:0"
+    },
+    "powerAmperageId65": {
+        "message": "crwdns8506:0crwdne8506:0"
+    },
+    "powerAmperageId66": {
+        "message": "crwdns8507:0crwdne8507:0"
+    },
+    "powerAmperageId67": {
+        "message": "crwdns8508:0crwdne8508:0"
+    },
+    "powerAmperageId68": {
+        "message": "crwdns8509:0crwdne8509:0"
+    },
+    "powerAmperageId69": {
+        "message": "crwdns8510:0crwdne8510:0"
+    },
+    "powerAmperageId70": {
+        "message": "crwdns8511:0crwdne8511:0"
+    },
+    "powerAmperageId71": {
+        "message": "crwdns8512:0crwdne8512:0"
+    },
+    "powerAmperageId80": {
+        "message": "crwdns8513:0crwdne8513:0"
+    },
+    "powerAmperageId90": {
+        "message": "crwdns8514:0crwdne8514:0"
+    },
+    "powerMahValue": {
+        "message": "crwdns8515:0crwdne8515:0"
+    },
+    "powerAmperageScale": {
+        "message": "crwdns8516:0crwdne8516:0"
+    },
+    "powerAmperageOffset": {
+        "message": "crwdns8517:0[mV]crwdne8517:0"
+    },
+    "powerBatteryHead": {
+        "message": "crwdns8518:0crwdne8518:0"
+    },
+    "powerStateHead": {
+        "message": "crwdns8519:0crwdne8519:0"
+    },
+    "powerBatteryConnected": {
+        "message": "crwdns8520:0crwdne8520:0"
+    },
+    "powerBatteryConnectedValueYes": {
+        "message": "crwdns8521:0crwdne8521:0"
+    },
+    "powerBatteryConnectedValueNo": {
+        "message": "crwdns8522:0crwdne8522:0"
+    },
+    "powerBatteryVoltage": {
+        "message": "crwdns8523:0crwdne8523:0"
+    },
+    "powerBatteryCurrentDrawn": {
+        "message": "crwdns8524:0crwdne8524:0"
+    },
+    "powerBatteryAmperage": {
+        "message": "crwdns8525:0crwdne8525:0"
+    },
+    "powerBatteryCapacity": {
+        "message": "crwdns8526:0crwdne8526:0"
+    },
+    "osdSetupTitle": {
+        "message": "crwdns8527:0crwdne8527:0"
+    },
+    "osdSetupPreviewHelp": {
+        "message": "crwdns8528:0crwdne8528:0"
+    },
+    "osdSetupUnsupportedNote1": {
+        "message": "crwdns8529:0crwdne8529:0"
+    },
+    "osdSetupUnsupportedNote2": {
+        "message": "crwdns8530:0crwdne8530:0"
+    },
+    "osdSetupElementsTitle": {
+        "message": "crwdns8531:0crwdne8531:0"
+    },
+    "osdSetupElementsSwitchAll": {
+        "message": "crwdns8532:0crwdne8532:0"
+    },
+    "osdSetupPreviewTitle": {
+        "message": "crwdns8533:0crwdne8533:0"
+    },
+    "osdSetupPreviewTitleTip": {
+        "message": "crwdns8534:0crwdne8534:0"
+    },
+    "osdSetupVideoFormatTitle": {
+        "message": "crwdns8535:0crwdne8535:0"
+    },
+    "osdSetupUnitsTitle": {
+        "message": "crwdns8536:0crwdne8536:0"
+    },
+    "osdSetupTimersTitle": {
+        "message": "crwdns8537:0crwdne8537:0"
+    },
+    "osdSetupAlarmsTitle": {
+        "message": "crwdns8538:0crwdne8538:0"
+    },
+    "osdSetupStatsTitle": {
+        "message": "crwdns8539:0crwdne8539:0"
+    },
+    "osdSetupVtxTitle": {
+        "message": "crwdns8540:0crwdne8540:0"
+    },
+    "osdSetupCraftNameTitle": {
+        "message": "crwdns8541:0crwdne8541:0"
+    },
+    "osdSetupWarningsTitle": {
+        "message": "crwdns8542:0crwdne8542:0"
+    },
+    "osdSetupFontPresets": {
+        "message": "crwdns8543:0crwdne8543:0"
+    },
+    "osdSetupOpenFont": {
+        "message": "crwdns8544:0crwdne8544:0"
+    },
+    "osdSetupUploadFont": {
+        "message": "crwdns8545:0crwdne8545:0"
+    },
+    "osdSetupSave": {
+        "message": "crwdns8546:0crwdne8546:0"
+    },
+    "osdSetupFontManager": {
+        "message": "crwdns8547:0crwdne8547:0"
+    },
+    "osdSetupUncheckAll": {
+        "message": "crwdns8548:0crwdne8548:0"
+    },
+    "osdSetupHead": {
+        "message": "crwdns8549:0crwdne8549:0"
+    },
+    "osdSetupVideoMode": {
+        "message": "crwdns8550:0crwdne8550:0"
+    },
+    "osdSetupCameraConnected": {
+        "message": "crwdns8551:0crwdne8551:0"
+    },
+    "osdSetupCameraConnectedValueYes": {
+        "message": "crwdns8552:0crwdne8552:0"
+    },
+    "osdSetupCameraConnectedValueNo": {
+        "message": "crwdns8553:0crwdne8553:0"
+    },
+    "osdSetupResetText": {
+        "message": "crwdns8554:0crwdne8554:0"
+    },
+    "osdSetupButtonReset": {
+        "message": "crwdns8555:0crwdne8555:0"
+    },
+    "osdDescElementMainBattVoltage": {
+        "message": "crwdns8556:0crwdne8556:0"
+    },
+    "osdDescElementRssiValue": {
+        "message": "crwdns8557:0crwdne8557:0"
+    },
+    "osdDescElementThrottlePosition": {
+        "message": "crwdns8558:0crwdne8558:0"
+    },
+    "osdDescElementArmed": {
+        "message": "crwdns8559:0crwdne8559:0"
+    },
+    "osdDescElementDisarmed": {
+        "message": "crwdns8560:0crwdne8560:0"
+    },
+    "osdDescElementCrosshairs": {
+        "message": "crwdns8561:0crwdne8561:0"
+    },
+    "osdDescElementArtificialHorizon": {
+        "message": "crwdns8562:0crwdne8562:0"
+    },
+    "osdDescElementHorizonSidebars": {
+        "message": "crwdns8563:0crwdne8563:0"
+    },
+    "osdDescElementCurrentDraw": {
+        "message": "crwdns8564:0crwdne8564:0"
+    },
+    "osdDescElementMahDrawn": {
+        "message": "crwdns8565:0crwdne8565:0"
+    },
+    "osdDescElementCraftName": {
+        "message": "crwdns8566:0crwdne8566:0"
+    },
+    "osdDescElementAltitude": {
+        "message": "crwdns8567:0crwdne8567:0"
+    },
+    "osdDescElementOnTime": {
+        "message": "crwdns8568:0crwdne8568:0"
+    },
+    "osdDescElementFlyTime": {
+        "message": "crwdns8569:0crwdne8569:0"
+    },
+    "osdDescElementFlyMode": {
+        "message": "crwdns8570:0crwdne8570:0"
+    },
+    "osdDescElementGPSSpeed": {
+        "message": "crwdns8571:0crwdne8571:0"
+    },
+    "osdDescElementGPSSats": {
+        "message": "crwdns8572:0crwdne8572:0"
+    },
+    "osdDescElementGPSLon": {
+        "message": "crwdns8573:0crwdne8573:0"
+    },
+    "osdDescElementGPSLat": {
+        "message": "crwdns8574:0crwdne8574:0"
+    },
+    "osdDescElementDebug": {
+        "message": "crwdns8575:0crwdne8575:0"
+    },
+    "osdDescElementPIDRoll": {
+        "message": "crwdns8576:0crwdne8576:0"
+    },
+    "osdDescElementPIDPitch": {
+        "message": "crwdns8577:0crwdne8577:0"
+    },
+    "osdDescElementPIDYaw": {
+        "message": "crwdns8578:0crwdne8578:0"
+    },
+    "osdDescElementPower": {
+        "message": "crwdns8579:0crwdne8579:0"
+    },
+    "osdDescElementPIDRateProfile": {
+        "message": "crwdns8580:0crwdne8580:0"
+    },
+    "osdDescElementBatteryWarning": {
+        "message": "crwdns8581:0crwdne8581:0"
+    },
+    "osdDescElementAvgCellVoltage": {
+        "message": "crwdns8582:0crwdne8582:0"
+    },
+    "osdDescElementPitchAngle": {
+        "message": "crwdns8583:0crwdne8583:0"
+    },
+    "osdDescElementRollAngle": {
+        "message": "crwdns8584:0crwdne8584:0"
+    },
+    "osdDescElementMainBattUsage": {
+        "message": "crwdns8585:0crwdne8585:0"
+    },
+    "osdDescElementArmedTime": {
+        "message": "crwdns8586:0crwdne8586:0"
+    },
+    "osdDescElementWarnings": {
+        "message": "crwdns8587:0crwdne8587:0"
+    },
+    "osdDescElementEscTemperature": {
+        "message": "crwdns8588:0crwdne8588:0"
+    },
+    "osdDescElementEscRpm": {
+        "message": "crwdns8589:0crwdne8589:0"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "crwdns8590:0crwdne8590:0"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "crwdns8591:0crwdne8591:0"
+    },
+    "osdDescElementHomeDirection": {
+        "message": "crwdns8592:0crwdne8592:0"
+    },
+    "osdDescElementHomeDistance": {
+        "message": "crwdns8593:0crwdne8593:0"
+    },
+    "osdDescElementNumericalHeading": {
+        "message": "crwdns8594:0crwdne8594:0"
+    },
+    "osdDescElementNumericalVario": {
+        "message": "crwdns8595:0crwdne8595:0"
+    },
+    "osdDescElementCompassBar": {
+        "message": "crwdns8596:0crwdne8596:0"
+    },
+    "osdDescElementTimer1": {
+        "message": "crwdns8597:0crwdne8597:0"
+    },
+    "osdDescElementTimer2": {
+        "message": "crwdns8598:0crwdne8598:0"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "crwdns8599:0crwdne8599:0"
+    },
+    "osdDescElementUnknown": {
+        "message": "crwdns8600:0crwdne8600:0"
+    },
+    "osdDescElementCoreTemperature": {
+        "message": "crwdns8601:0crwdne8601:0"
+    },
+    "osdDescStatMaxSpeed": {
+        "message": "crwdns8602:0crwdne8602:0"
+    },
+    "osdDescStatMinBattery": {
+        "message": "crwdns8603:0crwdne8603:0"
+    },
+    "osdDescStatMinRssi": {
+        "message": "crwdns8604:0crwdne8604:0"
+    },
+    "osdDescStatMaxCurrent": {
+        "message": "crwdns8605:0crwdne8605:0"
+    },
+    "osdDescStatUsedMah": {
+        "message": "crwdns8606:0crwdne8606:0"
+    },
+    "osdDescStatMaxAltitude": {
+        "message": "crwdns8607:0crwdne8607:0"
+    },
+    "osdDescStatBlackbox": {
+        "message": "crwdns8608:0crwdne8608:0"
+    },
+    "osdDescStatEndBattery": {
+        "message": "crwdns8609:0crwdne8609:0"
+    },
+    "osdDescStatFlyTime": {
+        "message": "crwdns8610:0crwdne8610:0"
+    },
+    "osdDescStatArmedTime": {
+        "message": "crwdns8611:0crwdne8611:0"
+    },
+    "osdDescStatMaxDistance": {
+        "message": "crwdns8612:0crwdne8612:0"
+    },
+    "osdDescStatBlackboxLogNumber": {
+        "message": "crwdns8613:0crwdne8613:0"
+    },
+    "osdDescStatTimer1": {
+        "message": "crwdns8614:0crwdne8614:0"
+    },
+    "osdDescStatTimer2": {
+        "message": "crwdns8615:0crwdne8615:0"
+    },
+    "osdDescStatRtcDateTime": {
+        "message": "crwdns8616:0crwdne8616:0"
+    },
+    "osdTimerSource": {
+        "message": "crwdns8617:0crwdne8617:0"
+    },
+    "osdTimerSourceTooltip": {
+        "message": "crwdns8618:0crwdne8618:0"
+    },
+    "osdTimerPrecision": {
+        "message": "crwdns8619:0crwdne8619:0"
+    },
+    "osdTimerPrecisionTooltip": {
+        "message": "crwdns8620:0crwdne8620:0"
+    },
+    "osdTimerAlarm": {
+        "message": "crwdns8621:0crwdne8621:0"
+    },
+    "osdTimerAlarmTooltip": {
+        "message": "crwdns8622:0crwdne8622:0"
+    },
+    "osdWarningArmingDisabled": {
+        "message": "crwdns8623:0crwdne8623:0"
+    },
+    "osdWarningBatteryNotFull": {
+        "message": "crwdns8624:0crwdne8624:0"
+    },
+    "osdWarningBatteryWarning": {
+        "message": "crwdns8625:0crwdne8625:0"
+    },
+    "osdWarningBatteryCritical": {
+        "message": "crwdns8626:0crwdne8626:0"
+    },
+    "osdWarningVisualBeeper": {
+        "message": "crwdns8627:0crwdne8627:0"
+    },
+    "osdWarningCrashFlipMode": {
+        "message": "crwdns8628:0crwdne8628:0"
+    },
+    "osdSectionHelpElements": {
+        "message": "crwdns8629:0crwdne8629:0"
+    },
+    "osdSectionHelpVideoMode": {
+        "message": "crwdns8630:0crwdne8630:0"
+    },
+    "osdSectionHelpUnits": {
+        "message": "crwdns8631:0crwdne8631:0"
+    },
+    "osdSectionHelpTimers": {
+        "message": "crwdns8632:0crwdne8632:0"
+    },
+    "osdSectionHelpAlarms": {
+        "message": "crwdns8633:0crwdne8633:0"
+    },
+    "osdSectionHelpStats": {
+        "message": "crwdns8634:0crwdne8634:0"
+    },
+    "osdSectionHelpWarnings": {
+        "message": "crwdns8635:0crwdne8635:0"
+    },
+    "osdSettingsSaved": {
+        "message": "crwdns8636:0crwdne8636:0"
+    },
+    "osdWritePermissions": {
+        "message": "crwdns8637:0crwdne8637:0"
+    },
+    "mainHelpArmed": {
+        "message": "crwdns8638:0crwdne8638:0"
+    },
+    "mainHelpFailsafe": {
+        "message": "crwdns8639:0crwdne8639:0"
+    },
+    "mainHelpLink": {
+        "message": "crwdns8640:0crwdne8640:0"
+    },
+    "configurationEscProtocol": {
+        "message": "crwdns8641:0crwdne8641:0"
+    },
+    "configurationEscProtocolHelp": {
+        "message": "crwdns8642:0crwdne8642:0"
+    },
+    "configurationunsyndePwm": {
+        "message": "crwdns8643:0crwdne8643:0"
+    },
+    "configurationUnsyncedPWMFreq": {
+        "message": "crwdns8644:0crwdne8644:0"
+    },
+    "configurationGyroSyncDenom": {
+        "message": "crwdns8645:0crwdne8645:0"
+    },
+    "configurationPidProcessDenom": {
+        "message": "crwdns8646:0crwdne8646:0"
+    },
+    "configurationPidProcessDenomHelp": {
+        "message": "crwdns8647:0crwdne8647:0"
+    },
+    "configurationGyroUse32kHz": {
+        "message": "crwdns8648:0crwdne8648:0"
+    },
+    "configurationGyroUse32kHzHelp": {
+        "message": "crwdns8649:0crwdne8649:0"
+    },
+    "configurationAccHardware": {
+        "message": "crwdns8650:0crwdne8650:0"
+    },
+    "configurationBaroHardware": {
+        "message": "crwdns8651:0crwdne8651:0"
+    },
+    "configurationMagHardware": {
+        "message": "crwdns8652:0crwdne8652:0"
+    },
+    "configurationSmallAngle": {
+        "message": "crwdns8653:0[degrees]crwdne8653:0"
+    },
+    "configurationSmallAngleHelp": {
+        "message": "crwdns8654:0crwdne8654:0"
+    },
+    "configurationBatteryVoltage": {
+        "message": "crwdns8655:0crwdne8655:0"
+    },
+    "configurationBatteryCurrent": {
+        "message": "crwdns8656:0crwdne8656:0"
+    },
+    "configurationBatteryMeterType": {
+        "message": "crwdns8657:0crwdne8657:0"
+    },
+    "configurationBatteryMinimum": {
+        "message": "crwdns8658:0crwdne8658:0"
+    },
+    "configurationBatteryMaximum": {
+        "message": "crwdns8659:0crwdne8659:0"
+    },
+    "configurationBatteryWarning": {
+        "message": "crwdns8660:0crwdne8660:0"
+    },
+    "configurationBatteryScale": {
+        "message": "crwdns8661:0crwdne8661:0"
+    },
+    "configurationCurrentMeterType": {
+        "message": "crwdns8662:0crwdne8662:0"
+    },
+    "configurationCurrent": {
+        "message": "crwdns8663:0crwdne8663:0"
+    },
+    "configurationCurrentScale": {
+        "message": "crwdns8664:0crwdne8664:0"
+    },
+    "configurationCurrentOffset": {
+        "message": "crwdns8665:0crwdne8665:0"
+    },
+    "configurationBatteryMultiwiiCurrent": {
+        "message": "crwdns8666:0crwdne8666:0"
+    },
+    "pidTuningProfile": {
+        "message": "crwdns8667:0crwdne8667:0"
+    },
+    "pidTuningProfileTip": {
+        "message": "crwdns8668:0crwdne8668:0"
+    },
+    "pidTuningRateProfile": {
+        "message": "crwdns8669:0crwdne8669:0"
+    },
+    "pidTuningRateProfileTip": {
+        "message": "crwdns8670:0crwdne8670:0"
+    },
+    "pidTuningDelta": {
+        "message": "crwdns8671:0crwdne8671:0"
+    },
+    "pidTuningDeltaError": {
+        "message": "crwdns8672:0crwdne8672:0"
+    },
+    "pidTuningDeltaMeasurement": {
+        "message": "crwdns8673:0crwdne8673:0"
+    },
+    "pidTuningDeltaTip": {
+        "message": "crwdns8674:0crwdne8674:0"
+    },
+    "pidTuningPidControllerTip": {
+        "message": "crwdns8675:0crwdne8675:0"
+    },
+    "pidTuningFilterTip": {
+        "message": "crwdns8676:0crwdne8676:0"
+    },
+    "pidTuningPidTuningTip": {
+        "message": "crwdns8677:0crwdne8677:0"
+    },
+    "pidTuningRatesTip": {
+        "message": "crwdns8678:0crwdne8678:0"
+    },
+    "configurationCamera": {
+        "message": "crwdns8679:0crwdne8679:0"
+    },
+    "configurationPersonalization": {
+        "message": "crwdns8680:0crwdne8680:0"
+    },
+    "craftName": {
+        "message": "crwdns8681:0crwdne8681:0"
+    },
+    "configurationFpvCamAngleDegrees": {
+        "message": "crwdns8682:0[degrees]crwdne8682:0"
+    },
+    "onboardLoggingBlackbox": {
+        "message": "crwdns8683:0crwdne8683:0"
+    },
+    "onboardLoggingRateOfLogging": {
+        "message": "crwdns8684:0crwdne8684:0"
+    },
+    "onboardLoggingSerialLogger": {
+        "message": "crwdns8685:0crwdne8685:0"
+    },
+    "onboardLoggingFlashLogger": {
+        "message": "crwdns8686:0crwdne8686:0"
+    },
+    "onboardLoggingEraseInProgress": {
+        "message": "crwdns8687:0crwdne8687:0"
+    },
+    "onboardLoggingOnboardSDCard": {
+        "message": "crwdns8688:0crwdne8688:0"
+    },
+    "dialogConfirmResetTitle": {
+        "message": "crwdns8689:0crwdne8689:0"
+    },
+    "dialogConfirmResetNote": {
+        "message": "crwdns8690:0crwdne8690:0"
+    },
+    "dialogConfirmResetConfirm": {
+        "message": "crwdns8691:0crwdne8691:0"
+    },
+    "dialogConfirmResetClose": {
+        "message": "crwdns8692:0crwdne8692:0"
+    },
+    "modeCameraWifi": {
+        "message": "crwdns8693:0crwdne8693:0"
+    },
+    "modeCameraPower": {
+        "message": "crwdns8694:0crwdne8694:0"
+    },
+    "modeCameraChangeMode": {
+        "message": "crwdns8695:0crwdne8695:0"
+    }
+}
