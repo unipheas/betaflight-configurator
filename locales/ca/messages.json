@@ -2161,9 +2161,6 @@
     "ledStripColorModifierTitle": {
         "message": "Modificador de color"
     },
-    "ledStripThrottleFunction": {
-        "message": "Throttle"
-    },
     "ledStripVtxFunction": {
         "message": "Larson scanner"
     },
