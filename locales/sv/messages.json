@@ -1,0 +1,775 @@
+{
+    "warningTitle": {
+        "message": "Varning"
+    },
+    "noticeTitle": {
+        "message": "Observera"
+    },
+    "options_title": {
+        "message": "Applikationsalternativ"
+    },
+    "connect": {
+        "message": "Anslut"
+    },
+    "connecting": {
+        "message": "Ansluter"
+    },
+    "disconnect": {
+        "message": "Koppla från"
+    },
+    "portsSelectManual": {
+        "message": "Manuellt val"
+    },
+    "portOverrideText": {
+        "message": "Port:"
+    },
+    "autoConnect": {
+        "message": "Auto-Anslut"
+    },
+    "close": {
+        "message": "Stäng"
+    },
+    "autoConnectEnabled": {
+        "message": "Auto-Anslut: Aktiverad - Konfiguratorn försöker automatisk ansluta när en ny port upptäcks"
+    },
+    "autoConnectDisabled": {
+        "message": "Auto-Anslut: Inaktiverad - Användaren behöver själv välja korrekt serieport och klicka på \"Anslut\"-knappen"
+    },
+    "expertMode": {
+        "message": "Aktivera expertläge"
+    },
+    "permanentExpertMode": {
+        "message": "Aktivera expertläge permanent"
+    },
+    "userLanguageSelect": {
+        "message": "Språk (programmet behöver startas om för att ändringarna ska börja gälla)"
+    },
+    "language_default": {
+        "message": "Standard"
+    },
+    "sensorDataFlashNotFound": {
+        "message": "Inget dataflash-<br>chip hittades",
+        "description": "Text of the dataflash image in the header of the page."
+    },
+    "sensorDataFlashFreeSpace": {
+        "message": "Dataflash: ledigt utrymme",
+        "description": "Text of the dataflash image in the header of the page."
+    },
+    "sensorStatusGyro": {
+        "message": "Gyroskop"
+    },
+    "sensorStatusGyroShort": {
+        "message": "Gyro",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusAccel": {
+        "message": "Accelerometer"
+    },
+    "sensorStatusAccelShort": {
+        "message": "Accel",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusMag": {
+        "message": "Magnetometer"
+    },
+    "sensorStatusMagShort": {
+        "message": "Mag",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusBaro": {
+        "message": "Barometer"
+    },
+    "sensorStatusBaroShort": {
+        "message": "Baro",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusGPS": {
+        "message": "GPS"
+    },
+    "sensorStatusGPSShort": {
+        "message": "GPS",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusSonar": {
+        "message": "Sonar \/ Avståndsmätare"
+    },
+    "sensorStatusSonarShort": {
+        "message": "Sonar",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "checkForConfiguratorUnstableVersions": {
+        "message": "Visa uppdateringsnotifieringar för icke-stabila versioner av konfiguratorn"
+    },
+    "configuratorUpdateNotice": {
+        "message": "Du använder en utdaterad version av <b>Betaflight-konfiguratorn<\/b>.<br>Version <b>$1<\/b> är tillgänglig online, besök <a href=\"$2\" target=\"_blank\">utgivningssidan<\/a> för att ladda ner senaste versionen med korrigeringar och förbättringar.<br>Stäng konfigurator-fönstret innan uppdateringen."
+    },
+    "configuratorUpdateWebsite": {
+        "message": "Gå till utgivningssidan"
+    },
+    "deviceRebooting": {
+        "message": "Enhet - <span class=\"message-negative\">Startar om<\/span>"
+    },
+    "deviceReady": {
+        "message": "Enhet - <span class=\"message-positive\">Redo<\/span>"
+    },
+    "backupFileIncompatible": {
+        "message": "Den försedda backup-filen är skapad för en tidigare version av konfiguratorn och är inte kompatibel med den här versionen av konfiguratorn. Tyvärr"
+    },
+    "backupFileUnmigratable": {
+        "message": "Den försedda backup-filen är skapad av en tidigare version av konfiguratorn och är inte möjlig att migrera. Tyvärr"
+    },
+    "configMigrationFrom": {
+        "message": "Migrerar konfigurationsfil genererad av konfigurator: $1"
+    },
+    "configMigratedTo": {
+        "message": "Migrerar konfigurationsfil till konfigurator: $1"
+    },
+    "configMigrationSuccessful": {
+        "message": "Migrering av konfiguration klar, migreringar utförda: $1"
+    },
+    "tabFirmwareFlasher": {
+        "message": "Firmware-flashare"
+    },
+    "tabLanding": {
+        "message": "Välkommen"
+    },
+    "tabHelp": {
+        "message": "Dokumentation $ Support"
+    },
+    "tabSetup": {
+        "message": "Inställningar"
+    },
+    "tabSetupOSD": {
+        "message": "OSD-inställningar"
+    },
+    "tabConfiguration": {
+        "message": "Konfigurering"
+    },
+    "tabPorts": {
+        "message": "Portar"
+    },
+    "tabPidTuning": {
+        "message": "PID-inställning"
+    },
+    "tabReceiver": {
+        "message": "Mottagare"
+    },
+    "tabModeSelection": {
+        "message": "Läges-val"
+    },
+    "tabServos": {
+        "message": "Servon"
+    },
+    "tabFailsafe": {
+        "message": "Failsafe"
+    },
+    "tabTransponder": {
+        "message": "Race-transponder"
+    },
+    "tabOsd": {
+        "message": "OSD"
+    },
+    "tabPower": {
+        "message": "Kraft & batteri"
+    },
+    "tabGPS": {
+        "message": "GPS"
+    },
+    "tabMotorTesting": {
+        "message": "Motorer"
+    },
+    "tabLedStrip": {
+        "message": "LED-remsa"
+    },
+    "tabRawSensorData": {
+        "message": "Sensorer"
+    },
+    "tabCLI": {
+        "message": "CLI"
+    },
+    "tabLogging": {
+        "message": "Trådbunden loggning"
+    },
+    "tabOnboardLogging": {
+        "message": "Blackbox"
+    },
+    "tabAdjustments": {
+        "message": "Justeringar"
+    },
+    "tabAuxiliary": {
+        "message": "Lägen"
+    },
+    "logActionHide": {
+        "message": "Dölj logg"
+    },
+    "logActionShow": {
+        "message": "Visa logg"
+    },
+    "serialPortOpened": {
+        "message": "Anslutning till serieport <span class=\"message-positive\">lyckades<\/span> med ID: $1"
+    },
+    "serialPortOpenFail": {
+        "message": "Anslutning till serieport <span class=\"message-negative\">misslyckades<\/span>"
+    },
+    "serialPortClosedOk": {
+        "message": "Frånkoppling av serieport <span class=\"message-positive\">lyckades<\/span>"
+    },
+    "serialPortClosedFail": {
+        "message": "Frånkoppling av serieport <span class=\"message-negative\">misslyckades<\/span>"
+    },
+    "serialUnrecoverable": {
+        "message": "Oåterkalleligt <span class=\"message-negative\">fel<\/span> i seriell anslutning, kopplar bort..."
+    },
+    "usbDeviceOpened": {
+        "message": "Anslutning till USB-enhet <span class=\"message-positive\">lyckades<\/span> med ID: $1"
+    },
+    "usbDeviceOpenFail": {
+        "message": "Frånkoppling av USB-enhet<span class=\"message-negative\">misslyckades<\/span>"
+    },
+    "usbDeviceClosed": {
+        "message": "Frånkoppling av USB-enhet <span class=\"message-positive\">lyckades<\/span>"
+    },
+    "usbDeviceCloseFail": {
+        "message": "Frånkoppling av USB-enhet <span class=\"message-negative\">misslyckades<\/span>"
+    },
+    "usbDeviceUdevNotice": {
+        "message": "Är <strong>udev rules<\/strong> korrekt installerat? Se dokumentation för instruktioner"
+    },
+    "stm32UsbDfuNotFound": {
+        "message": "USB DFU hittades inte"
+    },
+    "stm32TimedOut": {
+        "message": "STM32 - time out, programmering: MISSLYCKADES"
+    },
+    "stm32WrongResponse": {
+        "message": "STM32 - Kommunikation misslyckades, fel svar, förväntat: $1 (0x$2) fick: 3$ (0x$4)"
+    },
+    "stm32ContactingBootloader": {
+        "message": "Kontaktar bootloader..."
+    },
+    "stm32ContactingBootloaderFailed": {
+        "message": "Kommunikation med bootloader misslyckades"
+    },
+    "stm32ResponseBootloaderFailed": {
+        "message": "Inget svar från bootloader, programmering: MISSLYCKADES"
+    },
+    "stm32GlobalEraseExtended": {
+        "message": "Utför global chip-radering (via utökad radering) ..."
+    },
+    "stm32LocalEraseExtended": {
+        "message": "Utför lokal radering (via utökad radering) ..."
+    },
+    "stm32GlobalErase": {
+        "message": "Utför global chip-radering ..."
+    },
+    "stm32LocalErase": {
+        "message": "Utför lokal radering ..."
+    },
+    "stm32Erase": {
+        "message": "Raderar ..."
+    },
+    "stm32Flashing": {
+        "message": "Programmerar ..."
+    },
+    "stm32Verifying": {
+        "message": "Verifierar ..."
+    },
+    "stm32ProgrammingSuccessful": {
+        "message": "Programmering: LYCKADES"
+    },
+    "stm32ProgrammingFailed": {
+        "message": "Programmering: MISSLYCKADES"
+    },
+    "stm32AddressLoadFailed": {
+        "message": "Adressladdning av optionsbyte-sektorn misslyckades. Sannolikt på grund av lässkydd."
+    },
+    "stm32AddressLoadSuccess": {
+        "message": "Adressladdning av optionsbyte-sektorn lyckades."
+    },
+    "stm32AddressLoadUnknown": {
+        "message": "Adressladdning av optionsbyte-sektorn misslyckades med okänt fel. Avbryter."
+    },
+    "stm32NotReadProtected": {
+        "message": "Lässkydd ej aktivt"
+    },
+    "noConfigurationReceived": {
+        "message": "Ingen konfiguration mottagen inom <span class=\"message-negative\">10 sekunder<\/span>, kommunikation <span class=\"message-negative\">misslyckades<\/span>"
+    },
+    "firmwareVersionNotSupported": {
+        "message": "Denna firmwareversion<span class=\"message-negative\">stöds inte<\/span>. Uppgradera till en firmware som stöder api-version <strong>$1<\/strong> eller högre. Säkerhetskopiera i CLI innan du flashar. CLI-säkerhetskopierings\/återställningsförfarandet finns i dokumentationen.<br \/>Alternativt kan du ladda ner och använda en gammal version av konfiguratorn om du inte vill uppgradera."
+    },
+    "firmwareTypeNotSupported": {
+        "message": "Firmware för icke Cleanflight\/Betaflight <span class=\"message-negative\">stöds inte<\/span>, förutom i CLI."
+    },
+    "firmwareUpgradeRequired": {
+        "message": "Firmwaren på den här enheten behöver uppgraderas till en nyare version. Använd CLI för säkerhetskopiering innan du flashar. CLI-säkerhetskopierings\/återställningsförfarandet finns i dokumentationen.<br \/>Alternativt kan du ladda ner och använda en gammal version av konfiguratorn om du inte vill uppgradera."
+    },
+    "releaseCheckNoInfo": {
+        "message": "Ingen utgivningsinformation är tillgänglig för $1."
+    },
+    "tabSwitchConnectionRequired": {
+        "message": "Du måste <strong>ansluta<\/strong> innan du kan visa flikarna."
+    },
+    "tabSwitchWaitForOperation": {
+        "message": "Du <span class=\"message-negative\">kan inte<\/span> göra detta just nu, vänta tills den pågående processen är avsluten."
+    },
+    "tabSwitchUpgradeRequired": {
+        "message": "Du måste <strong>uppgradera<\/strong> din firmware till den senaste versionen av Betaflight innan du kan använda $1 fliken."
+    },
+    "firmwareVersion": {
+        "message": "Firmware-version: <strong>$1<\/strong>"
+    },
+    "apiVersionReceived": {
+        "message": "MultiWii API-version: <strong>$1<\/strong>"
+    },
+    "uniqueDeviceIdReceived": {
+        "message": "Unikt enhets-ID: <strong>0x$1<\/strong>"
+    },
+    "craftNameReceived": {
+        "message": "Fartygsnamn: <strong>$1<\/strong>"
+    },
+    "armingDisabled": {
+        "message": "<strong>Aktivering avstängd<\/strong>"
+    },
+    "armingEnabled": {
+        "message": "<strong>Aktivering påslagen<\/strong>"
+    },
+    "boardInfoReceived": {
+        "message": "Kort: <strong>$1<\/strong>, version: <strong>$2<\/strong>"
+    },
+    "buildInfoReceived": {
+        "message": "Kör firmware publicerad: <strong>$1<\/strong>"
+    },
+    "versionLabelTarget": {
+        "message": "Mål"
+    },
+    "versionLabelFirmware": {
+        "message": "Firmware"
+    },
+    "versionLabelConfigurator": {
+        "message": "Konfigurator"
+    },
+    "notifications_app_just_updated_to_version": {
+        "message": "Applikation uppdaterad till version: $1"
+    },
+    "notifications_click_here_to_start_app": {
+        "message": "Klicka här för att starta applikationen"
+    },
+    "statusbar_port_utilization": {
+        "message": "Portanvändning:"
+    },
+    "statusbar_usage_download": {
+        "message": "N: $1%"
+    },
+    "statusbar_usage_upload": {
+        "message": "U: $1%"
+    },
+    "statusbar_packet_error": {
+        "message": "Paket-fel:"
+    },
+    "statusbar_i2c_error": {
+        "message": "I2C-fel:"
+    },
+    "statusbar_cycle_time": {
+        "message": "Cykel-tid:"
+    },
+    "statusbar_cpu_load": {
+        "message": "CPU Belastning: $1%"
+    },
+    "dfu_connect_message": {
+        "message": "Använd Firmware-Flasharen för åtkomst till DFU-enheter"
+    },
+    "dfu_erased_kilobytes": {
+        "message": "Raderade $1 kB av flash <span class=\"message-positive\">framgångsrikt<\/span>"
+    },
+    "eeprom_saved_ok": {
+        "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
+    },
+    "defaultWelcomeIntro": {
+        "message": "Välkommmen till<strong>Betaflight - Konfigurator<\/strong>, ett verktyg utformat för att förenkla uppdateringen, konfigurationen och inställningen av din flightcontroller."
+    },
+    "defaultWelcomeHead": {
+        "message": "Hårdvara"
+    },
+    "defaultWelcomeText": {
+        "message": "Detta program stöder all hårdvara som kan köra Betaflight.<br \/>Se fullständig lista över hårdvara som stöds under Flash-fliken.<br><br> <a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Ladda ner Betaflight Blackbox<\/a><br \/><br \/>Firmwarens källkod kan laddas ner <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">här<\/a>.<br \/>Den senaste binära firmwarebilden är tillgänglig <a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">här<\/a>.<br \/><br \/>Dom senaste <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210x Drivrutinerna<\/a> kan laddas ner <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">här<\/a>.<br \/>Dom senaste <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCP Drivrutinerna<\/a> kan laddas ner <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">här<\/a>.<br \/>Den senaste <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> för Windows USB-drivrutinsinstallerare kan laddas ner <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">här<\/a>.<br \/>"
+    },
+    "defaultContributingHead": {
+        "message": "Medverka"
+    },
+    "defaultChangelogAction": {
+        "message": "Ändringslogg"
+    },
+    "defaultChangelogHead": {
+        "message": "Konfigurator - Ändringslogg"
+    },
+    "defaultButtonFirmwareFlasher": {
+        "message": "Firmware-flashare"
+    },
+    "defaultDonate": {
+        "message": "Donera"
+    },
+    "defaultSponsorsHead": {
+        "message": "Sponsorer"
+    },
+    "defaultDocumentationHead": {
+        "message": "Dokumentation \/ Manual"
+    },
+    "defaultSupportSubline2": {
+        "message": "Utvecklare"
+    },
+    "defaultSupport": {
+        "message": "För support, var vänlig sök i forumen och wikin först eller kontakta din försäljare.<br \/><br \/>"
+    },
+    "defaultSupport3": {
+        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Betaflight Videos<\/a>"
+    },
+    "initialSetupButtonCalibrateAccel": {
+        "message": "Kalibrera Accelerometer"
+    },
+    "initialSetupButtonCalibrateMag": {
+        "message": "Kalibrera Magnetometer"
+    },
+    "initialSetupButtonCalibratingText": {
+        "message": "Kalibrerar..."
+    },
+    "initialSetupButtonReset": {
+        "message": "Återställ Inställningar"
+    },
+    "initialSetupResetText": {
+        "message": "Återställ till <strong>standardinställningarna<\/strong>"
+    },
+    "initialSetupButtonBackup": {
+        "message": "Säkerhetskopiera"
+    },
+    "initialSetupButtonRestore": {
+        "message": "Återställ"
+    },
+    "initialSetupMixerHead": {
+        "message": "Mixertyp"
+    },
+    "initialSetupFailsafe": {
+        "message": "Failsafe:"
+    },
+    "initialSetupBatteryHead": {
+        "message": "Batteri"
+    },
+    "initialSetupMinCellV": {
+        "message": "Min Cellspänning:"
+    },
+    "initialSetupMaxCellV": {
+        "message": "Max Cellspänning:"
+    },
+    "initialSetupVoltageScale": {
+        "message": "Spänningsskala:"
+    },
+    "initialSetupMagHead": {
+        "message": "Magnetometer"
+    },
+    "initialSetupBattery": {
+        "message": "Batterispänning:"
+    },
+    "initialSetupBatteryValue": {
+        "message": "$1 V"
+    },
+    "initialSetupDrawn": {
+        "message": "Förbrukad kapacitet:"
+    },
+    "initialSetupDrawing": {
+        "message": "Nuvarande förbrukning:"
+    },
+    "initialSetupBatteryMahValue": {
+        "message": "$1 mAh"
+    },
+    "initialSetupBatteryAValue": {
+        "message": "$1 A"
+    },
+    "initialSetupRSSI": {
+        "message": "RSSI:"
+    },
+    "initialSetupRSSIValue": {
+        "message": "$1 %"
+    },
+    "initialSetupArmingAllowed": {
+        "message": "Aktivering Tillåten"
+    },
+    "initialSetupGPSHead": {
+        "message": "GPS"
+    },
+    "initialSetupInstrumentsHead": {
+        "message": "Instrument"
+    },
+    "initialSetupButtonSave": {
+        "message": "Spara"
+    },
+    "initialSetupModel": {
+        "message": "Modell: $1"
+    },
+    "initialSetupAttitude": {
+        "message": "$1 grader"
+    },
+    "initialSetupAccelCalibStarted": {
+        "message": "Accelerometer kalibrering startad"
+    },
+    "initialSetupAccelCalibEnded": {
+        "message": "Accelerometer kalibrering <span class=\"message-positive\">avslutad<\/span>"
+    },
+    "initialSetupMagCalibStarted": {
+        "message": "Magnetometer kalibrering startad."
+    },
+    "initialSetupMagCalibEnded": {
+        "message": "Magnetometer kalibrering <span class=\"message-positive\">avslutad<\/span>"
+    },
+    "initialSetupSettingsRestored": {
+        "message": "Inställningarna återställda till<strong>standard<\/strong>"
+    },
+    "initialSetupEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
+    },
+    "featureNone": {
+        "message": "&lt;Välj En&gt;"
+    },
+    "featureVBAT": {
+        "message": "Batterispänningsövervakning"
+    },
+    "featureMOTOR_STOP": {
+        "message": "Starta inte motorerna vid aktivering"
+    },
+    "featureSOFTSERIAL": {
+        "message": "Aktivera CPU-baserade seriella portar"
+    },
+    "featureSOFTSERIALTip": {
+        "message": "Konfigurera portar under Port-fliken efter aktivering."
+    },
+    "featureGPS": {
+        "message": "GPS för navigation och telemetri"
+    },
+    "featureSONAR": {
+        "message": "Sonar"
+    },
+    "featureCURRENT_METER": {
+        "message": "Batterispänningsövervakning"
+    },
+    "feature3D": {
+        "message": "3D läge (för användning med reversibla ESCs)"
+    },
+    "featureRX_PARALLEL_PWM": {
+        "message": "PWM RX anslutning (en kabel per kanal)"
+    },
+    "featureRX_MSP": {
+        "message": "MSP RX anslutning (kontroll via MSP port)"
+    },
+    "featureRSSI_ADC": {
+        "message": "Analog RSSI anslutning"
+    },
+    "featureLED_STRIP": {
+        "message": "Multi-färg RGP LED-remsa"
+    },
+    "featureDISPLAY": {
+        "message": "OLED Skärmdisplay"
+    },
+    "featureONESHOT125": {
+        "message": "ONESHOT ESC-stöd"
+    },
+    "featureONESHOT125Tip": {
+        "message": "Koppla bort batteriet och demontera propellrarna innan aktivering."
+    },
+    "featureBLACKBOX": {
+        "message": "BlackBox flygdataloggning"
+    },
+    "featureBLACKBOXTip": {
+        "message": "Konfigurera via BlackBox-fliken efter aktivering."
+    },
+    "featureRX_SPI": {
+        "message": "SPI RX-stöd"
+    },
+    "featureESC_SENSOR": {
+        "message": "Använd KISS\/BLHeli_32 ESC-telemetri som sensor"
+    },
+    "featureCHANNEL_FORWARDING": {
+        "message": "Vidarebefodra aux-kanaler till servoutgångar"
+    },
+    "featureTRANSPONDER": {
+        "message": "RaceTransponder"
+    },
+    "featureTRANSPONDERTip": {
+        "message": "Konfigurera via RaceTransponder-fliken efter aktivering."
+    },
+    "featureAIRMODE": {
+        "message": "Aktivera Airmode permanent"
+    },
+    "featureSUPEREXPO_RATES": {
+        "message": "Super Expo Rates"
+    },
+    "featureSDCARD": {
+        "message": "SDKort-stöd (för loggning)"
+    },
+    "featureVTX": {
+        "message": "VideoSändare"
+    },
+    "featureANTI_GRAVITY": {
+        "message": "Öka I-Term tillfälligt vid hastiga gasändringar"
+    },
+    "featureFAILSAFEOldTip": {
+        "message": "Tillämpa Failsafe-inställningar vid RX-signalförlust"
+    },
+    "configurationFeatureEnabled": {
+        "message": "Aktiverad"
+    },
+    "configurationReceiver": {
+        "message": "Mottagare"
+    },
+    "configurationRSSI": {
+        "message": "RSSI (Signalstyrka)"
+    },
+    "configurationRSSIHelp": {
+        "message": "RSSI är ett mått på signalstyrka och är väldigt praktiskt då du vet om din farkost är påväg utom räckvidd eller om det lider av RF-störningar."
+    },
+    "configurationGPSProtocol": {
+        "message": "Protokoll"
+    },
+    "configurationGPSBaudrate": {
+        "message": "Baudrate"
+    },
+    "configurationEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
+    },
+    "configurationButtonSave": {
+        "message": "Spara och starta om"
+    },
+    "portsIdentifier": {
+        "message": "Identifierare"
+    },
+    "portsConfiguration": {
+        "message": "Konfiguration\/MSP"
+    },
+    "portsFunction_GPS": {
+        "message": "GPS"
+    },
+    "portsFunction_TELEMETRY_FRSKY": {
+        "message": "FrSky"
+    },
+    "portsFunction_TELEMETRY_HOTT": {
+        "message": "HoTT"
+    },
+    "portsFunction_TELEMETRY_LTM": {
+        "message": "LTM"
+    },
+    "portsFunction_TELEMETRY_MAVLINK": {
+        "message": "MAVLink"
+    },
+    "portsFunction_TELEMETRY_MSP": {
+        "message": "MSP"
+    },
+    "portsFunction_TELEMETRY_SMARTPORT": {
+        "message": "SmartPort"
+    },
+    "portsFunction_TELEMETRY_IBUS": {
+        "message": "iBus"
+    },
+    "portsFunction_TELEMETRY_JETIXBUS": {
+        "message": "JETIBUS"
+    },
+    "portsFunction_TELEMETRY_CRSF": {
+        "message": "CRSF"
+    },
+    "portsFunction_TELEMETRY_SRXL": {
+        "message": "SRXL"
+    },
+    "portsFunction_ESC_SENSOR": {
+        "message": "ESC"
+    },
+    "portsFunction_BLACKBOX": {
+        "message": "Blackbox-loggning"
+    },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "TBS SmartAudio"
+    },
+    "portsFunction_IRC_TRAMP": {
+        "message": "IRC Tramp"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "RunCam-enhet"
+    },
+    "pidTuningSubTabPid": {
+        "message": "PID-inställningar"
+    },
+    "pidTuningSubTabFilter": {
+        "message": "Filter-inställningar"
+    },
+    "pidTuningShowAllPids": {
+        "message": "Visa alla PIDs"
+    },
+    "pidTuningHideUnusedPids": {
+        "message": "Dölj PIDs som inte änvänds"
+    },
+    "pidTuningProportional": {
+        "message": "Proportional"
+    },
+    "pidTuningIntegral": {
+        "message": "Integral"
+    },
+    "pidTuningDerivative": {
+        "message": "Derivative"
+    },
+    "pidTuningRcRate": {
+        "message": "RC Rate"
+    },
+    "pidTuningMaxVel": {
+        "message": "Max Vel [grader\/s]"
+    },
+    "pidTuningRate": {
+        "message": "Rate"
+    },
+    "pidTuningSuperRate": {
+        "message": "Super Rate"
+    },
+    "pidTuningRatesPreview": {
+        "message": "Rates Förhandsvisning"
+    },
+    "pidTuningRcExpo": {
+        "message": "RC Expo"
+    },
+    "pidTuningTPA": {
+        "message": "TPA"
+    },
+    "pidTuningTPABreakPoint": {
+        "message": "TPA Brytpunkt"
+    },
+    "pidTuningFilter": {
+        "message": "Filter"
+    },
+    "receiverRssiChannel": {
+        "message": "RSSI-Kanal"
+    },
+    "receiverRssiChannelDisabledOption": {
+        "message": "Avstängd"
+    },
+    "receiverButtonSave": {
+        "message": "Spara"
+    },
+    "receiverButtonRefresh": {
+        "message": "Uppdatera"
+    },
+    "receiverEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
+    },
+    "receiverModelPreview": {
+        "message": "Förhandsvisa"
+    },
+    "auxiliaryMin": {
+        "message": "Min"
+    },
+    "auxiliaryMax": {
+        "message": "Max"
+    },
+    "auxiliaryButtonSave": {
+        "message": "Spara"
+    },
+    "auxiliaryEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
+    },
+    "adjustmentsExamples": {
+        "message": "Exempel"
+    }
+}
