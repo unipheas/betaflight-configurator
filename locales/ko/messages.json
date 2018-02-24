@@ -2164,9 +2164,6 @@
     "ledStripColorModifierTitle": {
         "message": "색상 수정"
     },
-    "ledStripThrottleFunction": {
-        "message": "스로틀"
-    },
     "ledStripVtxFunction": {
         "message": "라슨 스캐너"
     },
