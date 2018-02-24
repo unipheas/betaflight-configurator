@@ -1,0 +1,362 @@
+{
+    "warningTitle": {
+        "message": "Aviso"
+    },
+    "noticeTitle": {
+        "message": "Observação"
+    },
+    "options_title": {
+        "message": "Opções da aplicação"
+    },
+    "connect": {
+        "message": "Ligar"
+    },
+    "connecting": {
+        "message": "A ligar"
+    },
+    "disconnect": {
+        "message": "Desligar"
+    },
+    "portsSelectManual": {
+        "message": "Seleção manual"
+    },
+    "portOverrideText": {
+        "message": "Porta"
+    },
+    "autoConnect": {
+        "message": "Ligar automaticamente"
+    },
+    "close": {
+        "message": "Fechar"
+    },
+    "autoConnectEnabled": {
+        "message": "Ligar automaticamente: Ativo - O Configurador tenta ligar-se automaticamente assim que uma nova porta seja detetada"
+    },
+    "autoConnectDisabled": {
+        "message": "Ligar automaticamente: Desativo - O utilizador precisa de selecionar a porta série correta e pressionar o botão \"Ligar\" configurador tenta ligar-se automaticamente assim que uma nova porta seja detetada"
+    },
+    "expertMode": {
+        "message": "Ativar modo avançado"
+    },
+    "permanentExpertMode": {
+        "message": "Permanentemente ativar o modo avançado"
+    },
+    "userLanguageSelect": {
+        "message": "Linguagem, (necessário reiniciar a aplicação para as alterações entrarem em efeito)"
+    },
+    "language_default": {
+        "message": "Defeito"
+    },
+    "sensorStatusGyro": {
+        "message": "Giroscópio"
+    },
+    "sensorStatusAccel": {
+        "message": "Acelerómetro"
+    },
+    "sensorStatusMag": {
+        "message": "Magnetómetro"
+    },
+    "sensorStatusBaro": {
+        "message": "Barómetro"
+    },
+    "sensorStatusGPS": {
+        "message": "GPS"
+    },
+    "sensorStatusSonar": {
+        "message": "Sonar \/ Descobrir alcance"
+    },
+    "checkForConfiguratorUnstableVersions": {
+        "message": "Mostrar notificações de atualizações para versões instáveis do configurador"
+    },
+    "configuratorUpdateNotice": {
+        "message": "Está a usar uma versão desatualizada do <b>Betaflight Configurator<\/b>.<br>A versão <b>$1<\/b> está disponível online, por favor visite <a href=\"$2\" target=\"_blank\">a página da nova versão<\/a> para efetuar o download e instalar a ultima versão com correções e melhoramentos. <br>Por favor feche a janela do configurador antes de atualizar."
+    },
+    "configuratorUpdateWebsite": {
+        "message": "Ir para a Página Web da Versão"
+    },
+    "deviceRebooting": {
+        "message": "Dispositivo - <span class=\"message-negative\">A reiniciar<\/span>"
+    },
+    "deviceReady": {
+        "message": "Dispositivo - <span class=\"message-positive\"> pronto<\/span>"
+    },
+    "backupFileIncompatible": {
+        "message": "O ficheiro de backup fornecido foi gerado para uma versão antiga do configurador e é incompatível com esta versão. As nossas desculpas"
+    },
+    "backupFileUnmigratable": {
+        "message": "O ficheiro de backup fornecido foi gerado por uma versão antiga do configurador e não é possível importar. As nossas desculpas."
+    },
+    "configMigrationFrom": {
+        "message": "A migrar o ficheiro de configuração gerado pelo configurador: $1"
+    },
+    "configMigratedTo": {
+        "message": "Configuração migrada para o configurador: $1"
+    },
+    "configMigrationSuccessful": {
+        "message": "Migração da configuração completa, migrações aplicadas: $1"
+    },
+    "tabFirmwareFlasher": {
+        "message": "Atualização de firmware"
+    },
+    "tabLanding": {
+        "message": "Bem-vindo"
+    },
+    "tabHelp": {
+        "message": "Documentação & Suporte"
+    },
+    "tabSetup": {
+        "message": "Definições"
+    },
+    "tabSetupOSD": {
+        "message": "Configuração do OSD"
+    },
+    "tabConfiguration": {
+        "message": "Configuração"
+    },
+    "tabPorts": {
+        "message": "Portas"
+    },
+    "tabPidTuning": {
+        "message": "Afinação de PID"
+    },
+    "tabReceiver": {
+        "message": "Recetor"
+    },
+    "tabModeSelection": {
+        "message": "Seleção de modos"
+    },
+    "tabServos": {
+        "message": "Servos"
+    },
+    "tabFailsafe": {
+        "message": "Falhas"
+    },
+    "tabTransponder": {
+        "message": "Transponder de corridas"
+    },
+    "tabOsd": {
+        "message": "OSD"
+    },
+    "tabPower": {
+        "message": "Corrente & Bateria"
+    },
+    "tabGPS": {
+        "message": "GPS"
+    },
+    "tabMotorTesting": {
+        "message": "Motores"
+    },
+    "tabLedStrip": {
+        "message": "Fita de LED"
+    },
+    "tabRawSensorData": {
+        "message": "Sensores"
+    },
+    "tabCLI": {
+        "message": "Linha de comandos"
+    },
+    "tabLogging": {
+        "message": "Registos encadeados"
+    },
+    "tabOnboardLogging": {
+        "message": "Caixa negra"
+    },
+    "tabAdjustments": {
+        "message": "Ajustes"
+    },
+    "tabAuxiliary": {
+        "message": "Modos"
+    },
+    "logActionHide": {
+        "message": "Ocular registos"
+    },
+    "logActionShow": {
+        "message": "Mostrar registos"
+    },
+    "serialPortOpened": {
+        "message": "Porta série com ID: $1 aberta com <span class=\"message-positive\">sucesso<\/span>"
+    },
+    "serialPortOpenFail": {
+        "message": "<span class=\"message-negative\">Falha<\/span> ao abrir porta série"
+    },
+    "serialPortClosedOk": {
+        "message": "Porta série fechada com <span class=\"message-positive\">sucesso<\/span>"
+    },
+    "serialPortClosedFail": {
+        "message": "<span class=\"message-negative\">Falha<\/span> ao fechar a porta série"
+    },
+    "serialUnrecoverable": {
+        "message": "<span class=\"message-negative\">Falha<\/span>  da ligação série não recuperável, desligando..."
+    },
+    "usbDeviceOpened": {
+        "message": "Dispositivo USB com ID: $1 aberto com <span class=\"message-positive\">sucesso<\/span>"
+    },
+    "usbDeviceOpenFail": {
+        "message": "<span class=\"message-negative\">Falha<\/span> ao abrir dispositivo USB!"
+    },
+    "usbDeviceClosed": {
+        "message": "Dispositivo USB desligado com <span class=\"message-positive\">sucesso<\/span>"
+    },
+    "usbDeviceCloseFail": {
+        "message": "<span class=\"message-negative\">Falha<\/span> ao desligar dispositivo USB"
+    },
+    "usbDeviceUdevNotice": {
+        "message": "Estão as <strong>regras do udev<\/strong> instaladas corretamente? Veja a documentação para instruções"
+    },
+    "stm32UsbDfuNotFound": {
+        "message": "USB DFU não encontrado"
+    },
+    "stm32TimedOut": {
+        "message": "STM32 - ligação expirada, programação: FALHOU"
+    },
+    "stm32WrongResponse": {
+        "message": "Comunicação falhou com o STM32, resposta incorreta, experada: $1 (0x$2) recebida: $3 (0x$4)"
+    },
+    "stm32ContactingBootloader": {
+        "message": "A tentar ligar ao bootloader ..."
+    },
+    "stm32ContactingBootloaderFailed": {
+        "message": "Comunicação com o bootloader falhou"
+    },
+    "stm32ResponseBootloaderFailed": {
+        "message": "Sem resposta do bootloader, programação: FALHOU"
+    },
+    "stm32GlobalEraseExtended": {
+        "message": "Executando eliminação global do chip (via eliminação estendida) ..."
+    },
+    "stm32LocalEraseExtended": {
+        "message": "Executando remoção local (via remoção estendida) ..."
+    },
+    "stm32GlobalErase": {
+        "message": "Executando eliminação global do chip ..."
+    },
+    "stm32LocalErase": {
+        "message": "Executando eliminação local ..."
+    },
+    "stm32Erase": {
+        "message": "A eliminar ..."
+    },
+    "stm32Flashing": {
+        "message": "A atualizar ..."
+    },
+    "stm32Verifying": {
+        "message": "A verificar ..."
+    },
+    "stm32ProgrammingSuccessful": {
+        "message": "Programação: SUCESSO"
+    },
+    "stm32ProgrammingFailed": {
+        "message": "Programação: FALHOU"
+    },
+    "stm32NotReadProtected": {
+        "message": "Proteção de leitura não ativa"
+    },
+    "stm32ReadProtected": {
+        "message": "Placa parece protegida contra leituras. A desproteger. Não desligue\/remova!"
+    },
+    "stm32UnprotectSuccessful": {
+        "message": "Desprotegida com sucesso."
+    },
+    "stm32UnprotectUnplug": {
+        "message": "AÇÃO NECESSÁRIA: Desligue e volte a ligar a controladora de voo em modo DFU para tentar atualizar novamente!"
+    },
+    "stm32UnprotectFailed": {
+        "message": "Falha ao desproteger a placa"
+    },
+    "stm32UnprotectInitFailed": {
+        "message": "Falha ao iniciar a rotina de desproteção"
+    },
+    "noConfigurationReceived": {
+        "message": "Nenhum configuração recebida em <span class=\"message-negative\">10 segundos<\/span>, comunicação <span class=\"message-negative\">falhou<\/span>"
+    },
+    "firmwareVersionNotSupported": {
+        "message": "Esta versão do firmware <span class=\"message-negative\">não é suportada<\/span>. Por favor atualize para um firmware que suporte a versão <strong>$1<\/strong> ou superior da API. Use a linha de comandos para um backup antes de atualizar. Procedimento para fazer uma cópia de segurança\/restaurar encontra-se na documentação.<br \/>Como alternativa faça o download e use uma versão antiga do configurador, caso não esteja preparado para efetuar a atualização."
+    },
+    "firmwareTypeNotSupported": {
+        "message": "Firmware que não seja Cleanflight\/Betaflight <span class=\"message-negative\">não é suportado<\/span>, excepto na linha de comandos"
+    },
+    "firmwareUpgradeRequired": {
+        "message": "O firmware deste dispositivo precisa de ser atualizado para uma versão mais recente. Use a linha de comandos para realizar uma cópia de segurança antes da atualização. Procedimento para fazer uma cópia de segurança\/restaurar encontra-se na documentação.<br \/>Como alternativa faça o download e use uma versão antiga do configurador, caso não esteja preparado para efetuar a atualização."
+    },
+    "infoVersions": {
+        "message": "Em execução - SO: <strong>$1<\/strong>,Chrome: <strong>$2<\/strong>, Configurador: <strong>$3<\/strong>"
+    },
+    "releaseCheckLoaded": {
+        "message": "Carregada informação para a versão $1 do GitHub."
+    },
+    "releaseCheckFailed": {
+        "message": "<b>Query ao GitHub para a versão $1 falhou, usando a informação em cache. Razão: <code>$2<\/code><\/b>"
+    },
+    "releaseCheckCached": {
+        "message": "A usar informação em cache para as versões $1."
+    },
+    "releaseCheckNoInfo": {
+        "message": "Nenhum informação disponível para a versão $1."
+    },
+    "tabSwitchConnectionRequired": {
+        "message": "Precisa de se <strong>ligar<\/strong> antes de poder visualizar as abas."
+    },
+    "tabSwitchWaitForOperation": {
+        "message": "Você <span class=\"message-negative\">não pode<\/span> realizar esta operação neste momento, por favor aguarde que termine a operação em execução."
+    },
+    "tabSwitchUpgradeRequired": {
+        "message": "Precisa de <strong>atualizar<\/strong> o firmware para a ultima versão do Betaflight antes de poder usar a aba $1."
+    },
+    "firmwareVersion": {
+        "message": "Versão de firmware: <strong>$1<\/strong>"
+    },
+    "apiVersionReceived": {
+        "message": "Versão da API do MultiWii: <strong>$1<\/strong>"
+    },
+    "armingDisabled": {
+        "message": "<strong>Armar desativo<\/strong>"
+    },
+    "boardInfoReceived": {
+        "message": "Placa: <strong>$1<\/strong>, versão: <strong>$2<\/strong>"
+    },
+    "buildInfoReceived": {
+        "message": "Firmware em execução disponibilizado em: <strong>$1<\/strong>"
+    },
+    "fcInfoReceived": {
+        "message": "Informações da controladora de voo, identificador: <strong>$1<\/strong>, versão: <strong>$2<\/strong>"
+    },
+    "versionLabelTarget": {
+        "message": "Alvo"
+    },
+    "versionLabelFirmware": {
+        "message": "Firmware"
+    },
+    "versionLabelConfigurator": {
+        "message": "Configurador"
+    },
+    "notifications_app_just_updated_to_version": {
+        "message": "Aplicação atualizada para a versão: $1"
+    },
+    "notifications_click_here_to_start_app": {
+        "message": "Pressione aqui para iniciar a aplicação"
+    },
+    "statusbar_port_utilization": {
+        "message": "Utilização da porta:"
+    },
+    "statusbar_usage_download": {
+        "message": "D: $1%"
+    },
+    "statusbar_usage_upload": {
+        "message": "U: $1%"
+    },
+    "statusbar_packet_error": {
+        "message": "Erro do pacote:"
+    },
+    "statusbar_i2c_error": {
+        "message": "Erro I2C:"
+    },
+    "statusbar_cycle_time": {
+        "message": "Tempo de ciclo:"
+    },
+    "statusbar_cpu_load": {
+        "message": "Carga do CPU: $1%"
+    },
+    "dfu_connect_message": {
+        "message": "Por favor use a opção de atualização de firmware para aceder a dispositivos DFU"
+    }
+}
