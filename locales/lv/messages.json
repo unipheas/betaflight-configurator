@@ -2282,6 +2282,30 @@
         "message": "LED orientācija ('Režīms &amp; Orientācija') un krāsa",
         "description": "One of the modes in Color Mode in Led Strip"
     },
+    "ledStripModesSpecialColorsTitle": {
+        "message": "Īpašās krāsas",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeDisarmed": {
+        "message": "Deaktivēts",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeArmed": {
+        "message": "Aktivizēts",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAnimation": {
+        "message": "Animācija",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBlinkBg": {
+        "message": "Mirgot fonā",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoSats": {
+        "message": "GPS: nav sat.",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
     "ledStripModeColorsModeGPSNoLock": {
         "message": "GPS: nav fiks.",
         "description": "One of the modes in Color Mode in Led Strip"
