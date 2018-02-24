@@ -1,0 +1,3214 @@
+{
+    "warningTitle": {
+        "message": "Peringatan"
+    },
+    "noticeTitle": {
+        "message": "Melihat"
+    },
+    "options_title": {
+        "message": "Pilihan aplikasi"
+    },
+    "connect": {
+        "message": "Menghubungkan"
+    },
+    "connecting": {
+        "message": "Menghubungkan"
+    },
+    "disconnect": {
+        "message": "Memutuskan"
+    },
+    "portsSelectManual": {
+        "message": "Pilihan manual"
+    },
+    "portOverrideText": {
+        "message": "Sisi kiri:"
+    },
+    "autoConnect": {
+        "message": "Menghubungkan Otomatis"
+    },
+    "close": {
+        "message": "Tutup"
+    },
+    "autoConnectEnabled": {
+        "message": "Sambungan Otomatis: Diaktifkan - Konfigurator secara otomatis mencoba untuk menghubungkan ketika sebuah port baru terdeteksi"
+    },
+    "autoConnectDisabled": {
+        "message": "Sambung-Automatis: Dinonaktifkan - Pengguna harus memilih seri port yang benar dan klik tombol \"Connect\" itu sendiri"
+    },
+    "expertMode": {
+        "message": "Aktifkan mode pakar"
+    },
+    "permanentExpertMode": {
+        "message": "Aktifkan mode pakar secara permanen"
+    },
+    "userLanguageSelect": {
+        "message": "Bahasa (perlu mengulang aplikasi agar perubahan diterapkan)"
+    },
+    "language_default": {
+        "message": "Standar"
+    },
+    "sensorDataFlashNotFound": {
+        "message": "Tidak ditemukan chip dataflash",
+        "description": "Text of the dataflash image in the header of the page."
+    },
+    "sensorDataFlashFreeSpace": {
+        "message": "Dataflash: ruang kosong",
+        "description": "Text of the dataflash image in the header of the page."
+    },
+    "sensorStatusGyro": {
+        "message": "Giroskop"
+    },
+    "sensorStatusGyroShort": {
+        "message": "Lang",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusAccel": {
+        "message": "Accelerometer"
+    },
+    "sensorStatusAccelShort": {
+        "message": "Accel",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusMag": {
+        "message": "Magnetometer"
+    },
+    "sensorStatusMagShort": {
+        "message": "Mag",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusBaro": {
+        "message": "Barometer"
+    },
+    "sensorStatusBaroShort": {
+        "message": "Baro",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusGPS": {
+        "message": "GPS"
+    },
+    "sensorStatusGPSShort": {
+        "message": "GPS",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusSonar": {
+        "message": "Sonar \/ Alat pengukur jarak"
+    },
+    "sensorStatusSonarShort": {
+        "message": "Sonar",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "checkForConfiguratorUnstableVersions": {
+        "message": "Tampilkan pemberitahuan pembaruan untuk versi yang tidak stabil dari konfigurator"
+    },
+    "configuratorUpdateNotice": {
+        "message": "Anda sedang menggunakan sebuah versi lama dari <b>Konfigurator Betaflight<\/b>.<br>Versi <b>$1<\/b> tersedia secara online, silahkan kunjungi <a href=\"$2\" target=\"_blank\">halaman rilis<\/a> untuk mengunduh dan memasang versi terbaru dengan perbaikan dan penyempurnaan.<br>Silahkan tutup jendela konfigurator sebelum memperbarui."
+    },
+    "configuratorUpdateWebsite": {
+        "message": "Pergi ke Situs web Rilis"
+    },
+    "deviceRebooting": {
+        "message": "Perangkat - <span class=\"message-negative\">Reboot<\/span>"
+    },
+    "deviceReady": {
+        "message": "Perangkat - <span class=\"message-positive\">Siap<\/span>"
+    },
+    "backupFileIncompatible": {
+        "message": "Berkas cadangan yang disediakan adalah dihasilkan untuk versi sebelumnya dari konfigurator dan tidak sesuai dengan versi konfigurator ini. Maaf"
+    },
+    "backupFileUnmigratable": {
+        "message": "Berkas cadangan yang disediakan adalah dihasilkan oleh sebuah versi sebelumnya dari konfigurator dan tidak dapat berpindah tempat. Maaf."
+    },
+    "configMigrationFrom": {
+        "message": "Berkas konfigurasi yang berpindah tempat di hasilkan oleh konfigurator: $1"
+    },
+    "configMigratedTo": {
+        "message": "Konfigurasi yang berpindah tempat ke konfigurator: $1"
+    },
+    "configMigrationSuccessful": {
+        "message": "Migrasi konfigurasi selesai, migrasi diterapkan: $1"
+    },
+    "tabFirmwareFlasher": {
+        "message": "Firmware Flasher"
+    },
+    "tabLanding": {
+        "message": "Selamat Datang"
+    },
+    "tabHelp": {
+        "message": "Dokumentasi & Bantuan"
+    },
+    "tabSetup": {
+        "message": "Mempersiapkan"
+    },
+    "tabSetupOSD": {
+        "message": "Mempersiapkan OSD"
+    },
+    "tabConfiguration": {
+        "message": "Konfigurasi"
+    },
+    "tabPorts": {
+        "message": "Port"
+    },
+    "tabPidTuning": {
+        "message": "Penyetelan PID"
+    },
+    "tabReceiver": {
+        "message": "Penerima"
+    },
+    "tabModeSelection": {
+        "message": "Pemilihan Mode"
+    },
+    "tabServos": {
+        "message": "Servos"
+    },
+    "tabFailsafe": {
+        "message": "Tidak aman"
+    },
+    "tabTransponder": {
+        "message": "Jenis Transponder"
+    },
+    "tabOsd": {
+        "message": "OSD"
+    },
+    "tabPower": {
+        "message": "Daya & Baterai"
+    },
+    "tabGPS": {
+        "message": "GPS"
+    },
+    "tabMotorTesting": {
+        "message": "Motor"
+    },
+    "tabLedStrip": {
+        "message": "LED Strip"
+    },
+    "tabRawSensorData": {
+        "message": "Sensor"
+    },
+    "tabCLI": {
+        "message": "CLI"
+    },
+    "tabLogging": {
+        "message": "Ditambatkan Logging"
+    },
+    "tabOnboardLogging": {
+        "message": "Kotak Hitam"
+    },
+    "tabAdjustments": {
+        "message": "Penyesuaian"
+    },
+    "tabAuxiliary": {
+        "message": "Cara"
+    },
+    "logActionHide": {
+        "message": "Menyembuyikan log"
+    },
+    "logActionShow": {
+        "message": "Tampilkan log"
+    },
+    "serialPortOpened": {
+        "message": "Serial port <span class=\"pesan positif\">berhasil<\/span> dibuka dengan ID: $1"
+    },
+    "serialPortOpenFail": {
+        "message": "<span class=\"pesan-negatif\">Gagal<\/span> untuk membuka port serial"
+    },
+    "serialPortClosedOk": {
+        "message": "Seri port <span class=\"message-positive\">berhasil<\/span> ditutup"
+    },
+    "serialPortClosedFail": {
+        "message": "<span class=\"message-negative\">Gagal<\/span> untuk menutup seri port"
+    },
+    "serialUnrecoverable": {
+        "message": "Dipulihkan <span class=\"pesan-negatif\">failure<\/span> dari koneksi serial, melepaskan..."
+    },
+    "usbDeviceOpened": {
+        "message": "Perangkat USB<span class=\"message-positive\">sukses<\/span>dibuka dengan ID: $1"
+    },
+    "usbDeviceOpenFail": {
+        "message": "<span class=\"message-negative\">Gagal<\/span> untuk membuka perangkat USB!"
+    },
+    "usbDeviceClosed": {
+        "message": "Perangkat USB <span class=\"message-positive\">berhasil<\/span> ditutup"
+    },
+    "usbDeviceCloseFail": {
+        "message": "<span class=\"message-negative\">gagal<\/span>untuk menutup perangkat USB"
+    },
+    "usbDeviceUdevNotice": {
+        "message": "Adalah<strong>aturan udev<\/strong>terpasang dengan benar? Lihat dokumentasi untuk petunjuk"
+    },
+    "stm32UsbDfuNotFound": {
+        "message": "USB DFU tidak ditemukan"
+    },
+    "stm32TimedOut": {
+        "message": "STM32 - waktu habis, pemrograman: GAGAL"
+    },
+    "stm32WrongResponse": {
+        "message": "STM32 Komunikasi gagal, tanggapan salah, diharapkan: $1 (0x$2) diterima: $3 (0x$4)"
+    },
+    "stm32ContactingBootloader": {
+        "message": "Menghubungi bootloader ..."
+    },
+    "stm32ContactingBootloaderFailed": {
+        "message": "Komunikasi dengan bootloader gagal"
+    },
+    "stm32ResponseBootloaderFailed": {
+        "message": "Tidak ada tanggapan dari bootloader, pemrograman: GAGAL"
+    },
+    "stm32GlobalEraseExtended": {
+        "message": "Melaksanakan penghapusan chip global (melalui penghapusan yang diperluas) ..."
+    },
+    "stm32LocalEraseExtended": {
+        "message": "Melaksanakan penghapusan lokal (melalui penghapusan yang diperluas) ..."
+    },
+    "stm32GlobalErase": {
+        "message": "Melakukan penghapusan chip global ..."
+    },
+    "stm32LocalErase": {
+        "message": "Melakukan penghapusan lokal ..."
+    },
+    "stm32Erase": {
+        "message": "Menghapus ..."
+    },
+    "stm32Flashing": {
+        "message": "Berkedip ..."
+    },
+    "stm32Verifying": {
+        "message": "Memverifikasi ..."
+    },
+    "stm32ProgrammingSuccessful": {
+        "message": "Pemrograman: SUKSES"
+    },
+    "stm32ProgrammingFailed": {
+        "message": "Pemrograman: GAGAL"
+    },
+    "stm32AddressLoadFailed": {
+        "message": "Beban alamat untuk pilihan bytes sektor gagal. Sangat mungkin karena membaca perlindungan."
+    },
+    "stm32AddressLoadSuccess": {
+        "message": "Beban alamat untuk pilihan bytes sektor berhasil."
+    },
+    "stm32AddressLoadUnknown": {
+        "message": "Beban alamat untuk sektor pilihan byte sektor gagal dengan kesalahan yang tidak diketahui. Membatalkan."
+    },
+    "stm32NotReadProtected": {
+        "message": "Membaca perlindungan tidak aktif"
+    },
+    "stm32ReadProtected": {
+        "message": "Board sepertinya sudah terlindungi. Tidak proteksi. Jangan terputus\/mencabut kabelnya!"
+    },
+    "stm32UnprotectSuccessful": {
+        "message": "Tidak berproteksi berhasil."
+    },
+    "stm32UnprotectUnplug": {
+        "message": "TINDAKAN DIPERLUKAN: Cabut dan hubungkan kembali pengontrol penerbangan dalam mode DFU untuk mencoba berkedip lagi!"
+    },
+    "stm32UnprotectFailed": {
+        "message": "Gagal melindungi board"
+    },
+    "stm32UnprotectInitFailed": {
+        "message": "Gagal memulai rutinitas tanpa perlindungan"
+    },
+    "noConfigurationReceived": {
+        "message": "Tidak ada konfigurasi yang diterima didalamnya<span class=\"message-negative\">10 detik<\/span>hubungan<span class=\"message-negative\">gagal<\/span>"
+    },
+    "firmwareVersionNotSupported": {
+        "message": "Firmware ini adalah versi<span class=\"message-negative\">tidak mendukung<\/span>. Silahkan perbarui untuk firmware yang mendukung versi api<strong>$1<\/strong>atau lebih tinggi. Gunakan CLI untuk cadangan setelah flashing. CLI cadangan\/mengembalikan prosedur dalam dokumentasi.<br \/>atau download dan gunakan versi lama untuk configurator jika kamu belum siap untuk memperbarui."
+    },
+    "firmwareTypeNotSupported": {
+        "message": "Non - Cleanflight\/Betaflight firmware adalah <span class=\"pesan-negatif\">tidak didukung<\/span>, kecuali untuk mode CLI."
+    },
+    "firmwareUpgradeRequired": {
+        "message": "Firmware pada perangkat ini perlu ditingkatkan ke versi yang lebih baru. Gunakan CLI untuk backup sebelum berkedip. Prosedur backup \/ restore CLI ada dalam dokumentasi.<br \/>Atau download dan gunakan versi lama dari configurator jika anda belum siap untuk memperbarui."
+    },
+    "infoVersions": {
+        "message": "Berjalan - OS: <strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Configurator: <strong>$3<\/strong>>"
+    },
+    "releaseCheckLoaded": {
+        "message": "Informasi rilis dimuat untuk $1 dari GitHub."
+    },
+    "releaseCheckFailed": {
+        "message": "<b>GitHub query untuk $1 rilis gagal, menggunakan informasi cache. Alasan: <code>$2<\/code><\/b>"
+    },
+    "releaseCheckCached": {
+        "message": "Menggunakan informasi pelepasan cache untuk merilis $ 1."
+    },
+    "releaseCheckNoInfo": {
+        "message": "Tidak ada informasi rilis yang tersedia seharga $ 1."
+    },
+    "tabSwitchConnectionRequired": {
+        "message": "Anda perlu untuk <strong>menghubungkan<\/strong> sebelum anda dapat melihat salah satu dari tab."
+    },
+    "tabSwitchWaitForOperation": {
+        "message": "Anda <span class=\"message-negative\">tidak dapat<\/span> melakukan ini sekarang, silahkan tunggu selama operasi saat ini untuk menyelesaikan ..."
+    },
+    "tabSwitchUpgradeRequired": {
+        "message": "Anda perlu untuk <strong>meningkatkan<\/strong> perangkat tetap anda ke versi terbaru dari Betaflight sebelum anda dapat menggunakan $1 tab."
+    },
+    "firmwareVersion": {
+        "message": "Versi Firmware: <strong>$1<\/strong>"
+    },
+    "apiVersionReceived": {
+        "message": "Versi Multiwii API:<strong>$1<\/strong>"
+    },
+    "uniqueDeviceIdReceived": {
+        "message": "ID perangkat unik: <strong>0x$1<\/strong>"
+    },
+    "craftNameReceived": {
+        "message": "Nama Kerajinan: <strong>$1<\/strong>"
+    },
+    "armingDisabled": {
+        "message": "<strong>Mempersenjatai Keluarga<\/strong>"
+    },
+    "armingEnabled": {
+        "message": "<strong>Mempersenjatai Diaktifkan<\/strong>"
+    },
+    "runawayTakeoffPreventionDisabled": {
+        "message": "<strong>pergi lepas Landas Pencegahan sementara Dinonaktifkan<\/strong>"
+    },
+    "runawayTakeoffPreventionEnabled": {
+        "message": "<strong>Runaway Takeoff Prevention Enabled<\/strong>"
+    },
+    "boardInfoReceived": {
+        "message": "Dewan: <strong>$1<\/strong>, versi: <strong>$2<\/strong>"
+    },
+    "buildInfoReceived": {
+        "message": "Menjalankan dirilisnya firmware pada: <strong>$1<\/strong>"
+    },
+    "fcInfoReceived": {
+        "message": "Penerbangan controller info, identifier: <strong>$1<\/strong>, versi: <strong>$2<\/strong>"
+    },
+    "versionLabelTarget": {
+        "message": "Sasaran"
+    },
+    "versionLabelFirmware": {
+        "message": "Firmware"
+    },
+    "versionLabelConfigurator": {
+        "message": "Konfigurator"
+    },
+    "notifications_app_just_updated_to_version": {
+        "message": "Aplikasi baru saja di perbarui ke versi: $1"
+    },
+    "notifications_click_here_to_start_app": {
+        "message": "Klik di sini untuk memulai aplikasi"
+    },
+    "statusbar_port_utilization": {
+        "message": "Pemanfaatan pelabuhan:"
+    },
+    "statusbar_usage_download": {
+        "message": "D: $1%"
+    },
+    "statusbar_usage_upload": {
+        "message": "U: $1%"
+    },
+    "statusbar_packet_error": {
+        "message": "Kesalahan paket:"
+    },
+    "statusbar_i2c_error": {
+        "message": "I2C kesalahan:"
+    },
+    "statusbar_cycle_time": {
+        "message": "Siklus Waktu:"
+    },
+    "statusbar_cpu_load": {
+        "message": "Beban CPU: $1%"
+    },
+    "dfu_connect_message": {
+        "message": "Harap gunakan Flasher Firmware untuk mengakses perangkat DFU"
+    },
+    "dfu_erased_kilobytes": {
+        "message": "Dihapus $1 kB dari flash<span class=\"message-positive\">berhasil<\/span>"
+    },
+    "dfu_device_flash_info": {
+        "message": "Terdeteksi perangkat dengan ukuran flash total $ 1 KiB"
+    },
+    "dfu_error_image_size": {
+        "message": "<span class=\"message-negative\">salah<\/span>gambar disediakan lebih besar dari flash yang ada di chip! gambar: $1 KiB, batas = $2 KiB"
+    },
+    "eeprom_saved_ok": {
+        "message": "<span class=\"pesan-positive\">Salah<\/span>"
+    },
+    "defaultWelcomeIntro": {
+        "message": "Selamat Datang ke <strong>Betaflight - Konfigurator<\/strong>, sebuah utilitas yang dirancang untuk menyerdahanakan pembaruan, mengkonfigurasi dan menyetel pengontrol penerbangan anda."
+    },
+    "defaultWelcomeHead": {
+        "message": "Perangkat Keras"
+    },
+    "defaultWelcomeText": {
+        "message": "Aplikasi ini mendukung semua hardware yang dapat menjalankan Betaflight. Check flash tab untuk daftar lengkap dari perangkat keras.<br><br> <a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\"target=\"_blank\"> Download Betaflight Blackbox<\/a><br \/><br \/>firmware source code dapat didownload dari <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">di sini<\/a><br \/>biner terbaru gambar firmware tersedia <a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">di sini<\/a><br \/><br \/>Terbaru <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210x Driver<\/a> bisa diunduh dari <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">di sini<\/a><br \/>Terbaru <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB Driver VCP<\/a> bisa diunduh dari <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">di sini<\/a><br \/>Terbaru <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> untuk Windows USB driver instalasi yang dapat di unduh dari <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">di sini<\/a><br \/>"
+    },
+    "defaultContributingHead": {
+        "message": "Berkontribusi"
+    },
+    "defaultContributingText": {
+        "message": "Jika anda bisa membantu menjadikan Betaflight jadi lebih baik, anda bisa membantu dengan bermacam cara, termasuk:<br\/><ul> <li>Menjawab pertanyaan pengguna lainnya di forum dan IRC.<\/li> <li>Menyumbang kode ke firmware dan konfigurator - fitur baru, perbaikan, fasilitas<\/li><li>Menguji<a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">fitur baru\/perbaikan<\/a> dan memberikan umpan balik.<\/li><li>Membantu dengan <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">Menerbitkan dan memberikan komentar pada fitur permintaan<\/a>.<\/li><li>Berkolaborasi dengan <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\"> menerjemahkan aplikasi configurasi<\/a> ke dalam bahasa anda.<\/li><li><\/li><\/ul>"
+    },
+    "defaultChangelogAction": {
+        "message": "Changelog"
+    },
+    "defaultChangelogHead": {
+        "message": "Configurasi - Changelog"
+    },
+    "defaultButtonFirmwareFlasher": {
+        "message": "Firmware Flasher"
+    },
+    "defaultDonateHead": {
+        "message": "Sumber Serbuka \/ Peringatan Donasi"
+    },
+    "defaultDonateText": {
+        "message": "Utilitas ini adalah sepenuhnya <strong>open source<\/strong> dan tersedia secara gratis untuk semua <strong>Betaflight<\/strong> pengguna.<br \/>Jika anda menemukan Betaflight atau Betaflight configurator yang berguna, silakan mempertimbangkan <strong>mendukung<\/strong> perkembangannya dengan menyumbang."
+    },
+    "defaultDonate": {
+        "message": "Menyumbangkan"
+    },
+    "defaultSponsorsHead": {
+        "message": "Pendukung"
+    },
+    "defaultDocumentationHead": {
+        "message": "Dokumentasi \/ Manual"
+    },
+    "defaultDocumentation": {
+        "message": "Dokumentasi Betaflight tersedia dalam catatan rilis dan wiki.<br \/><br \/>"
+    },
+    "defaultDocumentation1": {
+        "message": "Wiki Betaflight merupakan sumber informasi yang sangat bagus, bisa ditemukan <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">di sini<\/a>."
+    },
+    "defaultDocumentation2": {
+        "message": "Catatan rilis untuk firmware bisa di baca di GitHub rilis di halaman, <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">di sini<\/a>."
+    },
+    "defaultSupportHead": {
+        "message": "Mendukung"
+    },
+    "defaultSupportSubline1": {
+        "message": "Sumber Dukungan"
+    },
+    "defaultSupportSubline2": {
+        "message": "Pengembang"
+    },
+    "defaultSupport": {
+        "message": "Untuk bantuan silahkan cari forum dan wiki terlebih dahulu atau hubungi vendor anda.<br \/><br \/>"
+    },
+    "defaultSupport1": {
+        "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">RC Kelompok <\/a>"
+    },
+    "defaultSupport2": {
+        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">GitHub<\/a>"
+    },
+    "defaultSupport3": {
+        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Betaflight Video<\/a>"
+    },
+    "defaultSupport4": {
+        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+    },
+    "defaultSupport5": {
+        "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">GitHub<\/a>"
+    },
+    "initialSetupBackupAndRestoreApiVersion": {
+        "message": "<span class=\"pesan-negatif\">Cadangan dan memulihkan fungsi dinonaktifkan.<\/span> Anda memiliki firmware dengan versi API <span class=\"pesan-negatif\">$1<\/span>, backup dan restore yang dibutuhkan <span class=\"pesan positif\">$2<\/span>. Mohon cadangan pengaturan anda melalui CLI, lihat Betaflight dokumentasi prosedur."
+    },
+    "initialSetupButtonCalibrateAccel": {
+        "message": "Menyesuaikan Accelerometer"
+    },
+    "initialSetupCalibrateAccelText": {
+        "message": "Tempatkan papan atau kerangka pada <strong>diratakan<\/strong> permukaan, lanjutkan dengan kalibrasi, pastikan platform tidak bergerak selama periode kalibrasi"
+    },
+    "initialSetupButtonCalibrateMag": {
+        "message": "Penyesuaian Magnetometer"
+    },
+    "initialSetupCalibrateMagText": {
+        "message": "Pindahkan multirotor setidaknya <strong>360<\/strong> derajat pada semua sumbu rotasi, anda memiliki 30 detik untuk melakukan tugas ini"
+    },
+    "initialSetupButtonCalibratingText": {
+        "message": "Mengkalibrasi..."
+    },
+    "initialSetupButtonReset": {
+        "message": "Atur ulang Pengaturan"
+    },
+    "initialSetupResetText": {
+        "message": "Mengembalikan pengaturan ke <strong>standar<\/strong>"
+    },
+    "initialSetupButtonBackup": {
+        "message": "Cadangan"
+    },
+    "initialSetupButtonRestore": {
+        "message": "Mengembalikan"
+    },
+    "initialSetupBackupRestoreText": {
+        "message": "<strong>Backup<\/strong> konfigurasi anda dalam kasus kecelakaan, <strong>CLI<\/strong> pengaturan <span class=\"pesan-negatif\">tidak<\/span> termasuk - Lihat 'dump' perintah cli"
+    },
+    "initialSetupBackupSuccess": {
+        "message": "Backup disimpan <span class=\"pesan positif\">berhasil<\/span>"
+    },
+    "initialSetupRestoreSuccess": {
+        "message": "Pemulihan configurasi <span class=\"pesan-positive\">berhasil<\/span>"
+    },
+    "initialSetupButtonResetZaxis": {
+        "message": "Reset sumbu Z, offset: 0 derajat"
+    },
+    "initialSetupButtonResetZaxisValue": {
+        "message": "Reset sumbu Z, offset: 1 derajat"
+    },
+    "initialSetupMixerHead": {
+        "message": "Jenis mixer"
+    },
+    "initialSetupThrottleHead": {
+        "message": "Pengaturan throttle"
+    },
+    "initialSetupMinimum": {
+        "message": "Minimum:"
+    },
+    "initialSetupMaximum": {
+        "message": "Maksimum:"
+    },
+    "initialSetupFailsafe": {
+        "message": "Tidak aman:"
+    },
+    "initialSetupMinCommand": {
+        "message": "MinCommand:"
+    },
+    "initialSetupBatteryHead": {
+        "message": "Baterai"
+    },
+    "initialSetupMinCellV": {
+        "message": "Minimal Tegangan Sel:"
+    },
+    "initialSetupMaxCellV": {
+        "message": "Max Cell Voltage:"
+    },
+    "initialSetupVoltageScale": {
+        "message": "Skala Tegangan:"
+    },
+    "initialSetupAccelTrimsHead": {
+        "message": "Memotong accelerometer"
+    },
+    "initialSetupPitch": {
+        "message": "Nada:"
+    },
+    "initialSetupRoll": {
+        "message": "Gulungan:"
+    },
+    "initialSetupMagHead": {
+        "message": "Magnetometer"
+    },
+    "initialSetupDeclination": {
+        "message": "Penolakan:"
+    },
+    "initialSetupInfoHead": {
+        "message": "Info"
+    },
+    "initialSetupBattery": {
+        "message": "Tegangan baterai:"
+    },
+    "initialSetupBatteryValue": {
+        "message": "$1 V"
+    },
+    "initialSetupDrawn": {
+        "message": "Kapasitas yang ditarik:"
+    },
+    "initialSetupDrawing": {
+        "message": "Hasil saat ini:"
+    },
+    "initialSetupBatteryMahValue": {
+        "message": "$1 mAh"
+    },
+    "initialSetupBatteryAValue": {
+        "message": "$1 A"
+    },
+    "initialSetupRSSI": {
+        "message": "RSSI:"
+    },
+    "initialSetupRSSIValue": {
+        "message": "$1 %"
+    },
+    "initialSetupArmingDisableFlags": {
+        "message": "Arming Nonaktifkan Flags:"
+    },
+    "initialSetupArmingAllowed": {
+        "message": "Arming Diizinkan"
+    },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "Daftar flags yang menunjukkan mengapa arming saat ini tidak di perbolehkan. Nilai pertama dan terpenting sesuai dengan jumlah peringatan beep yang terdengar ketika arming dicoba. Silakan lihat halaman Wiki ('Arming Sequence & Safety') untuk deskripsi tentang arti dari flag-flag ini."
+    },
+    "initialSetupGPSHead": {
+        "message": "GPS"
+    },
+    "initialSetupInstrumentsHead": {
+        "message": "Instrumen"
+    },
+    "initialSetupButtonSave": {
+        "message": "Simpan"
+    },
+    "initialSetupModel": {
+        "message": "Model: $ 1"
+    },
+    "initialSetupAttitude": {
+        "message": "$ 1 deg"
+    },
+    "initialSetupAccelCalibStarted": {
+        "message": "Kalibrasi akselerometer dimulai"
+    },
+    "initialSetupAccelCalibEnded": {
+        "message": "Kalibrasi akselerometer<span class =\"message-positive\">selesai<\/span>"
+    },
+    "initialSetupMagCalibStarted": {
+        "message": "Kalibrasi magnetometer dimulai"
+    },
+    "initialSetupMagCalibEnded": {
+        "message": "Kalibrasi Magnetometer <span class =\"message-positive\">selesai<\/span>"
+    },
+    "initialSetupSettingsRestored": {
+        "message": "Pengaturan di kembalikan ke <strong>awal<\/strong>"
+    },
+    "initialSetupEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">disimpan<\/span>"
+    },
+    "featureNone": {
+        "message": "&lt;Pilih Satu&gt;"
+    },
+    "featureRX_PPM": {
+        "message": "Masukan PPM RX"
+    },
+    "featureVBAT": {
+        "message": "Pemantauan tegangan baterai"
+    },
+    "featureINFLIGHT_ACC_CAL": {
+        "message": "Kalibrasi tingkat penerbangan"
+    },
+    "featureRX_SERIAL": {
+        "message": "Berdasarkan serial penerima (SPEKSAT, SBUS, SUMD)"
+    },
+    "featureMOTOR_STOP": {
+        "message": "Jangan memutar motor ketika bersenjata"
+    },
+    "featureSERVO_TILT": {
+        "message": "Servo gimbal"
+    },
+    "featureSOFTSERIAL": {
+        "message": "Mengaktifkan CPU berdasarkan port serial"
+    },
+    "featureSOFTSERIALTip": {
+        "message": "Konfigurasi port pada tab port setelah mengaktifkan."
+    },
+    "featureGPS": {
+        "message": "GPS untuk navigasi dan telemetri"
+    },
+    "featureGPSTip": {
+        "message": "Konfigurasikan skenario port terlebih dulu"
+    },
+    "featureSONAR": {
+        "message": "Sonar"
+    },
+    "featureTELEMETRY": {
+        "message": "Hasil telemetri"
+    },
+    "featureCURRENT_METER": {
+        "message": "Pemantauan baterai saat ini"
+    },
+    "feature3D": {
+        "message": "Mode 3D (untuk digunakan dengan reversibel ESCs)"
+    },
+    "featureRX_PARALLEL_PWM": {
+        "message": "Masukan PWM RX (satu kawat per saluran)"
+    },
+    "featureRX_MSP": {
+        "message": "Masukan MSP RX (kontrol melalui port MSP)"
+    },
+    "featureRSSI_ADC": {
+        "message": "Masukan RSSI analog"
+    },
+    "featureLED_STRIP": {
+        "message": "Mendukung banyak warna strip RGB LED"
+    },
+    "featureDISPLAY": {
+        "message": "Tampilan layar OLED"
+    },
+    "featureDISPLAYTip": {
+        "message": "Jika fitur ini di aktifkan, dan tidak ada tampilan perangkat yang terhubung (atau tampilan perangkat tidak bertenaga), akan ada sebuah penundaan sekitar. 10 detik pada setiap mengulang kembali dari pengontrol penerbangan."
+    },
+    "featureONESHOT125": {
+        "message": "Mendukung ESC ONESHOT"
+    },
+    "featureONESHOT125Tip": {
+        "message": "Lepaskan baterai penerbangan dan hapus alat peraga sebelum mengaktifkan."
+    },
+    "featureBLACKBOX": {
+        "message": "Catatan data kotak hitam penerbangan"
+    },
+    "featureBLACKBOXTip": {
+        "message": "Konfigurasi melalui tab kotak hitam sesudah mengaktifkan."
+    },
+    "featureRX_SPI": {
+        "message": "Dukungan SPI RX"
+    },
+    "featureESC_SENSOR": {
+        "message": "Gunakan telemetri KISS \/ BLHeli_32 ESC sebagai sensor"
+    },
+    "featureCHANNEL_FORWARDING": {
+        "message": "Meneruskan saluran aux ke output servo"
+    },
+    "featureTRANSPONDER": {
+        "message": "Jenis Transponder"
+    },
+    "featureTRANSPONDERTip": {
+        "message": "Konfigurasi melalui tab Race Transponder setelah mengaktifkan."
+    },
+    "featureAIRMODE": {
+        "message": "Secara permanen aktifkan Airmode"
+    },
+    "featureSUPEREXPO_RATES": {
+        "message": "Super Tarif Expo"
+    },
+    "featureSDCARD": {
+        "message": "Mendukung SDCard (untuk loging)"
+    },
+    "featureOSD": {
+        "message": "Pada Tampilan Layar"
+    },
+    "featureVTX": {
+        "message": "Pemancar Video"
+    },
+    "featureANTI_GRAVITY": {
+        "message": "Sementara saya menaikkan i-Term pada perubahan throttle tinggi"
+    },
+    "featureDYNAMIC_FILTER": {
+        "message": "Dynamic gyro notch filtering"
+    },
+    "featureFAILSAFE": {
+        "message": "Aktifkan Failsafe Tahap 2"
+    },
+    "featureFAILSAFEOld": {
+        "message": "Atifkan Failsafe"
+    },
+    "featureFAILSAFETip": {
+        "message": "<strong>Catatan:<\/strong> Saat Tahap 2 DISABLED, setelan mundur <strong>Otomatis<\/strong> digunakan alih-alih setelan pengguna untuk semua flightchannels (Gulungan, Pitch, Yaw dan Throttle)."
+    },
+    "featureFAILSAFEOldTip": {
+        "message": "Terapkan pengaturan gagal menyimpan pada sinyal RX yang hilang"
+    },
+    "configurationFeatureEnabled": {
+        "message": "Diaktifkan"
+    },
+    "configurationFeatureName": {
+        "message": "Fitur"
+    },
+    "configurationFeatureDescription": {
+        "message": "Deskripsi"
+    },
+    "configurationMixer": {
+        "message": "Pengaduk"
+    },
+    "configurationFeatures": {
+        "message": "Fitur Lain"
+    },
+    "configurationReceiver": {
+        "message": "Penerima"
+    },
+    "configurationReceiverMode": {
+        "message": "Mode Penerima"
+    },
+    "configurationRSSI": {
+        "message": "RSSI (Kekuatan Sinyal)"
+    },
+    "configurationRSSIHelp": {
+        "message": "RSSI adalah pengukuran kekuatan sinyal dan sangat berguna sehingga Anda tahu kapan pesawat Anda berada di luar jangkauan atau jika mengalami gangguan RF."
+    },
+    "configurationEscFeatures": {
+        "message": "ESC \/ Fitur Motor"
+    },
+    "configurationFeaturesHelp": {
+        "message": "<strong>Catatan:<\/strong> Tidak semua kombinasi dari fitur berlaku. Ketika perangkat tetap pengontrol penerbangan mendeteksi kombinasi fitur yang tidak berlaku dan fitur yang bertentangan akan dinonaktifkan.<br \/> <strong>Catatan:<\/strong> Konfigurasi port serial <span class=\"message-negative\">sebelum<\/span> mengaktifkan fitur yang akan menggunakan port."
+    },
+    "configurationSerialRXHelp": {
+        "message": "<strong>Catatan:<\/strong> Ingatlah selalu untuk mengkonfigurasi serial Port (melalui tab Ports) dan memilih Penyedia Seri Receiver saat menggunakan fitur RX_SERIAL."
+    },
+    "configurationSpiRxHelp": {
+        "message": "<strong>Catatan:<\/strong> Penyedia SPI RX hanya akan bekerja jika perangkat keras yang diperlukan ada di kapal atau terhubung ke bus SPI."
+    },
+    "configurationOtherFeaturesHelp": {
+        "message": "<strong>Catatan: <\/strong> Tidak semua fitur didukung oleh semua pengontrol penerbangan. Jika anda mengaktifkan fitur tertentu, dan ini dinonaktifkan sesudah anda menekan 'Simpan and Mulai ulang', artinya fitur ini tidak didukung di papan anda."
+    },
+    "configurationBoardAlignment": {
+        "message": "Papan dan sensor kesejajaran"
+    },
+    "configurationBoardAlignmentRoll": {
+        "message": "Derajat Roll"
+    },
+    "configurationBoardAlignmentPitch": {
+        "message": "Gelar Pitch"
+    },
+    "configurationBoardAlignmentYaw": {
+        "message": "Gelar Yaw"
+    },
+    "configurationSensorAlignmentGyro": {
+        "message": "GYRO Alignment"
+    },
+    "configurationSensorAlignmentAcc": {
+        "message": "Alur ACCEL"
+    },
+    "configurationSensorAlignmentMag": {
+        "message": "Keselarasan MAG"
+    },
+    "configurationSensorAlignmentDefaultOption": {
+        "message": "Standar"
+    },
+    "configurationAccelTrims": {
+        "message": "Memangkas Accelerometer"
+    },
+    "configurationAccelTrimRoll": {
+        "message": "Memangkas Accelerometer Roll"
+    },
+    "configurationAccelTrimPitch": {
+        "message": "Trim Nada Akselerometer"
+    },
+    "configurationArming": {
+        "message": "Persenjataan"
+    },
+    "configurationArmingHelp": {
+        "message": "Beberapa pilihan Arming mungkin memerlukan accelerometer yang diaktifkan"
+    },
+    "configurationMagDeclination": {
+        "message": "Deklinasi Magnetometer [deg]"
+    },
+    "configurationReverseMotorSwitch": {
+        "message": "Arah motor dibalik"
+    },
+    "configurationReverseMotorSwitchHelp": {
+        "message": "Mengaktifkan pilihan ini akan memberi tahu Betaflight bahwa motor dan alat peraga di atur untuk berjalan dalam arah sebaliknya."
+    },
+    "configurationAutoDisarmDelay": {
+        "message": "mematikan motor setelah penundaan ditetapkan [seconds] (Memerlukan fitur MOTOR_STOP)"
+    },
+    "configurationDisarmKillSwitch": {
+        "message": "Melucuti motor terlepas dari nilai throttle (Bila ARM dikonfigurasikan melalui tab Modes melalui saluran AUX)"
+    },
+    "configurationDisarmKillSwitchHelp": {
+        "message": "Arming selalu dinonaktifkan saat throttle tidak rendah. Hati-hati karena anda bisa melucuti senjata tanpa sengaja saat beralih dengan pilihan aktif."
+    },
+    "configurationDigitalIdlePercent": {
+        "message": "Nilai Motor Idle Mencekik [percent]"
+    },
+    "configurationDigitalIdlePercentHelp": {
+        "message": "Ini adalah nilai 'idle' dalam persen throttle maksimum yang dikirim ke ESC ketika pesawat dipersenjatai dan tongkat trottle berada pada posisi minimum. Tingkatkan nilai persen untuk mendapatkan kecepatan yang lebih rendah."
+    },
+    "configurationThrottleMinimum": {
+        "message": "Minimum Throttle (nilai ESC terendah saat dipersenjatai)"
+    },
+    "configurationThrottleMinimumHelp": {
+        "message": "Ini adalah nilai 'idle' yang di kirim ke ESC ketika pesawat dipersenjatai dan tongkat trottle berada pada posisi minimum. Tingkatkan nilai untuk mendapatkan lebih banyak kecepatan idle. Juga meningkatkan nilai dalam kasus desyncs!"
+    },
+    "configurationThrottleMaximum": {
+        "message": "Maksimum Throttle (Nilai ESC tertinggi ketika dipersenjatai)"
+    },
+    "configurationThrottleMinimumCommand": {
+        "message": "Perintah Minimum (nilai ESC saat dilucuti senjata)"
+    },
+    "configurationThrottleMinimumCommandHelp": {
+        "message": "Inilah nilai yang di kirim ke ESC ketika pesawat itu di lucuti senjata. Tetapkan ini pada nilai yang menyebabkan motor berhenti (1000 untuk kebanyakan ESC)."
+    },
+    "configurationDshotBeeper": {
+        "message": "Konfigurasi Beacon DSHOT"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "Gunakan suar DSHOT (gunakan motor untuk berbunyi bip saat dilucuti senjata)"
+    },
+    "configurationDshotBeaconTone": {
+        "message": "Nada Beacon"
+    },
+    "configurationBeeper": {
+        "message": "Konfigurasi Pager"
+    },
+    "beeperGYRO_CALIBRATED": {
+        "message": "Berbunyi ketika gyro sudah sesuaikan"
+    },
+    "beeperRX_LOST": {
+        "message": "Berbunyi ketika TX dimatikan atau sinyal hilang (ulangi sampai TX baik-baik saja)"
+    },
+    "beeperRX_LOST_LANDING": {
+        "message": "Beep SOS ketika bersenjata dan TX dimatikan atau sinyal hilang (auto landing\/auto melucuti senjata)"
+    },
+    "beeperDISARMING": {
+        "message": "Beep saat melucuti pelacak penerbangan"
+    },
+    "beeperARMING": {
+        "message": "Beep ketika mempersenjatai pengontrol penerbangan"
+    },
+    "beeperARMING_GPS_FIX": {
+        "message": "Beep nada khusus ketika arming board dan GPS telah diperbaiki"
+    },
+    "beeperBAT_CRIT_LOW": {
+        "message": "Bunyi peringatan yang lama ketika baterai sangat rendah (berulang)"
+    },
+    "beeperBAT_LOW": {
+        "message": "Bunyi peringatan ketika baterai sudah mulai rendah (berulang)"
+    },
+    "beeperRX_SET": {
+        "message": "Berbunyi ketika saluran aux diatur untuk berbunyi atau urutan bunyi seberapa banyak satelit sudah ditemukan apabila GPS diaktifkan"
+    },
+    "beeperDISARM_REPEAT": {
+        "message": "Bunyi beep terdengar sambil tetap memegang posisi melucuti senjata"
+    },
+    "beeperACC_CALIBRATION": {
+        "message": "Kalibrasi dalam penerbangan akselerometer konfirmasi selesai"
+    },
+    "beeperACC_CALIBRATION_FAIL": {
+        "message": "Kalibrasi dalam penerbangan Accelerometer gagal"
+    },
+    "beeperREADY_BEEP": {
+        "message": "Deringkan sebuah nada ketika GPS terkunci dan siap"
+    },
+    "beeperARMED": {
+        "message": "Peringatan berbunyi beep ketika board dipersenjatai (mengulangi sampai board dilucuti atau throttle dinaikkan)"
+    },
+    "beeperSYSTEM_INIT": {
+        "message": "Initialisation beep saat board dinyalakan"
+    },
+    "beeperUSB": {
+        "message": "Beep ketika pengontrol terbang diaktifkan dari USB. Matikan ini bila anda tidak ingin pager di meja kerja"
+    },
+    "beeperBLACKBOX_ERASE": {
+        "message": "Bunyikan saat penghapusan kotak hitam selesai"
+    },
+    "configuration3d": {
+        "message": "3D ESC\/Fitur Motor"
+    },
+    "configuration3dDeadbandLow": {
+        "message": "Deadband 3D Rendah"
+    },
+    "configuration3dDeadbandHigh": {
+        "message": "Deadband 3D Tinggi"
+    },
+    "configuration3dNeutral": {
+        "message": "3D Netral"
+    },
+    "configuration3dDeadbandThrottle": {
+        "message": "3D Deadband Mencekik"
+    },
+    "configurationSystem": {
+        "message": "Sistem konfigurasi"
+    },
+    "configurationLoopTime": {
+        "message": "Waktu Putaran Pengontrol Penerbangan"
+    },
+    "configurationCalculatedCyclesSec": {
+        "message": "Siklus\/Detik [Hz]"
+    },
+    "configurationLoopTimeHelp": {
+        "message": "<strong>Catatan:<\/strong> Pastikan FC anda mampu untuk beroperasi pada kecepatan ini! Periksa CPU dan kestabilan siklus waktu. Perubahan ini mungkin memerlukan penyetelan ulang PID. Petunjuk: Nonaktifkan Accelerometer dan sensor lainnya untuk mendapatkan kinerja yang lebih."
+    },
+    "configurationGPS": {
+        "message": "GPS"
+    },
+    "configurationGPSProtocol": {
+        "message": "Protokol"
+    },
+    "configurationGPSBaudrate": {
+        "message": "Baudrate"
+    },
+    "configurationGPSubxSbas": {
+        "message": "Jenis Bantuan Dasar"
+    },
+    "configurationGPSAutoBaud": {
+        "message": "Auto Baud"
+    },
+    "configurationGPSAutoConfig": {
+        "message": "Konfigurasi Otomatis"
+    },
+    "configurationGPSHelp": {
+        "message": "<strong>Catatan:<\/strong> Ingat untuk konfigurasi sebuah Port Serial (melalui Port tab) ketika menggunakan fitur GPS."
+    },
+    "configurationSerialRX": {
+        "message": "Penyedia penerima seri"
+    },
+    "configurationSpiRX": {
+        "message": "Penyedia penerima seri"
+    },
+    "configurationEepromSaved": {
+        "message": "EEPROM <span class=\"pesan positif\">diselamatkan<\/span>"
+    },
+    "configurationButtonSave": {
+        "message": "Simpan dan Mulai Kembali"
+    },
+    "portsIdentifier": {
+        "message": "Pengenal"
+    },
+    "portsConfiguration": {
+        "message": "Konfigurasi\/MSP"
+    },
+    "portsSerialRx": {
+        "message": "Serial Rx"
+    },
+    "portsSensorIn": {
+        "message": "Input Sensor"
+    },
+    "portsTelemetryOut": {
+        "message": "Telemetri Output"
+    },
+    "portsPeripherals": {
+        "message": "Peripheral"
+    },
+    "portsHelp": {
+        "message": "<strong>Catatan:<\/strong> tidak semua kombinasi cocok. Bila pengendali firmware penerbangan telah menemukan konfigurasi port serial ini akan diatur ulang."
+    },
+    "portsMSPHelp": {
+        "message": "<strong>Catatan:<\/strong> Lakukan <span class =\"message-negative\">TIDAK<\/span> nonaktifkan MSP pada port serial pertama kecuali kamu sudah tahu apa yang kamu lakukan. Mungkin kamu harus melakukan refleksi dan menghapus konfigurasi kamu jika kamu melakukannya."
+    },
+    "portsFirmwareUpgradeRequired": {
+        "message": "Upgrade Firmware <span class=\"pesan-negatif\">dibutuhkan<\/span>. Serial port konfigurasi firmware &lt; 1.8.0 tidak didukung."
+    },
+    "portsButtonSave": {
+        "message": "Simpan dan Reboot"
+    },
+    "portsTelemetryDisabled": {
+        "message": "Dinonaktifkan"
+    },
+    "portsFunction_MSP": {
+        "message": "MSP"
+    },
+    "portsFunction_GPS": {
+        "message": "GPS"
+    },
+    "portsFunction_TELEMETRY_FRSKY": {
+        "message": "FrSky"
+    },
+    "portsFunction_TELEMETRY_HOTT": {
+        "message": "HoTT"
+    },
+    "portsFunction_TELEMETRY_LTM": {
+        "message": "LTM"
+    },
+    "portsFunction_TELEMETRY_MAVLINK": {
+        "message": "MAVLink"
+    },
+    "portsFunction_TELEMETRY_MSP": {
+        "message": "MSP"
+    },
+    "portsFunction_TELEMETRY_SMARTPORT": {
+        "message": "SmartPort"
+    },
+    "portsFunction_TELEMETRY_IBUS": {
+        "message": "iBUS"
+    },
+    "portsFunction_TELEMETRY_JETIXBUS": {
+        "message": "JETIXBUS"
+    },
+    "portsFunction_TELEMETRY_CRSF": {
+        "message": "CRSF"
+    },
+    "portsFunction_TELEMETRY_SRXL": {
+        "message": "SRXL"
+    },
+    "portsFunction_ESC_SENSOR": {
+        "message": "ESC"
+    },
+    "portsFunction_RX_SERIAL": {
+        "message": "Serial Rx"
+    },
+    "portsFunction_BLACKBOX": {
+        "message": "Blackbox logging"
+    },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "TBS SmartAudio"
+    },
+    "portsFunction_IRC_TRAMP": {
+        "message": "IRC Tramp"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "Perangkat RunCam"
+    },
+    "pidTuningProfileOption": {
+        "message": "Profil $1"
+    },
+    "pidTuningRateProfileOption": {
+        "message": "Rateprofile $1"
+    },
+    "portsFunction_LIDAR_TF": {
+        "message": "Benewake LIDAR"
+    },
+    "pidTuningUpgradeFirmwareToChangePidController": {
+        "message": "<span class=\"message-negative\">Mengubah pengendali PID yang dinonaktifkan - anda bisa mengubahnya melalui CLI.<\/span> Anda mempunyai firmware dengan versi API <span class = \"message-negative\">$1<\/span>, namun Fungsi ini memerlukan <span class=\"message-positive\">$2<\/span>."
+    },
+    "pidTuningSubTabPid": {
+        "message": "Pengaturan PID"
+    },
+    "pidTuningSubTabFilter": {
+        "message": "Pengaturan Filter"
+    },
+    "pidTuningShowAllPids": {
+        "message": "Tampilkan semua PID"
+    },
+    "pidTuningHideUnusedPids": {
+        "message": "Sembunyikan PID yang tidak dipakai"
+    },
+    "pidTuningNonProfilePidSettings": {
+        "message": "Profil pengatur PID pengontrol yang independen"
+    },
+    "pidTuningAntiGravityGain": {
+        "message": "Keuntungan anti gravitasi"
+    },
+    "pidTuningAntiGravityThres": {
+        "message": "Anti Gravity Threshold"
+    },
+    "pidTuningPidSettings": {
+        "message": "Pengaturan Kontrol PID"
+    },
+    "receiverRcInterpolation": {
+        "message": "RC Interpolasi"
+    },
+    "receiverRcInterpolationHelp": {
+        "message": "Sistem RC TX\/RX tidak secepat seperti loop PID. Artinya bahwa loop PID memiliki kesengajaan dalam informasi dari sistem RC. Pilihan ini mengaktifkan interpolasi Input RC pada saat tidak ada kerangka RC diterima. Pilihan ini juga menawarkan perilaku P dan D yang lebih bersih karena tidak ada jalur landai pada kontrol input."
+    },
+    "receiverRcInterpolationIntervalHelp": {
+        "message": "Jeda interpolasi untuk mode interpolasi RC manual dalam milidetik"
+    },
+    "receiverRcInterpolationOff": {
+        "message": "Mati"
+    },
+    "receiverRcInterpolationDefault": {
+        "message": "Preset"
+    },
+    "receiverRcInterpolationAuto": {
+        "message": "Auto"
+    },
+    "receiverRcInterpolationManual": {
+        "message": "Manual"
+    },
+    "receiverRcInterpolationInterval": {
+        "message": "Interpolasi Interval RC [ms]"
+    },
+    "pidTuningDtermSetpointTransition": {
+        "message": "D Setpoint transisi"
+    },
+    "pidTuningDtermSetpoint": {
+        "message": "D Setpoint banyak"
+    },
+    "pidTuningDtermSetpointTransitionHelp": {
+        "message": "Dengan parameter ini, D Setpoint Weight dapat dikurangi di dekat bagian tengah stik, yang mana menghasilkan ujung flips dan gulungan yang lebih halus.<br>Nilai mewakili titik defleksi tongkat: 0 - menempel terpusat, 1 - defleksi penuh. Bila tongkat berada di atas titik itu, bobot setpoint dijaga konstan pada nilai konfigurasinya. Bila tongkat diletakkan di bawah titik itu, bobot setpoint dikurangi secara proporsional, mencapai 0 pada posisi batang tegak.<br>Nilai 1 memberikan efek perataan maksimum, sedangkan nilai 0 menjaga bobot setpoint tetap pada nilai konfigurasinya selama rentang seluruh tongkat."
+    },
+    "pidTuningDtermSetpointHelp": {
+        "message": "Parameter ini menentukan efek akselerasi tongkat dalam komponen turunan.<br>Nilai 0 sama dengan metode Measuemenent lama dimana D hanya melacak gyro, sedangkan nilai 1 sama dengan metode Error lama dengan rasio pelacakan gyro dan stick yang sama.<br>Nilai yang lebih rendah sama dengan respons tongkat yang lebih lambat \/ lebih halus, sedangkan nilai yang lebih tinggi memberikan respon percepatan stick lebih banyak.<br>Perhatikan bahwa interpolasi RC dianjurkan untuk diaktifkan dengan nilai yang lebih tinggi untuk mencegah tendangan kontrol menghasilkan suara."
+    },
+    "pidTuningProportional": {
+        "message": "Proporsional"
+    },
+    "pidTuningIntegral": {
+        "message": "Integral"
+    },
+    "pidTuningDerivative": {
+        "message": "Turunan"
+    },
+    "pidTuningRcRate": {
+        "message": "RC Menilai"
+    },
+    "pidTuningMaxVel": {
+        "message": "Max Vel [deg\/s]"
+    },
+    "pidTuningRate": {
+        "message": "Menilai"
+    },
+    "pidTuningSuperRate": {
+        "message": "Super Laju"
+    },
+    "pidTuningRatesPreview": {
+        "message": "Tarif Preview"
+    },
+    "pidTuningRcExpo": {
+        "message": "RC Expo"
+    },
+    "pidTuningTPA": {
+        "message": "TPA"
+    },
+    "pidTuningTPABreakPoint": {
+        "message": "TPA Breakpoint"
+    },
+    "pidTuningFilter": {
+        "message": "Saringan"
+    },
+    "pidTuningFilterFrequency": {
+        "message": "Frekuensi"
+    },
+    "pidTuningRatesCurve": {
+        "message": "Angka"
+    },
+    "throttle": {
+        "message": "Mencekik"
+    },
+    "pidTuningButtonSave": {
+        "message": "Menyimpan"
+    },
+    "pidTuningButtonRefresh": {
+        "message": "Menyegarkan"
+    },
+    "pidTuningProfileHead": {
+        "message": "Profil"
+    },
+    "pidTuningControllerHead": {
+        "message": "Pengotrol PID"
+    },
+    "pidTuningCopyProfile": {
+        "message": "Salin nilai profil"
+    },
+    "pidTuningCopyRateProfile": {
+        "message": "Salin nilai angka profil"
+    },
+    "dialogCopyProfileText": {
+        "message": "Salin nilai dari profil saat ini ke"
+    },
+    "dialogCopyRateProfileText": {
+        "message": "Salin nilai dari rateprofile saat ini ke"
+    },
+    "dialogCopyProfileTitle": {
+        "message": "Salin nilai profil"
+    },
+    "dialogCopyProfileNote": {
+        "message": "Semua nilai pada profil tujuan akan dihapus dan ditimpa"
+    },
+    "dialogCopyProfileConfirm": {
+        "message": "Salin"
+    },
+    "dialogCopyProfileClose": {
+        "message": "Batal"
+    },
+    "pidTuningResetProfile": {
+        "message": "Atur ulang semua nilai-nilai profil"
+    },
+    "pidTuningProfileReset": {
+        "message": "Nilai profil bawaan bawaan."
+    },
+    "pidTuningReceivedProfile": {
+        "message": "Pengontrol penerbangan mengatur Profil: <strong class = \"message-positive\"> $1 <\/strong>"
+    },
+    "pidTuningReceivedRateProfile": {
+        "message": "Kontroler penerbangan mengatur Rateprofile: <strong class = \"message-positive\">$1 <\/strong>"
+    },
+    "pidTuningLoadedProfile": {
+        "message": "Profil yang Dimuat: <strong class = \"message-positive\">$1 <\/strong>"
+    },
+    "pidTuningLoadedRateProfile": {
+        "message": "Dimuat Rateprofile: <strong class=\"pesan positif\">$1<\/strong>"
+    },
+    "pidTuningDataRefreshed": {
+        "message": "Data PID <strong>refresh<\/strong>"
+    },
+    "pidTuningEepromSaved": {
+        "message": "EEPROM <span class=\"pesan positif\">diselamatkan<\/span>"
+    },
+    "receiverHelp": {
+        "message": "Silahkan baca penerima bab dokumentasi. Mengkonfigurasi port serial (jika diperlukan), penerima mode (serial\/ppm\/pwm), penyedia (untuk serial receiver), mengikat penerima, atur channel peta, mengkonfigurasi channel endpoint\/range pada TX sehingga semua saluran pergi dari ~1000 ~2000. Menetapkan midpoint (default 1500), trim saluran 1500, mengkonfigurasi tongkat deadband, memverifikasi perilaku ketika TX mati atau diluar jangkauan.<br \/><span class=\"pesan-negatif\">PENTING:<\/span> Sebelum terbang baca failsafe bab dokumentasi dan mengkonfigurasi failsafe."
+    },
+    "tuningHelp": {
+        "message": "<b>Kiat Tuning<\/b><br \/><span class=\"message-negative\">PENTING:<\/span>Penting untuk memverifikasi suhu motor saat penerbangan pertama. Semakin tinggi nilai filter semakin baik, hal itu bisa terbang, tapi Anda juga akan mendapatkan lebih banyak suara ke motor. <br>Nilai default 100Hz optimal, tetapi untuk setup noiser Anda bisa mencoba menurunkan filter Dterm menjadi 50Hz dan mungkin juga filter gyro."
+    },
+    "receiverThrottleMid": {
+        "message": "Throttle MID"
+    },
+    "receiverThrottleExpo": {
+        "message": "Mencekik EXPO"
+    },
+    "receiverStickMin": {
+        "message": "Ambang 'Stick Low'"
+    },
+    "receiverHelpStickMin": {
+        "message": "Nilai maksimum (dalam diri kita) agar stick di kenali sebagai low \/ left untuk input perintah (MIN_CHECK)."
+    },
+    "receiverStickCenter": {
+        "message": "Tongkat pusat"
+    },
+    "receiverHelpStickCenter": {
+        "message": "Nilai (dalam kita) digunakan untuk menentukan apakah sebuah tongkat terpusat (MID_RC)."
+    },
+    "receiverStickMax": {
+        "message": "Ambang 'Stick High'"
+    },
+    "receiverHelpStickMax": {
+        "message": "Nilai minimum (dalam diri kami) agar stik dikenali sebagai high \/ right untuk input perintah (MAX_CHECK)."
+    },
+    "receiverDeadband": {
+        "message": "RC Deadband"
+    },
+    "receiverHelpDeadband": {
+        "message": "Ini adalah nilai (dalam diri kita) dengan berapa banyak masukan RC yang bisa berbeda sebelum dianggap valid. Untuk pemancar dengan jitter pada output, nilai ini dapat ditingkatkan jika input rc berkedut saat menganggur."
+    },
+    "receiverYawDeadband": {
+        "message": "Yaw Deadband"
+    },
+    "receiverHelpYawDeadband": {
+        "message": "Ini adalah nilai (dalam diri kita) dengan berapa banyak masukan RC yang bisa berbeda sebelum dianggap valid. Untuk pemancar dengan jitter pada output, nilai ini dapat ditingkatkan jika input rc berkedut saat menganggur.<strong>Pengaturan ini hanya untuk Yaw.<\/strong>"
+    },
+    "recevier3dDeadbandThrottle": {
+        "message": "Mencekik 3D Deadband"
+    },
+    "receiverHelp3dDeadbandThrottle": {
+        "message": "Ini adalah nilai (dalam diri kita). Untuk memperlebar zona netral akan meningkatkan nilainya.<strong>Pengaturan ini hanya untuk throttle 3D.<\/strong>"
+    },
+    "receiverChannelMap": {
+        "message": "Peta Saluran"
+    },
+    "receiverChannelDefaultOption": {
+        "message": "Standar"
+    },
+    "receiverChannelMapTitle": {
+        "message": "Anda dapat menentukan peta saluran anda sendiri dengan mengklik di dalam kotak"
+    },
+    "receiverRssiChannel": {
+        "message": "Saluran RSSI"
+    },
+    "receiverRssiChannelDisabledOption": {
+        "message": "Cacat"
+    },
+    "receiverRefreshRateTitle": {
+        "message": "Segerkan rasio grafik"
+    },
+    "receiverButtonSave": {
+        "message": "Simpan"
+    },
+    "receiverButtonRefresh": {
+        "message": "Segarkan"
+    },
+    "receiverButtonSticks": {
+        "message": "Tonggkat pengontrol"
+    },
+    "receiverDataRefreshed": {
+        "message": "Data Tuning RC <strong>disegarkan<\/strong>"
+    },
+    "receiverEepromSaved": {
+        "message": "EEPROM <span class =\"message-positive\">simpan<\/span>"
+    },
+    "receiverModelPreview": {
+        "message": "Tinjauan"
+    },
+    "receiverMspWarningText": {
+        "message": "Tongkat ini memungkinkan Betaflight untuk dipersenjatai dan diuji tanpa pemancar atau penerima yang hadir. Namun,<strong>fitur ini tidak ditujukan untuk penerbangan dan baling-baling tidak boleh dilampirkan.<\/strong><br><br>Fitur ini tidak menjamin kontrol yang dapat diandalkan atas keahlian Anda. <strong>Cedera serius kemungkinan terjadi jika baling-baling ditinggalkan.<\/strong>"
+    },
+    "receiverMspEnableButton": {
+        "message": "Aktifkan kontrol"
+    },
+    "auxiliaryHelp": {
+        "message": "Menggunakan rentang untuk menentukan switch pada pemancar dan mode yang cocok. Saluran penerima yang memberi pembacaan antara rentang minimal\/maksimal akan mengaktifkan mode. Ingatlah untuk menyimpan pengaturan anda menggunakan tombol Simpan."
+    },
+    "auxiliaryMin": {
+        "message": "Minimal"
+    },
+    "auxiliaryMax": {
+        "message": "Maksimum"
+    },
+    "auxiliaryAddRange": {
+        "message": "Tambahkan Jarak"
+    },
+    "auxiliaryButtonSave": {
+        "message": "Simpan"
+    },
+    "auxiliaryEepromSaved": {
+        "message": "EEPROM <span class =\"message-positive\"> simpan<\/span>"
+    },
+    "auxiliaryAutoChannelSelect": {
+        "message": "MOBIL"
+    },
+    "adjustmentsHelp": {
+        "message": "Mengkonfigurasi saklar penyesuaian. Lihat bagian 'penyesuaian dalam-penerbangan' manual untuk detilnya. Perubahan yang dilakukan fungsi penyesuaian tidak disimpan secara otomatis. Ada 4 slot. Setiap saklar yang digunakan untuk secara bersamaan melakukan penyesuaian memerlukan penggunaan ekslusif pada sebuah slot."
+    },
+    "adjustmentsExamples": {
+        "message": "Contoh"
+    },
+    "adjustmentsExample1": {
+        "message": "Gunakan Slot 1 dan saklar 3POS pada AUX1 untuk memilih antara Pitch\/Roll P, I dan D dan saklar 3POS lainya pada AUX2 untuk menambah atau mengurangi nilai saat diyakini naik atau turun."
+    },
+    "adjustmentsExample2": {
+        "message": "Gunakan Slot 2 dan sakelar 3POS di AUX4 untuk memilih Pilihan mengaktifkan Tingkat profil melalui tombol 3POS yang sama pada saluran yang sama."
+    },
+    "adjustmentsColumnEnable": {
+        "message": "Jika diaktifkan"
+    },
+    "adjustmentsColumnUsingSlot": {
+        "message": "menggunakan slot"
+    },
+    "adjustmentsColumnWhenChannel": {
+        "message": "saat saluran"
+    },
+    "adjustmentsColumnIsInRange": {
+        "message": "berada dalam jangkauan"
+    },
+    "adjustmentsColumnThenApplyFunction": {
+        "message": "lalu terapkan"
+    },
+    "adjustmentsColumnViaChannel": {
+        "message": "melalui saluran"
+    },
+    "adjustmentsSlot0": {
+        "message": "Slot 1"
+    },
+    "adjustmentsSlot1": {
+        "message": "Slot 2"
+    },
+    "adjustmentsSlot2": {
+        "message": "Slot 3"
+    },
+    "adjustmentsSlot3": {
+        "message": "Slot 4"
+    },
+    "adjustmentsMin": {
+        "message": "Minimal"
+    },
+    "adjustmentsMax": {
+        "message": "Maksimum"
+    },
+    "adjustmentsFunction0": {
+        "message": "Tidak ada perubahan"
+    },
+    "adjustmentsFunction1": {
+        "message": "Penyesuaian Tingkat RC"
+    },
+    "adjustmentsFunction2": {
+        "message": "Penyesuaian RC Expo"
+    },
+    "adjustmentsFunction3": {
+        "message": "Penyesuaian Expo mencekik"
+    },
+    "adjustmentsFunction4": {
+        "message": "Penyesuaian Nada dan Tingkat roll"
+    },
+    "adjustmentsFunction5": {
+        "message": "Penyesuaian Tingkat Yaw"
+    },
+    "adjustmentsFunction6": {
+        "message": "Penyesuaian Nada & Roll P"
+    },
+    "adjustmentsFunction7": {
+        "message": "Penyesuaian Nada dan Roll I"
+    },
+    "adjustmentsFunction8": {
+        "message": "Penyesuaian Nada dan Roll D"
+    },
+    "adjustmentsFunction9": {
+        "message": "Penyesuaian Yaw P"
+    },
+    "adjustmentsFunction10": {
+        "message": "Penyesuaian Yaw I"
+    },
+    "adjustmentsFunction11": {
+        "message": "Penyesuaian Yaw D"
+    },
+    "adjustmentsFunction12": {
+        "message": "Tingkat Seleksi Profil"
+    },
+    "adjustmentsFunction13": {
+        "message": "Tingkat nada"
+    },
+    "adjustmentsFunction14": {
+        "message": "Tingkat Gulungan"
+    },
+    "adjustmentsFunction15": {
+        "message": "Penyesuaian Nada P"
+    },
+    "adjustmentsFunction16": {
+        "message": "Penyesuaian Nada I"
+    },
+    "adjustmentsFunction17": {
+        "message": "Penyesuaian Nada D"
+    },
+    "adjustmentsFunction18": {
+        "message": "Penyesuaian Gulungan P"
+    },
+    "adjustmentsFunction19": {
+        "message": "Penyesuaian Gulungan I"
+    },
+    "adjustmentsFunction20": {
+        "message": "Penyesuaian Gulungan D"
+    },
+    "adjustmentsFunction21": {
+        "message": "Tingkat RC yaw"
+    },
+    "adjustmentsFunction22": {
+        "message": "Set poin D"
+    },
+    "adjustmentsFunction23": {
+        "message": "D mengatur titik transisi"
+    },
+    "adjustmentsFunction24": {
+        "message": "Penyesuaian Kekuatan Horizon"
+    },
+    "adjustmentsSave": {
+        "message": "Simpan"
+    },
+    "adjustmentsEepromSaved": {
+        "message": "EEPROM <span class =\"message-positive\"> simpan<\/span>"
+    },
+    "transponderNotSupported": {
+        "message": "Firmware pengendali penerbangan anda tidak mendukung fungsi transponder."
+    },
+    "transponderInformation": {
+        "message": "Sistem transponder memungkinkan penyelenggara lomba menyetel lap anda. Transponder dipasang pada pesawat terbang anda dan saat pesawat melewati gerbang waktu penerima sisi-trek mendaftar kode anda dan mencatat waktu lap anda. Saat memasang transponder berbasis inframerah anda harus memastikannya mengarah ke luar dari pesawat terbang anda ke arah penerima sisi lintasan dan bahwa berkas lampu tidak dihalang oleh badan pesawat anda, tali baterai, kabel, baling-baling, dll."
+    },
+    "transponderConfigurationType": {
+        "message": "Jenis transponder"
+    },
+    "transponderType0": {
+        "message": "Tidak ada"
+    },
+    "transponderType1": {
+        "message": "iLap"
+    },
+    "transponderType2": {
+        "message": "aRCiTimer"
+    },
+    "transponderType3": {
+        "message": "ERLT"
+    },
+    "transponderConfiguration1": {
+        "message": "Susunan iLap"
+    },
+    "transponderConfiguration2": {
+        "message": "Susunan aRCiTimer"
+    },
+    "transponderConfiguration3": {
+        "message": "Konfigurasi ERLT"
+    },
+    "transponderData1": {
+        "message": "Data"
+    },
+    "transponderData2": {
+        "message": "ID Transponder"
+    },
+    "transponderData3": {
+        "message": "Transponder ID"
+    },
+    "transponderDataHelp1": {
+        "message": "Digit heksadesimal saja, 0-9, A-F"
+    },
+    "transponderHelp1": {
+        "message": "Mengkonfigurasi kode transponder di sini. Catatan: Hanya berlaku kode akan diakui oleh ras waktu sistem. Valid kode-kode transponder dapat diperoleh dari <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Serius Pro<\/a>."
+    },
+    "transponderHelp2": {
+        "message": "Untuk informasi lebih lanjut silahkan kunjungi <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">situs aRCiTimer<\/a>"
+    },
+    "transponderDataHelp3": {
+        "message": "Pilih ID ERLT 0-63"
+    },
+    "transponderHelp3": {
+        "message": "Untuk informasi lebih lanjut silahkan kunjungi <a href=\"https:\/\/github.com\/polyvision\/EasyRaceLapTimer\" title=\"aRCiTimer\" target=\"_blank\">EasyRaceLapTimer situs<\/a>"
+    },
+    "transponderButtonSave": {
+        "message": "Simpan"
+    },
+    "transponderButtonSaveReboot": {
+        "message": "Simpan dan reboot"
+    },
+    "transponderDataInvalid": {
+        "message": "Data Transponder adalah <span class=\"pesan-negatif\">valid<\/span>"
+    },
+    "transponderEepromSaved": {
+        "message": "EEPROM <span class=\"pesan positif\">diselamatkan<\/span>"
+    },
+    "servosFirmwareUpgradeRequired": {
+        "message": "Servos memerlukan firmware &gt;= 1.10.0. dan dukungan target."
+    },
+    "servosChangeDirection": {
+        "message": "Mengubah Arah di TX To Match"
+    },
+    "servosName": {
+        "message": "Nama"
+    },
+    "servosMid": {
+        "message": "MID"
+    },
+    "servosMin": {
+        "message": "Minimal"
+    },
+    "servosMax": {
+        "message": "Maksimal"
+    },
+    "servosAngleAtMin": {
+        "message": "Sudut di menit"
+    },
+    "servosAngleAtMax": {
+        "message": "Sudut di max"
+    },
+    "servosDirectionAndRate": {
+        "message": "Arah dan laju"
+    },
+    "servosLiveMode": {
+        "message": "Aktifkan mode langsung"
+    },
+    "servosButtonSave": {
+        "message": "Simpan"
+    },
+    "servosNormal": {
+        "message": "Normal"
+    },
+    "servosReverse": {
+        "message": "Terbalik"
+    },
+    "servosEepromSave": {
+        "message": "EEPROM <span class=\"pesan positif\">diselamatkan<\/span>"
+    },
+    "gpsHead": {
+        "message": "GPS"
+    },
+    "gpsMapHead": {
+        "message": "Lokasi GPS saat ini"
+    },
+    "gpsMapMessage1": {
+        "message": "Silahkan periksa sambungan internet anda"
+    },
+    "gpsMapMessage2": {
+        "message": "Menunggu perbaikan 3D GPS…"
+    },
+    "gps3dFix": {
+        "message": "3D Fix:"
+    },
+    "gpsFixTrue": {
+        "message": "<span class=\"fixtrue\">Betul<\/span>"
+    },
+    "gpsFixFalse": {
+        "message": "<span class=\"fixfalse\">Salah<\/span>"
+    },
+    "gpsAltitude": {
+        "message": "Ketinggian:"
+    },
+    "gpsLat": {
+        "message": "Garis Lintang:"
+    },
+    "gpsLon": {
+        "message": "Garis Bujur:"
+    },
+    "gpsSpeed": {
+        "message": "Kecepatan:"
+    },
+    "gpsSats": {
+        "message": "Sats:"
+    },
+    "gpsDistToHome": {
+        "message": "Dist untuk Rumah:"
+    },
+    "gpsSignalStrHead": {
+        "message": "Kekuatan Sinyal GPS"
+    },
+    "gpsSignalStr": {
+        "message": "Kekuatan Sinyal"
+    },
+    "gpsSignalSatId": {
+        "message": "Sat ID"
+    },
+    "gpsSignalQty": {
+        "message": "Qty"
+    },
+    "motorsText": {
+        "message": "Motor"
+    },
+    "motorNumber1": {
+        "message": "Motor - 1"
+    },
+    "motorNumber2": {
+        "message": "Motor - 2"
+    },
+    "motorNumber3": {
+        "message": "Motor - 3"
+    },
+    "motorNumber4": {
+        "message": "Motor - 4"
+    },
+    "motorNumber5": {
+        "message": "Motor - 5"
+    },
+    "motorNumber6": {
+        "message": "Motor - 6"
+    },
+    "motorNumber7": {
+        "message": "Motor - 7"
+    },
+    "motorNumber8": {
+        "message": "Motor - 8"
+    },
+    "servosText": {
+        "message": "Servos"
+    },
+    "servoNumber1": {
+        "message": "Servo - 1"
+    },
+    "servoNumber2": {
+        "message": "Servo - 2"
+    },
+    "servoNumber3": {
+        "message": "Servo - 3"
+    },
+    "servoNumber4": {
+        "message": "Servo - 4"
+    },
+    "servoNumber5": {
+        "message": "Servo - 5"
+    },
+    "servoNumber6": {
+        "message": "Servo - 6"
+    },
+    "servoNumber7": {
+        "message": "Servo - 7"
+    },
+    "servoNumber8": {
+        "message": "Servo - 8"
+    },
+    "motorsResetMaximumButton": {
+        "message": "Atur ulang"
+    },
+    "motorsResetMaximum": {
+        "message": "Reset lembur maksimum"
+    },
+    "motorsSensorGyroSelect": {
+        "message": "giro"
+    },
+    "motorsSensorAccelSelect": {
+        "message": "accel"
+    },
+    "motorsMaster": {
+        "message": "Master"
+    },
+    "motorsNotice": {
+        "message": "<strong>Motor Test Mode \/ Mempersenjatai Pemberitahuan:<\/strong><br \/>Memindahkan slider atau mempersenjatai kerajinan anda dengan pemancar akan menyebabkan motor <strong>spin up<\/strong>.<br \/>Dalam rangka untuk mencegah cedera <strong class=\"pesan-negatif\">hapus SEMUA baling-baling<\/strong> sebelum menggunakan fitur ini.<br \/>Mengaktifkan motor test mode juga akan menonaktifkan sementara Pelarian lepas Landas Pencegahan, untuk menghentikannya dari melucuti senjata saat melakukan pengujian tanpa baling-baling.<br \/>"
+    },
+    "motorsEnableControl": {
+        "message": "<strong>Saya memahami risikonya <\/strong>, baling-balingnya dilepas - mengaktifkan kontrol motor dan mempersenjatai, dan menonaktifkan Pencegahan Lepas landas lepas landas."
+    },
+    "sensorsInfo": {
+        "message": "Perlu di ingat bahwa menggunakan periode pembaruan cepat dan membuat beberapa grafik pada saat yang bersamaan merupakan sumber daya yang berat dan akan membakar baterai anda lebih cepat jika anda menggunakan sebuah laptop.<br \/>Kami sarankan hanya membuat grafik untuk sensor-sensor yang anda sukai pada saat menggunakan periode pembaruan yang masuk akal."
+    },
+    "sensorsRefresh": {
+        "message": "Segarkan:"
+    },
+    "sensorsScale": {
+        "message": "Scale:"
+    },
+    "sensorsGyroSelect": {
+        "message": "Giroskop"
+    },
+    "sensorsAccelSelect": {
+        "message": "Accelerometer"
+    },
+    "sensorsMagSelect": {
+        "message": "Magnetometer"
+    },
+    "sensorsBaroSelect": {
+        "message": "Barometer"
+    },
+    "sensorsSonarSelect": {
+        "message": "Sonar"
+    },
+    "sensorsDebugSelect": {
+        "message": "Debug"
+    },
+    "sensorsGyroTitle": {
+        "message": "Giroskop - deg\/s"
+    },
+    "sensorsAccelTitle": {
+        "message": "Accelerometer - g"
+    },
+    "sensorsMagTitle": {
+        "message": "Magnetometer - Ga"
+    },
+    "sensorsBaroTitle": {
+        "message": "Barometer - meter"
+    },
+    "sensorsSonarTitle": {
+        "message": "Sonar - cm"
+    },
+    "sensorsDebugTitle": {
+        "message": "Debug"
+    },
+    "cliInfo": {
+        "message": "<strong>Catatan<\/strong>: Meninggalkan tab CLI atau menekan Putus akan <strong> secara otomatis<\/strong> kirim \"<strong>keluar<\/strong>\" ke papan tulis. Dengan firmware terbaru ini akan membuat kontroler <span class =\"message-negative\"> restart<\/span> dan perubahan yang belum disimpan akan menjadi <span class =\"message-negative\"> kalah<\/span>."
+    },
+    "cliInputPlaceholder": {
+        "message": "Tulis perintah anda di sini"
+    },
+    "cliEnter": {
+        "message": "Mode CLI terdeteksi"
+    },
+    "cliReboot": {
+        "message": "CLI reboot terdeteksi"
+    },
+    "cliSaveToFileBtn": {
+        "message": "Simpan ke Berkas"
+    },
+    "loggingNote": {
+        "message": "Data akan di catat di tab ini <span class=\"message-negative\">hanya<\/span>, meninggalkan tab akan <span class=\"message-negative\">di batalkan<\/span> masuk dan aplikasi akan kembali normal\n<strong> \"configurator\"<\/strong> nya.<br \/> Anda bebas memilih periode update global, data akan di tulis ke dalam berkas catatan setiap <strong>1<\/strong> kedua untuk alasan kinerja."
+    },
+    "loggingSamplesSaved": {
+        "message": "Sampel yang tersimpan:"
+    },
+    "loggingLogSize": {
+        "message": "Ukuran Log:"
+    },
+    "loggingButtonLogFile": {
+        "message": "Memilih File Log"
+    },
+    "loggingStart": {
+        "message": "Mulai masuk"
+    },
+    "loggingStop": {
+        "message": "Berhenti masuk"
+    },
+    "loggingBack": {
+        "message": "Tinggalkan Penebangan \/ Putus"
+    },
+    "loggingErrorNotConnected": {
+        "message": "Anda perlu untuk<strong>menyambung<\/strong>terlebih dulu"
+    },
+    "loggingErrorLogFile": {
+        "message": "Harap memilih log file"
+    },
+    "loggingErrorOneProperty": {
+        "message": "Harap memilih paling tidak satu properti untuk log"
+    },
+    "loggingAutomaticallyRetained": {
+        "message": "Secara otomatis memuat file log sebelumnya: <strong>$1<\/strong>"
+    },
+    "blackboxNotSupported": {
+        "message": "Firmware pengendali penerbangan anda tidak mendukung pemasukan Kotak hitam."
+    },
+    "blackboxMaybeSupported": {
+        "message": "Firmware pengontrol penerbangan anda terlalu usang untuk mendukung tab ini, atau fitur Kotak hitam di nonaktifkan pada tab konfigurasi."
+    },
+    "blackboxConfiguration": {
+        "message": "Konfigurasi Kotak hitam"
+    },
+    "blackboxButtonSave": {
+        "message": "Simpan dan mulai ulang"
+    },
+    "blackboxLoggingNone": {
+        "message": "Tidak ada penebangan"
+    },
+    "blackboxLoggingFlash": {
+        "message": "Di papan Flash"
+    },
+    "blackboxLoggingSdCard": {
+        "message": "Kartu SD"
+    },
+    "blackboxLoggingSerial": {
+        "message": "Seri Port"
+    },
+    "serialLoggingSupportedNote": {
+        "message": "Anda bisa login ke perangkat logging eksternal (seperti OpenLog atau compatible clone) dengan menggunakan port serial. Konfigurasikan port pada tab ports."
+    },
+    "sdcardNote": {
+        "message": "Log penerbangan dapat di rekam ke slot kartu SD pada papan pengontrol penerbangan anda."
+    },
+    "dataflashUsedSpace": {
+        "message": "Ruang yang di gunakan"
+    },
+    "dataflashFreeSpace": {
+        "message": "Ruang bebas"
+    },
+    "dataflashUnavSpace": {
+        "message": "Ruang tidak tersedia"
+    },
+    "dataflashLogsSpace": {
+        "message": "Ruang bebas untuk kayu bulat"
+    },
+    "dataflashNote": {
+        "message": "Log penerbangan dapat direkam ke chip dataflash di atas kapal pengendali penerbangan Anda."
+    },
+    "dataflashNotPresentNote": {
+        "message": "Pengontrol penerbangan anda tidak memiliki chip dataflash yang kompatibel."
+    },
+    "dataflashFirmwareUpgradeRequired": {
+        "message": "Dataflash membutuhkan firmware &gt; = 1.8.0."
+    },
+    "dataflashButtonSaveFile": {
+        "message": "Menyimpan flash ke file..."
+    },
+    "dataflashButtonErase": {
+        "message": "Hapus flash"
+    },
+    "dataflashConfirmEraseTitle": {
+        "message": "Konfirmasikan penghapusan dataflash"
+    },
+    "dataflashConfirmEraseNote": {
+        "message": "Ini akan menghapus setiap log Kotak hitam atau data lain yang terdapat dalam dataflash. Perlu waktu sekitar 20 detik, apakah anda yakin?"
+    },
+    "dataflashSavingTitle": {
+        "message": "Menyimpan dataflash ke file"
+    },
+    "dataflashSavingNote": {
+        "message": "Menyimpan dapat memakan waktu beberapa menit, harap tunggu."
+    },
+    "dataflashSavingNoteAfter": {
+        "message": "Menyimpan selesai! Tekan \"Ok\" untuk melanjutkan."
+    },
+    "dataflashButtonSaveCancel": {
+        "message": "Batal"
+    },
+    "dataflashButtonSaveDismiss": {
+        "message": "Oke"
+    },
+    "dataflashButtonEraseConfirm": {
+        "message": "Ya, menghapus dataflash"
+    },
+    "dataflashButtonEraseCancel": {
+        "message": "Batal"
+    },
+    "dataflashFileWriteFailed": {
+        "message": "Gagal untuk menulis ke berkas yang anda pilih, apakah perizinan pada folder itu oke?"
+    },
+    "sdcardStatusNoCard": {
+        "message": "Tidak ada kartu yang dimasukkan"
+    },
+    "sdcardStatusReboot": {
+        "message": "Kesalahan yang fatal<br>Reboot untuk mencoba kembali"
+    },
+    "sdcardStatusReady": {
+        "message": "Kartu siap"
+    },
+    "sdcardStatusStarting": {
+        "message": "Kartu mulai..."
+    },
+    "sdcardStatusFileSystem": {
+        "message": "File sistem mulai..."
+    },
+    "sdcardStatusUnknown": {
+        "message": "Status tidak dikenal $1"
+    },
+    "firmwareFlasherReleaseSummaryHead": {
+        "message": "Lepaskan info"
+    },
+    "firmwareFlasherReleaseName": {
+        "message": "Nama\/Versi:"
+    },
+    "firmwareFlasherReleaseVersionUrl": {
+        "message": "Kunjungi halaman rilis."
+    },
+    "firmwareFlasherReleaseNotes": {
+        "message": "Catatan rilis:"
+    },
+    "firmwareFlasherReleaseDate": {
+        "message": "Tanggal:"
+    },
+    "firmwareFlasherReleaseStatus": {
+        "message": "Negara:"
+    },
+    "firmwareFlasherReleaseTarget": {
+        "message": "Sasaran:"
+    },
+    "firmwareFlasherReleaseFile": {
+        "message": "Biner:"
+    },
+    "firmwareFlasherReleaseStatusReleaseCandidate": {
+        "message": "<span class =\"message-negative\">PENTING: Rilis firmware ini saat ini ditandai sebagai kandidat rilis. Segera laporkan masalah apa pun segera.<\/span>"
+    },
+    "firmwareFlasherReleaseFileUrl": {
+        "message": "Unduh secara manual."
+    },
+    "firmwareFlasherTargetWarning": {
+        "message": "<span class =\"message-negative\">PENTING<\/span>: Pastikan Anda membuat flash file yang sesuai dengan target Anda. Berkedip biner untuk target yang salah dapat menyebabkan <span class =\"message-negative\"> bad<\/span> hal-hal terjadi."
+    },
+    "firmwareFlasherPath": {
+        "message": "Jalan:"
+    },
+    "firmwareFlasherSize": {
+        "message": "Ukuran:"
+    },
+    "firmwareFlasherStatus": {
+        "message": "Status:"
+    },
+    "firmwareFlasherProgress": {
+        "message": "Kemajuan:"
+    },
+    "firmwareFlasherLoadFirmwareFile": {
+        "message": "Tolong muatkan file firmware"
+    },
+    "firmwareFlasherNoReboot": {
+        "message": "Tidak ada urutan reboot"
+    },
+    "firmwareFlasherOnlineSelectBoardDescription": {
+        "message": "Pilih papan Anda untuk melihat rilis firmware online yang tersedia - Pilih firmware yang benar sesuai untuk papan Anda."
+    },
+    "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
+        "message": "Pilih versi firmware untuk forum Anda."
+    },
+    "firmwareFlasherNoRebootDescription": {
+        "message": "Aktifkan jika FC anda dalam mode booting. i.e. jika anda mengaktifkan FC anda dengan pin bootloader melompat atau sambil menahan tombol BOOT FC anda."
+    },
+    "firmwareFlasherFlashOnConnect": {
+        "message": "Flash pada koneksi"
+    },
+    "firmwareFlasherFlashOnConnectDescription": {
+        "message": "Cobalah papan flash secara otomatis (di picu oleh port serial yang baru terdeteksi)."
+    },
+    "firmwareFlasherFullChipErase": {
+        "message": "Penghapusan chip penuh"
+    },
+    "firmwareFlasherFullChipEraseDescription": {
+        "message": "Hapus semua kunfigurasi data saat ini yang disimpan pada papan."
+    },
+    "firmwareFlasherFlashDevelopmentFirmware": {
+        "message": "Gunakan Firmware Pengembangan"
+    },
+    "firmwareFlasherFlashDevelopmentFirmwareDescription": {
+        "message": "Flash firmware pengembangan terbaru (belum teruji)."
+    },
+    "firmwareFlasherManualPort": {
+        "message": "Port"
+    },
+    "firmwareFlasherManualBaud": {
+        "message": "Baud rate manual"
+    },
+    "firmwareFlasherManualBaudDescription": {
+        "message": "Pemilihan baud rate manual untuk papan yang tidak mendukung kecepatan default atau untuk flashing via bluetooth. <br\/><span class = \"message-negative\"> Catatan: <\/span> Tidak digunakan saat berkedip melalui USB DFU"
+    },
+    "firmwareFlasherBaudRate": {
+        "message": "Baud Rate"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Tampilkan peluncuran tidak stabil"
+    },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "Tampilkan Release-Candidate and Development Releases."
+    },
+    "firmwareFlasherOptionLoading": {
+        "message": "Memuat ..."
+    },
+    "firmwareFlasherOptionLabelSelectFirmware": {
+        "message": "Pilih Firmware \/ Board"
+    },
+    "firmwareFlasherOptionLabelSelectBoard": {
+        "message": "Pilih Dewan"
+    },
+    "firmwareFlasherOptionLabelSelectFirmwareVersion": {
+        "message": "Pilih versi firmware"
+    },
+    "firmwareFlasherOptionLabelSelectFirmwareVersionFor": {
+        "message": "Memilih versi Firmware untuk"
+    },
+    "firmwareFlasherButtonLoadLocal": {
+        "message": "Load Firmware [Local]"
+    },
+    "firmwareFlasherButtonLoadOnline": {
+        "message": "Beban Firmware [Online]"
+    },
+    "firmwareFlasherButtonDownloading": {
+        "message": "Mengunduh..."
+    },
+    "firmwareFlasherFlashFirmware": {
+        "message": "Flash Firmware"
+    },
+    "firmwareFlasherGithubInfoHead": {
+        "message": "Info GitHub Firmware"
+    },
+    "firmwareFlasherCommiter": {
+        "message": "Komentator:"
+    },
+    "firmwareFlasherDate": {
+        "message": "Tanggal:"
+    },
+    "firmwareFlasherHash": {
+        "message": "Campuran:"
+    },
+    "firmwareFlasherUrl": {
+        "message": "Pergi ke Github untuk meninjau commit ini..."
+    },
+    "firmwareFlasherMessage": {
+        "message": "Pesan:"
+    },
+    "firmwareFlasherWarningText": {
+        "message": "Tolong lakukan <span class =\"message-negative\">tidak<\/span> coba nyalakan hardware<strong> non-Betaflight<\/strong> dengan flasher firmware ini.<br \/> Lakukan <span class =\"message-negative\" > tidak <\/span><strong>lepaskan<\/strong>papan atau<strong>matikan<\/strong>komputer Anda saat berkedip.<br \/><br \/><strong> Catatan: <\/strong> bootloader STM32 disimpan dalam ROM, itu tidak bisa menjadi bata. <br \/><strong>Catatan:<\/strong><span class =\"message-negative\">Sambungkan-otomatis<\/span>selalu dinonaktifkan saat Anda berada di dalam flasher firmware. <br \/><strong>Catatan:<\/strong>Pastikan Anda memiliki cadangan; beberapa upgrade \/ downgrades akan menghapus konfigurasi anda. <br \/><strong>Catatan:<\/strong>Jika Anda mengalami masalah berkedip<strong>coba lepaskan semua kabel dari FC<\/strong>terlebih dulu, coba reboot, upgrade chrome, upgrade driver <br \/><strong>Catatan: <\/strong>Saat papan berkedip yang terhubung langsung dengan soket USB (papan paling baru) pastikan Anda telah membaca bagian USB Flashing dari manual Betaflight dan menginstal perangkat lunak dan driver yang benar"
+    },
+    "firmwareFlasherRecoveryHead": {
+        "message": "<strong>Pemulihan \/ Komunikasi terputus<\/strong>"
+    },
+    "firmwareFlasherRecoveryText": {
+        "message": "Jika komunikasi anda terputus dengan papan anda, ikuti cara ini untuk memulihkan komunikasi: <ul><li>Matikan daya<\/li><li>Aktifkan 'Tidak ada urutan reboot', aktifkan 'Full chip erase'.<\/li><li>Lewati pin BOOT atau tahan tombol BOOT.<\/li><li> Hidupkan daya (aktivitas LED TIDAK akan menyala jika di lakukan dengan benar).<\/li><li> Pasang semua driver STM32 dan Zadig jika diperlukan (lihat <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\" target=\"_blank\">USB Flashing<\/a> bagian manual Betaflight).<\/li><li>Tutup configurator, Tutup semua contoh crome yang dijalankan, Tutup semua aplikasi Chrome, Restart Configurator.<\/li><li> Lepas tombol BOOT jika FC anda sudah memilikinya.<\/li><li>Flash dengan firmware yang cocok (menggunakan nilai baud manual jika ditentukan dalam manual FC anda).<\/li><li>Matikan daya.<\/li><li>Meniadakan melewati BOOT.<\/li><li>Hidupkan daya (aktivitas LED seharusnya berkedip).<\/li><li>Hubungkan dengan normal.<\/li><\/ul>"
+    },
+    "firmwareFlasherButtonLeave": {
+        "message": "Tinggalkan Flasher Firmware"
+    },
+    "firmwareFlasherFirmwareNotLoaded": {
+        "message": "Firmware tidak dimuat"
+    },
+    "firmwareFlasherHexCorrupted": {
+        "message": "File HEX kelihatannya sudah rusak"
+    },
+    "firmwareFlasherRemoteFirmwareLoaded": {
+        "message": "<span class =\"message-positive\">Firmware jarak jauh dimuat, siap berkedip<\/span>"
+    },
+    "firmwareFlasherFailedToLoadOnlineFirmware": {
+        "message": "Gagal memuat firmware jauh"
+    },
+    "firmwareFlasherNoFirmwareSelected": {
+        "message": "<b>Tidak ada firmware yang dipilih untuk memuat<\/b>"
+    },
+    "firmwareFlasherNoValidPort": {
+        "message": "<span class = \"message-negative\">Silakan pilih port serial yang valid<\/span>"
+    },
+    "firmwareFlasherWritePermissions": {
+        "message": "Anda tidak memiliki <span class =\"message-negative\">tulis perizinan<\/span> untuk file ini"
+    },
+    "firmwareFlasherFlashTrigger": {
+        "message": "Terdeteksi: <strong> $1<\/strong> - memicu flash pada koneksi"
+    },
+    "firmwareFlasherPreviousDevice": {
+        "message": "Terdeteksi: <strong>$1<\/strong> - perangkat sebelumnya masih berkedip, harap diganti lagi untuk dicoba lagi"
+    },
+    "ledStripHelp": {
+        "message": "Kontroler penerbangan dapat mengendalikan warna dan efek LED individual pada strip. <br \/>Mengkonfigurasi LED di grid, mengkonfigurasi perintah pengkabelan kemudian memasang LED pada pesawat Anda sesuai dengan posisi grid. LED tanpa nomor pemesanan kawat tidak akan disimpan.<br \/>Klik dua kali pada warna untuk mengedit nilai HSV."
+    },
+    "ledStripButtonSave": {
+        "message": "Simpan"
+    },
+    "ledStripEepromSaved": {
+        "message": "EEPROM <span class =\"message-positive\">simpan<\/span>"
+    },
+    "ledStripVtxOverlay": {
+        "message": "VTX (menggunakan frekuensi vtx untuk menetapkan warna)"
+    },
+    "ledStripFunctionSection": {
+        "message": "Fungsi LED"
+    },
+    "ledStripFunctionTitle": {
+        "message": "Fungsi"
+    },
+    "ledStripColorModifierTitle": {
+        "message": "Pengubah warna"
+    },
+    "ledStripVtxFunction": {
+        "message": "Pemindai Larson"
+    },
+    "ledStripBlinkTitle": {
+        "message": "Berkedip"
+    },
+    "ledStripBlinkAlwaysOverlay": {
+        "message": "Selalu berkedip"
+    },
+    "ledStripBlinkLandingOverlay": {
+        "message": "Berkedip pada saat mendarat"
+    },
+    "ledStripOverlayTitle": {
+        "message": "Hamparan"
+    },
+    "ledStripWarningsOverlay": {
+        "message": "Peringatan"
+    },
+    "ledStripIndecatorOverlay": {
+        "message": "Penunjuk (menggunakan posisi pada matriks)"
+    },
+    "colorBlack": {
+        "message": "hitam"
+    },
+    "colorWhite": {
+        "message": "putih"
+    },
+    "colorRed": {
+        "message": "merah"
+    },
+    "colorOrange": {
+        "message": "jeruk"
+    },
+    "colorYellow": {
+        "message": "kuning"
+    },
+    "colorLimeGreen": {
+        "message": "hijau limau"
+    },
+    "colorGreen": {
+        "message": "hijau"
+    },
+    "colorMintGreen": {
+        "message": "hijau mint"
+    },
+    "colorCyan": {
+        "message": "cyan"
+    },
+    "colorLightBlue": {
+        "message": "biru muda"
+    },
+    "colorBlue": {
+        "message": "biru"
+    },
+    "colorDarkViolet": {
+        "message": "ungu gelap"
+    },
+    "colorMagenta": {
+        "message": "magenta"
+    },
+    "colorDeepPink": {
+        "message": "merah jambu"
+    },
+    "controlAxisRoll": {
+        "message": "Gulung [A]"
+    },
+    "controlAxisPitch": {
+        "message": "Nada [E]"
+    },
+    "controlAxisYaw": {
+        "message": "Yaw [R]"
+    },
+    "controlAxisThrottle": {
+        "message": "Throttle [T]"
+    },
+    "controlAxisAux1": {
+        "message": "AUX 1"
+    },
+    "controlAxisAux2": {
+        "message": "AUX 2"
+    },
+    "controlAxisAux3": {
+        "message": "AUX 3"
+    },
+    "controlAxisAux4": {
+        "message": "AUX 4"
+    },
+    "controlAxisAux5": {
+        "message": "AUX 5"
+    },
+    "controlAxisAux6": {
+        "message": "AUX 6"
+    },
+    "controlAxisAux7": {
+        "message": "AUX 7"
+    },
+    "controlAxisAux8": {
+        "message": "AUX 8"
+    },
+    "controlAxisAux9": {
+        "message": "AUX 9"
+    },
+    "controlAxisAux10": {
+        "message": "AUX 10"
+    },
+    "controlAxisAux11": {
+        "message": "AUX 11"
+    },
+    "controlAxisAux12": {
+        "message": "AUX 12"
+    },
+    "controlAxisAux13": {
+        "message": "AUX 13"
+    },
+    "controlAxisAux14": {
+        "message": "AUX 14"
+    },
+    "controlAxisAux15": {
+        "message": "AUX 15"
+    },
+    "controlAxisAux16": {
+        "message": "AUX 16"
+    },
+    "pidTuningBasic": {
+        "message": "Dasar\/Acro"
+    },
+    "pidTuningYawJumpPrevention": {
+        "message": "Pencegahan Langsung Yaw"
+    },
+    "pidTuningYawJumpPreventionHelp": {
+        "message": "Menjaga kerajinan dari melompat di ujung yaw. Angka tertinggi memberi lebih banyak pembasahan pada akhir gerakan yaw (bekerja seperti yaw D lama, yang sebenarnya bukan D layaknya pada sumbu lain)"
+    },
+    "pidTuningRcExpoPower": {
+        "message": "Listrik RC EXpo"
+    },
+    "pidTuningRcExpoPowerHelp": {
+        "message": "Eksponen yang digunakan saat mengkalkulasi RC Expo. Dalam versi Betaflight sebelum 3.0, nilainya ditetapkan pada 3."
+    },
+    "pidTuningLevel": {
+        "message": "Sudut\/cakrawala"
+    },
+    "pidTuningAltitude": {
+        "message": "Barometer & Sonar\/Ketinggian"
+    },
+    "pidTuningMag": {
+        "message": "Magnetometer\/Pos"
+    },
+    "pidTuningGps": {
+        "message": "Navigasi GPS"
+    },
+    "pidTuningStrength": {
+        "message": "Kekuatan"
+    },
+    "pidTuningTransition": {
+        "message": "Transisi"
+    },
+    "pidTuningHorizon": {
+        "message": "Horison"
+    },
+    "pidTuningAngle": {
+        "message": "Sudut"
+    },
+    "pidTuningLevelAngleLimit": {
+        "message": "Batas Sudut"
+    },
+    "pidTuningLevelSensitivity": {
+        "message": "Sensitivitas"
+    },
+    "pidTuningLevelHelp": {
+        "message": "Nilai di bawah ini mengubah perilaku mode penerbangan ANGLE dan HORIZON. pengontrol PID yang berbeda menangani nilai-nilainya secara berbeda. Silakan periksa dokumentasi."
+    },
+    "pidTuningNonProfileFilterSettings": {
+        "message": "Pengaturan penyaring profil independen"
+    },
+    "pidTuningGyroLowpassFrequency": {
+        "message": "Frekuensi Lowpass Gyro Soft [Hz]"
+    },
+    "pidTuningGyroLowpassFrequencyHelp": {
+        "message": "Frekuensi Lowpass Gyro Soft [Hz]"
+    },
+    "pidTuningGyroNotch1Enable": {
+        "message": "Aktifkan Filter Tanpa Lemak 1"
+    },
+    "pidTuningGyroNotch1Frequency": {
+        "message": "Gyro Notch Filter 1 Frekuensi [Hz]"
+    },
+    "pidTuningGyroNotch2Enable": {
+        "message": "Aktifkan Filter Takik Gyro 2"
+    },
+    "pidTuningGyroNotch2Frequency": {
+        "message": "Gyro Notch Filter 2 Frekuensi [Hz]"
+    },
+    "pidTuningGyroNotchFrequencyHelp": {
+        "message": "Frekuensi Filter Gyro Notch di Hz"
+    },
+    "pidTuningGyroNotch1Cutoff": {
+        "message": "Gyro Notch Filter Cutoff 1 Frekuensi [Hz]"
+    },
+    "pidTuningGyroNotch2Cutoff": {
+        "message": "Gyro Notch Filter Cutoff 2 Frekuensi [Hz]"
+    },
+    "pidTuningGyroNotchCutoffHelp": {
+        "message": "Gyro Notch Filter Cutoff Frequency in Hz (Ini adalah tempat filter takik dimulai. Misalnya dengan filter takik 160 dan takik Hz dari 260, berarti rentangnya adalah 160-360Hz dengan atenuasi paling banyak di sekitar pusat)"
+    },
+    "pidTuningFilterSettings": {
+        "message": "Pengaturan Filter"
+    },
+    "pidTuningDTermLowpassType": {
+        "message": "Filter Lowpass D-Term"
+    },
+    "pidTuningDTermLowpassTypeTip": {
+        "message": "Pilih jenis filter lowpass D-Term yang akan digunakan. Defaultnya adalah BIQUAD"
+    },
+    "pidTuningDTermLowpassFrequency": {
+        "message": "D Term Lowpass Frekuensi [Hz]"
+    },
+    "pidTuningDTermLowpassFrequencyHelp": {
+        "message": "D Term Lowpass Frequency [Hz] (0 berarti dinonaktifkan)"
+    },
+    "pidTuningDTermNotchEnable": {
+        "message": "Aktifkan Filter D Term Notch"
+    },
+    "pidTuningDTermNotchFrequency": {
+        "message": "Frekuensi Filter Notch D Notch [Hz]"
+    },
+    "pidTuningDTermNotchFrequencyHelp": {
+        "message": "Frekuensi Filter Notch D Notch [Hz] (0 berarti dinonaktifkan)"
+    },
+    "pidTuningDTermNotchCutoff": {
+        "message": "D Term Notch Filter Cutoff [Hz]"
+    },
+    "pidTuningDTermNotchCutoffHelp": {
+        "message": "D Term Notch Filter Cutoff in Hz (Ini adalah tempat filter takik dimulai. Misalnya dengan filter takik 160 dan takik Hz dari 260, berarti jangkauannya adalah 160-360Hz dengan atenuasi paling banyak di sekitar pusat)"
+    },
+    "pidTuningYawLowpassFrequency": {
+        "message": "Frekuensi Lowpass Yaw [Hz]"
+    },
+    "pidTuningYawLowpassFrequencyHelp": {
+        "message": "Yaw Lowpass Frekuensi [Hz] (Sumbu Yaw terkadang lebih ribut daripada yang lainnya. Filter ini hanya mempengaruhi P dari yaw)"
+    },
+    "pidTuningVbatPidCompensation": {
+        "message": "Kompensasi Vbat PID"
+    },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Menambahkan nilai PID saat Vbat semakin rendah untuk memberi kompensasi. Hal ini akan memberikan karakteristik penerbangan yang lebih konstan sepanjang penerbangan. Jumlah kompensasi yang diterapkan dihitung dari Makcimum Tegangan Sel yang ada di halaman pengaturan Konfigurasi, jadi pastikan itu diatur ke sesuatu yang sesuai."
+    },
+    "configHelp2": {
+        "message": "Rotasi papan sewenang-wenang dalam derajat, untuk memungkinkan pemasangannya miring \/ terbalik \/ diputar dll. Saat menjalankan sensor eksternal, gunakan pelurusan sensor (Gyro, Acc, Mag) untuk menentukan posisi sensor yang terlepas dari orientasi board. "
+    },
+    "failsafeFeaturesHelpOld": {
+        "message": "Konfigurasi Failsafe sudah berbeda. Menggunakan Betaflight <strong>v1.12.0+<\/strong> untuk mengaktifkan panel konfigurasi yang lebih bagus."
+    },
+    "failsafePaneTitleOld": {
+        "message": "Penerima gagal"
+    },
+    "failsafeFeaturesHelpNew": {
+        "message": "Failsafe memiliki dua tahap. <strong>Tahap 1<\/strong> dimasukkan saat saluran penerbangan memiliki panjang getaran yang tidak benar, penerima melaporkan mode failsafe atau tidak ada sinyal dari penerima sama sekali, saluran pengaturan fallback diterapkan pada <span class=\"message-negative\">semua saluran<\/span> dan sejumlah waktu yang singkat disediakan untuk memungkinkan pemulihan. <strong>Tahap 2<\/strong> dimasukkan saat kondisi kesalahan memakan waktu lebih lama dari waktu pengaman yang dikonfigurasi saat pesawat <span class =\"message-negative\">dipersenjatai<\/span>, semua saluran akan tetap berada di saluran yang diterapkan pengaturan fallback kecuali ditolak oleh prosedur yang terpilih. <br \/><strong>Catatan:<\/strong> Sebelum memasuki tahap 1, saluran pengaturan fallback juga diterapkan ke saluran AUX individu yang memiliki getaran tidak benar."
+    },
+    "failsafePulsrangeTitle": {
+        "message": "Pengaturan Rentang Pulse yang Valid"
+    },
+    "failsafePulsrangeHelp": {
+        "message": "Getaran yang lebih pendek dari minimum atau lebih lama dari maksimum tidak valid dan akan memicu penerapan saluran pengaturan fallback individul untuk saluran AUX atau memasuki tahap 1 untuk saluran penerbangan"
+    },
+    "failsafeRxMinUsecItem": {
+        "message": "Panjang minimum"
+    },
+    "failsafeRxMaxUsecItem": {
+        "message": "Panjang maksimum"
+    },
+    "failsafeChannelFallbackSettingsTitle": {
+        "message": "Setelan Saluran Fallback"
+    },
+    "failsafeChannelFallbackSettingsHelp": {
+        "message": "Pengaturan ini sudah di terapkan ke saluran khusus AUX yang tidak cocok atau ke semua saluran saat memasuki tahap 1. <strong>Catatan:<\/strong> nilai telah di simpan dalam langkah 25usec, jadi perubahan kecil hilang"
+    },
+    "failsafeChannelFallbackSettingsAuto": {
+        "message": "<strong>Otomatis<\/strong> berarti Roll, Pitch dan Yaw ke tengah dan Throttle rendah. <strong>Tahan<\/strong> berarti mempertahankan nilai terakhir yang terakhir diterima"
+    },
+    "failsafeChannelFallbackSettingsHold": {
+        "message": "<strong>Tahan<\/strong> berarti mempertahankan nilai terakhir yang terakhir diterima. <strong>Set<\/strong> berarti nilai yang diberikan di sini akan digunakan"
+    },
+    "failsafeStageTwoSettingsTitle": {
+        "message": "Tahap 2 - Pengaturan"
+    },
+    "failsafeDelayItem": {
+        "message": "Waktu pengaman untuk aktifasi tahap 2 setelah sinyal hilang [1 = 0.1 detik.]"
+    },
+    "failsafeDelayHelp": {
+        "message": "Waktu untuk tahap 1 menunggu untuk pemulihan"
+    },
+    "failsafeThrottleLowItem": {
+        "message": "Failafe Throttle Low Delay [1 = 0,1 detik.]"
+    },
+    "failsafeThrottleLowHelp": {
+        "message": "Lepaskan saja penerbangan itu sebaliknya menjalankan prosedur failsafe yang dipilih saat katup rendah untuk jumlah waktu ini"
+    },
+    "failsafeThrottleItem": {
+        "message": "Nilai throttle digunakan saat mendarat"
+    },
+    "failsafeOffDelayItem": {
+        "message": "Penundaan untuk mematikan Motor selama Failsafe [1 = 0,1 detik.]"
+    },
+    "failsafeOffDelayHelp": {
+        "message": "Waktunya untuk tetap dalam mode pendaratan sampai motor dimatikan dan pesawatnya dilucuti"
+    },
+    "failsafeSubTitle1": {
+        "message": "Tahap 2 - Prosedur Gagal"
+    },
+    "failsafeProcedureItemSelect1": {
+        "message": "Mendarat"
+    },
+    "failsafeProcedureItemSelect2": {
+        "message": "Penurunan"
+    },
+    "failsafeKillSwitchItem": {
+        "message": "Failsafe Kill Switch (setup Failsafe di Tab Modes)"
+    },
+    "failsafeKillSwitchHelp": {
+        "message": "Tetapkan pilihan ini untuk membuat saklar failsafe (Mode Tab) bertindak sebagai saklar membunuh langsung, melewati prosedur failsafe yang dipilih. <strong>Catatan:<\/strong> Mempersenjatai diblokir dengan saklar membunuh failsafe dalam posisi ON"
+    },
+    "powerButtonSave": {
+        "message": "Simpan"
+    },
+    "powerFirmwareUpgradeRequired": {
+        "message": "Upgrade firmware <span class =\"message-negative\">wajib<\/span>. Konfigurasi Battery\/Amperage\/Voltage menggunakan API &lt; 1.33.0 (rilis Betaflight &lt; = 3.17) tidak didukung."
+    },
+    "powerBatteryVoltageMeterSource": {
+        "message": "Sumber Meteran Tegangan"
+    },
+    "powerBatteryVoltageMeterTypeNone": {
+        "message": "Tidak ada"
+    },
+    "powerBatteryVoltageMeterTypeAdc": {
+        "message": "ADC di atas"
+    },
+    "powerBatteryVoltageMeterTypeEsc": {
+        "message": "Sensor ESC"
+    },
+    "powerBatteryCurrentMeterSource": {
+        "message": "Sumber Meter Lancar"
+    },
+    "powerBatteryCurrentMeterTypeNone": {
+        "message": "Tidak ada"
+    },
+    "powerBatteryCurrentMeterTypeAdc": {
+        "message": "Diatas papan ADC"
+    },
+    "powerBatteryCurrentMeterTypeVirtual": {
+        "message": "Virtual"
+    },
+    "powerBatteryCurrentMeterTypeEsc": {
+        "message": "Sensor ESC"
+    },
+    "powerBatteryCurrentMeterTypeMsp": {
+        "message": "MSP Sensor\/OSD Slave"
+    },
+    "powerBatteryMinimum": {
+        "message": "Tegangan sel terendah"
+    },
+    "powerBatteryMaximum": {
+        "message": "Tegangan sel maksimum"
+    },
+    "powerBatteryWarning": {
+        "message": "Tegangan Baterai Peringatan"
+    },
+    "powerVoltageHead": {
+        "message": "Meteran Tegangan"
+    },
+    "powerVoltageValue": {
+        "message": "$ 1 V"
+    },
+    "powerAmperageValue": {
+        "message": "$1 A"
+    },
+    "powerVoltageId10": {
+        "message": "Baterai"
+    },
+    "powerVoltageId20": {
+        "message": "5V"
+    },
+    "powerVoltageId30": {
+        "message": "9V"
+    },
+    "powerVoltageId40": {
+        "message": "12V"
+    },
+    "powerVoltageId50": {
+        "message": "ESC Gabungan"
+    },
+    "powerVoltageId60": {
+        "message": "ESC Motor 1"
+    },
+    "powerVoltageId61": {
+        "message": "ESC Motor 2"
+    },
+    "powerVoltageId62": {
+        "message": "ESC Motor 3"
+    },
+    "powerVoltageId63": {
+        "message": "ESC Motor 4"
+    },
+    "powerVoltageId64": {
+        "message": "ESC Motor 5"
+    },
+    "powerVoltageId65": {
+        "message": "ESC Motor 6"
+    },
+    "powerVoltageId66": {
+        "message": "ESC Motor 7"
+    },
+    "powerVoltageId67": {
+        "message": "ESC Motor 8"
+    },
+    "powerVoltageId68": {
+        "message": "ESC Motor 9"
+    },
+    "powerVoltageId69": {
+        "message": "ESC Motor 10"
+    },
+    "powerVoltageId70": {
+        "message": "ESC Motor 11"
+    },
+    "powerVoltageId71": {
+        "message": "ESC Motor 12"
+    },
+    "powerVoltageId80": {
+        "message": "Sel 1"
+    },
+    "powerVoltageId81": {
+        "message": "Sel 2"
+    },
+    "powerVoltageId82": {
+        "message": "Sel 3"
+    },
+    "powerVoltageId83": {
+        "message": "Sel 4"
+    },
+    "powerVoltageId84": {
+        "message": "Sel 5"
+    },
+    "powerVoltageId85": {
+        "message": "Sel 6"
+    },
+    "powerVoltageScale": {
+        "message": "Skala"
+    },
+    "powerVoltageDivider": {
+        "message": "Nilai Pembagi"
+    },
+    "powerVoltageMultiplier": {
+        "message": "Nilai pengganda"
+    },
+    "powerAmperageHead": {
+        "message": "Ampere Meter"
+    },
+    "powerAmperageId10": {
+        "message": "Baterai"
+    },
+    "powerAmperageId50": {
+        "message": "ESC Gabungan"
+    },
+    "powerAmperageId60": {
+        "message": "ESC Motor 1"
+    },
+    "powerAmperageId61": {
+        "message": "ESC Motor 2"
+    },
+    "powerAmperageId62": {
+        "message": "ESC Motor 3"
+    },
+    "powerAmperageId63": {
+        "message": "ESC Motor 4"
+    },
+    "powerAmperageId64": {
+        "message": "ESC Motor 5"
+    },
+    "powerAmperageId65": {
+        "message": "ESC Motor 6"
+    },
+    "powerAmperageId66": {
+        "message": "ESC Motor 7"
+    },
+    "powerAmperageId67": {
+        "message": "ESC Motor 8"
+    },
+    "powerAmperageId68": {
+        "message": "ESC Motor 9"
+    },
+    "powerAmperageId69": {
+        "message": "ESC Motor 10"
+    },
+    "powerAmperageId70": {
+        "message": "ESC Motor 11"
+    },
+    "powerAmperageId71": {
+        "message": "ESC Motor 12"
+    },
+    "powerAmperageId80": {
+        "message": "Sebetulnya"
+    },
+    "powerAmperageId90": {
+        "message": "MSP"
+    },
+    "powerMahValue": {
+        "message": "$1 mAh"
+    },
+    "powerAmperageScale": {
+        "message": "Skala [1\/10 mV\/A]"
+    },
+    "powerAmperageOffset": {
+        "message": "Mengimbangi [mV]"
+    },
+    "powerBatteryHead": {
+        "message": "Baterai"
+    },
+    "powerStateHead": {
+        "message": "Negara kekuasaan"
+    },
+    "powerBatteryConnected": {
+        "message": "Tersambung"
+    },
+    "powerBatteryConnectedValueYes": {
+        "message": "Ya (Sel: $1)"
+    },
+    "powerBatteryConnectedValueNo": {
+        "message": "Tidak"
+    },
+    "powerBatteryVoltage": {
+        "message": "Tegangan"
+    },
+    "powerBatteryCurrentDrawn": {
+        "message": "mAh digunakan"
+    },
+    "powerBatteryAmperage": {
+        "message": "Tegangan aliran listrik"
+    },
+    "powerBatteryCapacity": {
+        "message": "Kapasitas (mAh)"
+    },
+    "osdSetupTitle": {
+        "message": "OSD"
+    },
+    "osdSetupPreviewHelp": {
+        "message": "<strong>Catatan:<\/strong> Tinjauan OSD mungkin tidak menampilkan bentuk huruf sebenarnya yang terpasang pada pengontrol penerbangan."
+    },
+    "osdSetupUnsupportedNote1": {
+        "message": "Pengontrol penerbangan anda tidak menanggapi ke perintah OSD. Ini mungkin berarti bahwa ia tidak memiliki sebuah OSD Betaflight terpadu."
+    },
+    "osdSetupUnsupportedNote2": {
+        "message": "Perhatikan bahwa beberapa pengontrol penerbangan memiliki <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a> yang dapat dinyalakan dan dikonfigurasi dengan <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target = '_ blank'>scarab-osd<\/a>, namun MinimOSD tidak dapat di konfigurasi melalui antarmuka ini."
+    },
+    "osdSetupElementsTitle": {
+        "message": "Elemen"
+    },
+    "osdSetupElementsSwitchAll": {
+        "message": "Beralih semua"
+    },
+    "osdSetupPreviewTitle": {
+        "message": "Tinjauan (tarik untuk mengubah posisi)"
+    },
+    "osdSetupPreviewTitleTip": {
+        "message": "Tampilkan atau sembunyikan logo di jendela peninjauan. Ini tidak akan mengubah pengaturan apapun pada pengontrol penerbangan."
+    },
+    "osdSetupVideoFormatTitle": {
+        "message": "Format Video"
+    },
+    "osdSetupUnitsTitle": {
+        "message": "Unit"
+    },
+    "osdSetupTimersTitle": {
+        "message": "Alat pengukur waktu"
+    },
+    "osdSetupAlarmsTitle": {
+        "message": "Alarm"
+    },
+    "osdSetupStatsTitle": {
+        "message": "Statistik penerbangan tempur"
+    },
+    "osdSetupVtxTitle": {
+        "message": "Pengaturan VTX"
+    },
+    "osdSetupCraftNameTitle": {
+        "message": "Nama kerajinan"
+    },
+    "osdSetupWarningsTitle": {
+        "message": "Peringatan"
+    },
+    "osdSetupFontPresets": {
+        "message": "Preset huruf:"
+    },
+    "osdSetupOpenFont": {
+        "message": "Buka Berkas Font"
+    },
+    "osdSetupUploadFont": {
+        "message": "Upload Font"
+    },
+    "osdSetupSave": {
+        "message": "Simpan"
+    },
+    "osdSetupFontManager": {
+        "message": "Pengelola Font"
+    },
+    "osdSetupUncheckAll": {
+        "message": "Jangan tandai semua"
+    },
+    "osdSetupHead": {
+        "message": "Info"
+    },
+    "osdSetupVideoMode": {
+        "message": "Mode Video"
+    },
+    "osdSetupCameraConnected": {
+        "message": "Kamera Terhubung"
+    },
+    "osdSetupCameraConnectedValueYes": {
+        "message": "Ya"
+    },
+    "osdSetupCameraConnectedValueNo": {
+        "message": "Tidak"
+    },
+    "osdSetupResetText": {
+        "message": "Atur ulang OSD ke standar"
+    },
+    "osdSetupButtonReset": {
+        "message": "Atur Ulang Pengaturan"
+    },
+    "osdDescElementMainBattVoltage": {
+        "message": "Tegangan baterai utama seketika (berkedip saat berada di bawah ambang batas alarm)"
+    },
+    "osdDescElementRssiValue": {
+        "message": "Nilai RSSI sesaat (berkedip saat berada di bawah ambang batas alarm)"
+    },
+    "osdDescElementThrottlePosition": {
+        "message": "Nilai arus throttle saat ini"
+    },
+    "osdDescElementArmed": {
+        "message": "Pesan bersenjata tekstual"
+    },
+    "osdDescElementDisarmed": {
+        "message": "Pesan di lucuti tekstual"
+    },
+    "osdDescElementCrosshairs": {
+        "message": "Pusat crosshair layar"
+    },
+    "osdDescElementArtificialHorizon": {
+        "message": "Indikator horizon buatan grafis"
+    },
+    "osdDescElementHorizonSidebars": {
+        "message": "Sidebars di sekitar indikator horizon buatan"
+    },
+    "osdDescElementCurrentDraw": {
+        "message": "Arus baterai saat ini habis"
+    },
+    "osdDescElementMahDrawn": {
+        "message": "Jumlah kapasitas baterai yang digunakan"
+    },
+    "osdDescElementCraftName": {
+        "message": "Nama kerajinan seperti yang ada di tab Konfigurasi"
+    },
+    "osdDescElementAltitude": {
+        "message": "Ketinggian saat ini (berkedip saat berada di atas ambang alarm)"
+    },
+    "osdDescElementOnTime": {
+        "message": "Total waktu kerajinan telah di nyalakan"
+    },
+    "osdDescElementFlyTime": {
+        "message": "Total waktu kerajinan telah dipersenjatai dalam siklus tenaga saat ini (berkedip saat berada di atas ambang batas alarm)"
+    },
+    "osdDescElementFlyMode": {
+        "message": "Mode penerbangan saat ini"
+    },
+    "osdDescElementGPSSpeed": {
+        "message": "Kecepatan GPS disediakan"
+    },
+    "osdDescElementGPSSats": {
+        "message": "Jumlah satelit yang menyediakan GPS fix"
+    },
+    "osdDescElementGPSLon": {
+        "message": "Bujur GPS"
+    },
+    "osdDescElementGPSLat": {
+        "message": "Lintang GPS"
+    },
+    "osdDescElementDebug": {
+        "message": "Variabel Debug"
+    },
+    "osdDescElementPIDRoll": {
+        "message": "Gulungan sumbu PID keuntungan"
+    },
+    "osdDescElementPIDPitch": {
+        "message": "Pitch sumbu PID keuntungan"
+    },
+    "osdDescElementPIDYaw": {
+        "message": "Poros Yaw PID menguat"
+    },
+    "osdDescElementPower": {
+        "message": "Konsumsi tenaga listrik sesaat"
+    },
+    "osdDescElementPIDRateProfile": {
+        "message": "Tampilan numerik dari profil PID dan rate aktif"
+    },
+    "osdDescElementBatteryWarning": {
+        "message": "Teks peringatan yang muncul ketika tegangan baterai turun di bawah ambang peringatan"
+    },
+    "osdDescElementAvgCellVoltage": {
+        "message": "Tegangan sel rata-rata (tegangan baterai utama \/ hitungan sel)"
+    },
+    "osdDescElementPitchAngle": {
+        "message": "Sudut nada numerik dalam derajat"
+    },
+    "osdDescElementRollAngle": {
+        "message": "Sudut gulung numerik dalam derajat"
+    },
+    "osdDescElementMainBattUsage": {
+        "message": "Representasi grafis dari penggunaan kapasitas baterai"
+    },
+    "osdDescElementArmedTime": {
+        "message": "Waktu sejak pesawat itu terakhir dipersenjatai"
+    },
+    "osdDescElementWarnings": {
+        "message": "Tanda (misalnya baterai rendah), peringatan (misalnya alasan untuk tidak mempersenjatai, baterai rendah kritis) dan pager visual (4 tanda berkedip)."
+    },
+    "osdDescElementEscTemperature": {
+        "message": "Suhu yang dilaporkan oleh telemetry ESC"
+    },
+    "osdDescElementEscRpm": {
+        "message": "RPM dilaporkan oleh telemetri ESC"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "Waktu nyata jam tanggal \/ waktu"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "Pengaturan dan nilai pengaturan penyesuaian aktif saat ini"
+    },
+    "osdDescElementHomeDirection": {
+        "message": "Panah menampilkan arah ke posisi rumah"
+    },
+    "osdDescElementHomeDistance": {
+        "message": "Jarak ke posisi rumah (baik dengan kaki atau meter berdasarkan pengaturan satuan sistem)"
+    },
+    "osdDescElementNumericalHeading": {
+        "message": "Pembacaan judul angka saat ini dalam derajat"
+    },
+    "osdDescElementNumericalVario": {
+        "message": "Pembacaan kecepatan angka vertikal (baik di kaki atau meter berdasarkan pengaturan satuan sistem)"
+    },
+    "osdDescElementCompassBar": {
+        "message": "Bilah kompas grafis yang menunjukkan pos saat ini"
+    },
+    "osdDescElementTimer1": {
+        "message": "Menunjukkan nilai timer 1"
+    },
+    "osdDescElementTimer2": {
+        "message": "Menunjukkan nilai timer 2"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Perkiraan waktu penerbangan yang tersisa"
+    },
+    "osdDescElementUnknown": {
+        "message": "Unsur tak dikenal (rincian akan di tambahkan dalam rilis yang akan datang)"
+    },
+    "osdDescElementCoreTemperature": {
+        "message": "Suhu inti MCU STM32"
+    },
+    "osdDescStatMaxSpeed": {
+        "message": "Kecepatan terekam maksimal"
+    },
+    "osdDescStatMinBattery": {
+        "message": "Tegangan baterai utama yang terekam minimal"
+    },
+    "osdDescStatMinRssi": {
+        "message": "Minimal di catat RSSI"
+    },
+    "osdDescStatMaxCurrent": {
+        "message": "Hasil tangkapan saat ini tercatat maksimal"
+    },
+    "osdDescStatUsedMah": {
+        "message": "Kapasitas baterai yang di gunakan"
+    },
+    "osdDescStatMaxAltitude": {
+        "message": "Ketinggian maksimum yang terekam"
+    },
+    "osdDescStatBlackbox": {
+        "message": "Persentase penggunaan blackbox total"
+    },
+    "osdDescStatEndBattery": {
+        "message": "Tegangan baterai pada saat melucuti"
+    },
+    "osdDescStatFlyTime": {
+        "message": "Total waktu kerajinan telah dipersenjatai pada siklus tenaga saat ini"
+    },
+    "osdDescStatArmedTime": {
+        "message": "Waktu sejak kerajinan itu terakhir dipersenjatai"
+    },
+    "osdDescStatMaxDistance": {
+        "message": "Jarak maksimal dari lokasi rumah"
+    },
+    "osdDescStatBlackboxLogNumber": {
+        "message": "Nomor log untuk penerbangan ini Blackbox log"
+    },
+    "osdDescStatTimer1": {
+        "message": "Nilai timer 1 pada saat melucuti senjata"
+    },
+    "osdDescStatTimer2": {
+        "message": "Nilai timer 2 pada saat melucuti senjata"
+    },
+    "osdDescStatRtcDateTime": {
+        "message": "Tanggal dan waktu dari jam waktu nyata"
+    },
+    "osdTimerSource": {
+        "message": "Sumber:"
+    },
+    "osdTimerSourceTooltip": {
+        "message": "Pilih sumber alat pengukur waktu, ini mengontrol durasi\/peristiwa yang diukur alat pengukur waktu"
+    },
+    "osdTimerPrecision": {
+        "message": "Presisi:"
+    },
+    "osdTimerPrecisionTooltip": {
+        "message": "Pilih presisi timer, ini mengontrol ketepatan waktu yang dilaporkan"
+    },
+    "osdTimerAlarm": {
+        "message": "Alarm:"
+    },
+    "osdTimerAlarmTooltip": {
+        "message": "Pilih ambang timer alarm dalam beberapa menit, bila melebihi nilai ini, elemen OSD akan berkedip, mengaturnya menjadi 0 untuk menonaktifkan alarm"
+    },
+    "osdWarningArmingDisabled": {
+        "message": "Melaporkan alasan sangat keras untuk tidak mempersenjatai"
+    },
+    "osdWarningBatteryNotFull": {
+        "message": "Memperingati saat baterai tersambung yang tidak terisi penuh"
+    },
+    "osdWarningBatteryWarning": {
+        "message": "Peringatan saat tegangan baterai turun di bawah ambang batas peringatan"
+    },
+    "osdWarningBatteryCritical": {
+        "message": "Peringatan saat tegangan baterai turun di bawah rata-rata tegangan sel minimum"
+    },
+    "osdWarningVisualBeeper": {
+        "message": "Menampilkan visualisasi pager (menunjukkan 4 tanda bintang)"
+    },
+    "osdWarningCrashFlipMode": {
+        "message": "Memperingatkan saat terbalik sesudah mode jatuh diaktifkan"
+    },
+    "osdSectionHelpElements": {
+        "message": "Mengaktifkan atau menonaktifkan elemen OSD."
+    },
+    "osdSectionHelpVideoMode": {
+        "message": "Tetapkan mode video yang diharapkan dari kamera (biasanya ini dapat dibiarkan di AUTO, jika anda mengalami kesulitan maka tetapkan ini agar sesuai dengan output kamera)."
+    },
+    "osdSectionHelpUnits": {
+        "message": "Mengatur unit sistem yang digunakan untuk pembacaan angka."
+    },
+    "osdSectionHelpTimers": {
+        "message": "Konfigurasikan timer penerbangan."
+    },
+    "osdSectionHelpAlarms": {
+        "message": "Menetapkan ambang yang digunakan untuk elemen OSD dengan status alarm."
+    },
+    "osdSectionHelpStats": {
+        "message": "Menetapkan nilai yang ditampilkan pada layar statistik pasca penerbangan."
+    },
+    "osdSectionHelpWarnings": {
+        "message": "Mengaktifkan atau menonaktifkan peringatan yang ditunjukkan pada elemen PERINGATAN."
+    },
+    "osdSettingsSaved": {
+        "message": "Pengaturan OSD tersimpan"
+    },
+    "osdWritePermissions": {
+        "message": "Anda tidak memiliki <span class =\"message-negative\">write permissions<\/span> untuk file ini"
+    },
+    "mainHelpArmed": {
+        "message": "Pengerjaan motor"
+    },
+    "mainHelpFailsafe": {
+        "message": "Mode Failsafe"
+    },
+    "mainHelpLink": {
+        "message": "Status Link Serial"
+    },
+    "configurationEscProtocol": {
+        "message": "Protokol ESC\/Motor"
+    },
+    "configurationEscProtocolHelp": {
+        "message": "Pilih motor protokol anda. <br>Pastikan untuk memverifikasi protokol yang didukung oleh ESC anda, informasi ini harus ada di situs wab pembuatnya. <br> <b>Hati-hati menggunakan DSHOT900 dan DSHOT1200 karena tidak banyak dukungan ESC!<\/b>"
+    },
+    "configurationunsyndePwm": {
+        "message": "Kecepatan motor PWM Terpisah dari kecepatan PID"
+    },
+    "configurationUnsyncedPWMFreq": {
+        "message": "Frekuensi motor PWM"
+    },
+    "configurationGyroSyncDenom": {
+        "message": "Frekuensi update Gyro"
+    },
+    "configurationPidProcessDenom": {
+        "message": "Frekuensi loop PID"
+    },
+    "configurationPidProcessDenomHelp": {
+        "message": "Frekuensi maksimum pada loop PID terbatas karena frekuensi maksimum yang updates akan di kirim oleh protokol ESC atau motor protocol."
+    },
+    "configurationGyroUse32kHz": {
+        "message": "Aktifkan mode sampling gyro 32kHz"
+    },
+    "configurationGyroUse32kHzHelp": {
+        "message": "Frekuensi update gyro 32 kHz hanya dimungkinkan jika chip gyro mendukungnya (saat ini MPU6500, MPU9250, dan ICM20xxx jika terhubung melalui SPI). Jika ragu, konsultasikan dengan spesifikasi untuk board anda."
+    },
+    "configurationAccHardware": {
+        "message": "Accelerometer"
+    },
+    "configurationBaroHardware": {
+        "message": "Barometer (jika didukung)"
+    },
+    "configurationMagHardware": {
+        "message": "Magnetometer (jika didukung)"
+    },
+    "configurationSmallAngle": {
+        "message": "Sudut ARM Maksimum [degrees]"
+    },
+    "configurationSmallAngleHelp": {
+        "message": "Penerbangan tidak akan bersenjata jika dimiringkan lebih dari jumlah derajat yang ditentukan. Hanya berlaku jika accelerometer diaktifkan. mengatur ke 180 akan secara efektif menonaktifkan cek"
+    },
+    "configurationBatteryVoltage": {
+        "message": "Tegangan Baterai"
+    },
+    "configurationBatteryCurrent": {
+        "message": "Baterai saat ini"
+    },
+    "configurationBatteryMeterType": {
+        "message": "Jenis Meter Baterai"
+    },
+    "configurationBatteryMinimum": {
+        "message": "Minimum sel"
+    },
+    "configurationBatteryMaximum": {
+        "message": "Tegangan Sel Maksimum"
+    },
+    "configurationBatteryWarning": {
+        "message": "Tegangan Baterai Peringatan"
+    },
+    "configurationBatteryScale": {
+        "message": "Skala Tegangan"
+    },
+    "configurationCurrentMeterType": {
+        "message": "Jenis Meter Saat Ini"
+    },
+    "configurationCurrent": {
+        "message": "Sensor arus"
+    },
+    "configurationCurrentScale": {
+        "message": "Skala tegangan output ke milliamps [1 \/ 10th mV \/ A]"
+    },
+    "configurationCurrentOffset": {
+        "message": "Offset dalam langkah millivolt"
+    },
+    "configurationBatteryMultiwiiCurrent": {
+        "message": "Aktifkan dukungan untuk keluaran MSDN saat ini MSDN"
+    },
+    "pidTuningProfile": {
+        "message": "Profil"
+    },
+    "pidTuningProfileTip": {
+        "message": "Sampai 3 (2 untuk beberapa pengendali) profil pid yang berbeda dapat tersimpan pada pengontrol penerbangan. Profil pid meliputi pengaturan pid, d setpoint dan angle\/horizon pada tab ini. Begitu berada di lapangan, perintah tongkat sederhana (lihat petunjuk online) bisa di gunakan untuk berpindah di antara profil."
+    },
+    "pidTuningRateProfile": {
+        "message": "Rateprofile"
+    },
+    "pidTuningRateProfileTip": {
+        "message": "Sampai dengan 3 rateprofiles yang berbeda per profil dapat disimpan pada pengontrol penerbangan. The rateprofiles termasuk pengaturan untuk ' RC Rate', 'Rate', ' RC Expo', 'Throttle', dan 'TPA'. Beralih antara rateprofiles dimungkinkan dalam penerbangan, dengan memasang saklar 3 posisi untuk 'Tingkat Seleksi Profil' pada tab 'Penyesuaian'."
+    },
+    "pidTuningDelta": {
+        "message": "Metode Turunan"
+    },
+    "pidTuningDeltaError": {
+        "message": "Kesalahan"
+    },
+    "pidTuningDeltaMeasurement": {
+        "message": "Pengukuran"
+    },
+    "pidTuningDeltaTip": {
+        "message": "<b>Derivatif dari Kesalahan<\/b> memberikan respons tongkat langsung yang lebih banyak dan sebagian besar disukai oleh Racing.<br><br><b>Derivatif dari Pengukuran<\/b> memberikan respons tongkat yang lebih halus apa yang lebih berguna untuk freestyling"
+    },
+    "pidTuningPidControllerTip": {
+        "message": "<b>Legacy vs Betaflight (float):<\/b> PID scaling dan logika PID sama persis. Belum tentu butuh retune. Legacy sudah tua betaflight berevolusi rewrite, yang merupakan basic PID controller berdasarkan bilangan bulat matematika. Kontroler Betaflight PID menggunakan matematika floating point dan memiliki banyak fitur baru yang dirancang khusus untuk aplikasi multirotor <br><b>Float vs Integer:<\/b> PID scaling dan logika PID sama persis. Tidak butuh retune. Papan F1 tidak memiliki FPU onboard dan floating point math meningkatkan CPU Matematika beban dan bilangan bulat akan memperbaiki kinerjanya, tapi matematika mengambang mungkin akan sedikit lebih presisi."
+    },
+    "pidTuningFilterTip": {
+        "message": "<b>Gyro Soft Filter:<\/b> Filter lowpass untuk gyro. Gunakan nilai yang lebih rendah untuk penyaringan yang lebih banyak.<br><b>Filter Istilah D:<\/b> Filter lowpass untuk Dterm. Dapat mempengaruhi D tuning. Gunakan nilai yang lebih rendah untuk penyaringan yang lebih banyak.<br><b>Filter Yaw:<\/b> Filter menguap output. Ini bisa membantu dalam setup dengan sumbu yaw yang berisik."
+    },
+    "pidTuningPidTuningTip": {
+        "message": "<b>Proporsional:<\/b> Anda akan melihat kekuatan resistansi yang sangat kuat terhadap upaya untuk memindahkan MultiRotor<br><b> Integral:<\/b> Meningkatkan kemampuan untuk memegang posisi awal secara keseluruhan dan mengurangi drift, namun juga meningkatkan keterlambatan dalam kembali ke posisi awal.<br><b>Derivatif:<\/b> Meningkatkan kecepatan penyimpangan ditemukan, namun meningkatkan kebisingan<br><b>Harga dan Expo<\/b>: Tentukan nuansa tongkat Anda berdasarkan parameter ini. Gunakan grafik dan model 3D hidup untuk menemukan pengaturan tingkat favorit Anda"
+    },
+    "pidTuningRatesTip": {
+        "message": "Bermain dengan tarif dan lihat bagaimana yang mempengaruhi kurva tongkat"
+    },
+    "configurationCamera": {
+        "message": "Kamera"
+    },
+    "configurationPersonalization": {
+        "message": "Personalisasi"
+    },
+    "craftName": {
+        "message": "Nama kerajinan"
+    },
+    "configurationFpvCamAngleDegrees": {
+        "message": "Sudut Kamera FPV [degrees]"
+    },
+    "onboardLoggingBlackbox": {
+        "message": "Perangkat pencatatan blackbox"
+    },
+    "onboardLoggingRateOfLogging": {
+        "message": "Tingkat penebangan blackbox"
+    },
+    "onboardLoggingSerialLogger": {
+        "message": "Perangkat logging serial outboard"
+    },
+    "onboardLoggingFlashLogger": {
+        "message": "Chip dataflash onboard"
+    },
+    "onboardLoggingEraseInProgress": {
+        "message": "Menghapus dalam kemajuan, harap menunggu..."
+    },
+    "onboardLoggingOnboardSDCard": {
+        "message": "Kartu SD onboard"
+    },
+    "dialogConfirmResetTitle": {
+        "message": "Konfirmasi"
+    },
+    "dialogConfirmResetNote": {
+        "message": "PERINGATAN: Apakah anda yakin ingin mengatur ulang semua pengaturan ke bawaan?"
+    },
+    "dialogConfirmResetConfirm": {
+        "message": "Atur ulang"
+    },
+    "dialogConfirmResetClose": {
+        "message": "Batal"
+    },
+    "modeCameraWifi": {
+        "message": "TOMBOL KAMERA WI-FI"
+    },
+    "modeCameraPower": {
+        "message": "TOMBOL DAYA KAMERA"
+    },
+    "modeCameraChangeMode": {
+        "message": "MENGGANTI MODE KAMERA"
+    }
+}
