@@ -326,7 +326,7 @@
         "message": "GitHub로부터 $1에 대한 릴리즈 정보를 로드했습니다."
     },
     "releaseCheckFailed": {
-        "message": "<b>$1 릴리즈에 대한 GitHub 쿼리 실패, 캐쉬된 정보를 사용합니다. 이유: <code>$2<\/code><\/b>"
+        "message": "<b>$1 릴리즈에 대한 GitHub 쿼리 실패, 캐시된 정보를 사용합니다. 이유: <code>$2<\/code><\/b>"
     },
     "releaseCheckCached": {
         "message": "$1 릴리즈에 대한 캐시된 릴리즈 정보를 사용합니다."
@@ -2319,7 +2319,7 @@
         "description": "One of the modes in Led Strip"
     },
     "ledStripWiringMode": {
-        "message": "배선 모드",
+        "message": "배선 순서 모드",
         "description": "One of the wiring modes in Led Strip"
     },
     "ledStripWiringClearControl": {
@@ -2331,7 +2331,7 @@
         "description": "Control button in the wiring modes in Led Strip"
     },
     "ledStripWiringMessage": {
-        "message": "배선 번호없이 LED는 저장되지 않을 것입니다.",
+        "message": "배선 순서 번호가 없는 LED는 저장되지 않습니다.",
         "description": "Message in the wiring modes in Led Strip"
     },
     "ledStripVtxFunction": {
