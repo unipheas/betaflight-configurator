@@ -2164,6 +2164,30 @@
     "ledStripColorModifierTitle": {
         "message": "색상 수정"
     },
+    "ledStripModeColorsModeGPSNoLock": {
+        "message": "GPS: 약함",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSLocked": {
+        "message": "GPS: 양호",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripWiring": {
+        "message": "LED 스트립 배선",
+        "description": "One of the modes in Led Strip"
+    },
+    "ledStripWiringClearControl": {
+        "message": "선택 지우기",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringClearAllControl": {
+        "message": "모든 배선 지우기",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringMessage": {
+        "message": "배선 번호없이 LED는 저장되지 않을 것입니다.",
+        "description": "Message in the wiring modes in Led Strip"
+    },
     "ledStripVtxFunction": {
         "message": "라슨 스캐너"
     },
