@@ -2144,7 +2144,7 @@
         "message": "Détecté: <strong>$1<\/strong> - périphérique toujours en cours de flash, merci de rebrancher pour un nouvel essai"
     },
     "ledStripHelp": {
-        "message": "Le contrôleur de vol peut piloter des LEDs RGB.<br \/>Configurez les LEDs sur la grille et câblez les LEDs en fonction de votre grille. Les LEDs sans ordre ne seront pas sauvegardées.<br \/>Double-cliquer sur une couleur pour éditer sa valeur."
+        "message": "Le contrôleur de vol peut piloter des LEDs RGB.<br \/>Configurez les LEDs sur la grille et câblez les LEDs en fonction de votre grille. Les LEDs sans numéro ne seront pas sauvegardées.<br \/>Double-cliquer sur une couleur pour éditer sa valeur."
     },
     "ledStripButtonSave": {
         "message": "Sauvegarder"
@@ -2152,6 +2152,18 @@
     "ledStripColorSetupTitle": {
         "message": "Configurer la couleur",
         "description": "Color setup title of the led strip"
+    },
+    "ledStripH": {
+        "message": "H",
+        "description": "Abbreviation of Hue in HSV (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripS": {
+        "message": "S",
+        "description": "Abbreviation of Saturation in HSV  (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripV": {
+        "message": "V",
+        "description": "Abbreviation of Brightness in HSV  (Hue, Saturation, Brightness) color model"
     },
     "ledStripRemainingText": {
         "message": "Restantes",
@@ -2239,6 +2251,30 @@
         "message": "Baro",
         "description": "One of the modes in Color Mode in Led Strip"
     },
+    "ledStripDirN": {
+        "message": "N",
+        "description": "North direction in Color Mode in Led Strip"
+    },
+    "ledStripDirE": {
+        "message": "E",
+        "description": "East direction in Color Mode in Led Strip"
+    },
+    "ledStripDirS": {
+        "message": "S",
+        "description": "South direction in Color Mode in Led Strip"
+    },
+    "ledStripDirW": {
+        "message": "O",
+        "description": "West direction in Color Mode in Led Strip"
+    },
+    "ledStripDirU": {
+        "message": "H",
+        "description": "Up direction in Color Mode in Led Strip"
+    },
+    "ledStripDirD": {
+        "message": "B",
+        "description": "Down direction in Color Mode in Led Strip"
+    },
     "ledStripModesOrientationTitle": {
         "message": "Orientation des Leds ('Modes &amp; Orientation') et couleur",
         "description": "One of the modes in Color Mode in Led Strip"
@@ -2279,6 +2315,10 @@
         "message": "Câblage de bande de LED",
         "description": "One of the modes in Led Strip"
     },
+    "ledStripWiringMode": {
+        "message": "Mode commande par numéro",
+        "description": "One of the wiring modes in Led Strip"
+    },
     "ledStripWiringClearControl": {
         "message": "Effacer sélection",
         "description": "Control button in the wiring modes in Led Strip"
@@ -2286,6 +2326,10 @@
     "ledStripWiringClearAllControl": {
         "message": "Tout effacer",
         "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringMessage": {
+        "message": "Les LEDs sans numéro ne seront pas sauvegardées.",
+        "description": "Message in the wiring modes in Led Strip"
     },
     "ledStripVtxFunction": {
         "message": "Scanner Larson"
@@ -2843,7 +2887,7 @@
         "message": "Elements"
     },
     "osdSetupElementsSwitchAll": {
-        "message": "Tout passer"
+        "message": "Tout"
     },
     "osdSetupPreviewTitle": {
         "message": "Aperçu (faites glisser pour changer de position)"
