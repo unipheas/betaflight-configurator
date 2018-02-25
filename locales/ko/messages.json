@@ -2255,27 +2255,27 @@
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripDirN": {
-        "message": "N",
+        "message": "북",
         "description": "North direction in Color Mode in Led Strip"
     },
     "ledStripDirE": {
-        "message": "E",
+        "message": "동",
         "description": "East direction in Color Mode in Led Strip"
     },
     "ledStripDirS": {
-        "message": "S",
+        "message": "남",
         "description": "South direction in Color Mode in Led Strip"
     },
     "ledStripDirW": {
-        "message": "W",
+        "message": "서",
         "description": "West direction in Color Mode in Led Strip"
     },
     "ledStripDirU": {
-        "message": "U",
+        "message": "위",
         "description": "Up direction in Color Mode in Led Strip"
     },
     "ledStripDirD": {
-        "message": "D",
+        "message": "밑",
         "description": "Down direction in Color Mode in Led Strip"
     },
     "ledStripModesOrientationTitle": {
@@ -2353,7 +2353,7 @@
         "message": "경고"
     },
     "ledStripIndecatorOverlay": {
-        "message": "지시자 (매트릭스의 위치 사용)"
+        "message": "표시기 (매트릭스의 위치 사용)"
     },
     "colorBlack": {
         "message": "검정"
