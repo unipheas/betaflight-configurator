@@ -329,7 +329,7 @@
         "message": "<b>$1 릴리즈에 대한 GitHub 쿼리 실패, 캐쉬된 정보를 사용합니다. 이유: <code>$2<\/code><\/b>"
     },
     "releaseCheckCached": {
-        "message": "$1 릴리즈에 대한 캐쉬된 릴리즈 정보를 사용합니다."
+        "message": "$1 릴리즈에 대한 캐시된 릴리즈 정보를 사용합니다."
     },
     "releaseCheckNoInfo": {
         "message": "$1에 사용할 수 있는 릴리즈 정보가 없습니다."
