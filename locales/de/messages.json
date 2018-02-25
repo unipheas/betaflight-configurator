@@ -2166,6 +2166,14 @@
         "message": "Verbleibend",
         "description": "In the LED STRIP, text next the counter of leds remaining"
     },
+    "ledStripClearSelectedButton": {
+        "message": "Löschen",
+        "description": "In the LED STRIP, clear selected leds"
+    },
+    "ledStripClearAllButton": {
+        "message": "ALLES löschen",
+        "description": "In the LED STRIP, clear all leds"
+    },
     "ledStripEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">gespeichert<\/span>"
     },
