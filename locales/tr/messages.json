@@ -1855,6 +1855,9 @@
     "osdSetupTimersTitle": {
         "message": "Sayaçlar"
     },
+    "osdSetupStatsTitle": {
+        "message": "Uçuş sonrası istatistikler"
+    },
     "osdDescElementDebug": {
         "message": "Değişkenlerde hata ayıklama"
     },
