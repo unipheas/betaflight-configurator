@@ -1759,6 +1759,15 @@
     "powerVoltageId71": {
         "message": "Elektronik Hız Kontrol Motoru 12"
     },
+    "powerVoltageDivider": {
+        "message": "Bölücü değer"
+    },
+    "powerVoltageMultiplier": {
+        "message": "Çarpan değeri"
+    },
+    "powerAmperageHead": {
+        "message": "Amperaj metre"
+    },
     "powerAmperageId10": {
         "message": "Pil"
     },
