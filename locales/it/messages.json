@@ -2298,6 +2298,10 @@
         "message": "Animazione",
         "description": "One of the modes in Color Mode in Led Strip"
     },
+    "ledStripModeColorsModeBlinkBg": {
+        "message": "Sfondo lampeggia",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
     "ledStripModeColorsModeGPSNoSats": {
         "message": "GPS: nessun satellite",
         "description": "One of the modes in Color Mode in Led Strip"
