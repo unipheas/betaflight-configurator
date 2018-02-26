@@ -1726,6 +1726,63 @@
     "powerFirmwareUpgradeRequired": {
         "message": "Aygıt yazılımı yükseltmesi <span class=\"message-negative\">gereklidir<\/span>. API &lt; 1.33.0 (Betaflight yayın &lt;=3.17) kullanarak pil\/amper\/voltaj yapılandırmaları desteklenmiyor."
     },
+    "powerVoltageId65": {
+        "message": "Elektronik Hız Kontrol Motoru 6"
+    },
+    "powerVoltageId66": {
+        "message": "Elektronik Hız Kontrol Motoru 7"
+    },
+    "powerVoltageId67": {
+        "message": "Elektronik Hız Kontrol Motoru 8"
+    },
+    "powerVoltageId68": {
+        "message": "Elektronik Hız Kontrol Motoru 9"
+    },
+    "powerAmperageId10": {
+        "message": "Pil"
+    },
+    "powerAmperageId60": {
+        "message": "Elektronik Hız Kontrol Motoru 1"
+    },
+    "powerAmperageId61": {
+        "message": "Elektronik Hız Kontrol Motoru 2"
+    },
+    "powerAmperageId62": {
+        "message": "Elektronik Hız Kontrol Motoru 3"
+    },
+    "powerAmperageId63": {
+        "message": "Elektronik Hız Kontrol Motoru 4"
+    },
+    "powerAmperageId64": {
+        "message": "Elektronik Hız Kontrol Motoru 5"
+    },
+    "powerAmperageId65": {
+        "message": "Elektronik Hız Kontrol Motoru 6"
+    },
+    "powerAmperageId66": {
+        "message": "Elektronik Hız Kontrol Motoru 7"
+    },
+    "powerAmperageId67": {
+        "message": "Elektronik Hız Kontrol Motoru 8"
+    },
+    "powerAmperageId68": {
+        "message": "Elektronik Hız Kontrol Motoru 9"
+    },
+    "powerAmperageId69": {
+        "message": "Elektronik Hız Kontrol Motoru 10"
+    },
+    "powerAmperageId70": {
+        "message": "Elektronik Hız Kontrol Motoru 11"
+    },
+    "powerAmperageId71": {
+        "message": "Elektronik Hız Kontrol Motoru 12"
+    },
+    "powerAmperageId80": {
+        "message": "Sanal"
+    },
+    "powerBatteryVoltage": {
+        "message": "Gerilim"
+    },
     "osdSetupPreviewHelp": {
         "message": "<strong>Not:<\/strong> OSD önizlemesi, uçuş denetleyicisine yüklenen gerçek yazı tipini göstermeyebilir."
     },
