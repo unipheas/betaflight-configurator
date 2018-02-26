@@ -1726,6 +1726,18 @@
     "powerFirmwareUpgradeRequired": {
         "message": "Aygıt yazılımı yükseltmesi <span class=\"message-negative\">gereklidir<\/span>. API &lt; 1.33.0 (Betaflight yayın &lt;=3.17) kullanarak pil\/amper\/voltaj yapılandırmaları desteklenmiyor."
     },
+    "powerBatteryMinimum": {
+        "message": "Asgari pil gerilimi"
+    },
+    "powerBatteryMaximum": {
+        "message": "Azami pil gerilimi"
+    },
+    "powerBatteryWarning": {
+        "message": "Pil gerilim uyarısı"
+    },
+    "powerVoltageHead": {
+        "message": "Gerilim ölçer"
+    },
     "powerVoltageId65": {
         "message": "Elektronik Hız Kontrol Motoru 6"
     },
@@ -1737,6 +1749,15 @@
     },
     "powerVoltageId68": {
         "message": "Elektronik Hız Kontrol Motoru 9"
+    },
+    "powerVoltageId69": {
+        "message": "Elektronik Hız Kontrol Motoru 10"
+    },
+    "powerVoltageId70": {
+        "message": "Elektronik Hız Kontrol Motoru 11"
+    },
+    "powerVoltageId71": {
+        "message": "Elektronik Hız Kontrol Motoru 12"
     },
     "powerAmperageId10": {
         "message": "Pil"
@@ -1780,8 +1801,29 @@
     "powerAmperageId80": {
         "message": "Sanal"
     },
+    "powerBatteryHead": {
+        "message": "Pil"
+    },
+    "powerStateHead": {
+        "message": "Güç durumu"
+    },
+    "powerBatteryConnected": {
+        "message": "Bağlı"
+    },
+    "powerBatteryConnectedValueNo": {
+        "message": "Hayır"
+    },
     "powerBatteryVoltage": {
         "message": "Gerilim"
+    },
+    "powerBatteryCurrentDrawn": {
+        "message": "kullanılan mAh"
+    },
+    "powerBatteryAmperage": {
+        "message": "Amper gücü"
+    },
+    "powerBatteryCapacity": {
+        "message": "Kapasite (mAh)"
     },
     "osdSetupPreviewHelp": {
         "message": "<strong>Not:<\/strong> OSD önizlemesi, uçuş denetleyicisine yüklenen gerçek yazı tipini göstermeyebilir."
@@ -1791,6 +1833,15 @@
     },
     "osdSetupPreviewTitleTip": {
         "message": "Önizleme penceresinde logoyu gösterin veya gizleyin. Bu, uçuş denetleyicisinde herhangi bir ayar değiştirmeyecektir."
+    },
+    "osdSetupVideoFormatTitle": {
+        "message": "Video formatı"
+    },
+    "osdSetupUnitsTitle": {
+        "message": "Birimler"
+    },
+    "osdSetupTimersTitle": {
+        "message": "Sayaçlar"
     },
     "osdDescElementDebug": {
         "message": "Değişkenlerde hata ayıklama"
