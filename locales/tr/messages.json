@@ -1962,6 +1962,21 @@
     "osdDescElementFlyTime": {
         "message": "Uçağın mevcut güç çevriminde silahlandırıldığı toplam süre (alarm eşiğinin üstünde olduğunda yanıp söner)"
     },
+    "osdDescElementFlyMode": {
+        "message": "Şimdiki uçuş modu"
+    },
+    "osdDescElementGPSSpeed": {
+        "message": "Global konumlandırma sistemi sağlanan hızı"
+    },
+    "osdDescElementGPSSats": {
+        "message": "Global konumlandırma sistemi düzeltme sağlayan uyduların sayısı"
+    },
+    "osdDescElementGPSLon": {
+        "message": "Global konumlandırma sistemi boylamı"
+    },
+    "osdDescElementGPSLat": {
+        "message": "Global konumlandırma sistemi eylemi"
+    },
     "osdDescElementDebug": {
         "message": "Değişkenlerde hata ayıklama"
     },
