@@ -1426,6 +1426,10 @@
     "ledStripFunctionSection": {
         "message": "LED fonksiyonları"
     },
+    "ledStripModesSpecialColorsTitle": {
+        "message": "Özel renkler",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
     "ledStripVtxFunction": {
         "message": "Larson tarayıcı"
     },
