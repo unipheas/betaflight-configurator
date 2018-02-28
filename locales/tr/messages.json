@@ -1926,6 +1926,21 @@
     "osdDescElementMainBattVoltage": {
         "message": "Ani ana akü gerilimi (alarm eşiğinin altındayken yanar söner)"
     },
+    "osdDescElementRssiValue": {
+        "message": "Ani alınan sinyal gücü göstergesi değeri (alarm eşiğinin altındayken yanar söner)"
+    },
+    "osdDescElementThrottlePosition": {
+        "message": "Mevcut gaz kanal değeri"
+    },
+    "osdDescElementArmed": {
+        "message": "Yazılı silahlı mesaj"
+    },
+    "osdDescElementDisarmed": {
+        "message": "Metinsel silahsız mesaj"
+    },
+    "osdDescElementCrosshairs": {
+        "message": "Artı ekranı ortası"
+    },
     "osdDescElementDebug": {
         "message": "Değişkenlerde hata ayıklama"
     },
