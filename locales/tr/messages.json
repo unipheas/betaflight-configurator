@@ -1430,6 +1430,18 @@
         "message": "Özel renkler",
         "description": "One of the modes in Color Mode in Led Strip"
     },
+    "ledStripModeColorsModeDisarmed": {
+        "message": "Zararsız hale getirmek",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeArmed": {
+        "message": "Silahlı",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAnimation": {
+        "message": "Canlandırma",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
     "ledStripVtxFunction": {
         "message": "Larson tarayıcı"
     },
