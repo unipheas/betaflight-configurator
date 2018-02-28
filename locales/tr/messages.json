@@ -1426,6 +1426,10 @@
     "ledStripFunctionSection": {
         "message": "LED fonksiyonları"
     },
+    "ledStripModeColorsModeAngle": {
+        "message": "Açı",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
     "ledStripModesSpecialColorsTitle": {
         "message": "Özel renkler",
         "description": "One of the modes in Color Mode in Led Strip"
@@ -1441,6 +1445,18 @@
     "ledStripModeColorsModeAnimation": {
         "message": "Canlandırma",
         "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBlinkBg": {
+        "message": "Parlak arkaplan",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripWiringClearControl": {
+        "message": "Seçilenleri temizle",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringClearAllControl": {
+        "message": "Tüm kabloları temizle",
+        "description": "Control button in the wiring modes in Led Strip"
     },
     "ledStripVtxFunction": {
         "message": "Larson tarayıcı"
@@ -1739,8 +1755,23 @@
     "failsafeKillSwitchHelp": {
         "message": "Seçilen arıza güvencesi prosedürünü atlayarak, arıza güvencesi anahtarını (Modlar Sekmesi) doğrudan acil anahtarı yapmak için bu seçeneği ayarlayın. <strong>Not:<\/strong> AÇIK konumda, silahlandırılma arıza güvenceli acil anahtarıyla engellenir"
     },
+    "powerButtonSave": {
+        "message": "Kaydet"
+    },
     "powerFirmwareUpgradeRequired": {
         "message": "Aygıt yazılımı yükseltmesi <span class=\"message-negative\">gereklidir<\/span>. API &lt; 1.33.0 (Betaflight yayın &lt;=3.17) kullanarak pil\/amper\/voltaj yapılandırmaları desteklenmiyor."
+    },
+    "powerBatteryVoltageMeterSource": {
+        "message": "Gerilim ölçer kaynağı"
+    },
+    "powerBatteryVoltageMeterTypeNone": {
+        "message": "Hiçbiri"
+    },
+    "powerBatteryCurrentMeterTypeNone": {
+        "message": "Hiçbiri"
+    },
+    "powerBatteryCurrentMeterTypeVirtual": {
+        "message": "Sanal"
     },
     "powerBatteryMinimum": {
         "message": "Asgari pil gerilimi"
@@ -1873,6 +1904,21 @@
     },
     "osdSetupStatsTitle": {
         "message": "Uçuş sonrası istatistikler"
+    },
+    "osdSetupOpenFont": {
+        "message": "Yazı tipi dosyasını aç"
+    },
+    "osdSetupUploadFont": {
+        "message": "Yazı tipi yükle"
+    },
+    "osdSetupFontManager": {
+        "message": "Yazı tipi yöneticisi"
+    },
+    "osdSetupUncheckAll": {
+        "message": "Hepsinin işaretini kaldır"
+    },
+    "osdSetupCameraConnected": {
+        "message": "Kamera bağlı"
     },
     "osdDescElementDebug": {
         "message": "Değişkenlerde hata ayıklama"
