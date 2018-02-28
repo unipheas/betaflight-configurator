@@ -1956,6 +1956,12 @@
     "osdDescElementAltitude": {
         "message": "Mevcut yükseklik (alarm eşiğinin üstünde olduğunda yanıp söner)"
     },
+    "osdDescElementOnTime": {
+        "message": "Uçağın enerjilendirildiği toplam zaman"
+    },
+    "osdDescElementFlyTime": {
+        "message": "Uçağın mevcut güç çevriminde silahlandırıldığı toplam süre (alarm eşiğinin üstünde olduğunda yanıp söner)"
+    },
     "osdDescElementDebug": {
         "message": "Değişkenlerde hata ayıklama"
     },
