@@ -1941,6 +1941,21 @@
     "osdDescElementCrosshairs": {
         "message": "Artı ekranı ortası"
     },
+    "osdDescElementArtificialHorizon": {
+        "message": "Grafiksel yapay ufuk göstergesi"
+    },
+    "osdDescElementHorizonSidebars": {
+        "message": "Yapay ufuk göstergesi etrafındaki yan çubuklar"
+    },
+    "osdDescElementMahDrawn": {
+        "message": "Kullanılan toplam pil kapasitesi"
+    },
+    "osdDescElementCraftName": {
+        "message": "Yapılandırma sekmesinde belirtildiği şekilde işleme adı"
+    },
+    "osdDescElementAltitude": {
+        "message": "Mevcut yükseklik (alarm eşiğinin üstünde olduğunda yanıp söner)"
+    },
     "osdDescElementDebug": {
         "message": "Değişkenlerde hata ayıklama"
     },
