@@ -2034,6 +2034,9 @@
     "osdDescStatEndBattery": {
         "message": "Silahsızlandırma anında pil voltajı"
     },
+    "osdDescStatBlackboxLogNumber": {
+        "message": "Bu uçuşların kayıt numarası için karakutu kayıtları"
+    },
     "osdDescStatTimer1": {
         "message": "Silahsızlandırma anında zamanlayıcı 1in değeri"
     },
