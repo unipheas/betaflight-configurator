@@ -1920,6 +1920,12 @@
     "osdSetupCameraConnected": {
         "message": "Kamera bağlı"
     },
+    "osdSetupButtonReset": {
+        "message": "Ayarları sıfırla"
+    },
+    "osdDescElementMainBattVoltage": {
+        "message": "Ani ana akü gerilimi (alarm eşiğinin altındayken yanar söner)"
+    },
     "osdDescElementDebug": {
         "message": "Değişkenlerde hata ayıklama"
     },
