@@ -2116,6 +2116,9 @@
     "firmwareFlasherFirmwareNotLoaded": {
         "message": "Firmware no carregat"
     },
+    "firmwareFlasherFirmwareLocalLoaded": {
+        "message": "Firmware Local Carregat ($1 bytes)"
+    },
     "firmwareFlasherHexCorrupted": {
         "message": "L'arxiu HEX sembla corrupte"
     },
@@ -2146,6 +2149,26 @@
     "ledStripButtonSave": {
         "message": "Desa"
     },
+    "ledStripColorSetupTitle": {
+        "message": "Configuració de color",
+        "description": "Color setup title of the led strip"
+    },
+    "ledStripH": {
+        "message": "H",
+        "description": "Abbreviation of Hue in HSV (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripS": {
+        "message": "S",
+        "description": "Abbreviation of Saturation in HSV  (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripV": {
+        "message": "V",
+        "description": "Abbreviation of Brightness in HSV  (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripRemainingText": {
+        "message": "Restant",
+        "description": "In the LED STRIP, text next the counter of leds remaining"
+    },
     "ledStripClearAllButton": {
         "message": "Neteja-ho tot",
         "description": "In the LED STRIP, clear all leds"
@@ -2168,6 +2191,10 @@
     },
     "ledStripFunctionColorOption": {
         "message": "Color",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionModesOption": {
+        "message": "Modes &amp; Orientació",
         "description": "One of the modes of the Led Strip"
     },
     "ledStripFunctionArmOption": {
@@ -2208,6 +2235,30 @@
     "ledStripModeColorsModeBaro": {
         "message": "Baro",
         "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripDirN": {
+        "message": "N",
+        "description": "North direction in Color Mode in Led Strip"
+    },
+    "ledStripDirE": {
+        "message": "E",
+        "description": "East direction in Color Mode in Led Strip"
+    },
+    "ledStripDirS": {
+        "message": "S",
+        "description": "South direction in Color Mode in Led Strip"
+    },
+    "ledStripDirW": {
+        "message": "O",
+        "description": "West direction in Color Mode in Led Strip"
+    },
+    "ledStripDirU": {
+        "message": "U",
+        "description": "Up direction in Color Mode in Led Strip"
+    },
+    "ledStripDirD": {
+        "message": "D",
+        "description": "Down direction in Color Mode in Led Strip"
     },
     "ledStripModesSpecialColorsTitle": {
         "message": "Colors especials",
