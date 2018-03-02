@@ -863,7 +863,7 @@
         "message": "加速度俯仰微调"
     },
     "configurationArming": {
-        "message": "正在解锁"
+        "message": "解锁"
     },
     "configurationArmingHelp": {
         "message": "某些解锁选项可能需要启用加速度计"
@@ -911,7 +911,7 @@
         "message": "DSHOT 信标配置"
     },
     "configurationUseDshotBeeper": {
-        "message": "使用 DSHOT 信标 （当锁定状态时使用电机来发出蜂鸣声）"
+        "message": "使用 DSHOT 信标 （处于锁定状态时可以使用电机来发出蜂鸣声）"
     },
     "configurationDshotBeaconTone": {
         "message": "信标音调"
