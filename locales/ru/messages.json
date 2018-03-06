@@ -47,23 +47,51 @@
     "language_default": {
         "message": "По умолчанию"
     },
+    "sensorDataFlashNotFound": {
+        "message": "Отсутствует <br>модуль памяти",
+        "description": "Text of the dataflash image in the header of the page."
+    },
     "sensorStatusGyro": {
         "message": "Гироскоп"
+    },
+    "sensorStatusGyroShort": {
+        "message": "Гироскоп",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusAccel": {
         "message": "Акселерометр"
     },
+    "sensorStatusAccelShort": {
+        "message": "Акселерометр",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
     "sensorStatusMag": {
         "message": "Магнитометр"
+    },
+    "sensorStatusMagShort": {
+        "message": "Компас",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusBaro": {
         "message": "Барометр"
     },
+    "sensorStatusBaroShort": {
+        "message": "Барометр",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
     "sensorStatusGPS": {
         "message": "GPS"
     },
+    "sensorStatusGPSShort": {
+        "message": "GPS",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
     "sensorStatusSonar": {
         "message": "Сонар\/Дальномер"
+    },
+    "sensorStatusSonarShort": {
+        "message": "Сонар",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "checkForConfiguratorUnstableVersions": {
         "message": "Показывать уведомления об обновлениях для нестабильных версий конфигуратора"
@@ -1208,6 +1236,9 @@
     "receiverEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">сохранён<\/span>"
     },
+    "receiverModelPreview": {
+        "message": "Предпросмотр"
+    },
     "auxiliaryMin": {
         "message": "Мин."
     },
@@ -1510,5 +1541,44 @@
     },
     "configurationMagHardware": {
         "message": "Магнитометр (если поддерживается)"
+    },
+    "configurationCamera": {
+        "message": "Камера"
+    },
+    "configurationFpvCamAngleDegrees": {
+        "message": "Угол наклона FPV-камеры [degrees]"
+    },
+    "onboardLoggingBlackbox": {
+        "message": "Устройство для записи в Blackbox"
+    },
+    "onboardLoggingRateOfLogging": {
+        "message": "Частота записи в Blackbox"
+    },
+    "onboardLoggingSerialLogger": {
+        "message": "Внешнее устройство записи"
+    },
+    "onboardLoggingFlashLogger": {
+        "message": "Встроенный чип флеш-памяти"
+    },
+    "onboardLoggingEraseInProgress": {
+        "message": "Идёт стирание, пожалуйста, подождите..."
+    },
+    "onboardLoggingOnboardSDCard": {
+        "message": "Встроенная SD-карта"
+    },
+    "dialogConfirmResetTitle": {
+        "message": "Подтвердить"
+    },
+    "dialogConfirmResetConfirm": {
+        "message": "Сбросить"
+    },
+    "dialogConfirmResetClose": {
+        "message": "Отмена"
+    },
+    "modeCameraWifi": {
+        "message": "КАМЕРА: КНОПКА WI-FI"
+    },
+    "modeCameraPower": {
+        "message": "КАМЕРА: КНОПКА ПИТАНИЯ"
     }
 }
