@@ -31,5 +31,17 @@
     },
     "configurationLoopTimeHelp": {
         "message": "<strong>注意:<\/strong>FCがこの速度で動作するか確認してください！CPUとサイクル時間の安定度を確認してください。この変更はPIDの再調整を必要とするかもしれません。TIP: パフォーマンスを上げるためには加速度センサや他のセンサを無効にします。"
+    },
+    "portsSensorIn": {
+        "message": "センサー入力"
+    },
+    "portsTelemetryOut": {
+        "message": "テレメトリー出力"
+    },
+    "portsFunction_TELEMETRY_HOTT": {
+        "message": "HoTT"
+    },
+    "portsFunction_TELEMETRY_LTM": {
+        "message": "LTM"
     }
 }
