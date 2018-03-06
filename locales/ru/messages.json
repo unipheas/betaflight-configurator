@@ -423,6 +423,9 @@
     "defaultContributingHead": {
         "message": "Содействие"
     },
+    "defaultContributingText": {
+        "message": "Если вы хотите сделать Betaflight лучше, вы можете помочь нам несколькими способами:<br \/><ul><li>Ответами на вопросы других пользователей на форумах и IRC.<\/li><li>Добавлением кода прошивки и конфигуратора с целью: добавления нового функционала, исправления ошибок, улучшений<\/li><li>Тестированием <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">нового функционала\/исправленных ошибок<\/a> и сообщая нам результаты.<\/li><li>Помочь нам <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">обсудить запросы на новые функционалы<\/a>.<\/li><li>Помочь с <a href=\"http:\/\/betaflight.oneskyapp.com\" target=\"_blank\">переводом конфигуратора<\/a> на свой родной язык.<\/li><li><\/li><\/ul>"
+    },
     "defaultChangelogAction": {
         "message": "Изменения"
     },
@@ -1077,6 +1080,15 @@
     "portsFunction_RUNCAM_DEVICE_CONTROL": {
         "message": "RunCam устройство"
     },
+    "pidTuningProfileOption": {
+        "message": "Профиль $1"
+    },
+    "pidTuningRateProfileOption": {
+        "message": "Rate-профиль $1"
+    },
+    "portsFunction_LIDAR_TF": {
+        "message": "Benewake LIDAR"
+    },
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">Менять PID-контроллер запрещено, но его можно поменять в командной строке.<\/span>  Ваша прошивка поддерживает конфигуратор версии <span class=\"message-negative\">$1<\/span>, а этот функционал требует версию прошивки <span class=\"message-positive\">$2<\/span>."
     },
@@ -1115,6 +1127,9 @@
     },
     "receiverRcInterpolationOff": {
         "message": "Отключено"
+    },
+    "receiverRcInterpolationDefault": {
+        "message": "Предустановка"
     },
     "receiverRcInterpolationAuto": {
         "message": "Auto"
@@ -1185,6 +1200,12 @@
     "pidTuningCopyProfile": {
         "message": "Скопир. значения профиля"
     },
+    "pidTuningCopyRateProfile": {
+        "message": "Скопир. значения rate-профиля"
+    },
+    "dialogCopyRateProfileText": {
+        "message": "Скопируйте значения из текущей rate-профиля на"
+    },
     "dialogCopyProfileTitle": {
         "message": "Скопир. значения профиля"
     },
@@ -1227,6 +1248,9 @@
     "receiverRssiChannelDisabledOption": {
         "message": "Отключено"
     },
+    "receiverRefreshRateTitle": {
+        "message": "Частота обновления граф"
+    },
     "receiverButtonSave": {
         "message": "Сохранить"
     },
@@ -1254,6 +1278,15 @@
     "adjustmentsExamples": {
         "message": "Примеры"
     },
+    "adjustmentsColumnIsInRange": {
+        "message": "находится в диапазоне"
+    },
+    "adjustmentsColumnThenApplyFunction": {
+        "message": "затем применить"
+    },
+    "adjustmentsColumnViaChannel": {
+        "message": "через канал"
+    },
     "adjustmentsSlot0": {
         "message": "Слот 1"
     },
@@ -1272,6 +1305,54 @@
     "adjustmentsMax": {
         "message": "Макс."
     },
+    "adjustmentsFunction1": {
+        "message": "Yaw Rate корректировка"
+    },
+    "adjustmentsFunction4": {
+        "message": "Pitch & Roll Rate корректировка"
+    },
+    "adjustmentsFunction5": {
+        "message": "Yaw Rate корректировка"
+    },
+    "adjustmentsFunction6": {
+        "message": "Pitch & Roll P корректировка"
+    },
+    "adjustmentsFunction7": {
+        "message": "Pitch & Roll I корректировка"
+    },
+    "adjustmentsFunction8": {
+        "message": "Pitch & Roll D корректировка"
+    },
+    "adjustmentsFunction9": {
+        "message": "Yaw P корректировка"
+    },
+    "adjustmentsFunction10": {
+        "message": "Yaw I корректировка"
+    },
+    "adjustmentsFunction11": {
+        "message": "Yaw D корректировка"
+    },
+    "adjustmentsFunction12": {
+        "message": "Выбор rate-профиля"
+    },
+    "adjustmentsFunction15": {
+        "message": "Pitch P корректировка"
+    },
+    "adjustmentsFunction16": {
+        "message": "Pitch I корректировка"
+    },
+    "adjustmentsFunction17": {
+        "message": "Pitch D корректировка"
+    },
+    "adjustmentsFunction18": {
+        "message": "Roll P корректировка"
+    },
+    "adjustmentsFunction19": {
+        "message": "Roll I корректировка"
+    },
+    "adjustmentsFunction20": {
+        "message": "Roll D корректировка"
+    },
     "adjustmentsSave": {
         "message": "Сохранить"
     },
@@ -1284,8 +1365,38 @@
     "transponderConfigurationType": {
         "message": "Тип транспондера"
     },
+    "transponderType0": {
+        "message": "Ни один"
+    },
+    "transponderType1": {
+        "message": "iLap"
+    },
+    "transponderType2": {
+        "message": "aRCiTimer"
+    },
+    "transponderType3": {
+        "message": "ERLT"
+    },
+    "transponderConfiguration1": {
+        "message": "Конфигурация iLap"
+    },
+    "transponderConfiguration2": {
+        "message": "Конфигурация aRCiTimer"
+    },
+    "transponderConfiguration3": {
+        "message": "Конфигурация ERLT"
+    },
+    "transponderData1": {
+        "message": "Данные"
+    },
     "transponderData2": {
         "message": "ID Транспондера"
+    },
+    "transponderData3": {
+        "message": "ID Транспондера"
+    },
+    "transponderDataHelp1": {
+        "message": "Только хексдецимальные цифры, 0-9, A-F"
     },
     "transponderButtonSave": {
         "message": "Сохранить"
@@ -1304,6 +1415,9 @@
     },
     "servosMax": {
         "message": "Макс."
+    },
+    "servosDirectionAndRate": {
+        "message": "Направление и скорость"
     },
     "servosButtonSave": {
         "message": "Сохранить"
@@ -1418,6 +1532,9 @@
     },
     "firmwareFlasherManualPort": {
         "message": "Порт"
+    },
+    "firmwareFlasherBaudRate": {
+        "message": "Скорость передачи"
     },
     "firmwareFlasherShowDevelopmentReleases": {
         "message": "Показать нестабильные релизы"
@@ -1541,6 +1658,9 @@
     },
     "configurationMagHardware": {
         "message": "Магнитометр (если поддерживается)"
+    },
+    "pidTuningRateProfile": {
+        "message": "Rate-профиль"
     },
     "configurationCamera": {
         "message": "Камера"
