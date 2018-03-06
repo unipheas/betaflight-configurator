@@ -25,5 +25,11 @@
     },
     "close": {
         "message": "閉じる"
+    },
+    "featureCHANNEL_FORWARDING": {
+        "message": "AUXチャンネルをサーボ出力に転送"
+    },
+    "configurationLoopTimeHelp": {
+        "message": "<strong>注意:<\/strong>FCがこの速度で動作するか確認してください！CPUとサイクル時間の安定度を確認してください。この変更はPIDの再調整を必要とするかもしれません。TIP: パフォーマンスを上げるためには加速度センサや他のセンサを無効にします。"
     }
 }
