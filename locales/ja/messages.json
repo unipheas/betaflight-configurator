@@ -5,10 +5,25 @@
     "noticeTitle": {
         "message": "通知"
     },
+    "options_title": {
+        "message": "オプション設定"
+    },
     "connect": {
         "message": "接続"
     },
     "connecting": {
         "message": "接続中"
+    },
+    "disconnect": {
+        "message": "切断"
+    },
+    "portsSelectManual": {
+        "message": "手動選択"
+    },
+    "autoConnect": {
+        "message": "自動接続"
+    },
+    "close": {
+        "message": "閉じる"
     }
 }
