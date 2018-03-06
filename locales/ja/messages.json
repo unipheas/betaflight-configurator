@@ -1,5 +1,14 @@
 {
     "warningTitle": {
         "message": "注意"
+    },
+    "noticeTitle": {
+        "message": "通知"
+    },
+    "connect": {
+        "message": "接続"
+    },
+    "connecting": {
+        "message": "接続中"
     }
 }
