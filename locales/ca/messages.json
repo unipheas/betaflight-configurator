@@ -2169,6 +2169,10 @@
         "message": "Restant",
         "description": "In the LED STRIP, text next the counter of leds remaining"
     },
+    "ledStripClearSelectedButton": {
+        "message": "Neteja la selecció",
+        "description": "In the LED STRIP, clear selected leds"
+    },
     "ledStripClearAllButton": {
         "message": "Neteja-ho tot",
         "description": "In the LED STRIP, clear all leds"
@@ -2220,6 +2224,17 @@
     "ledStripColorModifierTitle": {
         "message": "Modificador de color"
     },
+    "ledStripModeColorsTitle": {
+        "message": "Colors del mode"
+    },
+    "ledStripModeColorsModeOrientation": {
+        "message": "Orientació",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeHeadfree": {
+        "message": "Mode lliure",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
     "ledStripModeColorsModeHorizon": {
         "message": "Horizon",
         "description": "One of the modes in Color Mode in Led Strip"
@@ -2260,6 +2275,10 @@
         "message": "D",
         "description": "Down direction in Color Mode in Led Strip"
     },
+    "ledStripModesOrientationTitle": {
+        "message": "Orientació del LED ('Modes &amp; Orientació') i Color",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
     "ledStripModesSpecialColorsTitle": {
         "message": "Colors especials",
         "description": "One of the modes in Color Mode in Led Strip"
@@ -2274,6 +2293,18 @@
     },
     "ledStripModeColorsModeAnimation": {
         "message": "Animació",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoSats": {
+        "message": "GPS: cap SAT",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoLock": {
+        "message": "GPS: no ubicat",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSLocked": {
+        "message": "GPS: ubicat",
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripWiringClearControl": {
