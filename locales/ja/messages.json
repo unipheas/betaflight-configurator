@@ -205,6 +205,75 @@
     "logActionShow": {
         "message": "ログを表示"
     },
+    "apiVersionReceived": {
+        "message": "MultiWii APIバージョン: <strong>$1<\/strong>"
+    },
+    "uniqueDeviceIdReceived": {
+        "message": "ユニークデバイスID: <strong>0x$1<\/strong>"
+    },
+    "craftNameReceived": {
+        "message": "機体名: <strong>$1<\/strong>"
+    },
+    "armingDisabled": {
+        "message": "<strong>アーミング無効<\/strong>"
+    },
+    "armingEnabled": {
+        "message": "<strong>アーミング有効<\/strong>"
+    },
+    "runawayTakeoffPreventionDisabled": {
+        "message": "<strong>暴走離陸抑止機能を一時的に無効<\/strong>"
+    },
+    "runawayTakeoffPreventionEnabled": {
+        "message": "<strong>暴走離陸抑止機能を有効<\/strong>"
+    },
+    "boardInfoReceived": {
+        "message": "ボード: <strong>$1<\/strong> バージョン: <strong>$2<\/strong>"
+    },
+    "buildInfoReceived": {
+        "message": "稼働ファームウェアリリース: <strong>$1<\/strong>"
+    },
+    "fcInfoReceived": {
+        "message": "フライトコントローラ情報 ID: <strong>$1<\/strong> バージョン: <strong>$2<\/strong>"
+    },
+    "versionLabelTarget": {
+        "message": "ターゲット"
+    },
+    "versionLabelFirmware": {
+        "message": "ファームウェア"
+    },
+    "versionLabelConfigurator": {
+        "message": "コンフィギュレータ"
+    },
+    "notifications_app_just_updated_to_version": {
+        "message": "アプリケーション更新バージョン: $1"
+    },
+    "notifications_click_here_to_start_app": {
+        "message": "アプリケーションを起動するにはここをクリック"
+    },
+    "statusbar_port_utilization": {
+        "message": "ポート使用率:"
+    },
+    "statusbar_usage_download": {
+        "message": "D: $1%"
+    },
+    "statusbar_usage_upload": {
+        "message": "U: $1%"
+    },
+    "statusbar_packet_error": {
+        "message": "パケットエラー:"
+    },
+    "statusbar_i2c_error": {
+        "message": "I2Cエラー:"
+    },
+    "statusbar_cycle_time": {
+        "message": "サイクル時間:"
+    },
+    "statusbar_cpu_load": {
+        "message": "CPU使用率: $1%"
+    },
+    "dfu_connect_message": {
+        "message": "DFUデバイスへのアクセスはファームウェアフラッシャーを使用してください"
+    },
     "defaultSupportHead": {
         "message": "サポート"
     },
