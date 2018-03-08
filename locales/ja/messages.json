@@ -99,6 +99,9 @@
     "configurationBatteryCurrent": {
         "message": "バッテリー電流"
     },
+    "configurationBatteryMeterType": {
+        "message": "バッテリーメータータイプ"
+    },
     "configurationBatteryMinimum": {
         "message": "1セルあたりの最小電圧"
     },
@@ -119,6 +122,9 @@
     },
     "configurationCurrentOffset": {
         "message": "ミリボルト単位のオフセット値"
+    },
+    "configurationBatteryMultiwiiCurrent": {
+        "message": "レガシー Multiwii MSP電流出力サポートを有効にする"
     },
     "pidTuningProfile": {
         "message": "プロファイル"
