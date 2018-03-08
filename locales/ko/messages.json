@@ -2928,6 +2928,15 @@
     "osdSetupOpenFont": {
         "message": "폰트파일 열기"
     },
+    "osdSetupLogo": {
+        "message": "글꼴 로고"
+    },
+    "osdSetupReplaceLogo": {
+        "message": "로고 교체"
+    },
+    "osdSetupReplaceLogoHelp": {
+        "message": "사용자 정의된 로고 이미지는 완전한 녹색 배경에 흑백 픽셀을 포함하는 288×72 픽셀의 크기여야 합니다."
+    },
     "osdSetupUploadFont": {
         "message": "폰트 업로드"
     },
