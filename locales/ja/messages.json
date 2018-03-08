@@ -29,8 +29,27 @@
     "close": {
         "message": "閉じる"
     },
+    "autoConnectEnabled": {
+        "message": "自動接続: 有効 - コンフィギュレーターは自動的に新しいポートが検出されたときに接続を試みます。"
+    },
+    "autoConnectDisabled": {
+        "message": "自動接続: 無効 - ユーザーが正しいシリアル ポートを選択し、別途「接続」ボタンをクリックする必要があります。"
+    },
+    "expertMode": {
+        "message": "エキスパートモード有効化"
+    },
+    "permanentExpertMode": {
+        "message": "エキスパートモードを常時有効化"
+    },
+    "userLanguageSelect": {
+        "message": "言語設定 (変更を有効にするにはアプリケーションを再起動する必要があります)"
+    },
     "language_default": {
         "message": "初期値"
+    },
+    "sensorDataFlashFreeSpace": {
+        "message": "データ書き込み: 空き領域",
+        "description": "Text of the dataflash image in the header of the page."
     },
     "sensorStatusGyro": {
         "message": "ジャイロスコープ"
@@ -38,6 +57,12 @@
     "sensorStatusGyroShort": {
         "message": "ジャイロ",
         "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusAccel": {
+        "message": "加速度センサー"
+    },
+    "sensorStatusMag": {
+        "message": "コンパス"
     },
     "sensorStatusMagShort": {
         "message": "コンパス",
@@ -53,12 +78,61 @@
     "sensorStatusGPS": {
         "message": "GPS"
     },
+    "sensorStatusGPSShort": {
+        "message": "GPS",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
     "sensorStatusSonar": {
         "message": "ソナー \/ ファインダー範囲"
     },
     "sensorStatusSonarShort": {
         "message": "ソナー",
         "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "configuratorUpdateWebsite": {
+        "message": "リリースサイトに移動"
+    },
+    "deviceRebooting": {
+        "message": "デバイス - <span class=\"message-negative\">再起動中<\/span>"
+    },
+    "backupFileUnmigratable": {
+        "message": "指定されたバックアップファイルは以前のバージョンで生成されているため、移行できません。申し訳ありません。"
+    },
+    "tabFirmwareFlasher": {
+        "message": "ファームウェア書き換え"
+    },
+    "tabLanding": {
+        "message": "ようこそ"
+    },
+    "tabHelp": {
+        "message": "マニュアル&サポート"
+    },
+    "tabSetup": {
+        "message": "セットアップ"
+    },
+    "tabSetupOSD": {
+        "message": "OSDセットアップ"
+    },
+    "tabConfiguration": {
+        "message": "基本設定"
+    },
+    "tabPorts": {
+        "message": "ポート"
+    },
+    "tabPidTuning": {
+        "message": "PIDチューニング"
+    },
+    "tabReceiver": {
+        "message": "受信機"
+    },
+    "tabModeSelection": {
+        "message": "モード選択"
+    },
+    "tabServos": {
+        "message": "サーボ"
+    },
+    "tabFailsafe": {
+        "message": "フェイルセーフ"
     },
     "defaultSupportHead": {
         "message": "サポート"
