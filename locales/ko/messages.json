@@ -2928,9 +2928,6 @@
     "osdSetupOpenFont": {
         "message": "글꼴 파일 열기"
     },
-    "osdSetupLogo": {
-        "message": "글꼴 로고"
-    },
     "osdSetupReplaceLogo": {
         "message": "로고 교체"
     },
