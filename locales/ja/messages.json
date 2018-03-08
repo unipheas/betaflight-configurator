@@ -286,6 +286,15 @@
     "eeprom_saved_ok": {
         "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
     },
+    "defaultWelcomeIntro": {
+        "message": "<strong>Betaflight - Configurator<\/strong>へようこそ。このユーティリティは、フライトコントローラの設定やチューニングを簡単に更新できるよう設計されています。"
+    },
+    "defaultWelcomeHead": {
+        "message": "ハードウェア"
+    },
+    "defaultWelcomeText": {
+        "message": "このアプリケーションはBetaflightを実施可能な全てのハードウェアをサポートしています。<br><br><a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Betaflight Blackboxをダウンロード<\/a><br \/><br \/>ファームウェアのソースコードは<a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">こちら<\/a>からダウンロード<br \/>最新のファームウェアイメージは<a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/><br \/>最新の<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\"> CP210x Drivers<\/a>のダウンロードは<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">こちら<\/a><br \/>最新の<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\"> STM USB VCP Drivers<\/a>のダウンロードは<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">こちら<\/a><br \/>最新のWindows USB ドライバインストール向け<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\"> Zadig<\/a>のダウンロードは<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">こちら<\/a><br \/>"
+    },
     "defaultSupportHead": {
         "message": "サポート"
     },
