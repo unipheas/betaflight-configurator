@@ -2295,6 +2295,10 @@
         "message": "Animació",
         "description": "One of the modes in Color Mode in Led Strip"
     },
+    "ledStripModeColorsModeBlinkBg": {
+        "message": "Parpellejar fons",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
     "ledStripModeColorsModeGPSNoSats": {
         "message": "GPS: cap SAT",
         "description": "One of the modes in Color Mode in Led Strip"
@@ -2307,9 +2311,25 @@
         "message": "GPS: ubicat",
         "description": "One of the modes in Color Mode in Led Strip"
     },
+    "ledStripWiring": {
+        "message": "Cablejat de la Tira LED",
+        "description": "One of the modes in Led Strip"
+    },
+    "ledStripWiringMode": {
+        "message": "Mode d'Ordenació de Cablejat",
+        "description": "One of the wiring modes in Led Strip"
+    },
     "ledStripWiringClearControl": {
         "message": "Esborrar selecció",
         "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringClearAllControl": {
+        "message": "Esborra TOT el cablejat",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringMessage": {
+        "message": "Els LEDs sense nombre d'ordenació no es desaran.",
+        "description": "Message in the wiring modes in Led Strip"
     },
     "ledStripVtxFunction": {
         "message": "Larson scanner"
@@ -2904,6 +2924,21 @@
     },
     "osdSetupOpenFont": {
         "message": "Obrir un arxiu de Font"
+    },
+    "osdSetupLogo": {
+        "message": "Logo a la font:"
+    },
+    "osdSetupReplaceLogo": {
+        "message": "Reemplaçar Logo"
+    },
+    "osdSetupReplaceLogoHelp": {
+        "message": "La imatge personalitzada ha de ser de 288×72 píxels de mida contenint, només, píxels blancs i negres sobre un fons verd."
+    },
+    "osdSetupReplaceLogoImageSizeError": {
+        "message": "Mida de la imatge invàlida; s'esperava $1×$2 en comptes de $3×$4"
+    },
+    "osdSetupReplaceLogoImageColorsError": {
+        "message": "La imatge conté una paleta de colors invàlida (només verd, negre i blanc són permesos)"
     },
     "osdSetupUploadFont": {
         "message": "Pujar Font"
