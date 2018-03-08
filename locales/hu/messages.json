@@ -815,6 +815,9 @@
     "beeperBLACKBOX_ERASE": {
         "message": "Csipog, ha a feketedoboz törlése befejeződött"
     },
+    "configuration3d": {
+        "message": "3D ESC\/Motor Funkciók"
+    },
     "configuration3dDeadbandLow": {
         "message": "3D Holtsáv Alsó"
     },
