@@ -274,6 +274,18 @@
     "dfu_connect_message": {
         "message": "DFUデバイスへのアクセスはファームウェアフラッシャーを使用してください"
     },
+    "dfu_erased_kilobytes": {
+        "message": "フラッシュメモリ内の$1 KBを<span class=\"message-positive\">正常<\/span>に消去しました。"
+    },
+    "dfu_device_flash_info": {
+        "message": "検出されたデバイスの合計フラッシュメモリサイズ $1 KB"
+    },
+    "dfu_error_image_size": {
+        "message": "<span class=\"message-negative\">エラー<\/span>: 指定した画像サイズが利用可能サイズより大きい！画像: $1 KB, 制限値= $2 KB"
+    },
+    "eeprom_saved_ok": {
+        "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
+    },
     "defaultSupportHead": {
         "message": "サポート"
     },
