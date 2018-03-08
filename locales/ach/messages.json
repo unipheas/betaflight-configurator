@@ -2968,6 +2968,21 @@
     "osdSetupOpenFont": {
         "message": "crwdns6220:0crwdne6220:0"
     },
+    "osdSetupLogo": {
+        "message": "crwdns8696:0crwdne8696:0"
+    },
+    "osdSetupReplaceLogo": {
+        "message": "crwdns8697:0crwdne8697:0"
+    },
+    "osdSetupReplaceLogoHelp": {
+        "message": "crwdns8698:0crwdne8698:0"
+    },
+    "osdSetupReplaceLogoImageSizeError": {
+        "message": "crwdns8699:0crwdne8699:0"
+    },
+    "osdSetupReplaceLogoImageColorsError": {
+        "message": "crwdns8700:0crwdne8700:0"
+    },
     "osdSetupUploadFont": {
         "message": "crwdns6221:0crwdne6221:0"
     },
