@@ -20,11 +20,45 @@
     "portsSelectManual": {
         "message": "手動選択"
     },
+    "portOverrideText": {
+        "message": "ポート:"
+    },
     "autoConnect": {
         "message": "自動接続"
     },
     "close": {
         "message": "閉じる"
+    },
+    "language_default": {
+        "message": "デフォルト"
+    },
+    "sensorStatusGyro": {
+        "message": "ジャイロスコープ"
+    },
+    "sensorStatusGyroShort": {
+        "message": "ジャイロ",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusMagShort": {
+        "message": "コンパス",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusBaro": {
+        "message": "気圧計"
+    },
+    "sensorStatusBaroShort": {
+        "message": "気圧計",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusGPS": {
+        "message": "GPS"
+    },
+    "sensorStatusSonar": {
+        "message": "ソナー \/ ファインダー範囲"
+    },
+    "sensorStatusSonarShort": {
+        "message": "ソナー",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "featureCHANNEL_FORWARDING": {
         "message": "AUXチャンネルをサーボ出力に転送"
