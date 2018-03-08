@@ -2928,6 +2928,21 @@
     "osdSetupOpenFont": {
         "message": "Abrir Archivo de Fuente"
     },
+    "osdSetupLogo": {
+        "message": "Logo en fuente:"
+    },
+    "osdSetupReplaceLogo": {
+        "message": "Reemplazar Logo"
+    },
+    "osdSetupReplaceLogoHelp": {
+        "message": "La imagen personalizada para el logo debe ser de 288×72 píxeles conteniendo sólo píxeles blancos y negros en un fondo completamente verde."
+    },
+    "osdSetupReplaceLogoImageSizeError": {
+        "message": "Tamaño de imagen no válido; se esperaba $1×$2 en vez de $3×$4"
+    },
+    "osdSetupReplaceLogoImageColorsError": {
+        "message": "La imagen contiene una paleta de colores no válida (sólo se permite verde, blanco y negro)"
+    },
     "osdSetupUploadFont": {
         "message": "Cargar Fuente"
     },
