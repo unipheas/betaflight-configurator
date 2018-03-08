@@ -60,6 +60,15 @@
         "message": "ソナー",
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
+    "defaultSupportHead": {
+        "message": "サポート"
+    },
+    "defaultSupportSubline1": {
+        "message": "開発ソースをサポート"
+    },
+    "defaultSupportSubline2": {
+        "message": "開発者"
+    },
     "featureCHANNEL_FORWARDING": {
         "message": "AUXチャンネルをサーボ出力に転送"
     },
