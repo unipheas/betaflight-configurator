@@ -2928,6 +2928,21 @@
     "osdSetupOpenFont": {
         "message": "Atvērt fonta failu"
     },
+    "osdSetupLogo": {
+        "message": "Logo fontā:"
+    },
+    "osdSetupReplaceLogo": {
+        "message": "Aizvietot Logo"
+    },
+    "osdSetupReplaceLogoHelp": {
+        "message": "Izmanītajam logo attēlam jābūt 288×72 pikseļu izmērā saturot tikai melnus un baltus pikseļus pilnīgi zaļā fonā."
+    },
+    "osdSetupReplaceLogoImageSizeError": {
+        "message": "Nederīgs attēla izmērs; sagaidu $1×$2 šī vietā $3×$4"
+    },
+    "osdSetupReplaceLogoImageColorsError": {
+        "message": "Šis attēls satur nederīgu krāsu paleti (tikai zaļa, melna un balta krāsa atļauta)"
+    },
     "osdSetupUploadFont": {
         "message": "Augšupielādēt fontu"
     },
