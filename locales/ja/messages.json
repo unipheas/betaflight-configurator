@@ -200,10 +200,10 @@
         "message": "モード"
     },
     "logActionHide": {
-        "message": "ログを隠す"
+        "message": "ログの非表示"
     },
     "logActionShow": {
-        "message": "ログを表示"
+        "message": "ログの表示"
     },
     "apiVersionReceived": {
         "message": "MultiWii APIバージョン: <strong>$1<\/strong>"
@@ -321,6 +321,42 @@
     },
     "portsFunction_TELEMETRY_LTM": {
         "message": "LTM"
+    },
+    "osdSectionHelpVideoMode": {
+        "message": "カメラのビデオモードを設定します (通常、カメラの出力形式と一致するように設定するのが難しい場合は自動のままとしてください)。"
+    },
+    "osdSectionHelpUnits": {
+        "message": "数値に対する単位を設定します。"
+    },
+    "osdSectionHelpTimers": {
+        "message": "フライトタイマーを設定します。"
+    },
+    "osdSectionHelpAlarms": {
+        "message": "アラーム状態をOSDに表示させるしきい値を設定します。"
+    },
+    "osdSectionHelpStats": {
+        "message": "フライト統計情報を画面表示させる値を設定します。"
+    },
+    "osdSectionHelpWarnings": {
+        "message": "WARNINGS に表示される警告を有効または無効にします。"
+    },
+    "osdSettingsSaved": {
+        "message": "OSD 設定保存"
+    },
+    "osdWritePermissions": {
+        "message": "このファイルに対する<span class = \"message-negative\">書き込み権限<\/span>がありません"
+    },
+    "mainHelpArmed": {
+        "message": "モーター アーミング"
+    },
+    "mainHelpFailsafe": {
+        "message": "フェイルセーフモード"
+    },
+    "mainHelpLink": {
+        "message": "シリアル接続状態"
+    },
+    "configurationEscProtocol": {
+        "message": "ESC \/ モータープロトコル"
     },
     "configurationAccHardware": {
         "message": "加速度センサー"
