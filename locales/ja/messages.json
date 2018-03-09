@@ -322,6 +322,30 @@
     "portsFunction_TELEMETRY_LTM": {
         "message": "LTM"
     },
+    "osdSetupElementsTitle": {
+        "message": "構成要素"
+    },
+    "osdSetupElementsSwitchAll": {
+        "message": "すべてのスイッチ"
+    },
+    "osdSetupPreviewTitle": {
+        "message": "プレビュー (ドラッグして位置を変更します)"
+    },
+    "osdSetupPreviewTitleTip": {
+        "message": "表示またはプレビューウィンドウでロゴを非表示。フライト コント ローラーの設定は変わりません。"
+    },
+    "osdSetupVideoFormatTitle": {
+        "message": "ビデオ形式"
+    },
+    "osdSetupUnitsTitle": {
+        "message": "単位"
+    },
+    "osdSetupTimersTitle": {
+        "message": "タイマー"
+    },
+    "osdSetupAlarmsTitle": {
+        "message": "アラーム"
+    },
     "osdDescElementPower": {
         "message": "瞬間電力消費量"
     },
@@ -417,6 +441,54 @@
     },
     "osdDescStatArmedTime": {
         "message": "機体が最後にアームしてからの時間"
+    },
+    "osdDescStatMaxDistance": {
+        "message": "ホームロケーションからの最大距離"
+    },
+    "osdDescStatBlackboxLogNumber": {
+        "message": "飛行後のブラックボックスログのログ番号"
+    },
+    "osdDescStatTimer1": {
+        "message": "ディスアーム時のタイマー1の値"
+    },
+    "osdDescStatTimer2": {
+        "message": "ディスアーム時のタイマー2の値"
+    },
+    "osdDescStatRtcDateTime": {
+        "message": "ハードウェアクロックからの日付と時間"
+    },
+    "osdTimerSource": {
+        "message": "ソース:"
+    },
+    "osdTimerSourceTooltip": {
+        "message": "タイマーソースを選択します。これはタイマー計測する期間 \/ イベントを制御します。"
+    },
+    "osdTimerPrecision": {
+        "message": "精度:"
+    },
+    "osdTimerPrecisionTooltip": {
+        "message": "タイマー精度を選択します。これは、時間情報がどれくらいの精度でレポートされるかを制御します。"
+    },
+    "osdTimerAlarm": {
+        "message": "アラーム:"
+    },
+    "osdTimerAlarmTooltip": {
+        "message": "タイマーアラームのしきい値を分単位で選択します。時間がこの値を超えると、OSD表示にて点滅し、これを0に設定するとアラームが無効になります。"
+    },
+    "osdWarningArmingDisabled": {
+        "message": "アーミングができない最も重大な理由を報告"
+    },
+    "osdWarningBatteryNotFull": {
+        "message": "完全に充電されていないバッテリーが接続されたときの警告"
+    },
+    "osdWarningBatteryWarning": {
+        "message": "バッテリー電圧が警告しきい値を下回ったときの警告"
+    },
+    "osdWarningBatteryCritical": {
+        "message": "バッテリー電圧が最小平均セル電圧を下回ったときの警告"
+    },
+    "osdWarningVisualBeeper": {
+        "message": "ビープを可視化します (4点滅LED表示)"
     },
     "osdWarningCrashFlipMode": {
         "message": "クラッシュモードを有効にした後でフリップすると警告する"
