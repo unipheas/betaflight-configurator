@@ -2925,6 +2925,21 @@
     "osdSetupOpenFont": {
         "message": "Ouvrir le fichier de police"
     },
+    "osdSetupLogo": {
+        "message": "Logo sur l'écran:"
+    },
+    "osdSetupReplaceLogo": {
+        "message": "Remplacer le Logo"
+    },
+    "osdSetupReplaceLogoHelp": {
+        "message": "La taille de l'image du logo personnalisé doit être de 288×72 pixels et composée de pixels blancs et noirs uniquement, sur un fond entièrement vert."
+    },
+    "osdSetupReplaceLogoImageSizeError": {
+        "message": "Taille de l'image invalide; requise $1×$2 au lieu de $3×$4"
+    },
+    "osdSetupReplaceLogoImageColorsError": {
+        "message": "La palette couleurs de l'image n'est pas valide (seuls le vert, le noir et le blanc sont autorisés)"
+    },
     "osdSetupUploadFont": {
         "message": "Charger le fichier de police"
     },
