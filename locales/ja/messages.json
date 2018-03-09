@@ -358,6 +358,27 @@
     "configurationEscProtocol": {
         "message": "ESC \/ モータープロトコル"
     },
+    "configurationEscProtocolHelp": {
+        "message": "モータープロトコルを選択してください。<br>プロトコルがESCによってサポートされていることを確認してください。この情報はメーカーのWebサイトを確認してください。<br> <b>DSHOT900とDSHOT1200は、現在それほど多くのESCをサポートしていないため、ご使用の際は注意してください！<\/b>"
+    },
+    "configurationunsyndePwm": {
+        "message": "PID値からモーターPWM値を分離"
+    },
+    "configurationUnsyncedPWMFreq": {
+        "message": "モーターPWM周波数"
+    },
+    "configurationGyroSyncDenom": {
+        "message": "ジャイロ アップデート周波数"
+    },
+    "configurationPidProcessDenom": {
+        "message": "PIDループ周波数"
+    },
+    "configurationPidProcessDenomHelp": {
+        "message": "PIDループの最大周波数は、選択されたESC \/ モータプロトコルからアップデート信号を送信される最大値に制限されます。"
+    },
+    "configurationGyroUse32kHz": {
+        "message": "ジャイロ 32KHz サンプリングモード有効化"
+    },
     "configurationAccHardware": {
         "message": "加速度センサー"
     },
