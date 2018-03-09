@@ -370,6 +370,60 @@
     "osdDescElementNumericalHeading": {
         "message": "現在のヘッディング角度の数値表示"
     },
+    "osdDescElementNumericalVario": {
+        "message": "垂直スピードの数値表示 (設定に基づいたフィートまたはメートル表示)"
+    },
+    "osdDescElementTimer1": {
+        "message": "タイマー1の値を表示"
+    },
+    "osdDescElementTimer2": {
+        "message": "タイマー2の値を表示"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "残り飛行時間の予測"
+    },
+    "osdDescElementUnknown": {
+        "message": "不明な構成要素 (将来のリリースで追加される予定)"
+    },
+    "osdDescElementCoreTemperature": {
+        "message": "STM32 MCUコア温度"
+    },
+    "osdDescStatMaxSpeed": {
+        "message": "記録された最大スピード"
+    },
+    "osdDescStatMinBattery": {
+        "message": "記録されたメインバッテリーの最小電圧"
+    },
+    "osdDescStatMinRssi": {
+        "message": "記録されたRSSI最小値"
+    },
+    "osdDescStatMaxCurrent": {
+        "message": "記録された最大電流値"
+    },
+    "osdDescStatUsedMah": {
+        "message": "バッテリー容量"
+    },
+    "osdDescStatMaxAltitude": {
+        "message": "記録された最大高度"
+    },
+    "osdDescStatBlackbox": {
+        "message": "ブラックボックスの合計使用率"
+    },
+    "osdDescStatEndBattery": {
+        "message": "ディスアーム時のバッテリー電圧"
+    },
+    "osdDescStatFlyTime": {
+        "message": "現在の電源サイクルで機体がアームしている合計時間"
+    },
+    "osdDescStatArmedTime": {
+        "message": "機体が最後にアームしてからの時間"
+    },
+    "osdWarningCrashFlipMode": {
+        "message": "クラッシュモードを有効にした後でフリップすると警告する"
+    },
+    "osdSectionHelpElements": {
+        "message": "OSDを有効、または無効にします。"
+    },
     "osdSectionHelpVideoMode": {
         "message": "カメラのビデオモードを設定します (通常、カメラの出力形式と一致するように設定するのが難しい場合は自動のままとしてください)。"
     },
