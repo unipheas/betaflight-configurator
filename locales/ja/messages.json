@@ -346,6 +346,69 @@
     "osdSetupAlarmsTitle": {
         "message": "アラーム"
     },
+    "osdSetupStatsTitle": {
+        "message": "飛行統計"
+    },
+    "osdSetupVtxTitle": {
+        "message": "VTX設定"
+    },
+    "osdSetupCraftNameTitle": {
+        "message": "機体名"
+    },
+    "osdSetupWarningsTitle": {
+        "message": "警告"
+    },
+    "osdSetupFontPresets": {
+        "message": "フォントのプリセット:"
+    },
+    "osdSetupOpenFont": {
+        "message": "フォントファイルを開く"
+    },
+    "osdSetupLogo": {
+        "message": "フォントのロゴ:"
+    },
+    "osdSetupReplaceLogo": {
+        "message": "ロゴを差し替える"
+    },
+    "osdSetupUploadFont": {
+        "message": "フォントのアップロード"
+    },
+    "osdSetupSave": {
+        "message": "保存"
+    },
+    "osdSetupFontManager": {
+        "message": "フォントマネージャー"
+    },
+    "osdSetupUncheckAll": {
+        "message": "すべて選択解除"
+    },
+    "osdSetupHead": {
+        "message": "お知らせ"
+    },
+    "osdSetupVideoMode": {
+        "message": "ビデオモード"
+    },
+    "osdSetupCameraConnected": {
+        "message": "カメラが接続されました"
+    },
+    "osdSetupCameraConnectedValueYes": {
+        "message": "はい"
+    },
+    "osdSetupCameraConnectedValueNo": {
+        "message": "いいえ"
+    },
+    "osdSetupResetText": {
+        "message": "OSDを初期値にリセットします。"
+    },
+    "osdSetupButtonReset": {
+        "message": "設定をリセット"
+    },
+    "osdDescElementMainBattVoltage": {
+        "message": "瞬時のメインバッテリー電圧 (アラームしきい値以下の場合は点滅)"
+    },
+    "osdDescElementRssiValue": {
+        "message": "瞬時のRSSI値 (アラームしきい値以下の場合は点滅)"
+    },
     "osdDescElementPower": {
         "message": "瞬間電力消費量"
     },
