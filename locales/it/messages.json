@@ -2928,6 +2928,9 @@
     "osdSetupOpenFont": {
         "message": "Apri il file dei caratteri"
     },
+    "osdSetupLogo": {
+        "message": "Logo nella font:"
+    },
     "osdSetupReplaceLogo": {
         "message": "Sostituisci Logo"
     },
