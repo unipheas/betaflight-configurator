@@ -1,6 +1,6 @@
 {
     "warningTitle": {
-        "message": "注意"
+        "message": "警告"
     },
     "noticeTitle": {
         "message": "通知"
@@ -322,6 +322,54 @@
     "portsFunction_TELEMETRY_LTM": {
         "message": "LTM"
     },
+    "osdDescElementPower": {
+        "message": "瞬間電力消費量"
+    },
+    "osdDescElementPIDRateProfile": {
+        "message": "有効PIDおよびレートプロファイルの数値表示"
+    },
+    "osdDescElementBatteryWarning": {
+        "message": "バッテリー電圧が警告しきい値を下回ったときに表示される警告テキスト"
+    },
+    "osdDescElementAvgCellVoltage": {
+        "message": "セル電圧平均値 (メインバッテリー電圧 \/ セル数)"
+    },
+    "osdDescElementPitchAngle": {
+        "message": "ピッチ角度値"
+    },
+    "osdDescElementRollAngle": {
+        "message": "ロール角度値"
+    },
+    "osdDescElementMainBattUsage": {
+        "message": "バッテリー容量の使用状況をグラフ表示"
+    },
+    "osdDescElementArmedTime": {
+        "message": "機体が最後にアームしてからの時間"
+    },
+    "osdDescElementWarnings": {
+        "message": "アラート (例: 電池切れ)、Warning (例: アーミング不可理由、バッテリーが非常に低い)、ビジュアルビープ (4点滅LED)。"
+    },
+    "osdDescElementEscTemperature": {
+        "message": "温度レポート by ESCテレメトリー"
+    },
+    "osdDescElementEscRpm": {
+        "message": "回転数レポート by ESCテレメトリー"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "ハードウェアクロック 日付 \/ 時間"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "現在アクティブな調整範囲の設定と値"
+    },
+    "osdDescElementHomeDirection": {
+        "message": "ホームポジション方向を示す矢印"
+    },
+    "osdDescElementHomeDistance": {
+        "message": "ホームポジションまでの距離 (設定に基づいたフィートまたはメートル表示)"
+    },
+    "osdDescElementNumericalHeading": {
+        "message": "現在のヘッディング角度の数値表示"
+    },
     "osdSectionHelpVideoMode": {
         "message": "カメラのビデオモードを設定します (通常、カメラの出力形式と一致するように設定するのが難しい場合は自動のままとしてください)。"
     },
@@ -379,11 +427,23 @@
     "configurationGyroUse32kHz": {
         "message": "ジャイロ 32KHz サンプリングモード有効化"
     },
+    "configurationGyroUse32kHzHelp": {
+        "message": "ジャイロチップがサポートしている場合のみ、ジャイロ アップデート周波数 32KHzの選択が可能です (現在MPU6500、MPU9250、およびSPI経由で接続されている場合はICM20xxx)。不明な場合は、FCボードの仕様書を参照してください。"
+    },
     "configurationAccHardware": {
         "message": "加速度センサー"
     },
+    "configurationBaroHardware": {
+        "message": "気圧計 (サポート時)"
+    },
+    "configurationMagHardware": {
+        "message": "コンパス (サポート時)"
+    },
     "configurationSmallAngle": {
         "message": "アームする最大角 [degrees]"
+    },
+    "configurationSmallAngleHelp": {
+        "message": "指定された角度以上傾斜していると機体はアームできません。 加速度センサーが有効な場合にのみ適用されます。180に設定すると有効チェックが無効になります。"
     },
     "configurationBatteryVoltage": {
         "message": "バッテリー電圧"
@@ -412,6 +472,9 @@
     "configurationCurrent": {
         "message": "電流センサー"
     },
+    "configurationCurrentScale": {
+        "message": "出力電圧をミリアンペアにスケーリング表示 [1\/10 mV\/A]"
+    },
     "configurationCurrentOffset": {
         "message": "ミリボルト単位のオフセット値"
     },
@@ -424,11 +487,20 @@
     "pidTuningRateProfile": {
         "message": "レートプロファイル"
     },
+    "pidTuningDelta": {
+        "message": "派生方式"
+    },
     "pidTuningDeltaError": {
         "message": "エラー"
     },
     "pidTuningDeltaMeasurement": {
         "message": "測定"
+    },
+    "pidTuningDeltaTip": {
+        "message": "<b>エラーからの派生<\/b>は、より直接的なスティックレスポンスを提供し、ほとんどがレース向けのものです。 <br><br><b>計測からの派生<\/b>は、よりスムーズなスティックレスポンスを提供し、フリースタイル時により有用なものです。"
+    },
+    "pidTuningRatesTip": {
+        "message": "レートを試し、スティックカーブに対しどのように影響するかを確認してください"
     },
     "configurationCamera": {
         "message": "カメラ"
@@ -438,6 +510,21 @@
     },
     "craftName": {
         "message": "機体名"
+    },
+    "configurationFpvCamAngleDegrees": {
+        "message": "FPVカメラアングル [degrees]"
+    },
+    "onboardLoggingBlackbox": {
+        "message": "ブラックボックス ログデバイス"
+    },
+    "onboardLoggingRateOfLogging": {
+        "message": "ブラックボックス ログレート"
+    },
+    "onboardLoggingSerialLogger": {
+        "message": "オンボード シリアルログデバイス"
+    },
+    "onboardLoggingFlashLogger": {
+        "message": "オンボード データチップ"
     },
     "onboardLoggingEraseInProgress": {
         "message": "消去中です。しばらくお待ちください..."
