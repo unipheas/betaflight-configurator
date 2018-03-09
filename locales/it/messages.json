@@ -2928,6 +2928,9 @@
     "osdSetupOpenFont": {
         "message": "Apri il file dei caratteri"
     },
+    "osdSetupReplaceLogoImageColorsError": {
+        "message": "L'immagine contiene una paletta colori non valida (sono ammessi solo verde, nero e bianco)"
+    },
     "osdSetupUploadFont": {
         "message": "Carica carattere"
     },
