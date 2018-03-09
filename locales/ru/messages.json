@@ -1281,8 +1281,14 @@
     "auxiliaryEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">сохранён<\/span>"
     },
+    "auxiliaryAutoChannelSelect": {
+        "message": "АВТО"
+    },
     "adjustmentsExamples": {
         "message": "Примеры"
+    },
+    "adjustmentsColumnEnable": {
+        "message": "Если включено"
     },
     "adjustmentsColumnIsInRange": {
         "message": "находится в диапазоне"
@@ -1434,6 +1440,9 @@
     "gpsHead": {
         "message": "GPS"
     },
+    "gpsMapHead": {
+        "message": "Текущее местоположение"
+    },
     "gpsMapMessage1": {
         "message": "Пожалуйста проверьте Ваше подключение к интернету"
     },
@@ -1479,6 +1488,9 @@
     "motorNumber8": {
         "message": "Мотор - 8"
     },
+    "motorsResetMaximumButton": {
+        "message": "Сброс"
+    },
     "sensorsGyroSelect": {
         "message": "Гироскоп"
     },
@@ -1493,6 +1505,9 @@
     },
     "sensorsSonarSelect": {
         "message": "Сонар"
+    },
+    "sensorsDebugSelect": {
+        "message": "Отладка"
     },
     "sensorsGyroTitle": {
         "message": "Гироскоп - град\/с"
@@ -1509,8 +1524,14 @@
     "sensorsSonarTitle": {
         "message": "Сонар - см"
     },
+    "sensorsDebugTitle": {
+        "message": "Отладка"
+    },
     "cliSaveToFileBtn": {
         "message": "Сохранить в файл"
+    },
+    "loggingLogSize": {
+        "message": "Размер журнала:"
     },
     "blackboxButtonSave": {
         "message": "Сохранить и Перезагрузить"
@@ -1665,11 +1686,35 @@
     "configurationMagHardware": {
         "message": "Магнитометр (если поддерживается)"
     },
+    "configurationCurrentMeterType": {
+        "message": "Тип датчика тока"
+    },
+    "configurationCurrent": {
+        "message": "Датчик тока"
+    },
     "pidTuningRateProfile": {
         "message": "Rate-профиль"
     },
+    "pidTuningPidControllerTip": {
+        "message": "<b>Legacy vs Betaflight (float):<\/b> PID коэффициенты и PID логика абсолютно те же. Нет необходимости их перенастраивать. Legacy - это старый betaflight, чей PID-контроллер был основан на целочисленных вычислениях. PID-контроллер Betaflight использует вычисления с дробными числами и имеет множество новых возможностей, специально разработанных для мультироторных приложений. <br> <b>Float vs Integer:<\/b> PID коэффициенты и PID логика абсолютно те же. Перенастройка не нужна. Полётные контроллеры F1 не имели встроенного FPU и вычисления с дробными числами увеличивают нагрузку на CPU, а вычисления с целыми числами повышают повышают производительность, но вычисления с дробными числами немного увеличивают точность."
+    },
+    "pidTuningFilterTip": {
+        "message": "<b>Gyro сглаж. фильтр:<\/b> Фильтр нижних частот для гироскопа. Чем ниже значение, тем больше фильтрация. <br><b>D Term фильтр:<\/b> Фильтр нижних частот для параметра D (в PID-ах). Может повлиять на настройку D. Чем ниже значение, тем больше фильтрация. <br><b>Yaw-фильтр:<\/b> Фильтрует рыскание (yaw). Может помочь в аппаратурах с шумными стиками по yaw."
+    },
+    "pidTuningPidTuningTip": {
+        "message": "<b>Proportional:<\/b> Увеличивает сопротивление к воздействию внешних факторов, сдвигающих коптер<br><b>Integral:<\/b> Увеличивает способность удерживать общее начальное положение и уменьшает дрейф, но также увеличивает задержку при возврате в исходное положение. <br><b>Derivative:<\/b> Увеличивает скорость установления наклона, но увеличивает шум. <br><b>Rates и Expo<\/b>: Определяют чувствительность стиков. Используйте график и 3D модель, чтобы настроить чувствительность на свой вкус"
+    },
+    "pidTuningRatesTip": {
+        "message": "Меняя rates вы можете увидеть их влияние на график стиков"
+    },
     "configurationCamera": {
         "message": "Камера"
+    },
+    "configurationPersonalization": {
+        "message": "Персональные данные"
+    },
+    "craftName": {
+        "message": "Позывной пилота"
     },
     "configurationFpvCamAngleDegrees": {
         "message": "Угол наклона FPV-камеры [degrees]"
@@ -1695,6 +1740,9 @@
     "dialogConfirmResetTitle": {
         "message": "Подтвердить"
     },
+    "dialogConfirmResetNote": {
+        "message": "Вы уверены, что хотите сбросить все настройки до заводских значений?"
+    },
     "dialogConfirmResetConfirm": {
         "message": "Сбросить"
     },
@@ -1706,5 +1754,8 @@
     },
     "modeCameraPower": {
         "message": "КАМЕРА: КНОПКА ПИТАНИЯ"
+    },
+    "modeCameraChangeMode": {
+        "message": "КАМЕРА: РЕЖИМ НАСТРОЙКИ"
     }
 }
