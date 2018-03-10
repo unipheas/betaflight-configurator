@@ -454,6 +454,9 @@
     "defaultDonateHead": {
         "message": "オープンソース \/ 寄付について"
     },
+    "defaultDonateText": {
+        "message": "このユーティリティは完全な<strong>オープンソース<\/strong>として<strong>Betaflight<\/strong>ユーザに対して無償にて提供されています。<br \/>もし、あなたがBetaflightやBetaflight Configuratorが非常に便利だと感じ、<strong>サポートしたい！<\/strong>と思ったら寄付をご検討ください。"
+    },
     "defaultDonate": {
         "message": "寄付"
     },
@@ -484,17 +487,50 @@
     "defaultSupport": {
         "message": "サポートに関しては、最初に検索フォーラムやwiki、もしくはベンダーにお問い合わせください。<br \/><br \/>"
     },
+    "defaultSupport1": {
+        "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">RC Groups スレッド<\/a>"
+    },
+    "defaultSupport2": {
+        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Betaflight Wiki<\/a>"
+    },
+    "defaultSupport3": {
+        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Betaflight ビデオ<\/a>"
+    },
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+    },
+    "defaultSupport5": {
+        "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Betaflight devs on slack<\/a>"
+    },
+    "initialSetupBackupAndRestoreApiVersion": {
+        "message": "<span class=\"message-negative\">バックアップと復元の機能が無効です。<\/span>ファームウェアのAPIバージョンは<span class=\"message-negative\">$1<\/span>ですが、バックアップと復元には<span class=\"message-positive\">$2<\/span>が必要です。バックアップにはCLIをお使いください。方法についてはBetaflightドキュメントを参照してください。"
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "加速度センサーをキャリブレーションします。"
     },
+    "initialSetupCalibrateAccelText": {
+        "message": "<strong>水平な台<\/strong>の上にフレームを置き、キャリブレーションを実行してください。キャリブレーションが終了するまで動かさないように気をつけてください。"
+    },
     "initialSetupButtonCalibrateMag": {
         "message": "コンパスをキャリブレーションします。"
     },
+    "initialSetupCalibrateMagText": {
+        "message": "マルチローター機を最低でも<strong>360度<\/strong>、全ての軸にて回転させてください。これを行うのに30秒かかります。"
+    },
     "initialSetupButtonCalibratingText": {
         "message": "キャリブレーション中..."
+    },
+    "initialSetupButtonReset": {
+        "message": "設定をリセット"
+    },
+    "initialSetupResetText": {
+        "message": "<strong>デフォルト<\/strong>設定に戻す"
+    },
+    "initialSetupButtonBackup": {
+        "message": "バックアップ"
+    },
+    "initialSetupButtonRestore": {
+        "message": "リストア"
     },
     "featureCHANNEL_FORWARDING": {
         "message": "AUXチャンネルをサーボ出力に転送"
