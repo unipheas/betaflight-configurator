@@ -664,6 +664,33 @@
     "featureRX_PPM": {
         "message": "PPM 受信"
     },
+    "featureVBAT": {
+        "message": "バッテリー電圧の監視"
+    },
+    "featureINFLIGHT_ACC_CAL": {
+        "message": "フライト中の水平キャリブレーション"
+    },
+    "featureRX_SERIAL": {
+        "message": "シリアル接続受信機 (SPEKSAT、SBUS、SUMD)"
+    },
+    "featureMOTOR_STOP": {
+        "message": "アーム後にモーターを回転させない"
+    },
+    "featureSERVO_TILT": {
+        "message": "サーボジンバル"
+    },
+    "featureSOFTSERIAL": {
+        "message": "CPUベースのシリアルポートを有効にします."
+    },
+    "featureSOFTSERIALTip": {
+        "message": "有効後、「ポート」タブよりポートの設定をしてください。"
+    },
+    "featureGPS": {
+        "message": "ナビゲーションとテレメトリー用のGPS"
+    },
+    "featureGPSTip": {
+        "message": "最初にポートの設定をしてください"
+    },
     "featureCHANNEL_FORWARDING": {
         "message": "AUXチャンネルをサーボ出力に転送"
     },
