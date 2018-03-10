@@ -316,6 +316,36 @@
     "firmwareTypeNotSupported": {
         "message": "CLIモードを除き、Cleanflight \/ Betaflight 以外のファームウェアは<span class=\"message-negative\">サポートされていません<\/span>。"
     },
+    "firmwareUpgradeRequired": {
+        "message": "このデバイスのファームウェアは、新しいバージョンにアップグレードする必要があります。 書き換えする前にCLIを使用してバックアップしてください。 CLIのバックアップ \/ リストア手順はドキュメントに記載されています。<br \/>または、アップグレードする準備ができていない場合は、旧バージョンのコンフィギュレータをダウンロードして使用してください。"
+    },
+    "infoVersions": {
+        "message": "実行中 - OS: <strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Configurator: <strong>$3<\/strong>"
+    },
+    "releaseCheckLoaded": {
+        "message": "$1 GitHubより、リリース情報を受信しました。"
+    },
+    "releaseCheckFailed": {
+        "message": "<b>$1 リリースのGitHubクエリ読み込みに失敗、キャッシュされた情報を使用します。理由: <code>$2<\/code><\/b>"
+    },
+    "releaseCheckCached": {
+        "message": "$1 リリースのキャッシュされた情報を使用します。"
+    },
+    "releaseCheckNoInfo": {
+        "message": "$1 の利用可能なリリース情報はありません。"
+    },
+    "tabSwitchConnectionRequired": {
+        "message": "いずれかのタブを表示するには、<strong>接続<\/strong>する必要があります。"
+    },
+    "tabSwitchWaitForOperation": {
+        "message": "今この操作を行うことは<span class=\"message-negative\">できません<\/span>。現在の操作が完了するまでお待ちください..."
+    },
+    "tabSwitchUpgradeRequired": {
+        "message": "$1 タブを使用するには、ファームウェアをBetaflightの最新バージョンに<strong>アップグレード<\/strong>する必要があります。"
+    },
+    "firmwareVersion": {
+        "message": "ファームウェアバージョン: <strong>$1<\/strong>"
+    },
     "apiVersionReceived": {
         "message": "MultiWii APIバージョン: <strong>$1<\/strong>"
     },
@@ -405,6 +435,9 @@
     },
     "defaultWelcomeText": {
         "message": "このアプリケーションはBetaflightを実施可能な全てのハードウェアをサポートしています。<br><br><a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Betaflight Blackboxをダウンロード<\/a><br \/><br \/>ファームウェアのソースコードは<a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">こちら<\/a>からダウンロード<br \/>最新のファームウェアイメージは<a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/><br \/>最新の<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\"> CP210x Drivers<\/a>のダウンロードは<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">こちら<\/a><br \/>最新の<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\"> STM USB VCP Drivers<\/a>のダウンロードは<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">こちら<\/a><br \/>最新のWindows USB ドライバインストール向け<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\"> Zadig<\/a>のダウンロードは<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">こちら<\/a><br \/>"
+    },
+    "defaultContributingHead": {
+        "message": "貢献"
     },
     "defaultSupportHead": {
         "message": "サポート"
