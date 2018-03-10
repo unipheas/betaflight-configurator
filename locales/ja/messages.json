@@ -532,6 +532,60 @@
     "initialSetupButtonRestore": {
         "message": "リストア"
     },
+    "initialSetupBackupRestoreText": {
+        "message": "不測の事態に備え必ず設定の<strong>バックアップ<\/strong>を行ってください。<strong>CLI<\/strong>設定は<span class=\"message-negative\">自動バックアップは含まれません。<\/span> -「dump」CLIコマンドを参照してください。"
+    },
+    "initialSetupBackupSuccess": {
+        "message": "バックアップが<span class=\"message-positive\">正常<\/span>に保存されました"
+    },
+    "initialSetupRestoreSuccess": {
+        "message": "設定のリストアが<span class=\"message-positive\">成功<\/span>しました"
+    },
+    "initialSetupButtonResetZaxis": {
+        "message": "リセット Z 軸、オフセット: 0 度"
+    },
+    "initialSetupButtonResetZaxisValue": {
+        "message": "リセット Z 軸、オフセット: 1 度"
+    },
+    "initialSetupMixerHead": {
+        "message": "ミキサータイプ"
+    },
+    "initialSetupThrottleHead": {
+        "message": "スロットル設定"
+    },
+    "initialSetupMinimum": {
+        "message": "最小値:"
+    },
+    "initialSetupMaximum": {
+        "message": "最大値:"
+    },
+    "initialSetupFailsafe": {
+        "message": "フェイルセーフ:"
+    },
+    "initialSetupMinCommand": {
+        "message": "スティックの最小値"
+    },
+    "initialSetupBatteryHead": {
+        "message": "バッテリー"
+    },
+    "initialSetupMinCellV": {
+        "message": "セル電圧の最小値:"
+    },
+    "initialSetupMaxCellV": {
+        "message": "セル電圧の最大値:"
+    },
+    "initialSetupVoltageScale": {
+        "message": "電圧のスケール値:"
+    },
+    "initialSetupAccelTrimsHead": {
+        "message": "加速度センサートリム"
+    },
+    "initialSetupPitch": {
+        "message": "ピッチ:"
+    },
+    "initialSetupRoll": {
+        "message": "ロール:"
+    },
     "featureCHANNEL_FORWARDING": {
         "message": "AUXチャンネルをサーボ出力に転送"
     },
