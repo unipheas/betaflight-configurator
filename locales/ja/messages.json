@@ -445,6 +445,30 @@
     "defaultChangelogAction": {
         "message": "変更履歴"
     },
+    "defaultChangelogHead": {
+        "message": "Configurator - 変更履歴"
+    },
+    "defaultButtonFirmwareFlasher": {
+        "message": "ファームウェアフラッシャー"
+    },
+    "defaultDonateHead": {
+        "message": "オープンソース \/ 寄付について"
+    },
+    "defaultDonate": {
+        "message": "寄付"
+    },
+    "defaultSponsorsHead": {
+        "message": "スポンサー"
+    },
+    "defaultDocumentationHead": {
+        "message": "ドキュメント \/ マニュアル"
+    },
+    "defaultDocumentation": {
+        "message": "Betaflightドキュメントはリリースノートと wiki でご利用いただけます。<br \/><br \/>"
+    },
+    "defaultDocumentation2": {
+        "message": "ファームウェアのリリースノートは、GitHub リリース ページの<a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">こちらで<\/a>読むことができます。"
+    },
     "defaultSupportHead": {
         "message": "サポート"
     },
@@ -453,6 +477,12 @@
     },
     "defaultSupportSubline2": {
         "message": "開発者"
+    },
+    "defaultSupport": {
+        "message": "サポートに関しては、最初に検索フォーラムやwiki、もしくはベンダーにお問い合わせください。<br \/><br \/>"
+    },
+    "defaultSupport4": {
+        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
     "featureCHANNEL_FORWARDING": {
         "message": "AUXチャンネルをサーボ出力に転送"
