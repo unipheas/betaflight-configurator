@@ -812,7 +812,13 @@
         "message": "ESC \/ モーター機能"
     },
     "configurationFeaturesHelp": {
-        "message": "<strong>注：<\/strong>機能のすべての組み合わせが有効な訳ではありません。 フライトコントローラファームウェアが無効な機能の組み合わせを検出すると、競合する機能が無効になります。<br \/><strong>注:\n <\/strong>ポートを使用する機能を<span class=\"message-negative\">有効にする前に<\/span>シリアルポートを設定してください。"
+        "message": "<strong>注：<\/strong>機能のすべての組み合わせが有効な訳ではありません。 フライトコントローラファームウェアが無効な機能の組み合わせを検出すると、競合する機能が無効になります。<br \/><strong>注:\n<\/strong> ポートを使用する機能を<span class=\"message-negative\">有効にする前に<\/span>シリアルポートを設定してください。"
+    },
+    "configurationSerialRXHelp": {
+        "message": "<strong>注:<\/strong> RX_SERIAL機能を使用する場合は、シリアルポート (「ポート」タブ内) を設定し、シリアル受信プロバイダを忘れずに選択ください。"
+    },
+    "configurationSpiRxHelp": {
+        "message": "<strong>注:<\/strong> SPI受信プロバイダは、必要なハードウェアが搭載されているかSPIバスに接続されている場合にのみ動作します。"
     },
     "configurationLoopTimeHelp": {
         "message": "<strong>注:<\/strong>FCがこの速度で動作するか確認してください！CPUとサイクル時間の安定度を確認してください。この変更はPIDの再調整を必要とするかもしれません。TIP: パフォーマンスを上げるためには加速度センサーや他のセンサーを無効にします。"
