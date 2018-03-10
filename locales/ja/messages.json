@@ -383,7 +383,7 @@
         "message": "ファームウェア"
     },
     "versionLabelConfigurator": {
-        "message": "コンフィギュレータ"
+        "message": "Configurator"
     },
     "notifications_app_just_updated_to_version": {
         "message": "アプリケーション更新バージョン: $1"
@@ -404,7 +404,7 @@
         "message": "パケットエラー:"
     },
     "statusbar_i2c_error": {
-        "message": "I2Cエラー:"
+        "message": "I2C エラー:"
     },
     "statusbar_cycle_time": {
         "message": "サイクル時間:"
@@ -422,7 +422,7 @@
         "message": "検出されたデバイスの合計フラッシュメモリサイズ $1 KB"
     },
     "dfu_error_image_size": {
-        "message": "<span class=\"message-negative\">エラー<\/span>: 指定した画像サイズが利用可能サイズより大きい！画像: $1 KB, 制限値= $2 KB"
+        "message": "<span class=\"message-negative\">エラー<\/span>: 指定した画像サイズが利用可能サイズより大きいです！画像: $1 KB, 制限値= $2 KB"
     },
     "eeprom_saved_ok": {
         "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
