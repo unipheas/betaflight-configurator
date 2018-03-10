@@ -206,22 +206,31 @@
         "message": "ログの表示"
     },
     "serialPortOpened": {
-        "message": "ID: $1のシリアルポートに<span class=\"message-positive\">正常<\/span>に接続しました"
+        "message": "ID: $1のシリアルポートへ<span class=\"message-positive\">正常<\/span>に接続しました"
     },
     "serialPortOpenFail": {
-        "message": "シリアルポートに<span class=\"message-negative\">接続できません<\/span>でした"
+        "message": "シリアルポートに<span class=\"message-negative\">接続できません<\/span>"
     },
     "serialPortClosedOk": {
         "message": "シリアルポートは<span class=\"message-positive\">正常<\/span>に切断しました"
     },
     "serialPortClosedFail": {
-        "message": "シリアルポートは<span class=\"message-negative\">切断できませんでした<\/span>"
+        "message": "シリアルポートは<span class=\"message-negative\">切断できません<\/span>"
     },
     "serialUnrecoverable": {
         "message": "シリアル接続の回復不能な <span class=\"message-negative\">障害<\/span> にて切断中..."
     },
     "usbDeviceOpened": {
-        "message": "ID: $1のUSBデバイスに<span class=\"message-positive\">正常接続しました<\/span>"
+        "message": "ID: $1のUSBデバイスへ<span class=\"message-positive\">正常<\/span>に接続しました"
+    },
+    "usbDeviceOpenFail": {
+        "message": "USBデバイスに<span class=\"message-negative\">接続できません<\/span>"
+    },
+    "usbDeviceClosed": {
+        "message": "USBデバイスは<span class=\"message-positive\">正常<\/span>に切断しました"
+    },
+    "usbDeviceCloseFail": {
+        "message": "USBデバイスは<span class=\"message-negative\">切断できません<\/span>"
     },
     "apiVersionReceived": {
         "message": "MultiWii APIバージョン: <strong>$1<\/strong>"
