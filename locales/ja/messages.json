@@ -101,7 +101,7 @@
         "message": "未検証バージョンの更新通知を表示します"
     },
     "configuratorUpdateNotice": {
-        "message": "お使いの<b>Betaflight Configurator<\/b>は旧バージョンです。<br>バージョン <b>$1<\/b> が利用可能です。 <a href=\"$2\" target=\"_blank\">リリース ページ<\/a> から修正・機能向上した最新版をダウンロードしてインストールしてください。<br>注意: 更新する前にコンフィギュレーターを閉じてください。"
+        "message": "お使いの<b>Betaflight Configurator<\/b>は旧バージョンです。<br>Version <b>$1<\/b> が利用可能です。 <a href=\"$2\" target=\"_blank\">リリースページ<\/a>から修正・機能向上した最新版をダウンロードしてインストールしてください。<br>注意: 更新する前にConfiguratorを閉じてください。"
     },
     "configuratorUpdateWebsite": {
         "message": "リリースサイトに移動"
@@ -113,28 +113,28 @@
         "message": "デバイス - <span class=\"message-positive\">準備完了<\/span>"
     },
     "backupFileIncompatible": {
-        "message": "指定されたバックアップファイルは以前のバージョンで生成されているため、このバージョンと互換性がありません。申し訳ありません。"
+        "message": "申し訳ありませんが、指定されたバックアップファイルは以前のバージョンで作成されているため、このバージョンと互換性がありません。"
     },
     "backupFileUnmigratable": {
-        "message": "指定されたバックアップファイルは以前のバージョンで生成されているため、移行できません。申し訳ありません。"
+        "message": "申し訳ありませんが、指定されたバックアップファイルは以前のバージョンで作成されているため、移行できません。"
     },
     "configMigrationFrom": {
-        "message": "コンフィギュレーターによって作られた設定ファイルの移行: $1"
+        "message": "Configuratorによって作られた設定ファイルの移行: $1"
     },
     "configMigratedTo": {
-        "message": "設定をコンフィギュレーターへ移行: $1"
+        "message": "設定をConfiguratorへ移行: $1"
     },
     "configMigrationSuccessful": {
         "message": "設定の移行完了、移行の適用: $1"
     },
     "tabFirmwareFlasher": {
-        "message": "ファームウェア書き換え"
+        "message": "ファームウェアフラッシャー"
     },
     "tabLanding": {
         "message": "ようこそ"
     },
     "tabHelp": {
-        "message": "マニュアル&サポート"
+        "message": "マニュアル & サポート"
     },
     "tabSetup": {
         "message": "セットアップ"
