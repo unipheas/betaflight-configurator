@@ -185,7 +185,7 @@
         "message": "センサー"
     },
     "tabCLI": {
-        "message": "コマンドラインツール"
+        "message": "CLI コマンドラインツール"
     },
     "tabLogging": {
         "message": "テザーロギング"
@@ -311,13 +311,13 @@
         "message": "<span class=\"message-negative\">10秒<\/span>以内に構成情報を受信できず、通信に<span class=\"message-negative\">失敗<\/span>しました。"
     },
     "firmwareVersionNotSupported": {
-        "message": "このファームウェアバージョンは<span class=\"message-negative\">サポートされていません<\/span>。<strong>$1<\/strong>以上のバージョンのAPIをサポートするファームウェアにアップグレードしてください。書き換えする前にCLIを使用してバックアップしてください。CLIのバックアップ \/ リストア手順はドキュメントに記載されています。<br \/>または、アップグレードする準備ができていない場合は、旧バージョンのコンフィギュレーターをダウンロードして使用してください。"
+        "message": "このファームウェアバージョンは<span class=\"message-negative\">サポートされていません<\/span>。<strong>$1<\/strong>以上のバージョンのAPIをサポートするファームウェアにアップグレードしてください。書き換えする前にCLIを使用してバックアップしてください。CLIのバックアップ \/ リストア手順はドキュメントに記載されています。<br \/>または、アップグレードする準備ができていない場合は、旧バージョンのConfiguratorをダウンロードして使用してください。"
     },
     "firmwareTypeNotSupported": {
         "message": "CLIモードを除き、Cleanflight \/ Betaflight 以外のファームウェアは<span class=\"message-negative\">サポートされていません<\/span>。"
     },
     "firmwareUpgradeRequired": {
-        "message": "このデバイスのファームウェアは、新しいバージョンにアップグレードする必要があります。 書き換えする前にCLIを使用してバックアップしてください。 CLIのバックアップ \/ リストア手順はドキュメントに記載されています。<br \/>または、アップグレードする準備ができていない場合は、旧バージョンのコンフィギュレータをダウンロードして使用してください。"
+        "message": "このデバイスのファームウェアは、新しいバージョンにアップグレードする必要があります。 書き換えする前にCLIを使用してバックアップしてください。 CLIのバックアップ \/ リストア手順はドキュメントに記載されています。<br \/>または、アップグレードする準備ができていない場合は、旧バージョンのConfiguratorをダウンロードして使用してください。"
     },
     "infoVersions": {
         "message": "実行中 - OS: <strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Configurator: <strong>$3<\/strong>"
@@ -326,13 +326,13 @@
         "message": "$1 GitHubより、リリース情報を受信しました。"
     },
     "releaseCheckFailed": {
-        "message": "<b>$1 リリースのGitHubクエリ読み込みに失敗、キャッシュされた情報を使用します。理由: <code>$2<\/code><\/b>"
+        "message": "<b>$1リリースのGitHubクエリ読み込みに失敗、キャッシュされた情報を使用します。理由: <code>$2<\/code><\/b>"
     },
     "releaseCheckCached": {
-        "message": "$1 リリースのキャッシュされた情報を使用します。"
+        "message": "$1リリースのキャッシュされた情報を使用します。"
     },
     "releaseCheckNoInfo": {
-        "message": "$1 の利用可能なリリース情報はありません。"
+        "message": "$1の利用可能なリリース情報はありません。"
     },
     "tabSwitchConnectionRequired": {
         "message": "いずれかのタブを表示するには、<strong>接続<\/strong>する必要があります。"
@@ -341,7 +341,7 @@
         "message": "今この操作を行うことは<span class=\"message-negative\">できません<\/span>。現在の操作が完了するまでお待ちください..."
     },
     "tabSwitchUpgradeRequired": {
-        "message": "$1 タブを使用するには、ファームウェアをBetaflightの最新バージョンに<strong>アップグレード<\/strong>する必要があります。"
+        "message": "$1タブを使用するには、ファームウェアをBetaflightの最新バージョンに<strong>アップグレード<\/strong>する必要があります。"
     },
     "firmwareVersion": {
         "message": "ファームウェアバージョン: <strong>$1<\/strong>"
@@ -362,13 +362,13 @@
         "message": "<strong>アーミング有効<\/strong>"
     },
     "runawayTakeoffPreventionDisabled": {
-        "message": "<strong>暴走離陸抑止機能を一時的に無効<\/strong>"
+        "message": "<strong>離陸時 暴走抑止機能を一時的に無効<\/strong>"
     },
     "runawayTakeoffPreventionEnabled": {
-        "message": "<strong>暴走離陸抑止機能を有効<\/strong>"
+        "message": "<strong>離陸時 暴走抑止機能を有効<\/strong>"
     },
     "boardInfoReceived": {
-        "message": "ボード: <strong>$1<\/strong> バージョン: <strong>$2<\/strong>"
+        "message": "FCボード: <strong>$1<\/strong> バージョン: <strong>$2<\/strong>"
     },
     "buildInfoReceived": {
         "message": "稼働ファームウェアリリース: <strong>$1<\/strong>"
