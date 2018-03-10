@@ -66,7 +66,7 @@
         "message": "加速度センサー"
     },
     "sensorStatusAccelShort": {
-        "message": "加速度計",
+        "message": "加速度センサー",
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusMag": {
@@ -690,6 +690,21 @@
     },
     "featureGPSTip": {
         "message": "最初にポートの設定をしてください"
+    },
+    "featureSONAR": {
+        "message": "ソナー 超音波距離センサー"
+    },
+    "featureTELEMETRY": {
+        "message": "テレメトリー出力"
+    },
+    "featureCURRENT_METER": {
+        "message": "バッテリー電圧監視"
+    },
+    "feature3D": {
+        "message": "3Dモード (ESC逆回転を利用)"
+    },
+    "featureRX_PARALLEL_PWM": {
+        "message": "PWM受信入力 (1chあたり1本)"
     },
     "featureCHANNEL_FORWARDING": {
         "message": "AUXチャンネルをサーボ出力に転送"
