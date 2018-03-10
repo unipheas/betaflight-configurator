@@ -30,7 +30,7 @@
         "message": "閉じる"
     },
     "autoConnectEnabled": {
-        "message": "自動接続: 有効 - コンフィギュレーターは自動的に新しいポートが検出されたときに接続を試みます。"
+        "message": "自動接続: 有効 - Configuratorは自動的に新しいポートが検出されたときに接続を試みます。"
     },
     "autoConnectDisabled": {
         "message": "自動接続: 無効 - ユーザーが正しいシリアル ポートを選択し、別途「接続」ボタンをクリックする必要があります。"
@@ -77,7 +77,7 @@
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusBaro": {
-        "message": "気圧計"
+        "message": "気圧センサー"
     },
     "sensorStatusBaroShort": {
         "message": "気圧計",
@@ -441,6 +441,9 @@
     },
     "defaultContributingText": {
         "message": "Betaflightをより良くするためにご協力いただける場合、以下を含むさまざまな方法でお手伝いしていただけます:<br \/><ul><li>\nフォーラムやIRCで他のユーザーの質問に答える<\/li><li>\nファームウェアとConfiguratorへのコードの提供 - 新機能や修正、改良<\/li><li>\n<a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">新機能のフィックス<\/a>、テストとフィードバックの提供<\/li><li>\n<a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">問題のヘルプと新機能リクエスト<\/a>へのコメント協力<\/li><li>\n<a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">Configuratorアプリケーションをあなたの母国語に翻訳すること<\/a>に協力してみましょう。<\/li><li><\/li><\/ul>"
+    },
+    "defaultChangelogAction": {
+        "message": "変更履歴"
     },
     "defaultSupportHead": {
         "message": "サポート"
