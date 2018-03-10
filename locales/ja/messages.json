@@ -586,6 +586,84 @@
     "initialSetupRoll": {
         "message": "ロール:"
     },
+    "initialSetupMagHead": {
+        "message": "コンパス"
+    },
+    "initialSetupDeclination": {
+        "message": "偏角"
+    },
+    "initialSetupInfoHead": {
+        "message": "情報"
+    },
+    "initialSetupBattery": {
+        "message": "バッテリー電圧:"
+    },
+    "initialSetupBatteryValue": {
+        "message": "$1 V"
+    },
+    "initialSetupDrawn": {
+        "message": "電力消費量"
+    },
+    "initialSetupDrawing": {
+        "message": "使用中の電流値:"
+    },
+    "initialSetupBatteryMahValue": {
+        "message": "$1 mAh"
+    },
+    "initialSetupBatteryAValue": {
+        "message": "$1 A"
+    },
+    "initialSetupRSSI": {
+        "message": "RSSI:"
+    },
+    "initialSetupRSSIValue": {
+        "message": "$1 %"
+    },
+    "initialSetupArmingDisableFlags": {
+        "message": "アーム無効フラグ:"
+    },
+    "initialSetupArmingAllowed": {
+        "message": "アーム許可"
+    },
+    "initialSetupGPSHead": {
+        "message": "GPS"
+    },
+    "initialSetupInstrumentsHead": {
+        "message": "計器"
+    },
+    "initialSetupButtonSave": {
+        "message": "保存"
+    },
+    "initialSetupModel": {
+        "message": "モデル: $1"
+    },
+    "initialSetupAttitude": {
+        "message": "$1 度"
+    },
+    "initialSetupAccelCalibStarted": {
+        "message": "加速度センサーのキャリブレーションを開始"
+    },
+    "initialSetupAccelCalibEnded": {
+        "message": "加速度センサーのキャリブレーション<span class=\"message-positive\">終了<\/span>"
+    },
+    "initialSetupMagCalibStarted": {
+        "message": "コンパスのキャリブレーションを開始"
+    },
+    "initialSetupMagCalibEnded": {
+        "message": "コンパスのキャリブレーション<span class=\"message-positive\">終了<\/span>"
+    },
+    "initialSetupSettingsRestored": {
+        "message": "<strong>デフォルト設定<\/strong>に戻す"
+    },
+    "initialSetupEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
+    },
+    "featureNone": {
+        "message": "&lt;一つ選択&gt;"
+    },
+    "featureRX_PPM": {
+        "message": "PPM 受信"
+    },
     "featureCHANNEL_FORWARDING": {
         "message": "AUXチャンネルをサーボ出力に転送"
     },
