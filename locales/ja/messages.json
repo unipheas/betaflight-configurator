@@ -761,7 +761,7 @@
         "message": "PIDループ 周波数"
     },
     "configurationPidProcessDenomHelp": {
-        "message": "PIDループの最大周波数は、選択されたESC \/ モータプロトコルからアップデート信号を送信される最大値に制限されます。"
+        "message": "PIDループの最大周波数は、選択されたESC \/ モータプロトコルから更新信号を送信される最大値に制限されます。"
     },
     "configurationGyroUse32kHz": {
         "message": "ジャイロ 32KHz サンプリングモード有効化"
