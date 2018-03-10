@@ -518,7 +518,7 @@
         "message": "フォントのロゴ:"
     },
     "osdSetupReplaceLogo": {
-        "message": "ロゴを差し替える"
+        "message": "ロゴの差し替え"
     },
     "osdSetupUploadFont": {
         "message": "フォントのアップロード"
@@ -554,10 +554,10 @@
         "message": "設定をリセット"
     },
     "osdDescElementMainBattVoltage": {
-        "message": "瞬時のメインバッテリー電圧 (アラームしきい値以下の場合は点滅)"
+        "message": "瞬間メインバッテリー電圧 (アラームしきい値以下の場合は点滅)"
     },
     "osdDescElementRssiValue": {
-        "message": "瞬時のRSSI値 (アラームしきい値以下の場合は点滅)"
+        "message": "瞬間RSSI値 (アラームしきい値以下の場合は点滅)"
     },
     "osdDescElementPower": {
         "message": "瞬間電力消費量"
@@ -584,7 +584,7 @@
         "message": "機体が最後にアームしてからの時間"
     },
     "osdDescElementWarnings": {
-        "message": "アラート (例: 電池切れ)、Warning (例: アーミング不可理由、バッテリーが非常に低い)、ビジュアルビープ (4点滅LED)。"
+        "message": "アラート (例: 電池切れ)、警告 (例: アーミング不可理由、バッテリーが非常に低い)、ビジュアルビープ (4点滅LED)。"
     },
     "osdDescElementEscTemperature": {
         "message": "温度レポート by ESCテレメトリー"
@@ -605,10 +605,10 @@
         "message": "ホームポジションまでの距離 (設定に基づいたフィートまたはメートル表示)"
     },
     "osdDescElementNumericalHeading": {
-        "message": "現在のヘッディング角度の数値表示"
+        "message": "ヘッディング角度値"
     },
     "osdDescElementNumericalVario": {
-        "message": "垂直スピードの数値表示 (設定に基づいたフィートまたはメートル表示)"
+        "message": "垂直スピード値 (設定に基づいたフィートまたはメートル表示)"
     },
     "osdDescElementTimer1": {
         "message": "タイマー1の値を表示"
