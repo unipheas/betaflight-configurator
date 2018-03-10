@@ -497,7 +497,7 @@
         "message": "アラーム"
     },
     "osdSetupStatsTitle": {
-        "message": "飛行統計"
+        "message": "フライト統計情報"
     },
     "osdSetupVtxTitle": {
         "message": "VTX設定"
@@ -701,10 +701,10 @@
         "message": "バッテリー電圧が最小平均セル電圧を下回ったときの警告"
     },
     "osdWarningVisualBeeper": {
-        "message": "ビープを可視化します (4点滅LED表示)"
+        "message": "ビープを可視化 (4点滅LED表示)"
     },
     "osdWarningCrashFlipMode": {
-        "message": "クラッシュモードを有効にした後でフリップすると警告する"
+        "message": "クラッシュモードを有効後、フリップすると警告"
     },
     "osdSectionHelpElements": {
         "message": "OSDを有効、または無効にします。"
@@ -728,7 +728,7 @@
         "message": "WARNINGS に表示される警告を有効または無効にします。"
     },
     "osdSettingsSaved": {
-        "message": "OSD 設定保存"
+        "message": "OSD設定を保存しました"
     },
     "osdWritePermissions": {
         "message": "このファイルに対する<span class = \"message-negative\">書き込み権限<\/span>がありません"
@@ -755,10 +755,10 @@
         "message": "モーターPWM周波数"
     },
     "configurationGyroSyncDenom": {
-        "message": "ジャイロ アップデート周波数"
+        "message": "ジャイロ周期 周波数"
     },
     "configurationPidProcessDenom": {
-        "message": "PIDループ周波数"
+        "message": "PIDループ 周波数"
     },
     "configurationPidProcessDenomHelp": {
         "message": "PIDループの最大周波数は、選択されたESC \/ モータプロトコルからアップデート信号を送信される最大値に制限されます。"
