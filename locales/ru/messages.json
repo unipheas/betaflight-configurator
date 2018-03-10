@@ -1146,6 +1146,9 @@
     "receiverRcInterpolationInterval": {
         "message": "Интервал RC-интерполяции [ms]"
     },
+    "pidTuningDtermSetpointTransition": {
+        "message": "D Setpoint transition"
+    },
     "pidTuningProportional": {
         "message": "Proportional"
     },
@@ -1275,6 +1278,9 @@
     "auxiliaryMax": {
         "message": "Макс."
     },
+    "auxiliaryAddRange": {
+        "message": "Добавить диапазон"
+    },
     "auxiliaryButtonSave": {
         "message": "Сохранить"
     },
@@ -1316,6 +1322,9 @@
     },
     "adjustmentsMax": {
         "message": "Макс."
+    },
+    "adjustmentsFunction0": {
+        "message": "Без изменений"
     },
     "adjustmentsFunction1": {
         "message": "Yaw Rate корректировка"
@@ -1419,6 +1428,9 @@
     "transponderEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">сохранён<\/span>"
     },
+    "servosName": {
+        "message": "Название"
+    },
     "servosMid": {
         "message": "Ср."
     },
@@ -1433,6 +1445,9 @@
     },
     "servosButtonSave": {
         "message": "Сохранить"
+    },
+    "servosNormal": {
+        "message": "Нормальный"
     },
     "servosEepromSave": {
         "message": "EEPROM <span class=\"message-positive\">сохранён<\/span>"
@@ -1460,6 +1475,12 @@
     },
     "gpsSats": {
         "message": "Спутники:"
+    },
+    "gpsSignalStrHead": {
+        "message": "Мощность GPS сигнала"
+    },
+    "gpsSignalStr": {
+        "message": "Мощность сигнала"
     },
     "motorsText": {
         "message": "Моторы"
@@ -1490,6 +1511,9 @@
     },
     "motorsResetMaximumButton": {
         "message": "Сброс"
+    },
+    "sensorsRefresh": {
+        "message": "Обновить:"
     },
     "sensorsGyroSelect": {
         "message": "Гироскоп"
@@ -1542,14 +1566,44 @@
     "blackboxLoggingSerial": {
         "message": "Последовательный порт"
     },
+    "dataflashButtonSaveCancel": {
+        "message": "Отмена"
+    },
+    "dataflashButtonSaveDismiss": {
+        "message": "Ок"
+    },
+    "dataflashButtonEraseCancel": {
+        "message": "Отмена"
+    },
+    "sdcardStatusNoCard": {
+        "message": "Карта не вставлена"
+    },
+    "firmwareFlasherReleaseName": {
+        "message": "Название\/Версия:"
+    },
     "firmwareFlasherReleaseDate": {
         "message": "Дата:"
     },
     "firmwareFlasherReleaseStatus": {
         "message": "Состояние:"
     },
+    "firmwareFlasherReleaseTarget": {
+        "message": "Цель:"
+    },
+    "firmwareFlasherPath": {
+        "message": "Путь:"
+    },
     "firmwareFlasherSize": {
         "message": "Размер:"
+    },
+    "firmwareFlasherStatus": {
+        "message": "Статус:"
+    },
+    "firmwareFlasherProgress": {
+        "message": "Прогресс:"
+    },
+    "firmwareFlasherLoadFirmwareFile": {
+        "message": "Пожалуйста, загрузите файл прошивки"
     },
     "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
         "message": "Выберите версию прошивки Вашей платы"
@@ -1572,6 +1626,9 @@
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Выбрать Прошивку \/ Плату"
     },
+    "firmwareFlasherButtonLoadLocal": {
+        "message": "Загрузить прошивку [Local]"
+    },
     "firmwareFlasherDate": {
         "message": "Дата:"
     },
@@ -1584,11 +1641,66 @@
     "ledStripButtonSave": {
         "message": "Сохранить"
     },
+    "ledStripRemainingText": {
+        "message": "Осталось",
+        "description": "In the LED STRIP, text next the counter of leds remaining"
+    },
     "ledStripEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">сохранён<\/span>"
     },
+    "ledStripFunctionTitle": {
+        "message": "Функция"
+    },
+    "ledStripFunctionColorOption": {
+        "message": "Цвет",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionBatteryOption": {
+        "message": "Батарея",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionGPSOption": {
+        "message": "GPS",
+        "description": "One of the modes of the Led Strip"
+    },
     "ledStripColorModifierTitle": {
         "message": "Изменение цвета"
+    },
+    "ledStripModeColorsModeOrientation": {
+        "message": "Ориентация",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeHorizon": {
+        "message": "Горизонт",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAngle": {
+        "message": "Угол",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripDirN": {
+        "message": "С",
+        "description": "North direction in Color Mode in Led Strip"
+    },
+    "ledStripDirE": {
+        "message": "В",
+        "description": "East direction in Color Mode in Led Strip"
+    },
+    "ledStripDirS": {
+        "message": "Ю",
+        "description": "South direction in Color Mode in Led Strip"
+    },
+    "ledStripDirW": {
+        "message": "З",
+        "description": "West direction in Color Mode in Led Strip"
+    },
+    "ledStripModesSpecialColorsTitle": {
+        "message": "Специальные цвета",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAnimation": {
+        "message": "Анимация",
+        "description": "One of the modes in Color Mode in Led Strip"
     },
     "colorBlack": {
         "message": "черный"
@@ -1677,6 +1789,30 @@
     "controlAxisAux15": {
         "message": "AUX 15"
     },
+    "pidTuningGps": {
+        "message": "GPS Навигация"
+    },
+    "pidTuningHorizon": {
+        "message": "Горизонт"
+    },
+    "pidTuningLevelSensitivity": {
+        "message": "Чувствительность"
+    },
+    "osdSetupVideoFormatTitle": {
+        "message": "Формат видео"
+    },
+    "osdSetupCameraConnectedValueNo": {
+        "message": "Нет"
+    },
+    "osdSetupButtonReset": {
+        "message": "Сбросить настройки"
+    },
+    "osdTimerSource": {
+        "message": "Источник:"
+    },
+    "osdTimerPrecision": {
+        "message": "Точность:"
+    },
     "configurationAccHardware": {
         "message": "Акселерометр"
     },
@@ -1692,8 +1828,14 @@
     "configurationCurrent": {
         "message": "Датчик тока"
     },
+    "pidTuningProfile": {
+        "message": "Профиль"
+    },
     "pidTuningRateProfile": {
         "message": "Rate-профиль"
+    },
+    "pidTuningDeltaError": {
+        "message": "Ошибка"
     },
     "pidTuningPidControllerTip": {
         "message": "<b>Legacy vs Betaflight (float):<\/b> PID коэффициенты и PID логика абсолютно те же. Нет необходимости их перенастраивать. Legacy - это старый betaflight, чей PID-контроллер был основан на целочисленных вычислениях. PID-контроллер Betaflight использует вычисления с дробными числами и имеет множество новых возможностей, специально разработанных для мультироторных приложений. <br> <b>Float vs Integer:<\/b> PID коэффициенты и PID логика абсолютно те же. Перенастройка не нужна. Полётные контроллеры F1 не имели встроенного FPU и вычисления с дробными числами увеличивают нагрузку на CPU, а вычисления с целыми числами повышают повышают производительность, но вычисления с дробными числами немного увеличивают точность."
