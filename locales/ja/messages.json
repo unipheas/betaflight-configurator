@@ -662,7 +662,7 @@
         "message": "&lt;一つ選択&gt;"
     },
     "featureRX_PPM": {
-        "message": "PPM 受信"
+        "message": "PPM受信入力"
     },
     "featureVBAT": {
         "message": "バッテリー電圧の監視"
@@ -680,7 +680,7 @@
         "message": "サーボジンバル"
     },
     "featureSOFTSERIAL": {
-        "message": "CPUベースのシリアルポートを有効にします."
+        "message": "CPUベースのシリアルポートを有効にします"
     },
     "featureSOFTSERIALTip": {
         "message": "有効後、「ポート」タブよりポートの設定をしてください。"
@@ -706,8 +706,53 @@
     "featureRX_PARALLEL_PWM": {
         "message": "PWM受信入力 (1chあたり1本)"
     },
+    "featureRX_MSP": {
+        "message": "MSP受信入力 (MSPポート経由制御)"
+    },
+    "featureRSSI_ADC": {
+        "message": "アナログRSSI 入力"
+    },
+    "featureLED_STRIP": {
+        "message": "マルチカラーLEDストリップ サポート"
+    },
+    "featureDISPLAY": {
+        "message": "オンスクリーンディスプレイ"
+    },
+    "featureDISPLAYTip": {
+        "message": "この機能が有効かつ、ディスプレイが接続されていない (またはディスプレイの電源が入っていない) 場合、フライトコントローラの再起動毎に約10秒の遅延があります。"
+    },
+    "featureONESHOT125": {
+        "message": "ONESHOT ESCサポート"
+    },
+    "featureONESHOT125Tip": {
+        "message": "この機能を有効にする前に、必ずバッテリーとプロペラを外してください！"
+    },
+    "featureBLACKBOX": {
+        "message": "ブラックボックス フライトデータレコーダー"
+    },
+    "featureBLACKBOXTip": {
+        "message": "有効にした後「ブラックボックス」タブで設定します。"
+    },
+    "featureRX_SPI": {
+        "message": "SPI受信サポート"
+    },
+    "featureESC_SENSOR": {
+        "message": "センサーとしてKISS\/BLHeli_32 ESCテレメトリーを使用します"
+    },
     "featureCHANNEL_FORWARDING": {
         "message": "AUXチャンネルをサーボ出力に転送"
+    },
+    "featureTRANSPONDER": {
+        "message": "トランスポンダー"
+    },
+    "featureTRANSPONDERTip": {
+        "message": "有効にした後「トランスポンダー」タブで設定します。"
+    },
+    "featureAIRMODE": {
+        "message": "エアモードを常時使用"
+    },
+    "featureSUPEREXPO_RATES": {
+        "message": "Super Expo レート"
     },
     "configurationLoopTimeHelp": {
         "message": "<strong>注:<\/strong>FCがこの速度で動作するか確認してください！CPUとサイクル時間の安定度を確認してください。この変更はPIDの再調整を必要とするかもしれません。TIP: パフォーマンスを上げるためには加速度センサーや他のセンサーを無効にします。"
