@@ -439,6 +439,9 @@
     "defaultContributingHead": {
         "message": "貢献"
     },
+    "defaultContributingText": {
+        "message": "Betaflightをより良くするためにご協力いただける場合、以下を含むさまざまな方法でお手伝いしていただけます:<br \/><ul><li>\nフォーラムやIRCで他のユーザーの質問に答える<\/li><li>\nファームウェアとConfiguratorへのコードの提供 - 新機能や修正、改良<\/li><li>\n<a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">新機能のフィックス<\/a>、テストとフィードバックの提供<\/li><li>\n<a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">問題のヘルプと新機能リクエスト<\/a>へのコメント協力<\/li><li>\n<a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">Configuratorアプリケーションをあなたの母国語に翻訳すること<\/a>に協力してみましょう。<\/li><li><\/li><\/ul>"
+    },
     "defaultSupportHead": {
         "message": "サポート"
     },
