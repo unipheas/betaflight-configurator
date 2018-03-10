@@ -232,6 +232,24 @@
     "usbDeviceCloseFail": {
         "message": "USBデバイスは<span class=\"message-negative\">切断できません<\/span>"
     },
+    "usbDeviceUdevNotice": {
+        "message": "<strong>udevルール<\/strong> が正しくインストールされていますか？手順についてはドキュメントを参照ください。"
+    },
+    "stm32UsbDfuNotFound": {
+        "message": "USBデバイスがDFUモードになっていません"
+    },
+    "stm32TimedOut": {
+        "message": "STM32 - の処理中にタイムアウトになりました: 失敗"
+    },
+    "stm32WrongResponse": {
+        "message": "STM32への通信に失敗、想定される不正応答: $1 (0x$2) 受信応答: $3 (0x$4)"
+    },
+    "stm32ContactingBootloader": {
+        "message": "ブートローダーに接続中..."
+    },
+    "stm32ContactingBootloaderFailed": {
+        "message": "ブートローダーに接続できません"
+    },
     "apiVersionReceived": {
         "message": "MultiWii APIバージョン: <strong>$1<\/strong>"
     },
