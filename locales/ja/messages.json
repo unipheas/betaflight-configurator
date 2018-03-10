@@ -286,6 +286,30 @@
     "stm32AddressLoadSuccess": {
         "message": "オプションバイトセクターのアドレス読み込みに成功しました。"
     },
+    "stm32AddressLoadUnknown": {
+        "message": "オプションバイトセクターのアドレス呼び出しが、原因不明のエラーで失敗しました。中止しています。"
+    },
+    "stm32NotReadProtected": {
+        "message": "読み取り保護が有効ではありません"
+    },
+    "stm32ReadProtected": {
+        "message": "FCボードは読み取り保護されたようです。読み取り保護を解除します。切断 \/ 抜線しないでください！"
+    },
+    "stm32UnprotectSuccessful": {
+        "message": "正常にインポートされました。"
+    },
+    "stm32UnprotectUnplug": {
+        "message": "必要な処置: DFUモードでフライトコントローラとのケーブルを抜き、再度接続して書き換えを再試行してください！"
+    },
+    "stm32UnprotectFailed": {
+        "message": "FCボードの保護を解除できませんでした"
+    },
+    "stm32UnprotectInitFailed": {
+        "message": "非保護なルーチンを開始できませんでした"
+    },
+    "noConfigurationReceived": {
+        "message": "<span class=\"message-negative\">10秒<\/span>以内に構成情報を受信できず、通信に<span class=\"message-negative\">失敗<\/span>しました。"
+    },
     "apiVersionReceived": {
         "message": "MultiWii APIバージョン: <strong>$1<\/strong>"
     },
