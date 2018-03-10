@@ -820,6 +820,9 @@
     "configurationSpiRxHelp": {
         "message": "<strong>注:<\/strong> SPI受信プロバイダは、必要なハードウェアが搭載されているかSPIバスに接続されている場合にのみ動作します。"
     },
+    "configurationOtherFeaturesHelp": {
+        "message": "<strong>注:<\/strong> すべての機能がすべてのフライトコントローラでサポートされている訳ではありません。 特定の機能を有効にして「保存して再起動」した後でも無効になっている場合は、この機能がボード上でサポートされていないことを意味します。"
+    },
     "configurationLoopTimeHelp": {
         "message": "<strong>注:<\/strong>FCがこの速度で動作するか確認してください！CPUとサイクル時間の安定度を確認してください。この変更はPIDの再調整を必要とするかもしれません。TIP: パフォーマンスを上げるためには加速度センサーや他のセンサーを無効にします。"
     },
