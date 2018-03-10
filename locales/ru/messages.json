@@ -1387,7 +1387,7 @@
         "message": "Тип транспондера"
     },
     "transponderType0": {
-        "message": "Ни один"
+        "message": "Нет"
     },
     "transponderType1": {
         "message": "iLap"
@@ -1511,6 +1511,12 @@
     },
     "motorsResetMaximumButton": {
         "message": "Сброс"
+    },
+    "motorsSensorGyroSelect": {
+        "message": "гиро"
+    },
+    "motorsSensorAccelSelect": {
+        "message": "аксел"
     },
     "sensorsRefresh": {
         "message": "Обновить:"
@@ -1651,6 +1657,10 @@
     "ledStripFunctionTitle": {
         "message": "Функция"
     },
+    "ledStripFunctionNoneOption": {
+        "message": "Нет",
+        "description": "One of the modes of the Led Strip"
+    },
     "ledStripFunctionColorOption": {
         "message": "Цвет",
         "description": "One of the modes of the Led Strip"
@@ -1676,6 +1686,10 @@
     },
     "ledStripModeColorsModeAngle": {
         "message": "Угол",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBaro": {
+        "message": "Баро",
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripDirN": {
@@ -1798,6 +1812,51 @@
     "pidTuningLevelSensitivity": {
         "message": "Чувствительность"
     },
+    "failsafeRxMinUsecItem": {
+        "message": "Минимальная длина"
+    },
+    "failsafeRxMaxUsecItem": {
+        "message": "Максимальная длина"
+    },
+    "powerButtonSave": {
+        "message": "Сохранить"
+    },
+    "powerBatteryVoltageMeterTypeNone": {
+        "message": "Нет"
+    },
+    "powerBatteryCurrentMeterTypeNone": {
+        "message": "Нет"
+    },
+    "powerVoltageHead": {
+        "message": "Вольтметр"
+    },
+    "powerVoltageId10": {
+        "message": "Батарея"
+    },
+    "powerVoltageId20": {
+        "message": "5V"
+    },
+    "powerVoltageId30": {
+        "message": "9V"
+    },
+    "powerVoltageId40": {
+        "message": "12V"
+    },
+    "powerBatteryHead": {
+        "message": "Батарея"
+    },
+    "powerBatteryConnectedValueNo": {
+        "message": "Нет"
+    },
+    "powerBatteryVoltage": {
+        "message": "Напряжение"
+    },
+    "powerBatteryCapacity": {
+        "message": "Ёмкость (mAh)"
+    },
+    "osdSetupElementsTitle": {
+        "message": "Элементы"
+    },
     "osdSetupVideoFormatTitle": {
         "message": "Формат видео"
     },
@@ -1853,7 +1912,7 @@
         "message": "Камера"
     },
     "configurationPersonalization": {
-        "message": "Персональные данные"
+        "message": "Персонализация"
     },
     "craftName": {
         "message": "Позывной пилота"
