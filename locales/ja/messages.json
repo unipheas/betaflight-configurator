@@ -466,6 +466,9 @@
     "defaultDocumentation": {
         "message": "Betaflightドキュメントはリリースノートと wiki でご利用いただけます。<br \/><br \/>"
     },
+    "defaultDocumentation1": {
+        "message": "Betaflight wiki は素晴らしい情報リソースを <a href=\"https:\/\/github.com\/betaflight\/betaflight<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">\/wiki\" target=\"_blank\">こちらで<\/a>見つけることができます。"
+    },
     "defaultDocumentation2": {
         "message": "ファームウェアのリリースノートは、GitHub リリース ページの<a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">こちらで<\/a>読むことができます。"
     },
@@ -483,6 +486,15 @@
     },
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+    },
+    "initialSetupButtonCalibrateAccel": {
+        "message": "加速度センサーをキャリブレーションします。"
+    },
+    "initialSetupButtonCalibrateMag": {
+        "message": "コンパスをキャリブレーションします。"
+    },
+    "initialSetupButtonCalibratingText": {
+        "message": "キャリブレーション中..."
     },
     "featureCHANNEL_FORWARDING": {
         "message": "AUXチャンネルをサーボ出力に転送"
