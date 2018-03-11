@@ -36,10 +36,10 @@
         "message": "自動接続: 無効 - ユーザーが正しいシリアル ポートを選択し、別途「接続」ボタンをクリックする必要があります。"
     },
     "expertMode": {
-        "message": "エキスパートモードを有効"
+        "message": "Expertモード有効"
     },
     "permanentExpertMode": {
-        "message": "エキスパートモードを常時有効"
+        "message": "Expertモード常時有効"
     },
     "userLanguageSelect": {
         "message": "言語設定 (変更を有効にするにはアプリケーションを再起動する必要があります)"
@@ -52,7 +52,7 @@
         "description": "Text of the dataflash image in the header of the page."
     },
     "sensorDataFlashFreeSpace": {
-        "message": "データ書き込み: 空き領域",
+        "message": "データ書込み: 空き領域",
         "description": "Text of the dataflash image in the header of the page."
     },
     "sensorStatusGyro": {
@@ -269,7 +269,7 @@
         "message": "消去中..."
     },
     "stm32Flashing": {
-        "message": "書き込み中..."
+        "message": "書込み中..."
     },
     "stm32Verifying": {
         "message": "検証中..."
@@ -1943,7 +1943,7 @@
         "message": "キャンセル"
     },
     "dataflashFileWriteFailed": {
-        "message": "選択されたファイルへの書き込みが失敗しました。フォルダの管理者権限を確認するか、別の場所を選択してください。"
+        "message": "選択されたファイルへの書込みが失敗しました。フォルダの管理者権限を確認するか、別の場所を選択してください。"
     },
     "sdcardStatusNoCard": {
         "message": "カードが挿入されていません"
@@ -1994,7 +1994,7 @@
         "message": "手動でダウンロードしてください。"
     },
     "firmwareFlasherTargetWarning": {
-        "message": "<span class=\"message-negative\">重要:<\/span> チップセットに即したファームウェアを書き込みするようにしてください。 間違ったファームウェアを書き込みさせると、<span class=\"message-negative\">最悪な<\/span>問題が起こってしまう可能性があります。"
+        "message": "<span class=\"message-negative\">重要:<\/span> チップセットに即したファームウェアを書込みするようにしてください。 間違ったファームウェアを書き込みさせると、<span class=\"message-negative\">最悪な<\/span>問題が起こってしまう可能性があります。"
     },
     "firmwareFlasherPath": {
         "message": "パス:"
@@ -2024,7 +2024,7 @@
         "message": "FCがBOOTモードの場合に有効にします。つまりブートローダのピンをジャンパさせたり、FCのBOOTボタンを押しながらFCの電源を入れた場合に有効にします。"
     },
     "firmwareFlasherFlashOnConnect": {
-        "message": "接続時に書き込み"
+        "message": "接続時に書込み"
     },
     "firmwareFlasherFlashOnConnectDescription": {
         "message": "FCボードを自動的に点滅 (新たに検出されたシリアルポートによって起動)"
@@ -2039,7 +2039,7 @@
         "message": "開発中のファームウェアを適用"
     },
     "firmwareFlasherFlashDevelopmentFirmwareDescription": {
-        "message": "最新の (未検証) 開発ファームウェアを書き込みします。"
+        "message": "最新の (未検証) 開発ファームウェアを書込みします。"
     },
     "firmwareFlasherManualPort": {
         "message": "ポート"
@@ -2048,7 +2048,7 @@
         "message": "手動伝送速度"
     },
     "firmwareFlasherManualBaudDescription": {
-        "message": "シリアル接続に対し、デフォルトの伝送速度をサポートしていないFCボード、またはBluetooth経由で書き込みするFCボードの伝送速度の手動選択。<br \/><span class=\"message-negative\">注:<\/span> USB DFUで書き込みさせる場合は使用しません。"
+        "message": "シリアル接続に対し、デフォルトの伝送速度をサポートしていないFCボード、またはBluetooth経由で書込みするFCボードの伝送速度の手動選択。<br \/><span class=\"message-negative\">注:<\/span> USB DFUで書き込みさせる場合は使用しません。"
     },
     "firmwareFlasherBaudRate": {
         "message": "伝送速度"
@@ -2138,7 +2138,7 @@
         "message": "<span class=\"message-negative\">有効なシリアルポートを選択してください<\/span>"
     },
     "firmwareFlasherWritePermissions": {
-        "message": "このファイルに対する<span class=\"message-negative\">書き込み権限<\/span>がありません"
+        "message": "このファイルに対する<span class=\"message-negative\">書込み権限<\/span>がありません"
     },
     "firmwareFlasherFlashTrigger": {
         "message": "検出: <strong>$1<\/strong> - 接続時フラッシュをトリガーとします"
@@ -2884,7 +2884,7 @@
         "message": "お使いのフライトコントローラはBetaFlight OSDに対応していないようです。"
     },
     "osdSetupUnsupportedNote2": {
-        "message": "いくつかのフライトコントローラにはオンボード<a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a>があり、これを<a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>で設定および書き込みができますが、MinimOSDはこのインターフェイスでは設定できません。"
+        "message": "いくつかのフライトコントローラにはオンボード<a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a>があり、これを<a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>で設定および書込みができますが、MinimOSDはこのインターフェイスでは設定できません。"
     },
     "osdSetupElementsTitle": {
         "message": "構成要素"
@@ -3220,7 +3220,7 @@
         "message": "OSD設定を保存しました"
     },
     "osdWritePermissions": {
-        "message": "このファイルに対する<span class = \"message-negative\">書き込み権限<\/span>がありません"
+        "message": "このファイルに対する<span class = \"message-negative\">書込み権限<\/span>がありません"
     },
     "mainHelpArmed": {
         "message": "モーター アーミング"
