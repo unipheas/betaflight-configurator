@@ -1915,6 +1915,105 @@
     "dataflashButtonErase": {
         "message": "データを消去"
     },
+    "dataflashConfirmEraseTitle": {
+        "message": "データ消去を確認します。"
+    },
+    "dataflashConfirmEraseNote": {
+        "message": "メモリに保存されているログを含む全てのデータを消去します．消去には20秒程度必要です．実行しますか？"
+    },
+    "dataflashSavingTitle": {
+        "message": "メモリのデータをファイルに保存します"
+    },
+    "dataflashSavingNote": {
+        "message": "保存には時間がかかります。しばらくお待ち下さい。"
+    },
+    "dataflashSavingNoteAfter": {
+        "message": "保存完了！「OK」を押して下さい。"
+    },
+    "dataflashButtonSaveCancel": {
+        "message": "キャンセル"
+    },
+    "dataflashButtonSaveDismiss": {
+        "message": "OK"
+    },
+    "dataflashButtonEraseConfirm": {
+        "message": "はい、メモリを消去します"
+    },
+    "dataflashButtonEraseCancel": {
+        "message": "キャンセル"
+    },
+    "dataflashFileWriteFailed": {
+        "message": "選択されたファイルへの書き込みが失敗しました。フォルダの管理者権限を確認するか、別の場所を選択してください。"
+    },
+    "sdcardStatusNoCard": {
+        "message": "カードが挿入されていません"
+    },
+    "sdcardStatusReboot": {
+        "message": "致命的なエラー<br>再起動してください"
+    },
+    "sdcardStatusReady": {
+        "message": "カード使用可能"
+    },
+    "sdcardStatusStarting": {
+        "message": "カードを準備しています..."
+    },
+    "sdcardStatusFileSystem": {
+        "message": "ファイルシステムを開始..."
+    },
+    "sdcardStatusUnknown": {
+        "message": "不明な状態 $1"
+    },
+    "firmwareFlasherReleaseSummaryHead": {
+        "message": "リリース情報"
+    },
+    "firmwareFlasherReleaseName": {
+        "message": "名前 \/ バージョン:"
+    },
+    "firmwareFlasherReleaseVersionUrl": {
+        "message": "リリースページを参照ください。"
+    },
+    "firmwareFlasherReleaseNotes": {
+        "message": "リリースノート:"
+    },
+    "firmwareFlasherReleaseDate": {
+        "message": "日付:"
+    },
+    "firmwareFlasherReleaseStatus": {
+        "message": "状態:"
+    },
+    "firmwareFlasherReleaseTarget": {
+        "message": "ターゲット:"
+    },
+    "firmwareFlasherReleaseFile": {
+        "message": "バイナリ:"
+    },
+    "firmwareFlasherReleaseStatusReleaseCandidate": {
+        "message": "<span class=\"message-negative\">重要: このファームウェアリリースは現在、リリース候補としてマークされています。 問題があれば直ちに報告してください。<\/span>"
+    },
+    "firmwareFlasherReleaseFileUrl": {
+        "message": "手動でダウンロードしてください。"
+    },
+    "firmwareFlasherTargetWarning": {
+        "message": "<span class=\"message-negative\">重要:<\/span> チップセットに即したファームウェアを書き込みするようにしてください。 間違ったファームウェアを書き込みさせると、<span class=\"message-negative\">最悪な<\/span>問題が起こってしまう可能性があります。"
+    },
+    "firmwareFlasherPath": {
+        "message": "パス:"
+    },
+    "firmwareFlasherSize": {
+        "message": "サイズ:"
+    },
+    "firmwareFlasherStatus": {
+        "message": "ステータス:"
+    },
+    "firmwareFlasherProgress": {
+        "message": "進行状況:"
+    },
+    "firmwareFlasherLoadFirmwareFile": {
+        "message": "ファームウェアファイルを選択してください"
+    },
+    "firmwareFlasherNoReboot": {
+        "message": "再起動シーケンスなし"
+    },
     "firmwareFlasherManualBaud": {
         "message": "手動伝送速度"
     },
