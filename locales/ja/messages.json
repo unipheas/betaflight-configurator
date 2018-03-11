@@ -1750,11 +1750,23 @@
     "motorsResetMaximum": {
         "message": "オーバータイム最大値をリセット"
     },
+    "motorsSensorGyroSelect": {
+        "message": "ジャイロ"
+    },
     "motorsSensorAccelSelect": {
         "message": "加速度センサー"
     },
+    "motorsMaster": {
+        "message": "マスター"
+    },
     "motorsNotice": {
         "message": "<strong>モーターテストモード \/ アーミングでの注意:<\/strong><br \/>スライダーを動かすか、又は送信機から機体をアームした場合、モータが<strong>回転<\/strong>します。<br \/>事故防止のために、この機能を使用する前に<strong class=\"message-negative\">すべてのプロペラ<\/strong>を取り外してください。<br \/>モーターテストモードを有効にする事により一時的に離陸防止機能が無効になります。これはプロペラを外した状態でベンチテストする際に機体がディスアームするのを防止するためです。<br \/>"
+    },
+    "motorsEnableControl": {
+        "message": "<strong>リスクを認識し<\/strong>、プロペラは全て外しました - モーター制御とアーミングを可能にし、離陸防止機能を無効にします。"
+    },
+    "sensorsInfo": {
+        "message": "更新周期を速く設定し、複数のグラフを同時にレンダリングすると、リソースが重くなり、ノートPC等を使用するとバッテリーを早く消費してしまう場合があるので注意してください。<br\/>必要とするセンサーのグラフを、適正な更新周期でレンダリングすることをお勧めします。"
     },
     "sensorsRefresh": {
         "message": "更新:"
@@ -1795,11 +1807,56 @@
     "sensorsSonarTitle": {
         "message": "ソナー - cm"
     },
+    "sensorsDebugTitle": {
+        "message": "デバッグ"
+    },
+    "cliInfo": {
+        "message": "<strong>注:<\/strong> 「CLI」タブから他へ切り替える、又は切断した場合はFCボードに<strong>自動的に<\/strong>\"<strong>EXIT 終了<\/strong>\"が送られます。最新のファームウェアではコントローラを<span class=\"message-negative\">再起動<\/span>させ 、未保存の変更は<span class=\"message-negative\">失われます<\/span>。"
+    },
     "cliInputPlaceholder": {
         "message": "こちらにコマンドを書いてください"
     },
+    "cliEnter": {
+        "message": "CLI モードを検出"
+    },
+    "cliReboot": {
+        "message": "CLI リブートを検出"
+    },
+    "cliSaveToFileBtn": {
+        "message": "ファイルへ保存"
+    },
     "loggingNote": {
         "message": "ログデータは<span class=\"message-negative\">このタブを表示している間のみ<\/span>保存されます。このタブから離れると<span class=\"message-negative\">ログが停止<\/span>して、通常の<strong>Configurator<\/strong>の状態に戻ります。<br \/>全体の更新期間を自由に選択できます。パフォーマンス上の理由から、<strong>1秒<\/strong>ごとにログファイルにデータが書き込まれます。"
+    },
+    "loggingSamplesSaved": {
+        "message": "サンプル保存:"
+    },
+    "loggingLogSize": {
+        "message": "ログサイズ:"
+    },
+    "loggingButtonLogFile": {
+        "message": "ログファイルの選択"
+    },
+    "loggingStart": {
+        "message": "ログを開始"
+    },
+    "loggingStop": {
+        "message": "ログを停止"
+    },
+    "loggingBack": {
+        "message": "ログの終了 \/ 切断"
+    },
+    "loggingErrorNotConnected": {
+        "message": "まず<strong>接続<\/strong>する必要があります"
+    },
+    "loggingErrorLogFile": {
+        "message": "ログファイルを選択して下さい"
+    },
+    "loggingErrorOneProperty": {
+        "message": "少なくとも1つのプロパティからログを選択してください"
+    },
+    "loggingAutomaticallyRetained": {
+        "message": "自動的に以前のログファイルをロード: <strong>$1<\/strong>"
     },
     "blackboxNotSupported": {
         "message": "このフライトコントローラのファームウェアは、Blackboxによるログをサポートしていません。"
@@ -1807,14 +1864,56 @@
     "blackboxMaybeSupported": {
         "message": "このフライトコントローラのファームウェアは古すぎるか、あるいは「設定」タブでブラックボックス機能が無効になっているため、このタブは使えません。"
     },
+    "blackboxConfiguration": {
+        "message": "ブラックボックスの設定"
+    },
+    "blackboxButtonSave": {
+        "message": "保存して再起動"
+    },
+    "blackboxLoggingNone": {
+        "message": "ログしない"
+    },
+    "blackboxLoggingFlash": {
+        "message": "オンボードメモリ"
+    },
+    "blackboxLoggingSdCard": {
+        "message": "SDカード"
+    },
+    "blackboxLoggingSerial": {
+        "message": "シリアルポート"
+    },
+    "serialLoggingSupportedNote": {
+        "message": "飛行ログは外部の保存デバイス (OpenLog，もしくは互換品) にシリアルポートを使って保存できます。「ポート」タブでの設定が必要です。"
+    },
     "sdcardNote": {
         "message": "飛行ログはフライトコントローラのオンボードSDスロットで保存できます。"
+    },
+    "dataflashUsedSpace": {
+        "message": "使用済み領域"
+    },
+    "dataflashFreeSpace": {
+        "message": "空き領域"
+    },
+    "dataflashUnavSpace": {
+        "message": "使用不可領域"
+    },
+    "dataflashLogsSpace": {
+        "message": "ログの保存領域"
     },
     "dataflashNote": {
         "message": "飛行ログはフライトコントローラのオンボードメモリに保存できます。"
     },
     "dataflashNotPresentNote": {
         "message": "このフライトコントローラには使用可能なメモリが付いていません"
+    },
+    "dataflashFirmwareUpgradeRequired": {
+        "message": "データ書き換えにはファームウェア &gt;= 1.8.0. が必要です。"
+    },
+    "dataflashButtonSaveFile": {
+        "message": "ファイルに保存"
+    },
+    "dataflashButtonErase": {
+        "message": "データを消去"
     },
     "firmwareFlasherManualBaud": {
         "message": "手動伝送速度"
