@@ -344,7 +344,7 @@
         "message": "$1タブを使用するには、ファームウェアをBetaflightの最新バージョンに<strong>アップグレード<\/strong>する必要があります。"
     },
     "firmwareVersion": {
-        "message": "ファームウェアバージョン: <strong>$1<\/strong>"
+        "message": "ファームウェア: <strong>$1<\/strong>"
     },
     "apiVersionReceived": {
         "message": "MultiWii APIバージョン: <strong>$1<\/strong>"
@@ -380,7 +380,7 @@
         "message": "ターゲット"
     },
     "versionLabelFirmware": {
-        "message": "ファームウェア"
+        "message": "ファーム"
     },
     "versionLabelConfigurator": {
         "message": "Configurator"
@@ -815,7 +815,7 @@
         "message": "ESC \/ モーター機能"
     },
     "configurationFeaturesHelp": {
-        "message": "<strong>注：<\/strong>機能のすべての組み合わせが有効な訳ではありません。 フライトコントローラファームウェアが無効な機能の組み合わせを検出すると、競合する機能が無効になります。<br \/><strong>注:\n<\/strong> ポートを使用する機能を<span class=\"message-negative\">有効にする前に<\/span>シリアルポートを設定してください。"
+        "message": "<strong>注:<\/strong> 機能のすべての組み合わせが有効な訳ではありません。 フライトコントローラファームウェアが無効な機能の組み合わせを検出すると、競合する機能が無効になります。<br \/><strong>注:<\/strong> ポートを使用する機能を<span class=\"message-negative\">有効にする前に<\/span>シリアルポートを設定してください。"
     },
     "configurationSerialRXHelp": {
         "message": "<strong>注:<\/strong> RX_SERIAL機能を使用する場合は、シリアルポート (「ポート」タブ内) を設定し、シリアル受信プロバイダを忘れずに選択ください。"
@@ -1046,10 +1046,10 @@
         "message": "周辺機器"
     },
     "portsHelp": {
-        "message": "<strong>注:<\/strong> すべての組み合わせが有効であるとは限りません。 フライト コント ローラのファームウェアはこれを検出し、シリアル ポートの設定がリセットされます。"
+        "message": "<strong>注:<\/strong> すべての組み合わせが有効であるとは限りません。 フライトコント ローラのファームウェアはこれを検出し、シリアル ポートの設定がリセットされます。"
     },
     "portsMSPHelp": {
-        "message": "<strong>注意:<\/strong>確実に設定内容を把握していない限り、最初のシリアルポートでMSPを<span class=\"message-negative\">無効にしないように<\/span>してください。行った場合、ファームウェアの再フラッシュが必要になり、全ての設定が消去される可能性があります。"
+        "message": "<strong>注:<\/strong> 確実に設定内容を把握しない限り、最初のシリアルポートでMSPを<span class=\"message-negative\">無効にしないで<\/span>ください。行った場合、ファームウェアの再フラッシュが必要になり、全ての設定が消去される場合があります。"
     },
     "portsFirmwareUpgradeRequired": {
         "message": "ファームウェアの更新が<span class=\"message-negative\">必要です<\/span>。シリアルポートによる設定はファームウェア &lt; 1.8.0 ではサポートされていません。"
@@ -1103,7 +1103,7 @@
         "message": "シリアル受信"
     },
     "portsFunction_BLACKBOX": {
-        "message": "ブラックボックス ログ"
+        "message": "ブラックボックスログ"
     },
     "portsFunction_TBS_SMARTAUDIO": {
         "message": "TBS SmartAudio"
@@ -3238,7 +3238,7 @@
         "message": "モータープロトコルを選択してください。<br>プロトコルがESCによってサポートされていることを確認してください。この情報はメーカーのWebサイトを確認してください。<br> <b>DSHOT900とDSHOT1200は、現在それほど多くのESCをサポートしていないため、ご使用の際は注意してください！<\/b>"
     },
     "configurationunsyndePwm": {
-        "message": "PID値からモーターPWM値を分離"
+        "message": "PIDからモーターPWMを分離"
     },
     "configurationUnsyncedPWMFreq": {
         "message": "モーターPWM周波数"
