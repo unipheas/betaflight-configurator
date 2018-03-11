@@ -2014,6 +2014,27 @@
     "firmwareFlasherNoReboot": {
         "message": "再起動シーケンスなし"
     },
+    "firmwareFlasherOnlineSelectBoardDescription": {
+        "message": "FCボードを選択する事で利用できるオンラインファームウェアの確認ができます - FCボードに対する適切なファームウェアを選択してください。"
+    },
+    "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
+        "message": "FCボードのファームウェアバージョンを選択してください。"
+    },
+    "firmwareFlasherNoRebootDescription": {
+        "message": "FCがBOOTモードの場合に有効にします。つまりブートローダのピンをジャンパさせたり、FCのBOOTボタンを押しながらFCの電源を入れた場合に有効にします。"
+    },
+    "firmwareFlasherFlashOnConnect": {
+        "message": "接続時に書き込み"
+    },
+    "firmwareFlasherFlashOnConnectDescription": {
+        "message": "FCボードを自動的に点滅 (新たに検出されたシリアルポートによって起動)"
+    },
+    "firmwareFlasherFullChipErase": {
+        "message": "チップの完全消去"
+    },
+    "firmwareFlasherFullChipEraseDescription": {
+        "message": "FCボードに現在保存されているすべての設定データを消去します。"
+    },
     "firmwareFlasherManualBaud": {
         "message": "手動伝送速度"
     },
