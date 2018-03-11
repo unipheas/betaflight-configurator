@@ -1009,6 +1009,9 @@
     "configurationGPSHelp": {
         "message": "<strong>注:<\/strong> GPS機能を使う場合は (「ポート」タブより) シリアルポートの設定を忘れずに行ってください。"
     },
+    "portsConfiguration": {
+        "message": "設定 \/ MSP"
+    },
     "portsSensorIn": {
         "message": "センサー入力"
     },
