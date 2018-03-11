@@ -1660,6 +1660,102 @@
     "gpsFixFalse": {
         "message": "<span class=\"text\">False<\/span>"
     },
+    "gpsAltitude": {
+        "message": "高度:"
+    },
+    "gpsLat": {
+        "message": "緯度:"
+    },
+    "gpsLon": {
+        "message": "経度:"
+    },
+    "gpsSpeed": {
+        "message": "速度:"
+    },
+    "gpsSats": {
+        "message": "衛星数:"
+    },
+    "gpsDistToHome": {
+        "message": "ホームポジションまでの距離:"
+    },
+    "gpsSignalStrHead": {
+        "message": "GPS強度"
+    },
+    "gpsSignalStr": {
+        "message": "電波強度:"
+    },
+    "gpsSignalSatId": {
+        "message": "衛星ID"
+    },
+    "gpsSignalQty": {
+        "message": "個数"
+    },
+    "motorsText": {
+        "message": "モーター"
+    },
+    "motorNumber1": {
+        "message": "モーター - 1"
+    },
+    "motorNumber2": {
+        "message": "モーター - 2"
+    },
+    "motorNumber3": {
+        "message": "モーター - 3"
+    },
+    "motorNumber4": {
+        "message": "モーター - 4"
+    },
+    "motorNumber5": {
+        "message": "モーター - 5"
+    },
+    "motorNumber6": {
+        "message": "モーター - 6"
+    },
+    "motorNumber7": {
+        "message": "モーター - 7"
+    },
+    "motorNumber8": {
+        "message": "モーター - 8"
+    },
+    "servosText": {
+        "message": "サーボ"
+    },
+    "servoNumber1": {
+        "message": "サーボ - 1"
+    },
+    "servoNumber2": {
+        "message": "サーボ - 2"
+    },
+    "servoNumber3": {
+        "message": "サーボ - 3"
+    },
+    "servoNumber4": {
+        "message": "サーボ - 4"
+    },
+    "servoNumber5": {
+        "message": "サーボ - 5"
+    },
+    "servoNumber6": {
+        "message": "サーボ - 6"
+    },
+    "servoNumber7": {
+        "message": "サーボ - 7"
+    },
+    "servoNumber8": {
+        "message": "サーボ - 8"
+    },
+    "motorsResetMaximumButton": {
+        "message": "リセット"
+    },
+    "motorsResetMaximum": {
+        "message": "オーバータイム最大値をリセット"
+    },
+    "motorsSensorAccelSelect": {
+        "message": "加速度センサー"
+    },
+    "motorsNotice": {
+        "message": "<strong>モーターテストモード \/ アーム 注: <\/strong><br \/>スライダーを動かす、又は送信機から機体をアームした場合はモーターが<strong>回転<\/strong>します。<br \/>事故防止のためにこの機能を使う前に<strong class=\"message-negative\">全てのプロペラを外してください<\/strong>。<br \/>モーターテストモードを有効にする事により一時的に離陸防止機能が無効になります。これはプロペラを外した状態でベンチテストする際に機体がディスアームするのを防止するためです。<br \/>\n\nモーターテストモード\/アーミング\n注意：スライダを動かすか、トランスミッタを使用してクラフトを作動させると、モータが回転します。\n怪我を防ぐために、この機能を使用する前にすべてのプロペラを取り外してください。\nモーターテストモードを有効にすると、プロペラを使用しないベンチテストの際に、離陸時の暴走防止機能を一時的に無効にして機体のディスアームをします。"
+    },
     "cliInputPlaceholder": {
         "message": "こちらにコマンドを書いてください"
     },
