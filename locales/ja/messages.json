@@ -36,10 +36,10 @@
         "message": "自動接続: 無効 - ユーザーが正しいシリアル ポートを選択し、別途「接続」ボタンをクリックする必要があります。"
     },
     "expertMode": {
-        "message": "エキスパートモード有効化"
+        "message": "エキスパートモードを有効"
     },
     "permanentExpertMode": {
-        "message": "エキスパートモードを常時有効化"
+        "message": "エキスパートモードを常時有効"
     },
     "userLanguageSelect": {
         "message": "言語設定 (変更を有効にするにはアプリケーションを再起動する必要があります)"
@@ -80,7 +80,7 @@
         "message": "気圧センサー"
     },
     "sensorStatusBaroShort": {
-        "message": "気圧計",
+        "message": "気圧センサー",
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusGPS": {
@@ -94,7 +94,7 @@
         "message": "ソナー \/ ファインダー範囲"
     },
     "sensorStatusSonarShort": {
-        "message": "ソナー",
+        "message": "ソナー 超音波距離センサー",
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "checkForConfiguratorUnstableVersions": {
