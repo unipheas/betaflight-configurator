@@ -362,10 +362,10 @@
         "message": "<strong>アーミング有効<\/strong>"
     },
     "runawayTakeoffPreventionDisabled": {
-        "message": "<strong>離陸時 暴走抑止機能を一時的に無効<\/strong>"
+        "message": "<strong>離陸防止機能を一時的に無効<\/strong>"
     },
     "runawayTakeoffPreventionEnabled": {
-        "message": "<strong>離陸時 暴走抑止機能を有効<\/strong>"
+        "message": "<strong>離陸防止機能を有効<\/strong>"
     },
     "boardInfoReceived": {
         "message": "FCボード: <strong>$1<\/strong> バージョン: <strong>$2<\/strong>"
@@ -1754,7 +1754,46 @@
         "message": "加速度センサー"
     },
     "motorsNotice": {
-        "message": "<strong>モーターテストモード \/ アーム 注: <\/strong><br \/>スライダーを動かす、又は送信機から機体をアームした場合はモーターが<strong>回転<\/strong>します。<br \/>事故防止のためにこの機能を使う前に<strong class=\"message-negative\">全てのプロペラを外してください<\/strong>。<br \/>モーターテストモードを有効にする事により一時的に離陸防止機能が無効になります。これはプロペラを外した状態でベンチテストする際に機体がディスアームするのを防止するためです。<br \/>\n\nモーターテストモード\/アーミング\n注意：スライダを動かすか、トランスミッタを使用してクラフトを作動させると、モータが回転します。\n怪我を防ぐために、この機能を使用する前にすべてのプロペラを取り外してください。\nモーターテストモードを有効にすると、プロペラを使用しないベンチテストの際に、離陸時の暴走防止機能を一時的に無効にして機体のディスアームをします。"
+        "message": "<strong>モーターテストモード \/ アーミングでの注意:<\/strong><br \/>スライダーを動かすか、又は送信機から機体をアームした場合、モータが<strong>回転<\/strong>します。<br \/>事故防止のために、この機能を使用する前に<strong class=\"message-negative\">すべてのプロペラ<\/strong>を取り外してください。<br \/>モーターテストモードを有効にする事により一時的に離陸防止機能が無効になります。これはプロペラを外した状態でベンチテストする際に機体がディスアームするのを防止するためです。<br \/>"
+    },
+    "sensorsRefresh": {
+        "message": "更新:"
+    },
+    "sensorsScale": {
+        "message": "スケール:"
+    },
+    "sensorsGyroSelect": {
+        "message": "ジャイロスコープ"
+    },
+    "sensorsAccelSelect": {
+        "message": "加速度センサー"
+    },
+    "sensorsMagSelect": {
+        "message": "コンパス"
+    },
+    "sensorsBaroSelect": {
+        "message": "気圧センサー"
+    },
+    "sensorsSonarSelect": {
+        "message": "ソナー 超音波距離センサー"
+    },
+    "sensorsDebugSelect": {
+        "message": "デバッグ"
+    },
+    "sensorsGyroTitle": {
+        "message": "ジャイロセンサー - deg\/s"
+    },
+    "sensorsAccelTitle": {
+        "message": "加速度センサー - g"
+    },
+    "sensorsMagTitle": {
+        "message": "コンパス - Ga"
+    },
+    "sensorsBaroTitle": {
+        "message": "気圧センサー - meters"
+    },
+    "sensorsSonarTitle": {
+        "message": "ソナー - cm"
     },
     "cliInputPlaceholder": {
         "message": "こちらにコマンドを書いてください"
