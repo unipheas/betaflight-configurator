@@ -42,7 +42,7 @@
         "message": "Expertモード常時有効"
     },
     "userLanguageSelect": {
-        "message": "言語設定 (変更を有効にするにはアプリケーションを再起動する必要があります)"
+        "message": "言語設定 (変更を有効にするにはConfiguratorを再起動する必要あり)"
     },
     "language_default": {
         "message": "初期値"
@@ -128,7 +128,7 @@
         "message": "設定の移行完了、移行の適用: $1"
     },
     "tabFirmwareFlasher": {
-        "message": "ファームウェアフラッシャー"
+        "message": "ファームフラッシャー"
     },
     "tabLanding": {
         "message": "ようこそ"
@@ -413,7 +413,7 @@
         "message": "CPU使用率: $1%"
     },
     "dfu_connect_message": {
-        "message": "DFUデバイスへのアクセスはファームウェアフラッシャーを使用してください"
+        "message": "DFUデバイスへのアクセスはファームフラッシャーを使用してください"
     },
     "dfu_erased_kilobytes": {
         "message": "フラッシュメモリ内の$1 KBを<span class=\"message-positive\">正常<\/span>に消去しました。"
@@ -428,7 +428,7 @@
         "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "<strong>Betaflight - Configurator<\/strong>へようこそ。このユーティリティは、フライトコントローラの設定やチューニングを簡単に更新できるよう設計されています。"
+        "message": "<strong>Betaflight - Configurator<\/strong>へようこそ。このユーティリティは、フライトコントローラの設定やチューニングを簡単に設定・更新できます。"
     },
     "defaultWelcomeHead": {
         "message": "ハードウェア"
@@ -449,7 +449,7 @@
         "message": "Configurator - 変更履歴"
     },
     "defaultButtonFirmwareFlasher": {
-        "message": "ファームウェアフラッシャー"
+        "message": "ファームフラッシャー"
     },
     "defaultDonateHead": {
         "message": "オープンソース \/ 寄付について"
@@ -2105,7 +2105,7 @@
         "message": "メッセージ:"
     },
     "firmwareFlasherWarningText": {
-        "message": "このファームウェアフラッシャーで<strong>Betaflight以外<\/strong>のフラッシュイメージへ<span class=\"message-negative\">書き換えないで<\/span>ください。<br \/>書き換えをしている間はボードを<strong>取り外したり<\/strong>、コンピュータの<strong>電源を切ったり<\/strong><span class=\"message-negative\">しないで<\/span>ください。<br \/><br \/><strong>注:<\/strong> STM32ブートローダはROMに格納されており、レンダリングできません。<br \/><strong>注:<\/strong> ファームウェアフラッシャーモードの間は、<span class=\"message-negative\">自動接続<\/span>は常に無効になっています。<br \/><strong>注:<\/strong> バックアップがあることを確認してください。アップグレード \/ ダウングレードでいくつかの設定が消去される場合があります。<br \/><strong>注:<\/strong> 書き換えに問題がある場合は、<strong>FCからすべてのケーブルを取り外し<\/strong>最初に再起動を行い、Chromeの最新アップグレード、ドライバのアップグレードをお試しください。<br \/><strong>注:<\/strong> (最新FCボードのほとんどの) 直接USBソケットを搭載しているFCボードに対して書き換えるときは、Betaflightマニュアルの「USB Flashing」章を読み、正しいソフトウェアとドライバをインストールしてください。"
+        "message": "このファームフラッシャーで<strong>Betaflight以外<\/strong>のフラッシュイメージへ<span class=\"message-negative\">書き換えないで<\/span>ください。<br \/>書き換えをしている間はボードを<strong>取り外したり<\/strong>、コンピュータの<strong>電源を切ったり<\/strong><span class=\"message-negative\">しないで<\/span>ください。<br \/><br \/><strong>注:<\/strong> STM32ブートローダはROMに格納されており、レンダリングできません。<br \/><strong>注:<\/strong> ファームウェアフラッシャーモードの間は、<span class=\"message-negative\">自動接続<\/span>は常に無効になっています。<br \/><strong>注:<\/strong> バックアップがあることを確認してください。アップグレード \/ ダウングレードでいくつかの設定が消去される場合があります。<br \/><strong>注:<\/strong> 書き換えに問題がある場合は、<strong>FCからすべてのケーブルを取り外し<\/strong>最初に再起動を行い、Chromeの最新アップグレード、ドライバのアップグレードをお試しください。<br \/><strong>注:<\/strong> (最新FCボードのほとんどの) 直接USBソケットを搭載しているFCボードに対して書き換えるときは、Betaflightマニュアルの「USB Flashing」章を読み、正しいソフトウェアとドライバをインストールしてください。"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>リカバリー \/ 通信ロスト<\/strong>"
@@ -2114,7 +2114,7 @@
         "message": "FCボードとの通信が切断された場合は、次の手順に従って通信を復元してください: <ul><li>電源をオフします。<\/li><li>「再起動シーケンスなし」を有効にし「全消去」を有効にします。<\/li><li>BOOTピンをジャンパーするか、またはBOOTボタンを押し続けます。<\/li><li>電源をオンします。 (正しく行われればアクティビティLEDは点滅しません) <\/li><li>必要に応じて、すべてのSTM32ドライバとZadigをインストールします。 (Betaflightマニュアルの「<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a>」章を参照) <\/li><li>コンフィギュレーターを閉じ、すべてのChromeアプリケーションを終了し、コンフィギュレーターを再起動します。<\/li><li>FCのBOOTボタン1つだけであれば、BOOTボタンを放してください。<\/li><li>正常なファームウェアをフラッシュしてください。 (FCのマニュアルで指定されている場合は手動で伝送速度を調整してください) <\/li><li>電源をオフします。<\/li><li>BOOTジャンパーを取り外します。<\/li><li>電源をオンします。 (アクティビティLEDが点滅するはずです) <\/li><li>通常に接続してください。<\/li><\/ul>"
     },
     "firmwareFlasherButtonLeave": {
-        "message": "ファームウェアフラッシャーより退避"
+        "message": "ファームフラッシャーより退避"
     },
     "firmwareFlasherFirmwareNotLoaded": {
         "message": "ファームウェアが読み込まれていません"
