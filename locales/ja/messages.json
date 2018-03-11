@@ -2234,6 +2234,115 @@
         "message": "オリエンテーション",
         "description": "One of the modes in Color Mode in Led Strip"
     },
+    "ledStripModeColorsModeHeadfree": {
+        "message": "ヘッドフリー",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeHorizon": {
+        "message": "ホライゾン",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAngle": {
+        "message": "アングル",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeMag": {
+        "message": "コンパス",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBaro": {
+        "message": "気圧センサー",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripDirN": {
+        "message": "N",
+        "description": "North direction in Color Mode in Led Strip"
+    },
+    "ledStripDirE": {
+        "message": "E",
+        "description": "East direction in Color Mode in Led Strip"
+    },
+    "ledStripDirS": {
+        "message": "S",
+        "description": "South direction in Color Mode in Led Strip"
+    },
+    "ledStripDirW": {
+        "message": "W",
+        "description": "West direction in Color Mode in Led Strip"
+    },
+    "ledStripDirU": {
+        "message": "U",
+        "description": "Up direction in Color Mode in Led Strip"
+    },
+    "ledStripDirD": {
+        "message": "D",
+        "description": "Down direction in Color Mode in Led Strip"
+    },
+    "ledStripModesOrientationTitle": {
+        "message": "LEDオリエンテーション (モード &amp; オリエンテーション) とカラー",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModesSpecialColorsTitle": {
+        "message": "スペシャルカラー",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeDisarmed": {
+        "message": "ディスアームしました",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeArmed": {
+        "message": "アームしました",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAnimation": {
+        "message": "アニメーション",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBlinkBg": {
+        "message": "背景が点滅します",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoSats": {
+        "message": "GPS: 衛星なし",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoLock": {
+        "message": "GPS: 捕捉なし",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSLocked": {
+        "message": "GPS: 捕捉",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripWiring": {
+        "message": "LEDストリップの配線",
+        "description": "One of the modes in Led Strip"
+    },
+    "ledStripWiringMode": {
+        "message": "ワイヤーオーダーモード",
+        "description": "One of the wiring modes in Led Strip"
+    },
+    "ledStripWiringClearControl": {
+        "message": "選択をクリア",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringClearAllControl": {
+        "message": "すべての配線をクリア",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringMessage": {
+        "message": "ワイヤーオーダー番号のないLEDは保存されません。",
+        "description": "Message in the wiring modes in Led Strip"
+    },
+    "ledStripVtxFunction": {
+        "message": "ラーソンスキャナー"
+    },
+    "pidTuningAltitude": {
+        "message": "気圧センサー・ソナー \/ 高度"
+    },
+    "pidTuningGps": {
+        "message": "GPSナビゲーション"
+    },
     "osdSetupUnsupportedNote1": {
         "message": "お使いのフライトコントローラはBetaFlight OSDに対応していないようです。"
     },
@@ -2329,6 +2438,18 @@
     },
     "osdDescElementCraftName": {
         "message": "「設定」タブで設定した機体名"
+    },
+    "osdDescElementGPSSpeed": {
+        "message": "GPSによる速度"
+    },
+    "osdDescElementGPSSats": {
+        "message": "GPS の有効衛星数"
+    },
+    "osdDescElementGPSLon": {
+        "message": "GPS経度"
+    },
+    "osdDescElementGPSLat": {
+        "message": "GPS緯度"
     },
     "osdDescElementPower": {
         "message": "瞬間電力消費量"
@@ -2544,7 +2665,7 @@
         "message": "加速度センサー"
     },
     "configurationBaroHardware": {
-        "message": "気圧計 (サポート時)"
+        "message": "気圧センサー (サポート時)"
     },
     "configurationMagHardware": {
         "message": "コンパス (サポート時)"
