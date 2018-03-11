@@ -2337,11 +2337,236 @@
     "ledStripVtxFunction": {
         "message": "ラーソンスキャナー"
     },
+    "ledStripBlinkTitle": {
+        "message": "点滅"
+    },
+    "ledStripBlinkAlwaysOverlay": {
+        "message": "常時点滅"
+    },
+    "ledStripBlinkLandingOverlay": {
+        "message": "着陸時点滅"
+    },
+    "ledStripOverlayTitle": {
+        "message": "オーバーレイ"
+    },
+    "ledStripWarningsOverlay": {
+        "message": "警告灯"
+    },
+    "ledStripIndecatorOverlay": {
+        "message": "インジケーター (マトリクス上の位置を利用)"
+    },
+    "colorBlack": {
+        "message": "黒色"
+    },
+    "colorWhite": {
+        "message": "白色"
+    },
+    "colorRed": {
+        "message": "赤色"
+    },
+    "colorOrange": {
+        "message": "橙色"
+    },
+    "colorYellow": {
+        "message": "黄色"
+    },
+    "colorLimeGreen": {
+        "message": "ライム グリーン"
+    },
+    "colorGreen": {
+        "message": "緑色"
+    },
+    "colorMintGreen": {
+        "message": "ミント グリーン"
+    },
+    "colorCyan": {
+        "message": "シアン"
+    },
+    "colorLightBlue": {
+        "message": "水色"
+    },
+    "colorBlue": {
+        "message": "青色"
+    },
+    "colorDarkViolet": {
+        "message": "暗紫色"
+    },
+    "colorMagenta": {
+        "message": "赤紫"
+    },
+    "colorDeepPink": {
+        "message": "ディープピンク"
+    },
+    "controlAxisRoll": {
+        "message": "ロール [A]"
+    },
+    "controlAxisPitch": {
+        "message": "ピッチ [E]"
+    },
+    "controlAxisYaw": {
+        "message": "ヨー [R]"
+    },
+    "controlAxisThrottle": {
+        "message": "スロットル [T]"
+    },
+    "controlAxisAux1": {
+        "message": "AUX 1"
+    },
+    "controlAxisAux2": {
+        "message": "AUX 2"
+    },
+    "controlAxisAux3": {
+        "message": "AUX 3"
+    },
+    "controlAxisAux4": {
+        "message": "AUX 4"
+    },
+    "controlAxisAux5": {
+        "message": "AUX 5"
+    },
+    "controlAxisAux6": {
+        "message": "AUX 6"
+    },
+    "controlAxisAux7": {
+        "message": "AUX 7"
+    },
+    "controlAxisAux8": {
+        "message": "AUX 8"
+    },
+    "controlAxisAux9": {
+        "message": "AUX 9"
+    },
+    "controlAxisAux10": {
+        "message": "AUX 10"
+    },
+    "controlAxisAux11": {
+        "message": "AUX 11"
+    },
+    "controlAxisAux12": {
+        "message": "AUX 12"
+    },
+    "controlAxisAux13": {
+        "message": "AUX 13"
+    },
+    "controlAxisAux14": {
+        "message": "AUX 14"
+    },
+    "controlAxisAux15": {
+        "message": "AUX 15"
+    },
+    "controlAxisAux16": {
+        "message": "AUX 16"
+    },
+    "pidTuningBasic": {
+        "message": "基本 \/ アクロ"
+    },
+    "pidTuningYawJumpPrevention": {
+        "message": "ヨージャンプ防止"
+    },
+    "pidTuningYawJumpPreventionHelp": {
+        "message": "機体がヨーの最後に飛び跳ねないよう姿勢を保ちます。数値が大きいほど減衰が大きくなります (一昔前のヨーD値のように動作します。これは他の軸のような実際のD値の動作ではありませんでした) 。"
+    },
+    "pidTuningRcExpoPower": {
+        "message": "RC Expoパワー"
+    },
+    "pidTuningRcExpoPowerHelp": {
+        "message": "RC Expoを計算する際に使用される指数です。Version 3.0.0より前のBetaflightバージョンでは、値は3に固定されています。"
+    },
+    "pidTuningLevel": {
+        "message": "アングル \/ ホライゾン"
+    },
     "pidTuningAltitude": {
         "message": "気圧センサー・ソナー \/ 高度"
     },
+    "pidTuningMag": {
+        "message": "コンパス \/ ヘッディング"
+    },
     "pidTuningGps": {
         "message": "GPSナビゲーション"
+    },
+    "pidTuningStrength": {
+        "message": "強さ"
+    },
+    "pidTuningTransition": {
+        "message": "遷移"
+    },
+    "pidTuningHorizon": {
+        "message": "ホライゾン"
+    },
+    "pidTuningAngle": {
+        "message": "アングル"
+    },
+    "pidTuningLevelAngleLimit": {
+        "message": "上限角度"
+    },
+    "pidTuningLevelSensitivity": {
+        "message": "感度"
+    },
+    "pidTuningLevelHelp": {
+        "message": "以下の値は、アングルとホライゾンの飛行モードの動作を変更します。それぞれのPIDコントローラは異なる値を処理します。 ドキュメントを確認してください。"
+    },
+    "pidTuningNonProfileFilterSettings": {
+        "message": "プロファイル毎のPID制御設定"
+    },
+    "pidTuningGyroLowpassFrequency": {
+        "message": "ジャイロ ローパスフィルタ周波数 [Hz]"
+    },
+    "pidTuningGyroLowpassFrequencyHelp": {
+        "message": "ジャイロ ローパスフィルタ周波数 [Hz]"
+    },
+    "pidTuningGyroNotch1Enable": {
+        "message": "ジャイロ ノッチフィルター1 を有効"
+    },
+    "pidTuningGyroNotch1Frequency": {
+        "message": "ジャイロ ノッチフィルター1 周波数 [Hz]"
+    },
+    "pidTuningGyroNotch2Enable": {
+        "message": "ジャイロ ノッチフィルター2 を有効"
+    },
+    "pidTuningGyroNotch2Frequency": {
+        "message": "ジャイロ ノッチフィルター2 周波数 [Hz]"
+    },
+    "pidTuningGyroNotchFrequencyHelp": {
+        "message": "ジャイロ ノッチフィルター 周波数 Hz"
+    },
+    "pidTuningGyroNotch1Cutoff": {
+        "message": "ジャイロ ノッチフィルター カットオフ1 周波数 [Hz]"
+    },
+    "pidTuningGyroNotch2Cutoff": {
+        "message": "ジャイロ ノッチフィルター カットオフ2 周波数 [Hz]"
+    },
+    "pidTuningGyroNotchCutoffHelp": {
+        "message": "ジャイロ ノッチフィルターカットオフ Hz (これはノッチフィルタ開始値です。例えば、ノッチフィルタ 160 およびノッチHzが 260 の場合、範囲は160〜360Hzとなり、中心付近の減衰が最も大きくなります)"
+    },
+    "pidTuningFilterSettings": {
+        "message": "フィルター設定"
+    },
+    "pidTuningDTermLowpassType": {
+        "message": "D値 ローパスフィルター"
+    },
+    "pidTuningDTermLowpassTypeTip": {
+        "message": "D値 ローパスフィルタータイプの使用タイプを選択します。初期値はBIQUADです。"
+    },
+    "pidTuningDTermLowpassFrequency": {
+        "message": "D値 ローパス周波数 [Hz]"
+    },
+    "pidTuningDTermLowpassFrequencyHelp": {
+        "message": "D値 ローパス周波数 [Hz] (0は無効)"
+    },
+    "pidTuningDTermNotchEnable": {
+        "message": "D値 ノッチフィルターを有効"
+    },
+    "pidTuningDTermNotchFrequency": {
+        "message": "D値 ノッチフィルター周波数 [Hz]"
+    },
+    "pidTuningDTermNotchFrequencyHelp": {
+        "message": "D値 ノッチフィルター周波数 [Hz] (０は無効)"
+    },
+    "pidTuningDTermNotchCutoff": {
+        "message": "D値 ノッチフィルター カット [Hz]"
+    },
+    "pidTuningDTermNotchCutoffHelp": {
+        "message": "D値 ノッチフィルターカットオフ Hz (これはノッチフィルタ開始値です。例えば、ノッチフィルタ 160 およびノッチHzが 260 の場合、範囲は160〜360Hzとなり、中心付近の減衰が最も大きくなります)"
     },
     "osdSetupUnsupportedNote1": {
         "message": "お使いのフライトコントローラはBetaFlight OSDに対応していないようです。"
