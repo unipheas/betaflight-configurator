@@ -2568,6 +2568,18 @@
     "pidTuningDTermNotchCutoffHelp": {
         "message": "D値 ノッチフィルターカットオフ Hz (これはノッチフィルタ開始値です。例えば、ノッチフィルタ 160 およびノッチHzが 260 の場合、範囲は160〜360Hzとなり、中心付近の減衰が最も大きくなります)"
     },
+    "pidTuningYawLowpassFrequency": {
+        "message": "ヨー ローパス周波数 [Hz]"
+    },
+    "pidTuningYawLowpassFrequencyHelp": {
+        "message": "ヨー ローパス周波数 [Hz] (ヨー軸は時々、残部分よりもノイズが大きい場合があります。 このフィルタはヨーのP値にのみ影響します。)"
+    },
+    "pidTuningVbatPidCompensation": {
+        "message": "Vbat PID補正"
+    },
+    "configHelp2": {
+        "message": "横向き \/ 下向き \/ 回転などの取り付けが可能な任意のFCボード回転角度です。 (度単位) 外部センサーを使用する場合は、センサーのアライメント (Gyro、Acc、Mag) を使用して、FCボードの向きから独立したセンサー位置を定義します。 "
+    },
     "osdSetupUnsupportedNote1": {
         "message": "お使いのフライトコントローラはBetaFlight OSDに対応していないようです。"
     },
