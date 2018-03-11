@@ -2149,6 +2149,91 @@
     "ledStripHelp": {
         "message": "フライトコントローラは、個々のLEDストリップの色や効果を制御できます。<br\/>グリッド上にLEDを配置、配線順序を設定し、グリッド位置に従って機体にLEDを取り付けます。 ワイヤーオーダー番号のないLEDは保存されません。<br \/>HSV値を編集するには、色を選択、ダブルクリックします。"
     },
+    "ledStripButtonSave": {
+        "message": "保存"
+    },
+    "ledStripColorSetupTitle": {
+        "message": "色の設定",
+        "description": "Color setup title of the led strip"
+    },
+    "ledStripH": {
+        "message": "H",
+        "description": "Abbreviation of Hue in HSV (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripS": {
+        "message": "S",
+        "description": "Abbreviation of Saturation in HSV  (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripV": {
+        "message": "V",
+        "description": "Abbreviation of Brightness in HSV  (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripRemainingText": {
+        "message": "残り:",
+        "description": "In the LED STRIP, text next the counter of leds remaining"
+    },
+    "ledStripClearSelectedButton": {
+        "message": "選択をクリア",
+        "description": "In the LED STRIP, clear selected leds"
+    },
+    "ledStripClearAllButton": {
+        "message": "すべて消去",
+        "description": "In the LED STRIP, clear all leds"
+    },
+    "ledStripEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
+    },
+    "ledStripVtxOverlay": {
+        "message": "VTX (VTX周波数を使用して色を割り当てます)"
+    },
+    "ledStripFunctionSection": {
+        "message": "LEDの機能"
+    },
+    "ledStripFunctionTitle": {
+        "message": "機能"
+    },
+    "ledStripFunctionNoneOption": {
+        "message": "なし",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionColorOption": {
+        "message": "色",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionModesOption": {
+        "message": "モード &amp; オリエンテーション",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionArmOption": {
+        "message": "アームの状態",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionBatteryOption": {
+        "message": "バッテリー",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionRSSIOption": {
+        "message": "RSSI",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionGPSOption": {
+        "message": "GPS",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionRingOption": {
+        "message": "リング",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripColorModifierTitle": {
+        "message": "カラー修正"
+    },
+    "ledStripModeColorsTitle": {
+        "message": "モードカラー"
+    },
+    "ledStripModeColorsModeOrientation": {
+        "message": "オリエンテーション",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
     "osdSetupUnsupportedNote1": {
         "message": "お使いのフライトコントローラはBetaFlight OSDに対応していないようです。"
     },
