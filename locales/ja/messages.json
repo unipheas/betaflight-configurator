@@ -955,6 +955,39 @@
     "beeperREADY_BEEP": {
         "message": "GPSの捕捉と準備ができたときトーンを鳴らす"
     },
+    "beeperARMED": {
+        "message": "FCボードが作動しているときに警告音を鳴らす (FCボード無効化またはスロットル増加まで繰り返し)"
+    },
+    "beeperSYSTEM_INIT": {
+        "message": "FCボードの電源が入っているときビープ音を鳴らす"
+    },
+    "beeperUSB": {
+        "message": "フライトコントローラがUSBから給電される際に鳴らすビープ音。作業時にビープ音を鳴らしたくない場合はオフにしてください。"
+    },
+    "beeperBLACKBOX_ERASE": {
+        "message": "ブラックボックスの消去が完了したときのビープ音"
+    },
+    "configuration3d": {
+        "message": "3D ESC \/ モーター機能"
+    },
+    "configuration3dDeadbandLow": {
+        "message": "3D デッドバンド 低"
+    },
+    "configuration3dDeadbandHigh": {
+        "message": "3D デッドバンド 高"
+    },
+    "configuration3dNeutral": {
+        "message": "3D ナチュラル"
+    },
+    "configuration3dDeadbandThrottle": {
+        "message": "3D デッドバンド スロットル"
+    },
+    "configurationSystem": {
+        "message": "システム設定"
+    },
+    "configurationLoopTime": {
+        "message": "フライトコントローラ ループタイム"
+    },
     "configurationLoopTimeHelp": {
         "message": "<strong>注:<\/strong>FCがこの速度で動作するか確認してください！CPUとサイクル時間の安定度を確認してください。この変更はPIDの再調整を必要とするかもしれません。TIP: パフォーマンスを上げるためには加速度センサーや他のセンサーを無効にします。"
     },
