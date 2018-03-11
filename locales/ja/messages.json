@@ -896,13 +896,64 @@
         "message": "機体がアームし、スロットルスティックが最小位置にあるときにESCに送信される「アイドル」値です。より安定したアイドリング速度を得るために値を増加させてください。また非同期の場合は値を上げてください！"
     },
     "configurationThrottleMaximum": {
-        "message": "最大スロットル (アーム時の最大ESC値)"
+        "message": "最大スロットル値 (アーム時の最大ESC値)"
+    },
+    "configurationThrottleMinimumCommand": {
+        "message": "最小スティック値 (ディスアーム時のESC値)"
     },
     "configurationThrottleMinimumCommandHelp": {
         "message": "これは機体がディスアームされたときにESCに送信される値です。 この値をモーターを停止させる値に設定してください。 (ほとんどのESCでは1000)"
     },
     "configurationDshotBeeper": {
         "message": "DSHOTビーコンの設定"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "DSHOTビーコンを使用 (ディスアーム時にビープ音を鳴らすためモーターを使用)"
+    },
+    "configurationDshotBeaconTone": {
+        "message": "ビーコントーン"
+    },
+    "configurationBeeper": {
+        "message": "ビープ音設定"
+    },
+    "beeperGYRO_CALIBRATED": {
+        "message": "ジャイロキャリブレーションされたときのビープ音"
+    },
+    "beeperRX_LOST": {
+        "message": "送信機がオフになったり、信号が失われたりするとビープ音を鳴らす (送信機が正常になるまで繰り返す)"
+    },
+    "beeperRX_LOST_LANDING": {
+        "message": "アームした際、送信機がオフになっているか、信号消失しているときにSOSビープ音を鳴らす (オートランディング \/ オートディスアーム)"
+    },
+    "beeperDISARMING": {
+        "message": "フライトコントローラを無効にするときのビープ音"
+    },
+    "beeperARMING": {
+        "message": "フライトコントローラを作動させるときのビープ音"
+    },
+    "beeperARMING_GPS_FIX": {
+        "message": "FCボードを作動させGPSを修正する特別なビープ音"
+    },
+    "beeperBAT_CRIT_LOW": {
+        "message": "バッテリーが非常に少ないときの、より長いビープ音 (繰り返し)"
+    },
+    "beeperBAT_LOW": {
+        "message": "バッテリーが少ないときの警告音 (繰り返し)"
+    },
+    "beeperRX_SET": {
+        "message": "AUXチャンネルでビープ音を鳴らすよう設定している、またはGPSが有効な際、いくつかの衛星が検出された場合のビープ音"
+    },
+    "beeperDISARM_REPEAT": {
+        "message": "スティックが無効位置にある間に鳴らすビープ音"
+    },
+    "beeperACC_CALIBRATION": {
+        "message": "加速度センサーキャリブレーション完了の確認"
+    },
+    "beeperACC_CALIBRATION_FAIL": {
+        "message": "加速度センサーキャリブレーションに失敗しました"
+    },
+    "beeperREADY_BEEP": {
+        "message": "GPSの捕捉と準備ができたときトーンを鳴らす"
     },
     "configurationLoopTimeHelp": {
         "message": "<strong>注:<\/strong>FCがこの速度で動作するか確認してください！CPUとサイクル時間の安定度を確認してください。この変更はPIDの再調整を必要とするかもしれません。TIP: パフォーマンスを上げるためには加速度センサーや他のセンサーを無効にします。"
@@ -924,6 +975,9 @@
     },
     "receiverHelpStickMax": {
         "message": "スティックがコマンド入力の 上 \/ 右 として認識される (自身の) 最小値。(MAX_CHECK)"
+    },
+    "cliInputPlaceholder": {
+        "message": "こちらにコマンドを書いてください"
     },
     "osdSetupElementsTitle": {
         "message": "構成要素"
