@@ -33,7 +33,7 @@
         "message": "自動接続: 有効 - Configuratorは自動的に新しいポートが検出されたときに接続を試みます。"
     },
     "autoConnectDisabled": {
-        "message": "自動接続: 無効 - ユーザーが正しいシリアル ポートを選択し、別途「接続」ボタンをクリックする必要があります。"
+        "message": "自動接続: 無効 - ユーザーが正しいシリアル ポートを選択し、別途 [接続] ボタンをクリックする必要があります。"
     },
     "expertMode": {
         "message": "Expertモード有効"
@@ -59,28 +59,28 @@
         "message": "ジャイロスコープ"
     },
     "sensorStatusGyroShort": {
-        "message": "ジャイロ",
+        "message": "Gyro",
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusAccel": {
         "message": "加速度センサー"
     },
     "sensorStatusAccelShort": {
-        "message": "加速度センサー",
+        "message": "Accel",
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusMag": {
         "message": "コンパス"
     },
     "sensorStatusMagShort": {
-        "message": "コンパス",
+        "message": "Mag",
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusBaro": {
         "message": "気圧センサー"
     },
     "sensorStatusBaroShort": {
-        "message": "気圧センサー",
+        "message": "Baro",
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusGPS": {
@@ -94,7 +94,7 @@
         "message": "ソナー \/ ファインダー範囲"
     },
     "sensorStatusSonarShort": {
-        "message": "ソナー 超音波距離センサー",
+        "message": "Sonar",
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "checkForConfiguratorUnstableVersions": {
@@ -827,7 +827,7 @@
         "message": "<strong>注:<\/strong> すべての機能がすべてのフライトコントローラでサポートされている訳ではありません。 特定の機能を有効にして「保存して再起動」した後でも無効になっている場合は、この機能がボード上でサポートされていないことを意味します。"
     },
     "configurationBoardAlignment": {
-        "message": "FCボード＆センサーアライメント"
+        "message": "FCボード＆センサー アライメント"
     },
     "configurationBoardAlignmentRoll": {
         "message": "ロール角度"
@@ -839,13 +839,13 @@
         "message": "ヨー角度"
     },
     "configurationSensorAlignmentGyro": {
-        "message": "ジャイロセンサーアライメント"
+        "message": "GYRO アライメント"
     },
     "configurationSensorAlignmentAcc": {
-        "message": "加速度センサーアライメント"
+        "message": "ACCEL アライメント"
     },
     "configurationSensorAlignmentMag": {
-        "message": "マグネットセンサーアライメント"
+        "message": "コンパスアライメント"
     },
     "configurationSensorAlignmentDefaultOption": {
         "message": "デフォルト"
@@ -2581,7 +2581,7 @@
         "message": "Vbatが低下したとき、それを補正するためPID値を増加させます。 これにより、飛行中にさらに一定の飛行特性を与えられます。 適用される補正量は、「設定」ページで設定された最大セル電圧値から計算されるため、適切な値に設定されていることを確認してください。"
     },
     "configHelp2": {
-        "message": "横向き \/ 下向き \/ 回転などの取り付けが可能な任意のFCボード回転角度です。 (度単位) 外部センサーを使用する場合は、センサーのアライメント (Gyro、Acc、Mag) を使用して、FCボードの向きから独立したセンサー位置を定義します。 "
+        "message": "横向き \/ 下向き \/ 回転などの取付け可能な任意のFCボード回転角度 (度) です。外部センサーを使用する場合は、センサーのアライメント (GYRO、ACCEL、コンパス) を使用して、ボードの向きから独立したセンサー位置を定義します。 "
     },
     "failsafeFeaturesHelpOld": {
         "message": "フェールセーフ設定が大幅に変更されました。 改善された設定パネルを有効にするには、Betaflight <strong>v1.12.0 以上<\/strong> を使用してください。"
