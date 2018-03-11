@@ -1003,6 +1003,9 @@
     "configurationGPSBaudrate": {
         "message": "伝送速度"
     },
+    "configurationGPSubxSbas": {
+        "message": "地上支援タイプ"
+    },
     "configurationGPSAutoBaud": {
         "message": "自動伝送速度設定"
     },
@@ -1054,11 +1057,71 @@
     "portsButtonSave": {
         "message": "保存して再起動"
     },
+    "portsTelemetryDisabled": {
+        "message": "無効"
+    },
+    "portsFunction_MSP": {
+        "message": "MSP"
+    },
+    "portsFunction_GPS": {
+        "message": "GPS"
+    },
+    "portsFunction_TELEMETRY_FRSKY": {
+        "message": "FrSky"
+    },
     "portsFunction_TELEMETRY_HOTT": {
         "message": "HoTT"
     },
     "portsFunction_TELEMETRY_LTM": {
         "message": "LTM"
+    },
+    "portsFunction_TELEMETRY_MAVLINK": {
+        "message": "MAVLink"
+    },
+    "portsFunction_TELEMETRY_MSP": {
+        "message": "MSP"
+    },
+    "portsFunction_TELEMETRY_SMARTPORT": {
+        "message": "SmartPort"
+    },
+    "portsFunction_TELEMETRY_IBUS": {
+        "message": "iBUS"
+    },
+    "portsFunction_TELEMETRY_JETIXBUS": {
+        "message": "JETIXBUS"
+    },
+    "portsFunction_TELEMETRY_CRSF": {
+        "message": "CRSF"
+    },
+    "portsFunction_TELEMETRY_SRXL": {
+        "message": "SRXL"
+    },
+    "portsFunction_ESC_SENSOR": {
+        "message": "ESC"
+    },
+    "portsFunction_RX_SERIAL": {
+        "message": "シリアル受信"
+    },
+    "portsFunction_BLACKBOX": {
+        "message": "ブラックボックス ログ"
+    },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "TBS SmartAudio"
+    },
+    "portsFunction_IRC_TRAMP": {
+        "message": "IRC Tramp"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "RunCam デバイス"
+    },
+    "pidTuningProfileOption": {
+        "message": "プロファイル $1"
+    },
+    "pidTuningRateProfileOption": {
+        "message": "レートプロファイル $1"
+    },
+    "portsFunction_LIDAR_TF": {
+        "message": "Benewake LIDAR"
     },
     "pidTuningReceivedProfile": {
         "message": "プロファイルをセット:<strong class=\"message-positive\">$1<\/strong>"
