@@ -1001,7 +1001,10 @@
         "message": "プロトコル"
     },
     "configurationGPSBaudrate": {
-        "message": "通信速度"
+        "message": "伝送速度"
+    },
+    "configurationGPSAutoBaud": {
+        "message": "自動伝送速度設定"
     },
     "configurationGPSHelp": {
         "message": "<strong>注:<\/strong> GPS機能を使う場合は (「ポート」タブより) シリアルポートの設定を忘れずに行ってください。"
@@ -1052,13 +1055,13 @@
         "message": "このフライトコントローラには使用可能なメモリが付いていません"
     },
     "firmwareFlasherManualBaud": {
-        "message": "手動の通信速度"
+        "message": "手動伝送速度"
     },
     "firmwareFlasherManualBaudDescription": {
         "message": "シリアル接続に対し、デフォルトの伝送速度をサポートしていないFCボード、またはBluetooth経由で書き込みするFCボードの伝送速度の手動選択。<br \/><span class=\"message-negative\">注:<\/span> USB DFUで書き込みさせる場合は使用しません。"
     },
     "firmwareFlasherBaudRate": {
-        "message": "通信速度:"
+        "message": "伝送速度:"
     },
     "firmwareFlasherRecoveryText": {
         "message": "FCボードとの通信が切断された場合は、次の手順に従って通信を復元してください: <ul><li>電源をオフします。<\/li><li>「再起動シーケンスなし」を有効にし「全消去」を有効にします。<\/li><li>BOOTピンをジャンパーするか、またはBOOTボタンを押し続けます。<\/li><li>電源をオンします。 (正しく行われればアクティビティLEDは点滅しません) <\/li><li>必要に応じて、すべてのSTM32ドライバとZadigをインストールします。 (Betaflightマニュアルの「<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a>」章を参照) <\/li><li>コンフィギュレーターを閉じ、すべてのChromeアプリケーションを終了し、コンフィギュレーターを再起動します。<\/li><li>FCのBOOTボタン1つだけであれば、BOOTボタンを放してください。<\/li><li>正常なファームウェアをフラッシュしてください。 (FCのマニュアルで指定されている場合は手動で伝送速度を調整してください) <\/li><li>電源をオフします。<\/li><li>BOOTジャンパーを取り外します。<\/li><li>電源をオンします。 (アクティビティLEDが点滅するはずです) <\/li><li>通常に接続してください。<\/li><\/ul>"
