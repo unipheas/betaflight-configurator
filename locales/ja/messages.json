@@ -2577,8 +2577,14 @@
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID補正"
     },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Vbatが低下したとき、それを補正するためPID値を増加させます。 これにより、飛行中にさらに一定の飛行特性を与えられます。 適用される補正量は、「設定」ページで設定された最大セル電圧値から計算されるため、適切な値に設定されていることを確認してください。"
+    },
     "configHelp2": {
         "message": "横向き \/ 下向き \/ 回転などの取り付けが可能な任意のFCボード回転角度です。 (度単位) 外部センサーを使用する場合は、センサーのアライメント (Gyro、Acc、Mag) を使用して、FCボードの向きから独立したセンサー位置を定義します。 "
+    },
+    "failsafePaneTitleOld": {
+        "message": "受信機 フェールセーフ"
     },
     "osdSetupUnsupportedNote1": {
         "message": "お使いのフライトコントローラはBetaFlight OSDに対応していないようです。"
