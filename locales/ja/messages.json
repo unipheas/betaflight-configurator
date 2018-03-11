@@ -1123,6 +1123,69 @@
     "portsFunction_LIDAR_TF": {
         "message": "Benewake LIDAR"
     },
+    "pidTuningUpgradeFirmwareToChangePidController": {
+        "message": "<span class=\"message-negative\">PID制御の変更が無効 - CLIにより変更できます。<\/span> このファームウェアはAPIバージョン<span class=\"message-negative\">$1<\/span>ですが、この機能には<span class=\"message-positive\">$2<\/span>が必要です。"
+    },
+    "pidTuningSubTabPid": {
+        "message": "PID設定"
+    },
+    "pidTuningSubTabFilter": {
+        "message": "フィルター設定"
+    },
+    "pidTuningShowAllPids": {
+        "message": "全PID値の表示"
+    },
+    "pidTuningHideUnusedPids": {
+        "message": "未使用なPID値の非表示"
+    },
+    "pidTuningNonProfilePidSettings": {
+        "message": "プロファイル毎のPID値 制御設定"
+    },
+    "pidTuningAntiGravityGain": {
+        "message": "Anti Gravity 強さ"
+    },
+    "pidTuningAntiGravityThres": {
+        "message": "Anti Gravity しきい値"
+    },
+    "pidTuningPidSettings": {
+        "message": "PID コントローラ設定"
+    },
+    "receiverRcInterpolation": {
+        "message": "RC補間"
+    },
+    "receiverRcInterpolationHelp": {
+        "message": "RC送受信システムはPIDループほど速くありません。そのためRCシステムからの情報ではPIDループの中に隙間が発生します。このオプションではRCフレームが受信されない間のRC入力の補間を行います。このオプションを使うと制御信号の暴れがなくなり、より明瞭なP値、D値の挙動を提供します。"
+    },
+    "receiverRcInterpolationIntervalHelp": {
+        "message": "ミリ秒単位での手動RC補間モードの補間間隔"
+    },
+    "receiverRcInterpolationOff": {
+        "message": "オフ"
+    },
+    "receiverRcInterpolationDefault": {
+        "message": "プリセット"
+    },
+    "receiverRcInterpolationAuto": {
+        "message": "自動"
+    },
+    "receiverRcInterpolationManual": {
+        "message": "手動"
+    },
+    "receiverRcInterpolationInterval": {
+        "message": "RC補間間隔 [ms]"
+    },
+    "pidTuningDtermSetpointTransition": {
+        "message": "D値 遷移"
+    },
+    "pidTuningDtermSetpoint": {
+        "message": "D値 影響力"
+    },
+    "pidTuningDtermSetpointTransitionHelp": {
+        "message": "このパラメータを使用すると、D値の影響力をスティックの中央近くで減らすことができ、その結果フリップおよびロールの端がスムーズになります。<br> この値はスティック偏向点を表します。0 - スティック中心、1 - 完全偏向です。 スティックがその値を上回ると、設定値の影響力は一定に保たれます。 スティックがその値の下に位置すると、設定値の影響力は比例して減少し、スティックの中心位置で0になります。<br>1の値はスムージング効果を最大にし、0の値はスティック範囲全体にわたって設定値に固定します。"
+    },
+    "pidTuningDtermSetpointHelp": {
+        "message": "このパラメータは、派生したスティック加速効果を決定します。<br> 0の値はD値がジャイロのみを追跡した古い測定方式、1の値はジャイロとスティックトラッキングレシオを追跡した古いエラー検出方式と同じです。<br>低い値は、ゆっくり \/ スムースなスティックレスポンスに、高い値はスティック加速レスポンスとなります。<br>RC補間は、制御キックバックノイズを発生しないよう高めの値にすることを推奨します。"
+    },
     "pidTuningReceivedProfile": {
         "message": "プロファイルをセット:<strong class=\"message-positive\">$1<\/strong>"
     },
