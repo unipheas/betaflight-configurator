@@ -563,7 +563,7 @@
         "message": "フェイルセーフ:"
     },
     "initialSetupMinCommand": {
-        "message": "スティックの最小値"
+        "message": "最小スティック値"
     },
     "initialSetupBatteryHead": {
         "message": "バッテリー"
@@ -887,7 +887,22 @@
         "message": "モーターアイドルスロットル値 [percent]"
     },
     "configurationDigitalIdlePercentHelp": {
-        "message": "機体がアームし、スロットルスティックが最小位置にあるときにESCに送信される最大スロットルの「アイドル」値です。より安定したアイドリング速度を得るためにパーセント値を増加させます。"
+        "message": "機体がアームし、スロットルスティックが最小位置にあるときにESCに送信される最大スロットルの「アイドル」値です。より安定したアイドリング速度を得るためにパーセント値を増加させてください。"
+    },
+    "configurationThrottleMinimum": {
+        "message": "最小スロットル値 (アーム時の最小ESC値)"
+    },
+    "configurationThrottleMinimumHelp": {
+        "message": "機体がアームし、スロットルスティックが最小位置にあるときにESCに送信される「アイドル」値です。より安定したアイドリング速度を得るために値を増加させてください。また非同期の場合は値を上げてください！"
+    },
+    "configurationThrottleMaximum": {
+        "message": "最大スロットル (アーム時の最大ESC値)"
+    },
+    "configurationThrottleMinimumCommandHelp": {
+        "message": "これは機体がディスアームされたときにESCに送信される値です。 この値をモーターを停止させる値に設定してください。 (ほとんどのESCでは1000)"
+    },
+    "configurationDshotBeeper": {
+        "message": "DSHOTビーコンの設定"
     },
     "configurationLoopTimeHelp": {
         "message": "<strong>注:<\/strong>FCがこの速度で動作するか確認してください！CPUとサイクル時間の安定度を確認してください。この変更はPIDの再調整を必要とするかもしれません。TIP: パフォーマンスを上げるためには加速度センサーや他のセンサーを無効にします。"
@@ -903,6 +918,12 @@
     },
     "portsFunction_TELEMETRY_LTM": {
         "message": "LTM"
+    },
+    "receiverHelpStickMin": {
+        "message": "スティックがコマンド入力の下 \/ 左として認識される (自身の) 最大値。(MIN_CHECK)"
+    },
+    "receiverHelpStickMax": {
+        "message": "スティックがコマンド入力の 上 \/ 右 として認識される (自身の) 最小値。(MAX_CHECK)"
     },
     "osdSetupElementsTitle": {
         "message": "構成要素"
