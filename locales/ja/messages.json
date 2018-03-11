@@ -1190,10 +1190,10 @@
         "message": "比例"
     },
     "pidTuningIntegral": {
-        "message": "積分"
+        "message": "インテグラル 積分"
     },
     "pidTuningDerivative": {
-        "message": "派生"
+        "message": "デリバティブ 派生"
     },
     "pidTuningRcRate": {
         "message": "RCレート"
@@ -1211,7 +1211,7 @@
         "message": "レート設定のプレビュー"
     },
     "pidTuningRcExpo": {
-        "message": "RC EXPO"
+        "message": "RC Expo"
     },
     "pidTuningTPA": {
         "message": "TPA"
@@ -1380,6 +1380,84 @@
     },
     "receiverMspEnableButton": {
         "message": "コントロール有効"
+    },
+    "auxiliaryHelp": {
+        "message": "範囲を設定し、送信機側スイッチと対応するモードの割り当てを定義します。最小 \/ 最大値の範囲内で設定した受信チャンネルにてモードが有効となります。 [保存] ボタンを使用して設定を保存することを忘れないでください。"
+    },
+    "auxiliaryMin": {
+        "message": "最小"
+    },
+    "auxiliaryMax": {
+        "message": "最大"
+    },
+    "auxiliaryAddRange": {
+        "message": "範囲を追加"
+    },
+    "auxiliaryButtonSave": {
+        "message": "保存"
+    },
+    "auxiliaryEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
+    },
+    "auxiliaryAutoChannelSelect": {
+        "message": "自動"
+    },
+    "adjustmentsHelp": {
+        "message": "調整スイッチを構成します。詳細については、マニュアルの「In-flight Adjustment」を参照してください。調整の変更は自動的には保存されません。 4つのスロットがありますが、調整を同時に行うために使用される各スイッチは、スロットを排他的に使用する必要があります。"
+    },
+    "adjustmentsExamples": {
+        "message": "例"
+    },
+    "adjustmentsExample1": {
+        "message": "AUX1のスロット1と、3ポジションスイッチを使用しピッチ \/ ロール、PIDの設定を、AUX2の別の3ポジションスイッチを選択し、上下することで値を増減させます。"
+    },
+    "adjustmentsExample2": {
+        "message": "AUX4のスロット2と3ポジションスイッチを選択し、かつ同じチャンネルの3ポジションスイッチを使用することでレートプロファイル変更を有効にすることができます。"
+    },
+    "adjustmentsColumnEnable": {
+        "message": "もし有効ならば"
+    },
+    "adjustmentsColumnUsingSlot": {
+        "message": "使用するスロット"
+    },
+    "adjustmentsColumnWhenChannel": {
+        "message": "チャンネル"
+    },
+    "adjustmentsColumnIsInRange": {
+        "message": "レンジ内ならば"
+    },
+    "adjustmentsColumnThenApplyFunction": {
+        "message": "適用する"
+    },
+    "adjustmentsColumnViaChannel": {
+        "message": "チャンネル経由"
+    },
+    "adjustmentsSlot0": {
+        "message": "スロット1"
+    },
+    "adjustmentsSlot1": {
+        "message": "スロット2"
+    },
+    "adjustmentsSlot2": {
+        "message": "スロット3"
+    },
+    "adjustmentsSlot3": {
+        "message": "スロット4"
+    },
+    "adjustmentsMin": {
+        "message": "最小"
+    },
+    "adjustmentsMax": {
+        "message": "最大"
+    },
+    "adjustmentsFunction0": {
+        "message": "変更しない"
+    },
+    "adjustmentsFunction1": {
+        "message": "RC レート調整"
+    },
+    "adjustmentsFunction2": {
+        "message": "RC Expo調整"
     },
     "transponderNotSupported": {
         "message": "このフライトコントローラのファームウェアは、トランスポンダ機能をサポートしていません。"
@@ -1784,10 +1862,10 @@
         "message": "レートプロファイル"
     },
     "pidTuningRateProfileTip": {
-        "message": "1つのプロファイルにつき最大3つの異なるレートプロファイルをフライトコントローラに保存することができます。レートプロファイルには、「RCレート」、「レート」、「RC EXPO」、「スロットル」、および「TPA」の設定が含まれます。 「調整」タブの「レートプロファイル選択」の3つのポジションスイッチを設定することで、レートプロファイルの切り替えが可能です。"
+        "message": "1つのプロファイルにつき最大3つの異なるレートプロファイルをフライトコントローラに保存することができます。レートプロファイルには、「RCレート」、「レート」、「RC Expo」、「スロットル」、および「TPA」の設定が含まれます。 「調整」タブの「レートプロファイル選択」の3つのポジションスイッチを設定することで、レートプロファイルの切り替えが可能です。"
     },
     "pidTuningDelta": {
-        "message": "派生方式"
+        "message": "デリバティブ方式 派生方式"
     },
     "pidTuningDeltaError": {
         "message": "エラー"
@@ -1797,6 +1875,9 @@
     },
     "pidTuningDeltaTip": {
         "message": "<b>エラーからの派生<\/b>は、より直接的なスティックレスポンスを提供し、ほとんどがレース向けのものです。 <br><br><b>計測からの派生<\/b>は、よりスムーズなスティックレスポンスを提供し、フリースタイル時により有用なものです。"
+    },
+    "pidTuningPidTuningTip": {
+        "message": "<b>比例:<\/b>マルチローターを動作させようとすると、非常に強い抵抗力があります。<br><b>インテグラル 積分:<\/b>全体の初期位置を保持し、ドリフトを低減する能力を高めるだけでなく、初期位置に戻る際の遅延も増加させます。<br><b>デリバティブ 派生:<\/b>偏差の回復速度は向上しますが、ノイズは増加します。<br><b>レート・Expo:<\/b>これらのパラメータに基づいて、スティックフィーリングを決定します。グラフとライブ3Dモデルを使用して、お気に入りのレート設定を見つけます。"
     },
     "pidTuningRatesTip": {
         "message": "レートを試し、スティックカーブに対しどのように影響するかを確認してください"
