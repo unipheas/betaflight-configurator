@@ -434,7 +434,7 @@
         "message": "ハードウェア"
     },
     "defaultWelcomeText": {
-        "message": "このアプリケーションは、Betaflightを実行できるすべてのハードウェアをサポートしています。対応するハードウェアの完全なリストについては、「書き換え」タブを確認してください。<br><br><a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\">Betaflight ブラックボックスをダウンロード<\/a><br \/><br \/>ファームウェアのソースコードは<a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/>最新のバイナリファームウェアイメージは<a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/><br \/>最新の<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210xドライバ<\/a>は<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">こちら<\/a><br \/>最新の<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCPドライバ<\/a>は<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">こちら<\/a><br \/>最新のWindows用<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> USBドライバのインストーラは<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">こちら<\/a><br \/>"
+        "message": "このアプリケーションは、Betaflightを実行できるすべてのハードウェアをサポートしています。対応するハードウェアの完全なリストについては、[書き換え] タブを確認ください。<br><br><a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\">Betaflight ブラックボックスをダウンロード<\/a><br \/><br \/>ファームウェアのソースコードは<a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/>最新のバイナリファームウェアイメージは<a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/><br \/>最新の<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210xドライバ<\/a>は<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">こちら<\/a><br \/>最新の<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCPドライバ<\/a>は<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">こちら<\/a><br \/>最新のWindows用<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> USBドライバのインストーラは<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">こちら<\/a><br \/>"
     },
     "defaultContributingHead": {
         "message": "開発に協力してください"
@@ -686,7 +686,7 @@
         "message": "CPUベースのシリアルポートを有効にします"
     },
     "featureSOFTSERIALTip": {
-        "message": "有効後、「ポート」タブよりポートの設定をしてください。"
+        "message": "有効後、[ポート] タブよりポートの設定をしてください。"
     },
     "featureGPS": {
         "message": "ナビゲーションとテレメトリー用のGPS"
@@ -734,7 +734,7 @@
         "message": "ブラックボックス フライトデータレコーダー"
     },
     "featureBLACKBOXTip": {
-        "message": "有効にした後「ブラックボックス」タブで設定します。"
+        "message": "有効後、[ブラックボックス] タブで設定をしてください。"
     },
     "featureRX_SPI": {
         "message": "SPI受信サポート"
@@ -749,7 +749,7 @@
         "message": "トランスポンダー"
     },
     "featureTRANSPONDERTip": {
-        "message": "有効にした後「トランスポンダー」タブで設定します。"
+        "message": "有効後、[トランスポンダー] タブで設定をしてください。"
     },
     "featureAIRMODE": {
         "message": "エアモードを常時使用します"
@@ -818,7 +818,7 @@
         "message": "<strong>注:<\/strong> 機能のすべての組み合わせが有効な訳ではありません。 フライトコントローラファームウェアが無効な機能の組み合わせを検出すると、競合する機能が無効になります。<br \/><strong>注:<\/strong> ポートを使用する機能を<span class=\"message-negative\">有効にする前に<\/span>シリアルポートを設定してください。"
     },
     "configurationSerialRXHelp": {
-        "message": "<strong>注:<\/strong> RX_SERIAL機能を使用する場合は、シリアルポート (「ポート」タブ内) を設定し、シリアル受信プロバイダを忘れずに選択ください。"
+        "message": "<strong>注:<\/strong> RX_SERIALを使用する場合、シリアルポート ( [ポート] タブ内) を設定し、シリアル受信プロバイダを忘れず選択ください。"
     },
     "configurationSpiRxHelp": {
         "message": "<strong>注:<\/strong> SPI受信プロバイダは、必要なハードウェアが搭載されているかSPIバスに接続されている場合にのみ動作します。"
@@ -878,7 +878,7 @@
         "message": "設定後にモーターをディスアーム [seconds] (MOTOR_STOP機能必須)"
     },
     "configurationDisarmKillSwitch": {
-        "message": "スロットル値に関係なくモーターをディスアーム (アームが「モード」タブのAUXチャンネルで設定されている場合)"
+        "message": "スロットル値に関係なくモーターをディスアーム (ARMが[モード]タブのAUXチャンネルで設定されている場合)"
     },
     "configurationDisarmKillSwitchHelp": {
         "message": "スロットルが低位置でない場合、アーミングは常に無効となります。 飛行中にオプション有効スイッチを、誤って解除する可能性がありますので注意してください。"
