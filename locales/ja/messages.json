@@ -1459,8 +1459,191 @@
     "adjustmentsFunction2": {
         "message": "RC Expo調整"
     },
+    "adjustmentsFunction3": {
+        "message": "スロットル Expo 調整"
+    },
+    "adjustmentsFunction4": {
+        "message": "ピッチ・ロール レート調整"
+    },
+    "adjustmentsFunction5": {
+        "message": "ヨーレート 調整"
+    },
+    "adjustmentsFunction6": {
+        "message": "ピッチ・ロール P値 調整"
+    },
+    "adjustmentsFunction7": {
+        "message": "ピッチ・ロール I値 調整"
+    },
+    "adjustmentsFunction8": {
+        "message": "ピッチ・ロール D値 調整"
+    },
+    "adjustmentsFunction9": {
+        "message": "ヨー P値 調整"
+    },
+    "adjustmentsFunction10": {
+        "message": "ヨー I値 調整"
+    },
+    "adjustmentsFunction11": {
+        "message": "ヨー D値 調整"
+    },
+    "adjustmentsFunction12": {
+        "message": "レートプロファイル選択"
+    },
+    "adjustmentsFunction13": {
+        "message": "ピッチ レート"
+    },
+    "adjustmentsFunction14": {
+        "message": "ロール レート"
+    },
+    "adjustmentsFunction15": {
+        "message": "ピッチ P値 調整"
+    },
+    "adjustmentsFunction16": {
+        "message": "ピッチ I値 調整"
+    },
+    "adjustmentsFunction17": {
+        "message": "ピッチ D値 調整"
+    },
+    "adjustmentsFunction18": {
+        "message": "ロール P値 調整"
+    },
+    "adjustmentsFunction19": {
+        "message": "ロール I値 調整"
+    },
+    "adjustmentsFunction20": {
+        "message": "ロール D値 調整"
+    },
+    "adjustmentsFunction21": {
+        "message": "RC レート ヨー"
+    },
+    "adjustmentsFunction22": {
+        "message": "D値 セットポイント"
+    },
+    "adjustmentsFunction23": {
+        "message": "D値 遷移"
+    },
+    "adjustmentsFunction24": {
+        "message": "ホライゾン 強度調整"
+    },
+    "adjustmentsSave": {
+        "message": "保存"
+    },
+    "adjustmentsEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
+    },
     "transponderNotSupported": {
         "message": "このフライトコントローラのファームウェアは、トランスポンダ機能をサポートしていません。"
+    },
+    "transponderInformation": {
+        "message": "トランスポンダーシステムにより、レース主催者は周回の計測をすることができます。トランスポンダーは機体に取り付けられ、機体がタイミングゲートを通過すると、トラックサイドレシーバーがトランスポンダーコードとラップタイムを記録します。 IRベースのトランスポンダーを取り付けるときは、機体からコース側の受信機に向かって外側に向け、光信号が機体、バッテリーストラップ、ケーブル、プロペラなどで遮断されていないことを確認する必要があります。"
+    },
+    "transponderConfigurationType": {
+        "message": "トランスポンダーの種類"
+    },
+    "transponderType0": {
+        "message": "なし"
+    },
+    "transponderType1": {
+        "message": "iLap"
+    },
+    "transponderType2": {
+        "message": "aRCiTimer"
+    },
+    "transponderType3": {
+        "message": "ERLT"
+    },
+    "transponderConfiguration1": {
+        "message": "iLap 設定"
+    },
+    "transponderConfiguration2": {
+        "message": "aRCiTimer 設定"
+    },
+    "transponderConfiguration3": {
+        "message": "ERLT 設定"
+    },
+    "transponderData1": {
+        "message": "データ"
+    },
+    "transponderData2": {
+        "message": "トランスポンダー ID"
+    },
+    "transponderData3": {
+        "message": "トランスポンダー ID"
+    },
+    "transponderDataHelp1": {
+        "message": "16進数 0〜9、A〜F"
+    },
+    "transponderHelp1": {
+        "message": "ここにトランスポンダーコードを設定します。注意：レースタイミングシステムでは有効なコードのみが認識されます。有効なトランスポンダコードは、 <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a> から入手できます。"
+    },
+    "transponderHelp2": {
+        "message": "詳細については <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer サイト<\/a> をご覧ください。"
+    },
+    "transponderDataHelp3": {
+        "message": "ERLT ID 0～63 を選択します。"
+    },
+    "transponderHelp3": {
+        "message": "詳細については <a href=\"https:\/\/github.com\/polyvision\/EasyRaceLapTimer\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer site<\/a> をご覧ください。"
+    },
+    "transponderButtonSave": {
+        "message": "保存"
+    },
+    "transponderButtonSaveReboot": {
+        "message": "保存して再起動"
+    },
+    "transponderDataInvalid": {
+        "message": "トランスポンダー データが <span class=\"message-negative\">無効です。<\/span>"
+    },
+    "transponderEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
+    },
+    "servosFirmwareUpgradeRequired": {
+        "message": "サーボはファームウェア &gt;= 1.10.0 が必要でありサポート対象です。"
+    },
+    "servosChangeDirection": {
+        "message": "一致する送信機の方向を変更"
+    },
+    "servosName": {
+        "message": "名前"
+    },
+    "servosMid": {
+        "message": "中央"
+    },
+    "servosMin": {
+        "message": "最少"
+    },
+    "servosMax": {
+        "message": "最大"
+    },
+    "servosAngleAtMin": {
+        "message": "最小角度"
+    },
+    "servosAngleAtMax": {
+        "message": "最大角度"
+    },
+    "servosDirectionAndRate": {
+        "message": "方向とレート"
+    },
+    "servosLiveMode": {
+        "message": "Liveモードを有効"
+    },
+    "servosButtonSave": {
+        "message": "保存"
+    },
+    "servosNormal": {
+        "message": "ノーマル"
+    },
+    "servosReverse": {
+        "message": "リバース"
+    },
+    "servosEepromSave": {
+        "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
+    },
+    "gpsHead": {
+        "message": "GPS"
+    },
+    "gpsMapHead": {
+        "message": "GPSでの現在の場所"
     },
     "cliInputPlaceholder": {
         "message": "こちらにコマンドを書いてください"
