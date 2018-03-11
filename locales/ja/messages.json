@@ -2862,8 +2862,23 @@
     "powerBatteryConnectedValueNo": {
         "message": "いいえ"
     },
+    "powerBatteryVoltage": {
+        "message": "電圧"
+    },
+    "powerBatteryCurrentDrawn": {
+        "message": "mAh 使用"
+    },
     "powerBatteryAmperage": {
         "message": "アンペア"
+    },
+    "powerBatteryCapacity": {
+        "message": "容量 (mAh)"
+    },
+    "osdSetupTitle": {
+        "message": "OSD"
+    },
+    "osdSetupPreviewHelp": {
+        "message": "<strong>注:<\/strong> プレビュー画面のフォントは実際のフォントと異なる場合があります。"
     },
     "osdSetupUnsupportedNote1": {
         "message": "お使いのフライトコントローラはBetaFlight OSDに対応していないようです。"
@@ -2919,6 +2934,15 @@
     "osdSetupReplaceLogo": {
         "message": "ロゴの差し替え"
     },
+    "osdSetupReplaceLogoHelp": {
+        "message": "カスタマイズされたロゴイメージは、完全な緑色のみの背景とし、黒と白を含む 288×72px サイズでなければなりません。"
+    },
+    "osdSetupReplaceLogoImageSizeError": {
+        "message": "画像サイズが無効です; 想定される大きさ $1×$2 でなく $3×$4"
+    },
+    "osdSetupReplaceLogoImageColorsError": {
+        "message": "画像に無効なカラーパレットが含まれています \n(緑、黒、白のみが許可)"
+    },
     "osdSetupUploadFont": {
         "message": "フォントのアップロード"
     },
@@ -2958,8 +2982,44 @@
     "osdDescElementRssiValue": {
         "message": "瞬間RSSI値 (アラームしきい値以下の場合は点滅)"
     },
+    "osdDescElementThrottlePosition": {
+        "message": "現在のスロットル チャンネル値"
+    },
+    "osdDescElementArmed": {
+        "message": "アーム メッセージ"
+    },
+    "osdDescElementDisarmed": {
+        "message": "ディスアーム メッセージ"
+    },
+    "osdDescElementCrosshairs": {
+        "message": "画面中央のクロスヘア"
+    },
+    "osdDescElementArtificialHorizon": {
+        "message": "水平表示"
+    },
+    "osdDescElementHorizonSidebars": {
+        "message": "ピッチ表示"
+    },
+    "osdDescElementCurrentDraw": {
+        "message": "瞬間電流量"
+    },
+    "osdDescElementMahDrawn": {
+        "message": "使用バッテリーの総容量"
+    },
     "osdDescElementCraftName": {
         "message": "「設定」タブで設定した機体名"
+    },
+    "osdDescElementAltitude": {
+        "message": "現在の高度 (アラーム値を超えると点滅)"
+    },
+    "osdDescElementOnTime": {
+        "message": "電源投入からの経過時間"
+    },
+    "osdDescElementFlyTime": {
+        "message": "アーム後の経過時間 (アラーム値を超えると点滅)"
+    },
+    "osdDescElementFlyMode": {
+        "message": "現在のフライト モード"
     },
     "osdDescElementGPSSpeed": {
         "message": "GPSによる速度"
@@ -2972,6 +3032,18 @@
     },
     "osdDescElementGPSLat": {
         "message": "GPS緯度"
+    },
+    "osdDescElementDebug": {
+        "message": "デバッグ変数"
+    },
+    "osdDescElementPIDRoll": {
+        "message": "ロール軸 PID ゲイン"
+    },
+    "osdDescElementPIDPitch": {
+        "message": "ピッチ軸 PID ゲイン"
+    },
+    "osdDescElementPIDYaw": {
+        "message": "ヨー軸 PID ゲイン"
     },
     "osdDescElementPower": {
         "message": "瞬間電力消費量"
@@ -3023,6 +3095,9 @@
     },
     "osdDescElementNumericalVario": {
         "message": "垂直スピード値 (設定に基づいたフィートまたはメートル表示)"
+    },
+    "osdDescElementCompassBar": {
+        "message": "現在のヘッディングを示すグラフィカルなコンパスバー"
     },
     "osdDescElementTimer1": {
         "message": "タイマー1の値を表示"
