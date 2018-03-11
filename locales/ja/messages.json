@@ -48,7 +48,7 @@
         "message": "初期値"
     },
     "sensorDataFlashNotFound": {
-        "message": "データ書き込みできません。<br>チップを確認しました。",
+        "message": "データ書込みできません<br>チップを確認しました",
         "description": "Text of the dataflash image in the header of the page."
     },
     "sensorDataFlashFreeSpace": {
@@ -506,13 +506,13 @@
         "message": "<span class=\"message-negative\">バックアップと復元の機能が無効です。<\/span>ファームウェアのAPIバージョンは<span class=\"message-negative\">$1<\/span>ですが、バックアップと復元には<span class=\"message-positive\">$2<\/span>が必要です。バックアップにはCLIをお使いください。方法についてはBetaflightドキュメントを参照してください。"
     },
     "initialSetupButtonCalibrateAccel": {
-        "message": "加速度センサーをキャリブレーションします。"
+        "message": "加速度センサー キャリブレーション"
     },
     "initialSetupCalibrateAccelText": {
-        "message": "<strong>水平な台<\/strong>の上にフレームを置き、キャリブレーションを実行してください。キャリブレーションが終了するまで動かさないように気をつけてください。"
+        "message": "<strong>水平な場所<\/strong>に機体を置き、キャリブレーションを実行してください。キャリブレーションが終了するまで動かさないでください。"
     },
     "initialSetupButtonCalibrateMag": {
-        "message": "コンパスをキャリブレーションします。"
+        "message": "コンパス キャリブレーション"
     },
     "initialSetupCalibrateMagText": {
         "message": "マルチローター機を最低でも<strong>360度<\/strong>、全ての軸にて回転させてください。これを行うのに30秒かかります。"
@@ -533,7 +533,7 @@
         "message": "リストア"
     },
     "initialSetupBackupRestoreText": {
-        "message": "不測の事態に備え必ず設定の<strong>バックアップ<\/strong>を行ってください。<strong>CLI<\/strong>設定は<span class=\"message-negative\">自動バックアップは含まれません。<\/span> -「dump」CLIコマンドを参照してください。"
+        "message": "不測の事態に備え必ず設定の<strong>バックアップ<\/strong>をしてください。<strong>CLI<\/strong>設定は<span class=\"message-negative\">自動バックアップされません<\/span>。 - [dump] コマンドを参照してください。"
     },
     "initialSetupBackupSuccess": {
         "message": "バックアップが<span class=\"message-positive\">正常<\/span>に保存されました"
