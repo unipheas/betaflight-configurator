@@ -575,7 +575,7 @@
         "message": "セル電圧の最大値:"
     },
     "initialSetupVoltageScale": {
-        "message": "電圧のスケール値:"
+        "message": "電圧スケール値:"
     },
     "initialSetupAccelTrimsHead": {
         "message": "加速度センサートリム"
