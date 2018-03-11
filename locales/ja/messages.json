@@ -1643,7 +1643,22 @@
         "message": "GPS"
     },
     "gpsMapHead": {
-        "message": "GPSでの現在の場所"
+        "message": "現在のGPS位置"
+    },
+    "gpsMapMessage1": {
+        "message": "インターネット接続を確認してください"
+    },
+    "gpsMapMessage2": {
+        "message": "GPS 3次元測位を取得中..."
+    },
+    "gps3dFix": {
+        "message": "3次元測位"
+    },
+    "gpsFixTrue": {
+        "message": "<span class=\"text\">True<\/span>"
+    },
+    "gpsFixFalse": {
+        "message": "<span class=\"text\">False<\/span>"
     },
     "cliInputPlaceholder": {
         "message": "こちらにコマンドを書いてください"
