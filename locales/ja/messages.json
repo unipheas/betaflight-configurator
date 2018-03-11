@@ -1291,11 +1291,95 @@
     "pidTuningEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
     },
+    "receiverHelp": {
+        "message": "ドキュメントの「受信機」の章をお読みください。 シリアルポート(必要な場合)、受信機モード(シリアル \/ ppm \/  PWM)、プロバイダ(シリアル受信機の場合)、受信機のバインド、チャンネルマップの設定、送信機のチャンネルエンドポイント \/ 送信機の全てのチャンネルの1000～2000までのレンジ設定を確認、設定してください。また中央値(デフォルト 1500)、トリムチャンネル 1500とし、スティックのデッドバンドを設定し、送信機がオフまたは範囲外のときの動作を確認します。<br \/><span class=\"message-negative\">重要:<\/span> 飛行する前に、ドキュメントの「フェールセーフ」の章をお読みになり、フェイルセーフを設定してください。"
+    },
+    "tuningHelp": {
+        "message": "<b>チューニングTips<\/b><br \/><span class=\"message-negative\">重要:<\/span> 最初のフライト中はモーターの温度を確認することが重要です。フィルター値が高くなるほど飛行が軽快となりますが、モーターにはより多くのノイズが発生します。 <br>100Hzのデフォルト値が最適ですが、ノイズ設定ではD値フィルターを50Hzに、またははジャイロフィルターを下げてみてください。"
+    },
+    "receiverThrottleMid": {
+        "message": "スロットル MID"
+    },
+    "receiverThrottleExpo": {
+        "message": "スロットル EXPO"
+    },
+    "receiverStickMin": {
+        "message": "「スティック・ロー」しきい値"
+    },
     "receiverHelpStickMin": {
         "message": "スティックがコマンド入力の下 \/ 左として認識される (自身の) 最大値。(MIN_CHECK)"
     },
+    "receiverStickCenter": {
+        "message": "スティック中央"
+    },
+    "receiverHelpStickCenter": {
+        "message": "スティックが中央にあるかどうかを判断するために使用される (自身の) 値 (MID_RC)。"
+    },
+    "receiverStickMax": {
+        "message": "「スティック・ハイ」しきい値"
+    },
     "receiverHelpStickMax": {
         "message": "スティックがコマンド入力の 上 \/ 右 として認識される (自身の) 最小値。(MAX_CHECK)"
+    },
+    "receiverDeadband": {
+        "message": "RC デッドバンド"
+    },
+    "receiverHelpDeadband": {
+        "message": "この値は、設定値とRC入力がどのくらい差異を許容するかの (自身の) 値です。出力ジッタがある送信機の場合、RC入力がアイドル状態で揺らぎがある場合、この値を大きくしていきます。"
+    },
+    "receiverYawDeadband": {
+        "message": "Yaw デッドバンド"
+    },
+    "receiverHelpYawDeadband": {
+        "message": "この値は、設定値とRC入力がどのくらい差異を許容するかの (自身の) 値です。出力ジッタがある送信機の場合、RC入力がアイドル状態で揺らぎがある場合、この値を大きくしていきます。<strong>この設定はヨー専用です。<\/strong>"
+    },
+    "recevier3dDeadbandThrottle": {
+        "message": "3D スロットルデッドバンド"
+    },
+    "receiverHelp3dDeadbandThrottle": {
+        "message": "この (自身の) 値ですが、ニュートラル範囲を広げる場合には値を増加させます。 <strong>この設定は3Dスロットル専用です。<\/strong>"
+    },
+    "receiverChannelMap": {
+        "message": "チャンネルマップ"
+    },
+    "receiverChannelDefaultOption": {
+        "message": "初期値"
+    },
+    "receiverChannelMapTitle": {
+        "message": "ボックスの中をクリックする事で、独自のチャンネルマップを定義できます"
+    },
+    "receiverRssiChannel": {
+        "message": "RSSI チャンネル"
+    },
+    "receiverRssiChannelDisabledOption": {
+        "message": "無効"
+    },
+    "receiverRefreshRateTitle": {
+        "message": "グラフの更新頻度"
+    },
+    "receiverButtonSave": {
+        "message": "保存"
+    },
+    "receiverButtonRefresh": {
+        "message": "更新"
+    },
+    "receiverButtonSticks": {
+        "message": "コントロール スティック"
+    },
+    "receiverDataRefreshed": {
+        "message": "RCチューニングデータ <strong>更新<\/strong>"
+    },
+    "receiverEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
+    },
+    "receiverModelPreview": {
+        "message": "プレビュー"
+    },
+    "receiverMspWarningText": {
+        "message": "これらのスティックは、送信機または受信機が存在しない状態でBetaflightにてアームし、テストすることができます。ただし、<strong>この機能を利用する際は飛行目的ではないため、プロペラを取り付けないでください。<\/strong><br><br>この機能は、機体の信頼性の高い制御を保証致しません。<strong>プロペラをそのまま外さず放置すると重傷を負う可能性があります。<\/strong>"
+    },
+    "receiverMspEnableButton": {
+        "message": "コントロール有効"
     },
     "transponderNotSupported": {
         "message": "このフライトコントローラのファームウェアは、トランスポンダ機能をサポートしていません。"
