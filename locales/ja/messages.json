@@ -2141,7 +2141,13 @@
         "message": "このファイルに対する<span class=\"message-negative\">書き込み権限<\/span>がありません"
     },
     "firmwareFlasherFlashTrigger": {
-        "message": "検出: <strong>$1<\/strong> - 接続時フラッシュをトリガーとする"
+        "message": "検出: <strong>$1<\/strong> - 接続時フラッシュをトリガーとします"
+    },
+    "firmwareFlasherPreviousDevice": {
+        "message": "検出: <strong>$1<\/strong> - 以前のデバイスがまだ書き込まれています。再接続してもう一度お試しください。"
+    },
+    "ledStripHelp": {
+        "message": "フライトコントローラは、個々のLEDストリップの色や効果を制御できます。<br\/>グリッド上にLEDを配置、配線順序を設定し、グリッド位置に従って機体にLEDを取り付けます。 ワイヤーオーダー番号のないLEDは保存されません。<br \/>HSV値を編集するには、色を選択、ダブルクリックします。"
     },
     "osdSetupUnsupportedNote1": {
         "message": "お使いのフライトコントローラはBetaFlight OSDに対応していないようです。"
