@@ -1186,11 +1186,110 @@
     "pidTuningDtermSetpointHelp": {
         "message": "このパラメータは、派生したスティック加速効果を決定します。<br> 0の値はD値がジャイロのみを追跡した古い測定方式、1の値はジャイロとスティックトラッキングレシオを追跡した古いエラー検出方式と同じです。<br>低い値は、ゆっくり \/ スムースなスティックレスポンスに、高い値はスティック加速レスポンスとなります。<br>RC補間は、制御キックバックノイズを発生しないよう高めの値にすることを推奨します。"
     },
+    "pidTuningProportional": {
+        "message": "比例"
+    },
+    "pidTuningIntegral": {
+        "message": "積分"
+    },
+    "pidTuningDerivative": {
+        "message": "派生"
+    },
+    "pidTuningRcRate": {
+        "message": "RCレート"
+    },
+    "pidTuningMaxVel": {
+        "message": "最大速度 [deg\/s]"
+    },
+    "pidTuningRate": {
+        "message": "レート"
+    },
+    "pidTuningSuperRate": {
+        "message": "Super レート"
+    },
+    "pidTuningRatesPreview": {
+        "message": "レート設定のプレビュー"
+    },
+    "pidTuningRcExpo": {
+        "message": "RC EXPO"
+    },
+    "pidTuningTPA": {
+        "message": "TPA"
+    },
+    "pidTuningTPABreakPoint": {
+        "message": "TPA 区切り点"
+    },
+    "pidTuningFilter": {
+        "message": "フィルター"
+    },
+    "pidTuningFilterFrequency": {
+        "message": "周波数"
+    },
+    "pidTuningRatesCurve": {
+        "message": "レート"
+    },
+    "throttle": {
+        "message": "スロットル"
+    },
+    "pidTuningButtonSave": {
+        "message": "保存"
+    },
+    "pidTuningButtonRefresh": {
+        "message": "更新"
+    },
+    "pidTuningProfileHead": {
+        "message": "プロファイル"
+    },
+    "pidTuningControllerHead": {
+        "message": "PID コントローラ"
+    },
+    "pidTuningCopyProfile": {
+        "message": "プロファイルをコピー"
+    },
+    "pidTuningCopyRateProfile": {
+        "message": "レートプロファイルをコピー"
+    },
+    "dialogCopyProfileText": {
+        "message": "現在のプロファイルをコピー"
+    },
+    "dialogCopyRateProfileText": {
+        "message": "現在のレートプロファイルをコピー"
+    },
+    "dialogCopyProfileTitle": {
+        "message": "プロファイルをコピー"
+    },
+    "dialogCopyProfileNote": {
+        "message": "出力先のプロファイル値は全て消去され、上書きされます"
+    },
+    "dialogCopyProfileConfirm": {
+        "message": "コピー"
+    },
+    "dialogCopyProfileClose": {
+        "message": "キャンセル"
+    },
+    "pidTuningResetProfile": {
+        "message": "すべてのプロファイルをリセット"
+    },
+    "pidTuningProfileReset": {
+        "message": "ロードされたデフォルトプロファイル"
+    },
     "pidTuningReceivedProfile": {
         "message": "プロファイルをセット:<strong class=\"message-positive\">$1<\/strong>"
     },
     "pidTuningReceivedRateProfile": {
         "message": "レートプロファイルをセット:<strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningLoadedProfile": {
+        "message": "プロファイルの読み出し:<strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningLoadedRateProfile": {
+        "message": "レートプロファイルの読み出し:<strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningDataRefreshed": {
+        "message": "PIDデータ <strong>リフレッシュ<\/strong>"
+    },
+    "pidTuningEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
     },
     "receiverHelpStickMin": {
         "message": "スティックがコマンド入力の下 \/ 左として認識される (自身の) 最大値。(MIN_CHECK)"
