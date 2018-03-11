@@ -988,8 +988,23 @@
     "configurationLoopTime": {
         "message": "フライトコントローラ ループタイム"
     },
+    "configurationCalculatedCyclesSec": {
+        "message": "サイクル \/ 秒 [Hz]"
+    },
     "configurationLoopTimeHelp": {
         "message": "<strong>注:<\/strong>FCがこの速度で動作するか確認してください！CPUとサイクル時間の安定度を確認してください。この変更はPIDの再調整を必要とするかもしれません。TIP: パフォーマンスを上げるためには加速度センサーや他のセンサーを無効にします。"
+    },
+    "configurationGPS": {
+        "message": "GPS"
+    },
+    "configurationGPSProtocol": {
+        "message": "プロトコル"
+    },
+    "configurationGPSBaudrate": {
+        "message": "通信速度"
+    },
+    "configurationGPSHelp": {
+        "message": "<strong>注:<\/strong> GPS機能を使う場合は (「ポート」タブより) シリアルポートの設定を忘れずに行ってください。"
     },
     "portsSensorIn": {
         "message": "センサー入力"
@@ -1003,14 +1018,56 @@
     "portsFunction_TELEMETRY_LTM": {
         "message": "LTM"
     },
+    "pidTuningReceivedProfile": {
+        "message": "プロファイルをセット:<strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningReceivedRateProfile": {
+        "message": "レートプロファイルをセット:<strong class=\"message-positive\">$1<\/strong>"
+    },
     "receiverHelpStickMin": {
         "message": "スティックがコマンド入力の下 \/ 左として認識される (自身の) 最大値。(MIN_CHECK)"
     },
     "receiverHelpStickMax": {
         "message": "スティックがコマンド入力の 上 \/ 右 として認識される (自身の) 最小値。(MAX_CHECK)"
     },
+    "transponderNotSupported": {
+        "message": "このフライトコントローラのファームウェアは、トランスポンダ機能をサポートしていません。"
+    },
     "cliInputPlaceholder": {
         "message": "こちらにコマンドを書いてください"
+    },
+    "blackboxNotSupported": {
+        "message": "このフライトコントローラのファームウェアは、Blackboxによるログをサポートしていません。"
+    },
+    "blackboxMaybeSupported": {
+        "message": "このフライトコントローラのファームウェアは古すぎるか、あるいは「設定」タブでブラックボックス機能が無効になっているため、このタブは使えません。"
+    },
+    "sdcardNote": {
+        "message": "飛行ログはフライトコントローラのオンボードSDスロットで保存できます。"
+    },
+    "dataflashNote": {
+        "message": "飛行ログはフライトコントローラのオンボードメモリに保存できます。"
+    },
+    "dataflashNotPresentNote": {
+        "message": "このフライトコントローラには使用可能なメモリが付いていません"
+    },
+    "firmwareFlasherManualBaud": {
+        "message": "手動の通信速度"
+    },
+    "firmwareFlasherManualBaudDescription": {
+        "message": "シリアル接続に対し、デフォルトの伝送速度をサポートしていないFCボード、またはBluetooth経由で書き込みするFCボードの伝送速度の手動選択。<br \/><span class=\"message-negative\">注:<\/span> USB DFUで書き込みさせる場合は使用しません。"
+    },
+    "firmwareFlasherBaudRate": {
+        "message": "通信速度:"
+    },
+    "firmwareFlasherRecoveryText": {
+        "message": "FCボードとの通信が切断された場合は、次の手順に従って通信を復元してください: <ul><li>電源をオフします。<\/li><li>「再起動シーケンスなし」を有効にし「全消去」を有効にします。<\/li><li>BOOTピンをジャンパーするか、またはBOOTボタンを押し続けます。<\/li><li>電源をオンします。 (正しく行われればアクティビティLEDは点滅しません) <\/li><li>必要に応じて、すべてのSTM32ドライバとZadigをインストールします。 (Betaflightマニュアルの「<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a>」章を参照) <\/li><li>コンフィギュレーターを閉じ、すべてのChromeアプリケーションを終了し、コンフィギュレーターを再起動します。<\/li><li>FCのBOOTボタン1つだけであれば、BOOTボタンを放してください。<\/li><li>正常なファームウェアをフラッシュしてください。 (FCのマニュアルで指定されている場合は手動で伝送速度を調整してください) <\/li><li>電源をオフします。<\/li><li>BOOTジャンパーを取り外します。<\/li><li>電源をオンします。 (アクティビティLEDが点滅するはずです) <\/li><li>通常に接続してください。<\/li><\/ul>"
+    },
+    "osdSetupUnsupportedNote1": {
+        "message": "お使いのフライトコントローラはBetaFlight OSDに対応していないようです。"
+    },
+    "osdSetupUnsupportedNote2": {
+        "message": "いくつかのフライトコントローラにはオンボード<a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a>があり、これを<a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>で設定および書き込みができますが、MinimOSDはこのインターフェイスでは設定できません。"
     },
     "osdSetupElementsTitle": {
         "message": "構成要素"
@@ -1363,8 +1420,14 @@
     "pidTuningProfile": {
         "message": "プロファイル"
     },
+    "pidTuningProfileTip": {
+        "message": "最大3つ (一部のコントローラでは2つ) の異なるPIDプロファイルをフライトコントローラに保存できます。PIDプロファイルには、このタブ内にあるPID、D値セットポイント、アングル \/ ホライゾンの設定が含まれます。飛行場等にいる場合、簡単なスティックコマンド (オンラインマニュアルを参照) を使用して、プロファイルを切り替えることができます。"
+    },
     "pidTuningRateProfile": {
         "message": "レートプロファイル"
+    },
+    "pidTuningRateProfileTip": {
+        "message": "1つのプロファイルにつき最大3つの異なるレートプロファイルをフライトコントローラに保存することができます。レートプロファイルには、「RCレート」、「レート」、「RC EXPO」、「スロットル」、および「TPA」の設定が含まれます。 「調整」タブの「レートプロファイル選択」の3つのポジションスイッチを設定することで、レートプロファイルの切り替えが可能です。"
     },
     "pidTuningDelta": {
         "message": "派生方式"
