@@ -818,7 +818,7 @@
         "message": "<strong>注:<\/strong> 機能のすべての組み合わせが有効な訳ではありません。 フライトコントローラファームウェアが無効な機能の組み合わせを検出すると、競合する機能が無効になります。<br \/><strong>注:<\/strong> ポートを使用する機能を<span class=\"message-negative\">有効にする前に<\/span>シリアルポートを設定してください。"
     },
     "configurationSerialRXHelp": {
-        "message": "<strong>注:<\/strong> RX_SERIALを使用する場合、シリアルポート ( [ポート] タブ内) を設定し、シリアル受信プロバイダを忘れず選択ください。"
+        "message": "<strong>注:<\/strong> RX_SERIALを使う場合、シリアルポート ( [ポート] タブ) を設定し、シリアル受信プロバイダを忘れず選択ください。"
     },
     "configurationSpiRxHelp": {
         "message": "<strong>注:<\/strong> SPI受信プロバイダは、必要なハードウェアが搭載されているかSPIバスに接続されている場合にのみ動作します。"
@@ -878,7 +878,7 @@
         "message": "設定後にモーターをディスアーム [seconds] (MOTOR_STOP機能必須)"
     },
     "configurationDisarmKillSwitch": {
-        "message": "スロットル値に関係なくモーターをディスアーム (ARMが[モード]タブのAUXチャンネルで設定されている場合)"
+        "message": "スロットル値に関係なくモーターをディスアーム (ARMが [モード] タブのAUXチャンネルで設定されている場合)"
     },
     "configurationDisarmKillSwitchHelp": {
         "message": "スロットルが低位置でない場合、アーミングは常に無効となります。 飛行中にオプション有効スイッチを、誤って解除する可能性がありますので注意してください。"
@@ -992,7 +992,7 @@
         "message": "サイクル \/ 秒 [Hz]"
     },
     "configurationLoopTimeHelp": {
-        "message": "<strong>注:<\/strong>FCがこの速度で動作するか確認してください！CPUとサイクル時間の安定度を確認してください。この変更はPIDの再調整を必要とするかもしれません。TIP: パフォーマンスを上げるためには加速度センサーや他のセンサーを無効にします。"
+        "message": "<strong>注:<\/strong> FCがこの速度で動作するか確認してください！CPUとサイクル時間の安定度を確認ください。この変更はPID再調整を必要とするかもしれません。TIP: パフォーマンスを上げるためには加速度センサーや他のセンサーを無効にします。"
     },
     "configurationGPS": {
         "message": "GPS"
@@ -1013,7 +1013,7 @@
         "message": "自動設定"
     },
     "configurationGPSHelp": {
-        "message": "<strong>注:<\/strong> GPS機能を使う場合は (「ポート」タブより) シリアルポートの設定を忘れずに行ってください。"
+        "message": "<strong>注:<\/strong> GPSを使う場合、シリアルポート ( [ポート] タブ) の設定を忘れずに行ってください。"
     },
     "configurationSerialRX": {
         "message": "シリアル受信プロバイダ"
@@ -1811,7 +1811,7 @@
         "message": "デバッグ"
     },
     "cliInfo": {
-        "message": "<strong>注:<\/strong> 「CLI」タブから他へ切り替える、又は切断した場合はFCボードに<strong>自動的に<\/strong>\"<strong>EXIT 終了<\/strong>\"が送られます。最新のファームウェアではコントローラを<span class=\"message-negative\">再起動<\/span>させ 、未保存の変更は<span class=\"message-negative\">失われます<\/span>。"
+        "message": "<strong>注:<\/strong> [CLI] タブから他へ切り替える、又は切断した場合はFCボードに<strong>自動的に<\/strong><strong>EXIT<\/strong>が送られます。最新のファームウェアではコントローラを<span class=\"message-negative\">再起動<\/span>させ 、未保存の変更は<span class=\"message-negative\">失われます<\/span>。"
     },
     "cliInputPlaceholder": {
         "message": "こちらにコマンドを書いてください"
@@ -1862,7 +1862,7 @@
         "message": "このフライトコントローラのファームウェアは、Blackboxによるログをサポートしていません。"
     },
     "blackboxMaybeSupported": {
-        "message": "このフライトコントローラのファームウェアは古すぎるか、あるいは「設定」タブでブラックボックス機能が無効になっているため、このタブは使えません。"
+        "message": "このフライトコントローラのファームウェアは古すぎるか、あるいは [設定] タブでブラックボックス機能が無効になっているため、このタブは使えません。"
     },
     "blackboxConfiguration": {
         "message": "ブラックボックスの設定"
@@ -1883,7 +1883,7 @@
         "message": "シリアルポート"
     },
     "serialLoggingSupportedNote": {
-        "message": "飛行ログは外部の保存デバイス (OpenLog，もしくは互換品) にシリアルポートを使って保存できます。「ポート」タブでの設定が必要です。"
+        "message": "飛行ログは外部の保存デバイス (OpenLog，もしくは互換品) にシリアルポートを使って保存できます。[ポート] タブでの設定が必要です。"
     },
     "sdcardNote": {
         "message": "飛行ログはフライトコントローラのオンボードSDスロットで保存できます。"
@@ -2650,10 +2650,10 @@
         "message": "落下"
     },
     "failsafeKillSwitchItem": {
-        "message": "フェイルセーフ キルスイッチ (「モード」タブでフェイルセーフを設定)"
+        "message": "フェイルセーフ キルスイッチ ( [モード] タブでフェイルセーフを設定)"
     },
     "failsafeKillSwitchHelp": {
-        "message": "このオプションを設定すると、フェイルセーフスイッチ (「モード」タブ内) で選択されたフェイルセーフの手順をバイパスしてダイレクトにキルスイッチとして機能します。 <strong>注:<\/strong> フェイルセーフ キルスイッチがオン状態では、アーミングはブロックされます。"
+        "message": "このオプションを設定すると、フェイルセーフスイッチ ( [モード] タブ内) で選択されたフェイルセーフの手順をバイパスしてダイレクトにキルスイッチとして機能します。 <strong>注:<\/strong> フェイルセーフ キルスイッチがオン状態では、アーミングはブロックされます。"
     },
     "powerButtonSave": {
         "message": "保存"
@@ -3007,7 +3007,7 @@
         "message": "使用バッテリーの総容量"
     },
     "osdDescElementCraftName": {
-        "message": "「設定」タブで設定した機体名"
+        "message": "[設定] タブで設定した機体名"
     },
     "osdDescElementAltitude": {
         "message": "現在の高度 (アラーム値を超えると点滅)"
@@ -3319,7 +3319,7 @@
         "message": "レートプロファイル"
     },
     "pidTuningRateProfileTip": {
-        "message": "1つのプロファイルにつき最大3つの異なるレートプロファイルをフライトコントローラに保存することができます。レートプロファイルには、「RCレート」、「レート」、「RC Expo」、「スロットル」、および「TPA」の設定が含まれます。 「調整」タブの「レートプロファイル選択」の3つのポジションスイッチを設定することで、レートプロファイルの切り替えが可能です。"
+        "message": "1つのプロファイルにつき最大3つの異なるレートプロファイルをフライトコントローラに保存することができます。レートプロファイルには、RCレート、レート、RC Expo、スロットル、およびTPAの設定が含まれます。 [調整] タブの [レートプロファイル選択] の3つのポジションスイッチを設定することで、レートプロファイルの切り替えが可能です。"
     },
     "pidTuningDelta": {
         "message": "デリバティブ方式 派生方式"
