@@ -1006,17 +1006,53 @@
     "configurationGPSAutoBaud": {
         "message": "自動伝送速度設定"
     },
+    "configurationGPSAutoConfig": {
+        "message": "自動設定"
+    },
     "configurationGPSHelp": {
         "message": "<strong>注:<\/strong> GPS機能を使う場合は (「ポート」タブより) シリアルポートの設定を忘れずに行ってください。"
     },
+    "configurationSerialRX": {
+        "message": "シリアル受信プロバイダ"
+    },
+    "configurationSpiRX": {
+        "message": "SPIバス受信プロバイダ"
+    },
+    "configurationEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
+    },
+    "configurationButtonSave": {
+        "message": "保存して再起動"
+    },
+    "portsIdentifier": {
+        "message": "識別子"
+    },
     "portsConfiguration": {
         "message": "設定 \/ MSP"
+    },
+    "portsSerialRx": {
+        "message": "シリアル受信"
     },
     "portsSensorIn": {
         "message": "センサー入力"
     },
     "portsTelemetryOut": {
         "message": "テレメトリー出力"
+    },
+    "portsPeripherals": {
+        "message": "周辺機器"
+    },
+    "portsHelp": {
+        "message": "<strong>注:<\/strong> すべての組み合わせが有効であるとは限りません。 フライト コント ローラのファームウェアはこれを検出し、シリアル ポートの設定がリセットされます。"
+    },
+    "portsMSPHelp": {
+        "message": "<strong>注意:<\/strong>確実に設定内容を把握していない限り、最初のシリアルポートでMSPを<span class=\"message-negative\">無効にしないように<\/span>してください。行った場合、ファームウェアの再フラッシュが必要になり、全ての設定が消去される可能性があります。"
+    },
+    "portsFirmwareUpgradeRequired": {
+        "message": "ファームウェアの更新が<span class=\"message-negative\">必要です<\/span>。シリアルポートによる設定はファームウェア &lt; 1.8.0 ではサポートされていません。"
+    },
+    "portsButtonSave": {
+        "message": "保存して再起動"
     },
     "portsFunction_TELEMETRY_HOTT": {
         "message": "HoTT"
@@ -1041,6 +1077,9 @@
     },
     "cliInputPlaceholder": {
         "message": "こちらにコマンドを書いてください"
+    },
+    "loggingNote": {
+        "message": "ログデータは<span class=\"message-negative\">このタブを表示している間のみ<\/span>保存されます。このタブから離れると<span class=\"message-negative\">ログが停止<\/span>して、通常の<strong>Configurator<\/strong>の状態に戻ります。<br \/>全体の更新期間を自由に選択できます。パフォーマンス上の理由から、<strong>1秒<\/strong>ごとにログファイルにデータが書き込まれます。"
     },
     "blackboxNotSupported": {
         "message": "このフライトコントローラのファームウェアは、Blackboxによるログをサポートしていません。"
@@ -1161,6 +1200,9 @@
     },
     "osdDescElementRssiValue": {
         "message": "瞬間RSSI値 (アラームしきい値以下の場合は点滅)"
+    },
+    "osdDescElementCraftName": {
+        "message": "「設定」タブで設定した機体名"
     },
     "osdDescElementPower": {
         "message": "瞬間電力消費量"
