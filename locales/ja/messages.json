@@ -434,7 +434,7 @@
         "message": "ハードウェア"
     },
     "defaultWelcomeText": {
-        "message": "このアプリケーションは、Betaflightを実行できるすべてのハードウェアをサポートしています。対応するハードウェアの完全なリストについては、[書換え] タブを確認して下さい。<br><br><a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\">Betaflight ブラックボックスをダウンロード<\/a><br \/><br \/>ファームウェアのソースコードは<a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/>最新のバイナリファームウェアイメージは<a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/><br \/>最新の<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210xドライバ<\/a>は<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">こちら<\/a><br \/>最新の<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCPドライバ<\/a>は<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">こちら<\/a><br \/>最新のWindows用<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> USBドライバのインストーラは<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">こちら<\/a><br \/>"
+        "message": "このアプリケーションは、Betaflightを実行できるすべてのハードウェアをサポートしています。対応するハードウェアの完全なリストについては、[ファームフラッシャー] タブを確認して下さい。<br><br><a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\">Betaflight ブラックボックスをダウンロード<\/a><br \/><br \/>ファームウェアのソースコードは<a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/>最新のバイナリファームウェアイメージは<a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/><br \/>最新の<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210xドライバ<\/a>は<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">こちら<\/a><br \/>最新の<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCPドライバ<\/a>は<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">こちら<\/a><br \/>最新のWindows用<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> USBドライバのインストーラは<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">こちら<\/a><br \/>"
     },
     "defaultContributingHead": {
         "message": "開発への協力・貢献"
@@ -1811,7 +1811,7 @@
         "message": "デバッグ"
     },
     "cliInfo": {
-        "message": "<strong>注:<\/strong> [CLI] タブから他へ切り替える、又は切断した場合はFCボードに<strong>自動的に<\/strong><strong>EXIT<\/strong>が送られます。最新のファームウェアではコントローラを<span class=\"message-negative\">再起動<\/span>させ 、未保存の変更は<span class=\"message-negative\">失われます<\/span>。"
+        "message": "<strong>注:<\/strong> [CLI] タブから他へ切り替える、又は切断した場合はFCボードに<strong>自動的に<\/strong><strong>EXIT<\/strong>が送られます。最新のファームウェアではコントローラを<span class=\"message-negative\">再起動<\/span>させ 、未保存の変更は<span class=\"message-negative\">失われます<\/span>のでご注意下さい。"
     },
     "cliInputPlaceholder": {
         "message": "こちらにコマンドを書いて下さい"
@@ -1826,7 +1826,7 @@
         "message": "ファイルへ保存"
     },
     "loggingNote": {
-        "message": "ログデータは<span class=\"message-negative\">このタブを表示している間のみ<\/span>保存されます。このタブから離れると<span class=\"message-negative\">ログが停止<\/span>して、通常の<strong>Configurator<\/strong>の状態に戻ります。<br \/>全体の更新期間を自由に選択できます。パフォーマンス上の理由から、<strong>1秒<\/strong>ごとにログファイルにデータが書き込まれます。"
+        "message": "ログデータは<span class=\"message-negative\">このタブを表示している間のみ<\/span>保存されます。このタブから他へ切り替えると<span class=\"message-negative\">ログが停止<\/span>して、通常の<strong>Configurator<\/strong>の状態に戻ります。<br \/>全体の更新期間を自由に選択できます。パフォーマンス上の理由から、<strong>1秒<\/strong>ごとにログファイルにデータが書き込まれます。"
     },
     "loggingSamplesSaved": {
         "message": "サンプル保存:"
