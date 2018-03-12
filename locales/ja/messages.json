@@ -1418,7 +1418,7 @@
         "message": "もし有効ならば"
     },
     "adjustmentsColumnUsingSlot": {
-        "message": "使用するスロット"
+        "message": "使用スロット"
     },
     "adjustmentsColumnWhenChannel": {
         "message": "チャンネル"
@@ -1430,7 +1430,7 @@
         "message": "適用する"
     },
     "adjustmentsColumnViaChannel": {
-        "message": "チャンネル経由"
+        "message": "チャンネル"
     },
     "adjustmentsSlot0": {
         "message": "スロット1"
@@ -1454,73 +1454,73 @@
         "message": "変更しない"
     },
     "adjustmentsFunction1": {
-        "message": "RC レート調整"
+        "message": "RCレート調整"
     },
     "adjustmentsFunction2": {
         "message": "RC Expo調整"
     },
     "adjustmentsFunction3": {
-        "message": "スロットル Expo 調整"
+        "message": "スロットルExpo調整"
     },
     "adjustmentsFunction4": {
-        "message": "ピッチ・ロール レート調整"
+        "message": "ピッチ・ロールレート調整"
     },
     "adjustmentsFunction5": {
-        "message": "ヨーレート 調整"
+        "message": "ヨーレート調整"
     },
     "adjustmentsFunction6": {
-        "message": "ピッチ・ロール P値 調整"
+        "message": "ピッチ・ロール P 調整"
     },
     "adjustmentsFunction7": {
-        "message": "ピッチ・ロール I値 調整"
+        "message": "ピッチ・ロール I 調整"
     },
     "adjustmentsFunction8": {
-        "message": "ピッチ・ロール D値 調整"
+        "message": "ピッチ・ロール D 調整"
     },
     "adjustmentsFunction9": {
-        "message": "ヨー P値 調整"
+        "message": "ヨー P 調整"
     },
     "adjustmentsFunction10": {
-        "message": "ヨー I値 調整"
+        "message": "ヨー I 調整"
     },
     "adjustmentsFunction11": {
-        "message": "ヨー D値 調整"
+        "message": "ヨー D 調整"
     },
     "adjustmentsFunction12": {
         "message": "Rateprofile選択"
     },
     "adjustmentsFunction13": {
-        "message": "ピッチ レート"
+        "message": "ピッチレート"
     },
     "adjustmentsFunction14": {
-        "message": "ロール レート"
+        "message": "ロールレート"
     },
     "adjustmentsFunction15": {
-        "message": "ピッチ P値 調整"
+        "message": "ピッチ P 調整"
     },
     "adjustmentsFunction16": {
-        "message": "ピッチ I値 調整"
+        "message": "ピッチ I 調整"
     },
     "adjustmentsFunction17": {
-        "message": "ピッチ D値 調整"
+        "message": "ピッチ D 調整"
     },
     "adjustmentsFunction18": {
-        "message": "ロール P値 調整"
+        "message": "ロール P 調整"
     },
     "adjustmentsFunction19": {
-        "message": "ロール I値 調整"
+        "message": "ロール I 調整"
     },
     "adjustmentsFunction20": {
-        "message": "ロール D値 調整"
+        "message": "ロール D 調整"
     },
     "adjustmentsFunction21": {
-        "message": "RC レート ヨー"
+        "message": "RCレート ヨー"
     },
     "adjustmentsFunction22": {
-        "message": "D値 セットポイント"
+        "message": "D セットポイント"
     },
     "adjustmentsFunction23": {
-        "message": "D値 遷移"
+        "message": "D 遷移"
     },
     "adjustmentsFunction24": {
         "message": "ホライゾン 強度調整"
@@ -1532,13 +1532,13 @@
         "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
     },
     "transponderNotSupported": {
-        "message": "このフライトコントローラのファームウェアは、トランスポンダ機能をサポートしていません。"
+        "message": "このフライトコントローラのファームウェアは、トランスポンダー機能をサポートしていません。"
     },
     "transponderInformation": {
         "message": "トランスポンダーシステムにより、レース主催者は周回の計測をすることができます。トランスポンダーは機体に取り付けられ、機体がタイミングゲートを通過すると、トラックサイドレシーバーがトランスポンダーコードとラップタイムを記録します。 IRベースのトランスポンダーを取り付けるときは、機体からコース側の受信機に向かって外側に向け、光信号が機体、バッテリーストラップ、ケーブル、プロペラなどで遮断されていないことを確認する必要があります。"
     },
     "transponderConfigurationType": {
-        "message": "トランスポンダーの種類"
+        "message": "トランスポンダー種類"
     },
     "transponderType0": {
         "message": "なし"
@@ -1553,13 +1553,13 @@
         "message": "ERLT"
     },
     "transponderConfiguration1": {
-        "message": "iLap 設定"
+        "message": "iLap設定"
     },
     "transponderConfiguration2": {
-        "message": "aRCiTimer 設定"
+        "message": "aRCiTimer設定"
     },
     "transponderConfiguration3": {
-        "message": "ERLT 設定"
+        "message": "ERLT設定"
     },
     "transponderData1": {
         "message": "データ"
@@ -1574,7 +1574,7 @@
         "message": "16進数 0〜9、A〜F"
     },
     "transponderHelp1": {
-        "message": "ここにトランスポンダーコードを設定します。注意：レースタイミングシステムでは有効なコードのみが認識されます。有効なトランスポンダコードは、 <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a> から入手できます。"
+        "message": "ここにトランスポンダーコードを設定します。注: レースタイミングシステムでは有効なコードのみが認識されます。有効なトランスポンダーコードは、 <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a> から入手できます。"
     },
     "transponderHelp2": {
         "message": "詳細については <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer サイト<\/a> をご覧下さい。"
@@ -1592,7 +1592,7 @@
         "message": "保存して再起動"
     },
     "transponderDataInvalid": {
-        "message": "トランスポンダー データが <span class=\"message-negative\">無効です。<\/span>"
+        "message": "トランスポンダーデータが <span class=\"message-negative\">無効です。<\/span>"
     },
     "transponderEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
@@ -1625,7 +1625,7 @@
         "message": "方向とレート"
     },
     "servosLiveMode": {
-        "message": "Liveモードを有効"
+        "message": "Liveモード有効"
     },
     "servosButtonSave": {
         "message": "保存"
@@ -1643,7 +1643,7 @@
         "message": "GPS"
     },
     "gpsMapHead": {
-        "message": "現在のGPS位置"
+        "message": "現在のGPS測位"
     },
     "gpsMapMessage1": {
         "message": "インターネット接続を確認して下さい"
@@ -1676,7 +1676,7 @@
         "message": "衛星数:"
     },
     "gpsDistToHome": {
-        "message": "ホームポジションまでの距離:"
+        "message": "ホームまでの距離:"
     },
     "gpsSignalStrHead": {
         "message": "GPS強度"
