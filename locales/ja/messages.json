@@ -2015,13 +2015,13 @@
         "message": "再起動シーケンスなし"
     },
     "firmwareFlasherOnlineSelectBoardDescription": {
-        "message": "FCボードを選択すると、利用できるオンラインファームウェアの確認ができます - FCボードに対する適切なファームウェアを選択してください。"
+        "message": "FCボードチップセットを選択すると、利用できるオンラインファームウェアの確認ができます - 適切なファームウェアを選択してください。"
     },
     "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
         "message": "FCボードのファームウェアバージョンを選択してください。"
     },
     "firmwareFlasherNoRebootDescription": {
-        "message": "FCがBOOTモードの場合に有効にします。つまりブートローダのピンをジャンパさせたり、FCのBOOTボタンを押しながらFCの電源を入れた場合に有効にします。"
+        "message": "FCがBOOTモードの場合に有効にします。具体的にはブートローダのピンをジャンパさせたり、BOOTボタンを押しながらFCの電源を入れた場合に有効とします。"
     },
     "firmwareFlasherFlashOnConnect": {
         "message": "接続時に書込み"
