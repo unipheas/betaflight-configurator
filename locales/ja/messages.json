@@ -887,13 +887,13 @@
         "message": "モーターアイドルスロットル値 [percent]"
     },
     "configurationDigitalIdlePercentHelp": {
-        "message": "機体がアームし、スロットルスティックが最小位置にあるときにESCに送信される最大スロットルの [アイドル\n値] です。より安定したアイドリング速度を得るためにパーセント値を増加させてください。"
+        "message": "機体がアームし、スロットルスティックが最小位置にあるときにESCに送信される最大スロットルの [アイドル\n値] です。より安定したアイドリング速度を得るためにパーセント値を増加させて下さい。"
     },
     "configurationThrottleMinimum": {
         "message": "最小スロットル値 (アーム時の最小ESC値)"
     },
     "configurationThrottleMinimumHelp": {
-        "message": "機体がアームし、スロットルスティックが最小位置にあるときにESCに送信される「アイドル」値です。より安定したアイドリング速度を得るために値を増加させてください。また非同期の場合は値を上げてください！"
+        "message": "機体がアームし、スロットルスティックが最小位置にあるときにESCに送信される [アイドル値] です。より安定したアイドリング速度を得るために値を増加させて下さい。また非同期の場合は値を上げて下さい！"
     },
     "configurationThrottleMaximum": {
         "message": "最大スロットル値 (アーム時の最大ESC値)"
@@ -902,7 +902,7 @@
         "message": "最小スティック値 (ディスアーム時のESC値)"
     },
     "configurationThrottleMinimumCommandHelp": {
-        "message": "これは機体がディスアームされたときにESCに送信される値です。 この値をモーターを停止させる値に設定してください。 (ほとんどのESCでは1000)"
+        "message": "これは機体がディスアームされたときにESCに送信される値です。 この値をモーターを停止させる値に設定して下さい。 (殆どのESCは1000)"
     },
     "configurationDshotBeeper": {
         "message": "DSHOTビーコンの設定"
@@ -962,7 +962,7 @@
         "message": "FCボードの電源が入っているときビープ音を鳴らす"
     },
     "beeperUSB": {
-        "message": "フライトコントローラがUSBから給電される際に鳴らすビープ音。作業時にビープ音を鳴らしたくない場合はオフにしてください。"
+        "message": "フライトコントローラがUSBから給電される際に鳴らすビープ音。作業時にビープ音を鳴らしたくない場合はオフにして下さい。"
     },
     "beeperBLACKBOX_ERASE": {
         "message": "ブラックボックスの消去が完了したときのビープ音"
@@ -992,7 +992,7 @@
         "message": "サイクル \/ 秒 [Hz]"
     },
     "configurationLoopTimeHelp": {
-        "message": "<strong>注:<\/strong> FCがこの速度で動作するか確認してください！CPUとサイクル時間の安定度を確認ください。この変更はPID再調整を必要とするかもしれません。TIP: パフォーマンスを上げるためには加速度センサーや他のセンサーを無効にします。"
+        "message": "<strong>注:<\/strong> FCがこの速度で動作するか確認して下さい！CPUとサイクル時間の安定度を確認ください。この変更はPID再調整を必要とするかもしれません。TIP: パフォーマンスを上げるためには加速度センサーや他のセンサーを無効にします。"
     },
     "configurationGPS": {
         "message": "GPS"
@@ -1013,7 +1013,7 @@
         "message": "自動設定"
     },
     "configurationGPSHelp": {
-        "message": "<strong>注:<\/strong> GPSを使う場合、シリアルポート ( [ポート] タブ) の設定を忘れずに行ってください。"
+        "message": "<strong>注:<\/strong> GPSを使う場合、シリアルポート ( [ポート] タブ) の設定を忘れずに行って下さい。"
     },
     "configurationSerialRX": {
         "message": "シリアル受信プロバイダ"
@@ -1049,7 +1049,7 @@
         "message": "<strong>注:<\/strong> すべての組み合わせが有効であるとは限りません。 フライトコント ローラのファームウェアはこれを検出し、シリアル ポートの設定がリセットされます。"
     },
     "portsMSPHelp": {
-        "message": "<strong>注:<\/strong> 確実に設定内容を把握しない限り、最初のシリアルポートでMSPを<span class=\"message-negative\">無効にしないで<\/span>ください。行った場合、ファームウェアの再フラッシュが必要になり、全ての設定が消去される場合があります。"
+        "message": "<strong>注:<\/strong> 確実に設定内容を把握しない限り、最初のシリアルポートでMSPを<span class=\"message-negative\">無効にしないで<\/span>下さい。行った場合、ファームウェアの再フラッシュが必要になり、全ての設定が消去される場合があります。"
     },
     "portsFirmwareUpgradeRequired": {
         "message": "ファームウェアの更新が<span class=\"message-negative\">必要です<\/span>。シリアルポートによる設定はファームウェア &lt; 1.8.0 ではサポートされていません。"
@@ -1292,10 +1292,10 @@
         "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
     },
     "receiverHelp": {
-        "message": "ドキュメントの [受信機] 章をお読みください。 シリアルポート(必要な場合)、受信機モード(シリアル \/ PPM \/  PWM)、プロバイダ(シリアル受信機の場合)、受信機のバインド、チャンネルマップの設定、送信機のチャンネルエンドポイント \/ 送信機の全てのチャンネルの1000～2000までのレンジ設定を確認、設定してください。また中央値(デフォルト 1500)、トリムチャンネル 1500とし、スティックのデッドバンドを設定し、送信機がオフまたは範囲外のときの動作を確認します。<br \/><span class=\"message-negative\">重要:<\/span> 飛行する前に、ドキュメントの [フェールセーフ] 章をお読みになり、フェイルセーフを設定してください。"
+        "message": "ドキュメントの [受信機] 章をお読み下さい。 シリアルポート(必要な場合)、受信機モード(シリアル \/ PPM \/  PWM)、プロバイダ(シリアル受信機の場合)、受信機のバインド、チャンネルマップの設定、送信機のチャンネルエンドポイント \/ 送信機の全てのチャンネルの1000～2000までのレンジ設定を確認、設定して下さい。また中央値(デフォルト 1500)、トリムチャンネル 1500とし、スティックのデッドバンドを設定し、送信機がオフまたは範囲外のときの動作を確認します。<br \/><span class=\"message-negative\">重要:<\/span> 飛行する前に、ドキュメントの [フェールセーフ] 章をお読みになり、フェイルセーフを設定して下さい。"
     },
     "tuningHelp": {
-        "message": "<b>チューニングTips<\/b><br \/><span class=\"message-negative\">重要:<\/span> 最初のフライト中はモーターの温度を確認することが重要です。フィルター値が高くなるほど飛行が軽快となりますが、モーターにはより多くのノイズが発生します。 <br>100Hzのデフォルト値が最適ですが、ノイズ設定ではD値フィルターを50Hzに、またははジャイロフィルターを下げてみてください。"
+        "message": "<b>チューニングTips<\/b><br \/><span class=\"message-negative\">重要:<\/span> 最初のフライト中はモーターの温度を確認することが重要です。フィルター値が高くなるほど飛行が軽快となりますが、モーターにはより多くのノイズが発生します。 <br>100Hzのデフォルト値が最適ですが、ノイズ設定ではD値フィルターを50Hzに、またははジャイロフィルターを下げてみて下さい。"
     },
     "receiverThrottleMid": {
         "message": "スロットル MID"
@@ -1376,13 +1376,13 @@
         "message": "プレビュー"
     },
     "receiverMspWarningText": {
-        "message": "これらのスティックは、送信機または受信機が存在しない状態でBetaflightにてアームし、テストすることができます。ただし、<strong>この機能を利用する際は飛行目的ではないため、プロペラを取り付けないでください。<\/strong><br><br>この機能は、機体の信頼性の高い制御を保証致しません。<strong>プロペラをそのまま外さず放置すると重傷を負う可能性があります。<\/strong>"
+        "message": "これらのスティックは、送信機または受信機が存在しない状態でBetaflightにてアームし、テストすることができます。ただし、<strong>この機能を利用する際は飛行目的ではないため、プロペラを取り付けないで下さい。<\/strong><br><br>この機能は、機体の信頼性の高い制御を保証致しません。<strong>プロペラをそのまま外さず放置すると重傷を負う可能性があります。<\/strong>"
     },
     "receiverMspEnableButton": {
         "message": "コントロール有効"
     },
     "auxiliaryHelp": {
-        "message": "範囲を設定し、送信機側スイッチと対応するモードの割り当てを定義します。最小 \/ 最大値の範囲内で設定した受信チャンネルにてモードが有効となります。 [保存] ボタンを使用して設定を保存することを忘れないでください。"
+        "message": "範囲を設定し、送信機側スイッチと対応するモードの割り当てを定義します。最小 \/ 最大値の範囲内で設定した受信チャンネルにてモードが有効となります。 [保存] ボタンを使用して設定を保存することを忘れないで下さい。"
     },
     "auxiliaryMin": {
         "message": "最小"
@@ -1403,7 +1403,7 @@
         "message": "自動"
     },
     "adjustmentsHelp": {
-        "message": "調整スイッチを構成します。詳細については、マニュアルの「In-flight Adjustment」を参照してください。調整の変更は自動的には保存されません。 4つのスロットがありますが、調整を同時に行うために使用される各スイッチは、スロットを排他的に使用する必要があります。"
+        "message": "調整スイッチを構成します。詳細については、マニュアルの [In-flight Adjustment] を参照して下さい。調整の変更は自動的には保存されません。 4つのスロットがありますが、調整を同時に行うために使用される各スイッチは、スロットを排他的に使用する必要があります。"
     },
     "adjustmentsExamples": {
         "message": "例"
@@ -1577,13 +1577,13 @@
         "message": "ここにトランスポンダーコードを設定します。注意：レースタイミングシステムでは有効なコードのみが認識されます。有効なトランスポンダコードは、 <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a> から入手できます。"
     },
     "transponderHelp2": {
-        "message": "詳細については <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer サイト<\/a> をご覧ください。"
+        "message": "詳細については <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer サイト<\/a> をご覧下さい。"
     },
     "transponderDataHelp3": {
         "message": "ERLT ID 0～63 を選択します。"
     },
     "transponderHelp3": {
-        "message": "詳細については <a href=\"https:\/\/github.com\/polyvision\/EasyRaceLapTimer\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer site<\/a> をご覧ください。"
+        "message": "詳細については <a href=\"https:\/\/github.com\/polyvision\/EasyRaceLapTimer\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer site<\/a> をご覧下さい。"
     },
     "transponderButtonSave": {
         "message": "保存"
@@ -1646,7 +1646,7 @@
         "message": "現在のGPS位置"
     },
     "gpsMapMessage1": {
-        "message": "インターネット接続を確認してください"
+        "message": "インターネット接続を確認して下さい"
     },
     "gpsMapMessage2": {
         "message": "GPS 3次元測位を取得中..."
@@ -1760,13 +1760,13 @@
         "message": "マスター"
     },
     "motorsNotice": {
-        "message": "<strong>モーターテストモード \/ アーミングでの注意:<\/strong><br \/>スライダーを動かすか、又は送信機から機体をアームした場合、モータが<strong>回転<\/strong>します。<br \/>事故防止のために、この機能を使用する前に<strong class=\"message-negative\">すべてのプロペラ<\/strong>を取り外してください。<br \/>モーターテストモードを有効にする事により一時的に離陸防止機能が無効になります。これはプロペラを外した状態でベンチテストする際に機体がディスアームするのを防止するためです。<br \/>"
+        "message": "<strong>モーターテストモード \/ アーミングでの注意:<\/strong><br \/>スライダーを動かすか、又は送信機から機体をアームした場合、モーターが<strong>回転<\/strong>します。<br \/>事故防止のために、この機能を使用する前に<strong class=\"message-negative\">すべてのプロペラ<\/strong>を取り外して下さい。<br \/>モーターテストモードを有効にする事により一時的に離陸防止機能が無効になります。これはプロペラを外した状態でベンチテストする際に機体がディスアームするのを防止するためです。<br \/>"
     },
     "motorsEnableControl": {
         "message": "<strong>リスクを認識し<\/strong>、プロペラは全て外しました - モーター制御とアーミングを可能にし、離陸防止機能を無効にします。"
     },
     "sensorsInfo": {
-        "message": "更新周期を速く設定し、複数のグラフを同時にレンダリングすると、リソースが重くなり、ノートPC等を使用するとバッテリーを早く消費してしまう場合があるので注意してください。<br\/>必要とするセンサーのグラフを、適正な更新周期でレンダリングすることをお勧めします。"
+        "message": "更新周期を速く設定し、複数のグラフを同時にレンダリングすると、リソースが重くなり、ノートPC等を使用するとバッテリーを早く消費してしまう場合があるので注意して下さい。<br\/>必要とするセンサーのグラフを、適正な更新周期でレンダリングすることをお勧めします。"
     },
     "sensorsRefresh": {
         "message": "更新:"
@@ -1814,7 +1814,7 @@
         "message": "<strong>注:<\/strong> [CLI] タブから他へ切り替える、又は切断した場合はFCボードに<strong>自動的に<\/strong><strong>EXIT<\/strong>が送られます。最新のファームウェアではコントローラを<span class=\"message-negative\">再起動<\/span>させ 、未保存の変更は<span class=\"message-negative\">失われます<\/span>。"
     },
     "cliInputPlaceholder": {
-        "message": "こちらにコマンドを書いてください"
+        "message": "こちらにコマンドを書いて下さい"
     },
     "cliEnter": {
         "message": "CLIモードを検出"
@@ -1853,7 +1853,7 @@
         "message": "ログファイルを選択して下さい"
     },
     "loggingErrorOneProperty": {
-        "message": "少なくとも1つのプロパティからログを選択してください"
+        "message": "少なくとも1つのプロパティからログを選択して下さい"
     },
     "loggingAutomaticallyRetained": {
         "message": "自動的に以前のログファイルをロード: <strong>$1<\/strong>"
