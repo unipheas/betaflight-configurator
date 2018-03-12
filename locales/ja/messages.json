@@ -515,7 +515,7 @@
         "message": "コンパス キャリブレーション"
     },
     "initialSetupCalibrateMagText": {
-        "message": "マルチローター機を最低でも<strong>360度<\/strong>、全ての軸にて回転させて下さい。これを行うのに30秒かかります。"
+        "message": "マルチローター機を最低でも<strong>360度<\/strong>、全ての軸にて回転させて下さい。これを行うのに30秒程度かかります。"
     },
     "initialSetupButtonCalibratingText": {
         "message": "キャリブレーション中..."
@@ -2015,7 +2015,7 @@
         "message": "再起動シーケンスなし"
     },
     "firmwareFlasherOnlineSelectBoardDescription": {
-        "message": "FCボードチップセットを選択すると、利用できるオンラインファームウェアの確認ができます - 適切なファームウェアを選択してください。"
+        "message": "FCボードチップセットを選択すると、オンラインでファームウェアの確認ができます - 適切なファームウェアを選択して下さい。"
     },
     "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
         "message": "FCボードのファームウェアバージョンを選択してください。"
@@ -3241,10 +3241,10 @@
         "message": "PIDからモーターPWMを分離"
     },
     "configurationUnsyncedPWMFreq": {
-        "message": "モーターPWM周波数"
+        "message": "モーターPWM 周波数"
     },
     "configurationGyroSyncDenom": {
-        "message": "ジャイロ周期 周波数"
+        "message": "ジャイロ更新 周波数"
     },
     "configurationPidProcessDenom": {
         "message": "PIDループ 周波数"
@@ -3253,7 +3253,7 @@
         "message": "PIDループの最大周波数は、選択されたESC \/ モータプロトコルから更新信号を送信される最大値に制限されます。"
     },
     "configurationGyroUse32kHz": {
-        "message": "ジャイロ 32KHz サンプリングモード有効化"
+        "message": "ジャイロ 32KHz サンプリングモード有効"
     },
     "configurationGyroUse32kHzHelp": {
         "message": "ジャイロチップがサポートしている場合のみ、ジャイロ アップデート周波数 32KHzの選択が可能です (現在MPU6500、MPU9250、およびSPI経由で接続されている場合はICM20xxx)。不明な場合は、FCボードの仕様書を参照してください。"
