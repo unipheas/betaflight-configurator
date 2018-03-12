@@ -42,7 +42,7 @@
         "message": "Expertモード常時有効"
     },
     "userLanguageSelect": {
-        "message": "言語設定 (変更を有効にするにはConfiguratorを再起動する必要あり)"
+        "message": "言語設定 (変更を有効にするにはConfiguratorを再起動してください)"
     },
     "language_default": {
         "message": "初期値"
@@ -98,7 +98,7 @@
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "checkForConfiguratorUnstableVersions": {
-        "message": "未検証バージョンの更新通知を表示します"
+        "message": "未検証バージョンの更新通知を表示"
     },
     "configuratorUpdateNotice": {
         "message": "お使いの<b>Betaflight Configurator<\/b>は旧バージョンです。<br>Version <b>$1<\/b> が利用可能です。 <a href=\"$2\" target=\"_blank\">リリースページ<\/a>から修正・機能向上した最新版をダウンロードしてインストールしてください。<br>注意: 更新する前にConfiguratorを閉じてください。"
@@ -440,7 +440,7 @@
         "message": "開発への協力・貢献"
     },
     "defaultContributingText": {
-        "message": "Betaflightをより良くするためにご協力いただける場合、以下を含むさまざまな方法でお手伝いしていただけます:<br \/><ul><li>\nフォーラムやIRCで他のユーザーの質問に答える<\/li><li>\nファームウェアとConfiguratorへのコードの提供 - 新機能や修正、改良<\/li><li>\n<a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">新機能のフィックス<\/a>、テストとフィードバックの提供<\/li><li>\n<a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">問題のヘルプと新機能リクエスト<\/a>へのコメント協力<\/li><li>\n<a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">Configuratorアプリケーションをあなたの母国語に翻訳すること<\/a>に協力してみましょう。<\/li><li><\/li><\/ul>"
+        "message": "Betaflightを今後より良くするためにご協力いただける場合、以下を含むさまざまな方法でお手伝いしていただけます:<br \/><ul><li>\nフォーラムやIRCで他のユーザーの質問に答える<\/li><li>\nファームウェアとConfiguratorへのコードの提供 - 新機能や修正、改良<\/li><li>\n<a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">新機能のフィックス<\/a>、テストとフィードバックの提供<\/li><li>\n<a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">問題のヘルプと新機能リクエスト<\/a>へのコメント協力<\/li><li>\n<a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">Betaflight Configuratorを母国語に翻訳すること<\/a>に協力してみましょう。<\/li><li><\/li><\/ul>"
     },
     "defaultChangelogAction": {
         "message": "変更履歴"
