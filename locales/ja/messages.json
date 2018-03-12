@@ -740,7 +740,7 @@
         "message": "SPI受信サポート"
     },
     "featureESC_SENSOR": {
-        "message": "センサーとしてKISS\/BLHeli_32 ESCテレメトリーを使用します"
+        "message": "センサーとしてKISS\/BLHeli_32 ESCを使用"
     },
     "featureCHANNEL_FORWARDING": {
         "message": "AUXチャンネルをサーボ出力に転送"
@@ -1142,10 +1142,10 @@
         "message": "Profile毎のPID値 制御設定"
     },
     "pidTuningAntiGravityGain": {
-        "message": "Anti Gravity 強さ"
+        "message": "Anti Gravity 反重力 強さ"
     },
     "pidTuningAntiGravityThres": {
-        "message": "Anti Gravity しきい値"
+        "message": "Anti Gravity 反重力 しきい値"
     },
     "pidTuningPidSettings": {
         "message": "PIDコントローラ設定"
@@ -2590,7 +2590,7 @@
         "message": "受信機フェールセーフ"
     },
     "failsafeFeaturesHelpNew": {
-        "message": "フェイルセーフには2段階あります。<strong>ステージ1<\/strong> 第1段階はフライトチャンネルのパルス長が無効な場合、受信機がフェイルセーフモードを報告した場合、または受信機からの信号がまったくない場合、<span class=\"message-negative\">全てのチャンネル<\/span>にチャンネルフォールバック設定が適用され、復旧可能にする為の短い時間が提供された場合 です。<strong>ステージ2<\/strong> 第2段階は、機体が<span class=\"message-negative\">アーム<\/span>されている間でエラー状態が、設定されたガードタイムより長くかかると作動し、却下されない限り選択された手順により、全てのチャンネルが、適用されたチャンネルフォールバック設定のままとなります。<br \/><strong>注:<\/strong> ステージ1が作動する前に、チャンネルフォールバック設定は無効な信号を持つ個々のAUXチャンネルにも適用されます。"
+        "message": "フェイルセーフには2段階あります。<strong>ステージ1<\/strong> [第1段階]\n はフライトチャンネルのパルス長が無効な場合、受信機がフェイルセーフモードを報告した場合、または受信機からの信号がまったくない場合、<span class=\"message-negative\">全てのチャンネル<\/span>にチャンネルフォールバック設定が適用され、復旧可能にする為の短い時間が提供された場合 です。<strong>ステージ2<\/strong> [第2段階] は、機体が<span class=\"message-negative\">アーム<\/span>されている間でエラー状態が、設定されたガードタイムより長くかかると作動し、却下されない限り選択された手順により、全てのチャンネルが、適用されたチャンネルフォールバック設定のままとなります。<br \/><strong>注:<\/strong> ステージ1が作動する前に、チャンネルフォールバック設定は無効な信号を持つ個々のAUXチャンネルにも適用されます。"
     },
     "failsafePulsrangeTitle": {
         "message": "パルス有効範囲の設定"
@@ -2599,10 +2599,10 @@
         "message": "最小値よりも短い、もしくは最大値よりも長いパルスは無効とし、またAUXチャンネル個々のチャンネルフォールバックの設定の適用、またはフライトチャネル ステージ1への入力をトリガーとします。"
     },
     "failsafeRxMinUsecItem": {
-        "message": "最短値"
+        "message": "範囲 最小値"
     },
     "failsafeRxMaxUsecItem": {
-        "message": "最長値"
+        "message": "範囲 最大値"
     },
     "failsafeChannelFallbackSettingsTitle": {
         "message": "チャンネルフォールバック設定"
