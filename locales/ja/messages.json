@@ -1139,7 +1139,7 @@
         "message": "未使用なPID値の非表示"
     },
     "pidTuningNonProfilePidSettings": {
-        "message": "プロファイル毎のPID値 制御設定"
+        "message": "Profile毎のPID値 制御設定"
     },
     "pidTuningAntiGravityGain": {
         "message": "Anti Gravity 強さ"
@@ -1253,13 +1253,13 @@
         "message": "現在のProfileをコピー"
     },
     "dialogCopyRateProfileText": {
-        "message": "現在のレートプロファイルをコピー"
+        "message": "現在のRateprofileをコピー"
     },
     "dialogCopyProfileTitle": {
-        "message": "プロファイルをコピー"
+        "message": "Profileをコピー"
     },
     "dialogCopyProfileNote": {
-        "message": "出力先のプロファイル値は全て消去され、上書きされます"
+        "message": "出力先のProfileは全て消去、上書きされます"
     },
     "dialogCopyProfileConfirm": {
         "message": "コピー"
@@ -1268,25 +1268,25 @@
         "message": "キャンセル"
     },
     "pidTuningResetProfile": {
-        "message": "すべてのプロファイルをリセット"
+        "message": "すべてのProfileをリセット"
     },
     "pidTuningProfileReset": {
-        "message": "ロードされたデフォルトプロファイル"
+        "message": "ロードされたデフォルトProfile"
     },
     "pidTuningReceivedProfile": {
-        "message": "プロファイルをセット:<strong class=\"message-positive\">$1<\/strong>"
+        "message": "Profileをセット:<strong class=\"message-positive\">$1<\/strong>"
     },
     "pidTuningReceivedRateProfile": {
-        "message": "レートプロファイルをセット:<strong class=\"message-positive\">$1<\/strong>"
+        "message": "Rateprofileをセット:<strong class=\"message-positive\">$1<\/strong>"
     },
     "pidTuningLoadedProfile": {
-        "message": "プロファイルの読み出し:<strong class=\"message-positive\">$1<\/strong>"
+        "message": "Profileの読出し:<strong class=\"message-positive\">$1<\/strong>"
     },
     "pidTuningLoadedRateProfile": {
-        "message": "レートプロファイルの読み出し:<strong class=\"message-positive\">$1<\/strong>"
+        "message": "Rateprofileの読出し:<strong class=\"message-positive\">$1<\/strong>"
     },
     "pidTuningDataRefreshed": {
-        "message": "PIDデータ <strong>リフレッシュ<\/strong>"
+        "message": "PIDデータ <strong>更新しました<\/strong>"
     },
     "pidTuningEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
@@ -1298,10 +1298,10 @@
         "message": "<b>チューニングTips<\/b><br \/><span class=\"message-negative\">重要:<\/span> 最初のフライト中はモーターの温度を確認することが重要です。フィルター値が高くなるほど飛行が軽快となりますが、モーターにはより多くのノイズが発生します。 <br>100Hzのデフォルト値が最適ですが、ノイズ設定ではD値フィルターを50Hzに、またははジャイロフィルターを下げてみて下さい。"
     },
     "receiverThrottleMid": {
-        "message": "スロットル MID"
+        "message": "スロットルMID"
     },
     "receiverThrottleExpo": {
-        "message": "スロットル EXPO"
+        "message": "スロットルExpo"
     },
     "receiverStickMin": {
         "message": "「スティック・ロー」しきい値"
@@ -1412,7 +1412,7 @@
         "message": "AUX1のスロット1と、3ポジションスイッチを使用しピッチ \/ ロール、PIDの設定を、AUX2の別の3ポジションスイッチを選択し、上下することで値を増減させます。"
     },
     "adjustmentsExample2": {
-        "message": "AUX4のスロット2と3ポジションスイッチを選択し、かつ同じチャンネルの3ポジションスイッチを使用することでレートプロファイル変更を有効にすることができます。"
+        "message": "AUX4のスロット2と3ポジションスイッチを選択し、かつ同じチャンネルの3ポジションスイッチを使用することでRateprofile変更を有効にすることができます。"
     },
     "adjustmentsColumnEnable": {
         "message": "もし有効ならば"
@@ -1487,7 +1487,7 @@
         "message": "ヨー D値 調整"
     },
     "adjustmentsFunction12": {
-        "message": "レートプロファイル選択"
+        "message": "Rateprofile選択"
     },
     "adjustmentsFunction13": {
         "message": "ピッチ レート"
@@ -2506,7 +2506,7 @@
         "message": "以下の値は、アングルとホライゾンの飛行モードの動作を変更します。それぞれのPIDコントローラは異なる値を処理します。 ドキュメントを確認してください。"
     },
     "pidTuningNonProfileFilterSettings": {
-        "message": "プロファイル毎のPID制御設定"
+        "message": "Profile毎のPID制御設定"
     },
     "pidTuningGyroLowpassFrequency": {
         "message": "ジャイロ ローパスフィルタ周波数 [Hz]"
@@ -3049,7 +3049,7 @@
         "message": "瞬間電力消費量"
     },
     "osdDescElementPIDRateProfile": {
-        "message": "有効PIDおよびレートプロファイルの数値表示"
+        "message": "有効PIDおよびRateprofile数値表示"
     },
     "osdDescElementBatteryWarning": {
         "message": "バッテリー電圧が警告しきい値を下回ったときに表示される警告テキスト"
@@ -3310,16 +3310,16 @@
         "message": "レガシー Multiwii MSP電流出力サポートを有効にする"
     },
     "pidTuningProfile": {
-        "message": "プロファイル"
+        "message": "Profile"
     },
     "pidTuningProfileTip": {
-        "message": "最大3つ (一部のコントローラでは2つ) の異なるPIDプロファイルをフライトコントローラに保存できます。PIDプロファイルには、このタブ内にあるPID、D値セットポイント、アングル \/ ホライゾンの設定が含まれます。飛行場等にいる場合、簡単なスティックコマンド (オンラインマニュアルを参照) を使用して、プロファイルを切り替えることができます。"
+        "message": "最大3つ (一部のコントローラでは2つ) の異なるPID Profileをフライトコントローラに保存できます。PID Profileには、このタブ内にあるPID、D値セットポイント、アングル \/ ホライゾンの設定が含まれます。飛行場等にいる場合、簡単なスティックコマンド (オンラインマニュアルを参照) を使用して、Profileを切り替えることができます。"
     },
     "pidTuningRateProfile": {
-        "message": "レートプロファイル"
+        "message": "Rateprofile"
     },
     "pidTuningRateProfileTip": {
-        "message": "1つのプロファイルにつき最大3つの異なるレートプロファイルをフライトコントローラに保存することができます。レートプロファイルには、RCレート、レート、RC Expo、スロットル、およびTPAの設定が含まれます。 [調整] タブの [レートプロファイル選択] の3つのポジションスイッチを設定することで、レートプロファイルの切り替えが可能です。"
+        "message": "1つのProfileにつき最大3つの異なるRateprofileをフライトコントローラに保存することができます。Rateprofileには、RCレート、レート、RC Expo、スロットル、およびTPAの設定が含まれます。 [調整] タブの [Rateprofile選択] の3つのポジションスイッチを設定することで、Rateprofileの切り替えが可能です。"
     },
     "pidTuningDelta": {
         "message": "デリバティブ方式 派生方式"
