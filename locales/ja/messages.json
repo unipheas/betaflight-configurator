@@ -185,7 +185,7 @@
         "message": "センサー"
     },
     "tabCLI": {
-        "message": "CLI コマンドラインツール"
+        "message": "CLI [コマンドライン]"
     },
     "tabLogging": {
         "message": "テザーロギング"
