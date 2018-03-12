@@ -644,10 +644,10 @@
         "message": "$1 度"
     },
     "initialSetupAccelCalibStarted": {
-        "message": "加速度センサー キャリブレーション 開始"
+        "message": "水平 キャリブレーション 開始"
     },
     "initialSetupAccelCalibEnded": {
-        "message": "加速度センサー キャリブレーション<span class=\"message-positive\">終了<\/span>"
+        "message": "水平 キャリブレーション<span class=\"message-positive\">終了<\/span>"
     },
     "initialSetupMagCalibStarted": {
         "message": "コンパス キャリブレーション 開始"
@@ -917,13 +917,13 @@
         "message": "ビープ音設定"
     },
     "beeperGYRO_CALIBRATED": {
-        "message": "GYROキャリブレーションしたときのビープ音"
+        "message": "Gyroキャリブレーションしたときのビープ音"
     },
     "beeperRX_LOST": {
         "message": "送信機がオフ、または信号消失時のビープ音 (正常になるまでリピート)"
     },
     "beeperRX_LOST_LANDING": {
-        "message": "アーム時に送信機がオフ、または信号消失時のSOSビープ音 (オートランディング \/ オートディスアーム)"
+        "message": "アーム時に送信機がオフ、または信号消失時のSOSビープ音 (自動着陸 \/ 自動ディスアーム)"
     },
     "beeperDISARMING": {
         "message": "フライトコントローラをディスアームしたときのビープ音"
@@ -947,10 +947,10 @@
         "message": "スティックが無効位置にあるときのビープ音"
     },
     "beeperACC_CALIBRATION": {
-        "message": "加速度センサー キャリブレーションの完了確認"
+        "message": "水平 キャリブレーションの完了確認"
     },
     "beeperACC_CALIBRATION_FAIL": {
-        "message": "加速度センサー キャリブレーションに失敗"
+        "message": "水平 キャリブレーションに失敗"
     },
     "beeperREADY_BEEP": {
         "message": "GPSの捕捉と準備ができたときのトーン音"
@@ -2581,7 +2581,7 @@
         "message": "Vbatが低下したとき、それを補正するためPID値を増加させます。 これにより、飛行中にさらに一定の飛行特性を与えられます。 適用される補正量は、「設定」ページで設定された最大セル電圧値から計算されるため、適切な値に設定されていることを確認してください。"
     },
     "configHelp2": {
-        "message": "横向き \/ 下向き \/ 回転などの取付け可能な任意のFCボード回転角度 (度) です。外部センサーを使用する場合は、センサーのアライメント (GYRO、ACCEL、コンパス) を使用して、ボードの向きから独立したセンサー位置を定義します。 "
+        "message": "横向き \/ 下向き \/ 回転などの取付け可能な任意のFCボード回転角度です。外部センサーを使用する場合は、センサーのアライメント (Gyro、Accel、コンパス) を使用して、ボードの向きから独立したセンサー位置を定義します。 "
     },
     "failsafeFeaturesHelpOld": {
         "message": "フェールセーフ設定が大幅に変更されました。 改善された設定パネルを有効にするには、Betaflight <strong>v1.12.0 以上<\/strong> を使用してください。"
