@@ -1136,7 +1136,7 @@
         "message": "全PID値の表示"
     },
     "pidTuningHideUnusedPids": {
-        "message": "未使用なPID値の非表示"
+        "message": "未使用なPID値 非表示"
     },
     "pidTuningNonProfilePidSettings": {
         "message": "Profile毎のPID値 制御設定"
@@ -1190,10 +1190,10 @@
         "message": "比例"
     },
     "pidTuningIntegral": {
-        "message": "インテグラル"
+        "message": "積分"
     },
     "pidTuningDerivative": {
-        "message": "デリバティブ"
+        "message": "派生"
     },
     "pidTuningRcRate": {
         "message": "RCレート"
@@ -1205,10 +1205,10 @@
         "message": "レート"
     },
     "pidTuningSuperRate": {
-        "message": "Super レート"
+        "message": "Super Rate"
     },
     "pidTuningRatesPreview": {
-        "message": "レート表示"
+        "message": "レートプレビュー"
     },
     "pidTuningRcExpo": {
         "message": "RC Expo"
@@ -2542,31 +2542,31 @@
         "message": "フィルター設定"
     },
     "pidTuningDTermLowpassType": {
-        "message": "D ローパスフィルター"
+        "message": "D値 ローパスフィルター"
     },
     "pidTuningDTermLowpassTypeTip": {
-        "message": "D ローパスフィルタータイプの使用タイプを選択します。初期値はBIQUADです。"
+        "message": "D値 ローパスフィルタータイプの使用タイプを選択します。初期値はBIQUADです。"
     },
     "pidTuningDTermLowpassFrequency": {
-        "message": "D ローパス周波数 [Hz]"
+        "message": "D値 ローパス周波数 [Hz]"
     },
     "pidTuningDTermLowpassFrequencyHelp": {
-        "message": "D ローパス周波数 [Hz] (0は無効)"
+        "message": "D値 ローパス周波数 [Hz] (0は無効)"
     },
     "pidTuningDTermNotchEnable": {
-        "message": "D ノッチフィルター有効"
+        "message": "D値 ノッチフィルター有効"
     },
     "pidTuningDTermNotchFrequency": {
-        "message": "D ノッチフィルター周波数 [Hz]"
+        "message": "D値 ノッチフィルター周波数 [Hz]"
     },
     "pidTuningDTermNotchFrequencyHelp": {
-        "message": "D ノッチフィルター周波数 [Hz] (０は無効)"
+        "message": "D値 ノッチフィルター周波数 [Hz] (0は無効)"
     },
     "pidTuningDTermNotchCutoff": {
-        "message": "D ノッチフィルター カット [Hz]"
+        "message": "D値 ノッチフィルター カット [Hz]"
     },
     "pidTuningDTermNotchCutoffHelp": {
-        "message": "D ノッチフィルターカットオフ Hz (これはノッチフィルタ開始値です。例えば、ノッチフィルタ 160 およびノッチHzが 260 の場合、範囲は160〜360Hzとなり、中心付近の減衰が最も大きくなります)"
+        "message": "D値 ノッチフィルターカットオフ Hz (これはノッチフィルタ開始値です。例えば、ノッチフィルタ 160 およびノッチHzが 260 の場合、範囲は160〜360Hzとなり、中心付近の減衰が最も大きくなります)"
     },
     "pidTuningYawLowpassFrequency": {
         "message": "ヨー ローパス周波数 [Hz]"
