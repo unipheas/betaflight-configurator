@@ -578,7 +578,7 @@
         "message": "電圧スケール値:"
     },
     "initialSetupAccelTrimsHead": {
-        "message": "加速度センサートリム"
+        "message": "加速度センサー トリム"
     },
     "initialSetupPitch": {
         "message": "ピッチ:"
@@ -683,7 +683,7 @@
         "message": "サーボジンバル"
     },
     "featureSOFTSERIAL": {
-        "message": "CPUベースのシリアルポートを有効にします"
+        "message": "CPUベース シリアルポート 有効"
     },
     "featureSOFTSERIALTip": {
         "message": "有効後 [ポート] タブよりポートの設定をして下さい。"
@@ -719,7 +719,7 @@
         "message": "マルチカラーLEDストリップ サポート"
     },
     "featureDISPLAY": {
-        "message": "オンスクリーンディスプレイ"
+        "message": "有機ELディスプレイ"
     },
     "featureDISPLAYTip": {
         "message": "この機能が有効、かつディスプレイが接続されていない (またはディスプレイの電源が入っていない) 場合、フライトコントローラの再起動毎に約10秒の遅延が発生します。"
@@ -851,13 +851,13 @@
         "message": "デフォルト"
     },
     "configurationAccelTrims": {
-        "message": "加速度センサートリム"
+        "message": "加速度センサー トリム"
     },
     "configurationAccelTrimRoll": {
-        "message": "加速度センサーロールトリム"
+        "message": "加速度センサー ロールトリム"
     },
     "configurationAccelTrimPitch": {
-        "message": "加速度センサーピッチトリム"
+        "message": "加速度センサー ピッチトリム"
     },
     "configurationArming": {
         "message": "アーミング"
