@@ -33,7 +33,7 @@
         "message": "自動接続: 有効 - Configuratorは自動的に新しいポートが検出されたときに接続を試みます。"
     },
     "autoConnectDisabled": {
-        "message": "自動接続: 無効 - ユーザーが正しいシリアル ポートを選択し、別途 [接続] ボタンをクリックする必要があります。"
+        "message": "自動接続: 無効 - ユーザが正しいシリアル ポートを選択し、別途 [接続] ボタンをクリックする必要があります。"
     },
     "expertMode": {
         "message": "Expertモード有効"
@@ -440,7 +440,7 @@
         "message": "開発への協力・貢献"
     },
     "defaultContributingText": {
-        "message": "Betaflightを今後より良くするためにご協力いただける場合、以下を含むさまざまな方法でお手伝いしていただけます:<br \/><ul><li>\nフォーラムやIRCで他のユーザーの質問に答える<\/li><li>\nファームウェアとConfiguratorへのコードの提供 - 新機能や修正、改良<\/li><li>\n<a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">新機能のフィックス<\/a>、テストとフィードバックの提供<\/li><li>\n<a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">問題のヘルプと新機能リクエスト<\/a>へのコメント協力<\/li><li>\n<a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">Betaflight Configuratorを母国語に翻訳すること<\/a>に協力してみましょう。<\/li><li><\/li><\/ul>"
+        "message": "Betaflightを今後より良くするためにご協力いただける場合、以下を含むさまざまな方法でお手伝いしていただけます:<br \/><ul><li>\nフォーラムやIRCで他のユーザの質問に答える<\/li><li>\nファームウェアとConfiguratorへのコードの提供 - 新機能や修正、改良<\/li><li>\n<a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">新機能のフィックス<\/a>、テストとフィードバックの提供<\/li><li>\n<a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">問題のヘルプと新機能リクエスト<\/a>へのコメント協力<\/li><li>\n<a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">Betaflight Configuratorを母国語へ翻訳すること<\/a>に協力してみましょう。<\/li><li><\/li><\/ul>"
     },
     "defaultChangelogAction": {
         "message": "変更履歴"
@@ -455,7 +455,7 @@
         "message": "オープンソース \/ 寄付について"
     },
     "defaultDonateText": {
-        "message": "このユーティリティは完全な<strong>オープンソース<\/strong>として<strong>Betaflight<\/strong>ユーザに対して無償にて提供されています。<br \/>もし、あなたがBetaflightやBetaflight Configuratorが非常に便利だと感じ、<strong>サポートしたい！<\/strong>と思ったら寄付をご検討ください。"
+        "message": "このユーティリティは完全な<strong>オープンソース<\/strong>として、<strong>Betaflight<\/strong>ユーザに対し無償で提供されています。<br \/>もし、あなたがBetaflightやBetaflight Configuratorが非常に便利だと感じ、<strong>サポートしたい！<\/strong>と思ったら、ぜひ寄付をご検討ください。"
     },
     "defaultDonate": {
         "message": "寄付"
@@ -779,7 +779,7 @@
         "message": "フェイルセーフを有効"
     },
     "featureFAILSAFETip": {
-        "message": "<strong>注: <\/strong>ステージ2を無効にすると、すべてのフライトチャンネル (ロール、ピッチ、ヨー、スロットル) のユーザー設定ではなく、フォールバック設定の<strong>自動<\/strong>が適用されます。"
+        "message": "<strong>注: <\/strong>ステージ2を無効にすると、すべてのフライトチャンネル (ロール、ピッチ、ヨー、スロットル) のユーザ設定ではなく、フォールバック設定の<strong>自動<\/strong>が適用されます。"
     },
     "featureFAILSAFEOldTip": {
         "message": "受信信号損失時にフェイル セーフの設定を適用"
@@ -2048,7 +2048,7 @@
         "message": "手動伝送速度"
     },
     "firmwareFlasherManualBaudDescription": {
-        "message": "シリアル接続に対し、デフォルトの伝送速度をサポートしていないFCボード、またはBluetooth経由で書込みするFCボードの伝送速度の手動選択。<br \/><span class=\"message-negative\">注:<\/span> USB DFUで書き込みさせる場合は使用しません。"
+        "message": "シリアル接続に対しデフォルト伝送速度をサポートしない、またはBluetooth経由で書込みするFCボードの伝送速度を手動で選択します。<br \/><span class=\"message-negative\">注:<\/span> USB DFUで書き込みさせる場合は使用しません。"
     },
     "firmwareFlasherBaudRate": {
         "message": "伝送速度"
