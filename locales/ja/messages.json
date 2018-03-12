@@ -824,7 +824,7 @@
         "message": "<strong>注:<\/strong> SPI受信プロバイダは、必要なハードウェアが搭載されているかSPIバスに接続されている場合にのみ動作します。"
     },
     "configurationOtherFeaturesHelp": {
-        "message": "<strong>注:<\/strong> 全ての機能がすべてのフライトコントローラでサポートされている訳ではありません。 特定の機能を有効にして [保存して再起動] した後でも無効になっている場合は、この機能がボード上でサポートされていないことを意味します。"
+        "message": "<strong>注:<\/strong> 全ての機能が全てのフライトコントローラでサポートされている訳ではありません。 特定の機能を有効にして [保存して再起動] した後でも無効になっている場合は、この機能がボード上でサポートされていないことを意味します。"
     },
     "configurationBoardAlignment": {
         "message": "FCボード＆センサー アライメント"
@@ -2177,17 +2177,17 @@
         "description": "In the LED STRIP, clear selected leds"
     },
     "ledStripClearAllButton": {
-        "message": "全て消去",
+        "message": "全消去",
         "description": "In the LED STRIP, clear all leds"
     },
     "ledStripEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
     },
     "ledStripVtxOverlay": {
-        "message": "VTX (VTX周波数を使用して色を割り当てます)"
+        "message": "VTX (VTX周波数にて色を割り当て)"
     },
     "ledStripFunctionSection": {
-        "message": "LEDの機能"
+        "message": "LED機能"
     },
     "ledStripFunctionTitle": {
         "message": "機能"
@@ -2205,7 +2205,7 @@
         "description": "One of the modes of the Led Strip"
     },
     "ledStripFunctionArmOption": {
-        "message": "アームの状態",
+        "message": "アーム状態",
         "description": "One of the modes of the Led Strip"
     },
     "ledStripFunctionBatteryOption": {
@@ -2287,11 +2287,11 @@
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripModeColorsModeDisarmed": {
-        "message": "ディスアームしました",
+        "message": "ディスアーム",
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripModeColorsModeArmed": {
-        "message": "アームしました",
+        "message": "アーム",
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripModeColorsModeAnimation": {
@@ -2299,7 +2299,7 @@
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripModeColorsModeBlinkBg": {
-        "message": "背景が点滅します",
+        "message": "背景点滅",
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripModeColorsModeGPSNoSats": {
@@ -2315,7 +2315,7 @@
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripWiring": {
-        "message": "LEDストリップの配線",
+        "message": "LEDストリップ配線",
         "description": "One of the modes in Led Strip"
     },
     "ledStripWiringMode": {
@@ -2323,11 +2323,11 @@
         "description": "One of the wiring modes in Led Strip"
     },
     "ledStripWiringClearControl": {
-        "message": "選択をクリア",
+        "message": "選択クリア",
         "description": "Control button in the wiring modes in Led Strip"
     },
     "ledStripWiringClearAllControl": {
-        "message": "全ての配線をクリア",
+        "message": "全配線をクリア",
         "description": "Control button in the wiring modes in Led Strip"
     },
     "ledStripWiringMessage": {
@@ -2353,7 +2353,7 @@
         "message": "警告灯"
     },
     "ledStripIndecatorOverlay": {
-        "message": "インジケーター (マトリクス上の位置を利用)"
+        "message": "インジケーター (マトリクスの位置を利用)"
     },
     "colorBlack": {
         "message": "黒色"
@@ -2371,13 +2371,13 @@
         "message": "黄色"
     },
     "colorLimeGreen": {
-        "message": "ライム グリーン"
+        "message": "ライム"
     },
     "colorGreen": {
         "message": "緑色"
     },
     "colorMintGreen": {
-        "message": "ミント グリーン"
+        "message": "ミント"
     },
     "colorCyan": {
         "message": "シアン"
@@ -2395,19 +2395,19 @@
         "message": "赤紫"
     },
     "colorDeepPink": {
-        "message": "ディープピンク"
+        "message": "濃桃"
     },
     "controlAxisRoll": {
-        "message": "ロール [A]"
+        "message": "Roll [A]"
     },
     "controlAxisPitch": {
-        "message": "ピッチ [E]"
+        "message": "Pitch [E]"
     },
     "controlAxisYaw": {
-        "message": "ヨー [R]"
+        "message": "Yaw [R]"
     },
     "controlAxisThrottle": {
-        "message": "スロットル [T]"
+        "message": "Throttle [T]"
     },
     "controlAxisAux1": {
         "message": "AUX 1"
@@ -2497,7 +2497,7 @@
         "message": "アングル"
     },
     "pidTuningLevelAngleLimit": {
-        "message": "上限角度"
+        "message": "角度上限"
     },
     "pidTuningLevelSensitivity": {
         "message": "感度"
