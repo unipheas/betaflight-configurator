@@ -470,10 +470,10 @@
         "message": "Betaflightドキュメントは、リリースノートおよび wiki にてご利用いただけます。<br \/><br \/>"
     },
     "defaultDocumentation1": {
-        "message": "Betaflight wiki は素晴らしい情報リソースを <a href=\"https:\/\/github.com\/betaflight\/betaflight<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">\/wiki\" target=\"_blank\">こちらで<\/a>見つけることができます。"
+        "message": "Betaflight wiki はすばらしい情報リソースを<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">こちらで<\/a>検索・確認することができます。"
     },
     "defaultDocumentation2": {
-        "message": "ファームウェアのリリースノートは、GitHub リリース ページの<a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">こちらで<\/a>読むことができます。"
+        "message": "ファームウェア リリースノートは、GitHub リリース ページの<a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">こちらで<\/a>確認することができます。"
     },
     "defaultSupportHead": {
         "message": "サポート"
@@ -2015,7 +2015,7 @@
         "message": "再起動シーケンスなし"
     },
     "firmwareFlasherOnlineSelectBoardDescription": {
-        "message": "FCボードを選択する事で利用できるオンラインファームウェアの確認ができます - FCボードに対する適切なファームウェアを選択してください。"
+        "message": "FCボードを選択すると、利用できるオンラインファームウェアの確認ができます - FCボードに対する適切なファームウェアを選択してください。"
     },
     "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
         "message": "FCボードのファームウェアバージョンを選択してください。"
