@@ -1268,7 +1268,7 @@
         "message": "キャンセル"
     },
     "pidTuningResetProfile": {
-        "message": "全てのProfileをリセット"
+        "message": "全Profileをリセット"
     },
     "pidTuningProfileReset": {
         "message": "ロードされたデフォルトProfile"
@@ -2458,7 +2458,7 @@
         "message": "AUX 16"
     },
     "pidTuningBasic": {
-        "message": "基本 \/ アクロ"
+        "message": "ベーシック \/ アクロ"
     },
     "pidTuningYawJumpPrevention": {
         "message": "ヨージャンプ防止"
