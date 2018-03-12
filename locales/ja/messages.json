@@ -91,7 +91,7 @@
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusSonar": {
-        "message": "ソナー \/ ファインダー範囲"
+        "message": "ソナー \/ ファインダー"
     },
     "sensorStatusSonarShort": {
         "message": "Sonar",
@@ -470,10 +470,10 @@
         "message": "Betaflightドキュメントは、リリースノートおよび wiki にてご利用いただけます。<br \/><br \/>"
     },
     "defaultDocumentation1": {
-        "message": "Betaflight wiki はすばらしい情報リソースを<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">こちらで<\/a>検索・確認することができます。"
+        "message": "Betaflight wiki はすばらしい情報リソースを<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">こちら<\/a>で検索・確認することができます。"
     },
     "defaultDocumentation2": {
-        "message": "ファームウェア リリースノートは、GitHub リリース ページの<a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">こちらで<\/a>確認することができます。"
+        "message": "ファームウェア リリースノートは、GitHub リリースページの<a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">こちら<\/a>で確認することができます。"
     },
     "defaultSupportHead": {
         "message": "サポート"
@@ -524,7 +524,7 @@
         "message": "設定をリセット"
     },
     "initialSetupResetText": {
-        "message": "<strong>デフォルト<\/strong>設定に戻す"
+        "message": "<strong>デフォルト<\/strong>設定に戻します。"
     },
     "initialSetupButtonBackup": {
         "message": "バックアップ"
@@ -2069,10 +2069,10 @@
         "message": "FCボードを選択してください"
     },
     "firmwareFlasherOptionLabelSelectFirmwareVersion": {
-        "message": "ファームウェアのバージョンを選択してください"
+        "message": "ファームウェアバージョンを選択"
     },
     "firmwareFlasherOptionLabelSelectFirmwareVersionFor": {
-        "message": "ファームウェアのバージョンを選択してください"
+        "message": "ファームウェアバージョンを選択"
     },
     "firmwareFlasherButtonLoadLocal": {
         "message": "ファームウェアを選択 [Local]"
@@ -2105,7 +2105,7 @@
         "message": "メッセージ:"
     },
     "firmwareFlasherWarningText": {
-        "message": "このファームフラッシャーで<strong>Betaflight以外<\/strong>のフラッシュイメージを<span class=\"message-negative\">書換えないで<\/span>ください。<br \/>書換えをしている間はボードを<strong>取り外したり<\/strong>、コンピュータの<strong>電源を切ったり<\/strong><span class=\"message-negative\">しないで<\/span>ください。<br \/><br \/><strong>注:<\/strong> STM32ブートローダはROMに格納されており、レンダリングできません。<br \/><strong>注:<\/strong> ファームフラッシャーモードの間は、<span class=\"message-negative\">自動接続<\/span>は常に無効になっています。<br \/><strong>注:<\/strong> バックアップがあることを確認してください。アップグレード \/ ダウングレードでいくつかの設定が消去される場合があります。<br \/><strong>注:<\/strong> 書換えに問題がある場合は、<strong>FCから全てのケーブルを取り外し<\/strong>最初に再起動を行い、Chromeの最新アップグレード、ドライバのアップグレードをお試しください。<br \/><strong>注:<\/strong> (最新FCボードのほとんどの) 直接USBソケットを搭載しているFCボードに対して書換えるときは、Betaflightマニュアルの「USB Flashing」章を読み、正しいソフトウェアとドライバをインストールしてください。"
+        "message": "このファームフラッシャーで<strong>Betaflight以外<\/strong>のフラッシュイメージを<span class=\"message-negative\">書換えないで<\/span>ください。<br \/>書換えをしている間はボードを<strong>取り外したり<\/strong>、コンピュータの<strong>電源を切ったり<\/strong><span class=\"message-negative\">しないで<\/span>ください。<br \/><br \/><strong>注:<\/strong> STM32ブートローダはROMに格納されており、レンダリングできません。<br \/><strong>注:<\/strong> ファームフラッシャーモードの間は、<span class=\"message-negative\">自動接続<\/span>は常に無効になっています。<br \/><strong>注:<\/strong> バックアップがあることを確認してください。アップグレード \/ ダウングレードでいくつかの設定が消去される場合があります。<br \/><strong>注:<\/strong> 書換えに問題がある場合は、<strong>FCから全てのケーブルを取り外し<\/strong>最初に再起動を行い、Chromeの最新アップグレード、ドライバのアップグレードをお試しください。<br \/><strong>注:<\/strong> (最新FCボードのほとんどの) 直接USBソケットを搭載しているFCボードに対して書換えるときは、Betaflightマニュアルの [USB Flashing] 章を読み、正しいソフトウェアとドライバをインストールしてください。"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>リカバリー \/ 通信ロスト<\/strong>"
