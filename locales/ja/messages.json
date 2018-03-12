@@ -467,7 +467,7 @@
         "message": "ドキュメント \/ マニュアル"
     },
     "defaultDocumentation": {
-        "message": "Betaflightドキュメントはリリースノートと wiki でご利用いただけます。<br \/><br \/>"
+        "message": "Betaflightドキュメントは、リリースノートおよび wiki にてご利用いただけます。<br \/><br \/>"
     },
     "defaultDocumentation1": {
         "message": "Betaflight wiki は素晴らしい情報リソースを <a href=\"https:\/\/github.com\/betaflight\/betaflight<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">\/wiki\" target=\"_blank\">こちらで<\/a>見つけることができます。"
@@ -479,10 +479,10 @@
         "message": "サポート"
     },
     "defaultSupportSubline1": {
-        "message": "開発ソースをサポート"
+        "message": "開発元 サポートページ"
     },
     "defaultSupportSubline2": {
-        "message": "開発者"
+        "message": "開発者向けサイト"
     },
     "defaultSupport": {
         "message": "サポートに関しては、最初に検索フォーラムやwiki、もしくはベンダーにお問い合わせください。<br \/><br \/>"
