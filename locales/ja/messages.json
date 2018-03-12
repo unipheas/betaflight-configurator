@@ -962,10 +962,10 @@
         "message": "FCボードに電源が入ったときの初期ビープ音"
     },
     "beeperUSB": {
-        "message": "フライトコントローラがUSBから給電される際に鳴らすビープ音。作業時にビープ音を鳴らしたくない場合はオフにして下さい。"
+        "message": "フライトコントローラがUSB給電されたときのビープ音。機体作成時に鳴らしたくない場合はオフにして下さい。"
     },
     "beeperBLACKBOX_ERASE": {
-        "message": "ブラックボックスの消去が完了したときのビープ音"
+        "message": "ブラックボックスログ消去が完了したときのビープ音"
     },
     "configuration3d": {
         "message": "3D ESC \/ モーター機能"
@@ -1112,13 +1112,13 @@
         "message": "IRC Tramp"
     },
     "portsFunction_RUNCAM_DEVICE_CONTROL": {
-        "message": "RunCam デバイス"
+        "message": "RunCamデバイス"
     },
     "pidTuningProfileOption": {
-        "message": "プロファイル $1"
+        "message": "Profile $1"
     },
     "pidTuningRateProfileOption": {
-        "message": "レートプロファイル $1"
+        "message": "Rateprofile $1"
     },
     "portsFunction_LIDAR_TF": {
         "message": "Benewake LIDAR"
@@ -1148,16 +1148,16 @@
         "message": "Anti Gravity しきい値"
     },
     "pidTuningPidSettings": {
-        "message": "PID コントローラ設定"
+        "message": "PIDコントローラ設定"
     },
     "receiverRcInterpolation": {
         "message": "RC補間"
     },
     "receiverRcInterpolationHelp": {
-        "message": "RC送受信システムはPIDループほど速くありません。そのためRCシステムからの情報ではPIDループの中に隙間が発生します。このオプションではRCフレームが受信されない間のRC入力の補間を行います。このオプションを使うと制御信号の暴れがなくなり、より明瞭なP値、D値の挙動を提供します。"
+        "message": "RC送受信システムはPIDループほど速くありません。そのためRCシステムからの情報ではPIDループの中に信号の隙間が発生します。このオプションではRCフレームが受信されない間のRC入力の補間を行います。このオプションを使うと制御信号の暴れがなくなり、より明瞭なP値、D値の挙動を提供します。"
     },
     "receiverRcInterpolationIntervalHelp": {
-        "message": "ミリ秒単位での手動RC補間モードの補間間隔"
+        "message": "ミリ秒単位での手動RC補間モードにおける補間間隔"
     },
     "receiverRcInterpolationOff": {
         "message": "オフ"
@@ -1190,10 +1190,10 @@
         "message": "比例"
     },
     "pidTuningIntegral": {
-        "message": "インテグラル 積分"
+        "message": "インテグラル"
     },
     "pidTuningDerivative": {
-        "message": "デリバティブ 派生"
+        "message": "デリバティブ"
     },
     "pidTuningRcRate": {
         "message": "RCレート"
@@ -1208,7 +1208,7 @@
         "message": "Super レート"
     },
     "pidTuningRatesPreview": {
-        "message": "レート設定のプレビュー"
+        "message": "レート表示"
     },
     "pidTuningRcExpo": {
         "message": "RC Expo"
@@ -1238,19 +1238,19 @@
         "message": "更新"
     },
     "pidTuningProfileHead": {
-        "message": "プロファイル"
+        "message": "Profile"
     },
     "pidTuningControllerHead": {
-        "message": "PID コントローラ"
+        "message": "PIDコントローラ"
     },
     "pidTuningCopyProfile": {
-        "message": "プロファイルをコピー"
+        "message": "Profileをコピー"
     },
     "pidTuningCopyRateProfile": {
-        "message": "レートプロファイルをコピー"
+        "message": "Rateprofileをコピー"
     },
     "dialogCopyProfileText": {
-        "message": "現在のプロファイルをコピー"
+        "message": "現在のProfileをコピー"
     },
     "dialogCopyRateProfileText": {
         "message": "現在のレートプロファイルをコピー"
