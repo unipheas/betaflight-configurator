@@ -1304,7 +1304,7 @@
         "message": "スロットルExpo"
     },
     "receiverStickMin": {
-        "message": "「スティック・ロー」しきい値"
+        "message": "スティック低"
     },
     "receiverHelpStickMin": {
         "message": "スティックがコマンド入力の下 \/ 左として認識される (自身の) 最大値。(MIN_CHECK)"
@@ -1313,31 +1313,31 @@
         "message": "スティック中央"
     },
     "receiverHelpStickCenter": {
-        "message": "スティックが中央にあるかどうかを判断するために使用される (自身の) 値 (MID_RC)。"
+        "message": "スティックが中央にあるか否かを判断するための (自身の) 値。 (MID_RC)"
     },
     "receiverStickMax": {
-        "message": "「スティック・ハイ」しきい値"
+        "message": "スティック高"
     },
     "receiverHelpStickMax": {
         "message": "スティックがコマンド入力の 上 \/ 右 として認識される (自身の) 最小値。(MAX_CHECK)"
     },
     "receiverDeadband": {
-        "message": "RC デッドバンド"
+        "message": "RCデッドバンド"
     },
     "receiverHelpDeadband": {
         "message": "この値は、設定値とRC入力がどのくらい差異を許容するかの (自身の) 値です。出力ジッタがある送信機の場合、RC入力がアイドル状態で揺らぎがある場合、この値を大きくしていきます。"
     },
     "receiverYawDeadband": {
-        "message": "Yaw デッドバンド"
+        "message": "Yawデッドバンド"
     },
     "receiverHelpYawDeadband": {
         "message": "この値は、設定値とRC入力がどのくらい差異を許容するかの (自身の) 値です。出力ジッタがある送信機の場合、RC入力がアイドル状態で揺らぎがある場合、この値を大きくしていきます。<strong>この設定はヨー専用です。<\/strong>"
     },
     "recevier3dDeadbandThrottle": {
-        "message": "3D スロットルデッドバンド"
+        "message": "3Dスロットルデッドバンド"
     },
     "receiverHelp3dDeadbandThrottle": {
-        "message": "この (自身の) 値ですが、ニュートラル範囲を広げる場合には値を増加させます。 <strong>この設定は3Dスロットル専用です。<\/strong>"
+        "message": "この (自身の) 値ですが、ニュートラル範囲を広げるには値を大きくします。 <strong>この設定は3Dスロットル専用です。<\/strong>"
     },
     "receiverChannelMap": {
         "message": "チャンネルマップ"
@@ -1346,16 +1346,16 @@
         "message": "初期値"
     },
     "receiverChannelMapTitle": {
-        "message": "ボックスの中をクリックする事で、独自のチャンネルマップを定義できます"
+        "message": "ボックスをクリックする事で、独自のチャンネルマップを定義できます"
     },
     "receiverRssiChannel": {
-        "message": "RSSI チャンネル"
+        "message": "RSSIチャンネル"
     },
     "receiverRssiChannelDisabledOption": {
         "message": "無効"
     },
     "receiverRefreshRateTitle": {
-        "message": "グラフの更新頻度"
+        "message": "グラフ更新頻度"
     },
     "receiverButtonSave": {
         "message": "保存"
@@ -1364,10 +1364,10 @@
         "message": "更新"
     },
     "receiverButtonSticks": {
-        "message": "コントロール スティック"
+        "message": "コントロールスティック"
     },
     "receiverDataRefreshed": {
-        "message": "RCチューニングデータ <strong>更新<\/strong>"
+        "message": "RCチューニングデータ <strong>更新しました<\/strong>"
     },
     "receiverEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
@@ -1391,7 +1391,7 @@
         "message": "最大"
     },
     "auxiliaryAddRange": {
-        "message": "範囲を追加"
+        "message": "範囲追加"
     },
     "auxiliaryButtonSave": {
         "message": "保存"
