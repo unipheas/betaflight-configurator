@@ -809,7 +809,7 @@
         "message": "RSSI (信号強度)"
     },
     "configurationRSSIHelp": {
-        "message": "RSSIは信号強度の値で、飛行機が圏外になったときや、RF干渉を受けていることを確認でき非常に有益です。"
+        "message": "RSSIは信号強度の値で、機体が圏外になったときやRF干渉を受けていることを確認でき非常に有益です。"
     },
     "configurationEscFeatures": {
         "message": "ESC \/ モーター機能"
@@ -824,7 +824,7 @@
         "message": "<strong>注:<\/strong> SPI受信プロバイダは、必要なハードウェアが搭載されているかSPIバスに接続されている場合にのみ動作します。"
     },
     "configurationOtherFeaturesHelp": {
-        "message": "<strong>注:<\/strong> すべての機能がすべてのフライトコントローラでサポートされている訳ではありません。 特定の機能を有効にして「保存して再起動」した後でも無効になっている場合は、この機能がボード上でサポートされていないことを意味します。"
+        "message": "<strong>注:<\/strong> すべての機能がすべてのフライトコントローラでサポートされている訳ではありません。 特定の機能を有効にして [保存して再起動] した後でも無効になっている場合は、この機能がボード上でサポートされていないことを意味します。"
     },
     "configurationBoardAlignment": {
         "message": "FCボード＆センサー アライメント"
@@ -839,25 +839,25 @@
         "message": "ヨー角度"
     },
     "configurationSensorAlignmentGyro": {
-        "message": "GYRO アライメント"
+        "message": "GYROアライメント"
     },
     "configurationSensorAlignmentAcc": {
-        "message": "ACCEL アライメント"
+        "message": "ACCELアライメント"
     },
     "configurationSensorAlignmentMag": {
-        "message": "コンパス アライメント"
+        "message": "コンパスアライメント"
     },
     "configurationSensorAlignmentDefaultOption": {
         "message": "デフォルト"
     },
     "configurationAccelTrims": {
-        "message": "加速度センサー トリム"
+        "message": "加速度センサートリム"
     },
     "configurationAccelTrimRoll": {
-        "message": "加速度センサー ロールトリム"
+        "message": "加速度センサーロールトリム"
     },
     "configurationAccelTrimPitch": {
-        "message": "加速度センサー ピッチトリム"
+        "message": "加速度センサーピッチトリム"
     },
     "configurationArming": {
         "message": "アーミング"
@@ -869,10 +869,10 @@
         "message": "コンパス偏位 [deg]"
     },
     "configurationReverseMotorSwitch": {
-        "message": "モーターの回転方向を逆転させる．"
+        "message": "モーター回転方向を逆転"
     },
     "configurationReverseMotorSwitchHelp": {
-        "message": "このオプションを有効にすると、モーターとプロペラが逆方向に動作するよう設定されていることがBetaflightに反映されます。"
+        "message": "このオプションを有効にすると、モーターとプロペラが逆回転に動作するようBetaflightに設定・反映されます。"
     },
     "configurationAutoDisarmDelay": {
         "message": "設定後にモーターをディスアーム [seconds] (MOTOR_STOP機能必須)"
@@ -917,16 +917,16 @@
         "message": "ビープ音設定"
     },
     "beeperGYRO_CALIBRATED": {
-        "message": "ジャイロキャリブレーションされたときのビープ音"
+        "message": "GYROキャリブレーションしたときのビープ音"
     },
     "beeperRX_LOST": {
-        "message": "送信機がオフになったり、信号が失われたりするとビープ音を鳴らす (送信機が正常になるまで繰り返す)"
+        "message": "送信機がオフ、または信号消失時のビープ音 (正常になるまでリピート)"
     },
     "beeperRX_LOST_LANDING": {
         "message": "アームした際、送信機がオフになっているか、信号消失しているときにSOSビープ音を鳴らす (オートランディング \/ オートディスアーム)"
     },
     "beeperDISARMING": {
-        "message": "フライトコントローラを無効にするときのビープ音"
+        "message": "フライトコントローラをディスアームしたときのビープ音"
     },
     "beeperARMING": {
         "message": "フライトコントローラを作動させるときのビープ音"
