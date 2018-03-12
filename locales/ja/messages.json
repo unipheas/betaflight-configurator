@@ -506,7 +506,7 @@
         "message": "<span class=\"message-negative\">バックアップと復元の機能が無効です。<\/span>ファームウェアのAPIバージョンは<span class=\"message-negative\">$1<\/span>ですが、バックアップと復元には<span class=\"message-positive\">$2<\/span>が必要です。バックアップにはCLIをお使いください。方法についてはBetaflightドキュメントを参照して下さい。"
     },
     "initialSetupButtonCalibrateAccel": {
-        "message": "加速度センサー キャリブレーション"
+        "message": "水平 キャリブレーション"
     },
     "initialSetupCalibrateAccelText": {
         "message": "<strong>水平な場所<\/strong>に機体を置き、キャリブレーションを実行して下さい。キャリブレーションが終了するまで動かさないで下さい。"
@@ -839,13 +839,13 @@
         "message": "ヨー角度"
     },
     "configurationSensorAlignmentGyro": {
-        "message": "GYROアライメント"
+        "message": "Gyro アライメント"
     },
     "configurationSensorAlignmentAcc": {
-        "message": "ACCELアライメント"
+        "message": "Accel アライメント"
     },
     "configurationSensorAlignmentMag": {
-        "message": "コンパスアライメント"
+        "message": "コンパス アライメント"
     },
     "configurationSensorAlignmentDefaultOption": {
         "message": "デフォルト"
@@ -878,7 +878,7 @@
         "message": "設定後にモーターをディスアーム [seconds] (MOTOR_STOP機能必須)"
     },
     "configurationDisarmKillSwitch": {
-        "message": "スロットル値に関係なくモーターをディスアーム (ARMが [モード] タブのAUXチャンネルで設定されている場合)"
+        "message": "スロットル値に関係なくモーターをディスアーム<br \/> (ARMが [モード] タブのAUXチャンネルで設定されている場合)"
     },
     "configurationDisarmKillSwitchHelp": {
         "message": "スロットルが低位置でない場合、アーミングは常に無効となります。 飛行中にオプション有効スイッチを、誤って解除する可能性がありますので注意して下さい。"
@@ -1046,7 +1046,7 @@
         "message": "周辺機器"
     },
     "portsHelp": {
-        "message": "<strong>注:<\/strong> 全ての組み合わせが有効であるとは限りません。 フライトコント ローラのファームウェアはこれを検出し、シリアル ポートの設定がリセットされます。"
+        "message": "<strong>注:<\/strong> 全ての組み合わせが有効であるとは限りません。フライトコントローラのファームウェアはこれを検出し、シリアル ポートの設定がリセットされます。"
     },
     "portsMSPHelp": {
         "message": "<strong>注:<\/strong> 確実に設定内容を把握しない限り、最初のシリアルポートでMSPを<span class=\"message-negative\">無効にしないで<\/span>下さい。行った場合、ファームウェアの再フラッシュが必要になり、全ての設定が消去される場合があります。"
