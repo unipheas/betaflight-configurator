@@ -293,13 +293,13 @@
         "message": "読取り保護が有効ではありません"
     },
     "stm32ReadProtected": {
-        "message": "FCボードは読取り保護されたようです。読取り保護を解除します。切断 \/ 抜線しないでください！"
+        "message": "FCボードは読取り保護されたようです。読取り保護を解除します。切断 \/ 抜線しないで下さい！"
     },
     "stm32UnprotectSuccessful": {
         "message": "正常にインポートされました。"
     },
     "stm32UnprotectUnplug": {
-        "message": "必要な処置: DFUモードでフライトコントローラとのケーブルを抜き、再度接続して書換えを再試行してください！"
+        "message": "必要な処置: DFUモードでフライトコントローラとのケーブルを抜き、再度接続して書換えを再試行して下さい！"
     },
     "stm32UnprotectFailed": {
         "message": "FCボードの保護を解除できませんでした"
@@ -311,13 +311,13 @@
         "message": "<span class=\"message-negative\">10秒<\/span>以内に構成情報を受信できず、通信に<span class=\"message-negative\">失敗<\/span>しました。"
     },
     "firmwareVersionNotSupported": {
-        "message": "このファームウェアバージョンは<span class=\"message-negative\">サポートされていません<\/span>。<strong>$1<\/strong>以上のバージョンのAPIをサポートするファームウェアにアップグレードしてください。書換えする前にCLIを使用してバックアップしてください。CLIのバックアップ \/ リストア手順はドキュメントに記載されています。<br \/>または、アップグレードする準備ができていない場合は、旧バージョンのConfiguratorをダウンロードして使用してください。"
+        "message": "このファームウェアバージョンは<span class=\"message-negative\">サポートされていません<\/span>。<strong>$1<\/strong>以上のバージョンのAPIをサポートするファームウェアにアップグレードして下さい。書換えする前にCLIを使用してバックアップして下さい。CLIのバックアップ \/ リストア手順はドキュメントに記載されています。<br \/>または、アップグレードする準備ができていない場合は、旧バージョンのConfiguratorをダウンロードして使用して下さい。"
     },
     "firmwareTypeNotSupported": {
         "message": "CLIモードを除き、Cleanflight \/ Betaflight 以外のファームウェアは<span class=\"message-negative\">サポートされていません<\/span>。"
     },
     "firmwareUpgradeRequired": {
-        "message": "このデバイスのファームウェアは、新しいバージョンにアップグレードする必要があります。 書換えする前にCLIを使用してバックアップしてください。 CLIのバックアップ \/ リストア手順はドキュメントに記載されています。<br \/>または、アップグレードする準備ができていない場合は、旧バージョンのConfiguratorをダウンロードして使用してください。"
+        "message": "このデバイスのファームウェアは、新しいバージョンにアップグレードする必要があります。 書換えする前にCLIを使用してバックアップして下さい。 CLIのバックアップ \/ リストア手順はドキュメントに記載されています。<br \/>または、アップグレードする準備ができていない場合は、旧バージョンのConfiguratorをダウンロードして使用して下さい。"
     },
     "infoVersions": {
         "message": "実行中 - OS: <strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Configurator: <strong>$3<\/strong>"
@@ -338,7 +338,7 @@
         "message": "いずれかのタブを表示するには、<strong>接続<\/strong>する必要があります。"
     },
     "tabSwitchWaitForOperation": {
-        "message": "今この操作を行うことは<span class=\"message-negative\">できません<\/span>。現在の操作が完了するまでお待ちください..."
+        "message": "今この操作を行うことは<span class=\"message-negative\">できません<\/span>。現在の操作が完了するまでお待ち下さい..."
     },
     "tabSwitchUpgradeRequired": {
         "message": "$1タブを使用するには、ファームウェアをBetaflightの最新バージョンに<strong>アップグレード<\/strong>する必要があります。"
@@ -413,7 +413,7 @@
         "message": "CPU使用率: $1%"
     },
     "dfu_connect_message": {
-        "message": "DFUデバイスへのアクセスはファームフラッシャーを使用してください"
+        "message": "DFUデバイスへのアクセスはファームフラッシャーを使用して下さい"
     },
     "dfu_erased_kilobytes": {
         "message": "フラッシュメモリ内の$1 KBを<span class=\"message-positive\">正常<\/span>に消去しました。"
@@ -434,7 +434,7 @@
         "message": "ハードウェア"
     },
     "defaultWelcomeText": {
-        "message": "このアプリケーションは、Betaflightを実行できるすべてのハードウェアをサポートしています。対応するハードウェアの完全なリストについては、[書換え] タブを確認ください。<br><br><a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\">Betaflight ブラックボックスをダウンロード<\/a><br \/><br \/>ファームウェアのソースコードは<a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/>最新のバイナリファームウェアイメージは<a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/><br \/>最新の<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210xドライバ<\/a>は<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">こちら<\/a><br \/>最新の<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCPドライバ<\/a>は<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">こちら<\/a><br \/>最新のWindows用<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> USBドライバのインストーラは<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">こちら<\/a><br \/>"
+        "message": "このアプリケーションは、Betaflightを実行できるすべてのハードウェアをサポートしています。対応するハードウェアの完全なリストについては、[書換え] タブを確認して下さい。<br><br><a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\">Betaflight ブラックボックスをダウンロード<\/a><br \/><br \/>ファームウェアのソースコードは<a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/>最新のバイナリファームウェアイメージは<a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/><br \/>最新の<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210xドライバ<\/a>は<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">こちら<\/a><br \/>最新の<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCPドライバ<\/a>は<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">こちら<\/a><br \/>最新のWindows用<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> USBドライバのインストーラは<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">こちら<\/a><br \/>"
     },
     "defaultContributingHead": {
         "message": "開発への協力・貢献"
@@ -455,7 +455,7 @@
         "message": "オープンソース \/ 寄付について"
     },
     "defaultDonateText": {
-        "message": "このユーティリティは完全な<strong>オープンソース<\/strong>として、<strong>Betaflight<\/strong>ユーザに対し無償で提供されています。<br \/>もし、あなたがBetaflightやBetaflight Configuratorが非常に便利だと感じ、<strong>サポートしたい！<\/strong>と思ったら、ぜひ寄付をご検討ください。"
+        "message": "このユーティリティは完全な<strong>オープンソース<\/strong>として、<strong>Betaflight<\/strong>ユーザに対し無償で提供されています。<br \/>もし、あなたがBetaflightやBetaflight Configuratorが非常に便利だと感じ、<strong>サポートしたい！<\/strong>と思ったら、ぜひ寄付をご検討下さい。"
     },
     "defaultDonate": {
         "message": "寄付"
@@ -485,7 +485,7 @@
         "message": "開発者向けサイト"
     },
     "defaultSupport": {
-        "message": "サポートに関しては、最初に検索フォーラムやwiki、もしくはベンダーにお問い合わせください。<br \/><br \/>"
+        "message": "サポートに関しては、最初に検索フォーラムやwiki、もしくはベンダーにお問い合わせ下さい。<br \/><br \/>"
     },
     "defaultSupport1": {
         "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">RC Groups スレッド<\/a>"
@@ -503,19 +503,19 @@
         "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Betaflight devs on slack<\/a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
-        "message": "<span class=\"message-negative\">バックアップと復元の機能が無効です。<\/span>ファームウェアのAPIバージョンは<span class=\"message-negative\">$1<\/span>ですが、バックアップと復元には<span class=\"message-positive\">$2<\/span>が必要です。バックアップにはCLIをお使いください。方法についてはBetaflightドキュメントを参照してください。"
+        "message": "<span class=\"message-negative\">バックアップと復元の機能が無効です。<\/span>ファームウェアのAPIバージョンは<span class=\"message-negative\">$1<\/span>ですが、バックアップと復元には<span class=\"message-positive\">$2<\/span>が必要です。バックアップにはCLIをお使いください。方法についてはBetaflightドキュメントを参照して下さい。"
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "加速度センサー キャリブレーション"
     },
     "initialSetupCalibrateAccelText": {
-        "message": "<strong>水平な場所<\/strong>に機体を置き、キャリブレーションを実行してください。キャリブレーションが終了するまで動かさないでください。"
+        "message": "<strong>水平な場所<\/strong>に機体を置き、キャリブレーションを実行して下さい。キャリブレーションが終了するまで動かさないで下さい。"
     },
     "initialSetupButtonCalibrateMag": {
         "message": "コンパス キャリブレーション"
     },
     "initialSetupCalibrateMagText": {
-        "message": "マルチローター機を最低でも<strong>360度<\/strong>、全ての軸にて回転させてください。これを行うのに30秒かかります。"
+        "message": "マルチローター機を最低でも<strong>360度<\/strong>、全ての軸にて回転させて下さい。これを行うのに30秒かかります。"
     },
     "initialSetupButtonCalibratingText": {
         "message": "キャリブレーション中..."
@@ -533,7 +533,7 @@
         "message": "リストア"
     },
     "initialSetupBackupRestoreText": {
-        "message": "不測の事態に備え必ず設定の<strong>バックアップ<\/strong>をしてください。<strong>CLI<\/strong>設定は<span class=\"message-negative\">自動バックアップされません<\/span>。 - [dump] コマンドを参照してください。"
+        "message": "不測の事態に備え必ず設定の<strong>バックアップ<\/strong>をして下さい。<strong>CLI<\/strong>設定は<span class=\"message-negative\">自動バックアップされません<\/span>。 - [dump] コマンドを参照して下さい。"
     },
     "initialSetupBackupSuccess": {
         "message": "バックアップが<span class=\"message-positive\">正常<\/span>に保存されました"
@@ -626,7 +626,7 @@
         "message": "アーム許可"
     },
     "initialSetupArmingDisableFlagsTooltip": {
-        "message": "アームが現在許可されていない理由を示すフラグのリストです。最初に最も重要な値としては、アームが行われたときの警告ビープ音の数を示します。これらのフラグの詳細については、Wiki 「Arming Sequence＆Safety」ページを参照してください。"
+        "message": "アームが現在許可されていない理由を示すフラグのリストです。最初に最も重要な値としては、アームが行われたときの警告ビープ音の数を示します。これらのフラグの詳細については、Wiki (Arming Sequence＆Safety) ページを参照して下さい。"
     },
     "initialSetupGPSHead": {
         "message": "GPS"
@@ -686,7 +686,7 @@
         "message": "CPUベースのシリアルポートを有効にします"
     },
     "featureSOFTSERIALTip": {
-        "message": "有効後、[ポート] タブよりポートの設定をしてください。"
+        "message": "有効後 [ポート] タブよりポートの設定をして下さい。"
     },
     "featureGPS": {
         "message": "ナビゲーションとテレメトリー用のGPS"
@@ -734,7 +734,7 @@
         "message": "ブラックボックス フライトデータレコーダー"
     },
     "featureBLACKBOXTip": {
-        "message": "有効後、[ブラックボックス] タブで設定をしてください。"
+        "message": "有効後 [ブラックボックス] タブで設定をして下さい。"
     },
     "featureRX_SPI": {
         "message": "SPI受信サポート"
@@ -749,7 +749,7 @@
         "message": "トランスポンダー"
     },
     "featureTRANSPONDERTip": {
-        "message": "有効後、[トランスポンダー] タブで設定をしてください。"
+        "message": "有効後 [トランスポンダー] タブで設定をして下さい。"
     },
     "featureAIRMODE": {
         "message": "エアモードを常時使用します"
@@ -815,10 +815,10 @@
         "message": "ESC \/ モーター機能"
     },
     "configurationFeaturesHelp": {
-        "message": "<strong>注:<\/strong> 機能のすべての組み合わせが有効な訳ではありません。 フライトコントローラファームウェアが無効な機能の組み合わせを検出すると、競合する機能が無効になります。<br \/><strong>注:<\/strong> ポートを使用する機能を<span class=\"message-negative\">有効にする前に<\/span>シリアルポートを設定してください。"
+        "message": "<strong>注:<\/strong> 機能のすべての組み合わせが有効な訳ではありません。 フライトコントローラファームウェアが無効な機能の組み合わせを検出すると、競合する機能が無効になります。<br \/><strong>注:<\/strong> ポートを使用する機能を<span class=\"message-negative\">有効にする前に<\/span>シリアルポートを設定して下さい。"
     },
     "configurationSerialRXHelp": {
-        "message": "<strong>注:<\/strong> RX_SERIALを使う場合、シリアルポート ( [ポート] タブ) を設定し、シリアル受信プロバイダを忘れず選択ください。"
+        "message": "<strong>注:<\/strong> RX_SERIALを使う場合、シリアルポート ( [ポート] タブ) を設定し、シリアル受信プロバイダを忘れず選択して下さい。"
     },
     "configurationSpiRxHelp": {
         "message": "<strong>注:<\/strong> SPI受信プロバイダは、必要なハードウェアが搭載されているかSPIバスに接続されている場合にのみ動作します。"
@@ -881,13 +881,13 @@
         "message": "スロットル値に関係なくモーターをディスアーム (ARMが [モード] タブのAUXチャンネルで設定されている場合)"
     },
     "configurationDisarmKillSwitchHelp": {
-        "message": "スロットルが低位置でない場合、アーミングは常に無効となります。 飛行中にオプション有効スイッチを、誤って解除する可能性がありますので注意してください。"
+        "message": "スロットルが低位置でない場合、アーミングは常に無効となります。 飛行中にオプション有効スイッチを、誤って解除する可能性がありますので注意して下さい。"
     },
     "configurationDigitalIdlePercent": {
         "message": "モーターアイドルスロットル値 [percent]"
     },
     "configurationDigitalIdlePercentHelp": {
-        "message": "機体がアームし、スロットルスティックが最小位置にあるときにESCに送信される最大スロットルの「アイドル」値です。より安定したアイドリング速度を得るためにパーセント値を増加させてください。"
+        "message": "機体がアームし、スロットルスティックが最小位置にあるときにESCに送信される最大スロットルの [アイドル\n値] です。より安定したアイドリング速度を得るためにパーセント値を増加させてください。"
     },
     "configurationThrottleMinimum": {
         "message": "最小スロットル値 (アーム時の最小ESC値)"
