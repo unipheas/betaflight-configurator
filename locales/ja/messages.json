@@ -2221,7 +2221,7 @@
         "description": "One of the modes of the Led Strip"
     },
     "ledStripFunctionRingOption": {
-        "message": "リング",
+        "message": "着信音",
         "description": "One of the modes of the Led Strip"
     },
     "ledStripColorModifierTitle": {
