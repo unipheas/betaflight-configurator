@@ -42,7 +42,7 @@
         "message": "Expertモード常時有効"
     },
     "userLanguageSelect": {
-        "message": "言語設定 (変更を有効にするにはConfiguratorを再起動してください)"
+        "message": "言語設定 (変更を有効にするにはConfiguratorを再起動して下さい)"
     },
     "language_default": {
         "message": "初期値"
@@ -101,7 +101,7 @@
         "message": "未検証バージョンの更新通知を表示"
     },
     "configuratorUpdateNotice": {
-        "message": "お使いの<b>Betaflight Configurator<\/b>は旧バージョンです。<br>Version <b>$1<\/b> が利用可能です。 <a href=\"$2\" target=\"_blank\">リリースページ<\/a>から修正・機能向上した最新版をダウンロードしてインストールしてください。<br>注意: 更新する前にConfiguratorを閉じてください。"
+        "message": "お使いの<b>Betaflight Configurator<\/b>は旧バージョンです。<br>Version <b>$1<\/b> が利用可能です。 <a href=\"$2\" target=\"_blank\">リリースページ<\/a>から修正・機能向上した最新版をダウンロードしてインストールして下さい。<br>注意: 更新する前にConfiguratorを閉じて下さい。"
     },
     "configuratorUpdateWebsite": {
         "message": "リリースサイトに移動"
@@ -233,7 +233,7 @@
         "message": "USBデバイスは<span class=\"message-negative\">切断できません<\/span>"
     },
     "usbDeviceUdevNotice": {
-        "message": "<strong>udevルール<\/strong> が正しくインストールされていますか？手順についてはドキュメントを参照ください。"
+        "message": "<strong>udevルール<\/strong> が正しくインストールされていますか？手順についてはドキュメントを参照して下さい。"
     },
     "stm32UsbDfuNotFound": {
         "message": "USBデバイスがDFUモードになっていません"
@@ -281,10 +281,10 @@
         "message": "処理: 失敗"
     },
     "stm32AddressLoadFailed": {
-        "message": "オプションバイトセクターのアドレスの読み込みに失敗しました。読取り保護が原因の可能性があります。"
+        "message": "オプションバイトセクターのアドレスの読込みに失敗しました。読取り保護が原因の可能性があります。"
     },
     "stm32AddressLoadSuccess": {
-        "message": "オプションバイトセクターのアドレス読み込みに成功しました。"
+        "message": "オプションバイトセクターのアドレス読込みに成功しました。"
     },
     "stm32AddressLoadUnknown": {
         "message": "オプションバイトセクターのアドレス呼び出しが、原因不明のエラーで失敗しました。中止しています。"
@@ -326,7 +326,7 @@
         "message": "$1 GitHubより、リリース情報を受信しました。"
     },
     "releaseCheckFailed": {
-        "message": "<b>GitHub情報 $1リリースの読み込みに失敗した為、キャッシュ情報を使用します。理由: <code>$2<\/code><\/b>"
+        "message": "<b>GitHub情報 $1リリースの読込みに失敗した為、キャッシュ情報を使用します。理由: <code>$2<\/code><\/b>"
     },
     "releaseCheckCached": {
         "message": "$1リリースのキャッシュされた情報を使用します。"
@@ -2129,7 +2129,7 @@
         "message": "<span class=\"message-positive\">リモートファームウェアがロードされ、書換え準備ができました<\/span>"
     },
     "firmwareFlasherFailedToLoadOnlineFirmware": {
-        "message": "リモートファームウェアの読み込みに失敗しました"
+        "message": "リモートファームウェアの読込みに失敗しました"
     },
     "firmwareFlasherNoFirmwareSelected": {
         "message": "<b>ロードするファームウェアが選択されていません<\/b>"
