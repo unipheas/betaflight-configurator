@@ -1409,13 +1409,13 @@
         "message": "例"
     },
     "adjustmentsExample1": {
-        "message": "AUX1のスロット1と、3ポジションスイッチを使用しピッチ \/ ロール、PIDの設定を、AUX2の別の3ポジションスイッチを選択し、上下することで値を増減させます。"
+        "message": "AUX1のスロット1と3ポジションスイッチを使用し、ピッチ \/ ロール、PIDの設定を、AUX2の別の3ポジションスイッチを選択し、上下することで値を増減させます。"
     },
     "adjustmentsExample2": {
         "message": "AUX4のスロット2と3ポジションスイッチを選択し、かつ同じチャンネルの3ポジションスイッチを使用することでRateprofile変更を有効にすることができます。"
     },
     "adjustmentsColumnEnable": {
-        "message": "もし有効ならば"
+        "message": "有効 \/ 無効"
     },
     "adjustmentsColumnUsingSlot": {
         "message": "使用スロット"
@@ -1424,10 +1424,10 @@
         "message": "チャンネル"
     },
     "adjustmentsColumnIsInRange": {
-        "message": "レンジ内ならば"
+        "message": "有効範囲"
     },
     "adjustmentsColumnThenApplyFunction": {
-        "message": "適用する"
+        "message": "適用設定"
     },
     "adjustmentsColumnViaChannel": {
         "message": "チャンネル"
