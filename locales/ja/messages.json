@@ -254,10 +254,10 @@
         "message": "ブートローダーからの応答がありません。処理: 失敗"
     },
     "stm32GlobalEraseExtended": {
-        "message": "完全消去を実行中... (拡張機能より)"
+        "message": "完全消去を実行中... (拡張消去)"
     },
     "stm32LocalEraseExtended": {
-        "message": "ローカル消去を実行中... (拡張機能より)"
+        "message": "ローカル消去を実行中... (拡張消去)"
     },
     "stm32GlobalErase": {
         "message": "完全消去を実行中..."
