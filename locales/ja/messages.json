@@ -185,7 +185,7 @@
         "message": "センサー"
     },
     "tabCLI": {
-        "message": "CLI [コマンドライン]"
+        "message": "CLI コマンドライン"
     },
     "tabLogging": {
         "message": "テザーロギング"
@@ -200,10 +200,10 @@
         "message": "モード"
     },
     "logActionHide": {
-        "message": "ログの非表示"
+        "message": "ログ非表示"
     },
     "logActionShow": {
-        "message": "ログの表示"
+        "message": "ログ表示"
     },
     "serialPortOpened": {
         "message": "ID: $1のシリアルポートへ<span class=\"message-positive\">正常<\/span>に接続しています"
@@ -254,13 +254,13 @@
         "message": "ブートローダーからの応答がありません。処理: 失敗"
     },
     "stm32GlobalEraseExtended": {
-        "message": "全消去を実行中... (拡張機能より)"
+        "message": "完全消去を実行中... (拡張機能より)"
     },
     "stm32LocalEraseExtended": {
         "message": "ローカル消去を実行中... (拡張機能より)"
     },
     "stm32GlobalErase": {
-        "message": "全消去を実行中..."
+        "message": "完全消去を実行中..."
     },
     "stm32LocalErase": {
         "message": "ローカル消去を実行中 ..."
@@ -281,7 +281,7 @@
         "message": "処理: 失敗"
     },
     "stm32AddressLoadFailed": {
-        "message": "オプションバイトセクターのアドレスの読み込みに失敗しました。読み取り保護が原因の可能性があります。"
+        "message": "オプションバイトセクターのアドレスの読み込みに失敗しました。読取り保護が原因の可能性があります。"
     },
     "stm32AddressLoadSuccess": {
         "message": "オプションバイトセクターのアドレス読み込みに成功しました。"
@@ -290,10 +290,10 @@
         "message": "オプションバイトセクターのアドレス呼び出しが、原因不明のエラーで失敗しました。中止しています。"
     },
     "stm32NotReadProtected": {
-        "message": "読み取り保護が有効ではありません"
+        "message": "読取り保護が有効ではありません"
     },
     "stm32ReadProtected": {
-        "message": "FCボードは読み取り保護されたようです。読み取り保護を解除します。切断 \/ 抜線しないでください！"
+        "message": "FCボードは読取り保護されたようです。読取り保護を解除します。切断 \/ 抜線しないでください！"
     },
     "stm32UnprotectSuccessful": {
         "message": "正常にインポートされました。"
@@ -1817,10 +1817,10 @@
         "message": "こちらにコマンドを書いてください"
     },
     "cliEnter": {
-        "message": "CLI モードを検出"
+        "message": "CLIモードを検出"
     },
     "cliReboot": {
-        "message": "CLI リブートを検出"
+        "message": "CLIリブートを検出"
     },
     "cliSaveToFileBtn": {
         "message": "ファイルへ保存"
