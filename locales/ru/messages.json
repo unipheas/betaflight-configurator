@@ -1149,6 +1149,12 @@
     "pidTuningDtermSetpointTransition": {
         "message": "D Setpoint transition"
     },
+    "pidTuningDtermSetpointTransitionHelp": {
+        "message": "Этот параметр снижает значение D Setpoint Weight, когда стики находятся в районе центра, что делает завершение флипов и роллов более плавными.<br> Он означает отклонение стика: 0 - стик в центре, 1 - полное отклонение стика. Когда стик находится выше этого значения, то Setpoint Weight имеет установленное значение. Когда стик находится ниже этого значения, то Setpoint Weight уменьшается пропорционально, достигая 0, когда стик находятся в центре.<br> Значение 1 даёт максимальный сглаживающий эффект, а значение 0 сохраняет установленное значение Setpoint Weight при любом отклонении стика."
+    },
+    "pidTuningDtermSetpointHelp": {
+        "message": "Этот параметр определяет эффект ускорения компоненты D.<br> Значение 0 эквивалентно методу, основанному на измерении (Derivative Method: Measurement), где D учитывает только параметры гироскопа, а значение 1 эквивалентно методу, основанному на ошибке (Derivative Method: Error), в котором учитываются параметры гироскопа и отклонение стиков.<br>Низкое значение соответствует медленной\/плавной отзывчивости стиков, а высокое значение обеспечивает большую отзывчивость на ускорение стиков.<br>Обратите внимание, что рекомендуется включить RC интерполяцию с более высоким значением, чтобы предотвратить скачки управления, создающие шумы."
+    },
     "pidTuningProportional": {
         "message": "Proportional"
     },
@@ -1210,7 +1216,7 @@
         "message": "Скопир. значения профиля"
     },
     "pidTuningCopyRateProfile": {
-        "message": "Скопир. значения rate-профиля"
+        "message": "Скопир. значения Rate-профиля"
     },
     "dialogCopyRateProfileText": {
         "message": "Скопируйте значения из текущей rate-профиля на"
@@ -1271,6 +1277,9 @@
     },
     "receiverModelPreview": {
         "message": "Предпросмотр"
+    },
+    "auxiliaryHelp": {
+        "message": "Используйте ползунки диапазона, чтобы назначить соответствующий режим в переключателях вашей аппаратуры управления. Если в приёмнике значение указанного канала будет находится в указанном диапазоне Мин.\/Макс., то соответствующий режим будет активирован. Не забудьте сохранить настройки нажав кнопку \"Сохранить\"."
     },
     "auxiliaryMin": {
         "message": "Мин."
@@ -1587,6 +1596,12 @@
     "firmwareFlasherReleaseName": {
         "message": "Название\/Версия:"
     },
+    "firmwareFlasherReleaseVersionUrl": {
+        "message": "Перейти на страницу релиза."
+    },
+    "firmwareFlasherReleaseNotes": {
+        "message": "Замечания к версии:"
+    },
     "firmwareFlasherReleaseDate": {
         "message": "Дата:"
     },
@@ -1594,7 +1609,16 @@
         "message": "Состояние:"
     },
     "firmwareFlasherReleaseTarget": {
-        "message": "Цель:"
+        "message": "Объект:"
+    },
+    "firmwareFlasherReleaseFile": {
+        "message": "Файл прошивки:"
+    },
+    "firmwareFlasherReleaseFileUrl": {
+        "message": "Скачать самостоятельно."
+    },
+    "firmwareFlasherTargetWarning": {
+        "message": "<span class=\"message-negative\">Важно<\/span>: Убедитесь, что файл прошивки соответствует Вашему полётному контроллеру. Прошивка, залитая в неподходящий для неё полётный контроллер может привести к <span class=\"message-negative\">плохим последствиям<\/span>."
     },
     "firmwareFlasherPath": {
         "message": "Путь:"
@@ -1611,14 +1635,29 @@
     "firmwareFlasherLoadFirmwareFile": {
         "message": "Пожалуйста, загрузите файл прошивки"
     },
+    "firmwareFlasherOnlineSelectBoardDescription": {
+        "message": "Выбрав из списка полётный контроллер, вы увидите доступные для скачивания версии прошивок. Выберите прошивку, подходящую для Вашего полётного контроллера."
+    },
     "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
         "message": "Выберите версию прошивки Вашей платы"
+    },
+    "firmwareFlasherNoRebootDescription": {
+        "message": "Включите её, если ваш полётный контроллер находится в boot-режиме, т.е. если Вы подключили питание полётного контроллера с замкнутыми контактами \"BOOT\" или удерживая кнопку \"BOOT\"."
     },
     "firmwareFlasherFullChipErase": {
         "message": "Полное стирание чипа"
     },
+    "firmwareFlasherFullChipEraseDescription": {
+        "message": "Очищает все данные о настройках, хранящиеся памяти в полётного контроллера."
+    },
     "firmwareFlasherManualPort": {
         "message": "Порт"
+    },
+    "firmwareFlasherManualBaud": {
+        "message": "Ручной битрейт"
+    },
+    "firmwareFlasherManualBaudDescription": {
+        "message": "Выберите скорость передачи вручную, если ваш полётный контроллер не поддерживает стандартную скорость прошивки либо, если Вы прошиваете через bluethooth.<br \/><span class=\"message-negative\">Примечание:<\/span> Не используется при прошивке в режиме DFU"
     },
     "firmwareFlasherBaudRate": {
         "message": "Скорость передачи"
@@ -1626,14 +1665,29 @@
     "firmwareFlasherShowDevelopmentReleases": {
         "message": "Показать нестабильные релизы"
     },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "Показывать релиз-кандидаты и версии, находящиеся в стадии разработки."
+    },
     "firmwareFlasherOptionLoading": {
         "message": "Загрузка..."
     },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Выбрать Прошивку \/ Плату"
     },
+    "firmwareFlasherOptionLabelSelectBoard": {
+        "message": "Выберите полётный контроллер"
+    },
+    "firmwareFlasherOptionLabelSelectFirmwareVersion": {
+        "message": "Выберите версию прошивки"
+    },
+    "firmwareFlasherOptionLabelSelectFirmwareVersionFor": {
+        "message": "Выберите версию прошивкия для"
+    },
     "firmwareFlasherButtonLoadLocal": {
         "message": "Загрузить прошивку [Local]"
+    },
+    "firmwareFlasherButtonLoadOnline": {
+        "message": "Загрузить прошивку [Online]"
     },
     "firmwareFlasherDate": {
         "message": "Дата:"
