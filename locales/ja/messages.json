@@ -644,10 +644,10 @@
         "message": "$1 度"
     },
     "initialSetupAccelCalibStarted": {
-        "message": "加速度センサーのキャリブレーションを開始"
+        "message": "加速度センサー キャリブレーション 開始"
     },
     "initialSetupAccelCalibEnded": {
-        "message": "加速度センサーのキャリブレーション<span class=\"message-positive\">終了<\/span>"
+        "message": "加速度センサー キャリブレーション<span class=\"message-positive\">終了<\/span>"
     },
     "initialSetupMagCalibStarted": {
         "message": "コンパスのキャリブレーションを開始"
@@ -845,7 +845,7 @@
         "message": "ACCEL アライメント"
     },
     "configurationSensorAlignmentMag": {
-        "message": "コンパスアライメント"
+        "message": "コンパス アライメント"
     },
     "configurationSensorAlignmentDefaultOption": {
         "message": "デフォルト"
@@ -866,7 +866,7 @@
         "message": "アーミングオプションによっては、加速度センサーを有効にする必要があります"
     },
     "configurationMagDeclination": {
-        "message": "コンパスの偏位 [deg]"
+        "message": "コンパス偏位 [deg]"
     },
     "configurationReverseMotorSwitch": {
         "message": "モーターの回転方向を逆転させる．"
@@ -947,10 +947,10 @@
         "message": "スティックが無効位置にある間に鳴らすビープ音"
     },
     "beeperACC_CALIBRATION": {
-        "message": "加速度センサーキャリブレーション完了の確認"
+        "message": "加速度センサー キャリブレーションの完了確認"
     },
     "beeperACC_CALIBRATION_FAIL": {
-        "message": "加速度センサーキャリブレーションに失敗しました"
+        "message": "加速度センサー キャリブレーションに失敗"
     },
     "beeperREADY_BEEP": {
         "message": "GPSの捕捉と準備ができたときトーンを鳴らす"
@@ -1943,13 +1943,13 @@
         "message": "キャンセル"
     },
     "dataflashFileWriteFailed": {
-        "message": "選択されたファイルへの書込みが失敗しました。フォルダの管理者権限を確認するか、別の場所を選択してください。"
+        "message": "選択されたファイルへの書込みが失敗しました。フォルダの管理者権限を確認するか、別の場所を選択して下さい。"
     },
     "sdcardStatusNoCard": {
         "message": "カードが挿入されていません"
     },
     "sdcardStatusReboot": {
-        "message": "致命的なエラー<br>再起動してください"
+        "message": "致命的なエラーです。<br>再起動して下さい"
     },
     "sdcardStatusReady": {
         "message": "カード使用可能"
@@ -1970,7 +1970,7 @@
         "message": "名前 \/ バージョン:"
     },
     "firmwareFlasherReleaseVersionUrl": {
-        "message": "リリースページを参照ください。"
+        "message": "リリースページを参照下さい。"
     },
     "firmwareFlasherReleaseNotes": {
         "message": "リリースノート:"
@@ -1988,10 +1988,10 @@
         "message": "バイナリ:"
     },
     "firmwareFlasherReleaseStatusReleaseCandidate": {
-        "message": "<span class=\"message-negative\">重要: このファームウェアリリースは現在、リリース候補としてマークされています。 問題があれば直ちに報告してください。<\/span>"
+        "message": "<span class=\"message-negative\">重要: このファームウェアリリースは現在、リリース候補としてマークされています。 問題があれば直ちに報告して下さい。<\/span>"
     },
     "firmwareFlasherReleaseFileUrl": {
-        "message": "手動でダウンロードしてください。"
+        "message": "手動でダウンロードして下さい。"
     },
     "firmwareFlasherTargetWarning": {
         "message": "<span class=\"message-negative\">重要:<\/span> チップセットに即したファームウェアを書込みするようにしてください。 間違ったファームウェアを書き込みさせると、<span class=\"message-negative\">最悪な問題<\/span>が起こってしまう可能性があります。"
