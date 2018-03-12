@@ -2509,10 +2509,10 @@
         "message": "Profile毎のPID制御設定"
     },
     "pidTuningGyroLowpassFrequency": {
-        "message": "ジャイロ ローパスフィルタ周波数 [Hz]"
+        "message": "ジャイロ ローパス周波数 [Hz]"
     },
     "pidTuningGyroLowpassFrequencyHelp": {
-        "message": "ジャイロ ローパスフィルタ周波数 [Hz]"
+        "message": "ジャイロ ローパス周波数 [Hz]"
     },
     "pidTuningGyroNotch1Enable": {
         "message": "ジャイロ ノッチフィルター1 を有効"
@@ -2542,31 +2542,31 @@
         "message": "フィルター設定"
     },
     "pidTuningDTermLowpassType": {
-        "message": "D値 ローパスフィルター"
+        "message": "D ローパスフィルター"
     },
     "pidTuningDTermLowpassTypeTip": {
-        "message": "D値 ローパスフィルタータイプの使用タイプを選択します。初期値はBIQUADです。"
+        "message": "D ローパスフィルタータイプの使用タイプを選択します。初期値はBIQUADです。"
     },
     "pidTuningDTermLowpassFrequency": {
-        "message": "D値 ローパス周波数 [Hz]"
+        "message": "D ローパス周波数 [Hz]"
     },
     "pidTuningDTermLowpassFrequencyHelp": {
-        "message": "D値 ローパス周波数 [Hz] (0は無効)"
+        "message": "D ローパス周波数 [Hz] (0は無効)"
     },
     "pidTuningDTermNotchEnable": {
-        "message": "D値 ノッチフィルターを有効"
+        "message": "D ノッチフィルター有効"
     },
     "pidTuningDTermNotchFrequency": {
-        "message": "D値 ノッチフィルター周波数 [Hz]"
+        "message": "D ノッチフィルター周波数 [Hz]"
     },
     "pidTuningDTermNotchFrequencyHelp": {
-        "message": "D値 ノッチフィルター周波数 [Hz] (０は無効)"
+        "message": "D ノッチフィルター周波数 [Hz] (０は無効)"
     },
     "pidTuningDTermNotchCutoff": {
-        "message": "D値 ノッチフィルター カット [Hz]"
+        "message": "D ノッチフィルター カット [Hz]"
     },
     "pidTuningDTermNotchCutoffHelp": {
-        "message": "D値 ノッチフィルターカットオフ Hz (これはノッチフィルタ開始値です。例えば、ノッチフィルタ 160 およびノッチHzが 260 の場合、範囲は160〜360Hzとなり、中心付近の減衰が最も大きくなります)"
+        "message": "D ノッチフィルターカットオフ Hz (これはノッチフィルタ開始値です。例えば、ノッチフィルタ 160 およびノッチHzが 260 の場合、範囲は160〜360Hzとなり、中心付近の減衰が最も大きくなります)"
     },
     "pidTuningYawLowpassFrequency": {
         "message": "ヨー ローパス周波数 [Hz]"
@@ -2587,7 +2587,7 @@
         "message": "フェールセーフ設定が大幅に変更されました。 改善された設定パネルを有効にするには、Betaflight <strong>v1.12.0 以上<\/strong> を使用してください。"
     },
     "failsafePaneTitleOld": {
-        "message": "受信機 フェールセーフ"
+        "message": "受信機フェールセーフ"
     },
     "failsafeFeaturesHelpNew": {
         "message": "フェイルセーフには2段階あります。<strong>ステージ1<\/strong> 第1段階はフライトチャンネルのパルス長が無効な場合、受信機がフェイルセーフモードを報告した場合、または受信機からの信号がまったくない場合、<span class=\"message-negative\">全てのチャンネル<\/span>にチャンネルフォールバック設定が適用され、復旧可能にする為の短い時間が提供された場合 です。<strong>ステージ2<\/strong> 第2段階は、機体が<span class=\"message-negative\">アーム<\/span>されている間でエラー状態が、設定されたガードタイムより長くかかると作動し、却下されない限り選択された手順により、全てのチャンネルが、適用されたチャンネルフォールバック設定のままとなります。<br \/><strong>注:<\/strong> ステージ1が作動する前に、チャンネルフォールバック設定は無効な信号を持つ個々のAUXチャンネルにも適用されます。"
@@ -2617,16 +2617,16 @@
         "message": "<strong>ホールド<\/strong>は、受信した最後の良好な値を保持することを意味します。<strong>セット<\/strong>は、ここで指定された値が使用されることを意味します"
     },
     "failsafeStageTwoSettingsTitle": {
-        "message": "ステージ２ 設定"
+        "message": "ステージ2 - 設定"
     },
     "failsafeDelayItem": {
         "message": "信号損失後のステージ2起動時保護時間 [1 = 0.1秒]"
     },
     "failsafeDelayHelp": {
-        "message": "ステージ 1 の回復を待つための時間"
+        "message": "ステージ1の回復を待つための時間"
     },
     "failsafeThrottleLowItem": {
-        "message": "フェイル セーフ スロットル低遅延 [1 = 0.1 sec.]"
+        "message": "フェイルセーフ スロットル低遅延 [1 = 0.1 sec.]"
     },
     "failsafeThrottleLowHelp": {
         "message": "選択しているフェイルセーフを実行する代わりに、この時間の間スロットルが低かったとき機体をディスアームします。"
@@ -2641,7 +2641,7 @@
         "message": "モーターがオフになり、機体がディスアームされるまで着陸モードに留まる時間"
     },
     "failsafeSubTitle1": {
-        "message": "ステージ 2 - フェイル セーフの手順"
+        "message": "ステージ2 - フェイル セーフ手順"
     },
     "failsafeProcedureItemSelect1": {
         "message": "着陸"
@@ -2662,25 +2662,25 @@
         "message": "ファームウェアのアップグレードが<span class=\"message-negative\">必要です<\/span>。使用されるバッテリー \/ 電流 \/ 電圧構成API &lt; 1.33.0 (Betaflight release &lt;=3.1.7) はサポートされていません。"
     },
     "powerBatteryVoltageMeterSource": {
-        "message": "電圧ソースメーター"
+        "message": "電圧メーターソース"
     },
     "powerBatteryVoltageMeterTypeNone": {
         "message": "なし"
     },
     "powerBatteryVoltageMeterTypeAdc": {
-        "message": "オンボード ADC"
+        "message": "オンボードADC"
     },
     "powerBatteryVoltageMeterTypeEsc": {
         "message": "ESCセンサー"
     },
     "powerBatteryCurrentMeterSource": {
-        "message": "電流ソースメーター"
+        "message": "電流メーターソース"
     },
     "powerBatteryCurrentMeterTypeNone": {
         "message": "なし"
     },
     "powerBatteryCurrentMeterTypeAdc": {
-        "message": "オンボード ADC"
+        "message": "オンボードADC"
     },
     "powerBatteryCurrentMeterTypeVirtual": {
         "message": "バーチャル"
@@ -2722,7 +2722,7 @@
         "message": "12V"
     },
     "powerVoltageId50": {
-        "message": "ESCキーの組み合わせ"
+        "message": "ESCキー組み合わせ"
     },
     "powerVoltageId60": {
         "message": "ESC モーター 1"
@@ -2794,7 +2794,7 @@
         "message": "バッテリー"
     },
     "powerAmperageId50": {
-        "message": "ESCキーの組み合わせ"
+        "message": "ESCキー組み合わせ"
     },
     "powerAmperageId60": {
         "message": "ESC モーター 1"
@@ -2851,13 +2851,13 @@
         "message": "バッテリー"
     },
     "powerStateHead": {
-        "message": "電源の状態"
+        "message": "電源状態"
     },
     "powerBatteryConnected": {
         "message": "接続"
     },
     "powerBatteryConnectedValueYes": {
-        "message": "Yes (Cells: $1)"
+        "message": "はい (セル: $1)"
     },
     "powerBatteryConnectedValueNo": {
         "message": "いいえ"
@@ -2890,7 +2890,7 @@
         "message": "構成要素"
     },
     "osdSetupElementsSwitchAll": {
-        "message": "全てのスイッチ"
+        "message": "全スイッチ"
     },
     "osdSetupPreviewTitle": {
         "message": "プレビュー (ドラッグして位置を変更します)"
@@ -2923,7 +2923,7 @@
         "message": "警告"
     },
     "osdSetupFontPresets": {
-        "message": "フォントのプリセット:"
+        "message": "フォントプリセット:"
     },
     "osdSetupOpenFont": {
         "message": "フォントファイルを開く"
@@ -2932,7 +2932,7 @@
         "message": "フォントのロゴ:"
     },
     "osdSetupReplaceLogo": {
-        "message": "ロゴの差し替え"
+        "message": "ロゴの差替え"
     },
     "osdSetupReplaceLogoHelp": {
         "message": "カスタマイズされたロゴイメージは、完全な緑色のみの背景とし、黒と白を含む 288×72px サイズでなければなりません。"
@@ -2944,7 +2944,7 @@
         "message": "画像に無効なカラーパレットが含まれています \n(緑、黒、白のみが許可)"
     },
     "osdSetupUploadFont": {
-        "message": "フォントのアップロード"
+        "message": "フォントアップロード"
     },
     "osdSetupSave": {
         "message": "保存"
@@ -2971,7 +2971,7 @@
         "message": "いいえ"
     },
     "osdSetupResetText": {
-        "message": "OSDを初期値にリセットします。"
+        "message": "OSDを初期値にリセット"
     },
     "osdSetupButtonReset": {
         "message": "設定をリセット"
@@ -2983,16 +2983,16 @@
         "message": "瞬間RSSI値 (アラームしきい値以下の場合は点滅)"
     },
     "osdDescElementThrottlePosition": {
-        "message": "現在のスロットル チャンネル値"
+        "message": "現在のスロットルチャンネル値"
     },
     "osdDescElementArmed": {
-        "message": "アーム メッセージ"
+        "message": "アームメッセージ"
     },
     "osdDescElementDisarmed": {
-        "message": "ディスアーム メッセージ"
+        "message": "ディスアームメッセージ"
     },
     "osdDescElementCrosshairs": {
-        "message": "画面中央のクロスヘア"
+        "message": "画面中央クロスマーク"
     },
     "osdDescElementArtificialHorizon": {
         "message": "水平表示"
@@ -3004,7 +3004,7 @@
         "message": "瞬間電流量"
     },
     "osdDescElementMahDrawn": {
-        "message": "使用バッテリーの総容量"
+        "message": "使用バッテリー総容量"
     },
     "osdDescElementCraftName": {
         "message": "[設定] タブで設定した機体名"
@@ -3037,13 +3037,13 @@
         "message": "デバッグ変数"
     },
     "osdDescElementPIDRoll": {
-        "message": "ロール軸 PID ゲイン"
+        "message": "ロール軸 PIDゲイン"
     },
     "osdDescElementPIDPitch": {
-        "message": "ピッチ軸 PID ゲイン"
+        "message": "ピッチ軸 PIDゲイン"
     },
     "osdDescElementPIDYaw": {
-        "message": "ヨー軸 PID ゲイン"
+        "message": "ヨー軸 PIDゲイン"
     },
     "osdDescElementPower": {
         "message": "瞬間電力消費量"
@@ -3133,10 +3133,10 @@
         "message": "記録された最大高度"
     },
     "osdDescStatBlackbox": {
-        "message": "ブラックボックスの合計使用率"
+        "message": "ブラックボックス合計使用率"
     },
     "osdDescStatEndBattery": {
-        "message": "ディスアーム時のバッテリー電圧"
+        "message": "ディスアーム時バッテリー電圧"
     },
     "osdDescStatFlyTime": {
         "message": "現在の電源サイクルで機体がアームしている合計時間"
@@ -3148,7 +3148,7 @@
         "message": "ホームロケーションからの最大距離"
     },
     "osdDescStatBlackboxLogNumber": {
-        "message": "飛行後のブラックボックスログのログ番号"
+        "message": "飛行後のブラックボックスログ番号"
     },
     "osdDescStatTimer1": {
         "message": "ディスアーム時のタイマー1の値"
@@ -3178,7 +3178,7 @@
         "message": "タイマーアラームのしきい値を分単位で選択します。時間がこの値を超えると、OSD表示にて点滅し、これを0に設定するとアラームが無効になります。"
     },
     "osdWarningArmingDisabled": {
-        "message": "アーミングができない最も重大な理由を報告"
+        "message": "アーミングできない最も重大な理由を報告"
     },
     "osdWarningBatteryNotFull": {
         "message": "完全に充電されていないバッテリーが接続されたときの警告"
