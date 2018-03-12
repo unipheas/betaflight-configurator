@@ -299,7 +299,7 @@
         "message": "正常にインポートされました。"
     },
     "stm32UnprotectUnplug": {
-        "message": "必要な処置: DFUモードでフライトコントローラとのケーブルを抜き、再度接続して書き換えを再試行してください！"
+        "message": "必要な処置: DFUモードでフライトコントローラとのケーブルを抜き、再度接続して書換えを再試行してください！"
     },
     "stm32UnprotectFailed": {
         "message": "FCボードの保護を解除できませんでした"
@@ -311,13 +311,13 @@
         "message": "<span class=\"message-negative\">10秒<\/span>以内に構成情報を受信できず、通信に<span class=\"message-negative\">失敗<\/span>しました。"
     },
     "firmwareVersionNotSupported": {
-        "message": "このファームウェアバージョンは<span class=\"message-negative\">サポートされていません<\/span>。<strong>$1<\/strong>以上のバージョンのAPIをサポートするファームウェアにアップグレードしてください。書き換えする前にCLIを使用してバックアップしてください。CLIのバックアップ \/ リストア手順はドキュメントに記載されています。<br \/>または、アップグレードする準備ができていない場合は、旧バージョンのConfiguratorをダウンロードして使用してください。"
+        "message": "このファームウェアバージョンは<span class=\"message-negative\">サポートされていません<\/span>。<strong>$1<\/strong>以上のバージョンのAPIをサポートするファームウェアにアップグレードしてください。書換えする前にCLIを使用してバックアップしてください。CLIのバックアップ \/ リストア手順はドキュメントに記載されています。<br \/>または、アップグレードする準備ができていない場合は、旧バージョンのConfiguratorをダウンロードして使用してください。"
     },
     "firmwareTypeNotSupported": {
         "message": "CLIモードを除き、Cleanflight \/ Betaflight 以外のファームウェアは<span class=\"message-negative\">サポートされていません<\/span>。"
     },
     "firmwareUpgradeRequired": {
-        "message": "このデバイスのファームウェアは、新しいバージョンにアップグレードする必要があります。 書き換えする前にCLIを使用してバックアップしてください。 CLIのバックアップ \/ リストア手順はドキュメントに記載されています。<br \/>または、アップグレードする準備ができていない場合は、旧バージョンのConfiguratorをダウンロードして使用してください。"
+        "message": "このデバイスのファームウェアは、新しいバージョンにアップグレードする必要があります。 書換えする前にCLIを使用してバックアップしてください。 CLIのバックアップ \/ リストア手順はドキュメントに記載されています。<br \/>または、アップグレードする準備ができていない場合は、旧バージョンのConfiguratorをダウンロードして使用してください。"
     },
     "infoVersions": {
         "message": "実行中 - OS: <strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Configurator: <strong>$3<\/strong>"
@@ -434,7 +434,7 @@
         "message": "ハードウェア"
     },
     "defaultWelcomeText": {
-        "message": "このアプリケーションは、Betaflightを実行できるすべてのハードウェアをサポートしています。対応するハードウェアの完全なリストについては、[書き換え] タブを確認ください。<br><br><a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\">Betaflight ブラックボックスをダウンロード<\/a><br \/><br \/>ファームウェアのソースコードは<a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/>最新のバイナリファームウェアイメージは<a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/><br \/>最新の<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210xドライバ<\/a>は<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">こちら<\/a><br \/>最新の<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCPドライバ<\/a>は<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">こちら<\/a><br \/>最新のWindows用<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> USBドライバのインストーラは<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">こちら<\/a><br \/>"
+        "message": "このアプリケーションは、Betaflightを実行できるすべてのハードウェアをサポートしています。対応するハードウェアの完全なリストについては、[書換え] タブを確認ください。<br><br><a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\">Betaflight ブラックボックスをダウンロード<\/a><br \/><br \/>ファームウェアのソースコードは<a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/>最新のバイナリファームウェアイメージは<a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/><br \/>最新の<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210xドライバ<\/a>は<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">こちら<\/a><br \/>最新の<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCPドライバ<\/a>は<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">こちら<\/a><br \/>最新のWindows用<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> USBドライバのインストーラは<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">こちら<\/a><br \/>"
     },
     "defaultContributingHead": {
         "message": "開発への協力・貢献"
@@ -2030,7 +2030,7 @@
         "message": "FCボードを自動的に点滅 (新たに検出されたシリアルポートによって起動)"
     },
     "firmwareFlasherFullChipErase": {
-        "message": "チップの完全消去"
+        "message": "チップメモリの完全消去"
     },
     "firmwareFlasherFullChipEraseDescription": {
         "message": "FCボードに現在保存されているすべての設定データを消去します。"
@@ -2045,16 +2045,16 @@
         "message": "ポート"
     },
     "firmwareFlasherManualBaud": {
-        "message": "手動伝送速度"
+        "message": "伝送速度の手動選択"
     },
     "firmwareFlasherManualBaudDescription": {
-        "message": "シリアル接続に対しデフォルト伝送速度をサポートしない、またはBluetooth経由で書込みするFCボードの伝送速度を手動で選択します。<br \/><span class=\"message-negative\">注:<\/span> USB DFUで書き込みさせる場合は使用しません。"
+        "message": "シリアル接続に対しデフォルト伝送速度に対応しない、またはBluetooth経由で書込みするFCボードの伝送速度を手動で選択します。<br \/><span class=\"message-negative\">注:<\/span> USB DFUで書き込みさせる場合は使用しません。"
     },
     "firmwareFlasherBaudRate": {
         "message": "伝送速度"
     },
     "firmwareFlasherShowDevelopmentReleases": {
-        "message": "不安定版リリースを表示"
+        "message": "未検証版リリースを表示"
     },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "リリース候補と開発リリースを表示します。"
@@ -2105,7 +2105,7 @@
         "message": "メッセージ:"
     },
     "firmwareFlasherWarningText": {
-        "message": "このファームフラッシャーで<strong>Betaflight以外<\/strong>のフラッシュイメージへ<span class=\"message-negative\">書き換えないで<\/span>ください。<br \/>書き換えをしている間はボードを<strong>取り外したり<\/strong>、コンピュータの<strong>電源を切ったり<\/strong><span class=\"message-negative\">しないで<\/span>ください。<br \/><br \/><strong>注:<\/strong> STM32ブートローダはROMに格納されており、レンダリングできません。<br \/><strong>注:<\/strong> ファームウェアフラッシャーモードの間は、<span class=\"message-negative\">自動接続<\/span>は常に無効になっています。<br \/><strong>注:<\/strong> バックアップがあることを確認してください。アップグレード \/ ダウングレードでいくつかの設定が消去される場合があります。<br \/><strong>注:<\/strong> 書き換えに問題がある場合は、<strong>FCからすべてのケーブルを取り外し<\/strong>最初に再起動を行い、Chromeの最新アップグレード、ドライバのアップグレードをお試しください。<br \/><strong>注:<\/strong> (最新FCボードのほとんどの) 直接USBソケットを搭載しているFCボードに対して書き換えるときは、Betaflightマニュアルの「USB Flashing」章を読み、正しいソフトウェアとドライバをインストールしてください。"
+        "message": "このファームフラッシャーで<strong>Betaflight以外<\/strong>のフラッシュイメージを<span class=\"message-negative\">書換えないで<\/span>ください。<br \/>書換えをしている間はボードを<strong>取り外したり<\/strong>、コンピュータの<strong>電源を切ったり<\/strong><span class=\"message-negative\">しないで<\/span>ください。<br \/><br \/><strong>注:<\/strong> STM32ブートローダはROMに格納されており、レンダリングできません。<br \/><strong>注:<\/strong> ファームウェアフラッシャーモードの間は、<span class=\"message-negative\">自動接続<\/span>は常に無効になっています。<br \/><strong>注:<\/strong> バックアップがあることを確認してください。アップグレード \/ ダウングレードでいくつかの設定が消去される場合があります。<br \/><strong>注:<\/strong> 書き換えに問題がある場合は、<strong>FCからすべてのケーブルを取り外し<\/strong>最初に再起動を行い、Chromeの最新アップグレード、ドライバのアップグレードをお試しください。<br \/><strong>注:<\/strong> (最新FCボードのほとんどの) 直接USBソケットを搭載しているFCボードに対して書き換えるときは、Betaflightマニュアルの「USB Flashing」章を読み、正しいソフトウェアとドライバをインストールしてください。"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>リカバリー \/ 通信ロスト<\/strong>"
