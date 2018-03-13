@@ -1819,7 +1819,7 @@
         "message": "Предупреждения"
     },
     "colorBlack": {
-        "message": "черный"
+        "message": "чёрный"
     },
     "colorWhite": {
         "message": "белый"
@@ -1831,7 +1831,7 @@
         "message": "оранжевый"
     },
     "colorYellow": {
-        "message": "желтый"
+        "message": "жёлтый"
     },
     "colorLimeGreen": {
         "message": "салатовый"
