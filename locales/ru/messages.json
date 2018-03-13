@@ -970,7 +970,7 @@
         "message": "Сохранить и Перезагрузить"
     },
     "portsIdentifier": {
-        "message": "Порт"
+        "message": "Идентификатор"
     },
     "portsConfiguration": {
         "message": "Конфигурация и MSP"
@@ -1102,13 +1102,13 @@
         "message": "Интервал интерполяции [в секундах] в режиме \"ручной\" настройки интерполяции"
     },
     "receiverRcInterpolationOff": {
-        "message": "Отключено"
+        "message": "Выкл."
     },
     "receiverRcInterpolationDefault": {
         "message": "Предустановка"
     },
     "receiverRcInterpolationAuto": {
-        "message": "Auto"
+        "message": "Авто"
     },
     "receiverRcInterpolationManual": {
         "message": "Ручная"
@@ -1129,7 +1129,7 @@
         "message": "Proportional"
     },
     "pidTuningIntegral": {
-        "message": "Integral"
+        "message": "Интеграл"
     },
     "pidTuningDerivative": {
         "message": "Derivative"
@@ -1258,7 +1258,7 @@
         "message": "Макс."
     },
     "auxiliaryAddRange": {
-        "message": "Добавить диапазон"
+        "message": "Доб. диапазон"
     },
     "auxiliaryButtonSave": {
         "message": "Сохранить"
@@ -1411,13 +1411,13 @@
         "message": "Название"
     },
     "servosMid": {
-        "message": "Ср."
+        "message": "СРЕД"
     },
     "servosMin": {
-        "message": "Мин."
+        "message": "МИН"
     },
     "servosMax": {
-        "message": "Макс."
+        "message": "МАКС"
     },
     "servosDirectionAndRate": {
         "message": "Направление и скорость"
@@ -1438,7 +1438,7 @@
         "message": "Текущее местоположение"
     },
     "gpsMapMessage1": {
-        "message": "Пожалуйста проверьте Ваше подключение к интернету"
+        "message": "Пожалуйста, проверьте подключение к интернету"
     },
     "gpsAltitude": {
         "message": "Высота:"
@@ -1548,9 +1548,6 @@
     "blackboxLoggingSdCard": {
         "message": "SD карта"
     },
-    "blackboxLoggingSerial": {
-        "message": "Последовательный порт"
-    },
     "dataflashButtonSaveCancel": {
         "message": "Отмена"
     },
@@ -1607,9 +1604,6 @@
     },
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "Выбрав из списка полётный контроллер, вы увидите доступные для скачивания версии прошивок. Выберите прошивку, подходящую для Вашего полётного контроллера."
-    },
-    "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
-        "message": "Выберите версию прошивки Вашей платы"
     },
     "firmwareFlasherNoRebootDescription": {
         "message": "Включите её, если ваш полётный контроллер находится в boot-режиме, т.е. если Вы подключили питание полётного контроллера с замкнутыми контактами \"BOOT\" или удерживая кнопку \"BOOT\"."
@@ -1747,7 +1741,7 @@
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "colorBlack": {
-        "message": "черный"
+        "message": "чёрный"
     },
     "colorWhite": {
         "message": "белый"
