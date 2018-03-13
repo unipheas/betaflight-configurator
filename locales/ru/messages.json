@@ -409,7 +409,7 @@
         "message": "Железо"
     },
     "defaultWelcomeText": {
-        "message": "Это приложение поддерживает все устройства, которые могут запускаться в Betaflight конфигураторе. Вы можете проверить список поддерживаемых устройств во вкладке \"Программатор\".<br><br> <a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Скачать Betaflight Blackbox<\/a><br \/><br \/>Исходный код прошивки можно скачать <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">здесь<\/a><br \/>Свежие прошивки доступны  <a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">здесь<\/a><br \/><br \/>Свежие <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210x драйвера<\/a> можно скачать  <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">здесь<\/a><br \/>Свежие <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCP драйвера<\/a> можно скачать <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">здесь<\/a><br \/>Свежий  <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> для установки USB драйвера под Windows можно скачать <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">здесь<\/a><br \/>"
+        "message": "Это приложение поддерживает все устройства, которые могут запускаться в Betaflight конфигураторе. Вы также можете посмотреть весь список поддерживаемых устройств во вкладке \"Программатор\".<br><br> <a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Скачать Betaflight Blackbox<\/a><br \/><br \/>Исходный код прошивки можно скачать <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">здесь<\/a><br \/>Последние версии прошивок доступны <a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">здесь<\/a><br \/><br \/>Последнюю версию <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210x драйвера<\/a> можно скачать <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">здесь<\/a><br \/>Последнюю версию <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCP драйвера<\/a> можно скачать <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">здесь<\/a><br \/>Последнюю версию <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> для установки USB драйвера под Windows можно скачать <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">здесь<\/a><br \/>"
     },
     "defaultContributingHead": {
         "message": "Содействие"
@@ -421,7 +421,7 @@
         "message": "Изменения"
     },
     "defaultChangelogHead": {
-        "message": "Изменения конфигуратора"
+        "message": "Список изменений конфигуратора"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "Программатор"
@@ -490,7 +490,7 @@
         "message": "Калибровать Магнитометр"
     },
     "initialSetupCalibrateMagText": {
-        "message": "Покрутите мультикоптер по крайней мере на <strong>360<\/strong> градусов по всем осям вращения, у Вас есть 30 секунд для этой операции."
+        "message": "Покрутите мультикоптер по крайней мере на <strong>360<\/strong> градусов по всем 3-м осям вращения, у Вас есть 30 секунд для этой операции"
     },
     "initialSetupButtonCalibratingText": {
         "message": "Калибровка..."
@@ -529,10 +529,10 @@
         "message": "Установки газа"
     },
     "initialSetupMinimum": {
-        "message": "Минимум"
+        "message": "Минимум:"
     },
     "initialSetupMaximum": {
-        "message": "Максимум"
+        "message": "Максимум:"
     },
     "initialSetupFailsafe": {
         "message": "Failsafe:"
@@ -550,7 +550,7 @@
         "message": "Макс. напряжение ячейки"
     },
     "initialSetupVoltageScale": {
-        "message": "Шкала напряжения"
+        "message": "Шкала напряжения:"
     },
     "initialSetupAccelTrimsHead": {
         "message": "Триммирование акселерометра"
@@ -577,7 +577,7 @@
         "message": "$1 V"
     },
     "initialSetupDrawn": {
-        "message": "Выработанная емкость:"
+        "message": "Израсходованная емкость:"
     },
     "initialSetupDrawing": {
         "message": "Потребляемый ток:"
@@ -606,9 +606,6 @@
     "initialSetupGPSHead": {
         "message": "GPS"
     },
-    "initialSetupInstrumentsHead": {
-        "message": "Приборы"
-    },
     "initialSetupButtonSave": {
         "message": "Сохранить"
     },
@@ -622,7 +619,7 @@
         "message": "Калибровка акселерометра начата"
     },
     "initialSetupAccelCalibEnded": {
-        "message": "Калибровка акселерометра <span class=\"message-positive\">окончена<\/span>"
+        "message": "Калибровка акселерометра <span class=\"message-positive\">завершена<\/span>"
     },
     "initialSetupMagCalibStarted": {
         "message": "Калибровка магнитометра начата"
@@ -656,9 +653,6 @@
     },
     "featureSERVO_TILT": {
         "message": "Привод карданного подвеса"
-    },
-    "featureSOFTSERIAL": {
-        "message": "Включить программный последовательный порт"
     },
     "featureSOFTSERIALTip": {
         "message": "После включения настройте порты во вкладке Порты."
