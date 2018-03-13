@@ -804,11 +804,14 @@
     "configurationFeaturesHelp": {
         "message": "<strong>Примечание:<\/strong> Не все комбинации настроек допустимы. Когда полётный контроллер обнаруживает недопустимые настройки, то они отключаются.<br \/><strong>Примечание:<\/strong> Настройте серийный порт <span class=\"message-negative\">до<\/span> включения настроек, которые используют данный порт."
     },
+    "configurationSerialRXHelp": {
+        "message": "<strong>Примечание:<\/strong> Не забудьте настроить серийный порт (через вкладку «Порты») и выбрать Приёмник с серийным выходом при использовании функции RX_SERIAL."
+    },
     "configurationSpiRxHelp": {
         "message": "<strong>Примечание:<\/strong> SPI RX вход будет работать только в том случае, если необходимое \"железо\" находится на плате или подключено к шине SPI."
     },
     "configurationOtherFeaturesHelp": {
-        "message": "<strong>Примечание:<\/strong> Не все настройки поддерживаются полетными контроллерами. Если Вы включили специфические настройки и они были выключены после нажатия \"Сохранить и Перезагрузить\", это означает, что они не поддерживаются Вашей платой."
+        "message": "<strong>Примечание:<\/strong> Не все полётные контроллеры поддерживает все эти настройки. Если Вы включили специфические настройки и они отключились после нажатия \"Сохранить и Перезагрузить\", это означает, что полётный контроллер их не поддерживает."
     },
     "configurationBoardAlignment": {
         "message": "Расположение Платы и Датчиков"
@@ -959,6 +962,9 @@
     },
     "configurationCalculatedCyclesSec": {
         "message": "Циклы\/Сек. [Гц]"
+    },
+    "configurationLoopTimeHelp": {
+        "message": "<strong>Примечание:<\/strong> Убедитесь, что Ваш FC способен работать на этих скоростях! Проверьте ЦП и стабильность времени цикла. Эти изменения могут потребовать подстройки PID. Совет: Отключите Акселерометр и другие сенсоры для повышения производительности."
     },
     "configurationGPS": {
         "message": "GPS"
@@ -1386,6 +1392,9 @@
     "adjustmentsFunction20": {
         "message": "Roll D корректировка"
     },
+    "adjustmentsFunction24": {
+        "message": "Регулировка Strength (в реж. Horizon)"
+    },
     "adjustmentsSave": {
         "message": "Сохранить"
     },
@@ -1460,6 +1469,9 @@
     },
     "servosNormal": {
         "message": "Нормальный"
+    },
+    "servosReverse": {
+        "message": "Инвертировать"
     },
     "servosEepromSave": {
         "message": "EEPROM <span class=\"message-positive\">сохранён<\/span>"
@@ -1581,6 +1593,9 @@
     "blackboxLoggingSdCard": {
         "message": "SD карта"
     },
+    "blackboxLoggingSerial": {
+        "message": "Серийный порт"
+    },
     "dataflashFreeSpace": {
         "message": "Свободное место"
     },
@@ -1641,6 +1656,9 @@
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "Выбрав из списка полётный контроллер, вы увидите доступные для скачивания версии прошивок. Выберите прошивку, подходящую для Вашего полётного контроллера."
     },
+    "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
+        "message": "Выберите версию прошивки для Вашей платы."
+    },
     "firmwareFlasherNoRebootDescription": {
         "message": "Включите её, если ваш полётный контроллер находится в boot-режиме, т.е. если Вы подключили питание полётного контроллера с замкнутыми контактами \"BOOT\" или удерживая кнопку \"BOOT\"."
     },
@@ -1689,6 +1707,9 @@
     "firmwareFlasherButtonLoadOnline": {
         "message": "Загрузить прошивку [Online]"
     },
+    "firmwareFlasherButtonDownloading": {
+        "message": "Загружаеться..."
+    },
     "firmwareFlasherDate": {
         "message": "Дата:"
     },
@@ -1714,6 +1735,10 @@
         "message": "Осталось",
         "description": "In the LED STRIP, text next the counter of leds remaining"
     },
+    "ledStripClearAllButton": {
+        "message": "Очистить ВСЕ",
+        "description": "In the LED STRIP, clear all leds"
+    },
     "ledStripEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">сохранён<\/span>"
     },
@@ -1728,6 +1753,10 @@
         "message": "Цвет",
         "description": "One of the modes of the Led Strip"
     },
+    "ledStripFunctionModesOption": {
+        "message": "Режимы &amp; Ориентация",
+        "description": "One of the modes of the Led Strip"
+    },
     "ledStripFunctionBatteryOption": {
         "message": "Батарея",
         "description": "One of the modes of the Led Strip"
@@ -1738,6 +1767,9 @@
     },
     "ledStripColorModifierTitle": {
         "message": "Изменение цвета"
+    },
+    "ledStripModeColorsTitle": {
+        "message": "Цвет режимa"
     },
     "ledStripModeColorsModeOrientation": {
         "message": "Ориентация",
@@ -1963,6 +1995,9 @@
     "osdTimerPrecision": {
         "message": "Точность:"
     },
+    "configurationEscProtocol": {
+        "message": "Протокол ESC \/ Мотора"
+    },
     "configurationEscProtocolHelp": {
         "message": "Выберите ESC-протокол.<br>Убедитесь, что выбранный протокол поддерживается вашим ESC, информация об этом указана на сайте производителя.<br><b>Обратите внимание, при выборе протоколов DSHOT900 и DSHOT1200, не так много ESC поддерживают эти протоколы"
     },
@@ -1972,8 +2007,14 @@
     "configurationPidProcessDenom": {
         "message": "Частота обновления цикла PID"
     },
+    "configurationPidProcessDenomHelp": {
+        "message": "Максимальная частота обновления цикла PID ограничена максимальной частотой выбранного ESC-протокола."
+    },
     "configurationGyroUse32kHz": {
         "message": "Включить режим: 32 кГц частота обновления гироскопа"
+    },
+    "configurationGyroUse32kHzHelp": {
+        "message": "Частота обновления гироскопа 32 кГц может быть включена, только если чип гироскопа её поддерживает (на данный момент это MPU6500, MPU9250 и ICM20xxx, подключённые по SPI-порту). Если вы не уверены, то проверьте спецификацию вашего полётного контроллера."
     },
     "configurationAccHardware": {
         "message": "Акселерометр"
@@ -2058,6 +2099,9 @@
     },
     "dialogConfirmResetTitle": {
         "message": "Подтвердить"
+    },
+    "dialogConfirmResetNote": {
+        "message": "ВНИМАНИЕ: Вы уверены, что хотите сбросить ВСЕ настройки до заводских значений?"
     },
     "dialogConfirmResetConfirm": {
         "message": "Сброс"
