@@ -1557,6 +1557,9 @@
     "blackboxLoggingSdCard": {
         "message": "SD карта"
     },
+    "dataflashFreeSpace": {
+        "message": "Свободное место"
+    },
     "dataflashButtonSaveCancel": {
         "message": "Отмена"
     },
@@ -1674,6 +1677,9 @@
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>Потеря связи \/ Восстановление связи<\/strong>"
     },
+    "firmwareFlasherRecoveryText": {
+        "message": "Если возникла потеря связи с вашим устройством, то следуйте следующим шагам, чтобы восстановить связь:<ul><li>Отключите питание<\/li><li>Включите \"No reboot sequence\", включите \"Полное стирание чипа\".<\/li><li>Замкните контакты \"BOOT\" или удерживайте кнопку BOOT.<\/li><li>Включите питание (светодиод НЕ будет мигать, если всё сделано правильно).<\/li><li>Установите STM32 драйвера и Zadig, если это необходимо (см. раздел <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a> в инструкции Betaflight).<\/li><li>Закройте конфигуратор, закройте все Chrome приложения и завершите все chrome процессы, перезапустите конфигуратор.<\/li><li>Отпустите кнопку \"BOOT\", если она есть.<\/li><li>Залейте нужную прошивку (укажите ручной битрейт, если он указан в инструкции вашего полётного контроллера).<\/li><li>Отключите питание<\/li><li>Разомкните контакты \"BOOT\".<\/li><li>Включите питание (светодиод должен мигать).<\/li><li>Пробуйте подключиться.<\/li><\/ul>"
+    },
     "firmwareFlasherNoFirmwareSelected": {
         "message": "<b>Не выбрана прошивка для загрузки<\/b>"
     },
@@ -1748,6 +1754,13 @@
     "ledStripModeColorsModeAnimation": {
         "message": "Анимация",
         "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripWiringClearControl": {
+        "message": "Очистить выбранное",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWarningsOverlay": {
+        "message": "Предупреждения"
     },
     "colorBlack": {
         "message": "черный"
@@ -1866,6 +1879,12 @@
     "powerVoltageHead": {
         "message": "Вольтметр"
     },
+    "powerVoltageValue": {
+        "message": "$1 V"
+    },
+    "powerAmperageValue": {
+        "message": "$1 A"
+    },
     "powerVoltageId10": {
         "message": "Батарея"
     },
@@ -1896,6 +1915,18 @@
     "osdSetupVideoFormatTitle": {
         "message": "Формат видео"
     },
+    "osdSetupSave": {
+        "message": "Сохранить"
+    },
+    "osdSetupHead": {
+        "message": "Информация"
+    },
+    "osdSetupCameraConnected": {
+        "message": "Камера подключена"
+    },
+    "osdSetupCameraConnectedValueYes": {
+        "message": "Да"
+    },
     "osdSetupCameraConnectedValueNo": {
         "message": "Нет"
     },
@@ -1907,6 +1938,9 @@
     },
     "osdTimerPrecision": {
         "message": "Точность:"
+    },
+    "configurationEscProtocolHelp": {
+        "message": "Выберите ESC-протокол.<br>Убедитесь, что выбранный протокол поддерживается вашим ESC, информация об этом указана на сайте производителя.<br><b>Обратите внимание, при выборе протоколов DSHOT900 и DSHOT1200, не так много ESC поддерживают эти протоколы"
     },
     "configurationGyroSyncDenom": {
         "message": "Частота обновления гироскопа"
