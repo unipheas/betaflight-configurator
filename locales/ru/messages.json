@@ -102,6 +102,9 @@
     "configuratorUpdateWebsite": {
         "message": "Перейти на сайт с релизами"
     },
+    "deviceRebooting": {
+        "message": "Device - <span class=\"message-negative\">Перезагружается<\/span>"
+    },
     "deviceReady": {
         "message": "Устройство - <span class=\"message-positive\">Готово<\/span>"
     },
@@ -197,6 +200,18 @@
     },
     "logActionShow": {
         "message": "Показать недавние действия"
+    },
+    "serialPortOpened": {
+        "message": "Сериний порт <span class=\"message-positive\">успешно<\/span> открыт. ID порта: $1"
+    },
+    "serialPortOpenFail": {
+        "message": "<span class=\"message-negative\">Не удалось<\/span> открыть сериний порт"
+    },
+    "serialPortClosedOk": {
+        "message": "Сериний порт <span class=\"message-positive\">успешно<\/span> закрыт"
+    },
+    "serialPortClosedFail": {
+        "message": "<span class=\"message-negative\">Не удалось<\/span> закрыть сериний порт"
     },
     "serialUnrecoverable": {
         "message": "Невосстановимый <span class=\"message-negative\">сбой<\/span> последовательного подключения, разъединяюсь..."
@@ -606,6 +621,9 @@
     "initialSetupGPSHead": {
         "message": "GPS"
     },
+    "initialSetupInstrumentsHead": {
+        "message": "Инструменты"
+    },
     "initialSetupButtonSave": {
         "message": "Сохранить"
     },
@@ -653,6 +671,9 @@
     },
     "featureSERVO_TILT": {
         "message": "Привод карданного подвеса"
+    },
+    "featureSOFTSERIAL": {
+        "message": "Включить серийный порт основанный на ЦП"
     },
     "featureSOFTSERIALTip": {
         "message": "После включения настройте порты во вкладке Порты."
@@ -779,6 +800,9 @@
     },
     "configurationEscFeatures": {
         "message": "Настройки ESC\/Моторов"
+    },
+    "configurationFeaturesHelp": {
+        "message": "<strong>Примечание:<\/strong> Не все комбинации настроек допустимы. Когда полётный контроллер обнаруживает недопустимые настройки, то они отключаются.<br \/><strong>Примечание:<\/strong> Настройте серийный порт <span class=\"message-negative\">до<\/span> включения настроек, которые используют данный порт."
     },
     "configurationSpiRxHelp": {
         "message": "<strong>Примечание:<\/strong> SPI RX вход будет работать только в том случае, если необходимое \"железо\" находится на плате или подключено к шине SPI."
