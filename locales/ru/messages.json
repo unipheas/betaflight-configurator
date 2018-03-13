@@ -1188,6 +1188,9 @@
     "pidTuningCopyRateProfile": {
         "message": "Скопир. значения Rate-профиля"
     },
+    "dialogCopyProfileText": {
+        "message": "Копировать значения из текущего профиля в"
+    },
     "dialogCopyRateProfileText": {
         "message": "Скопируйте значения из текущей rate-профиля на"
     },
@@ -1248,6 +1251,9 @@
     "receiverModelPreview": {
         "message": "Предпросмотр"
     },
+    "receiverMspEnableButton": {
+        "message": "Включить управление"
+    },
     "auxiliaryHelp": {
         "message": "Используйте ползунки диапазона, чтобы назначить соответствующий режим в переключателях вашей аппаратуры управления. Если в приёмнике значение указанного канала будет находится в указанном диапазоне Мин.\/Макс., то соответствующий режим будет активирован. Не забудьте сохранить настройки нажав кнопку \"Сохранить\"."
     },
@@ -1274,6 +1280,9 @@
     },
     "adjustmentsColumnEnable": {
         "message": "Если включено"
+    },
+    "adjustmentsColumnUsingSlot": {
+        "message": "используя слот"
     },
     "adjustmentsColumnIsInRange": {
         "message": "находится в диапазоне"
@@ -1741,7 +1750,7 @@
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "colorBlack": {
-        "message": "чёрный"
+        "message": "черный"
     },
     "colorWhite": {
         "message": "белый"
@@ -1777,7 +1786,7 @@
         "message": "темно-фиолетовый"
     },
     "colorMagenta": {
-        "message": "пурпурный"
+        "message": "маджента"
     },
     "colorDeepPink": {
         "message": "темно-розовый"
@@ -1899,6 +1908,15 @@
     "osdTimerPrecision": {
         "message": "Точность:"
     },
+    "configurationGyroSyncDenom": {
+        "message": "Частота обновления гироскопа"
+    },
+    "configurationPidProcessDenom": {
+        "message": "Частота обновления цикла PID"
+    },
+    "configurationGyroUse32kHz": {
+        "message": "Включить режим: 32 кГц частота обновления гироскопа"
+    },
     "configurationAccHardware": {
         "message": "Акселерометр"
     },
@@ -1907,6 +1925,18 @@
     },
     "configurationMagHardware": {
         "message": "Магнитометр (если поддерживается)"
+    },
+    "configurationBatteryVoltage": {
+        "message": "Напряжение батареи"
+    },
+    "configurationBatteryMinimum": {
+        "message": "Минимальное напряжение элемента"
+    },
+    "configurationBatteryMaximum": {
+        "message": "Максимальное напряжение элемента"
+    },
+    "configurationBatteryScale": {
+        "message": "Шкала напряжения"
     },
     "configurationCurrentMeterType": {
         "message": "Тип датчика тока"
@@ -1971,11 +2001,8 @@
     "dialogConfirmResetTitle": {
         "message": "Подтвердить"
     },
-    "dialogConfirmResetNote": {
-        "message": "Вы уверены, что хотите сбросить все настройки до заводских значений?"
-    },
     "dialogConfirmResetConfirm": {
-        "message": "Сбросить"
+        "message": "Сброс"
     },
     "dialogConfirmResetClose": {
         "message": "Отмена"
