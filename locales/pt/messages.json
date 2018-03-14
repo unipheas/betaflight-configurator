@@ -532,6 +532,45 @@
     "initialSetupButtonRestore": {
         "message": "Restaurar"
     },
+    "initialSetupBackupRestoreText": {
+        "message": "Faça um <strong>Backup<\/strong> das configurações em caso de acidente, as configurações da <strong>CLI<\/strong><span class=\"message-negative\"> não<\/span> estão incluídas - Consulte o comando 'dump' da CLI"
+    },
+    "initialSetupBackupSuccess": {
+        "message": "Backup salvo com <span class=\"message-positive\">sucesso<\/span>"
+    },
+    "initialSetupRestoreSuccess": {
+        "message": "Configuração restaurada <span class=\"message-positive\"> com sucesso<\/span>"
+    },
+    "initialSetupButtonResetZaxis": {
+        "message": "Redefinir eixo Z, offset: 0 graus"
+    },
+    "initialSetupButtonResetZaxisValue": {
+        "message": "Redefinir eixo Z, offset: $1 grau"
+    },
+    "initialSetupMixerHead": {
+        "message": "Tipo de Mixer"
+    },
+    "initialSetupThrottleHead": {
+        "message": "Configurar Throttle"
+    },
+    "initialSetupMinimum": {
+        "message": "Mínimo:"
+    },
+    "featureRX_PARALLEL_PWM": {
+        "message": "Entrada de PWM RX (um fio por canal)"
+    },
+    "featureRX_MSP": {
+        "message": "Entrada de MSP RX (controle via porta MSP)"
+    },
+    "featureRSSI_ADC": {
+        "message": "Entrada analógica de RSSI"
+    },
+    "featureLED_STRIP": {
+        "message": "Suporte de fita de LEDs RGB multicor"
+    },
+    "featureDISPLAY": {
+        "message": "Tela OLED"
+    },
     "featureFAILSAFE": {
         "message": "Ativar estágio 2 da segurança contra falhas"
     },
