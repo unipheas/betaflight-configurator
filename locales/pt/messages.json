@@ -589,6 +589,72 @@
     "initialSetupMagHead": {
         "message": "Magnetômetro"
     },
+    "initialSetupDeclination": {
+        "message": "Declinação:"
+    },
+    "initialSetupInfoHead": {
+        "message": "Info"
+    },
+    "initialSetupBattery": {
+        "message": "Voltagem da bateria:"
+    },
+    "initialSetupBatteryValue": {
+        "message": "$1 V"
+    },
+    "initialSetupDrawn": {
+        "message": "Capacidade utilizada:"
+    },
+    "initialSetupDrawing": {
+        "message": "Consumo de corrente:"
+    },
+    "initialSetupBatteryMahValue": {
+        "message": "$1 mAh"
+    },
+    "initialSetupBatteryAValue": {
+        "message": "$1 A"
+    },
+    "initialSetupRSSI": {
+        "message": "RSSI:"
+    },
+    "initialSetupRSSIValue": {
+        "message": "$1%"
+    },
+    "initialSetupArmingDisableFlags": {
+        "message": "Armar bloqueado. Indicadores:"
+    },
+    "initialSetupArmingAllowed": {
+        "message": "Armar Permitido"
+    },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "Lista de indicadores sobre o porque não é permitido armar. O primeiro e mais importante valor corresponde ao número de avisos sonoros emitidos quando se tenta armar. Consulte o Wiki (página 'Arming Sequence & Safety') para uma descrição do que significam esses indicadores."
+    },
+    "initialSetupGPSHead": {
+        "message": "GPS"
+    },
+    "initialSetupInstrumentsHead": {
+        "message": "Instrumentos"
+    },
+    "initialSetupButtonSave": {
+        "message": "Salvar"
+    },
+    "initialSetupModel": {
+        "message": "Modelo: $1"
+    },
+    "initialSetupAttitude": {
+        "message": "$1 deg"
+    },
+    "initialSetupAccelCalibStarted": {
+        "message": "Calibração do acelerômetro iniciada"
+    },
+    "initialSetupAccelCalibEnded": {
+        "message": "Calibração do acelerômetro <span class=\"message-positive\">finalizada<\/span>"
+    },
+    "initialSetupMagCalibStarted": {
+        "message": "Calibração do magnetômetro iniciada"
+    },
+    "initialSetupMagCalibEnded": {
+        "message": "Calibração do magnetômetro <span class=\"message-positive\">finalizada<\/span>"
+    },
     "featureRX_PARALLEL_PWM": {
         "message": "Entrada de PWM RX (um fio por canal)"
     },
