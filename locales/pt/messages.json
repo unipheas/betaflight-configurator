@@ -424,6 +424,114 @@
     "dfu_error_image_size": {
         "message": "<span class=\"message-negative\">Erro:<\/span> A imagem fornecida é maior que memória flash disponível no chip! Imagem: $1 KiB, limite = $2 KiB"
     },
+    "eeprom_saved_ok": {
+        "message": "EEPROM <span class=\"message-positive\">salvo<\/span>"
+    },
+    "defaultWelcomeIntro": {
+        "message": "Bem-vindo ao <strong>Configurador Betaflight<\/strong>, um utilitário feito para simplificar a atualização, configuração e otimização do seu controlador de voo."
+    },
+    "defaultWelcomeHead": {
+        "message": "Hardware"
+    },
+    "defaultWelcomeText": {
+        "message": "O Aplicativo suporta todos hardwares que conseguem usar o Betaflight. Verifique a aba de Atualização de firmware para a lista completa de hardwares.<br><br> <a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Baixar o Betaflight Blackbox<\/a><br \/><br \/>O código fonte do firmware pode ser baixado <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">aqui<\/a><br \/>O arquivo binário mais recente do firmware está disponível <a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">aqui<\/a><br \/><br \/>Os <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">Drivers CP210x<\/a> mais recentes podem ser baixados <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">aqui<\/a><br \/>Os <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">Drivers STM USB VCP<\/a> podem ser baixados <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">aqui<\/a><br \/>O driver USB <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> para Windows pode ser baixado <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">aqui<\/a><br \/>"
+    },
+    "defaultContributingHead": {
+        "message": "Contribuir"
+    },
+    "defaultContributingText": {
+        "message": "Se desejar ajudar o Betaflight a tornar-se ainda melhor, pode contribuir de várias formas, incluindo:<br \/><ul><li>Respondendo a questões de outros usuários nos forúms e IRC.<\/li><li>Contribuindo com código para o firmware e para o configurador: Novas funcionalidades, correções e melhorias<\/li><li>Testando <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">novas funcionalidades\/correções<\/a> e fornecer feedback. <\/li><li>Ajudar com <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">correções e comentar em sugestões de novas funcionalidades<\/a>.<\/li><li>Colaborar <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">ajudando na tradução do configurador<\/a> para a seu idioma.<\/li><li><\/li><\/ul>"
+    },
+    "defaultChangelogAction": {
+        "message": "Novidades"
+    },
+    "defaultChangelogHead": {
+        "message": "Configurador - Novidades"
+    },
+    "defaultButtonFirmwareFlasher": {
+        "message": "Atualizador de firmware"
+    },
+    "defaultDonateHead": {
+        "message": "Código Fonte \/ Nota de Doação"
+    },
+    "defaultDonateText": {
+        "message": "Este utilitário é totalmente feito com <strong>código aberto<\/strong> e está disponível sem custos a todos os usuários do <strong>Betaflight<\/strong>.<br \/>Se considera o Betaflight ou o Configurator Betaflight útil, por favor considere <strong>ajudar<\/strong> seu desenvolvimento com uma doação."
+    },
+    "defaultDonate": {
+        "message": "Doar"
+    },
+    "defaultSponsorsHead": {
+        "message": "Patrocinadores"
+    },
+    "defaultDocumentationHead": {
+        "message": "Documentação \/ Manual"
+    },
+    "defaultDocumentation": {
+        "message": "A documentação do Betaflight está disponível nas notas de lançamento e no wiki.<br \/><br \/>"
+    },
+    "defaultDocumentation1": {
+        "message": "O wiki do Betaflight é um grande recurso para obter informações, ele pode ser encontrado <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\"> aqui<\/a>."
+    },
+    "defaultDocumentation2": {
+        "message": "As notas de lançamento para o firmware podem ser lidas na página de versões do Github, <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">aqui<\/a>."
+    },
+    "defaultSupportHead": {
+        "message": "Suporte"
+    },
+    "defaultSupportSubline1": {
+        "message": "Fontes de Suporte"
+    },
+    "defaultSupportSubline2": {
+        "message": "Desenvolvedor"
+    },
+    "defaultSupport": {
+        "message": "Para suporte por favor pesquise os fóruns e o wiki primeiro ou fale com seu vendedor.<br \/><br \/>"
+    },
+    "defaultSupport1": {
+        "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">Tópico RC Groups<\/a>"
+    },
+    "defaultSupport2": {
+        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Wiki do Betaflight<\/a>"
+    },
+    "defaultSupport3": {
+        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Vídeos do Betaflight por Joshua Bardwell<\/a>"
+    },
+    "defaultSupport4": {
+        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+    },
+    "defaultSupport5": {
+        "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Programadores do Betaflight no Slack<\/a>"
+    },
+    "initialSetupBackupAndRestoreApiVersion": {
+        "message": "<span class=\"message-negative\">Funcionalidades de Backup e restauração desativadas.<\/span>Seu firmware está na versão <span class=\"message-negative\">$1<\/span> da API, O Backup e restauração requer a versão <span class=\"message-positive\">$2<\/span>. Por favor realize uma cópia de segurança via CLI, veja a documentação do Betaflight para o procedimento."
+    },
+    "initialSetupButtonCalibrateAccel": {
+        "message": "Calibrar Acelerômetro"
+    },
+    "initialSetupCalibrateAccelText": {
+        "message": "Coloque a placa ou o frame numa superfície <strong>nivelada<\/strong> e prossiga com a calibração, certifique-se que a plataforma não se mova durante o período de calibração"
+    },
+    "initialSetupButtonCalibrateMag": {
+        "message": "Calibrar Magnetômetro"
+    },
+    "initialSetupCalibrateMagText": {
+        "message": "Mova o multirotor pelo menos <strong>360<\/strong> graus em todos os eixos de rotação, você tem 30 segundos para executar esta tarefa"
+    },
+    "initialSetupButtonCalibratingText": {
+        "message": "Calibrando..."
+    },
+    "initialSetupButtonReset": {
+        "message": "Redefinir configurações"
+    },
+    "initialSetupResetText": {
+        "message": "Restaurar configurações <strong>padrão<\/strong>"
+    },
+    "initialSetupButtonBackup": {
+        "message": "Backup"
+    },
+    "initialSetupButtonRestore": {
+        "message": "Restaurar"
+    },
     "featureFAILSAFE": {
         "message": "Ativar estágio 2 da segurança contra falhas"
     },
