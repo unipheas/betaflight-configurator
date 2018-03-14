@@ -163,7 +163,7 @@
         "message": "Log por conexão"
     },
     "tabOnboardLogging": {
-        "message": "Caixa negra"
+        "message": "Caixa Preta"
     },
     "tabAdjustments": {
         "message": "Ajustes"
@@ -172,52 +172,52 @@
         "message": "Modos"
     },
     "logActionHide": {
-        "message": "Ocular registos"
+        "message": "Esconder Histórico"
     },
     "logActionShow": {
-        "message": "Mostrar registos"
+        "message": "Exibir Histórico"
     },
     "serialPortOpened": {
-        "message": "Porta série com ID: $1 aberta com <span class=\"message-positive\">sucesso<\/span>"
+        "message": "Porta serial aberta com <span class=\"message-positive\">sucesso<\/span> com ID: $1"
     },
     "serialPortOpenFail": {
-        "message": "<span class=\"message-negative\">Falha<\/span> ao abrir porta série"
+        "message": "<span class=\"message-negative\">Falha<\/span> ao abrir porta serial"
     },
     "serialPortClosedOk": {
-        "message": "Porta série fechada com <span class=\"message-positive\">sucesso<\/span>"
+        "message": "Porta serial fechada com <span class=\"message-positive\">sucesso<\/span>"
     },
     "serialPortClosedFail": {
-        "message": "<span class=\"message-negative\">Falha<\/span> ao fechar a porta série"
+        "message": "<span class=\"message-negative\">Falha<\/span> ao fechar a porta serial"
     },
     "serialUnrecoverable": {
-        "message": "<span class=\"message-negative\">Falha<\/span>  da ligação série não recuperável, desligando..."
+        "message": "<span class=\"message-negative\">Falha<\/span> irrecuperável da conexão serial, desconectando..."
     },
     "usbDeviceOpened": {
-        "message": "Dispositivo USB com ID: $1 aberto com <span class=\"message-positive\">sucesso<\/span>"
+        "message": "Dispositivo USB aberto com <span class=\"message-positive\">sucesso<\/span> com ID: $1"
     },
     "usbDeviceOpenFail": {
         "message": "<span class=\"message-negative\">Falha<\/span> ao abrir dispositivo USB!"
     },
     "usbDeviceClosed": {
-        "message": "Dispositivo USB desligado com <span class=\"message-positive\">sucesso<\/span>"
+        "message": "Dispositivo USB desconectado com <span class=\"message-positive\">sucesso<\/span>"
     },
     "usbDeviceCloseFail": {
-        "message": "<span class=\"message-negative\">Falha<\/span> ao desligar dispositivo USB"
+        "message": "<span class=\"message-negative\">Falha<\/span> ao desconectar dispositivo USB"
     },
     "usbDeviceUdevNotice": {
-        "message": "Estão as <strong>regras do udev<\/strong> instaladas corretamente? Veja a documentação para instruções"
+        "message": "O <strong>udev rules<\/strong> foi instalado corretamente? Veja a documentação para instruções"
     },
     "stm32UsbDfuNotFound": {
         "message": "USB DFU não encontrado"
     },
     "stm32TimedOut": {
-        "message": "STM32 - ligação expirada, programação: FALHOU"
+        "message": "STM32 - sem resposta, programação: FALHOU"
     },
     "stm32WrongResponse": {
         "message": "Comunicação falhou com o STM32, resposta incorreta, experada: $1 (0x$2) recebida: $3 (0x$4)"
     },
     "stm32ContactingBootloader": {
-        "message": "A tentar ligar ao bootloader ..."
+        "message": "Contactando bootloader ..."
     },
     "stm32ContactingBootloaderFailed": {
         "message": "Comunicação com o bootloader falhou"
@@ -226,10 +226,10 @@
         "message": "Sem resposta do bootloader, programação: FALHOU"
     },
     "stm32GlobalEraseExtended": {
-        "message": "Executando eliminação global do chip (via eliminação estendida) ..."
+        "message": "Executando formatação global do chip (via formatação estendida) ..."
     },
     "stm32LocalEraseExtended": {
-        "message": "Executando remoção local (via remoção estendida) ..."
+        "message": "Executando formatação local (via formatação estendida) ..."
     },
     "stm32GlobalErase": {
         "message": "Executando eliminação global do chip ..."
