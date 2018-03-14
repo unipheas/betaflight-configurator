@@ -85,13 +85,13 @@
         "message": "Dispositivo - <span class=\"message-positive\"> Pronto<\/span>"
     },
     "backupFileIncompatible": {
-        "message": "O ficheiro de backup fornecido foi gerado para uma versão antiga do configurador e é incompatível com esta versão. As nossas desculpas"
+        "message": "O arquivo de backup fornecido foi gerado para uma versão antiga do configurador e é incompatível com esta versão. Lamentamos"
     },
     "backupFileUnmigratable": {
-        "message": "O ficheiro de backup fornecido foi gerado por uma versão antiga do configurador e não é possível importar. As nossas desculpas."
+        "message": "O arquivo de backup fornecido foi gerado por uma versão antiga do configurador e não é possível importar. Lamentamos."
     },
     "configMigrationFrom": {
-        "message": "A migrar o ficheiro de configuração gerado pelo configurador: $1"
+        "message": "Migrando o arquivo de configuração gerado pelo configurador: $1"
     },
     "configMigratedTo": {
         "message": "Configuração migrada para o configurador: $1"
@@ -109,7 +109,7 @@
         "message": "Documentação & Suporte"
     },
     "tabSetup": {
-        "message": "Definições"
+        "message": "Configurações"
     },
     "tabSetupOSD": {
         "message": "Configuração do OSD"
@@ -124,7 +124,7 @@
         "message": "Afinação de PID"
     },
     "tabReceiver": {
-        "message": "Recetor"
+        "message": "Receptor"
     },
     "tabModeSelection": {
         "message": "Seleção de modos"
@@ -142,7 +142,7 @@
         "message": "OSD"
     },
     "tabPower": {
-        "message": "Corrente & Bateria"
+        "message": "Energia & Bateria"
     },
     "tabGPS": {
         "message": "GPS"
@@ -160,7 +160,7 @@
         "message": "Linha de comandos"
     },
     "tabLogging": {
-        "message": "Registos encadeados"
+        "message": "Log por conexão"
     },
     "tabOnboardLogging": {
         "message": "Caixa negra"
