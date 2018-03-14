@@ -42,7 +42,7 @@
         "message": "Sempre usar o modo avançado"
     },
     "userLanguageSelect": {
-        "message": "Idioma (necessário reiniciar a aplicação para as alterações entrarem em efeito)"
+        "message": "Idioma (necessário reiniciar a aplicação)"
     },
     "language_default": {
         "message": "Padrão"
@@ -58,7 +58,7 @@
         "message": "Acelerômetro"
     },
     "sensorStatusMag": {
-        "message": "Magnetómetro"
+        "message": "Magnetômetro"
     },
     "sensorStatusBaro": {
         "message": "Barômetro"
@@ -67,22 +67,22 @@
         "message": "GPS"
     },
     "sensorStatusSonar": {
-        "message": "Sonar \/ Descobrir alcance"
+        "message": "Sonar \/ Medidor de distância"
     },
     "checkForConfiguratorUnstableVersions": {
         "message": "Mostrar notificações de atualizações para versões instáveis do configurador"
     },
     "configuratorUpdateNotice": {
-        "message": "Está a usar uma versão desatualizada do <b>Betaflight Configurator<\/b>.<br>A versão <b>$1<\/b> está disponível online, por favor visite <a href=\"$2\" target=\"_blank\">a página da nova versão<\/a> para efetuar o download e instalar a ultima versão com correções e melhoramentos. <br>Por favor feche a janela do configurador antes de atualizar."
+        "message": "Você está usando uma versão antiga do <b>Betaflight Configurator<\/b>. <br>A versão <b>$1<\/b> está disponível online, por favor visite <a href=\"$2\" target=\"_blank\">a página da nova versão<\/a> para efetuar o download e instalar a ultima versão com correções e melhorias. <br>Por favor feche a janela do configurador antes de atualizar."
     },
     "configuratorUpdateWebsite": {
-        "message": "Ir para a Página Web da Versão"
+        "message": "Ir para a Página Web do lançamento"
     },
     "deviceRebooting": {
-        "message": "Dispositivo - <span class=\"message-negative\">A reiniciar<\/span>"
+        "message": "Dispositivo - <span class=\"message-negative\">Reiniciando<\/span>"
     },
     "deviceReady": {
-        "message": "Dispositivo - <span class=\"message-positive\"> pronto<\/span>"
+        "message": "Dispositivo - <span class=\"message-positive\"> Pronto<\/span>"
     },
     "backupFileIncompatible": {
         "message": "O ficheiro de backup fornecido foi gerado para uma versão antiga do configurador e é incompatível com esta versão. As nossas desculpas"
