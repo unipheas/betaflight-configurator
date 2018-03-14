@@ -655,6 +655,57 @@
     "initialSetupMagCalibEnded": {
         "message": "Calibração do magnetômetro <span class=\"message-positive\">finalizada<\/span>"
     },
+    "initialSetupSettingsRestored": {
+        "message": "Configurações restauradas para os valores <strong>padrão<\/strong>"
+    },
+    "initialSetupEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">salvo<\/span>"
+    },
+    "featureNone": {
+        "message": "&lt;Selecione&gt;"
+    },
+    "featureRX_PPM": {
+        "message": "Entrada RX PPM"
+    },
+    "featureVBAT": {
+        "message": "Monitoramento da voltagem da bateria"
+    },
+    "featureINFLIGHT_ACC_CAL": {
+        "message": "Calibração do nível em voo"
+    },
+    "featureRX_SERIAL": {
+        "message": "Receptor Serial (SPEKSAT, SBUS, SUMD)"
+    },
+    "featureMOTOR_STOP": {
+        "message": "Não rodar os motores quando armado"
+    },
+    "featureSERVO_TILT": {
+        "message": "Gimbal do Servo"
+    },
+    "featureSOFTSERIAL": {
+        "message": "Ativar portas serial baseadas em CPU"
+    },
+    "featureSOFTSERIALTip": {
+        "message": "Configure as portas na aba portas depois de ativar."
+    },
+    "featureGPS": {
+        "message": "GPS para navegação e telemetria"
+    },
+    "featureGPSTip": {
+        "message": "Configure primeiro o cenário das portas"
+    },
+    "featureSONAR": {
+        "message": "Sonar"
+    },
+    "featureTELEMETRY": {
+        "message": "Saída de telemetria"
+    },
+    "featureCURRENT_METER": {
+        "message": "Monitoramento da corrente da bateria"
+    },
+    "feature3D": {
+        "message": "Modo 3D (para uso com ESCs reversíveis)"
+    },
     "featureRX_PARALLEL_PWM": {
         "message": "Entrada de PWM RX (um fio por canal)"
     },
@@ -810,6 +861,27 @@
     },
     "configurationMagDeclination": {
         "message": "Declinação do Magnetômetro [deg]"
+    },
+    "configurationReverseMotorSwitch": {
+        "message": "Direção do motor é invertida"
+    },
+    "configurationReverseMotorSwitchHelp": {
+        "message": "Ativar esta opção irá dizer ao Betaflight que os motores e hélices estão definidos para rodar na direção inversa."
+    },
+    "configurationAutoDisarmDelay": {
+        "message": "Desarmar os motores após definir [seconds] de espera (Requer a funcionalidade MOTOR_STOP)"
+    },
+    "configurationDisarmKillSwitch": {
+        "message": "Desarmar os motores independentemente do valor do throttle (quando ARMAR é configurado na aba Modos através de um canal AUXILIAR)"
+    },
+    "configurationDisarmKillSwitchHelp": {
+        "message": "Armar está sempre desativado quando o throttle não está no mínimo. Tenha cuidado porque pode desarmar acidentalmente com um botão enquanto estiver voando se esta opção estiver ativa."
+    },
+    "configurationDigitalIdlePercent": {
+        "message": "Valor do throttle quando o motor está ocioso [percent]"
+    },
+    "configurationDigitalIdlePercentHelp": {
+        "message": "Este é o valor 'ocioso' em percentagem do valor máximo de throttle que é enviado para os ESCs quando a aeronave está armada e o stick do throttle está no mínimo. Aumente o valor para ganhar mais velocidade quando ocioso."
     },
     "portsTelemetryOut": {
         "message": "Saída de telemetria"
