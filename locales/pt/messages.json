@@ -50,6 +50,10 @@
     "sensorStatusGyro": {
         "message": "Giroscópio"
     },
+    "sensorStatusGyroShort": {
+        "message": "Gyro",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
     "sensorStatusAccel": {
         "message": "Acelerómetro"
     },
@@ -57,7 +61,7 @@
         "message": "Magnetómetro"
     },
     "sensorStatusBaro": {
-        "message": "Barómetro"
+        "message": "Barômetro"
     },
     "sensorStatusGPS": {
         "message": "GPS"
