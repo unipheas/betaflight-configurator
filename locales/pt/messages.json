@@ -742,6 +742,9 @@
     "featureESC_SENSOR": {
         "message": "Usar a telemetria KISS\/BLHeli_32 ESC como sensor"
     },
+    "featureCHANNEL_FORWARDING": {
+        "message": "Enviar canais AUX para saídas do servo"
+    },
     "featureTRANSPONDER": {
         "message": "Transponder de corridas"
     },
@@ -750,6 +753,9 @@
     },
     "featureAIRMODE": {
         "message": "Ativar permanentemente o Airmode"
+    },
+    "featureSUPEREXPO_RATES": {
+        "message": "Taxas Super Expo"
     },
     "featureSDCARD": {
         "message": "Suporte de cartão SD (para registro)"
@@ -964,11 +970,74 @@
     "configuration3d": {
         "message": "Modo 3D dos Motores\/ESC"
     },
+    "configuration3dDeadbandLow": {
+        "message": "Zona morta 3D baixa"
+    },
+    "configuration3dDeadbandHigh": {
+        "message": "Zona morta 3D alto"
+    },
+    "configuration3dNeutral": {
+        "message": "3D neutral"
+    },
+    "configuration3dDeadbandThrottle": {
+        "message": "Zona morta 3D Throttle"
+    },
     "configurationSystem": {
         "message": "Configuração do sistema"
     },
+    "configurationLoopTime": {
+        "message": "Tempo de Loop do Controlador de Voo"
+    },
     "configurationCalculatedCyclesSec": {
         "message": "Ciclos\/Seg [Hz]"
+    },
+    "configurationLoopTimeHelp": {
+        "message": "<strong>Nota:<\/strong> Tenha a certeza que o controlador é capaz de operar na velocidade selecionada! Verifique a estabilidade do CPU e o tempo de ciclo. Alterar este valor pode requerer uma nova afinação do PID. DICA: Desative o acelerômetro e outros sensores para ganhar mais performance."
+    },
+    "configurationGPS": {
+        "message": "GPS"
+    },
+    "configurationGPSProtocol": {
+        "message": "Protocolo"
+    },
+    "configurationGPSBaudrate": {
+        "message": "Baudrate"
+    },
+    "configurationGPSubxSbas": {
+        "message": "Tipo de Assistência Terrestre"
+    },
+    "configurationGPSAutoBaud": {
+        "message": "Baud Automático"
+    },
+    "configurationGPSAutoConfig": {
+        "message": "Configuração Automática"
+    },
+    "configurationGPSHelp": {
+        "message": "<strong>Nota:<\/strong> Lembre-se de configurar uma porta serial (via aba de Portas) ao utilizar a funcionalidade de GPS."
+    },
+    "configurationSerialRX": {
+        "message": "Provedor Serial do receptor"
+    },
+    "configurationSpiRX": {
+        "message": "Provedor SPI BUS do receptor"
+    },
+    "configurationEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">salvo<\/span>"
+    },
+    "configurationButtonSave": {
+        "message": "Salvar e reiniciar"
+    },
+    "portsIdentifier": {
+        "message": "Identificador"
+    },
+    "portsConfiguration": {
+        "message": "Configurações\/MSP"
+    },
+    "portsSerialRx": {
+        "message": "Serial Rx"
+    },
+    "portsSensorIn": {
+        "message": "Entrada do sensor"
     },
     "portsTelemetryOut": {
         "message": "Saída de telemetria"
@@ -1053,6 +1122,114 @@
     },
     "portsFunction_LIDAR_TF": {
         "message": "Benewake LIDAR"
+    },
+    "pidTuningUpgradeFirmwareToChangePidController": {
+        "message": "<span class=\"message-negative\">Alterações no controlador PID desabilitado - você pode mudar isso no CLI.<\/span>  Seu firmware está com a API versão <span class=\"message-negative\">$1<\/span>, mas esta funcionalidade requer <span class=\"message-positive\">$2<\/span>."
+    },
+    "pidTuningSubTabPid": {
+        "message": "Configurar PID"
+    },
+    "pidTuningSubTabFilter": {
+        "message": "Configurar Filtro"
+    },
+    "pidTuningShowAllPids": {
+        "message": "Exibir todos PIDs"
+    },
+    "pidTuningHideUnusedPids": {
+        "message": "Esconder PIDs não utilizados"
+    },
+    "pidTuningNonProfilePidSettings": {
+        "message": "Configurar controlador PID independente de perfil"
+    },
+    "pidTuningAntiGravityGain": {
+        "message": "Ganho Antigravidade"
+    },
+    "pidTuningAntiGravityThres": {
+        "message": "Limiar Antigravidade"
+    },
+    "pidTuningPidSettings": {
+        "message": "Configurar controlador PID"
+    },
+    "receiverRcInterpolation": {
+        "message": "Interpolação RC"
+    },
+    "receiverRcInterpolationHelp": {
+        "message": "Sistemas RC TX\/RX não são tão rápidos quanto loops PID, isso significa que o loop PID fica sem dados do sistema RC em alguns momentos. Esta opção habilita a interpolação da entrada do RC enquanto dados não são recebidos. Esta opção também oferece um comportamento mais limpo de P e D, uma vez que não há picos na entrada do controle."
+    },
+    "receiverRcInterpolationIntervalHelp": {
+        "message": "Intervalo de interpolação para o modo manual de interpolação RC (em milisegundos)"
+    },
+    "receiverRcInterpolationOff": {
+        "message": "Desligado"
+    },
+    "receiverRcInterpolationDefault": {
+        "message": "Predefinição"
+    },
+    "receiverRcInterpolationAuto": {
+        "message": "Auto"
+    },
+    "receiverRcInterpolationManual": {
+        "message": "Manual"
+    },
+    "receiverRcInterpolationInterval": {
+        "message": "Intervalo de Interpolação RC [ms]"
+    },
+    "pidTuningDtermSetpointTransition": {
+        "message": "Ponto de transição D"
+    },
+    "pidTuningDtermSetpoint": {
+        "message": "Peso do ponto D"
+    },
+    "pidTuningDtermSetpointTransitionHelp": {
+        "message": "Com este parâmetro, o peso do ponto D pode ser reduzido próximo ao centro dos sticks, isso faz com que o fim dos flips e rolls seja mais suave.<br> O valor representa a posição do stick: 0 - stick centralizado, 1 - stick nas bordas. Quando o stick estiver acima do ponto transição, o peso do ponto será mantido constante no valor configurado. quando o stick estiver abaixo do ponto de transição, o peso é reduzido proporcionalmente, até atingir 0 com o stick centralizado.<br> Valor 1 gera o efeito mais suave possível, enquanto o valor 0 mantêm o peso fixo no valor configurado durante todo o movimento do stick."
+    },
+    "pidTuningDtermSetpointHelp": {
+        "message": "Este parâmetro determina o efeito de aceleração do stick em relação ao componente derivativo D.<br> Com o valor em 0, será usado o antigo método de medição onde D monitora somente o giroscópio, enquanto o valor em 1 usa o antigo método de correção de erro com monitoramento igual entre o giroscópio e o stick.<br> Valores mais baixos resultam em uma resposta mais lenta\/suave do stick, enquanto valores mais altos resultam em uma resposta mais acelerada.<br> É recomendado ativar a interpolação do RC para valores mais altos para evitar ruídos."
+    },
+    "pidTuningProportional": {
+        "message": "Proporcional"
+    },
+    "pidTuningIntegral": {
+        "message": "Integral"
+    },
+    "pidTuningDerivative": {
+        "message": "Derivativo"
+    },
+    "pidTuningRcRate": {
+        "message": "Taxa do RC"
+    },
+    "pidTuningMaxVel": {
+        "message": "Velocidade Máxima [deg\/s]"
+    },
+    "pidTuningRate": {
+        "message": "Taxa"
+    },
+    "pidTuningSuperRate": {
+        "message": "Taxa Super"
+    },
+    "pidTuningRatesPreview": {
+        "message": "Pré-visualização das Taxas"
+    },
+    "pidTuningRcExpo": {
+        "message": "RC Expo"
+    },
+    "pidTuningTPA": {
+        "message": "TPA"
+    },
+    "pidTuningTPABreakPoint": {
+        "message": "TPA Breakpoint"
+    },
+    "pidTuningFilter": {
+        "message": "Filtro"
+    },
+    "pidTuningFilterFrequency": {
+        "message": "Frequência"
+    },
+    "pidTuningRatesCurve": {
+        "message": "Taxas"
+    },
+    "throttle": {
+        "message": "Throttle"
     },
     "dataflashNote": {
         "message": "Logs de voo podem ser salvos na Memória flash a bordo do seu controlador de voo."
