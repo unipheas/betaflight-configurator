@@ -388,5 +388,14 @@
     },
     "dataflashConfirmEraseNote": {
         "message": "Isso irá apagar todos logs da Caixa Preta e quaisquer outros dados na Memória flash. Isto deve demorar cerca de 20 segundos. Continuar?"
+    },
+    "dataflashSavingTitle": {
+        "message": "Salvando a Memória flash no arquivo"
+    },
+    "dataflashButtonEraseConfirm": {
+        "message": "Sim, apagar Memória flash"
+    },
+    "onboardLoggingFlashLogger": {
+        "message": "Memoria Flash Integrada"
     }
 }
