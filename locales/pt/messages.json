@@ -883,6 +883,93 @@
     "configurationDigitalIdlePercentHelp": {
         "message": "Este é o valor 'ocioso' em percentagem do valor máximo de throttle que é enviado para os ESCs quando a aeronave está armada e o stick do throttle está no mínimo. Aumente o valor para ganhar mais velocidade quando ocioso."
     },
+    "configurationThrottleMinimum": {
+        "message": "Throttle mínimo (Valor mínimo do ESC quando armado)"
+    },
+    "configurationThrottleMinimumHelp": {
+        "message": "Este é o valor 'ocioso' que é enviado para os ESCs quando a aeronave está armada e o stick do throttle está no mínimo. Aumente o valor para ganhar mais velocidade quando ocioso. Aumente também em caso de falhas na sincronia!"
+    },
+    "configurationThrottleMaximum": {
+        "message": "Throttle máximo (Valor máximo do ESC quando armado)"
+    },
+    "configurationThrottleMinimumCommand": {
+        "message": "Comando mínimo (valor do ESC quando desarmado)"
+    },
+    "configurationThrottleMinimumCommandHelp": {
+        "message": "Este é o valor que é enviado para os ESCs quando a aeronave está desarmada. Defina um valor em que os motores fiquem parados (1000 para a maioria dos ESCs)."
+    },
+    "configurationDshotBeeper": {
+        "message": "Configuração do sinalizador para DSHOT"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "Usar o sinalizador do DSHOT (usar os motores para emitir tons quando desarmado)"
+    },
+    "configurationDshotBeaconTone": {
+        "message": "Tom do sinalizador"
+    },
+    "configurationBeeper": {
+        "message": "Configuração do Beeper"
+    },
+    "beeperGYRO_CALIBRATED": {
+        "message": "Emite um sinal sonoro quando o giroscópio for calibrado"
+    },
+    "beeperRX_LOST": {
+        "message": "Emite um sinal sonoro quando o rádio é desligado ou o sinal é perdido (repetir até que o rádio esteja okay)"
+    },
+    "beeperRX_LOST_LANDING": {
+        "message": "Emite sons de SOS quando armado e o rádio é desligado ou o sinal é perdido (aterrissagem automática\/desarme automático)"
+    },
+    "beeperDISARMING": {
+        "message": "Emite um sinal sonoro quando o controlador de voo é desarmado"
+    },
+    "beeperARMING": {
+        "message": "Emite um sinal sonoro quando a controlador de voo é armado"
+    },
+    "beeperARMING_GPS_FIX": {
+        "message": "Emite um tom especial quando o GPS encontrar satélites e a placa estiver armada"
+    },
+    "beeperBAT_CRIT_LOW": {
+        "message": "Emite sinais sonoros mais longos quando a bateria está criticamente baixa (repete)"
+    },
+    "beeperBAT_LOW": {
+        "message": "Emite sinais sonoros quando a bateria estiver ficando fraca (repete)"
+    },
+    "beeperRX_SET": {
+        "message": "Emite um sinal sonoro quando o canal auxiliar estiver definido para emitir sinais sonoros ou emite uma sequência de sinais sonoros conforme o número de satélites encontrados se o GPS estiver ativado"
+    },
+    "beeperDISARM_REPEAT": {
+        "message": "Sinais sonoros emitidos quando segurar o stick na posição de desarmar"
+    },
+    "beeperACC_CALIBRATION": {
+        "message": "Confirmação de calibração do acelerômetro concluída durante o voo"
+    },
+    "beeperACC_CALIBRATION_FAIL": {
+        "message": "Falha da calibração do acelerômetro durante o voo"
+    },
+    "beeperREADY_BEEP": {
+        "message": "Emitir um tom quando o GPS estiver localizado e pronto"
+    },
+    "beeperARMED": {
+        "message": "Sinais sonoros de aviso quando a placa está armada (repete até que a placa seja desarmada ou o throttle é aumentado)"
+    },
+    "beeperSYSTEM_INIT": {
+        "message": "Sinais sonoros de inicialização quando a placa é ligada"
+    },
+    "beeperUSB": {
+        "message": "Emitir um sinal sonoro quando o controlador de voo recebe energia via USB. Desligue esta opção se não desejar sons na bancada"
+    },
+    "beeperBLACKBOX_ERASE": {
+        "message": "Emitir um sinal sonoro quando a Caixa Preta é completamente apagada"
+    },
+    "configuration3d": {
+        "message": "Modo 3D dos Motores\/ESC"
+    },
+    "configurationSystem": {
+        "message": "Configuração do sistema"
+    },
+    "configurationCalculatedCyclesSec": {
+        "message": "Ciclos\/Seg [Hz]"
+    },
     "portsTelemetryOut": {
         "message": "Saída de telemetria"
     },
