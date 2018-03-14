@@ -1,51 +1,51 @@
 {
     "warningTitle": {
-        "message": "Aviso"
+        "message": "Alerta"
     },
     "noticeTitle": {
-        "message": "Observação"
+        "message": "Aviso"
     },
     "options_title": {
         "message": "Opções da aplicação"
     },
     "connect": {
-        "message": "Ligar"
+        "message": "Conectar"
     },
     "connecting": {
-        "message": "A ligar"
+        "message": "Conectando"
     },
     "disconnect": {
-        "message": "Desligar"
+        "message": "Desconectar"
     },
     "portsSelectManual": {
-        "message": "Seleção manual"
+        "message": "Selecionar"
     },
     "portOverrideText": {
-        "message": "Porta"
+        "message": "Porta:"
     },
     "autoConnect": {
-        "message": "Ligar automaticamente"
+        "message": "Auto-Conectar"
     },
     "close": {
         "message": "Fechar"
     },
     "autoConnectEnabled": {
-        "message": "Ligar automaticamente: Ativo - O Configurador tenta ligar-se automaticamente assim que uma nova porta seja detetada"
+        "message": "Auto-Conectar: Ativado - O Configurador tenta se conectar automaticamente assim que uma nova porta é detectada"
     },
     "autoConnectDisabled": {
-        "message": "Ligar automaticamente: Desativo - O utilizador precisa de selecionar a porta série correta e pressionar o botão \"Ligar\" configurador tenta ligar-se automaticamente assim que uma nova porta seja detetada"
+        "message": "Auto-Conectar: Desativado - O usuário deve selecionar a porta serial correta e pressionar o botão \"Conectar\""
     },
     "expertMode": {
         "message": "Ativar modo avançado"
     },
     "permanentExpertMode": {
-        "message": "Permanentemente ativar o modo avançado"
+        "message": "Sempre usar o modo avançado"
     },
     "userLanguageSelect": {
-        "message": "Linguagem, (necessário reiniciar a aplicação para as alterações entrarem em efeito)"
+        "message": "Idioma (necessário reiniciar a aplicação para as alterações entrarem em efeito)"
     },
     "language_default": {
-        "message": "Defeito"
+        "message": "Padrão"
     },
     "sensorStatusGyro": {
         "message": "Giroscópio"
@@ -55,7 +55,7 @@
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusAccel": {
-        "message": "Acelerómetro"
+        "message": "Acelerômetro"
     },
     "sensorStatusMag": {
         "message": "Magnetómetro"
