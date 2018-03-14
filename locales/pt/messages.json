@@ -311,6 +311,9 @@
     "armingDisabled": {
         "message": "<strong>Armar desativo<\/strong>"
     },
+    "runawayTakeoffPreventionEnabled": {
+        "message": "<strong>Prevenção de decolagem acidental ativada<\/strong>"
+    },
     "boardInfoReceived": {
         "message": "Placa: <strong>$1<\/strong>, versão: <strong>$2<\/strong>"
     },
