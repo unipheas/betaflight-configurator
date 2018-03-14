@@ -65,17 +65,37 @@
     "sensorStatusAccel": {
         "message": "Acelerômetro"
     },
+    "sensorStatusAccelShort": {
+        "message": "Accel",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
     "sensorStatusMag": {
         "message": "Magnetômetro"
+    },
+    "sensorStatusMagShort": {
+        "message": "Mag",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusBaro": {
         "message": "Barômetro"
     },
+    "sensorStatusBaroShort": {
+        "message": "Baro",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
     "sensorStatusGPS": {
         "message": "GPS"
     },
+    "sensorStatusGPSShort": {
+        "message": "GPS",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
     "sensorStatusSonar": {
         "message": "Sonar \/ Medidor de distância"
+    },
+    "sensorStatusSonarShort": {
+        "message": "Sonar",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "checkForConfiguratorUnstableVersions": {
         "message": "Mostrar notificações de atualizações para versões instáveis do configurador"
@@ -260,6 +280,15 @@
     "stm32ProgrammingFailed": {
         "message": "Programação: FALHOU"
     },
+    "stm32AddressLoadFailed": {
+        "message": "Falha ao carregar endereço para setor de bytes de opção. Muito provavelmente devido a estar protegido contra leitura."
+    },
+    "stm32AddressLoadSuccess": {
+        "message": "Sucesso ao carregar endereço de bytes de opção."
+    },
+    "stm32AddressLoadUnknown": {
+        "message": "Erro desconhecido ao carregar endereço para setor de bytes de opção. Abortando."
+    },
     "stm32NotReadProtected": {
         "message": "Proteção contra leitura não está ativada"
     },
@@ -320,8 +349,20 @@
     "apiVersionReceived": {
         "message": "Versão da API MultiWii: <strong>$1<\/strong>"
     },
+    "uniqueDeviceIdReceived": {
+        "message": "ID único do dispositivo: <strong>0x$1<\/strong>"
+    },
+    "craftNameReceived": {
+        "message": "Nome da aeronave: <strong>$1<\/strong>"
+    },
     "armingDisabled": {
         "message": "<strong>Armar Desativado<\/strong>"
+    },
+    "armingEnabled": {
+        "message": "<strong>Permitido Armar<\/strong>"
+    },
+    "runawayTakeoffPreventionDisabled": {
+        "message": "<strong>Prevenção de decolagem acidental temporariamente desativada<\/strong>"
     },
     "runawayTakeoffPreventionEnabled": {
         "message": "<strong>Prevenção de descolagem acidental ativada<\/strong>"
@@ -374,6 +415,21 @@
     "dfu_connect_message": {
         "message": "Por favor use a opção de atualização de firmware para acessar dispositivos DFU"
     },
+    "dfu_erased_kilobytes": {
+        "message": "$1 kB de memória flash foram apagadas <span class=\"message-positive\"> com êxito<\/span>"
+    },
+    "dfu_device_flash_info": {
+        "message": "Dispositivo detectado com memória flash de $1 KiB"
+    },
+    "dfu_error_image_size": {
+        "message": "<span class=\"message-negative\">Erro:<\/span> A imagem fornecida é maior que memória flash disponível no chip! Imagem: $1 KiB, limite = $2 KiB"
+    },
+    "featureFAILSAFE": {
+        "message": "Ativar estágio 2 da segurança contra falhas"
+    },
+    "featureFAILSAFETip": {
+        "message": "<strong>Nota:<\/strong> quando o estágio 2 estiver DESATIVADO, a opção <strong>Automática<\/strong> é usada em vez das configurações do usuário para todos os canais de voo (Roll, Pitch, Yaw e Throttle)."
+    },
     "dataflashNote": {
         "message": "Logs de voo podem ser salvos na Memória flash a bordo do seu controlador de voo."
     },
@@ -394,6 +450,36 @@
     },
     "dataflashButtonEraseConfirm": {
         "message": "Sim, apagar Memória flash"
+    },
+    "firmwareFlasherRecoveryText": {
+        "message": "Se você perdeu a comunicação com sua placa, siga estas instruções para restaurar a comunicação: <ul><li>Desligue a placa<\/li><li>Ative a opção 'Sem sequencia de reinicialização' e 'Formatar chip'.<\/li><li>Jampeie os pinos BOOT ou segure o botão BOOT.<\/li><li>Ligue a placa (O LED de atividade NÃO irá piscar se realizado corretamente).<\/li><li>Instale todos os drivers STM32 e Zadig se necessário (veja a sessão <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a> do manual do Betaflight).<\/li><li>Feche o Configurador. Feche todas as janelas no Chrome, Feche todos aplicativos do Chrome, Reinicie o Configurador.<\/li><li>Solte o botão BOOT se seu FC tem um.<\/li><li>Atualize o Firmware correto (usando o Baud rate manual se especificado no manual do seu FC).<\/li><li>Desligue a placa.<\/li><li>Remova o jumper do BOOT.<\/li><li>Ligue a placa (O LED de atividade deve piscar).<\/li><li>Conecte normalmente.<\/li><\/ul>"
+    },
+    "failsafeFeaturesHelpNew": {
+        "message": "A segurança contra falhas tem dois estágios. O <strong>Estágio 1<\/strong> é iniciado quando o canal recebe um sinal inválido, quando o receptor solicita o modo ou quando não há nenhum sinal do receptor. As configurações de segurança do canal são aplicadas em <span class=\"message-negative\">todos canais<\/span> e um breve período de tempo é providenciado para que seja possível recuperar. O <strong>Estágio 2<\/strong> é iniciado quando a condição de falha acorre durante mais tempo do que o tempo de espera definido e enquanto a aeronave estiver <span class=\"message-negative\">armada<\/span>, todos os canais permanecerão nas configurações de segurança definidas a menos que sejam sobrepostos por algum procedimento. <br \/><strong>Nota:<\/strong> Antes de iniciar o estágio 1, as configurações de segurança também são aplicadas a todos canais AUX que também estão com sinais inválidos."
+    },
+    "failsafePulsrangeHelp": {
+        "message": "Pulsos mais curtos que o mínimo ou mais longos que o máximo são inválidos e irão ativar as configurações de segurança para o canal individual em canais AUX ou entrará no estágio 1 para canais de voo"
+    },
+    "failsafeChannelFallbackSettingsHelp": {
+        "message": "Estas configurações são aplicadas em canais AUX individuais inválidos ou em todos os canais quando entrar no estágio 1. <strong>Nota:<\/strong> Os valores são salvos em passos de 25usec, para que mudanças pequenas desaparecem"
+    },
+    "failsafeChannelFallbackSettingsAuto": {
+        "message": "<strong>Auto<\/strong> significa Roll, Pitch e Yaw ao centro e Throttle baixo. <strong>Hold<\/strong> significa manter o ultimo valor válido recebido"
+    },
+    "failsafeChannelFallbackSettingsHold": {
+        "message": "<strong>Hold<\/strong> significa manter o ultimo valor válido recebido. <strong>Set<\/strong> significa que o valor definido aqui será usado"
+    },
+    "failsafeStageTwoSettingsTitle": {
+        "message": "Estágio 2 - Configurações"
+    },
+    "failsafeDelayItem": {
+        "message": "Tempo de espera antes ativar o estágio 2 após perder o sinal [1 = 0.1 sec.]"
+    },
+    "failsafeDelayHelp": {
+        "message": "Tempo para recuperação no estágio 1"
+    },
+    "failsafeSubTitle1": {
+        "message": "Estágio 2 - Procedimentos"
     },
     "onboardLoggingFlashLogger": {
         "message": "Memoria Flash Integrada"
