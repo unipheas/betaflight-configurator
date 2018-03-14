@@ -1231,6 +1231,348 @@
     "throttle": {
         "message": "Throttle"
     },
+    "pidTuningButtonSave": {
+        "message": "Salvar"
+    },
+    "pidTuningButtonRefresh": {
+        "message": "Atualizar"
+    },
+    "pidTuningProfileHead": {
+        "message": "Perfil"
+    },
+    "pidTuningControllerHead": {
+        "message": "Controlador PID"
+    },
+    "pidTuningCopyProfile": {
+        "message": "Copiar perfil"
+    },
+    "pidTuningCopyRateProfile": {
+        "message": "Copiar perfil de taxas"
+    },
+    "dialogCopyProfileText": {
+        "message": "Copiar perfil atual"
+    },
+    "dialogCopyRateProfileText": {
+        "message": "Copiar perfil de taxas atual"
+    },
+    "dialogCopyProfileTitle": {
+        "message": "Copiar Valores do Perfil"
+    },
+    "dialogCopyProfileNote": {
+        "message": "Todos os valores no perfil de destino serão substituídos"
+    },
+    "dialogCopyProfileConfirm": {
+        "message": "Copiar"
+    },
+    "dialogCopyProfileClose": {
+        "message": "Cancelar"
+    },
+    "pidTuningResetProfile": {
+        "message": "Reiniciar valores do perfil"
+    },
+    "pidTuningProfileReset": {
+        "message": "Carregados valores padrões do perfil."
+    },
+    "pidTuningReceivedProfile": {
+        "message": "Perfil aplicado ao controlador de voo: <strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningReceivedRateProfile": {
+        "message": "Perfil de taxas aplicado ao controlador de voo: <strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningLoadedProfile": {
+        "message": "Perfil Carregado: <strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningLoadedRateProfile": {
+        "message": "Perfil de taxas carregado: <strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningDataRefreshed": {
+        "message": "Dados do PID <strong>atualizados<\/strong>"
+    },
+    "pidTuningEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">salvo<\/span>"
+    },
+    "receiverHelp": {
+        "message": "Por favor leia o capitulo da documentação sobre receptores. Configure a porta serial (se necessário), modo do receptor (serial\/ppm\/pwm), provedor (para receptores serial), vincule o receptor, especifique o mapa de canais, configure os limites\/faixas no TX de forma que todos os canais vão de ~1000 a ~2000. Defina o ponto médio (1500 por padrão), canais de ajuste (trim) em 1500, configure a zona morta do stick, verifique o comportamento quando o TX estiver desligado ou fora de alcance.<br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Antes de voar, leia o capitulo da documentação sobre segurança contra falhas (failsafe) e configure-a."
+    },
+    "tuningHelp": {
+        "message": "<b>Dicas de otimização<\/b><br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Sempre verifique a temperatura dos motores durante os primeiros voos. Quanto maior o valor do filtro, melhor pode ser o voo, porém, mais ruído chegará aos motores. <br>O Valor padrão de 100Hz é ótimo, mas para veículos com mais ruídos, você pode tentar diminuir o filtro do termo D para 50Hz e possivelmente também o filtro do giroscópio."
+    },
+    "receiverThrottleMid": {
+        "message": "Throttle MEIO"
+    },
+    "receiverThrottleExpo": {
+        "message": "Throttle EXPO"
+    },
+    "receiverStickMin": {
+        "message": "Limite 'Stick baixo'"
+    },
+    "receiverHelpStickMin": {
+        "message": "O valor máximo (em us) para que o stick seja reconhecido como baixo \/ esquerda para entrada do comando (MIN_CHECK)."
+    },
+    "receiverStickCenter": {
+        "message": "Meio do Stick"
+    },
+    "receiverHelpStickCenter": {
+        "message": "O valor (em us) usado para determinar se o stick está centralizado (MID_RC)."
+    },
+    "receiverStickMax": {
+        "message": "Limite 'Stick Alto'"
+    },
+    "receiverHelpStickMax": {
+        "message": "O valor mínimo (em us) para que o stick seja reconhecido como alto \/ direita para entrada do comando (MAX_CHECK)."
+    },
+    "receiverDeadband": {
+        "message": "Ponto morto do RC"
+    },
+    "receiverHelpDeadband": {
+        "message": "Estes valores (em us) indicam quanto a entrada do RC pode ser variada antes de ser considerada válida. Para transmissores com saídas instáveis, este valor pode ser aumentado se as entradas RC vibram enquanto ocioso."
+    },
+    "receiverYawDeadband": {
+        "message": "Ponto morto do Yaw"
+    },
+    "receiverHelpYawDeadband": {
+        "message": "Estes valores (em us) indicam quanto a entrada do RC pode ser variada antes de ser considerada válida. Para transmissores com saídas instáveis, este valor pode ser aumentado se as entradas RC vibram enquanto ocioso. <strong> Esta configuração afeta somente o Yaw.<\/strong>"
+    },
+    "recevier3dDeadbandThrottle": {
+        "message": "Ponto morto do Throttle 3D"
+    },
+    "receiverHelp3dDeadbandThrottle": {
+        "message": "Valores (em us). Aumente o valor para aumentar a zona neutra. <strong> Esta configuração é somente para o Throttle 3D.<\/strong>"
+    },
+    "receiverChannelMap": {
+        "message": "Mapa de Canais"
+    },
+    "receiverChannelDefaultOption": {
+        "message": "Padrão"
+    },
+    "receiverChannelMapTitle": {
+        "message": "Você pode definir o seu próprio mapa de canais clicando dentro da caixa"
+    },
+    "receiverRssiChannel": {
+        "message": "Canal RSSI"
+    },
+    "receiverRssiChannelDisabledOption": {
+        "message": "Desativado"
+    },
+    "receiverRefreshRateTitle": {
+        "message": "Taxa de atualização do grafico"
+    },
+    "receiverButtonSave": {
+        "message": "Salvar"
+    },
+    "receiverButtonRefresh": {
+        "message": "Atualizar"
+    },
+    "receiverButtonSticks": {
+        "message": "Sticks do controle"
+    },
+    "receiverDataRefreshed": {
+        "message": "Dados de afinação do RC <strong>atualizados<\/strong>"
+    },
+    "receiverEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">salvo<\/span>"
+    },
+    "receiverModelPreview": {
+        "message": "Pré-visualizar"
+    },
+    "receiverMspWarningText": {
+        "message": "Estes sticks permitem o Betaflight ser armado e testado sem um transmissor ou receptor disponíveis. Porém, <strong>esta funcionalidade não foi feita para voos e as hélices não devem estar encaixadas.<\/strong><br><br>Esta função não garante um controle confiável da sua aeronave. <strong>Ferimentos graves podem ocorrer se as hélices estiverem conectadas.<\/strong>"
+    },
+    "receiverMspEnableButton": {
+        "message": "Habilitar controles"
+    },
+    "auxiliaryHelp": {
+        "message": "Use as faixas para definir quais switches no seu transmissor correspondem aos modos designados. Um canal no receptor que fornece uma leitura entre o máximo\/mínimo da faixa ativará o modo. Lembre-se de salvar suas configurações."
+    },
+    "auxiliaryMin": {
+        "message": "Min"
+    },
+    "auxiliaryMax": {
+        "message": "Max"
+    },
+    "auxiliaryAddRange": {
+        "message": "Adicionar Faixa"
+    },
+    "auxiliaryButtonSave": {
+        "message": "Salvar"
+    },
+    "auxiliaryEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">salvo<\/span>"
+    },
+    "auxiliaryAutoChannelSelect": {
+        "message": "AUTO"
+    },
+    "adjustmentsHelp": {
+        "message": "Configure os switches de ajuste. Leia a seção do manual sobre 'in-flight adjustments' para detalhes. As mudanças que as funções de ajuste fazem não são salvas automaticamente. Existem 4 slots. Cada switch usado para ajuste exige o uso exclusivo de um slot."
+    },
+    "adjustmentsExamples": {
+        "message": "Exemplos"
+    },
+    "adjustmentsExample1": {
+        "message": "Use o Slot 1 e um switch de 3 posições no AUX1 para selecionar entre o P, I e D do Pitch\/Roll e outro switch de 3 posições no AUX2 para aumentar ou decrementar o valor quando apertado para cima ou para baixo."
+    },
+    "adjustmentsExample2": {
+        "message": "Use o Slot 2 e um switch de 3 posições no AUX4 para selecionar e ativar um perfil de taxa."
+    },
+    "adjustmentsColumnEnable": {
+        "message": "Se ativo"
+    },
+    "adjustmentsColumnUsingSlot": {
+        "message": "usando slot"
+    },
+    "adjustmentsColumnWhenChannel": {
+        "message": "quando canal"
+    },
+    "adjustmentsColumnIsInRange": {
+        "message": "está na faixa"
+    },
+    "adjustmentsColumnThenApplyFunction": {
+        "message": "então aplicar"
+    },
+    "adjustmentsColumnViaChannel": {
+        "message": "via canal"
+    },
+    "adjustmentsSlot0": {
+        "message": "Slot 1"
+    },
+    "adjustmentsSlot1": {
+        "message": "Slot 2"
+    },
+    "adjustmentsSlot2": {
+        "message": "Slot 3"
+    },
+    "adjustmentsSlot3": {
+        "message": "Slot 4"
+    },
+    "adjustmentsMin": {
+        "message": "Min"
+    },
+    "adjustmentsMax": {
+        "message": "Max"
+    },
+    "adjustmentsFunction0": {
+        "message": "Sem alterações"
+    },
+    "adjustmentsFunction1": {
+        "message": "Ajuste de Taxa do RC"
+    },
+    "adjustmentsFunction2": {
+        "message": "Ajuste de Expo do RC"
+    },
+    "adjustmentsFunction3": {
+        "message": "Ajuste de Expo do Acelerador"
+    },
+    "adjustmentsFunction4": {
+        "message": "Ajuste de taxa do Pitch & Roll"
+    },
+    "adjustmentsFunction5": {
+        "message": "Ajuste da taxa de Yaw"
+    },
+    "adjustmentsFunction6": {
+        "message": "Ajuste P do Pitch & Roll"
+    },
+    "adjustmentsFunction7": {
+        "message": "Ajuste I do Pitch & Roll"
+    },
+    "adjustmentsFunction8": {
+        "message": "Ajuste D do Pitch & Roll"
+    },
+    "adjustmentsFunction9": {
+        "message": "Ajuste P do Yaw"
+    },
+    "adjustmentsFunction10": {
+        "message": "Ajuste I do Yaw"
+    },
+    "adjustmentsFunction11": {
+        "message": "Ajuste D do Yaw"
+    },
+    "adjustmentsFunction12": {
+        "message": "Seleção de perfil de taxa"
+    },
+    "adjustmentsFunction13": {
+        "message": "Taxa do Pitch"
+    },
+    "adjustmentsFunction14": {
+        "message": "Taxa do Roll"
+    },
+    "adjustmentsFunction15": {
+        "message": "Ajuste P do Pitch"
+    },
+    "adjustmentsFunction16": {
+        "message": "Ajuste I do Pitch"
+    },
+    "adjustmentsFunction17": {
+        "message": "Ajuste D do Pitch"
+    },
+    "adjustmentsFunction18": {
+        "message": "Ajuste P do Roll"
+    },
+    "adjustmentsFunction19": {
+        "message": "Ajuste I do Roll"
+    },
+    "adjustmentsFunction20": {
+        "message": "Ajuste D do Roll"
+    },
+    "adjustmentsFunction21": {
+        "message": "Taxa de Yaw do RC"
+    },
+    "adjustmentsFunction22": {
+        "message": "Ponto de ajuste D"
+    },
+    "adjustmentsFunction23": {
+        "message": "Transição do ponto D"
+    },
+    "adjustmentsFunction24": {
+        "message": "Força de ajuste de horizonte"
+    },
+    "adjustmentsSave": {
+        "message": "Salvar"
+    },
+    "adjustmentsEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">salvo<\/span>"
+    },
+    "transponderNotSupported": {
+        "message": "O firmware do seu controlador de voo não suporta a função de transponder."
+    },
+    "transponderInformation": {
+        "message": "Sistemas de transponder permitem que os organizadores de corridas cronometrem suas voltas. O transponder é instalado na sua aeronave, e quando passar por um gate equipado com receptores, seu código é registrado junto com o tempo da sua volta. Quando equipar um transponder baseado em IR, você deve garantir que ele aponta para fora da sua aeronave, na direção dos receptores da pista, e que os feixes de luz não estão sendo obstruídos pela estrutura, straps para bateria, cabos, hélices, etc."
+    },
+    "transponderConfigurationType": {
+        "message": "Tipo de transponder"
+    },
+    "transponderType0": {
+        "message": "Nenhum"
+    },
+    "transponderType1": {
+        "message": "iLap"
+    },
+    "transponderType2": {
+        "message": "aRCiTimer"
+    },
+    "transponderType3": {
+        "message": "ERLT"
+    },
+    "transponderConfiguration1": {
+        "message": "Configuração iLap"
+    },
+    "transponderConfiguration2": {
+        "message": "Configuração aRCiTimer"
+    },
+    "transponderConfiguration3": {
+        "message": "Configuração ERLT"
+    },
+    "transponderData1": {
+        "message": "Dados"
+    },
+    "transponderData3": {
+        "message": "ID do Transponder"
+    },
+    "transponderDataHelp1": {
+        "message": "Somente dígitos Hexadecimais, 0-9, A-F"
+    },
+    "transponderHelp1": {
+        "message": "Configure o código do seu transponder aqui. Nota: Somente códigos válidos serão reconhecidos em sistemas de tempo de corrida. Códigos válidos para o transponder podem ser obtidos em <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a>."
+    },
     "dataflashNote": {
         "message": "Logs de voo podem ser salvos na Memória flash a bordo do seu controlador de voo."
     },
