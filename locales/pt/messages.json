@@ -1564,6 +1564,9 @@
     "transponderData1": {
         "message": "Dados"
     },
+    "transponderData2": {
+        "message": "ID do Transponder"
+    },
     "transponderData3": {
         "message": "ID do Transponder"
     },
@@ -1599,6 +1602,240 @@
     },
     "servosChangeDirection": {
         "message": "Mude a direção no TX para que fique igual"
+    },
+    "servosName": {
+        "message": "Nome"
+    },
+    "servosMid": {
+        "message": "MEIO"
+    },
+    "servosMin": {
+        "message": "MÍNIMO"
+    },
+    "servosMax": {
+        "message": "MÁXIMO"
+    },
+    "servosAngleAtMin": {
+        "message": "Angulo no mínimo"
+    },
+    "servosAngleAtMax": {
+        "message": "Angulo no máximo"
+    },
+    "servosDirectionAndRate": {
+        "message": "Direção e taxa"
+    },
+    "servosLiveMode": {
+        "message": "Habilitar modo ao vivo"
+    },
+    "servosButtonSave": {
+        "message": "Salvar"
+    },
+    "servosNormal": {
+        "message": "Normal"
+    },
+    "servosReverse": {
+        "message": "Reverso"
+    },
+    "servosEepromSave": {
+        "message": "EEPROM <span class=\"message-positive\">salvo<\/span>"
+    },
+    "gpsHead": {
+        "message": "GPS"
+    },
+    "gpsMapHead": {
+        "message": "Localização GPS atual"
+    },
+    "gpsMapMessage1": {
+        "message": "Verifique sua conexão com a internet"
+    },
+    "gpsMapMessage2": {
+        "message": "Aguardando posição do GPS 3D…"
+    },
+    "gps3dFix": {
+        "message": "Posição 3D:"
+    },
+    "gpsFixTrue": {
+        "message": "<span class=\"fixtrue\">Verdadeiro<\/span>"
+    },
+    "gpsFixFalse": {
+        "message": "<span class=\"fixfalse\">Falso<\/span>"
+    },
+    "gpsAltitude": {
+        "message": "Altitude:"
+    },
+    "gpsLat": {
+        "message": "Latitude:"
+    },
+    "gpsLon": {
+        "message": "Longitude:"
+    },
+    "gpsSpeed": {
+        "message": "Velocidade:"
+    },
+    "gpsSats": {
+        "message": "Status:"
+    },
+    "gpsDistToHome": {
+        "message": "Distância até a base:"
+    },
+    "gpsSignalStrHead": {
+        "message": "Força do sinal GPS"
+    },
+    "gpsSignalStr": {
+        "message": "Força do Sinal"
+    },
+    "gpsSignalSatId": {
+        "message": "ID Satélite"
+    },
+    "gpsSignalQty": {
+        "message": "Quantidade"
+    },
+    "motorsText": {
+        "message": "Motores"
+    },
+    "motorNumber1": {
+        "message": "Motor - 1"
+    },
+    "motorNumber2": {
+        "message": "Motor - 2"
+    },
+    "motorNumber3": {
+        "message": "Motor - 3"
+    },
+    "motorNumber4": {
+        "message": "Motor - 4"
+    },
+    "motorNumber5": {
+        "message": "Motor - 5"
+    },
+    "motorNumber6": {
+        "message": "Motor - 6"
+    },
+    "motorNumber7": {
+        "message": "Motor - 7"
+    },
+    "motorNumber8": {
+        "message": "Motor - 8"
+    },
+    "servosText": {
+        "message": "Servos"
+    },
+    "servoNumber1": {
+        "message": "Servo - 1"
+    },
+    "servoNumber2": {
+        "message": "Servo - 2"
+    },
+    "servoNumber3": {
+        "message": "Servo - 3"
+    },
+    "servoNumber4": {
+        "message": "Servo - 4"
+    },
+    "servoNumber5": {
+        "message": "Servo - 5"
+    },
+    "servoNumber6": {
+        "message": "Servo - 6"
+    },
+    "servoNumber7": {
+        "message": "Servo - 7"
+    },
+    "servoNumber8": {
+        "message": "Servo - 8"
+    },
+    "motorsResetMaximumButton": {
+        "message": "Resetar"
+    },
+    "motorsResetMaximum": {
+        "message": "Resetar valor máximo no tempo"
+    },
+    "motorsSensorGyroSelect": {
+        "message": "giroscópio"
+    },
+    "motorsSensorAccelSelect": {
+        "message": "acelerômetro"
+    },
+    "motorsMaster": {
+        "message": "Mestre"
+    },
+    "motorsNotice": {
+        "message": "<strong>Aviso sobre o modo de Teste de Motor \/ Armar:<\/strong><br \/>Mover os sliders ou armar a sua aeronave com o transmissor irá fazer com que os motores <strong>girem<\/strong>.<br \/>Para evitar ferimentos, <strong class=\"message-negative\">remova TODAS as hélices<\/strong> antes de usar esta função.<br \/>Habilitar o modo de Teste de Motor também irá temporariamente desabilitar a Prevenção contra decolagem acidental, afim de evitar o desarme da aeronave enquanto estiver testando em sua bancada sem as hélices.<br \/>"
+    },
+    "motorsEnableControl": {
+        "message": "<strong>Eu entendo os riscos<\/strong>, as hélices foram removidas - habilitar o controle do motor, armar e desativar a Prevenção contra decolagem acidental."
+    },
+    "sensorsInfo": {
+        "message": "Tenha em mente que ao usar um período de atualização rápido e visualizar vários gráficos simultaneamente utiliza muitos recursos do computador e pode usar sua bateria rapidamente se estiver em um notebook. Recomendamos que somente exiba os gráficos dos sensores em que estiver interessado e que utilize períodos de atualização razoáveis."
+    },
+    "sensorsRefresh": {
+        "message": "Atualizar:"
+    },
+    "sensorsScale": {
+        "message": "Escala:"
+    },
+    "sensorsGyroSelect": {
+        "message": "Giroscópio"
+    },
+    "sensorsAccelSelect": {
+        "message": "Acelerômetro"
+    },
+    "sensorsMagSelect": {
+        "message": "Magnetômetro"
+    },
+    "sensorsBaroSelect": {
+        "message": "Barômetro"
+    },
+    "sensorsSonarSelect": {
+        "message": "Sonar"
+    },
+    "sensorsDebugSelect": {
+        "message": "Debug"
+    },
+    "sensorsGyroTitle": {
+        "message": "Giroscópio - deg\/s"
+    },
+    "sensorsAccelTitle": {
+        "message": "Acelerômetro - g"
+    },
+    "sensorsMagTitle": {
+        "message": "Magnetômetro - Ga"
+    },
+    "sensorsBaroTitle": {
+        "message": "Barômetro - metros"
+    },
+    "sensorsSonarTitle": {
+        "message": "Sonar - cm"
+    },
+    "sensorsDebugTitle": {
+        "message": "Debug"
+    },
+    "cliInfo": {
+        "message": "<strong>Nota:<\/strong> Sair da aba de linha de comando (CLI) ou pressionar Desconectar irá <strong>automaticamente<\/strong> enviar o comando \"<strong>exit<\/strong>\" para a placa. No firmware mais recente, isto fará com que o controlador <span class=\"message-negative\">reinicie<\/span> e qualquer mudança não salva será <span class=\"message-negative\">perdida<\/span>."
+    },
+    "cliInputPlaceholder": {
+        "message": "Escreva seu comando aqui"
+    },
+    "cliEnter": {
+        "message": "Modo CLI detectado"
+    },
+    "cliReboot": {
+        "message": "Reiniciar CLI detectado"
+    },
+    "cliSaveToFileBtn": {
+        "message": "Salvar para arquivo"
+    },
+    "loggingNote": {
+        "message": "Os dados serão logados <span class=\"message-negative\">somente<\/span> nesta aba, sair da aba irá <span class=\"message-negative\">cancelar<\/span> o log e a aplicação irá retornar para seu estado <strong>\"cofigurador\"<\/strong> normal.<br \/> Você pode selecionar o período de atualização global, dados serão escritos no arquivo de log a cada <strong>1<\/strong> segundo por motivos de performance."
+    },
+    "loggingSamplesSaved": {
+        "message": "Amostras Salvas:"
+    },
+    "loggingLogSize": {
+        "message": "Tamanho do Log:"
+    },
+    "loggingButtonLogFile": {
+        "message": "Selecionar arquivo de Log"
     },
     "dataflashNote": {
         "message": "Logs de voo podem ser salvos na Memória flash a bordo do seu controlador de voo."
