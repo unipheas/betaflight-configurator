@@ -47,6 +47,14 @@
     "language_default": {
         "message": "Padrão"
     },
+    "sensorDataFlashNotFound": {
+        "message": "Nenhuma memória <br> flash detectada",
+        "description": "Text of the dataflash image in the header of the page."
+    },
+    "sensorDataFlashFreeSpace": {
+        "message": "Memória flash: espaço livre",
+        "description": "Text of the dataflash image in the header of the page."
+    },
     "sensorStatusGyro": {
         "message": "Giroscópio"
     },
@@ -232,19 +240,19 @@
         "message": "Executando formatação local (via formatação estendida) ..."
     },
     "stm32GlobalErase": {
-        "message": "Executando eliminação global do chip ..."
+        "message": "Executando formatação global do chip ..."
     },
     "stm32LocalErase": {
-        "message": "Executando eliminação local ..."
+        "message": "Executando formatação local ..."
     },
     "stm32Erase": {
-        "message": "A eliminar ..."
+        "message": "Formatando ..."
     },
     "stm32Flashing": {
-        "message": "A atualizar ..."
+        "message": "Atualizando ..."
     },
     "stm32Verifying": {
-        "message": "A verificar ..."
+        "message": "Verificando ..."
     },
     "stm32ProgrammingSuccessful": {
         "message": "Programação: SUCESSO"
@@ -253,70 +261,70 @@
         "message": "Programação: FALHOU"
     },
     "stm32NotReadProtected": {
-        "message": "Proteção de leitura não ativa"
+        "message": "Proteção contra leitura não está ativada"
     },
     "stm32ReadProtected": {
-        "message": "Placa parece protegida contra leituras. A desproteger. Não desligue\/remova!"
+        "message": "A placa parece estar protegida contra leitura. Desbloqueando. Não desligue\/desconecte!"
     },
     "stm32UnprotectSuccessful": {
         "message": "Desprotegida com sucesso."
     },
     "stm32UnprotectUnplug": {
-        "message": "AÇÃO NECESSÁRIA: Desligue e volte a ligar a controladora de voo em modo DFU para tentar atualizar novamente!"
+        "message": "AÇÃO NECESSÁRIA: Desconecte e reconecte o controlador de voo em modo DFU para tentar atualizar novamente!"
     },
     "stm32UnprotectFailed": {
-        "message": "Falha ao desproteger a placa"
+        "message": "Falha ao desbloquear a placa"
     },
     "stm32UnprotectInitFailed": {
-        "message": "Falha ao iniciar a rotina de desproteção"
+        "message": "Falha ao iniciar a rotina de desbloqueio"
     },
     "noConfigurationReceived": {
-        "message": "Nenhum configuração recebida em <span class=\"message-negative\">10 segundos<\/span>, comunicação <span class=\"message-negative\">falhou<\/span>"
+        "message": "Nenhuma configuração foi recebida em <span class=\"message-negative\">10 segundos<\/span>, a comunicação <span class=\"message-negative\">falhou<\/span>"
     },
     "firmwareVersionNotSupported": {
-        "message": "Esta versão do firmware <span class=\"message-negative\">não é suportada<\/span>. Por favor atualize para um firmware que suporte a versão <strong>$1<\/strong> ou superior da API. Use a linha de comandos para um backup antes de atualizar. Procedimento para fazer uma cópia de segurança\/restaurar encontra-se na documentação.<br \/>Como alternativa faça o download e use uma versão antiga do configurador, caso não esteja preparado para efetuar a atualização."
+        "message": "Esta versão do firmware <span class=\"message-negative\">não é suportada<\/span>. Por favor atualize para um firmware que suporte a versão <strong>$1<\/strong> ou superior da API. Use a linha de comandos para fazer um backup antes de atualizar. O procedimento para fazer uma cópia de segurança\/restaurar encontra-se na documentação.<br \/>Como alternativa faça o download e use uma versão antiga do configurador caso não esteja preparado para efetuar a atualização."
     },
     "firmwareTypeNotSupported": {
-        "message": "Firmware que não seja Cleanflight\/Betaflight <span class=\"message-negative\">não é suportado<\/span>, excepto na linha de comandos"
+        "message": "Firmware que não seja Cleanflight\/Betaflight <span class=\"message-negative\">não é suportado<\/span>, exceto na linha de comandos."
     },
     "firmwareUpgradeRequired": {
-        "message": "O firmware deste dispositivo precisa de ser atualizado para uma versão mais recente. Use a linha de comandos para realizar uma cópia de segurança antes da atualização. Procedimento para fazer uma cópia de segurança\/restaurar encontra-se na documentação.<br \/>Como alternativa faça o download e use uma versão antiga do configurador, caso não esteja preparado para efetuar a atualização."
+        "message": "O firmware deste dispositivo precisa ser atualizado para uma versão mais recente. Use a linha de comandos para realizar uma cópia de segurança antes da atualização. O procedimento para fazer uma cópia de segurança\/restaurar encontra-se na documentação.<br \/>Como alternativa faça o download e use uma versão antiga do configurador, caso não esteja preparado para efetuar a atualização."
     },
     "infoVersions": {
-        "message": "Em execução - SO: <strong>$1<\/strong>,Chrome: <strong>$2<\/strong>, Configurador: <strong>$3<\/strong>"
+        "message": "Em execução - SO: <strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Configurador: <strong>$3<\/strong>"
     },
     "releaseCheckLoaded": {
-        "message": "Carregada informação para a versão $1 do GitHub."
+        "message": "Informações da versão $1 carregadas do GitHub."
     },
     "releaseCheckFailed": {
-        "message": "<b>Query ao GitHub para a versão $1 falhou, usando a informação em cache. Razão: <code>$2<\/code><\/b>"
+        "message": "<b>Query ao GitHub para a versão $1 falhou, usando as informações em cache. Razão: <code>$2<\/code><\/b>"
     },
     "releaseCheckCached": {
-        "message": "A usar informação em cache para as versões $1."
+        "message": "Usando informações em cache para as versões $1."
     },
     "releaseCheckNoInfo": {
-        "message": "Nenhum informação disponível para a versão $1."
+        "message": "Nenhuma informação disponível para a versão $1."
     },
     "tabSwitchConnectionRequired": {
-        "message": "Precisa de se <strong>ligar<\/strong> antes de poder visualizar as abas."
+        "message": "Você precisa <strong>conectar<\/strong> antes de poder visualizar as abas."
     },
     "tabSwitchWaitForOperation": {
-        "message": "Você <span class=\"message-negative\">não pode<\/span> realizar esta operação neste momento, por favor aguarde que termine a operação em execução."
+        "message": "Você <span class=\"message-negative\">não pode<\/span> realizar esta operação neste momento, por favor aguarde o fim da operação em execução..."
     },
     "tabSwitchUpgradeRequired": {
-        "message": "Precisa de <strong>atualizar<\/strong> o firmware para a ultima versão do Betaflight antes de poder usar a aba $1."
+        "message": "Você precisa <strong>atualizar<\/strong> o firmware para a ultima versão do Betaflight antes de poder usar a aba $1."
     },
     "firmwareVersion": {
-        "message": "Versão de firmware: <strong>$1<\/strong>"
+        "message": "Versão do firmware: <strong>$1<\/strong>"
     },
     "apiVersionReceived": {
-        "message": "Versão da API do MultiWii: <strong>$1<\/strong>"
+        "message": "Versão da API MultiWii: <strong>$1<\/strong>"
     },
     "armingDisabled": {
-        "message": "<strong>Armar desativo<\/strong>"
+        "message": "<strong>Armar Desativado<\/strong>"
     },
     "runawayTakeoffPreventionEnabled": {
-        "message": "<strong>Prevenção de decolagem acidental ativada<\/strong>"
+        "message": "<strong>Prevenção de descolagem acidental ativada<\/strong>"
     },
     "boardInfoReceived": {
         "message": "Placa: <strong>$1<\/strong>, versão: <strong>$2<\/strong>"
@@ -325,10 +333,10 @@
         "message": "Firmware em execução disponibilizado em: <strong>$1<\/strong>"
     },
     "fcInfoReceived": {
-        "message": "Informações da controladora de voo, identificador: <strong>$1<\/strong>, versão: <strong>$2<\/strong>"
+        "message": "Informações do controlador de voo, identificador: <strong>$1<\/strong>, versão: <strong>$2<\/strong>"
     },
     "versionLabelTarget": {
-        "message": "Alvo"
+        "message": "Destino"
     },
     "versionLabelFirmware": {
         "message": "Firmware"
@@ -352,7 +360,7 @@
         "message": "U: $1%"
     },
     "statusbar_packet_error": {
-        "message": "Erro do pacote:"
+        "message": "Erro de pacote:"
     },
     "statusbar_i2c_error": {
         "message": "Erro I2C:"
@@ -364,6 +372,21 @@
         "message": "Carga do CPU: $1%"
     },
     "dfu_connect_message": {
-        "message": "Por favor use a opção de atualização de firmware para aceder a dispositivos DFU"
+        "message": "Por favor use a opção de atualização de firmware para acessar dispositivos DFU"
+    },
+    "dataflashNote": {
+        "message": "Logs de voo podem ser salvos na Memória flash a bordo do seu controlador de voo."
+    },
+    "dataflashNotPresentNote": {
+        "message": "O seu controlador de voo não tem uma Memória flash compatível disponível."
+    },
+    "dataflashFirmwareUpgradeRequired": {
+        "message": "Memória flash requer o firmware &gt;= 1.8.0."
+    },
+    "dataflashConfirmEraseTitle": {
+        "message": "Confirme a exclusão da Memória flash"
+    },
+    "dataflashConfirmEraseNote": {
+        "message": "Isso irá apagar todos logs da Caixa Preta e quaisquer outros dados na Memória flash. Isto deve demorar cerca de 20 segundos. Continuar?"
     }
 }
