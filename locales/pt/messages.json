@@ -1573,6 +1573,33 @@
     "transponderHelp1": {
         "message": "Configure o código do seu transponder aqui. Nota: Somente códigos válidos serão reconhecidos em sistemas de tempo de corrida. Códigos válidos para o transponder podem ser obtidos em <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a>."
     },
+    "transponderHelp2": {
+        "message": "Para mais informações visite o site <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer<\/a>"
+    },
+    "transponderDataHelp3": {
+        "message": "Escolha o ID ERTL (0 a 63)"
+    },
+    "transponderHelp3": {
+        "message": "Para mais informações visite o site <a href=\"https:\/\/github.com\/polyvision\/EasyRaceLapTimer\" title=\"aRCiTimer\" target=\"_blank\">EasyRaceLapTimer<\/a>"
+    },
+    "transponderButtonSave": {
+        "message": "Salvar"
+    },
+    "transponderButtonSaveReboot": {
+        "message": "Salvar e Reiniciar"
+    },
+    "transponderDataInvalid": {
+        "message": "Dados do transponder são <span class=\"message-negative\">inválidos<\/span>"
+    },
+    "transponderEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">salvo<\/span>"
+    },
+    "servosFirmwareUpgradeRequired": {
+        "message": "Servos requerem o firmware &gt;= 1.10.0. e suporte do destino."
+    },
+    "servosChangeDirection": {
+        "message": "Mude a direção no TX para que fique igual"
+    },
     "dataflashNote": {
         "message": "Logs de voo podem ser salvos na Memória flash a bordo do seu controlador de voo."
     },
