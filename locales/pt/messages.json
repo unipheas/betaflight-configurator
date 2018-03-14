@@ -556,6 +556,39 @@
     "initialSetupMinimum": {
         "message": "Mínimo:"
     },
+    "initialSetupMaximum": {
+        "message": "Máximo:"
+    },
+    "initialSetupFailsafe": {
+        "message": "Segurança contra falhas:"
+    },
+    "initialSetupMinCommand": {
+        "message": "Comando mínimo:"
+    },
+    "initialSetupBatteryHead": {
+        "message": "Bateria"
+    },
+    "initialSetupMinCellV": {
+        "message": "Voltagem mínima da célula:"
+    },
+    "initialSetupMaxCellV": {
+        "message": "Voltagem máxima da célula:"
+    },
+    "initialSetupVoltageScale": {
+        "message": "Escala da voltagem:"
+    },
+    "initialSetupAccelTrimsHead": {
+        "message": "Ajustes do acelerômetro"
+    },
+    "initialSetupPitch": {
+        "message": "Pitch:"
+    },
+    "initialSetupRoll": {
+        "message": "Roll:"
+    },
+    "initialSetupMagHead": {
+        "message": "Magnetômetro"
+    },
     "featureRX_PARALLEL_PWM": {
         "message": "Entrada de PWM RX (um fio por canal)"
     },
@@ -571,11 +604,230 @@
     "featureDISPLAY": {
         "message": "Tela OLED"
     },
+    "featureDISPLAYTip": {
+        "message": "Se esta funcionalidade é ativada, e nenhum dispositivo de imagem está conectado (ou o dispositivo de imagem não está ligado), haverá um atraso de cerca de 10 segundos em cada reinicio do controlador de voo."
+    },
+    "featureONESHOT125": {
+        "message": "Suporte a ESC com ONESHOT"
+    },
+    "featureONESHOT125Tip": {
+        "message": "Desligue a bateria e remova as hélices antes de ativar."
+    },
+    "featureBLACKBOX": {
+        "message": "Caixa Preta - Gravador de dados de voo"
+    },
+    "featureBLACKBOXTip": {
+        "message": "Configure através da aba Caixa Preta após ativar."
+    },
+    "featureRX_SPI": {
+        "message": "Suporte de SPI RX"
+    },
+    "featureESC_SENSOR": {
+        "message": "Usar a telemetria KISS\/BLHeli_32 ESC como sensor"
+    },
+    "featureTRANSPONDER": {
+        "message": "Transponder de corridas"
+    },
+    "featureTRANSPONDERTip": {
+        "message": "Configure através da aba Transponder de Corridas após a ativação."
+    },
+    "featureAIRMODE": {
+        "message": "Ativar permanentemente o Airmode"
+    },
+    "featureSDCARD": {
+        "message": "Suporte de cartão SD (para registro)"
+    },
+    "featureOSD": {
+        "message": "Informações na Tela (OSD)"
+    },
+    "featureVTX": {
+        "message": "Transmissor de vídeo"
+    },
+    "featureANTI_GRAVITY": {
+        "message": "Impulso provisório do I em alterações grandes do throttle"
+    },
+    "featureDYNAMIC_FILTER": {
+        "message": "Filtragem Notch dinâmica do giroscópio"
+    },
     "featureFAILSAFE": {
         "message": "Ativar estágio 2 da segurança contra falhas"
     },
+    "featureFAILSAFEOld": {
+        "message": "Ativar segurança contra falhas"
+    },
     "featureFAILSAFETip": {
         "message": "<strong>Nota:<\/strong> quando o estágio 2 estiver DESATIVADO, a opção <strong>Automática<\/strong> é usada em vez das configurações do usuário para todos os canais de voo (Roll, Pitch, Yaw e Throttle)."
+    },
+    "featureFAILSAFEOldTip": {
+        "message": "Aplicar configurações de segurança contra falhas na perda do sinal RX"
+    },
+    "configurationFeatureEnabled": {
+        "message": "Ativado"
+    },
+    "configurationFeatureName": {
+        "message": "Funcionalidade"
+    },
+    "configurationFeatureDescription": {
+        "message": "Descrição"
+    },
+    "configurationMixer": {
+        "message": "Mixer"
+    },
+    "configurationFeatures": {
+        "message": "Outras funcionalidades"
+    },
+    "configurationReceiver": {
+        "message": "Receptor"
+    },
+    "configurationReceiverMode": {
+        "message": "Modo do receptor"
+    },
+    "configurationRSSI": {
+        "message": "RSSI (força do sinal)"
+    },
+    "configurationRSSIHelp": {
+        "message": "RSSI é uma medida de intensidade do sinal e é muito útil para saber quando a aeronave está saindo de alcance ou se está sofrendo interferência."
+    },
+    "configurationEscFeatures": {
+        "message": "Funções dos Motores\/ESCs"
+    },
+    "configurationFeaturesHelp": {
+        "message": "<strong>Nota:<\/strong> Nem todas as combinações de funcionalidades são válidas. Quando o firmware do controlador de voo detecta combinações inválidas, essas serão desativadas.<br \/><strong>Nota:<\/strong> Configure as portas serial  <span class=\"message-negative\">antes<\/span> de ativar funcionalidades que usam as portas."
+    },
+    "configurationSerialRXHelp": {
+        "message": "<strong>Nota:<\/strong> Lembre-se de configurar uma Porta Serial (através da aba de Portas) e escolher um Provedor Serial ao usar a funcionalidade RX_SERIAL."
+    },
+    "configurationSpiRxHelp": {
+        "message": "<strong>Nota:<\/strong> O protocolo de SPI RX só funcionará se o hardware necessário está a bordo ou ligado a um barramento SPI."
+    },
+    "configurationOtherFeaturesHelp": {
+        "message": "<strong>Nota:<\/strong> Nem todas as funcionalidades são suportadas por todos os controladores de voo. Se ativar uma funcionalidade específica, e ela é desativada depois de clicar em 'Salvar e Reiniciar', significa que essa funcionalidade não é suportada pela placa."
+    },
+    "configurationBoardAlignment": {
+        "message": "Alinhamento da placa e do sensor"
+    },
+    "configurationBoardAlignmentRoll": {
+        "message": "Graus de Rotação (Roll)"
+    },
+    "configurationBoardAlignmentPitch": {
+        "message": "Graus de Inclinação (Pitch)"
+    },
+    "configurationBoardAlignmentYaw": {
+        "message": "Graus de Orientação (Yaw)"
+    },
+    "configurationSensorAlignmentGyro": {
+        "message": "Alinhamento do giroscópio"
+    },
+    "configurationSensorAlignmentAcc": {
+        "message": "Alinhamento do Acelerômetro"
+    },
+    "configurationSensorAlignmentMag": {
+        "message": "Alinhamento do Magnetômetro"
+    },
+    "configurationSensorAlignmentDefaultOption": {
+        "message": "Padrão"
+    },
+    "configurationAccelTrims": {
+        "message": "Ajustes do acelerômetro"
+    },
+    "configurationAccelTrimRoll": {
+        "message": "Ajustes da rotação (roll) do Acelerômetro"
+    },
+    "configurationAccelTrimPitch": {
+        "message": "Ajustes da inclinação (pitch) do Acelerômetro"
+    },
+    "configurationArming": {
+        "message": "Armando"
+    },
+    "configurationArmingHelp": {
+        "message": "Algumas opções de armar podem necessitar que o acelerômetro esteja ativado"
+    },
+    "configurationMagDeclination": {
+        "message": "Declinação do Magnetômetro [deg]"
+    },
+    "portsTelemetryOut": {
+        "message": "Saída de telemetria"
+    },
+    "portsPeripherals": {
+        "message": "Periféricos"
+    },
+    "portsHelp": {
+        "message": "<strong>Nota:<\/strong> nem todas as combinações são válidas.  Quando o firmware do controlador de voo detecta isto a configuração da porta serial será reiniciada."
+    },
+    "portsMSPHelp": {
+        "message": "<strong>Nota:<\/strong> <span class=\"message-negative\">NÃO<\/span> desative o MSP na primeira porta serial, a menos que saiba o que está fazendo. Poderá ter que reinstalar o firmware e apagar todas as configurações se o fizer isto."
+    },
+    "portsFirmwareUpgradeRequired": {
+        "message": "Atualização de firmware é <span class=\"message-negative\">necessária<\/span>. Configurações da porta serial para firmware &lt; 1.8.0 não é suportado."
+    },
+    "portsButtonSave": {
+        "message": "Salvar e reiniciar"
+    },
+    "portsTelemetryDisabled": {
+        "message": "Desativado"
+    },
+    "portsFunction_MSP": {
+        "message": "MSP"
+    },
+    "portsFunction_GPS": {
+        "message": "GPS"
+    },
+    "portsFunction_TELEMETRY_FRSKY": {
+        "message": "FrSky"
+    },
+    "portsFunction_TELEMETRY_HOTT": {
+        "message": "HoTT"
+    },
+    "portsFunction_TELEMETRY_LTM": {
+        "message": "LTM"
+    },
+    "portsFunction_TELEMETRY_MAVLINK": {
+        "message": "MAVLink"
+    },
+    "portsFunction_TELEMETRY_MSP": {
+        "message": "MSP"
+    },
+    "portsFunction_TELEMETRY_SMARTPORT": {
+        "message": "SmartPort"
+    },
+    "portsFunction_TELEMETRY_IBUS": {
+        "message": "iBUS"
+    },
+    "portsFunction_TELEMETRY_JETIXBUS": {
+        "message": "JETIXBUS"
+    },
+    "portsFunction_TELEMETRY_CRSF": {
+        "message": "CRSF"
+    },
+    "portsFunction_TELEMETRY_SRXL": {
+        "message": "SRXL"
+    },
+    "portsFunction_ESC_SENSOR": {
+        "message": "ESC"
+    },
+    "portsFunction_RX_SERIAL": {
+        "message": "Serial RX"
+    },
+    "portsFunction_BLACKBOX": {
+        "message": "Log de Caixa Preta"
+    },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "TBS SmartAudio"
+    },
+    "portsFunction_IRC_TRAMP": {
+        "message": "IRC-Tramp"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "Dispositivo RunCam"
+    },
+    "pidTuningProfileOption": {
+        "message": "Perfil $1"
+    },
+    "pidTuningRateProfileOption": {
+        "message": "Perfil de taxa $1"
+    },
+    "portsFunction_LIDAR_TF": {
+        "message": "Benewake LIDAR"
     },
     "dataflashNote": {
         "message": "Logs de voo podem ser salvos na Memória flash a bordo do seu controlador de voo."
