@@ -2970,6 +2970,291 @@
     "osdSetupCameraConnectedValueNo": {
         "message": "Não"
     },
+    "osdSetupResetText": {
+        "message": "Reiniciar OSD para os valores padrão"
+    },
+    "osdSetupButtonReset": {
+        "message": "Reiniciar Configurações"
+    },
+    "osdDescElementMainBattVoltage": {
+        "message": "Voltagem instantânea da bateria (Piscar quando estiver abaixo do limite)"
+    },
+    "osdDescElementRssiValue": {
+        "message": "Valor do RSSI instantâneo (Piscar quando estiver abaixo do limite)"
+    },
+    "osdDescElementThrottlePosition": {
+        "message": "Valor atual do canal do acelerador (throttle)"
+    },
+    "osdDescElementArmed": {
+        "message": "Mensagem em texto quando armado"
+    },
+    "osdDescElementDisarmed": {
+        "message": "Mensagem em texto quando desarmado"
+    },
+    "osdDescElementCrosshairs": {
+        "message": "Mira no meio da tela"
+    },
+    "osdDescElementArtificialHorizon": {
+        "message": "Indicador gráfico de horizonte artificial"
+    },
+    "osdDescElementHorizonSidebars": {
+        "message": "Barras laterais ao redor do indicador de horizonte artificial"
+    },
+    "osdDescElementCurrentDraw": {
+        "message": "Consumo de corrente instantânea da bateria"
+    },
+    "osdDescElementMahDrawn": {
+        "message": "Capacidade total utilizado da bateria"
+    },
+    "osdDescElementCraftName": {
+        "message": "Nome da aeronave como na aba de Configurações"
+    },
+    "osdDescElementAltitude": {
+        "message": "Altitude atual (Piscar quando estiver acima do limite)"
+    },
+    "osdDescElementOnTime": {
+        "message": "Tempo total que a aeronave está ligada"
+    },
+    "osdDescElementFlyTime": {
+        "message": "Tempo total que a aeronave ficou armada nesta bateria (Piscar quando estiver acima do limite)"
+    },
+    "osdDescElementFlyMode": {
+        "message": "Modo de voo atual"
+    },
+    "osdDescElementGPSSpeed": {
+        "message": "Velocidade de acordo com o GPS"
+    },
+    "osdDescElementGPSSats": {
+        "message": "Numero de satélites localizados pelo GPS"
+    },
+    "osdDescElementGPSLon": {
+        "message": "Longitude do GPS"
+    },
+    "osdDescElementGPSLat": {
+        "message": "Latitude do GPS"
+    },
+    "osdDescElementDebug": {
+        "message": "Depuração de variáveis"
+    },
+    "osdDescElementPIDRoll": {
+        "message": "Ganhos do PID do Roll"
+    },
+    "osdDescElementPIDPitch": {
+        "message": "Ganhos do PID do Pitch"
+    },
+    "osdDescElementPIDYaw": {
+        "message": "Ganhos do PID do Yaw"
+    },
+    "osdDescElementPower": {
+        "message": "Potência elétrica instantânea consumida"
+    },
+    "osdDescElementPIDRateProfile": {
+        "message": "Display numérico do PID e perfil de taxas ativos"
+    },
+    "osdDescElementBatteryWarning": {
+        "message": "Texto de alerta que aparece quando a voltagem da bateria fica abaixo do limite"
+    },
+    "osdDescElementAvgCellVoltage": {
+        "message": "Voltagem média da célula (voltagem principal da bateria \/ total de células)"
+    },
+    "osdDescElementPitchAngle": {
+        "message": "Angulo do pitch em graus"
+    },
+    "osdDescElementRollAngle": {
+        "message": "Angulo do roll em graus"
+    },
+    "osdDescElementMainBattUsage": {
+        "message": "Representação gráfica do uso da bateria"
+    },
+    "osdDescElementArmedTime": {
+        "message": "Tempo desde a ultima vez que a aeronave foi armada"
+    },
+    "osdDescElementWarnings": {
+        "message": "Alerta (ex. bateria baixa), avisos (ex. razão por não ter armado, bateria extremamente baixa) e beeper visual (4 asteriscos piscando)."
+    },
+    "osdDescElementEscTemperature": {
+        "message": "Temperatura reportada pela telemetria do ESC"
+    },
+    "osdDescElementEscRpm": {
+        "message": "RPM reportado pela telemetria do ESC"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "Relógio real (data \/ hora)"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "Faixa de ajuste de configuração ativo e seu valor"
+    },
+    "osdDescElementHomeDirection": {
+        "message": "Seta mostrando a direção da base"
+    },
+    "osdDescElementHomeDistance": {
+        "message": "Distância até a base (em pés ou metros, baseado na configuração de unidade)"
+    },
+    "osdDescElementNumericalHeading": {
+        "message": "Leitura numérica em graus da direção atual"
+    },
+    "osdDescElementNumericalVario": {
+        "message": "Leitura numérica da velocidade vertical (em pés ou metros, baseado na configuração de unidade)"
+    },
+    "osdDescElementCompassBar": {
+        "message": "Barra de bússola gráfica, mostrando a direção atual"
+    },
+    "osdDescElementTimer1": {
+        "message": "Mostra o valor do timer 1"
+    },
+    "osdDescElementTimer2": {
+        "message": "Mostra o valor do timer 2"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Tempo estimado de voo restante"
+    },
+    "osdDescElementUnknown": {
+        "message": "Elemento desconhecido (detalhes serão adicionados em uma versão futura)"
+    },
+    "osdDescElementCoreTemperature": {
+        "message": "Temperatura do núcleo MCU do STM32"
+    },
+    "osdDescStatMaxSpeed": {
+        "message": "Velocidade máxima registrada"
+    },
+    "osdDescStatMinBattery": {
+        "message": "Voltagem mínima registrada da bateria"
+    },
+    "osdDescStatMinRssi": {
+        "message": "RSSI mínimo registrado"
+    },
+    "osdDescStatMaxCurrent": {
+        "message": "Uso de corrente máximo registrado"
+    },
+    "osdDescStatUsedMah": {
+        "message": "Capacidade da bateria utilizada"
+    },
+    "osdDescStatMaxAltitude": {
+        "message": "Altura máxima registrada"
+    },
+    "osdDescStatBlackbox": {
+        "message": "Porcentagem de uso total da Caixa Preta"
+    },
+    "osdDescStatEndBattery": {
+        "message": "Voltagem da bateria quando foi desarmado"
+    },
+    "osdDescStatFlyTime": {
+        "message": "Tempo total armado nesta bateria"
+    },
+    "osdDescStatArmedTime": {
+        "message": "Tempo desde a ultima vez que foi armado"
+    },
+    "osdDescStatMaxDistance": {
+        "message": "Distância máxima registrada a partir da base"
+    },
+    "osdDescStatBlackboxLogNumber": {
+        "message": "Número do arquivo do registro da caixa preta"
+    },
+    "osdDescStatTimer1": {
+        "message": "Valor do timer 1 ao desarmar"
+    },
+    "osdDescStatTimer2": {
+        "message": "Valor do timer 2 ao desarmar"
+    },
+    "osdDescStatRtcDateTime": {
+        "message": "Data e hora do relógio"
+    },
+    "osdTimerSource": {
+        "message": "Origem:"
+    },
+    "osdTimerSourceTooltip": {
+        "message": "Selecione a origem do timer, isto controla a duração\/evento que o timer mede"
+    },
+    "osdTimerPrecision": {
+        "message": "Precisão:"
+    },
+    "osdTimerPrecisionTooltip": {
+        "message": "Selecione a precisão do timer, isto controla qual a precisão que o timer reporta"
+    },
+    "osdTimerAlarm": {
+        "message": "Alarme:"
+    },
+    "osdTimerAlarmTooltip": {
+        "message": "Selecione o limite do alarme do timer em minutos, quando o tempo excede este valor, o elemento no OSD irá piscar, um valor de 0 desabilita o alarme"
+    },
+    "osdWarningArmingDisabled": {
+        "message": "Mostra o principal motivo de não ter armado"
+    },
+    "osdWarningBatteryNotFull": {
+        "message": "Alertas quando a bateria é conectada e não está totalmente carregado"
+    },
+    "osdWarningBatteryWarning": {
+        "message": "Alertas quando a voltagem da bateria fica abaixo do limite do alarme"
+    },
+    "osdWarningBatteryCritical": {
+        "message": "Alertas quando a voltagem da bateria fica abaixo da média mínima por célula"
+    },
+    "osdWarningVisualBeeper": {
+        "message": "Mostra uma visualização do beeper (mostra 4 asteriscos)"
+    },
+    "osdWarningCrashFlipMode": {
+        "message": "Alertas quando estiver de ponta cabeça depois que o modo de batida for ativado"
+    },
+    "osdSectionHelpElements": {
+        "message": "Ativar ou desativar elementos do OSD."
+    },
+    "osdSectionHelpVideoMode": {
+        "message": "Defina o modo de vídeo esperado da camera (normalmente isto pode ser deixado em AUTOMATICO, se estiver tendo problemas, então defina esta opção para o mesmo modo que a saída da camera)."
+    },
+    "osdSectionHelpUnits": {
+        "message": "Define o sistema de unidades para leituras numéricas."
+    },
+    "osdSectionHelpTimers": {
+        "message": "Configure os timers de voo."
+    },
+    "osdSectionHelpAlarms": {
+        "message": "Defina os limites utilizados para elementos do OSD com alertas."
+    },
+    "osdSectionHelpStats": {
+        "message": "Defina os valores exibidos na tela de estatísticas pós voo."
+    },
+    "osdSectionHelpWarnings": {
+        "message": "Ative ou Desative alertas exibidos no elemento de ALERTAS."
+    },
+    "osdSettingsSaved": {
+        "message": "Configurações do OSD salvas"
+    },
+    "osdWritePermissions": {
+        "message": "Você não tem <span class=\"message-negative\">permissões de escrita<\/span> para este arquivo"
+    },
+    "mainHelpArmed": {
+        "message": "Armar Motor"
+    },
+    "mainHelpFailsafe": {
+        "message": "Modo de segurança contra falhas"
+    },
+    "mainHelpLink": {
+        "message": "Status do Link Serial"
+    },
+    "configurationEscProtocol": {
+        "message": "Protocolo do ESC\/Motor"
+    },
+    "configurationEscProtocolHelp": {
+        "message": "Selecione o protocolo do seu motor. <br>Tenha certeza que o protocolo é suportado pelo seu ESC, esta informação deve estar disponível no site do fabricante. <br><b>Tenha cuidado ao usar DSHOT900 e DSHOT1200, uma vez que muitos ESCs não tem suporte a eles!<\/b>"
+    },
+    "configurationunsyndePwm": {
+        "message": "Velocidade do PWM do Motor independente da velocidade do PID"
+    },
+    "configurationUnsyncedPWMFreq": {
+        "message": "Frequência do PWM do Motor"
+    },
+    "configurationGyroSyncDenom": {
+        "message": "Frequência de atualização do Giroscópio"
+    },
+    "configurationPidProcessDenom": {
+        "message": "Frequência do loop PID"
+    },
+    "configurationPidProcessDenomHelp": {
+        "message": "A frequência máxima do loop PID é limitado pela frequência máxima que dados podem ser enviados ao protocolo selecionado do ESC \/ Motor."
+    },
+    "configurationGyroUse32kHz": {
+        "message": "Ativar modo de amostragem 32kHz do giroscópio"
+    },
     "onboardLoggingFlashLogger": {
         "message": "Memoria Flash Integrada"
     }
