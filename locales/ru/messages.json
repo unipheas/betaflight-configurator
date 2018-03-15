@@ -357,6 +357,9 @@
     "armingEnabled": {
         "message": "<strong>Arming включён<\/strong>"
     },
+    "runawayTakeoffPreventionEnabled": {
+        "message": "<strong>Функция Runaway Takeoff Prevention включена<\/strong>"
+    },
     "boardInfoReceived": {
         "message": "Плата: <strong>$1<\/strong>, версия: <strong>$2<\/strong>"
     },
@@ -891,6 +894,9 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Это значение, которое посылается к регуляторам  оборотов во время дизарминга. Установите его в такое значение, при котором перестают крутиться моторы (для большинства регуляторов оборотов значение - 1000)."
     },
+    "configurationDshotBeaconTone": {
+        "message": "Тон писка маяка"
+    },
     "configurationBeeper": {
         "message": "Настройка сигнала"
     },
@@ -1244,6 +1250,9 @@
     },
     "pidTuningEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">сохранено<\/span>"
+    },
+    "receiverThrottleExpo": {
+        "message": "Экспонента канала газа"
     },
     "receiverDeadband": {
         "message": "RC Мертвая зона"
