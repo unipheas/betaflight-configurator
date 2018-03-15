@@ -1251,8 +1251,14 @@
     "pidTuningEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">сохранено<\/span>"
     },
+    "receiverThrottleMid": {
+        "message": "Средняя точка канала газа"
+    },
     "receiverThrottleExpo": {
         "message": "Экспонента канала газа"
+    },
+    "receiverStickCenter": {
+        "message": "Центр стика"
     },
     "receiverDeadband": {
         "message": "RC Мертвая зона"
@@ -1515,6 +1521,9 @@
     "gpsSignalStr": {
         "message": "Мощность сигнала"
     },
+    "gpsSignalQty": {
+        "message": "Количество"
+    },
     "motorsText": {
         "message": "Моторы"
     },
@@ -1541,6 +1550,9 @@
     },
     "motorNumber8": {
         "message": "Мотор - 8"
+    },
+    "servosText": {
+        "message": "Сервоприводы"
     },
     "motorsResetMaximumButton": {
         "message": "Сброс"
