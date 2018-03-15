@@ -1837,6 +1837,54 @@
     "loggingButtonLogFile": {
         "message": "Selecionar arquivo de Log"
     },
+    "loggingStart": {
+        "message": "Começar a monitorar"
+    },
+    "loggingStop": {
+        "message": "Parar de monitorar"
+    },
+    "loggingBack": {
+        "message": "Sair do Log \/ Desconectar"
+    },
+    "loggingErrorNotConnected": {
+        "message": "Você precisa <strong>conectar<\/strong> primeiro"
+    },
+    "loggingErrorLogFile": {
+        "message": "Por favor selecione o arquivo de log"
+    },
+    "loggingErrorOneProperty": {
+        "message": "Por favor selecione pelo menos uma propriedade para logar"
+    },
+    "loggingAutomaticallyRetained": {
+        "message": "Arquivo de log anterior carregado: <strong>$1<\/strong>"
+    },
+    "blackboxNotSupported": {
+        "message": "O firmware do seu controlador de voo não suporta a função de log de caixa preta (Blackbox logging)."
+    },
+    "blackboxMaybeSupported": {
+        "message": "O firmware do seu controlador de voo é muito antigo e não suporta esta aba, ou a função de Caixa Preta está desabilitada na aba de Configuração."
+    },
+    "blackboxConfiguration": {
+        "message": "Configuração de Caixa Preta"
+    },
+    "blackboxButtonSave": {
+        "message": "Salvar e reiniciar"
+    },
+    "blackboxLoggingNone": {
+        "message": "Não gerar log"
+    },
+    "blackboxLoggingFlash": {
+        "message": "Flash Onboard"
+    },
+    "blackboxLoggingSdCard": {
+        "message": "Cartão SD"
+    },
+    "blackboxLoggingSerial": {
+        "message": "Porta Serial"
+    },
+    "serialLoggingSupportedNote": {
+        "message": "Você pode logar em um dispositivo externo (como o OpenLog ou clone compativel) utilizando a porta serial. Configure a porta na aba de Portas."
+    },
     "dataflashNote": {
         "message": "Logs de voo podem ser salvos na Memória flash a bordo do seu controlador de voo."
     },
