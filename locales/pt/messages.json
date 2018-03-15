@@ -3255,7 +3255,145 @@
     "configurationGyroUse32kHz": {
         "message": "Ativar modo de amostragem 32kHz do giroscópio"
     },
+    "configurationGyroUse32kHzHelp": {
+        "message": "A frequência de atualização de 32kHz só é possível se o giroscópio tem suporte (atualmente somente MPU6500, MPU9250 e ICM20xxx Se conectado em SPI). Se estiver em dúvida, consulte a especificação da sua placa."
+    },
+    "configurationAccHardware": {
+        "message": "Acelerômetro"
+    },
+    "configurationBaroHardware": {
+        "message": "Barômetro (se suportado)"
+    },
+    "configurationMagHardware": {
+        "message": "Magnetômetro (se suportado)"
+    },
+    "configurationSmallAngle": {
+        "message": "Angulo máximo para ARMAR [degrees]"
+    },
+    "configurationSmallAngleHelp": {
+        "message": "A aeronave não irá ARMAR se estiver inclinada além do limite de graus especificado. Somente será utilizado se o acelerômetro estiver ativado. Definir um angulo de 180 irá efetivamente desativar esta verificação"
+    },
+    "configurationBatteryVoltage": {
+        "message": "Voltagem da Bateria"
+    },
+    "configurationBatteryCurrent": {
+        "message": "Corrente da Bateria"
+    },
+    "configurationBatteryMeterType": {
+        "message": "Tipo de medidor da bateria"
+    },
+    "configurationBatteryMinimum": {
+        "message": "Voltagem mínima da célula"
+    },
+    "configurationBatteryMaximum": {
+        "message": "Voltagem máxima da célula"
+    },
+    "configurationBatteryWarning": {
+        "message": "Voltagem de alerta da célula"
+    },
+    "configurationBatteryScale": {
+        "message": "Escala da voltagem"
+    },
+    "configurationCurrentMeterType": {
+        "message": "Tipo de medidor de corrente"
+    },
+    "configurationCurrent": {
+        "message": "Sensor de corrente"
+    },
+    "configurationCurrentScale": {
+        "message": "Escalar a voltagem de saída para miliamperes [1\/10 mV\/A]"
+    },
+    "configurationCurrentOffset": {
+        "message": "Offset em passos de milivolts"
+    },
+    "configurationBatteryMultiwiiCurrent": {
+        "message": "Habilitar suporte para saída de corrente Multiwii MSP legado"
+    },
+    "pidTuningProfile": {
+        "message": "Perfil"
+    },
+    "pidTuningProfileTip": {
+        "message": "Até 3 perfis PID (2 para alguns controladores) podem ser armazenados no controlador de voo. os perfis incluem o PID, Ponto de ajuste D, e configurações de angulo\/horizonte desta aba. Quando estiver em campo, simples comandos no transmissor (veja as instruções online) podem ser utilizados para alternar entre os perfis."
+    },
+    "pidTuningRateProfile": {
+        "message": "Perfil de taxa"
+    },
+    "pidTuningRateProfileTip": {
+        "message": "Até 3 diferentes perfis de taxa podem ser armazenados no controlador de voo. O perfil de taxa inclui configurações da 'Taxa do RC', 'Taxa', 'Expo do RC', 'Throttle', e 'TPA'. Alternar entre os perfis de taxa é possível durante o voo, basta configurar um switch de 3 posições para 'Seleção do Perfil de Taxa' na aba de Configurações."
+    },
+    "pidTuningDelta": {
+        "message": "Método Derivativo"
+    },
+    "pidTuningDeltaError": {
+        "message": "Erro"
+    },
+    "pidTuningDeltaMeasurement": {
+        "message": "Medição"
+    },
+    "pidTuningDeltaTip": {
+        "message": "<b>Derivativo a partir do Erro<\/b> gera uma reposta mais direta ao stick e é melhor para corridas.<br><br><b>Derivativo a partir da Medição<\/b> gera uma resposta mais suave ao stick e é melhor para freestyle"
+    },
+    "pidTuningPidControllerTip": {
+        "message": "<b>Legado vs Betaflight (flutuante):<\/b> A lógica e a escala do PID são exatamente os mesmo. Não é necessário reajustar. O Legado é o antigo Betaflight Evolved Rewrite, que é um controlador PID básico baseado em matemática de números inteiros. o controlador PID Betaflight usa matemática de números com ponto flutuante e tem várias novas funcionalidades especificamente desenhadas para multirotores<br><b>Inteiro vs Flutuante:<\/b> A lógica e a escala do PID é exatamente a mesma. Não é necessário reajustar. placas F1 não tem um FPU a bordo e a matemática com ponto flutuante aumentam a carga no CPU; Matemática com inteiros melhora a performance, mas a matemática com ponto flutuante é mais precisa."
+    },
+    "pidTuningFilterTip": {
+        "message": "<b>Filtro Soft para o Giroscópio:<\/b> Um filtro Lowpass para o Giroscópio. Use valores mais baixos para filtrar mais.<br><b>Filtro do Termo D:<\/b> Filtro Lowpass para o termo D. Pode afetar a afinação do D. Use valores mais baixos para filtrar mais.<br><b>Filtro Yaw:<\/b> Filtra a saída do Yaw. Pode ajudar os veículos com ruídos no eixo Yaw."
+    },
+    "pidTuningPidTuningTip": {
+        "message": "<b>Proporcional:<\/b> Força da resistência ao tentar mover o multirotor em qualquer direção<br><b>Integral:<\/b> Aumenta a habilidade de manter a posição inicial e reduz o drift, mas também aumenta o delay para retornar à posição inicial.<br><b>Derivativo:<\/b> Melhora a velocidade de recuperação dos desvios, mas também aumento o ruído<br><b>Taxas e Expo:<\/b> Determine a sensação dos sticks baseado nestes parâmetros. Use o gráfico e modelo 3D para encontrar suas configurações preferidas"
+    },
+    "pidTuningRatesTip": {
+        "message": "Modifique as taxas e veja como elas afetam a curva do stick"
+    },
+    "configurationCamera": {
+        "message": "Camera"
+    },
+    "configurationPersonalization": {
+        "message": "Personalização"
+    },
+    "craftName": {
+        "message": "Nome da aeronave"
+    },
+    "configurationFpvCamAngleDegrees": {
+        "message": "Angulo da camera FPV [degrees]"
+    },
+    "onboardLoggingBlackbox": {
+        "message": "Dispositivo de caixa preta"
+    },
+    "onboardLoggingRateOfLogging": {
+        "message": "Taxa de registro da caixa preta"
+    },
+    "onboardLoggingSerialLogger": {
+        "message": "Dispositivo de registro externo"
+    },
     "onboardLoggingFlashLogger": {
         "message": "Memoria Flash Integrada"
+    },
+    "onboardLoggingEraseInProgress": {
+        "message": "Formatação em progresso, por favor aguarde..."
+    },
+    "onboardLoggingOnboardSDCard": {
+        "message": "Cartão SD a bordo"
+    },
+    "dialogConfirmResetTitle": {
+        "message": "Confirmar"
+    },
+    "dialogConfirmResetNote": {
+        "message": "ALERTA: Tem certeza que deseja restaurar TODAS as configurações para os valores padrão?"
+    },
+    "dialogConfirmResetConfirm": {
+        "message": "Restaurar"
+    },
+    "dialogConfirmResetClose": {
+        "message": "Cancelar"
+    },
+    "modeCameraWifi": {
+        "message": "BOTÃO WI-FI DA CAMERA"
+    },
+    "modeCameraPower": {
+        "message": "BOTÃO LIGAR DA CAMERA"
+    },
+    "modeCameraChangeMode": {
+        "message": "ALTERAR MODO DA CAMERA"
     }
 }
