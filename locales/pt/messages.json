@@ -1690,6 +1690,24 @@
     "gpsSignalQty": {
         "message": "Quantidade"
     },
+    "motorsVoltage": {
+        "message": "Voltagem:"
+    },
+    "motorsADrawing": {
+        "message": "Amperagem:"
+    },
+    "motorsmAhDrawn": {
+        "message": "Amp. Usada:"
+    },
+    "motorsVoltageValue": {
+        "message": "$1 V"
+    },
+    "motorsADrawingValue": {
+        "message": "$1 A"
+    },
+    "motorsmAhDrawnValue": {
+        "message": "$1 mAh"
+    },
     "motorsText": {
         "message": "Motores"
     },
