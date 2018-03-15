@@ -2343,11 +2343,269 @@
     "ledStripBlinkAlwaysOverlay": {
         "message": "Sempre Piscar"
     },
+    "ledStripBlinkLandingOverlay": {
+        "message": "Piscar ao pousar"
+    },
+    "ledStripOverlayTitle": {
+        "message": "Sobreposição"
+    },
+    "ledStripWarningsOverlay": {
+        "message": "Alertas"
+    },
+    "ledStripIndecatorOverlay": {
+        "message": "Indicador (usa a posição na matriz)"
+    },
+    "colorBlack": {
+        "message": "preto"
+    },
+    "colorWhite": {
+        "message": "branco"
+    },
+    "colorRed": {
+        "message": "vermelho"
+    },
+    "colorOrange": {
+        "message": "laranja"
+    },
+    "colorYellow": {
+        "message": "amarelo"
+    },
+    "colorLimeGreen": {
+        "message": "verde limão"
+    },
+    "colorGreen": {
+        "message": "verde"
+    },
+    "colorMintGreen": {
+        "message": "verde menta"
+    },
+    "colorCyan": {
+        "message": "ciano"
+    },
+    "colorLightBlue": {
+        "message": "azul claro"
+    },
+    "colorBlue": {
+        "message": "azul"
+    },
+    "colorDarkViolet": {
+        "message": "violeta"
+    },
+    "colorMagenta": {
+        "message": "magenta"
+    },
+    "colorDeepPink": {
+        "message": "rosa choque"
+    },
+    "controlAxisRoll": {
+        "message": "Roll [A]"
+    },
+    "controlAxisPitch": {
+        "message": "Pitch [E]"
+    },
+    "controlAxisYaw": {
+        "message": "Yaw [R]"
+    },
+    "controlAxisThrottle": {
+        "message": "Throttle [T]"
+    },
+    "controlAxisAux1": {
+        "message": "AUX 1"
+    },
+    "controlAxisAux2": {
+        "message": "AUX 2"
+    },
+    "controlAxisAux3": {
+        "message": "AUX 3"
+    },
+    "controlAxisAux4": {
+        "message": "AUX 4"
+    },
+    "controlAxisAux5": {
+        "message": "AUX 5"
+    },
+    "controlAxisAux6": {
+        "message": "AUX 6"
+    },
+    "controlAxisAux7": {
+        "message": "AUX 7"
+    },
+    "controlAxisAux8": {
+        "message": "AUX 8"
+    },
+    "controlAxisAux9": {
+        "message": "AUX 9"
+    },
+    "controlAxisAux10": {
+        "message": "AUX 10"
+    },
+    "controlAxisAux11": {
+        "message": "AUX 11"
+    },
+    "controlAxisAux12": {
+        "message": "AUX 12"
+    },
+    "controlAxisAux13": {
+        "message": "AUX 13"
+    },
+    "controlAxisAux14": {
+        "message": "AUX 14"
+    },
+    "controlAxisAux15": {
+        "message": "AUX 15"
+    },
+    "controlAxisAux16": {
+        "message": "AUX 16"
+    },
+    "pidTuningBasic": {
+        "message": "Básico\/Acro"
+    },
+    "pidTuningYawJumpPrevention": {
+        "message": "Prevenção de pulo Yaw"
+    },
+    "pidTuningYawJumpPreventionHelp": {
+        "message": "Impede a aeronave de pular para cima ao fim do Yaw. Valores mais altos seguram mais ao fim do movimento yaw (funciona como o antigo D do yaw, que não era um D real como nos outros eixos)"
+    },
+    "pidTuningRcExpoPower": {
+        "message": "Potencia do Expo do RC"
+    },
+    "pidTuningRcExpoPowerHelp": {
+        "message": "O expoente que é usado ao calcular o Expo do RC. nas versões do Betaflight anteriores a 3.0, o valor é fixo em 3."
+    },
+    "pidTuningLevel": {
+        "message": "Angulo\/Horizonte"
+    },
+    "pidTuningAltitude": {
+        "message": "Barômetro & Sonar\/Altitude"
+    },
+    "pidTuningMag": {
+        "message": "Magnetômetro\/Direção"
+    },
+    "pidTuningGps": {
+        "message": "Navegação por GPS"
+    },
+    "pidTuningStrength": {
+        "message": "Potência"
+    },
+    "pidTuningTransition": {
+        "message": "Transição"
+    },
+    "pidTuningHorizon": {
+        "message": "Horizonte"
+    },
+    "pidTuningAngle": {
+        "message": "Angulo"
+    },
+    "pidTuningLevelAngleLimit": {
+        "message": "Limite do Angulo"
+    },
+    "pidTuningLevelSensitivity": {
+        "message": "Sensibilidade"
+    },
+    "pidTuningLevelHelp": {
+        "message": "Os valores abaixo alteram o comportamento dos modos de voo ANGULO e HORIZONTE. Diferentes controladores PID lidam com os valores de formas diferentes. Por favor leia a documentação."
+    },
+    "pidTuningNonProfileFilterSettings": {
+        "message": "Configurações de filtros independentes de perfil"
+    },
+    "pidTuningGyroLowpassFrequency": {
+        "message": "Frequência do Soft Lowpass para o Giroscópio: [Hz]"
+    },
+    "pidTuningGyroLowpassFrequencyHelp": {
+        "message": "Frequência do Soft Lowpass para o Giroscópio: [Hz]"
+    },
+    "pidTuningGyroNotch1Enable": {
+        "message": "Ativar filtro Notch 1 do Giroscópio"
+    },
+    "pidTuningGyroNotch1Frequency": {
+        "message": "Frequência do filtro Notch 1 [Hz]"
+    },
+    "pidTuningGyroNotch2Enable": {
+        "message": "Ativar filtro Notch 2 do Giroscópio"
+    },
+    "pidTuningGyroNotch2Frequency": {
+        "message": "Frequência do filtro Notch 2 [Hz]"
+    },
+    "pidTuningGyroNotchFrequencyHelp": {
+        "message": "Frequência do filtro Notch em Hz"
+    },
+    "pidTuningGyroNotch1Cutoff": {
+        "message": "Frequência de Cutoff do filtro Notch 1 [Hz]"
+    },
+    "pidTuningGyroNotch2Cutoff": {
+        "message": "Frequência de Cutoff do filtro Notch 2 [Hz]"
+    },
+    "pidTuningGyroNotchCutoffHelp": {
+        "message": "Frequência de Cutoff do filtro Notch em Hz (Aqui é onde o filtro Notch começa. Por exemplo, com o filtro notch em 160 e o Notch Hz em 360, ele terá uma faixa de 160-360Hz com a maior atenuação em torno do centro)"
+    },
+    "pidTuningFilterSettings": {
+        "message": "Configurações do Filtro"
+    },
+    "pidTuningDTermLowpassType": {
+        "message": "Filtro Lowpass do termo D"
+    },
+    "pidTuningDTermLowpassTypeTip": {
+        "message": "Selecione o tipo de filtro lowpass do termo D para usar. O padrão é BIQUAD"
+    },
+    "pidTuningDTermLowpassFrequency": {
+        "message": "Frequência do Lowpass do Termo D [Hz]"
+    },
+    "pidTuningDTermLowpassFrequencyHelp": {
+        "message": "Frequência do Lowpass do Termo D [Hz] (0 significa desativado)"
+    },
+    "pidTuningDTermNotchEnable": {
+        "message": "Ativar filtro Notch do termo D"
+    },
+    "pidTuningDTermNotchFrequency": {
+        "message": "Frequência do filtro Notch do Termo D [Hz]"
+    },
+    "pidTuningDTermNotchFrequencyHelp": {
+        "message": "Frequência do filtro Notch do Termo D [Hz] (0 significa desativado)"
+    },
+    "pidTuningDTermNotchCutoff": {
+        "message": "Cutoff do filtro Notch do termo D [Hz]"
+    },
+    "pidTuningDTermNotchCutoffHelp": {
+        "message": "Cutoff do filtro Notch do termo D em Hz (Aqui é onde o filtro Notch começa. Por exemplo, com o filtro notch em 160 e o Notch Hz em 360, ele terá uma faixa de 160-360Hz com a maior atenuação em torno do centro)"
+    },
+    "pidTuningYawLowpassFrequency": {
+        "message": "Frequência de Lowpass do Yaw [Hz]"
+    },
+    "pidTuningYawLowpassFrequencyHelp": {
+        "message": "Frequência do Lowpass do Yaw [Hz] (O eixo Yaw muitas vezes pode ter mais ruido que os demais. Este filtro afeta somente o P do yaw)"
+    },
+    "pidTuningVbatPidCompensation": {
+        "message": "Compensação da Voltagem da bateria (Vbat) no PID"
+    },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Aumenta os valores do PID para compensar quando a voltagem da bateria diminui. Isso resulta em características mais constantes durante o voo. A quantidade de compensação aplicada é calculada a partir da Voltagem Máxima da Célula indicada na aba Energia & Bateria, então tenha certeza de que foi configurado adequadamente."
+    },
+    "configHelp2": {
+        "message": "Rotação da placa em graus, permite que a placa seja montada de lado, de ponta-cabeça, rotacionada, etc. Quando estiver utilizando sensores externos, use o alinhamento dos sensores (Giro, Acc, Mag) para definir a posição do sensor independente da orientação da placa. "
+    },
+    "failsafeFeaturesHelpOld": {
+        "message": "As configurações de segurança contra falhas mudaram consideravelmente. Use o Betaflight <strong>v1.12.0+<\/strong> para ativar o painel de configuração aprimorado."
+    },
+    "failsafePaneTitleOld": {
+        "message": "Segurança contra falhas do receptor"
+    },
     "failsafeFeaturesHelpNew": {
         "message": "A segurança contra falhas tem dois estágios. O <strong>Estágio 1<\/strong> é iniciado quando o canal recebe um sinal inválido, quando o receptor solicita o modo ou quando não há nenhum sinal do receptor. As configurações de segurança do canal são aplicadas em <span class=\"message-negative\">todos canais<\/span> e um breve período de tempo é providenciado para que seja possível recuperar. O <strong>Estágio 2<\/strong> é iniciado quando a condição de falha acorre durante mais tempo do que o tempo de espera definido e enquanto a aeronave estiver <span class=\"message-negative\">armada<\/span>, todos os canais permanecerão nas configurações de segurança definidas a menos que sejam sobrepostos por algum procedimento. <br \/><strong>Nota:<\/strong> Antes de iniciar o estágio 1, as configurações de segurança também são aplicadas a todos canais AUX que também estão com sinais inválidos."
     },
+    "failsafePulsrangeTitle": {
+        "message": "Configuração de faixa de pulsos válidos"
+    },
     "failsafePulsrangeHelp": {
         "message": "Pulsos mais curtos que o mínimo ou mais longos que o máximo são inválidos e irão ativar as configurações de segurança para o canal individual em canais AUX ou entrará no estágio 1 para canais de voo"
+    },
+    "failsafeRxMinUsecItem": {
+        "message": "Comprimento Mínimo"
+    },
+    "failsafeRxMaxUsecItem": {
+        "message": "Comprimento Máximo"
+    },
+    "failsafeChannelFallbackSettingsTitle": {
+        "message": "Configurações de segurança do canal"
     },
     "failsafeChannelFallbackSettingsHelp": {
         "message": "Estas configurações são aplicadas em canais AUX individuais inválidos ou em todos os canais quando entrar no estágio 1. <strong>Nota:<\/strong> Os valores são salvos em passos de 25usec, para que mudanças pequenas desaparecem"
@@ -2366,6 +2624,18 @@
     },
     "failsafeDelayHelp": {
         "message": "Tempo para recuperação no estágio 1"
+    },
+    "failsafeThrottleLowItem": {
+        "message": "Delay para o Throttle baixo [1 = 0.1 sec.]"
+    },
+    "failsafeThrottleLowHelp": {
+        "message": "Apenas desarme a aeronave ao invés de executar o procedimento de segurança contra falhas se o throttle estava baixo por este determinado período de tempo"
+    },
+    "failsafeThrottleItem": {
+        "message": "Valor do Throttle utilizado para aterrissar"
+    },
+    "failsafeOffDelayItem": {
+        "message": "Delay para desligar os motores em caso de falha [1 = 0.1 sec.]"
     },
     "failsafeSubTitle1": {
         "message": "Estágio 2 - Procedimentos"
