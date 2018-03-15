@@ -1885,6 +1885,21 @@
     "serialLoggingSupportedNote": {
         "message": "Você pode logar em um dispositivo externo (como o OpenLog ou clone compativel) utilizando a porta serial. Configure a porta na aba de Portas."
     },
+    "sdcardNote": {
+        "message": "Logs de voo podem ser salvos no Cartão SD a bordo do seu controlador de voo."
+    },
+    "dataflashUsedSpace": {
+        "message": "Espaço utilizado"
+    },
+    "dataflashFreeSpace": {
+        "message": "Espaço livre"
+    },
+    "dataflashUnavSpace": {
+        "message": "Espaço indisponível"
+    },
+    "dataflashLogsSpace": {
+        "message": "Espaço livre para logs"
+    },
     "dataflashNote": {
         "message": "Logs de voo podem ser salvos na Memória flash a bordo do seu controlador de voo."
     },
@@ -1893,6 +1908,12 @@
     },
     "dataflashFirmwareUpgradeRequired": {
         "message": "Memória flash requer o firmware &gt;= 1.8.0."
+    },
+    "dataflashButtonSaveFile": {
+        "message": "Salvar flash em um arquivo..."
+    },
+    "dataflashButtonErase": {
+        "message": "Apagar flash"
     },
     "dataflashConfirmEraseTitle": {
         "message": "Confirme a exclusão da Memória flash"
@@ -1903,11 +1924,230 @@
     "dataflashSavingTitle": {
         "message": "Salvando a Memória flash no arquivo"
     },
+    "dataflashSavingNote": {
+        "message": "Salvar pode demorar vários minutos, por favor aguarde."
+    },
+    "dataflashSavingNoteAfter": {
+        "message": "Salvo! Pressione \"Ok\" para continuar."
+    },
+    "dataflashButtonSaveCancel": {
+        "message": "Cancelar"
+    },
+    "dataflashButtonSaveDismiss": {
+        "message": "Ok"
+    },
     "dataflashButtonEraseConfirm": {
         "message": "Sim, apagar Memória flash"
     },
+    "dataflashButtonEraseCancel": {
+        "message": "Cancelar"
+    },
+    "dataflashFileWriteFailed": {
+        "message": "Falha ao escrever no arquivo selecionado, as permissões da pasta estão corretas?"
+    },
+    "sdcardStatusNoCard": {
+        "message": "Nenhum cartão inserido"
+    },
+    "sdcardStatusReboot": {
+        "message": "Erro fatal<br>Reinicie para tentar novamente"
+    },
+    "sdcardStatusReady": {
+        "message": "Cartão pronto"
+    },
+    "sdcardStatusStarting": {
+        "message": "Cartão inicializando..."
+    },
+    "sdcardStatusFileSystem": {
+        "message": "Iniciando sistema de arquivos..."
+    },
+    "sdcardStatusUnknown": {
+        "message": "Estado desconhecido $1"
+    },
+    "firmwareFlasherReleaseSummaryHead": {
+        "message": "Notas de lançamento"
+    },
+    "firmwareFlasherReleaseName": {
+        "message": "Nome\/Versão:"
+    },
+    "firmwareFlasherReleaseVersionUrl": {
+        "message": "Visite a página de lançamentos."
+    },
+    "firmwareFlasherReleaseNotes": {
+        "message": "Notas de lançamento:"
+    },
+    "firmwareFlasherReleaseDate": {
+        "message": "Data:"
+    },
+    "firmwareFlasherReleaseStatus": {
+        "message": "Estado:"
+    },
+    "firmwareFlasherReleaseTarget": {
+        "message": "Destino:"
+    },
+    "firmwareFlasherReleaseFile": {
+        "message": "Binário:"
+    },
+    "firmwareFlasherReleaseStatusReleaseCandidate": {
+        "message": "<span class=\"message-negative\">IMPORTANTE: Esta versão do firmware está marcada como release candidate. Por favor reporte qualquer problema o mais rápido possível.<\/span>"
+    },
+    "firmwareFlasherReleaseFileUrl": {
+        "message": "Baixar manualmente."
+    },
+    "firmwareFlasherTargetWarning": {
+        "message": "<span class=\"message-negative\">IMPORTANTE:<\/span> Tenha certeza que o arquivo selecionado é apropriado para o destino. Enviar um arquivo binário para o destino errado pode fazer com que coisas <span class=\"message-negative\">ruins<\/span> aconteçam."
+    },
+    "firmwareFlasherPath": {
+        "message": "Caminho:"
+    },
+    "firmwareFlasherSize": {
+        "message": "Tamanho:"
+    },
+    "firmwareFlasherStatus": {
+        "message": "Status:"
+    },
+    "firmwareFlasherProgress": {
+        "message": "Progresso:"
+    },
+    "firmwareFlasherLoadFirmwareFile": {
+        "message": "Por favor carregue o arquivo do firmware"
+    },
+    "firmwareFlasherNoReboot": {
+        "message": "Sem sequencia de reinicialização"
+    },
+    "firmwareFlasherOnlineSelectBoardDescription": {
+        "message": "Selecione a sua placa para ver os Firmwares disponíveis online - Selecione o firmware apropriado para a sua placa."
+    },
+    "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
+        "message": "Selecione a versão do firmware para sua placa."
+    },
+    "firmwareFlasherNoRebootDescription": {
+        "message": "Ative se seu FC está no modo boot. Por exemplo, se você ligou o seu FC com os pinos do bootloader jampeados ou enquanto está segurando o botão BOOT do seu FC."
+    },
+    "firmwareFlasherFlashOnConnect": {
+        "message": "Atualizar ao conectar"
+    },
+    "firmwareFlasherFlashOnConnectDescription": {
+        "message": "Tentar atualizar a placa automaticamente quando uma nova porta serial é detectada."
+    },
+    "firmwareFlasherFullChipErase": {
+        "message": "Formatar chip"
+    },
+    "firmwareFlasherFullChipEraseDescription": {
+        "message": "Limpa todos dados de configuração armazenados na placa."
+    },
+    "firmwareFlasherFlashDevelopmentFirmware": {
+        "message": "Usar Firmware em desenvolvimento"
+    },
+    "firmwareFlasherFlashDevelopmentFirmwareDescription": {
+        "message": "Atualizar para o firmware de desenvolvimento mais recente (ainda não testado)."
+    },
+    "firmwareFlasherManualPort": {
+        "message": "Porta"
+    },
+    "firmwareFlasherManualBaud": {
+        "message": "Baud rate manual"
+    },
+    "firmwareFlasherManualBaudDescription": {
+        "message": "A seleção manual do baud rate é para placas que não suportam a velocidade padrão ou para atualização por Bluetooth.<br \/><span class=\"message-negative\">Nota:<\/span> Esta opção não é utilizada quando estiver atualizando por USB DFU"
+    },
+    "firmwareFlasherBaudRate": {
+        "message": "Baud Rate"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Mostrar versões instáveis"
+    },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "Mostrar versões em Desenvolvimento e Release-Candidates."
+    },
+    "firmwareFlasherOptionLoading": {
+        "message": "Carregando..."
+    },
+    "firmwareFlasherOptionLabelSelectFirmware": {
+        "message": "Escolha um Firmware \/ Placa"
+    },
+    "firmwareFlasherOptionLabelSelectBoard": {
+        "message": "Escolha uma Placa"
+    },
+    "firmwareFlasherOptionLabelSelectFirmwareVersion": {
+        "message": "Escolha uma versão do Firmware"
+    },
+    "firmwareFlasherOptionLabelSelectFirmwareVersionFor": {
+        "message": "Escolha uma versão do Firmware para"
+    },
+    "firmwareFlasherButtonLoadLocal": {
+        "message": "Carregar Firmware [Local]"
+    },
+    "firmwareFlasherButtonLoadOnline": {
+        "message": "Carregar Firmware [Online]"
+    },
+    "firmwareFlasherButtonDownloading": {
+        "message": "Baixando..."
+    },
+    "firmwareFlasherFlashFirmware": {
+        "message": "Atualizar Firmware"
+    },
+    "firmwareFlasherGithubInfoHead": {
+        "message": "Informações do Firmware no GitHub"
+    },
+    "firmwareFlasherCommiter": {
+        "message": "Committer:"
+    },
+    "firmwareFlasherDate": {
+        "message": "Data:"
+    },
+    "firmwareFlasherHash": {
+        "message": "Hash:"
+    },
+    "firmwareFlasherUrl": {
+        "message": "Vá para o GitHub para rever este commit..."
+    },
+    "firmwareFlasherMessage": {
+        "message": "Mensagem:"
+    },
+    "firmwareFlasherWarningText": {
+        "message": "Por favor <span class=\"message-negative\">não<\/span> tente atualizar hardware <strong>não-betaflight<\/strong> utilizando este atualizador de firmware.<br \/><span class=\"message-negative\">Não<\/span><strong> desconecte<\/strong> a placa ou <strong>desligue<\/strong> seu computador durante a atualização<br \/><br \/><strong>Nota: <\/strong>o bootloader STM32 é salvo na ROM, e não tem como dar problema.<br \/><strong>Nota: <\/strong><span class=\"message-negative\">Auto-Conectar<\/span> sempre estará desativado enquanto você está na tela de atualização.<br \/><strong>Nota: <\/strong>Tenha certeza de que você tem um backup; algumas atualizações podem limpar suas configurações.<br \/><strong>Nota:<\/strong> Se não estiver conseguindo atualizar, <strong> tente desconectar todos os cabos do seu FC<\/strong> primeiro, tente reiniciar, atualizar o chrome ou atualizar seus drivers.<br \/><strong>Nota:<\/strong> Quando for atualizar placas com uma conexão USB direta (como a maioria das placas recentes) tenha certeza de que você leu a seção de atualização por USB (USB Flashing) do manual do Betaflight e que também os drivers e softwares corretos estão instalados"
+    },
+    "firmwareFlasherRecoveryHead": {
+        "message": "<strong>Recuperação \/ Comunicação perdida<\/strong>"
+    },
     "firmwareFlasherRecoveryText": {
         "message": "Se você perdeu a comunicação com sua placa, siga estas instruções para restaurar a comunicação: <ul><li>Desligue a placa<\/li><li>Ative a opção 'Sem sequencia de reinicialização' e 'Formatar chip'.<\/li><li>Jampeie os pinos BOOT ou segure o botão BOOT.<\/li><li>Ligue a placa (O LED de atividade NÃO irá piscar se realizado corretamente).<\/li><li>Instale todos os drivers STM32 e Zadig se necessário (veja a sessão <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a> do manual do Betaflight).<\/li><li>Feche o Configurador. Feche todas as janelas no Chrome, Feche todos aplicativos do Chrome, Reinicie o Configurador.<\/li><li>Solte o botão BOOT se seu FC tem um.<\/li><li>Atualize o Firmware correto (usando o Baud rate manual se especificado no manual do seu FC).<\/li><li>Desligue a placa.<\/li><li>Remova o jumper do BOOT.<\/li><li>Ligue a placa (O LED de atividade deve piscar).<\/li><li>Conecte normalmente.<\/li><\/ul>"
+    },
+    "firmwareFlasherButtonLeave": {
+        "message": "Sair do atualizador de Firmware"
+    },
+    "firmwareFlasherFirmwareNotLoaded": {
+        "message": "Firmware não carregado"
+    },
+    "firmwareFlasherFirmwareLocalLoaded": {
+        "message": "Carregado Firmware Local ($1 bytes)"
+    },
+    "firmwareFlasherHexCorrupted": {
+        "message": "Parece que o arquivo HEX está corrompido"
+    },
+    "firmwareFlasherRemoteFirmwareLoaded": {
+        "message": "<span class=\"message-positive\">Firmware Remoto carregado, pronto para atualizar<\/span>"
+    },
+    "firmwareFlasherFailedToLoadOnlineFirmware": {
+        "message": "Falha ao carregar firmware remoto"
+    },
+    "firmwareFlasherNoFirmwareSelected": {
+        "message": "<b>Nenhum firmware para carregar<\/b>"
+    },
+    "firmwareFlasherNoValidPort": {
+        "message": "<span class=\"message-negative\">Selecione uma porta serial válida<\/span>"
+    },
+    "firmwareFlasherWritePermissions": {
+        "message": "Você não tem <span class=\"message-negative\">permissão de escrita<\/span> para este arquivo"
+    },
+    "firmwareFlasherFlashTrigger": {
+        "message": "Detectado: <strong>$1<\/strong> - iniciando atualização ao conectar"
+    },
+    "firmwareFlasherPreviousDevice": {
+        "message": "Detectado: <strong>$1<\/strong> - o dispositivo anterior ainda está sendo atualizado, reconecte para tentar novamente"
+    },
+    "ledStripHelp": {
+        "message": "O controlador de voo pode controlar as cores e efeitos de LEDs individuais em uma faixa. <br \/>Configure LEDs na grade, configure a ordem das soldas e então conecte os LEDs na sua aeronave de acordo com as posições na grade. LEDs sem um fio numerado não serão salvos.<br \/>Dê um duplo clique em uma cor para editar os valores HSV."
     },
     "failsafeFeaturesHelpNew": {
         "message": "A segurança contra falhas tem dois estágios. O <strong>Estágio 1<\/strong> é iniciado quando o canal recebe um sinal inválido, quando o receptor solicita o modo ou quando não há nenhum sinal do receptor. As configurações de segurança do canal são aplicadas em <span class=\"message-negative\">todos canais<\/span> e um breve período de tempo é providenciado para que seja possível recuperar. O <strong>Estágio 2<\/strong> é iniciado quando a condição de falha acorre durante mais tempo do que o tempo de espera definido e enquanto a aeronave estiver <span class=\"message-negative\">armada<\/span>, todos os canais permanecerão nas configurações de segurança definidas a menos que sejam sobrepostos por algum procedimento. <br \/><strong>Nota:<\/strong> Antes de iniciar o estágio 1, as configurações de segurança também são aplicadas a todos canais AUX que também estão com sinais inválidos."
