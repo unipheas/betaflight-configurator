@@ -72,6 +72,9 @@
     "language_it": {
         "message": "crwdns6392:0crwdne6392:0"
     },
+    "language_ja": {
+        "message": "crwdns8701:0crwdne8701:0"
+    },
     "language_ko": {
         "message": "crwdns5335:0crwdne5335:0"
     },
@@ -1729,6 +1732,24 @@
     },
     "gpsSignalQty": {
         "message": "crwdns5863:0crwdne5863:0"
+    },
+    "motorsVoltage": {
+        "message": "crwdns8702:0crwdne8702:0"
+    },
+    "motorsADrawing": {
+        "message": "crwdns8703:0crwdne8703:0"
+    },
+    "motorsmAhDrawn": {
+        "message": "crwdns8704:0crwdne8704:0"
+    },
+    "motorsVoltageValue": {
+        "message": "crwdns8705:0crwdne8705:0"
+    },
+    "motorsADrawingValue": {
+        "message": "crwdns8706:0crwdne8706:0"
+    },
+    "motorsmAhDrawnValue": {
+        "message": "crwdns8707:0crwdne8707:0"
     },
     "motorsText": {
         "message": "crwdns5864:0crwdne5864:0"
