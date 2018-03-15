@@ -1690,6 +1690,24 @@
     "gpsSignalQty": {
         "message": "Daudz."
     },
+    "motorsVoltage": {
+        "message": "Spriegums:"
+    },
+    "motorsADrawing": {
+        "message": "Strāva:"
+    },
+    "motorsmAhDrawn": {
+        "message": "Strāvas patēriņš:"
+    },
+    "motorsVoltageValue": {
+        "message": "$1 V"
+    },
+    "motorsADrawingValue": {
+        "message": "$1 A"
+    },
+    "motorsmAhDrawnValue": {
+        "message": "$1 mAh"
+    },
     "motorsText": {
         "message": "Motori"
     },
