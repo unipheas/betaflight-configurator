@@ -1928,7 +1928,7 @@
         "message": "データ書換えにはファームウェア &gt;= 1.8.0. が必要です。"
     },
     "dataflashButtonSaveFile": {
-        "message": "ファイルに保存"
+        "message": "ファイルに保存します..."
     },
     "dataflashButtonErase": {
         "message": "データを消去"
@@ -1940,7 +1940,7 @@
         "message": "メモリに保存されているログを含む全てのデータを消去します．消去には20秒程度必要です．実行しますか？"
     },
     "dataflashSavingTitle": {
-        "message": "データをファイルに保存"
+        "message": "ファイルに保存しています"
     },
     "dataflashSavingNote": {
         "message": "保存には時間がかかります。しばらくお待ち下さい。"
@@ -1967,7 +1967,7 @@
         "message": "カードが挿入されていません"
     },
     "sdcardStatusReboot": {
-        "message": "致命的なエラーです。<br>再起動して下さい"
+        "message": "致命的なエラー<br>再起動して下さい"
     },
     "sdcardStatusReady": {
         "message": "カード使用可能"
