@@ -3340,7 +3340,7 @@
         "message": "1つのProfileにつき最大3つの異なるRateprofileをフライトコントローラに保存することができます。Rateprofileには、RCレート、レート、RC Expo、スロットル、およびTPAの設定が含まれます。 [調整] タブの [Rateprofile選択] の3つのポジションスイッチを設定することで、Rateprofileの切り替えが可能です。"
     },
     "pidTuningDelta": {
-        "message": "D値 仕様"
+        "message": "D値 メソッド"
     },
     "pidTuningDeltaError": {
         "message": "エラー"
