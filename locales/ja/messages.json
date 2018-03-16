@@ -36,10 +36,10 @@
         "message": "自動接続: 無効 - ユーザが正しいシリアル ポートを選択し、別途 [接続] ボタンをクリックする必要があります。"
     },
     "expertMode": {
-        "message": "Expertモード有効"
+        "message": "Expertモード 有効"
     },
     "permanentExpertMode": {
-        "message": "Expertモード常時有効"
+        "message": "Expertモード 常時有効"
     },
     "userLanguageSelect": {
         "message": "言語設定 (変更を有効にするにはConfiguratorを再起動して下さい)"
@@ -473,7 +473,7 @@
         "message": "Betaflight wiki はすばらしい情報リソースを<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">こちら<\/a>で検索・確認することができます。"
     },
     "defaultDocumentation2": {
-        "message": "ファームウェア リリースノートは、GitHub リリースページの<a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">こちら<\/a>で確認することができます。"
+        "message": "ファームウェア リリースノートは、GitHub リリースページの<a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">こちら<\/a>で確認いただけます。"
     },
     "defaultSupportHead": {
         "message": "サポート"
@@ -545,7 +545,7 @@
         "message": "リセット Z 軸、オフセット: 0 度"
     },
     "initialSetupButtonResetZaxisValue": {
-        "message": "リセット Z 軸、オフセット: 1 度"
+        "message": "リセット Z 軸、オフセット: $1 度"
     },
     "initialSetupMixerHead": {
         "message": "ミキサータイプ"
@@ -914,7 +914,7 @@
         "message": "ビーコントーン"
     },
     "configurationBeeper": {
-        "message": "ビープ音設定"
+        "message": "ビープ音 設定"
     },
     "beeperGYRO_CALIBRATED": {
         "message": "Gyroキャリブレーションしたときのビープ音"
@@ -947,10 +947,10 @@
         "message": "スティックが無効位置にあるときのビープ音"
     },
     "beeperACC_CALIBRATION": {
-        "message": "水平 キャリブレーションの完了確認"
+        "message": "水平 キャリブレーションの完了確認時のビープ音"
     },
     "beeperACC_CALIBRATION_FAIL": {
-        "message": "水平 キャリブレーションに失敗"
+        "message": "水平 キャリブレーションに失敗したときのビープ音"
     },
     "beeperREADY_BEEP": {
         "message": "GPSの捕捉と準備ができたときのトーン音"
@@ -962,7 +962,7 @@
         "message": "FCボードに電源が入ったときの初期ビープ音"
     },
     "beeperUSB": {
-        "message": "フライトコントローラがUSB給電されたときのビープ音。機体作成時に鳴らしたくない場合はオフにして下さい。"
+        "message": "フライトコントローラがUSB給電されたときのビープ音 (機体調整時に鳴らしたくない場合はオフにして下さい)"
     },
     "beeperBLACKBOX_ERASE": {
         "message": "ブラックボックスログ消去が完了したときのビープ音"
