@@ -242,7 +242,7 @@
         "message": "STM32 - タイムアウトになりました。処理: 失敗"
     },
     "stm32WrongResponse": {
-        "message": "STM32への通信に失敗、想定される不正応答: $1 (0x$2) 受信応答: $3 (0x$4)"
+        "message": "STM32への通信に失敗; 既定応答: $1 (0x$2) 受信応答: $3 (0x$4)"
     },
     "stm32ContactingBootloader": {
         "message": "ブートローダーに接続中..."
@@ -2956,7 +2956,7 @@
         "message": "カスタマイズされたロゴイメージは、完全な緑色のみの背景とし、黒と白を含む 288×72px サイズでなければなりません。"
     },
     "osdSetupReplaceLogoImageSizeError": {
-        "message": "画像サイズが無効; 既定値 $1×$2 でなく $3×$4 となっています"
+        "message": "画像サイズが無効; 既定サイズ $1×$2 無効サイズ $3×$4"
     },
     "osdSetupReplaceLogoImageColorsError": {
         "message": "画像に無効なカラーパレットが含まれています \n(緑、黒、白のみが許可)"
