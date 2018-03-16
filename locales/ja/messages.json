@@ -962,7 +962,7 @@
         "message": "FCボードに電源が入ったときの初期ビープ音"
     },
     "beeperUSB": {
-        "message": "フライトコントローラがUSB給電されたときのビープ音 (機体調整時に鳴らしたくない場合はオフにして下さい)"
+        "message": "フライトコントローラがUSB給電されたときのビープ音 (機体作成時に鳴らしたくない場合はオフにする)"
     },
     "beeperBLACKBOX_ERASE": {
         "message": "ブラックボックスログ消去が完了したときのビープ音"
@@ -1196,7 +1196,7 @@
         "message": "Derivative"
     },
     "pidTuningRcRate": {
-        "message": "RCレート"
+        "message": "RC レート"
     },
     "pidTuningMaxVel": {
         "message": "最大速度 [deg\/s]"
@@ -1598,7 +1598,7 @@
         "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
     },
     "servosFirmwareUpgradeRequired": {
-        "message": "サーボはファームウェア &gt;= 1.10.0 が必要でありサポート対象です。"
+        "message": "サーボはファームウェア &gt;= 1.10.0. が必要でありサポート対象です。"
     },
     "servosChangeDirection": {
         "message": "一致する送信機のサーボ有効範囲の変更"
@@ -1697,7 +1697,7 @@
         "message": "電流:"
     },
     "motorsmAhDrawn": {
-        "message": "消費電流:"
+        "message": "電流消費量:"
     },
     "motorsVoltageValue": {
         "message": "$1 V"
@@ -2590,7 +2590,7 @@
         "message": "ヨー ローパス周波数 [Hz]"
     },
     "pidTuningYawLowpassFrequencyHelp": {
-        "message": "ヨー ローパス周波数 [Hz] (ヨー軸は時々、残部分よりもノイズが大きい場合があります。 このフィルタはヨーのP値にのみ影響します。)"
+        "message": "ヨー ローパス周波数 [Hz] (ヨー軸は時々、残部分よりもノイズが大きい場合があります。 このフィルタはヨーのP値にのみ影響します)"
     },
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID補正"
@@ -2887,7 +2887,7 @@
         "message": "mAh 使用"
     },
     "powerBatteryAmperage": {
-        "message": "アンペア"
+        "message": "電流"
     },
     "powerBatteryCapacity": {
         "message": "容量 (mAh)"
