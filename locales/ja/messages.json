@@ -2914,7 +2914,7 @@
         "message": "プレビュー (ドラッグして位置を変更)"
     },
     "osdSetupPreviewTitleTip": {
-        "message": "表示またはプレビューウィンドウでロゴを非表示にします。フライト コント ローラーの設定は変わりません。"
+        "message": "表示またはプレビューウィンドウでロゴを非表示にします。フライトコント ローラの設定は変わりません。"
     },
     "osdSetupVideoFormatTitle": {
         "message": "ビデオ形式"
@@ -3037,13 +3037,13 @@
         "message": "アーム後の経過時間 (アラーム値を超えると点滅)"
     },
     "osdDescElementFlyMode": {
-        "message": "現在のフライト モード"
+        "message": "現在のフライトモード"
     },
     "osdDescElementGPSSpeed": {
         "message": "GPSによる速度"
     },
     "osdDescElementGPSSats": {
-        "message": "GPS の有効衛星数"
+        "message": "GPSの有効衛星数"
     },
     "osdDescElementGPSLon": {
         "message": "GPS経度"
