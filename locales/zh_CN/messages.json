@@ -1693,6 +1693,24 @@
     "gpsSignalQty": {
         "message": "数量"
     },
+    "motorsVoltage": {
+        "message": "电压："
+    },
+    "motorsADrawing": {
+        "message": "电流："
+    },
+    "motorsmAhDrawn": {
+        "message": "已消耗电流："
+    },
+    "motorsVoltageValue": {
+        "message": "$1 V"
+    },
+    "motorsADrawingValue": {
+        "message": "$1 A"
+    },
+    "motorsmAhDrawnValue": {
+        "message": "$1 mAh"
+    },
     "motorsText": {
         "message": "电机"
     },
@@ -2930,6 +2948,21 @@
     },
     "osdSetupOpenFont": {
         "message": "打开字体文件"
+    },
+    "osdSetupLogo": {
+        "message": "字体包含的徽标："
+    },
+    "osdSetupReplaceLogo": {
+        "message": "替换徽标"
+    },
+    "osdSetupReplaceLogoHelp": {
+        "message": "自定义徽标图像必须是288×72像素的大小，只能在完全绿色的背景上使用黑色和白色像素点。"
+    },
+    "osdSetupReplaceLogoImageSizeError": {
+        "message": "图像大小无效：应该是 $1×$2 而不是 $3×$4"
+    },
+    "osdSetupReplaceLogoImageColorsError": {
+        "message": "图像包含无效调色板 (仅允许绿色、黑色和白色)"
     },
     "osdSetupUploadFont": {
         "message": "更新字体"
