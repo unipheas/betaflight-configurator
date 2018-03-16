@@ -2202,7 +2202,7 @@
         "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
     },
     "ledStripVtxOverlay": {
-        "message": "VTX (VTX周波数にて色を割り当て)"
+        "message": "VTX (VTX周波数で色を割り当て)"
     },
     "ledStripFunctionSection": {
         "message": "LED機能"
