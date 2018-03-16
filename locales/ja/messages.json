@@ -3289,7 +3289,7 @@
         "message": "アーム最大角 [degrees]"
     },
     "configurationSmallAngleHelp": {
-        "message": "指定された角度以上傾斜していると機体はアームできません。 加速度センサーが有効な場合にのみ適用されます。180に設定すると有効チェックが無効になります。"
+        "message": "指定された角度以上に傾斜していると機体はアームできません。 加速度センサーが有効な場合にのみ適用されます。180に設定すると有効チェックが無効になります。"
     },
     "configurationBatteryVoltage": {
         "message": "バッテリー電圧"
@@ -3325,7 +3325,7 @@
         "message": "ミリボルト単位のオフセット値"
     },
     "configurationBatteryMultiwiiCurrent": {
-        "message": "レガシー Multiwii MSP電流出力サポートを有効にする"
+        "message": "旧式 Multiwii MSP電流出力サポートを有効にする"
     },
     "pidTuningProfile": {
         "message": "Profile"
