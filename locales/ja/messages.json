@@ -602,10 +602,10 @@
         "message": "$1 V"
     },
     "initialSetupDrawn": {
-        "message": "電力消費量"
+        "message": "電流容量:"
     },
     "initialSetupDrawing": {
-        "message": "使用中の電流値:"
+        "message": "消費電流:"
     },
     "initialSetupBatteryMahValue": {
         "message": "$1 mAh"
@@ -647,13 +647,13 @@
         "message": "水平 キャリブレーション 開始"
     },
     "initialSetupAccelCalibEnded": {
-        "message": "水平 キャリブレーション<span class=\"message-positive\">終了<\/span>"
+        "message": "水平 キャリブレーション <span class=\"message-positive\">終了<\/span>"
     },
     "initialSetupMagCalibStarted": {
         "message": "コンパス キャリブレーション 開始"
     },
     "initialSetupMagCalibEnded": {
-        "message": "コンパス キャリブレーション<span class=\"message-positive\">終了<\/span>"
+        "message": "コンパス キャリブレーション <span class=\"message-positive\">終了<\/span>"
     },
     "initialSetupSettingsRestored": {
         "message": "<strong>デフォルト設定<\/strong>に戻す"
@@ -668,7 +668,7 @@
         "message": "PPM受信入力"
     },
     "featureVBAT": {
-        "message": "バッテリー電圧監視"
+        "message": "バッテリー電圧モニタリング"
     },
     "featureINFLIGHT_ACC_CAL": {
         "message": "フライト中の水平キャリブレーション"
