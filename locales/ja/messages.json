@@ -533,7 +533,7 @@
         "message": "リストア"
     },
     "initialSetupBackupRestoreText": {
-        "message": "不測の事態に備え必ず設定の<strong>バックアップ<\/strong>をして下さい。<strong>CLI<\/strong>設定は<span class=\"message-negative\">自動バックアップされません<\/span>。 - [dump] コマンドを参照して下さい。"
+        "message": "不測の事態に備え必ず設定の<strong>バックアップ<\/strong>をして下さい。<strong>CLI<\/strong>設定は<span class=\"message-negative\">自動バックアップされません<\/span>。- [dump] コマンドを参照して下さい。"
     },
     "initialSetupBackupSuccess": {
         "message": "バックアップが<span class=\"message-positive\">正常<\/span>に保存されました"
@@ -701,7 +701,7 @@
         "message": "テレメトリー出力"
     },
     "featureCURRENT_METER": {
-        "message": "バッテリー電圧監視"
+        "message": "現在のバッテリーモニタリング"
     },
     "feature3D": {
         "message": "3Dモード (ESC逆回転を利用)"
