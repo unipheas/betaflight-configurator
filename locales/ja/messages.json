@@ -125,7 +125,7 @@
         "message": "設定をConfiguratorへ移行: $1"
     },
     "configMigrationSuccessful": {
-        "message": "設定の移行完了、移行の適用: $1"
+        "message": "設定の移行成功、適用します: $1"
     },
     "tabFirmwareFlasher": {
         "message": "ファームフラッシャー"
