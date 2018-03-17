@@ -701,7 +701,7 @@
         "message": "テレメトリー出力"
     },
     "featureCURRENT_METER": {
-        "message": "現在のバッテリーモニタリング"
+        "message": "バッテリー電流モニタリング"
     },
     "feature3D": {
         "message": "3Dモード (ESC逆回転を利用)"
@@ -782,7 +782,7 @@
         "message": "<strong>注: <\/strong>ステージ2を無効にすると、全てのフライトチャンネル (ロール、ピッチ、ヨー、スロットル) のユーザ設定ではなく、フォールバック設定の<strong>自動<\/strong>が適用されます。"
     },
     "featureFAILSAFEOldTip": {
-        "message": "受信信号損失時にフェイル セーフの設定を適用"
+        "message": "受信信号損失時にフェイルセーフの設定を適用"
     },
     "configurationFeatureEnabled": {
         "message": "有効"
