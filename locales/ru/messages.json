@@ -1932,6 +1932,9 @@
     "pidTuningHorizon": {
         "message": "Горизонт"
     },
+    "pidTuningAngle": {
+        "message": "Угол"
+    },
     "pidTuningLevelSensitivity": {
         "message": "Чувствительность"
     },
@@ -1974,8 +1977,17 @@
     "powerVoltageId40": {
         "message": "12V"
     },
+    "powerAmperageId10": {
+        "message": "Батарея"
+    },
     "powerBatteryHead": {
         "message": "Батарея"
+    },
+    "powerStateHead": {
+        "message": "Состояние питания"
+    },
+    "powerBatteryConnected": {
+        "message": "Подключено"
     },
     "powerBatteryConnectedValueNo": {
         "message": "Нет"
@@ -1992,11 +2004,32 @@
     "osdSetupVideoFormatTitle": {
         "message": "Формат видео"
     },
+    "osdSetupTimersTitle": {
+        "message": "Таймеры"
+    },
+    "osdSetupCraftNameTitle": {
+        "message": "Позывной пилота"
+    },
+    "osdSetupWarningsTitle": {
+        "message": "Предупреждения"
+    },
+    "osdSetupUploadFont": {
+        "message": "Загрузить шрифт"
+    },
     "osdSetupSave": {
         "message": "Сохранить"
     },
+    "osdSetupFontManager": {
+        "message": "Менеджер шрифтов"
+    },
+    "osdSetupUncheckAll": {
+        "message": "Очистить"
+    },
     "osdSetupHead": {
         "message": "Информация"
+    },
+    "osdSetupVideoMode": {
+        "message": "Режим видео"
     },
     "osdSetupCameraConnected": {
         "message": "Камера подключена"
@@ -2009,6 +2042,9 @@
     },
     "osdSetupButtonReset": {
         "message": "Сбросить настройки"
+    },
+    "osdDescElementGPSLat": {
+        "message": "GPS-Широта"
     },
     "osdTimerSource": {
         "message": "Источник:"
