@@ -673,7 +673,7 @@
         "message": "Моторы не крутятся, если включён arming"
     },
     "featureSERVO_TILT": {
-        "message": "Привод карданного подвеса"
+        "message": "Серво-подвес"
     },
     "featureSOFTSERIAL": {
         "message": "Включить серийный порт основанный на ЦП"
@@ -2108,6 +2108,9 @@
     },
     "pidTuningDeltaError": {
         "message": "Ошибка"
+    },
+    "pidTuningDeltaMeasurement": {
+        "message": "Measurement"
     },
     "pidTuningDeltaTip": {
         "message": "<b>Derivative from Error<\/b> обеспечивает более резкую отзывчивость стиков и это предпочтительнее для гонок. <br><br><b>Derivative from Measurement<\/b> обеспечивает более плавную отзывчивость стиков, что больше подходит для фристайла"
