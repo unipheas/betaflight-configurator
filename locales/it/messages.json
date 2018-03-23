@@ -1,4 +1,7 @@
 {
+    "translation_version": {
+        "message": "0"
+    },
     "warningTitle": {
         "message": "Attenzione"
     },
@@ -1689,6 +1692,18 @@
     },
     "gpsSignalQty": {
         "message": "Quantità"
+    },
+    "motorsVoltage": {
+        "message": "Voltaggio:"
+    },
+    "motorsADrawing": {
+        "message": "Amperaggio:"
+    },
+    "motorsVoltageValue": {
+        "message": "$1 V"
+    },
+    "motorsmAhDrawnValue": {
+        "message": "$1 mAh"
     },
     "motorsText": {
         "message": "Motori"
