@@ -1699,8 +1699,14 @@
     "motorsADrawing": {
         "message": "Amperaggio:"
     },
+    "motorsmAhDrawn": {
+        "message": "Amp. Assorbito:"
+    },
     "motorsVoltageValue": {
         "message": "$1 V"
+    },
+    "motorsADrawingValue": {
+        "message": "$1 A"
     },
     "motorsmAhDrawnValue": {
         "message": "$1 mAh"
