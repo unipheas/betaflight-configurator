@@ -1808,7 +1808,7 @@
         "message": "<strong>Hinweis<\/strong>: Wenn der CLI Tab verlassen wird oder trennen geklickt wird wird <strong>automatisch<\/strong> ein <strong>exit<\/strong> Befehl an das Board geschickt. Mit der neusten Firmware macht das Board automatisch einen <span class=\"message-negative\">Neustart<\/span> nicht gesicherte Einstellungen gehen damit <span class=\"message-negative\">verloren<\/span>."
     },
     "cliInputPlaceholder": {
-        "message": "Kommandos hier eingebem"
+        "message": "Kommandos hier eingeben"
     },
     "cliEnter": {
         "message": "CLI Modus erkannt"
@@ -1817,7 +1817,7 @@
         "message": "CLI Neustart erkannt"
     },
     "cliSaveToFileBtn": {
-        "message": "In Dateni speichern"
+        "message": "In Datei speichern"
     },
     "loggingNote": {
         "message": "Daten werden in <span class=\"message-negative\">nur <\/span>diesem Tab geloggt. Wenn der Tab geschlossen wird, wir das logging <span class=\"message-negative\">abgebraochen<\/span> und der Anwendung geht in den normalen Modus zurück."
