@@ -667,7 +667,7 @@
         "message": "Калибровка в полете"
     },
     "featureRX_SERIAL": {
-        "message": "Приёмник с последовательной передачей данных (SPEKSAT, SBUS, SUMD)"
+        "message": "Приёмник с последоват. передачей данных (SPEKSAT, SBUS, SUMD)"
     },
     "featureMOTOR_STOP": {
         "message": "Моторы не крутятся, если включён arming"
@@ -733,7 +733,7 @@
         "message": "Поддержка SPI RX"
     },
     "featureESC_SENSOR": {
-        "message": "Использование телеметрии KISS\/BLHeli_32 ESC как датчика"
+        "message": "Использовать телеметрию KISS\/BLHeli_32 ESC в качестве датчиков"
     },
     "featureCHANNEL_FORWARDING": {
         "message": "Перенос aux каналов на серво выходы"
@@ -751,7 +751,7 @@
         "message": "Поддержка SD карты (для записи)"
     },
     "featureOSD": {
-        "message": "Отображение Системных Данных"
+        "message": "On Screen Display (отображение данных поверх изображения камеры)"
     },
     "featureVTX": {
         "message": "Видеопередатчик"
@@ -894,14 +894,20 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Это значение, которое посылается к регуляторам  оборотов во время дизарминга. Установите его в такое значение, при котором перестают крутиться моторы (для большинства регуляторов оборотов значение - 1000)."
     },
+    "configurationDshotBeeper": {
+        "message": "Настройка DShot-маячка"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "Включить DShot-маячок (пищит моторами, если долгое время находится в режиме дизарма)"
+    },
     "configurationDshotBeaconTone": {
         "message": "Тон писка моторами"
     },
     "configurationBeeper": {
-        "message": "Настройка сигнала"
+        "message": "Настройка пищалки"
     },
     "beeperGYRO_CALIBRATED": {
-        "message": "Сигнал завершения калибровки гироскопа"
+        "message": "Пищать, если откалиброван гироскоп"
     },
     "beeperRX_LOST": {
         "message": "Пищать, если передатчик отключён или произошла потеря сигнала (пищать, пока не восстановится сигнал)"
@@ -927,6 +933,9 @@
     "beeperRX_SET": {
         "message": "Пищать, если AUX-канал установлен в режим пищания или пропищать, сколько спутников ловит GPS (если он включён)"
     },
+    "beeperDISARM_REPEAT": {
+        "message": "Пищать, если стики находятся в позиции дизарма (если для аргминга используются стики)"
+    },
     "beeperACC_CALIBRATION": {
         "message": "Калибровка акселерометра в полете завершена успешно"
     },
@@ -943,7 +952,7 @@
         "message": "Пищать при подключении контроллера через USB. Можно выключить это пищание, если хотите настраивать контроллер в тишине"
     },
     "beeperBLACKBOX_ERASE": {
-        "message": "Сигнал завершения очистки черного ящика"
+        "message": "Пищать при завершении очистки чёрного ящика"
     },
     "configuration3d": {
         "message": "3D функционал Моторов\/Регуляторов"
@@ -1524,6 +1533,9 @@
     "gpsSignalQty": {
         "message": "Количество"
     },
+    "motorsVoltage": {
+        "message": "Напряжение:"
+    },
     "motorsText": {
         "message": "Моторы"
     },
@@ -1995,6 +2007,12 @@
     "powerBatteryVoltage": {
         "message": "Напряжение"
     },
+    "powerBatteryCurrentDrawn": {
+        "message": "израсходовано mAh"
+    },
+    "powerBatteryAmperage": {
+        "message": "Ток потребления"
+    },
     "powerBatteryCapacity": {
         "message": "Ёмкость (mAh)"
     },
@@ -2081,6 +2099,9 @@
     },
     "configurationMagHardware": {
         "message": "Магнитометр (если поддерживается)"
+    },
+    "configurationSmallAngleHelp": {
+        "message": "Коптер не заармится, если он наклонён сильнее, чем указанное значение. Это условие применяется, если включён акселерометр. Значение 180 фактически отключает эту проверку"
     },
     "configurationBatteryVoltage": {
         "message": "Напряжение батареи"
