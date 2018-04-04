@@ -287,9 +287,6 @@
     "firmwareUpgradeRequired": {
         "message": "Tämän laitteen laiteohjelmisto tarvitsee päivittää uudempaan versioon. Käytä CLI:tä varmuuskopioimiseen ennen päivittämistä.CLI varmuuskopiointi\/palautusprosessista lisää tietoa dokumentaatiossa.<br \/>Vaihtoehtoisesti lataa ja käytä configuratorin vanhaa versiota jos et ole valmis päivitykseen."
     },
-    "infoVersions": {
-        "message": "Käytössä - OS: <strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Configurator: <strong>$3<\/strong>"
-    },
     "releaseCheckLoaded": {
         "message": "Ladattu julkaisuinformaatio koskien $1 GitHubista."
     },
