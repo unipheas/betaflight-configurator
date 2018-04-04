@@ -319,9 +319,6 @@
     "firmwareUpgradeRequired": {
         "message": "Firmware pada perangkat ini perlu ditingkatkan ke versi yang lebih baru. Gunakan CLI untuk backup sebelum berkedip. Prosedur backup \/ restore CLI ada dalam dokumentasi.<br \/>Atau download dan gunakan versi lama dari configurator jika anda belum siap untuk memperbarui."
     },
-    "infoVersions": {
-        "message": "Berjalan - OS: <strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Configurator: <strong>$3<\/strong>>"
-    },
     "releaseCheckLoaded": {
         "message": "Informasi rilis dimuat untuk $1 dari GitHub."
     },
