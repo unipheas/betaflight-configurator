@@ -3217,6 +3217,9 @@
     "osdWarningCrashFlipMode": {
         "message": "Avisa cuando está del revés después de que el modo de choque está activado"
     },
+    "osdWarningEscFail": {
+        "message": "Enumera una lista con los ESCs\/motores que están fallando (RPM o temperatura está fuera del umbral configurado)"
+    },
     "osdSectionHelpElements": {
         "message": "Activa o desactiva elementos del OSD"
     },
