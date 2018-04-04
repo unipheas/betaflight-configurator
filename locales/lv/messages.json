@@ -319,6 +319,10 @@
     "firmwareUpgradeRequired": {
         "message": "Šai programmatūrai uz šīs iekārtas nepieciešama atjaunināšana uz jaunāku versiju. Izmantojiet CLI, lai dublētu datus pirms programmēšanas. CLI dublēšanas\/atjaunošanas procedūras ir dokumentācijā. <br \/>Alternatīva ir lejupielādēt un lietot veco konfiguratora versiju, ja jūs neesat gatavs atjaunināt."
     },
+    "infoVersions": {
+        "message": "Darbojās - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
+        "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
+    },
     "releaseCheckLoaded": {
         "message": "Ielādēta relīzes informācija priekš $1 no GitHub."
     },
@@ -3174,6 +3178,9 @@
     "osdDescStatRtcDateTime": {
         "message": "Datums un laiks no reālā laika pulksteņa"
     },
+    "osdDescStatBattery": {
+        "message": "Akumulatora spriegums reālā laika"
+    },
     "osdTimerSource": {
         "message": "Avots:"
     },
@@ -3209,6 +3216,9 @@
     },
     "osdWarningCrashFlipMode": {
         "message": "Brīdināt, kad ir apgriezies kājām gaisā pēc negadījuma režīma aktivizācijas"
+    },
+    "osdWarningEscFail": {
+        "message": "Uzskaita sarakstu ar tiem ESC\/Motoriem, kas ir nederīgi (RPM vai temperatūra ir ārpus uzstādītajām robežlīnijām)"
     },
     "osdSectionHelpElements": {
         "message": "Ieslēgt vai izslēgt OSD elementus."
