@@ -319,9 +319,6 @@
     "firmwareUpgradeRequired": {
         "message": "Šai programmatūrai uz šīs iekārtas nepieciešama atjaunināšana uz jaunāku versiju. Izmantojiet CLI, lai dublētu datus pirms programmēšanas. CLI dublēšanas\/atjaunošanas procedūras ir dokumentācijā. <br \/>Alternatīva ir lejupielādēt un lietot veco konfiguratora versiju, ja jūs neesat gatavs atjaunināt."
     },
-    "infoVersions": {
-        "message": "Strādā - OS: <strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Konfigurātors: <strong>$3<\/strong>"
-    },
     "releaseCheckLoaded": {
         "message": "Ielādēta relīzes informācija priekš $1 no GitHub."
     },
