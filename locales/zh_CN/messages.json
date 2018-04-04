@@ -322,9 +322,6 @@
     "firmwareUpgradeRequired": {
         "message": "飞控固件需要更新到新的版本，使用CLI 来备份设置。具体操作信息请参考 Betaflight 文档。<br \/>如果不想更新到最新的固件，可以使用支持该固件的地面站来设置使用。"
     },
-    "infoVersions": {
-        "message": "运行- OS: <strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Configurator: <strong>$3<\/strong"
-    },
     "releaseCheckLoaded": {
         "message": "从Github 载入 $1 发布信息"
     },
