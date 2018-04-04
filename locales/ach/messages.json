@@ -3223,6 +3223,9 @@
     "osdDescStatRtcDateTime": {
         "message": "crwdns6292:0crwdne6292:0"
     },
+    "osdDescStatBattery": {
+        "message": "crwdns8709:0crwdne8709:0"
+    },
     "osdTimerSource": {
         "message": "crwdns6293:0crwdne6293:0"
     },
