@@ -313,9 +313,6 @@
     "firmwareTypeNotSupported": {
         "message": "Nicht Betaflight\/Cleanfight Firmware wird <span class=\"message-negative\">nicht unterstützt<\/span> mit Ausnahme vom CLI Modus."
     },
-    "infoVersions": {
-        "message": "Betriebssystem: <strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Konfigurator: <strong>$3<\/strong>"
-    },
     "releaseCheckLoaded": {
         "message": "Lade Github Information für Version $1."
     },
