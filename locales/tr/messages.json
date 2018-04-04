@@ -97,9 +97,6 @@
     "firmwareTypeNotSupported": {
         "message": "CLI modu dışında, Cleanfight\/Betafight dışındaki yazılımlar <span class=\"message-negative\">desteklenmez<\/span>."
     },
-    "infoVersions": {
-        "message": "Çalışıyor- İşletim Sistemi(OS):<strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Yapılandırıcı: <strong>$3<\/strong>"
-    },
     "releaseCheckFailed": {
         "message": "<b>$1 sürümü için GitHub sorgusu başarısız oldu, önbellek bilgileri kullanılıyor. Sebep: <code>$2<\/code><\/b>"
     },
