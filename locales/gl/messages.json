@@ -206,9 +206,6 @@
     "firmwareUpgradeRequired": {
         "message": "O firmware neste dispositivo necesita actualización a unha nova versión. Empregue o CLI para backup antes de flashear. O procedemento CLI de backup\/recuperación atópase na documentación.<br \/>Se o prefire tamén pode descargar e usar unha versión antigua do configurador se non desexa actualizar."
     },
-    "infoVersions": {
-        "message": "Sistema operativo: <strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Configurator: <strong>$3<\/strong>"
-    },
     "releaseCheckLoaded": {
         "message": "Cargada información de lanzamento para $1 dende GitHub."
     },
