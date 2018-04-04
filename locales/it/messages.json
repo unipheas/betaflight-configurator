@@ -319,9 +319,6 @@
     "firmwareUpgradeRequired": {
         "message": "La versione del firmware installata sul dispositivo necessita di un aggiornamento. Usa il CLI per effettuare un backup prima dell'aggiornamento. La procedura è disponibile nella documentazione. <br\/>In alternativa puoi scaricare una versione precedente del configuratore."
     },
-    "infoVersions": {
-        "message": "Sistema operativo: <strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Configurator: <strong>$3<\/strong>"
-    },
     "releaseCheckLoaded": {
         "message": "Informazioni della release $1 scaricate da GitHub."
     },
