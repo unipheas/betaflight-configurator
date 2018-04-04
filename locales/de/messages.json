@@ -1684,6 +1684,21 @@
     "gpsSignalQty": {
         "message": "Anzahl"
     },
+    "motorsVoltage": {
+        "message": "Spannung:"
+    },
+    "motorsADrawing": {
+        "message": "Strom:"
+    },
+    "motorsVoltageValue": {
+        "message": "$1 V"
+    },
+    "motorsADrawingValue": {
+        "message": "$1 A"
+    },
+    "motorsmAhDrawnValue": {
+        "message": "$1 mAh"
+    },
     "motorsText": {
         "message": "Motoren"
     },
@@ -2921,6 +2936,21 @@
     },
     "osdSetupOpenFont": {
         "message": "Schriftdatei öffnen"
+    },
+    "osdSetupLogo": {
+        "message": "Logo in Schrift:"
+    },
+    "osdSetupReplaceLogo": {
+        "message": "Logo ersetzen"
+    },
+    "osdSetupReplaceLogoHelp": {
+        "message": "Das individuelle Logo muss eine Größe von 288x72 Pixeln haben und darf nur aus schwarzen und weißen Pixeln auf einem vollständig grünen Hintergrund verwenden."
+    },
+    "osdSetupReplaceLogoImageSizeError": {
+        "message": "Ungültige Bildgröße; Es wird $1x$2 statt $3x$4 erwartet"
+    },
+    "osdSetupReplaceLogoImageColorsError": {
+        "message": "Das Bild verwendet eine Ungültige Farbpalette (nur grün, schwarz und weiß sind erlaubt)"
     },
     "osdSetupUploadFont": {
         "message": "Schriftart hochladen"
