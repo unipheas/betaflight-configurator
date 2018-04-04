@@ -1518,10 +1518,10 @@
         "message": "RCレート ヨー"
     },
     "adjustmentsFunction22": {
-        "message": "D値 セットポイント"
+        "message": "D値セットポイント"
     },
     "adjustmentsFunction23": {
-        "message": "D値 セットポイント 遷移"
+        "message": "D値セットポイント 遷移"
     },
     "adjustmentsFunction24": {
         "message": "ホライゾン 強度調整"
