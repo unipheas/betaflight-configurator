@@ -3263,6 +3263,9 @@
     "osdWarningCrashFlipMode": {
         "message": "crwdns6304:0crwdne6304:0"
     },
+    "osdWarningEscFail": {
+        "message": "crwdns8711:0crwdne8711:0"
+    },
     "osdSectionHelpElements": {
         "message": "crwdns6305:0crwdne6305:0"
     },
