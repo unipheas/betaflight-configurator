@@ -319,6 +319,10 @@
     "firmwareUpgradeRequired": {
         "message": "このデバイスのファームウェアは、新しいバージョンにアップグレードする必要があります。 書換えする前にCLIを使用してバックアップして下さい。 CLIのバックアップ \/ リストア手順はドキュメントに記載されています。<br \/>または、アップグレードする準備ができていない場合は、旧バージョンのConfiguratorをダウンロードして使用して下さい。"
     },
+    "infoVersions": {
+        "message": "実行中 - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
+        "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
+    },
     "releaseCheckLoaded": {
         "message": "$1 GitHubより、リリース情報を受信しました。"
     },
@@ -1172,10 +1176,10 @@
         "message": "RC補間間隔 [ms]"
     },
     "pidTuningDtermSetpointTransition": {
-        "message": "D値 セットポイント 遷移"
+        "message": "D値セットポイント 遷移"
     },
     "pidTuningDtermSetpoint": {
-        "message": "D値 セットポイント 影響力"
+        "message": "D値セットポイント 影響力"
     },
     "pidTuningDtermSetpointTransitionHelp": {
         "message": "このパラメータを使用すると、D値セットポイントの影響力をスティック中央近くで減らすことができ、その結果フリップおよびロール時のエンドアクションがスムーズになります。<br> この値はスティック偏向点を表します。0-スティック中心、1-完全偏向です。スティックがその値を上回ると、設定値の影響力は一定に保たれます。スティックがその値以下に位置すると、設定値の影響力は比例して減少し、スティックの中心位置で0になります。<br> 1の値はスムージング効果を最大にし、0の値はスティック範囲全体にわたって設定値に固定します。"
@@ -3174,6 +3178,9 @@
     "osdDescStatRtcDateTime": {
         "message": "ハードウェアクロックからの日付と時間"
     },
+    "osdDescStatBattery": {
+        "message": "リアルタイム バッテリー電圧"
+    },
     "osdTimerSource": {
         "message": "ソース:"
     },
@@ -3209,6 +3216,9 @@
     },
     "osdWarningCrashFlipMode": {
         "message": "クラッシュモードを有効後、フリップすると警告"
+    },
+    "osdWarningEscFail": {
+        "message": "障害が発生しているESC \/ モーターリストの列挙\n (回転数または温度が設定しきい値を超過)"
     },
     "osdSectionHelpElements": {
         "message": "OSDを有効、または無効にします。"
