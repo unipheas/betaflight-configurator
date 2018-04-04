@@ -360,7 +360,8 @@
         "message": "crwdns5416:0crwdne5416:0"
     },
     "infoVersions": {
-        "message": "crwdns5417:0crwdne5417:0"
+        "message": "crwdns8710:0{{operatingSystem}}crwdnd8710:0{{chromeVersion}}crwdnd8710:0{{configuratorVersion}}crwdne8710:0",
+        "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
     "releaseCheckLoaded": {
         "message": "crwdns5418:0crwdne5418:0"
