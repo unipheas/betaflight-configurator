@@ -263,9 +263,6 @@
     "firmwareUpgradeRequired": {
         "message": "Az eszközön található firmware-t frissíteni kell. Használja a CLI-t biztonsági mentés készítésére égetés előtt. A CLI biztonsági mentés\/visszatöltés leírását a dokumentációban találja.<br \/>Ha nem akar frissíteni, használja a konfigurátor egy régebbi verzióját."
     },
-    "infoVersions": {
-        "message": "OS: <strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Konfigurátor: <strong>$3<\/strong>"
-    },
     "releaseCheckLoaded": {
         "message": "$1 Verzióinformáció betöltése GitHub-ról."
     },
