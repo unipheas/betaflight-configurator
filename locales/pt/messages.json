@@ -319,6 +319,10 @@
     "firmwareUpgradeRequired": {
         "message": "O firmware deste dispositivo precisa ser atualizado para uma versão mais recente. Use a linha de comandos para realizar uma cópia de segurança antes da atualização. O procedimento para fazer uma cópia de segurança\/restaurar encontra-se na documentação.<br \/>Como alternativa faça o download e use uma versão antiga do configurador, caso não esteja preparado para efetuar a atualização."
     },
+    "infoVersions": {
+        "message": "Executando - SO: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurador: <strong>{{configuratorVersion}}<\/strong>",
+        "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
+    },
     "releaseCheckLoaded": {
         "message": "Informações da versão $1 carregadas do GitHub."
     },
@@ -3174,6 +3178,9 @@
     "osdDescStatRtcDateTime": {
         "message": "Data e hora do relógio"
     },
+    "osdDescStatBattery": {
+        "message": "Voltagem da bateria em tempo real"
+    },
     "osdTimerSource": {
         "message": "Origem:"
     },
@@ -3209,6 +3216,9 @@
     },
     "osdWarningCrashFlipMode": {
         "message": "Alertas quando estiver de ponta cabeça depois que o modo de batida for ativado"
+    },
+    "osdWarningEscFail": {
+        "message": "Mostra uma lista com os ESCs\/motores que estão falhando (A temperatura ou RPM estão fora dos limites configurados)"
     },
     "osdSectionHelpElements": {
         "message": "Ativar ou desativar elementos do OSD."
