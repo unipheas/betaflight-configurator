@@ -319,6 +319,10 @@
     "firmwareUpgradeRequired": {
         "message": "La versione del firmware installata sul dispositivo necessita di un aggiornamento. Usa il CLI per effettuare un backup prima dell'aggiornamento. La procedura è disponibile nella documentazione. <br\/>In alternativa puoi scaricare una versione precedente del configuratore."
     },
+    "infoVersions": {
+        "message": "Sistema operativo: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
+        "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
+    },
     "releaseCheckLoaded": {
         "message": "Informazioni della release $1 scaricate da GitHub."
     },
@@ -3174,6 +3178,9 @@
     "osdDescStatRtcDateTime": {
         "message": "Data e ora dall'orologio in tempo reale"
     },
+    "osdDescStatBattery": {
+        "message": "Voltaggio batteria in tempo reale"
+    },
     "osdTimerSource": {
         "message": "Sorgente:"
     },
@@ -3209,6 +3216,9 @@
     },
     "osdWarningCrashFlipMode": {
         "message": "Avvisa quando il modo \"Flip over crash\" è attivo"
+    },
+    "osdWarningEscFail": {
+        "message": "Mostra una lista degli ESC\/motori che hanno problemi (giri\/min o temperatura fuori dala soglia configurata)"
     },
     "osdSectionHelpElements": {
         "message": "Abilita o disabilita gli elementi OSD"
