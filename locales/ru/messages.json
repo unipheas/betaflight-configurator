@@ -1963,7 +1963,7 @@
         "message": "Нет"
     },
     "powerVoltageHead": {
-        "message": "Вольтметр"
+        "message": "Датчик напряжения"
     },
     "powerVoltageValue": {
         "message": "$1 V"
@@ -2002,7 +2002,7 @@
         "message": "Напряжение"
     },
     "powerBatteryCurrentDrawn": {
-        "message": "израсходовано mAh"
+        "message": "Израсходовано mAh"
     },
     "powerBatteryAmperage": {
         "message": "Ток потребления"
