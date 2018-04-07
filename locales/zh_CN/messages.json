@@ -47,9 +47,6 @@
     "language_default": {
         "message": "默认"
     },
-    "language_zh_CN": {
-        "message": "简体中文 (zh_CN)"
-    },
     "sensorDataFlashNotFound": {
         "message": "没有找到<br>闪存芯片",
         "description": "Text of the dataflash image in the header of the page."
@@ -498,9 +495,6 @@
     },
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
-    },
-    "defaultSupport5": {
-        "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Betaflight 开发 slack<\/a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span class=\"message-negative\">备份和恢复功能被禁用。<\/span>当前飞控固件的API版本为 <span class=\"message-negative\">$1<\/span>，而备份和恢复功能需要版本 <span class=\"message-positive\">$2<\/span>。请通过 CLI 命令行手工备份，具体操作流程请参阅 Betaflight 文档。"
