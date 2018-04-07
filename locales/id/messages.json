@@ -496,9 +496,6 @@
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
-    "defaultSupport5": {
-        "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">GitHub<\/a>"
-    },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span class=\"pesan-negatif\">Cadangan dan memulihkan fungsi dinonaktifkan.<\/span> Anda memiliki firmware dengan versi API <span class=\"pesan-negatif\">$1<\/span>, backup dan restore yang dibutuhkan <span class=\"pesan positif\">$2<\/span>. Mohon cadangan pengaturan anda melalui CLI, lihat Betaflight dokumentasi prosedur."
     },
