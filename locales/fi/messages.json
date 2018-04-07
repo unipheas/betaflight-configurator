@@ -449,9 +449,6 @@
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
-    "defaultSupport5": {
-        "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Betaflightin kehittäjät slackissa<\/a>"
-    },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span class=\"message-negative\">Varmuuskopiointi ja palautustoiminnallisuus on pois käytöstä.<\/span> Käytössäsi on laiteohjelmisto, jonka API-versio on <span class=\"message-negative\">$1<\/span>, varmuuskopiointi ja palautus vaatii toimiakseen version <span class=\"message-positive\">$2<\/span>.  Ole hyvä ja varmuuskopioi asetuksesi CLI-toiminnon kautta. Katso Betaflightin dokumentaatiosta tarkemmat ohjeet."
     },
