@@ -496,9 +496,6 @@
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
-    "defaultSupport5": {
-        "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Développeurs de Betaflight sur Slack<\/a>"
-    },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span class=\"message-negative\">La sauvegarde et la restauration sont désactivés.<\/span> La version API de votre microprogramme est <span class=\"message-negative\">$1<\/span>, la version minimum requise est <span class=\"message-positive\">$2<\/span>.  Veuillez sauvegarder vos paramètres en CLI, voir la procédure dans l'aide Betaflight."
     },
