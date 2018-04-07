@@ -500,9 +500,6 @@
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
-    "defaultSupport5": {
-        "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Programadores do Betaflight no Slack<\/a>"
-    },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span class=\"message-negative\">Funcionalidades de Backup e restauração desativadas.<\/span>Seu firmware está na versão <span class=\"message-negative\">$1<\/span> da API, O Backup e restauração requer a versão <span class=\"message-positive\">$2<\/span>. Por favor realize uma cópia de segurança via CLI, veja a documentação do Betaflight para o procedimento."
     },
