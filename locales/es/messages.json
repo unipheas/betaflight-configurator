@@ -500,6 +500,9 @@
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
+    "defaultSupport5": {
+        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Desarrolladores de Betaflight en Slack<\/a>"
+    },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span class=\"message-negative\">Funcionalidad de copia de seguridad y restauración desactivada.<\/span>  Tu firmware tiene versión de API <span class=\"message-negative\">$1<\/span>, copia de seguridad y restauración requiere <span class=\"message-positive\">$2<\/span>.  Haz copia de tus ajustes vía CLI, mira la documentación para ver el procedimiento."
     },
