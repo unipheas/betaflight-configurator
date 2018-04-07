@@ -51,6 +51,10 @@
         "message": "Отсутствует <br>модуль памяти",
         "description": "Text of the dataflash image in the header of the page."
     },
+    "sensorDataFlashFreeSpace": {
+        "message": "Данные: доступное место",
+        "description": "Text of the dataflash image in the header of the page."
+    },
     "sensorStatusGyro": {
         "message": "Гироскоп"
     },
@@ -1251,6 +1255,9 @@
     "pidTuningProfileReset": {
         "message": "Загрузить значения профиля по умолчанию."
     },
+    "pidTuningLoadedRateProfile": {
+        "message": "Загружен Rate-профиль: <strong class=\"message-positive\">$1<\/strong>"
+    },
     "pidTuningEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">сохранено<\/span>"
     },
@@ -1331,6 +1338,9 @@
     },
     "adjustmentsColumnUsingSlot": {
         "message": "используя слот"
+    },
+    "adjustmentsColumnWhenChannel": {
+        "message": "когда канал"
     },
     "adjustmentsColumnIsInRange": {
         "message": "находится в диапазоне"
@@ -1529,6 +1539,9 @@
     },
     "motorsVoltage": {
         "message": "Напряжение:"
+    },
+    "motorsADrawing": {
+        "message": "Сила тока:"
     },
     "motorsText": {
         "message": "Моторы"
@@ -1740,6 +1753,9 @@
     "firmwareFlasherDate": {
         "message": "Дата:"
     },
+    "firmwareFlasherHash": {
+        "message": "Хэш:"
+    },
     "firmwareFlasherMessage": {
         "message": "Сообщение:"
     },
@@ -1932,8 +1948,17 @@
     "controlAxisAux15": {
         "message": "AUX 15"
     },
+    "pidTuningBasic": {
+        "message": "Basic\/Acro"
+    },
+    "pidTuningLevel": {
+        "message": "Angle\/Horizon"
+    },
     "pidTuningGps": {
         "message": "GPS Навигация"
+    },
+    "pidTuningStrength": {
+        "message": "Скорость наклона"
     },
     "pidTuningHorizon": {
         "message": "Горизонт"
@@ -1941,8 +1966,17 @@
     "pidTuningAngle": {
         "message": "Угол"
     },
+    "pidTuningLevelAngleLimit": {
+        "message": "Макс. угол наклона"
+    },
     "pidTuningLevelSensitivity": {
         "message": "Чувствительность"
+    },
+    "pidTuningLevelHelp": {
+        "message": "Эти зачения меняют поведение в режимах ANGLE и HORIZON. Различные PID-контроллеры обрабатывают эти значения по-разному. Пожалуйста, ознакомьтесь с документацией."
+    },
+    "pidTuningVbatPidCompensation": {
+        "message": "Компенсация PID-ов при низком заряде батареи"
     },
     "pidTuningVbatPidCompensationHelp": {
         "message": "Увеличивает значения PID-ов, в целях компенсации, при низком заряде батареи. Это даёт более стабильные лётные характеристики на протяжении всего полёта. Значение компенсации вычисляется исходя из максимального напряжения на элементе батареи, установленного во вкладке \"Питание и Батарея\"."
@@ -1956,11 +1990,41 @@
     "powerButtonSave": {
         "message": "Сохранить"
     },
+    "powerBatteryVoltageMeterSource": {
+        "message": "Использовать в качестве датчика напряжения"
+    },
     "powerBatteryVoltageMeterTypeNone": {
         "message": "Нет"
     },
+    "powerBatteryVoltageMeterTypeAdc": {
+        "message": "Встроенный АЦП"
+    },
+    "powerBatteryVoltageMeterTypeEsc": {
+        "message": "ESC-датчик"
+    },
+    "powerBatteryCurrentMeterSource": {
+        "message": "Использовать в качестве датчика тока"
+    },
     "powerBatteryCurrentMeterTypeNone": {
         "message": "Нет"
+    },
+    "powerBatteryCurrentMeterTypeAdc": {
+        "message": "Встроенный АЦП"
+    },
+    "powerBatteryCurrentMeterTypeVirtual": {
+        "message": "Виртуальный"
+    },
+    "powerBatteryCurrentMeterTypeEsc": {
+        "message": "ESC-датчик"
+    },
+    "powerBatteryMinimum": {
+        "message": "Минимальное напряжение на банку"
+    },
+    "powerBatteryMaximum": {
+        "message": "Максимальное напряжение на банку"
+    },
+    "powerBatteryWarning": {
+        "message": "Предупреждать, если напряжение на банке"
     },
     "powerVoltageHead": {
         "message": "Датчик напряжения"
@@ -1983,8 +2047,41 @@
     "powerVoltageId40": {
         "message": "12V"
     },
+    "powerVoltageId60": {
+        "message": "ESC от мотора 1"
+    },
+    "powerVoltageId61": {
+        "message": "ESC от мотора 2"
+    },
+    "powerVoltageId62": {
+        "message": "ESC от мотора 3"
+    },
+    "powerVoltageId63": {
+        "message": "ESC от мотора 4"
+    },
+    "powerAmperageHead": {
+        "message": "Датчик тока"
+    },
     "powerAmperageId10": {
         "message": "Батарея"
+    },
+    "powerAmperageId60": {
+        "message": "ESC от мотора 1"
+    },
+    "powerAmperageId61": {
+        "message": "ESC от мотора 2"
+    },
+    "powerAmperageId62": {
+        "message": "ESC от мотора 3"
+    },
+    "powerAmperageId63": {
+        "message": "ESC от мотора 4"
+    },
+    "powerAmperageId80": {
+        "message": "Виртуальный"
+    },
+    "powerMahValue": {
+        "message": "$1 mAh"
     },
     "powerBatteryHead": {
         "message": "Батарея"
@@ -1994,6 +2091,9 @@
     },
     "powerBatteryConnected": {
         "message": "Подключено"
+    },
+    "powerBatteryConnectedValueYes": {
+        "message": "Да (банок: $1)"
     },
     "powerBatteryConnectedValueNo": {
         "message": "Нет"
@@ -2064,6 +2164,9 @@
     "osdTimerPrecision": {
         "message": "Точность:"
     },
+    "osdSettingsSaved": {
+        "message": "OSD настройки сохранены"
+    },
     "configurationEscProtocol": {
         "message": "Протокол ESC \/ Мотора"
     },
@@ -2100,6 +2203,9 @@
     "configurationBatteryVoltage": {
         "message": "Напряжение батареи"
     },
+    "configurationBatteryCurrent": {
+        "message": "Ток батареи"
+    },
     "configurationBatteryMinimum": {
         "message": "Минимальное напряжение элемента"
     },
@@ -2117,6 +2223,9 @@
     },
     "pidTuningProfile": {
         "message": "Профиль"
+    },
+    "pidTuningProfileTip": {
+        "message": "Максимум 3 (2 для некоторых контроллеров) профиля PID-ов могут храниться в памяти полётного контроллера. PID-профили хранят в себе параметры D setpoint и настройки angle\/horizon (в этой вкладке). С помощью комбинаций стиков (см. инструкцию) можно переключаться между профилями."
     },
     "pidTuningRateProfile": {
         "message": "Rate-профиль"
