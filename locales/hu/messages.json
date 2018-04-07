@@ -413,9 +413,6 @@
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
-    "defaultSupport5": {
-        "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Betaflight fejlesztők slack csoportja<\/a>"
-    },
     "initialSetupButtonCalibrateAccel": {
         "message": "Gyorsulásmérő kalibrálása"
     },
