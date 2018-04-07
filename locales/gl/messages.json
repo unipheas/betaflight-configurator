@@ -368,9 +368,6 @@
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
-    "defaultSupport5": {
-        "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Programadores de Betaflight devs en slack<\/a>"
-    },
     "initialSetupButtonCalibrateAccel": {
         "message": "Calibrar Acelerómetro"
     },
