@@ -1695,7 +1695,7 @@
         "message": "Intensité:"
     },
     "motorsmAhDrawn": {
-        "message": "Courant d'appel:"
+        "message": "Intensité consommée:"
     },
     "motorsVoltageValue": {
         "message": "$1 V"
