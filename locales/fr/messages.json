@@ -319,6 +319,10 @@
     "firmwareUpgradeRequired": {
         "message": "Le microprogramme de ce dispositif a besoin d'être mis à jour. Utilisez le CLI pour sauvegarder avant de flasher. Les procédures de sauvegarde\/restauration par le CLI sont décrites dans l'aide.<br \/> Téléchargez et utilisez une ancienne version du configurateur si vous n'êtes pas prêt à le mettre à jour."
     },
+    "infoVersions": {
+        "message": "Running - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
+        "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
+    },
     "releaseCheckLoaded": {
         "message": "Information release GitHub chargée pour $1."
     },
@@ -495,6 +499,9 @@
     },
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+    },
+    "defaultSupport5": {
+        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Devs Betaflight sur Slack<\/a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span class=\"message-negative\">La sauvegarde et la restauration sont désactivés.<\/span> La version API de votre microprogramme est <span class=\"message-negative\">$1<\/span>, la version minimum requise est <span class=\"message-positive\">$2<\/span>.  Veuillez sauvegarder vos paramètres en CLI, voir la procédure dans l'aide Betaflight."
@@ -1680,6 +1687,24 @@
     },
     "gpsSignalQty": {
         "message": "Qty"
+    },
+    "motorsVoltage": {
+        "message": "Tension:"
+    },
+    "motorsADrawing": {
+        "message": "Intensité:"
+    },
+    "motorsmAhDrawn": {
+        "message": "Courant d'appel:"
+    },
+    "motorsVoltageValue": {
+        "message": "$1 V"
+    },
+    "motorsADrawingValue": {
+        "message": "$1 A"
+    },
+    "motorsmAhDrawnValue": {
+        "message": "$1 mAh"
     },
     "motorsText": {
         "message": "Moteurs"
@@ -3150,6 +3175,9 @@
     "osdDescStatRtcDateTime": {
         "message": "Date et heure depuis l'horloge réél"
     },
+    "osdDescStatBattery": {
+        "message": "Tension de la batterie en temps réel"
+    },
     "osdTimerSource": {
         "message": "Source:"
     },
@@ -3185,6 +3213,9 @@
     },
     "osdWarningCrashFlipMode": {
         "message": "Avertit lors d'un retournement après l'activation du mode crash"
+    },
+    "osdWarningEscFail": {
+        "message": "Enumère une liste d'ESCs\/moteurs (RPM ou température en dehors des seuils configurés)"
     },
     "osdSectionHelpElements": {
         "message": "Activer ou désactiver l'OSD"
