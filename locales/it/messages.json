@@ -500,6 +500,9 @@
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
+    "defaultSupport5": {
+        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">sviluppatori Betaflight su slack<\/a>"
+    },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span class=\"message-negative\">funzione di Backup e ripristino disabilitata.<\/span>La versione API del tuo Firmware è <span class=\"message-negative\">$1<\/span>, per eseguire backup e ripristino è necessaria la versione<span class=\"message-positive\">$2<\/span>. puoi eseguire il backup dei tuoi settaggi via CLI, vedi la documentazione Betaflight per la procedura."
     },
