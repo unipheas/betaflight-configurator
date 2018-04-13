@@ -2947,6 +2947,30 @@
     "osdSetupOpenFont": {
         "message": "Abrir Archivo de Fuente"
     },
+    "osdSetupCustomLogoTitle": {
+        "message": "Logo inicial:"
+    },
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "Seleccionar imagen personalizada&hellip;"
+    },
+    "osdSetupCustomLogoInfoTitle": {
+        "message": "Imagen personalizada:"
+    },
+    "osdSetupCustomLogoInfoImageSize": {
+        "message": "Tamaño debe ser de $t(logoWidthPx) ×$t(logoHeightPx) píxeles"
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "Debe contener píxeles verdes, blancos y negros"
+    },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "Pulse <b>$t(osdSetupUploadFont.message)<\/b> para persistir logo personalizado"
+    },
+    "osdSetupCustomLogoImageSizeError": {
+        "message": "Tamaño de imagen no válido: {{width}}×{{height}} (esperado $t(logoWidthPx) ×$t(logoHeightPx))"
+    },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "La imagen contiene una paleta de colores no válida (sólo se permite verde, blanco y negro)"
+    },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "Tamaño de imagen no válido; se esperaba $1×$2 en vez de $3×$4"
     },
