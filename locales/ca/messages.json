@@ -2919,15 +2919,6 @@
     "osdSetupOpenFont": {
         "message": "Obrir un arxiu de Font"
     },
-    "osdSetupLogo": {
-        "message": "Logo a la font:"
-    },
-    "osdSetupReplaceLogo": {
-        "message": "Reemplaçar Logo"
-    },
-    "osdSetupReplaceLogoHelp": {
-        "message": "La imatge personalitzada ha de ser de 288×72 píxels de mida contenint, només, píxels blancs i negres sobre un fons verd."
-    },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "Mida de la imatge invàlida; s'esperava $1×$2 en comptes de $3×$4"
     },
