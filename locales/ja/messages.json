@@ -2947,15 +2947,6 @@
     "osdSetupOpenFont": {
         "message": "フォントファイルを開く"
     },
-    "osdSetupLogo": {
-        "message": "フォントのロゴ:"
-    },
-    "osdSetupReplaceLogo": {
-        "message": "ロゴの差替え"
-    },
-    "osdSetupReplaceLogoHelp": {
-        "message": "カスタマイズされたロゴイメージは、完全な緑色のみの背景とし、黒と白を含む 288×72px サイズでなければなりません。"
-    },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "画像サイズが無効; 既定サイズ $1×$2 無効サイズ $3×$4"
     },
