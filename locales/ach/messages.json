@@ -2993,14 +2993,29 @@
     "osdSetupOpenFont": {
         "message": "crwdns6220:0crwdne6220:0"
     },
-    "osdSetupLogo": {
-        "message": "crwdns8696:0crwdne8696:0"
+    "osdSetupCustomLogoTitle": {
+        "message": "crwdns8713:0crwdne8713:0"
     },
-    "osdSetupReplaceLogo": {
-        "message": "crwdns8697:0crwdne8697:0"
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "crwdns8714:0crwdne8714:0"
     },
-    "osdSetupReplaceLogoHelp": {
-        "message": "crwdns8698:0crwdne8698:0"
+    "osdSetupCustomLogoInfoTitle": {
+        "message": "crwdns8715:0crwdne8715:0"
+    },
+    "osdSetupCustomLogoInfoImageSize": {
+        "message": "crwdns8716:0$tcrwdnd8716:0$tcrwdne8716:0"
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "crwdns8717:0crwdne8717:0"
+    },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "crwdns8718:0$tcrwdne8718:0"
+    },
+    "osdSetupCustomLogoImageSizeError": {
+        "message": "crwdns8719:0{{width}}crwdnd8719:0{{height}}crwdnd8719:0$tcrwdnd8719:0$tcrwdne8719:0"
+    },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "crwdns8720:0crwdne8720:0"
     },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "crwdns8699:0crwdne8699:0"
