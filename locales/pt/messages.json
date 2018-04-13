@@ -2947,15 +2947,6 @@
     "osdSetupOpenFont": {
         "message": "Abrir Arquivo de Fonte"
     },
-    "osdSetupLogo": {
-        "message": "Logo na fonte:"
-    },
-    "osdSetupReplaceLogo": {
-        "message": "Substituir Logo"
-    },
-    "osdSetupReplaceLogoHelp": {
-        "message": "A imagem customizada da logo deve ser 288x72 pixels em tamanho e conter somente pixels em preto e branco em um fundo completamente verde."
-    },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "Tamanho da imagem inválida; era esperado $1x$2 ao invés de $3x$4"
     },
