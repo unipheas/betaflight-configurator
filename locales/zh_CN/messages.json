@@ -2940,15 +2940,6 @@
     "osdSetupOpenFont": {
         "message": "打开字体文件"
     },
-    "osdSetupLogo": {
-        "message": "字体包含的徽标："
-    },
-    "osdSetupReplaceLogo": {
-        "message": "替换徽标"
-    },
-    "osdSetupReplaceLogoHelp": {
-        "message": "自定义徽标图像必须是288×72像素的大小，只能在完全绿色的背景上使用黑色和白色像素点。"
-    },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "图像大小无效：应该是 $1×$2 而不是 $3×$4"
     },
