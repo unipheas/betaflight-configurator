@@ -2947,6 +2947,27 @@
     "osdSetupOpenFont": {
         "message": "글꼴 파일 열기"
     },
+    "osdSetupCustomLogoTitle": {
+        "message": "부트 로고:"
+    },
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "사용자 이미지 선택&hellip;"
+    },
+    "osdSetupCustomLogoInfoTitle": {
+        "message": "사용자 이미지:"
+    },
+    "osdSetupCustomLogoInfoImageSize": {
+        "message": "크기는 $t(logoWidthPx) ×$t(logoHeightPx) 픽셀 이어야 합니다."
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "녹색, 검은색과 흰색 픽셀을 포함 해야 합니다."
+    },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "서용자 로고를 지속하려면 <b>$t(osdSetupUploadFont.message)<\/b>를 클릭하세요."
+    },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "이미지가 유효하지 않은 색상표를 포함하고 있습니다 (오직 녹색, 검정 및 흰색만 허용됨)"
+    },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "유효하지 않은 이미지 크기; $3×$4 대신 $1×$2 예상"
     },
