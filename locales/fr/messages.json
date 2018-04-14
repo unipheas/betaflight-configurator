@@ -2944,6 +2944,30 @@
     "osdSetupOpenFont": {
         "message": "Ouvrir le fichier de police"
     },
+    "osdSetupCustomLogoTitle": {
+        "message": "Logo de démarrage:"
+    },
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "Choisir une image personnalisée &hellip;"
+    },
+    "osdSetupCustomLogoInfoTitle": {
+        "message": "Image personnalisée:"
+    },
+    "osdSetupCustomLogoInfoImageSize": {
+        "message": "La taille doit être de $t(logoWidthPx)×$t(logoHeightPx) pixels"
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "Doit contenir des pixels verts, noir et blancs"
+    },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "Cliquer <b>$t(osdSetupUploadFont.message)<\/b> afin de conserver le logo personnalisé"
+    },
+    "osdSetupCustomLogoImageSizeError": {
+        "message": "Taille de l'image non valide: {{width}}×{{height}} (attendue $t(logoWidthPx)×$t(logoHeightPx))"
+    },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "La palette couleurs de l'image n'est pas valide (seuls le vert, le noir et le blanc sont autorisés)"
+    },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "Taille de l'image invalide; requise $1×$2 au lieu de $3×$4"
     },
