@@ -2947,6 +2947,30 @@
     "osdSetupOpenFont": {
         "message": "フォントファイルを開く"
     },
+    "osdSetupCustomLogoTitle": {
+        "message": "起動ロゴ:"
+    },
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "カスタム画像を選択&hellip;"
+    },
+    "osdSetupCustomLogoInfoTitle": {
+        "message": "カスタム画像:"
+    },
+    "osdSetupCustomLogoInfoImageSize": {
+        "message": "サイズは $t(logoWidthPx)×$t(logoHeightPx) ピクセルでなければなりません"
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "緑・白・黒色ピクセルを含まなければなりません"
+    },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "<b>$t(osdSetupUploadFont.message)<\/b> をクリックしカスタムロゴを保持します"
+    },
+    "osdSetupCustomLogoImageSizeError": {
+        "message": "画像サイズが無効: {{width}}×{{height}} (既定サイズ $t(logoWidthPx)×$t(logoHeightPx))"
+    },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "画像に無効なカラーが含まれています\n (緑・黒・白のみ有効)"
+    },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "画像サイズが無効; 既定サイズ $1×$2 無効サイズ $3×$4"
     },
