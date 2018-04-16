@@ -2947,6 +2947,30 @@
     "osdSetupOpenFont": {
         "message": "Apri il file dei caratteri"
     },
+    "osdSetupCustomLogoTitle": {
+        "message": "Logo di avvio:"
+    },
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "Seleziona immagine personalizzata&hellip;"
+    },
+    "osdSetupCustomLogoInfoTitle": {
+        "message": "Immagine personalizzata:"
+    },
+    "osdSetupCustomLogoInfoImageSize": {
+        "message": "Le dimensioni devono essere $t(logoWidthPx)×$t(logoHeightPx) pixels"
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "Deve contenere pixel verdi, bianchi e neri"
+    },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "Fare clic <b>$t(osdSetupUploadFont.message)<\/b> per mantenere il logo personalizzato"
+    },
+    "osdSetupCustomLogoImageSizeError": {
+        "message": "Dimensione dell'immagine non valida: {{width}}×{{height}} (expected $t(logoWidthPx)×$t(logoHeightPx))"
+    },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "L'immagine contiene una tavolozza colori non valida (sono ammessi solo verde, nero e bianco)"
+    },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "Dimensione immagine non valida; previsto $1×$2 invece di $3×$4"
     },
