@@ -2947,6 +2947,30 @@
     "osdSetupOpenFont": {
         "message": "Atvērt fonta failu"
     },
+    "osdSetupCustomLogoTitle": {
+        "message": "Ielādes logo:"
+    },
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "Izvēlēties pielāgotu attēlu&hellip;"
+    },
+    "osdSetupCustomLogoInfoTitle": {
+        "message": "Pielāgots attēls:"
+    },
+    "osdSetupCustomLogoInfoImageSize": {
+        "message": "Izmēram ir jābūt $t(logoWidthPx)×$t(logoHeightPx) pikseļi"
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "Jāsatur zaļi, melni un balti pikseļi"
+    },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "Nospiest <b>$t(osdSetupUploadFont.message)<\/b> lai izmantotu pielāgoto logo"
+    },
+    "osdSetupCustomLogoImageSizeError": {
+        "message": "Nederīgs attēla izmērs: {{width}}×{{height}} (sagaidāms $t(logoWidthPx)×$t(logoHeightPx))"
+    },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "Šis attēls satur nederīgu krāsu paleti (tikai zaļa, melna un balta krāsa atļauta)"
+    },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "Nederīgs attēla izmērs; sagaidu $1×$2 šī vietā $3×$4"
     },
