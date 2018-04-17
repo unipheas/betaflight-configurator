@@ -3305,7 +3305,7 @@
         "message": "Barómetro (si está soportado)"
     },
     "configurationMagHardware": {
-        "message": "Magenetómetro (si está soportado)"
+        "message": "Magnetómetro (si está soportado)"
     },
     "configurationSmallAngle": {
         "message": "Ángulo de armado máximo [grados]"
