@@ -2591,7 +2591,7 @@
         "message": "ヨー ローパス周波数 [Hz]"
     },
     "pidTuningYawLowpassFrequencyHelp": {
-        "message": "ヨー ローパス周波数 [Hz] (ヨー軸は時々、残部分よりもノイズが大きい場合があります。 このフィルタはヨーのP値にのみ影響します)"
+        "message": "ヨー ローパス周波数 [Hz] (ヨーは時々、他のピッチ、ロールよりもノイズが大きい場合があります。 このフィルタはヨーのP値にのみ影響します)"
     },
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID補正"
