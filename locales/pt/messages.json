@@ -2947,6 +2947,21 @@
     "osdSetupOpenFont": {
         "message": "Abrir Arquivo de Fonte"
     },
+    "osdSetupCustomLogoTitle": {
+        "message": "Logo do boot:"
+    },
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "Selecionar imagem&hellip;"
+    },
+    "osdSetupCustomLogoInfoTitle": {
+        "message": "Imagem customizada:"
+    },
+    "osdSetupCustomLogoInfoImageSize": {
+        "message": "O tamanho deve ser $t(logoWidthPx)×$t(logoHeightPx) pixels"
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "Deve conter pixels verdes, preto e branco"
+    },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "Tamanho da imagem inválida; era esperado $1x$2 ao invés de $3x$4"
     },
