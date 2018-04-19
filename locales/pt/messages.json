@@ -2962,6 +2962,15 @@
     "osdSetupCustomLogoInfoColorMap": {
         "message": "Deve conter pixels verdes, preto e branco"
     },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "Pressione <b>$t(osdSetupUploadFont.message)<\/b> para manter a logo customizada"
+    },
+    "osdSetupCustomLogoImageSizeError": {
+        "message": "Tamanho da imagem inválido: {{width}}×{{height}} (deveria ser $t(logoWidthPx)×$t(logoHeightPx))"
+    },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "A imagem contém uma paleta de cores inválida (somente verde, preto e branco são permitidos)"
+    },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "Tamanho da imagem inválida; era esperado $1x$2 ao invés de $3x$4"
     },
