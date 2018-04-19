@@ -1845,7 +1845,7 @@
         "message": "ファイルへ保存"
     },
     "loggingNote": {
-        "message": "ログデータは<span class=\"message-negative\">このタブを表示している間のみ<\/span>保存されます。このタブから他へ切り替えると<span class=\"message-negative\">ログが停止<\/span>して、通常の<strong>Configurator<\/strong>の状態に戻ります。<br \/>全体の更新期間を自由に選択できます。パフォーマンス上の理由から、<strong>1秒<\/strong>ごとにログファイルにデータが書き込まれます。"
+        "message": "ログデータは<span class=\"message-negative\">このタブを選択している間のみ<\/span>記録されます。このタブから他へ切り替えると<span class=\"message-negative\">ログは停止<\/span>し、通常の<strong>Configurator<\/strong>の状態に戻ります。<br \/>また項目全体のログ更新期間を自由に選択できます。パフォーマンス上の理由から、<strong>1秒<\/strong>ごとにログファイルにデータが書き込まれます。"
     },
     "loggingSamplesSaved": {
         "message": "サンプル保存:"
