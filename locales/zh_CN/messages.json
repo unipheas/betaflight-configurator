@@ -319,6 +319,10 @@
     "firmwareUpgradeRequired": {
         "message": "飞控固件需要更新到新的版本，使用CLI 来备份设置。具体操作信息请参考 Betaflight 文档。<br \/>如果不想更新到最新的固件，可以使用支持该固件的地面站来设置使用。"
     },
+    "infoVersions": {
+        "message": "操作系统: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, 配置程序: <strong>{{configuratorVersion}}<\/strong>",
+        "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
+    },
     "releaseCheckLoaded": {
         "message": "从Github 载入 $1 发布信息"
     },
@@ -495,6 +499,9 @@
     },
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+    },
+    "defaultSupport5": {
+        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Betaflight 开发者 Slack<\/a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span class=\"message-negative\">备份和恢复功能被禁用。<\/span>当前飞控固件的API版本为 <span class=\"message-negative\">$1<\/span>，而备份和恢复功能需要版本 <span class=\"message-positive\">$2<\/span>。请通过 CLI 命令行手工备份，具体操作流程请参阅 Betaflight 文档。"
@@ -2940,6 +2947,30 @@
     "osdSetupOpenFont": {
         "message": "打开字体文件"
     },
+    "osdSetupCustomLogoTitle": {
+        "message": "启动徽标:"
+    },
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "选择自定义图像&hellip;"
+    },
+    "osdSetupCustomLogoInfoTitle": {
+        "message": "自定义图像:"
+    },
+    "osdSetupCustomLogoInfoImageSize": {
+        "message": "大小必须是 $t(logoWidthPx) x$t(logoHeightPx) 像素"
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "必须是绿色、黑色和白色像素"
+    },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "单击 <b>$t(osdSetupUploadFont.message)<\/b> 以保存自定义徽标"
+    },
+    "osdSetupCustomLogoImageSizeError": {
+        "message": "无效的图像大小: {{width}}x{{height}} (应是 $t(logoWidthPx) x$t(logoHeightPx))"
+    },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "图像包含无效的颜色 (仅允许绿色、黑色和白色)"
+    },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "图像大小无效：应该是 $1×$2 而不是 $3×$4"
     },
@@ -3162,6 +3193,9 @@
     "osdDescStatRtcDateTime": {
         "message": "实时时钟时间日期"
     },
+    "osdDescStatBattery": {
+        "message": "电池实时电压"
+    },
     "osdTimerSource": {
         "message": "来源："
     },
@@ -3197,6 +3231,9 @@
     },
     "osdWarningCrashFlipMode": {
         "message": "当激活坠机模式又发生翻转时发出警告"
+    },
+    "osdWarningEscFail": {
+        "message": "列举一个出现故障的ESCs\/电机的列表 (RPM 或温度超出配置的阈值)"
     },
     "osdSectionHelpElements": {
         "message": "显示或者隐藏 OSD 显示信息"
