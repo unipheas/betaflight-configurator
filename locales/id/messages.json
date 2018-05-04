@@ -2787,9 +2787,6 @@
     "powerAmperageScale": {
         "message": "Skala [1\/10 mV\/A]"
     },
-    "powerAmperageOffset": {
-        "message": "Mengimbangi [mV]"
-    },
     "powerBatteryHead": {
         "message": "Baterai"
     },
