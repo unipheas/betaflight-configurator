@@ -2863,9 +2863,6 @@
     "powerAmperageScale": {
         "message": "比例 [1\/10 mV\/A]"
     },
-    "powerAmperageOffset": {
-        "message": "补偿 [mV]"
-    },
     "powerBatteryHead": {
         "message": "电池"
     },
