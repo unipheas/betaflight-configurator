@@ -141,7 +141,7 @@
         "message": "crwdns5343:0crwdne5343:0"
     },
     "configuratorUpdateNotice": {
-        "message": "crwdns5344:0crwdne5344:0"
+        "message": "crwdns5344:0$1crwdnd5344:0$2crwdne5344:0"
     },
     "configuratorUpdateWebsite": {
         "message": "crwdns5345:0crwdne5345:0"
@@ -159,13 +159,13 @@
         "message": "crwdns5349:0crwdne5349:0"
     },
     "configMigrationFrom": {
-        "message": "crwdns5350:0crwdne5350:0"
+        "message": "crwdns5350:0$1crwdne5350:0"
     },
     "configMigratedTo": {
-        "message": "crwdns5351:0crwdne5351:0"
+        "message": "crwdns5351:0$1crwdne5351:0"
     },
     "configMigrationSuccessful": {
-        "message": "crwdns5352:0crwdne5352:0"
+        "message": "crwdns5352:0$1crwdne5352:0"
     },
     "tabFirmwareFlasher": {
         "message": "crwdns5353:0crwdne5353:0"
@@ -246,7 +246,7 @@
         "message": "crwdns5378:0crwdne5378:0"
     },
     "serialPortOpened": {
-        "message": "crwdns5379:0crwdne5379:0"
+        "message": "crwdns5379:0$1crwdne5379:0"
     },
     "serialPortOpenFail": {
         "message": "crwdns5380:0crwdne5380:0"
@@ -261,7 +261,7 @@
         "message": "crwdns5383:0crwdne5383:0"
     },
     "usbDeviceOpened": {
-        "message": "crwdns5384:0crwdne5384:0"
+        "message": "crwdns5384:0$1crwdne5384:0"
     },
     "usbDeviceOpenFail": {
         "message": "crwdns5385:0crwdne5385:0"
@@ -282,7 +282,7 @@
         "message": "crwdns5390:0crwdne5390:0"
     },
     "stm32WrongResponse": {
-        "message": "crwdns5391:0crwdne5391:0"
+        "message": "crwdns5391:0$1crwdnd5391:0$2crwdnd5391:0$3crwdnd5391:0$4crwdne5391:0"
     },
     "stm32ContactingBootloader": {
         "message": "crwdns5392:0crwdne5392:0"
@@ -351,7 +351,7 @@
         "message": "crwdns5413:0crwdne5413:0"
     },
     "firmwareVersionNotSupported": {
-        "message": "crwdns5414:0crwdne5414:0"
+        "message": "crwdns5414:0$1crwdne5414:0"
     },
     "firmwareTypeNotSupported": {
         "message": "crwdns5415:0crwdne5415:0"
@@ -364,16 +364,16 @@
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
     "releaseCheckLoaded": {
-        "message": "crwdns5418:0crwdne5418:0"
+        "message": "crwdns5418:0$1crwdne5418:0"
     },
     "releaseCheckFailed": {
-        "message": "crwdns5419:0crwdne5419:0"
+        "message": "crwdns5419:0$1crwdnd5419:0$2crwdne5419:0"
     },
     "releaseCheckCached": {
-        "message": "crwdns5420:0crwdne5420:0"
+        "message": "crwdns5420:0$1crwdne5420:0"
     },
     "releaseCheckNoInfo": {
-        "message": "crwdns5421:0crwdne5421:0"
+        "message": "crwdns5421:0$1crwdne5421:0"
     },
     "tabSwitchConnectionRequired": {
         "message": "crwdns5422:0crwdne5422:0"
@@ -382,19 +382,19 @@
         "message": "crwdns5423:0crwdne5423:0"
     },
     "tabSwitchUpgradeRequired": {
-        "message": "crwdns5424:0crwdne5424:0"
+        "message": "crwdns5424:0$1crwdne5424:0"
     },
     "firmwareVersion": {
-        "message": "crwdns5425:0crwdne5425:0"
+        "message": "crwdns5425:0$1crwdne5425:0"
     },
     "apiVersionReceived": {
-        "message": "crwdns5426:0crwdne5426:0"
+        "message": "crwdns5426:0$1crwdne5426:0"
     },
     "uniqueDeviceIdReceived": {
-        "message": "crwdns5427:0crwdne5427:0"
+        "message": "crwdns5427:0$1crwdne5427:0"
     },
     "craftNameReceived": {
-        "message": "crwdns5428:0crwdne5428:0"
+        "message": "crwdns5428:0$1crwdne5428:0"
     },
     "armingDisabled": {
         "message": "crwdns5429:0crwdne5429:0"
@@ -409,13 +409,13 @@
         "message": "crwdns6379:0crwdne6379:0"
     },
     "boardInfoReceived": {
-        "message": "crwdns5431:0crwdne5431:0"
+        "message": "crwdns5431:0$1crwdnd5431:0$2crwdne5431:0"
     },
     "buildInfoReceived": {
-        "message": "crwdns5432:0crwdne5432:0"
+        "message": "crwdns5432:0$1crwdne5432:0"
     },
     "fcInfoReceived": {
-        "message": "crwdns5433:0crwdne5433:0"
+        "message": "crwdns5433:0$1crwdnd5433:0$2crwdne5433:0"
     },
     "versionLabelTarget": {
         "message": "crwdns5434:0crwdne5434:0"
@@ -427,7 +427,7 @@
         "message": "crwdns5436:0crwdne5436:0"
     },
     "notifications_app_just_updated_to_version": {
-        "message": "crwdns5437:0crwdne5437:0"
+        "message": "crwdns5437:0$1crwdne5437:0"
     },
     "notifications_click_here_to_start_app": {
         "message": "crwdns5438:0crwdne5438:0"
@@ -436,10 +436,10 @@
         "message": "crwdns5439:0crwdne5439:0"
     },
     "statusbar_usage_download": {
-        "message": "crwdns5440:0crwdne5440:0"
+        "message": "crwdns5440:0$1crwdne5440:0"
     },
     "statusbar_usage_upload": {
-        "message": "crwdns5441:0crwdne5441:0"
+        "message": "crwdns5441:0$1crwdne5441:0"
     },
     "statusbar_packet_error": {
         "message": "crwdns5442:0crwdne5442:0"
@@ -451,19 +451,19 @@
         "message": "crwdns5444:0crwdne5444:0"
     },
     "statusbar_cpu_load": {
-        "message": "crwdns5445:0crwdne5445:0"
+        "message": "crwdns5445:0$1crwdne5445:0"
     },
     "dfu_connect_message": {
         "message": "crwdns5446:0crwdne5446:0"
     },
     "dfu_erased_kilobytes": {
-        "message": "crwdns5447:0crwdne5447:0"
+        "message": "crwdns5447:0$1crwdne5447:0"
     },
     "dfu_device_flash_info": {
-        "message": "crwdns6382:0crwdne6382:0"
+        "message": "crwdns6382:0$1crwdne6382:0"
     },
     "dfu_error_image_size": {
-        "message": "crwdns6383:0crwdne6383:0"
+        "message": "crwdns6383:0$1crwdnd6383:0$2crwdne6383:0"
     },
     "eeprom_saved_ok": {
         "message": "crwdns5450:0crwdne5450:0"
@@ -544,7 +544,7 @@
         "message": "crwdns8712:0crwdne8712:0"
     },
     "initialSetupBackupAndRestoreApiVersion": {
-        "message": "crwdns5476:0crwdne5476:0"
+        "message": "crwdns5476:0$1crwdnd5476:0$2crwdne5476:0"
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "crwdns5477:0crwdne5477:0"
@@ -586,7 +586,7 @@
         "message": "crwdns5489:0crwdne5489:0"
     },
     "initialSetupButtonResetZaxisValue": {
-        "message": "crwdns5490:0crwdne5490:0"
+        "message": "crwdns5490:0$1crwdne5490:0"
     },
     "initialSetupMixerHead": {
         "message": "crwdns5491:0crwdne5491:0"
@@ -640,7 +640,7 @@
         "message": "crwdns5507:0crwdne5507:0"
     },
     "initialSetupBatteryValue": {
-        "message": "crwdns5508:0crwdne5508:0"
+        "message": "crwdns5508:0$1crwdne5508:0"
     },
     "initialSetupDrawn": {
         "message": "crwdns5509:0crwdne5509:0"
@@ -649,16 +649,16 @@
         "message": "crwdns5510:0crwdne5510:0"
     },
     "initialSetupBatteryMahValue": {
-        "message": "crwdns5511:0crwdne5511:0"
+        "message": "crwdns5511:0$1crwdne5511:0"
     },
     "initialSetupBatteryAValue": {
-        "message": "crwdns5512:0crwdne5512:0"
+        "message": "crwdns5512:0$1crwdne5512:0"
     },
     "initialSetupRSSI": {
         "message": "crwdns5513:0crwdne5513:0"
     },
     "initialSetupRSSIValue": {
-        "message": "crwdns5514:0crwdne5514:0"
+        "message": "crwdns5514:0$1crwdne5514:0"
     },
     "initialSetupArmingDisableFlags": {
         "message": "crwdns5515:0crwdne5515:0"
@@ -679,10 +679,10 @@
         "message": "crwdns5520:0crwdne5520:0"
     },
     "initialSetupModel": {
-        "message": "crwdns5521:0crwdne5521:0"
+        "message": "crwdns5521:0$1crwdne5521:0"
     },
     "initialSetupAttitude": {
-        "message": "crwdns5522:0crwdne5522:0"
+        "message": "crwdns5522:0$1crwdne5522:0"
     },
     "initialSetupAccelCalibStarted": {
         "message": "crwdns5523:0crwdne5523:0"
@@ -1162,16 +1162,16 @@
         "message": "crwdns5678:0crwdne5678:0"
     },
     "pidTuningProfileOption": {
-        "message": "crwdns6372:0crwdne6372:0"
+        "message": "crwdns6372:0$1crwdne6372:0"
     },
     "pidTuningRateProfileOption": {
-        "message": "crwdns6373:0crwdne6373:0"
+        "message": "crwdns6373:0$1crwdne6373:0"
     },
     "portsFunction_LIDAR_TF": {
         "message": "crwdns6387:0crwdne6387:0"
     },
     "pidTuningUpgradeFirmwareToChangePidController": {
-        "message": "crwdns5679:0crwdne5679:0"
+        "message": "crwdns5679:0$1crwdnd5679:0$2crwdne5679:0"
     },
     "pidTuningSubTabPid": {
         "message": "crwdns5680:0crwdne5680:0"
@@ -1321,16 +1321,16 @@
         "message": "crwdns5726:0crwdne5726:0"
     },
     "pidTuningReceivedProfile": {
-        "message": "crwdns5727:0crwdne5727:0"
+        "message": "crwdns5727:0$1crwdne5727:0"
     },
     "pidTuningReceivedRateProfile": {
-        "message": "crwdns5728:0crwdne5728:0"
+        "message": "crwdns5728:0$1crwdne5728:0"
     },
     "pidTuningLoadedProfile": {
-        "message": "crwdns5729:0crwdne5729:0"
+        "message": "crwdns5729:0$1crwdne5729:0"
     },
     "pidTuningLoadedRateProfile": {
-        "message": "crwdns5730:0crwdne5730:0"
+        "message": "crwdns5730:0$1crwdne5730:0"
     },
     "pidTuningDataRefreshed": {
         "message": "crwdns5731:0crwdne5731:0"
@@ -1747,13 +1747,13 @@
         "message": "crwdns8704:0crwdne8704:0"
     },
     "motorsVoltageValue": {
-        "message": "crwdns8705:0crwdne8705:0"
+        "message": "crwdns8705:0$1crwdne8705:0"
     },
     "motorsADrawingValue": {
-        "message": "crwdns8706:0crwdne8706:0"
+        "message": "crwdns8706:0$1crwdne8706:0"
     },
     "motorsmAhDrawnValue": {
-        "message": "crwdns8707:0crwdne8707:0"
+        "message": "crwdns8707:0$1crwdne8707:0"
     },
     "motorsText": {
         "message": "crwdns5864:0crwdne5864:0"
@@ -1921,7 +1921,7 @@
         "message": "crwdns5918:0crwdne5918:0"
     },
     "loggingAutomaticallyRetained": {
-        "message": "crwdns5919:0crwdne5919:0"
+        "message": "crwdns5919:0$1crwdne5919:0"
     },
     "blackboxNotSupported": {
         "message": "crwdns5920:0crwdne5920:0"
@@ -2026,7 +2026,7 @@
         "message": "crwdns5953:0crwdne5953:0"
     },
     "sdcardStatusUnknown": {
-        "message": "crwdns5954:0crwdne5954:0"
+        "message": "crwdns5954:0$1crwdne5954:0"
     },
     "firmwareFlasherReleaseSummaryHead": {
         "message": "crwdns5955:0crwdne5955:0"
@@ -2185,7 +2185,7 @@
         "message": "crwdns6006:0crwdne6006:0"
     },
     "firmwareFlasherFirmwareLocalLoaded": {
-        "message": "crwdns6447:0crwdne6447:0"
+        "message": "crwdns6447:0$1crwdne6447:0"
     },
     "firmwareFlasherHexCorrupted": {
         "message": "crwdns6007:0crwdne6007:0"
@@ -2206,10 +2206,10 @@
         "message": "crwdns6012:0crwdne6012:0"
     },
     "firmwareFlasherFlashTrigger": {
-        "message": "crwdns6013:0crwdne6013:0"
+        "message": "crwdns6013:0$1crwdne6013:0"
     },
     "firmwareFlasherPreviousDevice": {
-        "message": "crwdns6014:0crwdne6014:0"
+        "message": "crwdns6014:0$1crwdne6014:0"
     },
     "ledStripHelp": {
         "message": "crwdns6015:0crwdne6015:0"
@@ -2769,10 +2769,10 @@
         "message": "crwdns6145:0crwdne6145:0"
     },
     "powerVoltageValue": {
-        "message": "crwdns6146:0crwdne6146:0"
+        "message": "crwdns6146:0$1crwdne6146:0"
     },
     "powerAmperageValue": {
-        "message": "crwdns6147:0crwdne6147:0"
+        "message": "crwdns6147:0$1crwdne6147:0"
     },
     "powerVoltageId10": {
         "message": "crwdns6148:0crwdne6148:0"
@@ -2904,13 +2904,13 @@
         "message": "crwdns6190:0crwdne6190:0"
     },
     "powerMahValue": {
-        "message": "crwdns6191:0crwdne6191:0"
+        "message": "crwdns6191:0$1crwdne6191:0"
     },
     "powerAmperageScale": {
         "message": "crwdns6192:0crwdne6192:0"
     },
     "powerAmperageOffset": {
-        "message": "crwdns6193:0[mV]crwdne6193:0"
+        "message": "crwdns8721:0[mA]crwdne8721:0"
     },
     "powerBatteryHead": {
         "message": "crwdns6194:0crwdne6194:0"
@@ -2922,7 +2922,7 @@
         "message": "crwdns6196:0crwdne6196:0"
     },
     "powerBatteryConnectedValueYes": {
-        "message": "crwdns6197:0crwdne6197:0"
+        "message": "crwdns6197:0$1crwdne6197:0"
     },
     "powerBatteryConnectedValueNo": {
         "message": "crwdns6198:0crwdne6198:0"
@@ -3003,22 +3003,22 @@
         "message": "crwdns8715:0crwdne8715:0"
     },
     "osdSetupCustomLogoInfoImageSize": {
-        "message": "crwdns8716:0$tcrwdnd8716:0$tcrwdne8716:0"
+        "message": "crwdns8716:0$t(logoWidthPx)crwdnd8716:0$t(logoHeightPx)crwdne8716:0"
     },
     "osdSetupCustomLogoInfoColorMap": {
         "message": "crwdns8717:0crwdne8717:0"
     },
     "osdSetupCustomLogoInfoUploadHint": {
-        "message": "crwdns8718:0$tcrwdne8718:0"
+        "message": "crwdns8718:0$t(osdSetupUploadFont.message)crwdne8718:0"
     },
     "osdSetupCustomLogoImageSizeError": {
-        "message": "crwdns8719:0{{width}}crwdnd8719:0{{height}}crwdnd8719:0$tcrwdnd8719:0$tcrwdne8719:0"
+        "message": "crwdns8719:0{{width}}crwdnd8719:0{{height}}crwdnd8719:0$t(logoWidthPx)crwdnd8719:0$t(logoHeightPx)crwdne8719:0"
     },
     "osdSetupCustomLogoColorMapError": {
         "message": "crwdns8720:0crwdne8720:0"
     },
     "osdSetupReplaceLogoImageSizeError": {
-        "message": "crwdns8699:0crwdne8699:0"
+        "message": "crwdns8699:0$1crwdnd8699:0$2crwdnd8699:0$3crwdnd8699:0$4crwdne8699:0"
     },
     "osdSetupReplaceLogoImageColorsError": {
         "message": "crwdns8700:0crwdne8700:0"
