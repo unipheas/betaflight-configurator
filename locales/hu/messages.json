@@ -1988,9 +1988,6 @@
     "powerAmperageScale": {
         "message": "Skála [1\/10th mV\/A]"
     },
-    "powerAmperageOffset": {
-        "message": "Eltolás [mV]"
-    },
     "powerBatteryHead": {
         "message": "Akkumulátor"
     },
