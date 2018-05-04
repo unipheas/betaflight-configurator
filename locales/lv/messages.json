@@ -2863,9 +2863,6 @@
     "powerAmperageScale": {
         "message": "Mērogs [1\/10th mV\/A]"
     },
-    "powerAmperageOffset": {
-        "message": "Nobīde [mV]"
-    },
     "powerBatteryHead": {
         "message": "Akumulators"
     },
