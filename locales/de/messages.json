@@ -2847,9 +2847,6 @@
     "powerAmperageScale": {
         "message": "Skalierung [1\/10tel mV\/A]"
     },
-    "powerAmperageOffset": {
-        "message": "Versatz [mV]"
-    },
     "powerBatteryHead": {
         "message": "Akku"
     },
