@@ -6,6 +6,9 @@
         "message": "crwdns5313:0crwdne5313:0",
         "description": "Title of the application window, usually not translated"
     },
+    "error": {
+        "message": "crwdns8722:0{{errorMessage}}crwdne8722:0"
+    },
     "warningTitle": {
         "message": "crwdns5314:0crwdne5314:0"
     },
