@@ -1,4 +1,7 @@
 {
+    "error": {
+        "message": "Kļūda: {{errorMessage}}"
+    },
     "warningTitle": {
         "message": "Brīdinājums"
     },
@@ -2862,6 +2865,9 @@
     },
     "powerAmperageScale": {
         "message": "Mērogs [1\/10th mV\/A]"
+    },
+    "powerAmperageOffset": {
+        "message": "Nobīde [mA]"
     },
     "powerBatteryHead": {
         "message": "Akumulators"
