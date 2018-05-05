@@ -1,4 +1,7 @@
 {
+    "error": {
+        "message": "Erreur : {{errorMessage}}"
+    },
     "warningTitle": {
         "message": "Danger"
     },
@@ -2859,6 +2862,9 @@
     },
     "powerAmperageScale": {
         "message": "Echelle [1\/10th mV\/A]"
+    },
+    "powerAmperageOffset": {
+        "message": "Ecart [mA]"
     },
     "powerBatteryHead": {
         "message": "Batterie"
