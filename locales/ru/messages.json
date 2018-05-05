@@ -358,6 +358,9 @@
     "armingEnabled": {
         "message": "<strong>Arming включён<\/strong>"
     },
+    "runawayTakeoffPreventionDisabled": {
+        "message": "<strong>Временное отключение функции Runaway Takeoff Prevention<\/strong>"
+    },
     "runawayTakeoffPreventionEnabled": {
         "message": "<strong>Функция Runaway Takeoff Prevention включена<\/strong>"
     },
@@ -1489,6 +1492,12 @@
     "servosMax": {
         "message": "МАКС"
     },
+    "servosAngleAtMin": {
+        "message": "Угол на Мин"
+    },
+    "servosAngleAtMax": {
+        "message": "Угол на Макс"
+    },
     "servosDirectionAndRate": {
         "message": "Направление и Rate"
     },
@@ -1543,6 +1552,15 @@
     "motorsADrawing": {
         "message": "Сила тока:"
     },
+    "motorsVoltageValue": {
+        "message": "$1 V"
+    },
+    "motorsADrawingValue": {
+        "message": "$1 A"
+    },
+    "motorsmAhDrawnValue": {
+        "message": "$1 mAh"
+    },
     "motorsText": {
         "message": "Моторы"
     },
@@ -1573,6 +1591,30 @@
     "servosText": {
         "message": "Сервоприводы"
     },
+    "servoNumber1": {
+        "message": "Серво - 1"
+    },
+    "servoNumber2": {
+        "message": "Серво - 2"
+    },
+    "servoNumber3": {
+        "message": "Серво - 3"
+    },
+    "servoNumber4": {
+        "message": "Серво - 4"
+    },
+    "servoNumber5": {
+        "message": "Серво - 5"
+    },
+    "servoNumber6": {
+        "message": "Серво - 6"
+    },
+    "servoNumber7": {
+        "message": "Серво - 7"
+    },
+    "servoNumber8": {
+        "message": "Серво - 8"
+    },
     "motorsResetMaximumButton": {
         "message": "Сброс"
     },
@@ -1582,8 +1624,14 @@
     "motorsSensorAccelSelect": {
         "message": "аксел"
     },
+    "motorsMaster": {
+        "message": "Мастер"
+    },
     "sensorsRefresh": {
         "message": "Обновить:"
+    },
+    "sensorsScale": {
+        "message": "Шкала:"
     },
     "sensorsGyroSelect": {
         "message": "Гироскоп"
@@ -1621,11 +1669,20 @@
     "sensorsDebugTitle": {
         "message": "Отладка"
     },
+    "cliEnter": {
+        "message": "Обнаружен переход в режим командной строки"
+    },
     "cliSaveToFileBtn": {
         "message": "Сохранить в файл"
     },
     "loggingLogSize": {
         "message": "Размер журнала:"
+    },
+    "loggingStart": {
+        "message": "Начать запись"
+    },
+    "loggingStop": {
+        "message": "Остановить запись"
     },
     "blackboxButtonSave": {
         "message": "Сохранить и Перезагрузить"
@@ -1639,6 +1696,9 @@
     "dataflashFreeSpace": {
         "message": "Свободное место"
     },
+    "dataflashButtonErase": {
+        "message": "Стереть флэш"
+    },
     "dataflashButtonSaveCancel": {
         "message": "Отмена"
     },
@@ -1650,6 +1710,9 @@
     },
     "sdcardStatusNoCard": {
         "message": "Карта не вставлена"
+    },
+    "sdcardStatusUnknown": {
+        "message": "Неизвестное состояние $1"
     },
     "firmwareFlasherReleaseName": {
         "message": "Название\/Версия:"
@@ -1750,6 +1813,9 @@
     "firmwareFlasherButtonDownloading": {
         "message": "Загружаеться..."
     },
+    "firmwareFlasherFlashFirmware": {
+        "message": "Загрузить прошивку"
+    },
     "firmwareFlasherDate": {
         "message": "Дата:"
     },
@@ -1778,6 +1844,10 @@
         "message": "Осталось",
         "description": "In the LED STRIP, text next the counter of leds remaining"
     },
+    "ledStripClearSelectedButton": {
+        "message": "Очистить выбранное",
+        "description": "In the LED STRIP, clear selected leds"
+    },
     "ledStripClearAllButton": {
         "message": "Очистить ВСЕ",
         "description": "In the LED STRIP, clear all leds"
@@ -1804,8 +1874,16 @@
         "message": "Батарея",
         "description": "One of the modes of the Led Strip"
     },
+    "ledStripFunctionRSSIOption": {
+        "message": "RSSI",
+        "description": "One of the modes of the Led Strip"
+    },
     "ledStripFunctionGPSOption": {
         "message": "GPS",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionRingOption": {
+        "message": "Звонок",
         "description": "One of the modes of the Led Strip"
     },
     "ledStripColorModifierTitle": {
@@ -1824,6 +1902,10 @@
     },
     "ledStripModeColorsModeAngle": {
         "message": "Угол",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeMag": {
+        "message": "Маг",
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripModeColorsModeBaro": {
@@ -1857,6 +1939,9 @@
     "ledStripWiringClearControl": {
         "message": "Очистить выбранное",
         "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripBlinkTitle": {
+        "message": "Мигать"
     },
     "ledStripWarningsOverlay": {
         "message": "Предупреждения"
@@ -1902,6 +1987,18 @@
     },
     "colorDeepPink": {
         "message": "темно-розовый"
+    },
+    "controlAxisRoll": {
+        "message": "Roll [A]"
+    },
+    "controlAxisPitch": {
+        "message": "Pitch [E]"
+    },
+    "controlAxisYaw": {
+        "message": "Yaw [R]"
+    },
+    "controlAxisThrottle": {
+        "message": "Throttle [T]"
     },
     "controlAxisAux1": {
         "message": "AUX 1"
@@ -1981,11 +2078,23 @@
     "pidTuningVbatPidCompensationHelp": {
         "message": "Увеличивает значения PID-ов, в целях компенсации, при низком заряде батареи. Это даёт более стабильные лётные характеристики на протяжении всего полёта. Значение компенсации вычисляется исходя из максимального напряжения на элементе батареи, установленного во вкладке \"Питание и Батарея\"."
     },
+    "failsafePulsrangeTitle": {
+        "message": "Настройка допустимого диапазона длительности импульсов"
+    },
+    "failsafePulsrangeHelp": {
+        "message": "Импульсы, которые короче минимально и длиннее максимально допустимого значения, считаются ошибочными. При наличии ошибочных импульсов значения каналов установятся в значения, указанные в блоке \"Значения каналов в режиме Falesafe\" (на протяжении сценария 1)"
+    },
     "failsafeRxMinUsecItem": {
-        "message": "Минимальная длина"
+        "message": "Минимальная длительность"
     },
     "failsafeRxMaxUsecItem": {
-        "message": "Максимальная длина"
+        "message": "Максимальная длительность"
+    },
+    "failsafeChannelFallbackSettingsTitle": {
+        "message": "Значения каналов в режиме Falesafe"
+    },
+    "failsafeChannelFallbackSettingsHelp": {
+        "message": "Эти настройки применятся во время сценария 1. <strong>Примечание:\n <\/strong> значения сохраняются шагами в 25 мкс, поэтому небольшие изменения исчезают"
     },
     "powerButtonSave": {
         "message": "Сохранить"
@@ -2017,6 +2126,9 @@
     "powerBatteryCurrentMeterTypeEsc": {
         "message": "ESC-датчик"
     },
+    "powerBatteryCurrentMeterTypeMsp": {
+        "message": "Датчик по MSP-порту \/ OSD Slave"
+    },
     "powerBatteryMinimum": {
         "message": "Минимальное напряжение на банку"
     },
@@ -2047,6 +2159,9 @@
     "powerVoltageId40": {
         "message": "12V"
     },
+    "powerVoltageId50": {
+        "message": "ESC (комбинированно)"
+    },
     "powerVoltageId60": {
         "message": "ESC от мотора 1"
     },
@@ -2064,6 +2179,9 @@
     },
     "powerAmperageId10": {
         "message": "Батарея"
+    },
+    "powerAmperageId50": {
+        "message": "ESC (комбинированно)"
     },
     "powerAmperageId60": {
         "message": "ESC от мотора 1"
@@ -2229,6 +2347,9 @@
     },
     "pidTuningRateProfile": {
         "message": "Rate-профиль"
+    },
+    "pidTuningRateProfileTip": {
+        "message": "Максимум 3 Rate-профиля могут храниться в памяти полётного контроллера. Rate-профили хранят в себе параметры: \"RC Rate\", \"Rate\", \"RC Expo\", \"Настройки экспоненты газа\" и \"TPA\". Переключаться между профилями можно \"в полёте\" с использованием трёх-позиционного переключателя, который привязан к параметру \"Rate Profile Selection\" во вкладке \"Корректирование в полёте\"."
     },
     "pidTuningDeltaError": {
         "message": "Ошибка"
