@@ -161,7 +161,7 @@
         "message": "Servos"
     },
     "tabFailsafe": {
-        "message": "Falhas"
+        "message": "Failsafe"
     },
     "tabTransponder": {
         "message": "Transponder de corridas"
@@ -774,16 +774,16 @@
         "message": "Filtragem Notch dinâmica do giroscópio"
     },
     "featureFAILSAFE": {
-        "message": "Ativar estágio 2 da segurança contra falhas"
+        "message": "Ativar estágio 2 do Failsafe"
     },
     "featureFAILSAFEOld": {
-        "message": "Ativar segurança contra falhas"
+        "message": "Ativar Failsafe"
     },
     "featureFAILSAFETip": {
         "message": "<strong>Nota:<\/strong> quando o estágio 2 estiver DESATIVADO, a opção <strong>Automática<\/strong> é usada em vez das configurações do usuário para todos os canais de voo (Roll, Pitch, Yaw e Throttle)."
     },
     "featureFAILSAFEOldTip": {
-        "message": "Aplicar configurações de segurança contra falhas na perda do sinal RX"
+        "message": "Aplicar configurações do Failsafe na perda do sinal RX"
     },
     "configurationFeatureEnabled": {
         "message": "Ativado"
@@ -1293,7 +1293,7 @@
         "message": "EEPROM <span class=\"message-positive\">salvo<\/span>"
     },
     "receiverHelp": {
-        "message": "Por favor leia o capitulo da documentação sobre receptores. Configure a porta serial (se necessário), modo do receptor (serial\/ppm\/pwm), provedor (para receptores serial), vincule o receptor, especifique o mapa de canais, configure os limites\/faixas no TX de forma que todos os canais vão de ~1000 a ~2000. Defina o ponto médio (1500 por padrão), canais de ajuste (trim) em 1500, configure a zona morta do stick, verifique o comportamento quando o TX estiver desligado ou fora de alcance.<br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Antes de voar, leia o capitulo da documentação sobre segurança contra falhas (failsafe) e configure-a."
+        "message": "Por favor leia o capitulo da documentação sobre receptores. Configure a porta serial (se necessário), modo do receptor (serial\/ppm\/pwm), provedor (para receptores serial), vincule o receptor, especifique o mapa de canais, configure os limites\/faixas no TX de forma que todos os canais vão de ~1000 a ~2000. Defina o ponto médio (1500 por padrão), canais de ajuste (trim) em 1500, configure a zona morta do stick, verifique o comportamento quando o TX estiver desligado ou fora de alcance.<br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Antes de voar, leia a documentação e configure o Failsafe."
     },
     "tuningHelp": {
         "message": "<b>Dicas de otimização<\/b><br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Sempre verifique a temperatura dos motores durante os primeiros voos. Quanto maior o valor do filtro, melhor pode ser o voo, porém, mais ruído chegará aos motores. <br>O Valor padrão de 100Hz é ótimo, mas para veículos com mais ruídos, você pode tentar diminuir o filtro do termo D para 50Hz e possivelmente também o filtro do giroscópio."
@@ -2603,10 +2603,10 @@
         "message": "Rotação da placa em graus, permite que a placa seja montada de lado, de ponta-cabeça, rotacionada, etc. Quando estiver utilizando sensores externos, use o alinhamento dos sensores (Giro, Acc, Mag) para definir a posição do sensor independente da orientação da placa. "
     },
     "failsafeFeaturesHelpOld": {
-        "message": "As configurações de segurança contra falhas mudaram consideravelmente. Use o Betaflight <strong>v1.12.0+<\/strong> para ativar o painel de configuração aprimorado."
+        "message": "As configurações do Failsafe mudaram consideravelmente. Use o Betaflight <strong>v1.12.0+<\/strong> para ativar o painel de configuração aprimorado."
     },
     "failsafePaneTitleOld": {
-        "message": "Segurança contra falhas do receptor"
+        "message": "Failsafe do receptor"
     },
     "failsafeFeaturesHelpNew": {
         "message": "A segurança contra falhas tem dois estágios. O <strong>Estágio 1<\/strong> é iniciado quando o canal recebe um sinal inválido, quando o receptor solicita o modo ou quando não há nenhum sinal do receptor. As configurações de segurança do canal são aplicadas em <span class=\"message-negative\">todos canais<\/span> e um breve período de tempo é providenciado para que seja possível recuperar. O <strong>Estágio 2<\/strong> é iniciado quando a condição de falha acorre durante mais tempo do que o tempo de espera definido e enquanto a aeronave estiver <span class=\"message-negative\">armada<\/span>, todos os canais permanecerão nas configurações de segurança definidas a menos que sejam sobrepostos por algum procedimento. <br \/><strong>Nota:<\/strong> Antes de iniciar o estágio 1, as configurações de segurança também são aplicadas a todos canais AUX que também estão com sinais inválidos."
