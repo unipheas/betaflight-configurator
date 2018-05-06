@@ -1221,7 +1221,7 @@
         "message": "TPA"
     },
     "pidTuningTPABreakPoint": {
-        "message": "Punto de rotura del TPA"
+        "message": "Punto de corte del TPA"
     },
     "pidTuningFilter": {
         "message": "Filtro"
