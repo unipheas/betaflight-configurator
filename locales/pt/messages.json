@@ -1,4 +1,7 @@
 {
+    "error": {
+        "message": "Erro: {{errorMessage}}"
+    },
     "warningTitle": {
         "message": "Alerta"
     },
@@ -2609,7 +2612,7 @@
         "message": "Failsafe do receptor"
     },
     "failsafeFeaturesHelpNew": {
-        "message": "A segurança contra falhas tem dois estágios. O <strong>Estágio 1<\/strong> é iniciado quando o canal recebe um sinal inválido, quando o receptor solicita o modo ou quando não há nenhum sinal do receptor. As configurações de segurança do canal são aplicadas em <span class=\"message-negative\">todos canais<\/span> e um breve período de tempo é providenciado para que seja possível recuperar. O <strong>Estágio 2<\/strong> é iniciado quando a condição de falha acorre durante mais tempo do que o tempo de espera definido e enquanto a aeronave estiver <span class=\"message-negative\">armada<\/span>, todos os canais permanecerão nas configurações de segurança definidas a menos que sejam sobrepostos por algum procedimento. <br \/><strong>Nota:<\/strong> Antes de iniciar o estágio 1, as configurações de segurança também são aplicadas a todos canais AUX que também estão com sinais inválidos."
+        "message": "O Failsafe tem dois estágios. O <strong>Estágio 1<\/strong> é iniciado quando o canal recebe um sinal inválido, quando o receptor solicita o modo ou quando não há nenhum sinal do receptor. As configurações de segurança do canal são aplicadas em <span class=\"message-negative\">todos canais<\/span> e um breve período de tempo é providenciado para que seja possível se recuperar. O <strong>Estágio 2<\/strong> é iniciado quando a condição de falha ocorre durante mais tempo do que o tempo de espera definido e enquanto a aeronave estiver <span class=\"message-negative\">armada<\/span>: Todos os canais permanecerão nas configurações de segurança definidas a menos que sejam sobrepostos por algum procedimento. <br \/><strong>Nota:<\/strong> Antes de iniciar o estágio 1, as configurações de segurança também são aplicadas a todos canais AUX que também estão com sinais inválidos."
     },
     "failsafePulsrangeTitle": {
         "message": "Configuração de faixa de pulsos válidos"
@@ -2645,22 +2648,22 @@
         "message": "Tempo para recuperação no estágio 1"
     },
     "failsafeThrottleLowItem": {
-        "message": "Delay para o Throttle baixo [1 = 0.1 sec.]"
+        "message": "Delay do Failsafe para o Throttle baixo [1 = 0.1 sec.]"
     },
     "failsafeThrottleLowHelp": {
-        "message": "Apenas desarme a aeronave ao invés de executar o procedimento de segurança contra falhas se o throttle estava baixo por este determinado período de tempo"
+        "message": "Apenas desarme a aeronave ao invés de executar o Failsafe se o throttle estiver baixo por este determinado período de tempo"
     },
     "failsafeThrottleItem": {
         "message": "Valor do Throttle utilizado para aterrissar"
     },
     "failsafeOffDelayItem": {
-        "message": "Delay para desligar os motores em caso de falha [1 = 0.1 sec.]"
+        "message": "Delay para desligar os motores durante o Failsafe [1 = 0.1 sec.]"
     },
     "failsafeOffDelayHelp": {
         "message": "Tempo para ficar no modo de aterrissagem até que os motores sejam desligados e a aeronave desarmada"
     },
     "failsafeSubTitle1": {
-        "message": "Estágio 2 - Procedimentos"
+        "message": "Estágio 2 - Procedimento do Failsafe"
     },
     "failsafeProcedureItemSelect1": {
         "message": "Aterrissar"
@@ -2669,10 +2672,10 @@
         "message": "Cair"
     },
     "failsafeKillSwitchItem": {
-        "message": "\"Kill Switch\" da prevenção contra acidentes (configure na aba Modos)"
+        "message": "\"Kill Switch\" do Failsafe (configure o Failsafe na aba Modos)"
     },
     "failsafeKillSwitchHelp": {
-        "message": "Ative esta opção para alterar o modo da segurança contra falhas (aba Modos) isso funciona como um kill switch, parando o procedimento em execução. <strong>Nota:<\/strong> Não é possível Armar enquanto o kill switch estiver na posição LIGADO"
+        "message": "Ative esta opção para fazer com que o switch do Failsafe (aba Modos) desligue a aeronave, sobrepondo o procedimento do Failsafe. <strong>Nota:<\/strong> Não é possível Armar enquanto o switch estiver na posição LIGADO"
     },
     "powerButtonSave": {
         "message": "Salvar"
@@ -2862,6 +2865,9 @@
     },
     "powerAmperageScale": {
         "message": "Escala [1\/10th mV\/A]"
+    },
+    "powerAmperageOffset": {
+        "message": "Offset [mA]"
     },
     "powerBatteryHead": {
         "message": "Bateria"
