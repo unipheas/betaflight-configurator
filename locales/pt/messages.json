@@ -564,7 +564,7 @@
         "message": "Máximo:"
     },
     "initialSetupFailsafe": {
-        "message": "Segurança contra falhas:"
+        "message": "Failsafe:"
     },
     "initialSetupMinCommand": {
         "message": "Comando mínimo:"
@@ -3269,7 +3269,7 @@
         "message": "Armar Motor"
     },
     "mainHelpFailsafe": {
-        "message": "Modo de segurança contra falhas"
+        "message": "Modo Failsafe"
     },
     "mainHelpLink": {
         "message": "Status do Link Serial"
