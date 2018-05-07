@@ -1,4 +1,7 @@
 {
+    "error": {
+        "message": "Errore: {{errorMessage}}"
+    },
     "warningTitle": {
         "message": "Attenzione"
     },
@@ -2862,6 +2865,9 @@
     },
     "powerAmperageScale": {
         "message": "Scala [1 \/ 10 mV \/ A]"
+    },
+    "powerAmperageOffset": {
+        "message": "Offset [mA]"
     },
     "powerBatteryHead": {
         "message": "Batteria"
