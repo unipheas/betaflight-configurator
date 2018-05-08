@@ -1,4 +1,7 @@
 {
+    "error": {
+        "message": "오류: {{errorMessage}}"
+    },
     "warningTitle": {
         "message": "경고"
     },
@@ -2862,6 +2865,9 @@
     },
     "powerAmperageScale": {
         "message": "스케일 [1\/10th mV\/A]"
+    },
+    "powerAmperageOffset": {
+        "message": "오프셋 [mA]"
     },
     "powerBatteryHead": {
         "message": "배터리"
