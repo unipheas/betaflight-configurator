@@ -3311,6 +3311,9 @@
     "osdWritePermissions": {
         "message": "crwdns6313:0crwdne6313:0"
     },
+    "osdButtonSaved": {
+        "message": "crwdns8723:0crwdne8723:0"
+    },
     "mainHelpArmed": {
         "message": "crwdns6314:0crwdne6314:0"
     },
