@@ -606,7 +606,7 @@
         "message": "$1 V"
     },
     "initialSetupDrawn": {
-        "message": "mah consommé:"
+        "message": "Mah consommés:"
     },
     "initialSetupDrawing": {
         "message": "Courant consommé:"
@@ -3261,6 +3261,9 @@
     },
     "osdWritePermissions": {
         "message": "Vous n'avez pas  <span class=\"message-negative\">les droits d'écriture<\/span> pour ce fichier"
+    },
+    "osdButtonSaved": {
+        "message": "Enregistré"
     },
     "mainHelpArmed": {
         "message": "Moteur armé"
