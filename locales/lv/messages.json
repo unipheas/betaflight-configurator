@@ -3265,6 +3265,9 @@
     "osdWritePermissions": {
         "message": "Jums nav <span class=\"message-negative\">rakstīšanas atļauju<\/span> šim failam"
     },
+    "osdButtonSaved": {
+        "message": "Saglabāts"
+    },
     "mainHelpArmed": {
         "message": "Motoru aktivizēšana"
     },
