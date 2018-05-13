@@ -2096,6 +2096,15 @@
     "failsafeChannelFallbackSettingsHelp": {
         "message": "Эти настройки применятся во время сценария 1. <strong>Примечание:\n <\/strong> значения сохраняются шагами в 25 мкс, поэтому небольшие изменения исчезают"
     },
+    "failsafeChannelFallbackSettingsAuto": {
+        "message": "<strong>Auto<\/strong> значит, что Roll, Pitch и Yaw будут находиться в центре, а газ будет иметь низкое значение.<strong>Hold<\/strong> означает оставить последнее принятое значение"
+    },
+    "failsafeChannelFallbackSettingsHold": {
+        "message": "<strong>Hold<\/strong> означает оставить последнее значение принятого сигнала.<strong>Set<\/strong> означает использовать указанное здесь значение"
+    },
+    "failsafeStageTwoSettingsTitle": {
+        "message": "Этап 2 - Настройки"
+    },
     "powerButtonSave": {
         "message": "Сохранить"
     },
