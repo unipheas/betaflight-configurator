@@ -3265,6 +3265,9 @@
     "osdWritePermissions": {
         "message": "Non hai <span class=\"message-negative\">permessi di scrittura<\/span> per questo file"
     },
+    "osdButtonSaved": {
+        "message": "Salvato!"
+    },
     "mainHelpArmed": {
         "message": "Armamento Motori"
     },
