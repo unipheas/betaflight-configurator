@@ -1,4 +1,7 @@
 {
+    "error": {
+        "message": "错误: {{errorMessage}}"
+    },
     "warningTitle": {
         "message": "警告"
     },
@@ -2863,6 +2866,9 @@
     "powerAmperageScale": {
         "message": "比例 [1\/10 mV\/A]"
     },
+    "powerAmperageOffset": {
+        "message": "偏移量 [mA]"
+    },
     "powerBatteryHead": {
         "message": "电池"
     },
@@ -3258,6 +3264,9 @@
     },
     "osdWritePermissions": {
         "message": "该文件没有 <span class=\"message-negative\">写权限<\/span>"
+    },
+    "osdButtonSaved": {
+        "message": "已保存"
     },
     "mainHelpArmed": {
         "message": "电机解锁"
