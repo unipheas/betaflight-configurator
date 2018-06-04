@@ -2646,7 +2646,7 @@
         "message": "crwdns6103:0crwdne6103:0"
     },
     "pidTuningVbatPidCompensationHelp": {
-        "message": "crwdns6104:0crwdne6104:0"
+        "message": "crwdns8724:0$t(powerBatteryMaximum.message)crwdnd8724:0$t(tabPower.message)crwdne8724:0"
     },
     "configHelp2": {
         "message": "crwdns6105:0crwdne6105:0"
@@ -2722,6 +2722,15 @@
     },
     "failsafeKillSwitchHelp": {
         "message": "crwdns6129:0crwdne6129:0"
+    },
+    "failsafeSwitchTitle": {
+        "message": "crwdns8725:0crwdne8725:0"
+    },
+    "failsafeSwitchModeItem": {
+        "message": "crwdns8726:0crwdne8726:0"
+    },
+    "failsafeSwitchModeHelp": {
+        "message": "crwdns8727:0crwdne8727:0"
     },
     "powerButtonSave": {
         "message": "crwdns6130:0crwdne6130:0"
