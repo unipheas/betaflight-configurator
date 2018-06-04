@@ -996,7 +996,7 @@
         "message": "循环\/秒[Hz]"
     },
     "configurationLoopTimeHelp": {
-        "message": "<strong>注意：<\/strong>确定你的飞控有能力运行在这些速度上！检查CPU的循环时间稳定性。改变速度可能需要重新调校PID。提示：关闭加速度计和其他传感器可以节省运算资源以获得更高性能。"
+        "message": "<strong>注意：<\/strong>确保你的飞控有能力运行在这些频率上！检查CPU循环时间是否稳定。改变频率可能需要重新调校PID。提示：关闭加速度计和其他传感器可以节省运算资源以获得更高性能。"
     },
     "configurationGPS": {
         "message": "GPS"
@@ -2598,9 +2598,6 @@
     },
     "pidTuningVbatPidCompensation": {
         "message": "电池电压PID 补偿"
-    },
-    "pidTuningVbatPidCompensationHelp": {
-        "message": "当电池电压变低时， 飞控自动增加PID数值来补偿动力的损失。这会在整个飞行过程中提供一个更一致的飞行特性。该补偿数值通过在设置页面“最高单芯电压” 计算而得，所以请确保正确设置了该数值。"
     },
     "configHelp2": {
         "message": "任意角度（直立，反转，旋转等）安装飞控板。当使用外部传感器时，请使用传感器校正设置(陀螺，加速度计，磁场计)来决定独立于飞控板的传感器位置。"
