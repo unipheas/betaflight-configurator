@@ -2596,9 +2596,6 @@
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID Compensation"
     },
-    "pidTuningVbatPidCompensationHelp": {
-        "message": "Augmente les PID quand la batterie se vide. Ca procure plus de linéarité dans le vol. La compensation est calculée à partir de la valeur 'Tension maximum des éléments Lipo' renseigné dans la page configuration."
-    },
     "configHelp2": {
         "message": "Rotation arbitraire de la carte en degrés permettant un montage latéral \/ à l'envers \/ de côté etc. Si des capteurs externes sont utilisés, servez vous du sensor alignments (Gyro, Acc, Mag) pour définir leur position indépendamment  de l'orientation de la carte. "
     },
