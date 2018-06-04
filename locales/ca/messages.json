@@ -2568,9 +2568,6 @@
     "pidTuningVbatPidCompensation": {
         "message": "Compensació d'Vbat per als PIDs"
     },
-    "pidTuningVbatPidCompensationHelp": {
-        "message": "Incrementa el valors de PIDs per compensar la caiguda del voltatge de bateria. Aquest donarà característiques de vol constants durant el vol. La quantitat de compensació que s'aplica es calcula per el valor de voltatge màxim de ceŀla definit a la pestanya de configuració, assegura't que és correcte."
-    },
     "configHelp2": {
         "message": "Rotació arbitrària de la controladora en graus, això ajuda a muntar-la de costat \/ al revès \/ etc. Quan fagis servirs sensors externs utilitza l'alineat (Gyro, Acc, Mag) per definir la posició del sensor independent de la controladora."
     },
