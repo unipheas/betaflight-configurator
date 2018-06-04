@@ -2599,9 +2599,6 @@
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID kompensācija"
     },
-    "pidTuningVbatPidCompensationHelp": {
-        "message": "Palielina PID vērtības lai kompensētu akumulatorā sprieguma kritumu. Tas sniegs daudz konstantākus lidojumu parametrus visā lidojuma laikā. Pielietotās kompensēšanas lielums ir aprēķināts no šūnas maksimālā sprieguma, kas uzstādīts konfigurācijas cilnē, tāpēc pārliecinieties ka šī vērtība ir atbilstoša."
-    },
     "configHelp2": {
         "message": "Patvaļīga plates pagriešana grādos, lai atļautu uzstādīt to sāniski \/ augšpēdus \/ pagrieztu utt. Kad darbojas ar ārējo sensoru, izmantojiet sensora pielāgošanu (Žiro, Aksel, Mag), lai definētu sensora pozīciju neatkarīgi no plates orientācijas. "
     },
