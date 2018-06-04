@@ -2580,9 +2580,6 @@
     "pidTuningVbatPidCompensation": {
         "message": "PID Anpassung aufgrund Akkusspannung"
     },
-    "pidTuningVbatPidCompensationHelp": {
-        "message": "Erhört die PID Werte sobald die Batterie schwächer wird. Das sorgt dafür, dass das Fluggefühl gleich bleibt während der Akku leerer wird. Die Stärke der Kompensation wird durch die Einstellung der maximalen Zellen Spannung errechnet. Stelle sicher das in den Energie Einstellungen passende Werte sind."
-    },
     "configHelp2": {
         "message": "Abweichender Winkel (Grad) in dem das Board anders eingebaut wurde als vorgesehen (über Kopf, gedreht, usw.) Falls externe Sensoren (Gyro, Acc, Mag) verwendet werden, bitte diese ebenfalls neu anlernen."
     },
