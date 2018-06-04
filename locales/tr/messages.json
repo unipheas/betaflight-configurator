@@ -1674,9 +1674,6 @@
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID dengelemesi"
     },
-    "pidTuningVbatPidCompensationHelp": {
-        "message": "Vbat azaldığında dengelemek için PID değerlerini artırın. Bu uçuş boyunda daha sabit uçuş karakteristiği verecektir. Uygulanan dengeleme miktarı Yapılandırma sayfasındaki Maksimum Hücre Gerilimi nden hesaplanır, bu yüzden uygun bir şeye ayarlandığından emin olun."
-    },
     "configHelp2": {
         "message": "İsteğe bağlı pano dönüşü dereceleri, yanlamasına\/ alt üst \/ döndürülerek vb takılmasına izin verilir. Harici sensörler çalıştığında sensör konumunu pano yönünden bağımsız olarak tanımlamak için sensör hizalamalarını (Jiroskop, hızlanma, büyüklük) kullanın. "
     },
