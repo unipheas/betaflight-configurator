@@ -2599,6 +2599,9 @@
     "pidTuningVbatPidCompensation": {
         "message": "Compensação da Voltagem da bateria (Vbat) no PID"
     },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Aumenta os valores do PID para compensar quando a voltagem da bateria (Vbat) diminui. Isso resulta em características mais constantes durante o voo. A quantidade de compensação aplicada é calculada a partir da $t(powerBatteryMaximum.message) indicada na aba $t(tabPower.message), então tenha certeza de que a configurou corretamente."
+    },
     "configHelp2": {
         "message": "Rotação da placa em graus, permite que a placa seja montada de lado, de ponta-cabeça, rotacionada, etc. Quando estiver utilizando sensores externos, use o alinhamento dos sensores (Giro, Acc, Mag) para definir a posição do sensor independente da orientação da placa. "
     },
@@ -2673,6 +2676,15 @@
     },
     "failsafeKillSwitchHelp": {
         "message": "Ative esta opção para fazer com que o switch do Failsafe (aba Modos) desligue a aeronave, sobrepondo o procedimento do Failsafe. <strong>Nota:<\/strong> Não é possível Armar enquanto o switch estiver na posição LIGADO"
+    },
+    "failsafeSwitchTitle": {
+        "message": "Switch do Failsafe"
+    },
+    "failsafeSwitchModeItem": {
+        "message": "Ação do switch do Failsafe"
+    },
+    "failsafeSwitchModeHelp": {
+        "message": "Esta opção determina o que acontece quando o Failsafe é ativado por um switch AUX:<br\/><strong>Estágio 1<\/strong> Ativa o estágio 1 do failsafe. Isto é util se você deseja simular o comportamento exato da perda de sinal.<br\/><strong>Estágio 2<\/strong> pula o 1º estágio e ativa o 2º procedimento imediatamente.<br\/><strong>Kill<\/strong> desarma instantaneamente (sua aeronave irá cair)"
     },
     "powerButtonSave": {
         "message": "Salvar"
