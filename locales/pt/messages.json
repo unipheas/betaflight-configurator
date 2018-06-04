@@ -2599,9 +2599,6 @@
     "pidTuningVbatPidCompensation": {
         "message": "Compensação da Voltagem da bateria (Vbat) no PID"
     },
-    "pidTuningVbatPidCompensationHelp": {
-        "message": "Aumenta os valores do PID para compensar quando a voltagem da bateria diminui. Isso resulta em características mais constantes durante o voo. A quantidade de compensação aplicada é calculada a partir da Voltagem Máxima da Célula indicada na aba Energia & Bateria, então tenha certeza de que foi configurado adequadamente."
-    },
     "configHelp2": {
         "message": "Rotação da placa em graus, permite que a placa seja montada de lado, de ponta-cabeça, rotacionada, etc. Quando estiver utilizando sensores externos, use o alinhamento dos sensores (Giro, Acc, Mag) para definir a posição do sensor independente da orientação da placa. "
     },
