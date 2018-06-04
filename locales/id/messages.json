@@ -2520,9 +2520,6 @@
     "pidTuningVbatPidCompensation": {
         "message": "Kompensasi Vbat PID"
     },
-    "pidTuningVbatPidCompensationHelp": {
-        "message": "Menambahkan nilai PID saat Vbat semakin rendah untuk memberi kompensasi. Hal ini akan memberikan karakteristik penerbangan yang lebih konstan sepanjang penerbangan. Jumlah kompensasi yang diterapkan dihitung dari Makcimum Tegangan Sel yang ada di halaman pengaturan Konfigurasi, jadi pastikan itu diatur ke sesuatu yang sesuai."
-    },
     "configHelp2": {
         "message": "Rotasi papan sewenang-wenang dalam derajat, untuk memungkinkan pemasangannya miring \/ terbalik \/ diputar dll. Saat menjalankan sensor eksternal, gunakan pelurusan sensor (Gyro, Acc, Mag) untuk menentukan posisi sensor yang terlepas dari orientasi board. "
     },
