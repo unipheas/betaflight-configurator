@@ -2599,9 +2599,6 @@
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID 보상"
     },
-    "pidTuningVbatPidCompensationHelp": {
-        "message": "Vbat이 낮아질 때 이를 보충하기 위해 PID 값을 증가시킵니다. 이것은 비행 내내 보다 일정한 비행 특성을 줄 것입니다. 적용되는 보정량은 환경설정 페이지에서 설정된 최대 셀 전압에서 계산되므로 적절한 값으로 설정되어 있는지 확인하십시오."
-    },
     "configHelp2": {
         "message": "옆면 \/ 아래로 \/ 회전 등으로 장착 할 수 있는 임의의 보드 회전 각도(°). 외부 센서를 작동할 때 센서 정렬(자이로, 가속도계, 자력계)을 사용하여 보드 방향과 상관없이 센서 위치를 정의합니다."
     },
@@ -3264,6 +3261,9 @@
     },
     "osdWritePermissions": {
         "message": "이 파일에는 <span class=\"message-negative\">쓰기 권한<\/span>이 없습니다."
+    },
+    "osdButtonSaved": {
+        "message": "저장됨"
     },
     "mainHelpArmed": {
         "message": "모터 아밍"
