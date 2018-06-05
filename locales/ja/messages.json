@@ -2599,6 +2599,9 @@
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID補正"
     },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Vbatが低下したとき、それを補正するためPID値を増加させます。 これにより、飛行中にさらに一定の飛行特性を与えられます。 適用される補正量は、 $t(tabPower.message) ページで設定された $t(powerBatteryMaximum.message) から計算されるため、適切な値に設定されていることを確認してください。"
+    },
     "configHelp2": {
         "message": "横向き \/ 下向き \/ 任意な回転による取付けが可能なFCボードの回転角度です。外部センサーを使用する場合は、センサーのアライメント (Gyro、Accel、コンパス) を使用して、ボードの向きから独立したセンサー位置を定義します。 "
     },
@@ -2673,6 +2676,12 @@
     },
     "failsafeKillSwitchHelp": {
         "message": "このオプションを設定すると、フェイルセーフスイッチ ( [モード] タブ内) で選択されたフェイルセーフの手順をバイパスしてダイレクトにキルスイッチとして機能します。 <strong>注:<\/strong> フェイルセーフ キルスイッチがオン状態では、アーミングはブロックされます。"
+    },
+    "failsafeSwitchTitle": {
+        "message": "フェイルセーフ スイッチ"
+    },
+    "failsafeSwitchModeItem": {
+        "message": "フェイルセーフ スイッチ動作"
     },
     "powerButtonSave": {
         "message": "保存"
