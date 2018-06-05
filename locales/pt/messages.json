@@ -1179,7 +1179,7 @@
         "message": "Intervalo de Interpolação RC [ms]"
     },
     "pidTuningDtermSetpointTransition": {
-        "message": "Ponto de transição D"
+        "message": "Transição do ponto D"
     },
     "pidTuningDtermSetpoint": {
         "message": "Peso do ponto D"
