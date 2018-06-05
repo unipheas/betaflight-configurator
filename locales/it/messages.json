@@ -2602,6 +2602,9 @@
     "pidTuningVbatPidCompensation": {
         "message": "Compensazione PID Vbat"
     },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Aumenta i valori dei PID per compensare la diminuzione del voltaggio della batteria. Darà caratteristiche di volo più costanti per la durata di tutto il volo. La quantità di compensazione applicata è calcolata in base al $t(powerBatteryMaximum.message) impostato nella pagina $t(tabPower.message), quindi assicurati che sia impostato su in valore appropriato."
+    },
     "configHelp2": {
         "message": "Rotazione arbitraria del controllore di volo, per permettere di montarlo di lato, sottosopra, ruotato ecc.. Quando si utilizzano sensori esterni, usa l'allineamento del sensore (Gyro, Acc, Mag) per definire la posizione del sensore indipendente dall'orientamento del controllore di volo."
     },
@@ -2682,6 +2685,9 @@
     },
     "failsafeSwitchModeItem": {
         "message": "Azione dello Switch del Failsafe"
+    },
+    "failsafeSwitchModeHelp": {
+        "message": "Questa opzione determina cosa succede quando il Failsafe viene attivato tramite switch AUX:<br\/><strong>Stage 1<\/strong> attiva failsafe Stage 1. E' utile se vuoi simulare esattamente il comportamento di perdita di segnale.<br\/><strong>Stage 2<\/strong> Salta lo Stage 1 e attiva direttamente la procedura dello Stage 2 <br\/><strong>Kill<\/strong> disarma istantaneamente (il tuo modello cadrà)"
     },
     "powerButtonSave": {
         "message": "Salva"
