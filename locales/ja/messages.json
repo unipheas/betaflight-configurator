@@ -2683,6 +2683,9 @@
     "failsafeSwitchModeItem": {
         "message": "フェイルセーフ スイッチ動作"
     },
+    "failsafeSwitchModeHelp": {
+        "message": "このオプションは、フェイルセーフがAUXスイッチを介してオンとなったときの動作を決定します。<br\/><strong>ステージ1<\/strong>は、ステージ1のフェイルセーフをオンにします。 これは、フェイルセーフの動作をシミュレートする場合に便利な機能です。<br\/><strong>ステージ2<\/strong>はステージ1をスキップし、すぐにステージ2をオンにします。<br\/><strong>キル<\/strong>すぐにディスアームします。 (クワッドコプターは墜落してしまいます)"
+    },
     "powerButtonSave": {
         "message": "保存"
     },
