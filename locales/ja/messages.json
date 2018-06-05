@@ -2684,7 +2684,7 @@
         "message": "フェイルセーフ スイッチ動作"
     },
     "failsafeSwitchModeHelp": {
-        "message": "このオプションは、フェイルセーフがAUXスイッチを介してオンとなったときの動作を決定します。<br\/><strong>ステージ1<\/strong>は、ステージ1のフェイルセーフをオンにします。 これは、フェイルセーフの動作をシミュレートする場合に便利な機能です。<br\/><strong>ステージ2<\/strong>はステージ1をスキップし、すぐにステージ2をオンにします。<br\/><strong>キル<\/strong>すぐにディスアームします。 (クワッドコプターは墜落してしまいます)"
+        "message": "このオプションは、フェイルセーフがAUXスイッチを介してオンとなったときの動作を決定します。<br\/><strong>ステージ1<\/strong> は、ステージ1のフェイルセーフをオンにします。 これは、フェイルセーフの動作をシミュレートする場合に便利な機能です。<br\/><strong>ステージ2<\/strong> はステージ1をスキップし、すぐにステージ2をオンにします。<br\/><strong>キル<\/strong> は、即座にディスアームします。 (クワッドコプターは墜落してしまいます)"
     },
     "powerButtonSave": {
         "message": "保存"
@@ -3299,10 +3299,10 @@
         "message": "モーターPWM 周波数"
     },
     "configurationGyroSyncDenom": {
-        "message": "ジャイロ更新 周波数"
+        "message": "ジャイロ 演算周波数"
     },
     "configurationPidProcessDenom": {
-        "message": "PIDループ 周波数"
+        "message": "PIDループ 演算周波数"
     },
     "configurationPidProcessDenomHelp": {
         "message": "PIDループの最大周波数は、選択されたESC \/ モータープロトコル更新信号の最大値に制限されます。"
