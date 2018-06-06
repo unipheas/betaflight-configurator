@@ -2687,7 +2687,16 @@
         "message": "Failsafe slēdža darbība"
     },
     "failsafeSwitchModeHelp": {
-        "message": "Šī opcija nosaka, kas notiek, kad Failsafe tiek aktivizēts caur AUX slēdzi:<br\/><strong>Posms 1<\/strong> aktivizē Posms 1 failsafe. Tas ir noderīgi ja vēlaties nosimulēt signāla zuduma failsafe darbību.<br\/><strong>Posms 2<\/strong> izlaiž Posms 1 un aktivizē Posms 2 nekavējoties<br\/><strong>Nogalināt<\/strong> atslēdz nekavējoties (jūsu aparāts sasitīsies)"
+        "message": "Šī opcija nosaka, kas notiek, kad Failsafe tiek aktivizēts caur AUX slēdzi:<br\/><strong>Posms 1<\/strong> aktivizē Posms 1 failsafe. Tas ir noderīgi ja vēlaties nosimulēt signāla zuduma failsafe darbību.<br\/><strong>Posms 2<\/strong> izlaiž Posms 1 un aktivizē Posms 2 nekavējoties<br\/><strong>Kill<\/strong> atslēdz nekavējoties (jūsu aparāts sasitīsies)"
+    },
+    "failsafeSwitchOptionStage1": {
+        "message": "Posms 1"
+    },
+    "failsafeSwitchOptionStage2": {
+        "message": "Posms 2"
+    },
+    "failsafeSwitchOptionKill": {
+        "message": "Kill"
     },
     "powerButtonSave": {
         "message": "Saglabāt"
