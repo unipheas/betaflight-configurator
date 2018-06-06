@@ -2689,6 +2689,15 @@
     "failsafeSwitchModeHelp": {
         "message": "Questa opzione determina cosa succede quando il Failsafe viene attivato tramite switch AUX:<br\/><strong>Stage 1<\/strong> attiva failsafe Stage 1. E' utile se vuoi simulare esattamente il comportamento di perdita di segnale.<br\/><strong>Stage 2<\/strong> Salta lo Stage 1 e attiva direttamente la procedura dello Stage 2 <br\/><strong>Kill<\/strong> disarma istantaneamente (il tuo modello cadrà)"
     },
+    "failsafeSwitchOptionStage1": {
+        "message": "Livello 1"
+    },
+    "failsafeSwitchOptionStage2": {
+        "message": "Livello 2"
+    },
+    "failsafeSwitchOptionKill": {
+        "message": "Termina"
+    },
     "powerButtonSave": {
         "message": "Salva"
     },
