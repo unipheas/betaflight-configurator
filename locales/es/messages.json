@@ -1190,6 +1190,9 @@
     "pidTuningDtermSetpointHelp": {
         "message": "Este parámetro determina el efecto de aceleración de la palanca dentro del componente derivativo.<br> Un valor de 0 es igual al antiguo método de Medición donde D sólo sigue al giro, mientras 1 es igual al antiguo método de Error con seguimiento igual a giro y a radio de la palanca.<br> Un valor más bajo es igual a una respuesta de palanca más lenta y suave, mientras que valores más altos proporcionan más aceleración en la respuesta a la palanca.<br> Ten en cuenta que se recomienda activar Interpolación de RC con valores altos para evitar el ruido por golpes en el control."
     },
+    "pidTuningDtermSetpointTransitionWarning": {
+        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong> El uso de un Punto de Ajuste de Transición de D mayor que 0 y menor que 0.1 está altamente desaconsejado. Puede causar inestabilidad y reducir la respuesta de los controles al cruzar el punto central.<\/span>"
+    },
     "pidTuningProportional": {
         "message": "Proporcional"
     },
@@ -2599,6 +2602,9 @@
     "pidTuningVbatPidCompensation": {
         "message": "Compensación PID Vbat"
     },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Incrementa los valores del PID para compensar cuando la Vbat está baja. Esto proporciona características de vuelo más constantes durante el vuelo. La cantidad de compensación que se aplica se calcula a partir del $t(powerBatteryMaximum.message) indicado en la página de $t(tabPower.message), así que asegúrate de que tiene un valor apropiado."
+    },
     "configHelp2": {
         "message": "Rotación arbitraria de la placa en grados, para permitir montaje de lado \/ boca abajo \/ rotada etc. Al ejecutar sensores externos, usa la alineación del sensor (Giro, Acc, Mag) para definir la posición del sensor independientemente de la orientación de la placa. "
     },
@@ -2673,6 +2679,15 @@
     },
     "failsafeKillSwitchHelp": {
         "message": "Ajustar esta opción para usar un interruptor de modo de seguridad o FAILSAFE (apartado Modos). Actúa como un conmutador directo, saltando el procedimiento del modo de seguridad seleccionado. <strong>Nota:<\/strong> El armado está bloqueado cuando el modo de seguridad está en la posición ENCENDIDO"
+    },
+    "failsafeSwitchTitle": {
+        "message": "Interruptor Modo de Seguridad"
+    },
+    "failsafeSwitchModeItem": {
+        "message": "Acción Interruptor Modo de Seguridad"
+    },
+    "failsafeSwitchModeHelp": {
+        "message": "Esta opción determina qué pasa cuando el Modo de seguridad (FAILSAFE) se activa a través de un interruptor AUX:<br\/><strong>Fase 1<\/strong> activa el modo de seguridad Fase 1. Es útil si quieres simular el comportamiento exacto de pérdida de señal.<br\/><strong>Fase 2<\/strong> se salta la Fase 1 y activa el procedimiento inmediatamente<br\/><strong>Matar<\/strong> desarma instantáneamente (la aeronave se estrellará)"
     },
     "powerButtonSave": {
         "message": "Guardar"
