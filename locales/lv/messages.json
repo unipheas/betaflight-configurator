@@ -504,7 +504,7 @@
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
     "defaultSupport5": {
-        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Betaflight devs iekš slack<\/a>"
+        "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Betaflight izstrādātāji iekš slack<\/a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span class=\"message-negative\">Dublēšanas un atjaunošanas funkcionalitāte ir atslēgta.<\/span>Jūsu programmatūras API versija <span class=\"message-negative\">$1<\/span>, dublēšanai un atjaunošanai nepieciešama <span class=\"message-positive\">$2<\/span>.  Lūdzu, dublējat savus iestatījumus ar CLI, procedūras aprakstu skatīt Betaflight dokumentācijā."
@@ -1189,6 +1189,9 @@
     },
     "pidTuningDtermSetpointHelp": {
         "message": "Šis parametrs nosaka sviras akselerācijas efektu atvasinājuma komponentē. <br> Vērtība 0 ir ekvivalenta vecajai mērījuma metodei, kur D seko tika žiroskopam, kamēr vērtība 1 ekvivalenta vecajai mērījuma metodei ar vienādu žiroskopa un sviru sekošanu attiecību.<br> Zemāka vērtība sniedz lēnāku\/vienmērīgāku sviras atsauci, kamēr augstāka vērtība sniedz lielāku sviras akselerācijas atsauci.<br> Atcerieties ka pie augstām vērtībām RC interpolāciju ieteicams ieslēgt, tas novērsīs vadības sviras trokšņu ģenerēšanu."
+    },
+    "pidTuningDtermSetpointTransitionWarning": {
+        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong>Izmantojot D iestatījuma pāreju lielāku par 0 un mazāku par 0.1 ir drosmīgs gājiens. Tā darot, tas var novest līdz nestabilitātei un samazināt vadības sviru atsaucību, kad tās šķērso centra punktu.<\/span>"
     },
     "pidTuningProportional": {
         "message": "Proporcionāls"
@@ -2599,6 +2602,9 @@
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID kompensācija"
     },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Palielina PID vērtības lai kompensētu akumulatorā sprieguma kritumu. Tas sniegs daudz konstantākus lidojumu parametrus visā lidojuma laikā. Pielietotās kompensēšanas lielums ir aprēķināts no $t(powerBatteryMaximum.message), kas uzstādīts $t(tabPower.message) cilnē, tāpēc pārliecinieties ka šī vērtība ir atbilstoša."
+    },
     "configHelp2": {
         "message": "Patvaļīga plates pagriešana grādos, lai atļautu uzstādīt to sāniski \/ augšpēdus \/ pagrieztu utt. Kad darbojas ar ārējo sensoru, izmantojiet sensora pielāgošanu (Žiro, Aksel, Mag), lai definētu sensora pozīciju neatkarīgi no plates orientācijas. "
     },
@@ -2673,6 +2679,15 @@
     },
     "failsafeKillSwitchHelp": {
         "message": "Uzstādiet šo iespēju, lai uzliktu Failsafe slēdzi (Režīmu cilnē), lai tas darbotos kā dezaktivācijas slēdzis, izlaižot Failsafe procedūras. <strong>Piezīme:<\/strong>Aktivizēšana ir bloķēta ar dezaktivācijas slēdzi ieslēgtā pozīcijā"
+    },
+    "failsafeSwitchTitle": {
+        "message": "Failsafe slēdzis"
+    },
+    "failsafeSwitchModeItem": {
+        "message": "Failsafe slēdža darbība"
+    },
+    "failsafeSwitchModeHelp": {
+        "message": "Šī opcija nosaka, kas notiek, kad Failsafe tiek aktivizēts caur AUX slēdzi:<br\/><strong>Posms 1<\/strong> aktivizē Posms 1 failsafe. Tas ir noderīgi ja vēlaties nosimulēt signāla zuduma failsafe darbību.<br\/><strong>Posms 2<\/strong> izlaiž Posms 1 un aktivizē Posms 2 nekavējoties<br\/><strong>Nogalināt<\/strong> atslēdz nekavējoties (jūsu aparāts sasitīsies)"
     },
     "powerButtonSave": {
         "message": "Saglabāt"
