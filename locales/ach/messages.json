@@ -2735,6 +2735,15 @@
     "failsafeSwitchModeHelp": {
         "message": "crwdns8727:0crwdne8727:0"
     },
+    "failsafeSwitchOptionStage1": {
+        "message": "crwdns8729:0crwdne8729:0"
+    },
+    "failsafeSwitchOptionStage2": {
+        "message": "crwdns8730:0crwdne8730:0"
+    },
+    "failsafeSwitchOptionKill": {
+        "message": "crwdns8731:0crwdne8731:0"
+    },
     "powerButtonSave": {
         "message": "crwdns6130:0crwdne6130:0"
     },
