@@ -2687,7 +2687,16 @@
         "message": "Acción Interruptor Modo de Seguridad"
     },
     "failsafeSwitchModeHelp": {
-        "message": "Esta opción determina qué pasa cuando el Modo de seguridad (FAILSAFE) se activa a través de un interruptor AUX:<br\/><strong>Etapa 1<\/strong> activa el modo de seguridad Fase 1. Es útil si quieres simular el comportamiento exacto de pérdida de señal.<br\/><strong>Etapa 2<\/strong> se salta la Etapa 1 y activa el procedimiento inmediatamente<br\/><strong>Matar<\/strong> desarma instantáneamente (la aeronave se estrellará)"
+        "message": "Esta opción determina qué pasa cuando el Modo de seguridad (FAILSAFE) se activa a través de un interruptor AUX:<br\/><strong>Etapa 1<\/strong> activa el modo de seguridad Etapa 1. Es útil si quieres simular el comportamiento exacto de una pérdida de señal.<br\/><strong>Etapa 2<\/strong> se salta la Etapa 1 y activa el procedimiento Etapa 2 inmediatamente<br\/><strong>Matar<\/strong> desarma instantáneamente (la aeronave se estrellará)"
+    },
+    "failsafeSwitchOptionStage1": {
+        "message": "Etapa 1"
+    },
+    "failsafeSwitchOptionStage2": {
+        "message": "Etapa 2"
+    },
+    "failsafeSwitchOptionKill": {
+        "message": "Matar"
     },
     "powerButtonSave": {
         "message": "Guardar"
