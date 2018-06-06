@@ -1190,6 +1190,9 @@
     "pidTuningDtermSetpointHelp": {
         "message": "Ce paramètre détermine l'effet accélérateur de stick de la dérivée.<br \/>0 revient à l'ancienne méthode où D suivait les infos du gyro, 1 évalue l'écart entre la valeur demandée par le stick et celle obtenue par le gyro.<br \/>Avec une valeur faible le stick est plus lent\/souple, avec une valeur élevée le stick est de plus en plus réactif.<br \/>Note: avec une valeur élevée, il est recommandé d'utilise l'interpolation RC afin de limiter les accoups et du bruit (dans le gyro)."
     },
+    "pidTuningDtermSetpointTransitionWarning": {
+        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong>Une valeur D Setpoint supérieure à 0 et inférieure à 0,1 est fortement déconseillée. Cela peut conduire à une instabilité et réduit la réactivité aux sticks.<\/span>"
+    },
     "pidTuningProportional": {
         "message": "Proportionnelle"
     },
@@ -2596,6 +2599,9 @@
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID Compensation"
     },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Augmente les PID quand la batterie se vide. Cela procure plus de linéarité dans le vol. La compensation est calculée à partir de la valeur $t(powerBatteryMaximum.message) renseignée dans la page $t(tabPower.message). Il faut s'assurer qu'une valeur cohérente soit renseignée."
+    },
     "configHelp2": {
         "message": "Rotation arbitraire de la carte en degrés permettant un montage latéral \/ à l'envers \/ de côté etc. Si des capteurs externes sont utilisés, servez vous du sensor alignments (Gyro, Acc, Mag) pour définir leur position indépendamment  de l'orientation de la carte. "
     },
@@ -2670,6 +2676,15 @@
     },
     "failsafeKillSwitchHelp": {
         "message": "Renseigner cette option pour utiliser le switch Failsafe comme un coupe circuit direct sans passer par la procédure de Failsafe. <strong>Note: <\/strong> l'armement est bloqué avec ce switch sur ON"
+    },
+    "failsafeSwitchTitle": {
+        "message": "Switch Failsafe"
+    },
+    "failsafeSwitchModeItem": {
+        "message": "Action du switch Failsafe"
+    },
+    "failsafeSwitchModeHelp": {
+        "message": "Cette option détermine ce qu'il se passe lorsque le Failsafe est activé par un switch AUX :<br\/><strong>Stage 1<\/strong> active le Failsafe Stage 1. Ceci est utile si vous souhaitez simuler le comportement exact du Failsafe lors de la perte de signal.<br\/><strong>Stage 2<\/strong> saute le Stage 1 et active la procédure de Stage 2 immédiatement<br\/><strong>Kill<\/strong> désarme les moteurs instantanément (votre machine va crasher)"
     },
     "powerButtonSave": {
         "message": "Sauvegarder"
