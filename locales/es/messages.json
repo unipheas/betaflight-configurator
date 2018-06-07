@@ -1190,6 +1190,9 @@
     "pidTuningDtermSetpointHelp": {
         "message": "Este parámetro determina el efecto de aceleración de la palanca dentro del componente derivativo.<br> Un valor de 0 es igual al antiguo método de Medición donde D sólo sigue al giro, mientras 1 es igual al antiguo método de Error con seguimiento igual a giro y a radio de la palanca.<br> Un valor más bajo es igual a una respuesta de palanca más lenta y suave, mientras que valores más altos proporcionan más aceleración en la respuesta a la palanca.<br> Ten en cuenta que se recomienda activar Interpolación de RC con valores altos para evitar el ruido por golpes en el control."
     },
+    "pidTuningDtermSetpointTransitionWarning": {
+        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong> El uso de un Punto de Ajuste de Transición de D mayor que 0 y menor que 0.1 está altamente desaconsejado. Puede causar inestabilidad y reducir la respuesta de los controles al cruzar el punto central.<\/span>"
+    },
     "pidTuningProportional": {
         "message": "Proporcional"
     },
