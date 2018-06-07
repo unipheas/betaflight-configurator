@@ -1190,6 +1190,9 @@
     "pidTuningDtermSetpointHelp": {
         "message": "이 파라미터는 파생된 요소 내 스틱 가속 효과를 결정합니다. <br> 0은 D가 오직 자이로만을 추적하는 이전 측정 방법과 동일합니다. 반면에 1은 동일한 자이로와 스틱 추적 레이트를 갖는 이전 오류 방법과 같습니다. <br> 값이 낮을 수록 스틱 반응이 더욱 느리고\/부드러워지며, 반면에 값이 높을 수록 스틱 가속 응답을 더 많이 제공합니다. <br> RC 신호보간은 컨트롤 킥이 노이즈를 발생시키지 않도록 더 높은 값으로 설정하는 것이 좋습니다."
     },
+    "pidTuningDtermSetpointTransitionWarning": {
+        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong> 0 보다 크고 0.1 보다 작은 D 설정값 전환의 사용은 불안정을 유발시킬 수 있으며, 중립포인트에서 만나는 스틱의 반응성이 감소될 수 있습니다.<\/span>"
+    },
     "pidTuningProportional": {
         "message": "P(비례)"
     },
@@ -2599,6 +2602,9 @@
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID 보상"
     },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Vbat이 낮아질 때 이를 보충하기 위해 PID 값을 증가시킵니다. 이것은 비행 내내 보다 일정한 비행 특성을 줄 것입니다. 적용되는 보정량은 $t(tabPower.message) 페이지에서 설정된 $t(powerBatteryMaximum.message)에서 계산되므로 적절한 값으로 설정되어 있는지 확인하십시오."
+    },
     "configHelp2": {
         "message": "옆면 \/ 아래로 \/ 회전 등으로 장착 할 수 있는 임의의 보드 회전 각도(°). 외부 센서를 작동할 때 센서 정렬(자이로, 가속도계, 자력계)을 사용하여 보드 방향과 상관없이 센서 위치를 정의합니다."
     },
@@ -2673,6 +2679,24 @@
     },
     "failsafeKillSwitchHelp": {
         "message": "페일 세이프 스위치 (모드 탭)가 선택한 페일 세이프 절차를 우회하여 직접적인 강제 종료 스위치로 작동하게 하려면 이 옵션을 설정하십시오. <strong>노트:<\/strong> 페일세이프 킬 스위치가 ON 위치에 있을 때 아밍이 차단됩니다."
+    },
+    "failsafeSwitchTitle": {
+        "message": "페일세이프 스위치"
+    },
+    "failsafeSwitchModeItem": {
+        "message": "페일세이프 스위치 동작"
+    },
+    "failsafeSwitchModeHelp": {
+        "message": "이 옵션은 페일세이프가 AUX 스위치를 통해 활성화되었을 때 무엇이 일어나는지 결정합니다:<br\/><strong>1 단계<\/strong> 1 단계 페일세이프 활성화. 정확한 신호 손실 페일세이프 동작을 시뮬레이션 하려는 경우 유용 합니다.<br\/><strong>2 단계<\/strong>1 단계를 생략하 고 즉시 2 단계 절차를 활성화합니다.<br\/><strong>Kill<\/strong>은 즉시 디스아밍합니다. (당신의 기체는 충돌할 것입니다.)"
+    },
+    "failsafeSwitchOptionStage1": {
+        "message": "1 단계"
+    },
+    "failsafeSwitchOptionStage2": {
+        "message": "2 단계"
+    },
+    "failsafeSwitchOptionKill": {
+        "message": "Kill"
     },
     "powerButtonSave": {
         "message": "저장"
