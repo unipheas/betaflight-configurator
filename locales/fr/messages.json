@@ -1190,9 +1190,6 @@
     "pidTuningDtermSetpointHelp": {
         "message": "Ce paramètre détermine l'effet accélérateur de stick de la dérivée.<br \/>0 revient à l'ancienne méthode où D suivait les infos du gyro, 1 évalue l'écart entre la valeur demandée par le stick et celle obtenue par le gyro.<br \/>Avec une valeur faible le stick est plus lent\/souple, avec une valeur élevée le stick est de plus en plus réactif.<br \/>Note: avec une valeur élevée, il est recommandé d'utilise l'interpolation RC afin de limiter les accoups et du bruit (dans le gyro)."
     },
-    "pidTuningDtermSetpointTransitionWarning": {
-        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong>Une valeur D Setpoint supérieure à 0 et inférieure à 0,1 est fortement déconseillée. Cela peut conduire à une instabilité et réduit la réactivité aux sticks.<\/span>"
-    },
     "pidTuningProportional": {
         "message": "Proportionnelle"
     },
