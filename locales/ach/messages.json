@@ -2579,71 +2579,68 @@
     "pidTuningNonProfileFilterSettings": {
         "message": "crwdns6080:0crwdne6080:0"
     },
+    "pidTuningGyroLowpassFiltersGroup": {
+        "message": "crwdns8733:0crwdne8733:0"
+    },
     "pidTuningGyroLowpassFrequency": {
-        "message": "crwdns6081:0[Hz]crwdne6081:0"
+        "message": "crwdns8734:0[Hz]crwdne8734:0"
     },
-    "pidTuningGyroLowpassFrequencyHelp": {
-        "message": "crwdns6082:0[Hz]crwdne6082:0"
+    "pidTuningGyroLowpassType": {
+        "message": "crwdns8735:0crwdne8735:0"
     },
-    "pidTuningGyroNotch1Enable": {
-        "message": "crwdns6083:0crwdne6083:0"
+    "pidTuningGyroLowpass2Frequency": {
+        "message": "crwdns8736:0[Hz]crwdne8736:0"
+    },
+    "pidTuningGyroLowpass2Type": {
+        "message": "crwdns8737:0crwdne8737:0"
+    },
+    "pidTuningGyroNotchFiltersGroup": {
+        "message": "crwdns8738:0crwdne8738:0"
     },
     "pidTuningGyroNotch1Frequency": {
-        "message": "crwdns6084:0[Hz]crwdne6084:0"
-    },
-    "pidTuningGyroNotch2Enable": {
-        "message": "crwdns6085:0crwdne6085:0"
+        "message": "crwdns8739:0[Hz]crwdne8739:0"
     },
     "pidTuningGyroNotch2Frequency": {
-        "message": "crwdns6086:0[Hz]crwdne6086:0"
-    },
-    "pidTuningGyroNotchFrequencyHelp": {
-        "message": "crwdns6087:0crwdne6087:0"
+        "message": "crwdns8740:0[Hz]crwdne8740:0"
     },
     "pidTuningGyroNotch1Cutoff": {
-        "message": "crwdns6088:0[Hz]crwdne6088:0"
+        "message": "crwdns8741:0[Hz]crwdne8741:0"
     },
     "pidTuningGyroNotch2Cutoff": {
-        "message": "crwdns6089:0[Hz]crwdne6089:0"
+        "message": "crwdns8742:0[Hz]crwdne8742:0"
     },
-    "pidTuningGyroNotchCutoffHelp": {
-        "message": "crwdns6389:0crwdne6389:0"
+    "pidTuningNotchFilterHelp": {
+        "message": "crwdns8743:0crwdne8743:0"
     },
     "pidTuningFilterSettings": {
-        "message": "crwdns6091:0crwdne6091:0"
+        "message": "crwdns8744:0crwdne8744:0"
+    },
+    "pidTuningDTermLowpassFiltersGroup": {
+        "message": "crwdns8745:0crwdne8745:0"
     },
     "pidTuningDTermLowpassType": {
-        "message": "crwdns6092:0crwdne6092:0"
-    },
-    "pidTuningDTermLowpassTypeTip": {
-        "message": "crwdns6093:0crwdne6093:0"
+        "message": "crwdns8746:0crwdne8746:0"
     },
     "pidTuningDTermLowpassFrequency": {
-        "message": "crwdns6094:0[Hz]crwdne6094:0"
+        "message": "crwdns8747:0[Hz]crwdne8747:0"
     },
-    "pidTuningDTermLowpassFrequencyHelp": {
-        "message": "crwdns6095:0[Hz]crwdne6095:0"
+    "pidTuningDTermLowpass2Frequency": {
+        "message": "crwdns8748:0[Hz]crwdne8748:0"
     },
-    "pidTuningDTermNotchEnable": {
-        "message": "crwdns6096:0crwdne6096:0"
+    "pidTuningDTermNotchFiltersGroup": {
+        "message": "crwdns8749:0crwdne8749:0"
     },
     "pidTuningDTermNotchFrequency": {
-        "message": "crwdns6097:0[Hz]crwdne6097:0"
-    },
-    "pidTuningDTermNotchFrequencyHelp": {
-        "message": "crwdns6098:0[Hz]crwdne6098:0"
+        "message": "crwdns8750:0[Hz]crwdne8750:0"
     },
     "pidTuningDTermNotchCutoff": {
-        "message": "crwdns6099:0[Hz]crwdne6099:0"
+        "message": "crwdns8751:0[Hz]crwdne8751:0"
     },
-    "pidTuningDTermNotchCutoffHelp": {
-        "message": "crwdns6390:0crwdne6390:0"
+    "pidTuningYawLospassFiltersGroup": {
+        "message": "crwdns8752:0crwdne8752:0"
     },
     "pidTuningYawLowpassFrequency": {
-        "message": "crwdns6101:0[Hz]crwdne6101:0"
-    },
-    "pidTuningYawLowpassFrequencyHelp": {
-        "message": "crwdns6102:0[Hz]crwdne6102:0"
+        "message": "crwdns8753:0[Hz]crwdne8753:0"
     },
     "pidTuningVbatPidCompensation": {
         "message": "crwdns6103:0crwdne6103:0"
