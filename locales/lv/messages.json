@@ -1194,13 +1194,13 @@
         "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong>Izmantojot D iestatījuma pāreju lielāku par 0 un mazāku par 0.1 ir drosmīgs gājiens. Tā darot, tas var novest līdz nestabilitātei un samazināt vadības sviru atsaucību, kad tās šķērso centra punktu.<\/span>"
     },
     "pidTuningProportional": {
-        "message": "Proporcionāls"
+        "message": "Proportional"
     },
     "pidTuningIntegral": {
-        "message": "Integrāls"
+        "message": "Integral"
     },
     "pidTuningDerivative": {
-        "message": "Atvasinājums"
+        "message": "Derivative"
     },
     "pidTuningRcRate": {
         "message": "RC ātrums"
@@ -1218,7 +1218,7 @@
         "message": "Ātruma priekšskatījums"
     },
     "pidTuningRcExpo": {
-        "message": "RC ekspo"
+        "message": "RC Ekspo"
     },
     "pidTuningTPA": {
         "message": "TPA"
@@ -3404,7 +3404,7 @@
         "message": "<b>Gyro Soft filtrs:<\/b>Žiroskopa zemfrekvenču filtrs. Izmantojiet zemākas vērtības, lai panāktu efektīvāku filtrēšanu.<br><b>D Term Filtrs:<\/b> Dterm zemfrekvenču filtrs. Var ietekmēt D regulējumu. Izmantojiet zemākas vērtības, lai panāktu efektīvāku filtrēšanu. <br><b>Yaw filtrs:<\/b> Filtrē Yaw izvadi. Tas var palīdzēt ar konstrukcijas trokšņiem uz Yaw ass."
     },
     "pidTuningPidTuningTip": {
-        "message": "<b>Proporcionāls:<\/b> Jūs jutīsiet ļoti spēcīgu pretestību pie visiem mēģinājumiem kustināt multirotoru<br><b>Integrāls:<\/b> Palielina spēju noturēt sākotnējo pozīciju un samazina dreifēšanu, bet arī palielina laiku, kas nepieciešams nonākšanai sākotnējā pozīcijā.<br><b>Atvasinājums:<\/b> Uzlabo laiku, kurā novirze tiek labota, bet palielina trokšņus<br><b>Ātrumi un Ekspo <\/b>: Šie parametri nosaka cik jūtīgas būs vadības sviras. Pielietojiet ātrumu līknes un 3D modeli, lai atrastu jums visatbilstošākos ātruma iestatījumus"
+        "message": "<b>Proportional:<\/b> Jūs jutīsiet ļoti spēcīgu pretestību pie visiem mēģinājumiem kustināt multirotoru<br><b>Integral:<\/b> Palielina spēju noturēt sākotnējo pozīciju un samazina dreifēšanu, bet arī palielina laiku, kas nepieciešams nonākšanai sākotnējā pozīcijā.<br><b>Derivative:<\/b> Uzlabo laiku, kurā novirze tiek labota, bet palielina trokšņus<br><b>Ātrumi un Ekspo <\/b>: Šie parametri nosaka cik jūtīgas būs vadības sviras. Pielietojiet ātrumu līknes un 3D modeli, lai atrastu jums visatbilstošākos ātruma iestatījumus"
     },
     "pidTuningRatesTip": {
         "message": "Paeksperimentējiet ar ātrumiem un novērojiet kā tas ietekmēs vadības sviras līkni"
