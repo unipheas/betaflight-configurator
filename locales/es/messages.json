@@ -2533,6 +2533,24 @@
     "pidTuningNonProfileFilterSettings": {
         "message": "Ajustes de Filtros independientes del Perfil"
     },
+    "pidTuningGyroLowpassFrequency": {
+        "message": "Giro Paso Bajo 1 Frecuencia de Corte [Hz]"
+    },
+    "pidTuningGyroLowpassType": {
+        "message": "Giro Paso Bajo 1 Tipo de Filtro"
+    },
+    "pidTuningGyroLowpass2Frequency": {
+        "message": "Giro Paso Bajo 2 Frecuencia de Corte [Hz]"
+    },
+    "pidTuningGyroLowpass2Type": {
+        "message": "Giro Paso Bajo 2 Tipo de Filtro"
+    },
+    "pidTuningDTermNotchFrequency": {
+        "message": "D Term Filtro Notch Frecuencia Central [Hz]"
+    },
+    "pidTuningYawLowpassFrequency": {
+        "message": "Yaw Paso Bajo Frecuencia de Corte [Hz]"
+    },
     "pidTuningVbatPidCompensation": {
         "message": "Compensación PID Vbat"
     },
