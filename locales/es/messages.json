@@ -2533,6 +2533,9 @@
     "pidTuningNonProfileFilterSettings": {
         "message": "Ajustes de Filtros independientes del Perfil"
     },
+    "pidTuningGyroLowpassFiltersGroup": {
+        "message": "Filtros Paso Bajo del Giro"
+    },
     "pidTuningGyroLowpassFrequency": {
         "message": "Giro Paso Bajo 1 Frecuencia de Corte [Hz]"
     },
@@ -2545,8 +2548,50 @@
     "pidTuningGyroLowpass2Type": {
         "message": "Giro Paso Bajo 2 Tipo de Filtro"
     },
+    "pidTuningGyroNotchFiltersGroup": {
+        "message": "Filtros Notch del Giro"
+    },
+    "pidTuningGyroNotch1Frequency": {
+        "message": "Giro Filtro Notch 1 Frecuencia Central [Hz]"
+    },
+    "pidTuningGyroNotch2Frequency": {
+        "message": "Giro Filtro Notch 2 Frecuencia Central [Hz]"
+    },
+    "pidTuningGyroNotch1Cutoff": {
+        "message": "Giro Filtro Notch 1 Frecuencia de Corte [Hz]"
+    },
+    "pidTuningGyroNotch2Cutoff": {
+        "message": "Giro Filtro Notch 2 Frecuencia de Corte [Hz]"
+    },
+    "pidTuningNotchFilterHelp": {
+        "message": "El Filtro Notch tiene un Centro y un Corte. El filtro es simétrico. La Frecuencia Central es el centro del filtro y la Frecuencia de Corte es donde el filtro Notch empieza. Por ejemplo con una Frecuencia de Corte de 160 y una Frecuencia Central de 260 el rango es 160-360Hz con la mayor atenuación en torno al centro"
+    },
+    "pidTuningFilterSettings": {
+        "message": "Ajustes de Filtros dependientes del Perfil"
+    },
+    "pidTuningDTermLowpassFiltersGroup": {
+        "message": "Filtros Paso Bajo del D Term"
+    },
+    "pidTuningDTermLowpassType": {
+        "message": "D Term Paso Bajo 1 Tipo de Filtro"
+    },
+    "pidTuningDTermLowpassFrequency": {
+        "message": "D Term Paso Bajo 1 Frecuencia de Corte [Hz]"
+    },
+    "pidTuningDTermLowpass2Frequency": {
+        "message": "D Term Paso Bajo 2 Frecuencia de Corte [Hz]"
+    },
+    "pidTuningDTermNotchFiltersGroup": {
+        "message": "Filtros Notch del D Term"
+    },
     "pidTuningDTermNotchFrequency": {
         "message": "D Term Filtro Notch Frecuencia Central [Hz]"
+    },
+    "pidTuningDTermNotchCutoff": {
+        "message": "D Term Filtro Notch Frecuencia de Corte [Hz]"
+    },
+    "pidTuningYawLospassFiltersGroup": {
+        "message": "Filtros Paso Bajo del Yaw"
     },
     "pidTuningYawLowpassFrequency": {
         "message": "Yaw Paso Bajo Frecuencia de Corte [Hz]"
