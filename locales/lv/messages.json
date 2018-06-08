@@ -774,7 +774,7 @@
         "message": "Īslaicīgi palielināt I-Term pie lielām droseles vērtībām izmaiņām"
     },
     "featureDYNAMIC_FILTER": {
-        "message": "Žiroskopa dinamiskā joslu ierobežojošā filtrēšana"
+        "message": "Žiroskopa dinamiskā joslas filtrēšana"
     },
     "featureFAILSAFE": {
         "message": "Ieslēgt Failsafe posmu 2"
@@ -2529,6 +2529,9 @@
     },
     "pidTuningNonProfileFilterSettings": {
         "message": "Profila neatkarīgo filtru iestatījumi"
+    },
+    "pidTuningGyroNotchFiltersGroup": {
+        "message": "Gyro joslas filtrs"
     },
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID kompensācija"
