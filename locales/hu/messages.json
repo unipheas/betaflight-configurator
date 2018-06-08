@@ -1787,9 +1787,6 @@
     "pidTuningLevelSensitivity": {
         "message": "Érzékenyskég"
     },
-    "pidTuningFilterSettings": {
-        "message": "Filter Beállítások"
-    },
     "failsafeFeaturesHelpOld": {
         "message": "A Failsafe beállítások jelentősen megváltoztak. Használjon Betaflight <strong>v1.12.0+<\/strong> verziót az irányítópanel aktiválásához."
     },
