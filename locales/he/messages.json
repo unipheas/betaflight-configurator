@@ -569,30 +569,6 @@
     "pidTuningNonProfileFilterSettings": {
         "message": "הגדרות פילטרים - בלתי תלויות בפרופיל הנבחר"
     },
-    "pidTuningGyroNotch1Enable": {
-        "message": "Gyro Notch 1 מופעל"
-    },
-    "pidTuningGyroNotch1Frequency": {
-        "message": "תדר Gyro Notch 1, Hz"
-    },
-    "pidTuningGyroNotch2Enable": {
-        "message": "Gyro Notch 2 מופעל"
-    },
-    "pidTuningGyroNotch2Frequency": {
-        "message": "תדר [Gyro Notch 1, [Hz"
-    },
-    "pidTuningGyroNotchFrequencyHelp": {
-        "message": "תדר פילטר Gyro Notch בהרץ [Hz]"
-    },
-    "pidTuningGyroNotch1Cutoff": {
-        "message": "Gyro Notch 1 תדר ברך (חיתוך), [Hz]"
-    },
-    "pidTuningGyroNotch2Cutoff": {
-        "message": "Gyro Notch 2 תדר ברך (חיתוך), [Hz]"
-    },
-    "pidTuningFilterSettings": {
-        "message": "הגדרות פילטרים"
-    },
     "failsafeProcedureItemSelect1": {
         "message": "נחיתה"
     },
