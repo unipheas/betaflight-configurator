@@ -908,12 +908,6 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Questo è il valore che viene inviato agli ESC quando il mezzo è disarmato. Impostalo su un valore che lasci i motori fermi (1000 per la maggior parte degli ESC)."
     },
-    "configurationDshotBeeper": {
-        "message": "Configurazione Beacon DSHOT"
-    },
-    "configurationUseDshotBeeper": {
-        "message": "Usa beacon DSHOT (usa i motori per riprodurre i beep quando disarmati)"
-    },
     "configurationDshotBeaconTone": {
         "message": "Tono Beacon"
     },
@@ -944,12 +938,6 @@
     "beeperBAT_LOW": {
         "message": "Beep di avviso quando la batteria si sta scaricando (ripeti)"
     },
-    "beeperRX_SET": {
-        "message": "Beep quando il canale AUX è impostato per beeppare o beeppa in sequenza per indicare quanti satelliti sono stati trovati se il GPS è abilitato."
-    },
-    "beeperDISARM_REPEAT": {
-        "message": "Beep quando lo stick è mantenuto in posizione di disarmo"
-    },
     "beeperACC_CALIBRATION": {
         "message": "Conferma calibrazione involo degli Accelerometri eseguita"
     },
@@ -959,14 +947,11 @@
     "beeperREADY_BEEP": {
         "message": "Emetti un tono quando il GPS è agganciato e pronto"
     },
-    "beeperARMED": {
-        "message": "Beep di avvertimento quando la scheda è armata (si ripete fino a quando la scheda non viene disarmata o il gas non è aumentato)"
+    "beeperDISARM_REPEAT": {
+        "message": "Beep quando lo stick è mantenuto in posizione di disarmo"
     },
     "beeperSYSTEM_INIT": {
         "message": "Beep di inizializzazone quando la scheda viene accesa"
-    },
-    "beeperUSB": {
-        "message": "Beep quando il controllore di volo è alimentato da USB. Disabilita questo se non desideri i beep durante le prove"
     },
     "beeperBLACKBOX_ERASE": {
         "message": "Beep quando la cancellazione del blackbox è stata completata"
