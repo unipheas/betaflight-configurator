@@ -898,12 +898,6 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Inilah nilai yang di kirim ke ESC ketika pesawat itu di lucuti senjata. Tetapkan ini pada nilai yang menyebabkan motor berhenti (1000 untuk kebanyakan ESC)."
     },
-    "configurationDshotBeeper": {
-        "message": "Konfigurasi Beacon DSHOT"
-    },
-    "configurationUseDshotBeeper": {
-        "message": "Gunakan suar DSHOT (gunakan motor untuk berbunyi bip saat dilucuti senjata)"
-    },
     "configurationDshotBeaconTone": {
         "message": "Nada Beacon"
     },
@@ -934,12 +928,6 @@
     "beeperBAT_LOW": {
         "message": "Bunyi peringatan ketika baterai sudah mulai rendah (berulang)"
     },
-    "beeperRX_SET": {
-        "message": "Berbunyi ketika saluran aux diatur untuk berbunyi atau urutan bunyi seberapa banyak satelit sudah ditemukan apabila GPS diaktifkan"
-    },
-    "beeperDISARM_REPEAT": {
-        "message": "Bunyi beep terdengar sambil tetap memegang posisi melucuti senjata"
-    },
     "beeperACC_CALIBRATION": {
         "message": "Kalibrasi dalam penerbangan akselerometer konfirmasi selesai"
     },
@@ -949,14 +937,11 @@
     "beeperREADY_BEEP": {
         "message": "Deringkan sebuah nada ketika GPS terkunci dan siap"
     },
-    "beeperARMED": {
-        "message": "Peringatan berbunyi beep ketika board dipersenjatai (mengulangi sampai board dilucuti atau throttle dinaikkan)"
+    "beeperDISARM_REPEAT": {
+        "message": "Bunyi beep terdengar sambil tetap memegang posisi melucuti senjata"
     },
     "beeperSYSTEM_INIT": {
         "message": "Initialisation beep saat board dinyalakan"
-    },
-    "beeperUSB": {
-        "message": "Beep ketika pengontrol terbang diaktifkan dari USB. Matikan ini bila anda tidak ingin pager di meja kerja"
     },
     "beeperBLACKBOX_ERASE": {
         "message": "Bunyikan saat penghapusan kotak hitam selesai"
