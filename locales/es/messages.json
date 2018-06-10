@@ -908,12 +908,6 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Este es el valor que se envía a los ESC cuando la aeronave está desarmada. Ajústalo a un valor que haga que los motores estén parados (1000 para la mayoría de ESCs)."
     },
-    "configurationDshotBeeper": {
-        "message": "Configuración de Baliza DSHOT"
-    },
-    "configurationUseDshotBeeper": {
-        "message": "Usar baliza DSHOT (usa los motores para emitir pitidos cuando está desarmado)"
-    },
     "configurationDshotBeaconTone": {
         "message": "Tono de la Baliza"
     },
@@ -944,12 +938,6 @@
     "beeperBAT_LOW": {
         "message": "Pitidos de aviso cuando la batería está baja (repite)"
     },
-    "beeperRX_SET": {
-        "message": "Pita cuando el canal auxiliar está configurado para pitar o secuencia de pitidos de cuantos satélites ha encontrado si el GPS está activado"
-    },
-    "beeperDISARM_REPEAT": {
-        "message": "Suenan pitidos mientras la palanca está en posición desarmado"
-    },
     "beeperACC_CALIBRATION": {
         "message": "Confirmación de calibración de acelerómetro en vuelo completada"
     },
@@ -959,14 +947,11 @@
     "beeperREADY_BEEP": {
         "message": "Suena un tono cuando el GPS está fijado y disponible"
     },
-    "beeperARMED": {
-        "message": "Pitidos de aviso cuando la placa está armada (repite hasta que la placa está desarmada o el acelerador se incrementa)"
+    "beeperDISARM_REPEAT": {
+        "message": "Suenan pitidos mientras la palanca está en posición desarmado"
     },
     "beeperSYSTEM_INIT": {
         "message": "Pitidos de inicialización cuando la placa se enciende"
-    },
-    "beeperUSB": {
-        "message": "Pita cuando el controlador de vuelo se enciende desde el USB. Desactiva esto si no quieres pitidos en tu banco de trabajo"
     },
     "beeperBLACKBOX_ERASE": {
         "message": "Pita cuando el borrado de la caja negra finaliza"
