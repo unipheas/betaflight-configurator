@@ -782,12 +782,6 @@
     "beeperBAT_LOW": {
         "message": "Ismétlődő figyelmeztetőcsipogások, ha az akkumulátorfeszültség alacsony"
     },
-    "beeperRX_SET": {
-        "message": "Csipog, ha az AUX csatorna csipogásra van állítva, vagy csipogja hány műholdat talált ha a GPS bemérés engedélyezett"
-    },
-    "beeperDISARM_REPEAT": {
-        "message": "Csipog, ha a gázkar biztosító pozícióban áll"
-    },
     "beeperACC_CALIBRATION": {
         "message": "Gyorsulásmérő repülés közbeni kalibrációja sikeresen befejeződött jelzés"
     },
@@ -797,14 +791,11 @@
     "beeperREADY_BEEP": {
         "message": "Jelt ad, mikor a GPS bemérés befejeződött"
     },
-    "beeperARMED": {
-        "message": "Figyelmeztető csipogás, ha repülésirányító élesítve (folytatja, míg vissza nincs biztosítva, vagy a gázállás nem nő)"
+    "beeperDISARM_REPEAT": {
+        "message": "Csipog, ha a gázkar biztosító pozícióban áll"
     },
     "beeperSYSTEM_INIT": {
         "message": "Bejelentkező csipogás, mikor a csipp áram alá kerül"
-    },
-    "beeperUSB": {
-        "message": "Csipog, ha a repülésirányító USB-ről van táplálva. Kikapcsolása elnémítja az eszközt szerelés közben"
     },
     "beeperBLACKBOX_ERASE": {
         "message": "Csipog, ha a feketedoboz törlése befejeződött"
