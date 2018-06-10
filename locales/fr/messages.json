@@ -908,12 +908,6 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Valeur envoyée aux ESC lorsque la machine est désarmée. Renseigner une valeur pour laquelle les moteurs ne tournent pas (1000 pour la plupart des ESC)."
     },
-    "configurationDshotBeeper": {
-        "message": "Configuration de Beacon DSHOT"
-    },
-    "configurationUseDshotBeeper": {
-        "message": "Utiliser les beacon DSHOT (les moteurs bipent lorsqu'ils sont désarmés)"
-    },
     "configurationDshotBeaconTone": {
         "message": "Beacon tonalité"
     },
@@ -944,12 +938,6 @@
     "beeperBAT_LOW": {
         "message": "Bip avertisseur sur batterie faible (de façon répétée)"
     },
-    "beeperRX_SET": {
-        "message": "Bip quand  le canal auxiliaire est réglé pour biper ou fait une série de bips pour indiquer le nombre de satellites trouvés si le GPS est activé"
-    },
-    "beeperDISARM_REPEAT": {
-        "message": "Bip tant que le switch est en position désarmée"
-    },
     "beeperACC_CALIBRATION": {
         "message": "Calibration en vol de l'accéléromètre confirmée"
     },
@@ -959,14 +947,11 @@
     "beeperREADY_BEEP": {
         "message": "Émettre un son lorsque le GPS est verrouillé et prêt"
     },
-    "beeperARMED": {
-        "message": "Bips d'avertissement quand la carte est armée (actifs jusqu'à ce que la carte soit désarmée ou le throttle augmenté)"
+    "beeperDISARM_REPEAT": {
+        "message": "Bip tant que le switch est en position désarmée"
     },
     "beeperSYSTEM_INIT": {
         "message": "Bips d'initialisation lorsque la carte est mise sous tension"
-    },
-    "beeperUSB": {
-        "message": "Bip lorsque le contrôleur de vol est alimenté par USB. Passez à zéro si vous voulez désactiver le bipeur sur le plan de travail"
     },
     "beeperBLACKBOX_ERASE": {
         "message": "Bip lorsque le formatage du log est terminé"
