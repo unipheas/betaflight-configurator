@@ -433,12 +433,6 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Bu, craft devredışı bırakıldığında ESC'ye gönderilen değerdir. Bunu motorların durduğu bir değere ayarlayınız (çoğu ESC için 1000)."
     },
-    "configurationDshotBeeper": {
-        "message": "DSHOT Sinyal Yapılandırması"
-    },
-    "configurationUseDshotBeeper": {
-        "message": "DSHOT sinyalini kullan (boşaltıldığında bip sesi vermek için motorları kullanın)"
-    },
     "configurationDshotBeaconTone": {
         "message": "Sinyal Tonu"
     },
@@ -457,12 +451,6 @@
     "beeperARMING_GPS_FIX": {
         "message": "Tahtayı kurarken özel bir bip sesi ver ve GPS'i düzelt"
     },
-    "beeperRX_SET": {
-        "message": "Aux kanalı ayarlandığında bip sesi ver veya GPS etkinken bulunan uydu sayısı kadar bip sesi dizesi ver"
-    },
-    "beeperDISARM_REPEAT": {
-        "message": "Çubuk serbest pozisyonda bırakıldığında bip sesleri duyuldu"
-    },
     "beeperACC_CALIBRATION": {
         "message": "Uçak içi ivme ölçer kalibrasyonu tamamlandı onayı"
     },
@@ -471,6 +459,9 @@
     },
     "beeperREADY_BEEP": {
         "message": "GPS kilitlenip hazır olduğunda bir ton çal"
+    },
+    "beeperDISARM_REPEAT": {
+        "message": "Çubuk serbest pozisyonda bırakıldığında bip sesleri duyuldu"
     },
     "configuration3dDeadbandThrottle": {
         "message": "3D Deadband Boğazı"
