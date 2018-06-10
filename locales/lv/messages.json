@@ -908,12 +908,6 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Šī ir vērtība, kas tiek sūtīta uz ESC, kad gaisa kuģis ir deaktivēts. Uzstādi vērtību pie kura motori ir apstājušies (1000 priekš lielākās ESC daļas)."
     },
-    "configurationDshotBeeper": {
-        "message": "DSHOT skaņas signālu konfigurācija"
-    },
-    "configurationUseDshotBeeper": {
-        "message": "Lieto DSHOT skaņas signālus (lietot motorus lai atskaņotu pīkstienus, kad deaktivē)"
-    },
     "configurationDshotBeaconTone": {
         "message": "Skaņas signāla tonis"
     },
@@ -944,12 +938,6 @@
     "beeperBAT_LOW": {
         "message": "Brīdinājuma pīkstieni, kad akumulatora līmenis ir zems (atkārtojas)"
     },
-    "beeperRX_SET": {
-        "message": "Pīkstēt, kad aux kanāls ir uzstādīts uz pīkstēšanu vai pīkstienu rinda, cik daudz satelītu ir atrasts, ja GPS ir ieslēgts"
-    },
-    "beeperDISARM_REPEAT": {
-        "message": "Pīkstēt kamēr vadības svira tiek turēta dezaktivācijas režīmā"
-    },
     "beeperACC_CALIBRATION": {
         "message": "Lidojuma laikā akselerometra kalibrēšanas pabeigšanas apstiprinājums"
     },
@@ -959,14 +947,11 @@
     "beeperREADY_BEEP": {
         "message": "Nospēlēt toni, kad GPS ir nofiksējies un gatavs"
     },
-    "beeperARMED": {
-        "message": "Brīdinājuma pīkstieni, kad plate tiek aktivizēta (atkārtojas kamēr plate nav deaktivēta vai droseles vērtība netiek palielināta)"
+    "beeperDISARM_REPEAT": {
+        "message": "Pīkstēt kamēr vadības svira tiek turēta dezaktivācijas režīmā"
     },
     "beeperSYSTEM_INIT": {
         "message": "Inicializēšanas pīkstieni, kad plate tiek ieslēgta"
-    },
-    "beeperUSB": {
-        "message": "Pīkstēt, kad lidojuma kontrolieris ir ieslēgts caur USB. Atslēdziet šo, kad jūs negribat, lai tas pīkst uz darbagalda"
     },
     "beeperBLACKBOX_ERASE": {
         "message": "Pīkstēt, kad melnās kastes dzēšana pabeigta"
