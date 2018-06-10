@@ -908,12 +908,6 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "これは機体がディスアームされたときにESCに送信される値です。この値をモーターを停止させる値に設定して下さい。(殆どのESCは1000)"
     },
-    "configurationDshotBeeper": {
-        "message": "DSHOTビーコンの設定"
-    },
-    "configurationUseDshotBeeper": {
-        "message": "DSHOTビーコンを使用 (ディスアーム時にビープ音を鳴らすためモーターを使用)"
-    },
     "configurationDshotBeaconTone": {
         "message": "ビーコントーン"
     },
@@ -944,12 +938,6 @@
     "beeperBAT_LOW": {
         "message": "バッテリーが少ないときの警告ビープ音 (リピート)"
     },
-    "beeperRX_SET": {
-        "message": "AUXチャンネルでビープ音を鳴らすよう設定、またはGPSが有効な際にいくつかの衛星が検出された場合のビープ音"
-    },
-    "beeperDISARM_REPEAT": {
-        "message": "スティックが無効位置にあるときのビープ音"
-    },
     "beeperACC_CALIBRATION": {
         "message": "水平 キャリブレーションの完了確認時のビープ音"
     },
@@ -959,14 +947,11 @@
     "beeperREADY_BEEP": {
         "message": "GPSの捕捉と準備ができたときのトーン音"
     },
-    "beeperARMED": {
-        "message": "FCボードが作動しているときの警告ビープ音 (FCボードが無効、またはスロットルが上がるまでリピート)"
+    "beeperDISARM_REPEAT": {
+        "message": "スティックが無効位置にあるときのビープ音"
     },
     "beeperSYSTEM_INIT": {
         "message": "FCボードに電源が入ったときの初期ビープ音"
-    },
-    "beeperUSB": {
-        "message": "フライトコントローラがUSB給電されたときのビープ音 (機体作成時に鳴らしたくない場合はオフにする)"
     },
     "beeperBLACKBOX_ERASE": {
         "message": "ブラックボックスログ消去が完了したときのビープ音"
