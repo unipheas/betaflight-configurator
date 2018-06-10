@@ -908,12 +908,6 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Este é o valor que é enviado para os ESCs quando a aeronave está desarmada. Defina um valor em que os motores fiquem parados (1000 para a maioria dos ESCs)."
     },
-    "configurationDshotBeeper": {
-        "message": "Configuração do sinalizador para DSHOT"
-    },
-    "configurationUseDshotBeeper": {
-        "message": "Usar o sinalizador do DSHOT (usar os motores para emitir tons quando desarmado)"
-    },
     "configurationDshotBeaconTone": {
         "message": "Tom do sinalizador"
     },
@@ -944,12 +938,6 @@
     "beeperBAT_LOW": {
         "message": "Emite sinais sonoros quando a bateria estiver ficando fraca (repete)"
     },
-    "beeperRX_SET": {
-        "message": "Emite um sinal sonoro quando o canal auxiliar estiver definido para emitir sinais sonoros ou emite uma sequência de sinais sonoros conforme o número de satélites encontrados se o GPS estiver ativado"
-    },
-    "beeperDISARM_REPEAT": {
-        "message": "Sinais sonoros emitidos quando segurar o stick na posição de desarmar"
-    },
     "beeperACC_CALIBRATION": {
         "message": "Confirmação de calibração do acelerômetro concluída durante o voo"
     },
@@ -959,14 +947,11 @@
     "beeperREADY_BEEP": {
         "message": "Emitir um tom quando o GPS estiver localizado e pronto"
     },
-    "beeperARMED": {
-        "message": "Sinais sonoros de aviso quando a placa está armada (repete até que a placa seja desarmada ou o throttle é aumentado)"
+    "beeperDISARM_REPEAT": {
+        "message": "Sinais sonoros emitidos quando segurar o stick na posição de desarmar"
     },
     "beeperSYSTEM_INIT": {
         "message": "Sinais sonoros de inicialização quando a placa é ligada"
-    },
-    "beeperUSB": {
-        "message": "Emitir um sinal sonoro quando o controlador de voo recebe energia via USB. Desligue esta opção se não desejar sons na bancada"
     },
     "beeperBLACKBOX_ERASE": {
         "message": "Emitir um sinal sonoro quando a Caixa Preta é completamente apagada"
