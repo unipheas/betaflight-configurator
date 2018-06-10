@@ -908,12 +908,6 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "这个数值是飞控锁定电机时发给电调的数值。将它设定为可以让电机停转的数值。（对大部分电调而言该值是1000）"
     },
-    "configurationDshotBeeper": {
-        "message": "DSHOT 信标配置"
-    },
-    "configurationUseDshotBeeper": {
-        "message": "使用 DSHOT 信标 （处于锁定状态时可以使用电机来发出蜂鸣声）"
-    },
     "configurationDshotBeaconTone": {
         "message": "信标音调"
     },
@@ -944,12 +938,6 @@
     "beeperBAT_LOW": {
         "message": "当电池电压偏低时重复鸣叫"
     },
-    "beeperRX_SET": {
-        "message": "当 Aux 开关设定为鸣叫时鸣叫，或在启用 GPS 时鸣叫接收到的卫星数"
-    },
-    "beeperDISARM_REPEAT": {
-        "message": "摇杆保持在锁定位置时鸣叫"
-    },
     "beeperACC_CALIBRATION": {
         "message": "加速度计飞行中校准完成"
     },
@@ -959,14 +947,11 @@
     "beeperREADY_BEEP": {
         "message": "当 GPS 锁定卫星且就绪时发出铃声"
     },
-    "beeperARMED": {
-        "message": "飞控解锁后持续发出警告鸣叫直到上推油门或重新锁定"
+    "beeperDISARM_REPEAT": {
+        "message": "摇杆保持在锁定位置时鸣叫"
     },
     "beeperSYSTEM_INIT": {
         "message": "飞控上电时鸣叫初始化音"
-    },
-    "beeperUSB": {
-        "message": "通过 USB 连接飞控时启用蜂鸣器。不想在调试时听到鸣叫可禁用这个选项。"
     },
     "beeperBLACKBOX_ERASE": {
         "message": "黑匣子擦除完成时鸣叫"
