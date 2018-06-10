@@ -898,12 +898,6 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Aquest és el valor que s'envia als ESCs quan l'aeronau està desarmada. Posa-ho a un valor que mantingui els motors parats (1000 a la majoria d'ESCs)."
     },
-    "configurationDshotBeeper": {
-        "message": "Configuració del Beacon DSHOT"
-    },
-    "configurationUseDshotBeeper": {
-        "message": "Fes servir el Beacon DSHOT (fes servir els motors per sonar quan està desarmat)"
-    },
     "configurationDshotBeaconTone": {
         "message": "To de Beacon"
     },
@@ -934,12 +928,6 @@
     "beeperBAT_LOW": {
         "message": "Sona quan la bateria s'està exhaurint (es repeteix)"
     },
-    "beeperRX_SET": {
-        "message": "Sona quan un canal auxiliar està configurat per indicar quants satèŀlits ha trobat el GPS si està habilitat aquest"
-    },
-    "beeperDISARM_REPEAT": {
-        "message": "Sona quan mantens l'stick a la posició de desarmat"
-    },
     "beeperACC_CALIBRATION": {
         "message": "Confirmació de calibració de l'acceleròmetre completada"
     },
@@ -949,14 +937,11 @@
     "beeperREADY_BEEP": {
         "message": "Sona quan el GPS estigui llest"
     },
-    "beeperARMED": {
-        "message": "Sona quan la controladora està connectada (es repeteix fins que la controladora està desconnectada o s'incrementa l'accelerador)"
+    "beeperDISARM_REPEAT": {
+        "message": "Sona quan mantens l'stick a la posició de desarmat"
     },
     "beeperSYSTEM_INIT": {
         "message": "Sons d'inicialització quan arrenca la controladora"
-    },
-    "beeperUSB": {
-        "message": "Sona quan alimentes la controladora des d'USB. Desactiva-ho quan no vulguis escoltar-ho al taller"
     },
     "beeperBLACKBOX_ERASE": {
         "message": "Sona quan l'esborrat de blackbox s'hagi completat"
