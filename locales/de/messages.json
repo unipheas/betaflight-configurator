@@ -892,12 +892,6 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Das ist der Wert der an die Regler geschickt wird wenn disarmt ist. Setze diesen Wert so tief das die Motoren stoppen (in der Regel auf 1000)."
     },
-    "configurationDshotBeeper": {
-        "message": "DSHOT Beacon Konfiguration"
-    },
-    "configurationUseDshotBeeper": {
-        "message": "Benutze DSHOT Beacon (Motoren erzeugen Signalton wenn disarmed)"
-    },
     "configurationDshotBeaconTone": {
         "message": "Beacon Ton"
     },
@@ -928,12 +922,6 @@
     "beeperBAT_LOW": {
         "message": "Piepse falls die Batteriespannung gering ist"
     },
-    "beeperRX_SET": {
-        "message": "Piepsen wenn Aux Kanal dafür gesetzt wurde oder piepst eine Sequenz bei aktiviertem GPS je nachdem wie viele Satelliten gefunden wurden "
-    },
-    "beeperDISARM_REPEAT": {
-        "message": "Piepst solange der Stick in disarm Position gehalten wird"
-    },
     "beeperACC_CALIBRATION": {
         "message": "Kalibrierung des Beschleunigungssensor im Flug erfolgreich"
     },
@@ -943,14 +931,11 @@
     "beeperREADY_BEEP": {
         "message": "Spiele einen Ton wenn dsa GPS eine Position hat und bereit ist"
     },
-    "beeperARMED": {
-        "message": "Warnpiepsen wenn das Board gearmt wurde (bis zum disarm oder Gas geben)"
+    "beeperDISARM_REPEAT": {
+        "message": "Piepst solange der Stick in disarm Position gehalten wird"
     },
     "beeperSYSTEM_INIT": {
         "message": "Einschaltpiepsen wenn das Board hochgefahren wurde"
-    },
-    "beeperUSB": {
-        "message": "Piepsen wenn Flugcontroller über USB angeschlossen ist. Abschalten um am Schreibtisch seine Ruhe zu haben :)"
     },
     "beeperBLACKBOX_ERASE": {
         "message": "Piepsen wen Blackbox Log löschen erfolgreich"
