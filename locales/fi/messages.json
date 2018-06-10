@@ -878,12 +878,6 @@
     "beeperBAT_LOW": {
         "message": "Toista äänimerkki varoittaen akun matalasta varauksesta (toistuva)"
     },
-    "beeperRX_SET": {
-        "message": "Toista äänimerkki kun AUX-kanava on määritetty piippariasentoon, tai toista löytyneiden GPS-satelliittien määrää vastaava äänimerkki"
-    },
-    "beeperDISARM_REPEAT": {
-        "message": "Toista äänimerkki kun tikkua pidetään moottoreiden poiskytkentäasennossa"
-    },
     "beeperACC_CALIBRATION": {
         "message": "Vahvistus kiihtyvyysanturin lennonaikaisen kalibroinnin suorituksesta"
     },
@@ -893,14 +887,11 @@
     "beeperREADY_BEEP": {
         "message": "Toista äänimerkki kun GPS on lukittu ja valmiina"
     },
-    "beeperARMED": {
-        "message": "Varoitusääni kuuluu kun moottorit ovat käytössä (toistuu kunnes moottorit sammutetaan tai kaasua lisätään)"
+    "beeperDISARM_REPEAT": {
+        "message": "Toista äänimerkki kun tikkua pidetään moottoreiden poiskytkentäasennossa"
     },
     "beeperSYSTEM_INIT": {
         "message": "Äänimerkki toistetaan kun lento-ohjaimeen kytketään virrat"
-    },
-    "beeperUSB": {
-        "message": "Äänimerkki käytössä kun lento-ohjain saa virtansa USB:n kautta. Laita tämä pois päältä jos et halua kuulla äänimerkkiä säätäessäsi lento-ohjainta."
     },
     "beeperBLACKBOX_ERASE": {
         "message": "Toista äänimerkki kun Blackbox:n tyhjennys on valmis"
