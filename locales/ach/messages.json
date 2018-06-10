@@ -949,10 +949,10 @@
         "message": "crwdns5609:0crwdne5609:0"
     },
     "configurationDshotBeeper": {
-        "message": "crwdns6384:0crwdne6384:0"
+        "message": "crwdns8754:0crwdne8754:0"
     },
     "configurationUseDshotBeeper": {
-        "message": "crwdns6385:0crwdne6385:0"
+        "message": "crwdns8755:0crwdne8755:0"
     },
     "configurationDshotBeaconTone": {
         "message": "crwdns6386:0crwdne6386:0"
@@ -985,13 +985,10 @@
         "message": "crwdns5618:0crwdne5618:0"
     },
     "beeperGPS_STATUS": {
-        "message": "crwdns5619:0crwdne5619:0"
+        "message": "crwdns8756:0crwdne8756:0"
     },
     "beeperRX_SET": {
-        "message": "crwdns5620:0crwdne5620:0"
-    },
-    "beeperDISARM_REPEAT": {
-        "message": "crwdns5621:0crwdne5621:0"
+        "message": "crwdns8757:0crwdne8757:0"
     },
     "beeperACC_CALIBRATION": {
         "message": "crwdns5622:0crwdne5622:0"
@@ -1005,17 +1002,29 @@
     "beeperMULTI_BEEPS": {
         "message": "crwdns5625:0crwdne5625:0"
     },
+    "beeperDISARM_REPEAT": {
+        "message": "crwdns5621:0crwdne5621:0"
+    },
     "beeperARMED": {
-        "message": "crwdns5626:0crwdne5626:0"
+        "message": "crwdns8758:0crwdne8758:0"
     },
     "beeperSYSTEM_INIT": {
         "message": "crwdns5627:0crwdne5627:0"
     },
     "beeperUSB": {
-        "message": "crwdns5628:0crwdne5628:0"
+        "message": "crwdns8759:0crwdne8759:0"
     },
     "beeperBLACKBOX_ERASE": {
         "message": "crwdns5629:0crwdne5629:0"
+    },
+    "beeperCRASH_FLIP": {
+        "message": "crwdns8760:0crwdne8760:0"
+    },
+    "beeperCAM_CONNECTION_OPEN": {
+        "message": "crwdns8761:0crwdne8761:0"
+    },
+    "beeperCAM_CONNECTION_CLOSE": {
+        "message": "crwdns8762:0crwdne8762:0"
     },
     "configuration3d": {
         "message": "crwdns5630:0crwdne5630:0"
