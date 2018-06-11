@@ -908,6 +908,12 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "これは機体がディスアームされたときにESCに送信される値です。この値をモーターを停止させる値に設定して下さい。(殆どのESCは1000)"
     },
+    "configurationDshotBeeper": {
+        "message": "Dshotビーコン設定"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "Dshotビーコンを使用 (ディスアーム時にモーターを使ってビープ音を鳴らす)"
+    },
     "configurationDshotBeaconTone": {
         "message": "ビーコントーン"
     },
@@ -938,6 +944,12 @@
     "beeperBAT_LOW": {
         "message": "バッテリーが少ないときの警告ビープ音 (リピート)"
     },
+    "beeperGPS_STATUS": {
+        "message": "ビープ数を使用して、GPS衛星の検出数を示します"
+    },
+    "beeperRX_SET": {
+        "message": "ビープをAUXチャンネルに設定しているときのビープ音"
+    },
     "beeperACC_CALIBRATION": {
         "message": "水平 キャリブレーションの完了確認時のビープ音"
     },
@@ -950,11 +962,26 @@
     "beeperDISARM_REPEAT": {
         "message": "スティックが無効位置にあるときのビープ音"
     },
+    "beeperARMED": {
+        "message": "アイドル時にモーターがオフになっているときの警告ビープ音 (FCボードが無効、またはスロットルが上がるまでリピート)"
+    },
     "beeperSYSTEM_INIT": {
         "message": "FCボードに電源が入ったときの初期ビープ音"
     },
+    "beeperUSB": {
+        "message": "フライトコントローラがUSBから給電されたときのビープ音 (機体作成時に鳴らしたくない場合はオフにする)"
+    },
     "beeperBLACKBOX_ERASE": {
         "message": "ブラックボックスログ消去が完了したときのビープ音"
+    },
+    "beeperCRASH_FLIP": {
+        "message": "クラッシュフリップモードをオンしたときのビープ音"
+    },
+    "beeperCAM_CONNECTION_OPEN": {
+        "message": "5つのキーによるカメラ操作を実行したときのビープ音"
+    },
+    "beeperCAM_CONNECTION_CLOSE": {
+        "message": "5つのキーによるカメラ操作を終了したときのビープ音"
     },
     "configuration3d": {
         "message": "3D ESC \/ モーター機能"
@@ -1164,16 +1191,19 @@
         "message": "RC補間間隔 [ms]"
     },
     "pidTuningDtermSetpointTransition": {
-        "message": "D値セットポイント 遷移"
+        "message": "D値 セットポイント 遷移"
     },
     "pidTuningDtermSetpoint": {
-        "message": "D値セットポイント 影響力"
+        "message": "D値 セットポイント 影響力"
     },
     "pidTuningDtermSetpointTransitionHelp": {
         "message": "このパラメータを使用すると、D値セットポイントの影響力をスティック中央近くで減らすことができ、その結果フリップおよびロール時のエンドアクションがスムーズになります。<br> この値はスティック偏向点を表します。0-スティック中心、1-完全偏向です。スティックがその値を上回ると、設定値の影響力は一定に保たれます。スティックがその値以下に位置すると、設定値の影響力は比例して減少し、スティックの中心位置で0になります。<br> 1の値はスムージング効果を最大にし、0の値はスティック範囲全体にわたって設定値に固定します。"
     },
     "pidTuningDtermSetpointHelp": {
         "message": "このパラメータは、D値におけるスティック加速効果を決定します。<br> 0の値はD値がジャイロのみを追従した古い測定方式、1の値はジャイロとスティック操作範囲を追従した古いエラー検出方式と同一です。<br>低い値は、ゆっくり \/ スムースなスティックレスポンスに、高い値はスティック加速レスポンスとなります。<br>RC補間は、制御キックバックノイズを発生しないよう高めの値にすることを推奨します。"
+    },
+    "pidTuningDtermSetpointTransitionWarning": {
+        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong> 0より大きく0.1より小さいD値セットポイントの設定はしないでください。スティックが中心を横切るときに不安定となり、スティック応答性が低下する可能性があります。<\/span>"
     },
     "pidTuningProportional": {
         "message": "Proportional"
@@ -2514,6 +2544,69 @@
     },
     "pidTuningNonProfileFilterSettings": {
         "message": "Profile毎のPID制御設定"
+    },
+    "pidTuningGyroLowpassFiltersGroup": {
+        "message": "ジャイロ ローパスフィルター"
+    },
+    "pidTuningGyroLowpassFrequency": {
+        "message": "ジャイロ ローパス1 カットオフ周波数 [Hz]"
+    },
+    "pidTuningGyroLowpassType": {
+        "message": "ジャイロ ローパス1 フィルタータイプ"
+    },
+    "pidTuningGyroLowpass2Frequency": {
+        "message": "ジャイロ ローパス2 カットオフ周波数 [Hz]"
+    },
+    "pidTuningGyroLowpass2Type": {
+        "message": "ジャイロ ローパス2 フィルタータイプ"
+    },
+    "pidTuningGyroNotchFiltersGroup": {
+        "message": "ジャイロ ノッチフィルター"
+    },
+    "pidTuningGyroNotch1Frequency": {
+        "message": "ジャイロ ノッチフィルター1 中心周波数 [Hz]"
+    },
+    "pidTuningGyroNotch2Frequency": {
+        "message": "ジャイロ ノッチフィルター2 中心周波数 [Hz]"
+    },
+    "pidTuningGyroNotch1Cutoff": {
+        "message": "ジャイロ ノッチフィルター1 カットオフ周波数 [Hz]"
+    },
+    "pidTuningGyroNotch2Cutoff": {
+        "message": "ジャイロ ノッチフィルター2 カットオフ周波数 [Hz]"
+    },
+    "pidTuningNotchFilterHelp": {
+        "message": "ノッチフィルターには中心周波数とカットオフ周波数があります。 フィルターは対称となり、 中心周波数はフィルターの中心位置で、カットオフ周波数はノッチフィルターの開始位置となります。 たとえばノッチフィルター カットオフ周波数が160Hz、ノッチフィルター中心周波数が260Hzの場合、範囲は160〜360Hzとなり、中心付近の減衰が最も大きくなります。"
+    },
+    "pidTuningFilterSettings": {
+        "message": "プロファイル毎のフィルター設定"
+    },
+    "pidTuningDTermLowpassFiltersGroup": {
+        "message": "D値 ローパスフィルター"
+    },
+    "pidTuningDTermLowpassType": {
+        "message": "D値 ローパス1 フィルタータイプ"
+    },
+    "pidTuningDTermLowpassFrequency": {
+        "message": "D値 ローパス1 カットオフ周波数 [Hz]"
+    },
+    "pidTuningDTermLowpass2Frequency": {
+        "message": "D値 ローパス2 カットオフ周波数 [Hz]"
+    },
+    "pidTuningDTermNotchFiltersGroup": {
+        "message": "D値 ノッチフィルター"
+    },
+    "pidTuningDTermNotchFrequency": {
+        "message": "D値 ノッチフィルター 中心周波数 [Hz]"
+    },
+    "pidTuningDTermNotchCutoff": {
+        "message": "D値 ノッチフィルター カットオフ周波数 [Hz]"
+    },
+    "pidTuningYawLospassFiltersGroup": {
+        "message": "ヨー ローパスフィルター"
+    },
+    "pidTuningYawLowpassFrequency": {
+        "message": "ヨー ローパス カットオフ周波数 [Hz]"
     },
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID補正"
