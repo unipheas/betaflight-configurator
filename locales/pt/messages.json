@@ -908,6 +908,12 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Este é o valor que é enviado para os ESCs quando a aeronave está desarmada. Defina um valor em que os motores fiquem parados (1000 para a maioria dos ESCs)."
     },
+    "configurationDshotBeeper": {
+        "message": "Configuração do sinalizador para Dshot"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "Usar o sinalizador do Dshot (usar os motores para emitir tons quando desarmado)"
+    },
     "configurationDshotBeaconTone": {
         "message": "Tom do sinalizador"
     },
@@ -938,6 +944,12 @@
     "beeperBAT_LOW": {
         "message": "Emite sinais sonoros quando a bateria estiver ficando fraca (repete)"
     },
+    "beeperGPS_STATUS": {
+        "message": "Use a quantidade de tons para indicar quantos satélites GPS foram encontrados"
+    },
+    "beeperRX_SET": {
+        "message": "Emite um sinal sonoro quando o canal aux estiver configurado para tons"
+    },
     "beeperACC_CALIBRATION": {
         "message": "Confirmação de calibração do acelerômetro concluída durante o voo"
     },
@@ -949,6 +961,9 @@
     },
     "beeperDISARM_REPEAT": {
         "message": "Sinais sonoros emitidos quando segurar o stick na posição de desarmar"
+    },
+    "beeperARMED": {
+        "message": "Sinal sonoro de alerta quando a placa estiver armada com os motores desligados quando ocioso (repete até que a placa seja desarmada ou o throttle é aumentado)"
     },
     "beeperSYSTEM_INIT": {
         "message": "Sinais sonoros de inicialização quando a placa é ligada"
