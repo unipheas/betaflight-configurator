@@ -333,7 +333,7 @@
         "message": "<b>Query ao GitHub para a versão $1 falhou, usando as informações em cache. Razão: <code>$2<\/code><\/b>"
     },
     "releaseCheckCached": {
-        "message": "Usando informações em cache para as versões $1."
+        "message": "Usando informações em cache para as versões do $1."
     },
     "releaseCheckNoInfo": {
         "message": "Nenhuma informação disponível para a versão $1."
