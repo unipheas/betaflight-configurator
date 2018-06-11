@@ -974,6 +974,9 @@
     "beeperBLACKBOX_ERASE": {
         "message": "Pīkstēt, kad melnās kastes dzēšana pabeigta"
     },
+    "beeperCRASH_FLIP": {
+        "message": "Pīkstēt kad avārijas apvelšanās režīms ir aktīvs"
+    },
     "beeperCAM_CONNECTION_OPEN": {
         "message": "Pīkstēt, kad 5 pogu kameras kontrole ir uzsākta"
     },
