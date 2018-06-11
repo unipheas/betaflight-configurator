@@ -1782,10 +1782,10 @@
         "message": "Servo - 8"
     },
     "motorsResetMaximumButton": {
-        "message": "Resetar"
+        "message": "Reiniciar"
     },
     "motorsResetMaximum": {
-        "message": "Resetar valor máximo no tempo"
+        "message": "Reiniciar tempo extra máximo"
     },
     "motorsSensorGyroSelect": {
         "message": "giroscópio"
@@ -1797,7 +1797,7 @@
         "message": "Mestre"
     },
     "motorsNotice": {
-        "message": "<strong>Aviso sobre o modo de Teste de Motor \/ Armar:<\/strong><br \/>Mover os sliders ou armar a sua aeronave com o transmissor irá fazer com que os motores <strong>girem<\/strong>.<br \/>Para evitar ferimentos, <strong class=\"message-negative\">remova TODAS as hélices<\/strong> antes de usar esta função.<br \/>Habilitar o modo de Teste de Motor também irá temporariamente desabilitar a Prevenção contra decolagem acidental, afim de evitar o desarme da aeronave enquanto estiver testando em sua bancada sem as hélices.<br \/>"
+        "message": "<strong>Aviso sobre o modo de Teste de Motor \/ Armar:<\/strong><br \/>Mover os sliders ou armar a sua aeronave com o transmissor irá fazer com que os motores <strong>girem<\/strong>.<br \/>Para evitar ferimentos, <strong class=\"message-negative\">remova TODAS as hélices<\/strong> antes de usar esta função.<br \/>Habilitar o modo de Teste de Motor também irá temporariamente desabilitar a Prevenção contra decolagem acidental, afim de evitar o desarme da aeronave enquanto estiver testando em sua bancada, sem as hélices.<br \/>"
     },
     "motorsEnableControl": {
         "message": "<strong>Eu entendo os riscos<\/strong>, as hélices foram removidas - habilitar o controle do motor, armar e desativar a Prevenção contra decolagem acidental."
@@ -1863,7 +1863,7 @@
         "message": "Salvar para arquivo"
     },
     "loggingNote": {
-        "message": "Os dados serão logados <span class=\"message-negative\">somente<\/span> nesta aba, sair da aba irá <span class=\"message-negative\">cancelar<\/span> o log e a aplicação irá retornar para seu estado <strong>\"cofigurador\"<\/strong> normal.<br \/> Você pode selecionar o período de atualização global, dados serão escritos no arquivo de log a cada <strong>1<\/strong> segundo por motivos de performance."
+        "message": "Os dados serão logados <span class=\"message-negative\">somente<\/span> nesta aba, sair da aba irá <span class=\"message-negative\">cancelar<\/span> o log e a aplicação irá retornar para seu estado <strong>\"configurador\"<\/strong> normal.<br \/> Você pode selecionar o período de atualização global, dados serão escritos no arquivo de log a cada <strong>1<\/strong> segundo por motivos de performance."
     },
     "loggingSamplesSaved": {
         "message": "Amostras Salvas:"
@@ -1920,7 +1920,7 @@
         "message": "Porta Serial"
     },
     "serialLoggingSupportedNote": {
-        "message": "Você pode logar em um dispositivo externo (como o OpenLog ou clone compativel) utilizando a porta serial. Configure a porta na aba de Portas."
+        "message": "Você pode fazer o log em um dispositivo externo (como o OpenLog ou clone compatível) utilizando a porta serial. Configure a porta na aba de Portas."
     },
     "sdcardNote": {
         "message": "Logs de voo podem ser salvos no Cartão SD a bordo do seu controlador de voo."
@@ -2696,7 +2696,7 @@
         "message": "Ação do switch do Failsafe"
     },
     "failsafeSwitchModeHelp": {
-        "message": "Esta opção determina o que acontece quando o Failsafe é ativado por um switch AUX:<br\/><strong>Estágio 1<\/strong> Ativa o estágio 1 do failsafe. Isto é util se você deseja simular o comportamento exato da perda de sinal.<br\/><strong>Estágio 2<\/strong> pula o 1º estágio e ativa o 2º procedimento imediatamente.<br\/><strong>Kill<\/strong> desarma instantaneamente (sua aeronave irá cair)"
+        "message": "Esta opção determina o que acontece quando o Failsafe é ativado por um switch AUX:<br\/><strong>Estágio 1<\/strong> Ativa o estágio 1 do failsafe. Isto é útil se você deseja simular o comportamento exato da perda de sinal.<br\/><strong>Estágio 2<\/strong> pula o 1º estágio e ativa o 2º procedimento imediatamente.<br\/><strong>Kill<\/strong> desarma instantaneamente (sua aeronave irá cair)"
     },
     "failsafeSwitchOptionStage1": {
         "message": "Estágio 1"
