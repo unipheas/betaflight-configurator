@@ -908,6 +908,12 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Este es el valor que se envía a los ESC cuando la aeronave está desarmada. Ajústalo a un valor que haga que los motores estén parados (1000 para la mayoría de ESCs)."
     },
+    "configurationDshotBeeper": {
+        "message": "Configuración de Baliza Dshot"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "Usar baliza Dshot (usa los motores para emitir avisos cuando está desarmado)"
+    },
     "configurationDshotBeaconTone": {
         "message": "Tono de la Baliza"
     },
@@ -938,6 +944,12 @@
     "beeperBAT_LOW": {
         "message": "Pitidos de aviso cuando la batería está baja (repite)"
     },
+    "beeperGPS_STATUS": {
+        "message": "Usa el número de pitidos para indicar cuantos satélites se han encontrado"
+    },
+    "beeperRX_SET": {
+        "message": "Pita cuando un canal aux se ha configurado para pitar"
+    },
     "beeperACC_CALIBRATION": {
         "message": "Confirmación de calibración de acelerómetro en vuelo completada"
     },
@@ -950,11 +962,26 @@
     "beeperDISARM_REPEAT": {
         "message": "Suenan pitidos mientras la palanca está en posición desarmado"
     },
+    "beeperARMED": {
+        "message": "Pitidos de aviso cuando la placa está armada y configurada para no girar motores al armar (se repite hasta que la placa se desarma o se incrementa el acelerador)"
+    },
     "beeperSYSTEM_INIT": {
         "message": "Pitidos de inicialización cuando la placa se enciende"
     },
+    "beeperUSB": {
+        "message": "Pita cuando el controlador de vuelo se alimenta desde el USB. Desactiva esto si no quieres pitidos en tu banco de trabajo"
+    },
     "beeperBLACKBOX_ERASE": {
         "message": "Pita cuando el borrado de la caja negra finaliza"
+    },
+    "beeperCRASH_FLIP": {
+        "message": "Pita cuando el modo boca abajo está activado"
+    },
+    "beeperCAM_CONNECTION_OPEN": {
+        "message": "Pita cuando se entra en el control de cámara de 5 teclas"
+    },
+    "beeperCAM_CONNECTION_CLOSE": {
+        "message": "Pita cuando se sale del control de cámara de 5 teclas"
     },
     "configuration3d": {
         "message": "3D"
