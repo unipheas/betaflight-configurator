@@ -908,6 +908,12 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Šī ir vērtība, kas tiek sūtīta uz ESC, kad gaisa kuģis ir deaktivēts. Uzstādi vērtību pie kura motori ir apstājušies (1000 priekš lielākās ESC daļas)."
     },
+    "configurationDshotBeeper": {
+        "message": "Dshot skaņas signālu konfigurācija"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "Lieto Dshot skaņas signālus (lietot motorus, lai atskaņotu pīkstienus, kad deaktivē)"
+    },
     "configurationDshotBeaconTone": {
         "message": "Skaņas signāla tonis"
     },
@@ -938,6 +944,12 @@
     "beeperBAT_LOW": {
         "message": "Brīdinājuma pīkstieni, kad akumulatora līmenis ir zems (atkārtojas)"
     },
+    "beeperGPS_STATUS": {
+        "message": "Pielietot noteiktu pīkstienu skaitu, lai reprezentētu cik GPS satelīti ir atrasti"
+    },
+    "beeperRX_SET": {
+        "message": "Pīkstēt kad aux kanāls ir uzstādīts uz pīkstēšanu"
+    },
     "beeperACC_CALIBRATION": {
         "message": "Lidojuma laikā akselerometra kalibrēšanas pabeigšanas apstiprinājums"
     },
@@ -950,11 +962,23 @@
     "beeperDISARM_REPEAT": {
         "message": "Pīkstēt kamēr vadības svira tiek turēta dezaktivācijas režīmā"
     },
+    "beeperARMED": {
+        "message": "Brīdinājuma pīkstieni, kad plate tiek aktivizēta (atkārtojas kamēr plate nav deaktivēta vai droseles vērtība netiek palielināta)"
+    },
     "beeperSYSTEM_INIT": {
         "message": "Inicializēšanas pīkstieni, kad plate tiek ieslēgta"
     },
+    "beeperUSB": {
+        "message": "Pīkstēt, kad lidojuma kontrolieris ir ieslēgts caur USB. Atslēdziet šo, kad jūs negribat, lai tas pīkst uz darbagalda"
+    },
     "beeperBLACKBOX_ERASE": {
         "message": "Pīkstēt, kad melnās kastes dzēšana pabeigta"
+    },
+    "beeperCAM_CONNECTION_OPEN": {
+        "message": "Pīkstēt, kad 5 pogu kameras kontrole ir uzsākta"
+    },
+    "beeperCAM_CONNECTION_CLOSE": {
+        "message": "Pīkstēt, kad 5 pogu kameras kontrole ir pabeigta"
     },
     "configuration3d": {
         "message": "3D ESC\/Motora iespējas"
