@@ -504,7 +504,7 @@
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
     "defaultSupport5": {
-        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Devs Betaflight no Slack<\/a>"
+        "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Programadores do Betaflight no Slack<\/a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span class=\"message-negative\">Funcionalidades de Backup e restauração desativadas.<\/span>Seu firmware está na versão <span class=\"message-negative\">$1<\/span> da API, O Backup e restauração requer a versão <span class=\"message-positive\">$2<\/span>. Por favor realize uma cópia de segurança via CLI, veja a documentação do Betaflight para o procedimento."
@@ -2957,7 +2957,7 @@
         "message": "Unidades"
     },
     "osdSetupTimersTitle": {
-        "message": "Timers"
+        "message": "Cronômetros"
     },
     "osdSetupAlarmsTitle": {
         "message": "Alarmes"
@@ -3029,7 +3029,7 @@
         "message": "Modo do Vídeo"
     },
     "osdSetupCameraConnected": {
-        "message": "Camera Conectada"
+        "message": "Câmera Conectada"
     },
     "osdSetupCameraConnectedValueYes": {
         "message": "Sim"
@@ -3167,10 +3167,10 @@
         "message": "Barra de bússola gráfica, mostrando a direção atual"
     },
     "osdDescElementTimer1": {
-        "message": "Mostra o valor do timer 1"
+        "message": "Mostra o valor do cronômetro 1"
     },
     "osdDescElementTimer2": {
-        "message": "Mostra o valor do timer 2"
+        "message": "Mostra o valor do cronômetro 2"
     },
     "osdDescElementRemaningTimeEstimate": {
         "message": "Tempo estimado de voo restante"
@@ -3218,10 +3218,10 @@
         "message": "Número do arquivo do registro da caixa preta"
     },
     "osdDescStatTimer1": {
-        "message": "Valor do timer 1 ao desarmar"
+        "message": "Valor do cronômetro 1 ao desarmar"
     },
     "osdDescStatTimer2": {
-        "message": "Valor do timer 2 ao desarmar"
+        "message": "Valor do cronômetro 2 ao desarmar"
     },
     "osdDescStatRtcDateTime": {
         "message": "Data e hora do relógio"
@@ -3233,19 +3233,19 @@
         "message": "Origem:"
     },
     "osdTimerSourceTooltip": {
-        "message": "Selecione a origem do timer, isto controla a duração\/evento que o timer mede"
+        "message": "Selecione a origem do cronômetro, isto controla a duração\/evento que o cronômetro mede"
     },
     "osdTimerPrecision": {
         "message": "Precisão:"
     },
     "osdTimerPrecisionTooltip": {
-        "message": "Selecione a precisão do timer, isto controla qual a precisão que o timer reporta"
+        "message": "Selecione a precisão do cronômetro, isto controla em qual precisão o cronômetro será exibido"
     },
     "osdTimerAlarm": {
         "message": "Alarme:"
     },
     "osdTimerAlarmTooltip": {
-        "message": "Selecione o limite do alarme do timer em minutos, quando o tempo excede este valor, o elemento no OSD irá piscar, um valor de 0 desabilita o alarme"
+        "message": "Selecione o limite do alarme do cronômetro em minutos, quando o tempo excede este valor, o elemento no OSD irá piscar, um valor de 0 desabilita o alarme"
     },
     "osdWarningArmingDisabled": {
         "message": "Mostra o principal motivo de não ter armado"
@@ -3272,13 +3272,13 @@
         "message": "Ativar ou desativar elementos do OSD."
     },
     "osdSectionHelpVideoMode": {
-        "message": "Defina o modo de vídeo esperado da camera (normalmente isto pode ser deixado em AUTOMATICO, se estiver tendo problemas, então defina esta opção para o mesmo modo que a saída da camera)."
+        "message": "Defina o modo de vídeo esperado da camera (normalmente isto pode ser deixado em AUTOMÁTICO, se estiver tendo problemas, então defina esta opção para o mesmo modo que a saída da camera)."
     },
     "osdSectionHelpUnits": {
         "message": "Define o sistema de unidades para leituras numéricas."
     },
     "osdSectionHelpTimers": {
-        "message": "Configure os timers de voo."
+        "message": "Configure os cronômetros de voo."
     },
     "osdSectionHelpAlarms": {
         "message": "Defina os limites utilizados para elementos do OSD com alertas."
@@ -3416,13 +3416,13 @@
         "message": "<b>Filtro Soft para o Giroscópio:<\/b> Um filtro Lowpass para o Giroscópio. Use valores mais baixos para filtrar mais.<br><b>Filtro do Termo D:<\/b> Filtro Lowpass para o termo D. Pode afetar a afinação do D. Use valores mais baixos para filtrar mais.<br><b>Filtro Yaw:<\/b> Filtra a saída do Yaw. Pode ajudar os veículos com ruídos no eixo Yaw."
     },
     "pidTuningPidTuningTip": {
-        "message": "<b>Proporcional:<\/b> Força da resistência ao tentar mover o multirotor em qualquer direção<br><b>Integral:<\/b> Aumenta a habilidade de manter a posição inicial e reduz o drift, mas também aumenta o delay para retornar à posição inicial.<br><b>Derivativo:<\/b> Melhora a velocidade de recuperação dos desvios, mas também aumenta o ruído<br><b>Taxas e Expo:<\/b> Determine a sensação dos sticks baseado nestes parâmetros. Use o gráfico e modelo 3D para encontrar suas configurações preferidas"
+        "message": "<b>Proporcional:<\/b> Força da resistência ao tentar mover o multirotor em qualquer direção<br><b>Integral:<\/b> Aumenta a habilidade de manter a posição inicial e reduz o drift, mas também aumenta o atraso para retornar à posição inicial.<br><b>Derivativo:<\/b> Melhora a velocidade de recuperação dos desvios, mas também aumenta o ruído<br><b>Taxas e Expo:<\/b> Determine a sensação dos sticks baseado nestes parâmetros. Use o gráfico e modelo 3D para encontrar suas configurações preferidas"
     },
     "pidTuningRatesTip": {
         "message": "Modifique as taxas e veja como elas afetam a curva do stick"
     },
     "configurationCamera": {
-        "message": "Camera"
+        "message": "Câmera"
     },
     "configurationPersonalization": {
         "message": "Personalização"
@@ -3464,12 +3464,12 @@
         "message": "Cancelar"
     },
     "modeCameraWifi": {
-        "message": "BOTÃO WI-FI DA CAMERA"
+        "message": "BOTÃO WI-FI DA CÂMERA"
     },
     "modeCameraPower": {
-        "message": "BOTÃO LIGAR DA CAMERA"
+        "message": "BOTÃO LIGAR DA CÂMERA"
     },
     "modeCameraChangeMode": {
-        "message": "ALTERAR MODO DA CAMERA"
+        "message": "ALTERAR MODO DA CÂMERA"
     }
 }
