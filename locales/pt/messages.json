@@ -774,7 +774,7 @@
         "message": "Impulso provisório do I em alterações grandes do throttle"
     },
     "featureDYNAMIC_FILTER": {
-        "message": "Filtragem Notch dinâmica do giroscópio"
+        "message": "Filtro Notch dinâmico do giroscópio"
     },
     "featureFAILSAFE": {
         "message": "Ativar estágio 2 do Failsafe"
@@ -1374,7 +1374,7 @@
         "message": "Desativado"
     },
     "receiverRefreshRateTitle": {
-        "message": "Taxa de atualização do grafico"
+        "message": "Taxa de atualização do gráfico"
     },
     "receiverButtonSave": {
         "message": "Salvar"
