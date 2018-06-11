@@ -968,8 +968,20 @@
     "beeperSYSTEM_INIT": {
         "message": "Sinais sonoros de inicialização quando a placa é ligada"
     },
+    "beeperUSB": {
+        "message": "Emitir um sinal sonoro quando o controlador de voo recebe energia via USB. Desligue esta opção se não desejar sons enquanto estiver na bancada"
+    },
     "beeperBLACKBOX_ERASE": {
         "message": "Emitir um sinal sonoro quando a Caixa Preta é completamente apagada"
+    },
+    "beeperCRASH_FLIP": {
+        "message": "Sinal sonoro quando o modo batida de ponta cabeça estiver ativo"
+    },
+    "beeperCAM_CONNECTION_OPEN": {
+        "message": "Sinal sonoro quando ativar o controle de camera de 5 teclas"
+    },
+    "beeperCAM_CONNECTION_CLOSE": {
+        "message": "Sinal sonoro quando desativar o controle de camera de 5 teclas"
     },
     "configuration3d": {
         "message": "Modo 3D dos Motores\/ESC"
