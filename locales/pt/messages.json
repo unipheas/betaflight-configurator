@@ -1554,7 +1554,7 @@
         "message": "O firmware do seu controlador de voo não suporta a função de transponder."
     },
     "transponderInformation": {
-        "message": "Sistemas de transponder permitem que os organizadores de corridas cronometrem suas voltas. O transponder é instalado na sua aeronave, e quando passar por um gate equipado com receptores, seu código é registrado junto com o tempo da sua volta. Quando equipar um transponder baseado em IR, você deve garantir que ele aponta para fora da sua aeronave, na direção dos receptores da pista, e que os feixes de luz não estão sendo obstruídos pela estrutura, straps para bateria, cabos, hélices, etc."
+        "message": "Sistemas de transponder permitem que os organizadores de corridas cronometrem suas voltas. O transponder é instalado na sua aeronave, e quando passar por um gate equipado com receptores, seu código é registrado junto com o tempo da sua volta. Quando equipar um transponder baseado em IR, você deve garantir que ele aponta para fora da sua aeronave, na direção dos receptores da pista, e que os feixes de luz não estão sendo obstruídos pela estrutura, cintos da bateria, cabos, hélices, etc."
     },
     "transponderConfigurationType": {
         "message": "Tipo de transponder"
