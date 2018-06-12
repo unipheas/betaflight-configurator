@@ -1782,10 +1782,10 @@
         "message": "Servo - 8"
     },
     "motorsResetMaximumButton": {
-        "message": "Reiniciar"
+        "message": "Reset"
     },
     "motorsResetMaximum": {
-        "message": "Reiniciar tempo extra máximo"
+        "message": "Redefinir valores máximos do gráfico"
     },
     "motorsSensorGyroSelect": {
         "message": "giroscópio"
@@ -3299,10 +3299,10 @@
         "message": "Salvo"
     },
     "mainHelpArmed": {
-        "message": "Armar Motor"
+        "message": "Motor Armado"
     },
     "mainHelpFailsafe": {
-        "message": "Modo Failsafe"
+        "message": "Modo do Failsafe"
     },
     "mainHelpLink": {
         "message": "Status do Link Serial"
