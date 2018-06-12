@@ -957,6 +957,9 @@
     "configurationDshotBeaconTone": {
         "message": "crwdns6386:0crwdne6386:0"
     },
+    "configurationDshotBeaconHelp": {
+        "message": "crwdns8763:0crwdne8763:0"
+    },
     "configurationBeeper": {
         "message": "crwdns5610:0crwdne5610:0"
     },
