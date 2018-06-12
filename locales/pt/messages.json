@@ -1422,7 +1422,7 @@
         "message": "AUTO"
     },
     "adjustmentsHelp": {
-        "message": "Configure os switches de ajuste. Leia a seção do manual sobre 'in-flight adjustments' para detalhes. As mudanças que as funções de ajuste fazem não são salvas automaticamente. Existem 4 slots. Cada switch usado para ajuste exige o uso exclusivo de um slot."
+        "message": "Configure os switches de ajuste. Leia a seção do manual sobre 'in-flight adjustments' para detalhes. Os ajustes feitos por essas funções não serão salvos automaticamente. Existem 4 slots. Cada switch utilizado ao mesmo tempo para o ajuste exige o uso exclusivo de um slot."
     },
     "adjustmentsExamples": {
         "message": "Exemplos"
