@@ -140,7 +140,7 @@
         "message": "Documentação & Suporte"
     },
     "tabSetup": {
-        "message": "Configurações"
+        "message": "Opções"
     },
     "tabSetupOSD": {
         "message": "Configuração do OSD"
@@ -528,7 +528,7 @@
         "message": "Redefinir configurações"
     },
     "initialSetupResetText": {
-        "message": "Restaurar configurações <strong>padrão<\/strong>"
+        "message": "Restaura as configurações para o <strong>padrão<\/strong>"
     },
     "initialSetupButtonBackup": {
         "message": "Backup"
@@ -537,7 +537,7 @@
         "message": "Restaurar"
     },
     "initialSetupBackupRestoreText": {
-        "message": "Faça um <strong>Backup<\/strong> das configurações em caso de acidente, as configurações da <strong>CLI<\/strong><span class=\"message-negative\"> não<\/span> estão incluídas - Consulte o comando 'dump' da CLI"
+        "message": "Faça um <strong>Backup<\/strong> das configurações em caso de acidente, as configurações feitas pela <strong>CLI<\/strong><span class=\"message-negative\"> não<\/span> estão incluídas - Para isso consulte o comando 'dump' da CLI"
     },
     "initialSetupBackupSuccess": {
         "message": "Backup salvo com <span class=\"message-positive\">sucesso<\/span>"
