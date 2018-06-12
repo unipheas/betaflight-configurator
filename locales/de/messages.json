@@ -1,4 +1,7 @@
 {
+    "error": {
+        "message": "Fehler: {{errorMessage}}"
+    },
     "warningTitle": {
         "message": "Warnung"
     },
@@ -891,6 +894,12 @@
     },
     "configurationThrottleMinimumCommandHelp": {
         "message": "Das ist der Wert der an die Regler geschickt wird wenn disarmt ist. Setze diesen Wert so tief das die Motoren stoppen (in der Regel auf 1000)."
+    },
+    "configurationDshotBeeper": {
+        "message": "Dshot Beacon Konfiguration"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "Benutze Dshot Beacon (Motoren erzeugen Signalton wenn disarmed)"
     },
     "configurationDshotBeaconTone": {
         "message": "Beacon Ton"
@@ -2495,6 +2504,9 @@
     },
     "pidTuningNonProfileFilterSettings": {
         "message": "Profilunabhängige Filtereinstellungen"
+    },
+    "pidTuningFilterSettings": {
+        "message": "Profilabhängige Filtereinstellungen"
     },
     "pidTuningVbatPidCompensation": {
         "message": "PID Anpassung aufgrund Akkusspannung"
