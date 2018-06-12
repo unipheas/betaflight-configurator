@@ -909,7 +909,7 @@
         "message": "Este é o valor que é enviado para os ESCs quando a aeronave está desarmada. Defina um valor em que os motores fiquem parados (1000 para a maioria dos ESCs)."
     },
     "configurationDshotBeeper": {
-        "message": "Configuração do sinalizador para Dshot"
+        "message": "Configuração do sinalizador do Dshot"
     },
     "configurationUseDshotBeeper": {
         "message": "Usar o sinalizador do Dshot (usar os motores para emitir tons quando desarmado)"
@@ -918,7 +918,7 @@
         "message": "Tom do sinalizador"
     },
     "configurationBeeper": {
-        "message": "Configuração do Beeper"
+        "message": "Configuração dos Sinais Sonoros"
     },
     "beeperGYRO_CALIBRATED": {
         "message": "Emite um sinal sonoro quando o giroscópio for calibrado"
