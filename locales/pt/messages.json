@@ -1383,7 +1383,7 @@
         "message": "Atualizar"
     },
     "receiverButtonSticks": {
-        "message": "Sticks do controle"
+        "message": "Controle Virtual"
     },
     "receiverDataRefreshed": {
         "message": "Dados de afinação do RC <strong>atualizados<\/strong>"
@@ -3395,7 +3395,7 @@
         "message": "Perfil de taxa"
     },
     "pidTuningRateProfileTip": {
-        "message": "Até 3 diferentes perfis de taxa podem ser armazenados no controlador de voo. O perfil de taxa inclui configurações da 'Taxa do RC', 'Taxa', 'Expo do RC', 'Throttle', e 'TPA'. Alternar entre os perfis de taxa é possível durante o voo, basta configurar um switch de 3 posições para 'Seleção do Perfil de Taxa' na aba de Configurações."
+        "message": "Até 3 diferentes perfis de taxa podem ser armazenados no controlador de voo. O perfil de taxa inclui configurações da 'Taxa do RC', 'Taxa', 'Expo do RC', 'Throttle', e 'TPA'. Alternar entre os perfis de taxa é possível durante o voo, basta configurar um switch de 3 posições para 'Seleção do Perfil de Taxa' na aba de Ajustes."
     },
     "pidTuningDelta": {
         "message": "Método Derivativo"
