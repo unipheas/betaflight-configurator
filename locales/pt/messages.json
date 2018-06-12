@@ -810,7 +810,7 @@
         "message": "Modo do receptor"
     },
     "configurationRSSI": {
-        "message": "RSSI (força do sinal)"
+        "message": "RSSI (Potência do sinal)"
     },
     "configurationRSSIHelp": {
         "message": "RSSI é uma medida de intensidade do sinal e é muito útil para saber quando a aeronave está saindo de alcance ou se está sofrendo interferência."
