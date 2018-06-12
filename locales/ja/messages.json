@@ -917,6 +917,9 @@
     "configurationDshotBeaconTone": {
         "message": "ビーコントーン"
     },
+    "configurationDshotBeaconHelp": {
+        "message": "Dshotビーコンは、ESCおよびモーターを使用して音を生成します。これは同時に、モーターが回転しているときにDshotビーコンを使用できないことを意味します。 Betaflight 3.4以降では、Dshotビーコンがオンの状態である時にアーミングを試みると、機体がアームされる前、最後に鳴らしたDshotビーコントーンの後に2秒の遅延があります。これはDshotビーコン機能が、アーミング中に送信されたDshotコマンドを妨害しないようにするためです。\n<br\/><strong>注意:<\/strong> Dshotビーコンはオン状態のときにモーターへ電流を流しているので、ビーコン強度が強すぎると、過剰な熱の発生、モーターやESCの損傷を招く可能性があります。ビーコン強度を調整してテストするには、BLHeli ConfiguratorまたはBLHeli Suiteを使用してください。"
+    },
     "configurationBeeper": {
         "message": "ビープ音 設定"
     },
