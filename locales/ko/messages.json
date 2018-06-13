@@ -948,10 +948,10 @@
         "message": "배터리가 부족할 때 경고음을 울립니다. (반복)"
     },
     "beeperGPS_STATUS": {
-        "message": "얼마나 많은 GPS 위성이 발견되었는지를 나타내기 위해 비프음의 수를 사용"
+        "message": "얼마나 많은 GPS 위성이 발견되었는지를 나타내기 위해 비프음의 수를 사용합니다."
     },
     "beeperRX_SET": {
-        "message": "Aux 채널이 부져를 위해 설정되었을 때 부져를 울립니다."
+        "message": "AUX 채널이 부져를 위해 설정되었을 때 부져를 울립니다."
     },
     "beeperACC_CALIBRATION": {
         "message": "비행중 가속도계 교정이 완료되었습니다."
@@ -1221,7 +1221,7 @@
         "message": "RC 레이트"
     },
     "pidTuningMaxVel": {
-        "message": "최대 Vel [deg\/s]"
+        "message": "최대 속도 [도\/초]"
     },
     "pidTuningRate": {
         "message": "레이트"
@@ -1305,7 +1305,7 @@
         "message": "로드 된 프로파일:  <strong class=\"message-positive\">$1<\/strong>"
     },
     "pidTuningLoadedRateProfile": {
-        "message": "로드 된 속도 프로파일:  <strong class=\"message-positive\">$1<\/strong>"
+        "message": "로드 된 레이트 프로파일: <strong class=\"message-positive\">$1<\/strong>"
     },
     "pidTuningDataRefreshed": {
         "message": "PID 데이터 <strong>새로 고쳐짐<\/strong>"
@@ -1323,7 +1323,7 @@
         "message": "스로틀 중간값"
     },
     "receiverThrottleExpo": {
-        "message": "스로틀 Expo"
+        "message": "스로틀 EXPO"
     },
     "receiverStickMin": {
         "message": "'스틱 낮음' 한계값"
