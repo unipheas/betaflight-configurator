@@ -1991,7 +1991,7 @@
         "message": "Manuell herunterladen."
     },
     "firmwareFlasherTargetWarning": {
-        "message": "<span class=\"message-negative\">WICHTIG:<\/span> Verwende die passende Firmware für deinen Flight Controller. Die verwendung einer falschen Firmware kann <span class=\"message-negative\">böse<\/span> Folgen haben."
+        "message": "<span class=\"message-negative\">WICHTIG:<\/span> Verwende die passende Firmware für deinen Flight Controller. Die Verwendung einer falschen Firmware kann <span class=\"message-negative\">böse<\/span> Folgen haben."
     },
     "firmwareFlasherPath": {
         "message": "Pfad:"
