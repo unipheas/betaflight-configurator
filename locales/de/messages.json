@@ -316,6 +316,10 @@
     "firmwareTypeNotSupported": {
         "message": "Nicht Betaflight\/Cleanfight Firmware wird <span class=\"message-negative\">nicht unterstützt<\/span> mit Ausnahme vom CLI Modus."
     },
+    "infoVersions": {
+        "message": "Betriebssystem: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Konfigurator: <strong>{{configuratorVersion}}<\/strong>",
+        "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
+    },
     "releaseCheckLoaded": {
         "message": "Lade Github Information für Version $1."
     },
@@ -492,6 +496,9 @@
     },
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+    },
+    "defaultSupport5": {
+        "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Betaflight Entwickler auf Slack<\/a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span class=\"message-negative\">Backup and restore functionality disabled.<\/span> You have firmware with API version <span class=\"message-negative\">$1<\/span>, backup and restore requires <span class=\"message-positive\">$2<\/span>. Please backup your settings via the CLI, see Betaflight documentation for procedure."
@@ -946,8 +953,20 @@
     "beeperSYSTEM_INIT": {
         "message": "Einschaltpiepsen wenn das Board hochgefahren wurde"
     },
+    "beeperUSB": {
+        "message": "Piept, wenn der FC durch USB mit Strom versorgt wird. Deaktiviere es, wenn du kein Piepen am Arbeitsplatz wünschst"
+    },
     "beeperBLACKBOX_ERASE": {
         "message": "Piepsen wen Blackbox Log löschen erfolgreich"
+    },
+    "beeperCRASH_FLIP": {
+        "message": "Piept, wenn der Crash-Flip-Mode (Turtle Mode) aktiv ist"
+    },
+    "beeperCAM_CONNECTION_OPEN": {
+        "message": "Piept, wenn die 5 Tasten Kamera Steuerung gestartet wurde"
+    },
+    "beeperCAM_CONNECTION_CLOSE": {
+        "message": "Piept, wenn die 5 Tasten Kamera Steuerung beendet wurde"
     },
     "configuration3d": {
         "message": "3D Regler \/ Motor Funktionen"
@@ -2511,6 +2530,9 @@
     "pidTuningVbatPidCompensation": {
         "message": "PID Anpassung aufgrund Akkusspannung"
     },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Erhört die PID Werte, sobald die Batterie schwächer wird. Das sorgt dafür, dass das Fluggefühl gleich bleibt, während der Akku leerer wird. Die Stärke der Kompensation wird durch die Einstellung der maximalen Zellenspannung errechnet. Stelle sicher, dass in den Energieeinstellungen passende Werte sind."
+    },
     "configHelp2": {
         "message": "Abweichender Winkel (Grad) in dem das Board anders eingebaut wurde als vorgesehen (über Kopf, gedreht, usw.) Falls externe Sensoren (Gyro, Acc, Mag) verwendet werden, bitte diese ebenfalls neu anlernen."
     },
@@ -2585,6 +2607,9 @@
     },
     "failsafeKillSwitchHelp": {
         "message": "Aktiviere diese Option um den Failsafe Schalter (Modes Tab) als \"Kill Schalter\" zu benutzen. Der Schalter überschreibt dann alle Failsafe Einstellungen. <strong>Hinweis:<\/strong> Wenn der Schalter aktiv ist wird sich das Fluggerät nicht armen lassen"
+    },
+    "failsafeSwitchTitle": {
+        "message": "Failsafe Schalter"
     },
     "powerButtonSave": {
         "message": "Speichern"
