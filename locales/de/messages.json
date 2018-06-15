@@ -2611,6 +2611,21 @@
     "failsafeSwitchTitle": {
         "message": "Failsafe Schalter"
     },
+    "failsafeSwitchModeItem": {
+        "message": "Failsafe Schalter Aktion"
+    },
+    "failsafeSwitchModeHelp": {
+        "message": "Diese Option bestimmt, was geschieht wenn Failsafe über einen AUX Schalter aktiviert wurde:<br\/><strong>Stufe 1<\/strong> aktiviert Failsafe Stufe 1. Dies ist nützlich, wenn du den Signal Verlust Failsafe Verhalten testen möchtest.<br\/><strong>Stufe 2<\/strong> überspringt Stufe 1 und aktiviert das Stufe 2 Verfahren sofort<br\/><strong>Kill<\/strong> disarmed sofort (dein Fluggerät wird abstürzen)"
+    },
+    "failsafeSwitchOptionStage1": {
+        "message": "Stufe 1"
+    },
+    "failsafeSwitchOptionStage2": {
+        "message": "Stufe 2"
+    },
+    "failsafeSwitchOptionKill": {
+        "message": "Kill"
+    },
     "powerButtonSave": {
         "message": "Speichern"
     },
@@ -2800,6 +2815,9 @@
     "powerAmperageScale": {
         "message": "Skalierung [1\/10tel mV\/A]"
     },
+    "powerAmperageOffset": {
+        "message": "Versatz [mA]"
+    },
     "powerBatteryHead": {
         "message": "Akku"
     },
@@ -2880,6 +2898,18 @@
     },
     "osdSetupOpenFont": {
         "message": "Schriftdatei öffnen"
+    },
+    "osdSetupCustomLogoTitle": {
+        "message": "Startbild:"
+    },
+    "osdSetupCustomLogoInfoTitle": {
+        "message": "Angepasstes Bild:"
+    },
+    "osdSetupCustomLogoInfoImageSize": {
+        "message": "Größe muss $t(LogoWidthPx) ×$t(LogoHeightPx) Pixel betragen"
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "Darf nur grüne, schwarze und weiße Pixel enthalten"
     },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "Ungültige Bildgröße; Es wird $1x$2 statt $3x$4 erwartet"
