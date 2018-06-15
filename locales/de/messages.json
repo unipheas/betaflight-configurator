@@ -1697,6 +1697,9 @@
     "motorsADrawing": {
         "message": "Strom:"
     },
+    "motorsmAhDrawn": {
+        "message": "Stromverbrauch [A]:"
+    },
     "motorsVoltageValue": {
         "message": "$1 V"
     },
@@ -2911,6 +2914,12 @@
     "osdSetupCustomLogoInfoColorMap": {
         "message": "Darf nur grüne, schwarze und weiße Pixel enthalten"
     },
+    "osdSetupCustomLogoImageSizeError": {
+        "message": "Ungültige Bildgröße: {{width}}×{{height}} (erwartete $t(logoWidthPx) ×$t(logoHeightPx))"
+    },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "Das Bild verwendet eine ungültige Farbpalette (nur grün, schwarz und weiß sind erlaubt)"
+    },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "Ungültige Bildgröße; Es wird $1x$2 statt $3x$4 erwartet"
     },
@@ -3133,6 +3142,9 @@
     "osdDescStatRtcDateTime": {
         "message": "Datum sowie Uhrzeit"
     },
+    "osdDescStatBattery": {
+        "message": "Echtzeit-Batteriespannung"
+    },
     "osdTimerSource": {
         "message": "Source:"
     },
@@ -3195,6 +3207,9 @@
     },
     "osdWritePermissions": {
         "message": "Keine <span class=\"message-negative\">Schreibrechte<\/span> für diese Datei"
+    },
+    "osdButtonSaved": {
+        "message": "Gespeichert"
     },
     "mainHelpArmed": {
         "message": "Motor Arming"
