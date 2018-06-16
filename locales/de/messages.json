@@ -2920,6 +2920,9 @@
     "osdSetupCustomLogoInfoColorMap": {
         "message": "Darf nur grüne, schwarze und weiße Pixel enthalten"
     },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "Klicke <b>$t(osdSetupUploadFont.message)<\/b> um ein eigenes Logo zu setzen"
+    },
     "osdSetupCustomLogoImageSizeError": {
         "message": "Ungültige Bildgröße: {{width}}×{{height}} (erwartete $t(logoWidthPx) ×$t(logoHeightPx))"
     },
