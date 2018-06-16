@@ -1782,10 +1782,10 @@
         "message": "<strong>Ich weiß was ich mache<\/strong>, Propeller sind entfernt - Motorkontrolle aktivieren und Abhebeschutz deaktivieren."
     },
     "sensorsInfo": {
-        "message": "Keep in mind that using fast update periods and rendering multiple graphs at the same time is resource heavy and will burn your battery quicker if you use a laptop.<br \/>We recommend to only render graphs for sensors you are interested in while using reasonable update periods."
+        "message": "Beachte, dass ein kurze Updateperiode und das Darstellen mehrer Graphen gleichzeitig resourcenhungrig ist und den Akkuverbrauch deines Notebooks steigert, wenn du eines benutzt.<br\/>Wir empfehlen nur Graphen darzustellen, welche dich interessieren und mit sinnvollen Aktualisierungswerten."
     },
     "sensorsRefresh": {
-        "message": "Neu Laden:"
+        "message": "Abtasten:"
     },
     "sensorsScale": {
         "message": "Skala:"
@@ -1842,7 +1842,7 @@
         "message": "In Datei speichern"
     },
     "loggingNote": {
-        "message": "Daten werden in <span class=\"message-negative\">nur <\/span>diesem Tab geloggt. Wenn der Tab geschlossen wird, wir das logging <span class=\"message-negative\">abgebraochen<\/span> und der Anwendung geht in den normalen Modus zurück."
+        "message": "Daten werden <span class=\"message-negative\">nur <\/span> in diesem Tab geloggt. Wenn der Tab geschlossen wird, wird das Loggen <span class=\"message-negative\">abgebrochen<\/span> und die Anwendung geht in den normalen Modus zurück."
     },
     "loggingSamplesSaved": {
         "message": "Gespeicherte Beispiele:"
