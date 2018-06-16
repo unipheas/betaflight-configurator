@@ -2555,7 +2555,7 @@
         "message": "Einstellungen für gültige Pulslängen des Signals"
     },
     "failsafePulsrangeHelp": {
-        "message": "Pulse kürzer als das Minimum oder länger als das Maximum sorgen dafür, dass der Kanal ein einen Rückfallmodus geht und die Rückfalleinstellungen greifen."
+        "message": "Pulse kürzer als das Minimum oder länger als das Maximum sorgen dafür, dass der Kanal in einen Rückfallmodus geht und die Rückfalleinstellungen greifen."
     },
     "failsafeRxMinUsecItem": {
         "message": "Minimale Länge"
@@ -2567,7 +2567,7 @@
         "message": "Kanal Rückfall Einstellungen"
     },
     "failsafeChannelFallbackSettingsHelp": {
-        "message": "Im Fall eines Stage 1 Failsafe werden diese Einstellungen werden den den AUX Kanälen zugewiesen. <strong>Heiweis:<\/strong> Werte werden im Abstand von 25us gesetzt, kleinere Einstellungen werden vernachlässigt."
+        "message": "Im Fall eines Stage 1 Failsafe werden diese Einstellungen den AUX Kanälen zugewiesen. <strong>Hinweis:<\/strong> Werte werden im Abstand von 25us gesetzt, kleinere Einstellungen werden vernachlässigt."
     },
     "failsafeChannelFallbackSettingsAuto": {
         "message": "<strong>Auto<\/strong> heißt Roll, Pitch, Yaw zentrieren sich, Gas wird niedrig gehalten. <strong>Hold<\/strong> bedeutet das der letzte empfangene Wert beibehalten wird."
@@ -2585,10 +2585,10 @@
         "message": "Stage 1 Wartezeit für Signalwiederherstellung"
     },
     "failsafeThrottleLowItem": {
-        "message": "Failsave Gas niedrig Verzögerung [1 = 0.1 Sek.]"
+        "message": "Failsafe Gas niedrig Verzögerung [1 = 0.1 Sek.]"
     },
     "failsafeThrottleLowHelp": {
-        "message": "Einfaches disarmen des Fluggeräts falls das Gas über diese Zeit niedrig war. Dies wird anstatt der Failsafe Prozedur durchgeführt."
+        "message": "Einfaches disarmen des Fluggerätes, falls das Gas über diese Zeit niedrig war. Dies wird anstatt der Failsafe Prozedur durchgeführt."
     },
     "failsafeThrottleItem": {
         "message": "Verwendeter Gaswert bei Landung"
@@ -2621,7 +2621,7 @@
         "message": "Failsafe Schalter Aktion"
     },
     "failsafeSwitchModeHelp": {
-        "message": "Diese Option bestimmt, was geschieht wenn Failsafe über einen AUX Schalter aktiviert wurde:<br\/><strong>Stufe 1<\/strong> aktiviert Failsafe Stufe 1. Dies ist nützlich, wenn du den Signal Verlust Failsafe Verhalten testen möchtest.<br\/><strong>Stufe 2<\/strong> überspringt Stufe 1 und aktiviert das Stufe 2 Verfahren sofort<br\/><strong>Kill<\/strong> disarmed sofort (dein Fluggerät wird abstürzen)"
+        "message": "Diese Option bestimmt, was geschieht, wenn Failsafe über einen AUX Schalter aktiviert wurde:<br\/><strong>Stufe 1<\/strong> aktiviert Failsafe Stufe 1. Dies ist nützlich, wenn du das Signalverlust Failsafe Verhalten testen möchtest.<br\/><strong>Stufe 2<\/strong> überspringt Stufe 1 und aktiviert das Stufe 2 Verfahren sofort<br\/><strong>Kill<\/strong> disarmed sofort (dein Fluggerät wird abstürzen)"
     },
     "failsafeSwitchOptionStage1": {
         "message": "Stufe 1"
