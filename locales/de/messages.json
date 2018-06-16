@@ -3059,7 +3059,7 @@
         "message": "Motordrehzahl (über Regler Telemetrie)"
     },
     "osdDescElementRtcDateTime": {
-        "message": "Uhrzeit \/ Datum"
+        "message": "Datum \/ Uhrzeit"
     },
     "osdDescElementAdjustmentRange": {
         "message": "Currently active adjustment range setting and value"
@@ -3077,7 +3077,7 @@
         "message": "Numerische Angabe der vertikalen Geschwindigkeit (in feet oder Metern, je nach Systemeinstellung)"
     },
     "osdDescElementCompassBar": {
-        "message": "Ggrafischer Kompass welcher die aktuelle Richtung zeigt"
+        "message": "Grafischer Kompass, welcher die aktuelle Richtung zeigt"
     },
     "osdDescElementTimer1": {
         "message": "Zeigt den Inhalt von Timer 1"
@@ -3113,10 +3113,10 @@
         "message": "Maximale aufgezeichnete Höhe"
     },
     "osdDescStatBlackbox": {
-        "message": "Pprozentuale Belegung des Blackbox Speichers"
+        "message": "Prozentuale Belegung des Blackbox Speichers"
     },
     "osdDescStatEndBattery": {
-        "message": "Akkuspannung beim Zeitpunkt des Disarmens"
+        "message": "Akkuspannung zum Zeitpunkt des Disarmens"
     },
     "osdDescStatFlyTime": {
         "message": "Absolute Zeit seit dem das Fluggerät Strom hat"
@@ -3134,10 +3134,10 @@
         "message": "Timer 1 Wert beim disarm"
     },
     "osdDescStatTimer2": {
-        "message": "Wert von Timer 2 beim Zeitpunkt des disarms"
+        "message": "Timer 2 Wert beim disarm"
     },
     "osdDescStatRtcDateTime": {
-        "message": "Datum sowie Uhrzeit"
+        "message": "Datum \/ Uhrzeit"
     },
     "osdDescStatBattery": {
         "message": "Echtzeit-Batteriespannung"
