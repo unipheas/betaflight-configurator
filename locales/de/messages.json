@@ -869,9 +869,6 @@
     "configurationReverseMotorSwitch": {
         "message": "Motor Drehrichtung umkehren"
     },
-    "configurationReverseMotorSwitchHelp": {
-        "message": "Falls diese Option aktiviert ist geht Betaflight davon aus, dass die Drehrichtung der Motoren umgekehrt wurde"
-    },
     "configurationAutoDisarmDelay": {
         "message": "Motoren disarmen nach gesetzer Wartezeit [seconds] (Benötigt Motor Stop Funktion)"
     },
