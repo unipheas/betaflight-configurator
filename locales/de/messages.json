@@ -513,7 +513,7 @@
         "message": "Magnetometer kalibrieren"
     },
     "initialSetupCalibrateMagText": {
-        "message": "Multirotor mindestens <strong>360<\/strong> Grad um alle Achsen drehen. Es verbleiben 30 Sekunden dafür"
+        "message": "Multirotor mindestens <strong>360<\/strong> Grad um alle Achsen, innerhalb von 30 Sekunden, drehen."
     },
     "initialSetupButtonCalibratingText": {
         "message": "Kalibriere..."
