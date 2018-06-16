@@ -875,9 +875,6 @@
     "configurationReverseMotorSwitch": {
         "message": "Обратное вращение моторов"
     },
-    "configurationReverseMotorSwitchHelp": {
-        "message": "Включите эту опцию, чтобы дать Betaflight-у знать, что моторы и пропеллеры расчитаны на обратное вращение."
-    },
     "configurationAutoDisarmDelay": {
         "message": "Отключать моторы после заданной задержки [в секундах] (Требуется включить функцию MOTOR_STOP)"
     },
