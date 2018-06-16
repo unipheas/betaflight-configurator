@@ -194,7 +194,7 @@
         "message": "Logging per Kabel"
     },
     "tabOnboardLogging": {
-        "message": "Blackbox Log"
+        "message": "Flugschreiber"
     },
     "tabAdjustments": {
         "message": "Anpassungen"
@@ -372,7 +372,7 @@
         "message": "Führe Firmware für <strong>$1<\/strong> aus"
     },
     "fcInfoReceived": {
-        "message": "Flight Controller info, Identifikator: <strong>$1<\/strong>, Version: <strong>$2<\/strong>"
+        "message": "Flugkontroller Info, Identifikator: <strong>$1<\/strong>, Version: <strong>$2<\/strong>"
     },
     "versionLabelTarget": {
         "message": "Ziel"
@@ -1827,7 +1827,7 @@
         "message": "Debug"
     },
     "cliInfo": {
-        "message": "<strong>Hinweis<\/strong>: Wenn der CLI Tab verlassen wird oder trennen geklickt wird wird <strong>automatisch<\/strong> ein <strong>exit<\/strong> Befehl an das Board geschickt. Mit der neusten Firmware macht das Board automatisch einen <span class=\"message-negative\">Neustart<\/span> nicht gesicherte Einstellungen gehen damit <span class=\"message-negative\">verloren<\/span>."
+        "message": "<strong>Hinweis<\/strong>: Wenn der CLI Tab verlassen wird oder trennen geklickt wird, wird <strong>automatisch<\/strong> ein <strong>exit<\/strong> Befehl an das Board geschickt. Mit der neusten Firmware macht das Board automatisch einen <span class=\"message-negative\">Neustart<\/span>. Ungesicherte Einstellungen gehen damit <span class=\"message-negative\">verloren<\/span>."
     },
     "cliInputPlaceholder": {
         "message": "Kommandos hier eingeben"
