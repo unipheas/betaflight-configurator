@@ -818,9 +818,6 @@
     "configurationReverseMotorSwitch": {
         "message": "Moottorin pyörimissuunta on päinvastainen"
     },
-    "configurationReverseMotorSwitchHelp": {
-        "message": "Tämän asetuksen valitseminen kertoo Betaflightille, että moottorit ja potkurit on asetettu pyörimään käänteisessä suunnassa"
-    },
     "configurationAutoDisarmDelay": {
         "message": "Kytke moottorit pois päältä aikaviiveen jälkeen [sekuntia] (Vaatii MOTOR_STOP toiminnon)"
     },
