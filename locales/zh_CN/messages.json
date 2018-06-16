@@ -875,9 +875,6 @@
     "configurationReverseMotorSwitch": {
         "message": "反转电机转向"
     },
-    "configurationReverseMotorSwitchHelp": {
-        "message": "启用这个选项以让 Betaflight 知道电机和螺旋桨已被设定为反向旋转。"
-    },
     "configurationAutoDisarmDelay": {
         "message": "[seconds] 秒后锁定电机（需要启用 MOTOR_STOP）"
     },
