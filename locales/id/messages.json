@@ -865,9 +865,6 @@
     "configurationReverseMotorSwitch": {
         "message": "Arah motor dibalik"
     },
-    "configurationReverseMotorSwitchHelp": {
-        "message": "Mengaktifkan pilihan ini akan memberi tahu Betaflight bahwa motor dan alat peraga di atur untuk berjalan dalam arah sebaliknya."
-    },
     "configurationAutoDisarmDelay": {
         "message": "mematikan motor setelah penundaan ditetapkan [seconds] (Memerlukan fitur MOTOR_STOP)"
     },
