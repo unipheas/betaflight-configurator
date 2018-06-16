@@ -875,9 +875,6 @@
     "configurationReverseMotorSwitch": {
         "message": "Motoru griešanās virziens ir reversā"
     },
-    "configurationReverseMotorSwitchHelp": {
-        "message": "Ieslēdzot šo iespēju Betaflight tiks pateikts, ka motori un propelleri ir uzlikti pretējā griešanas virzienā."
-    },
     "configurationAutoDisarmDelay": {
         "message": "Deaktivēt motorus pēc uzstādītās laika aiztures[seconds] (Nepieciešama MOTOR_STOP funkcija)"
     },
