@@ -2597,7 +2597,7 @@
         "message": "Verzögerung im Falle eines Failsafes bevor die Motoren abgeschaltet werden [1 = 0.1 Sek. ]"
     },
     "failsafeOffDelayHelp": {
-        "message": "Im Lande Mode verbleibende Zeit nachdem die Motoren aus sind und das Fluggerät disarmt wurde"
+        "message": "Zeitspanne in der im Landemodus verblieben wird, bis die Motoren abgeschaltet werden und das Flugerät disarmt wird."
     },
     "failsafeSubTitle1": {
         "message": "Stufe 2 - Failsafe Einstellungen"
@@ -2908,6 +2908,9 @@
     "osdSetupCustomLogoTitle": {
         "message": "Startbild:"
     },
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "Benutzerdefiniertes Bild auswählen &hellip;"
+    },
     "osdSetupCustomLogoInfoTitle": {
         "message": "Benutzerdefiniertes Bild:"
     },
@@ -3095,7 +3098,7 @@
         "message": "Errechnete verbleibende Flugzeit"
     },
     "osdDescElementUnknown": {
-        "message": "Unbekanntes Element (Details kommen in kommenden Versionen)"
+        "message": "Unbekanntes Element (Details kommen in zukünftigen Versionen)"
     },
     "osdDescElementCoreTemperature": {
         "message": "Temperator des STM32 MCU Kerns"
