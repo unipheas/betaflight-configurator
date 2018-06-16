@@ -990,7 +990,7 @@
         "message": "Zyklen\/Sec (Hz)"
     },
     "configurationLoopTimeHelp": {
-        "message": "<strong>Hinweis:<\/strong>  Stelle sicher das dein FC mit dieser Geschwindigkeit arbeiten kann. Prüfe die CPU Auslastung und die Cycletime  Stabilität. Änderungen führen möglicherweise dazu, dass die PIDS neu eingestellt werden müssen. TIP: Deaktiviere unbenutzte Sensoren um mehr Leistung zu haben"
+        "message": "<strong>Hinweis:<\/strong> Stelle sicher, dass dein FC mit dieser Geschwindigkeit arbeiten kann. Prüfe die CPU Auslastung und die Cycletime Stabilität. Änderungen führen möglicherweise dazu, dass die PID's neu eingestellt werden müssen. Tipp: Deaktiviere unbenutzte Sensoren, um mehr Leistung zu haben."
     },
     "configurationGPS": {
         "message": "GPS"
@@ -1533,7 +1533,7 @@
         "message": "Dein Flugcontroller unterstützt das Transponder Feature nicht."
     },
     "transponderInformation": {
-        "message": "Transponder erlaufen die Zeitmessung bei Rennen, sie übermitteln einen Code an das Zeitmessungssystem beim Durchfliegen des Ziel Gates. Stelle sicher dass das Infrarotsignal nicht durch Kabel, Bauteile oder Propeller gestört wird."
+        "message": "Transponder erlauben die Zeitmessung bei Rennen. Sie übermitteln einen Code an das Zeitmessungssystem beim Durchfliegen des Zieltors. Stelle sicher, dass das Infrarotsignal nicht durch Kabel, Bauteile oder Propeller gestört wird."
     },
     "transponderConfigurationType": {
         "message": "Transponder Typ"
@@ -1572,7 +1572,7 @@
         "message": "nur hexdezimate Einheiten verwenden. 0-9 A-F"
     },
     "transponderHelp1": {
-        "message": "Konfiguriere deinen Transpondercode hier. Achtung: Nur gültige Codes werden von Timing Systemen bei Rennen erkannt. Einen gültigen Code bekommst du auf der Seite von <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a>"
+        "message": "Konfiguriere deinen Transpondercode hier. Hinweis: Nur gültige Codes werden von Zeitmessungssystem bei Rennen erkannt. Einen gültigen Code bekommst du auf der Seite von <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a>."
     },
     "transponderHelp2": {
         "message": "Für mehr Informationen bitte die <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer site<\/a> Seite besuchen"
