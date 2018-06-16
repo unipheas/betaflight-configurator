@@ -875,9 +875,6 @@
     "configurationReverseMotorSwitch": {
         "message": "Il motore gira al contrario"
     },
-    "configurationReverseMotorSwitchHelp": {
-        "message": "Abilitando questa opzione dirai a Betaflight che motori ed eliche sono settati per girare in direzione inversa."
-    },
     "configurationAutoDisarmDelay": {
         "message": "Disarma i motori dopo un ritardo di [secondi] secondi (richiede MOTOR_STOP)"
     },
