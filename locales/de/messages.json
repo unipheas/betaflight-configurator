@@ -426,7 +426,7 @@
         "message": "EEPROM <span class=\"message-positive\">gespeichert<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Willkommen im <strong> Betaflight - Konfigurator <\/strong>, einer Anwendung dafür gemacht um Updates, Konfiguration und Tuning deines Flugcontrollers zu erleichtern."
+        "message": "Willkommen im <strong> Betaflight - Konfigurator<\/strong>, eine Anwendung um Updates, Konfiguration und Tuning deines Flugcontrollers zu erleichtern."
     },
     "defaultWelcomeHead": {
         "message": "Hardware"
