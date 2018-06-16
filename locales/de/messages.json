@@ -911,6 +911,9 @@
     "configurationDshotBeaconTone": {
         "message": "Beacon Ton"
     },
+    "configurationDshotBeaconHelp": {
+        "message": "Dshot Beacons sind Töne die mittels ESC und Motor erzeugt werden. Das bedeutet, dass dies nicht genutzt werden kann, während die Motoren drehen. In Betaflight 3.4 und neuer wird deshalb 2 Sekunden nach dem letzen Ton gewartet, bevor tatsächlich gearmt wird, wenn das Arming-Kommando gegeben wurde. Dies verhindert eine Beeinflussung andere Dshot-Kommandos beim Arming durch die Tonerzeugung. <br\/><strong>Warning:<\/strong> Da die Dshot-Kommandos Strom durch die Motoren schicken, kann das zu erheblicher Wärmeentwicklung führen, welche die Motoren und ESC's beschädigen kann, wenn die Beacon Lautstärke zu hoch eingestellt ist. Benutze den BLHeli Konfigurator oder die BLHeli Suite um die Lautstärke einzustellen und zu testen."
+    },
     "configurationBeeper": {
         "message": "Piepser Konfiguration"
     },
@@ -938,6 +941,12 @@
     "beeperBAT_LOW": {
         "message": "Piepse falls die Batteriespannung gering ist"
     },
+    "beeperGPS_STATUS": {
+        "message": "Die Anzahle der Töne gibt an, wieviel GPS Satelliten gefunden wurden."
+    },
+    "beeperRX_SET": {
+        "message": "Piept, wenn Aux-Kanal auf Signalton eingestellt ist"
+    },
     "beeperACC_CALIBRATION": {
         "message": "Kalibrierung des Beschleunigungssensor im Flug erfolgreich"
     },
@@ -949,6 +958,9 @@
     },
     "beeperDISARM_REPEAT": {
         "message": "Piepst solange der Stick in disarm Position gehalten wird"
+    },
+    "beeperARMED": {
+        "message": "Warntöne, wenn das Board gearmt wurde (bis zum disarm oder Gas geben)"
     },
     "beeperSYSTEM_INIT": {
         "message": "Einschaltpiepsen wenn das Board hochgefahren wurde"
@@ -1186,6 +1198,9 @@
     },
     "pidTuningDtermSetpointHelp": {
         "message": "Gibt an wie hart der PID Controller bei Eingaben der Sticks vom Zentrum weg reagieren soll. 0 bedeutet das es keinen Unterschied zwischen Stick Eingaben und Abweichungen durch die Umgebung (z.B. Wind gibt). Kleinere Werte führen zu einem sauberen und \"smootheren\" Quad, höhere Werte führen zu einem direkterem Fluggefühl. <br \/> Bei hohen Werten wird der Einsatz der RC Interpolation empfohlen um ein Überreagieren zu verhindern."
+    },
+    "pidTuningDtermSetpointTransitionWarning": {
+        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong> The use of a D Setpoint transition greater than 0 and less than 0.1 is highly discouraged. Doing so may lead instability and reduced stick responsiveness as the sticks cross the centre point.<\/span>"
     },
     "pidTuningProportional": {
         "message": "Proportional"
@@ -2527,11 +2542,65 @@
     "pidTuningNonProfileFilterSettings": {
         "message": "Profilunabhängige Filtereinstellungen"
     },
+    "pidTuningGyroLowpassFiltersGroup": {
+        "message": "Gyro Lowpass Filter"
+    },
     "pidTuningGyroLowpassFrequency": {
         "message": "Gyro Lowpass 1 Cutoff Frequenz [Hz]"
     },
+    "pidTuningGyroLowpassType": {
+        "message": "Gyro Lowpass 1 Filter Type"
+    },
+    "pidTuningGyroLowpass2Frequency": {
+        "message": "Gyro Lowpass 2 Cutoff Frequency [Hz]"
+    },
+    "pidTuningGyroLowpass2Type": {
+        "message": "Gyro Lowpass 2 Filter Type"
+    },
+    "pidTuningGyroNotchFiltersGroup": {
+        "message": "Gyro Notch Filter"
+    },
+    "pidTuningGyroNotch1Frequency": {
+        "message": "Gyro Notch Filter 1 Center Frequency [Hz]"
+    },
+    "pidTuningGyroNotch2Frequency": {
+        "message": "Gyro Notch Filter 2 Center Frequency [Hz]"
+    },
+    "pidTuningGyroNotch1Cutoff": {
+        "message": "Gyro Notch Filter 1 Cutoff Frequency [Hz]"
+    },
+    "pidTuningGyroNotch2Cutoff": {
+        "message": "Gyro Notch Filter 2 Cutoff Frequency [Hz]"
+    },
+    "pidTuningNotchFilterHelp": {
+        "message": "The Notch Filter has a Center and a Cutoff. The filter is symmetrical. The Center Frequency is the center of the filter and the Cutoff Frequency is where Notch filter starts. For example with Notch Cutoff of 160 and Notch Center of 260 it means the range is 160-360Hz with most attenuation around center"
+    },
     "pidTuningFilterSettings": {
         "message": "Profilabhängige Filtereinstellungen"
+    },
+    "pidTuningDTermLowpassFiltersGroup": {
+        "message": "D Term Lowpass Filter"
+    },
+    "pidTuningDTermLowpassType": {
+        "message": "D Term Lowpass 1 Filter Type"
+    },
+    "pidTuningDTermLowpassFrequency": {
+        "message": "D Term Lowpass 1 Cutoff Frequency [Hz]"
+    },
+    "pidTuningDTermLowpass2Frequency": {
+        "message": "D Term Lowpass 2 Cutoff Frequency [Hz]"
+    },
+    "pidTuningDTermNotchFiltersGroup": {
+        "message": "D Term Notch Filter"
+    },
+    "pidTuningDTermNotchFrequency": {
+        "message": "D-Term Notch Filter Center Frequenz [Hz]"
+    },
+    "pidTuningDTermNotchCutoff": {
+        "message": "D Term Notch Filter Cutoff Frequenz [Hz]"
+    },
+    "pidTuningYawLospassFiltersGroup": {
+        "message": "Yaw Lowpass Filter"
     },
     "pidTuningYawLowpassFrequency": {
         "message": "Yaw Lowpassfilter Frequenz [Hz]"
