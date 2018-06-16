@@ -149,7 +149,7 @@
         "message": "Konfiguration"
     },
     "tabPorts": {
-        "message": "Ports"
+        "message": "Anschlüsse"
     },
     "tabPidTuning": {
         "message": "PID Einstellungen"
@@ -867,7 +867,7 @@
         "message": "Magnetkompass-Abweichung [Grad]"
     },
     "configurationReverseMotorSwitch": {
-        "message": "Motor Drehrichtung umkehren"
+        "message": "Drehrichtung der Motoren umkehren"
     },
     "configurationAutoDisarmDelay": {
         "message": "Motoren disarmen nach gesetzer Wartezeit [seconds] (Benötigt Motor Stop Funktion)"
@@ -879,7 +879,7 @@
         "message": "Arming is immer abgeschaltet falls das Gas nicht niedrig ist. Aufpassen weil du aus versehen im Flug disarmen könntest falls diese Option aktiviert ist."
     },
     "configurationDigitalIdlePercent": {
-        "message": "Motor Leerlauf Gas Wert [percent]"
+        "message": "Motor Leerlauf Gas Wert [Prozent]"
     },
     "configurationDigitalIdlePercentHelp": {
         "message": "Das ist der \"Leerlaufwert\" der an die Regler geschickt wird wenn der Quad gearmt ist und das Gas auf minimal Position ist. Wert erhöhen um einen schnelleren Leerlauf zu bekommen"
@@ -1044,10 +1044,10 @@
         "message": "Peripherie"
     },
     "portsHelp": {
-        "message": "<strong>Hinweis:<\/strong> Nicht alle Konfiguration sind möglich. Sollte der FC hier einen Fehler fest stellen wird die Konfiguration zurück gesetzt"
+        "message": "<strong>Hinweis:<\/strong> Nicht alle Konfiguration sind möglich. Sollte der FC hier einen Fehler feststellen, wird die Konfiguration zurückgesetzt."
     },
     "portsMSPHelp": {
-        "message": "<strong>Hinweis:<\/strong> Auf <span class=\"message-negative\">KEINEN<\/span> Fall MSP auf dem ersten Port deaktivieren solange du nicht weißt was du tust. Es kann passieren das ein neues Aufspielen der Firmware nötig ist und die Konfiguration da durch verloren geht."
+        "message": "<strong>Hinweis:<\/strong> Auf <span class=\"message-negative\">KEINEN<\/span> Fall MSP auf dem ersten Port deaktivieren, solange du nicht weißt was du tust. Es kann passieren, dass ein neues Aufspielen der Firmware nötig ist und die Konfiguration dadurch verloren geht."
     },
     "portsFirmwareUpgradeRequired": {
         "message": "Firmware Update <span class=\"message-negative\">benötigt<\/span>. Serielle Port Konfiguration bei Firmware &lt; 1.8.0 wird nicht unterstützt."
