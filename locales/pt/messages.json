@@ -875,9 +875,6 @@
     "configurationReverseMotorSwitch": {
         "message": "Direção do motor é invertida"
     },
-    "configurationReverseMotorSwitchHelp": {
-        "message": "Ativar esta opção irá dizer ao Betaflight que os motores e hélices estão definidos para rodar na direção inversa."
-    },
     "configurationAutoDisarmDelay": {
         "message": "Desarmar os motores após definir [seconds] de espera (Requer a funcionalidade MOTOR_STOP)"
     },
