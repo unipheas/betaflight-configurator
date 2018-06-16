@@ -2930,7 +2930,7 @@
         "message": "Speichern"
     },
     "osdSetupFontManager": {
-        "message": "Schriftverwaltung"
+        "message": "Schriftartverwaltung"
     },
     "osdSetupUncheckAll": {
         "message": "Markierung aufheben"
@@ -3161,13 +3161,13 @@
         "message": "Setze den Alarmwert der Stoppuhr in Minuten. Sobald die Zeit überschritten ist blinkt das dazugehörige OSD Element"
     },
     "osdWarningArmingDisabled": {
-        "message": "Zeigt den den schwerwiegensten Fehler an warum das Fluggerät nicht armt"
+        "message": "Zeigt den schwerwiegensten Fehler an, warum das Fluggerät nicht armt."
     },
     "osdWarningBatteryNotFull": {
-        "message": "Alarm der der Verwendung einer nicht vollgeladenen Batterie"
+        "message": "Alarm, wenn Batterie nicht vollgeladenen ist."
     },
     "osdWarningBatteryWarning": {
-        "message": "Benachrichtigt falls die Batteriespannung unter dem Alarm Schwellwert fällt"
+        "message": "Alarm, wenn die Batteriespannung unter dem Warn-Schwellwert fällt"
     },
     "osdWarningBatteryCritical": {
         "message": "Alarm wenn die Batteriespannung unter die durchschnittliche Zellspannung fällt"
@@ -3177,6 +3177,9 @@
     },
     "osdWarningCrashFlipMode": {
         "message": "Warnung bei aktiviertem \"Flip over after Crash\" Modus"
+    },
+    "osdWarningEscFail": {
+        "message": "Liste der ESCs\/Motoren mit Fehlern (Drehzahl oder Temperatur sind ausserhalb der konfigurierten Schwellwerte)"
     },
     "osdSectionHelpElements": {
         "message": "OSD Elemente aktivieren oder deaktivieren"
