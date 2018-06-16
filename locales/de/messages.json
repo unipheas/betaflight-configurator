@@ -1146,7 +1146,7 @@
         "message": "Anti Gravity Schwellwert"
     },
     "pidTuningPidSettings": {
-        "message": "PID Controller EInstellungen"
+        "message": "PID Kontroller EInstellungen"
     },
     "receiverRcInterpolation": {
         "message": "RC Interpolation"
@@ -1242,10 +1242,10 @@
         "message": "PID Controller"
     },
     "pidTuningCopyProfile": {
-        "message": "Kopiere Profil Einstellungen"
+        "message": "Kopiere Profileinstellungen"
     },
     "pidTuningCopyRateProfile": {
-        "message": "Kopiere Rate Profil Werte"
+        "message": "Kopiere Rate-Profileinstellungen"
     },
     "dialogCopyProfileText": {
         "message": "Kopiere aktuelle Profileinstellungen nach"
@@ -1266,7 +1266,7 @@
         "message": "Abbrechen"
     },
     "pidTuningResetProfile": {
-        "message": "Setzte alle Profilwerte zurück"
+        "message": "alle Profileinstellungen zurücksetzen"
     },
     "pidTuningProfileReset": {
         "message": "Standartprofilwerte geladen."
@@ -2543,7 +2543,7 @@
         "message": "Empfänger Failsave"
     },
     "failsafeFeaturesHelpNew": {
-        "message": "Es gibt ein zweistufiges Failsafe system. <strong>Stufe 1<\/strong> tritt dann ein, wenn die Impluslänge des Empfängers nicht stimmt, der Empfänger einen Failsave übermittelt oder kein Signal mehr empfangen wird. Die Kanal Rückfalleinstellungen werden dann <span class=\"message-negative\">für alle<\/span> Kanäle gesetzt und ein kurzes Zeitfenster wird geöffnet um eine erneute Verbindung zu ermöglichen. <strong>Stufe 2<\/strong> tritt dann ein, wenn das Signal für eine längere Zeit weg ist während der Quad \/ Flieger <span class=\"message-negative\">gearmt<\/span> ist. Alle Känale werden mit den hier gesetzten Einstellungen überschrieben.<br \/><strong>Hinweis:<\/strong> Im Gegensatz zu Stage 1 werden hier auch Werte für Kanäle überschrieben die ungültige Daten empfangen"
+        "message": "Es gibt ein zweistufiges Failsafe System. <strong>Stufe 1<\/strong> tritt dann ein, wenn die Impluslänge des Empfängers nicht stimmt, der Empfänger einen Failsafe übermittelt oder kein Signal mehr empfangen wird. Die Kanal Rückfalleinstellungen werden dann <span class=\"message-negative\">für alle<\/span> Kanäle gesetzt und ein kurzes Zeitfenster wird geöffnet um eine erneute Verbindung zu ermöglichen. <strong>Stufe 2<\/strong> tritt dann ein, wenn das Signal für eine längere Zeit weg ist während der Quad \/ Flieger <span class=\"message-negative\">gearmt<\/span> ist. Alle Känale werden mit den hier gesetzten Einstellungen überschrieben.<br \/><strong>Hinweis:<\/strong> Im Gegensatz zu Stage 1 werden hier auch Werte für Kanäle überschrieben die ungültige Daten empfangen."
     },
     "failsafePulsrangeTitle": {
         "message": "Einstellungen für gültige Pulslängen des Signals"
