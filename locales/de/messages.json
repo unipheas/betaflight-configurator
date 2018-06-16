@@ -2963,7 +2963,7 @@
         "message": "Aktueller RSSI Wert  (blinkt wenn unter dem Alarm Schwellwert)"
     },
     "osdDescElementThrottlePosition": {
-        "message": "Aktueller Wert des Throttlekanals"
+        "message": "Aktueller Wert des Gas-Kanals"
     },
     "osdDescElementArmed": {
         "message": "Meldung bei Arming"
