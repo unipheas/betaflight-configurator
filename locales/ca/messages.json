@@ -865,9 +865,6 @@
     "configurationReverseMotorSwitch": {
         "message": "La direcció dels motors és inversa"
     },
-    "configurationReverseMotorSwitchHelp": {
-        "message": "Habilitar aquesta opció li dirà a Betaflight que els motors i pales estan configurats per a girar en sentit invers."
-    },
     "configurationAutoDisarmDelay": {
         "message": "Desarma els motors després de [segons] (Requereix de la característica de MOTOR_STOP)"
     },
