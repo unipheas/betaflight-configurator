@@ -1845,7 +1845,7 @@
         "message": "Daten werden <span class=\"message-negative\">nur <\/span> in diesem Tab geloggt. Wenn der Tab geschlossen wird, wird das Loggen <span class=\"message-negative\">abgebrochen<\/span> und die Anwendung geht in den normalen Modus zurück."
     },
     "loggingSamplesSaved": {
-        "message": "Gespeicherte Beispiele:"
+        "message": "Gespeicherte Logs:"
     },
     "loggingLogSize": {
         "message": "Log Größe:"
@@ -1899,7 +1899,7 @@
         "message": "Serieller Port"
     },
     "serialLoggingSupportedNote": {
-        "message": "Das Speichern des Logs ist auf einem externen Gerät (wie z.B einem OpenLog) möglich. Dazu bitte den Port im Port Tab konfigurieren."
+        "message": "Das Speichern der Logs ist auf einem externen Gerät (wie z.B einem OpenLog) möglich. Dazu bitte den Anschluss im \"Anschlüsse Tab\" konfigurieren."
     },
     "sdcardNote": {
         "message": "Fluglogs können auf der SD Karte gespeichert werden."
@@ -1911,7 +1911,7 @@
         "message": "Freier Speicher"
     },
     "dataflashUnavSpace": {
-        "message": "Belegter Speicher"
+        "message": "Belegter Speicher:"
     },
     "dataflashLogsSpace": {
         "message": "Freier Speicher für Logs"
@@ -2897,16 +2897,16 @@
         "message": "Schriftarten:"
     },
     "osdSetupOpenFont": {
-        "message": "Schriftdatei öffnen"
+        "message": "Schriftartdatei öffnen"
     },
     "osdSetupCustomLogoTitle": {
         "message": "Startbild:"
     },
     "osdSetupCustomLogoInfoTitle": {
-        "message": "Angepasstes Bild:"
+        "message": "Benutzerdefiniertes Bild:"
     },
     "osdSetupCustomLogoInfoImageSize": {
-        "message": "Größe muss $t(LogoWidthPx) ×$t(LogoHeightPx) Pixel betragen"
+        "message": "Größe muss $t(logoWidthPx) ×$t(logoHeightPx) Pixel betragen"
     },
     "osdSetupCustomLogoInfoColorMap": {
         "message": "Darf nur grüne, schwarze und weiße Pixel enthalten"
