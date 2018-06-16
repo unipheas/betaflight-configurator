@@ -875,9 +875,6 @@
     "configurationReverseMotorSwitch": {
         "message": "모터 방향이 반대로 됩니다."
     },
-    "configurationReverseMotorSwitchHelp": {
-        "message": "이 옵션을 활성화하면 베타플라이트에 모터와 프롭이 역 방향으로 작동되도록 설정한다는 것을 말합니다."
-    },
     "configurationAutoDisarmDelay": {
         "message": "설정 지연 후 모터 해제 [초] (모터_정지 기능 필요)"
     },
