@@ -785,9 +785,6 @@
     "configurationReverseMotorSwitch": {
         "message": "Kierunek silników jest odwrócony"
     },
-    "configurationReverseMotorSwitchHelp": {
-        "message": "Uruchomienie tej opcji mówi Betaflight, że silniki i śmigła są ustawione, aby działały w przeciwnym kierunku."
-    },
     "configurationAutoDisarmDelay": {
         "message": "Rozbrojenie silników po ustawionym czasie [sekundy] (Wymaga uruchomienia MOTOR_STOP)"
     },
