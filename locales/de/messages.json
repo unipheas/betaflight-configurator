@@ -1290,10 +1290,10 @@
         "message": "EEPROM <span class=\"message-positive\">gespeichert<\/span>"
     },
     "receiverHelp": {
-        "message": "Bitte das Kapitel über Empfänger in der Dokumentation lesen. Seriellen Empfänger (falls nötig) konfigurieren, Protocol auswählen, Empfänger binden und Kanäle zuweisen. Endpunkte so wählen dass alle Kanäle von ~ 1000 - ~2000 gehen. Mittelwert auf 1500 festelgen. <span class=\"message-negative\">WICHTIG:<\/span>Ebenso bitte Failsafe konfigurieren, bzw. das Kapital darüber in der Dokumentation lesen."
+        "message": "Bitte das Kapitel über Empfänger in der Dokumentation lesen. Seriellen Empfänger (falls nötig) konfigurieren, Protokoll auswählen, Empfänger verbinden und Kanäle zuweisen. Endpunkte so wählen, dass alle Kanäle von ~ 1000 - ~2000 gehen. Mittelwert auf 1500 festelgen. <span class=\"message-negative\">WICHTIG:<\/span> Ebenso bitte Failsafe konfigurieren, bzw. das Kapital darüber in der Dokumentation lesen."
     },
     "tuningHelp": {
-        "message": "<b>Tuning tips<\/b><br \/><span class=\"message-negative\">Wichtig:<\/span>Es ist wichtig, bei den ersten Flügen die Motortemperatur im Auge zu behalten. Je höher die Filterwerte, desto besser könnte er fliegen, aber es wird auch mehr Rauschen in die Motoren gehen<br>Die Standarteinstellung 100Hz ist optimal, für problematische Setups könnte man jedoch richtung 50Hz Dterm Filter (und eventuell auch beim Gyro-Filter) gehen."
+        "message": "<b>Tuning tips<\/b><br \/><span class=\"message-negative\">Wichtig:<\/span> Es ist wichtig, bei den ersten Flügen, die Motortemperatur im Auge zu behalten. Je höher die Filterwerte, desto besser könnte er fliegen, aber es wird auch mehr Rauschen in die Motoren gehen.<br>Die Standarteinstellung 100Hz ist optimal, für problematische Setups könnte man jedoch richtung 50Hz Dterm Filter (und eventuell auch beim Gyro-Filter) gehen."
     },
     "receiverThrottleMid": {
         "message": "Gas Mittelwert"
@@ -1380,7 +1380,7 @@
         "message": "Kontrolle aktivieren"
     },
     "auxiliaryHelp": {
-        "message": "Hier können verschiedene Modi auf einen bestimmten Bereich eines oder mehrerer AUX Kanäle gelegt werden. Bitte beachte dass Änderungen gespeichert werden müssen bevor diese aktiv werden."
+        "message": "Hier können verschiedene Modi auf einen bestimmten Bereich eines oder mehrerer AUX Kanäle gelegt werden. Bitte beachte, dass Änderungen gespeichert werden müssen bevor diese aktiv werden."
     },
     "auxiliaryMin": {
         "message": "Min"
@@ -1401,10 +1401,10 @@
         "message": "AUTO"
     },
     "adjustmentsHelp": {
-        "message": "Konfiguriere Schalter Anpassungen. Sieh im 'in-flight adjustments' Abschnitt des Handbuchs für Details nach. Die Änderungen an Anpassungsfunktionen werden nicht automatisch gespeichert. Es gibt 4 (Speicher-)Slots. Jeder Schalter der für gleichzeitige Anpassungen genutzt wird, muss jeweils einem eindeutigen Slot zugeordnet sein."
+        "message": "Konfiguriere Schalter Anpassungen. Siehe im 'in-flight adjustments' Abschnitt des Handbuchs für Details nach. Die Änderungen an Anpassungsfunktionen werden nicht automatisch gespeichert. Es gibt 4 (Speicher-) Slots. Jeder Schalter der für gleichzeitige Anpassungen genutzt wird, muss jeweils einem eindeutigen Slot zugeordnet sein."
     },
     "adjustmentsExamples": {
-        "message": "Beispiele"
+        "message": "Beispiele:"
     },
     "adjustmentsExample1": {
         "message": "Benutzt Speicherslot 1 und einen 3 Pos. Schalter auf AUX1 um die Werte von Roll \/ Pitch P I und D mit Hilfe eines weitern 3 Pos. Schalters auf AUX2 zu erhöhen oder zu senken."
