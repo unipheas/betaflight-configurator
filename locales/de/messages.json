@@ -1695,7 +1695,7 @@
         "message": "Strom:"
     },
     "motorsmAhDrawn": {
-        "message": "Stromverbrauch [A]:"
+        "message": "Stromverbrauch:"
     },
     "motorsVoltageValue": {
         "message": "$1 V"
@@ -1776,7 +1776,7 @@
         "message": "Master"
     },
     "motorsNotice": {
-        "message": "<strong>Motortestmodus Hinweis:<\/strong><br \/>Das Bewegen der Schieberegler oder das Arming über die Fernsteuerung werden die Motoren <strong>anlaufen<\/strong> lassen.<br \/>Um Verletzungen zu vermeiden <strong class=\"message-negative\"> bitte ALLE Propeller entfernen<\/strong><br \/>Der Testmodus wird auch den Abhebeschutz deakvieren, so dass sich das Gerät ohne Propeller nicht selbst abschaltet<br \/>"
+        "message": "<strong>Motor Testmodus - Hinweis:<\/strong><br \/>Bewegen der Regler oder Arming des Fluggerätes über die Fernsteuerung wird die Motoren <strong>anlaufen<\/strong> lassen.<br \/>Um Verletzungen zu vermeiden <strong class=\"message-negative\"> bitte ALLE Propeller entfernen<\/strong>.<br \/>Der Testmodus wird auch den Abhebeschutz deakvieren, so dass sich das Gerät ohne Propeller nicht selbst abschaltet.<br \/>"
     },
     "motorsEnableControl": {
         "message": "<strong>Ich weiß was ich mache<\/strong>, Propeller sind entfernt - Motorkontrolle aktivieren und Abhebeschutz deaktivieren."
@@ -2849,7 +2849,7 @@
         "message": "OSD"
     },
     "osdSetupPreviewHelp": {
-        "message": "<strong>Hinweis:<\/strong> OSD-VOrschau eventuell nicht in der aktuell auf dem FC installierten Schriftart."
+        "message": "<strong>Hinweis:<\/strong> OSD-Vorschau eventuell nicht in der Schriftart, welche aktuell auf dem FC installiert ist."
     },
     "osdSetupUnsupportedNote1": {
         "message": "Dein FC reagiert nicht auf OSD-Kommandos. Das bedeutet wahrscheinlich, daß er kein eingebautes Betaflight-OSD hat."
@@ -2861,7 +2861,7 @@
         "message": "Elemente"
     },
     "osdSetupElementsSwitchAll": {
-        "message": "Alle umschalten"
+        "message": "Alle aktivieren"
     },
     "osdSetupPreviewTitle": {
         "message": "Vorschau (Ziehen um Position zu ändern)"
@@ -3143,7 +3143,7 @@
         "message": "Echtzeit-Batteriespannung"
     },
     "osdTimerSource": {
-        "message": "Source:"
+        "message": "Quelle:"
     },
     "osdTimerSourceTooltip": {
         "message": "Quellenauswahl für die Timer"
