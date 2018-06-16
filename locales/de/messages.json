@@ -1407,10 +1407,10 @@
         "message": "Beispiele:"
     },
     "adjustmentsExample1": {
-        "message": "Benutzt Speicherslot 1 und einen 3 Pos. Schalter auf AUX1 um die Werte von Roll \/ Pitch P I und D mit Hilfe eines weitern 3 Pos. Schalters auf AUX2 zu erhöhen oder zu senken."
+        "message": "Benutze Speicherslot 1 und einen 3 Pos. Schalter auf AUX1, um die Werte von Roll \/ Pitch P I und D mit Hilfe eines weitern 3 Pos. Schalters auf AUX2 zu erhöhen oder zu senken."
     },
     "adjustmentsExample2": {
-        "message": "Benutzt Speicherslot 2 und ein 3 pos. Schalter auf AUX4 um die Wahl des Rate Profils über diesen 3 Kanal Schalter auf dem selben Kanal"
+        "message": "Benutze Speicherslot 2 und einen 3 Pos. Schalter auf AUX4, um die Wahl des Rate Profils über diesen 3 Kanal Schalter auf dem selben Kanal."
     },
     "adjustmentsColumnEnable": {
         "message": "falls aktiviert"
@@ -1599,19 +1599,19 @@
         "message": "Servos brauchen Firmware &gt;= 1.10.0 und Target Unterstützung"
     },
     "servosChangeDirection": {
-        "message": "Ändere die Richtung im Sender um übereinzustimmen"
+        "message": "Ändere die Richtung im Sender damit es übereinstimmt"
     },
     "servosName": {
-        "message": "NAME"
+        "message": "Name"
     },
     "servosMid": {
         "message": "Mittel"
     },
     "servosMin": {
-        "message": "MIN"
+        "message": "Min"
     },
     "servosMax": {
-        "message": "MAX"
+        "message": "Max"
     },
     "servosAngleAtMin": {
         "message": "Minimaler Winkel"
