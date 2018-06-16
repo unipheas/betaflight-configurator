@@ -875,9 +875,6 @@
     "configurationReverseMotorSwitch": {
         "message": "Sens de rotation inversé"
     },
-    "configurationReverseMotorSwitchHelp": {
-        "message": "Si actif, informe Betaflight que les hélices et moteurs sont installés de façon à travailler dans le sens opposé."
-    },
     "configurationAutoDisarmDelay": {
         "message": "Désarme les moteurs après un délais de [seconds] (nécessite MOTOR_STOP)"
     },
