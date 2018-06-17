@@ -875,6 +875,9 @@
     "configurationReverseMotorSwitch": {
         "message": "モーター回転方向を逆転"
     },
+    "configurationReverseMotorSwitchHelp": {
+        "message": "このオプションは、モーター回転方向の構成を逆転させプロペラを回すよう、ミキサー設定を行います。\n<strong>注意:<\/strong> これはモーターそのもののの回転方向を逆転させるわけでありません。ESC設定ツールを使用するか、ESCモーターの配線順序を切り替えて構成してください。また、プロペラを用いモーターが上図に示す方向に回転していることを確認してから、アームを解除してください。"
+    },
     "configurationAutoDisarmDelay": {
         "message": "設定後にモーターをディスアーム [seconds] (MOTOR_STOP機能必須)"
     },
