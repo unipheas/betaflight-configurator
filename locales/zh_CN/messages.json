@@ -2515,6 +2515,9 @@
     "pidTuningVbatPidCompensation": {
         "message": "电池电压PID 补偿"
     },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "当电池电压变低时， 飞控自动增加PID数值来补偿动力的损失。这会在整个飞行过程中提供一个更一致的飞行特性。该补偿数值通过在 $t(tabPower.message) 的 $t(powerBatteryMaximum.message) 计算而得，所以请确保正确设置了该数值。"
+    },
     "configHelp2": {
         "message": "任意角度（直立，反转，旋转等）安装飞控板。当使用外部传感器时，请使用传感器校正设置(陀螺，加速度计，磁场计)来决定独立于飞控板的传感器位置。"
     },
