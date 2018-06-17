@@ -875,6 +875,9 @@
     "configurationReverseMotorSwitch": {
         "message": "Sens de rotation inversé"
     },
+    "configurationReverseMotorSwitchHelp": {
+        "message": "Cette option informe le contrôleur que le sens de rotation des moteurs et des hélices est inversé. <strong>Attention: <\/strong> l'option n'inverse pas le sens de rotation des moteurs. Pour cela il faut utiliser l'utilitaire de configuration des ESCs ou interchanger 2 des fils moteurs. Enfin, retirez les hélices et vérifiez que le sens de rotation des moteurs est conforme au schéma ci-dessus."
+    },
     "configurationAutoDisarmDelay": {
         "message": "Désarme les moteurs après un délais de [seconds] (nécessite MOTOR_STOP)"
     },
@@ -905,8 +908,17 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Valeur envoyée aux ESC lorsque la machine est désarmée. Renseigner une valeur pour laquelle les moteurs ne tournent pas (1000 pour la plupart des ESC)."
     },
+    "configurationDshotBeeper": {
+        "message": "Configuration des Beacon Dshot"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "Utiliser les beacons Dshot (utilise les moteurs pour biper quand désarmé)"
+    },
     "configurationDshotBeaconTone": {
         "message": "Beacon tonalité"
+    },
+    "configurationDshotBeaconHelp": {
+        "message": "Le beacon Dshot utilise les ESCs et les moteurs pour produire du son. Cela signifie que la balise Dshot ne peut pas être utilisée lorsque les moteurs tournent. Dans Betaflight 3.4 et plus récent, lors de l'armement alors que la balise Dshot est active, il y a un délai de 2 secondes après la dernière tonalité de la balise Dshot avant que le vaisseau ne soit armé. Ceci afin d'éviter que la fonctionnalité de la balise Dshot n'interfère avec les commandes Dshot envoyées lors de l'armement.<br\/><strong>Warning:<\/strong> Puisque la balise Dshot fait passer le courant dans vos moteurs quand elle est active, cela peut entraîner une production de chaleur excessive et endommager vos moteurs et\/ou ESCs si la puissance de la balise est trop élevée. Utilisez BLHeli Configurator ou BLHeli Suite pour ajuster et tester la tension de la balise."
     },
     "configurationBeeper": {
         "message": "Configuration du Beeper"
@@ -935,6 +947,12 @@
     "beeperBAT_LOW": {
         "message": "Bip avertisseur sur batterie faible (de façon répétée)"
     },
+    "beeperGPS_STATUS": {
+        "message": "Le nombre de bip indique combien de satellites GPS ont été trouvés"
+    },
+    "beeperRX_SET": {
+        "message": "Bip quand la voie aux est réglée pour biper"
+    },
     "beeperACC_CALIBRATION": {
         "message": "Calibration en vol de l'accéléromètre confirmée"
     },
@@ -947,11 +965,26 @@
     "beeperDISARM_REPEAT": {
         "message": "Bip tant que le switch est en position désarmée"
     },
+    "beeperARMED": {
+        "message": "Bip d'avertissement quand la carte est armée et que les moteurs ne tournent pas (actifs jusqu'à ce que la carte soit désarmée ou le niveau de gaz augmenté)"
+    },
     "beeperSYSTEM_INIT": {
         "message": "Bips d'initialisation lorsque la carte est mise sous tension"
     },
+    "beeperUSB": {
+        "message": "Bip lorsque le contrôleur de vol est alimenté par USB. Désactiver si vous ne voulez pas de bip lorsque vous êtes sur le plan de travail"
+    },
     "beeperBLACKBOX_ERASE": {
         "message": "Bip lorsque le formatage du log est terminé"
+    },
+    "beeperCRASH_FLIP": {
+        "message": "Bip lorsque le mode crash flip est actif"
+    },
+    "beeperCAM_CONNECTION_OPEN": {
+        "message": "Bip lors de l'entrée dans le mode émulation du pad 5 points caméra"
+    },
+    "beeperCAM_CONNECTION_CLOSE": {
+        "message": "Bip lors de la sortie du mode émulation du pad 5 points caméra"
     },
     "configuration3d": {
         "message": "Fonctions ESC\/Moteurs 3D"
@@ -1171,6 +1204,9 @@
     },
     "pidTuningDtermSetpointHelp": {
         "message": "Ce paramètre détermine l'effet accélérateur de stick de la dérivée.<br \/>0 revient à l'ancienne méthode où D suivait les infos du gyro, 1 évalue l'écart entre la valeur demandée par le stick et celle obtenue par le gyro.<br \/>Avec une valeur faible le stick est plus lent\/souple, avec une valeur élevée le stick est de plus en plus réactif.<br \/>Note: avec une valeur élevée, il est recommandé d'utilise l'interpolation RC afin de limiter les accoups et du bruit (dans le gyro)."
+    },
+    "pidTuningDtermSetpointTransitionWarning": {
+        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong>Régler le D Setpoint transition sur une valeur comprise entre 0 et 0.1 est vivement déconseillée. Risques d'instabilité et manque réactivité vers les centres des sticks.<\/span>"
     },
     "pidTuningProportional": {
         "message": "Proportionnelle"
@@ -2509,6 +2545,69 @@
     "pidTuningNonProfileFilterSettings": {
         "message": "Paramètres de filtre indépendants du profil"
     },
+    "pidTuningGyroLowpassFiltersGroup": {
+        "message": "Filtres gyro passe-bas"
+    },
+    "pidTuningGyroLowpassFrequency": {
+        "message": "Fréquence de Coupure du filtre passe-bas gyro 1 [Hz]"
+    },
+    "pidTuningGyroLowpassType": {
+        "message": "Type de filtre gyro passe-bas 1"
+    },
+    "pidTuningGyroLowpass2Frequency": {
+        "message": "Fréquence de Coupure du filtre passe-bas gyro 2 [Hz]"
+    },
+    "pidTuningGyroLowpass2Type": {
+        "message": "Type de filtre gyro passe-bas 2"
+    },
+    "pidTuningGyroNotchFiltersGroup": {
+        "message": "Filtres gyro Notch"
+    },
+    "pidTuningGyroNotch1Frequency": {
+        "message": "Centre de fréquence du Filtre gyro Notch 1 [Hz]"
+    },
+    "pidTuningGyroNotch2Frequency": {
+        "message": "Centre de fréquence du Filtre gyro Notch 2 [Hz]"
+    },
+    "pidTuningGyroNotch1Cutoff": {
+        "message": "Fréquence de Coupure du filtre Notch gyro 1 [Hz]"
+    },
+    "pidTuningGyroNotch2Cutoff": {
+        "message": "Fréquence de Coupure du filtre Notch gyro 2 [Hz]"
+    },
+    "pidTuningNotchFilterHelp": {
+        "message": "Le filtre Notch est définit par son centre et la coupure. Le filtre est symétrique. La fréquence centre est le milieu du filtre et la coupure est la fréquence à laquelle le filtre démarre. Par exemple avec une coupure de 160 et un centre à 260, la zone 160-360Hz sera filtrée avec un maximum d'atténuation autour du centre"
+    },
+    "pidTuningFilterSettings": {
+        "message": "Réglages filtres liés au profile"
+    },
+    "pidTuningDTermLowpassFiltersGroup": {
+        "message": "Filtre passe-bas D Term"
+    },
+    "pidTuningDTermLowpassType": {
+        "message": "Type du filtre passe-bas D Term 1"
+    },
+    "pidTuningDTermLowpassFrequency": {
+        "message": "Fréquence de coupure du filtre passe-bas D Term 1 [Hz]"
+    },
+    "pidTuningDTermLowpass2Frequency": {
+        "message": "Fréquence de coupure du filtre passe-bas D Term 2 [Hz]"
+    },
+    "pidTuningDTermNotchFiltersGroup": {
+        "message": "Filtres Notch D Term"
+    },
+    "pidTuningDTermNotchFrequency": {
+        "message": "Fréquence centre du filtre Notch D Term [Hz]"
+    },
+    "pidTuningDTermNotchCutoff": {
+        "message": "Fréquence de coupure du filtre Notch D Term [Hz]"
+    },
+    "pidTuningYawLospassFiltersGroup": {
+        "message": "Filtres passe-bas Yaw"
+    },
+    "pidTuningYawLowpassFrequency": {
+        "message": "Fréquence de coupure du filtre passe-bas Yaw [Hz]"
+    },
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID Compensation"
     },
@@ -2598,6 +2697,15 @@
     },
     "failsafeSwitchModeHelp": {
         "message": "Cette option détermine ce qu'il se passe lorsque le Failsafe est activé par un switch AUX :<br\/><strong>Stage 1<\/strong> active le Failsafe Stage 1. Ceci est utile si vous souhaitez simuler le comportement exact du Failsafe lors de la perte de signal.<br\/><strong>Stage 2<\/strong> saute le Stage 1 et active la procédure de Stage 2 immédiatement<br\/><strong>Kill<\/strong> désarme les moteurs instantanément (votre machine va crasher)"
+    },
+    "failsafeSwitchOptionStage1": {
+        "message": "Stage 1"
+    },
+    "failsafeSwitchOptionStage2": {
+        "message": "Stage 2"
+    },
+    "failsafeSwitchOptionKill": {
+        "message": "Tue"
     },
     "powerButtonSave": {
         "message": "Sauvegarder"
