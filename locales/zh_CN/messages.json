@@ -1161,7 +1161,7 @@
         "message": "遥控信号插值间隙[毫秒]"
     },
     "pidTuningDtermSetpointTransition": {
-        "message": "D 定位点转换"
+        "message": "D 设定点转换"
     },
     "pidTuningDtermSetpoint": {
         "message": "D 定位点权重"
