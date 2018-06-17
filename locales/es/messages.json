@@ -875,6 +875,9 @@
     "configurationReverseMotorSwitch": {
         "message": "Dirección de los motores invertida"
     },
+    "configurationReverseMotorSwitchHelp": {
+        "message": "Esta opción configura el mezclador para esperar que la dirección de los motores esté invertida y las hélices estén colocadas en consecuencia. <strong>AVISO:<\/strong> esto no invierte la dirección del motor. Usa la herramienta de configuración para tus ESCs o modifica el orden del cableado entre los ESC y los motores para lograrlo. Además, verifica sin las hélices que los motores giran en la dirección que se muestra en el diagrama de arriba antes de intentar armar."
+    },
     "configurationAutoDisarmDelay": {
         "message": "Desarmar motores después del tiempo configurado [segundos] (Requiere funcionalidad MOTOR_STOP)"
     },
