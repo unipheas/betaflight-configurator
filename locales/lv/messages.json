@@ -875,6 +875,9 @@
     "configurationReverseMotorSwitch": {
         "message": "Motoru griešanās virziens ir reversā"
     },
+    "configurationReverseMotorSwitchHelp": {
+        "message": "Šī iespēja konfigurē mikseri, lai sagaidāmais motora virziens būtu reversā un propelleri uzlikti atbilstoši. <strong>Brīdinājums:<\/strong> Tas nemaina motora griešanās virzienu. Priekš ESCs pielietojiet konfigurācijas rīku vai samainiet ESC - motoru vadu secību, lai iegūtu sagaidāmo rezultātu. Obligāti pārliecināties bez propelleri, vai motora griešanas virziens ir atbilstoši tam kas norādīts diagrammā augšpusē, pirms mēģināsiet lidot."
+    },
     "configurationAutoDisarmDelay": {
         "message": "Deaktivēt motorus pēc uzstādītās laika aiztures[seconds] (Nepieciešama MOTOR_STOP funkcija)"
     },
