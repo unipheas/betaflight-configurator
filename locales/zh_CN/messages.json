@@ -2573,10 +2573,10 @@
         "message": "陀螺仪陷波滤波器2中心频率 [Hz]"
     },
     "pidTuningGyroNotch1Cutoff": {
-        "message": "陀螺仪陷波滤波器截止频率1 [Hz]"
+        "message": "陀螺仪陷波滤波器1截止频率 [Hz]"
     },
     "pidTuningGyroNotch2Cutoff": {
-        "message": "陀螺仪陷波滤波器截止频率2 [Hz]"
+        "message": "陀螺仪陷波滤波器2截止频率 [Hz]"
     },
     "pidTuningNotchFilterHelp": {
         "message": "陷波滤波器有一个中心频率和一个截止频率。过滤器频率设置是中心对称的。中心频率是过滤器的中心，截止频率是陷波滤波器开始的位置。例如：当设置截止频率为160和中心频率为260时，它意味着滤波范围是160-360Hz，并且中心频率附近获得最多的抑制。"
