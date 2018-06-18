@@ -875,6 +875,9 @@
     "configurationReverseMotorSwitch": {
         "message": "Direção do motor é invertida"
     },
+    "configurationReverseMotorSwitchHelp": {
+        "message": "Esta opção indica à controladora de voo que a rotação dos motores é invertida e que as hélices serão montadas de acordo com isso. <strong>Atenção:<\/strong> Esta opção não inverte o sentido do motor; Para isto, use a ferramenta de configuração de seu ESC ou altere a ordem dos cabos ESC-motor. Além disso, com as hélices removidas, certifique-se que os motores estão girando nas direções mostradas no diagrama acima antes de tentar armar."
+    },
     "configurationAutoDisarmDelay": {
         "message": "Desarmar os motores após definir [seconds] de espera (Requer a funcionalidade MOTOR_STOP)"
     },
