@@ -323,7 +323,7 @@
         "message": "Šai programmatūrai uz šīs iekārtas nepieciešama atjaunināšana uz jaunāku versiju. Izmantojiet CLI, lai dublētu datus pirms programmēšanas. CLI dublēšanas\/atjaunošanas procedūras ir dokumentācijā. <br \/>Alternatīva ir lejupielādēt un lietot veco konfiguratora versiju, ja jūs neesat gatavs atjaunināt."
     },
     "infoVersions": {
-        "message": "Darbojās - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
+        "message": "Strādā - OS: <strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Konfigurātors: <strong>$3<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
     "releaseCheckLoaded": {
