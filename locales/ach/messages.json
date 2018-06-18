@@ -2097,6 +2097,9 @@
     "firmwareFlasherNoReboot": {
         "message": "crwdns5971:0crwdne5971:0"
     },
+    "firmwareFlasherOnlineSelectBuildType": {
+        "message": "crwdns8765:0crwdne8765:0"
+    },
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "crwdns5972:0crwdne5972:0"
     },
@@ -2144,6 +2147,21 @@
     },
     "firmwareFlasherOptionLoading": {
         "message": "crwdns5987:0crwdne5987:0"
+    },
+    "firmwareFlasherOptionLabelBuildTypeRelease": {
+        "message": "crwdns8766:0crwdne8766:0"
+    },
+    "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
+        "message": "crwdns8767:0crwdne8767:0"
+    },
+    "firmwareFlasherOptionLabelBuildTypeDevelopment": {
+        "message": "crwdns8768:0crwdne8768:0"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_3": {
+        "message": "crwdns8769:0crwdne8769:0"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_4": {
+        "message": "crwdns8770:0crwdne8770:0"
     },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "crwdns5988:0crwdne5988:0"
