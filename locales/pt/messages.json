@@ -42,7 +42,7 @@
         "message": "Ativar modo avançado"
     },
     "permanentExpertMode": {
-        "message": "Sempre usar o modo avançado"
+        "message": "Usar sempre o modo avançado"
     },
     "userLanguageSelect": {
         "message": "Idioma (necessário reiniciar a aplicação para que as alterações surtam efeito)"
