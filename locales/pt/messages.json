@@ -45,7 +45,7 @@
         "message": "Sempre usar o modo avançado"
     },
     "userLanguageSelect": {
-        "message": "Idioma (necessário reiniciar a aplicação)"
+        "message": "Idioma (necessário reiniciar a aplicação para que as alterações surtam efeito)"
     },
     "language_default": {
         "message": "Padrão"
