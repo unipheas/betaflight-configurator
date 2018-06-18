@@ -2051,6 +2051,9 @@
     "firmwareFlasherNoReboot": {
         "message": "Pas de redémarrage"
     },
+    "firmwareFlasherOnlineSelectBuildType": {
+        "message": "Choisir le type de build pour voir les cartes disponibles."
+    },
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "Sélectionnez votre carte pour voir les microprogrammes disponibles - Sélectionnez le microprogramme approprié à votre carte."
     },
@@ -2098,6 +2101,21 @@
     },
     "firmwareFlasherOptionLoading": {
         "message": "Chargement..."
+    },
+    "firmwareFlasherOptionLabelBuildTypeRelease": {
+        "message": "Release"
+    },
+    "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
+        "message": "Release et Release Candidate"
+    },
+    "firmwareFlasherOptionLabelBuildTypeDevelopment": {
+        "message": "Développement"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_3": {
+        "message": "Patch 3.3 AKK & RDQ VTX"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_4": {
+        "message": "Patch 3.4 AKK & RDQ VTX"
     },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Choisir un microprogramme \/ une carte"
