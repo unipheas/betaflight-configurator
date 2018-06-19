@@ -27,16 +27,16 @@
         "message": "Port:"
     },
     "autoConnect": {
-        "message": "Auto-Connect"
+        "message": "automatisch Verbinden"
     },
     "close": {
         "message": "Schließen"
     },
     "autoConnectEnabled": {
-        "message": "Auto-Connect: aktiv. Der Konfigurator versucht sich wieder zu verbinden wenn ein neuer Port erkannt wird"
+        "message": "automatisch Verbinden: aktiv. Der Konfigurator versucht sich wieder zu verbinden, wenn ein neuer Port erkannt wird."
     },
     "autoConnectDisabled": {
-        "message": "Auto-Connect nicht aktiv. Bitte manuell verbinden"
+        "message": "automatisch Verbinden: nicht aktiv. Bitte manuell verbinden"
     },
     "expertMode": {
         "message": "Expertenmodus einschalten"
@@ -1935,7 +1935,7 @@
         "message": "Freier Speicher für Logs"
     },
     "dataflashNote": {
-        "message": "Fluglogs können auf dem internen Speicher gespeichert werden"
+        "message": "Fluglogs können auf dem internen Speicher aufgezeichnet werden."
     },
     "dataflashNotPresentNote": {
         "message": "Der Flugcontroller hat kein passendes Speichermedium verbaut"
@@ -2139,7 +2139,7 @@
         "message": "Nachricht:"
     },
     "firmwareFlasherWarningText": {
-        "message": "Bitte versuche <span class=\"message-negative\">nicht<\/span>, mit diesem Firmware-Flasher <strong>non-Betaflight<\/strong> Hardware zu flashen.<br \/>Den FC <span class=\"message-negative\">nicht<\/span> <strong>ausstecken<\/strong> und den Computer während des flashens <span class=\"message-negative\">nicht<\/span> <strong>abschalten<\/strong>. <br \/><br \/><strong>Hinweis: <\/strong>Der STM32-Bootloader ist im ROM gespeichert und kann nicht zerstört werden.<br \/><strong>Hinweis: <\/strong><span class=\"message-negative\">Automatisch Verbinden<\/span> ist immer ausgeschaltet, während du den Firmware-Flasher verwendest.<br \/><strong>Hinweis: <\/strong>Stelle sicher, dass du ein Backup deiner Konfiguration hast; einige Upgrades\/Downgrades werden diese eventuell löschen.<br \/><strong>Hinweis:<\/strong> Falls es Probleme beim flashen gibt, stelle sicher, dass <strong>keine anderen Geräte an den seriellen Ports deines FC's angeschlossen sind<\/strong>, reboote den Computer und aktualisiere deine Treiber.<br \/><strong>Hinweis:<\/strong> Wenn du Firmware auf einem mit dem USB-Port verbundenem FC installierst (die meisten modernen FCs) stelle sicher, dass du den Abschnitt \"USB Flashing\" des Betaflight-Handbuches gelesen hast, und dass korrekte Treiber und Software installiert sind."
+        "message": "Bitte versuche <span class=\"message-negative\">nicht<\/span>, mit diesem Firmware-Flasher <strong>non-Betaflight<\/strong> Hardware zu installieren.<br \/>Den FC <span class=\"message-negative\">nicht<\/span> <strong>ausstecken<\/strong> und den Computer währenddessen <span class=\"message-negative\">nicht<\/span> <strong>abschalten<\/strong>. <br \/><br \/><strong>Hinweis: <\/strong>Der STM32-Bootloader ist im ROM gespeichert und kann nicht zerstört werden.<br \/><strong>Hinweis: <\/strong><span class=\"message-negative\">Automatisch Verbinden<\/span> ist immer ausgeschaltet, während du den Firmware-Flasher verwendest.<br \/><strong>Hinweis: <\/strong>Stelle sicher, dass du ein Backup deiner Konfiguration hast; einige Upgrades\/Downgrades werden diese eventuell löschen.<br \/><strong>Hinweis:<\/strong> Falls es Probleme beim flashen gibt, stelle sicher, dass <strong>keine anderen Geräte an den seriellen Ports deines FC's angeschlossen sind<\/strong>, reboote den Computer und aktualisiere deine Treiber.<br \/><strong>Hinweis:<\/strong> Wenn du Firmware auf einem mit dem USB-Port verbundenem FC installierst (die meisten modernen FCs) stelle sicher, dass du den Abschnitt \"USB Flashing\" des Betaflight-Handbuches gelesen hast, und dass korrekte Treiber und Software installiert sind."
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>Wiederherstellung \/ abgebrochene Kommunikation<\/strong>"
@@ -3431,16 +3431,16 @@
         "message": "FPV-Kamera Aufstellwinkel [Grad]"
     },
     "onboardLoggingBlackbox": {
-        "message": "Backbox logging Gerät"
+        "message": "Blackbox Log-Gerät"
     },
     "onboardLoggingRateOfLogging": {
-        "message": "Blackbox logging Geschwindigkeit"
+        "message": "Blackbox Log-Geschwindigkeit"
     },
     "onboardLoggingSerialLogger": {
-        "message": "Externes serielles Logging-Gerät"
+        "message": "Externes serielles Log-Gerät"
     },
     "onboardLoggingFlashLogger": {
-        "message": "Onboard Flash-Speicher"
+        "message": "interner Flash-Speicher"
     },
     "onboardLoggingEraseInProgress": {
         "message": "Löschvorgang, bitte warten..."
