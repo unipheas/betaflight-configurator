@@ -822,7 +822,7 @@
         "message": "<strong>Hinweis:<\/strong> Der SPI Empfänger wird nur dann funktionieren wenn eine passende Hardware auf dem Board oder dem SPI Bus angeschlossen ist"
     },
     "configurationOtherFeaturesHelp": {
-        "message": "<strong>Note:<\/strong>Nicht alle Funktionen werden von allen Flugcontrollern unterstützt. Sollte eine ausgewählte Funktion nach dem Speichern und einem Reboot wieder aus sein, so wird diese nicht unterstützt"
+        "message": "<strong>Hinweis:<\/strong> Nicht alle Funktionen werden von allen FC's unterstützt. Sollte eine ausgewählte Funktion nach dem Speichern und Neustart wieder aus sein, so wird diese nicht unterstützt."
     },
     "configurationBoardAlignment": {
         "message": "Board- und Sensorausrichtung"
