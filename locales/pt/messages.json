@@ -2054,6 +2054,9 @@
     "firmwareFlasherNoReboot": {
         "message": "Sem sequencia de reinicialização"
     },
+    "firmwareFlasherOnlineSelectBuildType": {
+        "message": "Selecione o tipo de compilação para ver as placas disponíveis."
+    },
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "Selecione a sua placa para ver os Firmwares disponíveis online - Selecione o firmware apropriado para a sua placa."
     },
@@ -2101,6 +2104,21 @@
     },
     "firmwareFlasherOptionLoading": {
         "message": "Carregando..."
+    },
+    "firmwareFlasherOptionLabelBuildTypeRelease": {
+        "message": "Lançamento"
+    },
+    "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
+        "message": "Lançamento e Release Candidate"
+    },
+    "firmwareFlasherOptionLabelBuildTypeDevelopment": {
+        "message": "Desenvolvimento"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_3": {
+        "message": "3.3 AKK & RDQ VTX Patch"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_4": {
+        "message": "3.4 AKK & RDQ VTX Patch"
     },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Escolha um Firmware \/ Placa"
