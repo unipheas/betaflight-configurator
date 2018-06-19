@@ -2054,6 +2054,9 @@
     "firmwareFlasherNoReboot": {
         "message": "재부팅 절차 없음"
     },
+    "firmwareFlasherOnlineSelectBuildType": {
+        "message": "사용 가능한 보드를 보고 빌드 형식을 선택하세요."
+    },
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "보드를 선택하여 사용 가능한 온라인 펌웨어 릴리즈를 확인하십시오 - 보드에 적합한 올바른 펌웨어를 선택하십시오."
     },
@@ -2101,6 +2104,21 @@
     },
     "firmwareFlasherOptionLoading": {
         "message": "로딩중 ..."
+    },
+    "firmwareFlasherOptionLabelBuildTypeRelease": {
+        "message": "릴리즈"
+    },
+    "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
+        "message": "릴리즈와 릴리즈 후보"
+    },
+    "firmwareFlasherOptionLabelBuildTypeDevelopment": {
+        "message": "개발 버전"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_3": {
+        "message": "3.3 AKK & RDQ VTX 패치"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_4": {
+        "message": "3.4 AKK & RDQ VTX 패치"
     },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "펌웨어 \/ 보드를 선택하십시오."
