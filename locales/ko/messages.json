@@ -110,7 +110,7 @@
         "message": "릴리즈 웹사이트로 가기"
     },
     "deviceRebooting": {
-        "message": "기기 -  <span class=\"message-negative\">재부팅<\/span>"
+        "message": "기기 - <span class=\"message-negative\">재부팅<\/span>"
     },
     "deviceReady": {
         "message": "기기 - <span class=\"message-positive\">준비<\/span>"
@@ -224,16 +224,16 @@
         "message": "시리얼 연결의 복구할 수 없는 <span class=\"message-negative\">오류 발생<\/span>, 연결해제 중..."
     },
     "usbDeviceOpened": {
-        "message": "USB 기기가 ID: $1로 <span class=\"message-positive\">성공적으로<\/span> 열림"
+        "message": "USB 장치가 ID: $1로 <span class=\"message-positive\">성공적으로<\/span> 열림"
     },
     "usbDeviceOpenFail": {
-        "message": "USB 기기 열기 <span class=\"message-negative\">실패<\/span>!"
+        "message": "USB 장치 열기 <span class=\"message-negative\">실패<\/span>!"
     },
     "usbDeviceClosed": {
-        "message": "USB 기기가 <span class=\"message-positive\">성공적으로<\/span> 닫힘"
+        "message": "USB 장치가 <span class=\"message-positive\">성공적으로<\/span> 닫힘"
     },
     "usbDeviceCloseFail": {
-        "message": "USB 기기 닫기 <span class=\"message-negative\">실패<\/span>"
+        "message": "USB 장치 닫기 <span class=\"message-negative\">실패<\/span>"
     },
     "usbDeviceUdevNotice": {
         "message": "<strong>udev 규칙이<\/strong> 올바르게 설치되었습니까? 지시 문서를 보십시오."
@@ -1131,7 +1131,7 @@
         "message": "IRC 트램프"
     },
     "portsFunction_RUNCAM_DEVICE_CONTROL": {
-        "message": "RunCam 기기"
+        "message": "RunCam 디바이스"
     },
     "pidTuningProfileOption": {
         "message": "프로파일 $1"
@@ -3455,13 +3455,13 @@
         "message": "FPV 카메라 각도 [도]"
     },
     "onboardLoggingBlackbox": {
-        "message": "블랙박스 로그기록 기기"
+        "message": "블랙박스 로그기록 장치"
     },
     "onboardLoggingRateOfLogging": {
         "message": "블랙박스 로그기록 속도"
     },
     "onboardLoggingSerialLogger": {
-        "message": "외부 시리얼 로그기록 기기"
+        "message": "외부 시리얼 로그기록 장치"
     },
     "onboardLoggingFlashLogger": {
         "message": "온보드 데이터 플래시 칩"
