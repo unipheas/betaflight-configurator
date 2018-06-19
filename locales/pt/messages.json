@@ -2106,10 +2106,10 @@
         "message": "Carregando..."
     },
     "firmwareFlasherOptionLabelBuildTypeRelease": {
-        "message": "Lançamento"
+        "message": "Versões finais"
     },
     "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
-        "message": "Lançamento e Release Candidate"
+        "message": "Versões finais e Release Candidate"
     },
     "firmwareFlasherOptionLabelBuildTypeDevelopment": {
         "message": "Desenvolvimento"
