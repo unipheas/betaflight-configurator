@@ -2075,6 +2075,12 @@
     "firmwareFlasherOptionLabelBuildTypeDevelopment": {
         "message": "Desenvolupament"
     },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_3": {
+        "message": "Pedaç 3.3 AKK i RDQ VTX"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_4": {
+        "message": "Pedaç 3.4 AKK i RDQ VTX"
+    },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Escull un Firmware \/ Placa"
     },
@@ -2521,6 +2527,9 @@
     "pidTuningNonProfileFilterSettings": {
         "message": "Ajustament de Filtres independents del perfil"
     },
+    "pidTuningGyroLowpassFiltersGroup": {
+        "message": "Filtres Passabaixos del Giro"
+    },
     "pidTuningGyroNotchFiltersGroup": {
         "message": "Filtres Notch del Giro"
     },
@@ -2616,6 +2625,12 @@
     },
     "failsafeKillSwitchHelp": {
         "message": "Configura aquesta opció per a fer el failsafe switch com a mesura de seguretat. <strong>Nota:<\/strong> L'armat està bloquejat si el switch està a la posició ON"
+    },
+    "failsafeSwitchTitle": {
+        "message": "Interruptor de Failsafe"
+    },
+    "failsafeSwitchModeItem": {
+        "message": "Acció de l'interruptor de Failsafe"
     },
     "failsafeSwitchOptionStage1": {
         "message": "Stage 1"
@@ -3138,6 +3153,9 @@
     },
     "osdDescStatRtcDateTime": {
         "message": "Data i hora real"
+    },
+    "osdDescStatBattery": {
+        "message": "Voltatge de la bateria en temps real"
     },
     "osdTimerSource": {
         "message": "Font:"
