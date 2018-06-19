@@ -813,10 +813,10 @@
         "message": "ESC \/ Motor Funktionen"
     },
     "configurationFeaturesHelp": {
-        "message": "<strong>Hinweis:<\/strong> Nicht alle Konfigurationen sind möglich. Sollte der FC hier einen Konflikt feststellen, werden die Kombinationen zurück gesetzt. <br \/> <strong>Heinweis:<\/strong> Konfiguriere die seriellen Ports <span class=\"message-negative\">vor<\/span> den Funkionen."
+        "message": "<strong>Hinweis:<\/strong> Nicht alle Konfigurationen sind möglich. Sollte der FC hier einen Konflikt feststellen, werden die Kombinationen zurück gesetzt. <br \/> <strong>Hinweis:<\/strong> Konfiguriere die seriellen Anschlüsse <span class=\"message-negative\">bevor<\/span> du Funkionen aktivierst, welche diese verwenden."
     },
     "configurationSerialRXHelp": {
-        "message": "<strong>Hinweis:<\/strong> Vergiss nicht den seriellen Port (Port Tab) zu konfigurieren und einen Signal Typ auszuwählen falls ein Serieller Empfänger genutzt wird."
+        "message": "<strong>Hinweis:<\/strong> Vergiss nicht den seriellen Anschluss (Anschlüsse Tab) zu konfigurieren und einen Signal Typ auszuwählen, falls ein serieller Empfänger genutzt wird."
     },
     "configurationSpiRxHelp": {
         "message": "<strong>Hinweis:<\/strong> Der SPI Empfänger wird nur dann funktionieren wenn eine passende Hardware auf dem Board oder dem SPI Bus angeschlossen ist"
@@ -1026,7 +1026,7 @@
         "message": "Auto Konfig"
     },
     "configurationGPSHelp": {
-        "message": "<strong>Hinweis::<\/strong> Nicht vergessen den seriellen Port zu konfigurieren (Port Tab) wenn GPS benutzt wird"
+        "message": "<strong>Hinweis::<\/strong> Nicht vergessen den seriellen Anschluss zu konfigurieren (Anschlüsse Tab), wenn GPS benutzt wird."
     },
     "configurationSerialRX": {
         "message": "Serieller Empfänger"
@@ -2048,6 +2048,9 @@
     "firmwareFlasherNoReboot": {
         "message": "Keine Reboot-Sequenz"
     },
+    "firmwareFlasherOnlineSelectBuildType": {
+        "message": "Wähle anzuzeigenden Entwicklungsstand der Firmware für die jeweiligen FC's."
+    },
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "Wähle deinen FC, um online verfügbare Firmware-Versionen zu sehen. Wähle dann die richtige Firmware für deinen FC."
     },
@@ -2076,7 +2079,7 @@
         "message": "Neueste (ungetestete) Entwicklerfirmware flashen."
     },
     "firmwareFlasherManualPort": {
-        "message": "Port"
+        "message": "Anschluss"
     },
     "firmwareFlasherManualBaud": {
         "message": "Manuelle Baudrate"
@@ -2085,7 +2088,7 @@
         "message": "Manuelle Auswahl der Baudrate für FCs, die nicht mit der Standardrate funktionieren, oder fürs flashen via Bluetooth.<br \/><span class=\"message-negative\">Hinweis:<\/span> Wird beim flashen via USB-DFU NICHT verwendet"
     },
     "firmwareFlasherBaudRate": {
-        "message": "Baud Rate"
+        "message": "Baudrate"
     },
     "firmwareFlasherShowDevelopmentReleases": {
         "message": "Instabile Versionen anzeigen"
@@ -2095,6 +2098,21 @@
     },
     "firmwareFlasherOptionLoading": {
         "message": "Lade...."
+    },
+    "firmwareFlasherOptionLabelBuildTypeRelease": {
+        "message": "Release (stabile Versionen)"
+    },
+    "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
+        "message": "Release And Release Candidate (stabile und Vorabversionen)"
+    },
+    "firmwareFlasherOptionLabelBuildTypeDevelopment": {
+        "message": "Development (momentan in der Entwicklung)"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_3": {
+        "message": "3.3 AKK & RDQ VTX Patch"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_4": {
+        "message": "3.4 AKK & RDQ VTX Patch"
     },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Wähle eine Firmware \/ FC"
