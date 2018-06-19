@@ -2054,6 +2054,9 @@
     "firmwareFlasherNoReboot": {
         "message": "再起動シーケンスなし"
     },
+    "firmwareFlasherOnlineSelectBuildType": {
+        "message": "使用可能なFCボードを表示するには、ビルドタイプを選択します。"
+    },
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "FCボードチップセットを選択すると、オンラインでファームウェアの確認ができます - 適切なファームウェアを選択して下さい。"
     },
@@ -2101,6 +2104,21 @@
     },
     "firmwareFlasherOptionLoading": {
         "message": "ロード中..."
+    },
+    "firmwareFlasherOptionLabelBuildTypeRelease": {
+        "message": "リリース"
+    },
+    "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
+        "message": "リリースおよびRCバージョン"
+    },
+    "firmwareFlasherOptionLabelBuildTypeDevelopment": {
+        "message": "開発用"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_3": {
+        "message": "3.3 AKK & RDQ VTX パッチ"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_4": {
+        "message": "3.4 AKK & RDQ VTX パッチ"
     },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "ファームウェア \/ ボードを選択"
