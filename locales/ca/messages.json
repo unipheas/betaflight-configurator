@@ -322,6 +322,10 @@
     "firmwareUpgradeRequired": {
         "message": "El firmware d'aquest dispositiu necessita ser actualitzat a una versió superior. Utilitza el CLI per fer una còpia de seguretat abans de flashejar. El procediment està explicat a la documentació.<br \/>D'altra banda pots descarregar i fer servir una versió antiga del configurador si no estàs preparat per actualitzar."
     },
+    "infoVersions": {
+        "message": "Corrent - OS: <strong>$1<\/strong>, Chrome: <strong>$2<\/strong>, Configurator: <strong>$3<\/strong>",
+        "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
+    },
     "releaseCheckLoaded": {
         "message": "Informació de release carregada de $1 carregada de GitHub."
     },
@@ -498,6 +502,9 @@
     },
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+    },
+    "defaultSupport5": {
+        "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Desenvolupadors Betaflight a slack<\/a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span class=\"message-negative\">Funcionalitats de còpia de seguretat i restauració deshabilitades.<\/span> La teva versió de la API és <span class=\"message-negative\">$1<\/span>, la còpia i restauració requereix <span class=\"message-positive\">$2<\/span>. Si us plau, desa la teva configuració mitjançant el CLI, revisa la documentació de Betaflight per saber com procedir."
@@ -897,6 +904,9 @@
     },
     "configurationThrottleMinimumCommandHelp": {
         "message": "Aquest és el valor que s'envia als ESCs quan l'aeronau està desarmada. Posa-ho a un valor que mantingui els motors parats (1000 a la majoria d'ESCs)."
+    },
+    "configurationDshotBeeper": {
+        "message": "Configuració de Beacon Dshot"
     },
     "configurationDshotBeaconTone": {
         "message": "To de Beacon"
@@ -1666,6 +1676,24 @@
     "gpsSignalQty": {
         "message": "Qty"
     },
+    "motorsVoltage": {
+        "message": "Voltatge:"
+    },
+    "motorsADrawing": {
+        "message": "Amperatge:"
+    },
+    "motorsmAhDrawn": {
+        "message": "Amp. consumits:"
+    },
+    "motorsVoltageValue": {
+        "message": "$1 V"
+    },
+    "motorsADrawingValue": {
+        "message": "$1 A"
+    },
+    "motorsmAhDrawnValue": {
+        "message": "$1 mAh"
+    },
     "motorsText": {
         "message": "Motors"
     },
@@ -2043,6 +2071,9 @@
     },
     "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
         "message": "Llançament i Candidat a Llançament (RC)"
+    },
+    "firmwareFlasherOptionLabelBuildTypeDevelopment": {
+        "message": "Desenvolupament"
     },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Escull un Firmware \/ Placa"
@@ -2490,8 +2521,26 @@
     "pidTuningNonProfileFilterSettings": {
         "message": "Ajustament de Filtres independents del perfil"
     },
+    "pidTuningGyroNotchFiltersGroup": {
+        "message": "Filtres Notch del Giro"
+    },
+    "pidTuningGyroNotch1Frequency": {
+        "message": "Giro Filtre Notch 1 Freqüència Central [Hz]"
+    },
+    "pidTuningGyroNotch2Frequency": {
+        "message": "Giro Filtre Notch 2 Freqüència Central [Hz]"
+    },
+    "pidTuningGyroNotch1Cutoff": {
+        "message": "Giro Filtre Notch 1 Freqüència de Tall [Hz]"
+    },
+    "pidTuningGyroNotch2Cutoff": {
+        "message": "Giro Filtre Notch 2 Freqüència de Tall [Hz]"
+    },
     "pidTuningVbatPidCompensation": {
         "message": "Compensació d'Vbat per als PIDs"
+    },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Incrementa el valors de PIDs per compensar la caiguda del voltatge de bateria. Aquest donarà característiques de vol constants durant el vol. La quantitat de compensació que s'aplica es calcula per el valor de voltatge màxim de ceŀla definit a la pestanya de configuració, assegura't que és correcte."
     },
     "configHelp2": {
         "message": "Rotació arbitrària de la controladora en graus, això ajuda a muntar-la de costat \/ al revès \/ etc. Quan fagis servirs sensors externs utilitza l'alineat (Gyro, Acc, Mag) per definir la posició del sensor independent de la controladora."
@@ -2573,6 +2622,9 @@
     },
     "failsafeSwitchOptionStage2": {
         "message": "Stage 2"
+    },
+    "failsafeSwitchOptionKill": {
+        "message": "Matar"
     },
     "powerButtonSave": {
         "message": "Desa"
@@ -2763,6 +2815,9 @@
     "powerAmperageScale": {
         "message": "Escala [1\/10th mV\/A]"
     },
+    "powerAmperageOffset": {
+        "message": "Offset [mV]"
+    },
     "powerBatteryHead": {
         "message": "Bateria"
     },
@@ -2846,6 +2901,21 @@
     },
     "osdSetupCustomLogoTitle": {
         "message": "Imatge d'arrencada:"
+    },
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "Selecciona una imatge personalitzada"
+    },
+    "osdSetupCustomLogoInfoTitle": {
+        "message": "Imatge personalitzada:"
+    },
+    "osdSetupCustomLogoInfoImageSize": {
+        "message": "La mida ha de ser de $t(logoWidthPx)×$t(logoHeightPx) pixels"
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "Ha de contenir píxels verds, blancs i negres"
+    },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "Prem <b>$t(osdSetupUploadFont.message)<\/b> per a desar la imatge personalitzada"
     },
     "osdSetupReplaceLogoImageSizeError": {
         "message": "Mida de la imatge invàlida; s'esperava $1×$2 en comptes de $3×$4"
@@ -3116,6 +3186,9 @@
     },
     "osdWritePermissions": {
         "message": "No tens <span class=\"message-negative\">permisos d'escriptura<\/span> per a l'arxiu"
+    },
+    "osdButtonSaved": {
+        "message": "Desat"
     },
     "mainHelpArmed": {
         "message": "Armat de motors"
