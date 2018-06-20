@@ -1449,7 +1449,7 @@
         "message": "está na faixa"
     },
     "adjustmentsColumnThenApplyFunction": {
-        "message": "então aplicar ajuste"
+        "message": "então ajustar"
     },
     "adjustmentsColumnViaChannel": {
         "message": "via canal"
@@ -1494,19 +1494,19 @@
         "message": "P do Pitch & Roll"
     },
     "adjustmentsFunction7": {
-        "message": "Ajuste I do Pitch & Roll"
+        "message": "I do Pitch & Roll"
     },
     "adjustmentsFunction8": {
-        "message": "Ajuste D do Pitch & Roll"
+        "message": "D do Pitch & Roll"
     },
     "adjustmentsFunction9": {
-        "message": "Ajuste P do Yaw"
+        "message": "P do Yaw"
     },
     "adjustmentsFunction10": {
-        "message": "Ajuste I do Yaw"
+        "message": "I do Yaw"
     },
     "adjustmentsFunction11": {
-        "message": "Ajuste D do Yaw"
+        "message": "D do Yaw"
     },
     "adjustmentsFunction12": {
         "message": "Selecionar perfil de taxa"
@@ -1518,22 +1518,22 @@
         "message": "Taxa do Roll"
     },
     "adjustmentsFunction15": {
-        "message": "Ajuste P do Pitch"
+        "message": "P do Pitch"
     },
     "adjustmentsFunction16": {
-        "message": "Ajuste I do Pitch"
+        "message": "I do Pitch"
     },
     "adjustmentsFunction17": {
-        "message": "Ajuste D do Pitch"
+        "message": "D do Pitch"
     },
     "adjustmentsFunction18": {
-        "message": "Ajuste P do Roll"
+        "message": "P do Roll"
     },
     "adjustmentsFunction19": {
-        "message": "Ajuste I do Roll"
+        "message": "I do Roll"
     },
     "adjustmentsFunction20": {
-        "message": "Ajuste D do Roll"
+        "message": "D do Roll"
     },
     "adjustmentsFunction21": {
         "message": "Taxa RC do Yaw"
@@ -1545,7 +1545,7 @@
         "message": "Transição do ponto D"
     },
     "adjustmentsFunction24": {
-        "message": "Força de ajuste de horizonte"
+        "message": "Potência do modo Horizonte"
     },
     "adjustmentsSave": {
         "message": "Salvar"
@@ -3170,7 +3170,7 @@
         "message": "Relógio real (data \/ hora)"
     },
     "osdDescElementAdjustmentRange": {
-        "message": "Faixa de ajuste de configuração ativo e seu valor"
+        "message": "Faixa e valor do elemento de ajuste atualmente ativo"
     },
     "osdDescElementHomeDirection": {
         "message": "Seta mostrando a direção da base"
