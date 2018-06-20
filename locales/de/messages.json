@@ -1323,37 +1323,37 @@
         "message": "\"Niedriger Stickwert\" Schwellwert"
     },
     "receiverHelpStickMin": {
-        "message": "Der Stick Maximalwert (in us) um als niedrig erkannt zu werten (MIN_CHECK)"
+        "message": "Der Stick Maximalwert (in µs), um als niedrig erkannt zu werden (MIN_CHECK)."
     },
     "receiverStickCenter": {
         "message": "Stick Mitte"
     },
     "receiverHelpStickCenter": {
-        "message": "Der Wert (in us) um festzustellen ob ein Stick in der Mitte ist (MID_RC)"
+        "message": "Der Wert (in µs) um festzustellen, ob ein Stick in der Mitte ist (MID_RC)."
     },
     "receiverStickMax": {
         "message": "\"Hoher Stickwert\" Schwellwert"
     },
     "receiverHelpStickMax": {
-        "message": "Der Minimal Wert (in us) der Sticks  der benutzt wird um zu erkennen dass ein Wert \"maximal\" ist (MAX_ChECK)"
+        "message": "Der Minimal Wert (in µs) der Sticks, um zu festzustellen, dass der Wert \"maximal\" ist (MAX_CHECK)."
     },
     "receiverDeadband": {
         "message": "RC Totzone"
     },
     "receiverHelpDeadband": {
-        "message": "Das ist der Bereich in dem das Kommando der Funke streuen kann bevor als als \"echt\" erkannt wird. Der Wert kann vergrößert werden wenn die übertragenen Werte im Ruhezustand zu sehr zittern."
+        "message": "Das ist der Bereich (in µs) in dem das Kommando der Funke streuen kann, bevor es als \"echt\" erkannt wird. Der Wert kann vergrößert werden, wenn die übertragenen Werte im Ruhezustand zu sehr zittern."
     },
     "receiverYawDeadband": {
         "message": "Yaw Totzone"
     },
     "receiverHelpYawDeadband": {
-        "message": "Das ist der Bereich in dem das Kommando der Funke streuen kann bevor als als \"echt\" erkannt wird. Der Wert kann vergrößert werden wenn die übertragenen Werte im Ruhezustand zu sehr zittern.  <strong>Betrifft nur die YAW Achse.<\/strong>"
+        "message": "Das ist der Bereich (in µs) in dem das Kommando der Funke streuen kann, bevor es als \"echt\" erkannt wird. Der Wert kann vergrößert werden, wenn die übertragenen Werte im Ruhezustand zu sehr zittern. <strong>Betrifft nur die YAW Achse.<\/strong>"
     },
     "recevier3dDeadbandThrottle": {
         "message": "3D Gas Totzone"
     },
     "receiverHelp3dDeadbandThrottle": {
-        "message": "Werte in us. Um den neutralen Breich zu erweitern muss dieser Wert erhöht werden.  <strong>Einstellung nur für 3D Gas<\/strong>"
+        "message": "Werte in µs. Um den neutralen Bereich zu erweitern, muss dieser Wert erhöht werden. <strong>Einstellung nur für 3D Gas<\/strong>"
     },
     "receiverChannelMap": {
         "message": "Kanalzuordnung"
