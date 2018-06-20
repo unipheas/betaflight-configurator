@@ -173,7 +173,7 @@
         "message": "OSD"
     },
     "tabPower": {
-        "message": "Strom und Batterie"
+        "message": "Strom & Batterie"
     },
     "tabGPS": {
         "message": "GPS"
@@ -1167,7 +1167,7 @@
         "message": "RC Interpolation"
     },
     "receiverRcInterpolationHelp": {
-        "message": "Fernsteuerungen \/ Empfänger sind nicht so schnell wie Moderne PID Controller. Daruch entstehen \"Löcher\" im Informationsfluss. Diese Option erlauft eine Interpolation des Signals und dadurch einen sauberen Verlauf der P und D Werte durch weniger sprunghafte Eingaben"
+        "message": "Fernsteuerungen \/ Empfänger sind nicht so schnell wie Moderne PID Controller. Daruch entstehen \"Löcher\" im Informationsfluss. Diese Option erlaubt eine Interpolation des Signals und dadurch einen sauberen Verlauf der P und D Werte, durch weniger sprunghafte Eingaben."
     },
     "receiverRcInterpolationIntervalHelp": {
         "message": "Interpolation in Millisekunden für die manuelle Einstellung"
@@ -1311,7 +1311,7 @@
         "message": "Bitte das Kapitel über Empfänger in der Dokumentation lesen. Seriellen Empfänger (falls nötig) konfigurieren, Protokoll auswählen, Empfänger verbinden und Kanäle zuweisen. Endpunkte so wählen, dass alle Kanäle von ~ 1000 - ~2000 gehen. Mittelwert auf 1500 festelgen. <span class=\"message-negative\">WICHTIG:<\/span> Ebenso bitte Failsafe konfigurieren, bzw. das Kapital darüber in der Dokumentation lesen."
     },
     "tuningHelp": {
-        "message": "<b>Tuning tips<\/b><br \/><span class=\"message-negative\">Wichtig:<\/span> Es ist wichtig, bei den ersten Flügen, die Motortemperatur im Auge zu behalten. Je höher die Filterwerte, desto besser könnte er fliegen, aber es wird auch mehr Rauschen in die Motoren gehen.<br>Die Standarteinstellung 100Hz ist optimal, für problematische Setups könnte man jedoch richtung 50Hz Dterm Filter (und eventuell auch beim Gyro-Filter) gehen."
+        "message": "<b>Tuning tips<\/b><br \/><span class=\"message-negative\">Hinweis:<\/span> Es ist wichtig, bei den ersten Flügen, die Motortemperatur im Auge zu behalten. Je höher die Filterwerte, desto besser könnte er fliegen, aber es wird auch mehr Rauschen in die Motoren gehen.<br>Die Standarteinstellung 100Hz ist optimal, für problematische Setups könnte man jedoch richtung 50Hz Dterm Filter (und eventuell auch beim Gyro-Filter) gehen."
     },
     "receiverThrottleMid": {
         "message": "Gas Mittelwert"
@@ -2924,7 +2924,7 @@
         "message": "Verbunden"
     },
     "powerBatteryConnectedValueYes": {
-        "message": "Ja (Zellen: %1)"
+        "message": "Ja (Zellen: $1)"
     },
     "powerBatteryConnectedValueNo": {
         "message": "Nein"
