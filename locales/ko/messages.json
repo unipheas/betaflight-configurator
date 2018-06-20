@@ -984,7 +984,7 @@
         "message": "주요 카메라 제어가 입력되면 신호음을 울립니다."
     },
     "beeperCAM_CONNECTION_CLOSE": {
-        "message": "주요 카메라 제어가 종료될 때 부져를 울립니다."
+        "message": "주요 카메라 제어가 종료될 때 신호음을 울립니다."
     },
     "configuration3d": {
         "message": "3D ESC\/모터 기능"
@@ -3281,7 +3281,7 @@
         "message": "배터리 전압이 최소 평균 셀 전압 미만으로 떨어지면 경고"
     },
     "osdWarningVisualBeeper": {
-        "message": "부져의 시각화를 보여주기 (별표 4 개로 표시)"
+        "message": "비퍼의 시각화를 보여주기 (별표 4개로 표시)"
     },
     "osdWarningCrashFlipMode": {
         "message": "충돌 모드가 활성화 된 후 뒤집힐 때 경고"
