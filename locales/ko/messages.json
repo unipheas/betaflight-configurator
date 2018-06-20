@@ -2717,13 +2717,13 @@
         "message": "페일세이프 스위치 동작"
     },
     "failsafeSwitchModeHelp": {
-        "message": "이 옵션은 페일세이프가 AUX 스위치를 통해 활성화되었을 때 무엇이 일어나는지 결정합니다:<br\/><strong>1 단계<\/strong> 1 단계 페일세이프 활성화. 정확한 신호 손실 페일세이프 동작을 시뮬레이션 하려는 경우 유용 합니다.<br\/><strong>2 단계<\/strong>1 단계를 생략하 고 즉시 2 단계 절차를 활성화합니다.<br\/><strong>Kill<\/strong>은 즉시 디스아밍합니다. (당신의 기체는 충돌할 것입니다.)"
+        "message": "이 옵션은 페일세이프가 AUX 스위치를 통해 활성화되었을 때 무엇이 일어나는지 결정합니다:<br\/><strong>단계 1<\/strong>은 단계 1 페일세이프를 활성화합니다. 정확한 신호 손실 페일세이프 동작을 시뮬레이션 하려는 경우 유용 합니다.<br\/><strong>단계 2<\/strong>는 단계 1을 생략하고 즉시 단계 2 절차를 활성화합니다.<br\/><strong>Kill<\/strong>은 즉시 디스아밍합니다. (당신의 기체는 충돌할 것입니다.)"
     },
     "failsafeSwitchOptionStage1": {
-        "message": "1 단계"
+        "message": "단계 1"
     },
     "failsafeSwitchOptionStage2": {
-        "message": "2 단계"
+        "message": "단계 2"
     },
     "failsafeSwitchOptionKill": {
         "message": "Kill"
