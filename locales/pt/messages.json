@@ -1449,7 +1449,7 @@
         "message": "está na faixa"
     },
     "adjustmentsColumnThenApplyFunction": {
-        "message": "então aplicar"
+        "message": "então aplicar ajuste"
     },
     "adjustmentsColumnViaChannel": {
         "message": "via canal"
@@ -1479,7 +1479,7 @@
         "message": "Ajuste de Taxa RC"
     },
     "adjustmentsFunction2": {
-        "message": "Ajuste de Expo do RC"
+        "message": "Ajuste do RC Expo"
     },
     "adjustmentsFunction3": {
         "message": "Ajuste do Throttle Expo"
