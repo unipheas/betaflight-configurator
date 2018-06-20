@@ -1547,6 +1547,9 @@
     "adjustmentsFunction24": {
         "message": "Ajuste de Fuerza del Horizonte"
     },
+    "adjustmentsFunction25": {
+        "message": "Selección de PID-Audio"
+    },
     "adjustmentsSave": {
         "message": "Guardar"
     },
