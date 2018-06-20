@@ -1476,22 +1476,22 @@
         "message": "Sem alterações"
     },
     "adjustmentsFunction1": {
-        "message": "Ajuste de Taxa RC"
+        "message": "Taxa RC"
     },
     "adjustmentsFunction2": {
-        "message": "Ajuste do RC Expo"
+        "message": "RC Expo"
     },
     "adjustmentsFunction3": {
-        "message": "Ajuste do Throttle Expo"
+        "message": "Throttle Expo"
     },
     "adjustmentsFunction4": {
-        "message": "Ajuste de taxa do Pitch & Roll"
+        "message": "Taxa do Pitch & Roll"
     },
     "adjustmentsFunction5": {
-        "message": "Ajuste da taxa de Yaw"
+        "message": "Taxa do Yaw"
     },
     "adjustmentsFunction6": {
-        "message": "Ajuste P do Pitch & Roll"
+        "message": "P do Pitch & Roll"
     },
     "adjustmentsFunction7": {
         "message": "Ajuste I do Pitch & Roll"
@@ -1536,7 +1536,7 @@
         "message": "Ajuste D do Roll"
     },
     "adjustmentsFunction21": {
-        "message": "Ajuste Taxa RC do Yaw"
+        "message": "Taxa RC do Yaw"
     },
     "adjustmentsFunction22": {
         "message": "Ponto de ajuste D"
