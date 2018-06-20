@@ -1218,7 +1218,7 @@
         "message": "Derivativo"
     },
     "pidTuningRcRate": {
-        "message": "Taxa do RC"
+        "message": "Taxa RC"
     },
     "pidTuningMaxVel": {
         "message": "Velocidade Máxima [deg\/s]"
@@ -1443,7 +1443,7 @@
         "message": "usando slot"
     },
     "adjustmentsColumnWhenChannel": {
-        "message": "quando canal"
+        "message": "quando o canal"
     },
     "adjustmentsColumnIsInRange": {
         "message": "está na faixa"
@@ -1476,13 +1476,13 @@
         "message": "Sem alterações"
     },
     "adjustmentsFunction1": {
-        "message": "Ajuste de Taxa do RC"
+        "message": "Ajuste de Taxa RC"
     },
     "adjustmentsFunction2": {
         "message": "Ajuste de Expo do RC"
     },
     "adjustmentsFunction3": {
-        "message": "Ajuste de Expo do Acelerador"
+        "message": "Ajuste do Throttle Expo"
     },
     "adjustmentsFunction4": {
         "message": "Ajuste de taxa do Pitch & Roll"
@@ -1509,7 +1509,7 @@
         "message": "Ajuste D do Yaw"
     },
     "adjustmentsFunction12": {
-        "message": "Seleção de perfil de taxa"
+        "message": "Selecionar perfil de taxa"
     },
     "adjustmentsFunction13": {
         "message": "Taxa do Pitch"
@@ -1536,7 +1536,7 @@
         "message": "Ajuste D do Roll"
     },
     "adjustmentsFunction21": {
-        "message": "Taxa de Yaw do RC"
+        "message": "Ajuste Taxa RC do Yaw"
     },
     "adjustmentsFunction22": {
         "message": "Ponto de ajuste D"
