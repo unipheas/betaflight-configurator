@@ -2199,7 +2199,7 @@
         "message": "<strong>$1<\/strong> erkannt. Gerät flasht noch, bitte neu anstecken und nochmals versuchen"
     },
     "ledStripHelp": {
-        "message": "Der Flugcontroller kann Farben und Effekte für LED Leisten Steuern.<br \/>Konfigurieren LEDs sowie die Verkabelung auf dem Raster und bringe dann die LEDs entsprechend an."
+        "message": "Der FC kann Farben und Effekte von LED-Leisten steuern.<br \/>Konfiguriere die LEDs, sowie die Verkabelungreihenfolge auf dem Raster und bringe die LEDs entsprechend an.<br\/>Doppelklick auf die Farben erlaubt das Anpassen der HSV-Werte."
     },
     "ledStripButtonSave": {
         "message": "Speichern"
@@ -2367,7 +2367,7 @@
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripWiring": {
-        "message": "LED-Strip Verkabelung",
+        "message": "LED-Steifen Verkabelung",
         "description": "One of the modes in Led Strip"
     },
     "ledStripWiringMode": {
