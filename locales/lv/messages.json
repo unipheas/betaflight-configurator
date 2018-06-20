@@ -1547,6 +1547,9 @@
     "adjustmentsFunction24": {
         "message": "Horizonta stipruma korekcija"
     },
+    "adjustmentsFunction25": {
+        "message": "PID-Audio izvēle"
+    },
     "adjustmentsSave": {
         "message": "Saglabāt"
     },
