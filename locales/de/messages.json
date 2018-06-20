@@ -453,7 +453,7 @@
         "message": "Open Source \/ Spenden Hinweis"
     },
     "defaultDonateText": {
-        "message": "Dieses Programm ist komplett <strong> Open Source<\/strong> and für alle <strong>Betaflight<\/strong> Benutzer kostenlos verfügbar. Falls der Konfigurator hilfreich ist, bitte denke darüber nach das Projekt mit einer Spende zu <strong>unterstützen<\/strong>"
+        "message": "Dieses Programm ist komplett <strong> Open Source<\/strong> und für alle <strong>Betaflight<\/strong> Benutzer kostenlos verfügbar. Falls der Konfigurator hilfreich ist, bitte denke darüber nach das Projekt mit einer Spende zu <strong>unterstützen<\/strong>."
     },
     "defaultDonate": {
         "message": "Spenden"
@@ -717,7 +717,7 @@
         "message": "RGB LED Leisten Unterstützung"
     },
     "featureDISPLAY": {
-        "message": "OLED Bildschirmschirm Anzeige"
+        "message": "OLED Bildschirm Anzeige"
     },
     "featureDISPLAYTip": {
         "message": "Wem die Funktion aktiviert ist, und kein Bildschirm Gerät angeschlossen ist (oder das Gerät keinen Strom hat) gibt es ca. 10 Sekunden Verzögerung bei jedem Reboot des Flugcontrollers"
@@ -2447,7 +2447,7 @@
         "message": "magenta"
     },
     "colorDeepPink": {
-        "message": "Pink"
+        "message": "pink"
     },
     "controlAxisRoll": {
         "message": "Roll [A]"
