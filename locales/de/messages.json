@@ -531,7 +531,7 @@
         "message": "Wiederherstellen"
     },
     "initialSetupBackupRestoreText": {
-        "message": "<strong>Sichere<\/strong> deine Einstellungen für den Fall der Fälle, <strong>Kommandline<\/strong> Einstellungen sind <span class=\"message-negative\">nicht<\/span> beinhaltet. Siehe \"dump\" als Kommandline Aufruf"
+        "message": "<strong>Sichere<\/strong> deine Einstellungen für den Fall der Fälle, <strong>Kommandozeilen-Einstellungen<\/strong> sind <span class=\"message-negative\">nicht<\/span> enthalten. Siehe den \"dump\" Kommandozeilenbefehl"
     },
     "initialSetupBackupSuccess": {
         "message": "Backup <span class=\"message-positive\">erfolgreich<\/span> gespeichert"
