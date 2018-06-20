@@ -921,7 +921,7 @@
         "message": "Piepse wenn Gyro kalibriert wurde"
     },
     "beeperRX_LOST": {
-        "message": "Piept, wenn die Verbindung der Fernsteuerung abgerissen ist (bis zur Wiederherstellung der Verbindung)"
+        "message": "Piept, wenn die Verbindung zur Fernsteuerung abgerissen ist (bis zur Wiederherstellung der Verbindung)"
     },
     "beeperRX_LOST_LANDING": {
         "message": "Piept SOS, wenn gearmt ist aber das Signal zur Fernsteuerung fehlt ( automatisch Landen \/ automatisch disarmen)"
@@ -963,7 +963,7 @@
         "message": "Warntöne, wenn das Board gearmt wurde (bis zum disarm oder Gas geben)"
     },
     "beeperSYSTEM_INIT": {
-        "message": "Einschaltpiepsen wenn das Board hochgefahren wurde"
+        "message": "Einschaltpiepen, wenn der FC hochgefahren wurde"
     },
     "beeperUSB": {
         "message": "Piept, wenn der FC durch USB mit Strom versorgt wird. Deaktiviere es, wenn du kein Piepen am Arbeitsplatz wünschst"
