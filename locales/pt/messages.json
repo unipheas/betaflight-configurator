@@ -1547,6 +1547,9 @@
     "adjustmentsFunction24": {
         "message": "Potência do modo Horizonte"
     },
+    "adjustmentsFunction25": {
+        "message": "Selecionar Áudio-PID"
+    },
     "adjustmentsSave": {
         "message": "Salvar"
     },
