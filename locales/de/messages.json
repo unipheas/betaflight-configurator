@@ -921,10 +921,10 @@
         "message": "Piepse wenn Gyro kalibriert wurde"
     },
     "beeperRX_LOST": {
-        "message": "Piepse wenn die Verbindung der Fernsteuerung abgerissen ist (bis zur Wiederherstellung der Verbindung)"
+        "message": "Piept, wenn die Verbindung der Fernsteuerung abgerissen ist (bis zur Wiederherstellung der Verbindung)"
     },
     "beeperRX_LOST_LANDING": {
-        "message": "Piepse SOS wenn gearmt ist aber das Signal zur Fernsteuerung fehlt ( Automatische Landing \/ automatisches disarmen)"
+        "message": "Piept SOS, wenn gearmt ist aber das Signal zur Fernsteuerung fehlt ( automatisch Landen \/ automatisch disarmen)"
     },
     "beeperDISARMING": {
         "message": "Piepse beim Disarmen des FCs"
