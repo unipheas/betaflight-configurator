@@ -2696,7 +2696,7 @@
         "message": "모터가 꺼지고 기체가 해제될 때까지 착륙 모드로 유지할 시간"
     },
     "failsafeSubTitle1": {
-        "message": "2 단계 - 페일세이프 절차"
+        "message": "단계 2 - 페일세이프 절차"
     },
     "failsafeProcedureItemSelect1": {
         "message": "착륙"
