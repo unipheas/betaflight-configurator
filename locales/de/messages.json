@@ -116,7 +116,7 @@
         "message": "Gerät - <span class=\"message-positive\">Bereit<\/span>"
     },
     "backupFileIncompatible": {
-        "message": "Die Backupdatei wurde mit einer älteren Version erstellt und ist leider nicht mit mit dem neuen Konfigurator kompatibel, das tut uns leid :("
+        "message": "Die Backupdatei wurde mit einer älteren Version erstellt und ist leider nicht mit dem neuen Konfigurator kompatibel. Das tut uns leid :("
     },
     "backupFileUnmigratable": {
         "message": "Die Backupdatei wurde mit einer älteren Version erstellt und kann leider nicht automatisch migriert werden."
@@ -1540,6 +1540,9 @@
     },
     "adjustmentsFunction24": {
         "message": "\"Horizon\" Stärkenanpassung"
+    },
+    "adjustmentsFunction25": {
+        "message": "PID-Audio-Auswahl"
     },
     "adjustmentsSave": {
         "message": "Speichtern"
