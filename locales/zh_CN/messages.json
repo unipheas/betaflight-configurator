@@ -1547,6 +1547,9 @@
     "adjustmentsFunction24": {
         "message": "水平模式强度调整"
     },
+    "adjustmentsFunction25": {
+        "message": "PID-Audio 选择"
+    },
     "adjustmentsSave": {
         "message": "保存"
     },
@@ -2054,6 +2057,9 @@
     "firmwareFlasherNoReboot": {
         "message": "无重启序列"
     },
+    "firmwareFlasherOnlineSelectBuildType": {
+        "message": "选择 \"生成类型\" 以查看可用的飞控板。"
+    },
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "选择你的飞控型号"
     },
@@ -2101,6 +2107,21 @@
     },
     "firmwareFlasherOptionLoading": {
         "message": "加载中……"
+    },
+    "firmwareFlasherOptionLabelBuildTypeRelease": {
+        "message": "正式版"
+    },
+    "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
+        "message": "正式版和候选正式版"
+    },
+    "firmwareFlasherOptionLabelBuildTypeDevelopment": {
+        "message": "开发版"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_3": {
+        "message": "3.3 AKK & RDQ 图传 补丁"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_4": {
+        "message": "3.4 AKK & RDQ 图传 补丁"
     },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "选择固件\/飞控板"
