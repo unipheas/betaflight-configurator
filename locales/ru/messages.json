@@ -12,7 +12,7 @@
         "message": "Настройка приложения"
     },
     "connect": {
-        "message": "Подключить"
+        "message": "Подключится"
     },
     "connecting": {
         "message": "Подключение"
@@ -1484,6 +1484,15 @@
     "adjustmentsFunction20": {
         "message": "Roll D корректировка"
     },
+    "adjustmentsFunction21": {
+        "message": "RC Rate Yaw"
+    },
+    "adjustmentsFunction22": {
+        "message": "D Setpoint"
+    },
+    "adjustmentsFunction23": {
+        "message": "D Setpoint переход"
+    },
     "adjustmentsFunction24": {
         "message": "Регулировка Strength (в реж. Horizon)"
     },
@@ -1583,6 +1592,18 @@
     "gpsMapMessage1": {
         "message": "Пожалуйста, проверьте подключение к интернету"
     },
+    "gpsMapMessage2": {
+        "message": "Ожидание GPS 3D фиксации…"
+    },
+    "gps3dFix": {
+        "message": "3D фикс.:"
+    },
+    "gpsFixTrue": {
+        "message": "<span class=\"fixtrue\">Да<\/span>"
+    },
+    "gpsFixFalse": {
+        "message": "<span class=\"fixfalse\">Нет<\/span>"
+    },
     "gpsAltitude": {
         "message": "Высота:"
     },
@@ -1598,11 +1619,17 @@
     "gpsSats": {
         "message": "Спутники:"
     },
+    "gpsDistToHome": {
+        "message": "Расст. до дома:"
+    },
     "gpsSignalStrHead": {
         "message": "Мощность GPS сигнала"
     },
     "gpsSignalStr": {
         "message": "Мощность сигнала"
+    },
+    "gpsSignalSatId": {
+        "message": "ID спут."
     },
     "gpsSignalQty": {
         "message": "Количество"
@@ -1612,6 +1639,9 @@
     },
     "motorsADrawing": {
         "message": "Сила тока:"
+    },
+    "motorsmAhDrawn": {
+        "message": "Потреб. тока:"
     },
     "motorsVoltageValue": {
         "message": "$1 V"
@@ -1736,6 +1766,9 @@
     "sensorsDebugTitle": {
         "message": "Отладка"
     },
+    "cliInputPlaceholder": {
+        "message": "Пишите ваши команды здесь"
+    },
     "cliEnter": {
         "message": "Обнаружен переход в режим командной строки"
     },
@@ -1745,8 +1778,14 @@
     "cliSaveToFileBtn": {
         "message": "Сохранить в файл"
     },
+    "loggingSamplesSaved": {
+        "message": "Сэмплы сохранены:"
+    },
     "loggingLogSize": {
         "message": "Размер журнала:"
+    },
+    "loggingButtonLogFile": {
+        "message": "Выберите файл журнала"
     },
     "loggingStart": {
         "message": "Начать запись"
@@ -1754,8 +1793,26 @@
     "loggingStop": {
         "message": "Остановить запись"
     },
+    "loggingBack": {
+        "message": "Оставить логинг \/ отключить"
+    },
+    "loggingErrorNotConnected": {
+        "message": "Сперва вам нужно <strong>подключиться<\/strong>"
+    },
+    "loggingErrorLogFile": {
+        "message": "Пожалуйста выберите файл журнала"
+    },
+    "blackboxConfiguration": {
+        "message": "Конфигурация Blackbox"
+    },
     "blackboxButtonSave": {
         "message": "Сохранить и Перезагрузить"
+    },
+    "blackboxLoggingNone": {
+        "message": "Нет логирование"
+    },
+    "blackboxLoggingFlash": {
+        "message": "Бортовой флэш"
     },
     "blackboxLoggingSdCard": {
         "message": "SD карта"
@@ -1763,8 +1820,20 @@
     "blackboxLoggingSerial": {
         "message": "Серийный порт"
     },
+    "dataflashUsedSpace": {
+        "message": "Занято"
+    },
     "dataflashFreeSpace": {
         "message": "Свободное место"
+    },
+    "dataflashUnavSpace": {
+        "message": "Недоступное место"
+    },
+    "dataflashLogsSpace": {
+        "message": "Свободное место для логов"
+    },
+    "dataflashButtonSaveFile": {
+        "message": "Сохранено в файл..."
     },
     "dataflashButtonErase": {
         "message": "Стереть флэш"
@@ -1780,6 +1849,15 @@
     },
     "sdcardStatusNoCard": {
         "message": "Карта не вставлена"
+    },
+    "sdcardStatusReady": {
+        "message": "Карта готова"
+    },
+    "sdcardStatusStarting": {
+        "message": "Карта запускается..."
+    },
+    "sdcardStatusFileSystem": {
+        "message": "Система запускается..."
     },
     "sdcardStatusUnknown": {
         "message": "Неизвестное состояние $1"
@@ -1834,6 +1912,9 @@
     },
     "firmwareFlasherNoRebootDescription": {
         "message": "Включите её, если ваш полётный контроллер находится в boot-режиме, т.е. если Вы подключили питание полётного контроллера с замкнутыми контактами \"BOOT\" или удерживая кнопку \"BOOT\"."
+    },
+    "firmwareFlasherFlashOnConnect": {
+        "message": "Прош. при подкл."
     },
     "firmwareFlasherFullChipErase": {
         "message": "Полное стирание чипа"
@@ -2164,6 +2245,9 @@
     "pidTuningBasic": {
         "message": "Basic\/Acro"
     },
+    "pidTuningRcExpoPower": {
+        "message": "Мощность RC Экспо"
+    },
     "pidTuningLevel": {
         "message": "Angle\/Horizon"
     },
@@ -2479,11 +2563,29 @@
     "osdSetupTitle": {
         "message": "OSD"
     },
+    "osdSetupPreviewHelp": {
+        "message": "<strong>Примечание:<\/strong> OSD предпросмотр может отображаться не тем шрифтом, который установлен в полётном контроллере."
+    },
+    "osdSetupUnsupportedNote1": {
+        "message": "Ваш полётный контроллер не отвечает на команды OSD. Возможно, это означает, что в него не встроен Betaflight OSD."
+    },
+    "osdSetupUnsupportedNote2": {
+        "message": "Обратите внимание, что некоторые полётные контроллеры имеют встроенный <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a>, который можно прошить и сконфигурировать при помощи <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>, однако после этого MinimOSD невозможно будет сконфигурировать в этом интерфейсе."
+    },
     "osdSetupElementsTitle": {
         "message": "Элементы"
     },
+    "osdSetupPreviewTitle": {
+        "message": "Предпросмотр (здесь можно двигать элементы мышкой)"
+    },
+    "osdSetupPreviewTitleTip": {
+        "message": "Показать\/скрыть логотип в окне предпросмотра. Этот переключатель никак не повлияет на настройки полётного контроллера."
+    },
     "osdSetupVideoFormatTitle": {
         "message": "Формат видео"
+    },
+    "osdSetupUnitsTitle": {
+        "message": "Единицы измерения"
     },
     "osdSetupTimersTitle": {
         "message": "Таймеры"
@@ -2533,6 +2635,9 @@
     "osdSetupButtonReset": {
         "message": "Сбросить настройки"
     },
+    "osdDescElementRssiValue": {
+        "message": "Мгновенное значение RSSI (замигает, если значение будет ниже заданного порога тревоги)"
+    },
     "osdDescElementFlyMode": {
         "message": "Текущий режим полета"
     },
@@ -2571,6 +2676,15 @@
     },
     "osdTimerPrecision": {
         "message": "Точность:"
+    },
+    "osdTimerAlarm": {
+        "message": "Тревога:"
+    },
+    "osdSectionHelpVideoMode": {
+        "message": "Укажите ожидаемый формат видео (как правило, можно оставить в AUTO, но если возникают проблемы с видео, то укажите тот же формат, что и на выходе камеры)."
+    },
+    "osdSectionHelpUnits": {
+        "message": "Укажите единицы измерения, используемые в показаниях."
     },
     "osdSettingsSaved": {
         "message": "OSD настройки сохранены"
@@ -2663,7 +2777,7 @@
         "message": "<b>Gyro сглаж. фильтр:<\/b> Фильтр нижних частот для гироскопа. Чем ниже значение, тем больше фильтрация. <br><b>D Term фильтр:<\/b> Фильтр нижних частот для параметра D (в PID-ах). Может повлиять на настройку D. Чем ниже значение, тем больше фильтрация. <br><b>Yaw-фильтр:<\/b> Фильтрует рыскание (yaw). Может помочь в аппаратурах с шумными стиками по yaw."
     },
     "pidTuningPidTuningTip": {
-        "message": "<b>Proportional:<\/b> Увеличивает сопротивление к воздействию внешних факторов, сдвигающих коптер<br><b>Integral:<\/b> Увеличивает способность удерживать общее начальное положение и уменьшает дрейф, но также увеличивает задержку при возврате в исходное положение. <br><b>Derivative:<\/b> Увеличивает скорость установления наклона, но увеличивает шум. <br><b>Rates и Expo<\/b>: Определяют чувствительность стиков. Используйте график и 3D модель, чтобы настроить чувствительность на свой вкус"
+        "message": "<b>Proportional:<\/b> Увеличивает сопротивление к воздействию внешних факторов, сдвигающих коптер<br><b>Integral:<\/b> Увеличивает способность удерживать общее начальное положение и уменьшает дрейф, но также увеличивает задержку при возврате в исходное положение. <br><b>Derivative:<\/b> Увеличивает скорость установления в заданный угол наклона, но увеличивает шум. <br><b>Rates и Expo<\/b>: Определяют чувствительность стиков. Используйте график и 3D модель, чтобы настроить чувствительность на свой вкус"
     },
     "pidTuningRatesTip": {
         "message": "Меняя rates вы можете увидеть их влияние на график стиков"
