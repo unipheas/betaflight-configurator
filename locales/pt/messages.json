@@ -3287,7 +3287,7 @@
         "message": "Mostra uma visualização do beeper (mostra 4 asteriscos)"
     },
     "osdWarningCrashFlipMode": {
-        "message": "Alertas quando estiver de ponta cabeça depois que o modo de batida for ativado"
+        "message": "Alerta quando o modo de virar após cair (Turtle mode) estiver ativo"
     },
     "osdWarningEscFail": {
         "message": "Mostra uma lista com os ESCs\/motores que estão falhando (A temperatura ou RPM estão fora dos limites configurados)"
