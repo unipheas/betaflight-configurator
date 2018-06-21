@@ -1544,6 +1544,9 @@
     "adjustmentsFunction24": {
         "message": "Ajustement de la force du mode Horizon"
     },
+    "adjustmentsFunction25": {
+        "message": "Sélection de PID-Audio"
+    },
     "adjustmentsSave": {
         "message": "Enregistrer"
     },
