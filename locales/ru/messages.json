@@ -905,6 +905,12 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Это значение, которое посылается к регуляторам  оборотов во время дизарминга. Установите его в такое значение, при котором перестают крутиться моторы (для большинства регуляторов оборотов значение - 1000)."
     },
+    "configurationDshotBeeper": {
+        "message": "Настройка Dshot пискa"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "Применить Dshot писк (пищит моторами, если долгое время находится в режиме дизарма)"
+    },
     "configurationDshotBeaconTone": {
         "message": "Тон писка моторами"
     },
@@ -1343,6 +1349,9 @@
     "receiverButtonRefresh": {
         "message": "Обновить"
     },
+    "receiverButtonSticks": {
+        "message": "Стики управления"
+    },
     "receiverEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">сохранён<\/span>"
     },
@@ -1418,6 +1427,12 @@
     "adjustmentsFunction1": {
         "message": "Yaw Rate корректировка"
     },
+    "adjustmentsFunction2": {
+        "message": "Корректировка RC Экспо"
+    },
+    "adjustmentsFunction3": {
+        "message": "Корректировка Экспо газа"
+    },
     "adjustmentsFunction4": {
         "message": "Pitch & Roll Rate корректировка"
     },
@@ -1444,6 +1459,12 @@
     },
     "adjustmentsFunction12": {
         "message": "Выбор rate-профиля"
+    },
+    "adjustmentsFunction13": {
+        "message": "Pitch Rate"
+    },
+    "adjustmentsFunction14": {
+        "message": "Roll Rate"
     },
     "adjustmentsFunction15": {
         "message": "Pitch P корректировка"
