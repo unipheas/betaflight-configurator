@@ -1547,6 +1547,9 @@
     "adjustmentsFunction24": {
         "message": "ホライゾン 強度調整"
     },
+    "adjustmentsFunction25": {
+        "message": "PID-Audio 選択"
+    },
     "adjustmentsSave": {
         "message": "保存"
     },
