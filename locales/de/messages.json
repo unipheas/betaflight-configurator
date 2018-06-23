@@ -1167,7 +1167,7 @@
         "message": "RC Interpolation"
     },
     "receiverRcInterpolationHelp": {
-        "message": "Fernsteuerungen \/ Empfänger sind nicht so schnell wie Moderne PID Controller. Daruch entstehen \"Löcher\" im Informationsfluss. Diese Option erlaubt eine Interpolation des Signals und dadurch einen sauberen Verlauf der P und D Werte, durch weniger sprunghafte Eingaben."
+        "message": "Fernsteuerungen \/ Empfänger sind nicht so schnell wie Moderne PID Controller. Dadurch entstehen \"Löcher\" im Informationsfluss. Diese Option erlaubt eine Interpolation des Signals und somit einen sauberen Verlauf der P und D Werte, durch weniger sprunghafte Eingaben."
     },
     "receiverRcInterpolationIntervalHelp": {
         "message": "Interpolation in Millisekunden für die manuelle Einstellung"
