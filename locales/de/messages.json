@@ -1833,7 +1833,7 @@
         "message": "Gyro - Grad \/ Sekunde"
     },
     "sensorsAccelTitle": {
-        "message": "Beschleunigungssensor - G"
+        "message": "Beschleunigung - g"
     },
     "sensorsMagTitle": {
         "message": "Magnetometer - Ga"
