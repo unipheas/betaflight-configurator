@@ -3407,13 +3407,13 @@
         "message": "Profile"
     },
     "pidTuningProfileTip": {
-        "message": "Bis zu 3 (bei manchen FCs nur 2) verschiedene Profile für PID Einstellungen können gespeichert. Die Profile enthalten PID Einstellungen, Setpoint sowie Angle\/Horzizon Einstellungen und können dann bequem mit einfachen Stick Kommandos oder per OSD Umgestellt werden."
+        "message": "Bis zu 3 (bei manchen FCs nur 2) verschiedene Profile für PID Einstellungen können gespeichert. Die Profile enthalten PID Einstellungen, Setpoint sowie Angle\/Horzizon Einstellungen und können mit einfachen Stick-Kommandos (siehe Doku) oder per OSD umgestellt werden."
     },
     "pidTuningRateProfile": {
         "message": "Rate Profile"
     },
     "pidTuningRateProfileTip": {
-        "message": "Bis zu 3 verschiebe Rate Profile können auf dem FC gespeichert werden. Diese enthalten Einstellungen zu RC rate, Rate, Expo sowie TPA. Der Wechsel zwischen den Profilen kann mit Stick Kommandos oder per OSD erledigt werden."
+        "message": "Bis zu 3 verschiedene Rate Profile können auf dem FC gespeichert werden. Diese enthalten Einstellungen zu RC Rate, Rate, Expo sowie TPA. Der Wechsel zwischen den Profilen kann mit Stick Kommandos oder per OSD vorgenommen werden."
     },
     "pidTuningDelta": {
         "message": "Derivative Method"
