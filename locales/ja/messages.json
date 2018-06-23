@@ -104,7 +104,7 @@
         "message": "未検証バージョンの更新通知を表示"
     },
     "configuratorUpdateNotice": {
-        "message": "お使いの<b>Betaflight Configurator<\/b>は旧バージョンです。<br>Version <b>$1<\/b> が利用可能です。 <a href=\"$2\" target=\"_blank\">リリースページ<\/a>から修正・機能向上した最新版をダウンロードしてインストールして下さい。<br>注意: 更新する前にConfiguratorを閉じて下さい。"
+        "message": "お使いの<b>Betaflight Configurator<\/b>は旧バージョンです。<br>Version <b>$1<\/b> が利用可能です。 <a href=\"$2\" target=\"_blank\">リリースページ<\/a>から修正・機能向上した最新版をダウンロードしてインストールして下さい。<br>注: 更新する前にConfiguratorを閉じて下さい。"
     },
     "configuratorUpdateWebsite": {
         "message": "リリースサイトに移動"
@@ -918,7 +918,7 @@
         "message": "ビーコントーン"
     },
     "configurationDshotBeaconHelp": {
-        "message": "Dshotビーコンは、ESCおよびモーターを使用してビーコン音を生成します。これは同時に、モーターが回転しているときにDshotビーコンを使用できないことを意味します。 Betaflight 3.4以降では、Dshotビーコンが有効な状態である時にアーミングを試みると、機体がアームされる前、最後に鳴らしたDshotビーコントーンの後に2秒の遅延が起こります。これはDshotビーコン機能が、アーミング中に送信されたDshotコマンドを妨害しないようにするためです。\n<br\/><strong>注意:<\/strong> Dshotビーコンは、有効な状態のときにモーターへ電流を流しているため、ビーコン強度が強すぎると過剰な熱の発生やモーター、ESCの損傷を招く場合があります。ビーコン強度を調整してテストするには、BLHeli ConfiguratorまたはBLHeli Suiteを使用してください。"
+        "message": "Dshotビーコンは、ESCおよびモーターを使用してビーコン音を生成します。これは同時に、モーターが回転しているときにDshotビーコンを使用できないことを意味します。 Betaflight 3.4以降では、Dshotビーコンが有効な状態である時にアーミングを試みると、機体がアームされる前、最後に鳴らしたDshotビーコントーンの後に2秒の遅延が起こります。これはDshotビーコン機能が、アーミング中に送信されたDshotコマンドを妨害しないようにするためです。\n<br\/><strong>注:<\/strong> Dshotビーコンは、有効な状態のときにモーターへ電流を流しているため、ビーコン強度が強すぎると過剰な熱の発生やモーター、ESCの損傷を招く場合があります。ビーコン強度を調整してテストするには、BLHeli ConfiguratorまたはBLHeli Suiteを使用してください。"
     },
     "configurationBeeper": {
         "message": "ビープ音 設定"
@@ -2166,7 +2166,7 @@
         "message": "メッセージ:"
     },
     "firmwareFlasherWarningText": {
-        "message": "このファームフラッシャーで<strong>Betaflight以外<\/strong>のフラッシュイメージを<span class=\"message-negative\">書換えないで<\/span>ください。<br \/>書換えをしている間はボードを<strong>取り外したり<\/strong>、コンピュータの<strong>電源を切ったり<\/strong><span class=\"message-negative\">しないで<\/span>ください。<br \/><br \/><strong>注:<\/strong> \n STM32ブートローダーはROMに格納されており、別途生成や改修はできません。<br \/><strong>注:<\/strong> ファームフラッシャーモードの間は、<span class=\"message-negative\">自動接続<\/span>は常に無効になっています。<br \/><strong>注:<\/strong> バックアップがあることを確認してください。アップグレード \/ ダウングレードでいくつかの設定が消去される場合があります。<br \/><strong>注:<\/strong> 書換えに問題がある場合は、<strong>FCから全てのケーブルを取り外し<\/strong>最初に再起動を行い、Chromeの最新アップグレード、ドライバのアップグレードをお試しください。<br \/><strong>注:<\/strong> (最新FCボードのほとんどの) 直接USBソケットを搭載しているFCボードに対して書換えるときは、Betaflightマニュアルの [USB Flashing] 章を読み、正しいソフトウェアとドライバをインストールしてください。"
+        "message": "このファームフラッシャーで<strong>Betaflight以外<\/strong>のフラッシュイメージを<span class=\"message-negative\">書換えないで<\/span>ください。<br \/>書換えをしている間はボードを<strong>取り外したり<\/strong>、コンピュータの<strong>電源を切ったり<\/strong><span class=\"message-negative\">しないで<\/span>ください。<br \/><br \/><strong>注:<\/strong> \n STM32ブートローダーはROMに格納されており、別途生成や改修はできません。<br \/><strong>注:<\/strong> ファームフラッシャーモードの間は、<span class=\"message-negative\">自動接続<\/span>は常に無効になっています。<br \/><strong>注:<\/strong> バックアップがあることを確認してください。アップグレード \/ ダウングレードでいくつかの設定が消去される場合があります。<br \/><strong>注:<\/strong> 書換えに問題がある場合は、<strong>FCから全てのケーブルを取り外し<\/strong>最初に再起動を行い、Chromeの最新アップグレード、ドライバのアップグレードをお試しください。<br \/><strong>注:<\/strong> (大部分の最新FCボードに) 直接USBソケットを搭載しているFCボードに対してファームウェアを書換えるときは、Betaflightマニュアルの [USB Flashing] 章を読み、正しいソフトウェアとドライバをインストールしてください。"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>リカバリー \/ 通信ロスト<\/strong>"
