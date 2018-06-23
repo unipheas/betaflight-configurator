@@ -948,7 +948,7 @@
         "message": "バッテリーが少ないときの警告ビープ音 (リピート)"
     },
     "beeperGPS_STATUS": {
-        "message": "ビープ数を使用して、GPS衛星の検出数を示します"
+        "message": "ビープ音の回数でGPS衛星の検出数を示す"
     },
     "beeperRX_SET": {
         "message": "ビープをAUXチャンネルに設定しているときのビープ音"
