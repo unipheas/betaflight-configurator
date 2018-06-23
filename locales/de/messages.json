@@ -663,7 +663,7 @@
         "message": "Bitte einen Empfänger wählen"
     },
     "featureRX_PPM": {
-        "message": "PPM Empfänger Eingang"
+        "message": "PPM Empfänger"
     },
     "featureVBAT": {
         "message": "Batteriespannungs Monitoring"
@@ -705,10 +705,10 @@
         "message": "3D Modus (für die Benutzung mit umkehrbaren ESC)"
     },
     "featureRX_PARALLEL_PWM": {
-        "message": "PWM Empfänger EIngang (1 Kanal pro Kabel)"
+        "message": "PWM Empfänger (1 Kabel pro Kanal)"
     },
     "featureRX_MSP": {
-        "message": "MSP Empfänger Eingang ("
+        "message": "MSP Empfänger (via MSP Anschluss)"
     },
     "featureRSSI_ADC": {
         "message": "analoger RSSI Eingang"
@@ -735,7 +735,7 @@
         "message": "nach dem Einschalten im  Blackbox Tab konfigurierbar"
     },
     "featureRX_SPI": {
-        "message": "SPI Empfänger Unterstüzung"
+        "message": "SPI Empfänger"
     },
     "featureESC_SENSOR": {
         "message": "KISS\/BLheli_32 ESC als Telemetrie Sensor benutzen"
@@ -819,7 +819,7 @@
         "message": "<strong>Hinweis:<\/strong> Vergiss nicht den seriellen Anschluss (Anschlüsse Tab) zu konfigurieren und einen Signal Typ auszuwählen, falls ein serieller Empfänger genutzt wird."
     },
     "configurationSpiRxHelp": {
-        "message": "<strong>Hinweis:<\/strong> Der SPI Empfänger wird nur dann funktionieren wenn eine passende Hardware auf dem Board oder dem SPI Bus angeschlossen ist"
+        "message": "<strong>Hinweis:<\/strong> Der SPI Empfänger wird nur dann funktionieren, wenn eine passende Hardware an dem Board oder dem SPI Bus angeschlossen ist."
     },
     "configurationOtherFeaturesHelp": {
         "message": "<strong>Hinweis:<\/strong> Nicht alle Funktionen werden von allen FC's unterstützt. Sollte eine ausgewählte Funktion nach dem Speichern und Neustart wieder aus sein, so wird diese nicht unterstützt."
