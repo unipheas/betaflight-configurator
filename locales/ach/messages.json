@@ -3071,12 +3071,6 @@
     "osdSetupCustomLogoColorMapError": {
         "message": "crwdns8720:0crwdne8720:0"
     },
-    "osdSetupReplaceLogoImageSizeError": {
-        "message": "crwdns8699:0$1crwdnd8699:0$2crwdnd8699:0$3crwdnd8699:0$4crwdne8699:0"
-    },
-    "osdSetupReplaceLogoImageColorsError": {
-        "message": "crwdns8700:0crwdne8700:0"
-    },
     "osdSetupUploadFont": {
         "message": "crwdns6221:0crwdne6221:0"
     },
