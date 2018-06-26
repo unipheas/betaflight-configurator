@@ -3023,7 +3023,7 @@
         "message": "Das Bild verwendet eine ungültige Farbpalette (nur grün, schwarz und weiß sind erlaubt)"
     },
     "osdSetupReplaceLogoImageSizeError": {
-        "message": "Ungültige Bildgröße; Es wird $1 x $2 statt $3 x $4 erwartet"
+        "message": "Ungültige Bildgröße; Es wird $1×$2 statt $3×$4 erwartet"
     },
     "osdSetupReplaceLogoImageColorsError": {
         "message": "Das Bild verwendet eine Ungültige Farbpalette (nur grün, schwarz und weiß sind erlaubt)"
