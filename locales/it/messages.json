@@ -2512,6 +2512,9 @@
     "pidTuningNonProfileFilterSettings": {
         "message": "Impostazioni filtro profilo indipendente"
     },
+    "pidTuningYawLowpassFrequency": {
+        "message": "Frequenza [Hz] di taglio passa-basso Yaw"
+    },
     "pidTuningVbatPidCompensation": {
         "message": "Compensazione PID Vbat"
     },
