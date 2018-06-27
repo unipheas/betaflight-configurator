@@ -2108,6 +2108,15 @@
     "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
         "message": "Versioni pubblicate e candidate alla pubblicazione"
     },
+    "firmwareFlasherOptionLabelBuildTypeDevelopment": {
+        "message": "Sviluppo"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_3": {
+        "message": "3.3 AKK & RDQ VTX Patch"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_4": {
+        "message": "3.4 AKK & RDQ VTX Patch"
+    },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Scegli un Firmware \/ Scheda"
     },
