@@ -1541,6 +1541,9 @@
     "adjustmentsFunction24": {
         "message": "Regolazione Modalità Horizon"
     },
+    "adjustmentsFunction25": {
+        "message": "PID-Selezione Audio"
+    },
     "adjustmentsSave": {
         "message": "salva"
     },
@@ -2048,6 +2051,9 @@
     "firmwareFlasherNoReboot": {
         "message": "Nessuna sequenza di riavvio"
     },
+    "firmwareFlasherOnlineSelectBuildType": {
+        "message": "Seleziona il tipo di build per vedere le schede disponibili."
+    },
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "Seleziona la tua scheda per vedere i relativi firmware disponibili online - Seleziona il firmware appropriato per la tua scheda."
     },
@@ -2098,6 +2104,9 @@
     },
     "firmwareFlasherOptionLabelBuildTypeRelease": {
         "message": "Versione"
+    },
+    "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
+        "message": "Versioni pubblicate e candidate alla pubblicazione"
     },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Scegli un Firmware \/ Scheda"
@@ -2580,6 +2589,30 @@
     },
     "pidTuningFilterSettings": {
         "message": "Impostazioni filtro profilo dipendente"
+    },
+    "pidTuningDTermLowpassFiltersGroup": {
+        "message": "Filtri passo-basso del D Term"
+    },
+    "pidTuningDTermLowpassType": {
+        "message": "Tipo 1 filtro passa-basso del D Term"
+    },
+    "pidTuningDTermLowpassFrequency": {
+        "message": "Frequenza [Hz] di taglio passo-basso 1 D Term"
+    },
+    "pidTuningDTermLowpass2Frequency": {
+        "message": "Frequenza [Hz] di taglio passo-basso D Term 2"
+    },
+    "pidTuningDTermNotchFiltersGroup": {
+        "message": "Filtri Notch del D Term"
+    },
+    "pidTuningDTermNotchFrequency": {
+        "message": "Frequenza centrale [Hz] del Filtro Notch del D Term"
+    },
+    "pidTuningDTermNotchCutoff": {
+        "message": "Frequenza di taglio [Hz] del Filtro Notch del D Term"
+    },
+    "pidTuningYawLospassFiltersGroup": {
+        "message": "Filtri passo-basso yaw"
     },
     "pidTuningYawLowpassFrequency": {
         "message": "Frequenza [Hz] di taglio passa-basso Yaw"
