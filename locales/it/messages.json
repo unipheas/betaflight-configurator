@@ -905,6 +905,12 @@
     "configurationThrottleMinimumCommandHelp": {
         "message": "Questo è il valore che viene inviato agli ESC quando il mezzo è disarmato. Impostalo su un valore che lasci i motori fermi (1000 per la maggior parte degli ESC)."
     },
+    "configurationDshotBeeper": {
+        "message": "Configurazione Dshot Beacon"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "Usa beacon Dshot (usa i motori per riprodurre i beep quando disarmati)"
+    },
     "configurationDshotBeaconTone": {
         "message": "Tono Beacon"
     },
@@ -935,6 +941,12 @@
     "beeperBAT_LOW": {
         "message": "Beep di avviso quando la batteria si sta scaricando (ripeti)"
     },
+    "beeperGPS_STATUS": {
+        "message": "Utilizzare il numero di bip per indicare quanti satelliti GPS sono stati trovati"
+    },
+    "beeperRX_SET": {
+        "message": "Emette un segnale acustico quando il canale aux è impostato per biipare"
+    },
     "beeperACC_CALIBRATION": {
         "message": "Conferma calibrazione involo degli Accelerometri eseguita"
     },
@@ -947,11 +959,26 @@
     "beeperDISARM_REPEAT": {
         "message": "Beep quando lo stick è mantenuto in posizione di disarmo"
     },
+    "beeperARMED": {
+        "message": "Beep di avvertimento quando la scheda è armata e motori fermi (si ripete fino a quando la scheda non viene disarmata o il gas non è aumentato)"
+    },
     "beeperSYSTEM_INIT": {
         "message": "Beep di inizializzazone quando la scheda viene accesa"
     },
+    "beeperUSB": {
+        "message": "Beep quando il controllore di volo è alimentato da USB. Disabilita questo se non desideri i beep durante le prove"
+    },
     "beeperBLACKBOX_ERASE": {
         "message": "Beep quando la cancellazione del blackbox è stata completata"
+    },
+    "beeperCRASH_FLIP": {
+        "message": "Biipa quando è attiva la modalità crash flip"
+    },
+    "beeperCAM_CONNECTION_OPEN": {
+        "message": "Biipa quando si entra nel controllo a 5 tasti della fotocamera"
+    },
+    "beeperCAM_CONNECTION_CLOSE": {
+        "message": "Biipa quando si esce dal controllo a 5 tasti della fotocamera"
     },
     "configuration3d": {
         "message": "3D ESC\/Funzionalità motore"
@@ -1171,6 +1198,9 @@
     },
     "pidTuningDtermSetpointHelp": {
         "message": "Questo parametro determina l'effetto di accelerazione dello stick all'interno del componente derivato. <br> Il valore di 0 è uguale al vecchio metodo di misurazione dove D traccia solo il giroscopio, mentre il valore di 1 è uguale al vecchio metodo di errore con gyro e stick ratio uguali. <br>Un valore più basso equivale a una risposta dello stick più lenta \/ più morbida, mentre un valore più alto fornisce una maggiore risposta all'accelerazione dello stick. <br>Si noti che l'interpolazione RC è consigliata per essere abilitata con valori più alti per impedire che i calci di controllo producano rumore."
+    },
+    "pidTuningDtermSetpointTransitionWarning": {
+        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong> L'utilizzo di un D Setpoint transition più grande di 0 e minore di 0.1 è fortemente sconsigliato. Se lo fai può portare instabilità e ridurre la risposta degli stick quando si trova in posizioni centrali.<\/span>"
     },
     "pidTuningProportional": {
         "message": "Proporzionale"
@@ -2066,6 +2096,9 @@
     "firmwareFlasherOptionLoading": {
         "message": "Caricamento in corso"
     },
+    "firmwareFlasherOptionLabelBuildTypeRelease": {
+        "message": "Versione"
+    },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Scegli un Firmware \/ Scheda"
     },
@@ -2511,6 +2544,42 @@
     },
     "pidTuningNonProfileFilterSettings": {
         "message": "Impostazioni filtro profilo indipendente"
+    },
+    "pidTuningGyroLowpassFiltersGroup": {
+        "message": "Filtri passo-basso del giroscopio"
+    },
+    "pidTuningGyroLowpassFrequency": {
+        "message": "Frequenza [Hz] di taglio passo-basso 1 del giroscopio"
+    },
+    "pidTuningGyroLowpassType": {
+        "message": "Tipo 1 filtro passo-basso del giroscopio"
+    },
+    "pidTuningGyroLowpass2Frequency": {
+        "message": "Frequenza [Hz] di taglio passa-basso 2 del giroscopio"
+    },
+    "pidTuningGyroLowpass2Type": {
+        "message": "Tipo 2 filtro passa-basso del giroscopio"
+    },
+    "pidTuningGyroNotchFiltersGroup": {
+        "message": "Filtri Notch del giroscopio"
+    },
+    "pidTuningGyroNotch1Frequency": {
+        "message": "Filtro 1 Notch del giroscopio frequenza centrale[ Hz]"
+    },
+    "pidTuningGyroNotch2Frequency": {
+        "message": "Filtro 2 Notch del giroscopio frequenza centrale [Hz]"
+    },
+    "pidTuningGyroNotch1Cutoff": {
+        "message": "Frequenza [Hz] taglio filtro Notch 1 del giroscopio"
+    },
+    "pidTuningGyroNotch2Cutoff": {
+        "message": "Frequenza [Hz] taglio filtro Notch 2 del giroscopio"
+    },
+    "pidTuningNotchFilterHelp": {
+        "message": "Il filtro Notch ha un centro e un cutoff. Il filtro è simmetrico. La frequenza centrale è il centro del filtro e la frequenza di taglio è dove inizia il filtro Notch. Ad esempio con Notch Cutoff di 160 e Notch Center di 260 significa che la gamma è 160-360Hz con maggior attenuazione intorno al centro"
+    },
+    "pidTuningFilterSettings": {
+        "message": "Impostazioni filtro profilo dipendente"
     },
     "pidTuningYawLowpassFrequency": {
         "message": "Frequenza [Hz] di taglio passa-basso Yaw"
