@@ -3199,6 +3199,9 @@
     "osdDescElementCoreTemperature": {
         "message": "Temperatura del núcleo del MCU STM32"
     },
+    "osdDescAntiGravity": {
+        "message": "Activa un indicador cuando la anti gravedad está activa"
+    },
     "osdDescStatMaxSpeed": {
         "message": "Máxima velocidad registrada"
     },
