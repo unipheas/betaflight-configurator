@@ -336,7 +336,7 @@
         "message": "Usando informações em cache para as informações de versão do $1."
     },
     "releaseCheckNoInfo": {
-        "message": "Nenhuma informação disponível para a versão $1."
+        "message": "Nenhuma informação disponível para a versão do $1."
     },
     "tabSwitchConnectionRequired": {
         "message": "Você precisa <strong>conectar<\/strong> antes de poder visualizar as abas."
@@ -414,7 +414,7 @@
         "message": "Tempo de ciclo:"
     },
     "statusbar_cpu_load": {
-        "message": "Carga do CPU: $1%"
+        "message": "Carga da CPU: $1%"
     },
     "dfu_connect_message": {
         "message": "Por favor use a opção de atualização de firmware para acessar dispositivos DFU"
@@ -621,7 +621,7 @@
         "message": "RSSI:"
     },
     "initialSetupRSSIValue": {
-        "message": "$1%"
+        "message": "$1 %"
     },
     "initialSetupArmingDisableFlags": {
         "message": "Armar bloqueado. Indicadores:"
