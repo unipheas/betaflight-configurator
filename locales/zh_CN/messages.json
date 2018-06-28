@@ -3199,6 +3199,9 @@
     "osdDescElementCoreTemperature": {
         "message": "显示飞控主芯片温度"
     },
+    "osdDescAntiGravity": {
+        "message": "当反重力功能激活时显示指示器"
+    },
     "osdDescStatMaxSpeed": {
         "message": "记录到的最大速度"
     },
