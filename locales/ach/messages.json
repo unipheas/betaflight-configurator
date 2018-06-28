@@ -3242,6 +3242,9 @@
     "osdDescElementCoreTemperature": {
         "message": "crwdns6277:0crwdne6277:0"
     },
+    "osdDescAntiGravity": {
+        "message": "crwdns8772:0crwdne8772:0"
+    },
     "osdDescStatMaxSpeed": {
         "message": "crwdns6278:0crwdne6278:0"
     },
