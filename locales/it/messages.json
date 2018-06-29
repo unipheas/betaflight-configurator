@@ -875,6 +875,9 @@
     "configurationReverseMotorSwitch": {
         "message": "Il motore gira al contrario"
     },
+    "configurationReverseMotorSwitchHelp": {
+        "message": "Questa opzione configura il mixer per aspettarsi l'inversione di marcia del motore e le eliche per essere su di conseguenza. <strong>Attenzione:<\/strong> Ciò non inverte la direzione del motore. Utilizza lo strumento di configurazione dei tuoi ESCs o cambia l'ordine dei cavi fra motore e ESC per ottenere questo obiettivo. Inoltre, assicurati di controllare con le eliche smontate che i motori girino nelle direzioni indicate nel diagramma qui sopra prima di armare."
+    },
     "configurationAutoDisarmDelay": {
         "message": "Disarma i motori dopo un ritardo di [secondi] secondi (richiede MOTOR_STOP)"
     },
