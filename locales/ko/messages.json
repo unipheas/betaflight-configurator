@@ -3199,6 +3199,9 @@
     "osdDescElementCoreTemperature": {
         "message": "STM32 MCU 코어 온도"
     },
+    "osdDescAntiGravity": {
+        "message": "안티 그래비티 활성시 표시기 사용"
+    },
     "osdDescStatMaxSpeed": {
         "message": "최대 기록 속도"
     },
