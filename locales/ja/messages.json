@@ -3199,6 +3199,9 @@
     "osdDescElementCoreTemperature": {
         "message": "STM32 MCUコア温度"
     },
+    "osdDescAntiGravity": {
+        "message": "Anti Gravity機能がオンの時、インジケーターを有効にします。"
+    },
     "osdDescStatMaxSpeed": {
         "message": "記録された最大スピード"
     },
