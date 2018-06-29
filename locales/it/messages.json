@@ -917,6 +917,9 @@
     "configurationDshotBeaconTone": {
         "message": "Tono Beacon"
     },
+    "configurationDshotBeaconHelp": {
+        "message": "Il beacon Dshot utilizza i regolatori e i motori per produrre il suono. Ciò significa che il beacon Dshot non può essere utilizzato quando i motori girano. In Betaflight 3.4 e successivi, quando si prova ad armare mentre il BEACON Dshot è attivo, si ha un ritardo di 2 secondi dopo l'ultimo beacon prima che il modello sia armato. Questo per impedire che la funzionalità di beacon interferisca con i comandi Dshot inviati quando si arma.<br\/><strong>Attenzione:<\/strong> poiché il beacon Dshot porta corrente attraverso i motori quando è attivo, può provocare surriscaldamento e danni ai motori e \/ o ai regolatori se la forza del beacon è impostata troppo alta. Utilizzare BLHeli Configurator o la Suite BLHeli per regolare e testare la potenza del beacon."
+    },
     "configurationBeeper": {
         "message": "Configurazione dei Beep"
     },
