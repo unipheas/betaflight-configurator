@@ -3191,7 +3191,10 @@
         "message": "Unbekanntes Element (Details kommen in zukünftigen Versionen)"
     },
     "osdDescElementCoreTemperature": {
-        "message": "Temperator des STM32 MCU Kerns"
+        "message": "Temperatur des STM32 MCU Kerns"
+    },
+    "osdDescAntiGravity": {
+        "message": "aktiviert einen Indikator, wenn Anti Gravity aktiv ist"
     },
     "osdDescStatMaxSpeed": {
         "message": "Maximal erreichte Geschwindigkeit"
