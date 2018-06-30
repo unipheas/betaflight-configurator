@@ -2635,9 +2635,6 @@
     "osdSetupButtonReset": {
         "message": "Сбросить настройки"
     },
-    "osdDescElementRssiValue": {
-        "message": "Мгновенное значение RSSI (замигает, если значение будет ниже заданного порога тревоги)"
-    },
     "osdDescElementFlyMode": {
         "message": "Текущий режим полета"
     },
