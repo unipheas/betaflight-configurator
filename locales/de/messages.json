@@ -3089,7 +3089,7 @@
         "message": "Name des Fluggerätes (gesetzt im Konfigurationstab)"
     },
     "osdDescElementAltitude": {
-        "message": "Aktuelle Höhe (blinkt wenn unter dem Alarm Schwellwert)"
+        "message": "Aktuelle Höhe (blinkt, wenn über dem Alarm Schwellwert)"
     },
     "osdDescElementOnTime": {
         "message": "Totale Zeit seit dem das Fluggerät Strom hat"
@@ -3104,7 +3104,7 @@
         "message": "Ermittelte GPS Geschwindigkeit"
     },
     "osdDescElementGPSSats": {
-        "message": "Satellitenanzahl"
+        "message": "Anzahl der Satelliten"
     },
     "osdDescElementGPSLon": {
         "message": "GPS Längengrad"
