@@ -2639,13 +2639,13 @@
         "message": "Текущий режим полета"
     },
     "osdDescElementGPSLon": {
-        "message": "GPS Широта"
+        "message": "GPS-Долгота"
     },
     "osdDescElementGPSLat": {
         "message": "GPS-Широта"
     },
     "osdDescElementDebug": {
-        "message": "Отладки переменных"
+        "message": "Показывать Debug-переменные"
     },
     "osdDescElementCoreTemperature": {
         "message": "Температура ядра STM32 MCU"
