@@ -999,7 +999,7 @@
         "message": "3D neutral"
     },
     "configuration3dDeadbandThrottle": {
-        "message": "Zona morta 3D Throttle"
+        "message": "Ponto morto do Throttle 3D"
     },
     "configurationSystem": {
         "message": "Configuração do sistema"
@@ -3416,7 +3416,7 @@
         "message": "Perfil de taxa"
     },
     "pidTuningRateProfileTip": {
-        "message": "Até 3 diferentes perfis de taxa podem ser armazenados no controlador de voo. O perfil de taxa inclui configurações da 'Taxa do RC', 'Taxa', 'Expo do RC', 'Throttle', e 'TPA'. Alternar entre os perfis de taxa é possível durante o voo, basta configurar um switch de 3 posições para 'Seleção do Perfil de Taxa' na aba de Ajustes."
+        "message": "Até 3 diferentes perfis de taxa podem ser armazenados no controlador de voo. O perfil de taxa inclui configurações da 'Taxa do RC', 'Taxa', 'Expo do RC', 'Throttle', e 'TPA'. É possível alternar entre os perfis de taxa durante o voo, basta configurar um switch de 3 posições para 'Seleção do Perfil de Taxa' na aba de Ajustes."
     },
     "pidTuningDelta": {
         "message": "Método Derivativo"
