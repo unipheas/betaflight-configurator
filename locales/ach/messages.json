@@ -478,13 +478,16 @@
         "message": "crwdns5452:0crwdne5452:0"
     },
     "defaultWelcomeText": {
-        "message": "crwdns5453:0crwdne5453:0"
+        "message": "crwdns8773:0crwdne8773:0"
     },
     "defaultContributingHead": {
         "message": "crwdns5454:0crwdne5454:0"
     },
     "defaultContributingText": {
         "message": "crwdns6376:0crwdne6376:0"
+    },
+    "defaultFacebookText": {
+        "message": "crwdns8774:0crwdne8774:0"
     },
     "defaultChangelogAction": {
         "message": "crwdns5456:0crwdne5456:0"
@@ -3244,6 +3247,9 @@
     },
     "osdDescAntiGravity": {
         "message": "crwdns8772:0crwdne8772:0"
+    },
+    "osdDescGForce": {
+        "message": "crwdns8775:0crwdne8775:0"
     },
     "osdDescStatMaxSpeed": {
         "message": "crwdns6278:0crwdne6278:0"
