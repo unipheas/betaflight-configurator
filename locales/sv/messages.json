@@ -391,9 +391,6 @@
     "defaultWelcomeHead": {
         "message": "Hårdvara"
     },
-    "defaultWelcomeText": {
-        "message": "Detta program stöder all hårdvara som kan köra Betaflight.<br \/>Se fullständig lista över hårdvara som stöds under Flash-fliken.<br><br> <a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Ladda ner Betaflight Blackbox<\/a><br \/><br \/>Firmwarens källkod kan laddas ner <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">här<\/a>.<br \/>Den senaste binära firmwarebilden är tillgänglig <a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">här<\/a>.<br \/><br \/>Dom senaste <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210x Drivrutinerna<\/a> kan laddas ner <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">här<\/a>.<br \/>Dom senaste <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCP Drivrutinerna<\/a> kan laddas ner <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">här<\/a>.<br \/>Den senaste <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> för Windows USB-drivrutinsinstallerare kan laddas ner <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">här<\/a>.<br \/>"
-    },
     "defaultContributingHead": {
         "message": "Medverka"
     },
