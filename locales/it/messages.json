@@ -437,9 +437,6 @@
     "defaultWelcomeHead": {
         "message": "Hardware"
     },
-    "defaultWelcomeText": {
-        "message": "L'applicazione supporta tutti i dispositivi su cui può girare Betaflight. Verifica la sezione delle flash per la lista completa dell'hardware.<br><br> <a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Scarica Betaflight Blackbox<\/a><br \/>Il codice sorgente del firmware può essere scaricato da <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">QUI<\/a><br \/>L'immagine più aggiornata del firmware è disponibile <a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">QUI<\/a><br \/><br \/>L'ultima versione dei <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">Driver CP210x <\/a> da <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">QUI<\/a><br \/>L'ultima versione dei <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">Drivers STM USB VCP <\/a> da <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">QUI<\/a><br \/>L'ultima versione di<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\"> Zadig <\/a>per l'installazione dei driver USB Windows può essere scaricata da <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">QUI<\/a><br \/>"
-    },
     "defaultContributingHead": {
         "message": "Contribuisci"
     },
