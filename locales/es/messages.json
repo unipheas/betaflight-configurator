@@ -437,11 +437,17 @@
     "defaultWelcomeHead": {
         "message": "Hardware"
     },
+    "defaultWelcomeText": {
+        "message": "La aplicación soporta todo el hardware que puede ejecutar Betaflight. Mira el apartado Instalar Firmware para una lista completa del hardware.<br><br> <a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\"> Descargar Betaflight Blackbox Log Viewer<\/a><br \/><br \/>El código fuente del firmware puede descargarse desde <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">aquí<\/a><br \/><br \/>Los últimos <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">Drivers CP210x<\/a> pueden descargarse desde <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">aquí<\/a><br \/>Los últimos <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">Drivers STM USB VCP<\/a> pueden descargarse desde <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">aquí<\/a><br \/>Ultimo driver <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> para instalación del driver USB de Windows puede descargarse desde <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">aquí<\/a><br \/>"
+    },
     "defaultContributingHead": {
         "message": "Contribuir"
     },
     "defaultContributingText": {
         "message": "Si quieres ayudar a hacer Betaflight incluso mejor puedes hacerlo de diferentes maneras, incluyendo:<br \/><ul><li>Responder a preguntas de otros usuarios en foros e IRC.<\/li><li>Contribuyendo con código al firmware y al configurador- nuevas funcionalidades, correcciones, mejoras.<\/li><li>Testeando <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">nuevas funcionalidades\/correcciones<\/a> y comentando resultados.<\/li><li>Ayudando con <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">problemas y opinando sobre las solicitudes de funcionalidades<\/a>.<\/li><li>Colaborando en <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">la traducción de la aplicación del configurador<\/a> a tu idioma.<\/li><li><\/li><\/ul>"
+    },
+    "defaultFacebookText": {
+        "message": "También tenemos un <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">Grupo de Facebook<\/a>.<br \/>Únete a nosotros para tener un lugar donde hablar sobre Betaflight, preguntar sobre configuraciones, o simplemente charlar con otros pilotos."
     },
     "defaultChangelogAction": {
         "message": "Novedades"
@@ -3198,6 +3204,9 @@
     },
     "osdDescAntiGravity": {
         "message": "Activa un indicador cuando la anti gravedad está activa"
+    },
+    "osdDescGForce": {
+        "message": "Muestra cuánta Fuerza G está experimentando la aeronave"
     },
     "osdDescStatMaxSpeed": {
         "message": "Máxima velocidad registrada"
