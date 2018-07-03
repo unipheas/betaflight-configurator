@@ -356,9 +356,6 @@
     "defaultWelcomeHead": {
         "message": "Hardver"
     },
-    "defaultWelcomeText": {
-        "message": "Az alkalmazás minden hardwert támogat, ami képes a Betaflight futtatására. A Flash fülön megtalálja a teljes listát.<br><br> <a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Betaflight Feketedoboz (Blackbox) letöltése<\/a><br \/><br \/>A firmware forráskód letölthető <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">itt<\/a><br \/>A legfrissebb firmware bináris elérthető <a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">itt<\/a><br \/><br \/>A legfrissebb <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210x Driverek<\/a> letölthetők <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">innen<\/a><br \/>A legfrissebb <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCP Driverek<\/a> letölthetők <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">innen<\/a><br \/>A legfrissebb <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> a Windows USB driver telepítéséhez letölthető <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">innen<\/a><br \/>"
-    },
     "defaultContributingHead": {
         "message": "Hozzájárult"
     },
