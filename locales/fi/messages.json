@@ -386,9 +386,6 @@
     "defaultWelcomeHead": {
         "message": "Laitteisto"
     },
-    "defaultWelcomeText": {
-        "message": "Tämä ohjelma tukee kaikkia lento-ohjaimia, jotka kykenevät käyttämään Betaflightia. Tarkista Laiteohjelmointi-välilehdeltä täysi lista tuetuista laitteista.<br><br> <a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Lataa Betaflight Blackbox<\/a><br \/><br \/>Laiteohjelmiston lähdekoodi on ladattavissa <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">täältä<\/a><br \/>Uusin binäärimuotoinen laiteohjelmistokuva on ladattavissa <a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">täältä<\/a><br \/><br \/>Viimeisimmät <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210x ajurit<\/a> ovat ladattavissa <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">täältä<\/a><br \/>Viimeisimmät <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCP Ajurit<\/a> ovat ladattavissa <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">täältä<\/a><br \/>Viimeisin <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> Windows USB ajuriasennuspaketti on ladattavissa <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">täältä<\/a><br \/>"
-    },
     "defaultContributingHead": {
         "message": "Avustaminen"
     },
