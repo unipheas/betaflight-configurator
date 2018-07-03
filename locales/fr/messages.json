@@ -437,9 +437,6 @@
     "defaultWelcomeHead": {
         "message": "Matériel"
     },
-    "defaultWelcomeText": {
-        "message": "L'application fonctionne avec toutes les cartes sous Betaflight. Consulter la liste dans la rubrique flash.<br><br><a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Télécharger Betaflight Blackbox<\/a><br \/><br \/>Le code source du firmware est à télécharger <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">ici<\/a><br \/>L'image du firmware la plus récente est <a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">ici<\/a><br \/><br \/>Le dernier <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">pilote CP210x<\/a> est à télécharger <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">ici<\/a><br \/>Le dernier <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">pilote STM USB VCP<\/a>est à télécharger <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">ici<\/a><br \/>La dernière version de <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> (utilitaire windows pour les pilotes USB) est à télécharger <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">ici<\/a><br \/>"
-    },
     "defaultContributingHead": {
         "message": "Participation"
     },
