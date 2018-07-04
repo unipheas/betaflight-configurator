@@ -3028,9 +3028,6 @@
     "osdSetupCustomLogoImageSizeError": {
         "message": "Tamaño de imagen no válido: {{width}}×{{height}} (esperado $t(logoWidthPx) ×$t(logoHeightPx))"
     },
-    "osdSetupCustomLogoColorMapError": {
-        "message": "La imagen contiene una paleta de colores no válida (sólo se permite verde, blanco y negro)"
-    },
     "osdSetupUploadFont": {
         "message": "Cargar Fuente"
     },
