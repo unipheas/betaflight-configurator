@@ -3022,9 +3022,6 @@
     "osdSetupCustomLogoImageSizeError": {
         "message": "无效的图像大小: {{width}}x{{height}} (应是 $t(logoWidthPx) x$t(logoHeightPx))"
     },
-    "osdSetupCustomLogoColorMapError": {
-        "message": "图像包含无效的颜色 (仅允许绿色、黑色和白色)"
-    },
     "osdSetupUploadFont": {
         "message": "更新字体"
     },
