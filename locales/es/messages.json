@@ -3028,6 +3028,9 @@
     "osdSetupCustomLogoImageSizeError": {
         "message": "Tamaño de imagen no válido: {{width}}×{{height}} (esperado $t(logoWidthPx) ×$t(logoHeightPx))"
     },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "La imagen contiene un pixel inválido: rgb({{valueR}}, {{valueG}}, {{valueB}}) en las coordenadas {{posX}}×{{posY}}"
+    },
     "osdSetupUploadFont": {
         "message": "Cargar Fuente"
     },
