@@ -3016,9 +3016,6 @@
     "osdSetupCustomLogoImageSizeError": {
         "message": "Ungültige Bildgröße: {{width}}×{{height}} (erwartete $t(logoWidthPx) ×$t(logoHeightPx))"
     },
-    "osdSetupCustomLogoColorMapError": {
-        "message": "Das Bild verwendet eine ungültige Farbpalette (nur grün, schwarz und weiß sind erlaubt)"
-    },
     "osdSetupUploadFont": {
         "message": "Schriftart hochladen"
     },
