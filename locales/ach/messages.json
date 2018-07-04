@@ -3072,7 +3072,7 @@
         "message": "crwdns8719:0{{width}}crwdnd8719:0{{height}}crwdnd8719:0$t(logoWidthPx)crwdnd8719:0$t(logoHeightPx)crwdne8719:0"
     },
     "osdSetupCustomLogoColorMapError": {
-        "message": "crwdns8720:0crwdne8720:0"
+        "message": "crwdns8776:0{{valueR}}crwdnd8776:0{{valueG}}crwdnd8776:0{{valueB}}crwdnd8776:0{{posX}}crwdnd8776:0{{posY}}crwdne8776:0"
     },
     "osdSetupUploadFont": {
         "message": "crwdns6221:0crwdne6221:0"
