@@ -3022,9 +3022,6 @@
     "osdSetupCustomLogoImageSizeError": {
         "message": "잘못 된 이미지 크기: {{width}}×{{height}} (예상된 크기 $t(logoWidthPx) ×$t(logoHeightPx))"
     },
-    "osdSetupCustomLogoColorMapError": {
-        "message": "이미지가 유효하지 않은 색상표를 포함하고 있습니다 (오직 녹색, 검정 및 흰색만 허용됨)"
-    },
     "osdSetupUploadFont": {
         "message": "글꼴 업로드"
     },
