@@ -3022,9 +3022,6 @@
     "osdSetupCustomLogoImageSizeError": {
         "message": "Dimensione dell'immagine non valida: {{width}}×{{height}} (expected $t(logoWidthPx)×$t(logoHeightPx))"
     },
-    "osdSetupCustomLogoColorMapError": {
-        "message": "L'immagine contiene una tavolozza colori non valida (sono ammessi solo verde, nero e bianco)"
-    },
     "osdSetupUploadFont": {
         "message": "Carica carattere"
     },
