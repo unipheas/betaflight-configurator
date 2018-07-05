@@ -1197,7 +1197,7 @@
         "message": "遥控信号插值间隙[毫秒]"
     },
     "pidTuningDtermSetpointTransition": {
-        "message": "D 设定点转换"
+        "message": "D 设定点转换阈值"
     },
     "pidTuningDtermSetpoint": {
         "message": "D 设定点权重"
@@ -1545,7 +1545,7 @@
         "message": "D 设定点"
     },
     "adjustmentsFunction23": {
-        "message": "D 设定点转换"
+        "message": "D 设定点转换阈值"
     },
     "adjustmentsFunction24": {
         "message": "水平模式强度调整"
