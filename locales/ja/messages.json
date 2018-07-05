@@ -3028,6 +3028,9 @@
     "osdSetupCustomLogoImageSizeError": {
         "message": "画像サイズが無効: {{width}}×{{height}} (既定サイズ $t(logoWidthPx)×$t(logoHeightPx))"
     },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "画像に無効なピクセルが含まれています: RGB({{valueR}}, {{valueG}}, {{valueB}}) 座標 {{posX}}×{{posY}}"
+    },
     "osdSetupUploadFont": {
         "message": "フォントアップロード"
     },
