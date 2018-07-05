@@ -3028,6 +3028,9 @@
     "osdSetupCustomLogoImageSizeError": {
         "message": "Tamanho da imagem inválido: {{width}}×{{height}} (deveria ser $t(logoWidthPx)×$t(logoHeightPx))"
     },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "A imagem contém um pixel inválido: rgb({{valueR}}, {{valueG}}, {{valueB}}) nas coordenadas {{posX}} x{{posY}}"
+    },
     "osdSetupUploadFont": {
         "message": "Carregar Fonte"
     },
@@ -3201,6 +3204,9 @@
     },
     "osdDescAntiGravity": {
         "message": "Exibe um indicador quando o módulo antigravidade estiver em efeito"
+    },
+    "osdDescGForce": {
+        "message": "Mostra o valor da Força-G sob a aeronave"
     },
     "osdDescStatMaxSpeed": {
         "message": "Velocidade máxima registrada"
