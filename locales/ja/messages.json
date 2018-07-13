@@ -3020,7 +3020,7 @@
         "message": "サイズは $t(logoWidthPx)×$t(logoHeightPx) ピクセルでなければなりません"
     },
     "osdSetupCustomLogoInfoColorMap": {
-        "message": "緑・白・黒色ピクセルを含まなければなりません"
+        "message": "緑・白・黒色ピクセルで構成しなければなりません"
     },
     "osdSetupCustomLogoInfoUploadHint": {
         "message": "<b>$t(osdSetupUploadFont.message)<\/b> をクリックしカスタムロゴを保持します"
