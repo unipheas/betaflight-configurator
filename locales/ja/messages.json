@@ -3023,7 +3023,7 @@
         "message": "緑・白・黒色ピクセルで構成しなければなりません"
     },
     "osdSetupCustomLogoInfoUploadHint": {
-        "message": "<b>$t(osdSetupUploadFont.message)<\/b> をクリックしカスタムロゴを保持します"
+        "message": "<b>$t(osdSetupUploadFont.message)<\/b> をクリックしカスタムロゴを保存してください"
     },
     "osdSetupCustomLogoImageSizeError": {
         "message": "画像サイズが無効: {{width}}×{{height}} (既定サイズ $t(logoWidthPx)×$t(logoHeightPx))"
