@@ -539,9 +539,6 @@
     "initialSetupButtonRestore": {
         "message": "Restaurar"
     },
-    "initialSetupBackupRestoreText": {
-        "message": "Faça um <strong>Backup<\/strong> das configurações em caso de acidente, as configurações feitas pela <strong>CLI<\/strong><span class=\"message-negative\"> não<\/span> estão incluídas - Para isso consulte o comando 'dump' da CLI"
-    },
     "initialSetupBackupSuccess": {
         "message": "Backup salvo com <span class=\"message-positive\">sucesso<\/span>"
     },
