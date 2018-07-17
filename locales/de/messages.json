@@ -533,9 +533,6 @@
     "initialSetupButtonRestore": {
         "message": "Wiederherstellen"
     },
-    "initialSetupBackupRestoreText": {
-        "message": "<strong>Sichere<\/strong> deine Einstellungen für den Fall der Fälle, <strong>Kommandozeilen-Einstellungen<\/strong> sind <span class=\"message-negative\">nicht<\/span> enthalten. Siehe den \"dump\" Kommandozeilenbefehl"
-    },
     "initialSetupBackupSuccess": {
         "message": "Backup <span class=\"message-positive\">erfolgreich<\/span> gespeichert"
     },
