@@ -533,9 +533,6 @@
     "initialSetupButtonRestore": {
         "message": "Ripristina"
     },
-    "initialSetupBackupRestoreText": {
-        "message": "Esegui il <strong>Backup<\/strong> della tua configurazione in caso di incidente, i settaggi <strong>CLI<\/strong> <span class=\"message-negative\">non<\/span> sono inclusi - Vedi il comando 'dump'."
-    },
     "initialSetupBackupSuccess": {
         "message": "Backup salvato <span class=\"message-positive\">correttamente<\/span>"
     },
