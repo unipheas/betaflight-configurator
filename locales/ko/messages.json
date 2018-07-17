@@ -533,9 +533,6 @@
     "initialSetupButtonRestore": {
         "message": "복구"
     },
-    "initialSetupBackupRestoreText": {
-        "message": "사고의 경우에 당신의 환경설정을 <strong>백업하세요<\/strong>, <strong>CLI<\/strong> 설정은 포함되지 <span class=\"message-negative\">않습니다<\/span> - cli 명령 'dump'를 보십시오."
-    },
     "initialSetupBackupSuccess": {
         "message": "백업이 <span class=\"message-positive\">성공적으로<\/span> 저장됨"
     },
