@@ -533,9 +533,6 @@
     "initialSetupButtonRestore": {
         "message": "Atjaunot"
     },
-    "initialSetupBackupRestoreText": {
-        "message": "Veikt jūsu konfigurācijas <strong>dublēšanu<\/strong>, ja notiek kas negaidīts, <strong>CLI<\/strong> konfigurācija <span class=\"message-negative\">netiek<\/span> iekļauta - skatīt 'dump' cli komandu"
-    },
     "initialSetupBackupSuccess": {
         "message": "Rezerves kopija <span class=\"message-positive\">veiksmīgi saglabāta<\/span>"
     },
