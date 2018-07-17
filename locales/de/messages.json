@@ -2,11 +2,20 @@
     "error": {
         "message": "Fehler: {{errorMessage}}"
     },
+    "errorTitle": {
+        "message": "Fehler"
+    },
     "warningTitle": {
         "message": "Warnung"
     },
     "noticeTitle": {
         "message": "Hinweis"
+    },
+    "operationNotSupported": {
+        "message": "Diese Funktion wird von deinem System nicht unterstützt."
+    },
+    "storageDeviceNotReady": {
+        "message": "Das Speichermedium ist nicht bereit. Im Falle einer MicroSD-Karte stelle sicher, dass sie durch deinen FC richtig erkannt wird."
     },
     "options_title": {
         "message": "Einstellungen"
@@ -532,6 +541,15 @@
     },
     "initialSetupButtonRestore": {
         "message": "Wiederherstellen"
+    },
+    "initialSetupButtonRebootBootloader": {
+        "message": "Boot-Loader\/DFU aktivieren"
+    },
+    "initialSetupBackupRestoreText": {
+        "message": "<strong>Sichere<\/strong> deine Einstellungen für den Fall der Fälle. <strong>Kommandozeilen-Einstellungen<\/strong> sind <span class=\"message-negative\">nicht<\/span> enthalten. Siehe den \"diff\" Kommandozeilenbefehl."
+    },
+    "initialSetupRebootBootloaderText": {
+        "message": "Starte im <strong>Boot-Loader\/DFU Modus<\/strong>."
     },
     "initialSetupBackupSuccess": {
         "message": "Backup <span class=\"message-positive\">erfolgreich<\/span> gespeichert"
@@ -3468,6 +3486,9 @@
     },
     "onboardLoggingOnboardSDCard": {
         "message": "Onboard SD-Karte"
+    },
+    "onboardLoggingMsc": {
+        "message": "Massenspeicher-Modus"
     },
     "dialogConfirmResetTitle": {
         "message": "Bestätigen"
