@@ -3362,7 +3362,7 @@
         "message": "Barometer (falls verbaut)"
     },
     "configurationMagHardware": {
-        "message": "Magnotometer (falls verbaut)"
+        "message": "Magnetometer (falls verbaut)"
     },
     "configurationSmallAngle": {
         "message": "Zum Armen maximal zulässiger Winkel"
