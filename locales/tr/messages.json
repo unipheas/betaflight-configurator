@@ -202,9 +202,6 @@
     "initialSetupResetText": {
         "message": "Ayarları <strong>varsayılan<\/strong> a geri getir"
     },
-    "initialSetupBackupRestoreText": {
-        "message": "Kaza durumunda ayarlarınızı <strong>yedekleyin<\/strong>,<strong>CLI<\/strong> ayarları dahil <span class=\"message-negative\">değildir<\/span> - 'dumb' cli komutuna bakın"
-    },
     "initialSetupBackupSuccess": {
         "message": "Yedekleme <span class=\"message-positive\">başarıyla<\/span> kaydedildi"
     },
