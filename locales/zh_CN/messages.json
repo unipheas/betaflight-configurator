@@ -539,9 +539,6 @@
     "initialSetupButtonRestore": {
         "message": "恢复"
     },
-    "initialSetupBackupRestoreText": {
-        "message": "<strong>备份<\/strong>你的设置以防意外丢失，注意<strong>CLI命令行<\/strong>设置 <span class=\"message-negative\">没有<\/span> 包括在内 - 具体请查阅 CLI 命令 'dump'"
-    },
     "initialSetupBackupSuccess": {
         "message": "备份保存<span class=\"message-positive\">成功<\/span>"
     },
