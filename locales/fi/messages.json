@@ -476,9 +476,6 @@
     "initialSetupButtonRestore": {
         "message": "Palauta"
     },
-    "initialSetupBackupRestoreText": {
-        "message": "<strong>Varmuuskopioi<\/strong> olemassa oleva konfiguraatio siltä varalta, että jotain menee pieleen. <strong>CLI<\/strong> asetukset <span class=\"message-negative\">eivät<\/span> sisälly tähän - Katso 'dump' cli komento"
-    },
     "initialSetupBackupSuccess": {
         "message": "Varmuuskopio tallennettu <span class=\"message-positive\">onnistuneesti<\/span>"
     },
