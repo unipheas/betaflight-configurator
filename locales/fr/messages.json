@@ -533,9 +533,6 @@
     "initialSetupButtonRestore": {
         "message": "Restaurer"
     },
-    "initialSetupBackupRestoreText": {
-        "message": "<strong>Sauvegardez<\/strong> votre configuration, les paramètres <strong>CLI<\/strong> ne sont <span class=\"message-negative\">pas<\/span> inclus - Voir l'aide pour la commande cli 'dump'"
-    },
     "initialSetupBackupSuccess": {
         "message": "Sauvegarde <span class=\"message-positive\">réussie<\/span>"
     },
