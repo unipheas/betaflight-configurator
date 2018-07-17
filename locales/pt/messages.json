@@ -780,7 +780,7 @@
         "message": "Taxas Super Expo"
     },
     "featureSDCARD": {
-        "message": "Suporte de cartão SD (para registro)"
+        "message": "Suporte de cartão SD (para log)"
     },
     "featureOSD": {
         "message": "Informações na Tela (OSD)"
@@ -1914,7 +1914,7 @@
         "message": "Por favor selecione o arquivo de log"
     },
     "loggingErrorOneProperty": {
-        "message": "Por favor selecione pelo menos uma propriedade para logar"
+        "message": "Por favor selecione pelo menos uma propriedade para monitorar"
     },
     "loggingAutomaticallyRetained": {
         "message": "Arquivo de log anterior carregado: <strong>$1<\/strong>"
@@ -3023,7 +3023,7 @@
         "message": "Abrir Arquivo de Fonte"
     },
     "osdSetupCustomLogoTitle": {
-        "message": "Logo do boot:"
+        "message": "Logo no Boot:"
     },
     "osdSetupCustomLogoOpenImageButton": {
         "message": "Selecionar imagem&hellip;"
@@ -3452,7 +3452,7 @@
         "message": "<b>Derivativo a partir do Erro<\/b> gera uma reposta mais direta ao stick e é melhor para corridas.<br><br><b>Derivativo a partir da Medição<\/b> gera uma resposta mais suave ao stick e é melhor para freestyle"
     },
     "pidTuningPidControllerTip": {
-        "message": "<b>Legado vs Betaflight (flutuante):<\/b> A lógica e a escala do PID são exatamente os mesmo. Não é necessário reajustar. O Legado é o antigo Betaflight Evolved Rewrite, que é um controlador PID básico baseado em matemática de números inteiros. o controlador PID Betaflight usa matemática de números com ponto flutuante e tem várias novas funcionalidades especificamente desenhadas para multirotores<br><b>Inteiro vs Flutuante:<\/b> A lógica e a escala do PID é exatamente a mesma. Não é necessário reajustar. placas F1 não tem um FPU a bordo e a matemática com ponto flutuante aumenta a carga no CPU; Matemática com inteiros melhora a performance, mas a matemática com ponto flutuante é mais precisa."
+        "message": "<b>Legado vs Betaflight (flutuante):<\/b> A lógica e a escala do PID é exatamente a mesma. Não é necessário reajustar. O modo Legado é o antigo Betaflight Evolved Rewrite, que é um controlador PID básico baseado em matemática de números inteiros. o controlador PID Betaflight usa matemática de números com ponto flutuante e tem várias novas funcionalidades especificamente desenhadas para multirotores<br><b>Inteiro vs Flutuante:<\/b> A lógica e a escala do PID é exatamente a mesma. Não é necessário reajustar. placas F1 não tem um FPU a bordo e a matemática com ponto flutuante aumenta a carga do CPU; Matemática com inteiros melhora a performance, mas a matemática com ponto flutuante é mais precisa."
     },
     "pidTuningFilterTip": {
         "message": "<b>Filtro Soft para o Giroscópio:<\/b> Um filtro Lowpass para o Giroscópio. Use valores mais baixos para filtrar mais.<br><b>Filtro do Termo D:<\/b> Filtro Lowpass para o termo D. Pode afetar a afinação do D. Use valores mais baixos para filtrar mais.<br><b>Filtro Yaw:<\/b> Filtra a saída do Yaw. Pode ajudar os veículos com ruídos no eixo Yaw."
@@ -3497,7 +3497,13 @@
         "message": "Modo de armazenamento"
     },
     "onboardLoggingMscNote": {
-        "message": "Reiniciar no modo de <strong>armazenamento (MSC)<\/strong>. Uma vez ativado, o memória flash a bordo ou o cartão microSD no seu controlador de voo será detectado pelo seu computador como um dispositivo de armazenamento, permitindo que você descarregue seus arquivos de log. Remova com segurança e então desligue e ligue o controlador para sair do modo de armazenamento."
+        "message": "Reiniciar no modo de <strong>armazenamento (MSC)<\/strong>. Uma vez ativado, a memória flash a bordo ou o cartão microSD no seu controlador de voo será detectado pelo seu computador como um dispositivo de armazenamento, permitindo que você descarregue seus arquivos de log. Remova com segurança e então desligue e ligue o controlador para sair do modo de armazenamento."
+    },
+    "onboardLoggingRebootMscText": {
+        "message": "Ativar modo de armazenamento"
+    },
+    "onboardLoggingMscNotReady": {
+        "message": "O modo de armazenamento não pode ser ativado porque o dispositivo não está pronto."
     },
     "dialogConfirmResetTitle": {
         "message": "Confirmar"
