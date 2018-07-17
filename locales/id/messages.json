@@ -523,9 +523,6 @@
     "initialSetupButtonRestore": {
         "message": "Mengembalikan"
     },
-    "initialSetupBackupRestoreText": {
-        "message": "<strong>Backup<\/strong> konfigurasi anda dalam kasus kecelakaan, <strong>CLI<\/strong> pengaturan <span class=\"pesan-negatif\">tidak<\/span> termasuk - Lihat 'dump' perintah cli"
-    },
     "initialSetupBackupSuccess": {
         "message": "Backup disimpan <span class=\"pesan positif\">berhasil<\/span>"
     },
