@@ -9,11 +9,20 @@
     "error": {
         "message": "crwdns8722:0{{errorMessage}}crwdne8722:0"
     },
+    "errorTitle": {
+        "message": "crwdns8777:0crwdne8777:0"
+    },
     "warningTitle": {
         "message": "crwdns5314:0crwdne5314:0"
     },
     "noticeTitle": {
         "message": "crwdns5315:0crwdne5315:0"
+    },
+    "operationNotSupported": {
+        "message": "crwdns8778:0crwdne8778:0"
+    },
+    "storageDeviceNotReady": {
+        "message": "crwdns8779:0crwdne8779:0"
     },
     "options_title": {
         "message": "crwdns5316:0crwdne5316:0"
@@ -579,8 +588,14 @@
     "initialSetupButtonRestore": {
         "message": "crwdns5485:0crwdne5485:0"
     },
+    "initialSetupButtonRebootBootloader": {
+        "message": "crwdns8780:0crwdne8780:0"
+    },
     "initialSetupBackupRestoreText": {
-        "message": "crwdns5486:0crwdne5486:0"
+        "message": "crwdns8781:0crwdne8781:0"
+    },
+    "initialSetupRebootBootloaderText": {
+        "message": "crwdns8782:0crwdne8782:0"
     },
     "initialSetupBackupSuccess": {
         "message": "crwdns5487:0crwdne5487:0"
@@ -3520,6 +3535,18 @@
     },
     "onboardLoggingOnboardSDCard": {
         "message": "crwdns6364:0crwdne6364:0"
+    },
+    "onboardLoggingMsc": {
+        "message": "crwdns8783:0crwdne8783:0"
+    },
+    "onboardLoggingMscNote": {
+        "message": "crwdns8784:0crwdne8784:0"
+    },
+    "onboardLoggingRebootMscText": {
+        "message": "crwdns8785:0crwdne8785:0"
+    },
+    "onboardLoggingMscNotReady": {
+        "message": "crwdns8786:0crwdne8786:0"
     },
     "dialogConfirmResetTitle": {
         "message": "crwdns6365:0crwdne6365:0"
