@@ -3257,7 +3257,7 @@
         "message": "Distância máxima registrada a partir da base"
     },
     "osdDescStatBlackboxLogNumber": {
-        "message": "Número do arquivo do registro da caixa preta"
+        "message": "Número do arquivo de log da caixa preta"
     },
     "osdDescStatTimer1": {
         "message": "Valor do cronômetro 1 ao desarmar"
