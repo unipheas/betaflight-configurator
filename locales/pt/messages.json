@@ -510,7 +510,7 @@
         "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Programadores do Betaflight no Slack<\/a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
-        "message": "<span class=\"message-negative\">Funcionalidades de Backup e restauração desativadas.<\/span>Seu firmware está na versão <span class=\"message-negative\">$1<\/span> da API, O Backup e restauração requer a versão <span class=\"message-positive\">$2<\/span>. Por favor realize uma cópia de segurança via CLI, veja a documentação do Betaflight para o procedimento."
+        "message": "<span class=\"message-negative\">Funcionalidades de Backup e restauração desativadas.<\/span>Seu firmware está na versão <span class=\"message-negative\">$1<\/span> da API, O Backup e restauração requer a versão <span class=\"message-positive\">$2<\/span>. Por favor realize uma cópia de segurança pela linha de comandos, veja a documentação do Betaflight para o procedimento."
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Calibrar Acelerômetro"
@@ -1143,7 +1143,7 @@
         "message": "Benewake LIDAR"
     },
     "pidTuningUpgradeFirmwareToChangePidController": {
-        "message": "<span class=\"message-negative\">Alterações no controlador PID desabilitado - você pode mudar isso no CLI.<\/span>  Seu firmware está com a API versão <span class=\"message-negative\">$1<\/span>, mas esta funcionalidade requer <span class=\"message-positive\">$2<\/span>."
+        "message": "<span class=\"message-negative\">Alterações no controlador PID desabilitado - você pode mudar isso na linha de comandos.<\/span>  Seu firmware está com a API versão <span class=\"message-negative\">$1<\/span>, mas esta funcionalidade requer <span class=\"message-positive\">$2<\/span>."
     },
     "pidTuningSubTabPid": {
         "message": "Configurar PID"
