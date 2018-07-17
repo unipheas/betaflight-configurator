@@ -452,9 +452,6 @@
     "initialSetupButtonRestore": {
         "message": "Przywróć kopię zapasową."
     },
-    "initialSetupBackupRestoreText": {
-        "message": "<strong>Zapisz kopię zapasową<\/strong> Twojej konfiguracji na wypadek problemów, Ustawienia <strong>CLI<\/strong> <span class=\"message-negative\">nie są<\/span> załączane - Zobać polecenie 'dump' w CLI."
-    },
     "initialSetupBackupSuccess": {
         "message": "Kopia zapasowa została <span class=\"message-positive\">zapisana<\/span>."
     },
