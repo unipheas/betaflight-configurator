@@ -2,11 +2,20 @@
     "error": {
         "message": "Erro: {{errorMessage}}"
     },
+    "errorTitle": {
+        "message": "Erro"
+    },
     "warningTitle": {
         "message": "Atenção"
     },
     "noticeTitle": {
         "message": "Aviso"
+    },
+    "operationNotSupported": {
+        "message": "Seu hardware não suporta esta operação."
+    },
+    "storageDeviceNotReady": {
+        "message": "O dispositivo de armazenamento não está pronto. Se utiliza um cartão microSD, tenha certeza de que foi reconhecido pelo controlador de voo."
     },
     "options_title": {
         "message": "Opções da aplicação"
@@ -538,6 +547,15 @@
     },
     "initialSetupButtonRestore": {
         "message": "Restaurar"
+    },
+    "initialSetupButtonRebootBootloader": {
+        "message": "Ativar Boot Loader \/ DFU"
+    },
+    "initialSetupBackupRestoreText": {
+        "message": "Faça um <strong>backup<\/strong> das configurações em caso de acidente, as configurações feitas pela <strong>Linha de comandos<\/strong> <span class=\"message-negative\">não<\/span> serão salvas - para isso, use o comando 'diff all' na linha de comandos."
+    },
+    "initialSetupRebootBootloaderText": {
+        "message": "Reiniciar no modo <strong>boot loader \/ DFU<\/strong>."
     },
     "initialSetupBackupSuccess": {
         "message": "Backup salvo com <span class=\"message-positive\">sucesso<\/span>"
@@ -3474,6 +3492,12 @@
     },
     "onboardLoggingOnboardSDCard": {
         "message": "Cartão SD a bordo"
+    },
+    "onboardLoggingMsc": {
+        "message": "Modo de armazenamento"
+    },
+    "onboardLoggingMscNote": {
+        "message": "Reiniciar no modo de <strong>armazenamento (MSC)<\/strong>. Uma vez ativado, o memória flash a bordo ou o cartão microSD no seu controlador de voo será detectado pelo seu computador como um dispositivo de armazenamento, permitindo que você descarregue seus arquivos de log. Remova com segurança e então desligue e ligue o controlador para sair do modo de armazenamento."
     },
     "dialogConfirmResetTitle": {
         "message": "Confirmar"
