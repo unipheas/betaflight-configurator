@@ -533,9 +533,6 @@
     "initialSetupButtonRestore": {
         "message": "Восстановить"
     },
-    "initialSetupBackupRestoreText": {
-        "message": "<strong>Сохранит<\/strong> вашу конфигурацию, но <span class=\"message-negative\">не сохранит<\/span> кастомные настройки, заданные в <strong>командной строке <\/strong>. Для сохранения всех данных нужно использовать команду \"dump\" в командной строке."
-    },
     "initialSetupBackupSuccess": {
         "message": "Конфигурация <span class=\"message-positive\">успешно<\/span> сохранена"
     },
