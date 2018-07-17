@@ -539,9 +539,6 @@
     "initialSetupButtonRestore": {
         "message": "Restaurar"
     },
-    "initialSetupBackupRestoreText": {
-        "message": "Realiza una <strong>copia de seguridad<\/strong> de tu configuración por si tienes problemas. La configuración del <strong>CLI<\/strong> <span class=\"message-negative\">no<\/span> está incluida en esta copia - Consulta el comando 'dump' del CLI"
-    },
     "initialSetupBackupSuccess": {
         "message": "Copia de seguridad guardada <span class=\"message-positive\">correctamente<\/span>"
     },
