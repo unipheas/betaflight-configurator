@@ -2,11 +2,20 @@
     "error": {
         "message": "Error: {{errorMessage}}"
     },
+    "errorTitle": {
+        "message": "Error"
+    },
     "warningTitle": {
         "message": "Advertencia"
     },
     "noticeTitle": {
         "message": "Aviso"
+    },
+    "operationNotSupported": {
+        "message": "Esta operación no es compatible con su hardware."
+    },
+    "storageDeviceNotReady": {
+        "message": "El dispositivo de almacenamiento no está listo. En el caso de una tarjeta microSD, asegúrate de que es reconocida correctamente por tu controlador de vuelo."
     },
     "options_title": {
         "message": "Opciones"
@@ -538,6 +547,15 @@
     },
     "initialSetupButtonRestore": {
         "message": "Restaurar"
+    },
+    "initialSetupButtonRebootBootloader": {
+        "message": "Activar Gestor de Arranque \/ DFU"
+    },
+    "initialSetupBackupRestoreText": {
+        "message": "Realiza una <strong>Copia de Seguridad<\/strong> de tu configuración por si tienes problemas. La configuración del <strong>CLI<\/strong> <span class=\"message-negative\">no<\/span> está incluida - usa el comando ' diff all' en CLI para esto."
+    },
+    "initialSetupRebootBootloaderText": {
+        "message": "Reinicia en modo <strong>gestor de arranque \/ DFU<\/strong>."
     },
     "initialSetupBackupSuccess": {
         "message": "Copia de seguridad guardada <span class=\"message-positive\">correctamente<\/span>"
@@ -3474,6 +3492,18 @@
     },
     "onboardLoggingOnboardSDCard": {
         "message": "Tarjeta SD de la controladora"
+    },
+    "onboardLoggingMsc": {
+        "message": "Modo de Almacenamiento Masivo"
+    },
+    "onboardLoggingMscNote": {
+        "message": "Reinicia en modo de <strong>dispositivo de almacenamiento masivo (MSC)<\/strong>. Una vez activado, la memoria integrada o la tarjeta SD de tu controlador de vuelo será reconocida como dispositivo de almacenamiento por tu ordenador, y te permitirá descargar tus archivos de registro. Expulsa y apaga y enciende de nuevo tu controlador de vuelo para abandonar el modo de dispositivo de almacenamiento masivo."
+    },
+    "onboardLoggingRebootMscText": {
+        "message": "Activar Modo de Dispositivo de Almacenamiento Masivo"
+    },
+    "onboardLoggingMscNotReady": {
+        "message": "El modo de almacenamiento masivo no puede ser activado porque el dispositivo de almacenamiento no está disponible."
     },
     "dialogConfirmResetTitle": {
         "message": "Confirmar"
