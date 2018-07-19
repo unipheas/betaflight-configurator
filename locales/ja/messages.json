@@ -2055,7 +2055,7 @@
         "message": "手動でダウンロードして下さい。"
     },
     "firmwareFlasherTargetWarning": {
-        "message": "<span class=\"message-negative\">重要:<\/span> チップセットに即したファームウェアを書込みするようにしてください。間違ったファームウェアを書込みさせると、<span class=\"message-negative\">最悪な問題<\/span>が起こってしまう可能性があります。"
+        "message": "<span class=\"message-negative\">重要:<\/span> チップセットに即したファームウェアを書込みするようにして下さい。間違ったファームウェアを書込みさせると、<span class=\"message-negative\">最悪な問題<\/span>が起こってしまう可能性があります。"
     },
     "firmwareFlasherPath": {
         "message": "パス:"
@@ -2070,7 +2070,7 @@
         "message": "進捗:"
     },
     "firmwareFlasherLoadFirmwareFile": {
-        "message": "ファームウェアファイルを選択してください"
+        "message": "ファームウェアファイルを選択して下さい"
     },
     "firmwareFlasherNoReboot": {
         "message": "再起動シーケンスなし"
@@ -2082,7 +2082,7 @@
         "message": "FCボードチップセットを選択すると、オンラインでファームウェアの確認ができます - 適切なファームウェアを選択して下さい。"
     },
     "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
-        "message": "FCボードのファームウェアバージョンを選択してください。"
+        "message": "FCボードのファームウェアバージョンを選択して下さい。"
     },
     "firmwareFlasherNoRebootDescription": {
         "message": "FCがBOOTモードの場合に有効とします。具体的にはブートローダーのピンをジャンパさせたり、BOOTボタンを押しながらFCの電源を入れた場合に有効とします。"
@@ -2145,7 +2145,7 @@
         "message": "ファームウェア \/ ボードを選択"
     },
     "firmwareFlasherOptionLabelSelectBoard": {
-        "message": "FCボードを選択してください"
+        "message": "FCボードを選択して下さい"
     },
     "firmwareFlasherOptionLabelSelectFirmwareVersion": {
         "message": "ファームウェアバージョンを選択"
@@ -2184,13 +2184,13 @@
         "message": "メッセージ:"
     },
     "firmwareFlasherWarningText": {
-        "message": "このファームフラッシャーで<strong>Betaflight以外<\/strong>のフラッシュイメージを<span class=\"message-negative\">書換えないで<\/span>ください。<br \/>書換えをしている間はボードを<strong>取り外したり<\/strong>、コンピュータの<strong>電源を切ったり<\/strong><span class=\"message-negative\">しないで<\/span>ください。<br \/><br \/><strong>注:<\/strong> \n STM32ブートローダーはROMに格納されており、別途生成や改修はできません。<br \/><strong>注:<\/strong> ファームフラッシャーモードの間は、<span class=\"message-negative\">自動接続<\/span>は常に無効になっています。<br \/><strong>注:<\/strong> バックアップがあることを確認してください。アップグレード \/ ダウングレードでいくつかの設定が消去される場合があります。<br \/><strong>注:<\/strong> 書換えに問題がある場合は、<strong>FCから全てのケーブルを取り外し<\/strong>最初に再起動を行い、Chromeの最新アップグレード、ドライバのアップグレードをお試しください。<br \/><strong>注:<\/strong> (大部分の最新FCボードに) 直接USBソケットを搭載しているFCボードに対してファームウェアを書換えるときは、Betaflightマニュアルの [USB Flashing] 章を読み、正しいソフトウェアとドライバをインストールしてください。"
+        "message": "このファームフラッシャーで<strong>Betaflight以外<\/strong>のフラッシュイメージを<span class=\"message-negative\">書換えないで<\/span>下さい。<br \/>書換えをしている間はボードを<strong>取り外したり<\/strong>、コンピュータの<strong>電源を切ったり<\/strong><span class=\"message-negative\">しないで<\/span>下さい。<br \/><br \/><strong>注:<\/strong> \n STM32ブートローダーはROMに格納されており、別途生成や改修はできません。<br \/><strong>注:<\/strong> ファームフラッシャーモードの間は、<span class=\"message-negative\">自動接続<\/span>は常に無効になっています。<br \/><strong>注:<\/strong> バックアップがあることを確認して下さい。アップグレード \/ ダウングレードでいくつかの設定が消去される場合があります。<br \/><strong>注:<\/strong> 書換えに問題がある場合は、<strong>FCから全てのケーブルを取り外し<\/strong>最初に再起動を行い、Chromeの最新アップグレード、ドライバのアップグレードをお試し下さい。<br \/><strong>注:<\/strong> (大部分の最新FCボードに) 直接USBソケットを搭載しているFCボードに対してファームウェアを書換えるときは、Betaflightマニュアルの [USB Flashing] 章を読み、正しいソフトウェアとドライバをインストールして下さい。"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>リカバリー \/ 通信ロスト<\/strong>"
     },
     "firmwareFlasherRecoveryText": {
-        "message": "FCボードとの通信が切断された場合は、次の手順に従って通信を復元してください: <ul><li>電源をオフします。<\/li><li>[再起動シーケンスなし] を有効にし [チップメモリの完全消去] を有効にします。<\/li><li>BOOTピンをジャンパするか、またはBOOTボタンを押し続けます。<\/li><li>電源をオンします。 (正しく行われればアクティビティLEDは点滅しません) <\/li><li>必要に応じて、全てのSTM32ドライバとZadigをインストールします。 (Betaflightマニュアルの [<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a>] 章を参照) <\/li><li>Configuratorを閉じ、全てのChromeアプリケーションを終了し、Configuratorを再起動します。<\/li><li>FCのBOOTボタン1つだけであれば、BOOTボタンを放してください。<\/li><li>正常なファームウェアをフラッシュしてください。 (FCのマニュアルで指定されている場合は手動で伝送速度を調整してください) <\/li><li>電源をオフします。<\/li><li>BOOTピンのジャンパを取り外します。<\/li><li>電源をオンします。 (アクティビティLEDが点滅するはずです) <\/li><li>再度、通常通り接続してください。<\/li><\/ul>"
+        "message": "FCボードとの通信が切断された場合は、次の手順に従って通信を復元して下さい: <ul><li>電源をオフします。<\/li><li>[再起動シーケンスなし] を有効にし [チップメモリの完全消去] を有効にします。<\/li><li>BOOTピンをジャンパするか、またはBOOTボタンを押し続けます。<\/li><li>電源をオンします。 (正しく行われればアクティビティLEDは点滅しません) <\/li><li>必要に応じて、全てのSTM32ドライバとZadigをインストールします。 (Betaflightマニュアルの [<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a>] 章を参照) <\/li><li>Configuratorを閉じ、全てのChromeアプリケーションを終了し、Configuratorを再起動します。<\/li><li>FCのBOOTボタン1つだけであれば、BOOTボタンを放して下さい。<\/li><li>正常なファームウェアをフラッシュして下さい。 (FCのマニュアルで指定されている場合は手動で伝送速度を調整して下さい) <\/li><li>電源をオフします。<\/li><li>BOOTピンのジャンパを取り外します。<\/li><li>電源をオンします。 (アクティビティLEDが点滅するはずです) <\/li><li>再度、通常通り接続して下さい。<\/li><\/ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "ファームフラッシャーより退避"
@@ -2654,7 +2654,7 @@
         "message": "Vbat PID補正"
     },
     "pidTuningVbatPidCompensationHelp": {
-        "message": "Vbatが低下したとき、それを補正するためPID値を増加させます。 これにより、飛行中にさらに一定の飛行特性を与えられます。 適用される補正量は、 $t(tabPower.message) ページで設定された $t(powerBatteryMaximum.message) から計算されるため、適切な値に設定されていることを確認してください。"
+        "message": "Vbatが低下したとき、それを補正するためPID値を増加させます。 これにより、飛行中にさらに一定の飛行特性を与えられます。 適用される補正量は、 $t(tabPower.message) ページで設定された $t(powerBatteryMaximum.message) から計算されるため、適切な値に設定されていることを確認して下さい。"
     },
     "configHelp2": {
         "message": "横向き \/ 下向き \/ 任意な回転による取付けが可能なFCボードの回転角度です。外部センサーを使用する場合は、センサーのアライメント (Gyro、Accel、コンパス) を使用して、ボードの向きから独立したセンサー位置を定義します。 "
@@ -3353,7 +3353,7 @@
         "message": "ESC \/ モータープロトコル"
     },
     "configurationEscProtocolHelp": {
-        "message": "モータープロトコルを選択してください。<br>プロトコルがESCによってサポートされていることを確認して下さい。この情報はメーカーのWebサイトを確認して下さい。<br> <b>DSHOT900とDSHOT1200は、現在それほど多くのESCをサポートしていないため、使用の際はご注意下さい！<\/b>"
+        "message": "モータープロトコルを選択して下さい。<br>プロトコルがESCによってサポートされていることを確認して下さい。この情報はメーカーのWebサイトを確認して下さい。<br> <b>DSHOT900とDSHOT1200は、現在それほど多くのESCをサポートしていないため、使用の際はご注意下さい！<\/b>"
     },
     "configurationunsyndePwm": {
         "message": "PIDからモーターPWMを分離"
@@ -3461,7 +3461,7 @@
         "message": "<b>Proportional [比例制御]:<\/b> マルチローターを飛行させた際の現在のエラー量に比例し、出力を制御するパラメータですが、値を高くすると非常に強い抵抗力も出てしまいます。<br><b>Integral [積分制御]:<\/b> P値が出す補正値を修正します。初期位置を保持し、ドリフトの低減効果を高めますが、値を高くした場合、機体の傾きが初期位置へ戻る際の遅延も増加させてしまいます。<br><b>Derivative [微分制御]:<\/b> P値、I値が出す補正値で修正できない場合、未来予測を含めて補正します。急激な挙動の追従をする際の偏差として値を高くした場合、偏差回復の速度は向上しますが、ノイズは増加してしまいます。<br><b>レート・Expo:<\/b> これらのパラメータに基づいて、スティックのフィーリングを決定します。グラフとLive 3Dモデルを使用して、お気に入りのレート設定を見つけましょう。"
     },
     "pidTuningRatesTip": {
-        "message": "レートを調整し、スティックカーブに対しどのように影響するかを確認してください"
+        "message": "レートを調整し、スティックカーブに対しどのように影響するかを確認して下さい"
     },
     "configurationCamera": {
         "message": "カメラ"
