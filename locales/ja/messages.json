@@ -2,11 +2,17 @@
     "error": {
         "message": "エラー: {{errorMessage}}"
     },
+    "errorTitle": {
+        "message": "エラー"
+    },
     "warningTitle": {
         "message": "警告"
     },
     "noticeTitle": {
         "message": "通知"
+    },
+    "operationNotSupported": {
+        "message": "この機能はお使いのハードウェアではサポートされていません。"
     },
     "options_title": {
         "message": "オプション設定"
@@ -538,6 +544,9 @@
     },
     "initialSetupButtonRestore": {
         "message": "リストア"
+    },
+    "initialSetupButtonRebootBootloader": {
+        "message": "ブートローダー \/ DFU を有効化"
     },
     "initialSetupBackupSuccess": {
         "message": "バックアップが<span class=\"message-positive\">正常<\/span>に保存されました"
