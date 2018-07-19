@@ -1029,7 +1029,7 @@
         "message": "サイクル \/ 秒 [Hz]"
     },
     "configurationLoopTimeHelp": {
-        "message": "<strong>注:<\/strong> FCがこの速度で動作するか確認して下さい！CPUとサイクル時間の安定度を確認ください。この変更はPID再調整が必要かもしれません。TIP: パフォーマンスを上げるためには加速度センサーや他のセンサーを無効にします。"
+        "message": "<strong>注意:<\/strong>FCがこの速度で動作するか確認して下さい！CPUとサイクル時間の安定度を確認して下さい。この変更はPIDの再調整を必要とするかもしれません。TIP: パフォーマンスを上げるためには加速度センサや他センサを無効にします。"
     },
     "configurationGPS": {
         "message": "GPS"
@@ -1224,7 +1224,7 @@
         "message": "このパラメータは、D値におけるスティック加速効果を決定します。<br> 0の値はD値がジャイロのみを追従した古い測定方式、1の値はジャイロとスティック操作範囲を追従した古いエラー検出方式と同一です。<br>低い値は、ゆっくり \/ スムースなスティックレスポンスに、高い値はスティック加速レスポンスとなります。<br>RC補間は、制御キックバックノイズを発生しないよう高めの値にすることを推奨します。"
     },
     "pidTuningDtermSetpointTransitionWarning": {
-        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong> 0より大きく0.1より小さいD値セットポイントの設定はしないでください。スティックが中心を横切るときに不安定となり、スティック応答性が低下する可能性があります。<\/span>"
+        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong> 0より大きく0.1より小さいD値セットポイントの設定はしないで下さい。スティックが中心を横切るときに不安定となり、スティック応答性が低下する可能性があります。<\/span>"
     },
     "pidTuningProportional": {
         "message": "Proportional"
@@ -2223,7 +2223,7 @@
         "message": "検出: <strong>$1<\/strong> - 接続時フラッシュをトリガーとします"
     },
     "firmwareFlasherPreviousDevice": {
-        "message": "検出: <strong>$1<\/strong> - 以前のデバイスがまだ書込まれています。再接続してもう一度お試しください。"
+        "message": "検出: <strong>$1<\/strong> - 以前のデバイスがまだ書込まれています。再接続してもう一度お試し下さい。"
     },
     "ledStripHelp": {
         "message": "フライトコントローラは、個々のLEDストリップの色や効果を制御できます。<br\/>グリッド上にLEDを配置、配線順序を設定し、グリッド位置に従って機体にLEDを取り付けます。 ワイヤーオーダー番号のないLEDは保存されません。<br \/>HSV値を編集するには、色を選択、ダブルクリックします。"
@@ -2582,7 +2582,7 @@
         "message": "感度"
     },
     "pidTuningLevelHelp": {
-        "message": "以下の値は、アングルとホライゾンの飛行モードの動作を変更します。それぞれのPIDコントローラは異なる値を処理します。 ドキュメントを確認してください。"
+        "message": "以下の値は、アングルとホライゾンの飛行モードの動作を変更します。それぞれのPIDコントローラは異なる値を処理します。 ドキュメントを確認して下さい。"
     },
     "pidTuningNonProfileFilterSettings": {
         "message": "Profile毎のPID制御設定"
@@ -2660,7 +2660,7 @@
         "message": "横向き \/ 下向き \/ 任意な回転による取付けが可能なFCボードの回転角度です。外部センサーを使用する場合は、センサーのアライメント (Gyro、Accel、コンパス) を使用して、ボードの向きから独立したセンサー位置を定義します。 "
     },
     "failsafeFeaturesHelpOld": {
-        "message": "フェイルセーフ設定が大幅に変更されました。 改善された設定パネルを有効にするには、Betaflight <strong>v1.12.0 以上<\/strong> を使用してください。"
+        "message": "フェイルセーフ設定が大幅に変更されました。 改善された設定パネルを有効にするには、Betaflight <strong>v1.12.0 以上<\/strong> を使用して下さい。"
     },
     "failsafePaneTitleOld": {
         "message": "受信機フェイルセーフ"
@@ -3038,7 +3038,7 @@
         "message": "緑・白・黒色ピクセルで構成しなければなりません"
     },
     "osdSetupCustomLogoInfoUploadHint": {
-        "message": "<b>$t(osdSetupUploadFont.message)<\/b> をクリックしカスタムロゴを保存してください"
+        "message": "<b>$t(osdSetupUploadFont.message)<\/b> をクリックしカスタムロゴを保存して下さい"
     },
     "osdSetupCustomLogoImageSizeError": {
         "message": "画像サイズが無効: {{width}}×{{height}} (既定サイズ $t(logoWidthPx)×$t(logoHeightPx))"
@@ -3314,7 +3314,7 @@
         "message": "OSDを有効、または無効にします。"
     },
     "osdSectionHelpVideoMode": {
-        "message": "カメラのビデオモードを設定します。(通常、カメラの出力形式と一致するように設定するのが難しい場合は自動のままとしてください)"
+        "message": "カメラのビデオモードを設定します。(通常、カメラの出力形式と一致するように設定するのが難しい場合は自動のままとして下さい。)"
     },
     "osdSectionHelpUnits": {
         "message": "数値に対する単位を設定します。"
@@ -3353,7 +3353,7 @@
         "message": "ESC \/ モータープロトコル"
     },
     "configurationEscProtocolHelp": {
-        "message": "モータープロトコルを選択してください。<br>プロトコルがESCによってサポートされていることを確認してください。この情報はメーカーのWebサイトを確認してください。<br> <b>DSHOT900とDSHOT1200は、現在それほど多くのESCをサポートしていないため、使用の際はご注意ください！<\/b>"
+        "message": "モータープロトコルを選択してください。<br>プロトコルがESCによってサポートされていることを確認して下さい。この情報はメーカーのWebサイトを確認して下さい。<br> <b>DSHOT900とDSHOT1200は、現在それほど多くのESCをサポートしていないため、使用の際はご注意下さい！<\/b>"
     },
     "configurationunsyndePwm": {
         "message": "PIDからモーターPWMを分離"
@@ -3374,7 +3374,7 @@
         "message": "ジャイロ 32KHz サンプリングモード有効"
     },
     "configurationGyroUse32kHzHelp": {
-        "message": "ジャイロチップがサポートしている場合のみ、ジャイロ アップデート周波数 32KHz の選択が可能です。(現在MPU6500、MPU9250、およびSPI経由で接続されている場合はICM20xxx) 不明な場合は、FCボードの仕様書を参照してください。"
+        "message": "ジャイロチップがサポートしている場合のみ、ジャイロ アップデート周波数 32KHz の選択が可能です。(現在MPU6500、MPU9250、およびSPI経由で接続されている場合はICM20xxx) 不明な場合は、FCボードの仕様書を参照して下さい。"
     },
     "configurationAccHardware": {
         "message": "加速度センサー"
@@ -3488,7 +3488,7 @@
         "message": "オンボード データチップ"
     },
     "onboardLoggingEraseInProgress": {
-        "message": "消去中、しばらくお待ちください..."
+        "message": "消去中、しばらくお待ち下さい..."
     },
     "onboardLoggingOnboardSDCard": {
         "message": "オンボードSDカード"
