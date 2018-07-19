@@ -14,6 +14,9 @@
     "operationNotSupported": {
         "message": "この機能はお使いのハードウェアではサポートされていません。"
     },
+    "storageDeviceNotReady": {
+        "message": "ストレージデバイスの準備ができていません。microSDカードを利用する場合は、FCボード側が正常に認識しているかを確認して下さい。"
+    },
     "options_title": {
         "message": "オプション設定"
     },
@@ -110,7 +113,7 @@
         "message": "未検証バージョンの更新通知を表示"
     },
     "configuratorUpdateNotice": {
-        "message": "お使いの<b>Betaflight Configurator<\/b>は旧バージョンです。<br>Version <b>$1<\/b> が利用可能です。 <a href=\"$2\" target=\"_blank\">リリースページ<\/a>から修正・機能向上した最新版をダウンロードしてインストールして下さい。<br>注: 更新する前にConfiguratorを閉じて下さい。"
+        "message": "お使いの<b>Betaflight Configurator<\/b>は旧バージョンです。<br>Version <b>$1<\/b> が利用可能です。<a href=\"$2\" target=\"_blank\">リリースページ<\/a>から修正・機能向上した最新版をダウンロードしてインストールして下さい。<br>注: 更新する前にConfiguratorを閉じて下さい。"
     },
     "configuratorUpdateWebsite": {
         "message": "リリースサイトに移動"
@@ -516,7 +519,7 @@
         "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Betaflight devs on slack<\/a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
-        "message": "<span class=\"message-negative\">バックアップと復元の機能が無効です。<\/span>ファームウェアのAPIバージョンは<span class=\"message-negative\">$1<\/span>ですが、バックアップと復元には<span class=\"message-positive\">$2<\/span>が必要です。バックアップにはCLIをお使いください。方法についてはBetaflightドキュメントを参照して下さい。"
+        "message": "<span class=\"message-negative\">バックアップと復元の機能が無効です。<\/span>ファームウェアのAPIバージョンは<span class=\"message-negative\">$1<\/span>ですが、バックアップと復元には<span class=\"message-positive\">$2<\/span>が必要です。バックアップにはCLIをご利用下さい。方法についてはBetaflightドキュメントを参照して下さい。"
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "水平 キャリブレーション"
@@ -711,7 +714,7 @@
         "message": "ナビゲーションとテレメトリー用のGPS"
     },
     "featureGPSTip": {
-        "message": "最初にポートの設定をしてください"
+        "message": "最初にポートの設定をして下さい"
     },
     "featureSONAR": {
         "message": "ソナー 超音波距離センサー"
@@ -747,7 +750,7 @@
         "message": "ONESHOT ESCサポート"
     },
     "featureONESHOT125Tip": {
-        "message": "この機能を有効にする前に、必ずバッテリーとプロペラを外してください！"
+        "message": "この機能を有効にする前に、必ずバッテリーとプロペラを外して下さい。"
     },
     "featureBLACKBOX": {
         "message": "ブラックボックス フライトデータレコーダー"
