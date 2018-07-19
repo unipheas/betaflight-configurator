@@ -548,6 +548,9 @@
     "initialSetupButtonRebootBootloader": {
         "message": "ブートローダー \/ DFU を有効化"
     },
+    "initialSetupRebootBootloaderText": {
+        "message": "<strong>ブートローダー \/ DFU<\/strong> モードで再起動します。"
+    },
     "initialSetupBackupSuccess": {
         "message": "バックアップが<span class=\"message-positive\">正常<\/span>に保存されました"
     },
@@ -3483,6 +3486,9 @@
     },
     "onboardLoggingOnboardSDCard": {
         "message": "オンボードSDカード"
+    },
+    "onboardLoggingMsc": {
+        "message": "大容量記憶モード"
     },
     "dialogConfirmResetTitle": {
         "message": "確定"
