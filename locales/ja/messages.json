@@ -3488,7 +3488,13 @@
         "message": "オンボードSDカード"
     },
     "onboardLoggingMsc": {
-        "message": "大容量記憶モード"
+        "message": "大容量ストレージモード"
+    },
+    "onboardLoggingRebootMscText": {
+        "message": "大容量ストレージモードを有効化"
+    },
+    "onboardLoggingMscNotReady": {
+        "message": "ストレージデバイスが準備ができていないため、大容量ストレージモードを有効化できません。"
     },
     "dialogConfirmResetTitle": {
         "message": "確定"
