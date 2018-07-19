@@ -548,6 +548,9 @@
     "initialSetupButtonRebootBootloader": {
         "message": "ブートローダー \/ DFU を有効化"
     },
+    "initialSetupBackupRestoreText": {
+        "message": "不測の事態に備え必ず設定の<strong>バックアップ<\/strong>を行って下さい。<strong>CLI<\/strong>設定は<span class=\"message-negative\">自動バックアップされません<\/span>。- CLIコマンドの [diff all] をご利用下さい。"
+    },
     "initialSetupRebootBootloaderText": {
         "message": "<strong>ブートローダー \/ DFU<\/strong> モードで再起動します。"
     },
@@ -3489,6 +3492,9 @@
     },
     "onboardLoggingMsc": {
         "message": "大容量ストレージモード"
+    },
+    "onboardLoggingMscNote": {
+        "message": "<strong>大容量ストレージ (MSC)<\/strong> モードで再起動します。有効にするとFCボードのオンボードフラッシュ領域、またはSDカードがPCのストレージデバイスとして認識され、ログファイルのダウンロードが可能となります。大容量ストレージモードを終了するには、FCボードを切り離し再起動を行います。"
     },
     "onboardLoggingRebootMscText": {
         "message": "大容量ストレージモードを有効化"
