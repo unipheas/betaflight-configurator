@@ -15,7 +15,7 @@
         "message": "Esta operación no es compatible con su hardware."
     },
     "storageDeviceNotReady": {
-        "message": "El dispositivo de almacenamiento no está listo. En el caso de una tarjeta microSD, asegúrate de que es reconocida correctamente por tu controlador de vuelo."
+        "message": "El dispositivo de almacenamiento no está listo. En el caso de una tarjeta MicroSD, asegúrate de que es reconocida correctamente por tu controlador de vuelo."
     },
     "options_title": {
         "message": "Opciones"
