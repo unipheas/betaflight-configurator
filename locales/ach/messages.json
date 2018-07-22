@@ -2699,6 +2699,66 @@
     "pidTuningVbatPidCompensationHelp": {
         "message": "crwdns8724:0$t(powerBatteryMaximum.message)crwdnd8724:0$t(tabPower.message)crwdne8724:0"
     },
+    "pidTuningItermRotation": {
+        "message": "crwdns8787:0crwdne8787:0"
+    },
+    "pidTuningItermRotationHelp": {
+        "message": "crwdns8788:0crwdne8788:0"
+    },
+    "pidTuningSmartFeedforward": {
+        "message": "crwdns8789:0crwdne8789:0"
+    },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "crwdns8790:0crwdne8790:0"
+    },
+    "pidTuningItermRelax": {
+        "message": "crwdns8791:0crwdne8791:0"
+    },
+    "pidTuningItermRelaxHelp": {
+        "message": "crwdns8792:0crwdne8792:0"
+    },
+    "pidTuningItermRelaxAxes": {
+        "message": "crwdns8793:0crwdne8793:0"
+    },
+    "pidTuningItermRelaxAxesOptionRP": {
+        "message": "crwdns8794:0crwdne8794:0"
+    },
+    "pidTuningItermRelaxAxesOptionRPY": {
+        "message": "crwdns8795:0crwdne8795:0"
+    },
+    "pidTuningItermRelaxAxesOptionRPInc": {
+        "message": "crwdns8796:0crwdne8796:0"
+    },
+    "pidTuningItermRelaxAxesOptionRPYInc": {
+        "message": "crwdns8797:0crwdne8797:0"
+    },
+    "pidTuningItermRelaxType": {
+        "message": "crwdns8798:0crwdne8798:0"
+    },
+    "pidTuningItermRelaxTypeOptionGyro": {
+        "message": "crwdns8799:0crwdne8799:0"
+    },
+    "pidTuningItermRelaxTypeOptionSetpoint": {
+        "message": "crwdns8800:0crwdne8800:0"
+    },
+    "pidTuningAbsoluteControlGain": {
+        "message": "crwdns8801:0crwdne8801:0"
+    },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "crwdns8802:0crwdne8802:0"
+    },
+    "pidTuningThrottleBoost": {
+        "message": "crwdns8803:0crwdne8803:0"
+    },
+    "pidTuningThrottleBoostHelp": {
+        "message": "crwdns8804:0crwdne8804:0"
+    },
+    "pidTuningAcroTrainerAngleLimit": {
+        "message": "crwdns8805:0crwdne8805:0"
+    },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "crwdns8806:0crwdne8806:0"
+    },
     "configHelp2": {
         "message": "crwdns6105:0crwdne6105:0"
     },
