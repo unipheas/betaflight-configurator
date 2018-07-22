@@ -1254,6 +1254,12 @@
     "receiverRcInterpolationInterval": {
         "message": "crwdns5695:0[ms]crwdne5695:0"
     },
+    "pidTuningFeedforwardTransition": {
+        "message": "crwdns8807:0crwdne8807:0"
+    },
+    "pidTuningFeedforwardTransitionHelp": {
+        "message": "crwdns8808:0crwdne8808:0"
+    },
     "pidTuningDtermSetpointTransition": {
         "message": "crwdns5696:0crwdne5696:0"
     },
@@ -1277,6 +1283,9 @@
     },
     "pidTuningDerivative": {
         "message": "crwdns5702:0crwdne5702:0"
+    },
+    "pidTuningFeedforward": {
+        "message": "crwdns8809:0crwdne8809:0"
     },
     "pidTuningRcRate": {
         "message": "crwdns5703:0crwdne5703:0"
@@ -1602,14 +1611,29 @@
     "adjustmentsFunction22": {
         "message": "crwdns5806:0crwdne5806:0"
     },
+    "adjustmentsFunction22_2": {
+        "message": "crwdns8810:0crwdne8810:0"
+    },
     "adjustmentsFunction23": {
         "message": "crwdns5807:0crwdne5807:0"
+    },
+    "adjustmentsFunction23_2": {
+        "message": "crwdns8811:0crwdne8811:0"
     },
     "adjustmentsFunction24": {
         "message": "crwdns5808:0crwdne5808:0"
     },
     "adjustmentsFunction25": {
         "message": "crwdns8771:0crwdne8771:0"
+    },
+    "adjustmentsFunction26": {
+        "message": "crwdns8812:0crwdne8812:0"
+    },
+    "adjustmentsFunction27": {
+        "message": "crwdns8813:0crwdne8813:0"
+    },
+    "adjustmentsFunction28": {
+        "message": "crwdns8814:0crwdne8814:0"
     },
     "adjustmentsSave": {
         "message": "crwdns5809:0crwdne5809:0"
