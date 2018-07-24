@@ -53,6 +53,9 @@
     "permanentExpertMode": {
         "message": "전문가 모드 영구 활성"
     },
+    "rememberLastTab": {
+        "message": "연결시 마지막 탭 다시 열기"
+    },
     "userLanguageSelect": {
         "message": "언어 (변경 사항을 적용하려면 어플리케이션을 다시 시작해야 함)"
     },
@@ -1211,6 +1214,12 @@
     "receiverRcInterpolationInterval": {
         "message": "RC 신호보간 간격 [ms]"
     },
+    "pidTuningFeedforwardTransition": {
+        "message": "피드포워드 전환"
+    },
+    "pidTuningFeedforwardTransitionHelp": {
+        "message": "이 파라미터를 사용하면, 피드포워드 항목이 스틱의 중립 근처에서 감소하여 플립과 롤이 부드럽게 끝납니다.<br> 값은 스틱의 편향을 나타냅니다: 0 - 스틱 중립, 1 - 전체 편향. 스틱이 그 지점보다 높을 때, 피드포워드는 설정된 값으로 일정하게 유지됩니다. 스틱이 그 지점 아래에 위치하면, 피드포워드는 스틱 중심점에서 0에 도달하는 것에 비례하여 감소합니다.<br> 값 1은 최대 스무딩 효과를 주며, 값 0은 피드포워드를 전체 스틱 범위에 걸쳐 설정된 값으로 고정합니다."
+    },
     "pidTuningDtermSetpointTransition": {
         "message": "D 설정점 전환"
     },
@@ -1234,6 +1243,9 @@
     },
     "pidTuningDerivative": {
         "message": "D(미분)"
+    },
+    "pidTuningFeedforward": {
+        "message": "피드포워드"
     },
     "pidTuningRcRate": {
         "message": "RC 레이트"
@@ -1559,14 +1571,29 @@
     "adjustmentsFunction22": {
         "message": "D 설정점"
     },
+    "adjustmentsFunction22_2": {
+        "message": "피치 & 롤 F 조정"
+    },
     "adjustmentsFunction23": {
         "message": "D 설정점 전환"
+    },
+    "adjustmentsFunction23_2": {
+        "message": "피드포워드 전환"
     },
     "adjustmentsFunction24": {
         "message": "호리즌 강도 조정"
     },
     "adjustmentsFunction25": {
         "message": "PID-오디오 선택"
+    },
+    "adjustmentsFunction26": {
+        "message": "피치 F 조정"
+    },
+    "adjustmentsFunction27": {
+        "message": "롤 F 조정"
+    },
+    "adjustmentsFunction28": {
+        "message": "요 F 조정"
     },
     "adjustmentsSave": {
         "message": "저장"
@@ -2655,6 +2682,66 @@
     },
     "pidTuningVbatPidCompensationHelp": {
         "message": "Vbat이 낮아질 때 이를 보충하기 위해 PID 값을 증가시킵니다. 이것은 비행 내내 보다 일정한 비행 특성을 줄 것입니다. 적용되는 보정량은 $t(tabPower.message) 페이지에서 설정된 $t(powerBatteryMaximum.message)에서 계산되므로 적절한 값으로 설정되어 있는지 확인하십시오."
+    },
+    "pidTuningItermRotation": {
+        "message": "I 텀 회전"
+    },
+    "pidTuningItermRotationHelp": {
+        "message": "롤 도중 연속적으로 흔들리거나 퍼널(깔대기)과 다른 기술을 실행할 때 쿼드가 회전하면서 현재 I 텀 벡터를 다른 축으로 적절하게 회전시킵니다. LOS 아크로 파일럿에 의해 인정받았습니다."
+    },
+    "pidTuningSmartFeedforward": {
+        "message": "스마트 피드포워드"
+    },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "PIDF에서 F 텀의 효과를 감소시킵니다. P 텀과 F 텀이 동시에 활성화되면, D를 올릴 필요 없이 오버 슈트를 방지하면서 둘 중 더 큰 것만 사용합니다. 또한 P에 추가하면 F 텀에 의해 생성되는 반응 효과도 감소합니다."
+    },
+    "pidTuningItermRelax": {
+        "message": "I 텀 릴렉스"
+    },
+    "pidTuningItermRelaxHelp": {
+        "message": "빠른 움직임이 일어날 때 I 텀의 축적을 제한합니다. 이것은 특히 롤의 끝과 다른 빠른 움직임에서 바운스백을 줄이는 데 도움이 됩니다. 이 기능이 활성화된 축을 선택할 수 있으며, 자이로 또는 설정점(스틱)을 사용하여 빠른 이동을 감지할 수 있습니다."
+    },
+    "pidTuningItermRelaxAxes": {
+        "message": "축:"
+    },
+    "pidTuningItermRelaxAxesOptionRP": {
+        "message": "RP"
+    },
+    "pidTuningItermRelaxAxesOptionRPY": {
+        "message": "RPY"
+    },
+    "pidTuningItermRelaxAxesOptionRPInc": {
+        "message": "RP (증가만)"
+    },
+    "pidTuningItermRelaxAxesOptionRPYInc": {
+        "message": "RPY (증가만)"
+    },
+    "pidTuningItermRelaxType": {
+        "message": "유형:"
+    },
+    "pidTuningItermRelaxTypeOptionGyro": {
+        "message": "자이로"
+    },
+    "pidTuningItermRelaxTypeOptionSetpoint": {
+        "message": "설정점"
+    },
+    "pidTuningAbsoluteControlGain": {
+        "message": "절대 제어"
+    },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "이 기능은 I 텀 회전의 몇가지 근본적인 문제를 해결하고 어느 시점에 이를 대체할 수 있을 것입니다. 이 기능은 쿼드 좌표에 절대 자이로 오류를 누적시키고 설정점에 비례 보정을 혼합합니다. RPY에 Item_relax를 활성화해야 합니다."
+    },
+    "pidTuningThrottleBoost": {
+        "message": "스로틀 부스트"
+    },
+    "pidTuningThrottleBoostHelp": {
+        "message": "이 기능을 사용하면 스로틀을 일시적으로 거꾸로 상승시켜 모터에 대한 가속 토크를 높일 수 있으므로 훨씬 더 빠른 스로틀 반응을 제공합니다."
+    },
+    "pidTuningAcroTrainerAngleLimit": {
+        "message": "아크로 트레이너 앵글 제한"
+    },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "아크로 모드에서 비행을 배우는 파일럿들을 위해 새로운 각도 제한 모드를 추가합니다. 유효한 범위는 10-80도입니다 (값이 0이면 비활성화됨)."
     },
     "configHelp2": {
         "message": "옆면 \/ 아래로 \/ 회전 등으로 장착 할 수 있는 임의의 보드 회전 각도(°). 외부 센서를 작동할 때 센서 정렬(자이로, 가속도계, 자력계)을 사용하여 보드 방향과 상관없이 센서 위치를 정의합니다."
