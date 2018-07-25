@@ -2,11 +2,20 @@
     "error": {
         "message": "Errore: {{errorMessage}}"
     },
+    "errorTitle": {
+        "message": "Errore"
+    },
     "warningTitle": {
         "message": "Attenzione"
     },
     "noticeTitle": {
         "message": "Avviso"
+    },
+    "operationNotSupported": {
+        "message": "Questa operazione non è supportata dal tuo hardware."
+    },
+    "storageDeviceNotReady": {
+        "message": "La memoria di archiviazione non è pronta. In caso di microSD card, assicurati che sia riconosciuta correttamente dal tuo flight controller."
     },
     "options_title": {
         "message": "Opzioni applicazione"
@@ -532,6 +541,9 @@
     },
     "initialSetupButtonRestore": {
         "message": "Ripristina"
+    },
+    "initialSetupButtonRebootBootloader": {
+        "message": "Attiva Boot Loader \/ DFU"
     },
     "initialSetupBackupSuccess": {
         "message": "Backup salvato <span class=\"message-positive\">correttamente<\/span>"
@@ -3462,6 +3474,12 @@
     },
     "onboardLoggingOnboardSDCard": {
         "message": "Scheda SD Onboard"
+    },
+    "onboardLoggingRebootMscText": {
+        "message": "Attiva modalità periferica di archiviazione di massa"
+    },
+    "onboardLoggingMscNotReady": {
+        "message": "La modalità di archiviazione di massa non può essere attivata perché la periferica di archiviazione non è pronta."
     },
     "dialogConfirmResetTitle": {
         "message": "Conferma"
