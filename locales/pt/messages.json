@@ -53,6 +53,9 @@
     "permanentExpertMode": {
         "message": "Sempre usar o modo avançado"
     },
+    "rememberLastTab": {
+        "message": "Continuar de onde parou ao conectar"
+    },
     "userLanguageSelect": {
         "message": "Idioma (necessário reiniciar a aplicação para que as alterações surtam efeito)"
     },
@@ -1211,6 +1214,12 @@
     "receiverRcInterpolationInterval": {
         "message": "Intervalo de Interpolação RC [ms]"
     },
+    "pidTuningFeedforwardTransition": {
+        "message": "Transição do Feedforward"
+    },
+    "pidTuningFeedforwardTransitionHelp": {
+        "message": "Com este parâmetro, o termo Feedforward pode ser reduzido próximo ao centro dos sticks, isto faz com que o final de um giro (flip ou roll) fique mais suave.<br> Este valor representa a posição do stick: \"0\" - stick no centro, \"1\" - stick nas extremidades. Quando o stick estiver acima do ponto especificado, o termo Feedforward permanece constante no valor configurado. Quando estiver abaixo do ponto especificado, o termo Feedforward será reduzido proporcionalmente, atingindo 0 quando o stick estiver no centro.<br> O valor \"1\" gera o efeito mais suave possível; O valor \"0\" mantém o valor configurado do termo Feedforward fixo durante todo o movimento do stick."
+    },
     "pidTuningDtermSetpointTransition": {
         "message": "Transição do ponto D"
     },
@@ -1234,6 +1243,9 @@
     },
     "pidTuningDerivative": {
         "message": "Derivativo"
+    },
+    "pidTuningFeedforward": {
+        "message": "Feedforward"
     },
     "pidTuningRcRate": {
         "message": "Taxa RC"
@@ -1424,6 +1436,9 @@
     "auxiliaryHelp": {
         "message": "Use as faixas para definir quais switches no seu transmissor correspondem aos modos designados. Um canal no receptor que fornece uma leitura entre o máximo\/mínimo da faixa ativará o modo. Lembre-se de salvar suas configurações."
     },
+    "auxiliaryToggleUnused": {
+        "message": "Mostrar\/esconder modos não utilizados"
+    },
     "auxiliaryMin": {
         "message": "Min"
     },
@@ -1559,14 +1574,29 @@
     "adjustmentsFunction22": {
         "message": "Peso do ponto D"
     },
+    "adjustmentsFunction22_2": {
+        "message": "F do Pitch & Roll"
+    },
     "adjustmentsFunction23": {
         "message": "Transição do ponto D"
+    },
+    "adjustmentsFunction23_2": {
+        "message": "Transição do Feedforward"
     },
     "adjustmentsFunction24": {
         "message": "Potência do modo Horizonte"
     },
     "adjustmentsFunction25": {
         "message": "Selecionar Áudio-PID"
+    },
+    "adjustmentsFunction26": {
+        "message": "F do Pitch"
+    },
+    "adjustmentsFunction27": {
+        "message": "F do Roll"
+    },
+    "adjustmentsFunction28": {
+        "message": "F do Yaw"
     },
     "adjustmentsSave": {
         "message": "Salvar"
@@ -2656,8 +2686,62 @@
     "pidTuningVbatPidCompensationHelp": {
         "message": "Aumenta os valores do PID para compensar quando a voltagem da bateria (Vbat) diminui. Isso resulta em características mais constantes durante o voo. A quantidade de compensação aplicada é calculada a partir da $t(powerBatteryMaximum.message) indicada na aba $t(tabPower.message), então tenha certeza de que a configurou corretamente."
     },
+    "pidTuningItermRotation": {
+        "message": "Rotação do termo I"
+    },
+    "pidTuningItermRotationHelp": {
+        "message": "Reorienta o vetor do Termo I em relação aos outros eixos conforme a aeronave gira durante uma rotação continua no eixo yaw ou roll, entre outras manobras parecidas. Isto é muito bom para pilotos do estilo LOS acro."
+    },
+    "pidTuningSmartFeedforward": {
+        "message": "Feedforward Inteligente"
+    },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "Reduz o efeito do termo F no PIDF; Quando os termos P e F estão ativos ao mesmo tempo, esta opção faz com que somente o termo com o maior valor seja utilizado, evitando movimentos exagerados sem a necessidade de aumentar o termo D, porém isto também reduz a velocidade de resposta gerado pelo termo F quando adicionado ao termo P."
+    },
+    "pidTuningItermRelax": {
+        "message": "Relaxar o Termo I"
+    },
+    "pidTuningItermRelaxHelp": {
+        "message": "Limita o valor do Termo I quando a aeronave se move rapidamente (modo gyro) ou quando o piloto faz movimento rápidos nos sticks (modo setpoint). Isso melhora a estabilidade logo após um giro (flip ou roll) ou outros movimentos rápidos. Você pode escolher os eixos que esta opção irá afetar. Na versão 3.4 é recomendado todos os eixos (RPY), na versão 3.5 normalmente é necessário somente nos eixos Roll e Pitch (RP)."
+    },
+    "pidTuningItermRelaxAxes": {
+        "message": "Eixos:"
+    },
+    "pidTuningItermRelaxAxesOptionRP": {
+        "message": "RP"
+    },
+    "pidTuningItermRelaxAxesOptionRPY": {
+        "message": "RPY"
+    },
+    "pidTuningItermRelaxAxesOptionRPInc": {
+        "message": "RP (Somente incremento)"
+    },
+    "pidTuningItermRelaxAxesOptionRPYInc": {
+        "message": "RPY (Somente incremento)"
+    },
+    "pidTuningItermRelaxType": {
+        "message": "Modo:"
+    },
+    "pidTuningItermRelaxTypeOptionGyro": {
+        "message": "Gyro"
+    },
+    "pidTuningItermRelaxTypeOptionSetpoint": {
+        "message": "Setpoint"
+    },
+    "pidTuningAbsoluteControlGain": {
+        "message": "Controle Absoluto"
+    },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "Esta função resolve alguns dos problemas da \"Rotação do termo I\" e provavelmente a substituirá no futuro. A função acumula o erro absoluto do gyro em coordenadas da aeronave e adiciona uma correção proporcional no setpoint. É necessário que a função \"Relaxar o Termo I\" esteja ativo para todos os eixos (RPY)."
+    },
     "pidTuningThrottleBoost": {
         "message": "Ganho no acelerador"
+    },
+    "pidTuningThrottleBoostHelp": {
+        "message": "Esta funcionalidade melhora a resposta do motor, aumentando o valor do acelerador proporcionalmente com a velocidade do movimento do stick do acelerador. Movimentos lentos recebem um ganho menor do que movimentos rápidos. Isto é efetivo ao aumentar ou diminuir o acelerador."
+    },
+    "pidTuningAcroTrainerAngleLimit": {
+        "message": "Angulo limite do Treinador Acro"
     },
     "configHelp2": {
         "message": "Rotação da placa em graus, permite que a placa seja montada de lado, de ponta-cabeça, rotacionada, etc. Quando estiver utilizando sensores externos, use o alinhamento dos sensores (Giro, Acc, Mag) para definir a posição do sensor independente da orientação da placa. "
