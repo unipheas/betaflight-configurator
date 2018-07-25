@@ -53,6 +53,9 @@
     "permanentExpertMode": {
         "message": "Expertモード 常時有効"
     },
+    "rememberLastTab": {
+        "message": "接続時に前回のタブを開く"
+    },
     "userLanguageSelect": {
         "message": "言語設定 (変更を有効にするにはConfiguratorを再起動して下さい)"
     },
@@ -1211,6 +1214,12 @@
     "receiverRcInterpolationInterval": {
         "message": "RC補間間隔 [ms]"
     },
+    "pidTuningFeedforwardTransition": {
+        "message": "フィードフォワード遷移"
+    },
+    "pidTuningFeedforwardTransitionHelp": {
+        "message": "このパラメータを使用すると、スティックの中心付近でフィードフォワードを減らすことができ、フリップとロールのエンドアクションがスムーズになります。<br>この値は、スティック偏向点を表します。0-スティック中心、1-完全偏向です。スティックがその値を上回ると、フィードフォワードは設定された値で一定に保たれます。スティックがその値以下に位置すると、フィードフォワードは比例して減少し、スティック中心位置で0になります。<br>1の値はスムージング効果を最大にし、0の値はスティック範囲全体にわたって設定された値にフィードフォワードを固定します。"
+    },
     "pidTuningDtermSetpointTransition": {
         "message": "D値 セットポイント 遷移"
     },
@@ -1234,6 +1243,9 @@
     },
     "pidTuningDerivative": {
         "message": "Derivative"
+    },
+    "pidTuningFeedforward": {
+        "message": "フィードフォワード"
     },
     "pidTuningRcRate": {
         "message": "RC レート"
@@ -1424,6 +1436,9 @@
     "auxiliaryHelp": {
         "message": "範囲を追加および設定をし、送信機側スイッチと対応するモードの割り当てを定義します。最小 \/ 最大値の範囲内で設定した受信チャンネルにてモードが有効となります。 [保存] ボタンを使用して設定を保存することを忘れないで下さい。"
     },
+    "auxiliaryToggleUnused": {
+        "message": "未使用モードの表示\/非表示"
+    },
     "auxiliaryMin": {
         "message": "最小"
     },
@@ -1559,14 +1574,29 @@
     "adjustmentsFunction22": {
         "message": "D値 セットポイント"
     },
+    "adjustmentsFunction22_2": {
+        "message": "ピッチ・ロール F 調整"
+    },
     "adjustmentsFunction23": {
         "message": "D値 セットポイント 遷移"
+    },
+    "adjustmentsFunction23_2": {
+        "message": "フィードフォワード遷移"
     },
     "adjustmentsFunction24": {
         "message": "ホライゾン 強度調整"
     },
     "adjustmentsFunction25": {
         "message": "PID-Audioを選択"
+    },
+    "adjustmentsFunction26": {
+        "message": "ピッチ F値 調整"
+    },
+    "adjustmentsFunction27": {
+        "message": "ロール F値 調整"
+    },
+    "adjustmentsFunction28": {
+        "message": "ヨー F値 調整"
     },
     "adjustmentsSave": {
         "message": "保存"
@@ -2655,6 +2685,66 @@
     },
     "pidTuningVbatPidCompensationHelp": {
         "message": "Vbatが低下したとき、それを補正するためPID値を増加させます。 これにより、飛行中にさらに一定の飛行特性を与えられます。 適用される補正量は、 $t(tabPower.message) ページで設定された $t(powerBatteryMaximum.message) から計算されるため、適切な値に設定されていることを確認して下さい。"
+    },
+    "pidTuningItermRotation": {
+        "message": "I値 ローテーション"
+    },
+    "pidTuningItermRotationHelp": {
+        "message": "ロール中に連続的にヨーイングしたり、ファンネルやその他のトリックを実行したりするとき、機体が回転すると、現在値のI値を他の値に移行し適切に回転させます。この機能はアクロパイロット達が非常に感謝するでしょう。"
+    },
+    "pidTuningSmartFeedforward": {
+        "message": "スマート フィードフォワード"
+    },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "PIDFにおけるF値の影響を低減します。P値とF値の両方が同じタイミングで有効である場合、D値を上昇させることなくオーバーシュートを回避することができるだけでなく、より大きな値をP値に加えられたとき、F値によって生成される応答効果も低減します。"
+    },
+    "pidTuningItermRelax": {
+        "message": "I値 リラックス"
+    },
+    "pidTuningItermRelaxHelp": {
+        "message": "速い動きが起きたときのI値の蓄積を制限します。これは特に、ロールやその他の高速動作の終了時にバウンスバックを減らすのに役立ちます。これが有効であると、ジャイロまたはセットポイント (スティック) を使用して速い動きが検出された場合は、値を選択できます。"
+    },
+    "pidTuningItermRelaxAxes": {
+        "message": "軸:"
+    },
+    "pidTuningItermRelaxAxesOptionRP": {
+        "message": "RP"
+    },
+    "pidTuningItermRelaxAxesOptionRPY": {
+        "message": "RPY"
+    },
+    "pidTuningItermRelaxAxesOptionRPInc": {
+        "message": "RP (インクリメントのみ)"
+    },
+    "pidTuningItermRelaxAxesOptionRPYInc": {
+        "message": "RPY (インクリメントのみ)"
+    },
+    "pidTuningItermRelaxType": {
+        "message": "タイプ:"
+    },
+    "pidTuningItermRelaxTypeOptionGyro": {
+        "message": "ジャイロ"
+    },
+    "pidTuningItermRelaxTypeOptionSetpoint": {
+        "message": "セットポイント"
+    },
+    "pidTuningAbsoluteControlGain": {
+        "message": "絶対的な制御"
+    },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "この機能は、I値ローテーションのいくつかの根本的な問題を解決しますが、ある時点でそれを置き換えることが望ましいでしょう。この機能は、絶対的なジャイロエラーを座標に積算し、比例補正をセットポイントに混合します。RPYのiterm_relaxを有効にする必要があります。"
+    },
+    "pidTuningThrottleBoost": {
+        "message": "スロットルブースト"
+    },
+    "pidTuningThrottleBoostHelp": {
+        "message": "この機能はスロットルを一時的に上から下に押し上げ、モーターへの加速トルクを上げることができ、より速いスロットル応答を提供します。"
+    },
+    "pidTuningAcroTrainerAngleLimit": {
+        "message": "アクロトレーナー 角度制限"
+    },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "アクロモード飛行を練習しているパイロットのため、新しい角度制限を追加します。有効な範囲は10-80です。(0の値で無効になります)"
     },
     "configHelp2": {
         "message": "横向き \/ 下向き \/ 任意な回転による取付けが可能なFCボードの回転角度です。外部センサーを使用する場合は、センサーのアライメント (Gyro、Accel、コンパス) を使用して、ボードの向きから独立したセンサー位置を定義します。 "
