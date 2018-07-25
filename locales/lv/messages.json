@@ -2700,6 +2700,21 @@
     "pidTuningItermRotation": {
         "message": "I Term rotācija"
     },
+    "pidTuningItermRotationHelp": {
+        "message": "Pagriež patreizējo I Term vektoru atbilstoši citām asīm pie multirotorā rotācijas, kad nepārtraukti veic yaw pie roll vai citiem trikiem. Ļoti noderīgi priekš LOS akro pilotiem."
+    },
+    "pidTuningSmartFeedforward": {
+        "message": "Gudrais Feedforward"
+    },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "Samazina F Term efektu iekš PIDF. Kad vienlaicīgi P Term un F Term ir aktīvi, tas izmanto lielāko no viņiem, izvairoties no overšootiem bez nepieciešamības palielināt D, bet arī samazina atsaucības efektu ko rada F Term kad tas pievienots pie P."
+    },
+    "pidTuningItermRelax": {
+        "message": "I Term Relaks"
+    },
+    "pidTuningItermRelaxHelp": {
+        "message": "Limitē I Term akumulāciju, kad notiek straujas kustības. Tas īpaši palīdz samazināt atlēcienus pie roll un citu ātru kustību beigām. Jūs varat izvēlēties uz kurām asīm tas ir aktīvs, un ar ko tiek detektētas ātrās kustības ar žiroskopu vai vadības sviru iestatījumiem."
+    },
     "pidTuningItermRelaxAxes": {
         "message": "Asis:"
     },
