@@ -1224,6 +1224,17 @@
     "pidTuningNonProfilePidSettings": {
         "message": "crwdns5684:0crwdne5684:0"
     },
+    "pidTuningAntiGravityMode": {
+        "message": "crwdns8817:0crwdne8817:0"
+    },
+    "pidTuningAntiGravityModeOptionSmooth": {
+        "message": "crwdns8818:0crwdne8818:0",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityModeOptionStep": {
+        "message": "crwdns8819:0crwdne8819:0",
+        "description": "One of the modes of anti gravity"
+    },
     "pidTuningAntiGravityGain": {
         "message": "crwdns5685:0crwdne5685:0"
     },
