@@ -900,7 +900,7 @@
         "message": "Desarmar os motores após definir [seconds] de espera (Requer a funcionalidade MOTOR_STOP)"
     },
     "configurationDisarmKillSwitch": {
-        "message": "Desarmar os motores independentemente do valor do throttle (quando ARMAR é configurado na aba Modos através de um canal AUXILIAR)"
+        "message": "Desarmar os motores independente do valor do acelerador (quando ARMAR é configurado na aba Modos em um canal AUX)"
     },
     "configurationDisarmKillSwitchHelp": {
         "message": "Armar está sempre desativado quando o acelerador não está no mínimo. Tenha cuidado porque pode desarmar acidentalmente com um botão enquanto estiver voando se esta opção estiver ativa."
@@ -915,7 +915,7 @@
         "message": "Acelerador mínimo (Valor mínimo do ESC quando armado)"
     },
     "configurationThrottleMinimumHelp": {
-        "message": "Este é o valor 'ocioso' que é enviado para os ESCs quando a aeronave está armada e o stick do throttle está no mínimo. Aumente o valor para ganhar mais velocidade quando ocioso. Aumente também em caso de falhas na sincronia!"
+        "message": "Este é o valor 'ocioso' que é enviado para os ESCs quando a aeronave está armada e o stick do acelerador está no mínimo. Aumente o valor para ganhar mais velocidade quando ocioso. Aumente também em caso de falhas na sincronia!"
     },
     "configurationThrottleMaximum": {
         "message": "Acelerador máximo (Valor máximo do ESC quando armado)"
@@ -2656,6 +2656,9 @@
     "pidTuningVbatPidCompensationHelp": {
         "message": "Aumenta os valores do PID para compensar quando a voltagem da bateria (Vbat) diminui. Isso resulta em características mais constantes durante o voo. A quantidade de compensação aplicada é calculada a partir da $t(powerBatteryMaximum.message) indicada na aba $t(tabPower.message), então tenha certeza de que a configurou corretamente."
     },
+    "pidTuningThrottleBoost": {
+        "message": "Ganho no acelerador"
+    },
     "configHelp2": {
         "message": "Rotação da placa em graus, permite que a placa seja montada de lado, de ponta-cabeça, rotacionada, etc. Quando estiver utilizando sensores externos, use o alinhamento dos sensores (Giro, Acc, Mag) para definir a posição do sensor independente da orientação da placa. "
     },
@@ -2708,7 +2711,7 @@
         "message": "Apenas desarme a aeronave ao invés de executar o Failsafe se o acelerador estiver baixo por este determinado período de tempo"
     },
     "failsafeThrottleItem": {
-        "message": "Valor do Throttle utilizado para aterrissar"
+        "message": "Valor do Acelerador utilizado para aterrissar"
     },
     "failsafeOffDelayItem": {
         "message": "Delay para desligar os motores durante o Failsafe [1 = 0.1 sec.]"
@@ -3437,7 +3440,7 @@
         "message": "Perfil de taxa"
     },
     "pidTuningRateProfileTip": {
-        "message": "Até 3 diferentes perfis de taxa podem ser armazenados no controlador de voo. O perfil de taxa inclui configurações da 'Taxa do RC', 'Taxa', 'Expo do RC', 'Throttle', e 'TPA'. É possível alternar entre os perfis de taxa durante o voo, basta configurar um switch de 3 posições para 'Seleção do Perfil de Taxa' na aba de Ajustes."
+        "message": "Até 3 diferentes perfis de taxa podem ser armazenados no controlador de voo. O perfil de taxa inclui configurações da 'Taxa do RC', 'Taxa', 'Expo do RC', 'Acelerador', e 'TPA'. É possível alternar entre os perfis de taxa durante o voo, basta configurar um switch de 3 posições para 'Seleção do Perfil de Taxa' na aba de Ajustes."
     },
     "pidTuningDelta": {
         "message": "Método Derivativo"
