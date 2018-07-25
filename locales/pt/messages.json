@@ -2741,7 +2741,10 @@
         "message": "Esta funcionalidade melhora a resposta do motor, aumentando o valor do acelerador proporcionalmente com a velocidade do movimento do stick do acelerador. Movimentos lentos recebem um ganho menor do que movimentos rápidos. Isto é efetivo ao aumentar ou diminuir o acelerador."
     },
     "pidTuningAcroTrainerAngleLimit": {
-        "message": "Angulo limite do Treinador Acro"
+        "message": "Angulo máximo do Treinador Acro"
+    },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "Angulo máximo do modo Treinador Acro, para pilotos que estão aprendendo a voar no modo acro. A faixa de valores aceita é de 10 a 80 (o valor \"0\" desativa o modo)"
     },
     "configHelp2": {
         "message": "Rotação da placa em graus, permite que a placa seja montada de lado, de ponta-cabeça, rotacionada, etc. Quando estiver utilizando sensores externos, use o alinhamento dos sensores (Giro, Acc, Mag) para definir a posição do sensor independente da orientação da placa. "
