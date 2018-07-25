@@ -3205,6 +3205,9 @@
     "osdDescAntiGravity": {
         "message": "Abilita un indicatore quando anti gravity è attivo"
     },
+    "osdDescGForce": {
+        "message": "Mostra la quantità di forza G che sta agendo sul modello"
+    },
     "osdDescStatMaxSpeed": {
         "message": "Massima velocità registrata"
     },
@@ -3474,6 +3477,9 @@
     },
     "onboardLoggingOnboardSDCard": {
         "message": "Scheda SD Onboard"
+    },
+    "onboardLoggingMsc": {
+        "message": "Modalità archiviazione di massa"
     },
     "onboardLoggingRebootMscText": {
         "message": "Attiva modalità periferica di archiviazione di massa"
