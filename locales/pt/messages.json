@@ -573,7 +573,7 @@
         "message": "Tipo de Mixer"
     },
     "initialSetupThrottleHead": {
-        "message": "Configurar Throttle"
+        "message": "Configurar Acelerador"
     },
     "initialSetupMinimum": {
         "message": "Mínimo:"
@@ -789,7 +789,7 @@
         "message": "Transmissor de vídeo"
     },
     "featureANTI_GRAVITY": {
-        "message": "Aumenta temporariamente o termo I quando houver grandes alterações no throttle"
+        "message": "Aumenta temporariamente o termo I quando houver grandes alterações no acelerador"
     },
     "featureDYNAMIC_FILTER": {
         "message": "Filtro Notch dinâmico do giroscópio"
@@ -801,7 +801,7 @@
         "message": "Ativar Failsafe"
     },
     "featureFAILSAFETip": {
-        "message": "<strong>Nota:<\/strong> quando o estágio 2 estiver DESATIVADO, a opção <strong>Automatico<\/strong> é usada em vez das configurações do usuário para todos os canais de voo (Roll, Pitch, Yaw e Throttle)."
+        "message": "<strong>Nota:<\/strong> quando o estágio 2 estiver DESATIVADO, a opção <strong>Automático<\/strong> é usada em vez das configurações do usuário para todos os canais de voo (Roll, Pitch, Yaw e Acelerador)."
     },
     "featureFAILSAFEOldTip": {
         "message": "Aplicar configurações do Failsafe na perda do sinal RX"
@@ -903,22 +903,22 @@
         "message": "Desarmar os motores independentemente do valor do throttle (quando ARMAR é configurado na aba Modos através de um canal AUXILIAR)"
     },
     "configurationDisarmKillSwitchHelp": {
-        "message": "Armar está sempre desativado quando o throttle não está no mínimo. Tenha cuidado porque pode desarmar acidentalmente com um botão enquanto estiver voando se esta opção estiver ativa."
+        "message": "Armar está sempre desativado quando o acelerador não está no mínimo. Tenha cuidado porque pode desarmar acidentalmente com um botão enquanto estiver voando se esta opção estiver ativa."
     },
     "configurationDigitalIdlePercent": {
-        "message": "Valor do throttle quando o motor está ocioso [percent]"
+        "message": "Valor do acelerador quando o motor está ocioso [percent]"
     },
     "configurationDigitalIdlePercentHelp": {
-        "message": "Este é o valor 'ocioso' em percentagem do valor máximo de throttle que é enviado para os ESCs quando a aeronave está armada e o stick do throttle está no mínimo. Aumente o valor para ganhar mais velocidade quando ocioso."
+        "message": "Este é o valor 'ocioso' em percentagem do valor máximo do acelerador que é enviado para os ESCs quando a aeronave está armada e o stick do acelerador está no mínimo. Aumente o valor para ganhar mais velocidade quando ocioso."
     },
     "configurationThrottleMinimum": {
-        "message": "Throttle mínimo (Valor mínimo do ESC quando armado)"
+        "message": "Acelerador mínimo (Valor mínimo do ESC quando armado)"
     },
     "configurationThrottleMinimumHelp": {
         "message": "Este é o valor 'ocioso' que é enviado para os ESCs quando a aeronave está armada e o stick do throttle está no mínimo. Aumente o valor para ganhar mais velocidade quando ocioso. Aumente também em caso de falhas na sincronia!"
     },
     "configurationThrottleMaximum": {
-        "message": "Throttle máximo (Valor máximo do ESC quando armado)"
+        "message": "Acelerador máximo (Valor máximo do ESC quando armado)"
     },
     "configurationThrottleMinimumCommand": {
         "message": "Comando mínimo (valor do ESC quando desarmado)"
@@ -984,7 +984,7 @@
         "message": "Sinais sonoros emitidos quando segurar o stick na posição de desarmar"
     },
     "beeperARMED": {
-        "message": "Sinal sonoro de alerta quando a placa estiver armada com os motores desligados quando ocioso (repete até que a placa seja desarmada ou o throttle é aumentado)"
+        "message": "Sinal sonoro de alerta enquanto o controlador de voo estiver armado com os motores parados (repete até que a controlador de voo seja desarmado ou o acelerador aumentado)"
     },
     "beeperSYSTEM_INIT": {
         "message": "Sinais sonoros de inicialização quando a placa é ligada"
@@ -1017,7 +1017,7 @@
         "message": "3D neutral"
     },
     "configuration3dDeadbandThrottle": {
-        "message": "Ponto morto do Throttle 3D"
+        "message": "Ponto morto do Acelerador 3D"
     },
     "configurationSystem": {
         "message": "Configuração do sistema"
@@ -1269,7 +1269,7 @@
         "message": "Taxas"
     },
     "throttle": {
-        "message": "Throttle"
+        "message": "Acelerador"
     },
     "pidTuningButtonSave": {
         "message": "Salvar"
@@ -1338,10 +1338,10 @@
         "message": "<b>Dicas de otimização<\/b><br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Sempre verifique a temperatura dos motores durante os primeiros voos. Quanto maior o valor do filtro, melhor pode ser o voo, porém, mais ruído chegará aos motores. <br>O Valor padrão de 100Hz é ótimo, mas para veículos com mais ruídos, você pode tentar diminuir o filtro do termo D para 50Hz e possivelmente também o filtro do giroscópio."
     },
     "receiverThrottleMid": {
-        "message": "Throttle MEIO"
+        "message": "MEIO do Acelerador"
     },
     "receiverThrottleExpo": {
-        "message": "Throttle EXPO"
+        "message": "EXPO do Acelerador"
     },
     "receiverStickMin": {
         "message": "Limite 'Stick baixo'"
@@ -1374,10 +1374,10 @@
         "message": "Estes valores (em us) indicam quanto a entrada do RC pode ser variada antes de ser considerada válida. Para transmissores com saídas instáveis, este valor pode ser aumentado se as entradas RC vibram enquanto ocioso. <strong> Esta configuração afeta somente o Yaw.<\/strong>"
     },
     "recevier3dDeadbandThrottle": {
-        "message": "Ponto morto do Throttle 3D"
+        "message": "Ponto morto do Acelerador 3D"
     },
     "receiverHelp3dDeadbandThrottle": {
-        "message": "Valores (em us). Aumente o valor para aumentar a zona neutra. <strong> Esta configuração é somente para o Throttle 3D.<\/strong>"
+        "message": "Valores (em us). Aumente o valor para aumentar a zona neutra. <strong> Esta configuração é somente para o Acelerador 3D.<\/strong>"
     },
     "receiverChannelMap": {
         "message": "Mapa de Canais"
@@ -1500,7 +1500,7 @@
         "message": "RC Expo"
     },
     "adjustmentsFunction3": {
-        "message": "Throttle Expo"
+        "message": "Expo do Acelerador"
     },
     "adjustmentsFunction4": {
         "message": "Taxa do Pitch & Roll"
@@ -2486,7 +2486,7 @@
         "message": "Yaw [R]"
     },
     "controlAxisThrottle": {
-        "message": "Throttle [T]"
+        "message": "Acelerador [T]"
     },
     "controlAxisAux1": {
         "message": "AUX 1"
@@ -2687,7 +2687,7 @@
         "message": "Estas configurações são aplicadas em canais AUX individuais inválidos ou em todos os canais quando entrar no estágio 1. <strong>Nota:<\/strong> Os valores são salvos em passos de 25usec, para que mudanças pequenas desaparecem"
     },
     "failsafeChannelFallbackSettingsAuto": {
-        "message": "<strong>Auto<\/strong> significa Roll, Pitch e Yaw ao centro e Throttle baixo. <strong>Hold<\/strong> significa manter o ultimo valor válido recebido"
+        "message": "<strong>Auto<\/strong> significa Roll, Pitch e Yaw ao centro e Acelerador baixo. <strong>Hold<\/strong> significa manter o ultimo valor válido recebido"
     },
     "failsafeChannelFallbackSettingsHold": {
         "message": "<strong>Hold<\/strong> significa manter o ultimo valor válido recebido. <strong>Set<\/strong> significa que o valor definido aqui será usado"
