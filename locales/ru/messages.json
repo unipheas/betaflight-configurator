@@ -2635,8 +2635,38 @@
     "osdDescElementRssiValue": {
         "message": "Мгновенное (дискретное) значение RSSI (замигает, если значение будет ниже заданного порога тревоги)"
     },
+    "osdDescElementThrottlePosition": {
+        "message": "Значение канала газа"
+    },
+    "osdDescElementCrosshairs": {
+        "message": "Перекрестие в центре экрана"
+    },
+    "osdDescElementArtificialHorizon": {
+        "message": "Графический индикатор искусственного горизонта"
+    },
+    "osdDescElementHorizonSidebars": {
+        "message": "Вертикальные линии по бокам индикатора искусственного горизонта"
+    },
+    "osdDescElementCurrentDraw": {
+        "message": "Мгновенное (дискретное) значение тока аккумулятора"
+    },
+    "osdDescElementMahDrawn": {
+        "message": "Израсходованная ёмкость аккумулятора"
+    },
+    "osdDescElementCraftName": {
+        "message": "Позывной пилота, установленный во вкладке \"Конфигурация\""
+    },
+    "osdDescElementAltitude": {
+        "message": "Текущая высота (замигает, если значение будет ниже заданного порога тревоги)"
+    },
     "osdDescElementFlyMode": {
         "message": "Текущий режим полета"
+    },
+    "osdDescElementGPSSpeed": {
+        "message": "Скорость, полученная по данным GPS"
+    },
+    "osdDescElementGPSSats": {
+        "message": "Число пойманных спутников"
     },
     "osdDescElementGPSLon": {
         "message": "GPS-Долгота"
@@ -2646,6 +2676,33 @@
     },
     "osdDescElementDebug": {
         "message": "Показывать Debug-переменные"
+    },
+    "osdDescElementPIDRoll": {
+        "message": "PID-коэффициенты по оси Roll"
+    },
+    "osdDescElementPIDPitch": {
+        "message": "PID-коэффициенты по оси Pitch"
+    },
+    "osdDescElementPIDYaw": {
+        "message": "PID-коэффициенты по оси Yaw"
+    },
+    "osdDescElementPower": {
+        "message": "Мгновенное (дискретное) значение потребляемой мощности"
+    },
+    "osdDescElementPIDRateProfile": {
+        "message": "Отобразить номера профилей для PID-ов и rate-ов"
+    },
+    "osdDescElementAvgCellVoltage": {
+        "message": "Среднее напряжение на банке (напряжение аккумулятора \/ число банок)"
+    },
+    "osdDescElementWarnings": {
+        "message": "Показывать тревоги (напр., о низком заряде), предупреждения (напр., причины: почему не армится, критич. низкий заряд), а также визуально отображать сигнал с пищалки (в виде 4-х мигающих звёздочек)."
+    },
+    "osdDescElementTimer1": {
+        "message": "Показать значение таймера 1"
+    },
+    "osdDescElementTimer2": {
+        "message": "Показать значение таймера 2"
     },
     "osdDescElementCoreTemperature": {
         "message": "Температура ядра STM32 MCU"
