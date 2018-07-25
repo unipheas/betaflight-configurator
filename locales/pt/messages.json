@@ -2702,10 +2702,10 @@
         "message": "Tempo para recuperação no estágio 1"
     },
     "failsafeThrottleLowItem": {
-        "message": "Delay do Failsafe para o Throttle baixo [1 = 0.1 sec.]"
+        "message": "Tempo até Acelerador Baixo [1 = 0.1 sec.]"
     },
     "failsafeThrottleLowHelp": {
-        "message": "Apenas desarme a aeronave ao invés de executar o Failsafe se o throttle estiver baixo por este determinado período de tempo"
+        "message": "Apenas desarme a aeronave ao invés de executar o Failsafe se o acelerador estiver baixo por este determinado período de tempo"
     },
     "failsafeThrottleItem": {
         "message": "Valor do Throttle utilizado para aterrissar"
