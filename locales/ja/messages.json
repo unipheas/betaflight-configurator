@@ -1181,6 +1181,17 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Profile毎のPID値 制御設定"
     },
+    "pidTuningAntiGravityMode": {
+        "message": "Anti Gravity 反重力 モード"
+    },
+    "pidTuningAntiGravityModeOptionSmooth": {
+        "message": "スムーズ",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityModeOptionStep": {
+        "message": "ステップ",
+        "description": "One of the modes of anti gravity"
+    },
     "pidTuningAntiGravityGain": {
         "message": "Anti Gravity 反重力 強さ"
     },
