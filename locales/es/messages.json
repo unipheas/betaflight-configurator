@@ -1185,7 +1185,7 @@
         "message": "Modo Anti Gravedad"
     },
     "pidTuningAntiGravityModeOptionSmooth": {
-        "message": "Suave",
+        "message": "Suavizado",
         "description": "One of the modes of anti gravity"
     },
     "pidTuningAntiGravityModeOptionStep": {
