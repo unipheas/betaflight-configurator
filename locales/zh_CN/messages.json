@@ -53,6 +53,9 @@
     "permanentExpertMode": {
         "message": "默认启用专家模式"
     },
+    "rememberLastTab": {
+        "message": "连接后重新打开最后使用的选项页"
+    },
     "userLanguageSelect": {
         "message": "语言 （需要重启应用才能生效）"
     },
@@ -1211,6 +1214,12 @@
     "receiverRcInterpolationInterval": {
         "message": "遥控信号插值间隙[毫秒]"
     },
+    "pidTuningFeedforwardTransition": {
+        "message": "前馈过渡"
+    },
+    "pidTuningFeedforwardTransitionHelp": {
+        "message": "通过这个参数， 前馈值可以被降低到接近摇杆中点，使翻滚动作的结束更平滑一些。<br> 该值表示摇杆偏移量：0代表摇杆居中，1代表摇杆打满。当摇杆实际位置大于该值时，前馈值保持在用户设定的数字不变。当摇杆实际位置小于该值时，前馈值会按比例下降，在摇杆居中时降低到0。<br> 设置为1可以获得最平滑的效果，而设置为0将保持前馈值在全程都保持在用户设定的数字不变。"
+    },
     "pidTuningDtermSetpointTransition": {
         "message": "D 设定点转换阈值"
     },
@@ -1234,6 +1243,9 @@
     },
     "pidTuningDerivative": {
         "message": "Derivative"
+    },
+    "pidTuningFeedforward": {
+        "message": "前馈"
     },
     "pidTuningRcRate": {
         "message": "RC Rate"
@@ -1424,6 +1436,9 @@
     "auxiliaryHelp": {
         "message": "使用黄色区域来定义你想要的开关通道和对应的飞行模式。所选通道的游标落在黄色区域时该模式会激活变成黄色（亮起），代表该通道开关已激活该模式。 完成后点击保存按钮以保存设置。"
     },
+    "auxiliaryToggleUnused": {
+        "message": "显示\/隐藏未使用的模式"
+    },
     "auxiliaryMin": {
         "message": "最小"
     },
@@ -1559,14 +1574,29 @@
     "adjustmentsFunction22": {
         "message": "D 设定点"
     },
+    "adjustmentsFunction22_2": {
+        "message": "俯仰 和 横滚 F 调整"
+    },
     "adjustmentsFunction23": {
         "message": "D 设定点转换阈值"
+    },
+    "adjustmentsFunction23_2": {
+        "message": "前馈过渡"
     },
     "adjustmentsFunction24": {
         "message": "水平模式强度调整"
     },
     "adjustmentsFunction25": {
         "message": "PID-Audio 选择"
+    },
+    "adjustmentsFunction26": {
+        "message": "俯仰 F 调整"
+    },
+    "adjustmentsFunction27": {
+        "message": "横滚 F 调整"
+    },
+    "adjustmentsFunction28": {
+        "message": "方向 F 调整"
     },
     "adjustmentsSave": {
         "message": "保存"
@@ -2655,6 +2685,66 @@
     },
     "pidTuningVbatPidCompensationHelp": {
         "message": "当电池电压变低时， 飞控自动增加PID数值来补偿动力的损失。这会在整个飞行过程中提供一个更一致的飞行特性。该补偿数值通过在 $t(tabPower.message) 的 $t(powerBatteryMaximum.message) 计算而得，所以请确保正确设置了该数值。"
+    },
+    "pidTuningItermRotation": {
+        "message": "I 值旋转"
+    },
+    "pidTuningItermRotationHelp": {
+        "message": "在边转向边翻滚以及做漏斗等特技时，将 I 向量正确旋转到其他轴向上。比较受到目视飞行的飞手欢迎。"
+    },
+    "pidTuningSmartFeedforward": {
+        "message": "智能前馈"
+    },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "减少 F 值在 PIDF 中的效果。当 P 和 F 同时激活时，只取两者中的较大值来避免过头而无需提高 D，但这也会降低 F 值提供的响应效果。"
+    },
+    "pidTuningItermRelax": {
+        "message": "I 值释放"
+    },
+    "pidTuningItermRelaxHelp": {
+        "message": "在快速移动时限制 I 值的积累。这特别有助于降低翻滚等快速移动的末期的反弹。你可以选择该功能生效的轴向，以及快速移动的判断依据是陀螺仪还是设定点（摇杆）。"
+    },
+    "pidTuningItermRelaxAxes": {
+        "message": "轴："
+    },
+    "pidTuningItermRelaxAxesOptionRP": {
+        "message": "RP"
+    },
+    "pidTuningItermRelaxAxesOptionRPY": {
+        "message": "RPY"
+    },
+    "pidTuningItermRelaxAxesOptionRPInc": {
+        "message": "RP (仅增量)"
+    },
+    "pidTuningItermRelaxAxesOptionRPYInc": {
+        "message": "RPY (仅增量)"
+    },
+    "pidTuningItermRelaxType": {
+        "message": "类型："
+    },
+    "pidTuningItermRelaxTypeOptionGyro": {
+        "message": "陀螺仪"
+    },
+    "pidTuningItermRelaxTypeOptionSetpoint": {
+        "message": "设定点"
+    },
+    "pidTuningAbsoluteControlGain": {
+        "message": "绝对控制"
+    },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "此功能解决了 I 值旋转的一些底层问题，并希望最终可以替代它。该功能以四轴的坐标系统来累积陀螺仪的绝对误差，并按比例混合修正值到设定点中。它需要在RPY轴向上启用 I 值释放功能。"
+    },
+    "pidTuningThrottleBoost": {
+        "message": "油门增压"
+    },
+    "pidTuningThrottleBoostHelp": {
+        "message": "此功能通过短暂提高油门变化值来提高电机的加速度，使得油门响应更为迅速。"
+    },
+    "pidTuningAcroTrainerAngleLimit": {
+        "message": "萌新手动模式角度限制"
+    },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "为萌新飞手学习手动模式新增的限制角度的手动模式。有效值范围是 10-80。（设置为0则代表禁用）"
     },
     "configHelp2": {
         "message": "任意角度（直立，反转，旋转等）安装飞控板。当使用外部传感器时，请使用传感器校正设置(陀螺，加速度计，磁场计)来决定独立于飞控板的传感器位置。"
