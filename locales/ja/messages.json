@@ -3597,9 +3597,6 @@
     "onboardLoggingMsc": {
         "message": "大容量ストレージモード"
     },
-    "onboardLoggingMscNote": {
-        "message": "<strong>大容量ストレージ (MSC)<\/strong> モードで再起動します。有効にするとFCボードのオンボードフラッシュ領域、またはSDカードがPCのストレージデバイスとして認識され、ログファイルのダウンロードが可能となります。大容量ストレージモードを終了するには、FCボードを切り離し再起動を行います。"
-    },
     "onboardLoggingRebootMscText": {
         "message": "大容量ストレージモードを有効化"
     },
