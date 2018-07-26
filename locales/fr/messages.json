@@ -3493,9 +3493,6 @@
     "onboardLoggingMsc": {
         "message": "Mode de stockage de masse"
     },
-    "onboardLoggingMscNote": {
-        "message": "Redémarrer en mode<strong>stockage de masse (MSC)<\/strong>. Une fois activé, la mémoire intégrée ou la carte SD de votre contrôleur de vol seront reconnues comme périphérique de stockage par votre ordinateur, afin de télécharger rapidement vos fichiers logs. Ejectez le périphérique de stockage et redémarrer votre contrôleur afin de quitter ce mode."
-    },
     "onboardLoggingRebootMscText": {
         "message": "Activer le Mode de périphérique de stockage de masse"
     },
