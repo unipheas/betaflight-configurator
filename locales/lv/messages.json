@@ -3597,9 +3597,6 @@
     "onboardLoggingMsc": {
         "message": "Lielapjoma atmiņas režīms"
     },
-    "onboardLoggingMscNote": {
-        "message": "Pārstartēties <strong>lielapjoma atmiņas ierīces (MSC)<\/strong> režīmā. Kad aktivizēsies, jūsu dators, integrēto atmiņu vai SD karti uz jūsu lidojuma kontroliera atpazīs kā lielapjoma atmiņa, un ļaus jums lejuplādēt jūsu log failus. Atvienojiet jūsu lidojuma kontrolieri, lai pamestu lielapjoma atmiņas režīmu."
-    },
     "onboardLoggingRebootMscText": {
         "message": "Aktivizēt lielapjoma atmiņas ierīces režīmu"
     },
