@@ -555,7 +555,7 @@
         "message": "Ativar Boot Loader \/ DFU"
     },
     "initialSetupBackupRestoreText": {
-        "message": "Faça um <strong>backup<\/strong> das configurações em caso de acidente, as configurações feitas pela <strong>Linha de comandos<\/strong> <span class=\"message-negative\">não<\/span> serão salvas - para isso, use o comando 'diff all' na linha de comandos."
+        "message": "Faz um <strong>backup<\/strong> das configurações, as configurações feitas pela <strong>Linha de comandos<\/strong> <span class=\"message-negative\">não<\/span> são salvas - para isso, use o comando 'diff all' na linha de comandos."
     },
     "initialSetupRebootBootloaderText": {
         "message": "Reiniciar no modo <strong>boot loader \/ DFU<\/strong>."
