@@ -2743,9 +2743,6 @@
     "pidTuningAcroTrainerAngleLimit": {
         "message": "萌新手动模式角度限制"
     },
-    "pidTuningAcroTrainerAngleLimitHelp": {
-        "message": "为萌新飞手学习手动模式新增的限制角度的手动模式。有效值范围是 10-80。（设置为0则代表禁用）"
-    },
     "configHelp2": {
         "message": "任意角度（直立，反转，旋转等）安装飞控板。当使用外部传感器时，请使用传感器校正设置(陀螺，加速度计，磁场计)来决定独立于飞控板的传感器位置。"
     },
