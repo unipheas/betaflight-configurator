@@ -2798,7 +2798,7 @@
         "message": "crwdns8805:0crwdne8805:0"
     },
     "pidTuningAcroTrainerAngleLimitHelp": {
-        "message": "crwdns8806:0crwdne8806:0"
+        "message": "crwdns8821:0$t(tabAuxiliary.message)crwdne8821:0"
     },
     "configHelp2": {
         "message": "crwdns6105:0crwdne6105:0"
