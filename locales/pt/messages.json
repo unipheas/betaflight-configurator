@@ -2632,22 +2632,22 @@
         "message": "Filtros Lowpass (Passa Baixa) do GIROSCÓPIO"
     },
     "pidTuningGyroLowpassFrequency": {
-        "message": "Frequência de corte - Filtro Lowpass 1 [Hz]"
+        "message": "Gyro - Filtro Lowpass 1 - Frequência de corte [Hz]"
     },
     "pidTuningGyroLowpassType": {
-        "message": "Tipo - Fltro Lowpass 1"
+        "message": "Gyro - Filtro Lowpass 1 - Tipo"
     },
     "pidTuningGyroLowpass2Frequency": {
-        "message": "Frequência de corte - filtro Lowpass 2 [Hz]"
+        "message": "Gyro - Filtro Lowpass 2 - Frequência de corte [Hz]"
     },
     "pidTuningGyroLowpass2Type": {
-        "message": "Tipo - Filtro Lowpass 2"
+        "message": "Gyro - Filtro Lowpass 2 - Tipo"
     },
     "pidTuningGyroNotchFiltersGroup": {
         "message": "Filtros Notch (Rejeita Faixa) do GIROSCÓPIO"
     },
     "pidTuningGyroNotch1Frequency": {
-        "message": "Frequência central - Filtro Notch 1 [Hz]"
+        "message": "Gyro - Filtro Notch 1 - Frequência central [Hz]"
     },
     "pidTuningGyroNotch2Frequency": {
         "message": "Frequência central - Filtro Notch 2 [Hz]"
@@ -2659,31 +2659,31 @@
         "message": "Frequência de corte - Filtro Notch 2 [Hz]"
     },
     "pidTuningNotchFilterHelp": {
-        "message": "O filtro Notch tem duas frequências, a de centro e a de corte. O filtro é simétrico. A frequência de centro é o centro do filtro e a frequência de corte é onde o filtro começa. Por exemplo, configurando o corte em 160Hz e o centro em 260Hz indica que o range será de 160Hz a 360Hz, com a maior atenuação no centro"
+        "message": "O filtro Notch tem duas frequências, a de centro e a de corte.<br>O filtro é simétrico.<br>A frequência de corte é onde o filtro começa e a frequência central é o centro do filtro. Por exemplo, configurando o corte em 160Hz e o centro em 260Hz indica que o filtro irá afetar as frequências de 160Hz a 360Hz, com a maior atenuação no centro"
     },
     "pidTuningFilterSettings": {
         "message": "Configurações de filtros por perfil"
     },
     "pidTuningDTermLowpassFiltersGroup": {
-        "message": "Filtro Lowpass do termo D"
+        "message": "Filtro Lowpass (Passa Baixa) do TERMO D"
     },
     "pidTuningDTermLowpassType": {
-        "message": "Tipo do filtro Lowpass 1 do termo D"
+        "message": "Tipo - Filtro Lowpass 1"
     },
     "pidTuningDTermLowpassFrequency": {
-        "message": "Frequência de corte do filtro Lowpass 1 do termo D [Hz]"
+        "message": "Frequência de corte - Filtro Lowpass 1 [Hz]"
     },
     "pidTuningDTermLowpass2Frequency": {
         "message": "Frequência de corte do filtro Lowpass 2 do termo D [Hz]"
     },
     "pidTuningDTermNotchFiltersGroup": {
-        "message": "Filtros Notch do Termo D"
+        "message": "Filtros Notch (Rejeita Faixa) do TERMO D"
     },
     "pidTuningDTermNotchFrequency": {
-        "message": "Frequência central do filtro Notch do Termo D [Hz]"
+        "message": "Frequência central - Filtro Notch [Hz]"
     },
     "pidTuningDTermNotchCutoff": {
-        "message": "Frequência de corte do filtro Notch do termo D [Hz]"
+        "message": "Frequência de corte - Filtro Notch [Hz]"
     },
     "pidTuningYawLospassFiltersGroup": {
         "message": "Filtro Lowpass do Yaw"
