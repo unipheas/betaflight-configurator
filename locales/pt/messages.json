@@ -3597,6 +3597,9 @@
     "onboardLoggingMsc": {
         "message": "Modo de armazenamento"
     },
+    "onboardLoggingMscNote": {
+        "message": "Reiniciar no modo <strong>Armazenamento (MSC)<\/strong>. Uma vez ativado, a memória flash ou o cartão microSD no seu controlador de voo será reconhecido como um dispositivo de armazenamento em seu computador, permitindo descarregar seus arquivos de log. Remova com segurança e desligue seu controlador de voo para sair do modo de armazenamento."
+    },
     "onboardLoggingRebootMscText": {
         "message": "Ativar modo de armazenamento"
     },
