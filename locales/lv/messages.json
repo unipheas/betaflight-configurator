@@ -2754,9 +2754,6 @@
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Akro trenera leņķa limits"
     },
-    "pidTuningAcroTrainerAngleLimitHelp": {
-        "message": "Pievieno jaunu leņķi limitējošu režīmu priekš pilotiem, kas mācās lidot akro režīmā. Derīgais diapazons ir 10-80 (0 vērtība deaktivē to)"
-    },
     "configHelp2": {
         "message": "Patvaļīga plates pagriešana grādos, lai atļautu uzstādīt to sāniski \/ augšpēdus \/ pagrieztu utt. Kad darbojas ar ārējo sensoru, izmantojiet sensora pielāgošanu (Žiro, Aksel, Mag), lai definētu sensora pozīciju neatkarīgi no plates orientācijas. "
     },
