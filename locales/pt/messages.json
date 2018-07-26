@@ -48,7 +48,7 @@
         "message": "Auto-Conectar: Desativado - O usuário deve selecionar a porta serial correta e pressionar o botão \"Conectar\""
     },
     "expertMode": {
-        "message": "Ativar modo avançado"
+        "message": "Modo avançado"
     },
     "permanentExpertMode": {
         "message": "Sempre usar o modo avançado"
