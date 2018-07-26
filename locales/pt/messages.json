@@ -1181,6 +1181,13 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Configurar controlador PID independente de perfil"
     },
+    "pidTuningAntiGravityMode": {
+        "message": "Modo Antigravidade"
+    },
+    "pidTuningAntiGravityModeOptionSmooth": {
+        "message": "Suave",
+        "description": "One of the modes of anti gravity"
+    },
     "pidTuningAntiGravityGain": {
         "message": "Ganho Antigravidade"
     },
