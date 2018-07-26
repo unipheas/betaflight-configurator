@@ -1358,7 +1358,7 @@
         "message": "Por favor leia o capítulo da documentação sobre receptores. Configure a porta serial (se necessário), modo do receptor (serial\/ppm\/pwm), provedor (para receptores serial), vincule o receptor, especifique o mapa de canais, configure os limites\/faixas no TX de forma que todos os canais vão de ~1000 a ~2000. Defina o ponto médio (1500 por padrão), canais de ajuste (trim) em 1500, configure a zona morta do stick, verifique o comportamento quando o TX estiver desligado ou fora de alcance.<br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Antes de voar, leia a documentação e configure o Failsafe."
     },
     "tuningHelp": {
-        "message": "<b>Dicas de otimização<\/b><br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Sempre verifique a temperatura dos motores durante os primeiros voos. Quanto maior o valor do filtro, melhor pode ser o voo, porém, mais ruído chegará aos motores. <br>O Valor padrão de 100Hz é ótimo, mas para veículos com mais ruídos, você pode tentar diminuir o filtro do termo D para 50Hz e possivelmente também o filtro do giroscópio."
+        "message": "<b>Dicas de otimização<\/b><br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Sempre verifique a temperatura dos motores durante os primeiros voos. Quanto maior o valor do filtro, melhor pode ser o voo, porém, mais ruído chegará aos motores. <br>O Valor padrão de 100Hz é ótimo, mas para aeronaves com mais ruídos, você pode tentar diminuir o filtro do termo D para 50Hz e possivelmente também o filtro do giroscópio."
     },
     "receiverThrottleMid": {
         "message": "MEIO do Acelerador"
@@ -2527,7 +2527,7 @@
         "message": "Yaw [R]"
     },
     "controlAxisThrottle": {
-        "message": "Acelerador [T]"
+        "message": "Acelera. [T]"
     },
     "controlAxisAux1": {
         "message": "AUX 1"
@@ -2632,31 +2632,31 @@
         "message": "Filtros Lowpass (Passa Baixa) do GIROSCÓPIO"
     },
     "pidTuningGyroLowpassFrequency": {
-        "message": "Gyro - Filtro Lowpass 1 - Frequência de corte [Hz]"
+        "message": "Gyro - Lowpass 1 - Frequência de corte [Hz]"
     },
     "pidTuningGyroLowpassType": {
-        "message": "Gyro - Filtro Lowpass 1 - Tipo"
+        "message": "Gyro - Lowpass 1 - Tipo"
     },
     "pidTuningGyroLowpass2Frequency": {
-        "message": "Gyro - Filtro Lowpass 2 - Frequência de corte [Hz]"
+        "message": "Gyro - Lowpass 2 - Frequência de corte [Hz]"
     },
     "pidTuningGyroLowpass2Type": {
-        "message": "Gyro - Filtro Lowpass 2 - Tipo"
+        "message": "Gyro - Lowpass 2 - Tipo"
     },
     "pidTuningGyroNotchFiltersGroup": {
         "message": "Filtros Notch (Rejeita Faixa) do GIROSCÓPIO"
     },
     "pidTuningGyroNotch1Frequency": {
-        "message": "Gyro - Filtro Notch 1 - Frequência central [Hz]"
+        "message": "Gyro - Notch 1 - Frequência central [Hz]"
     },
     "pidTuningGyroNotch2Frequency": {
-        "message": "Frequência central - Filtro Notch 2 [Hz]"
+        "message": "Gyro - Notch 2 - Frequência central [Hz]"
     },
     "pidTuningGyroNotch1Cutoff": {
-        "message": "Frequência de corte - Filtro Notch 1 [Hz]"
+        "message": "Gyro - Notch 1 - Frequência de corte [Hz]"
     },
     "pidTuningGyroNotch2Cutoff": {
-        "message": "Frequência de corte - Filtro Notch 2 [Hz]"
+        "message": "Gyro - Notch 2 - Frequência de corte [Hz]"
     },
     "pidTuningNotchFilterHelp": {
         "message": "O filtro Notch tem duas frequências, a de centro e a de corte.<br>O filtro é simétrico.<br>A frequência de corte é onde o filtro começa e a frequência central é o centro do filtro. Por exemplo, configurando o corte em 160Hz e o centro em 260Hz indica que o filtro irá afetar as frequências de 160Hz a 360Hz, com a maior atenuação no centro"
@@ -2668,28 +2668,28 @@
         "message": "Filtro Lowpass (Passa Baixa) do TERMO D"
     },
     "pidTuningDTermLowpassType": {
-        "message": "Tipo - Filtro Lowpass 1"
+        "message": "Termo D - Lowpass 1 - Tipo"
     },
     "pidTuningDTermLowpassFrequency": {
-        "message": "Frequência de corte - Filtro Lowpass 1 [Hz]"
+        "message": "Termo D - Lowpass 1 - Frequência de corte [Hz]"
     },
     "pidTuningDTermLowpass2Frequency": {
-        "message": "Frequência de corte do filtro Lowpass 2 do termo D [Hz]"
+        "message": "Termo D - Lowpass 2 - Frequência de corte [Hz]"
     },
     "pidTuningDTermNotchFiltersGroup": {
         "message": "Filtros Notch (Rejeita Faixa) do TERMO D"
     },
     "pidTuningDTermNotchFrequency": {
-        "message": "Frequência central - Filtro Notch [Hz]"
+        "message": "Termo D - Notch - Frequência central [Hz]"
     },
     "pidTuningDTermNotchCutoff": {
-        "message": "Frequência de corte - Filtro Notch [Hz]"
+        "message": "Termo D - Notch - Frequência de corte [Hz]"
     },
     "pidTuningYawLospassFiltersGroup": {
-        "message": "Filtro Lowpass do Yaw"
+        "message": "Filtro Lowpass (Passa Baixa) do YAW"
     },
     "pidTuningYawLowpassFrequency": {
-        "message": "Frequência de corte do filtro Lowpass do Yaw [Hz]"
+        "message": "Yaw - Lowpass - Frequência de corte [Hz]"
     },
     "pidTuningVbatPidCompensation": {
         "message": "Compensação da Voltagem da bateria (Vbat) no PID"
