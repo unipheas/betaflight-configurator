@@ -852,7 +852,7 @@
         "message": "<strong>Nota:<\/strong> Nem todas as funcionalidades são suportadas por todos os controladores de voo. Se ativar uma funcionalidade específica, e ela é desativada depois de clicar em 'Salvar e Reiniciar', significa que essa funcionalidade não é suportada pela placa."
     },
     "configurationBoardAlignment": {
-        "message": "Alinhamento da placa e do sensor"
+        "message": "Alinhamento da placa e do sensores"
     },
     "configurationBoardAlignmentRoll": {
         "message": "Graus de Rotação (Roll)"
@@ -864,13 +864,13 @@
         "message": "Graus de Orientação (Yaw)"
     },
     "configurationSensorAlignmentGyro": {
-        "message": "Alinhamento do giroscópio"
+        "message": "Rotacionar Giroscópio"
     },
     "configurationSensorAlignmentAcc": {
-        "message": "Alinhamento do Acelerômetro"
+        "message": "Rotacionar Acelerômetro"
     },
     "configurationSensorAlignmentMag": {
-        "message": "Alinhamento do Magnetômetro"
+        "message": "Rotacionar Magnetômetro"
     },
     "configurationSensorAlignmentDefaultOption": {
         "message": "Padrão"
