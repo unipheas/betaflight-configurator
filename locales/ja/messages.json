@@ -2754,9 +2754,6 @@
     "pidTuningAcroTrainerAngleLimit": {
         "message": "アクロトレーナー 角度制限"
     },
-    "pidTuningAcroTrainerAngleLimitHelp": {
-        "message": "アクロモード飛行を練習しているパイロットのため、新しい角度制限を追加します。有効な範囲は10-80です。(0の値で無効になります)"
-    },
     "configHelp2": {
         "message": "横向き \/ 下向き \/ 任意な回転による取付けが可能なFCボードの回転角度です。外部センサーを使用する場合は、センサーのアライメント (Gyro、Accel、コンパス) を使用して、ボードの向きから独立したセンサー位置を定義します。 "
     },
