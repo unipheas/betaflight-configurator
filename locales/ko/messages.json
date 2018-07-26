@@ -2740,9 +2740,6 @@
     "pidTuningAcroTrainerAngleLimit": {
         "message": "아크로 트레이너 앵글 제한"
     },
-    "pidTuningAcroTrainerAngleLimitHelp": {
-        "message": "아크로 모드에서 비행을 배우는 파일럿들을 위해 새로운 각도 제한 모드를 추가합니다. 유효한 범위는 10-80도입니다 (값이 0이면 비활성화됨)."
-    },
     "configHelp2": {
         "message": "옆면 \/ 아래로 \/ 회전 등으로 장착 할 수 있는 임의의 보드 회전 각도(°). 외부 센서를 작동할 때 센서 정렬(자이로, 가속도계, 자력계)을 사용하여 보드 방향과 상관없이 센서 위치를 정의합니다."
     },
