@@ -417,10 +417,10 @@
         "message": "U: $1%"
     },
     "statusbar_packet_error": {
-        "message": "Erro de pacote:"
+        "message": "Erros de pacote:"
     },
     "statusbar_i2c_error": {
-        "message": "Erro I2C:"
+        "message": "Erros I2C:"
     },
     "statusbar_cycle_time": {
         "message": "Tempo de ciclo:"
