@@ -528,13 +528,13 @@
         "message": "Calibrar Acelerômetro"
     },
     "initialSetupCalibrateAccelText": {
-        "message": "Coloque a placa ou o frame numa superfície <strong>nivelada<\/strong> e prossiga com a calibração, certifique-se que a plataforma não se mova durante o período de calibração"
+        "message": "Coloque a placa ou o frame em uma superfície <strong>nivelada<\/strong> e prossiga com a calibração, cuidado para não mover a plataforma durante o período de calibração"
     },
     "initialSetupButtonCalibrateMag": {
         "message": "Calibrar Magnetômetro"
     },
     "initialSetupCalibrateMagText": {
-        "message": "Mova o multirotor pelo menos <strong>360<\/strong> graus em todos os eixos de rotação, você tem 30 segundos para executar esta tarefa"
+        "message": "Mova a aeronave pelo menos <strong>360<\/strong> graus em todos os eixos de rotação, você tem 30 segundos para executar esta tarefa"
     },
     "initialSetupButtonCalibratingText": {
         "message": "Calibrando..."
