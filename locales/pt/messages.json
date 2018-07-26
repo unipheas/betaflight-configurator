@@ -987,7 +987,7 @@
         "message": "Sinais sonoros emitidos quando segurar o stick na posição de desarmar"
     },
     "beeperARMED": {
-        "message": "Sinal sonoro de alerta enquanto o controlador de voo estiver armado com os motores parados (repete até que a controlador de voo seja desarmado ou o acelerador aumentado)"
+        "message": "Sinal sonoro de alerta enquanto o controlador de voo estiver armado com os motores parados (repete até que seja desarmado ou o acelerador aumentado)"
     },
     "beeperSYSTEM_INIT": {
         "message": "Sinais sonoros de inicialização quando a placa é ligada"
