@@ -3586,9 +3586,6 @@
     "onboardLoggingMsc": {
         "message": "大容量存储模式"
     },
-    "onboardLoggingMscNote": {
-        "message": "重新启动到 <strong>大容量存储设备 (MSC)<\/strong> 模式。一旦激活, 您的飞行控制器上的板载闪存或 SD 卡将被计算机识别为存储设备, 并允许您下载日志文件。要退出此模式，请在电脑上执行弹出操作，并给飞控重新上电。"
-    },
     "onboardLoggingRebootMscText": {
         "message": "激活大容量存储设备模式"
     },
