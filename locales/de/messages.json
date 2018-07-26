@@ -3490,9 +3490,6 @@
     "onboardLoggingMsc": {
         "message": "Massenspeicher-Modus"
     },
-    "onboardLoggingMscNote": {
-        "message": "Starte im <strong>Massenspeicher-Geräte (MSC)<\/strong> -Modus. Wenn aktiviert, wird der Onboard-Flashspeicher oder die SD-Karte auf Ihrem FC von Ihrem Computer als ein Speichergerät erkannt wird und ermöglicht es, deine Log-Dateien herunterladen. Auswerfen und Reboot des FC, um Massenspeicher-Geräte-Modus zu verlassen."
-    },
     "onboardLoggingRebootMscText": {
         "message": "Aktiviere Massenspeicher-Modus"
     },
