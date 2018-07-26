@@ -1481,16 +1481,16 @@
         "message": "Use o Slot 2 e um switch de 3 posições no AUX4 para selecionar e ativar um perfil de taxa."
     },
     "adjustmentsColumnEnable": {
-        "message": "Se ativo"
+        "message": "Ativar"
     },
     "adjustmentsColumnUsingSlot": {
         "message": "usando slot"
     },
     "adjustmentsColumnWhenChannel": {
-        "message": "quando o canal"
+        "message": "Quando o canal"
     },
     "adjustmentsColumnIsInRange": {
-        "message": "está na faixa"
+        "message": "estiver na faixa"
     },
     "adjustmentsColumnThenApplyFunction": {
         "message": "então ajustar"
@@ -1685,7 +1685,7 @@
         "message": "Servos requerem o firmware &gt;= 1.10.0. e suporte do destino."
     },
     "servosChangeDirection": {
-        "message": "Mude a direção no TX para que fique igual"
+        "message": "Mude a direção no TX para que fique igual ao movimento do servo"
     },
     "servosName": {
         "message": "Nome"
@@ -1778,10 +1778,10 @@
         "message": "Voltagem:"
     },
     "motorsADrawing": {
-        "message": "Amperagem:"
+        "message": "Corrente:"
     },
     "motorsmAhDrawn": {
-        "message": "Amp. Usada:"
+        "message": "Corrente Utilizada:"
     },
     "motorsVoltageValue": {
         "message": "$1 V"
