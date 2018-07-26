@@ -885,7 +885,7 @@
         "message": "Ajustes da inclinação (pitch) do Acelerômetro"
     },
     "configurationArming": {
-        "message": "Armando"
+        "message": "Ajustes para Armar"
     },
     "configurationArmingHelp": {
         "message": "Algumas opções de armar podem necessitar que o acelerômetro esteja ativado"
