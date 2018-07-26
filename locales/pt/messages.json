@@ -2629,34 +2629,34 @@
         "message": "Configurações de filtros independentes de perfil"
     },
     "pidTuningGyroLowpassFiltersGroup": {
-        "message": "Filtros Lowpass do giroscópio"
+        "message": "Filtros Lowpass (Passa Baixa) do GIROSCÓPIO"
     },
     "pidTuningGyroLowpassFrequency": {
-        "message": "Frequência de corte do filtro Lowpass 1 do Giroscópio [Hz]"
+        "message": "Frequência de corte - Filtro Lowpass 1 [Hz]"
     },
     "pidTuningGyroLowpassType": {
-        "message": "Tipo do filtro Lowpass 1 do giroscópio"
+        "message": "Tipo - Fltro Lowpass 1"
     },
     "pidTuningGyroLowpass2Frequency": {
-        "message": "Frequência de corte do filtro Lowpass 2 do Giroscópio [Hz]"
+        "message": "Frequência de corte - filtro Lowpass 2 [Hz]"
     },
     "pidTuningGyroLowpass2Type": {
-        "message": "Tipo do filtro Lowpass 2 do giroscópio"
+        "message": "Tipo - Filtro Lowpass 2"
     },
     "pidTuningGyroNotchFiltersGroup": {
-        "message": "Filtros Notch do Giroscópio"
+        "message": "Filtros Notch (Rejeita Faixa) do GIROSCÓPIO"
     },
     "pidTuningGyroNotch1Frequency": {
-        "message": "Frequência central do filtro Notch 1 do giroscópio [Hz]"
+        "message": "Frequência central - Filtro Notch 1 [Hz]"
     },
     "pidTuningGyroNotch2Frequency": {
-        "message": "Frequência central do filtro Notch 2 do giroscópio [Hz]"
+        "message": "Frequência central - Filtro Notch 2 [Hz]"
     },
     "pidTuningGyroNotch1Cutoff": {
-        "message": "Frequência de corte do filtro Notch 1 do Giroscópio [Hz]"
+        "message": "Frequência de corte - Filtro Notch 1 [Hz]"
     },
     "pidTuningGyroNotch2Cutoff": {
-        "message": "Frequência de corte do filtro Notch 2 do Giroscópio [Hz]"
+        "message": "Frequência de corte - Filtro Notch 2 [Hz]"
     },
     "pidTuningNotchFilterHelp": {
         "message": "O filtro Notch tem duas frequências, a de centro e a de corte. O filtro é simétrico. A frequência de centro é o centro do filtro e a frequência de corte é onde o filtro começa. Por exemplo, configurando o corte em 160Hz e o centro em 260Hz indica que o range será de 160Hz a 360Hz, com a maior atenuação no centro"
