@@ -2754,6 +2754,9 @@
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Ángulo Límite para Entrenador Acro"
     },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "Añade un nuevo modo que limita el ángulo para pilotos que están aprendiendo a volar en modo acro. El rango válido es 10-80 y debe activarse con un interruptor en la pestaña de $t(tabAuxiliary.message)."
+    },
     "configHelp2": {
         "message": "Rotación arbitraria de la placa en grados, para permitir montaje de lado \/ boca abajo \/ rotada etc. Al ejecutar sensores externos, usa la alineación del sensor (Giro, Acc, Mag) para definir la posición del sensor independientemente de la orientación de la placa. "
     },
@@ -3593,6 +3596,9 @@
     },
     "onboardLoggingMsc": {
         "message": "Modo de Almacenamiento Masivo"
+    },
+    "onboardLoggingMscNote": {
+        "message": "Reinicia en modo de <strong>dispositivo de almacenamiento masivo (MSC)<\/strong>. Una vez activado, la memoria integrada o la tarjeta SD de tu controlador de vuelo será reconocida como dispositivo de almacenamiento por tu ordenador, y te permitirá descargar tus archivos de registro. Expulsa y apaga y enciende de nuevo tu controlador de vuelo para abandonar el modo de dispositivo de almacenamiento masivo."
     },
     "onboardLoggingRebootMscText": {
         "message": "Activar Modo de Dispositivo de Almacenamiento Masivo"
