@@ -2706,9 +2706,6 @@
     "pidTuningSmartFeedforward": {
         "message": "Feedforward Inteligente"
     },
-    "pidTuningSmartFeedforwardHelp": {
-        "message": "Reduz o efeito do termo F no PIDF; Quando os termos P e F estão ativos ao mesmo tempo, esta opção faz com que somente o termo com o maior valor seja utilizado, evitando movimentos exagerados sem a necessidade de aumentar o termo D, porém isto também reduz a velocidade de resposta gerado pelo termo F quando adicionado ao termo P."
-    },
     "pidTuningItermRelax": {
         "message": "Relaxar o Termo I"
     },
