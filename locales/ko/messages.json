@@ -1181,6 +1181,17 @@
     "pidTuningNonProfilePidSettings": {
         "message": "프로파일 독립적 PID 컨트롤러 설정"
     },
+    "pidTuningAntiGravityMode": {
+        "message": "안티 그래비티 모드"
+    },
+    "pidTuningAntiGravityModeOptionSmooth": {
+        "message": "스무드",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityModeOptionStep": {
+        "message": "스텝",
+        "description": "One of the modes of anti gravity"
+    },
     "pidTuningAntiGravityGain": {
         "message": "안티 그래비티 게인"
     },
@@ -1435,6 +1446,9 @@
     },
     "auxiliaryHelp": {
         "message": "범위를 사용하여 송신기의 스위치를 정의하고, 해당 모드를 지정하십시오. 수신기 채널이 범위의 최소\/최대 사이에서 판독이 되면, 그 모드가 활성화됩니다. 반드시 저장 버튼을 사용하여 설정을 저장하십시오."
+    },
+    "auxiliaryToggleUnused": {
+        "message": "사용하지 않는 모드 표시\/숨기기"
     },
     "auxiliaryMin": {
         "message": "최소값"
@@ -2740,6 +2754,9 @@
     "pidTuningAcroTrainerAngleLimit": {
         "message": "아크로 트레이너 앵글 제한"
     },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "아크로 모드에서 비행을 배우는 파일럿을 위한 새로운 앵글 제한 모드를 추가 합니다. 유효한 범위 10-80 이며 $t(tabAuxiliary.message) 탭에서 스위치를 활성화 해야 합니다."
+    },
     "configHelp2": {
         "message": "옆면 \/ 아래로 \/ 회전 등으로 장착 할 수 있는 임의의 보드 회전 각도(°). 외부 센서를 작동할 때 센서 정렬(자이로, 가속도계, 자력계)을 사용하여 보드 방향과 상관없이 센서 위치를 정의합니다."
     },
@@ -3579,6 +3596,9 @@
     },
     "onboardLoggingMsc": {
         "message": "대용량 저장 모드"
+    },
+    "onboardLoggingMscNote": {
+        "message": "<strong>대용량 저장 장치 (MSC)<\/strong> 모드로 재부팅. 한번 활성화되면 당신의 비행 컨트롤러의 온보드 플래시 또는 SD 카드는 당신의 컴퓨터에서 저장 장치로 인식될 것입니다. 그리고 당신의 로그 파일을 다운로드할 수 있습니다. 대량 저장 장치 모드를 종료하려면 비행 컨트롤러를 꺼내고 껐다가 다시 켜십시오."
     },
     "onboardLoggingRebootMscText": {
         "message": "대용량 저장 장치 모드 활성화"
