@@ -2706,9 +2706,6 @@
     "pidTuningSmartFeedforward": {
         "message": "스마트 피드포워드"
     },
-    "pidTuningSmartFeedforwardHelp": {
-        "message": "PIDF에서 F 텀의 효과를 감소시킵니다. P 텀과 F 텀이 동시에 활성화되면, D를 올릴 필요 없이 오버 슈트를 방지하면서 둘 중 더 큰 것만 사용합니다. 또한 P에 추가하면 F 텀에 의해 생성되는 반응 효과도 감소합니다."
-    },
     "pidTuningItermRelax": {
         "message": "I 텀 릴렉스"
     },
