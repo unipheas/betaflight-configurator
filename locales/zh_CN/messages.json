@@ -1181,6 +1181,17 @@
     "pidTuningNonProfilePidSettings": {
         "message": "独立于配置文件的PID控制器设置"
     },
+    "pidTuningAntiGravityMode": {
+        "message": "反重力模式"
+    },
+    "pidTuningAntiGravityModeOptionSmooth": {
+        "message": "平滑",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityModeOptionStep": {
+        "message": "步进",
+        "description": "One of the modes of anti gravity"
+    },
     "pidTuningAntiGravityGain": {
         "message": "反重力增益"
     },
@@ -2695,6 +2706,9 @@
     "pidTuningSmartFeedforward": {
         "message": "智能前馈"
     },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "减少 F 值在 PID 中的效果。当 P 和 F 同时激活时，只取两者中的较大值来避免过头而无需提高 D，但这也会降低 F 值提供的响应效果。"
+    },
     "pidTuningItermRelax": {
         "message": "I 值释放"
     },
@@ -2739,6 +2753,9 @@
     },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "萌新手动模式角度限制"
+    },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "为正在学习飞行的飞行员增加一个新的角度限制模式。有效范围为 10-80，需要使用 $t(tabAuxiliary.message) 选项卡中的一个开关激活。"
     },
     "configHelp2": {
         "message": "任意角度（直立，反转，旋转等）安装飞控板。当使用外部传感器时，请使用传感器校正设置(陀螺，加速度计，磁场计)来决定独立于飞控板的传感器位置。"
@@ -3544,6 +3561,9 @@
     "pidTuningPidTuningTip": {
         "message": "<b>比例 P:<\/b> 数值越大，飞机会输出越大力量来抵消外力引起的移动，过大会引起震荡 <br><b>积分 I:<\/b>数值越大，对保持飞机姿态更好。但是也会增加飞机到达预定角度时间。<br><b>导数 D:<\/b> 增加回中时间，但是也会增加噪声<br><b>Rates and Expo<\/b>: Rates 和expo 影响摇杆手感。参考图表和实时3D模型预览来找到你喜欢的设定。"
     },
+    "pidTuningPidTuningTipFeedforward": {
+        "message": "<b>比例 P:<\/b> 数值越大，飞机会输出越大力量来抵消外力引起的移动，过大会引起震荡 <br><b>积分 I:<\/b>数值越大，对保持飞机姿态更好。但是也会增加飞机到达预定角度时间。<br><b>导数 D:<\/b> 增加回中时间，但是也会增加噪声<br><b>前馈:<\/b> 通常PID响应误差值。前馈则基于摇杆输入来预测误差，提高飞机的响应。<br><b>Rates and Expo<\/b>: Rates 和expo 影响摇杆手感。参考图表和实时3D模型预览来找到你喜欢的设定。"
+    },
     "pidTuningRatesTip": {
         "message": "尝试不同的rates并观察它如何影响摇杆曲线"
     },
@@ -3579,6 +3599,9 @@
     },
     "onboardLoggingMsc": {
         "message": "大容量存储模式"
+    },
+    "onboardLoggingMscNote": {
+        "message": "重新启动到 <strong>大容量存储设备 (MSC)<\/strong> 模式。一旦激活, 您的飞行控制器上的板载闪存或 SD 卡将被计算机识别为存储设备, 并允许您下载日志文件。要退出此模式，请在电脑上执行弹出操作，并给飞控重新上电。"
     },
     "onboardLoggingRebootMscText": {
         "message": "激活大容量存储设备模式"
