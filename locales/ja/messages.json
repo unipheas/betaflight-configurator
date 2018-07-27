@@ -2754,6 +2754,9 @@
     "pidTuningAcroTrainerAngleLimit": {
         "message": "アクロトレーナー 角度制限"
     },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "アクロモードでの飛行を練習しているパイロットのための新しい角度制限モードを追加します。有効範囲は10-80、$t(tabAuxiliary.message)タブのスイッチで有効となります。"
+    },
     "configHelp2": {
         "message": "横向き \/ 下向き \/ 任意な回転による取付けが可能なFCボードの回転角度です。外部センサーを使用する場合は、センサーのアライメント (Gyro、Accel、コンパス) を使用して、ボードの向きから独立したセンサー位置を定義します。 "
     },
@@ -3593,6 +3596,9 @@
     },
     "onboardLoggingMsc": {
         "message": "大容量ストレージモード"
+    },
+    "onboardLoggingMscNote": {
+        "message": "<strong>大容量ストレージ (MSC)<\/strong> モードで再起動します。有効にするとFCボードのオンボードフラッシュ領域、またはSDカードがPCのストレージデバイスとして認識され、ログファイルのダウンロードが可能となります。大容量ストレージモードを終了するには、FCボードを切り離し再起動を行います。"
     },
     "onboardLoggingRebootMscText": {
         "message": "大容量ストレージモードを有効化"
