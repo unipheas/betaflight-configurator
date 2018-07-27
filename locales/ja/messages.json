@@ -2706,9 +2706,6 @@
     "pidTuningSmartFeedforward": {
         "message": "スマート フィードフォワード"
     },
-    "pidTuningSmartFeedforwardHelp": {
-        "message": "PIDFにおけるF値の影響を低減します。P値とF値の両方が同じタイミングで有効である場合、D値を上昇させることなくオーバーシュートを回避することができるだけでなく、より大きな値をP値に加えられたとき、F値によって生成される応答効果も低減します。"
-    },
     "pidTuningItermRelax": {
         "message": "I値 リラックス"
     },
