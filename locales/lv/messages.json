@@ -2706,9 +2706,6 @@
     "pidTuningSmartFeedforward": {
         "message": "Gudrais Feedforward"
     },
-    "pidTuningSmartFeedforwardHelp": {
-        "message": "Samazina F Term efektu iekš PIDF. Kad vienlaicīgi P Term un F Term ir aktīvi, tas izmanto lielāko no viņiem, izvairoties no overšootiem bez nepieciešamības palielināt D, bet arī samazina atsaucības efektu ko rada F Term kad tas pievienots pie P."
-    },
     "pidTuningItermRelax": {
         "message": "I Term Relaks"
     },
