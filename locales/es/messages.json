@@ -2706,9 +2706,6 @@
     "pidTuningSmartFeedforward": {
         "message": "Prealimentación Inteligente"
     },
-    "pidTuningSmartFeedforwardHelp": {
-        "message": "Reduce el efecto del término F (Prealimentación) en el PID. Cuando tanto el término P como el término F están activos en el mismo momento, sólo usa el más grande de los dos, evitando sobre rebasamientos sin la necesidad de aumentar D, pero también reduce el efecto de respuesta producido por el término F cuando se ha añade a P."
-    },
     "pidTuningItermRelax": {
         "message": "Relajar I Term"
     },
