@@ -2706,6 +2706,9 @@
     "pidTuningSmartFeedforward": {
         "message": "Prealimentación Inteligente"
     },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "Reduce el efecto del término F (Prealimentación) en el PID. Cuando tanto el término P como el término F están activos en el mismo momento, sólo usa el más grande de los dos, evitando sobre rebasamientos sin la necesidad de aumentar D, pero también reduce el efecto de respuesta producido por el término F cuando se ha añade a P."
+    },
     "pidTuningItermRelax": {
         "message": "Relajar I Term"
     },
@@ -3557,6 +3560,9 @@
     },
     "pidTuningPidTuningTip": {
         "message": "<b>Proporcional:<\/b> Notarás una fuerte resistencia a cualquier intento de mover el MultiRotor<br><b>Integral:<\/b> Incrementa la habilidad de mantener la posición inicial general y reduce la deriva, pero también incrementa el retraso para volver a la posición inicial.<br><b>Derivativo:<\/b> Mejora la velocidad a la que se recuperan las desviaciones, pero incrementa el ruido<br><b>Tasas y Expo<\/b>: Determina las sensaciones con las palancas basadas en estos parámetros. Usa el gráfico y el modelo 3D en vivo para encontrar tus ajustes de tasas favorito"
+    },
+    "pidTuningPidTuningTipFeedforward": {
+        "message": "<b>Proporcional:<\/b> Notarás una fuerte resistencia a cualquier intento de mover el MultiRotor<br><b>Integral:<\/b> Incrementa la habilidad de mantener la posición inicial general y reduce la deriva, pero también incrementa el retraso para volver a la posición inicial.<br><b>Derivativo:<\/b> Mejora la velocidad a la que se recuperan las desviaciones, pero incrementa el ruido<br><b>Prealimentación:<\/b> Normalmente el controlador PID reacciona al error. La Prealimentación anticipa el error basándose en la entrada de los mandos, mejorando el tiempo de respuesta del quad.<br><b>Tasas y Expo<\/b>: Determina las sensaciones con las palancas basadas en estos parámetros. Usa el gráfico y el modelo 3D en vivo para encontrar tus ajustes de tasas favorito"
     },
     "pidTuningRatesTip": {
         "message": "Juega con las tasas y mira como afectan a la curva de las palancas"
