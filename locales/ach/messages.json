@@ -2750,7 +2750,7 @@
         "message": "crwdns8789:0crwdne8789:0"
     },
     "pidTuningSmartFeedforwardHelp": {
-        "message": "crwdns8790:0crwdne8790:0"
+        "message": "crwdns8822:0crwdne8822:0"
     },
     "pidTuningItermRelax": {
         "message": "crwdns8791:0crwdne8791:0"
@@ -3603,6 +3603,9 @@
     },
     "pidTuningPidTuningTip": {
         "message": "crwdns6353:0crwdne6353:0"
+    },
+    "pidTuningPidTuningTipFeedforward": {
+        "message": "crwdns8823:0crwdne8823:0"
     },
     "pidTuningRatesTip": {
         "message": "crwdns6354:0crwdne6354:0"
