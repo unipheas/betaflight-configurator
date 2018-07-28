@@ -473,9 +473,6 @@
     "defaultDonateHead": {
         "message": "Atvērtā koda \/ ziedojuma paziņojums"
     },
-    "defaultDonateText": {
-        "message": "Šī utilīta ir pilnībā <strong>atvērta koda tipa<\/strong> un ir pieejama bezmaksas visiem <strong>Betaflight<\/strong> lietotājiem.<br \/>Ja tev Betaflight vai Betaflight konfigurators ir noderīgi, lūdzu apsver iespēju <strong>atbalstīt<\/strong> to izstrādi ziedojot."
-    },
     "defaultDonate": {
         "message": "Ziedot"
     },
