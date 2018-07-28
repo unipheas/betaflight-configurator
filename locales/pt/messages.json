@@ -473,9 +473,6 @@
     "defaultDonateHead": {
         "message": "Código Fonte \/ Nota de Doação"
     },
-    "defaultDonateText": {
-        "message": "Este utilitário é totalmente feito com <strong>código aberto<\/strong> e está disponível sem custos a todos os usuários do <strong>Betaflight<\/strong>.<br \/>Se considera o Betaflight ou o Configurator Betaflight útil, por favor considere <strong>ajudar<\/strong> seu desenvolvimento com uma doação."
-    },
     "defaultDonate": {
         "message": "Doar"
     },
