@@ -473,9 +473,6 @@
     "defaultDonateHead": {
         "message": "オープンソース \/ 寄付について"
     },
-    "defaultDonateText": {
-        "message": "このユーティリティは完全な<strong>オープンソース<\/strong>として、<strong>Betaflight<\/strong>ユーザに対し無償で提供されています。<br \/>もし、あなたがBetaflightやBetaflight Configuratorが非常に便利だと感じ、<strong>サポートしたい！<\/strong>と思ったら、ぜひ寄付をご検討下さい。"
-    },
     "defaultDonate": {
         "message": "寄付"
     },
