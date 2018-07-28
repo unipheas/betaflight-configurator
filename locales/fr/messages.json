@@ -470,9 +470,6 @@
     "defaultDonateHead": {
         "message": "Open Source \/ Avis de dons"
     },
-    "defaultDonateText": {
-        "message": "Cet utilitaire est entièrement <strong>open source<\/strong> et disponible gratuitement pour tous les utilisateurs de <strong>Betaflight<\/strong>.<br \/>Si vous trouvez Betaflight ou son configurateur utiles, n'hésitez pas à soutenir son développement. <strong>Soutenez-nous <\/strong> en faisant un don."
-    },
     "defaultDonate": {
         "message": "Don"
     },
