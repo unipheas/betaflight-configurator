@@ -473,9 +473,6 @@
     "defaultDonateHead": {
         "message": "Código Abierto \/ Aviso de Donación"
     },
-    "defaultDonateText": {
-        "message": "Esta utilidad es completamente de <strong>código abierto<\/strong> y está disponible gratuitamente para todos los usuarios de <strong>Betaflight<\/strong>.<br \/>Si encuentras Betaflight o Betaflight Configurator útil, por favor considera <strong>ayudar<\/strong> al desarrollo donando."
-    },
     "defaultDonate": {
         "message": "Donar"
     },
