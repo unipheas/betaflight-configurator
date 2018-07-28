@@ -455,9 +455,6 @@
     "defaultDonateHead": {
         "message": "Codi Lliure \/ Avís de Donació"
     },
-    "defaultDonateText": {
-        "message": "Aquesta eina és <strong>codi lliure<\/strong> i és gratuïta per als usuaris de  <strong>Betaflight<\/strong>.<br \/>Si trobes Betaflight o el seu configurador útil, si us plau considera <strong>ajudar<\/strong> al seu desenvolupament fent una donació."
-    },
     "defaultDonate": {
         "message": "Fes una donació"
     },
