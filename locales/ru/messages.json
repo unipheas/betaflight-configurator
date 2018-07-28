@@ -455,9 +455,6 @@
     "defaultDonateHead": {
         "message": "Открытый код \/ Пожертвование"
     },
-    "defaultDonateText": {
-        "message": "Эта утилита содержит полностью   <strong>открытый исходный код<\/strong> и является бесплатной для всех  пользователей <strong>Betaflight<\/strong>.<br \/>Если вы находите Betaflight или Betaflight конфигуратор полезным, пожалуйста, рассмотрите вопрос о  <strong>поддержке<\/strong> этой разработки пожертвованием."
-    },
     "defaultDonate": {
         "message": "Пожертвовать"
     },
