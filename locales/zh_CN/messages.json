@@ -1189,7 +1189,7 @@
         "description": "One of the modes of anti gravity"
     },
     "pidTuningAntiGravityModeOptionStep": {
-        "message": "步进",
+        "message": "阶跃",
         "description": "One of the modes of anti gravity"
     },
     "pidTuningAntiGravityGain": {
@@ -1226,7 +1226,7 @@
         "message": "遥控信号插值间隙[毫秒]"
     },
     "pidTuningFeedforwardTransition": {
-        "message": "前馈过渡"
+        "message": "前馈过渡阈值"
     },
     "pidTuningFeedforwardTransitionHelp": {
         "message": "通过这个参数， 前馈值可以被降低到接近摇杆中点，使翻滚动作的结束更平滑一些。<br> 该值表示摇杆偏移量：0代表摇杆居中，1代表摇杆打满。当摇杆实际位置大于该值时，前馈值保持在用户设定的数字不变。当摇杆实际位置小于该值时，前馈值会按比例下降，在摇杆居中时降低到0。<br> 设置为1可以获得最平滑的效果，而设置为0将保持前馈值在全程都保持在用户设定的数字不变。"
@@ -1256,7 +1256,7 @@
         "message": "Derivative"
     },
     "pidTuningFeedforward": {
-        "message": "前馈"
+        "message": "Feedforward"
     },
     "pidTuningRcRate": {
         "message": "RC Rate"
