@@ -473,9 +473,6 @@
     "defaultDonateHead": {
         "message": "开源\/捐赠说明"
     },
-    "defaultDonateText": {
-        "message": "这是一个完全<strong>开源 <\/strong>的工具 ，所有<strong>betaflight<\/strong>的用户都可免费使用。<br \/>如果你觉得Betaflight和betaflight configurator对你有很大帮助，请考虑通过捐赠来<strong>支持<\/strong>它们的开发。"
-    },
     "defaultDonate": {
         "message": "捐赠"
     },
