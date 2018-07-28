@@ -320,9 +320,6 @@
     "defaultDonateHead": {
         "message": "Código aberto \/ Aviso de doazón"
     },
-    "defaultDonateText": {
-        "message": "Esta aplicación é totalmente <strong> código aberto <\/strong> e está dispoñible sen custo algún para tódolos usuarios de <strong>Betaflight<\/strong>.<br \/> Se atopas Betaflight ou o configurador de Betaflight útil,  por favor considera  <strong>aportar<\/strong> no seu desenvolvemento doando."
-    },
     "defaultDonate": {
         "message": "Doar"
     },
