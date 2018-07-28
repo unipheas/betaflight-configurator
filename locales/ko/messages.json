@@ -473,9 +473,6 @@
     "defaultDonateHead": {
         "message": "오픈 소스 \/ 기부 알림"
     },
-    "defaultDonateText": {
-        "message": "이 유틸리티는 완전한 <strong>오픈 소스<\/strong>이며 모든 <strong>베타플라이트<\/strong> 사용자들이 무료로 사용할 수 있습니다.<br \/>베타플라이트 또는 베타플라이트 컨피규레이터가 유용하다고 판단되면, 기부하는 방법으로 개발을 <strong>지원하는<\/strong> 것을 고려하시기 바랍니다."
-    },
     "defaultDonate": {
         "message": "기부"
     },
