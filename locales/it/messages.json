@@ -464,9 +464,6 @@
     "defaultDonateHead": {
         "message": "Open Source \/ donazione"
     },
-    "defaultDonateText": {
-        "message": "Questa utility è completamente <strong>open source<\/strong> ed è disponibile gratuitamente per tutti gli utenti <strong>Betaflight<\/strong>.<br \/>Se ritieni Betaflight o il configuratore Betaflight utili, valuta di <strong> supportare<\/strong> il suo sviluppo con una donazione."
-    },
     "defaultDonate": {
         "message": "Dona"
     },
