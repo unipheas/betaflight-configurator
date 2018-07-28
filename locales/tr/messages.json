@@ -139,9 +139,6 @@
     "defaultDonateHead": {
         "message": "Açık Kaynak \/ Bağış Bildirimi"
     },
-    "defaultDonateText": {
-        "message": "Bu hizmet tamamen <strong>açık kaynaklı<\/strong> ve <strong>Betaflight<\/strong> kullanıcısı olan herkes için ücretsiz olarak mevcuttur.<br \/> Eğer Betaflight'ı veya Betaflight yapılandırıcısını kullanışlı bulduysanız lütfen gelişimine bağışla <strong>katkıda bulunmayı<\/strong> bir düşünün."
-    },
     "defaultDonate": {
         "message": "Bağış"
     },
