@@ -464,9 +464,6 @@
     "defaultDonateHead": {
         "message": "Open Source \/ Spenden Hinweis"
     },
-    "defaultDonateText": {
-        "message": "Dieses Programm ist komplett <strong> Open Source<\/strong> und für alle <strong>Betaflight<\/strong> Benutzer kostenlos verfügbar. Falls der Konfigurator hilfreich ist, bitte denke darüber nach das Projekt mit einer Spende zu <strong>unterstützen<\/strong>."
-    },
     "defaultDonate": {
         "message": "Spenden"
     },
