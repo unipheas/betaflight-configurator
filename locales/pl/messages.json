@@ -377,9 +377,6 @@
     "defaultDonateHead": {
         "message": "Open Source \/ Informacja o darowiznach"
     },
-    "defaultDonateText": {
-        "message": "To narzędzie jest w pełni <strong>open source'owe<\/strong> i jest dostępne za darmo dla wszystkich użytkowników <strong>Betaflight<\/strong>.<br \/>Jeżeli uznajesz Betaflight lub Betaflight configurator za przydatne, proszę rozważ<strong>wsparcie<\/strong> ich rozwoju dotacją."
-    },
     "defaultDonate": {
         "message": "Dotacja"
     },
