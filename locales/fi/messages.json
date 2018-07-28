@@ -401,9 +401,6 @@
     "defaultDonateHead": {
         "message": "Avoin lähdekoodi \/ Lahjoitustiedot"
     },
-    "defaultDonateText": {
-        "message": "Tämä ohjelma on täysin <strong>avointa lähdekoodia<\/strong> ja on ilmainen kaikille <strong>Betaflightin<\/strong> käyttäjille.<br \/>Jos koit, että Betaflight tai Betaflight configurator oli sinulle hyödyksi, harkitsethan projektin kehitystyön <strong>tukemista<\/strong> lahjoittamalla."
-    },
     "defaultDonate": {
         "message": "Lahjoita"
     },
