@@ -448,9 +448,6 @@
     "defaultDonateHead": {
         "message": "Sumber Serbuka \/ Peringatan Donasi"
     },
-    "defaultDonateText": {
-        "message": "Utilitas ini adalah sepenuhnya <strong>open source<\/strong> dan tersedia secara gratis untuk semua <strong>Betaflight<\/strong> pengguna.<br \/>Jika anda menemukan Betaflight atau Betaflight configurator yang berguna, silakan mempertimbangkan <strong>mendukung<\/strong> perkembangannya dengan menyumbang."
-    },
     "defaultDonate": {
         "message": "Menyumbangkan"
     },
