@@ -473,6 +473,9 @@
     "defaultDonateHead": {
         "message": "Atvērtā koda \/ ziedojuma paziņojums"
     },
+    "defaultDonateText": {
+        "message": "<strong>Betaflight<\/strong> ir lidojuma kontroliera programmatūra, kas ir <strong>atvērta koda tipa<\/strong> un ir pieejama bezmaksas <strong>bez garantijas<\/strong> visiem lietotājiem.<br \/>Ja tev Betaflight vai Betaflight konfigurators ir noderīgi, lūdzu apsver iespēju <strong>atbalstīt<\/strong> to izstrādi ziedojot."
+    },
     "defaultDonate": {
         "message": "Ziedot"
     },
@@ -2703,6 +2706,9 @@
     "pidTuningSmartFeedforward": {
         "message": "Gudrais Feedforward"
     },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "Samazina F Term efektu iekš PID. Kad vienlaicīgi P Term un F Term ir aktīvi, tas izmanto lielāko no viņiem, izvairoties no overšootiem bez nepieciešamības palielināt D, bet arī samazina atsaucības efektu ko rada F Term, kad tas pievienots pie P."
+    },
     "pidTuningItermRelax": {
         "message": "I Term Relaks"
     },
@@ -2747,6 +2753,9 @@
     },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Akro trenera leņķa limits"
+    },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "Pievieno jaunu leņķi limitējošu režīmu priekš pilotiem, kas mācās lidot akro režīmā. Derīgais diapazons ir 10-80 un tam jābūt aktivizētam ar slēdzi iekš $t(tabAuxiliary.message) cilnes."
     },
     "configHelp2": {
         "message": "Patvaļīga plates pagriešana grādos, lai atļautu uzstādīt to sāniski \/ augšpēdus \/ pagrieztu utt. Kad darbojas ar ārējo sensoru, izmantojiet sensora pielāgošanu (Žiro, Aksel, Mag), lai definētu sensora pozīciju neatkarīgi no plates orientācijas. "
@@ -3552,6 +3561,9 @@
     "pidTuningPidTuningTip": {
         "message": "<b>Proportional:<\/b> Jūs jutīsiet ļoti spēcīgu pretestību pie visiem mēģinājumiem kustināt multirotoru<br><b>Integral:<\/b> Palielina spēju noturēt sākotnējo pozīciju un samazina dreifēšanu, bet arī palielina laiku, kas nepieciešams nonākšanai sākotnējā pozīcijā.<br><b>Derivative:<\/b> Uzlabo laiku, kurā novirze tiek labota, bet palielina trokšņus<br><b>Ātrumi un Ekspo <\/b>: Šie parametri nosaka cik jūtīgas būs vadības sviras. Pielietojiet ātrumu līknes un 3D modeli, lai atrastu jums visatbilstošākos ātruma iestatījumus"
     },
+    "pidTuningPidTuningTipFeedforward": {
+        "message": "<b>Proportional:<\/b> Jūs jutīsiet ļoti spēcīgu pretestību pie visiem mēģinājumiem kustināt multirotoru<br><b>Integral:<\/b> Palielina spēju noturēt sākotnējo pozīciju un samazina dreifēšanu, bet arī palielina laiku, kas nepieciešams nonākšanai sākotnējā pozīcijā.<br><b>Derivative:<\/b> Uzlabo laiku, kurā novirze tiek labota, bet palielina trokšņus<br><b>Feedforward:<\/b> Parasti PID kontrolieris reaģē uz kļūdām. Feedforward paredz kļūdu balstoties un vadības sviru ievadi, dodot atsaucīgāku multirotoru. <br><b>Ātrumi un Ekspo <\/b>: Šie parametri nosaka cik jūtīgas būs vadības sviras. Pielietojiet ātrumu līknes un 3D modeli, lai atrastu jums visatbilstošākos ātruma iestatījumus"
+    },
     "pidTuningRatesTip": {
         "message": "Paeksperimentējiet ar ātrumiem un novērojiet kā tas ietekmēs vadības sviras līkni"
     },
@@ -3587,6 +3599,9 @@
     },
     "onboardLoggingMsc": {
         "message": "Lielapjoma atmiņas režīms"
+    },
+    "onboardLoggingMscNote": {
+        "message": "Pārstartēties <strong>lielapjoma atmiņas ierīces (MSC)<\/strong> režīmā. Kad aktivizēsies, jūsu dators, integrēto atmiņu vai SD karti uz jūsu lidojuma kontroliera atpazīs kā lielapjoma atmiņa, un ļaus jums lejuplādēt jūsu log failus. Atvienojiet jūsu lidojuma kontrolieri, lai pamestu lielapjoma atmiņas režīmu."
     },
     "onboardLoggingRebootMscText": {
         "message": "Aktivizēt lielapjoma atmiņas ierīces režīmu"
