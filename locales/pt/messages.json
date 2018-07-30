@@ -473,6 +473,9 @@
     "defaultDonateHead": {
         "message": "Código Fonte \/ Nota de Doação"
     },
+    "defaultDonateText": {
+        "message": "<strong>Betaflight<\/strong> é um software para controladores de voo, feito com <strong>código aberto<\/strong> e disponível gratuitamente <strong>sem nenhuma garantia<\/strong> para todos os usuários.<br \/> Se você achou o Betaflight ou o Configurador Betaflight útil, considere <strong>ajudar<\/strong> seu desenvolvimento com uma doação."
+    },
     "defaultDonate": {
         "message": "Doar"
     },
@@ -2702,6 +2705,9 @@
     },
     "pidTuningSmartFeedforward": {
         "message": "Feedforward Inteligente"
+    },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "Reduz o efeito do termo F no PID.<br>Quando ambos os termos P e F estão ativos ao mesmo tempo, será usado somente o maior dos dois, evitando movimentos exagerados sem a necessidade de aumentar o termo D, mas isso também reduz a velocidade de resposta produzido pelo termo F quando adicionado ao termo P."
     },
     "pidTuningItermRelax": {
         "message": "Relaxar o Termo I"
