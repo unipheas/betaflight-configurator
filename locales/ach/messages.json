@@ -3163,6 +3163,12 @@
     "osdSetupFontPresets": {
         "message": "crwdns6219:0crwdne6219:0"
     },
+    "osdSetupFontPresetsSelector": {
+        "message": "crwdns8825:0crwdne8825:0"
+    },
+    "osdSetupFontPresetsSelectorOr": {
+        "message": "crwdns8826:0crwdne8826:0"
+    },
     "osdSetupOpenFont": {
         "message": "crwdns6220:0crwdne6220:0"
     },
