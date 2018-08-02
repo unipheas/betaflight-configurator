@@ -3120,6 +3120,12 @@
     "osdSetupFontPresets": {
         "message": "Fonta iestatījumi:"
     },
+    "osdSetupFontPresetsSelector": {
+        "message": "Fonta preseti:"
+    },
+    "osdSetupFontPresetsSelectorOr": {
+        "message": "vai"
+    },
     "osdSetupOpenFont": {
         "message": "Atvērt fonta failu"
     },
