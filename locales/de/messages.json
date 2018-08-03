@@ -1219,6 +1219,9 @@
     "receiverRcInterpolationInterval": {
         "message": "RC Interpolationsinterval (ms)"
     },
+    "pidTuningFeedforwardTransitionHelp": {
+        "message": "Mit diesem Parameter kann man die Feedforward Regelung an der Mittelstellung der Sticks reduzieren und damit weichere Enden von Flips und Rolls erreichen.<br> Der Wert bedeutet eine Auslenkung des Sticks von 0 - Knüppel mittig bis 1 - voller Ausschlag. Wenn der Knüppel weiter ausgelenkt wird als dieser Wert, hat die Feedforward Regelung den eingestellten Wert. Wenn der Stick weniger ausgelenkt ist, wird die Feedforward Regelung proportional reduziert und erreicht 0 in der Nullstellung des Knüppels.<br> Ein Wert von 1 ergibt den maximalen Glättungseffekt, ein Wert von 0 hält die Feedforward Regelung über den gesammten Steuerbereich auf seinem eingestellten Wert."
+    },
     "pidTuningDtermSetpointTransition": {
         "message": "D Setpoint transition"
     },
@@ -1242,6 +1245,9 @@
     },
     "pidTuningDerivative": {
         "message": "Differential"
+    },
+    "pidTuningFeedforward": {
+        "message": "Feedforward Regelung"
     },
     "pidTuningRcRate": {
         "message": "RC Rate"
@@ -1431,6 +1437,9 @@
     },
     "auxiliaryHelp": {
         "message": "Hier können verschiedene Modi auf einen bestimmten Bereich eines oder mehrerer AUX Kanäle gelegt werden. Bitte beachte, dass Änderungen gespeichert werden müssen bevor diese aktiv werden."
+    },
+    "auxiliaryToggleUnused": {
+        "message": "Nicht verwendete Modi ein-\/ausblenden"
     },
     "auxiliaryMin": {
         "message": "Min"
