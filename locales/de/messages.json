@@ -53,6 +53,9 @@
     "permanentExpertMode": {
         "message": "Expertenmodus dauerhaft aktivieren"
     },
+    "rememberLastTab": {
+        "message": "Die letzte Registerkarte wieder beim Verbinden öffnen"
+    },
     "userLanguageSelect": {
         "message": "Sprache (Das Programm muss zur Änderung neu gestartet werden)"
     },
@@ -463,6 +466,9 @@
     },
     "defaultDonateHead": {
         "message": "Open Source \/ Spenden Hinweis"
+    },
+    "defaultDonateText": {
+        "message": "<strong>Betaflight<\/strong> ist eine <strong>open source<\/strong> Fluggcontroller Software. Sie ist gratis und <strong>ohne Garantie<\/strong> für alle Nutzer verfügbar.<br \/> Wenn Sie Betaflight oder den Betaflight Konfigurator nützlich finden, überlegen Sie, ob Sie das Projekt und dessen Entwicklung via Spenden<strong>unterstützen<\/strong> wollen."
     },
     "defaultDonate": {
         "message": "Spenden"
@@ -1168,6 +1174,17 @@
     },
     "pidTuningNonProfilePidSettings": {
         "message": "Pofilunabhänige PID Controller Einstellungen"
+    },
+    "pidTuningAntiGravityMode": {
+        "message": "Anti Gravity Modus"
+    },
+    "pidTuningAntiGravityModeOptionSmooth": {
+        "message": "weich",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityModeOptionStep": {
+        "message": "Grenzwert",
+        "description": "One of the modes of anti gravity"
     },
     "pidTuningAntiGravityGain": {
         "message": "Anti Gravity Stärke"
