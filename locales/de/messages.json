@@ -1219,6 +1219,9 @@
     "receiverRcInterpolationInterval": {
         "message": "RC Interpolationsinterval (ms)"
     },
+    "pidTuningFeedforwardTransition": {
+        "message": "Feedforward Übergang"
+    },
     "pidTuningFeedforwardTransitionHelp": {
         "message": "Mit diesem Parameter kann man die Feedforward Regelung an der Mittelstellung der Sticks reduzieren und damit weichere Enden von Flips und Rolls erreichen.<br> Der Wert bedeutet eine Auslenkung des Sticks von 0 - Knüppel mittig bis 1 - voller Ausschlag. Wenn der Knüppel weiter ausgelenkt wird als dieser Wert, hat die Feedforward Regelung den eingestellten Wert. Wenn der Stick weniger ausgelenkt ist, wird die Feedforward Regelung proportional reduziert und erreicht 0 in der Nullstellung des Knüppels.<br> Ein Wert von 1 ergibt den maximalen Glättungseffekt, ein Wert von 0 hält die Feedforward Regelung über den gesamten Steuerbereich auf seinem eingestellten Wert."
     },
@@ -2718,6 +2721,9 @@
     "pidTuningItermRelaxAxesOptionRPInc": {
         "message": "RP (nur inkrementell)"
     },
+    "pidTuningItermRelaxAxesOptionRPYInc": {
+        "message": "RP (nur inkrementell)"
+    },
     "pidTuningItermRelaxType": {
         "message": "Typ:"
     },
@@ -2741,6 +2747,9 @@
     },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Acro Trainer Winkelbegrenzung"
+    },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "Fügt einen neuen Winkelbegrenzungsmodus für Piloten hinzu, welche den Acro Modus lernen wollen. Der Wertebereich geht von 10-80 und muss mit einem Schalter im $t(tabAuxiliary.message) Tab aktiviert werden."
     },
     "configHelp2": {
         "message": "Abweichender Winkel (Grad) in dem das Board anders eingebaut wurde als vorgesehen (über Kopf, gedreht, usw.) Falls externe Sensoren (Gyro, Acc, Mag) verwendet werden, bitte diese ebenfalls neu anlernen."
@@ -3104,6 +3113,12 @@
     },
     "osdSetupFontPresets": {
         "message": "Schriftarten:"
+    },
+    "osdSetupFontPresetsSelector": {
+        "message": "Wählen Sie Schriftart Voreinstellungen:"
+    },
+    "osdSetupFontPresetsSelectorOr": {
+        "message": "oder"
     },
     "osdSetupOpenFont": {
         "message": "Schriftartdatei öffnen"
@@ -3546,6 +3561,9 @@
     "pidTuningPidTuningTip": {
         "message": "<b>Proportional:<\/b> Du bemerkst eine sehr starke Widerstandskraft gegen Bewegen des MultiRotors<br><b>Integral:<\/b> Verbessert die Fähigkeit Position zu halten und Drift zu reduzieren, aber erhöht auch die Verzögerungszeit, um zur ursprünglichen Position zurück zu kehren.<br><b>Derivative:<\/b> Verbessert die Geschwindigkeit, mit der Abweichungen korrigiert werden, aber erhöht Störungen<br><b>Rates und Expo<\/b>: Bestimme Dein Stick Gefühl nach diesen Parametern. Nutze die Grafik und das animierte 3D Modell, um Deine bevorzugte Einstellung zu finden"
     },
+    "pidTuningPidTuningTipFeedforward": {
+        "message": "<b>Proportional:<\/b> Bewirkt eine sehr starke Widerstandskraft gegen Bewegen des Multirotors<br><b>Integral:<\/b> Verbessert die Fähigkeit Position zu halten und Drift zu reduzieren, aber erhöht auch die Verzögerung, um zur ursprünglichen Position zurück zu kehren.<br><b>Derivative:<\/b> Verbessert die Geschwindigkeit, mit der Abweichungen korrigiert werden, aber erhöht Störungen<br><b>Feedforward:<\/b> Normal reagiert der PID Controller nur auf Fehlerwerte. Feedforward ahnt die Fehlerwerte anhand von Stickinputs voraus, was in mehr Reaktionsfreudigkeit resultiert.<br><b>Rates und Expo<\/b>: Bestimme dein Stick Gefühl nach diesen Parametern. Nutze die Grafik und das animierte 3D Modell, um Deine bevorzugte Einstellung zu finden"
+    },
     "pidTuningRatesTip": {
         "message": "Verändere die Raten und schau, wie sie sich auf die Steuerkurve auswirken"
     },
@@ -3581,6 +3599,9 @@
     },
     "onboardLoggingMsc": {
         "message": "Massenspeicher-Modus"
+    },
+    "onboardLoggingMscNote": {
+        "message": "Startet neu im <strong>Massenspeicher-Geräte (MSC)<\/strong> -Modus. Wenn aktiviert, wird der Onboard-Flashspeicher oder die SD-Karte auf deiner FC von dem Computer als Speichermedium erkannt und ermöglicht es, deine Log-Dateien herunterladen. Auswerfen und Neustart des FC, um den Massenspeicher-Modus zu verlassen."
     },
     "onboardLoggingRebootMscText": {
         "message": "Aktiviere Massenspeicher-Modus"
