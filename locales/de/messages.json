@@ -1220,7 +1220,7 @@
         "message": "RC Interpolationsinterval (ms)"
     },
     "pidTuningFeedforwardTransitionHelp": {
-        "message": "Mit diesem Parameter kann man die Feedforward Regelung an der Mittelstellung der Sticks reduzieren und damit weichere Enden von Flips und Rolls erreichen.<br> Der Wert bedeutet eine Auslenkung des Sticks von 0 - Knüppel mittig bis 1 - voller Ausschlag. Wenn der Knüppel weiter ausgelenkt wird als dieser Wert, hat die Feedforward Regelung den eingestellten Wert. Wenn der Stick weniger ausgelenkt ist, wird die Feedforward Regelung proportional reduziert und erreicht 0 in der Nullstellung des Knüppels.<br> Ein Wert von 1 ergibt den maximalen Glättungseffekt, ein Wert von 0 hält die Feedforward Regelung über den gesammten Steuerbereich auf seinem eingestellten Wert."
+        "message": "Mit diesem Parameter kann man die Feedforward Regelung an der Mittelstellung der Sticks reduzieren und damit weichere Enden von Flips und Rolls erreichen.<br> Der Wert bedeutet eine Auslenkung des Sticks von 0 - Knüppel mittig bis 1 - voller Ausschlag. Wenn der Knüppel weiter ausgelenkt wird als dieser Wert, hat die Feedforward Regelung den eingestellten Wert. Wenn der Stick weniger ausgelenkt ist, wird die Feedforward Regelung proportional reduziert und erreicht 0 in der Nullstellung des Knüppels.<br> Ein Wert von 1 ergibt den maximalen Glättungseffekt, ein Wert von 0 hält die Feedforward Regelung über den gesamten Steuerbereich auf seinem eingestellten Wert."
     },
     "pidTuningDtermSetpointTransition": {
         "message": "D Setpoint transition"
@@ -1576,14 +1576,29 @@
     "adjustmentsFunction22": {
         "message": "D Setpoint"
     },
+    "adjustmentsFunction22_2": {
+        "message": "Pitch & Roll F Faktor"
+    },
     "adjustmentsFunction23": {
         "message": "D Setpoint Transition"
+    },
+    "adjustmentsFunction23_2": {
+        "message": "Feedforward Übergang"
     },
     "adjustmentsFunction24": {
         "message": "\"Horizon\" Stärkenanpassung"
     },
     "adjustmentsFunction25": {
         "message": "PID-Audio-Auswahl"
+    },
+    "adjustmentsFunction26": {
+        "message": "Pitch F Faktor"
+    },
+    "adjustmentsFunction27": {
+        "message": "Roll F Faktor"
+    },
+    "adjustmentsFunction28": {
+        "message": "Yaw F Faktor"
     },
     "adjustmentsSave": {
         "message": "Speichtern"
@@ -2672,6 +2687,60 @@
     },
     "pidTuningVbatPidCompensationHelp": {
         "message": "Erhört die PID Werte, sobald die Batterie schwächer wird. Das sorgt dafür, dass das Fluggefühl gleich bleibt, während der Akku leerer wird. Die Stärke der Kompensation wird durch die Einstellung der maximalen Zellenspannung errechnet. Stelle sicher, dass in den Energieeinstellungen passende Werte sind."
+    },
+    "pidTuningItermRotation": {
+        "message": "I Term Rotation"
+    },
+    "pidTuningItermRotationHelp": {
+        "message": "Dreht den aktuellen I-Term Vektor richtig zu den anderen Achsen falls sich der Kopter schnell, während kontinuierlichen Rollen\/Gieren, Trichtern und anderen Tricks, dreht. Besonders für LOS-Acro Piloten nützlich."
+    },
+    "pidTuningSmartFeedforward": {
+        "message": "Smart Feedforward"
+    },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "Verringert den Einfluss des F-Term in dem PIDF Controller. Wenn der P-Term und der F-Term im selben Moment aktiv sind, wird nur der größere der beiden genutzt. Dies geschieht, um Überschreitungen zu vermeiden, ohne dass man den D-Term reduzieren muss. Er reduziert aber auch die Reaktionsfähigkeit des F-Terms wenn P hinzugefügt wird."
+    },
+    "pidTuningItermRelax": {
+        "message": "I Term Relax"
+    },
+    "pidTuningItermRelaxHelp": {
+        "message": "Schränkt die Anhäufung von I-Term bei schnelle Bewegungen ein. Das hilft \"Bounceback\" am Ende von schnellen Rollen und Bewegungen zu reduzieren. Die aktiven Achsen, als auch die Feedforward Methode bei schnelle Knüppelbewegungen, können gewählt werden."
+    },
+    "pidTuningItermRelaxAxes": {
+        "message": "Achsen:"
+    },
+    "pidTuningItermRelaxAxesOptionRP": {
+        "message": "RP (roll+pitch)"
+    },
+    "pidTuningItermRelaxAxesOptionRPY": {
+        "message": "RPY"
+    },
+    "pidTuningItermRelaxAxesOptionRPInc": {
+        "message": "RP (nur inkrementell)"
+    },
+    "pidTuningItermRelaxType": {
+        "message": "Typ:"
+    },
+    "pidTuningItermRelaxTypeOptionGyro": {
+        "message": "Gyro"
+    },
+    "pidTuningItermRelaxTypeOptionSetpoint": {
+        "message": "Setpoint"
+    },
+    "pidTuningAbsoluteControlGain": {
+        "message": "Absolute Control"
+    },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "Diese Funktion löst einige Probleme der I-Term Rotation und wird diese hoffentlich bald ersetzen. Die Funktion sammelt den absolute Gyro-Fehler im Kopter Koordinatensystem und mischt eine proportionale Korrektur in den Sollwert. Es muss dafür Iterm_relax für RPY aktiviert sein."
+    },
+    "pidTuningThrottleBoost": {
+        "message": "Throttle Boost"
+    },
+    "pidTuningThrottleBoostHelp": {
+        "message": "Mit dieser Funktion kann das Gas vorübergehend erhöht werden um das Beschleunigungsmoment der Motoren zu erhöhen. Das bietet eine viel schnellere Gasannahme."
+    },
+    "pidTuningAcroTrainerAngleLimit": {
+        "message": "Acro Trainer Winkelbegrenzung"
     },
     "configHelp2": {
         "message": "Abweichender Winkel (Grad) in dem das Board anders eingebaut wurde als vorgesehen (über Kopf, gedreht, usw.) Falls externe Sensoren (Gyro, Acc, Mag) verwendet werden, bitte diese ebenfalls neu anlernen."
