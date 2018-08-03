@@ -3120,6 +3120,12 @@
     "osdSetupFontPresets": {
         "message": "フォントプリセット:"
     },
+    "osdSetupFontPresetsSelector": {
+        "message": "フォントプリセットを選択:"
+    },
+    "osdSetupFontPresetsSelectorOr": {
+        "message": "or"
+    },
     "osdSetupOpenFont": {
         "message": "フォントファイルを開く"
     },
