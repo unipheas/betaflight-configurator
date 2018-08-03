@@ -3120,6 +3120,12 @@
     "osdSetupFontPresets": {
         "message": "글꼴 프리셋:"
     },
+    "osdSetupFontPresetsSelector": {
+        "message": "글꼴 프리셋 선택:"
+    },
+    "osdSetupFontPresetsSelectorOr": {
+        "message": "또는"
+    },
     "osdSetupOpenFont": {
         "message": "글꼴 파일 열기"
     },
