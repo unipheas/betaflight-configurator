@@ -3120,6 +3120,12 @@
     "osdSetupFontPresets": {
         "message": "预置字体"
     },
+    "osdSetupFontPresetsSelector": {
+        "message": "选择预设字体："
+    },
+    "osdSetupFontPresetsSelectorOr": {
+        "message": "或"
+    },
     "osdSetupOpenFont": {
         "message": "打开字体文件"
     },
