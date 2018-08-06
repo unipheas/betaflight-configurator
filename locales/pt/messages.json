@@ -3120,6 +3120,9 @@
     "osdSetupFontPresets": {
         "message": "Fontes pré-definidas:"
     },
+    "osdSetupFontPresetsSelector": {
+        "message": "Selecione uma fonte:"
+    },
     "osdSetupFontPresetsSelectorOr": {
         "message": "ou"
     },
