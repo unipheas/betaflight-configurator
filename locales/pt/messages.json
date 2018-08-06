@@ -939,16 +939,13 @@
         "message": "Tom do sinalizador"
     },
     "configurationDshotBeaconHelp": {
-        "message": "O sinalizador do Dshot usa os ESCs e motores para emitir som. Isso significa que o sinalizador do Dshot não pode ser usado enquanto os motores estiverem rodando. A partir do Betaflight 3.4, quando tentar armar com o sinalizador do Dshot ativo, haverá um atraso de 2 segundos para que a aeronave seja armada após um tom do sinalizador do Dshot. Isto evita que o sinalizador interfira com os comando Dshot enviados durante o processo de armar.<br\/><strong>Atenção:<\/strong> O sinalizador do Dshot envia uma corrente elétrica para motores quando ativo, isso pode gerar calor excessivo e danificar seus motores e\/ou ESCs se a potência do sinalizador estiver muito alta. Use o configurador BLHeli ou o BLHeli Suite para ajustar e testar a potência do sinalizador."
+        "message": "O sinalizador do Dshot usa os ESCs e motores para emitir som. Isso significa que o sinalizador do Dshot não pode ser usado enquanto os motores estiverem rodando. A partir do Betaflight 3.4, quando tentar armar com o sinalizador do Dshot ativo, haverá um atraso de 2 segundos para que a aeronave seja armada após um tom do sinalizador do Dshot. Isto evita que o sinalizador interfira com os comando Dshot enviados durante o processo de armar.<br\/><strong>Atenção:<\/strong> O sinalizador do Dshot envia uma corrente elétrica para os motores quando ativo, isso pode gerar calor excessivo e danificar seus motores e\/ou ESCs se a potência do sinalizador estiver muito alta. Use o configurador BLHeli ou o BLHeli Suite para ajustar e testar a potência do sinalizador."
     },
     "configurationBeeper": {
         "message": "Configuração dos Sinais Sonoros"
     },
     "beeperGYRO_CALIBRATED": {
         "message": "Emite um sinal sonoro quando o giroscópio for calibrado"
-    },
-    "beeperRX_LOST": {
-        "message": "Emite um sinal sonoro quando o rádio é desligado ou o sinal é perdido (repetir até que o rádio esteja okay)"
     },
     "beeperRX_LOST_LANDING": {
         "message": "Emite sons de SOS quando armado e o rádio é desligado ou o sinal é perdido (aterrissagem automática\/desarme automático)"
@@ -999,7 +996,7 @@
         "message": "Emitir um sinal sonoro quando a Caixa Preta é completamente apagada"
     },
     "beeperCRASH_FLIP": {
-        "message": "Sinal sonoro quando o modo batida de ponta cabeça estiver ativo"
+        "message": "Sinal sonoro quando o modo 'virar após queda' está ativo"
     },
     "beeperCAM_CONNECTION_OPEN": {
         "message": "Sinal sonoro quando ativar o controle de câmera de 5 teclas"
