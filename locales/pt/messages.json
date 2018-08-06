@@ -3343,7 +3343,7 @@
         "message": "Altura máxima registrada"
     },
     "osdDescStatBlackbox": {
-        "message": "Porcentagem de uso total da Caixa Preta"
+        "message": "Percentagem de uso total da Caixa Preta"
     },
     "osdDescStatEndBattery": {
         "message": "Voltagem da bateria quando foi desarmado"
@@ -3394,7 +3394,7 @@
         "message": "Mostra o principal motivo de não ter armado"
     },
     "osdWarningBatteryNotFull": {
-        "message": "Alertas quando a bateria é conectada e não está totalmente carregado"
+        "message": "Alertas quando a bateria é conectada e não está totalmente carregada"
     },
     "osdWarningBatteryWarning": {
         "message": "Alertas quando a voltagem da bateria fica abaixo do limite do alarme"
@@ -3427,7 +3427,7 @@
         "message": "Defina os limites utilizados para elementos do OSD com alertas."
     },
     "osdSectionHelpStats": {
-        "message": "Defina os valores exibidos na tela de estatísticas pós voo."
+        "message": "Escolha os valores exibidos na tela de estatísticas após voo."
     },
     "osdSectionHelpWarnings": {
         "message": "Ative ou Desative alertas exibidos no elemento de ALERTAS."
@@ -3448,13 +3448,13 @@
         "message": "Modo do Failsafe"
     },
     "mainHelpLink": {
-        "message": "Status do Link Serial"
+        "message": "Estado da conexão Serial"
     },
     "configurationEscProtocol": {
         "message": "Protocolo do ESC\/Motor"
     },
     "configurationEscProtocolHelp": {
-        "message": "Selecione o protocolo do seu motor. <br>Tenha certeza que o protocolo é suportado pelo seu ESC, esta informação deve estar disponível no site do fabricante. <br><b>Tenha cuidado ao usar DSHOT900 e DSHOT1200, uma vez que muitos ESCs não tem suporte a eles!<\/b>"
+        "message": "Selecione o protocolo do seu motor. <br>Tenha a certeza de que o protocolo é suportado pelo seu ESC, esta informação deve estar disponível no site do fabricante. <br><b>Tenha cuidado ao usar DSHOT900 e DSHOT1200, uma vez que muitos ESCs não os suportam!<\/b>"
     },
     "configurationunsyndePwm": {
         "message": "Velocidade do PWM do Motor independente da velocidade do PID"
@@ -3469,7 +3469,7 @@
         "message": "Frequência do loop PID"
     },
     "configurationPidProcessDenomHelp": {
-        "message": "A frequência máxima do loop PID é limitado pela frequência máxima que dados podem ser enviados ao protocolo selecionado do ESC \/ Motor."
+        "message": "A frequência máxima do loop PID é limitada pela frequência máxima que dados podem ser enviados ao protocolo selecionado do ESC \/ Motor."
     },
     "configurationGyroUse32kHz": {
         "message": "Ativar modo de amostragem 32kHz do giroscópio"
@@ -3556,7 +3556,7 @@
         "message": "<b>Legado vs Betaflight (flutuante):<\/b> A lógica e a escala do PID é exatamente a mesma. Não é necessário reajustar. O modo Legado é o antigo Betaflight Evolved Rewrite, que é um controlador PID básico baseado em matemática de números inteiros. o controlador PID Betaflight usa matemática de números com ponto flutuante e tem várias novas funcionalidades especificamente desenhadas para multirotores<br><b>Inteiro vs Flutuante:<\/b> A lógica e a escala do PID é exatamente a mesma. Não é necessário reajustar. placas F1 não tem um FPU a bordo e a matemática com ponto flutuante aumenta a carga do CPU; Matemática com inteiros melhora a performance, mas a matemática com ponto flutuante é mais precisa."
     },
     "pidTuningFilterTip": {
-        "message": "<b>Filtro Soft para o Giroscópio:<\/b> Um filtro Lowpass para o Giroscópio. Use valores mais baixos para filtrar mais.<br><b>Filtro do Termo D:<\/b> Filtro Lowpass para o termo D. Pode afetar a afinação do D. Use valores mais baixos para filtrar mais.<br><b>Filtro Yaw:<\/b> Filtra a saída do Yaw. Pode ajudar os veículos com ruídos no eixo Yaw."
+        "message": "<b>Filtro Soft para o Giroscópio:<\/b> Um filtro Lowpass para o Giroscópio. Use valores mais baixos para filtrar mais.<br><b>Filtro do Termo D:<\/b> Filtro Lowpass para o termo D. Pode afetar a afinação do D. Use valores mais baixos para filtrar mais.<br><b>Filtro Yaw:<\/b> Filtra a saída do Yaw. Pode ajudar nas aeronaves com ruídos no eixo Yaw."
     },
     "pidTuningPidTuningTip": {
         "message": "<b>Proporcional:<\/b> Força da resistência ao tentar mover o multirotor em qualquer direção<br><b>Integral:<\/b> Aumenta a habilidade de manter a posição inicial e reduz o drift, mas também aumenta o atraso para retornar à posição inicial.<br><b>Derivativo:<\/b> Melhora a velocidade de recuperação dos desvios, mas também aumenta o ruído<br><b>Taxas e Expo:<\/b> Determine a sensação dos sticks baseado nestes parâmetros. Use o gráfico e modelo 3D para encontrar suas configurações preferidas"
