@@ -1053,10 +1053,10 @@
         "message": "<strong>Nota:<\/strong> Lembre-se de configurar uma porta serial (via aba de Portas) ao utilizar a funcionalidade de GPS."
     },
     "configurationSerialRX": {
-        "message": "Provedor Serial do receptor"
+        "message": "Fornecedor do receptor Serial"
     },
     "configurationSpiRX": {
-        "message": "Provedor SPI BUS do receptor"
+        "message": "Fornecedor do receptor SPI BUS"
     },
     "configurationEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">salvo<\/span>"
