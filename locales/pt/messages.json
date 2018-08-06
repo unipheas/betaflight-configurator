@@ -1011,13 +1011,13 @@
         "message": "Zona morta 3D baixa"
     },
     "configuration3dDeadbandHigh": {
-        "message": "Zona morta 3D alto"
+        "message": "Zona morta 3D alta"
     },
     "configuration3dNeutral": {
-        "message": "3D neutral"
+        "message": "Zona 3D neutra"
     },
     "configuration3dDeadbandThrottle": {
-        "message": "Ponto morto do Acelerador 3D"
+        "message": "Zona morta do Acelerador 3D"
     },
     "configurationSystem": {
         "message": "Configuração do sistema"
@@ -1029,7 +1029,7 @@
         "message": "Ciclos\/Seg [Hz]"
     },
     "configurationLoopTimeHelp": {
-        "message": "<strong>Nota:<\/strong> Tenha a certeza que o controlador é capaz de operar na velocidade selecionada! Verifique a estabilidade do CPU e o tempo de ciclo. Alterar este valor pode requerer uma nova afinação do PID. DICA: Desative o acelerômetro e outros sensores para ganhar mais performance."
+        "message": "<strong>Nota:<\/strong> Tenha a certeza de que o controlador é capaz de operar na velocidade selecionada! Verifique a estabilidade do CPU e o tempo de ciclo. Alterar este valor pode requerer uma nova afinação do PID. DICA: Desative o acelerômetro e outros sensores para ganhar mais performance."
     },
     "configurationGPS": {
         "message": "GPS"
@@ -1394,7 +1394,7 @@
         "message": "Estes valores (em us) indicam quanto a entrada do RC pode ser variada antes de ser considerada válida. Para transmissores com saídas instáveis, este valor pode ser aumentado se as entradas RC vibram enquanto ocioso. <strong> Esta configuração afeta somente o Yaw.<\/strong>"
     },
     "recevier3dDeadbandThrottle": {
-        "message": "Ponto morto do Acelerador 3D"
+        "message": "Zona morta do Acelerador 3D"
     },
     "receiverHelp3dDeadbandThrottle": {
         "message": "Valores (em us). Aumente o valor para aumentar a zona neutra. <strong> Esta configuração é somente para o Acelerador 3D.<\/strong>"
