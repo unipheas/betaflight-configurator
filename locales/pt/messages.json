@@ -947,6 +947,9 @@
     "beeperGYRO_CALIBRATED": {
         "message": "Emite um sinal sonoro quando o giroscópio for calibrado"
     },
+    "beeperRX_LOST": {
+        "message": "Emite um sinal sonoro quando o rádio é desligado ou o sinal é perdido (repetir até que o rádio esteja 'OK')"
+    },
     "beeperRX_LOST_LANDING": {
         "message": "Emite sons de SOS quando armado e o rádio é desligado ou o sinal é perdido (pouso automático\/desarme automático)"
     },
