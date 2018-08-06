@@ -747,7 +747,7 @@
         "message": "Tela OLED"
     },
     "featureDISPLAYTip": {
-        "message": "Se esta funcionalidade é ativada, e nenhum dispositivo de imagem está conectado (ou o dispositivo de imagem não está ligado), haverá um atraso de cerca de 10 segundos toda vez que reiniciar o controlador de voo."
+        "message": "Se esta funcionalidade está ativada, e nenhum dispositivo de imagem está conectado (ou o dispositivo de imagem não está ligado), haverá um atraso de cerca de 10 segundos sempre que reiniciar o controlador de voo."
     },
     "featureONESHOT125": {
         "message": "Suporte a ESC com ONESHOT"
