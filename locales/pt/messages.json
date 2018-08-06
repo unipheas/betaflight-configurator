@@ -948,7 +948,7 @@
         "message": "Emite um sinal sonoro quando o giroscópio for calibrado"
     },
     "beeperRX_LOST_LANDING": {
-        "message": "Emite sons de SOS quando armado e o rádio é desligado ou o sinal é perdido (aterrissagem automática\/desarme automático)"
+        "message": "Emite sons de SOS quando armado e o rádio é desligado ou o sinal é perdido (pouso automático\/desarme automático)"
     },
     "beeperDISARMING": {
         "message": "Emite um sinal sonoro quando o controlador de voo é desarmado"
@@ -2222,13 +2222,13 @@
         "message": "Mensagem:"
     },
     "firmwareFlasherWarningText": {
-        "message": "Por favor <span class=\"message-negative\">não<\/span> tente atualizar hardware <strong>não-betaflight<\/strong> utilizando este atualizador de firmware.<br \/><span class=\"message-negative\">Não<\/span><strong> desconecte<\/strong> a placa ou <strong>desligue<\/strong> seu computador durante a atualização<br \/><br \/><strong>Nota: <\/strong>o bootloader STM32 é salvo na ROM, e não tem como dar problema.<br \/><strong>Nota: <\/strong><span class=\"message-negative\">Auto-Conectar<\/span> sempre estará desativado enquanto você está na tela de atualização.<br \/><strong>Nota: <\/strong>Tenha certeza de que você tem um backup; algumas atualizações podem limpar suas configurações.<br \/><strong>Nota:<\/strong> Se não estiver conseguindo atualizar, <strong> tente desconectar todos os cabos do seu FC<\/strong> primeiro, tente reiniciar, atualizar o chrome ou atualizar seus drivers.<br \/><strong>Nota:<\/strong> Quando for atualizar placas com uma conexão USB direta (como a maioria das placas recentes) tenha certeza de que você leu a seção de atualização por USB (USB Flashing) do manual do Betaflight e que também os drivers e softwares corretos estão instalados"
+        "message": "Por favor <span class=\"message-negative\">não<\/span> tente atualizar hardware <strong>não-betaflight<\/strong> utilizando este atualizador de firmware.<br \/><span class=\"message-negative\">Não<\/span><strong> desconecte<\/strong> a placa ou <strong>desligue<\/strong> seu computador durante a atualização<br \/><br \/><strong>Nota: <\/strong>o bootloader do STM32 é salvo na ROM, não é possível danificá-lo.<br \/><strong>Nota: <\/strong><span class=\"message-negative\">Auto-Conectar<\/span> está sempre desativado enquanto você está na tela de atualização.<br \/><strong>Nota: <\/strong>Tenha a certeza de que você tem um backup; algumas atualizações podem limpar as suas configurações.<br \/><strong>Nota:<\/strong> Se não conseguir atualizar, <strong> tente primeiro desconectar todos os cabos do seu controlador de voo<\/strong>, tente reiniciar, atualizar o chrome ou atualizar seus drivers.<br \/><strong>Nota:<\/strong> Quando for atualizar placas com uma conexão USB direta (como a maioria das placas recentes) tenha a certeza de que você leu a seção de atualização por USB (USB Flashing) do manual do Betaflight e que também os drivers e softwares corretos estão instalados"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>Recuperação \/ Comunicação perdida<\/strong>"
     },
     "firmwareFlasherRecoveryText": {
-        "message": "Se você perdeu a comunicação com sua placa, siga estas instruções para restaurar a comunicação: <ul><li>Desligue a placa<\/li><li>Ative a opção 'Sem sequencia de reinicialização' e 'Formatar chip'.<\/li><li>Jampeie os pinos BOOT ou segure o botão BOOT.<\/li><li>Ligue a placa (O LED de atividade NÃO irá piscar se realizado corretamente).<\/li><li>Instale todos os drivers STM32 e Zadig se necessário (veja a sessão <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a> do manual do Betaflight).<\/li><li>Feche o Configurador. Feche todas as janelas no Chrome, Feche todos aplicativos do Chrome, Reinicie o Configurador.<\/li><li>Solte o botão BOOT se seu FC tem um.<\/li><li>Atualize o Firmware correto (usando o Baud rate manual se especificado no manual do seu FC).<\/li><li>Desligue a placa.<\/li><li>Remova o jumper do BOOT.<\/li><li>Ligue a placa (O LED de atividade deve piscar).<\/li><li>Conecte normalmente.<\/li><\/ul>"
+        "message": "Se você perdeu a comunicação com sua placa, siga estas instruções para restaurar a comunicação: <ul><li>Desligue a placa<\/li><li>Ative a opção 'Sem sequencia de reinicialização' e 'Formatar chip'.<\/li><li> Faça 'curto-circuito' aos pinos BOOT ou segure o botão BOOT.<\/li><li>Ligue a placa (O LED de atividade NÃO irá piscar se realizado corretamente).<\/li><li>Instale todos os drivers STM32 e Zadig se necessário (veja a sessão <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a> do manual do Betaflight).<\/li><li>Feche o Configurador. Feche todas as janelas no Chrome, Feche todos aplicativos do Chrome, Reinicie o Configurador.<\/li><li>Solte o botão BOOT se seu FC tem um.<\/li><li>Atualize o Firmware correto (usando o Baud rate manual se especificado no manual do seu FC).<\/li><li>Desligue a placa.<\/li><li>Remova o 'curto-circuito' do BOOT.<\/li><li>Ligue a placa (O LED de atividade deve piscar).<\/li><li>Conecte normalmente.<\/li><\/ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "Sair do atualizador de Firmware"
@@ -2444,7 +2444,7 @@
         "description": "Control button in the wiring modes in Led Strip"
     },
     "ledStripWiringClearAllControl": {
-        "message": "Limpar TODAS Conexões",
+        "message": "Limpar TODAS as conexões",
         "description": "Control button in the wiring modes in Led Strip"
     },
     "ledStripWiringMessage": {
@@ -2755,7 +2755,7 @@
         "message": "Angulo máximo do modo ACRO TRAINER, para pilotos que estão aprendendo a voar no modo acro. Os valores aceitos são de 10 a 80 graus.<br>Para ativar o modo, é necessário configurar um switch na aba $t(tabAuxiliary.message)."
     },
     "configHelp2": {
-        "message": "Rotação da placa em graus, permite que a placa seja montada de lado, de ponta-cabeça, rotacionada, etc. Quando estiver utilizando sensores externos, use o alinhamento dos sensores (Giro, Acc, Mag) para definir a posição do sensor independente da orientação da placa. "
+        "message": "Rotação da placa em graus, permite que a placa seja montada de lado, de cabeça para baixo, rotacionada, etc. Quando estiver utilizando sensores externos, use o alinhamento dos sensores (Giro, Acc, Mag) para definir a posição do sensor independente da orientação da placa. "
     },
     "failsafeFeaturesHelpOld": {
         "message": "As configurações do Failsafe mudaram consideravelmente. Use o Betaflight <strong>v1.12.0+<\/strong> para ativar o painel de configuração aprimorado."
@@ -2782,7 +2782,7 @@
         "message": "Configurações de segurança do canal"
     },
     "failsafeChannelFallbackSettingsHelp": {
-        "message": "Estas configurações são aplicadas em canais AUX individuais inválidos ou em todos os canais quando entrar no estágio 1. <strong>Nota:<\/strong> Os valores são salvos em passos de 25usec, para que mudanças pequenas desaparecem"
+        "message": "Estas configurações são aplicadas em canais AUX individuais inválidos ou em todos os canais quando entrar no estágio 1. <strong>Nota:<\/strong> Os valores são salvos em passos de 25usec, para que mudanças pequenas desapareçam"
     },
     "failsafeChannelFallbackSettingsAuto": {
         "message": "<strong>Auto<\/strong> significa Roll, Pitch e Yaw ao centro e Acelerador baixo. <strong>Hold<\/strong> significa manter o ultimo valor válido recebido"
@@ -2794,7 +2794,7 @@
         "message": "Estágio 2 - Configurações"
     },
     "failsafeDelayItem": {
-        "message": "Tempo de espera antes ativar o estágio 2 após perder o sinal [1 = 0.1 sec.]"
+        "message": "Tempo de espera antes de ativar o estágio 2 após perder o sinal [1 = 0.1 sec.]"
     },
     "failsafeDelayHelp": {
         "message": "Tempo para recuperação no estágio 1"
@@ -2806,19 +2806,19 @@
         "message": "Apenas desarme a aeronave ao invés de executar o Failsafe se o acelerador estiver baixo por este determinado período de tempo"
     },
     "failsafeThrottleItem": {
-        "message": "Valor do Acelerador utilizado para aterrissar"
+        "message": "Valor do Acelerador utilizado para pousar"
     },
     "failsafeOffDelayItem": {
         "message": "Delay para desligar os motores durante o Failsafe [1 = 0.1 sec.]"
     },
     "failsafeOffDelayHelp": {
-        "message": "Tempo para ficar no modo de aterrissagem até que os motores sejam desligados e a aeronave desarmada"
+        "message": "Tempo para ficar no modo de pouso até que os motores sejam desligados e a aeronave desarmada"
     },
     "failsafeSubTitle1": {
         "message": "Estágio 2 - Procedimento do Failsafe"
     },
     "failsafeProcedureItemSelect1": {
-        "message": "Aterrissar"
+        "message": "Pousar"
     },
     "failsafeProcedureItemSelect2": {
         "message": "Cair"
