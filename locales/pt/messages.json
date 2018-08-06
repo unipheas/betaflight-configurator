@@ -843,7 +843,7 @@
         "message": "<strong>Nota:<\/strong> Nem todas as combinações de funcionalidades são válidas. Quando o firmware do controlador de voo detecta combinações inválidas, essas serão desativadas.<br \/><strong>Nota:<\/strong> Configure as portas serial  <span class=\"message-negative\">antes<\/span> de ativar funcionalidades que usam as portas."
     },
     "configurationSerialRXHelp": {
-        "message": "<strong>Nota:<\/strong> Lembre-se de configurar uma Porta Serial (através da aba de Portas) e escolher um Provedor Serial ao usar a funcionalidade RX_SERIAL."
+        "message": "<strong>Nota:<\/strong> Lembre-se de configurar uma Porta Serial (através da aba de Portas) e escolher um Fornecedor Serial ao usar a funcionalidade RX_SERIAL."
     },
     "configurationSpiRxHelp": {
         "message": "<strong>Nota:<\/strong> O protocolo de SPI RX só funcionará se o hardware necessário estiver presente na placa ou ligado a um barramento SPI."
@@ -1086,7 +1086,7 @@
         "message": "<strong>Nota:<\/strong> nem todas as combinações são válidas.  Quando o firmware do controlador de voo detecta isto a configuração da porta serial será reiniciada."
     },
     "portsMSPHelp": {
-        "message": "<strong>Nota:<\/strong> <span class=\"message-negative\">NÃO<\/span> desative o MSP na primeira porta serial, a menos que saiba o que está fazendo. Poderá ter que reinstalar o firmware e apagar todas as configurações se o fizer isto."
+        "message": "<strong>Nota:<\/strong> <span class=\"message-negative\">NÃO<\/span> desative o MSP na primeira porta serial, a menos que saiba o que está fazendo. Poderá ter que reinstalar o firmware e apagar todas as configurações se fizer isto."
     },
     "portsFirmwareUpgradeRequired": {
         "message": "Atualização de firmware é <span class=\"message-negative\">necessária<\/span>. Configurações da porta serial para firmware &lt; 1.8.0 não é suportado."
@@ -1176,7 +1176,7 @@
         "message": "Esconder PIDs não utilizados"
     },
     "pidTuningNonProfilePidSettings": {
-        "message": "Configurar controlador PID independente de perfil"
+        "message": "Configurar controlador PID independente do perfil"
     },
     "pidTuningAntiGravityMode": {
         "message": "Modo Antigravidade"
@@ -1352,7 +1352,7 @@
         "message": "EEPROM <span class=\"message-positive\">salvo<\/span>"
     },
     "receiverHelp": {
-        "message": "Por favor leia o capítulo da documentação sobre receptores. Configure a porta serial (se necessário), modo do receptor (serial\/ppm\/pwm), provedor (para receptores serial), vincule o receptor, especifique o mapa de canais, configure os limites\/faixas no TX de forma que todos os canais vão de ~1000 a ~2000. Defina o ponto médio (1500 por padrão), canais de ajuste (trim) em 1500, configure a zona morta do stick, verifique o comportamento quando o TX estiver desligado ou fora de alcance.<br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Antes de voar, leia a documentação e configure o Failsafe."
+        "message": "Por favor leia o capítulo da documentação sobre receptores. Configure a porta serial (se necessário), modo do receptor (serial\/ppm\/pwm), Fornecedor (para receptores serial), vincule o receptor, especifique o mapa de canais, configure os limites\/faixas no TX de forma que todos os canais vão de ~1000 a ~2000. Defina o ponto médio (1500 por padrão), canais de ajuste (trim) em 1500, configure a zona morta do stick, verifique o comportamento quando o TX estiver desligado ou fora de alcance.<br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Antes de voar, leia a documentação e configure o Failsafe."
     },
     "tuningHelp": {
         "message": "<b>Dicas de otimização<\/b><br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Sempre verifique a temperatura dos motores durante os primeiros voos. Quanto maior o valor do filtro, melhor pode ser o voo, porém, mais ruído chegará aos motores. <br>O Valor padrão de 100Hz é ótimo, mas para aeronaves com mais ruídos, você pode tentar diminuir o filtro do termo D para 50Hz e possivelmente também o filtro do giroscópio."
