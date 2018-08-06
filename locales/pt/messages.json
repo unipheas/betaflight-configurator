@@ -2851,7 +2851,7 @@
         "message": "Salvar"
     },
     "powerFirmwareUpgradeRequired": {
-        "message": "Atualização de Firmware <span class=\"message-negative\">necessária<\/span>. As configurações de Bateria\/Amperagem\/Voltagem utilizando a API &lt; 1.33.0 (Lançamento Betaflight &lt;=3.17) não é suportado."
+        "message": "Atualização de Firmware <span class=\"message-negative\">necessária<\/span>. As configurações de Bateria\/Corrente\/Voltagem utilizando a API &lt; 1.33.0 (Lançamento Betaflight &lt;=3.17) não é suportado."
     },
     "powerBatteryVoltageMeterSource": {
         "message": "Origem do medidor de voltagem"
@@ -3061,7 +3061,7 @@
         "message": "mAh usado"
     },
     "powerBatteryAmperage": {
-        "message": "Amperagem"
+        "message": "Corrente"
     },
     "powerBatteryCapacity": {
         "message": "Capacidade (mAh)"
@@ -3088,7 +3088,7 @@
         "message": "Pré-visualizar (Arraste para mudar a posição)"
     },
     "osdSetupPreviewTitleTip": {
-        "message": "Mostrar ou esconder a logo na janela de pré-visualização. Isso não irá afetar nenhuma configuração no controlador de voo."
+        "message": "Mostrar ou esconder o logo na janela de pré-visualização. Isso não irá afetar nenhuma configuração no controlador de voo."
     },
     "osdSetupVideoFormatTitle": {
         "message": "Formato do Video"
@@ -3124,13 +3124,13 @@
         "message": "Abrir Arquivo de Fonte"
     },
     "osdSetupCustomLogoTitle": {
-        "message": "Logo no Boot:"
+        "message": "Logo do Boot:"
     },
     "osdSetupCustomLogoOpenImageButton": {
         "message": "Selecionar imagem&hellip;"
     },
     "osdSetupCustomLogoInfoTitle": {
-        "message": "Imagem customizada:"
+        "message": "Imagem personalizada:"
     },
     "osdSetupCustomLogoInfoImageSize": {
         "message": "O tamanho deve ser $t(logoWidthPx)×$t(logoHeightPx) pixels"
@@ -3139,13 +3139,13 @@
         "message": "Deve conter pixels verdes, preto e branco"
     },
     "osdSetupCustomLogoInfoUploadHint": {
-        "message": "Pressione <b>$t(osdSetupUploadFont.message)<\/b> para manter a logo customizada"
+        "message": "Pressione <b>$t(osdSetupUploadFont.message)<\/b> para manter o logo personalizado"
     },
     "osdSetupCustomLogoImageSizeError": {
         "message": "Tamanho da imagem inválido: {{width}}×{{height}} (deveria ser $t(logoWidthPx)×$t(logoHeightPx))"
     },
     "osdSetupCustomLogoColorMapError": {
-        "message": "A imagem contém um pixel inválido: rgb({{valueR}}, {{valueG}}, {{valueB}}) nas coordenadas {{posX}} x{{posY}}"
+        "message": "A imagem contém um pixel inválido: rgb({{valueR}}, {{valueG}}, {{valueB}}) nas coordenadas {{posX}}x{{posY}}"
     },
     "osdSetupUploadFont": {
         "message": "Carregar Fonte"
@@ -3208,7 +3208,7 @@
         "message": "Consumo de corrente instantânea da bateria"
     },
     "osdDescElementMahDrawn": {
-        "message": "Capacidade total utilizado da bateria"
+        "message": "Capacidade total utilizada da bateria"
     },
     "osdDescElementCraftName": {
         "message": "Nome da aeronave como na aba de Configurações"
