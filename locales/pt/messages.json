@@ -846,13 +846,13 @@
         "message": "<strong>Nota:<\/strong> Lembre-se de configurar uma Porta Serial (através da aba de Portas) e escolher um Provedor Serial ao usar a funcionalidade RX_SERIAL."
     },
     "configurationSpiRxHelp": {
-        "message": "<strong>Nota:<\/strong> O protocolo de SPI RX só funcionará se o hardware necessário está a bordo ou ligado a um barramento SPI."
+        "message": "<strong>Nota:<\/strong> O protocolo de SPI RX só funcionará se o hardware necessário estiver presente na placa ou ligado a um barramento SPI."
     },
     "configurationOtherFeaturesHelp": {
         "message": "<strong>Nota:<\/strong> Nem todas as funcionalidades são suportadas por todos os controladores de voo. Se ativar uma funcionalidade específica, e ela é desativada depois de clicar em 'Salvar e Reiniciar', significa que essa funcionalidade não é suportada pela placa."
     },
     "configurationBoardAlignment": {
-        "message": "Alinhamento da placa e do sensores"
+        "message": "Alinhamento da placa e dos sensores"
     },
     "configurationBoardAlignmentRoll": {
         "message": "Graus de Rotação (Roll)"
