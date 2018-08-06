@@ -1436,13 +1436,13 @@
         "message": "Pré-visualizar"
     },
     "receiverMspWarningText": {
-        "message": "Estes sticks permitem o Betaflight ser armado e testado sem um transmissor ou receptor disponíveis. Porém, <strong>esta funcionalidade não foi feita para voos e as hélices não devem estar encaixadas.<\/strong><br><br>Esta função não garante um controle confiável da sua aeronave. <strong>Ferimentos graves podem ocorrer se as hélices estiverem conectadas.<\/strong>"
+        "message": "Estes sticks permitem o Betaflight ser armado e testado sem um transmissor ou receptor disponíveis. Porém, <strong>esta funcionalidade não foi feita para voos e as hélices não devem estar montadas.<\/strong><br><br>Esta função não garante um controle viável da sua aeronave. <strong>Ferimentos graves podem ocorrer se as hélices estiverem montadas.<\/strong>"
     },
     "receiverMspEnableButton": {
         "message": "Habilitar controles"
     },
     "auxiliaryHelp": {
-        "message": "Use as faixas para definir quais switches no seu transmissor correspondem aos modos designados. Um canal no receptor que fornece uma leitura entre o máximo\/mínimo da faixa ativará o modo. Lembre-se de salvar suas configurações."
+        "message": "Use as faixas para definir quais 'switches' no seu transmissor correspondem aos modos designados. Um canal no receptor que fornece uma leitura entre o máximo\/mínimo da faixa ativará o modo. Lembre-se de salvar suas configurações."
     },
     "auxiliaryToggleUnused": {
         "message": "Mostrar\/esconder modos não utilizados"
@@ -1466,7 +1466,7 @@
         "message": "AUTO"
     },
     "adjustmentsHelp": {
-        "message": "Configure os switches de ajuste. Leia a seção do manual sobre 'in-flight adjustments' para detalhes. Os ajustes feitos por essas funções não serão salvos automaticamente. Existem 4 slots. Cada switch utilizado ao mesmo tempo para o ajuste exige o uso exclusivo de um slot."
+        "message": "Configure os 'switches' de ajuste. Leia a seção do manual sobre 'in-flight adjustments' para detalhes. Os ajustes feitos por essas funções não serão salvos automaticamente. Existem 4 slots. Cada switch utilizado ao mesmo tempo para o ajuste exige o uso exclusivo de um slot."
     },
     "adjustmentsExamples": {
         "message": "Exemplos"
