@@ -2123,7 +2123,7 @@
         "message": "Selecione a versão do firmware para sua placa."
     },
     "firmwareFlasherNoRebootDescription": {
-        "message": "Ative se seu FC está no modo boot. Por exemplo, se você ligou o seu FC com os pinos do bootloader jampeados ou enquanto está segurando o botão BOOT do seu FC."
+        "message": "Ative se seu controlador de voo está no modo boot. Por exemplo, se você ligou a sua placa com os pinos do bootloader em 'curto-circuito' ou enquanto está pressionando o botão BOOT em sua placa."
     },
     "firmwareFlasherFlashOnConnect": {
         "message": "Atualizar ao conectar"
@@ -2135,7 +2135,7 @@
         "message": "Formatar chip"
     },
     "firmwareFlasherFullChipEraseDescription": {
-        "message": "Limpa todos dados de configuração armazenados na placa."
+        "message": "Limpa todos os dados de configuração armazenados na placa."
     },
     "firmwareFlasherFlashDevelopmentFirmware": {
         "message": "Usar Firmware em desenvolvimento"
