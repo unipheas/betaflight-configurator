@@ -1211,6 +1211,12 @@
     "receiverRcInterpolationInterval": {
         "message": "Intervalle d'interpolation RC [ms]"
     },
+    "pidTuningFeedforwardTransition": {
+        "message": "Feedforward transition"
+    },
+    "pidTuningFeedforwardTransitionHelp": {
+        "message": "Avec ce paramètre, l'effet du Feedforward term peut être diminué prés du centre des sticks, donnant de la souplesse à la fin des flips et rolls.<br> La valeur représente un point de déflection des sticks: 0 - stick centré, 1 - déflection complète. Lorsque le stick dépasse ce point, le Feedforward est maintenu à la valeur configurée. Lorsque le stick passe sous ce point, le Feedforward est réduit proportionnellement, jusqu'à 0 lorsque le stick est au centre.<br> Une valeur de 1 donne un maximum de souplesse, 0 conserve sur toute la course de stick le FeeForward à sa valeur configurée."
+    },
     "pidTuningDtermSetpointTransition": {
         "message": "D Setpoint transition"
     },
@@ -1234,6 +1240,9 @@
     },
     "pidTuningDerivative": {
         "message": "Dérivée"
+    },
+    "pidTuningFeedforward": {
+        "message": "Feedforward"
     },
     "pidTuningRcRate": {
         "message": "RC Rate"
@@ -1421,6 +1430,9 @@
     "auxiliaryHelp": {
         "message": "Utilisez les plages pour définir les commutateurs de votre émetteur et les affectations de mode correspondantes. Un canal récepteur qui donne une lecture entre une plage min \/ max activera le mode. N'oubliez pas d'enregistrer vos paramètres à l'aide du bouton Enregistrer."
     },
+    "auxiliaryToggleUnused": {
+        "message": "Afficher\/masquer les modes non utilisés"
+    },
     "auxiliaryMin": {
         "message": "Minimum"
     },
@@ -1556,14 +1568,29 @@
     "adjustmentsFunction22": {
         "message": "Point de consigne du D"
     },
+    "adjustmentsFunction22_2": {
+        "message": "Ajustement du F Pitch & Roll"
+    },
     "adjustmentsFunction23": {
         "message": "Transition du point de consigne du D"
+    },
+    "adjustmentsFunction23_2": {
+        "message": "Feedforward Transition"
     },
     "adjustmentsFunction24": {
         "message": "Ajustement de la force du mode Horizon"
     },
     "adjustmentsFunction25": {
         "message": "Sélection de PID-Audio"
+    },
+    "adjustmentsFunction26": {
+        "message": "Ajustement du F pitch"
+    },
+    "adjustmentsFunction27": {
+        "message": "Ajustement du F Roll"
+    },
+    "adjustmentsFunction28": {
+        "message": "Ajustement du F Yaw"
     },
     "adjustmentsSave": {
         "message": "Enregistrer"
@@ -2652,6 +2679,60 @@
     },
     "pidTuningVbatPidCompensationHelp": {
         "message": "Augmente les PID quand la batterie se vide. Cela procure plus de linéarité dans le vol. La compensation est calculée à partir de la valeur $t(powerBatteryMaximum.message) renseignée dans la page $t(tabPower.message). Il faut s'assurer qu'une valeur cohérente soit renseignée."
+    },
+    "pidTuningItermRotation": {
+        "message": "I Term Rotation"
+    },
+    "pidTuningItermRotationHelp": {
+        "message": "Transmet la valeur du vecteur I Term aux autres axes lorsque le quad tourne en yaw continuellement pendant des rolls et pendant des funnels ou autres figures. Très apprécié par les pilotes acro LOS."
+    },
+    "pidTuningSmartFeedforward": {
+        "message": "Smart Feedforward"
+    },
+    "pidTuningItermRelax": {
+        "message": "I Term Relax"
+    },
+    "pidTuningItermRelaxHelp": {
+        "message": "Limite l'accumulation de I Term sur des mouvements rapides. Ceci aide à réduire les rebonds en fin de rolls et autres manœuvres rapides. Vous pouvez choisir les axes pour lesquels l'option sera active et si les manœuvres rapides sont détectées par le Gyro ou les Setpoint (sticks)."
+    },
+    "pidTuningItermRelaxAxes": {
+        "message": "Axes:"
+    },
+    "pidTuningItermRelaxAxesOptionRP": {
+        "message": "RP"
+    },
+    "pidTuningItermRelaxAxesOptionRPY": {
+        "message": "RPY"
+    },
+    "pidTuningItermRelaxAxesOptionRPInc": {
+        "message": "RP (incrémente uniquement)"
+    },
+    "pidTuningItermRelaxAxesOptionRPYInc": {
+        "message": "RPY (incrémente seulement)"
+    },
+    "pidTuningItermRelaxType": {
+        "message": "Type:"
+    },
+    "pidTuningItermRelaxTypeOptionGyro": {
+        "message": "Gyro"
+    },
+    "pidTuningItermRelaxTypeOptionSetpoint": {
+        "message": "Setpoint"
+    },
+    "pidTuningAbsoluteControlGain": {
+        "message": "Contrôle absolu"
+    },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "Cette fonctionnalité résout certains problèmes sous-jacents à I Term Rotation et peut remplacer sa valeur à certains moments. Elle observe les erreurs Gyro sur les coordonnées et applique une correction proportionnelle de la valeur de la consigne. Nécessite iterm_relax sur RPY."
+    },
+    "pidTuningThrottleBoost": {
+        "message": "Throttle Boost"
+    },
+    "pidTuningThrottleBoostHelp": {
+        "message": "Cette fonctionnalité booste temporairement les gaz et réduit le temps de réponse des moteurs dés le début des fortes accélérations."
+    },
+    "pidTuningAcroTrainerAngleLimit": {
+        "message": "Limite d'angle Acro Trainer"
     },
     "configHelp2": {
         "message": "Rotation arbitraire de la carte en degrés permettant un montage latéral \/ à l'envers \/ de côté etc. Si des capteurs externes sont utilisés, servez vous du sensor alignments (Gyro, Acc, Mag) pour définir leur position indépendamment  de l'orientation de la carte. "
