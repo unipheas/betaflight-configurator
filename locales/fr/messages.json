@@ -53,6 +53,9 @@
     "permanentExpertMode": {
         "message": "Activer le mode expert de façon permanente"
     },
+    "rememberLastTab": {
+        "message": "Rouvrir le dernier onglet à la connexion"
+    },
     "userLanguageSelect": {
         "message": "Langue (nécessite un redémarrage pour appliquer les changements)"
     },
