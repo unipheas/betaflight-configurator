@@ -1940,9 +1940,6 @@
     "firmwareFlasherBaudRate": {
         "message": "Baud Rate"
     },
-    "firmwareFlasherShowDevelopmentReleases": {
-        "message": "Näytä epäväkaat julkaisut"
-    },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "Näytä julkaisukandidaatit ja kehittäjäversiot"
     },
