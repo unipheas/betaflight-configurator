@@ -2048,9 +2048,6 @@
     "firmwareFlasherBaudRate": {
         "message": "Velocitat de bauds"
     },
-    "firmwareFlasherShowDevelopmentReleases": {
-        "message": "Mostra releases inestables"
-    },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "Mostra Release-Candidate o versions de desenvolupament."
     },
