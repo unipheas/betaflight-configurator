@@ -1925,9 +1925,6 @@
     "firmwareFlasherBaudRate": {
         "message": "Скорость передачи"
     },
-    "firmwareFlasherShowDevelopmentReleases": {
-        "message": "Показать нестабильные релизы"
-    },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "Показывать релиз-кандидаты и версии, находящиеся в стадии разработки."
     },
