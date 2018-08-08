@@ -2141,9 +2141,6 @@
     "firmwareFlasherBaudRate": {
         "message": "Baud rate"
     },
-    "firmwareFlasherShowDevelopmentReleases": {
-        "message": "Montrer les versions instables"
-    },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "Montrer les versions RC et en développement."
     },
