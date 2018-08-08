@@ -2158,9 +2158,6 @@
     "firmwareFlasherBaudRate": {
         "message": "波特率"
     },
-    "firmwareFlasherShowDevelopmentReleases": {
-        "message": "显示测试固件"
-    },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "显示测试版本固件"
     },
