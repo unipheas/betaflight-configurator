@@ -378,6 +378,15 @@
         "message": "crwdns8710:0{{operatingSystem}}crwdnd8710:0{{chromeVersion}}crwdnd8710:0{{configuratorVersion}}crwdne8710:0",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
+    "buildServerLoaded": {
+        "message": "crwdns8827:0$1crwdne8827:0"
+    },
+    "buildServerLoadFailed": {
+        "message": "crwdns8828:0$1crwdnd8828:0$2crwdne8828:0"
+    },
+    "buildServerUsingCached": {
+        "message": "crwdns8829:0$1crwdne8829:0"
+    },
     "releaseCheckLoaded": {
         "message": "crwdns5418:0$1crwdne5418:0"
     },
@@ -2202,7 +2211,7 @@
         "message": "crwdns5984:0crwdne5984:0"
     },
     "firmwareFlasherShowDevelopmentReleases": {
-        "message": "crwdns5985:0crwdne5985:0"
+        "message": "crwdns8830:0crwdne8830:0"
     },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "crwdns5986:0crwdne5986:0"
