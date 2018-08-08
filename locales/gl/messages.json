@@ -974,9 +974,6 @@
     "firmwareFlasherBaudRate": {
         "message": "Velocidade de Transmisión"
     },
-    "firmwareFlasherShowDevelopmentReleases": {
-        "message": "Mostrar versións inestables"
-    },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "Mostrar versións candidatas a estable e versión de desenvolvemento."
     },
