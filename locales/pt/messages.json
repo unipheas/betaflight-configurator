@@ -345,7 +345,7 @@
         "message": "<b>Requisição ao servidor de compilação para versões do $1 falhou, usando informações em cache. Motivo: <code>$2<\/code><\/b>"
     },
     "buildServerUsingCached": {
-        "message": "Utilizando informações de compilação em cache do $1."
+        "message": "Utilizando informações de compilação em cache para o $1."
     },
     "releaseCheckLoaded": {
         "message": "Informações da versão do $1 carregadas do GitHub."
