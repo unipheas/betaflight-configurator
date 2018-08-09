@@ -1271,16 +1271,16 @@
         "message": "Derivative"
     },
     "pidTuningFeedforward": {
-        "message": "フィードフォワード"
+        "message": "Feedforward"
     },
     "pidTuningRcRate": {
-        "message": "RC レート"
+        "message": "RC Rate"
     },
     "pidTuningMaxVel": {
         "message": "最大速度 [deg\/s]"
     },
     "pidTuningRate": {
-        "message": "レート"
+        "message": "Rate"
     },
     "pidTuningSuperRate": {
         "message": "Super Rate"
