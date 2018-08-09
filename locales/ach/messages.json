@@ -63,6 +63,9 @@
     "rememberLastTab": {
         "message": "crwdns8815:0crwdne8815:0"
     },
+    "analyticsOptOut": {
+        "message": "crwdns8831:0crwdne8831:0"
+    },
     "userLanguageSelect": {
         "message": "crwdns5328:0crwdne5328:0"
     },
@@ -515,6 +518,9 @@
     },
     "defaultChangelogHead": {
         "message": "crwdns5457:0crwdne5457:0"
+    },
+    "defaultPrivacyPolicyAction": {
+        "message": "crwdns8832:0crwdne8832:0"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "crwdns5458:0crwdne5458:0"
