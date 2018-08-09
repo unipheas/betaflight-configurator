@@ -338,6 +338,15 @@
         "message": "実行中 - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
+    "buildServerLoaded": {
+        "message": "サーバから $1 の開発情報が読み込まれました。"
+    },
+    "buildServerLoadFailed": {
+        "message": "<b>サーバからの $1 リリース情報の読込みに失敗した為、キャッシュ情報を使用します。理由：<code>$2<\/code><\/b>"
+    },
+    "buildServerUsingCached": {
+        "message": "$1 開発情報のキャッシュを参照します。"
+    },
     "releaseCheckLoaded": {
         "message": "$1 GitHubより、リリース情報を受信しました。"
     },
@@ -2157,6 +2166,9 @@
     },
     "firmwareFlasherBaudRate": {
         "message": "伝送速度"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "未検証バージョンと追加リリースを表示"
     },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "リリース候補と開発リリースを表示します。"
