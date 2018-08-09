@@ -56,6 +56,9 @@
     "rememberLastTab": {
         "message": "Recordar última pestaña al conectar"
     },
+    "analyticsOptOut": {
+        "message": "Excluir de la recogida anónima de datos estadísticos"
+    },
     "userLanguageSelect": {
         "message": "Idioma (hay que reiniciar la aplicación para que el cambio sea efectivo)"
     },
@@ -475,6 +478,9 @@
     },
     "defaultChangelogHead": {
         "message": "Configurator - Novedades"
+    },
+    "defaultPrivacyPolicyAction": {
+        "message": "Política de Privacidad"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "Instalar Firmware"
