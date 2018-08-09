@@ -338,6 +338,15 @@
         "message": "Darbojās - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
+    "buildServerLoaded": {
+        "message": "Ielādēja informāciju priekš $1 no buildservera."
+    },
+    "buildServerLoadFailed": {
+        "message": "<b>Buildservera pieprasījums priekš $1 relīzes neizdevies, izmanto kešoto informāciju. Iemesls: <code>$2<\/code><\/b>"
+    },
+    "buildServerUsingCached": {
+        "message": "Izmanto kašoto builda informāciju priekš $1."
+    },
     "releaseCheckLoaded": {
         "message": "Ielādēta relīzes informācija priekš $1 no GitHub."
     },
@@ -2157,6 +2166,9 @@
     },
     "firmwareFlasherBaudRate": {
         "message": "Pārraides ātrums"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Pāradīt nestabilās un papildus relīzes"
     },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "Rādīt relīžu kandidātu vai izstrādes relīzes."
