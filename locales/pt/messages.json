@@ -338,6 +338,15 @@
         "message": "Executando - SO: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurador: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
+    "buildServerLoaded": {
+        "message": "Informação da versão do $1 carregadas do servidor de compilação."
+    },
+    "buildServerLoadFailed": {
+        "message": "<b>Requisição ao servidor de compilação para versões do $1 falhou, usando informações em cache. Motivo: <code>$2<\/code><\/b>"
+    },
+    "buildServerUsingCached": {
+        "message": "Utilizando informações de compilação em cache do $1."
+    },
     "releaseCheckLoaded": {
         "message": "Informações da versão do $1 carregadas do GitHub."
     },
@@ -2157,6 +2166,9 @@
     },
     "firmwareFlasherBaudRate": {
         "message": "Baud Rate"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Mostrar versões instáveis e adicionais"
     },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "Mostrar versões em Desenvolvimento e Release-Candidates."
