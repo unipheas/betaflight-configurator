@@ -338,6 +338,15 @@
         "message": "운영-OS: <strong>{{operatingSystem}}<\/strong>, 크롬: <strong>{{chromeVersion}}<\/strong>, 컨피규레이터: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
+    "buildServerLoaded": {
+        "message": "빌드 서버로부터 $1에 대한 빌드 정보가 로드되었습니다."
+    },
+    "buildServerLoadFailed": {
+        "message": "<b>$1 릴리즈에 대한 빌드 서버 쿼리 실패, 캐시된 정보를 사용합니다. 이유: <code>$2<\/code><\/b>"
+    },
+    "buildServerUsingCached": {
+        "message": "$1에 대한 캐시된 빌드 정보를 사용합니다."
+    },
     "releaseCheckLoaded": {
         "message": "GitHub로부터 $1에 대한 릴리즈 정보를 로드했습니다."
     },
@@ -2157,6 +2166,9 @@
     },
     "firmwareFlasherBaudRate": {
         "message": "전송 속도"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "불안정과 추가 릴리즈 보기"
     },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "릴리즈-후보 및 개발단계 릴리즈를 표시합니다."
