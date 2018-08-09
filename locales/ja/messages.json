@@ -56,6 +56,9 @@
     "rememberLastTab": {
         "message": "接続時に前回のタブを開く"
     },
+    "analyticsOptOut": {
+        "message": "匿名の統計データ収集を無効"
+    },
     "userLanguageSelect": {
         "message": "言語設定 (変更を有効にするにはConfiguratorを再起動して下さい)"
     },
@@ -476,6 +479,9 @@
     "defaultChangelogHead": {
         "message": "Configurator - 変更履歴"
     },
+    "defaultPrivacyPolicyAction": {
+        "message": "プライバシーポリシー"
+    },
     "defaultButtonFirmwareFlasher": {
         "message": "ファームフラッシャー"
     },
@@ -498,7 +504,7 @@
         "message": "Betaflightドキュメントは、リリースノートおよび wiki にてご利用いただけます。<br \/><br \/>"
     },
     "defaultDocumentation1": {
-        "message": "Betaflight wiki はすばらしい情報リソースを<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">こちら<\/a>で検索・確認することができます。"
+        "message": "Betaflight wiki はすばらしい情報リソースを<a href=\"https:\/\/github.com\/betaflight\/betafli<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">ght\/wiki\" target=\"_blank\">こちら<\/a>で検索・確認することができます。"
     },
     "defaultDocumentation2": {
         "message": "ファームウェア リリースノートは、GitHub リリースページの<a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">こちら<\/a>で確認いただけます。"
