@@ -56,6 +56,9 @@
     "rememberLastTab": {
         "message": "Atvērt pēdējo cilni pie pieslēgšanās"
     },
+    "analyticsOptOut": {
+        "message": "Atteikties no anonīmas statistikas datu vākšanas"
+    },
     "userLanguageSelect": {
         "message": "Valoda (nepieciešams pārstartēt programmu, lai izmaiņas stātos spēkā)"
     },
@@ -475,6 +478,9 @@
     },
     "defaultChangelogHead": {
         "message": "Konfiguratora izmaiņu žurnāls"
+    },
+    "defaultPrivacyPolicyAction": {
+        "message": "Privātuma politika"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "Programmators"
