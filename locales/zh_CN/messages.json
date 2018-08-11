@@ -56,6 +56,9 @@
     "rememberLastTab": {
         "message": "连接后重新打开最后使用的选项页"
     },
+    "analyticsOptOut": {
+        "message": "退出匿名的统计数据收集"
+    },
     "userLanguageSelect": {
         "message": "语言 （需要重启应用才能生效）"
     },
@@ -338,6 +341,15 @@
         "message": "操作系统: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, 配置程序: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
+    "buildServerLoaded": {
+        "message": "已从生成服务器加载 $1 的生成信息。"
+    },
+    "buildServerLoadFailed": {
+        "message": "<b>从生成服务器获取 $1 发布版本失败，使用已缓存的信息。 失败原因：<code>$2<\/code><\/b>"
+    },
+    "buildServerUsingCached": {
+        "message": "为 $1 使用已缓存的生成信息。"
+    },
     "releaseCheckLoaded": {
         "message": "从Github 载入 $1 发布信息"
     },
@@ -466,6 +478,9 @@
     },
     "defaultChangelogHead": {
         "message": "Configurator - 更新日志"
+    },
+    "defaultPrivacyPolicyAction": {
+        "message": "隐私政策"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "固件烧写器"
@@ -2157,6 +2172,9 @@
     },
     "firmwareFlasherBaudRate": {
         "message": "波特率"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "显示不稳定和其他版本"
     },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "显示测试版本固件"
