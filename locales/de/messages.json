@@ -63,6 +63,9 @@
     "rememberLastTab": {
         "message": "Die letzte Registerkarte wieder beim Verbinden öffnen"
     },
+    "analyticsOptOut": {
+        "message": "Verweigert die anonymisierte Erhebung von Statistikdaten"
+    },
     "userLanguageSelect": {
         "message": "Sprache (Das Programm muss zur Änderung neu gestartet werden)"
     },
