@@ -2173,12 +2173,6 @@
     "firmwareFlasherBaudRate": {
         "message": "波特率"
     },
-    "firmwareFlasherShowDevelopmentReleases": {
-        "message": "显示不稳定和其他版本"
-    },
-    "firmwareFlasherShowDevelopmentReleasesDescription": {
-        "message": "显示测试版本固件"
-    },
     "firmwareFlasherOptionLoading": {
         "message": "加载中……"
     },
