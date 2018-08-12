@@ -56,6 +56,9 @@
     "rememberLastTab": {
         "message": "Rouvrir le dernier onglet à la connexion"
     },
+    "analyticsOptOut": {
+        "message": "Ne pas participer à la collecte anonymes de données statistiques"
+    },
     "userLanguageSelect": {
         "message": "Langue (nécessite un redémarrage pour appliquer les changements)"
     },
@@ -338,6 +341,15 @@
         "message": "Running - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
+    "buildServerLoaded": {
+        "message": "Informations sur la version de $1 chargées depuis le serveur."
+    },
+    "buildServerLoadFailed": {
+        "message": "<b>Requête auprès du serveur pour les releases $1 échouée, utilise les informations en cache. Raison: <code>$2<\/code><\/b>"
+    },
+    "buildServerUsingCached": {
+        "message": "Utilise les informations en cache pour $1."
+    },
     "releaseCheckLoaded": {
         "message": "Information release GitHub chargée pour $1."
     },
@@ -467,11 +479,17 @@
     "defaultChangelogHead": {
         "message": "Configurateur - Changelog"
     },
+    "defaultPrivacyPolicyAction": {
+        "message": "Politique de confidentialité"
+    },
     "defaultButtonFirmwareFlasher": {
         "message": "Flasher le microprogramme"
     },
     "defaultDonateHead": {
         "message": "Open Source \/ Avis de dons"
+    },
+    "defaultDonateText": {
+        "message": "<strong>Betaflight<\/strong>est un logiciel de contrôle de vol <strong>libre (open source)<\/strong> et gratuit <strong>sans aucune garantie<\/strong>, pour tous les utilisateurs.<br \/>Si vous trouvez Betaflight ou Betaflight Configurator utiles, veuillez envisager<strong>d'aider<\/strong> leur développement grâce à un don."
     },
     "defaultDonate": {
         "message": "Don"
@@ -1178,6 +1196,17 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Paramètres du contrôleur PID independants du profil"
     },
+    "pidTuningAntiGravityMode": {
+        "message": "Mode Anti Gravity"
+    },
+    "pidTuningAntiGravityModeOptionSmooth": {
+        "message": "Souple",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityModeOptionStep": {
+        "message": "Seuil",
+        "description": "One of the modes of anti gravity"
+    },
     "pidTuningAntiGravityGain": {
         "message": "Gain Anti Gravity"
     },
@@ -1186,6 +1215,69 @@
     },
     "pidTuningPidSettings": {
         "message": "Réglages du Contrôleur PID"
+    },
+    "receiverRcSmoothing": {
+        "message": "RC Smoothing"
+    },
+    "receiverRcSmoothingAuto": {
+        "message": "Auto"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "Manuel"
+    },
+    "receiverRcDerivativeTypeSelect": {
+        "message": "Type de Cutoff de dérivée"
+    },
+    "receiverRcInputTypeSelect": {
+        "message": "Type d’entrée de Cutoff"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "Interpolation"
+    },
+    "receiverRcSmoothingFilter": {
+        "message": "Filtre"
+    },
+    "receiverRcSmoothingTypeHelp": {
+        "message": "Type de RC smoothing utilisé"
+    },
+    "rcSmoothingInputCutoffHelp": {
+        "message": "La fréquence de coupure en Hz utilisée par le filtre d’entrée. Des valeurs faibles rendent les entrées plus lisses et sont plus appropriée pour les protocoles de récepteur plus lents. La plupart des utilisateurs devraient laisser le paramètre à 0 correspondant à « Auto »."
+    },
+    "rcSmoothingDerivativeCutoffHelp": {
+        "message": "Fréquence de coupure en Hz utilisée par le filtre dérivée setpoint. Des valeurs faibles rendent les entrées plus lisses et sont plus appropriée pour les protocoles de récepteur plus lents. La plupart des utilisateurs devraient laisser le paramètre à 0 correspondant à « Auto »."
+    },
+    "rcSmoothingChannelsSmoothedHelp": {
+        "message": "Le lissage des canaux s'applique à"
+    },
+    "rcSmoothingDerivativeTypeHelp": {
+        "message": "Le type de méthode de filtrage utilisée pour la dérivée setpoint. La plupart des utilisateurs devraient utiliser le « BIQUAD » par défaut car il offre un bon équilibre entre souplesse et latence. « PT1 » réduit légèrement la latence mais offre moins de lissage."
+    },
+    "rcSmoothingInputTypeHelp": {
+        "message": "Le type de filtre utilisé pour l'entrée. La plupart des utilisateurs devraient utiliser le « BIQUAD » par défaut car il offre un bon équilibre entre souplesse et latence. « PT1 » réduit légèrement la latence mais offre moins de lissage."
+    },
+    "receiverRcSmoothingInputManual": {
+        "message": "Sélectionne si la fréquence de coupure du filtre d’entrée est calculée automatiquement (recommandé) ou fixée manuellement par l’utilisateur. « Manuel » n’est pas recommandé pour les protocoles de récepteur comme Crossfire qui peuvent changer en vol."
+    },
+    "receiverRcSmoothingDerivativeManual": {
+        "message": "Sélectionne si la fréquence de coupure du filtre dérivé setpoint est calculée automatiquement (recommandé) ou fixée manuellement par l’utilisateur. « Manuel » n’est pas recommandé pour les protocoles de récepteur comme Crossfire qui peuvent changer en vol."
+    },
+    "receiverRcSmoothingInputHz": {
+        "message": "Fréquence de coupure de l'entrée"
+    },
+    "receiverRcSmoothingDerivativeCutoff": {
+        "message": "Fréquence de coupure de dérivée"
+    },
+    "receiverRcInputType": {
+        "message": "Type de filtre d'entrée"
+    },
+    "receiverRcDerivativeType": {
+        "message": "Type de filtre de dérivée"
+    },
+    "receiverRcSmoothingDerivativeTypeOff": {
+        "message": "Désactivé"
+    },
+    "receiverRcSmoothingChannel": {
+        "message": "Canaux lissés"
     },
     "receiverRcInterpolation": {
         "message": "Interpolation RC"
@@ -1198,6 +1290,9 @@
     },
     "receiverRcInterpolationOff": {
         "message": "Désactivé"
+    },
+    "receiverRcSmoothingType": {
+        "message": "Type de lissage"
     },
     "receiverRcInterpolationDefault": {
         "message": "Preset"
@@ -2141,6 +2236,9 @@
     "firmwareFlasherBaudRate": {
         "message": "Baud rate"
     },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Montrer plus de versions et les versions non stables"
+    },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "Montrer les versions RC et en développement."
     },
@@ -2686,6 +2784,9 @@
     "pidTuningSmartFeedforward": {
         "message": "Smart Feedforward"
     },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "Réduits l'effet de F Term dans les PID. Lorsque P Term et F Term sont actifs en même temps, seule la plus grande valeur sera utilisée, limitant les excès de P et le besoin d'augmenter D, mais réduit la réactivité de F Term quand elle est ajoutée à P."
+    },
     "pidTuningItermRelax": {
         "message": "I Term Relax"
     },
@@ -2730,6 +2831,9 @@
     },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Limite d'angle Acro Trainer"
+    },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "Ajoute un nouvelle limite d'angle afin d'apprendre le pilotage en acro. La plage valide est 10-80 et doit être activé avec un switch dans l'onglet $t(tabAuxiliary.message) ."
     },
     "configHelp2": {
         "message": "Rotation arbitraire de la carte en degrés permettant un montage latéral \/ à l'envers \/ de côté etc. Si des capteurs externes sont utilisés, servez vous du sensor alignments (Gyro, Acc, Mag) pour définir leur position indépendamment  de l'orientation de la carte. "
@@ -3093,6 +3197,12 @@
     },
     "osdSetupFontPresets": {
         "message": "Préréglages de police:"
+    },
+    "osdSetupFontPresetsSelector": {
+        "message": "Choisir des réglages de Police:"
+    },
+    "osdSetupFontPresetsSelectorOr": {
+        "message": "ou"
     },
     "osdSetupOpenFont": {
         "message": "Ouvrir le fichier de police"
@@ -3535,6 +3645,9 @@
     "pidTuningPidTuningTip": {
         "message": "<b>Proportionnelle:<\/b> Vous verrez une résistance forte lorsque vous essaierez de faire bouger le drone<br><b>Intégrale:<\/b> Augmente la capacité à tenir la position initiale et réduit le dérapage, mais augmente aussi le délai pour revenir à la position initiale.<br><b>Dérivée:<\/b> Améliore la vitesse à laquelle les écarts sont récupérés, mais augmente le bruit<br><b>Rates et Expo<\/b>: Détermine la réactivité des commandes en se basant sur ces paramètres. Utiliser le graphe et la vue du modèle en 3D pour trouver vos paramètres préférés."
     },
+    "pidTuningPidTuningTipFeedforward": {
+        "message": "<b>Proportionnelle:<\/b> Vous sentirez une résistance forte lorsque vous tenterez de faire bouger le MultiRotor<br>\n<b>Intégrale:<\/b> Augmente la capacité à tenir la position initiale et réduit le dérapage, mais augmente aussi le délai pour revenir à la position initiale.<br>\n<b>Dérivée:<\/b> Améliore la vitesse à laquelle les écarts sont récupérés, mais augmente le bruit<br>\n<b>Feedforward:<\/b> Traditionnellement le contrôleur PID se base sur les erreurs. Feedforward anticipe les erreurs en se basant sur les entrées sticks, et rend le quad plus réactif.<br>\n<b>Rates et Expo:<\/b> Agit sur le ressenti et la réactivité des commandes en se basant sur ces paramètres. Utiliser le graphe et la vue du modèle en 3D pour trouver vos paramètres préférés"
+    },
     "pidTuningRatesTip": {
         "message": "Jouer avec les rates et voir comment ça affecte la courbe des commandes"
     },
@@ -3570,6 +3683,9 @@
     },
     "onboardLoggingMsc": {
         "message": "Mode de stockage de masse"
+    },
+    "onboardLoggingMscNote": {
+        "message": "Redémarrer en mode<strong>stockage de masse (MSC)<\/strong>. Une fois activé, la mémoire intégrée ou la carte SD de votre contrôleur de vol seront reconnues comme périphérique de stockage par votre ordinateur, afin de télécharger rapidement vos fichiers logs. Éjectez le périphérique de stockage et redémarrer votre contrôleur afin de quitter ce mode."
     },
     "onboardLoggingRebootMscText": {
         "message": "Activer le Mode de périphérique de stockage de masse"
