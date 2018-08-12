@@ -2173,12 +2173,6 @@
     "firmwareFlasherBaudRate": {
         "message": "전송 속도"
     },
-    "firmwareFlasherShowDevelopmentReleases": {
-        "message": "불안정과 추가 릴리즈 보기"
-    },
-    "firmwareFlasherShowDevelopmentReleasesDescription": {
-        "message": "릴리즈-후보 및 개발단계 릴리즈를 표시합니다."
-    },
     "firmwareFlasherOptionLoading": {
         "message": "로딩중 ..."
     },
