@@ -57,6 +57,9 @@
     "expertMode": {
         "message": "Expertenmodus einschalten"
     },
+    "expertModeDescription": {
+        "message": "Zeige unveröffentlichte und potentiell unstabile Releases an"
+    },
     "permanentExpertMode": {
         "message": "Expertenmodus dauerhaft aktivieren"
     },
@@ -2239,6 +2242,12 @@
     },
     "firmwareFlasherBaudRate": {
         "message": "Baudrate"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Instabile Versionen anzeigen"
+    },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "Zeige Release Candidates zusätzlich zu stabilen Releases an"
     },
     "firmwareFlasherOptionLoading": {
         "message": "Lade...."
