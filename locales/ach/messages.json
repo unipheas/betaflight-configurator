@@ -57,6 +57,9 @@
     "expertMode": {
         "message": "crwdns5326:0crwdne5326:0"
     },
+    "expertModeDescription": {
+        "message": "crwdns8855:0crwdne8855:0"
+    },
     "permanentExpertMode": {
         "message": "crwdns5327:0crwdne5327:0"
     },
@@ -2283,10 +2286,10 @@
         "message": "crwdns5984:0crwdne5984:0"
     },
     "firmwareFlasherShowDevelopmentReleases": {
-        "message": "crwdns8830:0crwdne8830:0"
+        "message": "crwdns8856:0crwdne8856:0"
     },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
-        "message": "crwdns5986:0crwdne5986:0"
+        "message": "crwdns8857:0crwdne8857:0"
     },
     "firmwareFlasherOptionLoading": {
         "message": "crwdns5987:0crwdne5987:0"
