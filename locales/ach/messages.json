@@ -1259,6 +1259,69 @@
     "pidTuningPidSettings": {
         "message": "crwdns5687:0crwdne5687:0"
     },
+    "receiverRcSmoothing": {
+        "message": "crwdns8833:0crwdne8833:0"
+    },
+    "receiverRcSmoothingAuto": {
+        "message": "crwdns8834:0crwdne8834:0"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "crwdns8835:0crwdne8835:0"
+    },
+    "receiverRcDerivativeTypeSelect": {
+        "message": "crwdns8836:0crwdne8836:0"
+    },
+    "receiverRcInputTypeSelect": {
+        "message": "crwdns8837:0crwdne8837:0"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "crwdns8838:0crwdne8838:0"
+    },
+    "receiverRcSmoothingFilter": {
+        "message": "crwdns8839:0crwdne8839:0"
+    },
+    "receiverRcSmoothingTypeHelp": {
+        "message": "crwdns8840:0crwdne8840:0"
+    },
+    "rcSmoothingInputCutoffHelp": {
+        "message": "crwdns8841:0crwdne8841:0"
+    },
+    "rcSmoothingDerivativeCutoffHelp": {
+        "message": "crwdns8842:0crwdne8842:0"
+    },
+    "rcSmoothingChannelsSmoothedHelp": {
+        "message": "crwdns8843:0crwdne8843:0"
+    },
+    "rcSmoothingDerivativeTypeHelp": {
+        "message": "crwdns8844:0crwdne8844:0"
+    },
+    "rcSmoothingInputTypeHelp": {
+        "message": "crwdns8845:0crwdne8845:0"
+    },
+    "receiverRcSmoothingInputManual": {
+        "message": "crwdns8846:0crwdne8846:0"
+    },
+    "receiverRcSmoothingDerivativeManual": {
+        "message": "crwdns8847:0crwdne8847:0"
+    },
+    "receiverRcSmoothingInputHz": {
+        "message": "crwdns8848:0crwdne8848:0"
+    },
+    "receiverRcSmoothingDerivativeCutoff": {
+        "message": "crwdns8849:0crwdne8849:0"
+    },
+    "receiverRcInputType": {
+        "message": "crwdns8850:0crwdne8850:0"
+    },
+    "receiverRcDerivativeType": {
+        "message": "crwdns8851:0crwdne8851:0"
+    },
+    "receiverRcSmoothingDerivativeTypeOff": {
+        "message": "crwdns8852:0crwdne8852:0"
+    },
+    "receiverRcSmoothingChannel": {
+        "message": "crwdns8853:0crwdne8853:0"
+    },
     "receiverRcInterpolation": {
         "message": "crwdns5688:0crwdne5688:0"
     },
@@ -1270,6 +1333,9 @@
     },
     "receiverRcInterpolationOff": {
         "message": "crwdns5691:0crwdne5691:0"
+    },
+    "receiverRcSmoothingType": {
+        "message": "crwdns8854:0crwdne8854:0"
     },
     "receiverRcInterpolationDefault": {
         "message": "crwdns5692:0crwdne5692:0"
