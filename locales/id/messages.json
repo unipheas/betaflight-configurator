@@ -2020,9 +2020,6 @@
     "firmwareFlasherBaudRate": {
         "message": "Baud Rate"
     },
-    "firmwareFlasherShowDevelopmentReleasesDescription": {
-        "message": "Tampilkan Release-Candidate and Development Releases."
-    },
     "firmwareFlasherOptionLoading": {
         "message": "Memuat ..."
     },
