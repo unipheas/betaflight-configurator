@@ -1256,7 +1256,7 @@
         "message": "Ar šo parametru, D iestatījuma svars var tikt samazināts tuvu sviras centram, kas rezultējas ar maigāku nobeigumu pie flipiem un rolliem.<br> Šī vērtība reprezentē sviras ielieces punktu: 0 - svira centā, 1 - pilnīga ieliece. Kad svira ir virs šī punkta, iestatījuma svars ir konstants tā konfigurētajā vērtībā. Kad svira ir zem šī punkta, iestatījuma svars ir samazināts proporcionāli, sasniedzot 0 sviras centra pozīcijā.<br> Vērtība 1 dod maksimālu izlīdzinājumu efektu, kamēr 0 vērtība uztur iestatījuma svaru fiksētu uz tā konfigurēto vērtību visā svirās gājiena diapazonā."
     },
     "pidTuningDtermSetpointHelp": {
-        "message": "Šis parametrs nosaka sviras akselerācijas efektu atvasinājuma komponentē. <br> Vērtība 0 ir ekvivalenta vecajai mērījuma metodei, kur D seko tika žiroskopam, kamēr vērtība 1 ekvivalenta vecajai mērījuma metodei ar vienādu žiroskopa un sviru sekošanu attiecību.<br> Zemāka vērtība sniedz lēnāku\/vienmērīgāku sviras atsauci, kamēr augstāka vērtība sniedz lielāku sviras akselerācijas atsauci.<br> Atcerieties ka pie augstām vērtībām RC interpolāciju ieteicams ieslēgt, tas novērsīs vadības sviras trokšņu ģenerēšanu."
+        "message": "Šis parametrs nosaka sviras akselerācijas efektu derivative komponentē. <br> Vērtība 0 ir ekvivalenta vecajai mērījuma metodei, kur D seko tika žiroskopam, kamēr vērtība 1 ekvivalenta vecajai mērījuma metodei ar vienādu žiroskopa un sviru sekošanu attiecību.<br> Zemāka vērtība sniedz lēnāku\/vienmērīgāku sviras atsauci, kamēr augstāka vērtība sniedz lielāku sviras akselerācijas atsauci.<br> Atcerieties ka pie augstām vērtībām RC interpolāciju ieteicams ieslēgt, tas novērsīs vadības sviras trokšņu ģenerēšanu."
     },
     "pidTuningDtermSetpointTransitionWarning": {
         "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong>Izmantojot D iestatījuma pāreju lielāku par 0 un mazāku par 0.1 ir drosmīgs gājiens. Tā darot, tas var novest līdz nestabilitātei un samazināt vadības sviru atsaucību, kad tās šķērso centra punktu.<\/span>"
@@ -3562,7 +3562,7 @@
         "message": "Līdz pat 3 atšķirīgiem ātrumprofiliem uz katru profilu var tik glabāti uz lidojuma kontrolieriem. Ātrumprofili iekļauj sevī iestatījumus priekš 'RC ātrumi', 'Ātrumi', 'RC Ekspo', 'Drosele' un 'TPA'. Pārslēgšanas starp ātrumprofiliem ir iespējama lidojuma laikā, uzstādot 3 pozīciju slēdzi priekš 'Ātrumu profila izvēle' iekš 'Korekcijas' cilnes."
     },
     "pidTuningDelta": {
-        "message": "Atvasinājuma metode"
+        "message": "Derivative metode"
     },
     "pidTuningDeltaError": {
         "message": "Kļūda"
@@ -3571,7 +3571,7 @@
         "message": "Mērījums"
     },
     "pidTuningDeltaTip": {
-        "message": "<b>Atvasinājums no kļūdas<\/b> sniedz daudz tiešāku sviras atsauci un vairāk piemērots sacensībām.<br><br><b>Atvasinājums no mērījumiem<\/b> sniedz vienmērīgāku sviras atsauci, kas ir vairāk piemērots frīstailam"
+        "message": "<b>Derivative no kļūdas<\/b> sniedz daudz tiešāku sviras atsauci un vairāk piemērots sacensībām.<br><br><b>Derivative no mērījumiem<\/b> sniedz vienmērīgāku sviras atsauci, kas ir vairāk piemērots frīstailam"
     },
     "pidTuningPidControllerTip": {
         "message": "<b>Mantojuma vs Betaflight (peldošais):<\/b> PID mērogošana un PID loģika ir tāda pati. Nav obligāti nepieciešama atkārtota pieregulēšana. Mantojums ir vecais betaflight, kura pamata PID kontrolieris balstīts uz veselo skaitļu matemātikas. Betaflight PID kontrolieris pielieto peldošā punkta matemātiku un tas dod daudz jaunu iespēju, īpaši izstrādātu priekš multirotoriem<br> <b>Peldošais vs veselais:<\/b> PID mērogošana un PID loģika ir tāda pati. Nav nepieciešama atkārtota pieregulēšana. F1 platēm nav integrēta FPU un peldoša punkta matemātika ievērojami palielina CPU noslodzi un veselo skaitļu matemātika uzlabo ātrdarbību, bet samazina precizitāti."
