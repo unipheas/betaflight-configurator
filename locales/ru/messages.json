@@ -2,11 +2,17 @@
     "error": {
         "message": "Ошибка: {{errorMessage}}"
     },
+    "errorTitle": {
+        "message": "Ошибка"
+    },
     "warningTitle": {
         "message": "Внимание!"
     },
     "noticeTitle": {
         "message": "Сообщение"
+    },
+    "operationNotSupported": {
+        "message": "Операция не поддерживается устройством."
     },
     "options_title": {
         "message": "Настройка приложения"
@@ -437,6 +443,9 @@
     "defaultWelcomeHead": {
         "message": "Железо"
     },
+    "defaultWelcomeText": {
+        "message": "Это приложение поддерживает все устройства, которые могут запускаться в Betaflight конфигураторе. Вы также можете посмотреть весь список поддерживаемых устройств во вкладке \"Программатор\".<br><br><a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\"> Скачать Betaflight Blackbox Log Viewer<\/a><br \/><br \/>Исходный код прошивки можно скачать <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">здесь<\/a><br \/><br \/>Последнюю версию <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210x драйвера<\/a> можно скачать <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">здесь<\/a><br \/>Последнюю версию <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCP драйвера<\/a> можно скачать <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">здесь<\/a><br \/>Последнюю версию <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> для установки USB драйвера под Windows можно скачать <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">здесь<\/a><br \/>"
+    },
     "defaultContributingHead": {
         "message": "Содействие"
     },
@@ -448,6 +457,9 @@
     },
     "defaultChangelogHead": {
         "message": "Список изменений конфигуратора"
+    },
+    "defaultPrivacyPolicyAction": {
+        "message": "Политика конфиденциальности"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "Программатор"
@@ -529,6 +541,9 @@
     },
     "initialSetupButtonRestore": {
         "message": "Восстановить"
+    },
+    "initialSetupButtonRebootBootloader": {
+        "message": "Активировать загрузчик \/ DFU"
     },
     "initialSetupBackupSuccess": {
         "message": "Конфигурация <span class=\"message-positive\">успешно<\/span> сохранена"
@@ -1124,6 +1139,14 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Настройки PID-контроллера, независящие от настройки профиля"
     },
+    "pidTuningAntiGravityModeOptionSmooth": {
+        "message": "Гладкая",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityModeOptionStep": {
+        "message": "Шаг",
+        "description": "One of the modes of anti gravity"
+    },
     "pidTuningAntiGravityGain": {
         "message": "Коэффициент Anti Gravity"
     },
@@ -1132,6 +1155,24 @@
     },
     "pidTuningPidSettings": {
         "message": "Настройки PID-контроллера"
+    },
+    "receiverRcSmoothing": {
+        "message": "RC Сглаживание"
+    },
+    "receiverRcSmoothingAuto": {
+        "message": "Авто"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "Ручной"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "Интерполяция"
+    },
+    "receiverRcSmoothingFilter": {
+        "message": "Фильтр"
+    },
+    "receiverRcSmoothingDerivativeTypeOff": {
+        "message": "Выкл."
     },
     "receiverRcInterpolation": {
         "message": "RC интерполяция"
@@ -1145,6 +1186,9 @@
     "receiverRcInterpolationOff": {
         "message": "Выкл."
     },
+    "receiverRcSmoothingType": {
+        "message": "Тип Сглаживание"
+    },
     "receiverRcInterpolationDefault": {
         "message": "Предустановка"
     },
@@ -1156,6 +1200,9 @@
     },
     "receiverRcInterpolationInterval": {
         "message": "Интервал RC-интерполяции [ms]"
+    },
+    "pidTuningFeedforwardTransition": {
+        "message": "Feedforward переход"
     },
     "pidTuningDtermSetpointTransition": {
         "message": "D Setpoint transition"
@@ -1177,6 +1224,9 @@
     },
     "pidTuningDerivative": {
         "message": "Derivative"
+    },
+    "pidTuningFeedforward": {
+        "message": "Feedforward"
     },
     "pidTuningRcRate": {
         "message": "RC Rate"
@@ -1484,8 +1534,23 @@
     "adjustmentsFunction23": {
         "message": "D Setpoint переход"
     },
+    "adjustmentsFunction23_2": {
+        "message": "Feedforward переход"
+    },
     "adjustmentsFunction24": {
         "message": "Регулировка Strength (в реж. Horizon)"
+    },
+    "adjustmentsFunction25": {
+        "message": "PID-Audio выбор"
+    },
+    "adjustmentsFunction26": {
+        "message": "Pitch F корректировка"
+    },
+    "adjustmentsFunction27": {
+        "message": "Roll F корректировка"
+    },
+    "adjustmentsFunction28": {
+        "message": "Yaw F корректировка"
     },
     "adjustmentsSave": {
         "message": "Сохранить"
@@ -1931,6 +1996,18 @@
     "firmwareFlasherOptionLoading": {
         "message": "Загрузка..."
     },
+    "firmwareFlasherOptionLabelBuildTypeRelease": {
+        "message": "Релизы"
+    },
+    "firmwareFlasherOptionLabelBuildTypeDevelopment": {
+        "message": "Разработка"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_3": {
+        "message": "3.3 AKK & RDQ VTX Patch"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_4": {
+        "message": "3.4 AKK & RDQ VTX Patch"
+    },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Выбрать Прошивку \/ Плату"
     },
@@ -2266,8 +2343,53 @@
     "pidTuningNonProfileFilterSettings": {
         "message": "Настройки фильтра вне зависимости от выбранного профиля"
     },
+    "pidTuningGyroLowpassFiltersGroup": {
+        "message": "Гиро низкочастотные фильтры"
+    },
+    "pidTuningGyroNotchFiltersGroup": {
+        "message": "Гиро полосно-заграждающие фильтры"
+    },
+    "pidTuningGyroNotch1Frequency": {
+        "message": "Гиро полосно-заграждающий фильтр 1 центральная частота [Hz]"
+    },
+    "pidTuningGyroNotch2Frequency": {
+        "message": "Гиро полосно-заграждающий фильтр 2 центральная частота [Hz]"
+    },
+    "pidTuningDTermLowpassFiltersGroup": {
+        "message": "D Term низкочастотные фильтры"
+    },
+    "pidTuningDTermNotchFrequency": {
+        "message": "D Term полосно-заграждающий фильтр центральная частота [Hz]"
+    },
     "pidTuningVbatPidCompensation": {
         "message": "Компенсация PID-ов при низком заряде батареи"
+    },
+    "pidTuningItermRelaxAxes": {
+        "message": "Oси:"
+    },
+    "pidTuningItermRelaxAxesOptionRP": {
+        "message": "RP"
+    },
+    "pidTuningItermRelaxAxesOptionRPY": {
+        "message": "RPY"
+    },
+    "pidTuningItermRelaxAxesOptionRPInc": {
+        "message": "RP (только увеличения)"
+    },
+    "pidTuningItermRelaxAxesOptionRPYInc": {
+        "message": "RPY (только увеличения)"
+    },
+    "pidTuningItermRelaxType": {
+        "message": "Тип:"
+    },
+    "pidTuningItermRelaxTypeOptionGyro": {
+        "message": "Гиро"
+    },
+    "pidTuningItermRelaxTypeOptionSetpoint": {
+        "message": "Setpoint"
+    },
+    "pidTuningAbsoluteControlGain": {
+        "message": "Абсолютный контроль"
     },
     "failsafeFeaturesHelpNew": {
         "message": "Failesafe проходит в 2 этапа. <strong>Этап 1<\/strong> наступает, если в канале появляются импульсы с недопустимой длительностью, либо, когда приёмник сообщает о режиме failsafe, либо при полном отсутствии сигнала на приёмнике. На этом этапе <span class=\"message-negative\">все каналы<\/span> устанавливаются на короткое время в \"Значения при отсутствии сигнала\". Если сигнал не восстанавливается в течение указанного времени, <span class=\"message-negative\">и если аппарат заармлен<\/span>, то наступает <strong>Этап 2<\/strong>. Каналы по-прежнему будут оставаться в \"Значении каналов при отсутствии сигнала\", если эти значения не перекрываются процедурой Этапа 2.<br \/><strong>Примечание:<\/strong> \"Значения каналов при отсуствии сигнала\" также могу применяться только к отдельным AUX-каналам, имеющим ошибочные импульсы."
@@ -2590,6 +2712,9 @@
     "osdSetupWarningsTitle": {
         "message": "Предупреждения"
     },
+    "osdSetupFontPresetsSelectorOr": {
+        "message": "или"
+    },
     "osdSetupCustomLogoInfoTitle": {
         "message": "Свое изображение"
     },
@@ -2631,6 +2756,9 @@
     },
     "osdDescElementThrottlePosition": {
         "message": "Значение канала газа"
+    },
+    "osdDescElementDisarmed": {
+        "message": "Индикатор \"disarmed\" в виде текста"
     },
     "osdDescElementCrosshairs": {
         "message": "Перекрестие в центре экрана"
@@ -2689,6 +2817,15 @@
     "osdDescElementAvgCellVoltage": {
         "message": "Среднее напряжение на банке (напряжение аккумулятора \/ число банок)"
     },
+    "osdDescElementPitchAngle": {
+        "message": "Угол наклона по тангажу (pitch) в градусах"
+    },
+    "osdDescElementRollAngle": {
+        "message": "Угол наклона по крену (roll) в градусах"
+    },
+    "osdDescElementMainBattUsage": {
+        "message": "Отобразить израсходованную ёмкость батареи в виде шкалы"
+    },
     "osdDescElementWarnings": {
         "message": "Показывать тревоги (напр., о низком заряде), предупреждения (напр., причины: почему не армится, критич. низкий заряд), а также визуально отображать сигнал с пищалки (в виде 4-х мигающих звёздочек)."
     },
@@ -2709,6 +2846,9 @@
     },
     "osdDescStatMaxCurrent": {
         "message": "Максимальный потребляемый ток"
+    },
+    "osdDescStatUsedMah": {
+        "message": "Израсход. ёмкость аккум."
     },
     "osdDescStatMaxAltitude": {
         "message": "Максимальная фиксированная высота"
@@ -2736,6 +2876,9 @@
     },
     "osdSettingsSaved": {
         "message": "OSD настройки сохранены"
+    },
+    "osdButtonSaved": {
+        "message": "Сохранено"
     },
     "configurationEscProtocol": {
         "message": "Протокол ESC \/ Мотора"
