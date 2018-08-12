@@ -1173,7 +1173,7 @@
         "message": "Proportional"
     },
     "pidTuningIntegral": {
-        "message": "Интеграл"
+        "message": "Integral"
     },
     "pidTuningDerivative": {
         "message": "Derivative"
