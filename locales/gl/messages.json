@@ -974,9 +974,6 @@
     "firmwareFlasherBaudRate": {
         "message": "Velocidade de Transmisión"
     },
-    "firmwareFlasherShowDevelopmentReleasesDescription": {
-        "message": "Mostrar versións candidatas a estable e versión de desenvolvemento."
-    },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Elixe un Firmware \/ Controladora"
     },
