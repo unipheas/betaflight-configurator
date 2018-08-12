@@ -1990,9 +1990,6 @@
     "firmwareFlasherBaudRate": {
         "message": "Скорость передачи"
     },
-    "firmwareFlasherShowDevelopmentReleasesDescription": {
-        "message": "Показывать релиз-кандидаты и версии, находящиеся в стадии разработки."
-    },
     "firmwareFlasherOptionLoading": {
         "message": "Загрузка..."
     },
