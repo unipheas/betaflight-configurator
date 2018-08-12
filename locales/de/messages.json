@@ -342,6 +342,15 @@
         "message": "Betriebssystem: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Konfigurator: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
+    "buildServerLoaded": {
+        "message": "Geladenen Build-Infomationen für $1 vom Buildserver."
+    },
+    "buildServerLoadFailed": {
+        "message": "<b> Buildserver Abfrage für $1 Releases ist fehlgeschlagen, nutze zwischengespeicherte Informationen. Grund: <code>$2<\/code><\/b>"
+    },
+    "buildServerUsingCached": {
+        "message": "Benutzt zwischengespeicherte Build-Informationen für $1."
+    },
     "releaseCheckLoaded": {
         "message": "Lade Github Information für Version $1."
     },
@@ -470,6 +479,9 @@
     },
     "defaultChangelogHead": {
         "message": "Konfigurator - Changelog"
+    },
+    "defaultPrivacyPolicyAction": {
+        "message": "Datenschutzerklärung"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "Firmware Flasher"
@@ -1205,6 +1217,69 @@
     "pidTuningPidSettings": {
         "message": "PID Kontroller EInstellungen"
     },
+    "receiverRcSmoothing": {
+        "message": "RC Glättung"
+    },
+    "receiverRcSmoothingAuto": {
+        "message": "Auto"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "Manuell"
+    },
+    "receiverRcDerivativeTypeSelect": {
+        "message": "D-Term Cutoff Typ"
+    },
+    "receiverRcInputTypeSelect": {
+        "message": "Input Cutoff Typ"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "Interpolation"
+    },
+    "receiverRcSmoothingFilter": {
+        "message": "Filter"
+    },
+    "receiverRcSmoothingTypeHelp": {
+        "message": "Art der verwendeten RC-Glättung"
+    },
+    "rcSmoothingInputCutoffHelp": {
+        "message": "Die Cutoff-Frequenz in Hz, die der Eingangsfilter verwendet. Niedrigere Werte führen zu glattere Inputs und sind besser geeignet für langsamere Empfänger Protokolle. Die meisten Benutzer sollten dies bei 0 belassen, was a\"Automatisch\" entspricht."
+    },
+    "rcSmoothingDerivativeCutoffHelp": {
+        "message": "Die Cutoff-Frequenz in Hz welche vom Setpointt Derivative Filter verwendet wird. Niedrigere Werten führen zu glatteren Inputs und sind besser geeignet für langsamere Empfänger Protokolle. Die meisten Benutzer sollten dies bei 0 belassen, was a\"Automatisch\" entspricht."
+    },
+    "rcSmoothingChannelsSmoothedHelp": {
+        "message": "Die Kanalglättung gilt für"
+    },
+    "rcSmoothingDerivativeTypeHelp": {
+        "message": "Der Typ der Filtermethode welcher für \"Setpoint Derivative\" verwendet wird. Die meisten Benutzer sollten den Standardwert \"BIQUAD\" verwenden, da er eine gute Balance zwischen Glättung und Verzögerung bietet. \"PT1\" bietet weniger Glättung aber die Verzögerung ist etwas reduziert."
+    },
+    "rcSmoothingInputTypeHelp": {
+        "message": "Der Typ der Filtermethode welcher für \"Input\" verwendet wird. Die meisten Benutzer sollten den Standardwert \"BIQUAD\" verwenden, da er eine gute Balance zwischen Glättung und Verzögerung bietet. \"PT1\" bietet weniger Glättung aber die Verzögerung ist etwas reduziert."
+    },
+    "receiverRcSmoothingInputManual": {
+        "message": "Wählt aus, ob die Input Filter-Cutoff-Frequenz automatisch errechnet (empfohlen) oder manuell durch den Benutzer ausgewählt wird. \"Händisch\" ist nicht für Empfänger Protokolle wie Crossfire empfohlen, welche sich während des Fluges ändern können."
+    },
+    "receiverRcSmoothingDerivativeManual": {
+        "message": "Wählt aus, ob die Setpoint Derivative-Cutoff-Frequenz automatisch errechnet (empfohlen) oder manuell durch den Benutzer ausgewählt wird. \"Händisch\" ist nicht für Empfänger Protokolle wie Crossfire empfohlen, welche sich während des Fluges ändern können."
+    },
+    "receiverRcSmoothingInputHz": {
+        "message": "Wähle Input Cutoff Frequency"
+    },
+    "receiverRcSmoothingDerivativeCutoff": {
+        "message": "Derivative Cutoff Typ"
+    },
+    "receiverRcInputType": {
+        "message": "Input Filter Typ"
+    },
+    "receiverRcDerivativeType": {
+        "message": "Derivative Filter Typ"
+    },
+    "receiverRcSmoothingDerivativeTypeOff": {
+        "message": "Aus"
+    },
+    "receiverRcSmoothingChannel": {
+        "message": "Kanäle geglättet"
+    },
     "receiverRcInterpolation": {
         "message": "RC Interpolation"
     },
@@ -1216,6 +1291,9 @@
     },
     "receiverRcInterpolationOff": {
         "message": "Aus"
+    },
+    "receiverRcSmoothingType": {
+        "message": "Glättungstyp"
     },
     "receiverRcInterpolationDefault": {
         "message": "Voreinstellung"
@@ -2161,6 +2239,9 @@
     },
     "firmwareFlasherBaudRate": {
         "message": "Baudrate"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Zeige instabile und zusätzliche Veröffentlichungen"
     },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "Zeigt Releasekandidaten und Entwicklerfirmware."
