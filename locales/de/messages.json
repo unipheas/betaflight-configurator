@@ -2240,12 +2240,6 @@
     "firmwareFlasherBaudRate": {
         "message": "Baudrate"
     },
-    "firmwareFlasherShowDevelopmentReleases": {
-        "message": "Zeige instabile und zusätzliche Veröffentlichungen"
-    },
-    "firmwareFlasherShowDevelopmentReleasesDescription": {
-        "message": "Zeigt Releasekandidaten und Entwicklerfirmware."
-    },
     "firmwareFlasherOptionLoading": {
         "message": "Lade...."
     },
