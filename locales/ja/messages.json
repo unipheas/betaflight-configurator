@@ -2173,12 +2173,6 @@
     "firmwareFlasherBaudRate": {
         "message": "伝送速度"
     },
-    "firmwareFlasherShowDevelopmentReleases": {
-        "message": "未検証バージョンと追加リリースを表示"
-    },
-    "firmwareFlasherShowDevelopmentReleasesDescription": {
-        "message": "リリース候補と開発リリースを表示します。"
-    },
     "firmwareFlasherOptionLoading": {
         "message": "ロード中..."
     },
