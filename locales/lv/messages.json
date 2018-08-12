@@ -2239,12 +2239,6 @@
     "firmwareFlasherBaudRate": {
         "message": "Pārraides ātrums"
     },
-    "firmwareFlasherShowDevelopmentReleases": {
-        "message": "Pāradīt nestabilās un papildus relīzes"
-    },
-    "firmwareFlasherShowDevelopmentReleasesDescription": {
-        "message": "Rādīt relīžu kandidātu vai izstrādes relīzes."
-    },
     "firmwareFlasherOptionLoading": {
         "message": "Ielādē ..."
     },
