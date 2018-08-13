@@ -50,11 +50,17 @@
     "expertMode": {
         "message": "Modo avançado"
     },
+    "expertModeDescription": {
+        "message": "Mostrar versões não liberadas e potencialmente instáveis"
+    },
     "permanentExpertMode": {
         "message": "Sempre usar o modo avançado"
     },
     "rememberLastTab": {
         "message": "Continuar de onde parou ao conectar"
+    },
+    "analyticsOptOut": {
+        "message": "Não participar da coleta anônima de dados estatísticos"
     },
     "userLanguageSelect": {
         "message": "Idioma (necessário reiniciar a aplicação para que as alterações surtam efeito)"
@@ -475,6 +481,9 @@
     },
     "defaultChangelogHead": {
         "message": "Configurador - Novidades"
+    },
+    "defaultPrivacyPolicyAction": {
+        "message": "Política de Privacidade"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "Atualizador de firmware"
@@ -1209,6 +1218,15 @@
     },
     "pidTuningPidSettings": {
         "message": "Configurar controlador PID"
+    },
+    "receiverRcSmoothingAuto": {
+        "message": "Automático"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "Manual"
+    },
+    "receiverRcSmoothingFilter": {
+        "message": "Filtro"
     },
     "receiverRcInterpolation": {
         "message": "Interpolação RC"
