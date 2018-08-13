@@ -1264,6 +1264,18 @@
     "receiverRcSmoothingDerivativeManual": {
         "message": "Seleciona se a frequência de corte do filtro derivado setpoint é calculada automaticamente (recomendado) ou manualmente selecionada pelo usuário. Usar o \"Manual\" não é recomendado para protocolos do receptor como Crossfire que podem mudar durante o voo."
     },
+    "receiverRcSmoothingInputHz": {
+        "message": "Frequência de corte de entrada"
+    },
+    "receiverRcSmoothingDerivativeCutoff": {
+        "message": "Frequência de corte de derivada"
+    },
+    "receiverRcInputType": {
+        "message": "Tipo de filtro de entrada"
+    },
+    "receiverRcDerivativeType": {
+        "message": "Tipo de filtro derivado"
+    },
     "receiverRcSmoothingDerivativeTypeOff": {
         "message": "Desligado"
     },
