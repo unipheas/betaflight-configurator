@@ -1228,6 +1228,42 @@
     "receiverRcSmoothingManual": {
         "message": "手動"
     },
+    "receiverRcDerivativeTypeSelect": {
+        "message": "D値 カットオフ タイプ"
+    },
+    "receiverRcInputTypeSelect": {
+        "message": "入力 カットオフ タイプ"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "補間"
+    },
+    "receiverRcSmoothingFilter": {
+        "message": "フィルター"
+    },
+    "receiverRcSmoothingTypeHelp": {
+        "message": "使用するRCスムージングタイプ"
+    },
+    "rcSmoothingChannelsSmoothedHelp": {
+        "message": "適用するスムージングチャンネル"
+    },
+    "receiverRcSmoothingInputHz": {
+        "message": "入力 カットオフ 周波数"
+    },
+    "receiverRcSmoothingDerivativeCutoff": {
+        "message": "D値 カットオフ 周波数"
+    },
+    "receiverRcInputType": {
+        "message": "入力 フィルタータイプ"
+    },
+    "receiverRcDerivativeType": {
+        "message": "D値 フィルタータイプ"
+    },
+    "receiverRcSmoothingDerivativeTypeOff": {
+        "message": "オフ"
+    },
+    "receiverRcSmoothingChannel": {
+        "message": "スムージングチャンネル"
+    },
     "receiverRcInterpolation": {
         "message": "RC 補間"
     },
@@ -1239,6 +1275,9 @@
     },
     "receiverRcInterpolationOff": {
         "message": "オフ"
+    },
+    "receiverRcSmoothingType": {
+        "message": "スムージングタイプ"
     },
     "receiverRcInterpolationDefault": {
         "message": "プリセット"
