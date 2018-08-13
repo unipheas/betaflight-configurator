@@ -1243,6 +1243,12 @@
     "receiverRcSmoothingTypeHelp": {
         "message": "使用するRCスムージングタイプ"
     },
+    "rcSmoothingInputCutoffHelp": {
+        "message": "入力フィルターで使用されるカットオフ周波数(Hz)。値を小さくすると入力信号がスムーズとなり、受信機プロトコルの通信が遅延する際に適切に設定できます。ほとんどのユーザは、「自動」となる0としてください。"
+    },
+    "rcSmoothingDerivativeCutoffHelp": {
+        "message": "D値フィルターで使用されるカットオフ周波数(Hz)。値を小さくすると入力信号がスムーズとなり、受信機プロトコルの通信が遅延する際に適切に設定できます。ほとんどのユーザは、「自動」となる0としてください。"
+    },
     "rcSmoothingChannelsSmoothedHelp": {
         "message": "適用するスムージングチャンネル"
     },
