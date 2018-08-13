@@ -50,6 +50,9 @@
     "expertMode": {
         "message": "Modo Experto"
     },
+    "expertModeDescription": {
+        "message": "Mostrar versiones no publicadas y potencialmente inestables"
+    },
     "permanentExpertMode": {
         "message": "Activar permanentemente el Modo Experto"
     },
@@ -1216,6 +1219,69 @@
     "pidTuningPidSettings": {
         "message": "Ajustes del Controlador PID"
     },
+    "receiverRcSmoothing": {
+        "message": "Suavizado RC"
+    },
+    "receiverRcSmoothingAuto": {
+        "message": "Auto"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "Manual"
+    },
+    "receiverRcDerivativeTypeSelect": {
+        "message": "Tipo de Corte del Derivativo"
+    },
+    "receiverRcInputTypeSelect": {
+        "message": "Tipo de Corte de Entrada"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "Interpolación"
+    },
+    "receiverRcSmoothingFilter": {
+        "message": "Filtro"
+    },
+    "receiverRcSmoothingTypeHelp": {
+        "message": "Tipo de suavizado RC usado"
+    },
+    "rcSmoothingInputCutoffHelp": {
+        "message": "La frecuencia de corte en Hz utilizada por el filtro de entrada. Utilizando valores más bajos se obtienen entradas más suavizadas y es más apropiado para receptores con protocolos más lentos. La mayoría de usuarios debería dejar esto en 0 que corresponde a \"Auto\"."
+    },
+    "rcSmoothingDerivativeCutoffHelp": {
+        "message": "La frecuencia de corte en Hz utilizada por el filtro derivativo del valor objetivo. Utilizando valores más bajos se obtienen entradas más suavizadas y es más apropiado para receptores con protocolos más lentos. La mayoría de usuarios debería dejar esto en 0 que corresponde a \"Auto\"."
+    },
+    "rcSmoothingChannelsSmoothedHelp": {
+        "message": "Los canales sobre los que se aplica el suavizado"
+    },
+    "rcSmoothingDerivativeTypeHelp": {
+        "message": "El tipo de filtro utilizado para el derivativo del valor objetivo. La mayoría de usuarios deberían dejar el valor por defecto \"BIQUAD\" ya que proporciona un buen balance entre suavidad y retardo. \"PT1\" reduce ligeramente el retraso pero proporciona menos suavizado."
+    },
+    "rcSmoothingInputTypeHelp": {
+        "message": "El tipo de filtro utilizado para el derivativo para la entrada. La mayoría de usuarios deberían dejar el valor por defecto \"BIQUAD\" ya que proporciona un buen balance entre suavidad y retardo. \"PT1\" reduce ligeramente el retraso pero proporciona menos suavizado."
+    },
+    "receiverRcSmoothingInputManual": {
+        "message": "Selecciona si la frecuencia de corte del filtro de entrada se calcula automáticamente (recomendado) o se selecciona manualmente por el usuario. El uso de \"manual\" no se recomienda para receptores con protocolos como Crossfire que pueden cambiar durante el vuelo."
+    },
+    "receiverRcSmoothingDerivativeManual": {
+        "message": "Selecciona si la frecuencia de corte del filtro derivativo del valor objetivo se calcula automáticamente (recomendado) o se selecciona manualmente por el usuario. El uso de \"manual\" no se recomienda para receptores con protocolos como Crossfire que pueden cambiar durante el vuelo."
+    },
+    "receiverRcSmoothingInputHz": {
+        "message": "Frecuencia de Corte de Entrada"
+    },
+    "receiverRcSmoothingDerivativeCutoff": {
+        "message": "Frecuencia de Corte del Derivativo"
+    },
+    "receiverRcInputType": {
+        "message": "Tipo de Filtro de Entrada"
+    },
+    "receiverRcDerivativeType": {
+        "message": "Tipo de Filtro del Derivativo"
+    },
+    "receiverRcSmoothingDerivativeTypeOff": {
+        "message": "Apagado"
+    },
+    "receiverRcSmoothingChannel": {
+        "message": "Canales Suavizados"
+    },
     "receiverRcInterpolation": {
         "message": "Interpolación de RC"
     },
@@ -1227,6 +1293,9 @@
     },
     "receiverRcInterpolationOff": {
         "message": "Apagada"
+    },
+    "receiverRcSmoothingType": {
+        "message": "Tipo de Suavizado"
     },
     "receiverRcInterpolationDefault": {
         "message": "Predefinida"
@@ -2172,6 +2241,12 @@
     },
     "firmwareFlasherBaudRate": {
         "message": "Velocidad de Transmisión"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Mostrar versiones inestables"
+    },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "Mostrar versiones candidatas además de versiones estable"
     },
     "firmwareFlasherOptionLoading": {
         "message": "Cargando ..."
