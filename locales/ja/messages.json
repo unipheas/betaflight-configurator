@@ -50,6 +50,9 @@
     "expertMode": {
         "message": "Expertモード 有効"
     },
+    "expertModeDescription": {
+        "message": "未リリース、未検証ビルド版を表示"
+    },
     "permanentExpertMode": {
         "message": "Expertモード 常時有効"
     },
@@ -1216,6 +1219,15 @@
     "pidTuningPidSettings": {
         "message": "PIDコントローラ設定"
     },
+    "receiverRcSmoothing": {
+        "message": "RCスムージング"
+    },
+    "receiverRcSmoothingAuto": {
+        "message": "自動"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "手動"
+    },
     "receiverRcInterpolation": {
         "message": "RC 補間"
     },
@@ -2172,6 +2184,12 @@
     },
     "firmwareFlasherBaudRate": {
         "message": "伝送速度"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "未検証版リリースを表示"
+    },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "安定版リリースに加えRC版リリースも表示"
     },
     "firmwareFlasherOptionLoading": {
         "message": "ロード中..."
