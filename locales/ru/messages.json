@@ -14,6 +14,9 @@
     "operationNotSupported": {
         "message": "Операция не поддерживается устройством."
     },
+    "storageDeviceNotReady": {
+        "message": "Запоминающее устройство не готово. В случае использования microSD карты, убедитесь, что она правильно распознана вашим полетным контроллером."
+    },
     "options_title": {
         "message": "Настройка приложения"
     },
@@ -47,8 +50,14 @@
     "expertMode": {
         "message": "Включить режим эксперта"
     },
+    "expertModeDescription": {
+        "message": "Показать невыпущенные и потенциально нестабильные сборки"
+    },
     "permanentExpertMode": {
         "message": "Всегда включать режим эксперта"
+    },
+    "rememberLastTab": {
+        "message": "Повторно открыть последнюю вкладку при подключении"
     },
     "userLanguageSelect": {
         "message": "Язык (необходимо перезапустить приложение, чтобы изменения вступили в силу)"
@@ -332,6 +341,15 @@
         "message": "Запуск - ОС: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Конфигуратор: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
+    "buildServerLoaded": {
+        "message": "Загружена информация о сборках для $1 от сервера сборки."
+    },
+    "buildServerLoadFailed": {
+        "message": "<b>Не удалось запросить информацию о выпуске $1 из GitHub, используется информация из кэша. Причина: <code>$2<\/code><\/b>"
+    },
+    "buildServerUsingCached": {
+        "message": "Использование кэшированной информации о сборках для $1."
+    },
     "releaseCheckLoaded": {
         "message": "Из GitHub загружена информация о выпуске для $1."
     },
@@ -452,6 +470,9 @@
     "defaultContributingText": {
         "message": "Если вы хотите сделать Betaflight лучше, вы можете помочь нам несколькими способами:<br \/><ul><li>Ответами на вопросы других пользователей на форумах и IRC.<\/li><li>Добавлением кода прошивки и конфигуратора с целью: добавления нового функционала, исправления ошибок, улучшений<\/li><li>Тестированием <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">нового функционала\/исправленных ошибок<\/a> и сообщая нам результаты.<\/li><li>Помочь нам <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">обсудить запросы на новые функционалы<\/a>.<\/li><li>Помочь с <a href=\"http:\/\/betaflight.oneskyapp.com\" target=\"_blank\">переводом конфигуратора<\/a> на свой родной язык.<\/li><li><\/li><\/ul>"
     },
+    "defaultFacebookText": {
+        "message": "У нас также есть <\/a><a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">группа Facebook <\/a>.<br \/>Присоединяйтесь к нам, чтобы говорить о Betaflight, задавать вопросы о конфигурации или просто пообщаться с другими пилотами."
+    },
     "defaultChangelogAction": {
         "message": "Изменения"
     },
@@ -466,6 +487,9 @@
     },
     "defaultDonateHead": {
         "message": "Открытый код \/ Пожертвование"
+    },
+    "defaultDonateText": {
+        "message": "<strong>Betaflight<\/strong> программное обеспечение для полетного контроллера <strong>с открытым исходным кодом<\/strong> и доступное для свободной модификации <strong>без гарантий<\/strong>для всех пользователей.<br \/>Если вы находите Betaflight и Betaflight Конфигуратор полезным то <strong>поддержите<\/strong> проект пожертвованиями."
     },
     "defaultDonate": {
         "message": "Пожертвовать"
