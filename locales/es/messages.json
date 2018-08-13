@@ -2246,7 +2246,7 @@
         "message": "Mostrar versiones inestables"
     },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
-        "message": "Mostrar versiones candidatas además de versiones estable"
+        "message": "Mostrar versiones candidatas además de versiones estables"
     },
     "firmwareFlasherOptionLoading": {
         "message": "Cargando ..."
