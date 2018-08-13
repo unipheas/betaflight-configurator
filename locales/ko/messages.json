@@ -588,7 +588,7 @@
         "message": "Z 축 초기화, 오프셋: $1 도"
     },
     "initialSetupMixerHead": {
-        "message": "믹서 형태"
+        "message": "믹서 형식"
     },
     "initialSetupThrottleHead": {
         "message": "스로틀 설정"
@@ -1059,7 +1059,7 @@
         "message": "전송속도"
     },
     "configurationGPSubxSbas": {
-        "message": "지상 지원 형태"
+        "message": "지상 지원 형식"
     },
     "configurationGPSAutoBaud": {
         "message": "자동 전송속도"
