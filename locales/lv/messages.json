@@ -50,6 +50,9 @@
     "expertMode": {
         "message": "Ieslēgt eksperta režīmu"
     },
+    "expertModeDescription": {
+        "message": "Parādīt nerelizētos un potenciāli nestabilos buildus"
+    },
     "permanentExpertMode": {
         "message": "Patstāvīgi ieslēgts eksperta režīms"
     },
@@ -2238,6 +2241,12 @@
     },
     "firmwareFlasherBaudRate": {
         "message": "Pārraides ātrums"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Rādīt nestabilās relīzes"
+    },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "Stabilajām relīzēm papildus rādīt relīžu kandidātus"
     },
     "firmwareFlasherOptionLoading": {
         "message": "Ielādē ..."
