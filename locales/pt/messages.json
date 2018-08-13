@@ -1219,14 +1219,56 @@
     "pidTuningPidSettings": {
         "message": "Configurar controlador PID"
     },
+    "receiverRcSmoothing": {
+        "message": "Suavizar RC"
+    },
     "receiverRcSmoothingAuto": {
         "message": "Automático"
     },
     "receiverRcSmoothingManual": {
         "message": "Manual"
     },
+    "receiverRcDerivativeTypeSelect": {
+        "message": "Tipo de corte derivado"
+    },
+    "receiverRcInputTypeSelect": {
+        "message": "Tipo de corte de entrada"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "Interpolação"
+    },
     "receiverRcSmoothingFilter": {
         "message": "Filtro"
+    },
+    "receiverRcSmoothingTypeHelp": {
+        "message": "Tipo de suavização de RC usado"
+    },
+    "rcSmoothingInputCutoffHelp": {
+        "message": "A frequência de corte em Hz usado pelo filtro de entrada. Usar valores mais baixos resultará em entradas mais suaves e são mais adequadas para protocolos de receptores mais lentos. A maioria dos usuários deve deixar em 0 correspondente a \"Automático\"."
+    },
+    "rcSmoothingDerivativeCutoffHelp": {
+        "message": "A frequência de corte em Hz usada pelo filtro derivado setpoint. Usar valores mais baixos resultará em entradas mais suaves e são mais adequadas para protocolos de receptores mais lentos. A maioria dos usuários deve deixar em 0 correspondente a \"Automático\"."
+    },
+    "rcSmoothingChannelsSmoothedHelp": {
+        "message": "Os canais de suavização aplicam-se a"
+    },
+    "rcSmoothingDerivativeTypeHelp": {
+        "message": "O tipo de método de filtro usado para o setpoint derivado. A maioria dos usuários deve usar a predefinição \"BIQUAD\" pois providencia um bom balanço entre suavização e atraso. \"PT1\" reduz levemente o atraso mas providencia menos suavização."
+    },
+    "rcSmoothingInputTypeHelp": {
+        "message": "O tipo de método de filtro usado para a entrada. A maioria dos usuários deve usar a predefinição \"BIQUAD\" pois providencia um bom balanço entre suavização e atraso. \"PT1\" reduz levemente o atraso mas providencia menos suavização."
+    },
+    "receiverRcSmoothingInputManual": {
+        "message": "Seleciona se a frequência de corte do filtro de entrada é calculada automaticamente (recomendado) ou manualmente selecionada pelo usuário. Usar o \"Manual\" não é recomendado para protocolos do receptor como Crossfire que podem mudar durante o voo."
+    },
+    "receiverRcSmoothingDerivativeManual": {
+        "message": "Seleciona se a frequência de corte do filtro derivado setpoint é calculada automaticamente (recomendado) ou manualmente selecionada pelo usuário. Usar o \"Manual\" não é recomendado para protocolos do receptor como Crossfire que podem mudar durante o voo."
+    },
+    "receiverRcSmoothingDerivativeTypeOff": {
+        "message": "Desligado"
+    },
+    "receiverRcSmoothingChannel": {
+        "message": "Canais suavizados"
     },
     "receiverRcInterpolation": {
         "message": "Interpolação RC"
@@ -1239,6 +1281,9 @@
     },
     "receiverRcInterpolationOff": {
         "message": "Desligado"
+    },
+    "receiverRcSmoothingType": {
+        "message": "Tipo de suavização"
     },
     "receiverRcInterpolationDefault": {
         "message": "Predefinição"
@@ -2184,6 +2229,12 @@
     },
     "firmwareFlasherBaudRate": {
         "message": "Baud Rate"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Mostrar versões instáveis"
+    },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "Mostrar versões candidatas em conjunto com versões estáveis"
     },
     "firmwareFlasherOptionLoading": {
         "message": "Carregando..."
