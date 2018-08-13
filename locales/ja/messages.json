@@ -1258,6 +1258,12 @@
     "rcSmoothingInputTypeHelp": {
         "message": "入力フィルターで使用されるフィルタリング方法のタイプ。ほとんどのユーザは、スムーズさと遅延のバランスが良いため、デフォルト値の「BIQUAD」を使用してください。「PT1」は遅延をわずかに減少させますが、スムーズさは弱くなります。"
     },
+    "receiverRcSmoothingInputManual": {
+        "message": "入力フィルターカットオフ周波数を自動計算する(推奨)か、ユーザ手動選択するかを設定します。 「手動」を使用する場合、飛行中にパラメータを変更できるCrossfireのような受信プロトコルにはお勧めできません。"
+    },
+    "receiverRcSmoothingDerivativeManual": {
+        "message": "D値セットポイント カットオフ周波数を自動計算する(推奨)か、ユーザ手動選択するかを設定します。 「手動」を使用する場合、飛行中にパラメータを変更できるCrossfireのような受信プロトコルにはお勧めできません。"
+    },
     "receiverRcSmoothingInputHz": {
         "message": "入力 カットオフ 周波数"
     },
