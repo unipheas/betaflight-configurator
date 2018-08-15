@@ -50,6 +50,9 @@
     "expertMode": {
         "message": "启用专家模式"
     },
+    "expertModeDescription": {
+        "message": "显示未发布和潜在不稳定的生成"
+    },
     "permanentExpertMode": {
         "message": "默认启用专家模式"
     },
@@ -1216,6 +1219,69 @@
     "pidTuningPidSettings": {
         "message": "PID 控制器设置"
     },
+    "receiverRcSmoothing": {
+        "message": "RC 平滑"
+    },
+    "receiverRcSmoothingAuto": {
+        "message": "自动"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "手动"
+    },
+    "receiverRcDerivativeTypeSelect": {
+        "message": "导数截止类型"
+    },
+    "receiverRcInputTypeSelect": {
+        "message": "输入截止类型"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "插值"
+    },
+    "receiverRcSmoothingFilter": {
+        "message": "滤波器"
+    },
+    "receiverRcSmoothingTypeHelp": {
+        "message": "使用 RC 平滑的类型"
+    },
+    "rcSmoothingInputCutoffHelp": {
+        "message": "输入滤波器使用的以 Hz 为单位的截止频率。使用较低的值将得到更平滑的输入，更适合于较慢的接收器协议。大多数用户应该把它留在0，对应“自动”。"
+    },
+    "rcSmoothingDerivativeCutoffHelp": {
+        "message": "定点导数滤波器使用的以 Hz 为单位的截止频率。使用较低的值将得到更平滑的输入，更适合于较慢的接收器协议。大多数用户应该把它留在0，对应“自动”。"
+    },
+    "rcSmoothingChannelsSmoothedHelp": {
+        "message": "适用平滑的通道"
+    },
+    "rcSmoothingDerivativeTypeHelp": {
+        "message": "用于定点导数的滤波方法的类型。大多数用户应该使用默认的 \"BIQUAD\" 值，因为它在平滑和延迟之间提供了良好的平衡。\"PT1\" 稍微减少了延迟，但提供的平滑程度也较低。"
+    },
+    "rcSmoothingInputTypeHelp": {
+        "message": "用于输入的滤波方法的类型。大多数用户应该使用默认的 \"BIQUAD\" 值，因为它在平滑和延迟之间提供了良好的平衡。\"PT1\" 稍微减少了延迟，但提供的平滑程度也较低。"
+    },
+    "receiverRcSmoothingInputManual": {
+        "message": "选择输入滤波器截止频率是自动计算的（推荐）还是由用户手动选择。对于可能在飞行中发生变化的接收机协议，比如Crossfire，不建议使用 \"手动\"。"
+    },
+    "receiverRcSmoothingDerivativeManual": {
+        "message": "选择定点导数滤波器截止频率是自动计算的（推荐）还是由用户手动选择。对于可能在飞行中发生变化的接收机协议，比如Crossfire，不建议使用 \"手动\"。"
+    },
+    "receiverRcSmoothingInputHz": {
+        "message": "输入截止频率"
+    },
+    "receiverRcSmoothingDerivativeCutoff": {
+        "message": "Derivative 截止频率"
+    },
+    "receiverRcInputType": {
+        "message": "输入滤波器类型"
+    },
+    "receiverRcDerivativeType": {
+        "message": "Derivative 滤波器类型"
+    },
+    "receiverRcSmoothingDerivativeTypeOff": {
+        "message": "关闭"
+    },
+    "receiverRcSmoothingChannel": {
+        "message": "平滑通道"
+    },
     "receiverRcInterpolation": {
         "message": "RC 插值"
     },
@@ -1227,6 +1293,9 @@
     },
     "receiverRcInterpolationOff": {
         "message": "关闭"
+    },
+    "receiverRcSmoothingType": {
+        "message": "平滑类型"
     },
     "receiverRcInterpolationDefault": {
         "message": "预设"
@@ -2172,6 +2241,12 @@
     },
     "firmwareFlasherBaudRate": {
         "message": "波特率"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "显示非稳定版本"
+    },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "除了稳定的版本外, 还显示候选版本"
     },
     "firmwareFlasherOptionLoading": {
         "message": "加载中……"
