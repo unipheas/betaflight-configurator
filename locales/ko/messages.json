@@ -3462,6 +3462,9 @@
     "osdDescStatBattery": {
         "message": "실시간 배터리 전압"
     },
+    "osdDescStatGForce": {
+        "message": "기체에 의해 경험된 최대 G-포스"
+    },
     "osdTimerSource": {
         "message": "소스:"
     },
