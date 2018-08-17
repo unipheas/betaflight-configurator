@@ -3459,6 +3459,9 @@
     "osdDescStatBattery": {
         "message": "Tension de la batterie en temps réel"
     },
+    "osdDescStatGForce": {
+        "message": "G-Force Max ressentie par le multicopter"
+    },
     "osdTimerSource": {
         "message": "Source:"
     },
