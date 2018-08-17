@@ -3463,6 +3463,9 @@
     "osdDescStatBattery": {
         "message": "Echtzeit-Batteriespannung"
     },
+    "osdDescStatGForce": {
+        "message": "Maximal widerfahrene G-Kräfte des Multikopters"
+    },
     "osdTimerSource": {
         "message": "Quelle:"
     },
