@@ -3462,6 +3462,9 @@
     "osdDescStatBattery": {
         "message": "リアルタイム バッテリー電圧"
     },
+    "osdDescStatGForce": {
+        "message": "機体が記録した最大G値"
+    },
     "osdTimerSource": {
         "message": "ソース:"
     },
