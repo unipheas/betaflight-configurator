@@ -3457,6 +3457,9 @@
     "osdDescGForce": {
         "message": "crwdns8775:0crwdne8775:0"
     },
+    "osdDescElementLogStatus": {
+        "message": "crwdns8859:0crwdne8859:0"
+    },
     "osdDescStatMaxSpeed": {
         "message": "crwdns6278:0crwdne6278:0"
     },
