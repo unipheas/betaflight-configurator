@@ -3414,6 +3414,9 @@
     "osdDescGForce": {
         "message": "どのくらいのG値(加速度)が機体に負荷をかけているかを示す"
     },
+    "osdDescElementLogStatus": {
+        "message": "ブラックボックス番号と警告"
+    },
     "osdDescStatMaxSpeed": {
         "message": "記録された最大スピード"
     },
