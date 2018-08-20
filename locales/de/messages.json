@@ -3415,6 +3415,9 @@
     "osdDescGForce": {
         "message": "Zeigt, welchen G-Kräften das Fluggerät ausgesetzt ist."
     },
+    "osdDescElementLogStatus": {
+        "message": "Blackbox Nummer und Warnungen"
+    },
     "osdDescStatMaxSpeed": {
         "message": "Maximal erreichte Geschwindigkeit"
     },
