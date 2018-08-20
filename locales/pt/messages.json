@@ -211,9 +211,6 @@
     "tabLogging": {
         "message": "Log por conexão"
     },
-    "tabOnboardLogging": {
-        "message": "Caixa Preta"
-    },
     "tabAdjustments": {
         "message": "Ajustes"
     },
@@ -773,12 +770,6 @@
     "featureONESHOT125Tip": {
         "message": "Desligue a bateria e remova as hélices antes de ativar."
     },
-    "featureBLACKBOX": {
-        "message": "Caixa Preta - Gravador de dados de voo"
-    },
-    "featureBLACKBOXTip": {
-        "message": "Configure através da aba Caixa Preta após ativar."
-    },
     "featureRX_SPI": {
         "message": "Suporte de SPI RX"
     },
@@ -1012,9 +1003,6 @@
     },
     "beeperUSB": {
         "message": "Emitir um sinal sonoro quando o controlador de voo recebe energia via USB. Desligue esta opção se não desejar sons enquanto estiver na bancada"
-    },
-    "beeperBLACKBOX_ERASE": {
-        "message": "Emitir um sinal sonoro quando a Caixa Preta é completamente apagada"
     },
     "beeperCRASH_FLIP": {
         "message": "Sinal sonoro quando o modo 'virar após queda' está ativo"
@@ -2043,9 +2031,6 @@
     },
     "loggingAutomaticallyRetained": {
         "message": "Arquivo de log anterior carregado: <strong>$1<\/strong>"
-    },
-    "blackboxNotSupported": {
-        "message": "O firmware do seu controlador de voo não suporta a função de log de caixa preta (Blackbox logging)."
     },
     "blackboxMaybeSupported": {
         "message": "O firmware do seu controlador de voo é muito antigo e não suporta esta aba, ou a função de Caixa Preta está desabilitada na aba de Configuração."
@@ -3461,6 +3446,9 @@
     },
     "osdDescStatBattery": {
         "message": "Voltagem da bateria em tempo real"
+    },
+    "osdDescStatGForce": {
+        "message": "Valor máximo da Força-G sob a aeronave"
     },
     "osdTimerSource": {
         "message": "Origem:"
