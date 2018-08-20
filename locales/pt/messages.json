@@ -1148,9 +1148,6 @@
     "portsFunction_RX_SERIAL": {
         "message": "Serial RX"
     },
-    "portsFunction_BLACKBOX": {
-        "message": "Log de Caixa Preta"
-    },
     "portsFunction_TBS_SMARTAUDIO": {
         "message": "TBS SmartAudio"
     },
@@ -2032,12 +2029,6 @@
     "loggingAutomaticallyRetained": {
         "message": "Arquivo de log anterior carregado: <strong>$1<\/strong>"
     },
-    "blackboxMaybeSupported": {
-        "message": "O firmware do seu controlador de voo é muito antigo e não suporta esta aba, ou a função de Caixa Preta está desabilitada na aba de Configuração."
-    },
-    "blackboxConfiguration": {
-        "message": "Configuração de Caixa Preta"
-    },
     "blackboxButtonSave": {
         "message": "Salvar e reiniciar"
     },
@@ -2088,9 +2079,6 @@
     },
     "dataflashConfirmEraseTitle": {
         "message": "Confirme a exclusão da Memória flash"
-    },
-    "dataflashConfirmEraseNote": {
-        "message": "Isso irá apagar todos os logs da Caixa Preta e quaisquer outros dados na Memória flash. Isto deve demorar cerca de 20 segundos. Continuar?"
     },
     "dataflashSavingTitle": {
         "message": "Salvando a Memória flash no arquivo"
@@ -3417,9 +3405,6 @@
     "osdDescStatMaxAltitude": {
         "message": "Altura máxima registrada"
     },
-    "osdDescStatBlackbox": {
-        "message": "Percentagem de uso total da Caixa Preta"
-    },
     "osdDescStatEndBattery": {
         "message": "Voltagem da bateria quando foi desarmado"
     },
@@ -3431,9 +3416,6 @@
     },
     "osdDescStatMaxDistance": {
         "message": "Distância máxima registrada a partir da base"
-    },
-    "osdDescStatBlackboxLogNumber": {
-        "message": "Número do arquivo de log da caixa preta"
     },
     "osdDescStatTimer1": {
         "message": "Valor do cronômetro 1 ao desarmar"
@@ -3656,12 +3638,6 @@
     },
     "configurationFpvCamAngleDegrees": {
         "message": "Angulo da câmera FPV [degrees]"
-    },
-    "onboardLoggingBlackbox": {
-        "message": "Dispositivo de caixa preta"
-    },
-    "onboardLoggingRateOfLogging": {
-        "message": "Taxa de registro da caixa preta"
     },
     "onboardLoggingSerialLogger": {
         "message": "Dispositivo de registro externo"
