@@ -389,12 +389,6 @@
     "armingEnabled": {
         "message": "<strong>Permitido Armar<\/strong>"
     },
-    "runawayTakeoffPreventionDisabled": {
-        "message": "<strong>Prevenção de decolagem acidental temporariamente desativada<\/strong>"
-    },
-    "runawayTakeoffPreventionEnabled": {
-        "message": "<strong>Prevenção de descolagem acidental ativada<\/strong>"
-    },
     "boardInfoReceived": {
         "message": "Placa: <strong>$1<\/strong>, versão: <strong>$2<\/strong>"
     },
@@ -1930,12 +1924,6 @@
     "motorsMaster": {
         "message": "Mestre"
     },
-    "motorsNotice": {
-        "message": "<strong>Aviso sobre o modo de Teste de Motor \/ Armar:<\/strong><br \/>Mover os sliders ou armar a sua aeronave com o transmissor irá fazer com que os motores <strong>girem<\/strong>.<br \/>Para evitar ferimentos, <strong class=\"message-negative\">remova TODAS as hélices<\/strong> antes de usar esta função.<br \/>Habilitar o modo de Teste de Motor também irá temporariamente desabilitar a Prevenção contra decolagem acidental, afim de evitar o desarme da aeronave enquanto estiver testando na sua bancada, sem as hélices.<br \/>"
-    },
-    "motorsEnableControl": {
-        "message": "<strong>Eu entendo os riscos<\/strong>, as hélices foram removidas - habilitar o controle do motor, armar e desativar a Prevenção contra decolagem acidental."
-    },
     "sensorsInfo": {
         "message": "Tenha em mente que ao usar um período de atualização rápido e visualizar vários gráficos simultaneamente utiliza muitos recursos do computador e pode usar sua bateria rapidamente se estiver em um notebook. Recomendamos que somente exiba os gráficos dos sensores em que estiver interessado e que utilize períodos de atualização razoáveis."
     },
@@ -3147,9 +3135,6 @@
     "osdSetupPreviewTitle": {
         "message": "Pré-visualizar (Arraste para mudar a posição)"
     },
-    "osdSetupPreviewTitleTip": {
-        "message": "Mostrar ou esconder o logo na janela de pré-visualização. Isso não irá afetar nenhuma configuração no controlador de voo."
-    },
     "osdSetupVideoFormatTitle": {
         "message": "Formato do Video"
     },
@@ -3200,9 +3185,6 @@
     },
     "osdSetupCustomLogoInfoColorMap": {
         "message": "Deve conter pixels verdes, preto e branco"
-    },
-    "osdSetupCustomLogoInfoUploadHint": {
-        "message": "Pressione <b>$t(osdSetupUploadFont.message)<\/b> para manter o logo personalizado"
     },
     "osdSetupCustomLogoImageSizeError": {
         "message": "Tamanho da imagem inválido: {{width}}×{{height}} (deveria ser $t(logoWidthPx)×$t(logoHeightPx))"
@@ -3638,9 +3620,6 @@
     },
     "configurationFpvCamAngleDegrees": {
         "message": "Angulo da câmera FPV [degrees]"
-    },
-    "onboardLoggingSerialLogger": {
-        "message": "Dispositivo de registro externo"
     },
     "onboardLoggingFlashLogger": {
         "message": "Memoria Flash Integrada"
