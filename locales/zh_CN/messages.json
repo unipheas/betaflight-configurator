@@ -3414,6 +3414,9 @@
     "osdDescGForce": {
         "message": "显示当前飞机所受的地心引力"
     },
+    "osdDescElementLogStatus": {
+        "message": "黑匣子编号和警告"
+    },
     "osdDescStatMaxSpeed": {
         "message": "记录到的最大速度"
     },
@@ -3461,6 +3464,9 @@
     },
     "osdDescStatBattery": {
         "message": "电池实时电压"
+    },
+    "osdDescStatGForce": {
+        "message": "飞行器经历的最大 G 力"
     },
     "osdTimerSource": {
         "message": "来源："
