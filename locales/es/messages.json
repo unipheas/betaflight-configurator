@@ -3414,6 +3414,9 @@
     "osdDescGForce": {
         "message": "Muestra cuánta Fuerza G está experimentando la aeronave"
     },
+    "osdDescElementLogStatus": {
+        "message": "Número de caja negra y avisos"
+    },
     "osdDescStatMaxSpeed": {
         "message": "Máxima velocidad registrada"
     },
@@ -3461,6 +3464,9 @@
     },
     "osdDescStatBattery": {
         "message": "Voltaje de la batería en tiempo real"
+    },
+    "osdDescStatGForce": {
+        "message": "Máxima fuerza G experimentada por la aeronave"
     },
     "osdTimerSource": {
         "message": "Origen:"
