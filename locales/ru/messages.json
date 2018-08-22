@@ -1001,11 +1001,26 @@
     "beeperDISARM_REPEAT": {
         "message": "Пищать, если стики находятся в позиции дизарма (если для аргминга используются стики)"
     },
+    "beeperARMED": {
+        "message": "Сигналы предупреждения когда плата в арминге при выключенном двигателе (повторять пока плата будет дизарм или стик газа будет уменьшен)"
+    },
     "beeperSYSTEM_INIT": {
         "message": "Пищать при включении питания (инициализации системы)"
     },
+    "beeperUSB": {
+        "message": "Пищать при подключении контроллера через USB. Можно выключить это пищание, если хотите настраивать контроллер в тишине"
+    },
     "beeperBLACKBOX_ERASE": {
         "message": "Пищать при завершении очистки чёрного ящика"
+    },
+    "beeperCRASH_FLIP": {
+        "message": "Пищать когда режим крэш флип активен"
+    },
+    "beeperCAM_CONNECTION_OPEN": {
+        "message": "Пищать когда 5 клавиша управления камеры нажата"
+    },
+    "beeperCAM_CONNECTION_CLOSE": {
+        "message": "Пищать когда 5 клавиша управления камеры отжата"
     },
     "configuration3d": {
         "message": "3D функционал Моторов\/Регуляторов"
@@ -1181,6 +1196,9 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Настройки PID-контроллера, независящие от настройки профиля"
     },
+    "pidTuningAntiGravityMode": {
+        "message": "Anti Gravity режим"
+    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "Гладкая",
         "description": "One of the modes of anti gravity"
@@ -1207,14 +1225,59 @@
     "receiverRcSmoothingManual": {
         "message": "Ручной"
     },
+    "receiverRcDerivativeTypeSelect": {
+        "message": "Производный тип среза"
+    },
+    "receiverRcInputTypeSelect": {
+        "message": "Входной типа среза"
+    },
     "receiverRcSmoothingInterpolation": {
         "message": "Интерполяция"
     },
     "receiverRcSmoothingFilter": {
         "message": "Фильтр"
     },
+    "receiverRcSmoothingTypeHelp": {
+        "message": "Тип RC сглаживания используется"
+    },
+    "rcSmoothingInputCutoffHelp": {
+        "message": "Частота среза в Гц, используемая входным фильтром. Используя более низких значений приведет к сглаживанию входов и являются приемлемыми для медленных протоколов приемника. Большинство пользователей следует оставить это 0, соответствующий «Auto»."
+    },
+    "rcSmoothingDerivativeCutoffHelp": {
+        "message": "Частота среза в Гц, используется для установки setpoint производной фильтра. Использование более низких значений приведет к сглаживанию входов, что является приемлемыми для медленных протоколов приемника. Большинство пользователей может оставить это 0, соответствующий «Auto»."
+    },
+    "rcSmoothingChannelsSmoothedHelp": {
+        "message": "Каналы сглаживаются применительно к"
+    },
+    "rcSmoothingDerivativeTypeHelp": {
+        "message": "Тип метода фильтрации, используемый для производной заданного значения. Большинство пользователей должны использовать значение «BIQUAD» по умолчанию, поскольку оно обеспечивает хороший баланс между гладкостью и задержкой. «PT1» слегка уменьшает задержку, но обеспечивает меньшее сглаживание."
+    },
+    "rcSmoothingInputTypeHelp": {
+        "message": "Тип метода фильтрации, используемый для ввода. Большинство пользователей должны использовать значение «BIQUAD» по умолчанию, поскольку оно обеспечивает хороший баланс между гладкостью и задержкой. «PT1» слегка уменьшает задержку, но обеспечивает меньшее сглаживание."
+    },
+    "receiverRcSmoothingInputManual": {
+        "message": "Выбирает, будет ли автоматически вырезана частота отсечки входного фильтра (рекомендуется) или вручную выбрана пользователем. Использование «Manual» не рекомендуется для протоколов приемников, таких как Crossfire, которые могут меняться в полете."
+    },
+    "receiverRcSmoothingDerivativeManual": {
+        "message": "Выбирает, будет ли автоматически вырезана частота отсечки фильтра заданного значения (рекомендуется) или вручную выбрана пользователем. Использование «Manual» не рекомендуется для протоколов приемников, таких как Crossfire, которые могут меняться в полете."
+    },
+    "receiverRcSmoothingInputHz": {
+        "message": "Входная частота среза"
+    },
+    "receiverRcSmoothingDerivativeCutoff": {
+        "message": "Производная частоты среза"
+    },
+    "receiverRcInputType": {
+        "message": "Тип входного фильтра"
+    },
+    "receiverRcDerivativeType": {
+        "message": "Производный тип фильтра"
+    },
     "receiverRcSmoothingDerivativeTypeOff": {
         "message": "Выкл."
+    },
+    "receiverRcSmoothingChannel": {
+        "message": "Каналы сглажены"
     },
     "receiverRcInterpolation": {
         "message": "RC интерполяция"
@@ -1246,6 +1309,9 @@
     "pidTuningFeedforwardTransition": {
         "message": "Feedforward переход"
     },
+    "pidTuningFeedforwardTransitionHelp": {
+        "message": "С этим параметром Feedforward может быть уменьшен вблизи центра стиков, что приводит к более плавным флипам и разворотам. <br> Значение представляет собой точку отклонения стика: 0 - центрированное по центру, 1 - полное отклонение. Когда стик находится выше этой точки, Feedforward поддерживается постоянным по своему сконфигурированному значению. Когда стик расположен ниже этой точки, показатель подачи уменьшается пропорционально, достигая 0 в центральном положении. <br> Значение 1 дает максимальный эффект сглаживания, а значение 0 сохраняет фиксированное значение Ф Feedforward на его заданном значении по всему диапазону стиков."
+    },
     "pidTuningDtermSetpointTransition": {
         "message": "D Setpoint transition"
     },
@@ -1257,6 +1323,9 @@
     },
     "pidTuningDtermSetpointHelp": {
         "message": "Этот параметр определяет эффект ускорения компоненты D.<br> Значение 0 эквивалентно методу, основанному на измерении (Derivative Method: Measurement), где D учитывает только параметры гироскопа, а значение 1 эквивалентно методу, основанному на ошибке (Derivative Method: Error), в котором учитываются параметры гироскопа и отклонение стиков.<br>Низкое значение соответствует медленной\/плавной отзывчивости стиков, а высокое значение обеспечивает большую отзывчивость на ускорение стиков.<br>Обратите внимание, что рекомендуется включить RC интерполяцию с более высоким значением, чтобы предотвратить скачки управления, создающие шумы."
+    },
+    "pidTuningDtermSetpointTransitionWarning": {
+        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong> использование D Setpoint больше 0 и меньше, чем 0.1 не рекомендуется. Это может привести к нестабильности и снижению оперативности стиков когда стик пересекает центральную точку.<\/span>"
     },
     "pidTuningProportional": {
         "message": "Proportional"
@@ -1348,6 +1417,12 @@
     "pidTuningProfileReset": {
         "message": "Загрузить значения профиля по умолчанию."
     },
+    "pidTuningReceivedProfile": {
+        "message": "Установить профиль полетного контроллера: <strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningReceivedRateProfile": {
+        "message": "Установить Rate профиль полетного контроллера: <strong class=\"message-positive\">$1<\/strong>"
+    },
     "pidTuningLoadedProfile": {
         "message": "Загружен профиль: <strong class=\"message-positive\">$1<\/strong>"
     },
@@ -1435,17 +1510,26 @@
     "receiverButtonSticks": {
         "message": "Стики управления"
     },
+    "receiverDataRefreshed": {
+        "message": "Данные PID <strong>обновлены<\/strong>"
+    },
     "receiverEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">сохранён<\/span>"
     },
     "receiverModelPreview": {
         "message": "Предпросмотр"
     },
+    "receiverMspWarningText": {
+        "message": "Эти стики позволяют Betaflight армиться и тестироваться без установленного приемника или передатчика. Тем не менее, <strong>эта фича не предназначена для полетов и пропеллеры должны быть сняты.<\/strong><br><br>Эта фича не гарантирует надежного управления аппаратом. <strong>Если не снять пропеллеры это может привести к серьёзным травмам.<\/strong>"
+    },
     "receiverMspEnableButton": {
         "message": "Включить управление"
     },
     "auxiliaryHelp": {
         "message": "Используйте ползунки диапазона, чтобы назначить соответствующий режим в переключателях вашей аппаратуры управления. Если в приёмнике значение указанного канала будет находится в указанном диапазоне Мин.\/Макс., то соответствующий режим будет активирован. Не забудьте сохранить настройки нажав кнопку \"Сохранить\"."
+    },
+    "auxiliaryToggleUnused": {
+        "message": "Показать\/скрыть не используемые режимы"
     },
     "auxiliaryMin": {
         "message": "Мин."
@@ -1465,8 +1549,17 @@
     "auxiliaryAutoChannelSelect": {
         "message": "АВТО"
     },
+    "adjustmentsHelp": {
+        "message": "Установка нас троечных переключателей. Смотри 'in-flight adjustments' секцию руководства. Изменение этих настроек автоматически не сохраняется. Там 4 слота. Каждый переключатель используемый одновременно требует исключительного использования слота."
+    },
     "adjustmentsExamples": {
         "message": "Примеры"
+    },
+    "adjustmentsExample1": {
+        "message": "Используете Slot 1 и 3POS переключите на AUX1 для выбора между Pitch\/Roll P, I и D и другой 3POS переключатель на AUX2 увеличит или уменьшит значение когда задержан вверх или вниз."
+    },
+    "adjustmentsExample2": {
+        "message": "Используете Slot 2 и 3POS переключатель в AUX4 для включения Rate Profile секция через тот же 3POS в тот же канал."
     },
     "adjustmentsColumnEnable": {
         "message": "Если включено"
@@ -1573,6 +1666,9 @@
     "adjustmentsFunction22": {
         "message": "D Setpoint"
     },
+    "adjustmentsFunction22_2": {
+        "message": "Тангаж и Крен F настройка"
+    },
     "adjustmentsFunction23": {
         "message": "D Setpoint переход"
     },
@@ -1639,14 +1735,32 @@
     "transponderDataHelp1": {
         "message": "Только хексдецимальные цифры, 0-9, A-F"
     },
+    "transponderHelp2": {
+        "message": "Для получения дополнительной информации посетите <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">сайт aRCiTimer<\/a>"
+    },
+    "transponderDataHelp3": {
+        "message": "Выберете ERLT ID 0-63"
+    },
+    "transponderHelp3": {
+        "message": "Для большей информации посетите <a href=\"https:\/\/github.com\/polyvision\/EasyRaceLapTimer\" title=\"aRCiTimer\" target=\"_blank\">EasyRaceLapTimer site<\/a>"
+    },
     "transponderButtonSave": {
         "message": "Сохранить"
     },
     "transponderButtonSaveReboot": {
         "message": "Сохранить и Перезагрузить"
     },
+    "transponderDataInvalid": {
+        "message": "Информация с транспондера <span class=\"message-negative\">не правильная<\/span>"
+    },
     "transponderEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">сохранён<\/span>"
+    },
+    "servosFirmwareUpgradeRequired": {
+        "message": "Сервы требуют firmware &gt;= 1.10.0. и целевую поддержку."
+    },
+    "servosChangeDirection": {
+        "message": "Изменить направление в TX для соответствия"
     },
     "servosName": {
         "message": "Название"
@@ -1668,6 +1782,9 @@
     },
     "servosDirectionAndRate": {
         "message": "Направление и Rate"
+    },
+    "servosLiveMode": {
+        "message": "Включить живой режим"
     },
     "servosButtonSave": {
         "message": "Сохранить"
@@ -1807,6 +1924,9 @@
     "motorsResetMaximumButton": {
         "message": "Сброс"
     },
+    "motorsResetMaximum": {
+        "message": "Сбросить сверхурочный максимум"
+    },
     "motorsSensorGyroSelect": {
         "message": "гиро"
     },
@@ -1900,6 +2020,12 @@
     "loggingErrorLogFile": {
         "message": "Пожалуйста выберите файл журнала"
     },
+    "blackboxNotSupported": {
+        "message": "Прошивка Вашего полетного контроллера не поддерживает запись в Blackbox."
+    },
+    "blackboxMaybeSupported": {
+        "message": "Прошивка Вашего полетного контроллера слишком стара, чтобы поддерживать эту вкладку, либо функция Blackbox отключена во вкладке \"Конфигурация\"."
+    },
     "blackboxConfiguration": {
         "message": "Конфигурация Blackbox"
     },
@@ -1935,6 +2061,9 @@
     },
     "dataflashButtonErase": {
         "message": "Стереть флэш"
+    },
+    "dataflashConfirmEraseTitle": {
+        "message": "Подтвердите удаление dataflash"
     },
     "dataflashButtonSaveCancel": {
         "message": "Отмена"
@@ -2783,6 +2912,9 @@
     },
     "osdSetupCameraConnectedValueNo": {
         "message": "Нет"
+    },
+    "osdSetupResetText": {
+        "message": "Сбросить OSD до начального"
     },
     "osdSetupButtonReset": {
         "message": "Сбросить настройки"
