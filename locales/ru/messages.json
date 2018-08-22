@@ -2987,6 +2987,9 @@
     "osdSetupElementsTitle": {
         "message": "Элементы"
     },
+    "osdSetupElementsSwitchAll": {
+        "message": "Выключить все"
+    },
     "osdSetupPreviewTitle": {
         "message": "Предпросмотр (здесь можно двигать элементы мышкой)"
     },
@@ -3226,6 +3229,9 @@
     },
     "configurationBatteryCurrent": {
         "message": "Ток батареи"
+    },
+    "configurationBatteryMeterType": {
+        "message": "Tип вольтметра"
     },
     "configurationBatteryMinimum": {
         "message": "Минимальное напряжение элемента"
