@@ -22,7 +22,7 @@
         "message": "Diese Funktion wird von deinem System nicht unterstützt."
     },
     "storageDeviceNotReady": {
-        "message": "Das Speichermedium ist nicht bereit. Im Falle einer MicroSD-Karte stelle sicher, dass diese durch den Flight Controller richtig erkannt wird."
+        "message": "Das Speichermedium ist nicht bereit. Im Falle einer MicroSD-Karte stelle sicher, dass diese durch den Flugkontroller richtig erkannt wird."
     },
     "options_title": {
         "message": "Einstellungen"
@@ -58,7 +58,7 @@
         "message": "Expertenmodus einschalten"
     },
     "expertModeDescription": {
-        "message": "Zeige unveröffentlichte und potentiell instabile Releases an"
+        "message": "Zeige unveröffentlichte und potentiell instabile Versionen"
     },
     "permanentExpertMode": {
         "message": "Expertenmodus dauerhaft aktivieren"
@@ -2247,7 +2247,7 @@
         "message": "Instabile Versionen anzeigen"
     },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
-        "message": "Zeige Release Candidates zusätzlich zu stabilen Releases an"
+        "message": "Zeige Vorabversionen zusätzlich zu stabilen Versionen an"
     },
     "firmwareFlasherOptionLoading": {
         "message": "Lade...."
