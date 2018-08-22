@@ -183,7 +183,7 @@
         "message": "Empfänger"
     },
     "tabModeSelection": {
-        "message": "Mode Auswahl"
+        "message": "Modusauswahl"
     },
     "tabServos": {
         "message": "Servos"
@@ -3698,7 +3698,7 @@
         "message": "Massenspeicher-Modus"
     },
     "onboardLoggingMscNote": {
-        "message": "Startet neu im <strong>Massenspeicher-Geräte (MSC)<\/strong> -Modus. Wenn aktiviert, wird der Onboard-Flashspeicher oder die SD-Karte auf deiner FC von dem Computer als Speichermedium erkannt und ermöglicht es, deine Log-Dateien herunterladen. Auswerfen und Neustart des FC, um den Massenspeicher-Modus zu verlassen."
+        "message": "Startet neu im <strong>Massenspeicher-Geräte (MSC)<\/strong> Modus. Wenn aktiviert, wird der Onboard-Flashspeicher oder die SD-Karte auf deinem FC von dem Computer als Speichermedium erkannt und ermöglicht es, deine Log-Dateien herunterladen. Auswerfen und Neustart des FC, um den Massenspeicher-Modus zu verlassen."
     },
     "onboardLoggingRebootMscText": {
         "message": "Aktiviere Massenspeicher-Modus"
