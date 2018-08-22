@@ -2834,7 +2834,7 @@
         "message": "Throttle Boost"
     },
     "pidTuningThrottleBoostHelp": {
-        "message": "Mit dieser Funktion kann das Gas vorübergehend erhöht werden um das Beschleunigungsmoment der Motoren zu erhöhen. Das bietet eine viel schnellere Gasannahme."
+        "message": "Mit dieser Funktion kann das Gas vorübergehend verstärkt werden, um das Beschleunigungsmoment der Motoren zu erhöhen. Das unterstützt eine viel schnellere Gasannahme."
     },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Acro Trainer Winkelbegrenzung"
