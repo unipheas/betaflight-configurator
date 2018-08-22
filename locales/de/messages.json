@@ -2798,7 +2798,7 @@
         "message": "I Term Relax"
     },
     "pidTuningItermRelaxHelp": {
-        "message": "Schränkt die Anhäufung von I-Term bei schnelle Bewegungen ein. Das hilft \"Bounceback\" am Ende von schnellen Rollen und Bewegungen zu reduzieren. Die aktiven Achsen, als auch die Feedforward Methode bei schnelle Knüppelbewegungen, können gewählt werden."
+        "message": "Schränkt die Wirkung von I-Term bei schnelle Bewegungen ein. Das hilft \"Bounceback\" am Ende von schnellen Rollen und Bewegungen zu reduzieren. Die aktiven Achsen, als auch die Feedforward Methode bei schnelle Knüppelbewegungen, können gewählt werden."
     },
     "pidTuningItermRelaxAxes": {
         "message": "Achsen:"
@@ -2813,7 +2813,7 @@
         "message": "RP (nur inkrementell)"
     },
     "pidTuningItermRelaxAxesOptionRPYInc": {
-        "message": "RP (nur inkrementell)"
+        "message": "RPY (nur inkrementell)"
     },
     "pidTuningItermRelaxType": {
         "message": "Typ:"
@@ -2822,16 +2822,16 @@
         "message": "Gyro"
     },
     "pidTuningItermRelaxTypeOptionSetpoint": {
-        "message": "Setpoint"
+        "message": "Sollwert"
     },
     "pidTuningAbsoluteControlGain": {
-        "message": "Absolute Control"
+        "message": "Absolute Kontrolle"
     },
     "pidTuningAbsoluteControlGainHelp": {
-        "message": "Diese Funktion löst einige Probleme der I-Term Rotation und wird diese hoffentlich bald ersetzen. Die Funktion sammelt den absolute Gyro-Fehler im Kopter Koordinatensystem und mischt eine proportionale Korrektur in den Sollwert. Es muss dafür Iterm_relax für RPY aktiviert sein."
+        "message": "Diese Funktion löst einige Probleme der I-Term Rotation und wird diese hoffentlich bald ersetzen. Die Funktion fasst den absoluten Gyro-Fehler im Kopter zusammen und mischt eine proportionale Korrektur in den Sollwert. Es muss dafür iterm_relax für RPY aktiviert sein."
     },
     "pidTuningThrottleBoost": {
-        "message": "Throttle Boost"
+        "message": "Beschleunigungsschub"
     },
     "pidTuningThrottleBoostHelp": {
         "message": "Mit dieser Funktion kann das Gas vorübergehend verstärkt werden, um das Beschleunigungsmoment der Motoren zu erhöhen. Das unterstützt eine viel schnellere Gasannahme."
