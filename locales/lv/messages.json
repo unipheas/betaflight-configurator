@@ -3414,6 +3414,9 @@
     "osdDescGForce": {
         "message": "Parādīt cik lielu G-Spēku piedzīvo gaisa kuģis"
     },
+    "osdDescElementLogStatus": {
+        "message": "Melnā kastes numurs un brīdinājumi"
+    },
     "osdDescStatMaxSpeed": {
         "message": "Maksimālais piefiksētais ātrums"
     },
@@ -3461,6 +3464,9 @@
     },
     "osdDescStatBattery": {
         "message": "Akumulatora spriegums reālā laika"
+    },
+    "osdDescStatGForce": {
+        "message": "Max G-Spēks ko pārcieš gaisa kuģis"
     },
     "osdTimerSource": {
         "message": "Avots:"
