@@ -64,7 +64,7 @@
         "message": "Expertenmodus dauerhaft aktivieren"
     },
     "rememberLastTab": {
-        "message": "Die letzte Registerkarte wieder beim Verbinden öffnen"
+        "message": "Öffne die letzte Registerkarte beim Verbinden"
     },
     "analyticsOptOut": {
         "message": "Keine anonymisierte Erhebung von Statistikdaten"
@@ -2783,10 +2783,10 @@
         "message": "Erhört die PID Werte, sobald die Batterie schwächer wird. Das sorgt dafür, dass das Fluggefühl gleich bleibt, während der Akku leerer wird. Die Stärke der Kompensation wird durch die Einstellung der maximalen Zellenspannung errechnet. Stelle sicher, dass in den Energieeinstellungen passende Werte sind."
     },
     "pidTuningItermRotation": {
-        "message": "I Term Rotation"
+        "message": "i-Term Drehung"
     },
     "pidTuningItermRotationHelp": {
-        "message": "Dreht den aktuellen I-Term Vektor richtig zu den anderen Achsen falls sich der Kopter schnell, während kontinuierlichen Rollen\/Gieren, Trichtern und anderen Tricks, dreht. Besonders für LOS-Acro Piloten nützlich."
+        "message": "Dreht den aktuellen I-Term Vektor korrekt zu den anderen Achsen, während des Drehens des Kopters bei kontinuierlichen Gieren, z.B. bei Funnel (schelle Orbits) und anderen Tricks. Besonders für LOS-Acro Piloten nützlich."
     },
     "pidTuningSmartFeedforward": {
         "message": "Smart Feedforward"
@@ -3206,7 +3206,7 @@
         "message": "Schriftarten:"
     },
     "osdSetupFontPresetsSelector": {
-        "message": "Wählen Sie Schriftart Voreinstellungen:"
+        "message": "Wähle Schriftart-Voreinstellungen:"
     },
     "osdSetupFontPresetsSelectorOr": {
         "message": "oder"
