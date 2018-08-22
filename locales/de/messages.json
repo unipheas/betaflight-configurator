@@ -22,7 +22,7 @@
         "message": "Diese Funktion wird von deinem System nicht unterstützt."
     },
     "storageDeviceNotReady": {
-        "message": "Das Speichermedium ist nicht bereit. Im Falle einer MicroSD-Karte stelle sicher, dass sie durch deinen FC richtig erkannt wird."
+        "message": "Das Speichermedium ist nicht bereit. Im Falle einer MicroSD-Karte stelle sicher, dass diese durch den Flight Controller richtig erkannt wird."
     },
     "options_title": {
         "message": "Einstellungen"
@@ -1208,7 +1208,7 @@
         "description": "One of the modes of anti gravity"
     },
     "pidTuningAntiGravityModeOptionStep": {
-        "message": "Grenzwert",
+        "message": "Schritt",
         "description": "One of the modes of anti gravity"
     },
     "pidTuningAntiGravityGain": {
@@ -3467,7 +3467,7 @@
         "message": "Echtzeit-Batteriespannung"
     },
     "osdDescStatGForce": {
-        "message": "Maximal widerfahrene G-Kräfte des Multikopters"
+        "message": "Maximal einwirkende G-Kräfte auf das Fluggerät"
     },
     "osdTimerSource": {
         "message": "Quelle:"
