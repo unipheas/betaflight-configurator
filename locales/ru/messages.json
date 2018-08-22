@@ -441,7 +441,7 @@
         "message": "Время цикла:"
     },
     "statusbar_cpu_load": {
-        "message": "Загрузка ЦП: $1%"
+        "message": "Загрузка CPU: $1%"
     },
     "dfu_connect_message": {
         "message": "Пожалуйста, используйте \"Программатор\" для доступа к DFU устройств"
@@ -726,7 +726,7 @@
         "message": "Серво-подвес"
     },
     "featureSOFTSERIAL": {
-        "message": "Включить серийный порт основанный на ЦП"
+        "message": "Включить серийный порт основанный на CPU"
     },
     "featureSOFTSERIALTip": {
         "message": "После включения настройте порты во вкладке Порты."
@@ -3185,6 +3185,9 @@
     "osdSettingsSaved": {
         "message": "OSD настройки сохранены"
     },
+    "osdWritePermissions": {
+        "message": "У вас нет <span class=\"message-negative\">разрешения на запись<\/span> в этот файл"
+    },
     "osdButtonSaved": {
         "message": "Сохранено"
     },
@@ -3250,6 +3253,9 @@
     },
     "configurationCurrent": {
         "message": "Датчик тока"
+    },
+    "configurationCurrentScale": {
+        "message": "Соотношение вых. напряжения и тока [1\/10th mV\/A]"
     },
     "pidTuningProfile": {
         "message": "Профиль"
