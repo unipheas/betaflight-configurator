@@ -59,6 +59,9 @@
     "rememberLastTab": {
         "message": "Повторно открыть последнюю вкладку при подключении"
     },
+    "analyticsOptOut": {
+        "message": "Отказ от анонимной коллекции статистических данных"
+    },
     "userLanguageSelect": {
         "message": "Язык (необходимо перезапустить приложение, чтобы изменения вступили в силу)"
     },
@@ -119,7 +122,7 @@
         "message": "Показывать уведомления о появлении нестабильных версий конфигуратора"
     },
     "configuratorUpdateNotice": {
-        "message": "Если Вы используете устаревшую версию <b>Betaflight Configurator<\/b>.<br>Версия <b>$1<\/b> доступна для скачивания, пожалуйста посетите <a href=\"$2\" target=\"_blank\">страницу с релизами<\/a>для загрузки и установки самой последней  версии с исправлениями и улучшениями.<br>Пожалуйста закройте окно конфигуратора перед обновлением."
+        "message": "Вы используете устаревшую версию <b>Betaflight конфигуратора<\/b>.<br>Новая версия <b>$1<\/b> доступна для скачивания, пожалуйста, посетите <a href=\"$2\" target=\"_blank\">страницу с релизами<\/a> для загрузки и установки самой последней версии с исправлениями и улучшениями.<br>Пожалуйста, закройте окно конфигуратора перед обновлением."
     },
     "configuratorUpdateWebsite": {
         "message": "Перейти на сайт с релизами"
@@ -170,7 +173,7 @@
         "message": "PID настройки"
     },
     "tabReceiver": {
-        "message": "Приемник"
+        "message": "Приёмник"
     },
     "tabModeSelection": {
         "message": "Переключение режимов"
@@ -212,7 +215,7 @@
         "message": "Чёрный ящик"
     },
     "tabAdjustments": {
-        "message": "Корректировки"
+        "message": "Корректирование в полёте"
     },
     "tabAuxiliary": {
         "message": "Режимы"
@@ -429,7 +432,7 @@
         "message": "U: $1%"
     },
     "statusbar_packet_error": {
-        "message": "Ошибка пакетов:"
+        "message": "Ошибки пакетов:"
     },
     "statusbar_i2c_error": {
         "message": "I2C ошибки:"
@@ -1943,7 +1946,7 @@
         "message": "<strong>Я понимаю всю опасность<\/strong>, пропеллеры сняты - включить управление моторами и арминг, и отключить \"Режим Защиты От Неконтролируемого Полёта\"."
     },
     "sensorsRefresh": {
-        "message": "Обновить:"
+        "message": "Обновл:"
     },
     "sensorsScale": {
         "message": "Масштаб:"
@@ -2065,17 +2068,35 @@
     "dataflashConfirmEraseTitle": {
         "message": "Подтвердите удаление dataflash"
     },
+    "dataflashConfirmEraseNote": {
+        "message": "Это сотрет все журналы Blackbox или другие данные, содержащиеся в dataflash. Это займет около 20 секунд, вы уверены?"
+    },
+    "dataflashSavingTitle": {
+        "message": "Сохранение dataflash файл"
+    },
+    "dataflashSavingNote": {
+        "message": "Сохранение может занять несколько минут, пожалуйста, подождите."
+    },
+    "dataflashSavingNoteAfter": {
+        "message": "Сохранение закончено! Нажмите \"Ок\" для продолжения."
+    },
     "dataflashButtonSaveCancel": {
         "message": "Отмена"
     },
     "dataflashButtonSaveDismiss": {
         "message": "Ок"
     },
+    "dataflashButtonEraseConfirm": {
+        "message": "Да, стереть dataflash"
+    },
     "dataflashButtonEraseCancel": {
         "message": "Отмена"
     },
     "sdcardStatusNoCard": {
         "message": "Карта не вставлена"
+    },
+    "sdcardStatusReboot": {
+        "message": "Критическая ошибка<br>Попытка перезагрузки"
     },
     "sdcardStatusReady": {
         "message": "Карта готова"
@@ -2088,6 +2109,9 @@
     },
     "sdcardStatusUnknown": {
         "message": "Неизвестное состояние $1"
+    },
+    "firmwareFlasherReleaseSummaryHead": {
+        "message": "Информация о выпуске"
     },
     "firmwareFlasherReleaseName": {
         "message": "Название\/Версия:"
@@ -2200,11 +2224,20 @@
     "firmwareFlasherFlashFirmware": {
         "message": "Загрузить прошивку"
     },
+    "firmwareFlasherGithubInfoHead": {
+        "message": "GitHub Firmware инфо"
+    },
+    "firmwareFlasherCommiter": {
+        "message": "Участник:"
+    },
     "firmwareFlasherDate": {
         "message": "Дата:"
     },
     "firmwareFlasherHash": {
         "message": "Хэш:"
+    },
+    "firmwareFlasherUrl": {
+        "message": "Перейдите в GitHub, чтобы просмотреть это сообщение..."
     },
     "firmwareFlasherMessage": {
         "message": "Сообщение:"
@@ -2218,8 +2251,38 @@
     "firmwareFlasherRecoveryText": {
         "message": "Если возникла потеря связи с вашим устройством, то следуйте следующим шагам, чтобы восстановить связь:<ul><li>Отключите питание<\/li><li>Включите \"No reboot sequence\", включите \"Полное стирание чипа\".<\/li><li>Замкните контакты \"BOOT\" или удерживайте кнопку BOOT.<\/li><li>Включите питание (светодиод НЕ будет мигать, если всё сделано правильно).<\/li><li>Установите STM32 драйвера и Zadig, если это необходимо (см. раздел <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a> в инструкции Betaflight).<\/li><li>Закройте конфигуратор, закройте все Chrome приложения и завершите все chrome процессы, перезапустите конфигуратор.<\/li><li>Отпустите кнопку \"BOOT\", если она есть.<\/li><li>Залейте нужную прошивку (укажите ручной битрейт, если он указан в инструкции вашего полётного контроллера).<\/li><li>Отключите питание<\/li><li>Разомкните контакты \"BOOT\".<\/li><li>Включите питание (светодиод должен мигать).<\/li><li>Пробуйте подключиться.<\/li><\/ul>"
     },
+    "firmwareFlasherButtonLeave": {
+        "message": "Покинуть программатор"
+    },
+    "firmwareFlasherFirmwareNotLoaded": {
+        "message": "Прошивка не загружена"
+    },
+    "firmwareFlasherFirmwareLocalLoaded": {
+        "message": "Загружена локальная прошивка: ($1 bytes)"
+    },
+    "firmwareFlasherHexCorrupted": {
+        "message": "HEX-файл поврежден"
+    },
+    "firmwareFlasherRemoteFirmwareLoaded": {
+        "message": "<span class=\"message-positive\">Удаленная Прошивка загружена, готова для загрузки<\/span>"
+    },
+    "firmwareFlasherFailedToLoadOnlineFirmware": {
+        "message": "Не удалось закрыть удаленную прошивку"
+    },
     "firmwareFlasherNoFirmwareSelected": {
         "message": "<b>Не выбрана прошивка для загрузки<\/b>"
+    },
+    "firmwareFlasherNoValidPort": {
+        "message": "<span class=\"message-negative\">Пожалуйста выберете правильный последовательный порт<\/span>"
+    },
+    "firmwareFlasherWritePermissions": {
+        "message": "У вас нет <span class=\"message-negative\">разрешения на запись<\/span> в этот файл"
+    },
+    "firmwareFlasherFlashTrigger": {
+        "message": "Обнаружено: <strong>$1<\/strong> - переключение памяти при соединении"
+    },
+    "firmwareFlasherPreviousDevice": {
+        "message": "Обнаружено: <strong>$1<\/strong> - предыдущее устройство все еще подключено, пожалуйста переподключите чтобы попробовать еще"
     },
     "ledStripButtonSave": {
         "message": "Сохранить"
@@ -2266,6 +2329,10 @@
         "message": "Режимы &amp; Ориентация",
         "description": "One of the modes of the Led Strip"
     },
+    "ledStripFunctionArmOption": {
+        "message": "Арм состояние",
+        "description": "One of the modes of the Led Strip"
+    },
     "ledStripFunctionBatteryOption": {
         "message": "Батарея",
         "description": "One of the modes of the Led Strip"
@@ -2290,6 +2357,10 @@
     },
     "ledStripModeColorsModeOrientation": {
         "message": "Ориентация",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeHeadfree": {
+        "message": "Headfree",
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripModeColorsModeHorizon": {
@@ -2348,9 +2419,33 @@
         "message": "Анимация",
         "description": "One of the modes in Color Mode in Led Strip"
     },
+    "ledStripModeColorsModeGPSNoSats": {
+        "message": "GPS: нет спутников",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoLock": {
+        "message": "GPS: не закрыто",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSLocked": {
+        "message": "GPS: закрыто",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripWiring": {
+        "message": "Светодиодная лента",
+        "description": "One of the modes in Led Strip"
+    },
     "ledStripWiringClearControl": {
         "message": "Очистить выбранное",
         "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringClearAllControl": {
+        "message": "Очистить ВСЕ линии",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringMessage": {
+        "message": "LEDs без обозначения номера цепи не будут сохранены.",
+        "description": "Message in the wiring modes in Led Strip"
     },
     "ledStripVtxFunction": {
         "message": "Ларсон сканер"
@@ -2514,6 +2609,12 @@
     "pidTuningGyroLowpassFiltersGroup": {
         "message": "Гиро низкочастотные фильтры"
     },
+    "pidTuningGyroLowpass2Frequency": {
+        "message": "Gyro Lowpass 2 частота среза [Hz]"
+    },
+    "pidTuningGyroLowpass2Type": {
+        "message": "Gyro Lowpass 2 тип фильтра"
+    },
     "pidTuningGyroNotchFiltersGroup": {
         "message": "Гиро полосно-заграждающие фильтры"
     },
@@ -2523,11 +2624,41 @@
     "pidTuningGyroNotch2Frequency": {
         "message": "Гиро полосно-заграждающий фильтр 2 центральная частота [Hz]"
     },
+    "pidTuningGyroNotch1Cutoff": {
+        "message": "Gyro Notch фильтра 1 частота среза [Hz]"
+    },
+    "pidTuningGyroNotch2Cutoff": {
+        "message": "Gyro Notch фильтра 2 частота среза [Hz]"
+    },
+    "pidTuningFilterSettings": {
+        "message": "Настройки фильтра в зависимости от выбранного профиля"
+    },
     "pidTuningDTermLowpassFiltersGroup": {
         "message": "D Term низкочастотные фильтры"
     },
+    "pidTuningDTermLowpassType": {
+        "message": "D Term Lowpass 1 тип фильтра"
+    },
+    "pidTuningDTermLowpassFrequency": {
+        "message": "D Term Lowpass 1 частота среза [Hz]"
+    },
+    "pidTuningDTermLowpass2Frequency": {
+        "message": "D Term Lowpass 2 частота среза [Hz]"
+    },
+    "pidTuningDTermNotchFiltersGroup": {
+        "message": "D Term Notch фильтр"
+    },
     "pidTuningDTermNotchFrequency": {
         "message": "D Term полосно-заграждающий фильтр центральная частота [Hz]"
+    },
+    "pidTuningDTermNotchCutoff": {
+        "message": "D Term Notch Filter частота среза [Hz]"
+    },
+    "pidTuningYawLospassFiltersGroup": {
+        "message": "Yaw Lowpass фильтр"
+    },
+    "pidTuningYawLowpassFrequency": {
+        "message": "Yaw Lowpass частота среза [Hz]"
     },
     "pidTuningVbatPidCompensation": {
         "message": "Компенсация PID-ов при низком заряде батареи"
@@ -2810,6 +2941,9 @@
     },
     "powerMahValue": {
         "message": "$1 mAh"
+    },
+    "powerAmperageOffset": {
+        "message": "Смещение [mA]"
     },
     "powerBatteryHead": {
         "message": "Батарея"
