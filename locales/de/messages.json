@@ -58,7 +58,7 @@
         "message": "Expertenmodus einschalten"
     },
     "expertModeDescription": {
-        "message": "Zeige unveröffentlichte und potentiell unstabile Releases an"
+        "message": "Zeige unveröffentlichte und potentiell instabile Releases an"
     },
     "permanentExpertMode": {
         "message": "Expertenmodus dauerhaft aktivieren"
@@ -67,7 +67,7 @@
         "message": "Die letzte Registerkarte wieder beim Verbinden öffnen"
     },
     "analyticsOptOut": {
-        "message": "Verweigert die anonymisierte Erhebung von Statistikdaten"
+        "message": "Keine anonymisierte Erhebung von Statistikdaten"
     },
     "userLanguageSelect": {
         "message": "Sprache (Das Programm muss zur Änderung neu gestartet werden)"
@@ -1314,7 +1314,7 @@
         "message": "Feedforward Übergang"
     },
     "pidTuningFeedforwardTransitionHelp": {
-        "message": "Mit diesem Parameter kann man die Feedforward Regelung an der Mittelstellung der Sticks reduzieren und damit weichere Enden von Flips und Rolls erreichen.<br> Der Wert bedeutet eine Auslenkung des Sticks von 0 - Knüppel mittig bis 1 - voller Ausschlag. Wenn der Knüppel weiter ausgelenkt wird als dieser Wert, hat die Feedforward Regelung den eingestellten Wert. Wenn der Stick weniger ausgelenkt ist, wird die Feedforward Regelung proportional reduziert und erreicht 0 in der Nullstellung des Knüppels.<br> Ein Wert von 1 ergibt den maximalen Glättungseffekt, ein Wert von 0 hält die Feedforward Regelung über den gesamten Steuerbereich auf seinem eingestellten Wert."
+        "message": "Mit diesem Parameter kann man die Feedforward Regelung an der Mittelstellung der Sticks reduzieren und damit ein weicheres Enden von Flips und Rolls erreichen.<br> Der Wert bedeutet eine Auslenkung des Sticks von 0 - Knüppel mittig bis 1 - voller Ausschlag. Wenn der Knüppel weiter ausgelenkt wird als dieser Wert, hat die Feedforward Regelung den eingestellten Wert. Wenn der Stick weniger ausgelenkt ist, wird die Feedforward Regelung proportional reduziert und erreicht 0 in der Nullstellung des Knüppels.<br> Ein Wert von 1 ergibt den maximalen Glättungseffekt, ein Wert von 0 hält die Feedforward Regelung über den gesamten Steuerbereich auf seinem eingestellten Wert."
     },
     "pidTuningDtermSetpointTransition": {
         "message": "D Setpoint transition"
