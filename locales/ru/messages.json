@@ -1946,7 +1946,7 @@
         "message": "<strong>Я понимаю всю опасность<\/strong>, пропеллеры сняты - включить управление моторами и арминг, и отключить \"Режим Защиты От Неконтролируемого Полёта\"."
     },
     "sensorsRefresh": {
-        "message": "Обновл:"
+        "message": "Обновить:"
     },
     "sensorsScale": {
         "message": "Масштаб:"
@@ -2022,6 +2022,12 @@
     },
     "loggingErrorLogFile": {
         "message": "Пожалуйста выберите файл журнала"
+    },
+    "loggingErrorOneProperty": {
+        "message": "Выберите по крайней мере одно свойство для логирования"
+    },
+    "loggingAutomaticallyRetained": {
+        "message": "Автоматически загружен предыдущий файл журнала: <strong>$1<\/strong>"
     },
     "blackboxNotSupported": {
         "message": "Прошивка Вашего полетного контроллера не поддерживает запись в Blackbox."
@@ -2267,7 +2273,7 @@
         "message": "<span class=\"message-positive\">Удаленная Прошивка загружена, готова для загрузки<\/span>"
     },
     "firmwareFlasherFailedToLoadOnlineFirmware": {
-        "message": "Не удалось закрыть удаленную прошивку"
+        "message": "Не удалось загрузить удаленную прошивку"
     },
     "firmwareFlasherNoFirmwareSelected": {
         "message": "<b>Не выбрана прошивка для загрузки<\/b>"
