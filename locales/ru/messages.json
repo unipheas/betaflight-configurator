@@ -2195,7 +2195,7 @@
         "message": "Загрузка..."
     },
     "firmwareFlasherOptionLabelBuildTypeRelease": {
-        "message": "Релизы"
+        "message": "Выпуск"
     },
     "firmwareFlasherOptionLabelBuildTypeDevelopment": {
         "message": "Разработка"
@@ -2691,7 +2691,7 @@
         "message": "Гиро"
     },
     "pidTuningItermRelaxTypeOptionSetpoint": {
-        "message": "Setpoint"
+        "message": "Уставка"
     },
     "pidTuningAbsoluteControlGain": {
         "message": "Абсолютный контроль"
