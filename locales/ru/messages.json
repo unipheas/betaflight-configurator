@@ -2195,7 +2195,7 @@
         "message": "Загрузка..."
     },
     "firmwareFlasherOptionLabelBuildTypeRelease": {
-        "message": "Выпуск"
+        "message": "Релиз"
     },
     "firmwareFlasherOptionLabelBuildTypeDevelopment": {
         "message": "Разработка"
