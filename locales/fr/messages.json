@@ -3411,6 +3411,9 @@
     "osdDescGForce": {
         "message": "Indique le nombre de G subit par l'appareil"
     },
+    "osdDescElementLogStatus": {
+        "message": "Avertissements et numéros de Blackbox"
+    },
     "osdDescStatMaxSpeed": {
         "message": "Vitesse maximale relevée"
     },
