@@ -593,7 +593,7 @@
         "message": "MSP RX anslutning (kontroll via MSP port)"
     },
     "featureRSSI_ADC": {
-        "message": "Analog RSSI anslutning"
+        "message": "Analog RSSI-anslutning"
     },
     "featureLED_STRIP": {
         "message": "Multi-färg RGP LED-remsa"
