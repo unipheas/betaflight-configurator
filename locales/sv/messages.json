@@ -313,6 +313,18 @@
     "stm32NotReadProtected": {
         "message": "Lässkydd ej aktivt"
     },
+    "stm32ReadProtected": {
+        "message": "Styrkortet verkar vara lässkyddat. Låser upp. Koppla inte ifrån eller dra ur!"
+    },
+    "stm32UnprotectSuccessful": {
+        "message": "Upplåsning lyckades."
+    },
+    "stm32UnprotectFailed": {
+        "message": "Upplåsning av styrkort misslyckades"
+    },
+    "stm32UnprotectInitFailed": {
+        "message": "Det gick inte att initiera upplåsnings-rutin"
+    },
     "noConfigurationReceived": {
         "message": "Ingen konfiguration mottagen inom <span class=\"message-negative\">10 sekunder<\/span>, kommunikation <span class=\"message-negative\">misslyckades<\/span>"
     },
@@ -324,6 +336,9 @@
     },
     "firmwareUpgradeRequired": {
         "message": "Firmwaren på den här enheten behöver uppgraderas till en nyare version. Använd CLI för säkerhetskopiering innan du flashar. CLI-säkerhetskopierings\/återställningsförfarandet finns i dokumentationen.<br \/>Alternativt kan du ladda ner och använda en gammal version av konfiguratorn om du inte vill uppgradera."
+    },
+    "releaseCheckLoaded": {
+        "message": "Hämtade release-information för $1 från GitHub."
     },
     "releaseCheckCached": {
         "message": "Använder cachelagrad utgivningsinformation för $1-utgåvor."
@@ -363,6 +378,9 @@
     },
     "buildInfoReceived": {
         "message": "Kör firmware publicerad: <strong>$1<\/strong>"
+    },
+    "fcInfoReceived": {
+        "message": "Flygkontroller-info, identifierare: <strong>$1<\/strong>, version: <strong>$2<\/strong>"
     },
     "versionLabelTarget": {
         "message": "Mål"
