@@ -819,7 +819,7 @@
         "message": "Piper när gyron har kalibrerats"
     },
     "beeperRX_LOST": {
-        "message": "Piper när TX har stängs av eller signalen tappats (repetera tills TX är ok igen)"
+        "message": "Piper när TX har stängs av eller signalen tappats (repeteras tills TX är ok igen)"
     },
     "beeperRX_LOST_LANDING": {
         "message": "Piper SOS när farkosten är aktiv och TX stängs av eller signalen tappas (autolandning\/autoinaktivering)"
