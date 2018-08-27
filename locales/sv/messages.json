@@ -526,11 +526,20 @@
     "featureNone": {
         "message": "&lt;Välj En&gt;"
     },
+    "featureRX_PPM": {
+        "message": "PPM RX-input"
+    },
     "featureVBAT": {
         "message": "Batterispänningsövervakning"
     },
+    "featureRX_SERIAL": {
+        "message": "Seriell-baserad mottagare (SPEKSAT, SBUS, SUMD)"
+    },
     "featureMOTOR_STOP": {
         "message": "Starta inte motorerna vid aktivering"
+    },
+    "featureSERVO_TILT": {
+        "message": "Servo-gimbal"
     },
     "featureSOFTSERIAL": {
         "message": "Aktivera CPU-baserade seriella portar"
@@ -541,8 +550,14 @@
     "featureGPS": {
         "message": "GPS för navigation och telemetri"
     },
+    "featureGPSTip": {
+        "message": "Konfigurera port-scenario först"
+    },
     "featureSONAR": {
         "message": "Sonar"
+    },
+    "featureTELEMETRY": {
+        "message": "Telemetri-utdata"
     },
     "featureCURRENT_METER": {
         "message": "Batterispänningsövervakning"
@@ -564,6 +579,9 @@
     },
     "featureDISPLAY": {
         "message": "OLED Skärmdisplay"
+    },
+    "featureDISPLAYTip": {
+        "message": "Om denna funktion är aktiverad, och ingen visningsenhet är ansluten (eller visningsenheten inte är påslagen), blir det en fördröjning på ca 10 sekunder vid varje omstart av flygkontrollern."
     },
     "featureONESHOT125": {
         "message": "ONESHOT ESC-stöd"
