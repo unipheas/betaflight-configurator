@@ -325,6 +325,9 @@
     "firmwareUpgradeRequired": {
         "message": "Firmwaren på den här enheten behöver uppgraderas till en nyare version. Använd CLI för säkerhetskopiering innan du flashar. CLI-säkerhetskopierings\/återställningsförfarandet finns i dokumentationen.<br \/>Alternativt kan du ladda ner och använda en gammal version av konfiguratorn om du inte vill uppgradera."
     },
+    "releaseCheckCached": {
+        "message": "Använder cachelagrad utgivningsinformation för $1-utgåvor."
+    },
     "releaseCheckNoInfo": {
         "message": "Ingen utgivningsinformation är tillgänglig för $1."
     },
