@@ -24,7 +24,7 @@
         "message": "Port:"
     },
     "autoConnect": {
-        "message": "Auto-Anslut"
+        "message": "Anslut automatiskt"
     },
     "close": {
         "message": "Stäng"
