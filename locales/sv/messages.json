@@ -794,6 +794,9 @@
     "configurationOtherFeaturesHelp": {
         "message": "<strong>Observera:<\/strong> Alla funktioner stöds inte av alla flygkontrollers. Om du aktiverar en specifik funktion och den är inaktiverad när du tryckt 'Spara och Starta om' innebär det att denna funktion inte stöds av ditt styrkort."
     },
+    "configurationBoardAlignment": {
+        "message": "Kort- och sensor-justering"
+    },
     "configurationSensorAlignmentGyro": {
         "message": "GYRO-orientering"
     },
@@ -803,14 +806,32 @@
     "configurationSensorAlignmentMag": {
         "message": "MAG-orientering"
     },
+    "configurationSensorAlignmentDefaultOption": {
+        "message": "Standard"
+    },
     "configurationAccelTrims": {
         "message": "Accelerometer-justering"
     },
     "configurationArming": {
         "message": "Motoraktivering"
     },
+    "configurationArmingHelp": {
+        "message": "Vissa alternativ för motoraktivering kan kräva att accelerometer aktiveras"
+    },
     "configurationReverseMotorSwitch": {
         "message": "Omvänd motor-rotation"
+    },
+    "configurationDigitalIdlePercent": {
+        "message": "Motorns tomgångstrottelvärde [percent]"
+    },
+    "configurationDigitalIdlePercentHelp": {
+        "message": "Detta är det 'tomgångsvärde' i procent av maximal trottel som skickas till ESC:erna när farkosten är aktiverad och trottelspaken är i lägsta positionen. Öka procentvärdet för att få högre tomgång."
+    },
+    "configurationThrottleMinimumHelp": {
+        "message": "Detta är det 'tomgångsvärde' som skickas till ESC:erna när farkosten är aktiverad och trottelspaken är i minimiläge. Öka värdet för att få högre tomgångshastighet. Öka också värdet vid synkroniseringsproblem!"
+    },
+    "configurationThrottleMinimumCommandHelp": {
+        "message": "Detta är det värde som skickas till ESC:erna när farkosten är inaktiverad. Sätt detta till ett värde som stoppar motorerna (1000 för de flesta ESC:er)."
     },
     "configurationBeeper": {
         "message": "Pip-konfiguration"
@@ -833,11 +854,32 @@
     "beeperBAT_LOW": {
         "message": "Varningspip när batteriet börjar laddas ur (repeteras)"
     },
+    "beeperREADY_BEEP": {
+        "message": "Ring en ton när GPS är låst och redo"
+    },
+    "beeperSYSTEM_INIT": {
+        "message": "Initialiseringspip när styrkortet slås på"
+    },
+    "configuration3d": {
+        "message": "3D ESC\/Motorfunktioner"
+    },
+    "configurationSystem": {
+        "message": "Systemkonfiguration"
+    },
+    "configurationCalculatedCyclesSec": {
+        "message": "Cykler\/sek [Hz]"
+    },
+    "configurationGPS": {
+        "message": "GPS"
+    },
     "configurationGPSProtocol": {
         "message": "Protokoll"
     },
     "configurationGPSBaudrate": {
         "message": "Baudrate"
+    },
+    "configurationGPSAutoConfig": {
+        "message": "Auto-konfiguration"
     },
     "configurationEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
@@ -850,6 +892,9 @@
     },
     "portsConfiguration": {
         "message": "Konfiguration\/MSP"
+    },
+    "portsButtonSave": {
+        "message": "Spara och starta om"
     },
     "portsFunction_GPS": {
         "message": "GPS"
@@ -887,6 +932,9 @@
     "portsFunction_ESC_SENSOR": {
         "message": "ESC"
     },
+    "portsFunction_RX_SERIAL": {
+        "message": "Seriell RX"
+    },
     "portsFunction_BLACKBOX": {
         "message": "Blackbox-loggning"
     },
@@ -910,6 +958,18 @@
     },
     "pidTuningHideUnusedPids": {
         "message": "Dölj PIDs som inte änvänds"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "Interpolering"
+    },
+    "receiverRcSmoothingFilter": {
+        "message": "Filter"
+    },
+    "receiverRcSmoothingTypeHelp": {
+        "message": "Typ av RC-utjämning som används"
+    },
+    "receiverRcSmoothingType": {
+        "message": "Utjämningstyp"
     },
     "pidTuningProportional": {
         "message": "Proportional"
@@ -971,13 +1031,136 @@
     "auxiliaryMax": {
         "message": "Max"
     },
+    "auxiliaryAddRange": {
+        "message": "Lägg till intervall"
+    },
     "auxiliaryButtonSave": {
         "message": "Spara"
     },
     "auxiliaryEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
     },
+    "auxiliaryAutoChannelSelect": {
+        "message": "AUTO"
+    },
     "adjustmentsExamples": {
         "message": "Exempel"
+    },
+    "adjustmentsColumnEnable": {
+        "message": "Om aktiverad"
+    },
+    "adjustmentsColumnViaChannel": {
+        "message": "via kanal"
+    },
+    "adjustmentsSlot0": {
+        "message": "Plats 1"
+    },
+    "adjustmentsSlot1": {
+        "message": "Plats 2"
+    },
+    "adjustmentsSlot2": {
+        "message": "Plats 3"
+    },
+    "adjustmentsSlot3": {
+        "message": "Plats 4"
+    },
+    "adjustmentsMin": {
+        "message": "Min"
+    },
+    "adjustmentsMax": {
+        "message": "Max"
+    },
+    "adjustmentsFunction0": {
+        "message": "Inga ändringar"
+    },
+    "adjustmentsFunction1": {
+        "message": "RC Rate-justering"
+    },
+    "adjustmentsFunction2": {
+        "message": "RC Expo-justering"
+    },
+    "adjustmentsFunction3": {
+        "message": "Trottel Expo-justering"
+    },
+    "transponderData2": {
+        "message": "Transponder-ID"
+    },
+    "transponderData3": {
+        "message": "Transponder-ID"
+    },
+    "transponderDataHelp1": {
+        "message": "Enbart hexadecimala tecken, 0-9, A-F"
+    },
+    "powerAmperageId10": {
+        "message": "Batteri"
+    },
+    "powerAmperageId60": {
+        "message": "ESC Motor 1"
+    },
+    "powerAmperageId61": {
+        "message": "ESC Motor 2"
+    },
+    "powerAmperageId62": {
+        "message": "ESC Motor 3"
+    },
+    "powerAmperageId63": {
+        "message": "ESC Motor 4"
+    },
+    "powerAmperageId64": {
+        "message": "ESC Motor 5"
+    },
+    "powerAmperageId65": {
+        "message": "ESC Motor 6"
+    },
+    "powerAmperageId66": {
+        "message": "ESC Motor 7"
+    },
+    "powerAmperageId67": {
+        "message": "ESC Motor 8"
+    },
+    "powerAmperageId68": {
+        "message": "ESC Motor 9"
+    },
+    "powerAmperageId69": {
+        "message": "ESC Motor 10"
+    },
+    "powerAmperageId70": {
+        "message": "ESC Motor 11"
+    },
+    "powerAmperageId71": {
+        "message": "ESC Motor 12"
+    },
+    "powerAmperageId80": {
+        "message": "Virtuell"
+    },
+    "powerBatteryConnected": {
+        "message": "Ansluten"
+    },
+    "powerBatteryConnectedValueYes": {
+        "message": "Ja (Celler: $1)"
+    },
+    "osdSetupCustomLogoTitle": {
+        "message": "Startbild:"
+    },
+    "osdSetupSave": {
+        "message": "Spara"
+    },
+    "osdSetupFontManager": {
+        "message": "Teckensnittshanterare"
+    },
+    "osdSetupUncheckAll": {
+        "message": "Avmarkera alla"
+    },
+    "osdSetupHead": {
+        "message": "Info"
+    },
+    "osdSetupVideoMode": {
+        "message": "Videoläge"
+    },
+    "osdSetupCameraConnected": {
+        "message": "Kamera ansluten"
+    },
+    "osdSetupCameraConnectedValueYes": {
+        "message": "Ja"
     }
 }
