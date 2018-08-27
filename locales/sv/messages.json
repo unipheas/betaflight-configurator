@@ -710,7 +710,7 @@
         "message": "Motoraktivering"
     },
     "configurationReverseMotorSwitch": {
-        "message": "Motor-rotation är omvänd"
+        "message": "Omvänd motor-rotation"
     },
     "configurationGPSProtocol": {
         "message": "Protokoll"
