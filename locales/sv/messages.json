@@ -512,8 +512,23 @@
     "defaultSupport": {
         "message": "För support, var vänlig sök i forumen och wikin först eller kontakta din försäljare.<br \/><br \/>"
     },
+    "defaultSupport1": {
+        "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">RC Groups-tråd<\/a>"
+    },
+    "defaultSupport2": {
+        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Betaflight Wiki<\/a>"
+    },
     "defaultSupport3": {
         "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Betaflight Videos<\/a>"
+    },
+    "defaultSupport4": {
+        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+    },
+    "defaultSupport5": {
+        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Betaflight-utvecklare på slack<\/a>"
+    },
+    "initialSetupBackupAndRestoreApiVersion": {
+        "message": "<span class=\"message-negative\">Säkerhetskopierings- och återställningsfunktioner inaktiverade.<\/span> Du har firmware med API-version <span class=\"message-negative\">$1<\/span>, säkerhetskopiering och återställning kräver <span class=\"message-positive\">$2<\/span>.  Vänligen säkerhetskopiera dina inställningar via CLI, se Betaflight-dokumentation för förfarandet."
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Kalibrera Accelerometer"
@@ -590,6 +605,9 @@
     "initialSetupArmingAllowed": {
         "message": "Aktivering Tillåten"
     },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "Lista över flaggor som indikerar varför aktivering just nu inte tillåts. Det första och viktigaste värdet anger antalet varningspip som ljuder vid försök till aktivering. Hänvisa till Wikin (sidan 'Aktiveringssekvens & Säkerhet') för en beskrivning av flaggornas innebörd."
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
@@ -631,6 +649,9 @@
     },
     "featureVBAT": {
         "message": "Batterispänningsövervakning"
+    },
+    "featureINFLIGHT_ACC_CAL": {
+        "message": "Nivåkalibrering under flygning"
     },
     "featureRX_SERIAL": {
         "message": "Seriell-baserad mottagare (SPEKSAT, SBUS, SUMD)"
@@ -790,6 +811,27 @@
     },
     "configurationReverseMotorSwitch": {
         "message": "Omvänd motor-rotation"
+    },
+    "configurationBeeper": {
+        "message": "Pip-konfiguration"
+    },
+    "beeperGYRO_CALIBRATED": {
+        "message": "Piper när gyron har kalibrerats"
+    },
+    "beeperRX_LOST": {
+        "message": "Piper när TX har stängs av eller signalen tappats (repetera tills TX är ok igen)"
+    },
+    "beeperRX_LOST_LANDING": {
+        "message": "Piper SOS när farkosten är aktiv och TX stängs av eller signalen tappas (autolandning\/autoinaktivering)"
+    },
+    "beeperDISARMING": {
+        "message": "Pip när flygkontrollern inaktiveras"
+    },
+    "beeperARMING": {
+        "message": "Pip när flygkontrollern aktiveras"
+    },
+    "beeperBAT_LOW": {
+        "message": "Varningspip när batteriet börjar laddas ur (repeteras)"
     },
     "configurationGPSProtocol": {
         "message": "Protokoll"
