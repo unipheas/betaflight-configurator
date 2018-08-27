@@ -128,7 +128,7 @@
         "message": "Migrering av konfiguration klar, migreringar utförda: $1"
     },
     "tabFirmwareFlasher": {
-        "message": "Firmware-flashare"
+        "message": "Firmware-uppdaterare"
     },
     "tabLanding": {
         "message": "Välkommen"
@@ -386,7 +386,7 @@
         "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Välkommmen till<strong>Betaflight - Konfigurator<\/strong>, ett verktyg utformat för att förenkla uppdateringen, konfigurationen och inställningen av din flightcontroller."
+        "message": "Välkommmen till <strong>Betaflight - Konfigurator<\/strong>, ett verktyg utformat för att förenkla uppdateringen, konfigurationen och inställningen av din flygkontroller."
     },
     "defaultWelcomeHead": {
         "message": "Hårdvara"
