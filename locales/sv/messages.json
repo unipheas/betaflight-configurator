@@ -1,9 +1,21 @@
 {
+    "error": {
+        "message": "Fel: {{errorMessage}}"
+    },
+    "errorTitle": {
+        "message": "Fel"
+    },
     "warningTitle": {
         "message": "Varning"
     },
     "noticeTitle": {
         "message": "Observera"
+    },
+    "operationNotSupported": {
+        "message": "Denna åtgärd stöds inte av din hårdvara."
+    },
+    "storageDeviceNotReady": {
+        "message": "Lagringsenheten är inte klar. Om det är ett microSD-kort, se till att det stöds av din flygkontroller."
     },
     "options_title": {
         "message": "Applikationsalternativ"
@@ -38,8 +50,17 @@
     "expertMode": {
         "message": "Aktivera expertläge"
     },
+    "expertModeDescription": {
+        "message": "Visa outgivna och potentiellt instabila versioner"
+    },
     "permanentExpertMode": {
         "message": "Aktivera expertläge permanent"
+    },
+    "rememberLastTab": {
+        "message": "Öppna senaste fliken vid anslutning"
+    },
+    "analyticsOptOut": {
+        "message": "Välj bort anonymiserad insamling av statistikdata"
     },
     "userLanguageSelect": {
         "message": "Språk (programmet behöver startas om för att ändringarna ska börja gälla)"
@@ -625,20 +646,71 @@
     "featureANTI_GRAVITY": {
         "message": "Öka I-Term tillfälligt vid hastiga gasändringar"
     },
+    "featureDYNAMIC_FILTER": {
+        "message": "Dynamisk gyro-bandspärrfiltrering"
+    },
     "featureFAILSAFEOldTip": {
         "message": "Tillämpa Failsafe-inställningar vid RX-signalförlust"
     },
     "configurationFeatureEnabled": {
         "message": "Aktiverad"
     },
+    "configurationFeatureName": {
+        "message": "Funktion"
+    },
+    "configurationFeatureDescription": {
+        "message": "Beskrivning"
+    },
+    "configurationMixer": {
+        "message": "Mixer"
+    },
+    "configurationFeatures": {
+        "message": "Andra funktioner"
+    },
     "configurationReceiver": {
         "message": "Mottagare"
+    },
+    "configurationReceiverMode": {
+        "message": "Mottagarläge"
     },
     "configurationRSSI": {
         "message": "RSSI (Signalstyrka)"
     },
     "configurationRSSIHelp": {
         "message": "RSSI är ett mått på signalstyrka och är väldigt praktiskt då du vet om din farkost är påväg utom räckvidd eller om det lider av RF-störningar."
+    },
+    "configurationEscFeatures": {
+        "message": "ESC\/Motor-funktioner"
+    },
+    "configurationFeaturesHelp": {
+        "message": "<strong>Observera:<\/strong> Alla kombinationer av funktioner är inte giltiga. När flygkontrollerfirmwaren uppäcker ogiltiga funktionskombinationer kommer motstridiga funktioner att inaktiveras.<br \/><strong>Observera:<\/strong> Konfigurera seriella portar <span class=\"message-negative\">innan<\/span> funktioner som använder dessa portar aktiveras."
+    },
+    "configurationSerialRXHelp": {
+        "message": "<strong>Observera:<\/strong> Kom ihåg att konfigurera en seriell port (via fliken Portar) och välja en seriell mottagartyp när du använder RX_SERIAL-funktionen."
+    },
+    "configurationSpiRxHelp": {
+        "message": "<strong>Observera:<\/strong> SPI RX-typen fungerar bara om maskinvaran som krävs finns på styrkortet eller är ansluten till en SPI-buss."
+    },
+    "configurationOtherFeaturesHelp": {
+        "message": "<strong>Observera:<\/strong> Alla funktioner stöds inte av alla flygkontrollers. Om du aktiverar en specifik funktion och den är inaktiverad när du tryckt 'Spara och Starta om' innebär det att denna funktion inte stöds av ditt styrkort."
+    },
+    "configurationSensorAlignmentGyro": {
+        "message": "GYRO-orientering"
+    },
+    "configurationSensorAlignmentAcc": {
+        "message": "ACCEL-orientering"
+    },
+    "configurationSensorAlignmentMag": {
+        "message": "MAG-orientering"
+    },
+    "configurationAccelTrims": {
+        "message": "Accelerometer-justering"
+    },
+    "configurationArming": {
+        "message": "Motoraktivering"
+    },
+    "configurationReverseMotorSwitch": {
+        "message": "Motor-rotation är omvänd"
     },
     "configurationGPSProtocol": {
         "message": "Protokoll"
