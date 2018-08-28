@@ -3393,6 +3393,9 @@
     "osdDescElementCompassBar": {
         "message": "Barra gráfica con una brújula mostrando la dirección actual"
     },
+    "osdDescElementFlipArrow": {
+        "message": "Flecha que indica que lado tiene los motores arriba en modo tortuga"
+    },
     "osdDescElementTimer1": {
         "message": "Muestra el valor del temporizador 1"
     },
