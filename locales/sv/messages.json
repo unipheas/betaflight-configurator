@@ -1894,6 +1894,15 @@
     "pidTuningProfile": {
         "message": "Profil"
     },
+    "pidTuningRateProfile": {
+        "message": "Rate-profil"
+    },
+    "pidTuningDeltaError": {
+        "message": "Fel"
+    },
+    "pidTuningDeltaMeasurement": {
+        "message": "Mätning"
+    },
     "craftName": {
         "message": "Farkostnamn"
     },
@@ -1908,6 +1917,21 @@
     },
     "onboardLoggingEraseInProgress": {
         "message": "Radering pågår, vänta..."
+    },
+    "onboardLoggingOnboardSDCard": {
+        "message": "Inbyggt SD-kort"
+    },
+    "onboardLoggingMsc": {
+        "message": "Masslagringsläge"
+    },
+    "onboardLoggingMscNote": {
+        "message": "Starta om i <strong>masslagringsenhets (MSC)<\/strong>-läge. När det aktiverats kommer datorn att identifiera styrkortets flash- eller SD-kort på flygkontrollern som en lagringsenhet, och tillåta nerladdning av loggfiler. Koppla ur och starta om din flygkontroller för att lämna masslagringsenhetsläget."
+    },
+    "onboardLoggingRebootMscText": {
+        "message": "Aktivera masslagringsenhets-läge"
+    },
+    "onboardLoggingMscNotReady": {
+        "message": "Masslagringsläge kan inte aktiveras eftersom lagringsenheten inte är klar."
     },
     "dialogConfirmResetTitle": {
         "message": "Bekräfta"
