@@ -1541,6 +1541,9 @@
     "motorsEnableControl": {
         "message": "<strong>Jag förstår riskerna<\/strong>, propellrarna är borttagna - tillåt motorkontroll och motoraktivering, och inaktivera Förhindrande av oavsiktlig uppstigning (Runaway Takeoff Prevention)."
     },
+    "sensorsInfo": {
+        "message": "Tänk på att användning av snabba uppdateringsperioder och många grafer samtidigt är resurskrävande och kommer att dra ur batteriet snabbare om du använder en bärbar dator.<br \/>Vi rekommenderar att bara visa grafer för sensorer du är intresserad av, och använda rimliga uppdateringsperioder."
+    },
     "sensorsScale": {
         "message": "Skala:"
     },
@@ -1592,6 +1595,9 @@
     "loggingNote": {
         "message": "Data kommer <span class=\"message-negative\">endast<\/span> att loggas när denna flik är aktiv; om fliken lämnas kommer loggningen att <span class=\"message-negative\">avbrytas<\/span> och applikationen återgår till sitt normala <strong>\"konfigurations\"<\/strong> -läge.<br \/> Du kan fritt välja global uppdateringsperiod, data kommer att skrivas till loggen <strong>1<\/strong> gång per sekund av prestandaskäl."
     },
+    "loggingSamplesSaved": {
+        "message": "Samplingar sparade:"
+    },
     "loggingLogSize": {
         "message": "Loggstorlek:"
     },
@@ -1642,6 +1648,78 @@
     },
     "blackboxLoggingSerial": {
         "message": "Serieport"
+    },
+    "dataflashUsedSpace": {
+        "message": "Använt utrymme"
+    },
+    "dataflashFreeSpace": {
+        "message": "Fritt utrymme"
+    },
+    "dataflashUnavSpace": {
+        "message": "Ej tillgängligt utrymme"
+    },
+    "dataflashLogsSpace": {
+        "message": "Ledigt utrymme för loggar"
+    },
+    "dataflashSavingNoteAfter": {
+        "message": "Sparat! Tryck \"Ok\" för att fortsätta."
+    },
+    "dataflashButtonSaveCancel": {
+        "message": "Avbryt"
+    },
+    "dataflashButtonSaveDismiss": {
+        "message": "Ok"
+    },
+    "dataflashButtonEraseConfirm": {
+        "message": "Ja, rensa dataflashminne"
+    },
+    "dataflashButtonEraseCancel": {
+        "message": "Avbryt"
+    },
+    "dataflashFileWriteFailed": {
+        "message": "Det gick inte att spara vald fil, finns rättigheter att spara i den mappen?"
+    },
+    "sdcardStatusNoCard": {
+        "message": "Inget kort isatt"
+    },
+    "sdcardStatusReboot": {
+        "message": "Allvarligt fel<br>Starta om för att försöka igen"
+    },
+    "sdcardStatusReady": {
+        "message": "Kort redo"
+    },
+    "sdcardStatusStarting": {
+        "message": "Kort startar..."
+    },
+    "sdcardStatusFileSystem": {
+        "message": "Filsystem startar..."
+    },
+    "sdcardStatusUnknown": {
+        "message": "Okänt tillstånd $1"
+    },
+    "firmwareFlasherReleaseSummaryHead": {
+        "message": "Utgåve-info"
+    },
+    "firmwareFlasherReleaseName": {
+        "message": "Namn\/Version:"
+    },
+    "firmwareFlasherReleaseVersionUrl": {
+        "message": "Besök utgåvesida."
+    },
+    "firmwareFlasherReleaseNotes": {
+        "message": "Utgåvenoteringar:"
+    },
+    "firmwareFlasherReleaseDate": {
+        "message": "Datum:"
+    },
+    "firmwareFlasherReleaseStatus": {
+        "message": "Tillstånd:"
+    },
+    "firmwareFlasherReleaseTarget": {
+        "message": "Mål:"
+    },
+    "firmwareFlasherReleaseFile": {
+        "message": "Binärfil:"
     },
     "firmwareFlasherPath": {
         "message": "Sökväg:"
