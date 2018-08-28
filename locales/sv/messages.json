@@ -954,6 +954,12 @@
     "configurationGPSAutoConfig": {
         "message": "Auto-konfiguration"
     },
+    "configurationSerialRX": {
+        "message": "Seriell mottagartyp"
+    },
+    "configurationSpiRX": {
+        "message": "SPI-buss mottagartyp"
+    },
     "configurationEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
     },
