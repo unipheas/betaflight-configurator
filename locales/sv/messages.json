@@ -1469,8 +1469,116 @@
     "adjustmentsFunction3": {
         "message": "Trottel Expo-justering"
     },
+    "adjustmentsFunction4": {
+        "message": "Looping & Roll rate-justering"
+    },
+    "adjustmentsFunction5": {
+        "message": "Gir rate-justering"
+    },
+    "adjustmentsFunction6": {
+        "message": "Looping & Roll P-justering"
+    },
+    "adjustmentsFunction7": {
+        "message": "Looping & Roll I-justering"
+    },
+    "adjustmentsFunction8": {
+        "message": "Looping & Roll D-justering"
+    },
+    "adjustmentsFunction9": {
+        "message": "Gir P-justering"
+    },
+    "adjustmentsFunction10": {
+        "message": "Gir I-justering"
+    },
+    "adjustmentsFunction11": {
+        "message": "Gir D-justering"
+    },
+    "adjustmentsFunction12": {
+        "message": "Val av rate-profil"
+    },
+    "adjustmentsFunction13": {
+        "message": "Looping-rate"
+    },
+    "adjustmentsFunction14": {
+        "message": "Roll-rate"
+    },
+    "adjustmentsFunction15": {
+        "message": "Looping P-justering"
+    },
+    "adjustmentsFunction16": {
+        "message": "Looping I-justering"
+    },
+    "adjustmentsFunction17": {
+        "message": "Looping D-justering"
+    },
+    "adjustmentsFunction18": {
+        "message": "Roll P-justering"
+    },
+    "adjustmentsFunction19": {
+        "message": "Roll I-justering"
+    },
+    "adjustmentsFunction20": {
+        "message": "Roll D-justering"
+    },
+    "adjustmentsFunction21": {
+        "message": "RC-rate Gir"
+    },
+    "adjustmentsFunction22": {
+        "message": "D setpoint"
+    },
+    "adjustmentsFunction22_2": {
+        "message": "Looping & Roll F-justering"
+    },
+    "adjustmentsFunction23": {
+        "message": "D setpoint-övergång"
+    },
     "adjustmentsFunction23_2": {
         "message": "Framkopplingsövergång"
+    },
+    "adjustmentsFunction26": {
+        "message": "Looping F-justering"
+    },
+    "adjustmentsFunction27": {
+        "message": "Roll F-justering"
+    },
+    "adjustmentsFunction28": {
+        "message": "Gir F-justering"
+    },
+    "adjustmentsSave": {
+        "message": "Spara"
+    },
+    "adjustmentsEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
+    },
+    "transponderNotSupported": {
+        "message": "Din flygkontrollers firmware stödjer inte transponderfunktionalitet."
+    },
+    "transponderConfigurationType": {
+        "message": "Transponder-typ"
+    },
+    "transponderType0": {
+        "message": "Ingen"
+    },
+    "transponderType1": {
+        "message": "iLap"
+    },
+    "transponderType2": {
+        "message": "aRCiTimer"
+    },
+    "transponderType3": {
+        "message": "ERLT"
+    },
+    "transponderConfiguration1": {
+        "message": "Konfiguration iLap"
+    },
+    "transponderConfiguration2": {
+        "message": "Konfiguration aRCiTimer"
+    },
+    "transponderConfiguration3": {
+        "message": "Konfiguration ERLT"
+    },
+    "transponderData1": {
+        "message": "Data"
     },
     "transponderData2": {
         "message": "Transponder-ID"
@@ -1481,8 +1589,17 @@
     "transponderDataHelp1": {
         "message": "Enbart hexadecimala tecken, 0-9, A-F"
     },
+    "transponderHelp1": {
+        "message": "Konfigurera din transponder-kod här. Obs: Endast giltiga koder kommer att kännas igen av race timing-systemen. Giltiga transponder-koder kan erhållas från <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a>."
+    },
+    "transponderHelp2": {
+        "message": "För ytterligare information besök <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer webbsite<\/a>"
+    },
     "transponderDataHelp3": {
         "message": "Välj ERLT-ID 0-63"
+    },
+    "transponderHelp3": {
+        "message": "För ytterligare information besök <a href=\"https:\/\/github.com\/polyvision\/EasyRaceLapTimer\" title=\"aRCiTimer\" target=\"_blank\">EasyRaceLapTimer webbsite<\/a>"
     },
     "transponderButtonSave": {
         "message": "Spara"
@@ -1502,11 +1619,20 @@
     "servosName": {
         "message": "Namn"
     },
+    "servosMid": {
+        "message": "MITT"
+    },
     "servosMin": {
         "message": "MIN"
     },
     "servosMax": {
         "message": "MAX"
+    },
+    "servosDirectionAndRate": {
+        "message": "Riktning och rate"
+    },
+    "servosLiveMode": {
+        "message": "Aktivera live-läge"
     },
     "servosButtonSave": {
         "message": "Spara"
@@ -2007,11 +2133,40 @@
         "message": "V",
         "description": "Abbreviation of Brightness in HSV  (Hue, Saturation, Brightness) color model"
     },
+    "ledStripRemainingText": {
+        "message": "Återstående",
+        "description": "In the LED STRIP, text next the counter of leds remaining"
+    },
+    "ledStripClearSelectedButton": {
+        "message": "Avmarkera valda",
+        "description": "In the LED STRIP, clear selected leds"
+    },
+    "ledStripClearAllButton": {
+        "message": "Avmarkera ALLA",
+        "description": "In the LED STRIP, clear all leds"
+    },
+    "ledStripEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
+    },
+    "ledStripVtxOverlay": {
+        "message": "VTX (använder vtx-frekvens för att bestämma färg)"
+    },
+    "ledStripFunctionSection": {
+        "message": "LED-funktioner"
+    },
     "ledStripFunctionTitle": {
         "message": "Funktion"
     },
+    "ledStripFunctionNoneOption": {
+        "message": "Ingen",
+        "description": "One of the modes of the Led Strip"
+    },
     "ledStripFunctionColorOption": {
         "message": "Färg",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionModesOption": {
+        "message": "Lägen &amp; Riktning",
         "description": "One of the modes of the Led Strip"
     },
     "ledStripFunctionArmOption": {
@@ -2034,11 +2189,34 @@
         "message": "Ring",
         "description": "One of the modes of the Led Strip"
     },
+    "ledStripColorModifierTitle": {
+        "message": "Färgmodifiering"
+    },
     "ledStripModeColorsTitle": {
         "message": "Lägesfärger"
     },
     "ledStripModeColorsModeOrientation": {
         "message": "Riktning",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeHeadfree": {
+        "message": "Headfree",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeHorizon": {
+        "message": "Horizon",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAngle": {
+        "message": "Angle",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeMag": {
+        "message": "Mag",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBaro": {
+        "message": "Baro",
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripDirN": {
@@ -2221,8 +2399,17 @@
     "pidTuningBasic": {
         "message": "Basic\/Acro"
     },
+    "pidTuningRcExpoPowerHelp": {
+        "message": "Exponenten som används vid beräkning av RC Expo. I Betaflight-versioner före 3.0 är värdet satt till 3."
+    },
     "pidTuningLevel": {
         "message": "Angle\/Horizon"
+    },
+    "pidTuningAltitude": {
+        "message": "Barometer & Sonar\/Höjd"
+    },
+    "pidTuningMag": {
+        "message": "Magnetometer\/Riktning"
     },
     "pidTuningGps": {
         "message": "GPS-navigering"
@@ -2247,6 +2434,30 @@
     },
     "pidTuningLevelHelp": {
         "message": "Värdena nedan ändrar uppträdandet i ANGLE- och HORIZON-flyglägena. Olika PID-kontrollers hanterar värdena på olika sätt. Kontrollera dokumentationen."
+    },
+    "pidTuningGyroLowpassFiltersGroup": {
+        "message": "Gyro lågpassfilter"
+    },
+    "pidTuningGyroLowpassType": {
+        "message": "Gyro lågpassfiltertyp 1"
+    },
+    "pidTuningGyroLowpass2Type": {
+        "message": "Gyro lågpassfiltertyp 2"
+    },
+    "pidTuningGyroNotchFiltersGroup": {
+        "message": "Gyro bandspärrfilter"
+    },
+    "pidTuningGyroNotch1Frequency": {
+        "message": "Gyro bandspärrfilter 1 mittfrekvens [Hz]"
+    },
+    "pidTuningGyroNotch2Frequency": {
+        "message": "Gyro bandspärrfilter 2 mittfrekvens [Hz]"
+    },
+    "pidTuningGyroNotch1Cutoff": {
+        "message": "Gyro bandspärrfilter 1 cutoff-frekvens [Hz]"
+    },
+    "pidTuningGyroNotch2Cutoff": {
+        "message": "Gyro bandspärrfilter 2 cutoff-frekvens [Hz]"
     },
     "pidTuningSmartFeedforward": {
         "message": "Smart framkoppling"
