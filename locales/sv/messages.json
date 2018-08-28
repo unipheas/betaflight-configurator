@@ -1191,6 +1191,237 @@
     "transponderDataHelp1": {
         "message": "Enbart hexadecimala tecken, 0-9, A-F"
     },
+    "servosName": {
+        "message": "Namn"
+    },
+    "servosMin": {
+        "message": "MIN"
+    },
+    "servosMax": {
+        "message": "MAX"
+    },
+    "servosButtonSave": {
+        "message": "Spara"
+    },
+    "servosNormal": {
+        "message": "Normal"
+    },
+    "servosReverse": {
+        "message": "Omvänd"
+    },
+    "gpsHead": {
+        "message": "GPS"
+    },
+    "gpsMapHead": {
+        "message": "Nuvarande GPS-position"
+    },
+    "gpsMapMessage1": {
+        "message": "Vänligen kontrollera din Internetanslutning"
+    },
+    "gpsMapMessage2": {
+        "message": "Väntar på GPS 3D-fix…"
+    },
+    "gps3dFix": {
+        "message": "3D-fix:"
+    },
+    "gpsFixTrue": {
+        "message": "<span class=\"fixtrue\">Sann<\/span>"
+    },
+    "gpsFixFalse": {
+        "message": "<span class=\"fixfalse\">Falsk<\/span>"
+    },
+    "gpsAltitude": {
+        "message": "Höjd:"
+    },
+    "gpsLat": {
+        "message": "Latitud:"
+    },
+    "gpsLon": {
+        "message": "Longitud:"
+    },
+    "gpsSpeed": {
+        "message": "Hastighet:"
+    },
+    "gpsSats": {
+        "message": "Satelliter:"
+    },
+    "gpsSignalStrHead": {
+        "message": "GPS signalstyrka"
+    },
+    "gpsSignalStr": {
+        "message": "Signalstyrka"
+    },
+    "gpsSignalSatId": {
+        "message": "Satellit-ID"
+    },
+    "gpsSignalQty": {
+        "message": "Antal"
+    },
+    "motorsVoltage": {
+        "message": "Spänning:"
+    },
+    "motorsADrawing": {
+        "message": "Strömstyrka:"
+    },
+    "motorsmAhDrawn": {
+        "message": "Förbrukad ström:"
+    },
+    "motorsVoltageValue": {
+        "message": "$1 V"
+    },
+    "motorsADrawingValue": {
+        "message": "$1 A"
+    },
+    "motorsmAhDrawnValue": {
+        "message": "$1 mAh"
+    },
+    "motorsText": {
+        "message": "Motorer"
+    },
+    "motorNumber1": {
+        "message": "Motor - 1"
+    },
+    "motorNumber2": {
+        "message": "Motor - 2"
+    },
+    "motorNumber3": {
+        "message": "Motor - 3"
+    },
+    "motorNumber4": {
+        "message": "Motor - 4"
+    },
+    "motorNumber5": {
+        "message": "Motor - 5"
+    },
+    "motorNumber6": {
+        "message": "Motor - 6"
+    },
+    "motorNumber7": {
+        "message": "Motor - 7"
+    },
+    "motorNumber8": {
+        "message": "Motor - 8"
+    },
+    "servosText": {
+        "message": "Servon"
+    },
+    "servoNumber1": {
+        "message": "Servo - 1"
+    },
+    "servoNumber2": {
+        "message": "Servo - 2"
+    },
+    "servoNumber3": {
+        "message": "Servo - 3"
+    },
+    "servoNumber4": {
+        "message": "Servo - 4"
+    },
+    "servoNumber5": {
+        "message": "Servo - 5"
+    },
+    "servoNumber6": {
+        "message": "Servo - 6"
+    },
+    "servoNumber7": {
+        "message": "Servo - 7"
+    },
+    "servoNumber8": {
+        "message": "Servo - 8"
+    },
+    "motorsResetMaximum": {
+        "message": "Nollställ maxvärden över tid"
+    },
+    "motorsSensorGyroSelect": {
+        "message": "gyro"
+    },
+    "motorsMaster": {
+        "message": "Master"
+    },
+    "motorsNotice": {
+        "message": "<strong>Motortestläge \/ aktiveringsnotering:<\/strong><br \/>Flytt av reglagen eller motoraktivering via radiosändaren kommer att få motorerna att <strong>börja rotera<\/strong>.<br \/>För att undvika skador <strong class=\"message-negative\">ta bort ALLA propellrar<\/strong> innan denna funktion används.<br \/>Aktivering av motortestläge kommer också att tillfälligt inaktivera Förhindrande av oavsiktlig uppstigning (Runaway Takeoff Prevention), för att undvika att den funktionen stoppar motorerna vid tester utan propellrar.<br \/>"
+    },
+    "motorsEnableControl": {
+        "message": "<strong>Jag förstår riskerna<\/strong>, propellrarna är borttagna - tillåt motorkontroll och motoraktivering, och inaktivera Förhindrande av oavsiktlig uppstigning (Runaway Takeoff Prevention)."
+    },
+    "sensorsScale": {
+        "message": "Skala:"
+    },
+    "sensorsGyroSelect": {
+        "message": "Gyroskop"
+    },
+    "sensorsAccelSelect": {
+        "message": "Accelerometer"
+    },
+    "sensorsMagSelect": {
+        "message": "Magnetometer"
+    },
+    "sensorsBaroSelect": {
+        "message": "Barometer"
+    },
+    "sensorsSonarSelect": {
+        "message": "Sonar"
+    },
+    "sensorsDebugSelect": {
+        "message": "Felsökning"
+    },
+    "sensorsGyroTitle": {
+        "message": "Gyroskop - grader\/s"
+    },
+    "sensorsAccelTitle": {
+        "message": "Accelerometer - g"
+    },
+    "sensorsMagTitle": {
+        "message": "Magnetometer - Ga"
+    },
+    "sensorsBaroTitle": {
+        "message": "Barometer - meter"
+    },
+    "sensorsSonarTitle": {
+        "message": "Sonar - cm"
+    },
+    "cliInputPlaceholder": {
+        "message": "Skriv ditt kommando här"
+    },
+    "cliEnter": {
+        "message": "CLI-läge upptäckt"
+    },
+    "cliReboot": {
+        "message": "CLI-omstart upptäckt"
+    },
+    "cliSaveToFileBtn": {
+        "message": "Spara till fil"
+    },
+    "loggingLogSize": {
+        "message": "Loggstorlek:"
+    },
+    "blackboxButtonSave": {
+        "message": "Spara och starta om"
+    },
+    "blackboxLoggingNone": {
+        "message": "Ingen loggning"
+    },
+    "blackboxLoggingSdCard": {
+        "message": "SD-kort"
+    },
+    "blackboxLoggingSerial": {
+        "message": "Serieport"
+    },
+    "firmwareFlasherPath": {
+        "message": "Sökväg:"
+    },
+    "firmwareFlasherSize": {
+        "message": "Storlek:"
+    },
+    "firmwareFlasherStatus": {
+        "message": "Status:"
+    },
+    "firmwareFlasherNoReboot": {
+        "message": "Ingen omstartssekvens"
+    },
+    "firmwareFlasherFlashOnConnect": {
+        "message": "Uppdatera vid anslutning"
+    },
     "powerAmperageId10": {
         "message": "Batteri"
     },
