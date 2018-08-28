@@ -962,8 +962,29 @@
     "portsConfiguration": {
         "message": "Konfiguration\/MSP"
     },
+    "portsSerialRx": {
+        "message": "Seriell Rx"
+    },
+    "portsTelemetryOut": {
+        "message": "Telemetri-utdata"
+    },
+    "portsPeripherals": {
+        "message": "Kringutrustning"
+    },
+    "portsHelp": {
+        "message": "<strong>Observera:<\/strong> Alla kombinationer är inte giltiga. När flygkontrollerns firmware upptäcker detta kommer serieportskonfigurationen att återställas."
+    },
+    "portsMSPHelp": {
+        "message": "<strong>Observera:<\/strong> Inaktivera <span class=\"message-negative\">inte<\/span> MSP på den första seriella porten om du inte vet precis vad du gör. Du kan bli tvungen att läsa in firmware på nytt och radera din konfiguration."
+    },
+    "portsFirmwareUpgradeRequired": {
+        "message": "Firmware-uppdatering <span class=\"message-negative\">krävs<\/span>.  Serieportkonfiguration för firmware &lt; 1.8.0 stöds ej."
+    },
     "portsButtonSave": {
         "message": "Spara och starta om"
+    },
+    "portsFunction_MSP": {
+        "message": "MSP"
     },
     "portsFunction_GPS": {
         "message": "GPS"
