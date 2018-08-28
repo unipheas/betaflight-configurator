@@ -2435,11 +2435,20 @@
     "pidTuningLevelHelp": {
         "message": "Värdena nedan ändrar uppträdandet i ANGLE- och HORIZON-flyglägena. Olika PID-kontrollers hanterar värdena på olika sätt. Kontrollera dokumentationen."
     },
+    "pidTuningNonProfileFilterSettings": {
+        "message": "Profiloberoende filterinställningar"
+    },
     "pidTuningGyroLowpassFiltersGroup": {
         "message": "Gyro lågpassfilter"
     },
+    "pidTuningGyroLowpassFrequency": {
+        "message": "Gyro lågpass 1 cutoff-frekvens [Hz]"
+    },
     "pidTuningGyroLowpassType": {
         "message": "Gyro lågpassfiltertyp 1"
+    },
+    "pidTuningGyroLowpass2Frequency": {
+        "message": "Gyro lågpass 2 cutoff-frekvens [Hz]"
     },
     "pidTuningGyroLowpass2Type": {
         "message": "Gyro lågpassfiltertyp 2"
@@ -2459,8 +2468,74 @@
     "pidTuningGyroNotch2Cutoff": {
         "message": "Gyro bandspärrfilter 2 cutoff-frekvens [Hz]"
     },
+    "pidTuningFilterSettings": {
+        "message": "Profilberoende filterinställningar"
+    },
+    "pidTuningDTermLowpassFiltersGroup": {
+        "message": "D Term lågpassfilter"
+    },
+    "pidTuningDTermLowpassType": {
+        "message": "D Term lågpassfiltertyp 1"
+    },
+    "pidTuningDTermLowpassFrequency": {
+        "message": "D Term lågpass 1 cutoff-frekvens [Hz]"
+    },
+    "pidTuningDTermLowpass2Frequency": {
+        "message": "D Term lågpass 2 cutoff-frekvens [Hz]"
+    },
+    "pidTuningDTermNotchFiltersGroup": {
+        "message": "D Term bandspärrfilter"
+    },
+    "pidTuningDTermNotchFrequency": {
+        "message": "D Term bandspärrfilter mittfrekvens [Hz]"
+    },
+    "pidTuningDTermNotchCutoff": {
+        "message": "D Term bandspärrfilter cutoff-frekvens [Hz]"
+    },
+    "pidTuningYawLospassFiltersGroup": {
+        "message": "Gir lågpassfilter"
+    },
+    "pidTuningYawLowpassFrequency": {
+        "message": "Gir lågpass cutoff-frekvens [Hz]"
+    },
+    "pidTuningVbatPidCompensation": {
+        "message": "Vbat PID-kompensation"
+    },
     "pidTuningSmartFeedforward": {
         "message": "Smart framkoppling"
+    },
+    "pidTuningItermRelaxAxesOptionRP": {
+        "message": "RP"
+    },
+    "pidTuningItermRelaxAxesOptionRPY": {
+        "message": "RPY"
+    },
+    "pidTuningItermRelaxAxesOptionRPInc": {
+        "message": "RP (endast ökning)"
+    },
+    "pidTuningItermRelaxAxesOptionRPYInc": {
+        "message": "RPY (endast ökning)"
+    },
+    "pidTuningItermRelaxType": {
+        "message": "Typ:"
+    },
+    "pidTuningItermRelaxTypeOptionGyro": {
+        "message": "Gyro"
+    },
+    "pidTuningItermRelaxTypeOptionSetpoint": {
+        "message": "Setpoint"
+    },
+    "pidTuningAbsoluteControlGain": {
+        "message": "Absolut kontroll"
+    },
+    "pidTuningThrottleBoost": {
+        "message": "Trottelförstärkning"
+    },
+    "failsafeChannelFallbackSettingsTitle": {
+        "message": "Standardinställningar för kanaler"
+    },
+    "failsafeStageTwoSettingsTitle": {
+        "message": "Steg 2 - Inställningar"
     },
     "failsafeProcedureItemSelect1": {
         "message": "Landa"
@@ -2561,6 +2636,12 @@
     "powerVoltageScale": {
         "message": "Skala"
     },
+    "powerVoltageDivider": {
+        "message": "Divisionsvärde"
+    },
+    "powerVoltageMultiplier": {
+        "message": "Multiplikatorvärde"
+    },
     "powerAmperageHead": {
         "message": "Strömmätare"
     },
@@ -2633,6 +2714,9 @@
     "powerBatteryVoltage": {
         "message": "Spänning"
     },
+    "powerBatteryCurrentDrawn": {
+        "message": "mAh använt"
+    },
     "powerBatteryAmperage": {
         "message": "Amperestyrka"
     },
@@ -2641,6 +2725,9 @@
     },
     "osdSetupTitle": {
         "message": "OSD"
+    },
+    "osdSetupPreviewHelp": {
+        "message": "<strong>Observera:<\/strong>OSD-förhandsvisningen visar kanske inte det faktiska teckensnittet som är installerat på flygkontrollern."
     },
     "osdSetupUnsupportedNote1": {
         "message": "Din flygkontroller svarar inte på OSD-kommandon. Detta innebär förmodligen att den inte har en integrerad BetaFlight-OSD."
