@@ -597,6 +597,9 @@
     "initialSetupMixerHead": {
         "message": "Mixertyp"
     },
+    "initialSetupThrottleHead": {
+        "message": "Trottelinställningar"
+    },
     "initialSetupMinimum": {
         "message": "Minimum:"
     },
@@ -605,6 +608,9 @@
     },
     "initialSetupFailsafe": {
         "message": "Failsafe:"
+    },
+    "initialSetupMinCommand": {
+        "message": "MinKommando:"
     },
     "initialSetupBatteryHead": {
         "message": "Batteri"
@@ -620,6 +626,9 @@
     },
     "initialSetupAccelTrimsHead": {
         "message": "Accelerometer-justeringar"
+    },
+    "initialSetupPitch": {
+        "message": "Looping:"
     },
     "initialSetupRoll": {
         "message": "Roll:"
@@ -798,6 +807,9 @@
     "featureSDCARD": {
         "message": "SDKort-stöd (för loggning)"
     },
+    "featureOSD": {
+        "message": "On Screen Display (OSD)"
+    },
     "featureVTX": {
         "message": "VideoSändare"
     },
@@ -806,6 +818,15 @@
     },
     "featureDYNAMIC_FILTER": {
         "message": "Dynamisk gyro-bandspärrfiltrering"
+    },
+    "featureFAILSAFE": {
+        "message": "Aktivera Failsafe läge 2"
+    },
+    "featureFAILSAFEOld": {
+        "message": "Aktivera Failsafe"
+    },
+    "featureFAILSAFETip": {
+        "message": "<strong>Observera:<\/strong> När Steg 2 är INAKTIVERAT, används reservinställningen <strong>Auto<\/strong> i stället för användarinställningarna för alla flygkanaler (Roll, Looping, Gir och Trottel)."
     },
     "featureFAILSAFEOldTip": {
         "message": "Tillämpa Failsafe-inställningar vid RX-signalförlust"
@@ -858,6 +879,12 @@
     "configurationBoardAlignmentRoll": {
         "message": "Roll-grader"
     },
+    "configurationBoardAlignmentPitch": {
+        "message": "Looping-grader"
+    },
+    "configurationBoardAlignmentYaw": {
+        "message": "Gir-grader"
+    },
     "configurationSensorAlignmentGyro": {
         "message": "GYRO-orientering"
     },
@@ -875,6 +902,9 @@
     },
     "configurationAccelTrimRoll": {
         "message": "Accelerometer Roll-justering"
+    },
+    "configurationAccelTrimPitch": {
+        "message": "Accelerometer Looping-justering"
     },
     "configurationArming": {
         "message": "Motoraktivering"
@@ -894,17 +924,44 @@
     "configurationAutoDisarmDelay": {
         "message": "Avaktivera motorerna efter specifik fördröjning [seconds] (Kräver MOTOR_STOP-funktionen)"
     },
+    "configurationDisarmKillSwitch": {
+        "message": "Avaktivera motorerna oavsett trottelvärde (När ARM är konfigurerat i fliken Lägen via AUX-kanal)"
+    },
+    "configurationDisarmKillSwitchHelp": {
+        "message": "Motoraktivering är alltid inaktiverad när trottelvärdet inte är i botten. Var försiktig eftersom du kan råka avaktivera motorerna av misstag med en switch om du flyger med detta alternativ aktivt."
+    },
     "configurationDigitalIdlePercent": {
         "message": "Motorns tomgångstrottelvärde [percent]"
     },
     "configurationDigitalIdlePercentHelp": {
         "message": "Detta är det 'tomgångsvärde' i procent av maximal trottel som skickas till ESC:erna när farkosten är aktiverad och trottelspaken är i lägsta positionen. Öka procentvärdet för att få högre tomgång."
     },
+    "configurationThrottleMinimum": {
+        "message": "Minimitrottel (Lägsta ESC-värde när motorerna är aktiverade)"
+    },
     "configurationThrottleMinimumHelp": {
         "message": "Detta är det 'tomgångsvärde' som skickas till ESC:erna när farkosten är aktiverad och trottelspaken är i minimiläge. Öka värdet för att få högre tomgångshastighet. Öka också värdet vid synkroniseringsproblem!"
     },
+    "configurationThrottleMaximum": {
+        "message": "Maximitrottel (Högsta ESC-värde när motorerna är aktiverade)"
+    },
+    "configurationThrottleMinimumCommand": {
+        "message": "Minimikommando (ESC-värde när motorerna är avaktiverade)"
+    },
     "configurationThrottleMinimumCommandHelp": {
         "message": "Detta är det värde som skickas till ESC:erna när farkosten är inaktiverad. Sätt detta till ett värde som stoppar motorerna (1000 för de flesta ESC:er)."
+    },
+    "configurationDshotBeeper": {
+        "message": "Dshot signalfyr-konfiguration"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "Använd Dshot signalfyr (använd motorerna för att sända ljud vid motorinaktivering)"
+    },
+    "configurationDshotBeaconTone": {
+        "message": "Signalfyr-ton"
+    },
+    "configurationDshotBeaconHelp": {
+        "message": "Dshot-signalfyren använder ESC:erna och motorerna för att producera ljud. Detta innebär att Dshot-signalfyren inte kan användas medan motorerna roterar. I Betaflight 3.4 och nyare, när motoraktivering påbörjas medan Dshot-signalfyren är aktiv, blir det en 2-sekunders paus efter den sista Dshot-signalfyrtonen innan farkosten aktiveras. Detta är för att förhindra att Dshot-signalfyrfunktionen stör Dshot-kommandon som sänds vid motoraktivering.<br\/><strong>Varning:<\/strong> Eftersom Dshot-signalfyren skickar ström genom motorerna när den är aktiv, kan detta orsaka alltför stor värmeproduktion och skador på motorerna och \/ eller ESC:erna om signalfyrens styrka är för hög. Använd BLHeli Configurator eller BLHeli Suite för att justera och testa signalfyrens styrka."
     },
     "configurationBeeper": {
         "message": "Pip-konfiguration"
@@ -924,14 +981,44 @@
     "beeperARMING": {
         "message": "Pip när flygkontrollern aktiveras"
     },
+    "beeperARMING_GPS_FIX": {
+        "message": "Signalera en specialton när styrkortet aktiveras och GPS har fix"
+    },
+    "beeperBAT_CRIT_LOW": {
+        "message": "Längre varningspip när batteriet är kritiskt urladdat (repeteras)"
+    },
     "beeperBAT_LOW": {
         "message": "Varningspip när batteriet börjar laddas ur (repeteras)"
+    },
+    "beeperGPS_STATUS": {
+        "message": "Använd antalet pip för att indikera hur många GPS-satelliter som hittats"
+    },
+    "beeperRX_SET": {
+        "message": "Piper när aux-kanal är konfigurerad för pip"
+    },
+    "beeperACC_CALIBRATION": {
+        "message": "Accelerometerns inflygningskalibrering slutförd - bekräftelse"
+    },
+    "beeperACC_CALIBRATION_FAIL": {
+        "message": "Accelerometerns inflygningskalibrering misslyckades"
     },
     "beeperREADY_BEEP": {
         "message": "Ring en ton när GPS är låst och redo"
     },
+    "beeperDISARM_REPEAT": {
+        "message": "Pipljud låter medan spak hålls i motorinaktiveringsläge"
+    },
+    "beeperARMED": {
+        "message": "Varningspip när styrkortet är aktiverat med motorerna av i tomgångsläge (upprepas tills styrkortet är inaktiverat eller trotteln höjs)"
+    },
     "beeperSYSTEM_INIT": {
         "message": "Initialiseringspip när styrkortet slås på"
+    },
+    "beeperUSB": {
+        "message": "Pip när flygkontrollern drivs via USB. Inaktivera denna inställning om du inte vill att summern ska vara på i arbetsläge"
+    },
+    "beeperBLACKBOX_ERASE": {
+        "message": "Pip när blackbox-radering slutförs"
     },
     "beeperCRASH_FLIP": {
         "message": "Pip när kraschflippläge är aktivt"
@@ -962,6 +1049,12 @@
     },
     "configurationGPSBaudrate": {
         "message": "Baudrate"
+    },
+    "configurationGPSubxSbas": {
+        "message": "Markassistans-typ"
+    },
+    "configurationGPSAutoBaud": {
+        "message": "Auto Baud"
     },
     "configurationGPSAutoConfig": {
         "message": "Auto-konfiguration"
@@ -1007,6 +1100,9 @@
     },
     "portsButtonSave": {
         "message": "Spara och starta om"
+    },
+    "portsTelemetryDisabled": {
+        "message": "Inaktiv"
     },
     "portsFunction_MSP": {
         "message": "MSP"
