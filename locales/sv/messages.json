@@ -1879,6 +1879,78 @@
     "osdSetupCameraConnectedValueNo": {
         "message": "Nej"
     },
+    "osdSectionHelpElements": {
+        "message": "Aktivera eller avaktivera OSD-element."
+    },
+    "osdSectionHelpUnits": {
+        "message": "Anger enhetssystem för numeriska avläsningar."
+    },
+    "osdSectionHelpTimers": {
+        "message": "Konfigurera flygtimers."
+    },
+    "osdSettingsSaved": {
+        "message": "OSD-inställningar sparade"
+    },
+    "mainHelpArmed": {
+        "message": "Motoraktivering"
+    },
+    "mainHelpFailsafe": {
+        "message": "Felsäkert läge"
+    },
+    "mainHelpLink": {
+        "message": "Seriell länkstatus"
+    },
+    "configurationEscProtocol": {
+        "message": "ESC\/Motor-protokoll"
+    },
+    "configurationEscProtocolHelp": {
+        "message": "Välj ditt motorprotokoll.<br>Säkerställ att protokollet stöds av din ESC, denna information bör finnas på tillverkarens hemsida.<br><b>Var försiktig med att använda DSHOT900 och DSHOT1200 eftersom de stöds av relativt få ESC:er!<\/b>"
+    },
+    "configurationunsyndePwm": {
+        "message": "Motor PWM-hastighet separerad från PID-hastighet"
+    },
+    "configurationUnsyncedPWMFreq": {
+        "message": "Motor PWM-frekvens"
+    },
+    "configurationGyroSyncDenom": {
+        "message": "Gyro-uppdateringsfrekvens"
+    },
+    "configurationPidProcessDenom": {
+        "message": "PID-loopfrekvens"
+    },
+    "configurationPidProcessDenomHelp": {
+        "message": "Maxfrekvensen för PID-loopen begränsas av den maximala frekvens som vald ESC \/ motorprotokoll kan skicka uppdateringar."
+    },
+    "configurationGyroUse32kHz": {
+        "message": "Aktivera 32kHz samplingsmode för gyro"
+    },
+    "configurationGyroUse32kHzHelp": {
+        "message": "32 kHz gyrouppdateringsfrekvens är endast möjligt om gyro-kretsen stödjer det. (gäller just nu MPU6500, MPU9250 och ICM20xxx om anslutna via SPI). Vid tveksamhet, se specifikationen för ditt styrkort."
+    },
+    "configurationAccHardware": {
+        "message": "Accelerometer"
+    },
+    "configurationBaroHardware": {
+        "message": "Barometer (om stöd finns)"
+    },
+    "configurationMagHardware": {
+        "message": "Magnetometer (om stöd finns)"
+    },
+    "configurationSmallAngle": {
+        "message": "Maximal aktiveringsvinkel [degrees]"
+    },
+    "configurationSmallAngleHelp": {
+        "message": "Farkosten kommer inte att aktiveras om den lutar mer än det angivna antalet grader. Detta gäller bara om accelerometer är aktiverad. Sätt värdet till 180 för att stänga av funktionen"
+    },
+    "configurationBatteryVoltage": {
+        "message": "Batterispänning"
+    },
+    "configurationBatteryCurrent": {
+        "message": "Batteriström"
+    },
+    "configurationBatteryMeterType": {
+        "message": "Batterimätartyp"
+    },
     "configurationBatteryMinimum": {
         "message": "Minsta cellspänning"
     },
