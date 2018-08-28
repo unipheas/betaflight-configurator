@@ -1,4 +1,8 @@
 {
+    "windowTitle": {
+        "message": "Betaflight Configurator",
+        "description": "Title of the application window, usually not translated"
+    },
     "error": {
         "message": "Fel: {{errorMessage}}"
     },
@@ -384,7 +388,7 @@
         "message": "Unikt enhets-ID: <strong>0x$1<\/strong>"
     },
     "craftNameReceived": {
-        "message": "Fartygsnamn: <strong>$1<\/strong>"
+        "message": "Farkostnamn: <strong>$1<\/strong>"
     },
     "armingDisabled": {
         "message": "<strong>Aktivering avstängd<\/strong>"
@@ -480,7 +484,7 @@
         "message": "Ändringslogg"
     },
     "defaultChangelogHead": {
-        "message": "Konfigurator - Ändringslogg"
+        "message": "Configurator - Ändringslogg"
     },
     "defaultPrivacyPolicyAction": {
         "message": "Sekretesspolicy"
