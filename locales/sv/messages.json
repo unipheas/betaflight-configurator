@@ -77,7 +77,7 @@
         "description": "Text of the dataflash image in the header of the page."
     },
     "sensorDataFlashFreeSpace": {
-        "message": "Dataflash: tillgängligt",
+        "message": "Dataflash: fritt",
         "description": "Text of the dataflash image in the header of the page."
     },
     "sensorStatusGyro": {
@@ -953,6 +953,9 @@
     },
     "configurationGPSAutoConfig": {
         "message": "Auto-konfiguration"
+    },
+    "configurationGPSHelp": {
+        "message": "<strong>Observera:<\/strong> Kom ihåg att konfigurera en seriell port (via fliken Portar) vid användning av GPS-funktionen."
     },
     "configurationSerialRX": {
         "message": "Seriell mottagartyp"
