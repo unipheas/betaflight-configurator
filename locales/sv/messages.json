@@ -793,10 +793,10 @@
         "message": "Vidarebefodra aux-kanaler till servoutgångar"
     },
     "featureTRANSPONDER": {
-        "message": "RaceTransponder"
+        "message": "Race-transponder"
     },
     "featureTRANSPONDERTip": {
-        "message": "Konfigurera via RaceTransponder-fliken efter aktivering."
+        "message": "Konfigurera via fliken Race-transponder efter aktivering."
     },
     "featureAIRMODE": {
         "message": "Aktivera Airmode permanent"
@@ -2727,7 +2727,7 @@
         "message": "OSD"
     },
     "osdSetupPreviewHelp": {
-        "message": "<strong>Observera:<\/strong>OSD-förhandsvisningen visar kanske inte det faktiska teckensnittet som är installerat på flygkontrollern."
+        "message": "<strong>Observera:<\/strong> OSD-förhandsvisningen visar kanske inte det faktiska teckensnittet som är installerat på flygkontrollern."
     },
     "osdSetupUnsupportedNote1": {
         "message": "Din flygkontroller svarar inte på OSD-kommandon. Detta innebär förmodligen att den inte har en integrerad BetaFlight-OSD."
@@ -2801,6 +2801,9 @@
     "osdSetupCameraConnectedValueNo": {
         "message": "Nej"
     },
+    "osdDescElementFlyTime": {
+        "message": "Total tid farkosten har varit aktiverad i aktuell strömcykel (blinkar om larmtröskeln överskridits)"
+    },
     "osdDescElementFlyMode": {
         "message": "Aktuellt flygläge"
     },
@@ -2842,6 +2845,9 @@
     },
     "osdDescElementNumericalVario": {
         "message": "Numerisk avläsning av vertikal hastighet (i fot eller meter baserat på enhetssysteminställning)"
+    },
+    "osdDescStatFlyTime": {
+        "message": "Total tid farkosten har varit aktiverad i aktuell strömcykel"
     },
     "osdSectionHelpElements": {
         "message": "Aktivera eller avaktivera OSD-element."
