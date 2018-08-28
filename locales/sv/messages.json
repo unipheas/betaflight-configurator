@@ -1139,6 +1139,15 @@
     "receiverRcSmoothingType": {
         "message": "Utjämningstyp"
     },
+    "receiverRcInterpolationInterval": {
+        "message": "RC-interpolationsintervall [ms]"
+    },
+    "pidTuningFeedforwardTransition": {
+        "message": "Framkopplingsövergång"
+    },
+    "pidTuningFeedforwardTransitionHelp": {
+        "message": "Med denna parameter kan framkopplings-termen reduceras nära mitten av spakarna, vilket resulterar i jämnare avslut på flippar och rollar.<br> Värdet representerar en böjningspunkt: 0 - spaken centrerad, 1 - full böjning. När spaken är över denna punkt, hålls framkoppling konstant vid sitt konfigurerade värde. När spaken är under denna punkt, reduceras framkoppling proportionellt, och blir 0 vid spakens mittposition.<br> Värdet 1 ger maximal utjämningseffekt, medan värdet 0 håller framkoppling konstant vid sitt konfigurerade värde över hela spakens räckvidd."
+    },
     "pidTuningProportional": {
         "message": "Proportional"
     },
@@ -1147,6 +1156,9 @@
     },
     "pidTuningDerivative": {
         "message": "Derivative"
+    },
+    "pidTuningFeedforward": {
+        "message": "Framkoppling (Feedforward)"
     },
     "pidTuningRcRate": {
         "message": "RC Rate"
@@ -1177,6 +1189,12 @@
     },
     "pidTuningFilterFrequency": {
         "message": "Frekvens"
+    },
+    "pidTuningRatesCurve": {
+        "message": "Rates"
+    },
+    "throttle": {
+        "message": "Trottel"
     },
     "pidTuningButtonSave": {
         "message": "Spara"
@@ -1223,11 +1241,23 @@
     "pidTuningEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
     },
+    "receiverChannelMap": {
+        "message": "Kanalmappning"
+    },
+    "receiverChannelDefaultOption": {
+        "message": "Standard"
+    },
+    "receiverChannelMapTitle": {
+        "message": "Du kan definiera din egen kanalmappning genom att klicka i rutan"
+    },
     "receiverRssiChannel": {
         "message": "RSSI-Kanal"
     },
     "receiverRssiChannelDisabledOption": {
         "message": "Avstängd"
+    },
+    "receiverRefreshRateTitle": {
+        "message": "Graf-uppdateringsfrekvens"
     },
     "receiverButtonSave": {
         "message": "Spara"
@@ -1235,11 +1265,23 @@
     "receiverButtonRefresh": {
         "message": "Uppdatera"
     },
+    "receiverButtonSticks": {
+        "message": "Styrspakar"
+    },
     "receiverEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
     },
     "receiverModelPreview": {
         "message": "Förhandsvisa"
+    },
+    "receiverMspEnableButton": {
+        "message": "Aktivera kontroller"
+    },
+    "auxiliaryHelp": {
+        "message": "Använd intervall för att definiera brytare på sändaren och motsvarande lägestilldelning. En mottagarkanal som ger en avläsning inom intervallet kommer att aktivera läget.  Kom ihåg att spara inställningarna med knappen Spara."
+    },
+    "auxiliaryToggleUnused": {
+        "message": "Visa\/dölj oanvända lägen"
     },
     "auxiliaryMin": {
         "message": "Min"
@@ -1264,6 +1306,12 @@
     },
     "adjustmentsColumnEnable": {
         "message": "Om aktiverad"
+    },
+    "adjustmentsColumnUsingSlot": {
+        "message": "använder plats"
+    },
+    "adjustmentsColumnWhenChannel": {
+        "message": "när kanal"
     },
     "adjustmentsColumnViaChannel": {
         "message": "via kanal"
@@ -1297,6 +1345,9 @@
     },
     "adjustmentsFunction3": {
         "message": "Trottel Expo-justering"
+    },
+    "adjustmentsFunction23_2": {
+        "message": "Framkopplingsövergång"
     },
     "transponderData2": {
         "message": "Transponder-ID"
@@ -1710,6 +1761,9 @@
     "controlAxisAux16": {
         "message": "AUX 16"
     },
+    "pidTuningSmartFeedforward": {
+        "message": "Smart framkoppling"
+    },
     "failsafeProcedureItemSelect1": {
         "message": "Landa"
     },
@@ -2120,6 +2174,9 @@
     },
     "pidTuningDeltaMeasurement": {
         "message": "Mätning"
+    },
+    "pidTuningPidTuningTipFeedforward": {
+        "message": "<b>Proportionell:<\/b> En mycket stark motkraft märks vid alla försök att flytta multirotorn<br><b>Integral:<\/b> Ökar förmågan att hålla det initiala läget och minska avdrift, men ökar också fördröjningen för att återvända till initalt läge<br><b>Derivativ:<\/b> Ger en snabbare återhämtning från avvikelser, men ökar brus<br><b>Framkoppling (Feedforward):<\/b><br> Normalt reagerar PID-kontrollern på avvikelsen. Framkoppling förutser avvikelsen baserat på spakens läge, och gör multirotorn mer responsiv.<b>Rates och Expo<\/b>: Bestäm spakkänslan baserat på dessa parametrar. Använd grafen och live 3D-modellen för att hitta din favoritinställning för rate"
     },
     "configurationCamera": {
         "message": "Kamera"
