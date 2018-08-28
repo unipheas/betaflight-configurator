@@ -77,7 +77,7 @@
         "description": "Text of the dataflash image in the header of the page."
     },
     "sensorDataFlashFreeSpace": {
-        "message": "Dataflash: ledigt utrymme",
+        "message": "Dataflash: tillgängligt",
         "description": "Text of the dataflash image in the header of the page."
     },
     "sensorStatusGyro": {
@@ -391,10 +391,10 @@
         "message": "Farkostnamn: <strong>$1<\/strong>"
     },
     "armingDisabled": {
-        "message": "<strong>Aktivering avstängd<\/strong>"
+        "message": "<strong>Motoraktivering avstängd<\/strong>"
     },
     "armingEnabled": {
-        "message": "<strong>Aktivering påslagen<\/strong>"
+        "message": "<strong>Motoraktivering påslagen<\/strong>"
     },
     "runawayTakeoffPreventionDisabled": {
         "message": "<strong>Förhindrande av oavsiktlig uppstigning (Runaway Takeoff Prevention) tillfälligt inaktiverad<\/strong>"
