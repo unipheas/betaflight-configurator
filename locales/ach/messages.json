@@ -3436,6 +3436,9 @@
     "osdDescElementCompassBar": {
         "message": "crwdns6272:0crwdne6272:0"
     },
+    "osdDescElementFlipArrow": {
+        "message": "crwdns8860:0crwdne8860:0"
+    },
     "osdDescElementTimer1": {
         "message": "crwdns6273:0crwdne6273:0"
     },
