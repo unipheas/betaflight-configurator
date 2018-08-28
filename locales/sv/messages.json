@@ -1343,6 +1343,15 @@
     "pidTuningProfileReset": {
         "message": "Laddade standard-profilvärden."
     },
+    "pidTuningLoadedProfile": {
+        "message": "Laddad profil: <strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningLoadedRateProfile": {
+        "message": "Laddad rate-profil: <strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningDataRefreshed": {
+        "message": "PID-data <strong>uppdaterat<\/strong>"
+    },
     "pidTuningEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
     },
@@ -1372,6 +1381,9 @@
     },
     "receiverButtonSticks": {
         "message": "Styrspakar"
+    },
+    "receiverDataRefreshed": {
+        "message": "RC-justeringsdata <strong>uppdaterat<\/strong>"
     },
     "receiverEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
