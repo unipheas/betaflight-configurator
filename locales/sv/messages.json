@@ -884,6 +884,12 @@
     "configurationReverseMotorSwitch": {
         "message": "Omvänd motor-rotation"
     },
+    "configurationReverseMotorSwitchHelp": {
+        "message": "Detta alternativ konfigurerar mixern så att den utgår från att motorrotationen är omvänd och att propellrarna sitter korrekt utifrån rotationen. <strong>Varning:<\/strong> Detta omvänder inte motorrotationen. Använd konfigurationsverktyget för dina ESC:er eller byt ordning på ESC-kablarna för att uppnå detta. Se också till att, utan propellrar, bekräfta att motorerna roterar enligt diagrammet ovan innan aktivering sker."
+    },
+    "configurationAutoDisarmDelay": {
+        "message": "Avaktivera motorerna efter specifik fördröjning [seconds] (Kräver MOTOR_STOP-funktionen)"
+    },
     "configurationDigitalIdlePercent": {
         "message": "Motorns tomgångstrottelvärde [percent]"
     },
