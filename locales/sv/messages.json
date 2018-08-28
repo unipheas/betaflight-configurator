@@ -1588,6 +1588,108 @@
     "controlAxisAux16": {
         "message": "AUX 16"
     },
+    "failsafeProcedureItemSelect1": {
+        "message": "Landa"
+    },
+    "failsafeProcedureItemSelect2": {
+        "message": "Fall"
+    },
+    "powerBatteryCurrentMeterTypeEsc": {
+        "message": "ESC-Sensor"
+    },
+    "powerBatteryCurrentMeterTypeMsp": {
+        "message": "MSP-sensor\/OSD-slav"
+    },
+    "powerBatteryMinimum": {
+        "message": "Minsta cellspänning"
+    },
+    "powerBatteryMaximum": {
+        "message": "Högsta cellspänning"
+    },
+    "powerBatteryWarning": {
+        "message": "Varningsnivå för cellspänning"
+    },
+    "powerVoltageValue": {
+        "message": "$1 V"
+    },
+    "powerAmperageValue": {
+        "message": "$1 A"
+    },
+    "powerVoltageId10": {
+        "message": "Batteri"
+    },
+    "powerVoltageId20": {
+        "message": "5V"
+    },
+    "powerVoltageId30": {
+        "message": "9V"
+    },
+    "powerVoltageId40": {
+        "message": "12V"
+    },
+    "powerVoltageId50": {
+        "message": "ESC Kombinerad"
+    },
+    "powerVoltageId60": {
+        "message": "ESC Motor 1"
+    },
+    "powerVoltageId61": {
+        "message": "ESC Motor 2"
+    },
+    "powerVoltageId62": {
+        "message": "ESC Motor 3"
+    },
+    "powerVoltageId63": {
+        "message": "ESC Motor 4"
+    },
+    "powerVoltageId64": {
+        "message": "ESC Motor 5"
+    },
+    "powerVoltageId65": {
+        "message": "ESC Motor 6"
+    },
+    "powerVoltageId66": {
+        "message": "ESC Motor 7"
+    },
+    "powerVoltageId67": {
+        "message": "ESC Motor 8"
+    },
+    "powerVoltageId68": {
+        "message": "ESC Motor 9"
+    },
+    "powerVoltageId69": {
+        "message": "ESC Motor 10"
+    },
+    "powerVoltageId70": {
+        "message": "ESC Motor 11"
+    },
+    "powerVoltageId71": {
+        "message": "ESC Motor 12"
+    },
+    "powerVoltageId80": {
+        "message": "Cell 1"
+    },
+    "powerVoltageId81": {
+        "message": "Cell 2"
+    },
+    "powerVoltageId82": {
+        "message": "Cell 3"
+    },
+    "powerVoltageId83": {
+        "message": "Cell 4"
+    },
+    "powerVoltageId84": {
+        "message": "Cell 5"
+    },
+    "powerVoltageId85": {
+        "message": "Cell 6"
+    },
+    "powerVoltageScale": {
+        "message": "Skala"
+    },
+    "powerAmperageHead": {
+        "message": "Strömmätare"
+    },
     "powerAmperageId10": {
         "message": "Batteri"
     },
@@ -1630,14 +1732,74 @@
     "powerAmperageId80": {
         "message": "Virtuell"
     },
+    "powerAmperageId90": {
+        "message": "MSP"
+    },
+    "powerMahValue": {
+        "message": "$1 mAh"
+    },
+    "powerAmperageScale": {
+        "message": "Skala [1\/10-dels mV\/A]"
+    },
+    "powerAmperageOffset": {
+        "message": "Offset [mA]"
+    },
+    "powerBatteryHead": {
+        "message": "Batteri"
+    },
+    "powerStateHead": {
+        "message": "Kraftläge"
+    },
     "powerBatteryConnected": {
         "message": "Ansluten"
     },
     "powerBatteryConnectedValueYes": {
         "message": "Ja (Celler: $1)"
     },
+    "powerBatteryVoltage": {
+        "message": "Spänning"
+    },
+    "powerBatteryAmperage": {
+        "message": "Amperestyrka"
+    },
+    "powerBatteryCapacity": {
+        "message": "Kapacitet (mAh)"
+    },
+    "osdSetupTitle": {
+        "message": "OSD"
+    },
+    "osdSetupUnsupportedNote1": {
+        "message": "Din flygkontroller svarar inte på OSD-kommandon. Detta innebär förmodligen att den inte har en integrerad BetaFlight-OSD."
+    },
+    "osdSetupElementsTitle": {
+        "message": "Element"
+    },
+    "osdSetupVideoFormatTitle": {
+        "message": "Videoformat"
+    },
+    "osdSetupUnitsTitle": {
+        "message": "Enheter"
+    },
+    "osdSetupVtxTitle": {
+        "message": "VTX-inställningar"
+    },
+    "osdSetupCraftNameTitle": {
+        "message": "Farkostnamn"
+    },
+    "osdSetupWarningsTitle": {
+        "message": "Varningar"
+    },
+    "osdSetupFontPresets": {
+        "message": "Teckensnitts-förval:"
+    },
+    "osdSetupFontPresetsSelectorOr": {
+        "message": "eller"
+    },
     "osdSetupCustomLogoTitle": {
         "message": "Startbild:"
+    },
+    "osdSetupUploadFont": {
+        "message": "Ladda upp teckensnitt"
     },
     "osdSetupSave": {
         "message": "Spara"
@@ -1659,5 +1821,50 @@
     },
     "osdSetupCameraConnectedValueYes": {
         "message": "Ja"
+    },
+    "osdSetupCameraConnectedValueNo": {
+        "message": "Nej"
+    },
+    "configurationBatteryMinimum": {
+        "message": "Minsta cellspänning"
+    },
+    "configurationBatteryMaximum": {
+        "message": "Högsta cellspänning"
+    },
+    "configurationBatteryWarning": {
+        "message": "Varnings-cellspänning"
+    },
+    "configurationBatteryScale": {
+        "message": "Spänningsskala"
+    },
+    "pidTuningProfile": {
+        "message": "Profil"
+    },
+    "craftName": {
+        "message": "Farkostnamn"
+    },
+    "configurationFpvCamAngleDegrees": {
+        "message": "FPV kameravinkel [degrees]"
+    },
+    "onboardLoggingBlackbox": {
+        "message": "Blackbox loggningsenhet"
+    },
+    "onboardLoggingRateOfLogging": {
+        "message": "Blackbox loggningshastighet"
+    },
+    "onboardLoggingEraseInProgress": {
+        "message": "Radering pågår, vänta..."
+    },
+    "dialogConfirmResetTitle": {
+        "message": "Bekräfta"
+    },
+    "dialogConfirmResetNote": {
+        "message": "VARNING: Vill du återställa ALLA inställningar till standardvärden?"
+    },
+    "dialogConfirmResetConfirm": {
+        "message": "Återställ"
+    },
+    "dialogConfirmResetClose": {
+        "message": "Avbryt"
     }
 }
