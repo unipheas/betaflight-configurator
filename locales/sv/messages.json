@@ -1023,6 +1023,12 @@
     "beeperCRASH_FLIP": {
         "message": "Pip när kraschflippläge är aktivt"
     },
+    "beeperCAM_CONNECTION_OPEN": {
+        "message": "Pip när 5-knappskamerakontrollen aktiveras"
+    },
+    "beeperCAM_CONNECTION_CLOSE": {
+        "message": "Pip när 5-knappskamerakontrollen lämnas"
+    },
     "configuration3d": {
         "message": "3D ESC\/Motorfunktioner"
     },
@@ -1222,6 +1228,9 @@
     },
     "receiverRcSmoothingDerivativeTypeOff": {
         "message": "Av"
+    },
+    "receiverRcSmoothingChannel": {
+        "message": "Utjämnade kanaler"
     },
     "receiverRcInterpolation": {
         "message": "RC-Interpolering"
