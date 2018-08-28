@@ -1879,8 +1879,53 @@
     "osdSetupCameraConnectedValueNo": {
         "message": "Nej"
     },
+    "osdDescElementFlyMode": {
+        "message": "Aktuellt flygläge"
+    },
+    "osdDescElementGPSSpeed": {
+        "message": "Hastighet enligt GPS"
+    },
+    "osdDescElementGPSSats": {
+        "message": "Antal satelliter för GPS-fix"
+    },
+    "osdDescElementGPSLon": {
+        "message": "GPS-longitud"
+    },
+    "osdDescElementGPSLat": {
+        "message": "GPS-latitud"
+    },
+    "osdDescElementDebug": {
+        "message": "Felsökningsvariabler"
+    },
+    "osdDescElementBatteryWarning": {
+        "message": "Varningstext som visas när batteriets spänning sjunker under varningströskeln"
+    },
+    "osdDescElementEscTemperature": {
+        "message": "Temperatur enligt ESC-telemetri"
+    },
+    "osdDescElementEscRpm": {
+        "message": "Varvtal enligt ESC-telemetri"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "Datum \/ tid från realtidsklocka"
+    },
+    "osdDescElementHomeDirection": {
+        "message": "Pil som visar riktning till hemposition"
+    },
+    "osdDescElementHomeDistance": {
+        "message": "Avstånd till hemposition (i fot eller meter baserat på enhetssysteminställning)"
+    },
+    "osdDescElementNumericalHeading": {
+        "message": "Numerisk avläsning av aktuell riktning i grader"
+    },
+    "osdDescElementNumericalVario": {
+        "message": "Numerisk avläsning av vertikal hastighet (i fot eller meter baserat på enhetssysteminställning)"
+    },
     "osdSectionHelpElements": {
         "message": "Aktivera eller avaktivera OSD-element."
+    },
+    "osdSectionHelpVideoMode": {
+        "message": "Ange kamerans förväntade videoläge (normalt kan detta lämnas på AUTO, om du får problem så ange det så att det matchar kamerans utgång)."
     },
     "osdSectionHelpUnits": {
         "message": "Anger enhetssystem för numeriska avläsningar."
@@ -1888,8 +1933,14 @@
     "osdSectionHelpTimers": {
         "message": "Konfigurera flygtimers."
     },
+    "osdSectionHelpWarnings": {
+        "message": "Aktivera eller avaktivera varningar som visas på WARNINGS-elementet."
+    },
     "osdSettingsSaved": {
         "message": "OSD-inställningar sparade"
+    },
+    "osdWritePermissions": {
+        "message": "Du har inga <span class=\"message-negative\">skrivrättigheter<\/span> för den här filen"
     },
     "mainHelpArmed": {
         "message": "Motoraktivering"
