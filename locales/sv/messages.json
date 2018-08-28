@@ -1313,6 +1313,12 @@
     "adjustmentsColumnWhenChannel": {
         "message": "när kanal"
     },
+    "adjustmentsColumnIsInRange": {
+        "message": "är inom intervall"
+    },
+    "adjustmentsColumnThenApplyFunction": {
+        "message": "applicera sedan"
+    },
     "adjustmentsColumnViaChannel": {
         "message": "via kanal"
     },
@@ -1357,6 +1363,24 @@
     },
     "transponderDataHelp1": {
         "message": "Enbart hexadecimala tecken, 0-9, A-F"
+    },
+    "transponderDataHelp3": {
+        "message": "Välj ERLT-ID 0-63"
+    },
+    "transponderButtonSave": {
+        "message": "Spara"
+    },
+    "transponderButtonSaveReboot": {
+        "message": "Spara och starta om"
+    },
+    "transponderDataInvalid": {
+        "message": "Transponderdata är <span class=\"message-negative\">ogiltigt<\/span>"
+    },
+    "transponderEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
+    },
+    "servosFirmwareUpgradeRequired": {
+        "message": "Servon kräver firmware &gt;= 1.10.0. och målstöd."
     },
     "servosName": {
         "message": "Namn"
@@ -1565,14 +1589,53 @@
     "cliSaveToFileBtn": {
         "message": "Spara till fil"
     },
+    "loggingNote": {
+        "message": "Data kommer <span class=\"message-negative\">endast<\/span> att loggas när denna flik är aktiv; om fliken lämnas kommer loggningen att <span class=\"message-negative\">avbrytas<\/span> och applikationen återgår till sitt normala <strong>\"konfigurations\"<\/strong> -läge.<br \/> Du kan fritt välja global uppdateringsperiod, data kommer att skrivas till loggen <strong>1<\/strong> gång per sekund av prestandaskäl."
+    },
     "loggingLogSize": {
         "message": "Loggstorlek:"
+    },
+    "loggingButtonLogFile": {
+        "message": "Välj loggfil"
+    },
+    "loggingStart": {
+        "message": "Starta loggning"
+    },
+    "loggingStop": {
+        "message": "Stoppa loggning"
+    },
+    "loggingBack": {
+        "message": "Lämna loggning \/ Koppla från"
+    },
+    "loggingErrorNotConnected": {
+        "message": "Du behöver <strong>ansluta<\/strong> först"
+    },
+    "loggingErrorLogFile": {
+        "message": "Välj en loggfil"
+    },
+    "loggingErrorOneProperty": {
+        "message": "Välj minst en egenskap att logga"
+    },
+    "loggingAutomaticallyRetained": {
+        "message": "Laddade automatiskt föregående loggfil: <strong>$1<\/strong>"
+    },
+    "blackboxNotSupported": {
+        "message": "Din flygkontrollers firmware stödjer inte Blackbox-loggning."
+    },
+    "blackboxMaybeSupported": {
+        "message": "Din flygkontrollers firmware är för gammal för att stödja denna flik, eller så är Blackbox-funktionen avaktiverad på Konfigurations-fliken."
+    },
+    "blackboxConfiguration": {
+        "message": "Blackbox-konfiguration"
     },
     "blackboxButtonSave": {
         "message": "Spara och starta om"
     },
     "blackboxLoggingNone": {
         "message": "Ingen loggning"
+    },
+    "blackboxLoggingFlash": {
+        "message": "Inbyggt flashminne"
     },
     "blackboxLoggingSdCard": {
         "message": "SD-kort"
