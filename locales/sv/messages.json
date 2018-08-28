@@ -449,6 +449,12 @@
     "dfu_erased_kilobytes": {
         "message": "Raderade $1 kB av flash <span class=\"message-positive\">framgångsrikt<\/span>"
     },
+    "dfu_device_flash_info": {
+        "message": "Enhet upptäckt med total flashstorlek $1 KiB"
+    },
+    "dfu_error_image_size": {
+        "message": "<span class=\"message-negative\">Fel<\/span>: Bifogad avbild är större än tillgängligt flashminne på chip! Avbild: $1 KiB, Max = $2 KiB"
+    },
     "eeprom_saved_ok": {
         "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
     },
@@ -506,6 +512,12 @@
     "defaultDocumentation2": {
         "message": "Utgåvenoteringarna för firmware kan läsas på GitHubs utgåvesida, <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\"> här<\/a>."
     },
+    "defaultSupportHead": {
+        "message": "Support"
+    },
+    "defaultSupportSubline1": {
+        "message": "Supportkällor"
+    },
     "defaultSupportSubline2": {
         "message": "Utvecklare"
     },
@@ -557,8 +569,35 @@
     "initialSetupButtonRestore": {
         "message": "Återställ"
     },
+    "initialSetupButtonRebootBootloader": {
+        "message": "Aktivera Boot Loader \/ DFU"
+    },
+    "initialSetupBackupRestoreText": {
+        "message": "<strong>Säkerhetskopiera<\/strong> din konfiguration i händelse av ett missöde, <strong>CLI<\/strong>-inställningar inkluderas <span class=\"message-negative\">inte<\/span> - använd kommandot 'diff all' i CLI för detta."
+    },
+    "initialSetupRebootBootloaderText": {
+        "message": "Starta om i <strong>boot loader \/ DFU<\/strong>-läge."
+    },
+    "initialSetupBackupSuccess": {
+        "message": "Säkerhetskopiering <span class=\"message-positive\">lyckades<\/span>"
+    },
+    "initialSetupRestoreSuccess": {
+        "message": "Återställning av konfiguration <span class=\"message-positive\">lyckades<\/span>"
+    },
+    "initialSetupButtonResetZaxis": {
+        "message": "Återställ Z-axel, offset: 0 grader"
+    },
+    "initialSetupButtonResetZaxisValue": {
+        "message": "Återställ Z-axel, offset: $1 grader"
+    },
     "initialSetupMixerHead": {
         "message": "Mixertyp"
+    },
+    "initialSetupMinimum": {
+        "message": "Minimum:"
+    },
+    "initialSetupMaximum": {
+        "message": "Maximum:"
     },
     "initialSetupFailsafe": {
         "message": "Failsafe:"
@@ -575,8 +614,20 @@
     "initialSetupVoltageScale": {
         "message": "Spänningsskala:"
     },
+    "initialSetupAccelTrimsHead": {
+        "message": "Accelerometer-justeringar"
+    },
+    "initialSetupRoll": {
+        "message": "Roll:"
+    },
     "initialSetupMagHead": {
         "message": "Magnetometer"
+    },
+    "initialSetupDeclination": {
+        "message": "Deklination:"
+    },
+    "initialSetupInfoHead": {
+        "message": "Info"
     },
     "initialSetupBattery": {
         "message": "Batterispänning:"
@@ -601,6 +652,9 @@
     },
     "initialSetupRSSIValue": {
         "message": "$1 %"
+    },
+    "initialSetupArmingDisableFlags": {
+        "message": "Aktiveringshindrande flaggor:"
     },
     "initialSetupArmingAllowed": {
         "message": "Aktivering Tillåten"
@@ -797,6 +851,9 @@
     "configurationBoardAlignment": {
         "message": "Kort- och sensor-justering"
     },
+    "configurationBoardAlignmentRoll": {
+        "message": "Roll-grader"
+    },
     "configurationSensorAlignmentGyro": {
         "message": "GYRO-orientering"
     },
@@ -812,11 +869,17 @@
     "configurationAccelTrims": {
         "message": "Accelerometer-justering"
     },
+    "configurationAccelTrimRoll": {
+        "message": "Accelerometer Roll-justering"
+    },
     "configurationArming": {
         "message": "Motoraktivering"
     },
     "configurationArmingHelp": {
         "message": "Vissa alternativ för motoraktivering kan kräva att accelerometer aktiveras"
+    },
+    "configurationMagDeclination": {
+        "message": "Magnetometer-deklination [deg]"
     },
     "configurationReverseMotorSwitch": {
         "message": "Omvänd motor-rotation"
