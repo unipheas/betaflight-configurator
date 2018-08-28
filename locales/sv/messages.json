@@ -414,7 +414,7 @@
         "message": "Firmware"
     },
     "versionLabelConfigurator": {
-        "message": "Konfigurator"
+        "message": "Configurator"
     },
     "notifications_app_just_updated_to_version": {
         "message": "Applikation uppdaterad till version: $1"
@@ -459,7 +459,7 @@
         "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Välkommmen till <strong>Betaflight - Konfigurator<\/strong>, ett verktyg utformat för att förenkla uppdateringen, konfigurationen och inställningen av din flygkontroller."
+        "message": "Välkommmen till <strong>Betaflight - Configurator<\/strong>, ett verktyg utformat för att förenkla uppdateringen, konfigurationen och inställningen av din flygkontroller."
     },
     "defaultWelcomeHead": {
         "message": "Hårdvara"
@@ -1057,6 +1057,12 @@
     },
     "receiverRcSmoothingTypeHelp": {
         "message": "Typ av RC-utjämning som används"
+    },
+    "receiverRcSmoothingDerivativeTypeOff": {
+        "message": "Av"
+    },
+    "receiverRcInterpolation": {
+        "message": "RC-Interpolering"
     },
     "receiverRcSmoothingType": {
         "message": "Utjämningstyp"
