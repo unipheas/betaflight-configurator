@@ -174,7 +174,7 @@
         "message": "Portar"
     },
     "tabPidTuning": {
-        "message": "PID-inställning"
+        "message": "PID-inställningar"
     },
     "tabReceiver": {
         "message": "Mottagare"
@@ -213,7 +213,7 @@
         "message": "CLI"
     },
     "tabLogging": {
-        "message": "Trådbunden loggning"
+        "message": "Loggning till fil"
     },
     "tabOnboardLogging": {
         "message": "Blackbox"
