@@ -1107,6 +1107,54 @@
     "pidTuningFilter": {
         "message": "Filter"
     },
+    "pidTuningFilterFrequency": {
+        "message": "Frekvens"
+    },
+    "pidTuningButtonSave": {
+        "message": "Spara"
+    },
+    "pidTuningButtonRefresh": {
+        "message": "Uppdatera"
+    },
+    "pidTuningProfileHead": {
+        "message": "Profil"
+    },
+    "pidTuningControllerHead": {
+        "message": "PID-kontroller"
+    },
+    "pidTuningCopyProfile": {
+        "message": "Kopiera profilvärden"
+    },
+    "pidTuningCopyRateProfile": {
+        "message": "Kopiera rate-profilvärden"
+    },
+    "dialogCopyProfileText": {
+        "message": "Kopiera värden från aktuell profil till"
+    },
+    "dialogCopyRateProfileText": {
+        "message": "Kopiera värden från aktuell rate-profil till"
+    },
+    "dialogCopyProfileTitle": {
+        "message": "Kopiera profilvärden"
+    },
+    "dialogCopyProfileNote": {
+        "message": "Alla värden i målprofilen kommer att rensas och skrivas över"
+    },
+    "dialogCopyProfileConfirm": {
+        "message": "Kopiera"
+    },
+    "dialogCopyProfileClose": {
+        "message": "Avbryt"
+    },
+    "pidTuningResetProfile": {
+        "message": "Återställ alla profilvärden"
+    },
+    "pidTuningProfileReset": {
+        "message": "Laddade standard-profilvärden."
+    },
+    "pidTuningEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
+    },
     "receiverRssiChannel": {
         "message": "RSSI-Kanal"
     },
@@ -1209,6 +1257,9 @@
     "servosReverse": {
         "message": "Omvänd"
     },
+    "servosEepromSave": {
+        "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
+    },
     "gpsHead": {
         "message": "GPS"
     },
@@ -1244,6 +1295,9 @@
     },
     "gpsSats": {
         "message": "Satelliter:"
+    },
+    "gpsDistToHome": {
+        "message": "Avstånd till hem:"
     },
     "gpsSignalStrHead": {
         "message": "GPS signalstyrka"
