@@ -1891,17 +1891,35 @@
     "configurationBatteryScale": {
         "message": "Spänningsskala"
     },
+    "configurationCurrentScale": {
+        "message": "Skala utspänningen till milliampere [1\/10-dels mV\/A]"
+    },
+    "configurationBatteryMultiwiiCurrent": {
+        "message": "Aktivera stöd för äldre Multiwii MSP strömutmatning"
+    },
     "pidTuningProfile": {
         "message": "Profil"
     },
+    "pidTuningProfileTip": {
+        "message": "Upp till 3 (2 för vissa kontrollers) olika pid-profiler kan lagras på flygkontrollern. Pid-profilerna inkluderar pid, d setpoint och angle\/horizon-inställningar på denna flik. Väl i fältet kan enkla spakkommandon (se instruktioner online) användas för att växla mellan profilerna."
+    },
     "pidTuningRateProfile": {
         "message": "Rate-profil"
+    },
+    "pidTuningRateProfileTip": {
+        "message": "Upp till 3 olika rate-profiler per profil kan lagras på flygkontrollern. Rate-profilerna inkluderar inställningar för 'RC Rate', 'Rate', 'RC Expo', 'Throttle' och 'TPA'. Det går att att växla mellan rate-profiler under flygning, genom att konfigurera en 3-positionsswitch för 'Val av rate-profil' på fliken 'Justeringar'."
     },
     "pidTuningDeltaError": {
         "message": "Fel"
     },
     "pidTuningDeltaMeasurement": {
         "message": "Mätning"
+    },
+    "configurationCamera": {
+        "message": "Kamera"
+    },
+    "configurationPersonalization": {
+        "message": "Personalisering"
     },
     "craftName": {
         "message": "Farkostnamn"
@@ -1914,6 +1932,12 @@
     },
     "onboardLoggingRateOfLogging": {
         "message": "Blackbox loggningshastighet"
+    },
+    "onboardLoggingSerialLogger": {
+        "message": "Extern seriell loggenhet"
+    },
+    "onboardLoggingFlashLogger": {
+        "message": "Inbyggd dataflash-krets"
     },
     "onboardLoggingEraseInProgress": {
         "message": "Radering pågår, vänta..."
