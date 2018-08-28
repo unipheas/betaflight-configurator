@@ -933,14 +933,26 @@
     "beeperSYSTEM_INIT": {
         "message": "Initialiseringspip när styrkortet slås på"
     },
+    "beeperCRASH_FLIP": {
+        "message": "Pip när kraschflippläge är aktivt"
+    },
     "configuration3d": {
         "message": "3D ESC\/Motorfunktioner"
+    },
+    "configuration3dNeutral": {
+        "message": "3D Neutral"
     },
     "configurationSystem": {
         "message": "Systemkonfiguration"
     },
+    "configurationLoopTime": {
+        "message": "Flygkontrollerns loop-tid"
+    },
     "configurationCalculatedCyclesSec": {
         "message": "Cykler\/sek [Hz]"
+    },
+    "configurationLoopTimeHelp": {
+        "message": "<strong>Observera:<\/strong> Säkerställ att din flygkontroller klarar dessa hastigheter! Kontrollera CPU och cykeltidsstabiliteten. Ändringar här kan kräva ändringar av PID-inställningar. TIPS: Avaktivera accelerometer och andra sensorer för att få bättre prestanda."
     },
     "configurationGPS": {
         "message": "GPS"
@@ -1050,6 +1062,18 @@
     "portsFunction_RUNCAM_DEVICE_CONTROL": {
         "message": "RunCam-enhet"
     },
+    "pidTuningProfileOption": {
+        "message": "Profil $1"
+    },
+    "pidTuningRateProfileOption": {
+        "message": "Rate-profil $1"
+    },
+    "portsFunction_LIDAR_TF": {
+        "message": "Benewake LIDAR"
+    },
+    "pidTuningUpgradeFirmwareToChangePidController": {
+        "message": "<span class=\"message-negative\">Inte möjligt att ändra PID-kontroller - du kan ändra den via CLI.<\/span>  Din firmware har API-version <span class=\"message-negative\">$1<\/span>, men denna funktion kräver <span class=\"message-positive\">$2<\/span>."
+    },
     "pidTuningSubTabPid": {
         "message": "PID-inställningar"
     },
@@ -1062,6 +1086,32 @@
     "pidTuningHideUnusedPids": {
         "message": "Dölj PIDs som inte änvänds"
     },
+    "pidTuningNonProfilePidSettings": {
+        "message": "Profiloberoende PID-kontrollerinställningar"
+    },
+    "pidTuningAntiGravityMode": {
+        "message": "Antigravitations-läge"
+    },
+    "pidTuningAntiGravityModeOptionSmooth": {
+        "message": "Utjämnat",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityModeOptionStep": {
+        "message": "Steg",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityGain": {
+        "message": "Anti Gravity-ökning"
+    },
+    "pidTuningAntiGravityThres": {
+        "message": "Antigravitations-tröskel"
+    },
+    "pidTuningPidSettings": {
+        "message": "PID-kontrollerinställningar"
+    },
+    "receiverRcSmoothing": {
+        "message": "RC-utjämning"
+    },
     "receiverRcSmoothingInterpolation": {
         "message": "Interpolering"
     },
@@ -1071,11 +1121,20 @@
     "receiverRcSmoothingTypeHelp": {
         "message": "Typ av RC-utjämning som används"
     },
+    "rcSmoothingChannelsSmoothedHelp": {
+        "message": "Kanalutjämningen gäller"
+    },
     "receiverRcSmoothingDerivativeTypeOff": {
         "message": "Av"
     },
     "receiverRcInterpolation": {
         "message": "RC-Interpolering"
+    },
+    "receiverRcInterpolationIntervalHelp": {
+        "message": "Interpolationsintervall för manuellt RC-interpoleringsläge i millisekunder"
+    },
+    "receiverRcInterpolationOff": {
+        "message": "Av"
     },
     "receiverRcSmoothingType": {
         "message": "Utjämningstyp"
