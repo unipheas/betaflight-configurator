@@ -1849,8 +1849,23 @@
     "osdSetupFontPresetsSelectorOr": {
         "message": "eller"
     },
+    "osdSetupOpenFont": {
+        "message": "Öppna teckensnittsfil"
+    },
     "osdSetupCustomLogoTitle": {
         "message": "Startbild:"
+    },
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "Välj anpassad bild&hellip;"
+    },
+    "osdSetupCustomLogoInfoTitle": {
+        "message": "Anpassad bild:"
+    },
+    "osdSetupCustomLogoInfoImageSize": {
+        "message": "Storleken måste vara $t(logoWidthPx)×$t(logoHeightPx) bildpunkter"
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "Måste innehålla gröna, svarta och vita bildpunkter"
     },
     "osdSetupUploadFont": {
         "message": "Ladda upp teckensnitt"
