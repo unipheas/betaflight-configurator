@@ -1422,6 +1422,172 @@
     "firmwareFlasherFlashOnConnect": {
         "message": "Uppdatera vid anslutning"
     },
+    "firmwareFlasherOptionLabelBuildTypeDevelopment": {
+        "message": "Utveckling"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_3": {
+        "message": "3.3 AKK & RDQ VTX-patch"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_4": {
+        "message": "3.4 AKK & RDQ VTX-patch"
+    },
+    "firmwareFlasherOptionLabelSelectFirmware": {
+        "message": "Välj Firmware \/ Styrkort"
+    },
+    "firmwareFlasherOptionLabelSelectBoard": {
+        "message": "Välj ett styrkort"
+    },
+    "firmwareFlasherOptionLabelSelectFirmwareVersion": {
+        "message": "Välj en firmware-version"
+    },
+    "firmwareFlasherOptionLabelSelectFirmwareVersionFor": {
+        "message": "Välj en firmware-version för"
+    },
+    "firmwareFlasherButtonLoadLocal": {
+        "message": "Ladda firmware [Local]"
+    },
+    "firmwareFlasherButtonLoadOnline": {
+        "message": "Ladda firmware [Online]"
+    },
+    "firmwareFlasherButtonDownloading": {
+        "message": "Laddar ner..."
+    },
+    "firmwareFlasherGithubInfoHead": {
+        "message": "GitHub firmware-Info"
+    },
+    "firmwareFlasherDate": {
+        "message": "Datum:"
+    },
+    "firmwareFlasherMessage": {
+        "message": "Meddelande:"
+    },
+    "firmwareFlasherButtonLeave": {
+        "message": "Lämna firmware-uppdaterare"
+    },
+    "firmwareFlasherFirmwareNotLoaded": {
+        "message": "Firmware ej laddad"
+    },
+    "firmwareFlasherHexCorrupted": {
+        "message": "HEX-filen verkar vara korrupt"
+    },
+    "ledStripButtonSave": {
+        "message": "Spara"
+    },
+    "ledStripColorSetupTitle": {
+        "message": "Färginställning",
+        "description": "Color setup title of the led strip"
+    },
+    "ledStripH": {
+        "message": "H",
+        "description": "Abbreviation of Hue in HSV (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripS": {
+        "message": "S",
+        "description": "Abbreviation of Saturation in HSV  (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripV": {
+        "message": "V",
+        "description": "Abbreviation of Brightness in HSV  (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripFunctionTitle": {
+        "message": "Funktion"
+    },
+    "ledStripWarningsOverlay": {
+        "message": "Varningar"
+    },
+    "colorBlack": {
+        "message": "svart"
+    },
+    "colorWhite": {
+        "message": "vit"
+    },
+    "colorRed": {
+        "message": "röd"
+    },
+    "colorOrange": {
+        "message": "orange"
+    },
+    "colorYellow": {
+        "message": "gul"
+    },
+    "colorLimeGreen": {
+        "message": "limegrön"
+    },
+    "colorGreen": {
+        "message": "grön"
+    },
+    "colorMintGreen": {
+        "message": "mintgrön"
+    },
+    "colorCyan": {
+        "message": "cyan"
+    },
+    "colorLightBlue": {
+        "message": "ljusblå"
+    },
+    "colorBlue": {
+        "message": "blå"
+    },
+    "colorDarkViolet": {
+        "message": "mörkviolett"
+    },
+    "colorMagenta": {
+        "message": "magenta"
+    },
+    "colorDeepPink": {
+        "message": "djuprosa"
+    },
+    "controlAxisRoll": {
+        "message": "Roll [A]"
+    },
+    "controlAxisAux1": {
+        "message": "AUX 1"
+    },
+    "controlAxisAux2": {
+        "message": "AUX 2"
+    },
+    "controlAxisAux3": {
+        "message": "AUX 3"
+    },
+    "controlAxisAux4": {
+        "message": "AUX 4"
+    },
+    "controlAxisAux5": {
+        "message": "AUX 5"
+    },
+    "controlAxisAux6": {
+        "message": "AUX 6"
+    },
+    "controlAxisAux7": {
+        "message": "AUX 7"
+    },
+    "controlAxisAux8": {
+        "message": "AUX 8"
+    },
+    "controlAxisAux9": {
+        "message": "AUX 9"
+    },
+    "controlAxisAux10": {
+        "message": "AUX 10"
+    },
+    "controlAxisAux11": {
+        "message": "AUX 11"
+    },
+    "controlAxisAux12": {
+        "message": "AUX 12"
+    },
+    "controlAxisAux13": {
+        "message": "AUX 13"
+    },
+    "controlAxisAux14": {
+        "message": "AUX 14"
+    },
+    "controlAxisAux15": {
+        "message": "AUX 15"
+    },
+    "controlAxisAux16": {
+        "message": "AUX 16"
+    },
     "powerAmperageId10": {
         "message": "Batteri"
     },
