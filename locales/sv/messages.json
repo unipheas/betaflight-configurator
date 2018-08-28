@@ -1661,6 +1661,24 @@
     "dataflashLogsSpace": {
         "message": "Ledigt utrymme för loggar"
     },
+    "dataflashButtonSaveFile": {
+        "message": "Spara flashminne till fil..."
+    },
+    "dataflashButtonErase": {
+        "message": "Radera flashminne"
+    },
+    "dataflashConfirmEraseTitle": {
+        "message": "Bekräfta radering av dataflashminne"
+    },
+    "dataflashConfirmEraseNote": {
+        "message": "Detta kommer att rensa Blackbox-loggar och annat data i dataflashminnet. Det kommer att ta cirka 20 sekunder, vill du fortsätta?"
+    },
+    "dataflashSavingTitle": {
+        "message": "Sparar dataflashminne till fil"
+    },
+    "dataflashSavingNote": {
+        "message": "Att spara kan ta några minuter, vänligen vänta."
+    },
     "dataflashSavingNoteAfter": {
         "message": "Sparat! Tryck \"Ok\" för att fortsätta."
     },
@@ -1721,6 +1739,15 @@
     "firmwareFlasherReleaseFile": {
         "message": "Binärfil:"
     },
+    "firmwareFlasherReleaseStatusReleaseCandidate": {
+        "message": "<span class=\"message-negative\"> VIKTIGT: denna firmware-utgåva är markerad som en utgåve-kandidat.  Vänligen rapportera eventuella problem omedelbart.<\/span>"
+    },
+    "firmwareFlasherReleaseFileUrl": {
+        "message": "Ladda ner manuellt."
+    },
+    "firmwareFlasherTargetWarning": {
+        "message": "<span class=\"message-negative\">VIKTIGT<\/span>: Se till att du flashar en fil som är lämplig för ditt mål. Att flasha en binärfil för fel mål kan få <span class=\"message-negative\">dåliga<\/span> saker att hända."
+    },
     "firmwareFlasherPath": {
         "message": "Sökväg:"
     },
@@ -1730,11 +1757,68 @@
     "firmwareFlasherStatus": {
         "message": "Status:"
     },
+    "firmwareFlasherLoadFirmwareFile": {
+        "message": "Vänligen ladda firmware-fil"
+    },
     "firmwareFlasherNoReboot": {
         "message": "Ingen omstartssekvens"
     },
+    "firmwareFlasherOnlineSelectBuildType": {
+        "message": "Välj versionstyp för att se tillgängliga styrkort."
+    },
+    "firmwareFlasherOnlineSelectBoardDescription": {
+        "message": "Välj ditt styrkort för att se tillgängliga firmware-utgåvor online - Välj rätt firmware som passar ditt styrkort."
+    },
+    "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
+        "message": "Välj firmware-version för ditt styrkort."
+    },
+    "firmwareFlasherNoRebootDescription": {
+        "message": "Aktivera om din FC är i bootläge, alltså om du satte igång den med bootloader-pinnarna byglade eller medan du höll in BOOT-knappen."
+    },
     "firmwareFlasherFlashOnConnect": {
         "message": "Uppdatera vid anslutning"
+    },
+    "firmwareFlasherFlashOnConnectDescription": {
+        "message": "Försök uppdatera styrkortet automatiskt (initieras av nyligen upptäckt seriell port)."
+    },
+    "firmwareFlasherFullChipErase": {
+        "message": "Fullständig chip-radering"
+    },
+    "firmwareFlasherFullChipEraseDescription": {
+        "message": "Raderar och skriver över all konfigurationdata som finns på styrkortet."
+    },
+    "firmwareFlasherFlashDevelopmentFirmware": {
+        "message": "Använd utvecklingsfirmware"
+    },
+    "firmwareFlasherFlashDevelopmentFirmwareDescription": {
+        "message": "Flasha den nyaste (otestade) utvecklingsfirmwaren."
+    },
+    "firmwareFlasherManualPort": {
+        "message": "Port"
+    },
+    "firmwareFlasherManualBaud": {
+        "message": "Manuell baudhastighet"
+    },
+    "firmwareFlasherManualBaudDescription": {
+        "message": "Manuellt val av överföringshastighet för styrkort som inte stödjer standardhastigheten, eller för uppdatering via bluetooth.<br \/><span class=\"message-negative\">Observera:<\/span> Används inte vid uppdatering via USB DFU"
+    },
+    "firmwareFlasherBaudRate": {
+        "message": "Baudhastighet"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Visa instabila utgåvor"
+    },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "Visa både utgåve-kandidater och stabila utgåvor"
+    },
+    "firmwareFlasherOptionLoading": {
+        "message": "Laddar..."
+    },
+    "firmwareFlasherOptionLabelBuildTypeRelease": {
+        "message": "Utgåva"
+    },
+    "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
+        "message": "Utgåva och utgåve-kandidat"
     },
     "firmwareFlasherOptionLabelBuildTypeDevelopment": {
         "message": "Utveckling"
@@ -1765,6 +1849,9 @@
     },
     "firmwareFlasherButtonDownloading": {
         "message": "Laddar ner..."
+    },
+    "firmwareFlasherFlashFirmware": {
+        "message": "Flasha firmware"
     },
     "firmwareFlasherGithubInfoHead": {
         "message": "GitHub firmware-Info"
@@ -1806,8 +1893,111 @@
     "ledStripFunctionTitle": {
         "message": "Funktion"
     },
+    "ledStripFunctionColorOption": {
+        "message": "Färg",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionArmOption": {
+        "message": "Motoraktiveringsläge",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionBatteryOption": {
+        "message": "Batteri",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionRSSIOption": {
+        "message": "RSSI",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionGPSOption": {
+        "message": "GPS",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionRingOption": {
+        "message": "Ring",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripModeColorsTitle": {
+        "message": "Lägesfärger"
+    },
+    "ledStripModeColorsModeOrientation": {
+        "message": "Riktning",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripDirN": {
+        "message": "N",
+        "description": "North direction in Color Mode in Led Strip"
+    },
+    "ledStripDirE": {
+        "message": "Ö",
+        "description": "East direction in Color Mode in Led Strip"
+    },
+    "ledStripDirS": {
+        "message": "S",
+        "description": "South direction in Color Mode in Led Strip"
+    },
+    "ledStripDirW": {
+        "message": "V",
+        "description": "West direction in Color Mode in Led Strip"
+    },
+    "ledStripDirU": {
+        "message": "U",
+        "description": "Up direction in Color Mode in Led Strip"
+    },
+    "ledStripDirD": {
+        "message": "N",
+        "description": "Down direction in Color Mode in Led Strip"
+    },
+    "ledStripModesSpecialColorsTitle": {
+        "message": "Specialfärger",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeDisarmed": {
+        "message": "Inaktiverad",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeArmed": {
+        "message": "Aktiverad",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAnimation": {
+        "message": "Animation",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBlinkBg": {
+        "message": "Bakgrundsblink",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoSats": {
+        "message": "GPS: inga satelliter",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoLock": {
+        "message": "GPS: inget lås",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSLocked": {
+        "message": "GPS: låst",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripWiringClearControl": {
+        "message": "Avmarkera valda",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripVtxFunction": {
+        "message": "Larson-scanner"
+    },
+    "ledStripBlinkAlwaysOverlay": {
+        "message": "Blinka konstant"
+    },
+    "ledStripBlinkLandingOverlay": {
+        "message": "Blinka vid landning"
+    },
     "ledStripWarningsOverlay": {
         "message": "Varningar"
+    },
+    "ledStripIndecatorOverlay": {
+        "message": "Indikator (använder position i matris)"
     },
     "colorBlack": {
         "message": "svart"
@@ -1853,6 +2043,15 @@
     },
     "controlAxisRoll": {
         "message": "Roll [A]"
+    },
+    "controlAxisPitch": {
+        "message": "Looping [E]"
+    },
+    "controlAxisYaw": {
+        "message": "Gir [R]"
+    },
+    "controlAxisThrottle": {
+        "message": "Trottel [T]"
     },
     "controlAxisAux1": {
         "message": "AUX 1"
@@ -1901,6 +2100,36 @@
     },
     "controlAxisAux16": {
         "message": "AUX 16"
+    },
+    "pidTuningBasic": {
+        "message": "Basic\/Acro"
+    },
+    "pidTuningLevel": {
+        "message": "Angle\/Horizon"
+    },
+    "pidTuningGps": {
+        "message": "GPS-navigering"
+    },
+    "pidTuningStrength": {
+        "message": "Styrka"
+    },
+    "pidTuningTransition": {
+        "message": "Övergång"
+    },
+    "pidTuningHorizon": {
+        "message": "Horizon"
+    },
+    "pidTuningAngle": {
+        "message": "Angle"
+    },
+    "pidTuningLevelAngleLimit": {
+        "message": "Angle-gräns"
+    },
+    "pidTuningLevelSensitivity": {
+        "message": "Känslighet"
+    },
+    "pidTuningLevelHelp": {
+        "message": "Värdena nedan ändrar uppträdandet i ANGLE- och HORIZON-flyglägena. Olika PID-kontrollers hanterar värdena på olika sätt. Kontrollera dokumentationen."
     },
     "pidTuningSmartFeedforward": {
         "message": "Smart framkoppling"
