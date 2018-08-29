@@ -3393,6 +3393,9 @@
     "osdDescElementCompassBar": {
         "message": "현재 기체방향을 보여주는 나침반 그래픽 막대"
     },
+    "osdDescElementFlipArrow": {
+        "message": "터틀 모드에서 어떤 모터가 올라가는지를 보여주는 화살표"
+    },
     "osdDescElementTimer1": {
         "message": "타이머 1의 값 표시"
     },
