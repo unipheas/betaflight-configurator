@@ -3393,6 +3393,9 @@
     "osdDescElementCompassBar": {
         "message": "Kompasa grafiskā josla, kas norāda patreizējo debespusi"
     },
+    "osdDescElementFlipArrow": {
+        "message": "Bultiņa parāda kurā pusē motori ir bruņurupuča režīmā"
+    },
     "osdDescElementTimer1": {
         "message": "Rādīt taimera 1 vērtību"
     },
