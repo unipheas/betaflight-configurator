@@ -2089,6 +2089,12 @@
     "dataflashNote": {
         "message": "Полетные логи могут быть записаны в ваш полетный контроллер оборудованный чипом памяти."
     },
+    "dataflashNotPresentNote": {
+        "message": "Ваш полетный контроллер не имеет совместимого чипа памяти."
+    },
+    "dataflashFirmwareUpgradeRequired": {
+        "message": "Чип памяти требует прошивку &gt;= 1.8.0."
+    },
     "dataflashButtonSaveFile": {
         "message": "Сохранено в файл..."
     },
@@ -2121,6 +2127,9 @@
     },
     "dataflashButtonEraseCancel": {
         "message": "Отмена"
+    },
+    "dataflashFileWriteFailed": {
+        "message": "Провалена запись в выбранный файл, есть ли разрешение на эту директорию?"
     },
     "sdcardStatusNoCard": {
         "message": "Карта не вставлена"
@@ -2164,6 +2173,9 @@
     "firmwareFlasherReleaseFile": {
         "message": "Файл прошивки:"
     },
+    "firmwareFlasherReleaseStatusReleaseCandidate": {
+        "message": "<span class=\"message-negative\">ВАЖНО: Это прошивка отмечена как кандидат на релиз. Пожалуйста пишите предложения незамедлительно.<\/span>"
+    },
     "firmwareFlasherReleaseFileUrl": {
         "message": "Скачать самостоятельно."
     },
@@ -2185,6 +2197,12 @@
     "firmwareFlasherLoadFirmwareFile": {
         "message": "Пожалуйста, загрузите файл прошивки"
     },
+    "firmwareFlasherNoReboot": {
+        "message": "Без последовательной перезагрузки"
+    },
+    "firmwareFlasherOnlineSelectBuildType": {
+        "message": "Выберите тип сборки, чтобы увидеть доступные платы полетных контроллеров."
+    },
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "Выбрав из списка полётный контроллер, вы увидите доступные для скачивания версии прошивок. Выберите прошивку, подходящую для Вашего полётного контроллера."
     },
@@ -2203,6 +2221,12 @@
     "firmwareFlasherFullChipEraseDescription": {
         "message": "Очищает все данные о настройках, хранящиеся памяти в полётного контроллера."
     },
+    "firmwareFlasherFlashDevelopmentFirmware": {
+        "message": "Использовать прошивку в стадии разработки"
+    },
+    "firmwareFlasherFlashDevelopmentFirmwareDescription": {
+        "message": "Прошить самую свежую (не тестированную) прошивку в стадии разработки."
+    },
     "firmwareFlasherManualPort": {
         "message": "Порт"
     },
@@ -2215,11 +2239,20 @@
     "firmwareFlasherBaudRate": {
         "message": "Скорость передачи"
     },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Показать нестабильные релизы"
+    },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "Показать предварительные релизы в дополнение к стабильным релизам"
+    },
     "firmwareFlasherOptionLoading": {
         "message": "Загрузка..."
     },
     "firmwareFlasherOptionLabelBuildTypeRelease": {
         "message": "Релиз"
+    },
+    "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
+        "message": "Релиз и предварительный релиз"
     },
     "firmwareFlasherOptionLabelBuildTypeDevelopment": {
         "message": "Разработка"
@@ -2317,6 +2350,10 @@
     "ledStripButtonSave": {
         "message": "Сохранить"
     },
+    "ledStripColorSetupTitle": {
+        "message": "Настройка цвета",
+        "description": "Color setup title of the led strip"
+    },
     "ledStripH": {
         "message": "H",
         "description": "Abbreviation of Hue in HSV (Hue, Saturation, Brightness) color model"
@@ -2343,6 +2380,9 @@
     },
     "ledStripEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">сохранён<\/span>"
+    },
+    "ledStripFunctionSection": {
+        "message": "LED функции"
     },
     "ledStripFunctionTitle": {
         "message": "Функция"
@@ -2719,6 +2759,12 @@
     },
     "pidTuningAbsoluteControlGain": {
         "message": "Абсолютный контроль"
+    },
+    "pidTuningThrottleBoost": {
+        "message": "Увеличение газа"
+    },
+    "pidTuningThrottleBoostHelp": {
+        "message": "Эта функция позволяет временно увеличить газ, чтобы увеличить момент разгона мотора, обеспечивая гораздо более быструю реакцию на управление газом."
     },
     "failsafeFeaturesHelpNew": {
         "message": "Failesafe проходит в 2 этапа. <strong>Этап 1<\/strong> наступает, если в канале появляются импульсы с недопустимой длительностью, либо, когда приёмник сообщает о режиме failsafe, либо при полном отсутствии сигнала на приёмнике. На этом этапе <span class=\"message-negative\">все каналы<\/span> устанавливаются на короткое время в \"Значения при отсутствии сигнала\". Если сигнал не восстанавливается в течение указанного времени, <span class=\"message-negative\">и если аппарат заармлен<\/span>, то наступает <strong>Этап 2<\/strong>. Каналы по-прежнему будут оставаться в \"Значении каналов при отсутствии сигнала\", если эти значения не перекрываются процедурой Этапа 2.<br \/><strong>Примечание:<\/strong> \"Значения каналов при отсуствии сигнала\" также могу применяться только к отдельным AUX-каналам, имеющим ошибочные импульсы."
