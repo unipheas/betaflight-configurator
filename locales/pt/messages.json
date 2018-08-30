@@ -3333,9 +3333,6 @@
     "osdDescElementAdjustmentRange": {
         "message": "Faixa e valor do elemento de ajuste atualmente ativo"
     },
-    "osdDescElementHomeDirection": {
-        "message": "Seta mostrando a direção da base"
-    },
     "osdDescElementHomeDistance": {
         "message": "Distância até a base (em pés ou metros, baseado na configuração de unidade)"
     },
