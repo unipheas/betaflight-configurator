@@ -3393,6 +3393,9 @@
     "osdDescElementCompassBar": {
         "message": "現在のヘッディングを示すグラフィカルなコンパスバー"
     },
+    "osdDescElementFlipArrow": {
+        "message": "タートルモードでどのモーターが起動しているかを示す矢印"
+    },
     "osdDescElementTimer1": {
         "message": "タイマー1の値を表示"
     },
