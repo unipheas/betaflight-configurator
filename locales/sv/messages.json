@@ -1661,6 +1661,9 @@
     "transponderNotSupported": {
         "message": "Din flygkontrollers firmware stödjer inte transponderfunktionalitet."
     },
+    "transponderInformation": {
+        "message": "Transpondersystem ger racing-arrangörer möjlighet att tajma dina varv. Transpondern fästs på din farkost och när farkosten passerar tidtagningsporten registrerar mottagaren din kod och sparar din varvtid. När du monterar en IR-baserad transponder bör du se till att den pekar utåt från farkosten mot mottagarna vid sidan om banan, och att ljusstrålen inte störs av ditt chassi, batteriremmar, kablar, propellrar etc."
+    },
     "transponderConfigurationType": {
         "message": "Transponder-typ"
     },
@@ -1724,6 +1727,9 @@
     "servosFirmwareUpgradeRequired": {
         "message": "Servon kräver firmware &gt;= 1.10.0. och målstöd."
     },
+    "servosChangeDirection": {
+        "message": "Ändra riktning i TX för att matcha"
+    },
     "servosName": {
         "message": "Namn"
     },
@@ -1735,6 +1741,12 @@
     },
     "servosMax": {
         "message": "MAX"
+    },
+    "servosAngleAtMin": {
+        "message": "Vinkel i minimiläge"
+    },
+    "servosAngleAtMax": {
+        "message": "Vinkel i maxläge"
     },
     "servosDirectionAndRate": {
         "message": "Riktning och rate"
@@ -1883,6 +1895,9 @@
     "motorsSensorGyroSelect": {
         "message": "gyro"
     },
+    "motorsSensorAccelSelect": {
+        "message": "accel"
+    },
     "motorsMaster": {
         "message": "Master"
     },
@@ -1930,6 +1945,12 @@
     },
     "sensorsSonarTitle": {
         "message": "Sonar - cm"
+    },
+    "sensorsDebugTitle": {
+        "message": "Felsök"
+    },
+    "cliInfo": {
+        "message": "<strong>Observera<\/strong>: Byte från CLI-fliken eller tryck på Koppla från kommer <strong>automatiskt<\/strong> att sända \"<strong>exit<\/strong>\" till styrkortet. Med den senaste firmwaren kommer detta att få kontrollern att <span class=\"message-negative\">starta om<\/span> och osparade ändringar kommer att <span class=\"message-negative\">förloras<\/span>."
     },
     "cliInputPlaceholder": {
         "message": "Skriv ditt kommando här"
@@ -2000,6 +2021,12 @@
     "blackboxLoggingSerial": {
         "message": "Serieport"
     },
+    "serialLoggingSupportedNote": {
+        "message": "Du kan logga till en extern loggningsenhet (t ex en OpenLog eller kompatible klon) genom att använda en seriell port. Konfigurera porten på fliken Portar."
+    },
+    "sdcardNote": {
+        "message": "Flygloggar kan sparas till din flygkontrollers inbyggda SD-kortplats."
+    },
     "dataflashUsedSpace": {
         "message": "Använt utrymme"
     },
@@ -2011,6 +2038,15 @@
     },
     "dataflashLogsSpace": {
         "message": "Ledigt utrymme för loggar"
+    },
+    "dataflashNote": {
+        "message": "Flygloggar kan sparas till din flygkontrollers inbyggda dataflash-krets."
+    },
+    "dataflashNotPresentNote": {
+        "message": "Din flygkontroller har ingen kompatibel dataflash-krets."
+    },
+    "dataflashFirmwareUpgradeRequired": {
+        "message": "Dataflash kräver firmware &gt;= 1.8.0."
     },
     "dataflashButtonSaveFile": {
         "message": "Spara flashminne till fil..."
@@ -2107,6 +2143,9 @@
     },
     "firmwareFlasherStatus": {
         "message": "Status:"
+    },
+    "firmwareFlasherProgress": {
+        "message": "Förlopp:"
     },
     "firmwareFlasherLoadFirmwareFile": {
         "message": "Vänligen ladda firmware-fil"
@@ -2224,6 +2263,18 @@
     },
     "firmwareFlasherHexCorrupted": {
         "message": "HEX-filen verkar vara korrupt"
+    },
+    "firmwareFlasherFailedToLoadOnlineFirmware": {
+        "message": "Misslyckades med att ladda remote-firmware"
+    },
+    "firmwareFlasherNoFirmwareSelected": {
+        "message": "<b>Ingen firmware vald för laddning<\/b>"
+    },
+    "firmwareFlasherNoValidPort": {
+        "message": "<span class=\"message-negative\">Välj en giltig seriell port<\/span>"
+    },
+    "firmwareFlasherWritePermissions": {
+        "message": "Du saknar <span class=\"message-negative\">skrivrättigheter<\/span> för den här filen"
     },
     "ledStripButtonSave": {
         "message": "Spara"
