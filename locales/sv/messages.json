@@ -2297,6 +2297,9 @@
     "firmwareFlasherGithubInfoHead": {
         "message": "GitHub firmware-Info"
     },
+    "firmwareFlasherCommiter": {
+        "message": "Inskickare:"
+    },
     "firmwareFlasherDate": {
         "message": "Datum:"
     },
@@ -2519,12 +2522,31 @@
         "message": "GPS: låst",
         "description": "One of the modes in Color Mode in Led Strip"
     },
+    "ledStripWiring": {
+        "message": "LED-remsa ledningsdragning",
+        "description": "One of the modes in Led Strip"
+    },
+    "ledStripWiringMode": {
+        "message": "Ledningsordningsläge",
+        "description": "One of the wiring modes in Led Strip"
+    },
     "ledStripWiringClearControl": {
         "message": "Rensa valda",
         "description": "Control button in the wiring modes in Led Strip"
     },
+    "ledStripWiringClearAllControl": {
+        "message": "Rensa ALL ledningsdragning",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringMessage": {
+        "message": "LED:er utan ordningsnummer kommer inte att sparas.",
+        "description": "Message in the wiring modes in Led Strip"
+    },
     "ledStripVtxFunction": {
         "message": "Larson-scanner"
+    },
+    "ledStripBlinkTitle": {
+        "message": "Blinka"
     },
     "ledStripBlinkAlwaysOverlay": {
         "message": "Blinka konstant"
@@ -3557,6 +3579,9 @@
     },
     "configurationBatteryScale": {
         "message": "Spänningsskala"
+    },
+    "configurationCurrent": {
+        "message": "Strömsensor"
     },
     "configurationCurrentScale": {
         "message": "Skala utspänningen till milliampere [1\/10-dels mV\/A]"
