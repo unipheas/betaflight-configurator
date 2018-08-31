@@ -2794,6 +2794,9 @@
     "pidTuningSmartFeedforward": {
         "message": "Smart framkoppling"
     },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "Minskar effekten av F Term i PID. När både P Term och F Term är aktiva samtidigt, används bara den största av de båda, för att undvika att ta i för mycket utan att behöva öka D, men detta reducerar också responsivitetseffekten som skapas av F Term när den adderas till P."
+    },
     "pidTuningItermRelax": {
         "message": "I Term Relax"
     },
@@ -2832,6 +2835,9 @@
     },
     "pidTuningThrottleBoost": {
         "message": "Trottelförstärkning"
+    },
+    "pidTuningThrottleBoostHelp": {
+        "message": "Denna funktion tillåter trotteln att tillfälligt ökas vid snabba spakrörelser, för att öka accelerationens vridmoment till motorerna, vilket ger en mycket snabbare gasrespons."
     },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Acro Trainer vinkelgräns"
@@ -3705,5 +3711,14 @@
     },
     "dialogConfirmResetClose": {
         "message": "Avbryt"
+    },
+    "modeCameraWifi": {
+        "message": "CAMERA WI-FI BUTTON"
+    },
+    "modeCameraPower": {
+        "message": "CAMERA POWER BUTTON"
+    },
+    "modeCameraChangeMode": {
+        "message": "CAMERA CHANGE MODE"
     }
 }
