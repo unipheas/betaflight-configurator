@@ -2776,7 +2776,7 @@
         "message": "Standardinställningar för kanaler"
     },
     "failsafeStageTwoSettingsTitle": {
-        "message": "Steg 2 - Inställningar"
+        "message": "Etapp 2 - Inställningar"
     },
     "failsafeThrottleItem": {
         "message": "Trottelvärde som används under landning"
@@ -2785,13 +2785,13 @@
         "message": "Tid att stanna kvar i landningsläge tills motorerna stängts av och farkosten är avaktiverad"
     },
     "failsafeSubTitle1": {
-        "message": "Steg 2 - Failsafe-procedur"
+        "message": "Etapp 2 - Failsafe-procedur"
     },
     "failsafeProcedureItemSelect1": {
         "message": "Landa"
     },
     "failsafeProcedureItemSelect2": {
-        "message": "Fall"
+        "message": "Fall ner"
     },
     "powerButtonSave": {
         "message": "Spara"
