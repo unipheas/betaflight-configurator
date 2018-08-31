@@ -1341,7 +1341,7 @@
         "message": "Integral"
     },
     "pidTuningDerivative": {
-        "message": "Derivative"
+        "message": "Derivativ"
     },
     "pidTuningFeedforward": {
         "message": "Framkoppling (Feedforward)"
@@ -2319,7 +2319,7 @@
         "message": "<strong>Återställning \/ tappad kommunikation<\/strong>"
     },
     "firmwareFlasherRecoveryText": {
-        "message": "Om du har tappat kommunikationen med ditt styrkort, följ dessa steg för att återställa kommunikationen: <ul><li>Stäng av strömmen<\/li><li>Aktivera 'Ingen omstartssekvens', aktivera 'Fullständing chip-radering'.<\/li><li>Bygla BOOT-pinnarna eller håll in BOOT-knappen.<\/li><li>Slå på strömmen (aktivitets-LED:en kommer INTE att blinka om utfört korrekt).<\/li><li>Installera alla STM32-drivrutiner och Zadig om det krävs (se <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a>-sektionen i Betaflight-manualen).<\/li><li>Stäng Konfigurator, Stäng alla öppna instanser av Chrome, stäng alla Chrome-appar, starta om Konfigurator.<\/li><li>Släpp BOOT-knappen om din flygkontroller har en sådan.<\/li><li>Uppdatera med korrekt firmware (använd manuell baudhastighet om en sådan specificeras i flygkontrollerns manual).<\/li><li>Stäng av strömmen.<\/li><li>Ta bort BOOT-byglingen.<\/li><li>Slå på strömmen (aktivitets-LED:en ska blinka).<\/li><li>Anslut på vanligt sätt.<\/li><\/ul>"
+        "message": "Om du har tappat kommunikationen med ditt styrkort, följ dessa steg för att återställa kommunikationen: <ul><li>Stäng av strömmen<\/li><li>Aktivera 'Ingen omstartssekvens', aktivera 'Fullständing chip-radering'.<\/li><li>Bygla BOOT-pinnarna eller håll in BOOT-knappen.<\/li><li>Slå på strömmen (aktivitets-LED:en kommer INTE att blinka om utfört korrekt).<\/li><li>Installera alla STM32-drivrutiner och Zadig om det krävs (se <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a>-sektionen i Betaflight-manualen).<\/li><li>Stäng Configurator, Stäng alla öppna instanser av Chrome, stäng alla Chrome-appar, starta om Configurator.<\/li><li>Släpp BOOT-knappen om din flygkontroller har en sådan.<\/li><li>Uppdatera med korrekt firmware (använd manuell baudhastighet om en sådan specificeras i flygkontrollerns manual).<\/li><li>Stäng av strömmen.<\/li><li>Ta bort BOOT-byglingen.<\/li><li>Slå på strömmen (aktivitets-LED:en ska blinka).<\/li><li>Anslut på vanligt sätt.<\/li><\/ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "Lämna firmware-uppdaterare"
@@ -2876,10 +2876,10 @@
         "message": "Dessa inställningar tillämpas på ogiltiga individuella AUX-kanaler eller på alla kanaler när etapp 1 påbörjas. <strong>Observera:<\/strong> värden sparas i steg om 25 μs, vilket innebär att mindre ändringar kommer att försvinna"
     },
     "failsafeChannelFallbackSettingsAuto": {
-        "message": "<strong>Auto<\/strong> innebär Roll, Looping och Gir i centerläge och Trottel låg. <strong>Håll<\/strong> innebär att det senaste mottagna giltiga värdet behålls"
+        "message": "<strong>Auto<\/strong> innebär Roll, Looping och Gir i centerläge och Trottel låg. <strong>Hold<\/strong> innebär att det senaste mottagna giltiga värdet behålls"
     },
     "failsafeChannelFallbackSettingsHold": {
-        "message": "<strong>Håll<\/strong> innebär att det senaste mottagna giltiga värdet behålls. <strong>Sätt<\/strong> innebär att värdet som anges här kommer att användas"
+        "message": "<strong>Hold<\/strong> innebär att det senaste mottagna giltiga värdet behålls. <strong>Set<\/strong> innebär att värdet som anges här kommer att användas"
     },
     "failsafeStageTwoSettingsTitle": {
         "message": "Etapp 2 - Inställningar"
