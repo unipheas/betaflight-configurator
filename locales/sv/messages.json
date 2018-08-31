@@ -2345,6 +2345,15 @@
     "firmwareFlasherWritePermissions": {
         "message": "Du saknar <span class=\"message-negative\">skrivrättigheter<\/span> för den här filen"
     },
+    "firmwareFlasherFlashTrigger": {
+        "message": "Upptäckte: <strong>$1<\/strong> - initierar flashning vid anslutning"
+    },
+    "firmwareFlasherPreviousDevice": {
+        "message": "Upptäckte: <strong>$1<\/strong> - föregående enhet flashas fortfarande, plugga i och ur för att försöka igen"
+    },
+    "ledStripHelp": {
+        "message": "Flygkontrollern kan styra färger och effekter på individuella LED:er på en remsa.<br \/> Konfigurera LED:er i rutnätet, konfigurera kabeldragningsordning, anslut sedan LED:er på farkosten i enlighet med positionerna i rutnätet. LED:er utan kabelordningsnummer kommer inte att sparas.<br \/> Dubbelklicka på en färg för att redigera HSV-värdena."
+    },
     "ledStripButtonSave": {
         "message": "Spara"
     },
@@ -2715,6 +2724,9 @@
     "pidTuningGyroNotch2Cutoff": {
         "message": "Gyro bandspärrfilter 2 cutoff-frekvens [Hz]"
     },
+    "pidTuningNotchFilterHelp": {
+        "message": "Bandspärrfiltret har ett centrum och en cutoff. Filtret är symmetriskt. Centrumfrekvensen är filtrets centrum och cutoff-frekvensen är där bandspärrfiltret börjar. Exempelvis så kommer en cutoff på 160 och centrum på 260 att ge ett omfång på 160-360Hz med mest försvagning kring centrum"
+    },
     "pidTuningFilterSettings": {
         "message": "Profilberoende filterinställningar"
     },
@@ -2789,6 +2801,9 @@
     },
     "configHelp2": {
         "message": "Godtycklig styrkortsrotation i grader, för att möjliggöra montering sidledes \/ upp och ner \/ roterat etc. Vid användning av externa sensorer, använd sensorinriktning (Gyro, Acc, Mag) för att definiera sensorpositionen oberoende från styrkortsrotationen."
+    },
+    "failsafeFeaturesHelpOld": {
+        "message": "Konfigurationen av Failsafe har förändrats kraftigt. Använd Betaflight <strong>v1.12.0+<\/strong> för att aktivera den förbättrade konfigurationspanelen."
     },
     "failsafePaneTitleOld": {
         "message": "Mottagar-failsafe"
