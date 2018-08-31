@@ -1400,10 +1400,10 @@
         "message": "Valores padrão do perfil carregados."
     },
     "pidTuningReceivedProfile": {
-        "message": "Perfil aplicado ao controlador de voo: <strong class=\"message-positive\">$1<\/strong>"
+        "message": "Perfil aplicado a partir do controlador de voo: <strong class=\"message-positive\">$1<\/strong>"
     },
     "pidTuningReceivedRateProfile": {
-        "message": "Perfil de taxas aplicado ao controlador de voo: <strong class=\"message-positive\">$1<\/strong>"
+        "message": "Perfil de taxas aplicado a partir do controlador de voo: <strong class=\"message-positive\">$1<\/strong>"
     },
     "pidTuningLoadedProfile": {
         "message": "Perfil Carregado: <strong class=\"message-positive\">$1<\/strong>"
