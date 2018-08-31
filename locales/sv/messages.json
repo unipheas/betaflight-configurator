@@ -3598,6 +3598,9 @@
     "configurationBatteryScale": {
         "message": "Spänningsskala"
     },
+    "configurationCurrentMeterType": {
+        "message": "Strömmätartyp"
+    },
     "configurationCurrent": {
         "message": "Strömsensor"
     },
