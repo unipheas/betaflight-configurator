@@ -2844,6 +2844,9 @@
     "failsafeSwitchModeItem": {
         "message": "Failsafe-switchåtgärd"
     },
+    "failsafeSwitchModeHelp": {
+        "message": "Detta alternativ avgör vad som händer när Failsafe aktiveras via en AUX-switch:<br\/><strong>Etapp 1<\/strong> aktiverar Failsafe Etapp 1. Detta kan användas om du vill simulera exakt vad som händer när signalen tappas.<br\/><strong>Etapp 2<\/strong> hoppar över Etapp 1 och aktiverar proceduren för Etapp 2 direkt<br\/><strong>Stäng av<\/strong> utför en omedelbar avaktivering (farkosten kommer att krascha)"
+    },
     "failsafeSwitchOptionStage1": {
         "message": "Etapp 1"
     },
@@ -2855,6 +2858,9 @@
     },
     "powerButtonSave": {
         "message": "Spara"
+    },
+    "powerFirmwareUpgradeRequired": {
+        "message": "Firmware-uppdatering <span class=\"message-negative\">krävs<\/span>. Batteri\/Ampere\/Volt-konfiguration via API &lt; 1.33.0 (Betaflight utgåva &lt;= 3.17) stöds ej."
     },
     "powerBatteryVoltageMeterSource": {
         "message": "Spänningsmätnings-källa"
@@ -2987,6 +2993,9 @@
     },
     "powerAmperageId10": {
         "message": "Batteri"
+    },
+    "powerAmperageId50": {
+        "message": "ESC Kombinerad"
     },
     "powerAmperageId60": {
         "message": "ESC Motor 1"
@@ -3360,6 +3369,33 @@
     "osdDescStatTimer1": {
         "message": "Värdet på timer 1 vid tiden för avaktivering"
     },
+    "osdDescStatTimer2": {
+        "message": "Värdet på timer 2 vid tiden för avaktivering"
+    },
+    "osdDescStatRtcDateTime": {
+        "message": "Datum och tid från realtidsklocka"
+    },
+    "osdDescStatBattery": {
+        "message": "Batterispänning i realtid"
+    },
+    "osdDescStatGForce": {
+        "message": "Den maximala G-kraft farkosten utsatts för"
+    },
+    "osdTimerSource": {
+        "message": "Källa:"
+    },
+    "osdTimerPrecision": {
+        "message": "Precision:"
+    },
+    "osdTimerAlarm": {
+        "message": "Larm:"
+    },
+    "osdWarningBatteryWarning": {
+        "message": "Varnar när batteriets spänning sjunker under varningströskeln"
+    },
+    "osdWarningBatteryCritical": {
+        "message": "Varnar när batteriets spänning sjunker under minsta genomsnittliga cellspänning"
+    },
     "osdSectionHelpElements": {
         "message": "Aktivera eller avaktivera OSD-element."
     },
@@ -3372,6 +3408,9 @@
     "osdSectionHelpTimers": {
         "message": "Konfigurera flygtimers."
     },
+    "osdSectionHelpAlarms": {
+        "message": "Sätt tröskelvärden för OSD-element med alarmlägen."
+    },
     "osdSectionHelpWarnings": {
         "message": "Aktivera eller avaktivera varningar som visas på WARNINGS-elementet."
     },
@@ -3380,6 +3419,9 @@
     },
     "osdWritePermissions": {
         "message": "Du har inga <span class=\"message-negative\">skrivrättigheter<\/span> för den här filen"
+    },
+    "osdButtonSaved": {
+        "message": "Sparat"
     },
     "mainHelpArmed": {
         "message": "Motoraktivering"
