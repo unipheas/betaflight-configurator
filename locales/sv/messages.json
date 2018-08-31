@@ -673,7 +673,7 @@
         "message": "Aktivering Tillåten"
     },
     "initialSetupArmingDisableFlagsTooltip": {
-        "message": "Lista över flaggor som indikerar varför aktivering just nu inte tillåts. Det första och viktigaste värdet anger antalet varningspip som ljuder vid försök till aktivering. Hänvisa till Wikin (sidan 'Aktiveringssekvens & Säkerhet') för en beskrivning av flaggornas innebörd."
+        "message": "Lista över flaggor som indikerar varför aktivering just nu inte tillåts. Det första och viktigaste värdet anger antalet varningspip som ljuder vid försök till aktivering. Hänvisa till Wikin (sidan 'Arming Sequence & Safety') för en beskrivning av flaggornas innebörd."
     },
     "initialSetupGPSHead": {
         "message": "GPS"
@@ -2104,6 +2104,9 @@
     },
     "firmwareFlasherMessage": {
         "message": "Meddelande:"
+    },
+    "firmwareFlasherRecoveryText": {
+        "message": "Om du har tappat kommunikationen med ditt styrkort, följ dessa steg för att återställa kommunikationen: <ul><li>Stäng av strömmen<\/li><li>Aktivera 'Ingen omstartssekvens', aktivera 'Fullständing chip-radering'.<\/li><li>Bygla BOOT-pinnarna eller håll in BOOT-knappen.<\/li><li>Slå på strömmen (aktivitets-LED:en kommer INTE att blinka om utfört korrekt).<\/li><li>Installera alla STM32-drivrutiner och Zadig om det krävs (se <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a>-sektionen i Betaflight-manualen).<\/li><li>Stäng Konfigurator, Stäng alla öppna instanser av Chrome, stäng alla Chrome-appar, starta om Konfigurator.<\/li><li>Släpp BOOT-knappen om din flygkontroller har en sådan.<\/li><li>Uppdatera med korrekt firmware (använd manuell baudhastighet om en sådan specificeras i flygkontrollerns manual).<\/li><li>Stäng av strömmen.<\/li><li>Ta bort BOOT-byglingen.<\/li><li>Slå på strömmen (aktivitets-LED:en ska blinka).<\/li><li>Anslut på vanligt sätt.<\/li><\/ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "Lämna firmware-uppdaterare"
