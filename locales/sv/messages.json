@@ -1259,6 +1259,18 @@
     "rcSmoothingDerivativeTypeHelp": {
         "message": "Typen av filtreringsmetod som används för setpoint-derivativen. De flesta användare bör använda standardvärdet \"BIQUAD\" eftersom det ger en bra balans mellan utjämning och fördröjning. \"PT1\" minskar fördröjningen något men ger mindre utjämning."
     },
+    "rcSmoothingInputTypeHelp": {
+        "message": "Typen av filtreringsmetod som används för inputen. De flesta användare bör använda standardvärdet \"BIQUAD\" eftersom det ger en bra balans mellan utjämning och fördröjning. \"PT1\" minskar fördröjningen något men ger mindre utjämning."
+    },
+    "receiverRcSmoothingInputManual": {
+        "message": "Väljer om input-filtrets cutoff-frekvens räknas ut automatiskt (rekommenderas) eller sätts manuellt av användaren. Att använda \"Manuellt\" rekommenderas inte för mottagarprotokoll som Crossfire, som kan ändras under flygning."
+    },
+    "receiverRcSmoothingDerivativeManual": {
+        "message": "Väljer om setpoint-derivativfiltrets cutoff-frekvens räknas ut automatiskt (rekommenderas) eller sätts manuellt av användaren. Att använda \"Manuellt\" rekommenderas inte för mottagarprotokoll som Crossfire, som kan ändras under flygning."
+    },
+    "receiverRcSmoothingInputHz": {
+        "message": "Input cutoff-frekvens"
+    },
     "receiverRcSmoothingDerivativeCutoff": {
         "message": "Derivativ cutoff-frekvens"
     },
@@ -1459,6 +1471,24 @@
     },
     "receiverHelpStickMax": {
         "message": "Minimivärdet (i μs) för att bestämma om en spak är i hög \/ höger-läge vid kommandoinput (MAX_CHECK)."
+    },
+    "receiverDeadband": {
+        "message": "RC dödband"
+    },
+    "receiverHelpDeadband": {
+        "message": "Dessa är värden (i μx) som anger hur mycket RC-input kan förändras innan det anses giltigt. För sändare med brus kan detta värde ökas om RC-inputvärdena rör sig fast reglagen inte används."
+    },
+    "receiverYawDeadband": {
+        "message": "Gir dödband"
+    },
+    "receiverHelpYawDeadband": {
+        "message": "Dessa är värden (i μx) som anger hur mycket RC-input kan förändras innan det anses giltigt. För sändare med brus kan detta värde ökas om RC-inputvärdena rör sig fast reglagen inte används.<strong>Denna inställning gäller endast Gir.<\/strong>"
+    },
+    "recevier3dDeadbandThrottle": {
+        "message": "3D-trottel dödband"
+    },
+    "receiverHelp3dDeadbandThrottle": {
+        "message": "Dessa är värden (i μx). Öka värdet för att bredda den neutrala zonen. <strong>Denna inställning är endast för 3D-trottel.<\/strong>"
     },
     "receiverChannelMap": {
         "message": "Kanalmappning"
@@ -2255,6 +2285,9 @@
     "firmwareFlasherDate": {
         "message": "Datum:"
     },
+    "firmwareFlasherHash": {
+        "message": "Hash:"
+    },
     "firmwareFlasherMessage": {
         "message": "Meddelande:"
     },
@@ -2267,8 +2300,14 @@
     "firmwareFlasherFirmwareNotLoaded": {
         "message": "Firmware ej laddad"
     },
+    "firmwareFlasherFirmwareLocalLoaded": {
+        "message": "Laddade lokal firmware: ($1 bytes)"
+    },
     "firmwareFlasherHexCorrupted": {
         "message": "HEX-filen verkar vara korrupt"
+    },
+    "firmwareFlasherRemoteFirmwareLoaded": {
+        "message": "<span class=\"message-positive\">Remote-firmware laddad, klar att uppdatera<\/span>"
     },
     "firmwareFlasherFailedToLoadOnlineFirmware": {
         "message": "Misslyckades med att ladda remote-firmware"
