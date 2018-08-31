@@ -1421,6 +1421,9 @@
     "pidTuningEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
     },
+    "tuningHelp": {
+        "message": "<b>Inställningstips<\/b><br \/><span class=\"message-negative\">VIKTIGT:<\/span> Det är viktigt att kontrollera motorernas temperatur under de första flygningarna. Ett högre filtervärde kan ge en bättre flygning, men det kommer också att ge mer brus i motorerna.<br>Standardvärdet 100 Hz är optimalt, men om du drabbas av brus kan du försöka sänka Dterm-filtret till 50 Hz och eventuellt också gyrofiltret."
+    },
     "receiverThrottleMid": {
         "message": "Trottel MITT"
     },
@@ -1430,11 +1433,20 @@
     "receiverStickMin": {
         "message": "'Spak låg'-tröskel"
     },
+    "receiverHelpStickMin": {
+        "message": "Maxvärdet (i μs) för att bestämma om en spak är i låg \/ vänster-läge vid kommandoinput (MIN_CHECK)."
+    },
     "receiverStickCenter": {
         "message": "Spak-mittläge"
     },
+    "receiverHelpStickCenter": {
+        "message": "Värdet (i μs) för att bestämma om en spak är centrerad (MID_RC)."
+    },
     "receiverStickMax": {
         "message": "'Spak hög'-tröskel"
+    },
+    "receiverHelpStickMax": {
+        "message": "Minimivärdet (i μs) för att bestämma om en spak är i hög \/ höger-läge vid kommandoinput (MAX_CHECK)."
     },
     "receiverChannelMap": {
         "message": "Kanalmappning"
