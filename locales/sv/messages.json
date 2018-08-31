@@ -2405,6 +2405,10 @@
         "message": "N",
         "description": "Down direction in Color Mode in Led Strip"
     },
+    "ledStripModesOrientationTitle": {
+        "message": "LED-orientering ('Lägen &amp; Riktning') och färger",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
     "ledStripModesSpecialColorsTitle": {
         "message": "Specialfärger",
         "description": "One of the modes in Color Mode in Led Strip"
@@ -2449,6 +2453,9 @@
     },
     "ledStripBlinkLandingOverlay": {
         "message": "Blinka vid landning"
+    },
+    "ledStripOverlayTitle": {
+        "message": "Överlagring"
     },
     "ledStripWarningsOverlay": {
         "message": "Varningar"
@@ -2561,6 +2568,15 @@
     "pidTuningBasic": {
         "message": "Basic\/Acro"
     },
+    "pidTuningYawJumpPrevention": {
+        "message": "Förhindrande av gir-hopp"
+    },
+    "pidTuningYawJumpPreventionHelp": {
+        "message": "Förhindrar farkosten från att hoppa upp vid slutet av girar. Ett högre värde ger mer dämpning vid slutet av girmanövrer (fungerar som tidigare gir D, som inte var en riktig D som på andra axlar)"
+    },
+    "pidTuningRcExpoPower": {
+        "message": "RC Expo-styrka"
+    },
     "pidTuningRcExpoPowerHelp": {
         "message": "Exponenten som används vid beräkning av RC Expo. I Betaflight-versioner före 3.0 är värdet satt till 3."
     },
@@ -2666,6 +2682,9 @@
     "pidTuningSmartFeedforward": {
         "message": "Smart framkoppling"
     },
+    "pidTuningItermRelaxAxes": {
+        "message": "Axlar:"
+    },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "RP"
     },
@@ -2693,17 +2712,62 @@
     "pidTuningThrottleBoost": {
         "message": "Trottelförstärkning"
     },
+    "pidTuningAcroTrainerAngleLimit": {
+        "message": "Acro Trainer vinkelgräns"
+    },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "Lägger till ett nytt vinkelbegränsningsläge för piloter som lär sig flyga i acro-läge. Det giltiga intervallet är 10-80, och det måste aktiveras med en switch i fliken $t(tabAuxiliary.message)."
+    },
+    "failsafeRxMinUsecItem": {
+        "message": "Minimilängd"
+    },
+    "failsafeRxMaxUsecItem": {
+        "message": "Maxlängd"
+    },
     "failsafeChannelFallbackSettingsTitle": {
         "message": "Standardinställningar för kanaler"
     },
     "failsafeStageTwoSettingsTitle": {
         "message": "Steg 2 - Inställningar"
     },
+    "failsafeThrottleItem": {
+        "message": "Trottelvärde som används under landning"
+    },
+    "failsafeSubTitle1": {
+        "message": "Steg 2 - Failsafe-procedur"
+    },
     "failsafeProcedureItemSelect1": {
         "message": "Landa"
     },
     "failsafeProcedureItemSelect2": {
         "message": "Fall"
+    },
+    "powerButtonSave": {
+        "message": "Spara"
+    },
+    "powerBatteryVoltageMeterSource": {
+        "message": "Spänningsmätnings-källa"
+    },
+    "powerBatteryVoltageMeterTypeNone": {
+        "message": "Ingen"
+    },
+    "powerBatteryVoltageMeterTypeAdc": {
+        "message": "Inbyggd ADC"
+    },
+    "powerBatteryVoltageMeterTypeEsc": {
+        "message": "ESC-Sensor"
+    },
+    "powerBatteryCurrentMeterSource": {
+        "message": "Strömmätnings-källa"
+    },
+    "powerBatteryCurrentMeterTypeNone": {
+        "message": "Ingen"
+    },
+    "powerBatteryCurrentMeterTypeAdc": {
+        "message": "Inbyggd ADC"
+    },
+    "powerBatteryCurrentMeterTypeVirtual": {
+        "message": "Virtuell"
     },
     "powerBatteryCurrentMeterTypeEsc": {
         "message": "ESC-Sensor"
@@ -2719,6 +2783,9 @@
     },
     "powerBatteryWarning": {
         "message": "Varningsnivå för cellspänning"
+    },
+    "powerVoltageHead": {
+        "message": "Spänningsmätare"
     },
     "powerVoltageValue": {
         "message": "$1 V"
