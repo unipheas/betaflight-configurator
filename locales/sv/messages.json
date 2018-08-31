@@ -3129,8 +3129,38 @@
     "osdDescElementDebug": {
         "message": "Felsökningsvariabler"
     },
+    "osdDescElementPIDRoll": {
+        "message": "Roll-axel PID-ökningar"
+    },
+    "osdDescElementPIDPitch": {
+        "message": "Looping-axel PID-ökningar"
+    },
+    "osdDescElementPIDYaw": {
+        "message": "Gir-axel PID-ökningar"
+    },
+    "osdDescElementPower": {
+        "message": "Ögonblicklig elektrisk ström-konsumtion"
+    },
+    "osdDescElementPIDRateProfile": {
+        "message": "Numerisk visning av aktiva PID- och rate-profiler"
+    },
     "osdDescElementBatteryWarning": {
         "message": "Varningstext som visas när batteriets spänning sjunker under varningströskeln"
+    },
+    "osdDescElementAvgCellVoltage": {
+        "message": "Genomsnittlig cellspänning (full batterispänning \/ antal celler)"
+    },
+    "osdDescElementPitchAngle": {
+        "message": "Numerisk looping-vinkel i grader"
+    },
+    "osdDescElementRollAngle": {
+        "message": "Numerisk roll-vinkel i grader"
+    },
+    "osdDescElementMainBattUsage": {
+        "message": "Grafisk representation av batterianvändning"
+    },
+    "osdDescElementArmedTime": {
+        "message": "Tid sedan farkosten senast aktiverades"
     },
     "osdDescElementEscTemperature": {
         "message": "Temperatur enligt ESC-telemetri"
@@ -3153,6 +3183,18 @@
     "osdDescElementNumericalVario": {
         "message": "Numerisk avläsning av vertikal hastighet (i fot eller meter baserat på enhetssysteminställning)"
     },
+    "osdDescElementCompassBar": {
+        "message": "Grafisk kompass som visar aktuell riktning"
+    },
+    "osdDescElementFlipArrow": {
+        "message": "Pil som visar vilken motorsida som pekar uppåt i sköldpaddsläge (turtle mode)"
+    },
+    "osdDescElementTimer1": {
+        "message": "Visar värdet på timer 1"
+    },
+    "osdDescElementTimer2": {
+        "message": "Visar värdet på timer 2"
+    },
     "osdDescElementRemaningTimeEstimate": {
         "message": "Uppskattad återstående flygtid"
     },
@@ -3162,8 +3204,50 @@
     "osdDescElementCoreTemperature": {
         "message": "Temperatur på STM32 MCU-kärna"
     },
+    "osdDescAntiGravity": {
+        "message": "Aktiverar en indikator när anti-gravity är påslagen"
+    },
+    "osdDescGForce": {
+        "message": "Visar hur stor G-kraft farkosten utsätts för"
+    },
+    "osdDescElementLogStatus": {
+        "message": "Blackbox-nummer och varningar"
+    },
+    "osdDescStatMaxSpeed": {
+        "message": "Högsta registrerade hastighet"
+    },
+    "osdDescStatMinBattery": {
+        "message": "Lägsta registrerade huvudbatterispänning"
+    },
+    "osdDescStatMinRssi": {
+        "message": "Lägsta registrerade RSSI"
+    },
+    "osdDescStatMaxCurrent": {
+        "message": "Högsta registrerade stömmuttag"
+    },
+    "osdDescStatUsedMah": {
+        "message": "Använd batterikapacitet"
+    },
+    "osdDescStatMaxAltitude": {
+        "message": "Högsta registrerade höjd"
+    },
+    "osdDescStatBlackbox": {
+        "message": "Procentandel av total blackbox-användning"
+    },
+    "osdDescStatEndBattery": {
+        "message": "Batterispänning vid tiden för avaktivering"
+    },
     "osdDescStatFlyTime": {
         "message": "Total tid farkosten har varit aktiverad i aktuell strömcykel"
+    },
+    "osdDescStatArmedTime": {
+        "message": "Tid sedan farkosten senast aktiverades"
+    },
+    "osdDescStatMaxDistance": {
+        "message": "Största avstånd från hemposition"
+    },
+    "osdDescStatBlackboxLogNumber": {
+        "message": "Logg-nummer för denna flygnings Blackbox-logg"
     },
     "osdSectionHelpElements": {
         "message": "Aktivera eller avaktivera OSD-element."
