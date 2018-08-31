@@ -1098,6 +1098,9 @@
     "portsSerialRx": {
         "message": "Seriell Rx"
     },
+    "portsSensorIn": {
+        "message": "Sensor-input"
+    },
     "portsTelemetryOut": {
         "message": "Telemetri-utdata"
     },
@@ -1252,6 +1255,9 @@
     },
     "rcSmoothingChannelsSmoothedHelp": {
         "message": "Kanalutjämningen gäller"
+    },
+    "rcSmoothingDerivativeTypeHelp": {
+        "message": "Typen av filtreringsmetod som används för setpoint-derivativen. De flesta användare bör använda standardvärdet \"BIQUAD\" eftersom det ger en bra balans mellan utjämning och fördröjning. \"PT1\" minskar fördröjningen något men ger mindre utjämning."
     },
     "receiverRcSmoothingDerivativeCutoff": {
         "message": "Derivativ cutoff-frekvens"
@@ -3249,6 +3255,9 @@
     "osdDescStatBlackboxLogNumber": {
         "message": "Logg-nummer för denna flygnings Blackbox-logg"
     },
+    "osdDescStatTimer1": {
+        "message": "Värdet på timer 1 vid tiden för avaktivering"
+    },
     "osdSectionHelpElements": {
         "message": "Aktivera eller avaktivera OSD-element."
     },
@@ -3345,6 +3354,9 @@
     "configurationCurrentScale": {
         "message": "Skala utspänningen till milliampere [1\/10-dels mV\/A]"
     },
+    "configurationCurrentOffset": {
+        "message": "Offset i millivolt-steg"
+    },
     "configurationBatteryMultiwiiCurrent": {
         "message": "Aktivera stöd för äldre Multiwii MSP strömutmatning"
     },
@@ -3360,14 +3372,32 @@
     "pidTuningRateProfileTip": {
         "message": "Upp till 3 olika rate-profiler per profil kan lagras på flygkontrollern. Rate-profilerna inkluderar inställningar för 'RC Rate', 'Rate', 'RC Expo', 'Throttle' och 'TPA'. Det går att att växla mellan rate-profiler under flygning, genom att konfigurera en 3-positionsswitch för 'Val av rate-profil' på fliken 'Justeringar'."
     },
+    "pidTuningDelta": {
+        "message": "Derivativ Metod"
+    },
     "pidTuningDeltaError": {
         "message": "Fel"
     },
     "pidTuningDeltaMeasurement": {
         "message": "Mätning"
     },
+    "pidTuningDeltaTip": {
+        "message": "<b>Derivativ från Fel<\/b> ger en mer direkt spakrespons och föredras oftast för racing.<br><br><b>Derivativ från Mätning<\/b> ger en mjukare spakrespons och är mer lämplig för freestyling"
+    },
+    "pidTuningPidControllerTip": {
+        "message": "<b>Legacy vs Betaflight (float):<\/b> PID-skalning och PID-logik är exakt samma. Omjustering behövs inte nödvändigtvis. Legacy är en äldre version som är en grundläggande PID-kontroller baserad på heltalsmatematik. Betaflight PID-kontroller använder flyttalsmatematik och har många nya funktioner som designats specifikt för multirotorapplikationer<br><b>Float vs Integer:<\/b>PID-skalning och PID-logik är exakt samma. Ingen omjustering behövs. F1-kort har ingen inbyggd FPU och flyttalsmatematik ökar belastningen på CPU:n. Heltalsmatematik ger bättre prestanda, men flyttalsmatematik kan ge något bättre precision."
+    },
+    "pidTuningFilterTip": {
+        "message": "<b>Gyro Soft Filter:<\/b> Lågpassfilter för gyro. Använd ett lägre värde för ökad filtrering.<br><b>D Term Filter:<\/b> Lågpassfilter för Dterm. Kan påverka D tuning. Använd ett lägre värde för ökad filtrering. <br><b>Gir-filter:<\/b> Filtrerar gir-output. Det kan hjälpa system med brus i gir-axeln."
+    },
+    "pidTuningPidTuningTip": {
+        "message": "<b>Proportionell:<\/b> En mycket stark motkraft märks vid alla försök att flytta multirotorn<br><b>Integral:<\/b> Ökar förmågan att hålla det initiala läget och minska avdrift, men ökar också fördröjningen för att återvända till initalt läge<br><b>Derivativ:<\/b> Ger en snabbare återhämtning från avvikelser, men ökar bruset<br><b>Rates och Expo<\/b>: Bestäm spakkänslan baserat på dessa parametrar. Använd grafen och live 3D-modellen för att hitta din favoritinställning för rate"
+    },
     "pidTuningPidTuningTipFeedforward": {
         "message": "<b>Proportionell:<\/b> En mycket stark motkraft märks vid alla försök att flytta multirotorn<br><b>Integral:<\/b> Ökar förmågan att hålla det initiala läget och minska avdrift, men ökar också fördröjningen för att återvända till initalt läge<br><b>Derivativ:<\/b> Ger en snabbare återhämtning från avvikelser, men ökar brus<br><b>Framkoppling (Feedforward):<\/b><br> Normalt reagerar PID-kontrollern på avvikelsen. Framkoppling förutser avvikelsen baserat på spakens läge, och gör multirotorn mer responsiv.<b>Rates och Expo<\/b>: Bestäm spakkänslan baserat på dessa parametrar. Använd grafen och live 3D-modellen för att hitta din favoritinställning för rate"
+    },
+    "pidTuningRatesTip": {
+        "message": "Testa olika rate-värden och se hur de påverkar spakkurvan"
     },
     "configurationCamera": {
         "message": "Kamera"
