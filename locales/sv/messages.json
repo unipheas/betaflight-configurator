@@ -1490,6 +1490,9 @@
     "receiverModelPreview": {
         "message": "Förhandsvisa"
     },
+    "receiverMspWarningText": {
+        "message": "Dessa spakar låter Betaflight aktiveras och testas utan tillgång till sändare eller mottagare. <strong>Denna funktion är dock inte avsedd för flygning, och propellrar får inte vara monterade.<\/strong><br><br>Denna funktion kan inte garantera tillförlitlig kontroll över farkosten. <strong>Risk för allvarlig skada om propellrarna lämnas på.<\/strong>"
+    },
     "receiverMspEnableButton": {
         "message": "Aktivera kontroller"
     },
@@ -1633,6 +1636,12 @@
     },
     "adjustmentsFunction23_2": {
         "message": "Framkopplingsövergång"
+    },
+    "adjustmentsFunction24": {
+        "message": "Horizon styrkejustering"
+    },
+    "adjustmentsFunction25": {
+        "message": "Val av PID-ljud"
     },
     "adjustmentsFunction26": {
         "message": "Looping F-justering"
