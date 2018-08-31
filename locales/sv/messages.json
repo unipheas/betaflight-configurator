@@ -1424,6 +1424,9 @@
     "pidTuningEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
     },
+    "receiverHelp": {
+        "message": "Läs kapitlet om mottagare i dokumentationen. Konfigurera en seriell port (om nödvändigt), mottagarläge (seriell\/ppm\/pwm), typ (för seriella mottagare), koppla mottagaren, välj kanalmappning, konfigurera kanalernas slutvärden\/räckvidd så att alla kanaler går från ~1000 till ~2000. Sätt mittlägena (standardvärde 1500), trimma kanalerna till 1500, konfigurera spakarnas dödband, säkerställ funktionen när TX är avstängd eller utom räckhåll.<br \/><span class=\"message-negative\">VIKTIGT:<\/span> Före flygning, läs kapitlet om failsafe i dokumentationen och konfigurera failsafe."
+    },
     "tuningHelp": {
         "message": "<b>Inställningstips<\/b><br \/><span class=\"message-negative\">VIKTIGT:<\/span> Det är viktigt att kontrollera motorernas temperatur under de första flygningarna. Ett högre filtervärde kan ge en bättre flygning, men det kommer också att ge mer brus i motorerna.<br>Standardvärdet 100 Hz är optimalt, men om du drabbas av brus kan du försöka sänka Dterm-filtret till 50 Hz och eventuellt också gyrofiltret."
     },
