@@ -1032,8 +1032,17 @@
     "configuration3d": {
         "message": "3D ESC\/Motorfunktioner"
     },
+    "configuration3dDeadbandLow": {
+        "message": "3D dödband låg"
+    },
+    "configuration3dDeadbandHigh": {
+        "message": "3D dödband hög"
+    },
     "configuration3dNeutral": {
         "message": "3D Neutral"
+    },
+    "configuration3dDeadbandThrottle": {
+        "message": "3D dödband trottel"
     },
     "configurationSystem": {
         "message": "Systemkonfiguration"
@@ -1214,6 +1223,18 @@
     "receiverRcSmoothing": {
         "message": "RC-utjämning"
     },
+    "receiverRcSmoothingAuto": {
+        "message": "Auto"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "Manuell"
+    },
+    "receiverRcDerivativeTypeSelect": {
+        "message": "Derivativ cutoff-typ"
+    },
+    "receiverRcInputTypeSelect": {
+        "message": "Input cutoff-typ"
+    },
     "receiverRcSmoothingInterpolation": {
         "message": "Interpolering"
     },
@@ -1223,8 +1244,23 @@
     "receiverRcSmoothingTypeHelp": {
         "message": "Typ av RC-utjämning som används"
     },
+    "rcSmoothingInputCutoffHelp": {
+        "message": "Cutoff-frekvensen i Hz som används av input-filtret. Lägre värden ger utjämnade inputvärden och passar bra för långsammare mottagarprotokoll. De flesta användare bör låta detta vara 0, vilket motsvarar \"Auto\"."
+    },
+    "rcSmoothingDerivativeCutoffHelp": {
+        "message": "Cutoff-frekvensen i Hz som används av setpoint derivat-filtret. Lägre värden ger utjämnade inputvärden och passar bra för långsammare mottagarprotokoll. De flesta användare bör låta detta vara 0, vilket motsvarar \"Auto\"."
+    },
     "rcSmoothingChannelsSmoothedHelp": {
         "message": "Kanalutjämningen gäller"
+    },
+    "receiverRcSmoothingDerivativeCutoff": {
+        "message": "Derivativ cutoff-frekvens"
+    },
+    "receiverRcInputType": {
+        "message": "Input-filtertyp"
+    },
+    "receiverRcDerivativeType": {
+        "message": "Derivativ filtertyp"
     },
     "receiverRcSmoothingDerivativeTypeOff": {
         "message": "Av"
@@ -1235,6 +1271,9 @@
     "receiverRcInterpolation": {
         "message": "RC-Interpolering"
     },
+    "receiverRcInterpolationHelp": {
+        "message": "RC TX\/RX-system är inte lika snabba som PID-loopar. Det innebär att PID-loopar har luckor i informationsströmmen från RC-systemen. Detta alternativ aktiverar interpolering av RC-input under de perioder inga RC-värden tas emot. Alternativet ger också renare P- och D-beteende eftersom det inte finns några hopp i inputvärdena."
+    },
     "receiverRcInterpolationIntervalHelp": {
         "message": "Interpolationsintervall för manuellt RC-interpoleringsläge i millisekunder"
     },
@@ -1244,6 +1283,15 @@
     "receiverRcSmoothingType": {
         "message": "Utjämningstyp"
     },
+    "receiverRcInterpolationDefault": {
+        "message": "Förval"
+    },
+    "receiverRcInterpolationAuto": {
+        "message": "Auto"
+    },
+    "receiverRcInterpolationManual": {
+        "message": "Manuell"
+    },
     "receiverRcInterpolationInterval": {
         "message": "RC-interpolationsintervall [ms]"
     },
@@ -1252,6 +1300,15 @@
     },
     "pidTuningFeedforwardTransitionHelp": {
         "message": "Med denna parameter kan framkopplings-termen reduceras nära mitten av spakarna, vilket resulterar i jämnare avslut på flippar och rollar.<br> Värdet representerar en böjningspunkt: 0 - spaken centrerad, 1 - full böjning. När spaken är över denna punkt, hålls framkoppling konstant vid sitt konfigurerade värde. När spaken är under denna punkt, reduceras framkoppling proportionellt, och blir 0 vid spakens mittposition.<br> Värdet 1 ger maximal utjämningseffekt, medan värdet 0 håller framkoppling konstant vid sitt konfigurerade värde över hela spakens räckvidd."
+    },
+    "pidTuningDtermSetpointTransition": {
+        "message": "D setpoint-övergång"
+    },
+    "pidTuningDtermSetpoint": {
+        "message": "D setpoint-vikt"
+    },
+    "pidTuningDtermSetpointTransitionHelp": {
+        "message": "Med denna parameter kan D setpoint-vikten reduceras nära mitten av spakarna, vilket resulterar i jämnare avslut på flippar och rollar.<br> Värdet representerar en böjningspunkt: 0 - spaken centrerad, 1 - full böjning. När spaken är över denna punkt, hålls setpoint-vikten konstant vid sitt konfigurerade värde. När spaken är under denna punkt, reduceras setpoint-vikten proportionellt, och blir 0 vid spakens mittposition.<br> Värdet 1 ger maximal utjämningseffekt, medan värdet 0 håller setpoint-vikten konstant vid sitt konfigurerade värde över hela spakens räckvidd."
     },
     "pidTuningProportional": {
         "message": "Proportional"
