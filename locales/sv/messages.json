@@ -1401,10 +1401,10 @@
         "message": "Laddade standard-profilvärden."
     },
     "pidTuningLoadedProfile": {
-        "message": "Laddad profil: <strong class=\"message-positive\">$1<\/strong>"
+        "message": "Laddade profil: <strong class=\"message-positive\">$1<\/strong>"
     },
     "pidTuningLoadedRateProfile": {
-        "message": "Laddad rate-profil: <strong class=\"message-positive\">$1<\/strong>"
+        "message": "Laddade rate-profil: <strong class=\"message-positive\">$1<\/strong>"
     },
     "pidTuningDataRefreshed": {
         "message": "PID-data <strong>uppdaterat<\/strong>"
