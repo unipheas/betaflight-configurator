@@ -964,7 +964,7 @@
         "message": "Dshot-signalfyren använder ESC:erna och motorerna för att producera ljud. Detta innebär att Dshot-signalfyren inte kan användas medan motorerna roterar. I Betaflight 3.4 och nyare, när motoraktivering påbörjas medan Dshot-signalfyren är aktiv, blir det en 2-sekunders paus efter den sista Dshot-signalfyrtonen innan farkosten aktiveras. Detta är för att förhindra att Dshot-signalfyrfunktionen stör Dshot-kommandon som sänds vid motoraktivering.<br\/><strong>Varning:<\/strong> Eftersom Dshot-signalfyren skickar ström genom motorerna när den är aktiv, kan detta orsaka alltför stor värmeproduktion och skador på motorerna och \/ eller ESC:erna om signalfyrens styrka är för hög. Använd BLHeli Configurator eller BLHeli Suite för att justera och testa signalfyrens styrka."
     },
     "configurationBeeper": {
-        "message": "Pip-konfiguration"
+        "message": "Konfiguration av ljudsignal"
     },
     "beeperGYRO_CALIBRATED": {
         "message": "Piper när gyron har kalibrerats"
@@ -3099,6 +3099,9 @@
     "osdSetupUnsupportedNote1": {
         "message": "Din flygkontroller svarar inte på OSD-kommandon. Detta innebär förmodligen att den inte har en integrerad BetaFlight-OSD."
     },
+    "osdSetupUnsupportedNote2": {
+        "message": "Notera att vissa flygkontrollers har en inbyggd <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a> som kan flashas och konfigureras med <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>, dock kan MinimOSD inte konfigureras via detta gränssnitt."
+    },
     "osdSetupElementsTitle": {
         "message": "Element"
     },
@@ -3124,7 +3127,7 @@
         "message": "Larm"
     },
     "osdSetupStatsTitle": {
-        "message": "Efter flyg-statistik"
+        "message": "'Efter flygning'-statistik"
     },
     "osdSetupVtxTitle": {
         "message": "VTX-inställningar"
@@ -3297,6 +3300,9 @@
     "osdDescElementArmedTime": {
         "message": "Tid sedan farkosten senast aktiverades"
     },
+    "osdDescElementWarnings": {
+        "message": "Larm (t ex lågt batteri), varningar (t ex aktiveringshinder, kritiskt lågt batteri) och visuell ljudsignal (4 blinkande asterisker)."
+    },
     "osdDescElementEscTemperature": {
         "message": "Temperatur enligt ESC-telemetri"
     },
@@ -3305,6 +3311,9 @@
     },
     "osdDescElementRtcDateTime": {
         "message": "Datum \/ tid från realtidsklocka"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "Inställning och värde för justeringsområde som är aktivt nu"
     },
     "osdDescElementHomeDirection": {
         "message": "Pil som visar riktning till hemposition"
@@ -3414,6 +3423,9 @@
     "osdWarningBatteryCritical": {
         "message": "Varnar när batteriets spänning sjunker under minsta genomsnittliga cellspänning"
     },
+    "osdWarningVisualBeeper": {
+        "message": "Visar en visualisering av ljudsignalen (visas som 4 asterisker)"
+    },
     "osdSectionHelpElements": {
         "message": "Aktivera eller avaktivera OSD-element."
     },
@@ -3428,6 +3440,9 @@
     },
     "osdSectionHelpAlarms": {
         "message": "Sätt tröskelvärden för OSD-element med alarmlägen."
+    },
+    "osdSectionHelpStats": {
+        "message": "Sätt värdena som visas på skärmen för 'efter flygning'-statistik."
     },
     "osdSectionHelpWarnings": {
         "message": "Aktivera eller avaktivera varningar som visas på WARNINGS-elementet."
