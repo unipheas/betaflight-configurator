@@ -2760,8 +2760,17 @@
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID-kompensation"
     },
+    "pidTuningItermRotation": {
+        "message": "I Term-rotation"
+    },
     "pidTuningSmartFeedforward": {
         "message": "Smart framkoppling"
+    },
+    "pidTuningItermRelax": {
+        "message": "I Term Relax"
+    },
+    "pidTuningItermRelaxHelp": {
+        "message": "Begränsar ackumuleringen av I Term när snabba rörelser inträffar. Detta hjälper särskilt till med att reducera tillbakastuds vid slutet av rollar och andra snabba rörelser. Du kan välja vilka axlar detta ska aktiveras på, och om den snabba rörelsen ska upptäckas av gyron eller setpointen (spaken)."
     },
     "pidTuningItermRelaxAxes": {
         "message": "Axlar:"
@@ -2789,6 +2798,9 @@
     },
     "pidTuningAbsoluteControlGain": {
         "message": "Absolut kontroll"
+    },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "Denna funktion löser några underliggande problem med I Term-rotation och kommer förhoppningsvis så småningom att helt ersätta den. Funktionen ackumulerar det absoluta gyro-felet i quad-koordinater och mixar in en proportionell korrektion i setpointen. Den måste ha iterm_relax aktiv för RPY."
     },
     "pidTuningThrottleBoost": {
         "message": "Trottelförstärkning"
