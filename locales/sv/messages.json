@@ -1310,6 +1310,9 @@
     "pidTuningDtermSetpointTransitionHelp": {
         "message": "Med denna parameter kan D setpoint-vikten reduceras nära mitten av spakarna, vilket resulterar i jämnare avslut på flippar och rollar.<br> Värdet representerar en böjningspunkt: 0 - spaken centrerad, 1 - full böjning. När spaken är över denna punkt, hålls setpoint-vikten konstant vid sitt konfigurerade värde. När spaken är under denna punkt, reduceras setpoint-vikten proportionellt, och blir 0 vid spakens mittposition.<br> Värdet 1 ger maximal utjämningseffekt, medan värdet 0 håller setpoint-vikten konstant vid sitt konfigurerade värde över hela spakens räckvidd."
     },
+    "pidTuningDtermSetpointTransitionWarning": {
+        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong> Användning av en D setpoint-övergång mellan 0 och 0.1 avråds bestämt. Det kan resultera i instabilitet och sämre spakrespons när spakarna korsar mittpunkten.<\/span>"
+    },
     "pidTuningProportional": {
         "message": "Proportional"
     },
@@ -1400,6 +1403,12 @@
     "pidTuningProfileReset": {
         "message": "Laddade standard-profilvärden."
     },
+    "pidTuningReceivedProfile": {
+        "message": "Flygkontrollern aktiverade profil: <strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningReceivedRateProfile": {
+        "message": "Flygkontrollern aktiverade rate-profil: <strong class=\"message-positive\">$1<\/strong>"
+    },
     "pidTuningLoadedProfile": {
         "message": "Laddade profil: <strong class=\"message-positive\">$1<\/strong>"
     },
@@ -1411,6 +1420,21 @@
     },
     "pidTuningEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">sparad<\/span>"
+    },
+    "receiverThrottleMid": {
+        "message": "Trottel MITT"
+    },
+    "receiverThrottleExpo": {
+        "message": "Trottel EXPO"
+    },
+    "receiverStickMin": {
+        "message": "'Spak låg'-tröskel"
+    },
+    "receiverStickCenter": {
+        "message": "Spak-mittläge"
+    },
+    "receiverStickMax": {
+        "message": "'Spak hög'-tröskel"
     },
     "receiverChannelMap": {
         "message": "Kanalmappning"
