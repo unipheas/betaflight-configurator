@@ -2001,7 +2001,7 @@
         "message": "Din flygkontrollers firmware stödjer inte Blackbox-loggning."
     },
     "blackboxMaybeSupported": {
-        "message": "Din flygkontrollers firmware är för gammal för att stödja denna flik, eller så är Blackbox-funktionen avaktiverad på Konfigurations-fliken."
+        "message": "Din flygkontrollers firmware är för gammal för att stödja denna flik, eller så är Blackbox-funktionen inaktiverad på Konfigurations-fliken."
     },
     "blackboxConfiguration": {
         "message": "Blackbox-konfiguration"
@@ -2733,6 +2733,9 @@
     "failsafeThrottleItem": {
         "message": "Trottelvärde som används under landning"
     },
+    "failsafeOffDelayHelp": {
+        "message": "Tid att stanna kvar i landningsläge tills motorerna stängts av och farkosten är avaktiverad"
+    },
     "failsafeSubTitle1": {
         "message": "Steg 2 - Failsafe-procedur"
     },
@@ -2964,11 +2967,29 @@
     "osdSetupElementsTitle": {
         "message": "Element"
     },
+    "osdSetupElementsSwitchAll": {
+        "message": "Växla alla"
+    },
+    "osdSetupPreviewTitle": {
+        "message": "Förhandsvisning (dra för att ändra position)"
+    },
+    "osdSetupPreviewTitleTip": {
+        "message": "Visa eller dölj logo i förhandsvisningen. Detta ändrar inga inställningar i flygkontrollern."
+    },
     "osdSetupVideoFormatTitle": {
         "message": "Videoformat"
     },
     "osdSetupUnitsTitle": {
         "message": "Enheter"
+    },
+    "osdSetupTimersTitle": {
+        "message": "Timers"
+    },
+    "osdSetupAlarmsTitle": {
+        "message": "Larm"
+    },
+    "osdSetupStatsTitle": {
+        "message": "Efter flyg-statistik"
     },
     "osdSetupVtxTitle": {
         "message": "VTX-inställningar"
@@ -2981,6 +3002,9 @@
     },
     "osdSetupFontPresets": {
         "message": "Teckensnitts-förval:"
+    },
+    "osdSetupFontPresetsSelector": {
+        "message": "Välj förinställningar för teckensnitt:"
     },
     "osdSetupFontPresetsSelectorOr": {
         "message": "eller"
@@ -3002,6 +3026,15 @@
     },
     "osdSetupCustomLogoInfoColorMap": {
         "message": "Måste innehålla gröna, svarta och vita bildpunkter"
+    },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "Klicka <b>$t(osdSetupUploadFont.message)<\/b> för att behålla den anpassade logon"
+    },
+    "osdSetupCustomLogoImageSizeError": {
+        "message": "Ogiltig bildstorlek: {{width}}×{{height}} (förväntat $t(logoWidthPx)×$t(logoHeightPx))"
+    },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "Bilden innehåller en ogiltig bildpunkt: rgb({{valueR}}, {{valueG}}, {{valueB}}) vid koordinaterna {{posX}}×{{posY}}"
     },
     "osdSetupUploadFont": {
         "message": "Ladda upp teckensnitt"
@@ -3029,6 +3062,51 @@
     },
     "osdSetupCameraConnectedValueNo": {
         "message": "Nej"
+    },
+    "osdSetupResetText": {
+        "message": "Återställ OSD till standardinställning"
+    },
+    "osdSetupButtonReset": {
+        "message": "Återställ inställningar"
+    },
+    "osdDescElementMainBattVoltage": {
+        "message": "Ögonblicklig huvudbatterispänning (blinkar om larmtröskeln ej överskridits)"
+    },
+    "osdDescElementRssiValue": {
+        "message": "Ögonblickligt RSSI-värde (blinkar om larmtröskeln ej överskridits)"
+    },
+    "osdDescElementThrottlePosition": {
+        "message": "Aktuellt trottelkanalvärde"
+    },
+    "osdDescElementArmed": {
+        "message": "Textmeddelande vid motoraktivering"
+    },
+    "osdDescElementDisarmed": {
+        "message": "Textmeddelande vid motoravaktivering"
+    },
+    "osdDescElementCrosshairs": {
+        "message": "Hårkors för skärmens mittpunkt"
+    },
+    "osdDescElementArtificialHorizon": {
+        "message": "Grafisk artificiell horisontindikator"
+    },
+    "osdDescElementHorizonSidebars": {
+        "message": "Staplar runt grafisk artificiell horisontindikator"
+    },
+    "osdDescElementCurrentDraw": {
+        "message": "Ögonblicklig aktuell batteriförbrukning"
+    },
+    "osdDescElementMahDrawn": {
+        "message": "Total använd batterikapacitet"
+    },
+    "osdDescElementCraftName": {
+        "message": "Farkostnamnet som det angivits i Konfigurationsfliken"
+    },
+    "osdDescElementAltitude": {
+        "message": "Aktuell höjd (blinkar om larmtröskeln överskridits)"
+    },
+    "osdDescElementOnTime": {
+        "message": "Total tid farkosten varit påslagen"
     },
     "osdDescElementFlyTime": {
         "message": "Total tid farkosten har varit aktiverad i aktuell strömcykel (blinkar om larmtröskeln överskridits)"
@@ -3074,6 +3152,15 @@
     },
     "osdDescElementNumericalVario": {
         "message": "Numerisk avläsning av vertikal hastighet (i fot eller meter baserat på enhetssysteminställning)"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Uppskattad återstående flygtid"
+    },
+    "osdDescElementUnknown": {
+        "message": "Okänt element (detaljer tillkommer i en kommande utgåva)"
+    },
+    "osdDescElementCoreTemperature": {
+        "message": "Temperatur på STM32 MCU-kärna"
     },
     "osdDescStatFlyTime": {
         "message": "Total tid farkosten har varit aktiverad i aktuell strömcykel"
