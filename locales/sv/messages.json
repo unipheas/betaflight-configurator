@@ -1482,7 +1482,7 @@
         "message": "Gir dödband"
     },
     "receiverHelpYawDeadband": {
-        "message": "Dessa är värden (i μx) som anger hur mycket RC-input kan förändras innan det anses giltigt. För sändare med brus kan detta värde ökas om RC-inputvärdena rör sig fast reglagen inte används.<strong>Denna inställning gäller endast Gir.<\/strong>"
+        "message": "Dessa är värden (i μs) som anger hur mycket RC-input kan förändras innan det anses giltigt. För sändare med brus kan detta värde ökas om RC-inputvärdena rör sig fast reglagen inte används.<strong>Denna inställning gäller endast Gir.<\/strong>"
     },
     "recevier3dDeadbandThrottle": {
         "message": "3D-trottel dödband"
@@ -1925,6 +1925,9 @@
     "servoNumber8": {
         "message": "Servo - 8"
     },
+    "motorsResetMaximumButton": {
+        "message": "Återst."
+    },
     "motorsResetMaximum": {
         "message": "Nollställ maxvärden över tid"
     },
@@ -2288,8 +2291,17 @@
     "firmwareFlasherHash": {
         "message": "Hash:"
     },
+    "firmwareFlasherUrl": {
+        "message": "Gå till GitHub för att granska ändringen..."
+    },
     "firmwareFlasherMessage": {
         "message": "Meddelande:"
+    },
+    "firmwareFlasherWarningText": {
+        "message": "Försök <span class=\"message-negative\">inte<\/span> uppdatera <strong>icke-Betaflight<\/strong>-hårdvara med denna firmware-uppdaterare.<br \/><strong>Koppla<\/strong> <span class=\"message-negative\">inte<\/span> <strong>bort<\/strong> styrkortet eller <strong>stäng av <\/strong> din dator medan uppdatering pågår.<br \/><br \/><strong>Observera: <\/strong>STM32-bootloadern är lagrad i ROM, den kan inte förstöras.<br \/><strong>Observera: <\/strong><span class=\"message-negative\">Anslut automatiskt<\/span> är alltid inaktiverad medan Firmware-uppdateraren är aktiv.<br \/><strong>Observera: <\/strong>Säkerställ att du har gjort en säkerhetskopia; vissa uppdateringar\/nedgraderingar kommer att radera din konfiguration.<br \/><strong>Observera:<\/strong> Om du har problem med att uppdatera, <strong>försök att koppla loss alla kablar från din flygkontroller<\/strong> först, starta om, uppgradera Chrome, uppgradera drivrutiner.<br \/><strong>Observera:<\/strong> Vid uppdatering av styrkort som har direktanslutna USB-uttag (de flesta nyare styrkort), läs först USB Flashing-sektionen i Betaflight-manualen och se till att rätt programvara och drivrutiner är installerade."
+    },
+    "firmwareFlasherRecoveryHead": {
+        "message": "<strong>Återställning \/ tappad kommunikation<\/strong>"
     },
     "firmwareFlasherRecoveryText": {
         "message": "Om du har tappat kommunikationen med ditt styrkort, följ dessa steg för att återställa kommunikationen: <ul><li>Stäng av strömmen<\/li><li>Aktivera 'Ingen omstartssekvens', aktivera 'Fullständing chip-radering'.<\/li><li>Bygla BOOT-pinnarna eller håll in BOOT-knappen.<\/li><li>Slå på strömmen (aktivitets-LED:en kommer INTE att blinka om utfört korrekt).<\/li><li>Installera alla STM32-drivrutiner och Zadig om det krävs (se <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a>-sektionen i Betaflight-manualen).<\/li><li>Stäng Konfigurator, Stäng alla öppna instanser av Chrome, stäng alla Chrome-appar, starta om Konfigurator.<\/li><li>Släpp BOOT-knappen om din flygkontroller har en sådan.<\/li><li>Uppdatera med korrekt firmware (använd manuell baudhastighet om en sådan specificeras i flygkontrollerns manual).<\/li><li>Stäng av strömmen.<\/li><li>Ta bort BOOT-byglingen.<\/li><li>Slå på strömmen (aktivitets-LED:en ska blinka).<\/li><li>Anslut på vanligt sätt.<\/li><\/ul>"
@@ -2766,6 +2778,18 @@
     "configHelp2": {
         "message": "Godtycklig styrkortsrotation i grader, för att möjliggöra montering sidledes \/ upp och ner \/ roterat etc. Vid användning av externa sensorer, använd sensorinriktning (Gyro, Acc, Mag) för att definiera sensorpositionen oberoende från styrkortsrotationen."
     },
+    "failsafePaneTitleOld": {
+        "message": "Mottagar-failsafe"
+    },
+    "failsafeFeaturesHelpNew": {
+        "message": "Failsafe har två etapper. <strong>Etapp 1<\/strong> påbörjas när en flygkanal har ogiltig pulslängd, mottagaren rapporterar failsafe-läge eller om mottagaren inte får någon signal alls. Kanalens reservinställningar tillämpas på <span class=\"message-negative\">alla kanaler<\/span> och under en kort tidsperiod är det möjligt att återhämta från felläget. <strong>Etapp 2<\/strong> påbörjas när felläget kvarstår under längre tid än den konfigurerade väntetiden medan farkosten är <span class=\"message-negative\">aktiverad<\/span>. Alla kanaler kommer att behålla de tillämpade reservinställningarna om dessa inte övertrumfas av den valda proceduren.<br \/> <strong>Observera:<\/strong> Innan etapp 1 påbörjas kommer reservinställningar även att tillämpas på individuella AUX-kanaler som har ogiltiga pulser."
+    },
+    "failsafePulsrangeTitle": {
+        "message": "Giltiga pulslängdsinställningar"
+    },
+    "failsafePulsrangeHelp": {
+        "message": "Pulser kortare än minimum eller längre än maximum är ogiltiga och kommer att initiera tillämpningen av individuella reservinställningar för AUX-kanaler eller påbörja etapp 1 för flygkanaler"
+    },
     "failsafeRxMinUsecItem": {
         "message": "Minimilängd"
     },
@@ -2775,14 +2799,32 @@
     "failsafeChannelFallbackSettingsTitle": {
         "message": "Standardinställningar för kanaler"
     },
+    "failsafeChannelFallbackSettingsHelp": {
+        "message": "Dessa inställningar tillämpas på ogiltiga individuella AUX-kanaler eller på alla kanaler när etapp 1 påbörjas. <strong>Observera:<\/strong> värden sparas i steg om 25 μs, vilket innebär att mindre ändringar kommer att försvinna"
+    },
     "failsafeStageTwoSettingsTitle": {
         "message": "Etapp 2 - Inställningar"
+    },
+    "failsafeDelayItem": {
+        "message": "Väntetid för aktivering av etapp 2 efter att signalen förlorats [1 = 0.1 sek.]"
+    },
+    "failsafeDelayHelp": {
+        "message": "Tiden som etapp 1 väntar på återhämtning"
+    },
+    "failsafeThrottleLowItem": {
+        "message": "Failsafe \"trottel låg\"-fördröjning [1 = 0.1 sek.]"
+    },
+    "failsafeThrottleLowHelp": {
+        "message": "Avaktivera farkosten istället för att utföra den valda failsafe-proceduren när trotteln varit låg under denna tidsperiod"
     },
     "failsafeThrottleItem": {
         "message": "Trottelvärde som används under landning"
     },
+    "failsafeOffDelayItem": {
+        "message": "Fördröjning innan motorerna stängs av under Failsafe [1 = 0.1 sek.]"
+    },
     "failsafeOffDelayHelp": {
-        "message": "Tid att stanna kvar i landningsläge tills motorerna stängts av och farkosten är avaktiverad"
+        "message": "Tid att stanna kvar i landningsläge innan motorerna stängs av och farkosten avaktiveras"
     },
     "failsafeSubTitle1": {
         "message": "Etapp 2 - Failsafe-procedur"
@@ -2792,6 +2834,24 @@
     },
     "failsafeProcedureItemSelect2": {
         "message": "Fall ner"
+    },
+    "failsafeKillSwitchItem": {
+        "message": "Failsafe Stäng av-switch (konfigurera Failsafe i fliken Lägen)"
+    },
+    "failsafeSwitchTitle": {
+        "message": "Failsafe-switch"
+    },
+    "failsafeSwitchModeItem": {
+        "message": "Failsafe-switchåtgärd"
+    },
+    "failsafeSwitchOptionStage1": {
+        "message": "Etapp 1"
+    },
+    "failsafeSwitchOptionStage2": {
+        "message": "Etapp 2"
+    },
+    "failsafeSwitchOptionKill": {
+        "message": "Stäng av"
     },
     "powerButtonSave": {
         "message": "Spara"
