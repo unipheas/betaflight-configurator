@@ -3478,11 +3478,20 @@
     "osdTimerSource": {
         "message": "Källa:"
     },
+    "osdTimerSourceTooltip": {
+        "message": "Välj timer-källa, detta styr varaktigheten\/händelsen som timern mäter"
+    },
     "osdTimerPrecision": {
         "message": "Precision:"
     },
+    "osdTimerPrecisionTooltip": {
+        "message": "Välj timer-precision, detta styr vilken precision tiden rapporteras i"
+    },
     "osdTimerAlarm": {
         "message": "Larm:"
+    },
+    "osdTimerAlarmTooltip": {
+        "message": "Välj tidslarmets tröskel i minuter, när tiden överskrider detta värde kommer OSD-elementet att blinka, sätt denna till 0 för att inaktivera larmet"
     },
     "osdWarningArmingDisabled": {
         "message": "Rapporterar den viktigaste orsaken till att motoraktivering inte är tillåten"
@@ -3498,6 +3507,9 @@
     },
     "osdWarningVisualBeeper": {
         "message": "Visar en visualisering av ljudsignalen (visas som 4 asterisker)"
+    },
+    "osdWarningCrashFlipMode": {
+        "message": "Varnar när \"flippa över efter krasch\"-läge aktiveras"
     },
     "osdWarningEscFail": {
         "message": "Räknar upp en lista med de ESC:er\/motorer som fallerar (RPM eller temperatur är utanför konfigurerade tröskelvärden)"
