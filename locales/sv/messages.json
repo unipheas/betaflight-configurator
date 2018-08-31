@@ -952,7 +952,7 @@
         "message": "Detta är det värde som skickas till ESC:erna när farkosten är inaktiverad. Sätt detta till ett värde som stoppar motorerna (1000 för de flesta ESC:er)."
     },
     "configurationDshotBeeper": {
-        "message": "Dshot signalfyr-konfiguration"
+        "message": "Konfiguration av Dshot signalfyr"
     },
     "configurationUseDshotBeeper": {
         "message": "Använd Dshot signalfyr (använd motorerna för att sända ljud vid motorinaktivering)"
@@ -967,13 +967,13 @@
         "message": "Konfiguration av ljudsignal"
     },
     "beeperGYRO_CALIBRATED": {
-        "message": "Piper när gyron har kalibrerats"
+        "message": "Pip när gyron har kalibrerats"
     },
     "beeperRX_LOST": {
-        "message": "Piper när TX har stängs av eller signalen tappats (repeteras tills TX är ok igen)"
+        "message": "Pip när TX har stängs av eller signalen tappats (repeteras tills TX är ok igen)"
     },
     "beeperRX_LOST_LANDING": {
-        "message": "Piper SOS när farkosten är aktiv och TX stängs av eller signalen tappas (autolandning\/autoinaktivering)"
+        "message": "Pip SOS när farkosten är aktiv och TX stängs av eller signalen tappas (autolandning\/autoinaktivering)"
     },
     "beeperDISARMING": {
         "message": "Pip när flygkontrollern inaktiveras"
@@ -994,7 +994,7 @@
         "message": "Använd antalet pip för att indikera hur många GPS-satelliter som hittats"
     },
     "beeperRX_SET": {
-        "message": "Piper när aux-kanal är konfigurerad för pip"
+        "message": "Pip när aux-kanal är konfigurerad för pip"
     },
     "beeperACC_CALIBRATION": {
         "message": "Accelerometerns inflygningskalibrering slutförd - bekräftelse"
@@ -2520,7 +2520,7 @@
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripWiringClearControl": {
-        "message": "Avmarkera valda",
+        "message": "Rensa valda",
         "description": "Control button in the wiring modes in Led Strip"
     },
     "ledStripVtxFunction": {
@@ -2843,6 +2843,9 @@
     },
     "failsafeChannelFallbackSettingsAuto": {
         "message": "<strong>Auto<\/strong> innebär Roll, Looping och Gir i centerläge och Trottel låg. <strong>Håll<\/strong> innebär att det senaste mottagna giltiga värdet behålls"
+    },
+    "failsafeChannelFallbackSettingsHold": {
+        "message": "<strong>Håll<\/strong> innebär att det senaste mottagna giltiga värdet behålls. <strong>Sätt<\/strong> innebär att värdet som anges här kommer att användas"
     },
     "failsafeStageTwoSettingsTitle": {
         "message": "Etapp 2 - Inställningar"
