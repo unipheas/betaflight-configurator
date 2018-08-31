@@ -2782,8 +2782,14 @@
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID-kompensation"
     },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Ökar PID-värdena för att kompensera när Vbat minskar. Detta ger en mer konstant flygkaraktäristik genom hela flygningen. Mängden kompensation som används beräknas av $t(powerBatteryMaximum.message) som sätts på sidan $t(tabPower.message), så säkerställ att den är satt till ett lämpligt värde."
+    },
     "pidTuningItermRotation": {
         "message": "I Term-rotation"
+    },
+    "pidTuningItermRotationHelp": {
+        "message": "Roterar den aktuella I Term-vektorn på lämpligt sätt till andra axlar när farkosten roterar med konstant gir under rollar och vid \"funnels\" och andra trick. Mycket uppskattat av LOS acro-piloter."
     },
     "pidTuningSmartFeedforward": {
         "message": "Smart framkoppling"
@@ -3130,6 +3136,9 @@
     "powerBatteryConnectedValueYes": {
         "message": "Ja (Celler: $1)"
     },
+    "powerBatteryConnectedValueNo": {
+        "message": "Nej"
+    },
     "powerBatteryVoltage": {
         "message": "Spänning"
     },
@@ -3469,6 +3478,12 @@
     "osdTimerAlarm": {
         "message": "Larm:"
     },
+    "osdWarningArmingDisabled": {
+        "message": "Rapporterar den viktigaste orsaken till att motoraktivering inte är tillåten"
+    },
+    "osdWarningBatteryNotFull": {
+        "message": "Varnar när ett ej fullt laddat batteri ansluts"
+    },
     "osdWarningBatteryWarning": {
         "message": "Varnar när batteriets spänning sjunker under varningströskeln"
     },
@@ -3477,6 +3492,9 @@
     },
     "osdWarningVisualBeeper": {
         "message": "Visar en visualisering av ljudsignalen (visas som 4 asterisker)"
+    },
+    "osdWarningEscFail": {
+        "message": "Räknar upp en lista med de ESC:er\/motorer som fallerar (RPM eller temperatur är utanför konfigurerade tröskelvärden)"
     },
     "osdSectionHelpElements": {
         "message": "Aktivera eller avaktivera OSD-element."
