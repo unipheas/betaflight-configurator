@@ -1556,8 +1556,17 @@
     "auxiliaryAutoChannelSelect": {
         "message": "AUTO"
     },
+    "adjustmentsHelp": {
+        "message": "Konfigurera justerings-switchar. Se avsnittet 'In-flight adjustments' i manualen för detaljer. Ändringarna som justeringsfunktionerna utför sparas inte automatiskt. Det finns 4 platser. Varje switch som används för att göra samtidiga justeringar kräver exklusiv användning av en plats."
+    },
     "adjustmentsExamples": {
         "message": "Exempel"
+    },
+    "adjustmentsExample1": {
+        "message": "Använd plats 1 och en 3POS-switch på AUX1 för att välja mellan Looping\/Roll P, I och D och en annan 3POS-switch på AUX2 för att öka eller minska värdet när den fälls uppåt eller nedåt."
+    },
+    "adjustmentsExample2": {
+        "message": "Använd plats 2 och en 3POS-switch på AUX4 för att aktivera Rate-profilval via samma 3POS-switch på samma kanal."
     },
     "adjustmentsColumnEnable": {
         "message": "Om aktiverad"
@@ -1948,6 +1957,9 @@
     },
     "sensorsInfo": {
         "message": "Tänk på att användning av snabba uppdateringsperioder och många grafer samtidigt är resurskrävande och kommer att dra ur batteriet snabbare om du använder en bärbar dator.<br \/>Vi rekommenderar att bara visa grafer för sensorer du är intresserad av, och använda rimliga uppdateringsperioder."
+    },
+    "sensorsRefresh": {
+        "message": "Uppdat:"
     },
     "sensorsScale": {
         "message": "Skala:"
@@ -2802,6 +2814,9 @@
     "failsafeChannelFallbackSettingsHelp": {
         "message": "Dessa inställningar tillämpas på ogiltiga individuella AUX-kanaler eller på alla kanaler när etapp 1 påbörjas. <strong>Observera:<\/strong> värden sparas i steg om 25 μs, vilket innebär att mindre ändringar kommer att försvinna"
     },
+    "failsafeChannelFallbackSettingsAuto": {
+        "message": "<strong>Auto<\/strong> innebär Roll, Looping och Gir i centerläge och Trottel låg. <strong>Håll<\/strong> innebär att det senaste mottagna giltiga värdet behålls"
+    },
     "failsafeStageTwoSettingsTitle": {
         "message": "Etapp 2 - Inställningar"
     },
@@ -2837,6 +2852,9 @@
     },
     "failsafeKillSwitchItem": {
         "message": "Failsafe Stäng av-switch (konfigurera Failsafe i fliken Lägen)"
+    },
+    "failsafeKillSwitchHelp": {
+        "message": "Aktivera detta alternativ för att låta failsafe-switchen (fliken Lägen) fungera som en avstängningsswitch, så att den övertrumfar den valda failsafe-proceduren. <strong>Observera:<\/strong> Motoraktivering kan blockeras med failsafe-avstängningsswitchen i ON-position"
     },
     "failsafeSwitchTitle": {
         "message": "Failsafe-switch"
