@@ -1335,13 +1335,13 @@
         "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong> Användning av en D setpoint-övergång mellan 0 och 0.1 avråds bestämt. Det kan resultera i instabilitet och sämre spakrespons när spakarna korsar mittpunkten.<\/span>"
     },
     "pidTuningProportional": {
-        "message": "Proportional"
+        "message": "Proportionell"
     },
     "pidTuningIntegral": {
-        "message": "Integral"
+        "message": "Integrering"
     },
     "pidTuningDerivative": {
-        "message": "Derivativ"
+        "message": "Derivering"
     },
     "pidTuningFeedforward": {
         "message": "Framkoppling (Feedforward)"
@@ -3590,7 +3590,7 @@
         "message": "Magnetometer (om stöd finns)"
     },
     "configurationSmallAngle": {
-        "message": "Maximal aktiveringsvinkel [degrees]"
+        "message": "Maximal aktiveringsvinkel [grader]"
     },
     "configurationSmallAngleHelp": {
         "message": "Farkosten kommer inte att aktiveras om den lutar mer än det angivna antalet grader. Detta gäller bara om accelerometer är aktiverad. Sätt värdet till 180 för att stänga av funktionen"
@@ -3665,7 +3665,7 @@
         "message": "<b>Proportionell:<\/b> En mycket stark motkraft märks vid alla försök att flytta multirotorn<br><b>Integral:<\/b> Ökar förmågan att hålla det initiala läget och minska avdrift, men ökar också fördröjningen för att återvända till initalt läge<br><b>Derivativ:<\/b> Ger en snabbare återhämtning från avvikelser, men ökar bruset<br><b>Rates och Expo<\/b>: Bestäm spakkänslan baserat på dessa parametrar. Använd grafen och live 3D-modellen för att hitta din favoritinställning för rate"
     },
     "pidTuningPidTuningTipFeedforward": {
-        "message": "<b>Proportionell:<\/b> En mycket stark motkraft märks vid alla försök att flytta multirotorn<br><b>Integral:<\/b> Ökar förmågan att hålla det initiala läget och minska avdrift, men ökar också fördröjningen för att återvända till initalt läge<br><b>Derivativ:<\/b> Ger en snabbare återhämtning från avvikelser, men ökar brus<br><b>Framkoppling (Feedforward):<\/b><br> Normalt reagerar PID-kontrollern på avvikelsen. Framkoppling förutser avvikelsen baserat på spakens läge, och gör multirotorn mer responsiv.<b>Rates och Expo<\/b>: Bestäm spakkänslan baserat på dessa parametrar. Använd grafen och live 3D-modellen för att hitta din favoritinställning för rate"
+        "message": "<b>Proportionell:<\/b> En mycket stark motkraft märks vid alla försök att flytta multirotorn<br><b>Integration:<\/b> Ökar förmågan att hålla det initiala läget och minska avdrift, men ökar också fördröjningen för att återvända till initalt läge<br><b>Derivering:<\/b> Ger en snabbare återhämtning från avvikelser, men ökar brus<br><b>Framkoppling (Feedforward):<\/b><br> Normalt reagerar PID-kontrollern på avvikelsen. Framkoppling förutser avvikelsen baserat på spakens läge, och gör multirotorn mer responsiv.<b>Rates och Expo<\/b>: Bestäm spakkänslan baserat på dessa parametrar. Använd grafen och live 3D-modellen för att hitta din favoritinställning för rate"
     },
     "pidTuningRatesTip": {
         "message": "Testa olika rate-värden och se hur de påverkar spakkurvan"
@@ -3680,7 +3680,7 @@
         "message": "Farkostnamn"
     },
     "configurationFpvCamAngleDegrees": {
-        "message": "FPV kameravinkel [degrees]"
+        "message": "FPV kameravinkel [grader]"
     },
     "onboardLoggingBlackbox": {
         "message": "Blackbox loggningsenhet"
