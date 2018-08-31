@@ -3394,6 +3394,9 @@
     "osdDescElementCompassBar": {
         "message": "Grafischer Kompass, welcher die aktuelle Richtung zeigt"
     },
+    "osdDescElementFlipArrow": {
+        "message": "Ein Pfeil zeigt, welche Motorseite im Turtle-Modus vom Boden weiter weg ist"
+    },
     "osdDescElementTimer1": {
         "message": "Zeigt den Inhalt von Timer 1"
     },
