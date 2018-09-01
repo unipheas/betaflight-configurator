@@ -2808,9 +2808,6 @@
     "pidTuningThrottleBoost": {
         "message": "Увеличение газа"
     },
-    "pidTuningThrottleBoostHelp": {
-        "message": "Эта функция позволяет временно увеличить газ, чтобы увеличить момент разгона мотора, обеспечивая гораздо более быструю реакцию на управление газом."
-    },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Акро тренер лимит угла"
     },
