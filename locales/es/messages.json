@@ -2832,9 +2832,6 @@
     "pidTuningThrottleBoost": {
         "message": "Potenciar Acelerador"
     },
-    "pidTuningThrottleBoostHelp": {
-        "message": "Esta funcionalidad permite dar un impulso temporal al acelerador del tipo más-menos para incrementar el par de torsión en la aceleración de los motores, proporcionando una respuesta de aceleración mucho más rápida."
-    },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Ángulo Límite para Entrenador Acro"
     },
