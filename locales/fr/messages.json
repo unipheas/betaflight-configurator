@@ -2829,9 +2829,6 @@
     "pidTuningThrottleBoost": {
         "message": "Throttle Boost"
     },
-    "pidTuningThrottleBoostHelp": {
-        "message": "Cette fonctionnalité booste temporairement les gaz et réduit le temps de réponse des moteurs dés le début des fortes accélérations."
-    },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Limite d'angle Acro Trainer"
     },
