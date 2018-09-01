@@ -2215,6 +2215,9 @@
     "firmwareFlasherFlashOnConnect": {
         "message": "Прош. при подкл."
     },
+    "firmwareFlasherFlashOnConnectDescription": {
+        "message": "Попытка прошивки платы автоматически (инициируется вновь обнаруженным последовательным портом)."
+    },
     "firmwareFlasherFullChipErase": {
         "message": "Полное стирание чипа"
     },
@@ -2347,6 +2350,9 @@
     "firmwareFlasherPreviousDevice": {
         "message": "Обнаружено: <strong>$1<\/strong> - предыдущее устройство все еще подключено, пожалуйста переподключите чтобы попробовать еще"
     },
+    "ledStripHelp": {
+        "message": "Полетный контроллер может контролировать цвет и индивидуальные эффекты светодиодов на ленте.<br \/>Конфигурировать светодиоды на сетке, настроить порядок проводников затем установить светодиоды на ваш аппарат согласно позиции на сетке. Светодиоды без назначения номера цепи сохранены не будут.<br \/>Двойной щелчок на цвете меняет HSV значение."
+    },
     "ledStripButtonSave": {
         "message": "Сохранить"
     },
@@ -2380,6 +2386,9 @@
     },
     "ledStripEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">сохранён<\/span>"
+    },
+    "ledStripVtxOverlay": {
+        "message": "VTX (использует vtx частоты для присвоения цвета)"
     },
     "ledStripFunctionSection": {
         "message": "LED функции"
@@ -2473,6 +2482,10 @@
         "message": "D",
         "description": "Down direction in Color Mode in Led Strip"
     },
+    "ledStripModesOrientationTitle": {
+        "message": "Ориентация светодиодов ('Режимы &amp; Ориентация') и цвет",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
     "ledStripModesSpecialColorsTitle": {
         "message": "Специальные цвета",
         "description": "One of the modes in Color Mode in Led Strip"
@@ -2487,6 +2500,10 @@
     },
     "ledStripModeColorsModeAnimation": {
         "message": "Анимация",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBlinkBg": {
+        "message": "Мигать в фоне",
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripModeColorsModeGPSNoSats": {
@@ -2504,6 +2521,10 @@
     "ledStripWiring": {
         "message": "Светодиодная лента",
         "description": "One of the modes in Led Strip"
+    },
+    "ledStripWiringMode": {
+        "message": "Режим назначения цепи",
+        "description": "One of the wiring modes in Led Strip"
     },
     "ledStripWiringClearControl": {
         "message": "Очистить выбранное",
@@ -2643,11 +2664,26 @@
     "pidTuningBasic": {
         "message": "Basic\/Acro"
     },
+    "pidTuningYawJumpPrevention": {
+        "message": "Yaw продвижение"
+    },
+    "pidTuningYawJumpPreventionHelp": {
+        "message": "Предотвращает прыжки вверх в конце yaw. Более высокие значения дают больше демпфирования в конце движения по рысканию (работает как старые рыскания D, которые не были реальными D как на другой оси)"
+    },
     "pidTuningRcExpoPower": {
         "message": "Мощность RC Экспо"
     },
+    "pidTuningRcExpoPowerHelp": {
+        "message": "Эта экспонента используется при расчете RC Expo. В Betaflight версиях до 3.0 значение фиксируется на 3."
+    },
     "pidTuningLevel": {
         "message": "Angle\/Horizon"
+    },
+    "pidTuningAltitude": {
+        "message": "Барометр & Сонар\/высота"
+    },
+    "pidTuningMag": {
+        "message": "Магнитометр\/Направление"
     },
     "pidTuningGps": {
         "message": "GPS Навигация"
@@ -2700,6 +2736,9 @@
     "pidTuningGyroNotch2Cutoff": {
         "message": "Gyro Notch фильтра 2 частота среза [Hz]"
     },
+    "pidTuningNotchFilterHelp": {
+        "message": "Notch Filter имеет центр и частоту среза. Фильтр симметричный. Центральная частота есть центр фильтра и частота среза в которой Notch filter начинается. Например Notch с частотой среза 160 и центром 260 это значит, что диапазон составляет 160-360 для наибольшего затухания вокруг центра"
+    },
     "pidTuningFilterSettings": {
         "message": "Настройки фильтра в зависимости от выбранного профиля"
     },
@@ -2733,6 +2772,12 @@
     "pidTuningVbatPidCompensation": {
         "message": "Компенсация PID-ов при низком заряде батареи"
     },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Увеличивает значения PID-ов, в целях компенсации, при низком заряде батареи. Это даёт более стабильные лётные характеристики на протяжении всего полёта. Значение компенсации вычисляется исходя $t(powerBatteryMaximum.message), установленного во вкладке $t(tabPower.message)."
+    },
+    "pidTuningItermRotation": {
+        "message": "I Term поворот"
+    },
     "pidTuningItermRelaxAxes": {
         "message": "Oси:"
     },
@@ -2765,6 +2810,15 @@
     },
     "pidTuningThrottleBoostHelp": {
         "message": "Эта функция позволяет временно увеличить газ, чтобы увеличить момент разгона мотора, обеспечивая гораздо более быструю реакцию на управление газом."
+    },
+    "pidTuningAcroTrainerAngleLimit": {
+        "message": "Акро тренер лимит угла"
+    },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "Добавляет новый режим пределов угла для пилотов которые учатся летать в акро режиме. Диапазон правильных 10-80 и должен быть активирован с переключателя в $t(tabAuxiliary.message) закладке."
+    },
+    "failsafePaneTitleOld": {
+        "message": "Failsafe приемника"
     },
     "failsafeFeaturesHelpNew": {
         "message": "Failesafe проходит в 2 этапа. <strong>Этап 1<\/strong> наступает, если в канале появляются импульсы с недопустимой длительностью, либо, когда приёмник сообщает о режиме failsafe, либо при полном отсутствии сигнала на приёмнике. На этом этапе <span class=\"message-negative\">все каналы<\/span> устанавливаются на короткое время в \"Значения при отсутствии сигнала\". Если сигнал не восстанавливается в течение указанного времени, <span class=\"message-negative\">и если аппарат заармлен<\/span>, то наступает <strong>Этап 2<\/strong>. Каналы по-прежнему будут оставаться в \"Значении каналов при отсутствии сигнала\", если эти значения не перекрываются процедурой Этапа 2.<br \/><strong>Примечание:<\/strong> \"Значения каналов при отсуствии сигнала\" также могу применяться только к отдельным AUX-каналам, имеющим ошибочные импульсы."
@@ -2831,6 +2885,12 @@
     },
     "failsafeKillSwitchHelp": {
         "message": "С помощью этой опции можно настроить аварийный переключатель на аппаратуре (во вкладке \"Режимы\"), который будет производить аварийное отключение, минуя процедуру failsafe. <strong>Примечание:<\/strong> если аварийный переключатель failsafe будет находиться в позиции \"включен\", то арминг блокируется"
+    },
+    "failsafeSwitchTitle": {
+        "message": "Failsafe переключатель"
+    },
+    "failsafeSwitchModeItem": {
+        "message": "Failsafe событие переключателя"
     },
     "failsafeSwitchOptionStage1": {
         "message": "Этап 1"
@@ -3096,8 +3156,20 @@
     "osdSetupFontPresetsSelectorOr": {
         "message": "или"
     },
+    "osdSetupCustomLogoTitle": {
+        "message": "Логотип загрузки:"
+    },
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "Выбрать собственное изображение&hellip;"
+    },
     "osdSetupCustomLogoInfoTitle": {
         "message": "Свое изображение"
+    },
+    "osdSetupCustomLogoInfoImageSize": {
+        "message": "Размер должен быть $t(logoWidthPx)×$t(logoHeightPx) пикселей"
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "Должен содержать зеленые, черные и белые пиксели"
     },
     "osdSetupUploadFont": {
         "message": "Загрузить шрифт"
