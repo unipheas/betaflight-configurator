@@ -2832,9 +2832,6 @@
     "pidTuningThrottleBoost": {
         "message": "スロットルブースト"
     },
-    "pidTuningThrottleBoostHelp": {
-        "message": "この機能はスロットルを一時的に上から下に押し上げ、モーターへの加速トルクを上げることができ、より速いスロットル応答を提供します。"
-    },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "アクロトレーナー 角度制限"
     },
