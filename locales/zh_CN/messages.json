@@ -2832,9 +2832,6 @@
     "pidTuningThrottleBoost": {
         "message": "油门增压"
     },
-    "pidTuningThrottleBoostHelp": {
-        "message": "此功能通过短暂提高油门变化值来提高电机的加速度，使得油门响应更为迅速。"
-    },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "萌新手动模式角度限制"
     },
