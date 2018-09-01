@@ -2793,9 +2793,6 @@
     "pidTuningThrottleBoost": {
         "message": "Ganho no acelerador"
     },
-    "pidTuningThrottleBoostHelp": {
-        "message": "Esta funcionalidade melhora a resposta do motor, aumentando o valor do acelerador proporcionalmente com a velocidade do movimento do stick do acelerador. Movimentos lentos recebem um ganho menor do que movimentos rápidos. Isto é efetivo ao aumentar ou diminuir o acelerador."
-    },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Angulo máximo do Treinador Acro"
     },
