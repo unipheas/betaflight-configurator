@@ -2836,6 +2836,9 @@
     "pidTuningThrottleBoost": {
         "message": "Trottelförstärkning"
     },
+    "pidTuningThrottleBoostHelp": {
+        "message": "Denna funktion låter trotteln ökas tillfälligt vid snabba spakrörelser, för att öka accelerationens vridmoment till motorerna, vilket ger en mycket snabbare gasrespons."
+    },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Acro Trainer vinkelgräns"
     },
