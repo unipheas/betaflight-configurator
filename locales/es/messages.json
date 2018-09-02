@@ -60,7 +60,7 @@
         "message": "Recordar última pestaña al conectar"
     },
     "analyticsOptOut": {
-        "message": "Excluir de la recogida anónima de datos estadísticos"
+        "message": "No incluir en la recogida anónima de datos estadísticos"
     },
     "userLanguageSelect": {
         "message": "Idioma (hay que reiniciar la aplicación para que el cambio sea efectivo)"
@@ -2831,6 +2831,9 @@
     },
     "pidTuningThrottleBoost": {
         "message": "Potenciar Acelerador"
+    },
+    "pidTuningThrottleBoostHelp": {
+        "message": "Esta funcionalidad permite dar un impulso temporal al acelerador en cambios rápidos del mando, lo cual incrementa el par de torsión en la aceleración de los motores, proporcionando una respuesta de aceleración mucho más rápida."
     },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Ángulo Límite para Entrenador Acro"
