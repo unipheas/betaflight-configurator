@@ -68,9 +68,6 @@
     "language_default": {
         "message": "初期値"
     },
-    "language_sv": {
-        "message": "スウェーデン語 (sv)"
-    },
     "sensorDataFlashNotFound": {
         "message": "データ書込みできません<br>チップを確認しました",
         "description": "Text of the dataflash image in the header of the page."
