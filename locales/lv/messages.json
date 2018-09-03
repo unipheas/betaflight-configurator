@@ -2832,6 +2832,9 @@
     "pidTuningThrottleBoost": {
         "message": "Droseles būsts"
     },
+    "pidTuningThrottleBoostHelp": {
+        "message": "Šī iespēja ļauj droselei būt īslaicīgi būstotai pie straujām vadības sviru kustībām, kas palielina motoru griezes akselerāciju, dodot daudz ātrāku droseles reakciju."
+    },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Akro trenera leņķa limits"
     },
