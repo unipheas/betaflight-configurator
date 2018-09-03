@@ -2216,7 +2216,7 @@
         "message": "接続時に書込み"
     },
     "firmwareFlasherFlashOnConnectDescription": {
-        "message": "FCボードを自動的に点滅 (新たに検出されたシリアルポートによって起動)"
+        "message": "FCボードへ自動的にフラッシュします。(新たに検出されたシリアルポートによって起動)"
     },
     "firmwareFlasherFullChipErase": {
         "message": "チップメモリの完全消去"
