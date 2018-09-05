@@ -50,8 +50,14 @@
     "expertMode": {
         "message": "Abilita modalità esperto"
     },
+    "expertModeDescription": {
+        "message": "Mostra build non rilasciate e potenzialmente instabili"
+    },
     "permanentExpertMode": {
         "message": "Modalità esperto sempre abilitata"
+    },
+    "rememberLastTab": {
+        "message": "Riapri l'ultima pagina alla connessione"
     },
     "userLanguageSelect": {
         "message": "Lingua (è necessario riavviare l'applicazione affinché le modifiche abbiano effetto)"
@@ -2634,6 +2640,9 @@
     },
     "pidTuningVbatPidCompensationHelp": {
         "message": "Aumenta i valori dei PID per compensare la diminuzione del voltaggio della batteria. Darà caratteristiche di volo più costanti per la durata di tutto il volo. La quantità di compensazione applicata è calcolata in base al $t(powerBatteryMaximum.message) impostato nella pagina $t(tabPower.message), quindi assicurati che sia impostato su in valore appropriato."
+    },
+    "pidTuningItermRelaxTypeOptionGyro": {
+        "message": "Gyro"
     },
     "configHelp2": {
         "message": "Rotazione arbitraria del controllore di volo, per permettere di montarlo di lato, sottosopra, ruotato ecc.. Quando si utilizzano sensori esterni, usa l'allineamento del sensore (Gyro, Acc, Mag) per definire la posizione del sensore indipendente dall'orientamento del controllore di volo."
