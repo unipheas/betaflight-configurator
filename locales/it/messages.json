@@ -59,6 +59,9 @@
     "rememberLastTab": {
         "message": "Riapri l'ultima pagina alla connessione"
     },
+    "analyticsOptOut": {
+        "message": "Disattiva la raccolta anonima di dati statistici"
+    },
     "userLanguageSelect": {
         "message": "Lingua (è necessario riavviare l'applicazione affinché le modifiche abbiano effetto)"
     },
@@ -341,6 +344,15 @@
         "message": "Sistema operativo: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
+    "buildServerLoaded": {
+        "message": "Caricate informazioni delle build per $1 dal server."
+    },
+    "buildServerLoadFailed": {
+        "message": "<b>La richiesta delle versioni per $1 non è riuscita, stai utilizzando informazioni memorizzate nella cache. Motivo: <code>$2<\/code><\/b>"
+    },
+    "buildServerUsingCached": {
+        "message": "Si stanno usando informazioni memorizzate nella cache per $1."
+    },
     "releaseCheckLoaded": {
         "message": "Informazioni della release $1 scaricate da GitHub."
     },
@@ -463,6 +475,9 @@
     },
     "defaultChangelogHead": {
         "message": "Configurator - Registro Modifiche"
+    },
+    "defaultPrivacyPolicyAction": {
+        "message": "Informativa sulla privacy"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "Firmware Flasher"
@@ -1169,6 +1184,17 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Impostazioni controller PID indipendenti dal profilo"
     },
+    "pidTuningAntiGravityMode": {
+        "message": "Modo Anti Gravity"
+    },
+    "pidTuningAntiGravityModeOptionSmooth": {
+        "message": "Liscio",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityModeOptionStep": {
+        "message": "Passo",
+        "description": "One of the modes of anti gravity"
+    },
     "pidTuningAntiGravityGain": {
         "message": "Guadagno Anti Gravità"
     },
@@ -1177,6 +1203,21 @@
     },
     "pidTuningPidSettings": {
         "message": "Impostazioni del controller PID"
+    },
+    "receiverRcSmoothingAuto": {
+        "message": "Auto"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "Manuale"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "Interpolazione"
+    },
+    "receiverRcSmoothingFilter": {
+        "message": "Filtro"
+    },
+    "receiverRcSmoothingDerivativeTypeOff": {
+        "message": "Spento"
     },
     "receiverRcInterpolation": {
         "message": "Interpolazione RC"
@@ -2108,6 +2149,9 @@
     "firmwareFlasherBaudRate": {
         "message": "velocità di trasmissione"
     },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Mostra versioni non stabili"
+    },
     "firmwareFlasherOptionLoading": {
         "message": "Caricamento in corso"
     },
@@ -3006,6 +3050,9 @@
     },
     "osdSetupFontPresets": {
         "message": "Font predefiniti:"
+    },
+    "osdSetupFontPresetsSelectorOr": {
+        "message": "o"
     },
     "osdSetupOpenFont": {
         "message": "Apri il file dei caratteri"
