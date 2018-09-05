@@ -2790,6 +2790,15 @@
     "pidTuningSmartFeedforward": {
         "message": "Интеллектуальное упреждение"
     },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "Уменьшает эффект F составляющей в ПИД. Когда P и F составляющие обе активны в тоже же момент времени, используется большее из двух, чтоб избежать перерегулирования с необходимым увеличением D, но так же уменьшает эффект отклика от F составляющей когда добавляется P."
+    },
+    "pidTuningItermRelax": {
+        "message": "I составляющая Сброс"
+    },
+    "pidTuningItermRelaxHelp": {
+        "message": "Ограничивает накопление I составляющей, когда происходят быстрые движения. Это специально позволяет уменьшить отскоки в конце переворотов и других быстрых движений. Вы можете выбрать активные оси, если быстрое движение определено, используя гироскоп или Setpoint (стика)."
+    },
     "pidTuningItermRelaxAxes": {
         "message": "Oси:"
     },
@@ -2817,14 +2826,26 @@
     "pidTuningAbsoluteControlGain": {
         "message": "Абсолютный контроль"
     },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "Эта функция решает некоторые основополагающие проблемы I составляющей вращения и многообещающе должно заменить его в определенный момент. Функция накапливает абсолютную ошибку гироскопа в квадратных координатах и смешивает пропорциональной коррекции в setpoint. Его необходимо включить iterm_relax для RTY."
+    },
     "pidTuningThrottleBoost": {
         "message": "Увеличение газа"
+    },
+    "pidTuningThrottleBoostHelp": {
+        "message": "Эта функция позволяет временно увеличить газ, в момент быстрого движения стика, что увеличивает ускорение крутящего момента двигателей, обеспечивая гораздо более быструю реакцию на управление газом."
     },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Акро тренер лимит угла"
     },
     "pidTuningAcroTrainerAngleLimitHelp": {
         "message": "Добавляет новый режим пределов угла для пилотов которые учатся летать в акро режиме. Диапазон правильных 10-80 и должен быть активирован с переключателя в $t(tabAuxiliary.message) закладке."
+    },
+    "configHelp2": {
+        "message": "Произвольное вращение платы в градусах, для разрешения установки в другом направлении \/ вверх ногами \/ повернутое и т. д. При работе с внешними датчиками используется выравнивание датчиков (Gyro, Acc, Mag), чтобы определить положение датчика независимо от ориентации платы. "
+    },
+    "failsafeFeaturesHelpOld": {
+        "message": "Failsafe конфигурация изменилась существенно. Используете Betaflight <strong>v1.12.0 +<\/strong> для включения улучшенной конфигурационной панели."
     },
     "failsafePaneTitleOld": {
         "message": "Failsafe приемника"
@@ -2901,6 +2922,9 @@
     "failsafeSwitchModeItem": {
         "message": "Failsafe событие переключателя"
     },
+    "failsafeSwitchModeHelp": {
+        "message": "Этот параметр определяет, что происходит, когда Failsafe активируется через AUX переключатель:<br\/><strong>Этап 1<\/strong> активирует failsafe Этап 1. Это полезно, если вы хотите имитировать сигнал потери связи failsafe.<br\/><strong>Этап 2<\/strong> пропускает этап 1 и активирует этап 2 немедленно<br\/><strong>Убивая<\/strong> дизарм немедленно (ваш корабль будет поврежден)"
+    },
     "failsafeSwitchOptionStage1": {
         "message": "Этап 1"
     },
@@ -2912,6 +2936,9 @@
     },
     "powerButtonSave": {
         "message": "Сохранить"
+    },
+    "powerFirmwareUpgradeRequired": {
+        "message": "Firmware <span class=\"message-negative\">требует<\/span> обновления. Батарея\/Ток\/Напряжение конфигурация использует API &lt; 1.33.0 (Betaflight release &lt;= 3.17) это не поддерживается."
     },
     "powerBatteryVoltageMeterSource": {
         "message": "Использовать в качестве датчика напряжения"
@@ -3033,6 +3060,12 @@
     "powerVoltageScale": {
         "message": "Шкала"
     },
+    "powerVoltageDivider": {
+        "message": "Значение делителя"
+    },
+    "powerVoltageMultiplier": {
+        "message": "Значение множителя"
+    },
     "powerAmperageHead": {
         "message": "Датчик тока"
     },
@@ -3086,6 +3119,9 @@
     },
     "powerMahValue": {
         "message": "$1 mAh"
+    },
+    "powerAmperageScale": {
+        "message": "Масштаб [1\/10 mV\/A]"
     },
     "powerAmperageOffset": {
         "message": "Смещение [mA]"
@@ -3153,6 +3189,9 @@
     "osdSetupAlarmsTitle": {
         "message": "Сигналы"
     },
+    "osdSetupStatsTitle": {
+        "message": "После полетная статистика"
+    },
     "osdSetupVtxTitle": {
         "message": "VTX настройки"
     },
@@ -3161,6 +3200,9 @@
     },
     "osdSetupWarningsTitle": {
         "message": "Предупреждения"
+    },
+    "osdSetupFontPresets": {
+        "message": "Стили шрифтов:"
     },
     "osdSetupFontPresetsSelectorOr": {
         "message": "или"
