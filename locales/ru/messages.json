@@ -3204,8 +3204,14 @@
     "osdSetupFontPresets": {
         "message": "Стили шрифтов:"
     },
+    "osdSetupFontPresetsSelector": {
+        "message": "Выберете предустановленный шрифт:"
+    },
     "osdSetupFontPresetsSelectorOr": {
         "message": "или"
+    },
+    "osdSetupOpenFont": {
+        "message": "Открыть файл шрифта"
     },
     "osdSetupCustomLogoTitle": {
         "message": "Логотип загрузки:"
@@ -3221,6 +3227,15 @@
     },
     "osdSetupCustomLogoInfoColorMap": {
         "message": "Должен содержать зеленые, черные и белые пиксели"
+    },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "Нажмите <b>$t(osdSetupUploadFont.message)<\/b> для установки собственного логотипа"
+    },
+    "osdSetupCustomLogoImageSizeError": {
+        "message": "Недопустимый размер: {{width}}×{{height}} (ожидаемый $t(logoWidthPx)×$t(logoHeightPx))"
+    },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "Изображение содержит недопустимый пиксель: rgb ({{valueR}}, {{valueG}}, {{valueB}}) в координаты {{posX}}×{{posY}}"
     },
     "osdSetupUploadFont": {
         "message": "Загрузить шрифт"
@@ -3263,6 +3278,9 @@
     },
     "osdDescElementThrottlePosition": {
         "message": "Значение канала газа"
+    },
+    "osdDescElementArmed": {
+        "message": "Текстовое сообщение арминга"
     },
     "osdDescElementDisarmed": {
         "message": "Индикатор \"disarmed\" в виде текста"
