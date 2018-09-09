@@ -3376,7 +3376,7 @@
         "message": "ハードウェアクロック 日付 \/ 時間"
     },
     "osdDescElementAdjustmentRange": {
-        "message": "現在アクティブな調整範囲の設定と値"
+        "message": "調整タブで設定した現在有効となる値"
     },
     "osdDescElementHomeDirection": {
         "message": "ホームポジション方向を示す矢印"
