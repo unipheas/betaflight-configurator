@@ -2832,6 +2832,9 @@
     "pidTuningThrottleBoost": {
         "message": "油门增压"
     },
+    "pidTuningThrottleBoostHelp": {
+        "message": "此功能通过根据摇杆快速移动量来短暂提高油门变化值以增加电机的加速扭矩，使得油门响应更为迅速。"
+    },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "萌新手动模式角度限制"
     },
@@ -3389,6 +3392,9 @@
     },
     "osdDescElementCompassBar": {
         "message": "当前行进方向的图形箭头"
+    },
+    "osdDescElementFlipArrow": {
+        "message": "在乌龟模式中，箭头指示哪边的电机朝上"
     },
     "osdDescElementTimer1": {
         "message": "显示计时器1"
