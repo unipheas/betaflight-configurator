@@ -2198,7 +2198,7 @@
         "message": "Пожалуйста, загрузите файл прошивки"
     },
     "firmwareFlasherNoReboot": {
-        "message": "Без последовательной перезагрузки"
+        "message": "Без перезагрузки"
     },
     "firmwareFlasherOnlineSelectBuildType": {
         "message": "Выберите тип сборки, чтобы увидеть доступные платы полетных контроллеров."
