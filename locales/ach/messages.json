@@ -3780,5 +3780,8 @@
     },
     "modeCameraChangeMode": {
         "message": "crwdns6371:0crwdne6371:0"
+    },
+    "flashTab": {
+        "message": "crwdns8865:0crwdne8865:0"
     }
 }
