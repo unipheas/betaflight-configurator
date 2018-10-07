@@ -2011,6 +2011,9 @@
     "cliSaveToFileBtn": {
         "message": "Saglabāt failā"
     },
+    "cliClearOutputHistoryBtn": {
+        "message": "Notīrīt vēsturi"
+    },
     "loggingNote": {
         "message": "Dati tiks žurnalēti <span class=\"message-negative\">tikai<\/span> šajā cilnē, pametot cilni žurnalēšana <span class=\"message-negative\">atcelsies<\/span> un lietotne atgriezīsies normālajā <strong>\"konfiguratora\"<\/strong> stāvoklī. Jūs varat iestatīt globālo atjaunošanās laiku, dati tiks ierakstīti žurnālā katru <br \/> <strong>1<\/strong> sekundi resursu iemeslu dēļ."
     },
