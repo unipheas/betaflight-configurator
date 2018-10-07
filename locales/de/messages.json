@@ -2012,6 +2012,9 @@
     "cliSaveToFileBtn": {
         "message": "In Datei speichern"
     },
+    "cliClearOutputHistoryBtn": {
+        "message": "CLI-Ausgaben löschen"
+    },
     "loggingNote": {
         "message": "Daten werden <span class=\"message-negative\">nur <\/span> in diesem Tab geloggt. Wenn der Tab geschlossen wird, wird das Loggen <span class=\"message-negative\">abgebrochen<\/span> und die Anwendung geht in den normalen Modus zurück."
     },
