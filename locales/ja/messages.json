@@ -3688,7 +3688,7 @@
         "message": "ブラックボックス ログレート"
     },
     "onboardLoggingSerialLogger": {
-        "message": "オンボード シリアルログデバイス"
+        "message": "外付 シリアルログデバイス"
     },
     "onboardLoggingFlashLogger": {
         "message": "オンボード データチップ"
