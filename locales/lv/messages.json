@@ -3474,6 +3474,12 @@
     "osdDescStatGForce": {
         "message": "Max G-Spēks ko pārcieš gaisa kuģis"
     },
+    "osdDescStatEscTemperature": {
+        "message": "Max ESC temperatūra"
+    },
+    "osdDescStatEscRpm": {
+        "message": "Max ESC RPM"
+    },
     "osdTimerSource": {
         "message": "Avots:"
     },
@@ -3731,5 +3737,8 @@
     },
     "modeCameraChangeMode": {
         "message": "KAMERAS REŽĪMA MAIŅA"
+    },
+    "flashTab": {
+        "message": "Programmatūras atjaunināšana"
     }
 }
