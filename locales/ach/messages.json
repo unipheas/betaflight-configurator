@@ -3523,6 +3523,12 @@
     "osdDescStatGForce": {
         "message": "crwdns8858:0crwdne8858:0"
     },
+    "osdDescStatEscTemperature": {
+        "message": "crwdns8866:0crwdne8866:0"
+    },
+    "osdDescStatEscRpm": {
+        "message": "crwdns8867:0crwdne8867:0"
+    },
     "osdTimerSource": {
         "message": "crwdns6293:0crwdne6293:0"
     },
