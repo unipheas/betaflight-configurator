@@ -2011,6 +2011,9 @@
     "cliSaveToFileBtn": {
         "message": "파일로 저장"
     },
+    "cliClearOutputHistoryBtn": {
+        "message": "출력 이력 삭제"
+    },
     "loggingNote": {
         "message": "데이터가 이 탭에 로그되어 집니다. 데이터는 <span class=\"message-negative\">오직<\/span> 이 탭에서만 기록되며, 탭을 나가면 기록을 <span class=\"message-negative\">취소<\/span>하고 어플리케이션이 일반적인 <strong>\"컨피규레이터\"<\/strong> 상태로 돌아갑니다.<br \/> 사용자는 전체 업데이트 주기를 자유롭게 선택할 수 있으며, 데이터는 성능상의 이유로 매 <strong>1<\/strong>초마다 로그 파일에 기록됩니다."
     },
@@ -2832,6 +2835,9 @@
     "pidTuningThrottleBoost": {
         "message": "스로틀 부스트"
     },
+    "pidTuningThrottleBoostHelp": {
+        "message": "이 기능을 사용하면 빠른 스틱 움직임에 스로틀을 일시적으로 상승시켜 모터에 대한 가속 토크를 증가시킴으로써 훨씬 더 빠른 스로틀 반응을 제공합니다."
+    },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "아크로 트레이너 앵글 제한"
     },
@@ -3468,6 +3474,12 @@
     "osdDescStatGForce": {
         "message": "기체에 의해 경험된 최대 G-포스"
     },
+    "osdDescStatEscTemperature": {
+        "message": "최대 ESC 온도"
+    },
+    "osdDescStatEscRpm": {
+        "message": "최대 ESC RPM"
+    },
     "osdTimerSource": {
         "message": "소스:"
     },
@@ -3725,5 +3737,8 @@
     },
     "modeCameraChangeMode": {
         "message": "카메라 변경 모드"
+    },
+    "flashTab": {
+        "message": "펌웨어 업데이트"
     }
 }
