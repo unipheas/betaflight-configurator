@@ -1984,6 +1984,9 @@
     "cliSaveToFileBtn": {
         "message": "Salvar para arquivo"
     },
+    "cliClearOutputHistoryBtn": {
+        "message": "Limpar histórico"
+    },
     "loggingNote": {
         "message": "Os dados serão logados <span class=\"message-negative\">somente<\/span> nesta aba, sair da aba irá <span class=\"message-negative\">cancelar<\/span> o log e a aplicação irá retornar para seu estado <strong>\"configurador\"<\/strong> normal.<br \/> Você pode selecionar o período de atualização global, os dados serão escritos no arquivo de log a cada <strong>1<\/strong> segundo por motivos de performance."
     },
@@ -3408,6 +3411,12 @@
     "osdDescStatGForce": {
         "message": "Valor máximo da Força-G sob a aeronave"
     },
+    "osdDescStatEscTemperature": {
+        "message": "Temperatura Max ESC"
+    },
+    "osdDescStatEscRpm": {
+        "message": "Max ESC RPM"
+    },
     "osdTimerSource": {
         "message": "Origem:"
     },
@@ -3656,5 +3665,8 @@
     },
     "modeCameraChangeMode": {
         "message": "ALTERAR MODO DA CÂMERA"
+    },
+    "flashTab": {
+        "message": "Atualizar Firmware"
     }
 }
