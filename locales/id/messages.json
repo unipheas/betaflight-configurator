@@ -9,7 +9,7 @@
         "message": "Pilihan aplikasi"
     },
     "connect": {
-        "message": "Menghubungkan"
+        "message": "Sambungkan"
     },
     "connecting": {
         "message": "Menghubungkan"
@@ -319,6 +319,10 @@
     "firmwareUpgradeRequired": {
         "message": "Firmware pada perangkat ini perlu ditingkatkan ke versi yang lebih baru. Gunakan CLI untuk backup sebelum berkedip. Prosedur backup \/ restore CLI ada dalam dokumentasi.<br \/>Atau download dan gunakan versi lama dari configurator jika anda belum siap untuk memperbarui."
     },
+    "infoVersions": {
+        "message": "Sistem Operasi: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
+        "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
+    },
     "releaseCheckLoaded": {
         "message": "Informasi rilis dimuat untuk $1 dari GitHub."
     },
@@ -326,7 +330,7 @@
         "message": "<b>GitHub query untuk $1 rilis gagal, menggunakan informasi cache. Alasan: <code>$2<\/code><\/b>"
     },
     "releaseCheckCached": {
-        "message": "Menggunakan informasi pelepasan cache untuk merilis $ 1."
+        "message": "Menggunakan informasi rilis dari cache untuk rilis $1."
     },
     "releaseCheckNoInfo": {
         "message": "Tidak ada informasi rilis yang tersedia seharga $ 1."
@@ -380,7 +384,7 @@
         "message": "Firmware"
     },
     "versionLabelConfigurator": {
-        "message": "Konfigurator"
+        "message": "Configurator"
     },
     "notifications_app_just_updated_to_version": {
         "message": "Aplikasi baru saja di perbarui ke versi: $1"
@@ -425,7 +429,7 @@
         "message": "<span class=\"pesan-positive\">Salah<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Selamat Datang ke <strong>Betaflight - Konfigurator<\/strong>, sebuah utilitas yang dirancang untuk menyerdahanakan pembaruan, mengkonfigurasi dan menyetel pengontrol penerbangan anda."
+        "message": "Selamat Datang di <strong> Betaflight - Configurator <\/strong>, utilitas yang dirancang untuk memudahkan pembaruan, konfigurasi dan menyetel <em> flight controller<\/em> anda."
     },
     "defaultWelcomeHead": {
         "message": "Perangkat Keras"
@@ -461,7 +465,7 @@
         "message": "Dokumentasi Betaflight tersedia dalam catatan rilis dan wiki.<br \/><br \/>"
     },
     "defaultDocumentation1": {
-        "message": "Wiki Betaflight merupakan sumber informasi yang sangat bagus, bisa ditemukan <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">di sini<\/a>."
+        "message": "Wiki Betaflight merupakan sumber informasi yang lengkap, bisa ditemukan <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">di sini<\/a>."
     },
     "defaultDocumentation2": {
         "message": "Catatan rilis untuk firmware bisa di baca di GitHub rilis di halaman, <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">di sini<\/a>."
@@ -473,7 +477,7 @@
         "message": "Sumber Dukungan"
     },
     "defaultSupportSubline2": {
-        "message": "Pengembang"
+        "message": "Pengembangan"
     },
     "defaultSupport": {
         "message": "Untuk bantuan silahkan cari forum dan wiki terlebih dahulu atau hubungi vendor anda.<br \/><br \/>"
