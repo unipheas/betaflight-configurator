@@ -6,7 +6,7 @@
         "message": "Melihat"
     },
     "options_title": {
-        "message": "Pilihan aplikasi"
+        "message": "Pilihan Aplikasi"
     },
     "connect": {
         "message": "Sambungkan"
@@ -24,7 +24,7 @@
         "message": "Sisi kiri:"
     },
     "autoConnect": {
-        "message": "Menghubungkan Otomatis"
+        "message": "Sambung Otomatis"
     },
     "close": {
         "message": "Tutup"
@@ -42,7 +42,7 @@
         "message": "Aktifkan mode pakar secara permanen"
     },
     "userLanguageSelect": {
-        "message": "Bahasa (perlu mengulang aplikasi agar perubahan diterapkan)"
+        "message": "Bahasa (perlu restart aplikasi agar perubahan diterapkan)"
     },
     "language_default": {
         "message": "Standar"
@@ -453,7 +453,7 @@
         "message": "Open Source \/ Himbauan Donasi"
     },
     "defaultDonate": {
-        "message": "Menyumbangkan"
+        "message": "Donasi"
     },
     "defaultSponsorsHead": {
         "message": "Pendukung"
