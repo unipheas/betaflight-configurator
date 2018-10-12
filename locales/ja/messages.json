@@ -3474,6 +3474,12 @@
     "osdDescStatGForce": {
         "message": "機体が記録した最大G値"
     },
+    "osdDescStatEscTemperature": {
+        "message": "ESC 最高温度"
+    },
+    "osdDescStatEscRpm": {
+        "message": "ESC 最大RPM"
+    },
     "osdTimerSource": {
         "message": "ソース:"
     },
