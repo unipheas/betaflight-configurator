@@ -1948,6 +1948,9 @@
     "motorsNotice": {
         "message": "<strong>Aviso sobre o modo de Teste de Motor \/ Armar:<\/strong><br \/>Mover os sliders ou armar a sua aeronave com o transmissor irá fazer com que os motores <strong>girem<\/strong>.<br \/>Para evitar ferimentos, <strong class=\"message-negative\">remova TODAS as hélices<\/strong> antes de usar esta função.<br \/>Habilitar o modo de Teste de Motor também irá temporariamente desabilitar a Prevenção contra voo acidental, afim de evitar o desarme da aeronave enquanto estiver testando na sua bancada, sem as hélices.<br \/>"
     },
+    "motorsEnableControl": {
+        "message": "<strong>Eu entendo os riscos<\/strong>, as hélices foram removidas - habilitar o controle do motor, armar e desativar a Prevenção contra voo acidental."
+    },
     "sensorsInfo": {
         "message": "Tenha em mente que ao usar um período de atualização rápido e visualizar vários gráficos simultaneamente utiliza muitos recursos do computador e pode usar sua bateria rapidamente se estiver em um notebook. Recomendamos que somente exiba os gráficos dos sensores em que estiver interessado e que utilize períodos de atualização razoáveis."
     },
@@ -2044,6 +2047,15 @@
     "loggingAutomaticallyRetained": {
         "message": "Arquivo de log anterior carregado: <strong>$1<\/strong>"
     },
+    "blackboxNotSupported": {
+        "message": "O firmware do seu controlador de voo não suporta a função 'Log do Blackbox'."
+    },
+    "blackboxMaybeSupported": {
+        "message": "O firmware do seu controlador de voo é muito antigo e não suporta esta aba, ou a função Blackbox está desabilitada na aba de Configuração."
+    },
+    "blackboxConfiguration": {
+        "message": "Configuração do Blackbox"
+    },
     "blackboxButtonSave": {
         "message": "Salvar e reiniciar"
     },
@@ -2094,6 +2106,9 @@
     },
     "dataflashConfirmEraseTitle": {
         "message": "Confirme a exclusão da Memória flash"
+    },
+    "dataflashConfirmEraseNote": {
+        "message": "Isso irá apagar todos os logs do Blackbox e quaisquer outros dados na Memória flash. Isto deve demorar cerca de 20 segundos. Continuar?"
     },
     "dataflashSavingTitle": {
         "message": "Salvando a Memória flash no arquivo"
@@ -2820,6 +2835,9 @@
     "pidTuningThrottleBoost": {
         "message": "Ganho no acelerador"
     },
+    "pidTuningThrottleBoostHelp": {
+        "message": "Esta funcionalidade permite que o acelerador seja temporáriamente impulsionado em movimentos rápidos do stick, o que aumenta o torque dos motores, resultando em uma resposta muito mais rápida ao acelerador."
+    },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Angulo máximo do Treinador Acro"
     },
@@ -3159,6 +3177,9 @@
     "osdSetupPreviewTitle": {
         "message": "Pré-visualizar (Arraste para mudar a posição)"
     },
+    "osdSetupPreviewTitleTip": {
+        "message": "Mostrar ou esconder o logo na janela de pré-visualização. Isso não irá afetar nenhuma configuração no controlador de voo."
+    },
     "osdSetupVideoFormatTitle": {
         "message": "Formato do Video"
     },
@@ -3357,6 +3378,9 @@
     "osdDescElementAdjustmentRange": {
         "message": "Faixa e valor do elemento de ajuste atualmente ativo"
     },
+    "osdDescElementHomeDirection": {
+        "message": "Seta que indica a direção até a base (home)"
+    },
     "osdDescElementHomeDistance": {
         "message": "Distância até a base (em pés ou metros, baseado na configuração de unidade)"
     },
@@ -3368,6 +3392,9 @@
     },
     "osdDescElementCompassBar": {
         "message": "Barra de bússola gráfica, mostrando a direção atual"
+    },
+    "osdDescElementFlipArrow": {
+        "message": "Seta que indica quais motores estão afastados do chão no modo 'virar após queda' (Turtle mode)"
     },
     "osdDescElementTimer1": {
         "message": "Mostra o valor do cronômetro 1"
@@ -3390,6 +3417,9 @@
     "osdDescGForce": {
         "message": "Mostra o valor da Força-G sob a aeronave"
     },
+    "osdDescElementLogStatus": {
+        "message": "Blackbox - Avisos e número do log"
+    },
     "osdDescStatMaxSpeed": {
         "message": "Velocidade máxima registrada"
     },
@@ -3408,6 +3438,9 @@
     "osdDescStatMaxAltitude": {
         "message": "Altura máxima registrada"
     },
+    "osdDescStatBlackbox": {
+        "message": "Total de uso do Blackbox em porcentagem"
+    },
     "osdDescStatEndBattery": {
         "message": "Voltagem da bateria quando foi desarmado"
     },
@@ -3419,6 +3452,9 @@
     },
     "osdDescStatMaxDistance": {
         "message": "Distância máxima registrada a partir da base"
+    },
+    "osdDescStatBlackboxLogNumber": {
+        "message": "Número do arquivo de log do Blackbox"
     },
     "osdDescStatTimer1": {
         "message": "Valor do cronômetro 1 ao desarmar"
@@ -3647,6 +3683,12 @@
     },
     "configurationFpvCamAngleDegrees": {
         "message": "Angulo da câmera FPV [degrees]"
+    },
+    "onboardLoggingBlackbox": {
+        "message": "Dispositivo de log do Blackbox"
+    },
+    "onboardLoggingRateOfLogging": {
+        "message": "Taxa de log do Blackbox"
     },
     "onboardLoggingSerialLogger": {
         "message": "Dispositivo de log externo"
