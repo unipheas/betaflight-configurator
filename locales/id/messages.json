@@ -21,7 +21,7 @@
         "message": "Pilihan manual"
     },
     "portOverrideText": {
-        "message": "Sisi kiri:"
+        "message": "Port:"
     },
     "autoConnect": {
         "message": "Sambung Otomatis"
@@ -128,7 +128,7 @@
         "message": "Migrasi konfigurasi selesai, migrasi diterapkan: $1"
     },
     "tabFirmwareFlasher": {
-        "message": "Firmware Flasher"
+        "message": "Flasher Firmware"
     },
     "tabLanding": {
         "message": "Selamat Datang"
