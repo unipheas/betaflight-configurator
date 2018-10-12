@@ -211,6 +211,9 @@
     "tabLogging": {
         "message": "Log por conexão"
     },
+    "tabOnboardLogging": {
+        "message": "Blackbox"
+    },
     "tabAdjustments": {
         "message": "Ajustes"
     },
@@ -388,6 +391,12 @@
     },
     "armingEnabled": {
         "message": "<strong>Permitido Armar<\/strong>"
+    },
+    "runawayTakeoffPreventionDisabled": {
+        "message": "<strong>Prevenção contra voo acidental temporariamente desativado<\/strong>"
+    },
+    "runawayTakeoffPreventionEnabled": {
+        "message": "<strong>Prevenção contra voo acidental ativado<\/strong>"
     },
     "boardInfoReceived": {
         "message": "Placa: <strong>$1<\/strong>, versão: <strong>$2<\/strong>"
@@ -764,6 +773,12 @@
     "featureONESHOT125Tip": {
         "message": "Desligue a bateria e remova as hélices antes de ativar."
     },
+    "featureBLACKBOX": {
+        "message": "Blackbox - Gravador de dados de voo"
+    },
+    "featureBLACKBOXTip": {
+        "message": "Configure através da aba 'Blackbox' após ativar."
+    },
     "featureRX_SPI": {
         "message": "Suporte de SPI RX"
     },
@@ -998,6 +1013,9 @@
     "beeperUSB": {
         "message": "Emitir um sinal sonoro quando o controlador de voo recebe energia via USB. Desligue esta opção se não desejar sons enquanto estiver na bancada"
     },
+    "beeperBLACKBOX_ERASE": {
+        "message": "Emitir um sinal sonoro quando terminar de limpar o Blackbox"
+    },
     "beeperCRASH_FLIP": {
         "message": "Sinal sonoro quando o modo 'virar após queda' está ativo"
     },
@@ -1141,6 +1159,9 @@
     },
     "portsFunction_RX_SERIAL": {
         "message": "Serial RX"
+    },
+    "portsFunction_BLACKBOX": {
+        "message": "Log do Blackbox"
     },
     "portsFunction_TBS_SMARTAUDIO": {
         "message": "TBS SmartAudio"
@@ -1923,6 +1944,9 @@
     },
     "motorsMaster": {
         "message": "Mestre"
+    },
+    "motorsNotice": {
+        "message": "<strong>Aviso sobre o modo de Teste de Motor \/ Armar:<\/strong><br \/>Mover os sliders ou armar a sua aeronave com o transmissor irá fazer com que os motores <strong>girem<\/strong>.<br \/>Para evitar ferimentos, <strong class=\"message-negative\">remova TODAS as hélices<\/strong> antes de usar esta função.<br \/>Habilitar o modo de Teste de Motor também irá temporariamente desabilitar a Prevenção contra voo acidental, afim de evitar o desarme da aeronave enquanto estiver testando na sua bancada, sem as hélices.<br \/>"
     },
     "sensorsInfo": {
         "message": "Tenha em mente que ao usar um período de atualização rápido e visualizar vários gráficos simultaneamente utiliza muitos recursos do computador e pode usar sua bateria rapidamente se estiver em um notebook. Recomendamos que somente exiba os gráficos dos sensores em que estiver interessado e que utilize períodos de atualização razoáveis."
@@ -3623,6 +3647,9 @@
     },
     "configurationFpvCamAngleDegrees": {
         "message": "Angulo da câmera FPV [degrees]"
+    },
+    "onboardLoggingSerialLogger": {
+        "message": "Dispositivo de log externo"
     },
     "onboardLoggingFlashLogger": {
         "message": "Memoria Flash Integrada"
