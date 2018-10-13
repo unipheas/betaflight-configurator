@@ -2011,6 +2011,9 @@
     "cliSaveToFileBtn": {
         "message": "保存到文件"
     },
+    "cliClearOutputHistoryBtn": {
+        "message": "清除输出历史记录"
+    },
     "loggingNote": {
         "message": "数据 <span class=\"message-negative\">仅会<\/span>在此页面记录，关闭此页面将会 <span class=\"message-negative\">取消<\/span>数据记录，并且应用将会返回<strong>“普通配置”<\/strong> 状态。<br \/> 你可以选择合适的全局刷新率，飞控出于性能考虑，只会每 <strong>1<\/strong> 秒写入一次日志。"
     },
@@ -3471,6 +3474,12 @@
     "osdDescStatGForce": {
         "message": "飞行器经历的最大 G 力"
     },
+    "osdDescStatEscTemperature": {
+        "message": "电调最高温度"
+    },
+    "osdDescStatEscRpm": {
+        "message": "电调最高转速"
+    },
     "osdTimerSource": {
         "message": "来源："
     },
@@ -3728,5 +3737,8 @@
     },
     "modeCameraChangeMode": {
         "message": "摄像头改变模式"
+    },
+    "flashTab": {
+        "message": "更新固件"
     }
 }
