@@ -2011,6 +2011,9 @@
     "cliSaveToFileBtn": {
         "message": "Сохранить в файл"
     },
+    "cliClearOutputHistoryBtn": {
+        "message": "Очистить историю"
+    },
     "loggingNote": {
         "message": "Информация будет логироваться в эту закладку <span class=\"message-negative\">только<\/span>, покидая эту закладку будет <span class=\"message-negative\">отменено<\/span> логировние и приложение вернется в нормальное <strong>\"конфигуратор\"<\/strong> состояние.<br \/> Вы вольны выбрать глобальный период обновления, информация будет записана в лог файл каждые <strong>1<\/strong> секунд по соображениям производительности."
     },
@@ -3372,9 +3375,6 @@
     "osdDescElementEscRpm": {
         "message": "Скорость оборотов, полученная из телеметрии от ESC"
     },
-    "osdDescElementRtcDateTime": {
-        "message": "Реальное дата \/ время"
-    },
     "osdDescElementAdjustmentRange": {
         "message": "В настоящее время активные регулировки диапазона параметров и значения"
     },
@@ -3383,6 +3383,9 @@
     },
     "osdDescElementHomeDistance": {
         "message": "Расстояние до места взлёта (в футах или в метрах в зависимости от настроек единиц измерения)"
+    },
+    "osdDescElementNumericalHeading": {
+        "message": "Отображает угол поворота по руддеру (угол рыскания) в градусах"
     },
     "osdDescElementNumericalVario": {
         "message": "Числовое значение вертикальной скорости (в футах или метрах в зависимости от настроек системы единиц)"
@@ -3398,6 +3401,9 @@
     },
     "osdDescElementTimer2": {
         "message": "Показать значение таймера 2"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Расчётное время до полного разряда батареи"
     },
     "osdDescElementUnknown": {
         "message": "Неизвестный элемент (детали будут добавлены в будущих выпусках)"
@@ -3465,6 +3471,12 @@
     "osdDescStatGForce": {
         "message": "Максимальная G-сила испытываемая судном"
     },
+    "osdDescStatEscTemperature": {
+        "message": "Максимальная температура ESC"
+    },
+    "osdDescStatEscRpm": {
+        "message": "Максимальные обороты ESC"
+    },
     "osdTimerSource": {
         "message": "Источник:"
     },
@@ -3497,6 +3509,9 @@
     },
     "osdWarningVisualBeeper": {
         "message": "Визуализировать звуковой сигнал зуммера (в виде 4 звёздочек)"
+    },
+    "osdWarningCrashFlipMode": {
+        "message": "Отображать предупреждение, если активирован режим черепахи (режим переворота)"
     },
     "osdWarningEscFail": {
         "message": "Перечисляет список с ЭСК\/двигатели, которые не удавшиеся (об\/мин или температура находятся вне настроенного порогового значения)"
@@ -3719,5 +3734,8 @@
     },
     "modeCameraChangeMode": {
         "message": "КАМЕРА: РЕЖИМ НАСТРОЙКИ"
+    },
+    "flashTab": {
+        "message": "Обновить прошивку"
     }
 }
