@@ -2043,7 +2043,7 @@
         "message": "Load Firmware [Local]"
     },
     "firmwareFlasherButtonLoadOnline": {
-        "message": "Beban Firmware [Online]"
+        "message": "Load Firmware [Online]"
     },
     "firmwareFlasherButtonDownloading": {
         "message": "Mengunduh..."
