@@ -498,7 +498,7 @@
         "message": "<span class=\"pesan-negatif\">Cadangan dan memulihkan fungsi dinonaktifkan.<\/span> Anda memiliki firmware dengan versi API <span class=\"pesan-negatif\">$1<\/span>, backup dan restore yang dibutuhkan <span class=\"pesan positif\">$2<\/span>. Mohon cadangan pengaturan anda melalui CLI, lihat Betaflight dokumentasi prosedur."
     },
     "initialSetupButtonCalibrateAccel": {
-        "message": "Menyesuaikan Accelerometer"
+        "message": "Kalibrasi Accelerometer"
     },
     "initialSetupCalibrateAccelText": {
         "message": "Tempatkan papan atau kerangka pada <strong>diratakan<\/strong> permukaan, lanjutkan dengan kalibrasi, pastikan platform tidak bergerak selama periode kalibrasi"
