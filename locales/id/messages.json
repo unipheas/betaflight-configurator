@@ -2031,10 +2031,10 @@
         "message": "Pilih Firmware \/ Board"
     },
     "firmwareFlasherOptionLabelSelectBoard": {
-        "message": "Pilih Dewan"
+        "message": "Pilih FC"
     },
     "firmwareFlasherOptionLabelSelectFirmwareVersion": {
-        "message": "Pilih versi firmware"
+        "message": "Pilih versi Firmware"
     },
     "firmwareFlasherOptionLabelSelectFirmwareVersionFor": {
         "message": "Memilih versi Firmware untuk"
