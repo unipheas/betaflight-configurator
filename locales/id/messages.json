@@ -495,7 +495,7 @@
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
-        "message": "<span class=\"pesan-negatif\">Cadangan dan memulihkan fungsi dinonaktifkan.<\/span> Anda memiliki firmware dengan versi API <span class=\"pesan-negatif\">$1<\/span>, backup dan restore yang dibutuhkan <span class=\"pesan positif\">$2<\/span>. Mohon cadangan pengaturan anda melalui CLI, lihat Betaflight dokumentasi prosedur."
+        "message": "<span class=\"message-negative\">Fungsi Backup dan Restore nonaktif.<\/span> Anda memiliki firmware dengan versi API <span class=\"message-negative\">$1<\/span>, backup dan restore membutuhkan versi <span class=\"message-positive\">$2<\/span>. Backup pengaturan anda melalui CLI, lihat dokumentasi Betaflight untuk mengetahui caranya."
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Kalibrasi Accelerometer"
@@ -516,7 +516,7 @@
         "message": "Atur ulang Pengaturan"
     },
     "initialSetupResetText": {
-        "message": "Mengembalikan pengaturan ke <strong>standar<\/strong>"
+        "message": "Kembalikan ke pengaturan <strong>awal<\/strong>"
     },
     "initialSetupButtonBackup": {
         "message": "Cadangan"
