@@ -44,8 +44,17 @@
     "expertMode": {
         "message": "Aktifkan mode pakar"
     },
+    "expertModeDescription": {
+        "message": "Tampilkan versi belum rilis dan berpotensi tidak stabil"
+    },
     "permanentExpertMode": {
         "message": "Aktifkan mode pakar secara permanen"
+    },
+    "rememberLastTab": {
+        "message": "Buka kembali tab terakhir saat dihubungkan"
+    },
+    "analyticsOptOut": {
+        "message": "Tidak turut serta dalam pengumpulan data statistik anonim"
     },
     "userLanguageSelect": {
         "message": "Bahasa (perlu restart aplikasi agar perubahan diterapkan)"
@@ -329,6 +338,15 @@
         "message": "Sistem Operasi: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
+    "buildServerLoaded": {
+        "message": "Memuat informasi build untuk $1 dari server build."
+    },
+    "buildServerLoadFailed": {
+        "message": "<b>Permintaan build server untuk rilis $1 gagal, menggunakan informasi cache. Alasan: <code>$2<\/code><\/b>"
+    },
+    "buildServerUsingCached": {
+        "message": "Menggunakan informasi build dari cache untuk $1."
+    },
     "releaseCheckLoaded": {
         "message": "Informasi rilis dimuat untuk $1 dari GitHub."
     },
@@ -449,17 +467,26 @@
     "defaultContributingText": {
         "message": "Jika anda bisa membantu menjadikan Betaflight jadi lebih baik, anda bisa membantu dengan bermacam cara, termasuk:<br\/><ul> <li>Menjawab pertanyaan pengguna lainnya di forum dan IRC.<\/li> <li>Menyumbang kode ke firmware dan konfigurator - fitur baru, perbaikan, fasilitas<\/li><li>Menguji<a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">fitur baru\/perbaikan<\/a> dan memberikan umpan balik.<\/li><li>Membantu dengan <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">Menerbitkan dan memberikan komentar pada fitur permintaan<\/a>.<\/li><li>Berkolaborasi dengan <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\"> menerjemahkan aplikasi configurasi<\/a> ke dalam bahasa anda.<\/li><li><\/li><\/ul>"
     },
+    "defaultFacebookText": {
+        "message": "Kami juga memiliki <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">grup Facebook<\/a>.<br \/>Bergabunglah bersama kami sebagai wadah untuk membahas Betaflight, cara konfigurasi, atau hanya bergaul dengan sesama pilot."
+    },
     "defaultChangelogAction": {
         "message": "Changelog"
     },
     "defaultChangelogHead": {
         "message": "Configurasi - Changelog"
     },
+    "defaultPrivacyPolicyAction": {
+        "message": "Kebijakan Privasi"
+    },
     "defaultButtonFirmwareFlasher": {
         "message": "Firmware Flasher"
     },
     "defaultDonateHead": {
         "message": "Open Source \/ Himbauan Donasi"
+    },
+    "defaultDonateText": {
+        "message": "<strong>Betaflight<\/strong> adalah perangkat lunak flight controller <strong>open source<\/strong>, gratis, <strong>tanpa garansi<\/strong> untuk seluruh pengguna.<br \/>Jika Anda merasakan Betaflight atau Betaflight Configurator ini berguna, harap pertimbangkan untuk <strong>mendukung<\/strong> pengembangannya dengan memberikan donasi."
     },
     "defaultDonate": {
         "message": "Donasi"
@@ -503,6 +530,9 @@
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
+    "defaultSupport5": {
+        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Betaflight devs di slack<\/a>"
+    },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span class=\"message-negative\">Fungsi Backup dan Restore nonaktif.<\/span> Anda memiliki firmware dengan versi API <span class=\"message-negative\">$1<\/span>, backup dan restore membutuhkan versi <span class=\"message-positive\">$2<\/span>. Backup pengaturan anda melalui CLI, lihat dokumentasi Betaflight untuk mengetahui caranya."
     },
@@ -532,6 +562,15 @@
     },
     "initialSetupButtonRestore": {
         "message": "Mengembalikan"
+    },
+    "initialSetupButtonRebootBootloader": {
+        "message": "Aktifkan Boot Loader \/ DFU"
+    },
+    "initialSetupBackupRestoreText": {
+        "message": "<strong>Backup<\/strong> konfigurasi anda jika terjadi kecelakaan, pengaturan <strong>CLI<\/strong> <span class=\"message-negative\">tidak<\/span> termasuk - gunakan perintah 'diff all' pada CLI."
+    },
+    "initialSetupRebootBootloaderText": {
+        "message": "Reboot ke mode <strong>boot loader \/ DFU<\/strong>."
     },
     "initialSetupBackupSuccess": {
         "message": "Backup disimpan <span class=\"pesan positif\">berhasil<\/span>"
@@ -869,6 +908,9 @@
     "configurationReverseMotorSwitch": {
         "message": "Arah motor dibalik"
     },
+    "configurationReverseMotorSwitchHelp": {
+        "message": "Pilihan ini mengatur fc agar dapat mengontrol motor dengan putaran yg berlawanan arah dan baling-baling dipasang sesuai dengan arah putaran tersebut. <strong>Peringatan:<\/strong> Pilihan ini tidak mengubah arah putar motor. Gunakan perangkat pengatur ESC anda, atau tukar sambungan kabel antara ESC & Motor untuk membalikkan arah putaran. Periksa arah putaran motor, pastikan baling-baling dilepas sebelum arming dan arah putaran sesuai dengan gambar diatas."
+    },
     "configurationAutoDisarmDelay": {
         "message": "mematikan motor setelah penundaan ditetapkan [seconds] (Memerlukan fitur MOTOR_STOP)"
     },
@@ -898,6 +940,9 @@
     },
     "configurationThrottleMinimumCommandHelp": {
         "message": "Inilah nilai yang di kirim ke ESC ketika pesawat itu di lucuti senjata. Tetapkan ini pada nilai yang menyebabkan motor berhenti (1000 untuk kebanyakan ESC)."
+    },
+    "configurationDshotBeeper": {
+        "message": "Pengaturan Dshot Beacon"
     },
     "configurationDshotBeaconTone": {
         "message": "Nada Beacon"
