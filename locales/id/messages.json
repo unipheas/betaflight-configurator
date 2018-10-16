@@ -947,6 +947,9 @@
     "configurationDshotBeaconTone": {
         "message": "Nada Beacon"
     },
+    "configurationDshotBeaconHelp": {
+        "message": "Dshot beacon menggunakan ESC dan motor untuk menghasilkan suara. Oleh karena itu Dshot beacon tidak dapat digunakan ketika motor berputar. Pada Betaflight 3.4 dan yang lebih baru, ketika terjadi percobaan arming saat Dshot beacon aktif, akan ada jeda 2 detik setelah nada Dshot beacon terakhir sebelum model di arm. Hal ini berguna untuk mencegah fungsi Dshot beacon mengganggu perintah Dshot ke ESC ketika arming.<br\/><strong>Peringatan:<\/strong> Karena Dshot beacon mengalirkan arus ke motor Anda ketika aktif, hal ini dapat menyebabkan panas berlebih yang dapat merusak motor \/ atau ESC jika kekuatannnya di set terlalu tinggi. Gunakan BLHeli Configurator atau BLHeli Suite untuk menyesuaikan dan mengetahui kekuatan Dshot beacon."
+    },
     "configurationBeeper": {
         "message": "Konfigurasi Pager"
     },
@@ -988,6 +991,9 @@
     },
     "beeperSYSTEM_INIT": {
         "message": "Initialisation beep saat board dinyalakan"
+    },
+    "beeperUSB": {
+        "message": "Bunyi jika flight controller menggunakan power USB. Matikan jika anda tidak ingin ada bunyi ketika melakukan setup"
     },
     "beeperBLACKBOX_ERASE": {
         "message": "Bunyikan saat penghapusan kotak hitam selesai"
@@ -1166,6 +1172,14 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Profil pengatur PID pengontrol yang independen"
     },
+    "pidTuningAntiGravityModeOptionSmooth": {
+        "message": "Smooth",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityModeOptionStep": {
+        "message": "Step",
+        "description": "One of the modes of anti gravity"
+    },
     "pidTuningAntiGravityGain": {
         "message": "Keuntungan anti gravitasi"
     },
@@ -1174,6 +1188,15 @@
     },
     "pidTuningPidSettings": {
         "message": "Pengaturan Kontrol PID"
+    },
+    "receiverRcDerivativeTypeSelect": {
+        "message": "Tipe CutOff Derivatif"
+    },
+    "receiverRcSmoothingInputHz": {
+        "message": "Frekuensi CutOff Input"
+    },
+    "receiverRcSmoothingDerivativeCutoff": {
+        "message": "Frekuensi CutOff Derivatif"
     },
     "receiverRcInterpolation": {
         "message": "RC Interpolasi"
@@ -2081,6 +2104,9 @@
     "firmwareFlasherOptionLoading": {
         "message": "Memuat ..."
     },
+    "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
+        "message": "Rilis dan Kandidat Rilis"
+    },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Pilih Firmware \/ Board"
     },
@@ -2248,6 +2274,14 @@
     },
     "ledStripModeColorsModeHeadfree": {
         "message": "Bebas kepala",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeHorizon": {
+        "message": "Horizon",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAngle": {
+        "message": "Angle",
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripModesOrientationTitle": {
