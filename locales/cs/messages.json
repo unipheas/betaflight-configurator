@@ -251,6 +251,9 @@
     "firmwareVersionNotSupported": {
         "message": "Tato verze firmwaru <span class=\"message-negative\">není podporována<\/span>. Prosím upgradujte na firmware, který podporuje API ve verzi <strong>$1<\/strong> nebo vyšší. Použijte CLI pro zálohování před aktualizací firmwaru. Postup pro CLI zálohu\/obnovení je v dokumentaci.<br \/>Alternativně můžete použít starší verzi konfigurátoru, pokud nejste připraveni firmware aktualizovat."
     },
+    "releaseCheckLoaded": {
+        "message": "Načteny informace o verzi pro $1 z GitHubu."
+    },
     "firmwareVersion": {
         "message": "Verze firmwaru: <strong>$1<\/strong>"
     },
@@ -333,7 +336,7 @@
         "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Betaflight Wiki<\/a>"
     },
     "defaultSupport3": {
-        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Betaflight Videa<\/a>"
+        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Videa o Betaflightu od Joshuy Bardwella<\/a>"
     },
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
