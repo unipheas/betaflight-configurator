@@ -1195,6 +1195,9 @@
     "receiverRcDerivativeTypeSelect": {
         "message": "Tipe CutOff Derivatif"
     },
+    "rcSmoothingDerivativeCutoffHelp": {
+        "message": "Frekuensi batas dalam Hz yang digunakan filter setpoint derivatif. Menggunakan nilai yang rendah akan menhasilkan input yang lebih halus dan lebih sesuai untuk protokol receiver yang lebih lambat. Pengguna pada umumnya cukup membiarkan nilai 0 yang berarti \"Auto\"."
+    },
     "receiverRcSmoothingInputHz": {
         "message": "Frekuensi CutOff Input"
     },
@@ -2110,6 +2113,15 @@
     "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
         "message": "Rilis dan Kandidat Rilis"
     },
+    "firmwareFlasherOptionLabelBuildTypeDevelopment": {
+        "message": "Pengembangan"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_3": {
+        "message": "Patch untuk VTX 3.3 AKK & RDQ"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_4": {
+        "message": "Patch untuk VTX 3.4 AKK & RDQ"
+    },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Pilih Firmware \/ Board"
     },
@@ -2166,6 +2178,9 @@
     },
     "firmwareFlasherFirmwareNotLoaded": {
         "message": "Firmware tidak dimuat"
+    },
+    "firmwareFlasherFirmwareLocalLoaded": {
+        "message": "Firmware Lokal: ($1 bytes)"
     },
     "firmwareFlasherHexCorrupted": {
         "message": "File HEX kelihatannya sudah rusak"
@@ -2253,6 +2268,10 @@
         "message": "Lengan negara",
         "description": "One of the modes of the Led Strip"
     },
+    "ledStripFunctionBatteryOption": {
+        "message": "Baterai",
+        "description": "One of the modes of the Led Strip"
+    },
     "ledStripFunctionRSSIOption": {
         "message": "RSSI",
         "description": "One of the modes of the Led Strip"
@@ -2285,6 +2304,14 @@
     },
     "ledStripModeColorsModeAngle": {
         "message": "Angle",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeMag": {
+        "message": "Mag",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBaro": {
+        "message": "Baro",
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripDirN": {
@@ -2346,6 +2373,10 @@
     "ledStripModeColorsModeGPSLocked": {
         "message": "GPS: terkunci",
         "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripWiring": {
+        "message": "LED Strip Wiring",
+        "description": "One of the modes in Led Strip"
     },
     "ledStripWiringMode": {
         "message": "Mode Pengurutan Kawat",
@@ -2567,6 +2598,12 @@
     "pidTuningGyroNotch2Cutoff": {
         "message": "Frekuensi Cutoff Filter Notch Gyro2 [Hz]"
     },
+    "pidTuningNotchFilterHelp": {
+        "message": "Filter Notch memiliki nilai tengah dan cutoff. Filter ini bersifat simetris. Frekuensi tengah adalah posisi tengah filter dan frekuensi cutoff adalah batas nilai ketika filter Notch mulai diterapkan. Sebagai contoh, ketika CutOff Notch 160 dan Tengah Notch 260, maka kisaran hasil filter adalah 160-360Hz dengan redaman terbesar di tengah"
+    },
+    "pidTuningFilterSettings": {
+        "message": "Pengaturan Filter yg bergantung Profile"
+    },
     "pidTuningDTermLowpassType": {
         "message": "Tipe Filter Lowpass D Term 1"
     },
@@ -2632,6 +2669,18 @@
     },
     "pidTuningAbsoluteControlGainHelp": {
         "message": "Fitur ini mengatasi beberapa masalah Rotasi I Term dan suatu saat akan menggantikannya. Fitur ini menjumlahkan galat absolut sensor gyro pada sumbu orientasi unit dan menerapkan koreksi proporsional terhadap setpoint. Variabel iterm_relax perlu diset enable untuk RPY."
+    },
+    "pidTuningThrottleBoost": {
+        "message": "Throttle Boost"
+    },
+    "pidTuningThrottleBoostHelp": {
+        "message": "Fitur ini memungkinkan throttle dinaikkan dengan pergerakan stick yang cepat, yg akan menambah akselerasi-torsi pada motor dan memberikan respon throttle yang jauh lebih cepat."
+    },
+    "pidTuningAcroTrainerAngleLimit": {
+        "message": "Batas Sudut Trainer Acro"
+    },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "Menambah fungsi mode angle yang terbatas untuk pilot yang sedang belajar mode acro. Kisaran nilai 10-80 dan harus diaktifkan dengan switch pada tab $t(tabAuxiliary.message)."
     },
     "configHelp2": {
         "message": "Rotasi papan sewenang-wenang dalam derajat, untuk memungkinkan pemasangannya miring \/ terbalik \/ diputar dll. Saat menjalankan sensor eksternal, gunakan pelurusan sensor (Gyro, Acc, Mag) untuk menentukan posisi sensor yang terlepas dari orientasi board. "
@@ -2707,6 +2756,24 @@
     },
     "failsafeKillSwitchHelp": {
         "message": "Tetapkan pilihan ini untuk membuat saklar failsafe (Mode Tab) bertindak sebagai saklar membunuh langsung, melewati prosedur failsafe yang dipilih. <strong>Catatan:<\/strong> Mempersenjatai diblokir dengan saklar membunuh failsafe dalam posisi ON"
+    },
+    "failsafeSwitchTitle": {
+        "message": "Switch Failsafe"
+    },
+    "failsafeSwitchModeItem": {
+        "message": "Aksi Switch Failsafe"
+    },
+    "failsafeSwitchModeHelp": {
+        "message": "Pilihan ini menentukan apa yg terjadi ketika Failsafe diaktifkan melalui switch AUX:<br\/><strong>Tingkat 1<\/strong> mengaktifkan failsafe Tingkat 1. Hal ini berguna jika anda ingin menguji fungsi failsafe pada saat kehilangan sinyal.<br\/><strong>Tingkat 2<\/strong> tidak melalui Tingkat 1 dan langsung mengaktifkan prosedur failsafe Tingkat 2<br\/><strong>Mati<\/strong> langsung disarm (unit anda akan crash)"
+    },
+    "failsafeSwitchOptionStage1": {
+        "message": "Tingkat 1"
+    },
+    "failsafeSwitchOptionStage2": {
+        "message": "Tingkat 2"
+    },
+    "failsafeSwitchOptionKill": {
+        "message": "Matikan"
     },
     "powerButtonSave": {
         "message": "Simpan"
@@ -2897,6 +2964,9 @@
     "powerAmperageScale": {
         "message": "Skala [1\/10 mV\/A]"
     },
+    "powerAmperageOffset": {
+        "message": "Offset [mA]"
+    },
     "powerBatteryHead": {
         "message": "Baterai"
     },
@@ -2975,8 +3045,38 @@
     "osdSetupFontPresets": {
         "message": "Preset huruf:"
     },
+    "osdSetupFontPresetsSelector": {
+        "message": "Pilihan huruf:"
+    },
+    "osdSetupFontPresetsSelectorOr": {
+        "message": "atau"
+    },
     "osdSetupOpenFont": {
         "message": "Buka Berkas Font"
+    },
+    "osdSetupCustomLogoTitle": {
+        "message": "Logo boot:"
+    },
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "Pilih gambar kustom&hellip;"
+    },
+    "osdSetupCustomLogoInfoTitle": {
+        "message": "Gambar kustom:"
+    },
+    "osdSetupCustomLogoInfoImageSize": {
+        "message": "Ukuran harus $t(logoWidthPx)×$t(logoHeightPx) piksel"
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "Warna piksel harus hijau, hitam dan putih"
+    },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "Klik <b>$t(osdSetupUploadFont.message)<\/b> untuk menerapkan logo kustom"
+    },
+    "osdSetupCustomLogoImageSizeError": {
+        "message": "Ukuran gambar salah: {{width}}×{{height}} (seharusnya $t(logoWidthPx)×$t(logoHeightPx))"
+    },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "Gambar mengandung warna piksel yang salah: rgb({{valueR}}, {{valueG}}, {{valueB}}) pada koordinat {{posX}}×{{posY}}"
     },
     "osdSetupUploadFont": {
         "message": "Upload Font"
@@ -3133,6 +3233,9 @@
     },
     "osdDescElementCompassBar": {
         "message": "Bilah kompas grafis yang menunjukkan pos saat ini"
+    },
+    "osdDescElementFlipArrow": {
+        "message": "Tanda panah yang menandakan posisi motor yang berada di atas pada mode turtle"
     },
     "osdDescElementTimer1": {
         "message": "Menunjukkan nilai timer 1"
