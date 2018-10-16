@@ -1,4 +1,7 @@
 {
+    "translation_version": {
+        "message": "0"
+    },
     "warningTitle": {
         "message": "Peringatan"
     },
@@ -2284,6 +2287,30 @@
         "message": "Angle",
         "description": "One of the modes in Color Mode in Led Strip"
     },
+    "ledStripDirN": {
+        "message": "U",
+        "description": "North direction in Color Mode in Led Strip"
+    },
+    "ledStripDirE": {
+        "message": "T",
+        "description": "East direction in Color Mode in Led Strip"
+    },
+    "ledStripDirS": {
+        "message": "S",
+        "description": "South direction in Color Mode in Led Strip"
+    },
+    "ledStripDirW": {
+        "message": "B",
+        "description": "West direction in Color Mode in Led Strip"
+    },
+    "ledStripDirU": {
+        "message": "A",
+        "description": "Up direction in Color Mode in Led Strip"
+    },
+    "ledStripDirD": {
+        "message": "B",
+        "description": "Down direction in Color Mode in Led Strip"
+    },
     "ledStripModesOrientationTitle": {
         "message": "Orientasi LED ('Modes &amp; Orientation') dan Color",
         "description": "One of the modes in Color Mode in Led Strip"
@@ -2510,8 +2537,65 @@
     "pidTuningNonProfileFilterSettings": {
         "message": "Pengaturan penyaring profil independen"
     },
+    "pidTuningGyroLowpassFiltersGroup": {
+        "message": "Filter Lowpass Gyro"
+    },
+    "pidTuningGyroLowpassFrequency": {
+        "message": "Frekuensi Cutoff Lowpass Gyro 1 [Hz]"
+    },
+    "pidTuningGyroLowpassType": {
+        "message": "Tipe Filter Lowpass Gyro 1"
+    },
+    "pidTuningGyroLowpass2Frequency": {
+        "message": "Frekuensi Cutoff Lowpass Gyro 2 [Hz]"
+    },
+    "pidTuningGyroLowpass2Type": {
+        "message": "Tipe Filter Lowpass Gyro 2"
+    },
+    "pidTuningGyroNotchFiltersGroup": {
+        "message": "Filter Notch Gyro"
+    },
+    "pidTuningGyroNotch1Frequency": {
+        "message": "Frekuensi Tengah Filter Notch Gyro 1 [Hz]"
+    },
+    "pidTuningGyroNotch2Frequency": {
+        "message": "Frekuensi Tengah Filter Notch Gyro 2 [Hz]"
+    },
+    "pidTuningGyroNotch1Cutoff": {
+        "message": "Frekuensi Cutoff Filter Notch Gyro1 [Hz]"
+    },
+    "pidTuningGyroNotch2Cutoff": {
+        "message": "Frekuensi Cutoff Filter Notch Gyro2 [Hz]"
+    },
+    "pidTuningDTermLowpassType": {
+        "message": "Tipe Filter Lowpass D Term 1"
+    },
+    "pidTuningDTermLowpassFrequency": {
+        "message": "Frekuensi CutOff Lowpass D Term 1 [Hz]"
+    },
+    "pidTuningDTermLowpass2Frequency": {
+        "message": "Frekuensi CutOff Lowpass D Term 2 [Hz]"
+    },
+    "pidTuningDTermNotchFiltersGroup": {
+        "message": "Filter Notch D Term"
+    },
+    "pidTuningDTermNotchFrequency": {
+        "message": "Frekuensi Tengah Filter Notch D Term [Hz]"
+    },
+    "pidTuningDTermNotchCutoff": {
+        "message": "Frekuensi CutOff Filter Notch D Term [Hz]"
+    },
+    "pidTuningYawLospassFiltersGroup": {
+        "message": "Filter Lowpass Yaw"
+    },
+    "pidTuningYawLowpassFrequency": {
+        "message": "Frekuensi CutOff Lowpass Yaw [Hz]"
+    },
     "pidTuningVbatPidCompensation": {
         "message": "Kompensasi Vbat PID"
+    },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Meningkatkan nilai PID sebagai kompensasi penurunan Vbat. Hal ini akan memberikan karakteristik penerbangan yang lebih konsisten. Nilai kompensasi dihitung dari nilai $t(powerBatteryMaximum.message) pada halaman $t(tabPower.message), jadi pastikan nilai tersebut sudah di set dengan benar."
     },
     "configHelp2": {
         "message": "Rotasi papan sewenang-wenang dalam derajat, untuk memungkinkan pemasangannya miring \/ terbalik \/ diputar dll. Saat menjalankan sensor eksternal, gunakan pelurusan sensor (Gyro, Acc, Mag) untuk menentukan posisi sensor yang terlepas dari orientasi board. "
@@ -3029,6 +3113,15 @@
     "osdDescElementCoreTemperature": {
         "message": "Suhu inti MCU STM32"
     },
+    "osdDescAntiGravity": {
+        "message": "Menampilkan indikator ketika mode anti gravity sedang aktif"
+    },
+    "osdDescGForce": {
+        "message": "Menampilkan nilai G-Force yang dialami unit"
+    },
+    "osdDescElementLogStatus": {
+        "message": "Nomor blackbox dan peringatan"
+    },
     "osdDescStatMaxSpeed": {
         "message": "Kecepatan terekam maksimal"
     },
@@ -3074,6 +3167,18 @@
     "osdDescStatRtcDateTime": {
         "message": "Tanggal dan waktu dari jam waktu nyata"
     },
+    "osdDescStatBattery": {
+        "message": "Tegangan baterai real time"
+    },
+    "osdDescStatGForce": {
+        "message": "Max G-force yang dialami oleh unit"
+    },
+    "osdDescStatEscTemperature": {
+        "message": "Suhu Max ESC"
+    },
+    "osdDescStatEscRpm": {
+        "message": "RPM Max ESC"
+    },
     "osdTimerSource": {
         "message": "Sumber:"
     },
@@ -3110,6 +3215,9 @@
     "osdWarningCrashFlipMode": {
         "message": "Memperingatkan saat terbalik sesudah mode jatuh diaktifkan"
     },
+    "osdWarningEscFail": {
+        "message": "Menamplikan daftar ESCs\/motors yang bermasalah (RPM atau temperatur diluar batas yg telah ditentukan)"
+    },
     "osdSectionHelpElements": {
         "message": "Mengaktifkan atau menonaktifkan elemen OSD."
     },
@@ -3136,6 +3244,9 @@
     },
     "osdWritePermissions": {
         "message": "Anda tidak memiliki <span class =\"message-negative\">write permissions<\/span> untuk file ini"
+    },
+    "osdButtonSaved": {
+        "message": "Disimpan"
     },
     "mainHelpArmed": {
         "message": "Pengerjaan motor"
@@ -3257,6 +3368,9 @@
     "pidTuningPidTuningTip": {
         "message": "<b>Proporsional:<\/b> Anda akan melihat kekuatan resistansi yang sangat kuat terhadap upaya untuk memindahkan MultiRotor<br><b> Integral:<\/b> Meningkatkan kemampuan untuk memegang posisi awal secara keseluruhan dan mengurangi drift, namun juga meningkatkan keterlambatan dalam kembali ke posisi awal.<br><b>Derivatif:<\/b> Meningkatkan kecepatan penyimpangan ditemukan, namun meningkatkan kebisingan<br><b>Harga dan Expo<\/b>: Tentukan nuansa tongkat Anda berdasarkan parameter ini. Gunakan grafik dan model 3D hidup untuk menemukan pengaturan tingkat favorit Anda"
     },
+    "pidTuningPidTuningTipFeedforward": {
+        "message": "<b>Proporsional:<\/b> Anda akan merasakan resistensi yang kuat saat mencoba memindahkan MutiRotor<br><b>Integral:<\/b> Meningkatkan kemampuan untuk mempertahankan posisi awal dan mengurangi drift, tetapi juga akan menambah waktu yang diperlukan untuk kembali ke posisi awal.<br><b>Derivatif:<\/b> Menambah kecepatan kembali ke posisi awal, tetapi meningkatkan noise<br><b>Feedforward:<\/b> Umumnya pengaturan PID bereaksi terhadap error. Feedforward mengoreksi error berdasarkan masukan dari stick, menghasilkan quad yang responsif.<br><b>Rate dan Expo<\/b>: Tentukan respon stick anda berdasarkan parameter-parameter ini. Gunakan grafik dan model 3D yang berfungsi untuk menemukan pengaturan favorit anda"
+    },
     "pidTuningRatesTip": {
         "message": "Bermain dengan tarif dan lihat bagaimana yang mempengaruhi kurva tongkat"
     },
@@ -3290,6 +3404,18 @@
     "onboardLoggingOnboardSDCard": {
         "message": "Kartu SD onboard"
     },
+    "onboardLoggingMsc": {
+        "message": "Mode Penyimpanan"
+    },
+    "onboardLoggingMscNote": {
+        "message": "Reboot ke mode <strong>penyimpanan(MSC)<\/strong>. Setelah diaktifkan, flash atau kartu MicroSD pada flight controller Anda akan dibaca sebagai perangkat penyimpanan oleh komputer Anda, dan memungkinkan Anda untuk mengunduh file log. Cabut, matikan, dan kembali nyalakan flight controller Anda untuk keluar dari mode penyimpanan."
+    },
+    "onboardLoggingRebootMscText": {
+        "message": "Aktifkan Mode Perangkat Penyimpanan"
+    },
+    "onboardLoggingMscNotReady": {
+        "message": "Modus penyimpanan tidak dapat diaktifkan karena perangkat penyimpanan tidak siap."
+    },
     "dialogConfirmResetTitle": {
         "message": "Konfirmasi"
     },
@@ -3310,5 +3436,8 @@
     },
     "modeCameraChangeMode": {
         "message": "MENGGANTI MODE KAMERA"
+    },
+    "flashTab": {
+        "message": "Perbarui firmware"
     }
 }
