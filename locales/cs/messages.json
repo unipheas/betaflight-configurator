@@ -328,7 +328,7 @@
         "message": "I2C chyb:"
     },
     "statusbar_cycle_time": {
-        "message": "Doba cyklů:"
+        "message": "Čas cyklu:"
     },
     "statusbar_cpu_load": {
         "message": "Zatížení CPU: $1%"
