@@ -302,6 +302,9 @@
     "defaultWelcomeHead": {
         "message": "Hardware"
     },
+    "defaultContributingText": {
+        "message": "Pokud chcete pomoci udělat Betaflight ještě lepším, můžete přispět mnoha způsoby:<br \/><ul><li>Odpovídáním na otázky ostatních uživatelů na fórech a IRC.<\/li><li>Přispěním do kódu pro firmware a konfigurátor - nové funkce, opravy, vylepšení<\/li><li>Testováním <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">nových funkcí\/oprav<\/a> a zpětnou vazbou.<\/li><li>Pomáháním s <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">problémy a komentováním požadavků na nové funkce<\/a>.<\/li><li>Spoluprací na <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">překladu konfigurátoru<\/a> do vašeho jazyka.<\/li><li><\/li><\/ul>"
+    },
     "defaultChangelogAction": {
         "message": "Seznam změn"
     },
