@@ -248,12 +248,18 @@
     "stm32NotReadProtected": {
         "message": "Ochrana před čtením neaktivní"
     },
+    "noConfigurationReceived": {
+        "message": "Během <span class=\"message-negative\">10 vteřin<\/span> nebyla přijata žádná konfigurace, komunikace <span class=\"message-negative\">selhala<\/span>"
+    },
     "firmwareVersionNotSupported": {
         "message": "Tato verze firmwaru <span class=\"message-negative\">není podporována<\/span>. Prosím upgradujte na firmware, který podporuje API ve verzi <strong>$1<\/strong> nebo vyšší. Použijte CLI pro zálohování před aktualizací firmwaru. Postup pro CLI zálohu\/obnovení je v dokumentaci.<br \/>Alternativně můžete použít starší verzi konfigurátoru, pokud nejste připraveni firmware aktualizovat."
     },
     "infoVersions": {
         "message": "Spuštěno - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Konfigurátor: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
+    },
+    "buildServerUsingCached": {
+        "message": "Použít informace o verzi z mezipaměti pro $1."
     },
     "releaseCheckLoaded": {
         "message": "Načteny informace o verzi pro $1 z GitHubu."
@@ -264,11 +270,32 @@
     "firmwareVersion": {
         "message": "Verze firmwaru: <strong>$1<\/strong>"
     },
+    "apiVersionReceived": {
+        "message": "MultiWii API verze: <strong>$1<\/strong>"
+    },
     "uniqueDeviceIdReceived": {
         "message": "Jedinečné ID zařízení: <strong>0x$1<\/strong>"
     },
     "craftNameReceived": {
         "message": "Jméno letounu: <strong>$1<\/strong>"
+    },
+    "armingDisabled": {
+        "message": "<strong>Odjištění zakázáno<\/strong>"
+    },
+    "armingEnabled": {
+        "message": "<strong>Odjištění povoleno<\/strong>"
+    },
+    "runawayTakeoffPreventionEnabled": {
+        "message": "<strong>Ochrana proti nekontrolovanému startu zapnuta<\/strong>"
+    },
+    "boardInfoReceived": {
+        "message": "Deska: <strong>$1<\/strong>, verze: <strong>$2<\/strong>"
+    },
+    "buildInfoReceived": {
+        "message": "Aktuálně používaný firmware vydán: <strong>$1<\/strong>"
+    },
+    "fcInfoReceived": {
+        "message": "Info o řídící jednotce, identifikátor: <strong>$1<\/strong>, verze: <strong>$2<\/strong>"
     },
     "versionLabelTarget": {
         "message": "Cíl"
@@ -311,6 +338,9 @@
     },
     "defaultWelcomeHead": {
         "message": "Hardware"
+    },
+    "defaultContributingHead": {
+        "message": "Spolupráce"
     },
     "defaultContributingText": {
         "message": "Pokud chcete pomoci udělat Betaflight ještě lepším, můžete přispět mnoha způsoby:<br \/><ul><li>Odpovídáním na otázky ostatních uživatelů na fórech a IRC.<\/li><li>Přispěním do kódu pro firmware a konfigurátor - nové funkce, opravy, vylepšení<\/li><li>Testováním <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">nových funkcí\/oprav<\/a> a zpětnou vazbou.<\/li><li>Pomáháním s <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">problémy a komentováním požadavků na nové funkce<\/a>.<\/li><li>Spoluprací na <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">překladu konfigurátoru<\/a> do vašeho jazyka.<\/li><li><\/li><\/ul>"
@@ -473,5 +503,32 @@
     },
     "featureBLACKBOXTip": {
         "message": "Po zapnutí nastavte skrz panel Černá skřínka"
+    },
+    "firmwareFlasherNoReboot": {
+        "message": "Bez restartu"
+    },
+    "firmwareFlasherOnlineSelectBoardDescription": {
+        "message": "Vyberte desku pro zobrazení dostupných verzí firmware - Vyberte vhodnou verzi firmware pro vaši desku."
+    },
+    "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
+        "message": "Vyberte verzi firmware pro vaši desku."
+    },
+    "firmwareFlasherNoRebootDescription": {
+        "message": "Povolte, pokud je vaše deska v boot režimu. Tzn. pokud jste zapnuli FC se zkratovanými bootloader piny, nebo jste drželi tlačítko BOOT."
+    },
+    "firmwareFlasherFullChipErase": {
+        "message": "Kompletní vymazání paměti"
+    },
+    "firmwareFlasherFullChipEraseDescription": {
+        "message": "Vymaže všechna data uložená na desce."
+    },
+    "firmwareFlasherManualBaudDescription": {
+        "message": "Manuální výběr přenosové rychlosti pro desky, které nepodporují výchozí rychlost, nebo pro instalaci přes Bluetooth. <br \/><span class=\"message-negative\">Poznámka:<\/span> Nepoužívá se, pokud se instaluje přes USB DFU režim"
+    },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "Zobrazit ke stabilním verzím i verze nestabilní"
+    },
+    "firmwareFlasherOptionLabelSelectFirmwareVersionFor": {
+        "message": "Zvolte verzi firmwaru pro"
     }
 }
