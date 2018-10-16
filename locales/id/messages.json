@@ -1744,6 +1744,24 @@
     "gpsSignalQty": {
         "message": "Qty"
     },
+    "motorsVoltage": {
+        "message": "Voltase:"
+    },
+    "motorsADrawing": {
+        "message": "Arus:"
+    },
+    "motorsmAhDrawn": {
+        "message": "Arus terpakai:"
+    },
+    "motorsVoltageValue": {
+        "message": "$1 V"
+    },
+    "motorsADrawingValue": {
+        "message": "$1 A"
+    },
+    "motorsmAhDrawnValue": {
+        "message": "$1 mAh"
+    },
     "motorsText": {
         "message": "Motor"
     },
@@ -1878,6 +1896,9 @@
     },
     "cliSaveToFileBtn": {
         "message": "Simpan ke Berkas"
+    },
+    "cliClearOutputHistoryBtn": {
+        "message": "Hapus riwayat output"
     },
     "loggingNote": {
         "message": "Data akan di catat di tab ini <span class=\"message-negative\">hanya<\/span>, meninggalkan tab akan <span class=\"message-negative\">di batalkan<\/span> masuk dan aplikasi akan kembali normal\n<strong> \"configurator\"<\/strong> nya.<br \/> Anda bebas memilih periode update global, data akan di tulis ke dalam berkas catatan setiap <strong>1<\/strong> kedua untuk alasan kinerja."
@@ -2068,6 +2089,9 @@
     "firmwareFlasherNoReboot": {
         "message": "Tidak ada urutan reboot"
     },
+    "firmwareFlasherOnlineSelectBuildType": {
+        "message": "Pilih jenis frame untuk melihat fc yang didukung."
+    },
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "Pilih papan Anda untuk melihat rilis firmware online yang tersedia - Pilih firmware yang benar sesuai untuk papan Anda."
     },
@@ -2107,8 +2131,17 @@
     "firmwareFlasherBaudRate": {
         "message": "Baud Rate"
     },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Tampilkan rilis yang belum stabil"
+    },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "Tampilkan kandidat rilis sebagai tambahan dari rilis stabil"
+    },
     "firmwareFlasherOptionLoading": {
         "message": "Memuat ..."
+    },
+    "firmwareFlasherOptionLabelBuildTypeRelease": {
+        "message": "Rilis"
     },
     "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
         "message": "Rilis dan Kandidat Rilis"
@@ -2604,6 +2637,9 @@
     "pidTuningFilterSettings": {
         "message": "Pengaturan Filter yg bergantung Profile"
     },
+    "pidTuningDTermLowpassFiltersGroup": {
+        "message": "Filter Lowpass D Term"
+    },
     "pidTuningDTermLowpassType": {
         "message": "Tipe Filter Lowpass D Term 1"
     },
@@ -2633,6 +2669,18 @@
     },
     "pidTuningVbatPidCompensationHelp": {
         "message": "Meningkatkan nilai PID sebagai kompensasi penurunan Vbat. Hal ini akan memberikan karakteristik penerbangan yang lebih konsisten. Nilai kompensasi dihitung dari nilai $t(powerBatteryMaximum.message) pada halaman $t(tabPower.message), jadi pastikan nilai tersebut sudah di set dengan benar."
+    },
+    "pidTuningItermRotation": {
+        "message": "Rotasi I Term"
+    },
+    "pidTuningItermRotationHelp": {
+        "message": "Memutar vektor I Term agar sesuai dengan sumbu lainnya ketika quad berputar dalam sumbu yaw secara kontinu, selama roll, dan ketika melakukan funnel atau trik lainnya. Sangat berguna bagi pilot acro LOS."
+    },
+    "pidTuningSmartFeedforward": {
+        "message": "Smart Feedforward"
+    },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "Mengurang efek F Term dari PID. Jika P Term dan F Term aktif bersamaan, hanya salah satu nilai terbesar yang akan digunakan, untuk menghindari overshoots tanpa perlu meningkatkan nilai D, tapi juga akan mengurangi efek respon dari F term ketika ditambahkan ke P."
     },
     "pidTuningItermRelax": {
         "message": "Relaksasi I Term"
