@@ -2597,6 +2597,42 @@
     "pidTuningVbatPidCompensationHelp": {
         "message": "Meningkatkan nilai PID sebagai kompensasi penurunan Vbat. Hal ini akan memberikan karakteristik penerbangan yang lebih konsisten. Nilai kompensasi dihitung dari nilai $t(powerBatteryMaximum.message) pada halaman $t(tabPower.message), jadi pastikan nilai tersebut sudah di set dengan benar."
     },
+    "pidTuningItermRelax": {
+        "message": "Relaksasi I Term"
+    },
+    "pidTuningItermRelaxHelp": {
+        "message": "Membatasi akumulasi I Term ketika bergerak cepat. Membantu untuk mengurangi efek bouncing pada akhir roll dan manuver lainnya. Anda dapet memilih di sumbu mana yang aktif, dan pilihan untuk deteksi pergerakan cepat menggunakan Gyro atau Setpoint (stick)."
+    },
+    "pidTuningItermRelaxAxes": {
+        "message": "Sumbu:"
+    },
+    "pidTuningItermRelaxAxesOptionRP": {
+        "message": "RP"
+    },
+    "pidTuningItermRelaxAxesOptionRPY": {
+        "message": "RPY"
+    },
+    "pidTuningItermRelaxAxesOptionRPInc": {
+        "message": "RP (hanya penambahan)"
+    },
+    "pidTuningItermRelaxAxesOptionRPYInc": {
+        "message": "RPY (hanya penambahan)"
+    },
+    "pidTuningItermRelaxType": {
+        "message": "Tipe:"
+    },
+    "pidTuningItermRelaxTypeOptionGyro": {
+        "message": "Gyro"
+    },
+    "pidTuningItermRelaxTypeOptionSetpoint": {
+        "message": "Setpoint"
+    },
+    "pidTuningAbsoluteControlGain": {
+        "message": "Absolute Control"
+    },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "Fitur ini mengatasi beberapa masalah Rotasi I Term dan suatu saat akan menggantikannya. Fitur ini menjumlahkan galat absolut sensor gyro pada sumbu orientasi unit dan menerapkan koreksi proporsional terhadap setpoint. Variabel iterm_relax perlu diset enable untuk RPY."
+    },
     "configHelp2": {
         "message": "Rotasi papan sewenang-wenang dalam derajat, untuk memungkinkan pemasangannya miring \/ terbalik \/ diputar dll. Saat menjalankan sensor eksternal, gunakan pelurusan sensor (Gyro, Acc, Mag) untuk menentukan posisi sensor yang terlepas dari orientasi board. "
     },
