@@ -39,7 +39,7 @@
         "message": "Povolit mód Expert"
     },
     "permanentExpertMode": {
-        "message": "Trvale povolit mód Expert"
+        "message": "Trvale povolit Expert mód"
     },
     "userLanguageSelect": {
         "message": "Jazyk (je potřeba restartovat aplikaci, aby se změny projevily)"
@@ -251,8 +251,15 @@
     "firmwareVersionNotSupported": {
         "message": "Tato verze firmwaru <span class=\"message-negative\">není podporována<\/span>. Prosím upgradujte na firmware, který podporuje API ve verzi <strong>$1<\/strong> nebo vyšší. Použijte CLI pro zálohování před aktualizací firmwaru. Postup pro CLI zálohu\/obnovení je v dokumentaci.<br \/>Alternativně můžete použít starší verzi konfigurátoru, pokud nejste připraveni firmware aktualizovat."
     },
+    "infoVersions": {
+        "message": "Spuštěno - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Konfigurátor: <strong>{{configuratorVersion}}<\/strong>",
+        "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
+    },
     "releaseCheckLoaded": {
         "message": "Načteny informace o verzi pro $1 z GitHubu."
+    },
+    "releaseCheckCached": {
+        "message": "Používám informace z mezipaměti pro verzi $1."
     },
     "firmwareVersion": {
         "message": "Verze firmwaru: <strong>$1<\/strong>"
@@ -288,10 +295,10 @@
         "message": "U: $1%"
     },
     "statusbar_packet_error": {
-        "message": "Chyba paketu:"
+        "message": "Chybné pakety:"
     },
     "statusbar_i2c_error": {
-        "message": "I2C error:"
+        "message": "I2C chyb:"
     },
     "statusbar_cycle_time": {
         "message": "Doba cyklů:"
