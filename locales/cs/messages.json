@@ -517,6 +517,12 @@
     "initialSetupMinCellV": {
         "message": "Min. napětí článku:"
     },
+    "initialSetupMaxCellV": {
+        "message": "Max. napětí článku:"
+    },
+    "initialSetupAccelTrimsHead": {
+        "message": "Trimy akcelerometru"
+    },
     "initialSetupMagHead": {
         "message": "Magnetometr"
     },
@@ -612,6 +618,36 @@
     },
     "featureBLACKBOXTip": {
         "message": "Po zapnutí nastavte skrz panel Černá skřínka"
+    },
+    "featureAIRMODE": {
+        "message": "Trvale zapnout Airmode"
+    },
+    "featureVTX": {
+        "message": "Video vysílač"
+    },
+    "configurationFeatureEnabled": {
+        "message": "Povoleno"
+    },
+    "configurationFeatureName": {
+        "message": "Funkce"
+    },
+    "configurationFeatureDescription": {
+        "message": "Popis"
+    },
+    "configurationMixer": {
+        "message": "Nastavení motorů"
+    },
+    "configurationReceiver": {
+        "message": "Přijímač"
+    },
+    "configurationReceiverMode": {
+        "message": "Mód přijímače"
+    },
+    "configurationRSSI": {
+        "message": "RSSI (síla signálu)"
+    },
+    "configurationEscFeatures": {
+        "message": "ESC\/nastavení motorů"
     },
     "pidTuningSubTabFilter": {
         "message": "Nastavení filtrů"
