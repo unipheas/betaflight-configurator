@@ -6,7 +6,7 @@
         "message": "Peringatan"
     },
     "noticeTitle": {
-        "message": "Melihat"
+        "message": "Catatan"
     },
     "operationNotSupported": {
         "message": "Fungsi tidak didukung oleh perangkat keras Anda."
