@@ -109,7 +109,7 @@
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusSonar": {
-        "message": "Sonar \/ Alat pengukur jarak"
+        "message": "Sonar \/ Pengukur jarak"
     },
     "sensorStatusSonarShort": {
         "message": "Sonar",
@@ -119,10 +119,10 @@
         "message": "Tampilkan pemberitahuan pembaruan untuk versi yang tidak stabil dari konfigurator"
     },
     "configuratorUpdateNotice": {
-        "message": "Anda sedang menggunakan sebuah versi lama dari <b>Konfigurator Betaflight<\/b>.<br>Versi <b>$1<\/b> tersedia secara online, silahkan kunjungi <a href=\"$2\" target=\"_blank\">halaman rilis<\/a> untuk mengunduh dan memasang versi terbaru dengan perbaikan dan penyempurnaan.<br>Silahkan tutup jendela konfigurator sebelum memperbarui."
+        "message": "Anda sedang menggunakan sebuah versi lama dari <b>Betaflight Configurator<\/b>.<br>Versi <b>$1<\/b> tersedia secara online, silahkan kunjungi <a href=\"$2\" target=\"_blank\">halaman rilis<\/a> untuk mengunduh dan memasang versi terbaru dengan perbaikan dan penyempurnaan.<br>Silahkan tutup jendela Betaflight sebelum memperbarui."
     },
     "configuratorUpdateWebsite": {
-        "message": "Pergi ke Situs web Rilis"
+        "message": "Kunjungi situs Rilis"
     },
     "deviceRebooting": {
         "message": "Perangkat - <span class=\"message-negative\">Reboot<\/span>"
@@ -131,16 +131,16 @@
         "message": "Perangkat - <span class=\"message-positive\">Siap<\/span>"
     },
     "backupFileIncompatible": {
-        "message": "Berkas cadangan yang disediakan adalah dihasilkan untuk versi sebelumnya dari konfigurator dan tidak sesuai dengan versi konfigurator ini. Maaf"
+        "message": "Backup dibuat untuk versi lama Betaflight dan tidak sesuai dengan versi Betaflight ini. Maaf"
     },
     "backupFileUnmigratable": {
-        "message": "Berkas cadangan yang disediakan adalah dihasilkan oleh sebuah versi sebelumnya dari konfigurator dan tidak dapat berpindah tempat. Maaf."
+        "message": "Backup dibuat oleh versi lama Betaflight dan tidak dapat di migrasi ke versi Betaflight yg lebih baru. Maaf."
     },
     "configMigrationFrom": {
-        "message": "Berkas konfigurasi yang berpindah tempat di hasilkan oleh konfigurator: $1"
+        "message": "Migrasi berkas konfigurasi yang dihasilkan oleh Betaflight: $1"
     },
     "configMigratedTo": {
-        "message": "Konfigurasi yang berpindah tempat ke konfigurator: $1"
+        "message": "Migrasi berkas konfigurasi ke Betaflight: $1"
     },
     "configMigrationSuccessful": {
         "message": "Migrasi konfigurasi selesai, migrasi diterapkan: $1"
