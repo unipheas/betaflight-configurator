@@ -143,7 +143,7 @@
         "message": "Migrasi berkas konfigurasi ke Betaflight: $1"
     },
     "configMigrationSuccessful": {
-        "message": "Migrasi konfigurasi selesai, migrasi diterapkan: $1"
+        "message": "Migrasi berkas konfigurasi selesai, migrasi telah diterapkan: $1"
     },
     "tabFirmwareFlasher": {
         "message": "Flasher Firmware"
@@ -152,13 +152,13 @@
         "message": "Selamat Datang"
     },
     "tabHelp": {
-        "message": "Dokumentasi & Bantuan"
+        "message": "Dokumentasi & Dukungan"
     },
     "tabSetup": {
-        "message": "Mempersiapkan"
+        "message": "Setup"
     },
     "tabSetupOSD": {
-        "message": "Mempersiapkan OSD"
+        "message": "Setup OSD"
     },
     "tabConfiguration": {
         "message": "Konfigurasi"
@@ -167,10 +167,10 @@
         "message": "Port"
     },
     "tabPidTuning": {
-        "message": "Penyetelan PID"
+        "message": "Tuning PID"
     },
     "tabReceiver": {
-        "message": "Penerima"
+        "message": "Receiver"
     },
     "tabModeSelection": {
         "message": "Pemilihan Mode"
@@ -179,10 +179,10 @@
         "message": "Servos"
     },
     "tabFailsafe": {
-        "message": "Tidak aman"
+        "message": "Failsafe"
     },
     "tabTransponder": {
-        "message": "Jenis Transponder"
+        "message": "Transponder Racing"
     },
     "tabOsd": {
         "message": "OSD"
@@ -206,7 +206,7 @@
         "message": "CLI"
     },
     "tabLogging": {
-        "message": "Ditambatkan Logging"
+        "message": "Batasan Logging"
     },
     "tabOnboardLogging": {
         "message": "Kotak Hitam"
@@ -215,7 +215,7 @@
         "message": "Penyesuaian"
     },
     "tabAuxiliary": {
-        "message": "Cara"
+        "message": "Mode"
     },
     "logActionHide": {
         "message": "Sembuyikan log"
@@ -224,7 +224,7 @@
         "message": "Tampilkan log"
     },
     "serialPortOpened": {
-        "message": "Serial port <span class=\"pesan positif\">berhasil<\/span> dibuka dengan ID: $1"
+        "message": "Port serial <span class=\"pesan positif\">berhasil<\/span> dibuka dengan ID: $1"
     },
     "serialPortOpenFail": {
         "message": "<span class=\"pesan-negatif\">Gagal<\/span> untuk membuka port serial"
@@ -233,10 +233,10 @@
         "message": "Port serial <span class=\"message-positive\">berhasil<\/span> ditutup"
     },
     "serialPortClosedFail": {
-        "message": "<span class=\"message-negative\">Gagal<\/span> untuk menutup seri port"
+        "message": "<span class=\"message-negative\">Gagal<\/span> untuk menutup port serial"
     },
     "serialUnrecoverable": {
-        "message": "Dipulihkan <span class=\"pesan-negatif\">failure<\/span> dari koneksi serial, melepaskan..."
+        "message": "<span class=\"message-negative\">Gagal<\/span> mengembalikan sambungan serial, memutuskan sambungan..."
     },
     "usbDeviceOpened": {
         "message": "Perangkat USB<span class=\"message-positive\">sukses<\/span>dibuka dengan ID: $1"
