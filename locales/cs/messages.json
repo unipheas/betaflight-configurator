@@ -318,6 +318,9 @@
     "firmwareVersionNotSupported": {
         "message": "Tato verze firmwaru <span class=\"message-negative\">není podporována<\/span>. Prosím upgradujte na firmware, který podporuje API ve verzi <strong>$1<\/strong> nebo vyšší. Použijte CLI pro zálohování před aktualizací firmwaru. Postup pro CLI zálohu\/obnovení je v dokumentaci.<br \/>Alternativně můžete použít starší verzi konfigurátoru, pokud nejste připraveni firmware aktualizovat."
     },
+    "firmwareTypeNotSupported": {
+        "message": "Firmware nezaložený na Cleanflight\/Betaflight <span class=\"message-negative\">není podporován<\/span>, pouze v CLI režimu."
+    },
     "infoVersions": {
         "message": "Spuštěno - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Konfigurátor: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
@@ -331,8 +334,14 @@
     "releaseCheckLoaded": {
         "message": "Načteny informace o verzi pro $1 z GitHubu."
     },
+    "releaseCheckFailed": {
+        "message": "<b>GitHub požadavek na verzi $1 selhal, používám informace z mezipaměti. Důvod: <code>$2<\/code><\/b>"
+    },
     "releaseCheckCached": {
         "message": "Používám informace z mezipaměti pro verzi $1."
+    },
+    "releaseCheckNoInfo": {
+        "message": "Nejsou dostupné žádné informace o verzi $1."
     },
     "tabSwitchConnectionRequired": {
         "message": "Je potřeba se <strong>připojit<\/strong> než budete moci zobrazit některou ze záložek."
@@ -748,6 +757,9 @@
     "configurationMixer": {
         "message": "Nastavení motorů"
     },
+    "configurationFeatures": {
+        "message": "Další funkce"
+    },
     "configurationReceiver": {
         "message": "Přijímač"
     },
@@ -759,6 +771,72 @@
     },
     "configurationEscFeatures": {
         "message": "ESC\/nastavení motorů"
+    },
+    "configurationBoardAlignment": {
+        "message": "Orientace desky a senzorů"
+    },
+    "configurationBoardAlignmentRoll": {
+        "message": "Stupňů náklonu"
+    },
+    "configurationBoardAlignmentPitch": {
+        "message": "Stupňů sklonu"
+    },
+    "configurationBoardAlignmentYaw": {
+        "message": "Stupňů otočení"
+    },
+    "configurationSensorAlignmentGyro": {
+        "message": "Poloha gyroskopu"
+    },
+    "configurationSensorAlignmentAcc": {
+        "message": "Poloha akcelerometru"
+    },
+    "configurationSensorAlignmentMag": {
+        "message": "Poloha kompasu"
+    },
+    "configurationSensorAlignmentDefaultOption": {
+        "message": "Výchozí"
+    },
+    "configurationAccelTrims": {
+        "message": "Trimy akcelerometru"
+    },
+    "configurationAccelTrimRoll": {
+        "message": "Trim náklonu akcelerometru"
+    },
+    "configurationAccelTrimPitch": {
+        "message": "Trim sklonu akcelerometru"
+    },
+    "configurationArming": {
+        "message": "Odjištění"
+    },
+    "configurationMagDeclination": {
+        "message": "Deklinace kompasu [deg]"
+    },
+    "configurationReverseMotorSwitch": {
+        "message": "Směr motorů je otočený"
+    },
+    "configurationDigitalIdlePercent": {
+        "message": "Volnoběh motorů [percent]"
+    },
+    "configurationThrottleMinimum": {
+        "message": "Minimální plyn (Nejnižší ESC hodnota, když je odjištěno)"
+    },
+    "configurationThrottleMaximum": {
+        "message": "Maximální plyn (Nejvyšší ESC hodnota, když je odjištěno)"
+    },
+    "configurationDshotBeeper": {
+        "message": "Nastavení ESC Dshot bzučáku"
+    },
+    "configurationDshotBeaconTone": {
+        "message": "Použít motory\/ESC jako bzučák"
+    },
+    "configurationBeeper": {
+        "message": "Nastavení bzučáku"
+    },
+    "beeperGYRO_CALIBRATED": {
+        "message": "Pípnutí po kalibraci gyroskopu"
+    },
+    "beeperDISARMING": {
+        "message": "Pípnout, když se zajistí řídící jednotka"
     },
     "beeperARMING": {
         "message": "Pípnout, když se dron odjistí"
@@ -883,8 +961,14 @@
     "portsFunction_TELEMETRY_SRXL": {
         "message": "SRXL"
     },
+    "portsFunction_ESC_SENSOR": {
+        "message": "ESC"
+    },
     "portsFunction_RX_SERIAL": {
         "message": "Sériový RX"
+    },
+    "portsFunction_BLACKBOX": {
+        "message": "Blackbox logování"
     },
     "portsFunction_TBS_SMARTAUDIO": {
         "message": "TBS SmartAudio"
