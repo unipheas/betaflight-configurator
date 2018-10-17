@@ -849,16 +849,16 @@
         "message": "RSSI (Indikator Sinyal)"
     },
     "configurationRSSIHelp": {
-        "message": "RSSI adalah pengukuran kekuatan sinyal dan sangat berguna sehingga Anda tahu kapan pesawat Anda berada di luar jangkauan atau jika mengalami gangguan RF."
+        "message": "RSSI adalah pengukuran kekuatan sinyal dan sangat berguna sehingga anda tahu kapan pesawat berada di luar jangkauan atau jika mengalami gangguan RF."
     },
     "configurationEscFeatures": {
-        "message": "ESC \/ Fitur Motor"
+        "message": "Fitur ESC \/Motor"
     },
     "configurationFeaturesHelp": {
-        "message": "<strong>Catatan:<\/strong> Tidak semua kombinasi dari fitur berlaku. Ketika perangkat tetap pengontrol penerbangan mendeteksi kombinasi fitur yang tidak berlaku dan fitur yang bertentangan akan dinonaktifkan.<br \/> <strong>Catatan:<\/strong> Konfigurasi port serial <span class=\"message-negative\">sebelum<\/span> mengaktifkan fitur yang akan menggunakan port."
+        "message": "<strong>Catatan:<\/strong> Tidak semua kombinasi dari fitur berlaku. Ketika firmware flight controller mendeteksi kombinasi fitur yang tidak berlaku, maka fitur yang menyebabkan konflik akan dinonaktifkan.<br \/> <strong>Catatan:<\/strong> Konfigurasi port serial <span class=\"message-negative\">sebelum<\/span> mengaktifkan fitur yang akan menggunakan port tersebut."
     },
     "configurationSerialRXHelp": {
-        "message": "<strong>Catatan:<\/strong> Ingatlah selalu untuk mengkonfigurasi serial Port (melalui tab Ports) dan memilih Penyedia Seri Receiver saat menggunakan fitur RX_SERIAL."
+        "message": "<strong>Catatan:<\/strong> Ingatlah selalu untuk mengkonfigurasi port serial (melalui tab Ports) dan memilih merk receiver serial saat menggunakan fitur RX_SERIAL."
     },
     "configurationSpiRxHelp": {
         "message": "<strong>Catatan:<\/strong> Penyedia SPI RX hanya akan bekerja jika perangkat keras yang diperlukan ada di kapal atau terhubung ke bus SPI."
