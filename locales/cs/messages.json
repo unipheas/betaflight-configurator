@@ -598,6 +598,33 @@
     "motorNumber8": {
         "message": "Motor - 8"
     },
+    "servosText": {
+        "message": "Serva"
+    },
+    "servoNumber1": {
+        "message": "Servo - 1"
+    },
+    "servoNumber2": {
+        "message": "Servo - 2"
+    },
+    "servoNumber3": {
+        "message": "Servo - 3"
+    },
+    "servoNumber4": {
+        "message": "Servo - 4"
+    },
+    "servoNumber5": {
+        "message": "Servo - 5"
+    },
+    "servoNumber6": {
+        "message": "Servo - 6"
+    },
+    "servoNumber7": {
+        "message": "Servo - 7"
+    },
+    "servoNumber8": {
+        "message": "Servo - 8"
+    },
     "motorsResetMaximumButton": {
         "message": "Reset"
     },
@@ -609,6 +636,24 @@
     },
     "cliInputPlaceholder": {
         "message": "Zde napište svůj příkaz"
+    },
+    "blackboxConfiguration": {
+        "message": "Nastavení Blackboxu"
+    },
+    "blackboxButtonSave": {
+        "message": "Uložit a restartovat"
+    },
+    "blackboxLoggingNone": {
+        "message": "Bez záznamu"
+    },
+    "serialLoggingSupportedNote": {
+        "message": "Můžete se připojit k externímu logovacímu zařízení (jako OpenLog, nebo kompatibilní klon) přes sériový port. Nastavte tento port v konfiguraci portů."
+    },
+    "sdcardNote": {
+        "message": "Záznamy z letů můžou být uloženy na SD kartu vloženou ve vašem FC."
+    },
+    "sdcardStatusNoCard": {
+        "message": "Není vložena žádná karta"
     },
     "firmwareFlasherNoReboot": {
         "message": "Bez restartu"
@@ -703,7 +748,25 @@
     "powerBatteryCapacity": {
         "message": "Kapacita (mAh)"
     },
+    "osdSetupTitle": {
+        "message": "OSD"
+    },
     "pidTuningProfile": {
         "message": "Profil"
+    },
+    "onboardLoggingBlackbox": {
+        "message": "Blackbox logovací zařízení"
+    },
+    "onboardLoggingRateOfLogging": {
+        "message": "Rychlost záznamu Blackboxu"
+    },
+    "onboardLoggingSerialLogger": {
+        "message": "Externí logovací zařízení"
+    },
+    "onboardLoggingMsc": {
+        "message": "Režim velkokapacitní paměti"
+    },
+    "flashTab": {
+        "message": "Aktualizovat firmware"
     }
 }
