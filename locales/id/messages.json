@@ -251,7 +251,7 @@
         "message": "<span class=\"message-negative\">gagal<\/span>untuk menutup perangkat USB"
     },
     "usbDeviceUdevNotice": {
-        "message": "Adalah<strong>aturan udev<\/strong>terpasang dengan benar? Lihat dokumentasi untuk petunjuk"
+        "message": "Apakah <strong>aturan udev<\/strong> sudah terpasang dengan benar? Lihat dokumentasi untuk petunjuk"
     },
     "stm32UsbDfuNotFound": {
         "message": "USB DFU tidak ditemukan"
@@ -260,7 +260,7 @@
         "message": "STM32 - waktu habis, pemrograman: GAGAL"
     },
     "stm32WrongResponse": {
-        "message": "STM32 Komunikasi gagal, tanggapan salah, diharapkan: $1 (0x$2) diterima: $3 (0x$4)"
+        "message": "Komunikasi STM32 gagal, respon salah, diharapkan: $1 (0x$2) diterima: $3 (0x$4)"
     },
     "stm32ContactingBootloader": {
         "message": "Menghubungi bootloader ..."
@@ -272,10 +272,10 @@
         "message": "Tidak ada tanggapan dari bootloader, pemrograman: GAGAL"
     },
     "stm32GlobalEraseExtended": {
-        "message": "Melaksanakan penghapusan chip global (melalui penghapusan yang diperluas) ..."
+        "message": "Melaksanakan penghapusan global chip (melalui penghapusan yg menyeluruh) ..."
     },
     "stm32LocalEraseExtended": {
-        "message": "Melaksanakan penghapusan lokal (melalui penghapusan yang diperluas) ..."
+        "message": "Melaksanakan penghapusan lokal (melalui penghapusan yg menyeluruh) ..."
     },
     "stm32GlobalErase": {
         "message": "Melakukan penghapusan chip global ..."
@@ -287,7 +287,7 @@
         "message": "Menghapus ..."
     },
     "stm32Flashing": {
-        "message": "Berkedip ..."
+        "message": "Flashing ..."
     },
     "stm32Verifying": {
         "message": "Memverifikasi ..."
@@ -299,25 +299,25 @@
         "message": "Pemrograman: GAGAL"
     },
     "stm32AddressLoadFailed": {
-        "message": "Beban alamat untuk pilihan bytes sektor gagal. Sangat mungkin karena membaca perlindungan."
+        "message": "Alamat memori untuk pilihan sektor bit gagal. Sangat mungkin karena proteksi baca."
     },
     "stm32AddressLoadSuccess": {
-        "message": "Beban alamat untuk pilihan bytes sektor berhasil."
+        "message": "Alamat memori untuk pilihan sektor bit berhasil."
     },
     "stm32AddressLoadUnknown": {
-        "message": "Beban alamat untuk sektor pilihan byte sektor gagal dengan kesalahan yang tidak diketahui. Membatalkan."
+        "message": "Alamat memori untuk pilihan sektor bit gagal dengan kesalahan yang tidak diketahui. Membatalkan."
     },
     "stm32NotReadProtected": {
-        "message": "Membaca perlindungan tidak aktif"
+        "message": "Proteksi baca tidak aktif"
     },
     "stm32ReadProtected": {
-        "message": "Board sepertinya sudah terlindungi. Tidak proteksi. Jangan terputus\/mencabut kabelnya!"
+        "message": "FC sepertinya diproteksi. Membuka proteksi. Jangan memutus\/mencabut sambungan!"
     },
     "stm32UnprotectSuccessful": {
-        "message": "Tidak berproteksi berhasil."
+        "message": "Buka proteksi berhasil."
     },
     "stm32UnprotectUnplug": {
-        "message": "TINDAKAN DIPERLUKAN: Cabut dan hubungkan kembali pengontrol penerbangan dalam mode DFU untuk mencoba berkedip lagi!"
+        "message": "TINDAKAN DIPERLUKAN: Cabut dan hubungkan kembali flight controller dalam mode DFU untuk mencoba flashing lagi!"
     },
     "stm32UnprotectFailed": {
         "message": "Gagal melindungi board"
