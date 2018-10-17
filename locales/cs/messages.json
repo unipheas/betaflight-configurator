@@ -47,6 +47,10 @@
     "language_default": {
         "message": "Výchozí"
     },
+    "sensorDataFlashNotFound": {
+        "message": "Paměťový čip <br>nenalezen",
+        "description": "Text of the dataflash image in the header of the page."
+    },
     "sensorStatusGyro": {
         "message": "Gyroskop"
     },
@@ -542,6 +546,42 @@
     },
     "receiverRcSmoothingType": {
         "message": "Typ vyhlazování"
+    },
+    "auxiliaryToggleUnused": {
+        "message": "Zobrazit\/skrýt nepoužívané módy"
+    },
+    "auxiliaryAddRange": {
+        "message": "Přidat rozsah"
+    },
+    "motorsVoltage": {
+        "message": "Napětí:"
+    },
+    "motorsADrawing": {
+        "message": "Proud:"
+    },
+    "motorsmAhDrawn": {
+        "message": "Spotřebováno:"
+    },
+    "motorsVoltageValue": {
+        "message": "$1 V"
+    },
+    "motorsADrawingValue": {
+        "message": "$1 A"
+    },
+    "motorsmAhDrawnValue": {
+        "message": "$1 mAh"
+    },
+    "motorsText": {
+        "message": "Motory"
+    },
+    "motorsResetMaximumButton": {
+        "message": "Reset"
+    },
+    "sensorsRefresh": {
+        "message": "Obnovit:"
+    },
+    "sensorsScale": {
+        "message": "Měřítko:"
     },
     "cliInputPlaceholder": {
         "message": "Zde napište svůj příkaz"
