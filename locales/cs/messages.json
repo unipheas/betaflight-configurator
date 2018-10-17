@@ -493,6 +493,9 @@
     "defaultSupport5": {
         "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Vývojáři Betaflight na Slacku<\/a>"
     },
+    "initialSetupBackupAndRestoreApiVersion": {
+        "message": "<span class=\"message-negative\">Funkce zálohování a obnovení zakázána.<\/span> Používáte firmware s API verzí <span class=\"message-negative\">$1<\/span>, záloha a obnovení vyžadují <span class=\"message-positive\">$2<\/span>. Prosím zálohujte Vaší konfiguraci pomocí CLI a přečtěte si dokumentaci Betaflight pro další postup."
+    },
     "initialSetupButtonCalibrateAccel": {
         "message": "Kalibrovat akcelerometr"
     },
@@ -523,6 +526,12 @@
     "initialSetupRebootBootloaderText": {
         "message": "Restartujte do <strong> boot loader \/ DFU<\/strong> režimu."
     },
+    "initialSetupBackupSuccess": {
+        "message": "Záloha <span class=\"message-positive\">úspěšně<\/span> uložena"
+    },
+    "initialSetupRestoreSuccess": {
+        "message": "Konfigurace <span class=\"message-positive\">úspěšně<\/span> obnovena"
+    },
     "initialSetupButtonResetZaxis": {
         "message": "Reset osy Z, posun: 0 stupňů"
     },
@@ -538,6 +547,9 @@
     "initialSetupMaximum": {
         "message": "Maximum:"
     },
+    "initialSetupFailsafe": {
+        "message": "Pojistka proti poruchám (Failsafe):"
+    },
     "initialSetupBatteryHead": {
         "message": "Baterie"
     },
@@ -550,8 +562,17 @@
     "initialSetupAccelTrimsHead": {
         "message": "Trimy akcelerometru"
     },
+    "initialSetupPitch": {
+        "message": "Sklon:"
+    },
+    "initialSetupRoll": {
+        "message": "Náklon:"
+    },
     "initialSetupMagHead": {
         "message": "Magnetometr"
+    },
+    "initialSetupDeclination": {
+        "message": "Deklinace:"
     },
     "initialSetupInfoHead": {
         "message": "Informace"
@@ -561,6 +582,9 @@
     },
     "initialSetupBatteryValue": {
         "message": "$1 V"
+    },
+    "initialSetupDrawn": {
+        "message": "Spotřebovaná kapacita:"
     },
     "initialSetupDrawing": {
         "message": "Odběr proudu:"
@@ -576,6 +600,15 @@
     },
     "initialSetupRSSIValue": {
         "message": "$1 %"
+    },
+    "initialSetupArmingDisableFlags": {
+        "message": "Problémy odjištění:"
+    },
+    "initialSetupArmingAllowed": {
+        "message": "Odjištění povoleno"
+    },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "Seznam chyb, které vysvětlují, proč se nemůže odjistit. První a nejdůležitější hodnota koresponduje s počtem varovných pípnutí, které se ozvou při pokusu o odjištění. Podívejte se na Wiki (stránka 'Arming Sequence & Safety') pro popis toho, co tyto chyby znamenají."
     },
     "initialSetupGPSHead": {
         "message": "GPS"
@@ -604,6 +637,9 @@
     "initialSetupMagCalibEnded": {
         "message": "Kalibrace magnetometru <span class=\"message-positive\">dokončena<\/span>"
     },
+    "initialSetupSettingsRestored": {
+        "message": "<strong>Výchozí hodnoty<\/strong> byly obnoveny"
+    },
     "initialSetupEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">uložena<\/span>"
     },
@@ -613,8 +649,29 @@
     "featureRX_PPM": {
         "message": "PPM RX vstup"
     },
+    "featureVBAT": {
+        "message": "Monitorování napětí baterie"
+    },
+    "featureINFLIGHT_ACC_CAL": {
+        "message": "Kalibrace horizontu za letu"
+    },
+    "featureMOTOR_STOP": {
+        "message": "Odjištěný dron automaticky nezapne motory"
+    },
+    "featureSOFTSERIAL": {
+        "message": "Povolit sériové porty CPU"
+    },
+    "featureGPS": {
+        "message": "GPS pro navigaci a telemetrii"
+    },
     "featureSONAR": {
         "message": "Sonar"
+    },
+    "featureTELEMETRY": {
+        "message": "Výstup telemetrie"
+    },
+    "featureCURRENT_METER": {
+        "message": "Monitorování proudu baterie"
     },
     "feature3D": {
         "message": "3D mód (pro použití s obousměrnými ESC)"
@@ -645,6 +702,9 @@
     },
     "featureBLACKBOXTip": {
         "message": "Po zapnutí nastavte skrz panel Černá skřínka"
+    },
+    "featureRX_SPI": {
+        "message": "Podpora SPI RX"
     },
     "featureAIRMODE": {
         "message": "Trvale zapnout Airmode"
