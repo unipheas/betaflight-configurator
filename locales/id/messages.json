@@ -366,10 +366,10 @@
         "message": "Anda perlu untuk <strong>menghubungkan<\/strong> sebelum anda dapat melihat isi tab."
     },
     "tabSwitchWaitForOperation": {
-        "message": "Anda <span class=\"message-negative\">tidak dapat<\/span> melakukan ini sekarang, silahkan tunggu selama operasi saat ini untuk menyelesaikan ..."
+        "message": "Anda <span class=\"message-negative\">tidak dapat<\/span> melakukan ini sekarang, silahkan tunggu operasi saat ini selesai ..."
     },
     "tabSwitchUpgradeRequired": {
-        "message": "Anda perlu untuk <strong>meningkatkan<\/strong> perangkat tetap anda ke versi terbaru dari Betaflight sebelum anda dapat menggunakan $1 tab."
+        "message": "Anda perlu untuk <strong>upgrade<\/strong> firmware anda ke versi Betaflight terbaru sebelum dapat menggunakan tab $1."
     },
     "firmwareVersion": {
         "message": "Versi Firmware: <strong>$1<\/strong>"
@@ -381,31 +381,31 @@
         "message": "ID perangkat unik: <strong>0x$1<\/strong>"
     },
     "craftNameReceived": {
-        "message": "Nama Kerajinan: <strong>$1<\/strong>"
+        "message": "Nama Model: <strong>$1<\/strong>"
     },
     "armingDisabled": {
-        "message": "<strong>Mempersenjatai Keluarga<\/strong>"
+        "message": "<strong>Arming Non-aktif<\/strong>"
     },
     "armingEnabled": {
-        "message": "<strong>Mempersenjatai Diaktifkan<\/strong>"
+        "message": "<strong>Arming Diaktifkan<\/strong>"
     },
     "runawayTakeoffPreventionDisabled": {
-        "message": "<strong>pergi lepas Landas Pencegahan sementara Dinonaktifkan<\/strong>"
+        "message": "<strong>Fitur Runaway Takeoff Prevention untuk sementara Non-aktif<\/strong>"
     },
     "runawayTakeoffPreventionEnabled": {
-        "message": "<strong>Runaway Takeoff Prevention Enabled<\/strong>"
+        "message": "<strong>Runaway Takeoff Prevention diaktifkan<\/strong>"
     },
     "boardInfoReceived": {
-        "message": "Dewan: <strong>$1<\/strong>, versi: <strong>$2<\/strong>"
+        "message": "FC: <strong>$1<\/strong>, versi: <strong>$2<\/strong>"
     },
     "buildInfoReceived": {
-        "message": "Menjalankan dirilisnya firmware pada: <strong>$1<\/strong>"
+        "message": "Menjalankan firmware yg dirilis pada: <strong>$1<\/strong>"
     },
     "fcInfoReceived": {
-        "message": "Penerbangan controller info, identifier: <strong>$1<\/strong>, versi: <strong>$2<\/strong>"
+        "message": "Info Flight controller, identifikasi: <strong>$1<\/strong>, versi: <strong>$2<\/strong>"
     },
     "versionLabelTarget": {
-        "message": "Sasaran"
+        "message": "Target"
     },
     "versionLabelFirmware": {
         "message": "Firmware"
