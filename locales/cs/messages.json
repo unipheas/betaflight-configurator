@@ -50,8 +50,16 @@
     "sensorStatusGyro": {
         "message": "Gyroskop"
     },
+    "sensorStatusGyroShort": {
+        "message": "Gyro",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
     "sensorStatusAccel": {
         "message": "Akcelerometr"
+    },
+    "sensorStatusAccelShort": {
+        "message": "Akcel",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusMag": {
         "message": "Kompas"
@@ -63,11 +71,23 @@
     "sensorStatusBaro": {
         "message": "Barometr"
     },
+    "sensorStatusBaroShort": {
+        "message": "Baro",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
     "sensorStatusGPS": {
         "message": "GPS"
     },
+    "sensorStatusGPSShort": {
+        "message": "GPS",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
     "sensorStatusSonar": {
         "message": "Sonar \/ Dálkoměr"
+    },
+    "sensorStatusSonarShort": {
+        "message": "Sonar",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "checkForConfiguratorUnstableVersions": {
         "message": "Zobrazit oznámení o aktualizacích pro nestabilní verze konfigurátoru"
@@ -520,6 +540,9 @@
     "pidTuningSubTabFilter": {
         "message": "Nastavení filtrů"
     },
+    "receiverRcSmoothingType": {
+        "message": "Typ vyhlazování"
+    },
     "cliInputPlaceholder": {
         "message": "Zde napište svůj příkaz"
     },
@@ -552,6 +575,15 @@
     },
     "pidTuningBasic": {
         "message": "Základní\/Acro"
+    },
+    "pidTuningLevel": {
+        "message": "Acro\/Horizont"
+    },
+    "pidTuningHorizon": {
+        "message": "Horizont"
+    },
+    "pidTuningAngle": {
+        "message": "Acro"
     },
     "powerBatteryVoltageMeterSource": {
         "message": "Typ voltmetru"
