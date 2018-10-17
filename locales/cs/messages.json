@@ -154,7 +154,7 @@
         "message": "LED pásek"
     },
     "tabRawSensorData": {
-        "message": "Sensory"
+        "message": "Senzory"
     },
     "tabCLI": {
         "message": "Manuální příkazový řádek (CLI)"
@@ -452,7 +452,7 @@
         "message": "GPS"
     },
     "initialSetupInstrumentsHead": {
-        "message": "Instrumenty"
+        "message": "Přístroje"
     },
     "initialSetupButtonSave": {
         "message": "Uložit"
@@ -517,6 +517,12 @@
     "featureBLACKBOXTip": {
         "message": "Po zapnutí nastavte skrz panel Černá skřínka"
     },
+    "pidTuningSubTabFilter": {
+        "message": "Nastavení filtrů"
+    },
+    "cliInputPlaceholder": {
+        "message": "Zde napište svůj příkaz"
+    },
     "firmwareFlasherNoReboot": {
         "message": "Bez restartu"
     },
@@ -543,5 +549,65 @@
     },
     "firmwareFlasherOptionLabelSelectFirmwareVersionFor": {
         "message": "Zvolte verzi firmwaru pro"
+    },
+    "pidTuningBasic": {
+        "message": "Základní\/Acro"
+    },
+    "powerBatteryVoltageMeterSource": {
+        "message": "Typ voltmetru"
+    },
+    "powerBatteryCurrentMeterSource": {
+        "message": "Typ ampérmetru"
+    },
+    "powerBatteryCurrentMeterTypeNone": {
+        "message": "Žádný"
+    },
+    "powerBatteryMinimum": {
+        "message": "Minimální napětí článku"
+    },
+    "powerBatteryMaximum": {
+        "message": "Maximální napětí článku"
+    },
+    "powerBatteryWarning": {
+        "message": "Výstraha při napětí článku"
+    },
+    "powerVoltageValue": {
+        "message": "$1 V"
+    },
+    "powerAmperageValue": {
+        "message": "$1 A"
+    },
+    "powerVoltageId10": {
+        "message": "Baterie"
+    },
+    "powerAmperageHead": {
+        "message": "Ampérmetr"
+    },
+    "powerMahValue": {
+        "message": "$1 mAh"
+    },
+    "powerStateHead": {
+        "message": "Stav napájení"
+    },
+    "powerBatteryConnected": {
+        "message": "Připojeno"
+    },
+    "powerBatteryConnectedValueNo": {
+        "message": "Ne"
+    },
+    "powerBatteryVoltage": {
+        "message": "Napětí"
+    },
+    "powerBatteryCurrentDrawn": {
+        "message": "mAh použito"
+    },
+    "powerBatteryAmperage": {
+        "message": "Proud"
+    },
+    "powerBatteryCapacity": {
+        "message": "Kapacita (mAh)"
+    },
+    "pidTuningProfile": {
+        "message": "Profil"
     }
 }
