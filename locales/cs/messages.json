@@ -54,7 +54,11 @@
         "message": "Akcelerometr"
     },
     "sensorStatusMag": {
-        "message": "Magnetometr"
+        "message": "Kompas"
+    },
+    "sensorStatusMagShort": {
+        "message": "Komp",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusBaro": {
         "message": "Barometr"
@@ -394,7 +398,7 @@
         "message": "Resetovat nastavení"
     },
     "initialSetupResetText": {
-        "message": "Vrátit <strong>výchozí<\/strong> nastavení"
+        "message": "Obnovit <strong>výchozí<\/strong> nastavení"
     },
     "initialSetupButtonBackup": {
         "message": "Zálohovat"
