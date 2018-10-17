@@ -21,7 +21,7 @@
         "message": "Sambungkan"
     },
     "connecting": {
-        "message": "Menghubungkan"
+        "message": "Menyambung"
     },
     "disconnect": {
         "message": "Memutuskan"
@@ -39,19 +39,19 @@
         "message": "Tutup"
     },
     "autoConnectEnabled": {
-        "message": "Sambungan Otomatis: Diaktifkan - Konfigurator secara otomatis mencoba untuk menghubungkan ketika sebuah port baru terdeteksi"
+        "message": "Sambungan Otomatis: Diaktifkan - Konfigurator secara otomatis mencoba untuk menyambungkan ketika sebuah port baru terdeteksi"
     },
     "autoConnectDisabled": {
-        "message": "Sambung-Automatis: Dinonaktifkan - Pengguna harus memilih seri port yang benar dan klik tombol \"Connect\" itu sendiri"
+        "message": "Sambung-Automatis: Dinonaktifkan - Pengguna harus memilih port serial yang benar dan klik tombol \"Sambungkan\" itu sendiri"
     },
     "expertMode": {
-        "message": "Aktifkan mode pakar"
+        "message": "Aktifkan mode ahli"
     },
     "expertModeDescription": {
         "message": "Tampilkan versi belum rilis dan berpotensi tidak stabil"
     },
     "permanentExpertMode": {
-        "message": "Aktifkan mode pakar secara permanen"
+        "message": "Aktifkan mode ahli secara permanen"
     },
     "rememberLastTab": {
         "message": "Buka kembali tab terakhir saat dihubungkan"
@@ -70,14 +70,14 @@
         "description": "Text of the dataflash image in the header of the page."
     },
     "sensorDataFlashFreeSpace": {
-        "message": "Dataflash: ruang kosong",
+        "message": "Dataflash: sisa penyimpanan",
         "description": "Text of the dataflash image in the header of the page."
     },
     "sensorStatusGyro": {
         "message": "Giroskop"
     },
     "sensorStatusGyroShort": {
-        "message": "Lang",
+        "message": "Gyro",
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusAccel": {
