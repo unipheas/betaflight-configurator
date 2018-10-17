@@ -561,10 +561,10 @@
         "message": "Kembalikan ke pengaturan <strong>awal<\/strong>"
     },
     "initialSetupButtonBackup": {
-        "message": "Cadangan"
+        "message": "Backup"
     },
     "initialSetupButtonRestore": {
-        "message": "Mengembalikan"
+        "message": "Restore"
     },
     "initialSetupButtonRebootBootloader": {
         "message": "Aktifkan Boot Loader \/ DFU"
@@ -576,10 +576,10 @@
         "message": "Reboot ke mode <strong>boot loader \/ DFU<\/strong>."
     },
     "initialSetupBackupSuccess": {
-        "message": "Backup disimpan <span class=\"pesan positif\">berhasil<\/span>"
+        "message": "Backup disimpan <span class=\"message-positive\">berhasil<\/span>"
     },
     "initialSetupRestoreSuccess": {
-        "message": "Pemulihan configurasi <span class=\"pesan-positive\">berhasil<\/span>"
+        "message": "Restore konfigurasi <span class=\"message-positive\">berhasil<\/span>"
     },
     "initialSetupButtonResetZaxis": {
         "message": "Reset sumbu Z, offset: 0 derajat"
@@ -588,10 +588,10 @@
         "message": "Reset sumbu Z, offset: 1 derajat"
     },
     "initialSetupMixerHead": {
-        "message": "Jenis mixer"
+        "message": "Tipe mixer"
     },
     "initialSetupThrottleHead": {
-        "message": "Pengaturan throttle"
+        "message": "Pengaturan Throttle"
     },
     "initialSetupMinimum": {
         "message": "Minimum:"
@@ -600,7 +600,7 @@
         "message": "Maksimum:"
     },
     "initialSetupFailsafe": {
-        "message": "Tidak aman:"
+        "message": "Failsafe:"
     },
     "initialSetupMinCommand": {
         "message": "MinCommand:"
@@ -609,43 +609,43 @@
         "message": "Baterai"
     },
     "initialSetupMinCellV": {
-        "message": "Minimal Tegangan Sel:"
+        "message": "Voltase Sel Min:"
     },
     "initialSetupMaxCellV": {
-        "message": "Max Cell Voltage:"
+        "message": "Voltase Sel Maks:"
     },
     "initialSetupVoltageScale": {
-        "message": "Skala Tegangan:"
+        "message": "Skala Voltase:"
     },
     "initialSetupAccelTrimsHead": {
-        "message": "Memotong accelerometer"
+        "message": "Trim accelerometer"
     },
     "initialSetupPitch": {
-        "message": "Nada:"
+        "message": "Pitch:"
     },
     "initialSetupRoll": {
-        "message": "Gulungan:"
+        "message": "Roll:"
     },
     "initialSetupMagHead": {
         "message": "Magnetometer"
     },
     "initialSetupDeclination": {
-        "message": "Penolakan:"
+        "message": "Deklinasi:"
     },
     "initialSetupInfoHead": {
         "message": "Info"
     },
     "initialSetupBattery": {
-        "message": "Tegangan baterai:"
+        "message": "Voltase baterai:"
     },
     "initialSetupBatteryValue": {
         "message": "$1 V"
     },
     "initialSetupDrawn": {
-        "message": "Kapasitas yang ditarik:"
+        "message": "Kapasitas terpakai:"
     },
     "initialSetupDrawing": {
-        "message": "Hasil saat ini:"
+        "message": "Arus terpakai:"
     },
     "initialSetupBatteryMahValue": {
         "message": "$1 mAh"
@@ -660,13 +660,13 @@
         "message": "$1 %"
     },
     "initialSetupArmingDisableFlags": {
-        "message": "Arming Nonaktifkan Flags:"
+        "message": "Rambu Arming Non-aktif:"
     },
     "initialSetupArmingAllowed": {
         "message": "Arming Diizinkan"
     },
     "initialSetupArmingDisableFlagsTooltip": {
-        "message": "Daftar flags yang menunjukkan mengapa arming saat ini tidak di perbolehkan. Nilai pertama dan terpenting sesuai dengan jumlah peringatan beep yang terdengar ketika arming dicoba. Silakan lihat halaman Wiki ('Arming Sequence & Safety') untuk deskripsi tentang arti dari flag-flag ini."
+        "message": "Daftar rambu yang menunjukkan mengapa arming saat ini tidak di perbolehkan. Nilai pertama dan terpenting sesuai dengan jumlah peringatan beep yang terdengar ketika percobaan arming. Silakan lihat halaman Wiki ('Arming Sequence & Safety') untuk deskripsi tentang arti dari rambu-rambu ini."
     },
     "initialSetupGPSHead": {
         "message": "GPS"
