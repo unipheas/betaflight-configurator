@@ -469,6 +469,9 @@
     "initialSetupMagHead": {
         "message": "Magnetometr"
     },
+    "initialSetupInfoHead": {
+        "message": "Informace"
+    },
     "initialSetupBattery": {
         "message": "Napětí baterie:"
     },
@@ -503,7 +506,7 @@
         "message": "Model: $1"
     },
     "initialSetupAttitude": {
-        "message": "$1 stupňů"
+        "message": "$1°"
     },
     "initialSetupAccelCalibStarted": {
         "message": "Kalibrace akcelerometru zahájena"
@@ -570,6 +573,21 @@
     },
     "auxiliaryAddRange": {
         "message": "Přidat rozsah"
+    },
+    "servosName": {
+        "message": "Název"
+    },
+    "servosMid": {
+        "message": "MID"
+    },
+    "servosMin": {
+        "message": "MIN"
+    },
+    "servosMax": {
+        "message": "MAX"
+    },
+    "servosDirectionAndRate": {
+        "message": "Směr a poměr"
     },
     "motorsVoltage": {
         "message": "Napětí:"
@@ -646,6 +664,12 @@
     "motorsResetMaximumButton": {
         "message": "Reset"
     },
+    "motorsSensorGyroSelect": {
+        "message": "gyroskop"
+    },
+    "motorsNotice": {
+        "message": "<strong>Upozornění před testem motorů\/odjištěním:<\/strong><br \/>Posunutím sliderů nebo odjištěním dronu způsobíte <strong>roztočení motorů<\/strong>.<br \/>Abyste předešli zraněním, <strong class=\"message-negative\">sundejte VŠECHNY vrtule<\/strong>, než použijete tuto funkci.<br \/>Zapnutím módu testu motorů se dočasně vypne funkce pro ochranu před nekontrolovaným startem, aby se mohly spustit motory bez vrtulí.<br \/>"
+    },
     "sensorsRefresh": {
         "message": "Obnovit:"
     },
@@ -702,6 +726,21 @@
     },
     "firmwareFlasherOptionLabelSelectFirmwareVersionFor": {
         "message": "Zvolte verzi firmwaru pro"
+    },
+    "controlAxisRoll": {
+        "message": "Náklon [A]"
+    },
+    "controlAxisPitch": {
+        "message": "Sklon [E]"
+    },
+    "controlAxisYaw": {
+        "message": "Zatáčení [R]"
+    },
+    "controlAxisThrottle": {
+        "message": "Plyn [T]"
+    },
+    "controlAxisAux1": {
+        "message": "AUX 1"
     },
     "pidTuningBasic": {
         "message": "Základní\/Acro"
