@@ -325,6 +325,12 @@
     "releaseCheckCached": {
         "message": "Používám informace z mezipaměti pro verzi $1."
     },
+    "tabSwitchWaitForOperation": {
+        "message": "Momentálně tuto akci <span class=\"message-negative\">nelze provést<\/span>, prosím vyčkejte na dokončení současné operace ..."
+    },
+    "tabSwitchUpgradeRequired": {
+        "message": "Před použitím záložky $1 musíte <strong>aktualizovat<\/strong> firmware na nejnovější verzi Betaflight."
+    },
     "firmwareVersion": {
         "message": "Verze firmwaru: <strong>$1<\/strong>"
     },
@@ -342,6 +348,9 @@
     },
     "armingEnabled": {
         "message": "<strong>Odjištění povoleno<\/strong>"
+    },
+    "runawayTakeoffPreventionDisabled": {
+        "message": "<strong>Předejití nekontrolovanému vzletu dočasně vypnuto<\/strong>"
     },
     "runawayTakeoffPreventionEnabled": {
         "message": "<strong>Ochrana proti nekontrolovanému startu zapnuta<\/strong>"
@@ -418,6 +427,9 @@
     "defaultContributingText": {
         "message": "Pokud chcete pomoci udělat Betaflight ještě lepším, můžete přispět mnoha způsoby:<br \/><ul><li>Odpovídáním na otázky ostatních uživatelů na fórech a IRC.<\/li><li>Přispěním do kódu pro firmware a konfigurátor - nové funkce, opravy, vylepšení<\/li><li>Testováním <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">nových funkcí\/oprav<\/a> a zpětnou vazbou.<\/li><li>Pomáháním s <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">problémy a komentováním požadavků na nové funkce<\/a>.<\/li><li>Spoluprací na <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">překladu konfigurátoru<\/a> do vašeho jazyka.<\/li><li><\/li><\/ul>"
     },
+    "defaultFacebookText": {
+        "message": "Máme také <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">Facebook skupinu<\/a>.<br \/>Připojte se a můžete si přečíst novinky o Betaflightu, nechat si poradit s konfigurací, nebo se jen tak připojit do komunity pilotů."
+    },
     "defaultChangelogAction": {
         "message": "Seznam změn"
     },
@@ -445,6 +457,15 @@
     "defaultDocumentationHead": {
         "message": "Dokumentace \/ Manuál"
     },
+    "defaultDocumentation": {
+        "message": "Dokumentace k Betaflightu je dostupná v poznámkách k verzím a na wiki.<br \/><br \/>"
+    },
+    "defaultDocumentation1": {
+        "message": "Betaflight wiki je skvělým zdrojem informací, můžete ji nalézt <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">zde<\/a>."
+    },
+    "defaultDocumentation2": {
+        "message": "Poznámky k verzím firmwaru můžete nalézt na GitHubu na stránce <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">Releases<\/a>."
+    },
     "defaultSupportHead": {
         "message": "Podpora"
     },
@@ -453,6 +474,9 @@
     },
     "defaultSupportSubline2": {
         "message": "Vývojář"
+    },
+    "defaultSupport": {
+        "message": "Pro pomoc a radu si nejprve projděte fóra nebo kontaktujte svého dodavatele.<br \/><br \/>"
     },
     "defaultSupport1": {
         "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">vlákno na RC Groups<\/a>"
@@ -465,6 +489,9 @@
     },
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+    },
+    "defaultSupport5": {
+        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Vývojáři Betaflight na Slacku<\/a>"
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Kalibrovat akcelerometr"
