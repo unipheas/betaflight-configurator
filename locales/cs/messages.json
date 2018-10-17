@@ -41,6 +41,12 @@
     "permanentExpertMode": {
         "message": "Trvale povolit Expert mód"
     },
+    "rememberLastTab": {
+        "message": "Znovu otevřít poslední kartu po připojení"
+    },
+    "analyticsOptOut": {
+        "message": "Neúčastnit se anonymního sběru dat o používání"
+    },
     "userLanguageSelect": {
         "message": "Jazyk (je potřeba restartovat aplikaci, aby se změny projevily)"
     },
@@ -373,8 +379,14 @@
     "eeprom_saved_ok": {
         "message": "EEPROM <span class=\"message-positive\">uložena<\/span>"
     },
+    "defaultWelcomeIntro": {
+        "message": "Vítejte v <strong>Betaflight Konfigurátoru<strong>, nástroji pro snadnou aktualizaci, nastavení a laďení vašeho FC."
+    },
     "defaultWelcomeHead": {
         "message": "Hardware"
+    },
+    "defaultWelcomeText": {
+        "message": "Tato aplikace podporuje jakýkoli hardware, na kterém běží Betaflight. Podívejte se do záložky Aktualizace firmware pro zobrazení podporovaného HW.<br><br><a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\"> Stáhnout Betaflight Blackbox Viewer<\/a><br \/><br \/>Firmware můžete stáhnout <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">zde<\/a><br \/><br \/>Aktuální <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\"> ovladače CP210x<\/a> stáhnete <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">zde<\/a><br \/>Aktuální <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">ovladače STM USB VCP<\/a> stáhnete <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">zde<\/a><br \/>Aktuální <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> pro instalaci ovladačů USB stáhnete <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">zde<\/a><br \/>"
     },
     "defaultContributingHead": {
         "message": "Spolupráce"
@@ -387,6 +399,12 @@
     },
     "defaultChangelogHead": {
         "message": "Konfigurátor - Seznam změn"
+    },
+    "defaultDonateHead": {
+        "message": "Poznámka k Open Source \/ sponzorským darům"
+    },
+    "defaultDonateText": {
+        "message": "<strong>Betaflight<\/strong> je software řídící jednotky, který je distribuován jako <strong>open source<\/strong>, zdarma a <strong>bez záruky<\/strong>.<br \/>Pokud vám Betaflight nebo Betaflight konfigurátor pomohl, prosím, zvažte <strong>podporu<\/strong> jeho vývoje příspěvkem."
     },
     "defaultDonate": {
         "message": "Přispějte"
@@ -634,6 +652,9 @@
     "sensorsScale": {
         "message": "Měřítko:"
     },
+    "cliInfo": {
+        "message": "<strong>Poznámka<\/strong>: Opuštěním karty CLI nebo stisknutím Odpojit se <strong>automaticky<\/strong> řídící jednotce odešle příkaz \"<strong>exit<\/strong>\". Pokud máte nejnovější firmware, tak se vaše řídící jednotka <span class=\"message-negative\">restartuje<\/span> a neuložené změny budou <span class=\"message-negative\">ztraceny<\/span>."
+    },
     "cliInputPlaceholder": {
         "message": "Zde napište svůj příkaz"
     },
@@ -765,6 +786,12 @@
     },
     "onboardLoggingMsc": {
         "message": "Režim velkokapacitní paměti"
+    },
+    "onboardLoggingMscNote": {
+        "message": "Restartujte do <strong>režimu velkokapacitní paměti (MSC)<\/strong>. Po aktivaci MSC režimu bude karta vložená ve vašem FC připojena k PC jako flashdisk. Poté si můžete stáhnout soubory záznamů stáhnout do PC. Až budete mít záznamy stažené, bezpečně odpojte jednotku od Windows a restartujte FC pro vypnutí MSC režimu."
+    },
+    "onboardLoggingMscNotReady": {
+        "message": "Zařízení není připravené, není možné aktivovat režim velkokapacitní paměti."
     },
     "flashTab": {
         "message": "Aktualizovat firmware"
