@@ -2,6 +2,12 @@
     "translation_version": {
         "message": "0"
     },
+    "error": {
+        "message": "Kesalahan: {{errorMessage}}"
+    },
+    "errorTitle": {
+        "message": "Kesalahan"
+    },
     "warningTitle": {
         "message": "Peringatan"
     },
@@ -947,6 +953,9 @@
     "configurationDshotBeeper": {
         "message": "Pengaturan Dshot Beacon"
     },
+    "configurationUseDshotBeeper": {
+        "message": "Gunakan Dshot beacon (motor akan berbunyi ''beep\" jika disarm)"
+    },
     "configurationDshotBeaconTone": {
         "message": "Nada Beacon"
     },
@@ -980,6 +989,12 @@
     "beeperBAT_LOW": {
         "message": "Bunyi peringatan ketika baterai sudah mulai rendah (berulang)"
     },
+    "beeperGPS_STATUS": {
+        "message": "Gunakan jumlah bunyi \"beep\" sebagai indikator jumlah satelit GPS yang terdeteksi"
+    },
+    "beeperRX_SET": {
+        "message": "Bunyi ketika channel aux di set untuk berbunyi"
+    },
     "beeperACC_CALIBRATION": {
         "message": "Kalibrasi dalam penerbangan akselerometer konfirmasi selesai"
     },
@@ -992,6 +1007,9 @@
     "beeperDISARM_REPEAT": {
         "message": "Bunyi beep terdengar sambil tetap memegang posisi melucuti senjata"
     },
+    "beeperARMED": {
+        "message": "Bunyi peringatan ketika dalam posisi di arm dengan motor yg tidak berputar (bunyi berulang hingga disarm atau motor berputar)"
+    },
     "beeperSYSTEM_INIT": {
         "message": "Initialisation beep saat board dinyalakan"
     },
@@ -1000,6 +1018,15 @@
     },
     "beeperBLACKBOX_ERASE": {
         "message": "Bunyikan saat penghapusan kotak hitam selesai"
+    },
+    "beeperCRASH_FLIP": {
+        "message": "Bunyi jika mode crash flip aktif"
+    },
+    "beeperCAM_CONNECTION_OPEN": {
+        "message": "Bunyi jika kontrol kamera 5 tombol disambungan"
+    },
+    "beeperCAM_CONNECTION_CLOSE": {
+        "message": "Bunyi jika kontrol kamera 5 tombol dilepas"
     },
     "configuration3d": {
         "message": "3D ESC\/Fitur Motor"
@@ -1175,6 +1202,9 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Profil pengatur PID pengontrol yang independen"
     },
+    "pidTuningAntiGravityMode": {
+        "message": "Mode Anti Gravity"
+    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "Smooth",
         "description": "One of the modes of anti gravity"
@@ -1192,17 +1222,68 @@
     "pidTuningPidSettings": {
         "message": "Pengaturan Kontrol PID"
     },
+    "receiverRcSmoothing": {
+        "message": "RC Smoothing"
+    },
+    "receiverRcSmoothingAuto": {
+        "message": "Auto"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "Manual"
+    },
     "receiverRcDerivativeTypeSelect": {
         "message": "Tipe CutOff Derivatif"
     },
+    "receiverRcInputTypeSelect": {
+        "message": "Batas Input"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "Interpolasi"
+    },
+    "receiverRcSmoothingFilter": {
+        "message": "Filter"
+    },
+    "receiverRcSmoothingTypeHelp": {
+        "message": "RC smoothing yang digunakan"
+    },
+    "rcSmoothingInputCutoffHelp": {
+        "message": "Frekuensi cutoff dalam Hz yang digunakan filter input. Menggunakan nilai yang rendah akan menhasilkan input yang lebih halus dan lebih sesuai untuk protokol receiver yang lebih lambat. Pengguna pada umumnya cukup membiarkan nilai 0 yang berarti \"Auto\"."
+    },
     "rcSmoothingDerivativeCutoffHelp": {
         "message": "Frekuensi batas dalam Hz yang digunakan filter setpoint derivatif. Menggunakan nilai yang rendah akan menhasilkan input yang lebih halus dan lebih sesuai untuk protokol receiver yang lebih lambat. Pengguna pada umumnya cukup membiarkan nilai 0 yang berarti \"Auto\"."
+    },
+    "rcSmoothingChannelsSmoothedHelp": {
+        "message": "Channel smoothing diterapkan pada"
+    },
+    "rcSmoothingDerivativeTypeHelp": {
+        "message": "Metoda filter yang digunakan untuk derivatif setpoint. Pengguna umumnya menggunakan nilai default \"BIQUAD\" karena seimbang antara smoothness dan delay. \"PT1\" mengurangi delay sekaligus mengurangi efek smoothing."
+    },
+    "rcSmoothingInputTypeHelp": {
+        "message": "Metoda filter yang digunakan untuk input. Pengguna umumnya menggunakan nilai default \"BIQUAD\" karena seimbang antara smoothness dan delay. \"PT1\" mengurangi delay sekaligus mengurangi efek smoothing."
+    },
+    "receiverRcSmoothingInputManual": {
+        "message": "Pilih apakah frekuensi cutoff filter input dihitung otomatis (disarankan) atau dipilih manual oleh pengguna. Menggunakan \"Manual\" tidak disarankan untuk protokol receiver seperti Crossfire yang dapat berubah pada saat terbang."
+    },
+    "receiverRcSmoothingDerivativeManual": {
+        "message": "Pilih apakah frekuensi cutoff derivatif setpoint dihitung otomatis (disarankan) atau dipilih manual oleh pengguna. Menggunakan \"Manual\" tidak disarankan untuk protokol receiver seperti Crossfire yang dapat berubah pada saat terbang."
     },
     "receiverRcSmoothingInputHz": {
         "message": "Frekuensi CutOff Input"
     },
     "receiverRcSmoothingDerivativeCutoff": {
         "message": "Frekuensi CutOff Derivatif"
+    },
+    "receiverRcInputType": {
+        "message": "Tipe Filter Input"
+    },
+    "receiverRcDerivativeType": {
+        "message": "Tipe Filter Derivatif"
+    },
+    "receiverRcSmoothingDerivativeTypeOff": {
+        "message": "Mati"
+    },
+    "receiverRcSmoothingChannel": {
+        "message": "Channels Smoothed"
     },
     "receiverRcInterpolation": {
         "message": "RC Interpolasi"
@@ -1216,6 +1297,9 @@
     "receiverRcInterpolationOff": {
         "message": "Mati"
     },
+    "receiverRcSmoothingType": {
+        "message": "Tipe Smoothing"
+    },
     "receiverRcInterpolationDefault": {
         "message": "Preset"
     },
@@ -1227,6 +1311,12 @@
     },
     "receiverRcInterpolationInterval": {
         "message": "Interpolasi Interval RC [ms]"
+    },
+    "pidTuningFeedforwardTransition": {
+        "message": "Transisi feedforward"
+    },
+    "pidTuningFeedforwardTransitionHelp": {
+        "message": "Dengan parameter ini, Feedforward term dapat dikurangi hingga dekat dengan nilai tengah stick, yang menghasilkan akhir flip dan roll yang lebih halus.<br> Nilai mewakili defleksi stik dari titik tengah: 0 - stick di tengah, 1 - defleksi penuh. Ketika stick diatas titik itu, Feedforward akan tetap pada nilai yang telah ditentukan. Ketika stick berada di bawah, Feedforward akan berkurang secara proporsional, hingga mencapai titik 0 pada posisi tengah stick.<br> Nilai 1 memberikan efek smoothing yang maksimum, sedangkan nilai 0 menjaga Feedforward pada nilai yang telah ditentukan untuk seluruh kisaran stick."
     },
     "pidTuningDtermSetpointTransition": {
         "message": "D Setpoint transisi"
@@ -1240,6 +1330,9 @@
     "pidTuningDtermSetpointHelp": {
         "message": "Parameter ini menentukan efek akselerasi tongkat dalam komponen turunan.<br>Nilai 0 sama dengan metode Measuemenent lama dimana D hanya melacak gyro, sedangkan nilai 1 sama dengan metode Error lama dengan rasio pelacakan gyro dan stick yang sama.<br>Nilai yang lebih rendah sama dengan respons tongkat yang lebih lambat \/ lebih halus, sedangkan nilai yang lebih tinggi memberikan respon percepatan stick lebih banyak.<br>Perhatikan bahwa interpolasi RC dianjurkan untuk diaktifkan dengan nilai yang lebih tinggi untuk mencegah tendangan kontrol menghasilkan suara."
     },
+    "pidTuningDtermSetpointTransitionWarning": {
+        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong> Hindari penggunaan transisi Setpoint D lebih dari 0 dan kurang dari 0.1. Menggunakan nilai tersebut dapat menyebabkan tidak stabil dan mengurangi respon stick ketika melewati titik tengahnya.<\/span>"
+    },
     "pidTuningProportional": {
         "message": "Proporsional"
     },
@@ -1248,6 +1341,9 @@
     },
     "pidTuningDerivative": {
         "message": "Turunan"
+    },
+    "pidTuningFeedforward": {
+        "message": "Feedforward"
     },
     "pidTuningRcRate": {
         "message": "RC Menilai"
@@ -1438,6 +1534,9 @@
     "auxiliaryHelp": {
         "message": "Menggunakan rentang untuk menentukan switch pada pemancar dan mode yang cocok. Saluran penerima yang memberi pembacaan antara rentang minimal\/maksimal akan mengaktifkan mode. Ingatlah untuk menyimpan pengaturan anda menggunakan tombol Simpan."
     },
+    "auxiliaryToggleUnused": {
+        "message": "Tampilkan\/sembunyikan mode tidak terpakai"
+    },
     "auxiliaryMin": {
         "message": "Minimal"
     },
@@ -1578,6 +1677,9 @@
     },
     "adjustmentsFunction24": {
         "message": "Penyesuaian Kekuatan Horizon"
+    },
+    "adjustmentsFunction25": {
+        "message": "Pilihan PID-Audio"
     },
     "adjustmentsSave": {
         "message": "Simpan"
