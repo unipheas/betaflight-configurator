@@ -1,9 +1,18 @@
 {
+    "error": {
+        "message": "Chyba: {{errorMessage}}"
+    },
+    "errorTitle": {
+        "message": "Chyba"
+    },
     "warningTitle": {
         "message": "Varování"
     },
     "noticeTitle": {
         "message": "Oznámení"
+    },
+    "operationNotSupported": {
+        "message": "Tato operace není podporována Vašim hardwarem."
     },
     "options_title": {
         "message": "Možnosti aplikace"
@@ -37,6 +46,9 @@
     },
     "expertMode": {
         "message": "Povolit mód Expert"
+    },
+    "expertModeDescription": {
+        "message": "Ukázat nevydané a možná nestabilní verze"
     },
     "permanentExpertMode": {
         "message": "Trvale povolit Expert mód"
@@ -282,6 +294,15 @@
     "stm32NotReadProtected": {
         "message": "Ochrana před čtením neaktivní"
     },
+    "stm32UnprotectSuccessful": {
+        "message": "Ochrana úspěšně vypnuta."
+    },
+    "stm32UnprotectFailed": {
+        "message": "Nastala chyba při vypnutí ochrany desky"
+    },
+    "stm32UnprotectInitFailed": {
+        "message": "Chyba při inicializaci rutiny pro vypnutí ochrany"
+    },
     "noConfigurationReceived": {
         "message": "Během <span class=\"message-negative\">10 vteřin<\/span> nebyla přijata žádná konfigurace, komunikace <span class=\"message-negative\">selhala<\/span>"
     },
@@ -370,6 +391,9 @@
     "statusbar_cpu_load": {
         "message": "Zatížení CPU: $1%"
     },
+    "dfu_connect_message": {
+        "message": "Prosím, použijte utilitu pro flashování firmwaru pro přístup k DFU zařízením"
+    },
     "dfu_erased_kilobytes": {
         "message": "<span class=\"message-positive\">Úspěšně<\/span> vymazáno $1 kB paměti"
     },
@@ -400,6 +424,12 @@
     "defaultChangelogHead": {
         "message": "Konfigurátor - Seznam změn"
     },
+    "defaultPrivacyPolicyAction": {
+        "message": "Zásady ochrany osobních údajů"
+    },
+    "defaultButtonFirmwareFlasher": {
+        "message": "Aktualizace firmwaru"
+    },
     "defaultDonateHead": {
         "message": "Poznámka k Open Source \/ sponzorským darům"
     },
@@ -417,6 +447,9 @@
     },
     "defaultSupportHead": {
         "message": "Podpora"
+    },
+    "defaultSupportSubline1": {
+        "message": "Zdroje podpory"
     },
     "defaultSupportSubline2": {
         "message": "Vývojář"
@@ -439,6 +472,9 @@
     "initialSetupButtonCalibrateMag": {
         "message": "Kalibrovat magnetometr"
     },
+    "initialSetupCalibrateMagText": {
+        "message": "Otočte multikoptérou alespoň o <strong>360<\/strong> stupňů ve všech osách, máte na to 30 sekund"
+    },
     "initialSetupButtonCalibratingText": {
         "message": "Kalibruje se..."
     },
@@ -454,6 +490,18 @@
     "initialSetupButtonRestore": {
         "message": "Obnovit"
     },
+    "initialSetupButtonRebootBootloader": {
+        "message": "Aktivovat Boot Loader \/ DFU"
+    },
+    "initialSetupRebootBootloaderText": {
+        "message": "Restartujte do <strong> boot loader \/ DFU<\/strong> režimu."
+    },
+    "initialSetupButtonResetZaxis": {
+        "message": "Reset osy Z, posun: 0 stupňů"
+    },
+    "initialSetupButtonResetZaxisValue": {
+        "message": "Reset osy Z, odchylka: $1 stupňů"
+    },
     "initialSetupThrottleHead": {
         "message": "Nastavení plynu"
     },
@@ -465,6 +513,9 @@
     },
     "initialSetupBatteryHead": {
         "message": "Baterie"
+    },
+    "initialSetupMinCellV": {
+        "message": "Min. napětí článku:"
     },
     "initialSetupMagHead": {
         "message": "Magnetometr"
@@ -565,8 +616,47 @@
     "pidTuningSubTabFilter": {
         "message": "Nastavení filtrů"
     },
+    "receiverRcSmoothing": {
+        "message": "Vyhlazování vstupů příjmače"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "Interpolace"
+    },
+    "receiverRcSmoothingChannel": {
+        "message": "Vyhlazování kanálů"
+    },
     "receiverRcSmoothingType": {
         "message": "Typ vyhlazování"
+    },
+    "receiverStickMin": {
+        "message": "Limit \"stažené páky\""
+    },
+    "receiverStickCenter": {
+        "message": "Střed pák"
+    },
+    "receiverStickMax": {
+        "message": "Limit \"páka na plno\""
+    },
+    "receiverDeadband": {
+        "message": "Deadzóna RC"
+    },
+    "receiverYawDeadband": {
+        "message": "Deadzóna zatáčení"
+    },
+    "recevier3dDeadbandThrottle": {
+        "message": "Deadzóna 3D plynu"
+    },
+    "receiverChannelMap": {
+        "message": "Mapování kanálů"
+    },
+    "receiverChannelMapTitle": {
+        "message": "Kliknutím do pole můžete nastavit vlastní mapování kanálů"
+    },
+    "receiverRssiChannel": {
+        "message": "Kanál RSSI"
+    },
+    "receiverRssiChannelDisabledOption": {
+        "message": "Zakázáno"
     },
     "auxiliaryToggleUnused": {
         "message": "Zobrazit\/skrýt nepoužívané módy"
@@ -741,6 +831,15 @@
     },
     "controlAxisAux1": {
         "message": "AUX 1"
+    },
+    "controlAxisAux2": {
+        "message": "AUX 2"
+    },
+    "controlAxisAux3": {
+        "message": "AUX 3"
+    },
+    "controlAxisAux4": {
+        "message": "AUX 4"
     },
     "pidTuningBasic": {
         "message": "Základní\/Acro"
