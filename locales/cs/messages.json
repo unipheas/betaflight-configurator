@@ -340,6 +340,12 @@
     "statusbar_cpu_load": {
         "message": "Zatížení CPU: $1%"
     },
+    "dfu_erased_kilobytes": {
+        "message": "<span class=\"message-positive\">Úspěšně<\/span> vymazáno $1 kB paměti"
+    },
+    "dfu_device_flash_info": {
+        "message": "Detekováno zařízení s celkovou velikostí paměti $1 KiB"
+    },
     "eeprom_saved_ok": {
         "message": "EEPROM <span class=\"message-positive\">uložena<\/span>"
     },
