@@ -705,124 +705,124 @@
         "message": "&lt;Pilih Satu&gt;"
     },
     "featureRX_PPM": {
-        "message": "Masukan PPM RX"
+        "message": "Input RX PPM"
     },
     "featureVBAT": {
-        "message": "Pemantauan tegangan baterai"
+        "message": "Monitoring voltase baterai"
     },
     "featureINFLIGHT_ACC_CAL": {
-        "message": "Kalibrasi tingkat penerbangan"
+        "message": "Kalibrasi level saat penerbangan"
     },
     "featureRX_SERIAL": {
-        "message": "Berdasarkan serial penerima (SPEKSAT, SBUS, SUMD)"
+        "message": "Receiver serial (SPEKSAT, SBUS, SUMD)"
     },
     "featureMOTOR_STOP": {
-        "message": "Jangan memutar motor ketika bersenjata"
+        "message": "Motor tidak berputar ketika armed"
     },
     "featureSERVO_TILT": {
         "message": "Servo gimbal"
     },
     "featureSOFTSERIAL": {
-        "message": "Mengaktifkan CPU berdasarkan port serial"
+        "message": "Mengaktifkan port serial CPU"
     },
     "featureSOFTSERIALTip": {
-        "message": "Konfigurasi port pada tab port setelah mengaktifkan."
+        "message": "Atur port dalam tab Port setelah mengaktifkan."
     },
     "featureGPS": {
         "message": "GPS untuk navigasi dan telemetri"
     },
     "featureGPSTip": {
-        "message": "Konfigurasikan skenario port terlebih dulu"
+        "message": "Atur skenario port terlebih dulu"
     },
     "featureSONAR": {
         "message": "Sonar"
     },
     "featureTELEMETRY": {
-        "message": "Hasil telemetri"
+        "message": "Output telemetri"
     },
     "featureCURRENT_METER": {
-        "message": "Pemantauan baterai saat ini"
+        "message": "Monitoring arus baterai"
     },
     "feature3D": {
-        "message": "Mode 3D (untuk digunakan dengan reversibel ESCs)"
+        "message": "Mode 3D (untuk digunakan dengan ESCs 2 arah)"
     },
     "featureRX_PARALLEL_PWM": {
-        "message": "Masukan PWM RX (satu kawat per saluran)"
+        "message": "Input RX PWM (satu kabel per channel)"
     },
     "featureRX_MSP": {
-        "message": "Masukan MSP RX (kontrol melalui port MSP)"
+        "message": "Input RX MSP (kontrol via port MSP)"
     },
     "featureRSSI_ADC": {
-        "message": "Masukan RSSI analog"
+        "message": "Input RSSI analog"
     },
     "featureLED_STRIP": {
-        "message": "Mendukung banyak warna strip RGB LED"
+        "message": "Mendukung strip LED RGB multi-warna"
     },
     "featureDISPLAY": {
-        "message": "Tampilan layar OLED"
+        "message": "Tampilan Layar OLED"
     },
     "featureDISPLAYTip": {
-        "message": "Jika fitur ini di aktifkan, dan tidak ada tampilan perangkat yang terhubung (atau tampilan perangkat tidak bertenaga), akan ada sebuah penundaan sekitar. 10 detik pada setiap mengulang kembali dari pengontrol penerbangan."
+        "message": "Jika fitur ini di aktifkan, dan tidak ada perangkat layar yang terhubung (atau perangkat layar tidak menyala), akan ada penundaan sekitar 10 detik pada setiap flight controller reboot."
     },
     "featureONESHOT125": {
         "message": "Mendukung ESC ONESHOT"
     },
     "featureONESHOT125Tip": {
-        "message": "Lepaskan baterai penerbangan dan hapus alat peraga sebelum mengaktifkan."
+        "message": "Lepaskan baterai penerbangan dan lepas baling-baling sebelum mengaktifkan."
     },
     "featureBLACKBOX": {
-        "message": "Catatan data kotak hitam penerbangan"
+        "message": "Blackbox perekam data penerbangan"
     },
     "featureBLACKBOXTip": {
-        "message": "Konfigurasi melalui tab kotak hitam sesudah mengaktifkan."
+        "message": "Atur via tab BlackBox setelah mengaktifkan."
     },
     "featureRX_SPI": {
-        "message": "Dukungan SPI RX"
+        "message": "Dukungan RX SPI"
     },
     "featureESC_SENSOR": {
-        "message": "Gunakan telemetri KISS \/ BLHeli_32 ESC sebagai sensor"
+        "message": "Gunakan telemetri ESC KISS\/BLHeli_32 sebagai sensor"
     },
     "featureCHANNEL_FORWARDING": {
         "message": "Meneruskan saluran aux ke output servo"
     },
     "featureTRANSPONDER": {
-        "message": "Jenis Transponder"
+        "message": "Transponder Racing"
     },
     "featureTRANSPONDERTip": {
-        "message": "Konfigurasi melalui tab Race Transponder setelah mengaktifkan."
+        "message": "Atur melalui tab Transponder Racing setelah mengaktifkan."
     },
     "featureAIRMODE": {
-        "message": "Secara permanen aktifkan Airmode"
+        "message": "Airmode aktif permanen"
     },
     "featureSUPEREXPO_RATES": {
-        "message": "Super Tarif Expo"
+        "message": "Rate Super Expo"
     },
     "featureSDCARD": {
         "message": "Mendukung SDCard (untuk loging)"
     },
     "featureOSD": {
-        "message": "Pada Tampilan Layar"
+        "message": "Tampilan Pada Layar"
     },
     "featureVTX": {
-        "message": "Pemancar Video"
+        "message": "Transmitter Video"
     },
     "featureANTI_GRAVITY": {
-        "message": "Sementara saya menaikkan i-Term pada perubahan throttle tinggi"
+        "message": "Naikkan I-Term sementara pada perubahan throttle tinggi"
     },
     "featureDYNAMIC_FILTER": {
-        "message": "Dynamic gyro notch filtering"
+        "message": "Filter notch gyro dinamis"
     },
     "featureFAILSAFE": {
         "message": "Aktifkan Failsafe Tahap 2"
     },
     "featureFAILSAFEOld": {
-        "message": "Atifkan Failsafe"
+        "message": "Aktifkan Failsafe"
     },
     "featureFAILSAFETip": {
-        "message": "<strong>Catatan:<\/strong> Saat Tahap 2 DISABLED, setelan mundur <strong>Otomatis<\/strong> digunakan alih-alih setelan pengguna untuk semua flightchannels (Gulungan, Pitch, Yaw dan Throttle)."
+        "message": "<strong>Catatan:<\/strong> Saat Tahap 2 Non-aktif, pengaturan <strong>Auto<\/strong> akan digunakan terlepas dari pengaturan pengguna untuk semua channel (Roll, Pitch, Yaw dan Throttle)."
     },
     "featureFAILSAFEOldTip": {
-        "message": "Terapkan pengaturan gagal menyimpan pada sinyal RX yang hilang"
+        "message": "Terapkan pengaturan Failsafe pada saat sinyal RX putus"
     },
     "configurationFeatureEnabled": {
         "message": "Diaktifkan"
@@ -834,19 +834,19 @@
         "message": "Deskripsi"
     },
     "configurationMixer": {
-        "message": "Pengaduk"
+        "message": "Mixer"
     },
     "configurationFeatures": {
         "message": "Fitur Lain"
     },
     "configurationReceiver": {
-        "message": "Penerima"
+        "message": "Receiver"
     },
     "configurationReceiverMode": {
-        "message": "Mode Penerima"
+        "message": "Mode Receiver"
     },
     "configurationRSSI": {
-        "message": "RSSI (Kekuatan Sinyal)"
+        "message": "RSSI (Indikator Sinyal)"
     },
     "configurationRSSIHelp": {
         "message": "RSSI adalah pengukuran kekuatan sinyal dan sangat berguna sehingga Anda tahu kapan pesawat Anda berada di luar jangkauan atau jika mengalami gangguan RF."
