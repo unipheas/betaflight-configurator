@@ -420,7 +420,7 @@
         "message": "Klik di sini untuk memulai aplikasi"
     },
     "statusbar_port_utilization": {
-        "message": "Pemanfaatan pelabuhan:"
+        "message": "Utilisasi Port:"
     },
     "statusbar_usage_download": {
         "message": "D: $1%"
@@ -432,10 +432,10 @@
         "message": "Kesalahan paket:"
     },
     "statusbar_i2c_error": {
-        "message": "I2C kesalahan:"
+        "message": "Kesalahan I2C:"
     },
     "statusbar_cycle_time": {
-        "message": "Siklus Waktu:"
+        "message": "Waktu Siklus:"
     },
     "statusbar_cpu_load": {
         "message": "Beban CPU: $1%"
@@ -447,13 +447,13 @@
         "message": "Dihapus $1 kB dari flash<span class=\"message-positive\">berhasil<\/span>"
     },
     "dfu_device_flash_info": {
-        "message": "Terdeteksi perangkat dengan ukuran flash total $ 1 KiB"
+        "message": "Terdeteksi perangkat dengan ukuran flash $ 1 KiB"
     },
     "dfu_error_image_size": {
-        "message": "<span class=\"message-negative\">salah<\/span>gambar disediakan lebih besar dari flash yang ada di chip! gambar: $1 KiB, batas = $2 KiB"
+        "message": "<span class=\"message-negative\">Kesalahan<\/span>: Ukuran firmware yg diberikan lebih besar dari flash yang ada di chip! firmware: $1 KiB, batas = $2 KiB"
     },
     "eeprom_saved_ok": {
-        "message": "<span class=\"pesan-positive\">Salah<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">disimpan<\/span>"
     },
     "defaultWelcomeIntro": {
         "message": "Selamat Datang di <strong> Betaflight - Configurator <\/strong>, utilitas yang dirancang untuk memudahkan pembaruan, konfigurasi dan menyetel <em> flight controller<\/em> anda."
@@ -468,7 +468,7 @@
         "message": "Berkontribusi"
     },
     "defaultContributingText": {
-        "message": "Jika anda bisa membantu menjadikan Betaflight jadi lebih baik, anda bisa membantu dengan bermacam cara, termasuk:<br\/><ul> <li>Menjawab pertanyaan pengguna lainnya di forum dan IRC.<\/li> <li>Menyumbang kode ke firmware dan konfigurator - fitur baru, perbaikan, fasilitas<\/li><li>Menguji<a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">fitur baru\/perbaikan<\/a> dan memberikan umpan balik.<\/li><li>Membantu dengan <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">Menerbitkan dan memberikan komentar pada fitur permintaan<\/a>.<\/li><li>Berkolaborasi dengan <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\"> menerjemahkan aplikasi configurasi<\/a> ke dalam bahasa anda.<\/li><li><\/li><\/ul>"
+        "message": "Jika anda ingin menjadikan Betaflight jadi lebih baik, anda bisa membantu dengan bermacam cara, termasuk:<br\/><ul> <li>Menjawab pertanyaan pengguna lainnya di forum dan IRC.<\/li> <li>Menyumbang kode ke firmware dan configurator - fitur baru, perbaikan, peningkatan<\/li><li>Menguji<a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">fitur baru\/perbaikan<\/a> dan memberikan umpan balik.<\/li><li>Membantu dengan <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">Menerbitkan dan memberikan komentar pada permintaan fitur<\/a>.<\/li><li>Berkolaborasi dengan <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">menerjemahkan aplikasi configurasi<\/a> ke bahasa anda.<\/li><li><\/li><\/ul>"
     },
     "defaultFacebookText": {
         "message": "Kami juga memiliki <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">grup Facebook<\/a>.<br \/>Bergabunglah bersama kami sebagai wadah untuk membahas Betaflight, cara konfigurasi, atau hanya bergaul dengan sesama pilot."
@@ -477,13 +477,13 @@
         "message": "Changelog"
     },
     "defaultChangelogHead": {
-        "message": "Configurasi - Changelog"
+        "message": "Configurator - Changelog"
     },
     "defaultPrivacyPolicyAction": {
         "message": "Kebijakan Privasi"
     },
     "defaultButtonFirmwareFlasher": {
-        "message": "Firmware Flasher"
+        "message": "Flasher Firmware"
     },
     "defaultDonateHead": {
         "message": "Open Source \/ Himbauan Donasi"
@@ -495,7 +495,7 @@
         "message": "Donasi"
     },
     "defaultSponsorsHead": {
-        "message": "Pendukung"
+        "message": "Sponsor"
     },
     "defaultDocumentationHead": {
         "message": "Dokumentasi \/ Manual"
