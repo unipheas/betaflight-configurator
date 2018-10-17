@@ -54,7 +54,7 @@
         "message": "Trvale povolit Expert mód"
     },
     "rememberLastTab": {
-        "message": "Znovu otevřít poslední kartu po připojení"
+        "message": "Znovu otevřít poslední záložku po připojení"
     },
     "analyticsOptOut": {
         "message": "Neúčastnit se anonymního sběru dat o používání"
@@ -130,7 +130,7 @@
         "message": "Záložní soubor byl vytvořen pro předchozí verzi konfigurátoru a je nekompatibilní s touto verzí konfigurátoru. Omlouváme se"
     },
     "backupFileUnmigratable": {
-        "message": "Záložní soubor byl generován předchozí verzí konfigurátoru a není přenositelný. Omlouváme se"
+        "message": "Záložní soubor byl generován předchozí verzí konfigurátoru a není přenositelný. Omlouváme se."
     },
     "configMigrationFrom": {
         "message": "Přenášený konfigurační soubor vygenerovaný konfigurátem: $1"
@@ -178,7 +178,7 @@
         "message": "Pojistka proti poruchám (Failsafe)"
     },
     "tabTransponder": {
-        "message": "Závodní transpondér"
+        "message": "Závodní odpovídač"
     },
     "tabOsd": {
         "message": "OSD displej"
@@ -255,6 +255,9 @@
     "stm32TimedOut": {
         "message": "STM32 - vypršení časového limitu, programování: SELHALO"
     },
+    "stm32WrongResponse": {
+        "message": "STM32 komunikace selhala kvůli chybné odpovědi, očekáváno: $1 (0x$2) přijato: $3 (0x$4)"
+    },
     "stm32ContactingBootloader": {
         "message": "Kontaktuji bootloader ...."
     },
@@ -294,8 +297,14 @@
     "stm32NotReadProtected": {
         "message": "Ochrana před čtením neaktivní"
     },
+    "stm32ReadProtected": {
+        "message": "Zdá se, že deska má ochranu proti čtení. Vypínám ochranu. Neodpojujte desku!"
+    },
     "stm32UnprotectSuccessful": {
         "message": "Ochrana úspěšně vypnuta."
+    },
+    "stm32UnprotectUnplug": {
+        "message": "VYŽADOVÁNA AKCE: Odpojte řídící jednotku a znovu ji připojte v DFU režimu pro zopakování zápisu!"
     },
     "stm32UnprotectFailed": {
         "message": "Nastala chyba při vypnutí ochrany desky"
@@ -324,6 +333,9 @@
     },
     "releaseCheckCached": {
         "message": "Používám informace z mezipaměti pro verzi $1."
+    },
+    "tabSwitchConnectionRequired": {
+        "message": "Je potřeba se <strong>připojit<\/strong> než budete moci zobrazit některou ze záložek."
     },
     "tabSwitchWaitForOperation": {
         "message": "Momentálně tuto akci <span class=\"message-negative\">nelze provést<\/span>, prosím vyčkejte na dokončení současné operace ..."
@@ -701,7 +713,7 @@
         "message": "Černá skřínky - nahrávání letu"
     },
     "featureBLACKBOXTip": {
-        "message": "Po zapnutí nastavte skrz panel Černá skřínka"
+        "message": "Po zapnutí nastavte na záložce Blackbox."
     },
     "featureRX_SPI": {
         "message": "Podpora SPI RX"
@@ -713,7 +725,10 @@
         "message": "Předat aux kanály servo výstupům"
     },
     "featureTRANSPONDER": {
-        "message": "Závodní transpondér"
+        "message": "Závodní odpovídač"
+    },
+    "featureTRANSPONDERTip": {
+        "message": "Po nastavení konfigurujte pomocí záložky Závodní odpovídač."
     },
     "featureAIRMODE": {
         "message": "Trvale zapnout Airmode"
@@ -1006,6 +1021,9 @@
     "adjustmentsSave": {
         "message": "Uložit"
     },
+    "transponderNotSupported": {
+        "message": "Firmware Vaší řídící jednotky nepodporuje funkci odpovídače."
+    },
     "transponderConfigurationType": {
         "message": "Typ odpovídače"
     },
@@ -1039,6 +1057,33 @@
     "transponderDataHelp1": {
         "message": "Pouze hexadecimální znaky, 0-9, A-F"
     },
+    "transponderHelp1": {
+        "message": "Konfigurace kódu odpovídače.  Poznámka: Pouze platné kódy budou rozpoznány závodními časomírami.  Platné kódy odpovídače lze najít na <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a>."
+    },
+    "transponderHelp2": {
+        "message": "Více informací naleznete na webu <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer<\/a>"
+    },
+    "transponderDataHelp3": {
+        "message": "Vyberte ERLT ID 0-63"
+    },
+    "transponderButtonSave": {
+        "message": "Uložit"
+    },
+    "transponderButtonSaveReboot": {
+        "message": "Uložit a restartovat"
+    },
+    "transponderDataInvalid": {
+        "message": "Data odpovídače jsou <span class=\"message-negative\">neplatná<\/span>"
+    },
+    "transponderEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">uložena<\/span>"
+    },
+    "servosFirmwareUpgradeRequired": {
+        "message": "Serva vyžadují firmware &gt; 1.10.0."
+    },
+    "servosChangeDirection": {
+        "message": "Změňte směr v TX na odpovídající"
+    },
     "servosName": {
         "message": "Název"
     },
@@ -1051,8 +1096,23 @@
     "servosMax": {
         "message": "MAX"
     },
+    "servosAngleAtMin": {
+        "message": "Min úhel"
+    },
+    "servosAngleAtMax": {
+        "message": "Max úhel"
+    },
     "servosDirectionAndRate": {
         "message": "Směr a poměr"
+    },
+    "servosButtonSave": {
+        "message": "Uložit"
+    },
+    "servosNormal": {
+        "message": "Normální"
+    },
+    "servosReverse": {
+        "message": "Obráceně"
     },
     "motorsVoltage": {
         "message": "Napětí:"
@@ -1135,6 +1195,9 @@
     "motorsNotice": {
         "message": "<strong>Upozornění před testem motorů\/odjištěním:<\/strong><br \/>Posunutím sliderů nebo odjištěním dronu způsobíte <strong>roztočení motorů<\/strong>.<br \/>Abyste předešli zraněním, <strong class=\"message-negative\">sundejte VŠECHNY vrtule<\/strong>, než použijete tuto funkci.<br \/>Zapnutím módu testu motorů se dočasně vypne funkce pro ochranu před nekontrolovaným startem, aby se mohly spustit motory bez vrtulí.<br \/>"
     },
+    "motorsEnableControl": {
+        "message": "<strong>Rozumím rizikům<\/strong>, všechny vrtule jsem sundal - chci začít testovat motory."
+    },
     "sensorsRefresh": {
         "message": "Obnovit:"
     },
@@ -1146,6 +1209,12 @@
     },
     "cliInputPlaceholder": {
         "message": "Zde napište svůj příkaz"
+    },
+    "cliClearOutputHistoryBtn": {
+        "message": "Vymazat historii výstupu"
+    },
+    "blackboxMaybeSupported": {
+        "message": "Firmware vaší řídící jednotky je příliš starý a nepodporuje tuto funkci, nebo je funkce Blackbox zakázaná v nastavení."
     },
     "blackboxConfiguration": {
         "message": "Nastavení Blackboxu"
@@ -1186,8 +1255,14 @@
     "firmwareFlasherManualBaudDescription": {
         "message": "Manuální výběr přenosové rychlosti pro desky, které nepodporují výchozí rychlost, nebo pro instalaci přes Bluetooth. <br \/><span class=\"message-negative\">Poznámka:<\/span> Nepoužívá se, pokud se instaluje přes USB DFU režim"
     },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Zobrazit nestabilní verze"
+    },
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "Zobrazit ke stabilním verzím i verze nestabilní"
+    },
+    "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
+        "message": "Stabilní a nestabilní verze"
     },
     "firmwareFlasherOptionLabelSelectFirmwareVersionFor": {
         "message": "Zvolte verzi firmwaru pro"
@@ -1227,6 +1302,12 @@
     },
     "pidTuningAngle": {
         "message": "Acro"
+    },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "Přidá nový režim omezující úhly náklonu pro piloty, kteří se učí létat v režimu acro. Rozsah je 10-80 a musí být aktivován pomocí přepínače v $t(tabAuxiliary.message)."
+    },
+    "failsafeKillSwitchItem": {
+        "message": "Failsafe Kill Switch (nastavení Failsafe v záložce módů)"
     },
     "powerBatteryVoltageMeterSource": {
         "message": "Typ voltmetru"
@@ -1284,6 +1365,9 @@
     },
     "osdSetupTitle": {
         "message": "OSD"
+    },
+    "osdDescElementCraftName": {
+        "message": "Jméno dronu nastavené v záložce Konfigurace"
     },
     "pidTuningProfile": {
         "message": "Profil"
