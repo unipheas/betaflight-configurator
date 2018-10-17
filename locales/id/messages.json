@@ -861,7 +861,7 @@
         "message": "<strong>Catatan:<\/strong> Ingatlah selalu untuk mengkonfigurasi port serial (melalui tab Ports) dan memilih merk receiver serial saat menggunakan fitur RX_SERIAL."
     },
     "configurationSpiRxHelp": {
-        "message": "<strong>Catatan:<\/strong> Penyedia SPI RX hanya akan bekerja jika perangkat keras yang diperlukan ada di kapal atau terhubung ke bus SPI."
+        "message": "<strong>Catatan:<\/strong> RX SPI hanya bekerja jika perangkat keras yang diperlukan ada di FC atau terhubung ke bus SPI."
     },
     "configurationOtherFeaturesHelp": {
         "message": "<strong>Catatan: <\/strong> Tidak semua fitur didukung oleh semua pengontrol penerbangan. Jika anda mengaktifkan fitur tertentu, dan ini dinonaktifkan sesudah anda menekan 'Simpan and Mulai ulang', artinya fitur ini tidak didukung di papan anda."
