@@ -320,22 +320,22 @@
         "message": "TINDAKAN DIPERLUKAN: Cabut dan hubungkan kembali flight controller dalam mode DFU untuk mencoba flashing lagi!"
     },
     "stm32UnprotectFailed": {
-        "message": "Gagal melindungi board"
+        "message": "Gagal membuka proteksi FC"
     },
     "stm32UnprotectInitFailed": {
-        "message": "Gagal memulai rutinitas tanpa perlindungan"
+        "message": "Gagal memulai rutin pembuka proteksi"
     },
     "noConfigurationReceived": {
         "message": "Tidak ada konfigurasi yang diterima setelah <span class=\"message-negative\">10 detik<\/span>, komunikasi <span class=\"message-negative\">gagal<\/span>"
     },
     "firmwareVersionNotSupported": {
-        "message": "Firmware ini adalah versi<span class=\"message-negative\">tidak mendukung<\/span>. Silahkan perbarui untuk firmware yang mendukung versi api<strong>$1<\/strong>atau lebih tinggi. Gunakan CLI untuk cadangan setelah flashing. CLI cadangan\/mengembalikan prosedur dalam dokumentasi.<br \/>atau download dan gunakan versi lama untuk configurator jika kamu belum siap untuk memperbarui."
+        "message": "Firmware ini adalah versi<span class=\"message-negative\">tidak didukung<\/span>. Silahkan perbarui ke firmware yang mendukung versi api<strong>$1<\/strong>atau lebih tinggi. Gunakan CLI untuk backup sebelum flashing. Prosedur backup\/restore CLI ada di dokumentasi.<br \/>Atau unduh dan gunakan Betaflight versi lama jika anda belum siap untuk upgrade."
     },
     "firmwareTypeNotSupported": {
-        "message": "Non - Cleanflight\/Betaflight firmware adalah <span class=\"pesan-negatif\">tidak didukung<\/span>, kecuali untuk mode CLI."
+        "message": "Firmware selain Cleanflight\/Betaflight <span class=\"message-negative\">tidak didukung<\/span>, kecuali untuk mode CLI."
     },
     "firmwareUpgradeRequired": {
-        "message": "Firmware pada perangkat ini perlu ditingkatkan ke versi yang lebih baru. Gunakan CLI untuk backup sebelum berkedip. Prosedur backup \/ restore CLI ada dalam dokumentasi.<br \/>Atau download dan gunakan versi lama dari configurator jika anda belum siap untuk memperbarui."
+        "message": "Firmware pada perangkat ini perlu ditingkatkan ke versi yang lebih baru. Gunakan CLI untuk backup sebelum flashing. Prosedur backup\/restore CLI ada di dokumentasi.<br \/>Atau unduh dan gunakan Betaflight versi lama jika anda belum siap untuk upgrade."
     },
     "infoVersions": {
         "message": "Sistem Operasi: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
@@ -354,16 +354,16 @@
         "message": "Informasi rilis dimuat untuk $1 dari GitHub."
     },
     "releaseCheckFailed": {
-        "message": "<b>GitHub query untuk $1 rilis gagal, menggunakan informasi cache. Alasan: <code>$2<\/code><\/b>"
+        "message": "<b>Permintaan ke GitHub untuk rilis $1 gagal, menggunakan informasi cache. Alasan: <code>$2<\/code><\/b>"
     },
     "releaseCheckCached": {
         "message": "Menggunakan informasi rilis dari cache untuk rilis $1."
     },
     "releaseCheckNoInfo": {
-        "message": "Tidak ada informasi rilis yang tersedia seharga $ 1."
+        "message": "Tidak ada informasi rilis yang tersedia untuk $ 1."
     },
     "tabSwitchConnectionRequired": {
-        "message": "Anda perlu untuk <strong>menghubungkan<\/strong> sebelum anda dapat melihat salah satu dari tab."
+        "message": "Anda perlu untuk <strong>menghubungkan<\/strong> sebelum anda dapat melihat isi tab."
     },
     "tabSwitchWaitForOperation": {
         "message": "Anda <span class=\"message-negative\">tidak dapat<\/span> melakukan ini sekarang, silahkan tunggu selama operasi saat ini untuk menyelesaikan ..."
