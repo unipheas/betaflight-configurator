@@ -706,6 +706,15 @@
     "featureRX_SPI": {
         "message": "Podpora SPI RX"
     },
+    "featureESC_SENSOR": {
+        "message": "Použít KISS\/BLHeli_32 ESC telemetrii jako senzor"
+    },
+    "featureCHANNEL_FORWARDING": {
+        "message": "Předat aux kanály servo výstupům"
+    },
+    "featureTRANSPONDER": {
+        "message": "Závodní transpondér"
+    },
     "featureAIRMODE": {
         "message": "Trvale zapnout Airmode"
     },
@@ -736,8 +745,152 @@
     "configurationEscFeatures": {
         "message": "ESC\/nastavení motorů"
     },
+    "beeperARMING": {
+        "message": "Pípnout, když se dron odjistí"
+    },
+    "beeperARMING_GPS_FIX": {
+        "message": "Pípnout speciální tón, když se odjišťuje FC a GPS je zaměřeno"
+    },
+    "beeperBAT_CRIT_LOW": {
+        "message": "Delší varovné pípání, když má baterie kriticky nízké napětí (opakované)"
+    },
+    "beeperBAT_LOW": {
+        "message": "Varovné pípání, když se baterie vybíjí (opakované)"
+    },
+    "beeperGPS_STATUS": {
+        "message": "Použít počet pípnutí k indikaci, kolik GPS satelitů bylo nalezeno"
+    },
+    "beeperRX_SET": {
+        "message": "Pípnout, když je vybrán AUX kanál pro bzučák"
+    },
+    "beeperREADY_BEEP": {
+        "message": "Zahrát melodii, když GPS najde polohu a je připravené"
+    },
+    "beeperDISARM_REPEAT": {
+        "message": "Pípání, když je páka držena v pozici zajištění dronu"
+    },
+    "configuration3d": {
+        "message": "Funkce pro 3D ESC\/Motor"
+    },
+    "configurationSystem": {
+        "message": "Konfigurace systému"
+    },
+    "configurationCalculatedCyclesSec": {
+        "message": "Cyklů\/s [Hz]"
+    },
+    "configurationLoopTimeHelp": {
+        "message": "<strong>Poznámka:<\/strong> Ujistěte se, že FC zvládne fungovat na takové frekvenci! Ověřte stabilitu provozu. Změna může vyžadovat úpravu PID hodnot. TIP: zakažte akcelerometr a další senzory pro zvýšení výkonu CPU."
+    },
+    "configurationGPS": {
+        "message": "GPS"
+    },
+    "configurationGPSProtocol": {
+        "message": "Protokol"
+    },
+    "configurationGPSBaudrate": {
+        "message": "Frekvence"
+    },
+    "configurationGPSAutoBaud": {
+        "message": "Automatická frekvence"
+    },
+    "configurationGPSAutoConfig": {
+        "message": "Auto Config"
+    },
+    "configurationButtonSave": {
+        "message": "Uložit a restartovat"
+    },
+    "portsIdentifier": {
+        "message": "Identifikátor"
+    },
+    "portsConfiguration": {
+        "message": "Konfigurace\/MSP"
+    },
+    "portsSerialRx": {
+        "message": "Sériový Rx"
+    },
+    "portsSensorIn": {
+        "message": "Vstup čidla"
+    },
+    "portsTelemetryOut": {
+        "message": "Výstup telemetrie"
+    },
+    "portsPeripherals": {
+        "message": "Periferie"
+    },
+    "portsHelp": {
+        "message": "<strong>Poznámka:<\/strong> ne všechny kombinace jsou letuschopné. Když systém řídící jednotky zjistí, že je konfigurace neplatná, nastavení bude resetováno."
+    },
+    "portsMSPHelp": {
+        "message": "<strong>Poznámka:<\/strong> <span class=\"message-negative\">Nezakazujte<\/span> MSP na prvním sériovém protu, pokud nevíte, co děláte. Pro opravu může být nutné přeinstalování firmware a všechna nastavení by byla resetována."
+    },
+    "portsFirmwareUpgradeRequired": {
+        "message": "Upgrade firmware <span class=\"message-negative\">vyžadován<\/span>. Nastavení sériových portů u firmware &lt; 1.8.0 není podporované."
+    },
+    "portsButtonSave": {
+        "message": "Uložit a restartovat"
+    },
+    "portsTelemetryDisabled": {
+        "message": "Zakázáno"
+    },
+    "portsFunction_MSP": {
+        "message": "MSP"
+    },
+    "portsFunction_GPS": {
+        "message": "GPS"
+    },
+    "portsFunction_TELEMETRY_FRSKY": {
+        "message": "FrSky"
+    },
+    "portsFunction_TELEMETRY_HOTT": {
+        "message": "HoTT"
+    },
+    "portsFunction_TELEMETRY_LTM": {
+        "message": "LTM"
+    },
+    "portsFunction_TELEMETRY_MAVLINK": {
+        "message": "MAVLink"
+    },
+    "portsFunction_TELEMETRY_MSP": {
+        "message": "MSP"
+    },
+    "portsFunction_TELEMETRY_SMARTPORT": {
+        "message": "SmartPort"
+    },
+    "portsFunction_TELEMETRY_IBUS": {
+        "message": "iBUS"
+    },
+    "portsFunction_TELEMETRY_JETIXBUS": {
+        "message": "JETIXBUS"
+    },
+    "portsFunction_TELEMETRY_CRSF": {
+        "message": "CRSF"
+    },
+    "portsFunction_TELEMETRY_SRXL": {
+        "message": "SRXL"
+    },
+    "portsFunction_RX_SERIAL": {
+        "message": "Sériový RX"
+    },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "TBS SmartAudio"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "Zařízení RunCam"
+    },
+    "pidTuningProfileOption": {
+        "message": "Profil $1"
+    },
+    "pidTuningRateProfileOption": {
+        "message": "Profil poměrů $1"
+    },
+    "pidTuningSubTabPid": {
+        "message": "Nastavení PID"
+    },
     "pidTuningSubTabFilter": {
         "message": "Nastavení filtrů"
+    },
+    "pidTuningShowAllPids": {
+        "message": "Zobrazit všechna PID"
     },
     "receiverRcSmoothing": {
         "message": "Vyhlazování vstupů příjmače"
@@ -781,11 +934,110 @@
     "receiverRssiChannelDisabledOption": {
         "message": "Zakázáno"
     },
+    "receiverButtonSticks": {
+        "message": "Ovládací páky"
+    },
+    "receiverModelPreview": {
+        "message": "Náhled"
+    },
+    "receiverMspEnableButton": {
+        "message": "Povolit ovládání"
+    },
     "auxiliaryToggleUnused": {
         "message": "Zobrazit\/skrýt nepoužívané módy"
     },
+    "auxiliaryMin": {
+        "message": "Min"
+    },
+    "auxiliaryMax": {
+        "message": "Max"
+    },
     "auxiliaryAddRange": {
         "message": "Přidat rozsah"
+    },
+    "auxiliaryButtonSave": {
+        "message": "Uložit"
+    },
+    "auxiliaryAutoChannelSelect": {
+        "message": "AUTO"
+    },
+    "adjustmentsExamples": {
+        "message": "Příklady"
+    },
+    "adjustmentsColumnEnable": {
+        "message": "Pokud je povoleno"
+    },
+    "adjustmentsColumnUsingSlot": {
+        "message": "používá slot"
+    },
+    "adjustmentsColumnWhenChannel": {
+        "message": "když kanál"
+    },
+    "adjustmentsColumnIsInRange": {
+        "message": "je v rozsahu"
+    },
+    "adjustmentsColumnThenApplyFunction": {
+        "message": "pak použít"
+    },
+    "adjustmentsColumnViaChannel": {
+        "message": "kanálem"
+    },
+    "adjustmentsSlot0": {
+        "message": "Slot 1"
+    },
+    "adjustmentsSlot1": {
+        "message": "Slot 2"
+    },
+    "adjustmentsSlot2": {
+        "message": "Slot 3"
+    },
+    "adjustmentsSlot3": {
+        "message": "Slot 4"
+    },
+    "adjustmentsMin": {
+        "message": "Min"
+    },
+    "adjustmentsMax": {
+        "message": "Max"
+    },
+    "adjustmentsFunction0": {
+        "message": "Žádné změny"
+    },
+    "adjustmentsSave": {
+        "message": "Uložit"
+    },
+    "transponderConfigurationType": {
+        "message": "Typ odpovídače"
+    },
+    "transponderType0": {
+        "message": "Nic"
+    },
+    "transponderType1": {
+        "message": "iLap"
+    },
+    "transponderType3": {
+        "message": "ERLT"
+    },
+    "transponderConfiguration1": {
+        "message": "Konfigurace iLap"
+    },
+    "transponderConfiguration2": {
+        "message": "Konfigurace aRCiTimeru"
+    },
+    "transponderConfiguration3": {
+        "message": "Konfigurace ERLT"
+    },
+    "transponderData1": {
+        "message": "Data"
+    },
+    "transponderData2": {
+        "message": "ID odpovídače"
+    },
+    "transponderData3": {
+        "message": "ID odpovídače"
+    },
+    "transponderDataHelp1": {
+        "message": "Pouze hexadecimální znaky, 0-9, A-F"
     },
     "servosName": {
         "message": "Název"
