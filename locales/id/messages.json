@@ -507,19 +507,19 @@
         "message": "Wiki Betaflight merupakan sumber informasi yang lengkap, bisa ditemukan <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">di sini<\/a>."
     },
     "defaultDocumentation2": {
-        "message": "Catatan rilis untuk firmware bisa di baca di GitHub rilis di halaman, <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">di sini<\/a>."
+        "message": "Catatan rilis untuk firmware bisa di baca di halaman rilis GitHub, <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">di sini<\/a>."
     },
     "defaultSupportHead": {
-        "message": "Mendukung"
+        "message": "Dukungan"
     },
     "defaultSupportSubline1": {
         "message": "Sumber Dukungan"
     },
     "defaultSupportSubline2": {
-        "message": "Pengembangan"
+        "message": "Pengembang"
     },
     "defaultSupport": {
-        "message": "Untuk bantuan silahkan cari forum dan wiki terlebih dahulu atau hubungi vendor anda.<br \/><br \/>"
+        "message": "Untuk dukungan silahkan cari di forum dan wiki terlebih dahulu atau hubungi vendor anda.<br \/><br \/>"
     },
     "defaultSupport1": {
         "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">Pembahasan di RC Groups<\/a>"
@@ -546,16 +546,16 @@
         "message": "Tempatkan FC atau frame pada <strong>permukaan rata<\/strong>, lanjutkan dengan kalibrasi, pastikan platform tidak bergerak saat proses kalibrasi"
     },
     "initialSetupButtonCalibrateMag": {
-        "message": "Penyesuaian Magnetometer"
+        "message": "Kalibrasi Magnetometer"
     },
     "initialSetupCalibrateMagText": {
-        "message": "Pindahkan multirotor setidaknya <strong>360<\/strong> derajat pada semua sumbu rotasi, anda memiliki 30 detik untuk melakukan tugas ini"
+        "message": "Putar multirotor minimal <strong>360<\/strong> derajat pada semua sumbu rotasi, anda memiliki 30 detik untuk proses kalibrasi ini"
     },
     "initialSetupButtonCalibratingText": {
         "message": "Mengkalibrasi..."
     },
     "initialSetupButtonReset": {
-        "message": "Atur ulang Pengaturan"
+        "message": "Ulang Pengaturan"
     },
     "initialSetupResetText": {
         "message": "Kembalikan ke pengaturan <strong>awal<\/strong>"
