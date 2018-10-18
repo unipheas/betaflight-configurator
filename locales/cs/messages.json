@@ -14,6 +14,9 @@
     "operationNotSupported": {
         "message": "Tato operace není podporována Vašim hardwarem."
     },
+    "storageDeviceNotReady": {
+        "message": "Toto úložiště není připraveno. Pokud je to microSD karta, ujistěte se, že je správně rozpoznána Vaší řídící jednotkou."
+    },
     "options_title": {
         "message": "Možnosti aplikace"
     },
