@@ -1745,7 +1745,7 @@
         "message": "Digit heksadesimal saja, 0-9, A-F"
     },
     "transponderHelp1": {
-        "message": "Mengkonfigurasi kode transponder di sini. Catatan: Hanya berlaku kode akan diakui oleh ras waktu sistem. Valid kode-kode transponder dapat diperoleh dari <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Serius Pro<\/a>."
+        "message": "Mengkonfigurasi kode transponder di sini. Catatan: Hanya kode valid yg akan masuk dalam sistem waktu lomba. Kode transponder yb berlaku dapat diperoleh dari <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a>."
     },
     "transponderHelp2": {
         "message": "Untuk informasi lebih lanjut silahkan kunjungi <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">situs aRCiTimer<\/a>"
