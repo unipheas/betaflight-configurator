@@ -324,6 +324,9 @@
     "firmwareTypeNotSupported": {
         "message": "Firmware nezaložený na Cleanflight\/Betaflight <span class=\"message-negative\">není podporován<\/span>, pouze v CLI režimu."
     },
+    "firmwareUpgradeRequired": {
+        "message": "Firmware na tomto zařízení vyžaduje aktualizaci na novější verzi. Použijte CLI režim pro zálohování před instalací. Procedura CLI zálohování a obnovení je popsána v dokumentaci.<br \/>Můžete také stáhnout starší verzi konfigurátoru, pokud nechcete provést aktualizaci."
+    },
     "infoVersions": {
         "message": "Spuštěno - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Konfigurátor: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
@@ -433,6 +436,9 @@
     "dfu_device_flash_info": {
         "message": "Detekováno zařízení s celkovou velikostí paměti $1 KiB"
     },
+    "dfu_error_image_size": {
+        "message": "<span class=\"message-negative\">Chyba<\/span>: Načtená bitová kopie je větší než velikost dostupné paměti na čipu! Bitová kopie: $1 KiB, limit = $2 KiB"
+    },
     "eeprom_saved_ok": {
         "message": "EEPROM <span class=\"message-positive\">uložena<\/span>"
     },
@@ -523,6 +529,9 @@
     "initialSetupButtonCalibrateAccel": {
         "message": "Kalibrovat akcelerometr"
     },
+    "initialSetupCalibrateAccelText": {
+        "message": "Položte řídící jednotku nebo dron na <strong>vodorovný<\/strong> povrch, spusťte kalibraci a zajistěte, aby během kalibrace nedošlo k jejich pohybu"
+    },
     "initialSetupButtonCalibrateMag": {
         "message": "Kalibrovat magnetometr"
     },
@@ -546,6 +555,9 @@
     },
     "initialSetupButtonRebootBootloader": {
         "message": "Aktivovat Boot Loader \/ DFU"
+    },
+    "initialSetupBackupRestoreText": {
+        "message": "<strong>Zálohujte<\/strong> si Vaše nastavení pro případ nehody, nastavení <strong>CLI<\/strong> <span class=\"message-negative\">není<\/span> zahrnuto - Pro zahrnutí použijte příkaz 'diff all' v CLI."
     },
     "initialSetupRebootBootloaderText": {
         "message": "Restartujte do <strong> boot loader \/ DFU<\/strong> režimu."
@@ -582,6 +594,9 @@
     },
     "initialSetupMaxCellV": {
         "message": "Max. napětí článku:"
+    },
+    "initialSetupVoltageScale": {
+        "message": "Měřítko napětí:"
     },
     "initialSetupAccelTrimsHead": {
         "message": "Trimy akcelerometru"
@@ -682,6 +697,9 @@
     "featureMOTOR_STOP": {
         "message": "Odjištěný dron automaticky nezapne motory"
     },
+    "featureSERVO_TILT": {
+        "message": "Gimbal ze serva"
+    },
     "featureSOFTSERIAL": {
         "message": "Povolit sériové porty CPU"
     },
@@ -744,6 +762,12 @@
     },
     "featureAIRMODE": {
         "message": "Trvale zapnout Airmode"
+    },
+    "featureSDCARD": {
+        "message": "Podpora SD karty (pro logování)"
+    },
+    "featureOSD": {
+        "message": "Informace na obrazovce"
     },
     "featureVTX": {
         "message": "Video vysílač"
@@ -994,17 +1018,103 @@
     "pidTuningShowAllPids": {
         "message": "Zobrazit všechna PID"
     },
+    "pidTuningHideUnusedPids": {
+        "message": "Skrýt nepoužívané PID"
+    },
+    "pidTuningAntiGravityMode": {
+        "message": "Režim anti gravitace"
+    },
+    "pidTuningAntiGravityModeOptionSmooth": {
+        "message": "Plynulá",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityModeOptionStep": {
+        "message": "Kroková",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityGain": {
+        "message": "Síla antigravitace"
+    },
+    "pidTuningAntiGravityThres": {
+        "message": "Limit antigravitace"
+    },
     "receiverRcSmoothing": {
         "message": "Vyhlazování vstupů příjmače"
+    },
+    "receiverRcSmoothingAuto": {
+        "message": "Auto"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "Manuální"
     },
     "receiverRcSmoothingInterpolation": {
         "message": "Interpolace"
     },
+    "receiverRcSmoothingFilter": {
+        "message": "Filtr"
+    },
+    "receiverRcInputType": {
+        "message": "Typ vstupního filtru"
+    },
+    "receiverRcSmoothingDerivativeTypeOff": {
+        "message": "Vypnuto"
+    },
     "receiverRcSmoothingChannel": {
         "message": "Vyhlazování kanálů"
     },
+    "receiverRcInterpolationOff": {
+        "message": "Vypnuto"
+    },
     "receiverRcSmoothingType": {
         "message": "Typ vyhlazování"
+    },
+    "receiverRcInterpolationDefault": {
+        "message": "Profil"
+    },
+    "receiverRcInterpolationAuto": {
+        "message": "Auto"
+    },
+    "receiverRcInterpolationManual": {
+        "message": "Manuální"
+    },
+    "pidTuningProportional": {
+        "message": "Proporciální"
+    },
+    "pidTuningIntegral": {
+        "message": "Integrál"
+    },
+    "pidTuningDerivative": {
+        "message": "Derivace"
+    },
+    "pidTuningRcRate": {
+        "message": "RC poměr"
+    },
+    "pidTuningMaxVel": {
+        "message": "Max rychlost [°\/s]"
+    },
+    "pidTuningRate": {
+        "message": "Poměr"
+    },
+    "pidTuningSuperRate": {
+        "message": "Super poměr"
+    },
+    "pidTuningRcExpo": {
+        "message": "RC Exponent"
+    },
+    "pidTuningTPA": {
+        "message": "TPA"
+    },
+    "pidTuningFilter": {
+        "message": "Filtr"
+    },
+    "pidTuningFilterFrequency": {
+        "message": "Frekvence"
+    },
+    "pidTuningRatesCurve": {
+        "message": "Poměry"
+    },
+    "throttle": {
+        "message": "Plyn"
     },
     "receiverStickMin": {
         "message": "Limit \"stažené páky\""
