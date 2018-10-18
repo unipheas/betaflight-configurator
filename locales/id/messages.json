@@ -693,7 +693,7 @@
         "message": "Kalibrasi akselerometer dimulai"
     },
     "initialSetupAccelCalibEnded": {
-        "message": "Kalibrasi akselerometer<span class =\"message-positive\">selesai<\/span>"
+        "message": "Kalibrasi accelerometer <span class =\"message-positive\">selesai<\/span>"
     },
     "initialSetupMagCalibStarted": {
         "message": "Kalibrasi magnetometer dimulai"
@@ -939,16 +939,16 @@
         "message": "Minimum Throttle (nilai ESC terendah saat diarm)"
     },
     "configurationThrottleMinimumHelp": {
-        "message": "Ini adalah nilai 'idle' yang di kirim ke ESC ketika pesawat dipersenjatai dan tongkat trottle berada pada posisi minimum. Tingkatkan nilai untuk mendapatkan lebih banyak kecepatan idle. Juga meningkatkan nilai dalam kasus desyncs!"
+        "message": "Ini adalah nilai 'idle' yang di kirim ke ESC ketika model diarm dan stik throttle berada pada posisi minimum. Tingkatkan nilai untuk mendapatkan kecepatan idle. Juga tingkatkan nilai jika ada motor yang belum berputar!"
     },
     "configurationThrottleMaximum": {
         "message": "Maksimum Throttle (Nilai ESC tertinggi ketika dipersenjatai)"
     },
     "configurationThrottleMinimumCommand": {
-        "message": "Perintah Minimum (nilai ESC saat dilucuti senjata)"
+        "message": "Perintah Minimum (nilai ESC saat disarm)"
     },
     "configurationThrottleMinimumCommandHelp": {
-        "message": "Inilah nilai yang di kirim ke ESC ketika pesawat itu di lucuti senjata. Tetapkan ini pada nilai yang menyebabkan motor berhenti (1000 untuk kebanyakan ESC)."
+        "message": "Inilah nilai yang di kirim ke ESC ketika model di disarm. Berikan nilai yang menyebabkan motor berhenti (1000 untuk kebanyakan ESC)."
     },
     "configurationDshotBeeper": {
         "message": "Pengaturan Dshot Beacon"
@@ -963,28 +963,28 @@
         "message": "Dshot beacon menggunakan ESC dan motor untuk menghasilkan suara. Oleh karena itu Dshot beacon tidak dapat digunakan ketika motor berputar. Pada Betaflight 3.4 dan yang lebih baru, ketika terjadi percobaan arming saat Dshot beacon aktif, akan ada jeda 2 detik setelah nada Dshot beacon terakhir sebelum model di arm. Hal ini berguna untuk mencegah fungsi Dshot beacon mengganggu perintah Dshot ke ESC ketika arming.<br\/><strong>Peringatan:<\/strong> Karena Dshot beacon mengalirkan arus ke motor Anda ketika aktif, hal ini dapat menyebabkan panas berlebih yang dapat merusak motor \/ atau ESC jika kekuatannnya di set terlalu tinggi. Gunakan BLHeli Configurator atau BLHeli Suite untuk menyesuaikan dan mengetahui kekuatan Dshot beacon."
     },
     "configurationBeeper": {
-        "message": "Konfigurasi Pager"
+        "message": "Konfigurasi Beeper"
     },
     "beeperGYRO_CALIBRATED": {
-        "message": "Berbunyi ketika gyro sudah sesuaikan"
+        "message": "Berbunyi ketika gyro sudah dikalibrasi"
     },
     "beeperRX_LOST": {
-        "message": "Berbunyi ketika TX dimatikan atau sinyal hilang (ulangi sampai TX baik-baik saja)"
+        "message": "Berbunyi ketika TX dimatikan atau sinyal hilang (ulangi sampai TX tersambung)"
     },
     "beeperRX_LOST_LANDING": {
-        "message": "Beep SOS ketika bersenjata dan TX dimatikan atau sinyal hilang (auto landing\/auto melucuti senjata)"
+        "message": "Beep SOS ketika armed dan TX dimatikan atau sinyal hilang (auto-landing\/auto-disarm)"
     },
     "beeperDISARMING": {
-        "message": "Beep saat melucuti pelacak penerbangan"
+        "message": "Bunyi saat disarm flight controller"
     },
     "beeperARMING": {
-        "message": "Beep ketika mempersenjatai pengontrol penerbangan"
+        "message": "Bunyi ketika arming flight controller"
     },
     "beeperARMING_GPS_FIX": {
-        "message": "Beep nada khusus ketika arming board dan GPS telah diperbaiki"
+        "message": "Bunyi dengan nada khusus ketika arming FC dan GPS telah stabil"
     },
     "beeperBAT_CRIT_LOW": {
-        "message": "Bunyi peringatan yang lama ketika baterai sangat rendah (berulang)"
+        "message": "Bunyi peringatan yg lebih lama ketika baterai kritis (berulang)"
     },
     "beeperBAT_LOW": {
         "message": "Bunyi peringatan ketika baterai sudah mulai rendah (berulang)"
@@ -996,10 +996,10 @@
         "message": "Bunyi ketika channel aux di set untuk berbunyi"
     },
     "beeperACC_CALIBRATION": {
-        "message": "Kalibrasi dalam penerbangan akselerometer konfirmasi selesai"
+        "message": "Konfirmasi kalibrasi accelerometer dalam penerbangan selesai"
     },
     "beeperACC_CALIBRATION_FAIL": {
-        "message": "Kalibrasi dalam penerbangan Accelerometer gagal"
+        "message": "Kalibrasi accelerometer dalam penerbangan gagal"
     },
     "beeperREADY_BEEP": {
         "message": "Deringkan sebuah nada ketika GPS terkunci dan siap"
