@@ -72,6 +72,10 @@
         "message": "Paměťový čip <br>nenalezen",
         "description": "Text of the dataflash image in the header of the page."
     },
+    "sensorDataFlashFreeSpace": {
+        "message": "Paměť: volné místo",
+        "description": "Text of the dataflash image in the header of the page."
+    },
     "sensorStatusGyro": {
         "message": "Gyroskop"
     },
@@ -292,10 +296,10 @@
         "message": "Ověřování ..."
     },
     "stm32ProgrammingSuccessful": {
-        "message": "Programování: ÚSPĚCH"
+        "message": "Instalace: ÚSPĚŠNÁ"
     },
     "stm32ProgrammingFailed": {
-        "message": "Programování: NEÚSPĚCH"
+        "message": "Instalace: NEÚSPĚŠNÁ"
     },
     "stm32NotReadProtected": {
         "message": "Ochrana před čtením neaktivní"
@@ -799,6 +803,9 @@
     "configurationEscFeatures": {
         "message": "ESC\/nastavení motorů"
     },
+    "configurationFeaturesHelp": {
+        "message": "<strong>Poznámka:<\/strong> ne všechny kombinace jsou letuschopné. Když systém FC zjistí, že je konfigurace špatná, nastavení bude resetováno.<br \/><strong>Poznámka:<\/strong> Nastavte porty <span class=\"message-negative\">před<\/span> povolením funkcí, které je budou používat."
+    },
     "configurationBoardAlignment": {
         "message": "Orientace desky a senzorů"
     },
@@ -839,7 +846,7 @@
         "message": "Deklinace kompasu [deg]"
     },
     "configurationReverseMotorSwitch": {
-        "message": "Směr motorů je otočený"
+        "message": "Směr motorů je opačný"
     },
     "configurationDigitalIdlePercent": {
         "message": "Volnoběh motorů [percent]"
