@@ -870,46 +870,46 @@
         "message": "<strong>Catatan:<\/strong> RX SPI hanya bekerja jika perangkat keras yang diperlukan ada di FC atau terhubung ke bus SPI."
     },
     "configurationOtherFeaturesHelp": {
-        "message": "<strong>Catatan: <\/strong> Tidak semua fitur didukung oleh semua pengontrol penerbangan. Jika anda mengaktifkan fitur tertentu, dan ini dinonaktifkan sesudah anda menekan 'Simpan and Mulai ulang', artinya fitur ini tidak didukung di papan anda."
+        "message": "<strong>Catatan: <\/strong> Tidak semua fitur didukung oleh setiap flight controller. Jika anda mengaktifkan fitur tertentu, dan dinonaktifkan sesudah anda menekan 'Simpan dan Reboot', artinya fitur ini tidak didukung oleh flight controller anda."
     },
     "configurationBoardAlignment": {
-        "message": "Papan dan sensor kesejajaran"
+        "message": "FC dan Pengaturan Sensor"
     },
     "configurationBoardAlignmentRoll": {
         "message": "Derajat Roll"
     },
     "configurationBoardAlignmentPitch": {
-        "message": "Gelar Pitch"
+        "message": "Derajat Pitch"
     },
     "configurationBoardAlignmentYaw": {
-        "message": "Gelar Yaw"
+        "message": "Derajat Yaw"
     },
     "configurationSensorAlignmentGyro": {
-        "message": "GYRO Alignment"
+        "message": "Kelurusan GYRO"
     },
     "configurationSensorAlignmentAcc": {
-        "message": "Alur ACCEL"
+        "message": "Kelurusan ACCEL"
     },
     "configurationSensorAlignmentMag": {
-        "message": "Keselarasan MAG"
+        "message": "Kelurusan MAG"
     },
     "configurationSensorAlignmentDefaultOption": {
         "message": "Standar"
     },
     "configurationAccelTrims": {
-        "message": "Memangkas Accelerometer"
+        "message": "Trim Accelerometer"
     },
     "configurationAccelTrimRoll": {
-        "message": "Memangkas Accelerometer Roll"
+        "message": "Trim Roll Accelerometer"
     },
     "configurationAccelTrimPitch": {
-        "message": "Trim Nada Akselerometer"
+        "message": "Trim Pitch Akselerometer"
     },
     "configurationArming": {
-        "message": "Persenjataan"
+        "message": "Arming"
     },
     "configurationArmingHelp": {
-        "message": "Beberapa pilihan Arming mungkin memerlukan accelerometer yang diaktifkan"
+        "message": "Beberapa pilihan Arming memerlukan accelerometer diaktifkan"
     },
     "configurationMagDeclination": {
         "message": "Deklinasi Magnetometer [deg]"
@@ -918,25 +918,25 @@
         "message": "Arah motor dibalik"
     },
     "configurationReverseMotorSwitchHelp": {
-        "message": "Pilihan ini mengatur fc agar dapat mengontrol motor dengan putaran yg berlawanan arah dan baling-baling dipasang sesuai dengan arah putaran tersebut. <strong>Peringatan:<\/strong> Pilihan ini tidak mengubah arah putar motor. Gunakan perangkat pengatur ESC anda, atau tukar sambungan kabel antara ESC & Motor untuk membalikkan arah putaran. Periksa arah putaran motor, pastikan baling-baling dilepas sebelum arming dan arah putaran sesuai dengan gambar diatas."
+        "message": "Pilihan ini mengatur FC agar dapat mengontrol motor dengan putaran yg berlawanan arah dan baling-baling dipasang sesuai dengan arah putaran tersebut. <strong>Peringatan:<\/strong> Pilihan ini tidak mengubah arah putar motor. Gunakan perangkat pengatur ESC anda, atau tukar sambungan kabel antara ESC & Motor untuk membalikkan arah putaran. Periksa arah putaran motor, pastikan baling-baling dilepas sebelum arming dan arah putaran sesuai dengan gambar diatas."
     },
     "configurationAutoDisarmDelay": {
         "message": "mematikan motor setelah penundaan ditetapkan [seconds] (Memerlukan fitur MOTOR_STOP)"
     },
     "configurationDisarmKillSwitch": {
-        "message": "Melucuti motor terlepas dari nilai throttle (Bila ARM dikonfigurasikan melalui tab Modes melalui saluran AUX)"
+        "message": "Disarm motor terlepas dari nilai throttle (Bila ARM dikonfigurasikan melalui tab Modes via channel AUX)"
     },
     "configurationDisarmKillSwitchHelp": {
-        "message": "Arming selalu dinonaktifkan saat throttle tidak rendah. Hati-hati karena anda bisa melucuti senjata tanpa sengaja saat beralih dengan pilihan aktif."
+        "message": "Arming selalu dinonaktifkan saat throttle tidak rendah. Hati-hati karena anda bisa disarm tanpa sengaja saat terbang dengan pilihan ini aktif."
     },
     "configurationDigitalIdlePercent": {
-        "message": "Nilai Motor Idle Mencekik [percent]"
+        "message": "Nilai Throttle Motor Idle [percent]"
     },
     "configurationDigitalIdlePercentHelp": {
-        "message": "Ini adalah nilai 'idle' dalam persen throttle maksimum yang dikirim ke ESC ketika pesawat dipersenjatai dan tongkat trottle berada pada posisi minimum. Tingkatkan nilai persen untuk mendapatkan kecepatan yang lebih rendah."
+        "message": "Ini adalah nilai 'idle' dalam persen throttle maksimum yang dikirim ke ESC ketika model di arm dan stik throttle berada pada posisi minimum. Tingkatkan nilai persen untuk mendapatkan kecepatan idle."
     },
     "configurationThrottleMinimum": {
-        "message": "Minimum Throttle (nilai ESC terendah saat dipersenjatai)"
+        "message": "Minimum Throttle (nilai ESC terendah saat diarm)"
     },
     "configurationThrottleMinimumHelp": {
         "message": "Ini adalah nilai 'idle' yang di kirim ke ESC ketika pesawat dipersenjatai dan tongkat trottle berada pada posisi minimum. Tingkatkan nilai untuk mendapatkan lebih banyak kecepatan idle. Juga meningkatkan nilai dalam kasus desyncs!"
