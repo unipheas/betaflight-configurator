@@ -1526,7 +1526,7 @@
         "message": "Tinjauan"
     },
     "receiverMspWarningText": {
-        "message": "Tongkat ini memungkinkan Betaflight untuk dipersenjatai dan diuji tanpa pemancar atau penerima yang hadir. Namun,<strong>fitur ini tidak ditujukan untuk penerbangan dan baling-baling tidak boleh dilampirkan.<\/strong><br><br>Fitur ini tidak menjamin kontrol yang dapat diandalkan atas keahlian Anda. <strong>Cedera serius kemungkinan terjadi jika baling-baling ditinggalkan.<\/strong>"
+        "message": "Stik ini memungkinkan Betaflight untuk di arm dan diuji tanpa tx\/rx. Namun,<strong>fitur ini tidak ditujukan untuk penerbangan dan baling-baling tidak boleh terpasang.<\/strong><br><br>Fitur ini tidak menjamin kontrol yang dapat diandalkan. <strong>Cedera serius kemungkinan terjadi jika baling-baling terpasang.<\/strong>"
     },
     "receiverMspEnableButton": {
         "message": "Aktifkan kontrol"
@@ -1538,10 +1538,10 @@
         "message": "Tampilkan\/sembunyikan mode tidak terpakai"
     },
     "auxiliaryMin": {
-        "message": "Minimal"
+        "message": "Min"
     },
     "auxiliaryMax": {
-        "message": "Maksimum"
+        "message": "Maks"
     },
     "auxiliaryAddRange": {
         "message": "Tambahkan Jarak"
@@ -1550,22 +1550,22 @@
         "message": "Simpan"
     },
     "auxiliaryEepromSaved": {
-        "message": "EEPROM <span class =\"message-positive\"> simpan<\/span>"
+        "message": "EEPROM <span class =\"message-positive\">disimpan<\/span>"
     },
     "auxiliaryAutoChannelSelect": {
-        "message": "MOBIL"
+        "message": "AUTO"
     },
     "adjustmentsHelp": {
-        "message": "Mengkonfigurasi saklar penyesuaian. Lihat bagian 'penyesuaian dalam-penerbangan' manual untuk detilnya. Perubahan yang dilakukan fungsi penyesuaian tidak disimpan secara otomatis. Ada 4 slot. Setiap saklar yang digunakan untuk secara bersamaan melakukan penyesuaian memerlukan penggunaan ekslusif pada sebuah slot."
+        "message": "Mengkonfigurasi switch penyesuaian. Lihat manual bagian 'in-flight adjustments' untuk detilnya. Perubahan yang dilakukan fungsi penyesuaian tidak disimpan secara otomatis. Ada 4 slot. Setiap switch yang digunakan untuk secara bersamaan melakukan penyesuaian menggunakan sebuah slot."
     },
     "adjustmentsExamples": {
         "message": "Contoh"
     },
     "adjustmentsExample1": {
-        "message": "Gunakan Slot 1 dan saklar 3POS pada AUX1 untuk memilih antara Pitch\/Roll P, I dan D dan saklar 3POS lainya pada AUX2 untuk menambah atau mengurangi nilai saat diyakini naik atau turun."
+        "message": "Gunakan Slot 1 dan saklar 3POS pada AUX1 untuk memilih antara Pitch\/Roll P, I dan D dan switch 3POS lainya pada AUX2 untuk menambah atau mengurangi nilai saat posisi switch naik atau turun."
     },
     "adjustmentsExample2": {
-        "message": "Gunakan Slot 2 dan sakelar 3POS di AUX4 untuk memilih Pilihan mengaktifkan Tingkat profil melalui tombol 3POS yang sama pada saluran yang sama."
+        "message": "Gunakan Slot 2 dan switch 3POS di AUX4 untuk memilih Pilihan mengaktifkan Tingkat profil melalui tombol 3POS yang sama pada saluran yang sama."
     },
     "adjustmentsColumnEnable": {
         "message": "Jika diaktifkan"
@@ -1574,7 +1574,7 @@
         "message": "menggunakan slot"
     },
     "adjustmentsColumnWhenChannel": {
-        "message": "saat saluran"
+        "message": "saat channel"
     },
     "adjustmentsColumnIsInRange": {
         "message": "berada dalam jangkauan"
@@ -1583,7 +1583,7 @@
         "message": "lalu terapkan"
     },
     "adjustmentsColumnViaChannel": {
-        "message": "melalui saluran"
+        "message": "melalui channel"
     },
     "adjustmentsSlot0": {
         "message": "Slot 1"
@@ -1598,37 +1598,37 @@
         "message": "Slot 4"
     },
     "adjustmentsMin": {
-        "message": "Minimal"
+        "message": "Min"
     },
     "adjustmentsMax": {
-        "message": "Maksimum"
+        "message": "Maks"
     },
     "adjustmentsFunction0": {
         "message": "Tidak ada perubahan"
     },
     "adjustmentsFunction1": {
-        "message": "Penyesuaian Tingkat RC"
+        "message": "Penyesuaian Rate RC"
     },
     "adjustmentsFunction2": {
-        "message": "Penyesuaian RC Expo"
+        "message": "Penyesuaian Expo RC"
     },
     "adjustmentsFunction3": {
-        "message": "Penyesuaian Expo mencekik"
+        "message": "Penyesuaian Expo Throttle"
     },
     "adjustmentsFunction4": {
-        "message": "Penyesuaian Nada dan Tingkat roll"
+        "message": "Penyesuaian Rate Pitch & Roll"
     },
     "adjustmentsFunction5": {
-        "message": "Penyesuaian Tingkat Yaw"
+        "message": "Penyesuaian Rate Yaw"
     },
     "adjustmentsFunction6": {
-        "message": "Penyesuaian Nada & Roll P"
+        "message": "Penyesuaian P Pitch & Roll"
     },
     "adjustmentsFunction7": {
-        "message": "Penyesuaian Nada dan Roll I"
+        "message": "Penyesuaian I Pitch & Roll"
     },
     "adjustmentsFunction8": {
-        "message": "Penyesuaian Nada dan Roll D"
+        "message": "Penyesuaian D Pitch & Roll"
     },
     "adjustmentsFunction9": {
         "message": "Penyesuaian Yaw P"
