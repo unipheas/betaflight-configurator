@@ -1358,34 +1358,34 @@
         "message": "Super Rate"
     },
     "pidTuningRatesPreview": {
-        "message": "Tarif Preview"
+        "message": "Rate Preview"
     },
     "pidTuningRcExpo": {
-        "message": "RC Expo"
+        "message": "Expo RC"
     },
     "pidTuningTPA": {
         "message": "TPA"
     },
     "pidTuningTPABreakPoint": {
-        "message": "TPA Breakpoint"
+        "message": "Breakpoint TPA"
     },
     "pidTuningFilter": {
-        "message": "Saringan"
+        "message": "Filter"
     },
     "pidTuningFilterFrequency": {
         "message": "Frekuensi"
     },
     "pidTuningRatesCurve": {
-        "message": "Angka"
+        "message": "Rate"
     },
     "throttle": {
-        "message": "Mencekik"
+        "message": "Throttle"
     },
     "pidTuningButtonSave": {
         "message": "Menyimpan"
     },
     "pidTuningButtonRefresh": {
-        "message": "Menyegarkan"
+        "message": "Refresh"
     },
     "pidTuningProfileHead": {
         "message": "Profil"
@@ -1394,16 +1394,16 @@
         "message": "Pengotrol PID"
     },
     "pidTuningCopyProfile": {
-        "message": "Salin nilai profil"
+        "message": "Salin profil"
     },
     "pidTuningCopyRateProfile": {
-        "message": "Salin nilai angka profil"
+        "message": "Salin profilrate"
     },
     "dialogCopyProfileText": {
-        "message": "Salin nilai dari profil saat ini ke"
+        "message": "Salin profil saat ini ke"
     },
     "dialogCopyRateProfileText": {
-        "message": "Salin nilai dari rateprofile saat ini ke"
+        "message": "Salin nilai dari profilrate saat ini ke"
     },
     "dialogCopyProfileTitle": {
         "message": "Salin nilai profil"
@@ -1421,10 +1421,10 @@
         "message": "Atur ulang semua nilai-nilai profil"
     },
     "pidTuningProfileReset": {
-        "message": "Nilai profil bawaan bawaan."
+        "message": "Nilai profil bawaan dimuat."
     },
     "pidTuningReceivedProfile": {
-        "message": "Pengontrol penerbangan mengatur Profil: <strong class = \"message-positive\"> $1 <\/strong>"
+        "message": "Profil Flight controller: <strong class = \"message-positive\"> $1 <\/strong>"
     },
     "pidTuningReceivedRateProfile": {
         "message": "Kontroler penerbangan mengatur Rateprofile: <strong class = \"message-positive\">$1 <\/strong>"
@@ -1433,13 +1433,13 @@
         "message": "Profil yang Dimuat: <strong class = \"message-positive\">$1 <\/strong>"
     },
     "pidTuningLoadedRateProfile": {
-        "message": "Dimuat Rateprofile: <strong class=\"pesan positif\">$1<\/strong>"
+        "message": "ProfilRate Dimuat: <strong class=\"message-positive\">$1<\/strong>"
     },
     "pidTuningDataRefreshed": {
         "message": "Data PID <strong>refresh<\/strong>"
     },
     "pidTuningEepromSaved": {
-        "message": "EEPROM <span class=\"pesan positif\">diselamatkan<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">disimpan<\/span>"
     },
     "receiverHelp": {
         "message": "Silahkan baca penerima bab dokumentasi. Mengkonfigurasi port serial (jika diperlukan), penerima mode (serial\/ppm\/pwm), penyedia (untuk serial receiver), mengikat penerima, atur channel peta, mengkonfigurasi channel endpoint\/range pada TX sehingga semua saluran pergi dari ~1000 ~2000. Menetapkan midpoint (default 1500), trim saluran 1500, mengkonfigurasi tongkat deadband, memverifikasi perilaku ketika TX mati atau diluar jangkauan.<br \/><span class=\"pesan-negatif\">PENTING:<\/span> Sebelum terbang baca failsafe bab dokumentasi dan mengkonfigurasi failsafe."
