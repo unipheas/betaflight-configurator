@@ -1475,49 +1475,49 @@
         "message": "Deadband RC"
     },
     "receiverHelpDeadband": {
-        "message": "Ini adalah nilai (dalam diri kita) dengan berapa banyak masukan RC yang bisa berbeda sebelum dianggap valid. Untuk pemancar dengan jitter pada output, nilai ini dapat ditingkatkan jika input rc berkedut saat menganggur."
+        "message": "Ini adalah nilai (dalam us) dengan berapa banyak masukan RC yang bisa berbeda sebelum dianggap valid. Untuk transmitters dengan jitter pada output, nilai ini dapat ditingkatkan jika input rc berkedut saat idle."
     },
     "receiverYawDeadband": {
-        "message": "Yaw Deadband"
+        "message": "Deadband Yaw"
     },
     "receiverHelpYawDeadband": {
-        "message": "Ini adalah nilai (dalam diri kita) dengan berapa banyak masukan RC yang bisa berbeda sebelum dianggap valid. Untuk pemancar dengan jitter pada output, nilai ini dapat ditingkatkan jika input rc berkedut saat menganggur.<strong>Pengaturan ini hanya untuk Yaw.<\/strong>"
+        "message": "Ini adalah nilai (dalam us) dengan berapa banyak masukan RC yang bisa berbeda sebelum dianggap valid. Untuk pemancar dengan jitter pada output, nilai ini dapat ditingkatkan jika input rc berkedut saat idle.<strong>Pengaturan ini hanya untuk Yaw.<\/strong>"
     },
     "recevier3dDeadbandThrottle": {
-        "message": "Mencekik 3D Deadband"
+        "message": "Deadband Throttle 3D"
     },
     "receiverHelp3dDeadbandThrottle": {
-        "message": "Ini adalah nilai (dalam diri kita). Untuk memperlebar zona netral akan meningkatkan nilainya.<strong>Pengaturan ini hanya untuk throttle 3D.<\/strong>"
+        "message": "Ini adalah nilai (dalam us). Untuk memperlebar zona netral akan meningkatkan nilainya.<strong>Pengaturan ini hanya untuk throttle 3D.<\/strong>"
     },
     "receiverChannelMap": {
-        "message": "Peta Saluran"
+        "message": "Mapping Channel"
     },
     "receiverChannelDefaultOption": {
         "message": "Standar"
     },
     "receiverChannelMapTitle": {
-        "message": "Anda dapat menentukan peta saluran anda sendiri dengan mengklik di dalam kotak"
+        "message": "Anda dapat menentukan mapping channel sendiri dengan mengklik di dalam kotak"
     },
     "receiverRssiChannel": {
-        "message": "Saluran RSSI"
+        "message": "Channel RSSI"
     },
     "receiverRssiChannelDisabledOption": {
-        "message": "Cacat"
+        "message": "Non-Aktif"
     },
     "receiverRefreshRateTitle": {
-        "message": "Segerkan rasio grafik"
+        "message": "Refresh rate Grafik"
     },
     "receiverButtonSave": {
         "message": "Simpan"
     },
     "receiverButtonRefresh": {
-        "message": "Segarkan"
+        "message": "Refresh"
     },
     "receiverButtonSticks": {
-        "message": "Tonggkat pengontrol"
+        "message": "Stik Kontrol"
     },
     "receiverDataRefreshed": {
-        "message": "Data Tuning RC <strong>disegarkan<\/strong>"
+        "message": "Data Tuning RC <strong>di refresh<\/strong>"
     },
     "receiverEepromSaved": {
         "message": "EEPROM <span class =\"message-positive\">simpan<\/span>"
