@@ -1672,14 +1672,29 @@
     "adjustmentsFunction22": {
         "message": "Set poin D"
     },
+    "adjustmentsFunction22_2": {
+        "message": "Penyesuaian F Pitch & Roll"
+    },
     "adjustmentsFunction23": {
         "message": "D mengatur titik transisi"
+    },
+    "adjustmentsFunction23_2": {
+        "message": "Transisi Feedforward"
     },
     "adjustmentsFunction24": {
         "message": "Penyesuaian Kekuatan Horizon"
     },
     "adjustmentsFunction25": {
         "message": "Pilihan PID-Audio"
+    },
+    "adjustmentsFunction26": {
+        "message": "Penyesuaian F Pitch"
+    },
+    "adjustmentsFunction27": {
+        "message": "Penyesuaian F Roll"
+    },
+    "adjustmentsFunction28": {
+        "message": "Penyesuaian F Yaw"
     },
     "adjustmentsSave": {
         "message": "Simpan"
