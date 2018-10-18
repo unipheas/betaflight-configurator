@@ -1442,37 +1442,37 @@
         "message": "EEPROM <span class=\"message-positive\">disimpan<\/span>"
     },
     "receiverHelp": {
-        "message": "Silahkan baca penerima bab dokumentasi. Mengkonfigurasi port serial (jika diperlukan), penerima mode (serial\/ppm\/pwm), penyedia (untuk serial receiver), mengikat penerima, atur channel peta, mengkonfigurasi channel endpoint\/range pada TX sehingga semua saluran pergi dari ~1000 ~2000. Menetapkan midpoint (default 1500), trim saluran 1500, mengkonfigurasi tongkat deadband, memverifikasi perilaku ketika TX mati atau diluar jangkauan.<br \/><span class=\"pesan-negatif\">PENTING:<\/span> Sebelum terbang baca failsafe bab dokumentasi dan mengkonfigurasi failsafe."
+        "message": "Silahkan baca dokumentasi bagian receiver. Mengkonfigurasi port serial (jika diperlukan), mode receiver (serial\/ppm\/pwm), provider (untuk receiver serial), binding receiver, atur mapping channel, mengkonfigurasi endpoint\/kisaran channel pada TX sehingga semua saluran berkisar antara ~1000 hingga ~2000. Menetapkan midpoint (default 1500), trim channel ke 1500, mengkonfigurasi deadband stik, memverifikasi perilaku ketika TX mati atau diluar jangkauan.<br \/><span class=\"message-negative\">PENTING:<\/span> Sebelum terbang baca bagian failsafe di dokumentasi dan konfigurasi failsafe."
     },
     "tuningHelp": {
-        "message": "<b>Kiat Tuning<\/b><br \/><span class=\"message-negative\">PENTING:<\/span>Penting untuk memverifikasi suhu motor saat penerbangan pertama. Semakin tinggi nilai filter semakin baik, hal itu bisa terbang, tapi Anda juga akan mendapatkan lebih banyak suara ke motor. <br>Nilai default 100Hz optimal, tetapi untuk setup noiser Anda bisa mencoba menurunkan filter Dterm menjadi 50Hz dan mungkin juga filter gyro."
+        "message": "<b>Kiat Tuning<\/b><br \/><span class=\"message-negative\">PENTING:<\/span>Penting untuk memverifikasi suhu motor saat penerbangan pertama. Semakin tinggi nilai filter semakin baik, tapi Anda juga akan memberikan lebih banyak noise ke motor. <br>Nilai default 100Hz optimal, tetapi untuk setup yg memiliki noise lebih, Anda bisa mencoba menurunkan filter term D menjadi 50Hz dan mungkin juga filter gyro."
     },
     "receiverThrottleMid": {
         "message": "Throttle MID"
     },
     "receiverThrottleExpo": {
-        "message": "Mencekik EXPO"
+        "message": "Throttle EXPO"
     },
     "receiverStickMin": {
         "message": "Ambang 'Stick Low'"
     },
     "receiverHelpStickMin": {
-        "message": "Nilai maksimum (dalam diri kita) agar stick di kenali sebagai low \/ left untuk input perintah (MIN_CHECK)."
+        "message": "Nilai maksimum (dalam us) agar stik di kenali sebagai paling bawah\/paling kiri untuk input (MIN_CHECK)."
     },
     "receiverStickCenter": {
-        "message": "Tongkat pusat"
+        "message": "Tengah Stik"
     },
     "receiverHelpStickCenter": {
-        "message": "Nilai (dalam kita) digunakan untuk menentukan apakah sebuah tongkat terpusat (MID_RC)."
+        "message": "Nilai (dalam us) digunakan untuk menentukan apakah stik di tengah (MID_RC)."
     },
     "receiverStickMax": {
         "message": "Ambang 'Stick High'"
     },
     "receiverHelpStickMax": {
-        "message": "Nilai minimum (dalam diri kami) agar stik dikenali sebagai high \/ right untuk input perintah (MAX_CHECK)."
+        "message": "Nilai minimum (dalam us) agar stik dikenali sebagai paling atas\/paling kanan untuk input (MAX_CHECK)."
     },
     "receiverDeadband": {
-        "message": "RC Deadband"
+        "message": "Deadband RC"
     },
     "receiverHelpDeadband": {
         "message": "Ini adalah nilai (dalam diri kita) dengan berapa banyak masukan RC yang bisa berbeda sebelum dianggap valid. Untuk pemancar dengan jitter pada output, nilai ini dapat ditingkatkan jika input rc berkedut saat menganggur."
