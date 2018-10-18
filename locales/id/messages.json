@@ -1631,58 +1631,58 @@
         "message": "Penyesuaian D Pitch & Roll"
     },
     "adjustmentsFunction9": {
-        "message": "Penyesuaian Yaw P"
+        "message": "Penyesuaian P Yaw"
     },
     "adjustmentsFunction10": {
-        "message": "Penyesuaian Yaw I"
+        "message": "Penyesuaian I Yaw"
     },
     "adjustmentsFunction11": {
-        "message": "Penyesuaian Yaw D"
+        "message": "Penyesuaian D Yaw"
     },
     "adjustmentsFunction12": {
-        "message": "Tingkat Seleksi Profil"
+        "message": "Pilihan Profil Rate"
     },
     "adjustmentsFunction13": {
-        "message": "Tingkat nada"
+        "message": "Rate Pitch"
     },
     "adjustmentsFunction14": {
-        "message": "Tingkat Gulungan"
+        "message": "Rate Roll"
     },
     "adjustmentsFunction15": {
-        "message": "Penyesuaian Nada P"
+        "message": "Penyesuaian P Pitch"
     },
     "adjustmentsFunction16": {
-        "message": "Penyesuaian Nada I"
+        "message": "Penyesuaian I Pitch"
     },
     "adjustmentsFunction17": {
-        "message": "Penyesuaian Nada D"
+        "message": "Penyesuaian D Pitch"
     },
     "adjustmentsFunction18": {
-        "message": "Penyesuaian Gulungan P"
+        "message": "Penyesuaian P Roll"
     },
     "adjustmentsFunction19": {
-        "message": "Penyesuaian Gulungan I"
+        "message": "Penyesuaian I Roll"
     },
     "adjustmentsFunction20": {
-        "message": "Penyesuaian Gulungan D"
+        "message": "Penyesuaian D Roll"
     },
     "adjustmentsFunction21": {
-        "message": "Tingkat RC yaw"
+        "message": "Rate RC Yaw"
     },
     "adjustmentsFunction22": {
-        "message": "Set poin D"
+        "message": "Setpoint D"
     },
     "adjustmentsFunction22_2": {
         "message": "Penyesuaian F Pitch & Roll"
     },
     "adjustmentsFunction23": {
-        "message": "D mengatur titik transisi"
+        "message": "Transisi Setpoint D"
     },
     "adjustmentsFunction23_2": {
         "message": "Transisi Feedforward"
     },
     "adjustmentsFunction24": {
-        "message": "Penyesuaian Kekuatan Horizon"
+        "message": "Penyesuaian beban Horizon"
     },
     "adjustmentsFunction25": {
         "message": "Pilihan PID-Audio"
@@ -1700,13 +1700,13 @@
         "message": "Simpan"
     },
     "adjustmentsEepromSaved": {
-        "message": "EEPROM <span class =\"message-positive\"> simpan<\/span>"
+        "message": "EEPROM <span class =\"message-positive\">disimpan<\/span>"
     },
     "transponderNotSupported": {
-        "message": "Firmware pengendali penerbangan anda tidak mendukung fungsi transponder."
+        "message": "Firmware flight controller anda tidak mendukung fungsi transponder."
     },
     "transponderInformation": {
-        "message": "Sistem transponder memungkinkan penyelenggara lomba menyetel lap anda. Transponder dipasang pada pesawat terbang anda dan saat pesawat melewati gerbang waktu penerima sisi-trek mendaftar kode anda dan mencatat waktu lap anda. Saat memasang transponder berbasis inframerah anda harus memastikannya mengarah ke luar dari pesawat terbang anda ke arah penerima sisi lintasan dan bahwa berkas lampu tidak dihalang oleh badan pesawat anda, tali baterai, kabel, baling-baling, dll."
+        "message": "Sistem transponder memungkinkan penyelenggara lomba menghitung waktu lap anda. Transponder dipasang pada unit anda dan saat melewati gerbang waktu receiver di sisi lintasan membaca kode anda dan mencatat waktu lap anda. Saat memasang transponder berbasis inframerah anda harus memastikannya mengarah ke luar dari unit anda ke arah penerima sisi lintasan dan tidak terhalang oleh frame unit anda, tali baterai, kabel, baling-baling, dll."
     },
     "transponderConfigurationType": {
         "message": "Jenis transponder"
@@ -1724,13 +1724,13 @@
         "message": "ERLT"
     },
     "transponderConfiguration1": {
-        "message": "Susunan iLap"
+        "message": "Pengaturan iLap"
     },
     "transponderConfiguration2": {
-        "message": "Susunan aRCiTimer"
+        "message": "Pengaturan aRCiTimer"
     },
     "transponderConfiguration3": {
-        "message": "Konfigurasi ERLT"
+        "message": "Pengaturan ERLT"
     },
     "transponderData1": {
         "message": "Data"
@@ -1739,7 +1739,7 @@
         "message": "ID Transponder"
     },
     "transponderData3": {
-        "message": "Transponder ID"
+        "message": "ID Transponder"
     },
     "transponderDataHelp1": {
         "message": "Digit heksadesimal saja, 0-9, A-F"
