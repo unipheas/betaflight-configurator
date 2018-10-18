@@ -1286,7 +1286,7 @@
         "message": "Channels Smoothed"
     },
     "receiverRcInterpolation": {
-        "message": "RC Interpolasi"
+        "message": "Interpolasi RC"
     },
     "receiverRcInterpolationHelp": {
         "message": "Sistem RC TX\/RX tidak secepat seperti loop PID. Artinya bahwa loop PID memiliki kesengajaan dalam informasi dari sistem RC. Pilihan ini mengaktifkan interpolasi Input RC pada saat tidak ada kerangka RC diterima. Pilihan ini juga menawarkan perilaku P dan D yang lebih bersih karena tidak ada jalur landai pada kontrol input."
@@ -1310,7 +1310,7 @@
         "message": "Manual"
     },
     "receiverRcInterpolationInterval": {
-        "message": "Interpolasi Interval RC [ms]"
+        "message": "Interval Interpolasi RC [ms]"
     },
     "pidTuningFeedforwardTransition": {
         "message": "Transisi feedforward"
@@ -1319,16 +1319,16 @@
         "message": "Dengan parameter ini, Feedforward term dapat dikurangi hingga dekat dengan nilai tengah stick, yang menghasilkan akhir flip dan roll yang lebih halus.<br> Nilai mewakili defleksi stik dari titik tengah: 0 - stick di tengah, 1 - defleksi penuh. Ketika stick diatas titik itu, Feedforward akan tetap pada nilai yang telah ditentukan. Ketika stick berada di bawah, Feedforward akan berkurang secara proporsional, hingga mencapai titik 0 pada posisi tengah stick.<br> Nilai 1 memberikan efek smoothing yang maksimum, sedangkan nilai 0 menjaga Feedforward pada nilai yang telah ditentukan untuk seluruh kisaran stick."
     },
     "pidTuningDtermSetpointTransition": {
-        "message": "D Setpoint transisi"
+        "message": "Transisi Setpoint D"
     },
     "pidTuningDtermSetpoint": {
-        "message": "D Setpoint banyak"
+        "message": "Beban Setpoint D"
     },
     "pidTuningDtermSetpointTransitionHelp": {
-        "message": "Dengan parameter ini, D Setpoint Weight dapat dikurangi di dekat bagian tengah stik, yang mana menghasilkan ujung flips dan gulungan yang lebih halus.<br>Nilai mewakili titik defleksi tongkat: 0 - menempel terpusat, 1 - defleksi penuh. Bila tongkat berada di atas titik itu, bobot setpoint dijaga konstan pada nilai konfigurasinya. Bila tongkat diletakkan di bawah titik itu, bobot setpoint dikurangi secara proporsional, mencapai 0 pada posisi batang tegak.<br>Nilai 1 memberikan efek perataan maksimum, sedangkan nilai 0 menjaga bobot setpoint tetap pada nilai konfigurasinya selama rentang seluruh tongkat."
+        "message": "Dengan parameter ini, beban setpoint D dapat dikurangi dekat dengan tengah stik, yang menghasilkan akhir flip dan roll yang lebih halus.<br>Nilai mewakili titik defleksi stik: 0 - stik di tengah, 1 - defleksi penuh. Ketika stik berada di atas titik itu, bobot setpoint dijaga konstan pada nilai konfigurasinya. Bila stik diletakkan di bawah titik itu, bobot setpoint dikurangi secara proporsional, mencapai 0 pada posisi stik di tengah.<br>Nilai 1 memberikan efek smoothing maksimum, sedangkan nilai 0 menjaga bobot setpoint tetap pada nilai konfigurasinya diseluruh rentang stik."
     },
     "pidTuningDtermSetpointHelp": {
-        "message": "Parameter ini menentukan efek akselerasi tongkat dalam komponen turunan.<br>Nilai 0 sama dengan metode Measuemenent lama dimana D hanya melacak gyro, sedangkan nilai 1 sama dengan metode Error lama dengan rasio pelacakan gyro dan stick yang sama.<br>Nilai yang lebih rendah sama dengan respons tongkat yang lebih lambat \/ lebih halus, sedangkan nilai yang lebih tinggi memberikan respon percepatan stick lebih banyak.<br>Perhatikan bahwa interpolasi RC dianjurkan untuk diaktifkan dengan nilai yang lebih tinggi untuk mencegah tendangan kontrol menghasilkan suara."
+        "message": "Parameter ini menentukan efek akselerasi stik dalam komponen derivatif.<br>Nilai 0 sama dengan metode pengukuran lama dimana D hanya melacak gyro, sedangkan nilai 1 sama dengan metode Error lama dengan rasio pelacakan gyro dan stick yang sama.<br>Nilai yang lebih rendah sama dengan respons stik yang lebih lambat \/ lebih halus, sedangkan nilai yang lebih tinggi memberikan respon stik lebih cepat.<br>Perhatikan bahwa interpolasi RC dianjurkan untuk diaktifkan dengan nilai yang lebih tinggi untuk mencegah noise."
     },
     "pidTuningDtermSetpointTransitionWarning": {
         "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong> Hindari penggunaan transisi Setpoint D lebih dari 0 dan kurang dari 0.1. Menggunakan nilai tersebut dapat menyebabkan tidak stabil dan mengurangi respon stick ketika melewati titik tengahnya.<\/span>"
@@ -1340,22 +1340,22 @@
         "message": "Integral"
     },
     "pidTuningDerivative": {
-        "message": "Turunan"
+        "message": "Derivatif"
     },
     "pidTuningFeedforward": {
         "message": "Feedforward"
     },
     "pidTuningRcRate": {
-        "message": "RC Menilai"
+        "message": "Rate RC"
     },
     "pidTuningMaxVel": {
         "message": "Max Vel [deg\/s]"
     },
     "pidTuningRate": {
-        "message": "Menilai"
+        "message": "Rate"
     },
     "pidTuningSuperRate": {
-        "message": "Super Laju"
+        "message": "Super Rate"
     },
     "pidTuningRatesPreview": {
         "message": "Tarif Preview"
