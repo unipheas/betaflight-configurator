@@ -1017,7 +1017,7 @@
         "message": "Bunyi jika flight controller menggunakan power USB. Matikan jika anda tidak ingin ada bunyi ketika melakukan setup"
     },
     "beeperBLACKBOX_ERASE": {
-        "message": "Bunyikan saat penghapusan kotak hitam selesai"
+        "message": "Bunyikan saat penghapusan blackbox selesai"
     },
     "beeperCRASH_FLIP": {
         "message": "Bunyi jika mode crash flip aktif"
@@ -1029,7 +1029,7 @@
         "message": "Bunyi jika kontrol kamera 5 tombol dilepas"
     },
     "configuration3d": {
-        "message": "3D ESC\/Fitur Motor"
+        "message": "Fitur 3D ESC\/Motor"
     },
     "configuration3dDeadbandLow": {
         "message": "Deadband 3D Rendah"
@@ -1041,16 +1041,16 @@
         "message": "3D Netral"
     },
     "configuration3dDeadbandThrottle": {
-        "message": "3D Deadband Mencekik"
+        "message": "3D Deadband Throttle"
     },
     "configurationSystem": {
-        "message": "Sistem konfigurasi"
+        "message": "Konfigurasi Sistem"
     },
     "configurationLoopTime": {
-        "message": "Waktu Putaran Pengontrol Penerbangan"
+        "message": "Loop Time Flight Controller"
     },
     "configurationCalculatedCyclesSec": {
-        "message": "Siklus\/Detik [Hz]"
+        "message": "Siklus\/Det [Hz]"
     },
     "configurationLoopTimeHelp": {
         "message": "<strong>Catatan:<\/strong> Pastikan FC anda mampu untuk beroperasi pada kecepatan ini! Periksa CPU dan kestabilan siklus waktu. Perubahan ini mungkin memerlukan penyetelan ulang PID. Petunjuk: Nonaktifkan Accelerometer dan sensor lainnya untuk mendapatkan kinerja yang lebih."
@@ -1065,28 +1065,28 @@
         "message": "Baudrate"
     },
     "configurationGPSubxSbas": {
-        "message": "Jenis Bantuan Dasar"
+        "message": "Tipe Ground Assistance"
     },
     "configurationGPSAutoBaud": {
         "message": "Auto Baud"
     },
     "configurationGPSAutoConfig": {
-        "message": "Konfigurasi Otomatis"
+        "message": "Auto Config"
     },
     "configurationGPSHelp": {
-        "message": "<strong>Catatan:<\/strong> Ingat untuk konfigurasi sebuah Port Serial (melalui Port tab) ketika menggunakan fitur GPS."
+        "message": "<strong>Catatan:<\/strong> Ingat untuk konfigurasi sebuah Port Serial (melalui tab Port) ketika menggunakan fitur GPS."
     },
     "configurationSerialRX": {
         "message": "Penyedia penerima seri"
     },
     "configurationSpiRX": {
-        "message": "Penyedia penerima seri"
+        "message": "Provider Receiver SPI Bus"
     },
     "configurationEepromSaved": {
-        "message": "EEPROM <span class=\"pesan positif\">diselamatkan<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">disimpan<\/span>"
     },
     "configurationButtonSave": {
-        "message": "Simpan dan Mulai Kembali"
+        "message": "Simpan dan Reboot"
     },
     "portsIdentifier": {
         "message": "Pengenal"
@@ -1095,16 +1095,16 @@
         "message": "Konfigurasi\/MSP"
     },
     "portsSerialRx": {
-        "message": "Serial Rx"
+        "message": "Rx Serial"
     },
     "portsSensorIn": {
         "message": "Input Sensor"
     },
     "portsTelemetryOut": {
-        "message": "Telemetri Output"
+        "message": "Output Telemetri"
     },
     "portsPeripherals": {
-        "message": "Peripheral"
+        "message": "Perangkat Tambahan"
     },
     "portsHelp": {
         "message": "<strong>Catatan:<\/strong> tidak semua kombinasi cocok. Bila pengendali firmware penerbangan telah menemukan konfigurasi port serial ini akan diatur ulang."
