@@ -1107,13 +1107,13 @@
         "message": "Perangkat Tambahan"
     },
     "portsHelp": {
-        "message": "<strong>Catatan:<\/strong> tidak semua kombinasi cocok. Bila pengendali firmware penerbangan telah menemukan konfigurasi port serial ini akan diatur ulang."
+        "message": "<strong>Catatan:<\/strong> tidak semua kombinasi cocok. Bila firmware flight controller menemukan konfigurasi yg tidak cocok, pengaturan port serial ini akan kembali ke awal."
     },
     "portsMSPHelp": {
-        "message": "<strong>Catatan:<\/strong> Lakukan <span class =\"message-negative\">TIDAK<\/span> nonaktifkan MSP pada port serial pertama kecuali kamu sudah tahu apa yang kamu lakukan. Mungkin kamu harus melakukan refleksi dan menghapus konfigurasi kamu jika kamu melakukannya."
+        "message": "<strong>Catatan:<\/strong> <span class =\"message-negative\">JANGAN<\/span> non-aktifkan MSP pada port serial pertama kecuali anda mengerti apa yang anda lakukan. Hal ini dapat menyebabkan anda harus melakukan flashing ulang dan menghapus konfigurasi yg ada."
     },
     "portsFirmwareUpgradeRequired": {
-        "message": "Upgrade Firmware <span class=\"pesan-negatif\">dibutuhkan<\/span>. Serial port konfigurasi firmware &lt; 1.8.0 tidak didukung."
+        "message": "Upgrade Firmware <span class=\"message-negative\">dibutuhkan<\/span>. konfigurasi port serial dari firmware &lt; 1.8.0 tidak didukung."
     },
     "portsButtonSave": {
         "message": "Simpan dan Reboot"
@@ -1164,7 +1164,7 @@
         "message": "Serial Rx"
     },
     "portsFunction_BLACKBOX": {
-        "message": "Blackbox logging"
+        "message": "Logging blackbox"
     },
     "portsFunction_TBS_SMARTAUDIO": {
         "message": "TBS SmartAudio"
@@ -1179,7 +1179,7 @@
         "message": "Profil $1"
     },
     "pidTuningRateProfileOption": {
-        "message": "Rateprofile $1"
+        "message": "ProfilRate $1"
     },
     "portsFunction_LIDAR_TF": {
         "message": "Benewake LIDAR"
@@ -1214,16 +1214,16 @@
         "description": "One of the modes of anti gravity"
     },
     "pidTuningAntiGravityGain": {
-        "message": "Keuntungan anti gravitasi"
+        "message": "Gain Anti Gravity"
     },
     "pidTuningAntiGravityThres": {
-        "message": "Anti Gravity Threshold"
+        "message": "Threshold Anti Gravity"
     },
     "pidTuningPidSettings": {
         "message": "Pengaturan Kontrol PID"
     },
     "receiverRcSmoothing": {
-        "message": "RC Smoothing"
+        "message": "Smoothing RC"
     },
     "receiverRcSmoothingAuto": {
         "message": "Auto"
@@ -1235,7 +1235,7 @@
         "message": "Tipe CutOff Derivatif"
     },
     "receiverRcInputTypeSelect": {
-        "message": "Batas Input"
+        "message": "Tipe Cutoff Input"
     },
     "receiverRcSmoothingInterpolation": {
         "message": "Interpolasi"
@@ -1244,7 +1244,7 @@
         "message": "Filter"
     },
     "receiverRcSmoothingTypeHelp": {
-        "message": "RC smoothing yang digunakan"
+        "message": "Smoothing RC yang digunakan"
     },
     "rcSmoothingInputCutoffHelp": {
         "message": "Frekuensi cutoff dalam Hz yang digunakan filter input. Menggunakan nilai yang rendah akan menhasilkan input yang lebih halus dan lebih sesuai untuk protokol receiver yang lebih lambat. Pengguna pada umumnya cukup membiarkan nilai 0 yang berarti \"Auto\"."
