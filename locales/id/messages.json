@@ -1011,7 +1011,7 @@
         "message": "Bunyi peringatan ketika dalam posisi di arm dengan motor yg tidak berputar (bunyi berulang hingga disarm atau motor berputar)"
     },
     "beeperSYSTEM_INIT": {
-        "message": "Initialisation beep saat board dinyalakan"
+        "message": "Bunyi saat FC dinyalakan"
     },
     "beeperUSB": {
         "message": "Bunyi jika flight controller menggunakan power USB. Matikan jika anda tidak ingin ada bunyi ketika melakukan setup"
