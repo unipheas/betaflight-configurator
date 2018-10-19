@@ -903,7 +903,7 @@
         "message": "Trim Roll Accelerometer"
     },
     "configurationAccelTrimPitch": {
-        "message": "Trim Pitch Akselerometer"
+        "message": "Trim Pitch Accelerometer"
     },
     "configurationArming": {
         "message": "Arming"
@@ -921,7 +921,7 @@
         "message": "Pilihan ini mengatur FC agar dapat mengontrol motor dengan putaran yg berlawanan arah dan baling-baling dipasang sesuai dengan arah putaran tersebut. <strong>Peringatan:<\/strong> Pilihan ini tidak mengubah arah putar motor. Gunakan perangkat pengatur ESC anda, atau tukar sambungan kabel antara ESC & Motor untuk membalikkan arah putaran. Periksa arah putaran motor, pastikan baling-baling dilepas sebelum arming dan arah putaran sesuai dengan gambar diatas."
     },
     "configurationAutoDisarmDelay": {
-        "message": "mematikan motor setelah penundaan ditetapkan [seconds] (Memerlukan fitur MOTOR_STOP)"
+        "message": "Disarm motor setelah penundaan [seconds] (Memerlukan fitur MOTOR_STOP)"
     },
     "configurationDisarmKillSwitch": {
         "message": "Disarm motor terlepas dari nilai throttle (Bila ARM dikonfigurasikan melalui tab Modes via channel AUX)"
@@ -942,7 +942,7 @@
         "message": "Ini adalah nilai 'idle' yang di kirim ke ESC ketika model diarm dan stik throttle berada pada posisi minimum. Tingkatkan nilai untuk mendapatkan kecepatan idle. Juga tingkatkan nilai jika ada motor yang belum berputar!"
     },
     "configurationThrottleMaximum": {
-        "message": "Maksimum Throttle (Nilai ESC tertinggi ketika dipersenjatai)"
+        "message": "Maksimum Throttle (Nilai ESC tertinggi ketika di arm)"
     },
     "configurationThrottleMinimumCommand": {
         "message": "Perintah Minimum (nilai ESC saat disarm)"
