@@ -963,7 +963,7 @@
         "message": "Dshot beacon menggunakan ESC dan motor untuk menghasilkan suara. Oleh karena itu Dshot beacon tidak dapat digunakan ketika motor berputar. Pada Betaflight 3.4 dan yang lebih baru, ketika terjadi percobaan arming saat Dshot beacon aktif, akan ada jeda 2 detik setelah nada Dshot beacon terakhir sebelum model di arm. Hal ini berguna untuk mencegah fungsi Dshot beacon mengganggu perintah Dshot ke ESC ketika arming.<br\/><strong>Peringatan:<\/strong> Karena Dshot beacon mengalirkan arus ke motor Anda ketika aktif, hal ini dapat menyebabkan panas berlebih yang dapat merusak motor \/ atau ESC jika kekuatannnya di set terlalu tinggi. Gunakan BLHeli Configurator atau BLHeli Suite untuk menyesuaikan dan mengetahui kekuatan Dshot beacon."
     },
     "configurationBeeper": {
-        "message": "Konfigurasi Beeper"
+        "message": "Pengaturan Bunyi"
     },
     "beeperGYRO_CALIBRATED": {
         "message": "Berbunyi ketika gyro sudah dikalibrasi"
@@ -987,7 +987,7 @@
         "message": "Bunyi peringatan yg lebih lama ketika baterai kritis (berulang)"
     },
     "beeperBAT_LOW": {
-        "message": "Bunyi peringatan ketika baterai sudah mulai rendah (berulang)"
+        "message": "Bunyi peringatan ketika baterai mulai rendah (berulang)"
     },
     "beeperGPS_STATUS": {
         "message": "Gunakan jumlah bunyi \"beep\" sebagai indikator jumlah satelit GPS yang terdeteksi"
@@ -1002,10 +1002,10 @@
         "message": "Kalibrasi accelerometer dalam penerbangan gagal"
     },
     "beeperREADY_BEEP": {
-        "message": "Deringkan sebuah nada ketika GPS terkunci dan siap"
+        "message": "Bunyi ketika GPS terkunci dan siap"
     },
     "beeperDISARM_REPEAT": {
-        "message": "Bunyi beep terdengar sambil tetap memegang posisi melucuti senjata"
+        "message": "Bunyi beep terdengar ketika stik dalam posisi disarm"
     },
     "beeperARMED": {
         "message": "Bunyi peringatan ketika dalam posisi di arm dengan motor yg tidak berputar (bunyi berulang hingga disarm atau motor berputar)"
