@@ -1,3 +1,11 @@
-[
-
-]
+{
+    "serialLoggingSupportedNote": {
+        "message": "Anda bisa login ke perangkat logging eksternal (seperti OpenLog atau yg kompatibel) dengan menggunakan port serial. Konfigurasikan port pada tab ports."
+    },
+    "dataflashUnavSpace": {
+        "message": "Space tidak tersedia"
+    },
+    "dataflashNote": {
+        "message": "Log penerbangan dapat direkam ke chip dataflash di flight controller Anda."
+    }
+}
