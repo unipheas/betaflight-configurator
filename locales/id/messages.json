@@ -118,5 +118,65 @@
     },
     "cliReboot": {
         "message": "Reboot CLI terdeteksi"
+    },
+    "loggingNote": {
+        "message": "Data <span class=\"message-negative\">hanya<\/span> akan di log di tab ini, meninggalkan tab ini akan <span class=\"message-negative\">membatalkan<\/span> logging dan aplikasi akan kembali ke mode\n<strong> \"configurator\"<\/strong> normalnya.<br \/> Anda bebas memilih periode update global, data akan di tulis ke dalam berkas log setiap <strong>1<\/strong> detik untuk alasan kinerja."
+    },
+    "loggingSamplesSaved": {
+        "message": "Sampel disimpan:"
+    },
+    "loggingButtonLogFile": {
+        "message": "Pilih Berkas Log"
+    },
+    "loggingStart": {
+        "message": "Mulai Logging"
+    },
+    "loggingStop": {
+        "message": "Berhenti Logging"
+    },
+    "loggingBack": {
+        "message": "Tinggalkan Logging \/ Putuskan"
+    },
+    "loggingErrorNotConnected": {
+        "message": "Anda perlu untuk<strong>tersambung<\/strong>terlebih dulu"
+    },
+    "loggingErrorLogFile": {
+        "message": "Harap memilih berkas log"
+    },
+    "loggingErrorOneProperty": {
+        "message": "Harap memilih paling tidak satu properti untuk dilog"
+    },
+    "loggingAutomaticallyRetained": {
+        "message": "Secara otomatis memuat berkas log sebelumnya: <strong>$1<\/strong>"
+    },
+    "blackboxNotSupported": {
+        "message": "Firmware flight controller anda tidak mendukung logging Blackbox."
+    },
+    "blackboxMaybeSupported": {
+        "message": "Firmware flight controller anda tidak mendukung tab ini, atau fitur Blackbox di nonaktifkan pada tab konfigurasi."
+    },
+    "blackboxConfiguration": {
+        "message": "Konfigurasi Blackbox"
+    },
+    "blackboxButtonSave": {
+        "message": "Simpan dan reboot"
+    },
+    "dataflashButtonEraseConfirm": {
+        "message": "Ya, hapus dataflash"
+    },
+    "dataflashFileWriteFailed": {
+        "message": "Gagal untuk menulis ke berkas yang anda pilih, apakah izin akses pada folder itu oke?"
+    },
+    "sdcardStatusReboot": {
+        "message": "Kesalahan fatal<br>Reboot untuk mencoba kembali"
+    },
+    "sdcardStatusFileSystem": {
+        "message": "Filesistem mulai..."
+    },
+    "firmwareFlasherReleaseStatus": {
+        "message": "State:"
+    },
+    "firmwareFlasherReleaseTarget": {
+        "message": "Target:"
     }
 }
