@@ -78,5 +78,58 @@
     "ledStripModeColorsModeGPSNoLock": {
         "message": "GPS: tidak terkunci",
         "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripWiringMode": {
+        "message": "Mode Pengurutan Kabel",
+        "description": "One of the wiring modes in Led Strip"
+    },
+    "ledStripWiringMessage": {
+        "message": "LEDs tanpa nomor urutan kabel tidak akan disimpan.",
+        "description": "Message in the wiring modes in Led Strip"
+    },
+    "ledStripOverlayTitle": {
+        "message": "Overlay"
+    },
+    "ledStripIndecatorOverlay": {
+        "message": "Indikator (menggunakan posisi pada matriks)"
+    },
+    "colorOrange": {
+        "message": "oranye"
+    },
+    "colorLimeGreen": {
+        "message": "hijau muda"
+    },
+    "colorMintGreen": {
+        "message": "hijau tua"
+    },
+    "controlAxisRoll": {
+        "message": "Roll [A]"
+    },
+    "controlAxisPitch": {
+        "message": "Pitch [E]"
+    },
+    "pidTuningYawJumpPrevention": {
+        "message": "Yaw Jump Prevention"
+    },
+    "pidTuningYawJumpPreventionHelp": {
+        "message": "Mencegah unit dari lompatan di ujung yaw. Angka lebih tinggi memberi lebih banyak redaman pada akhir gerakan yaw (bekerja seperti D Yaw, yang sebenarnya bukan D layaknya pada sumbu lain)"
+    },
+    "pidTuningRcExpoPower": {
+        "message": "Kekuatan Expo RC"
+    },
+    "pidTuningRcExpoPowerHelp": {
+        "message": "Eksponen yang digunakan saat mengkalkulasi expo RC. Dalam versi Betaflight sebelum 3.0, nilainya tetap pada 3."
+    },
+    "pidTuningLevel": {
+        "message": "Angle\/Horizon"
+    },
+    "pidTuningMag": {
+        "message": "Magnetometer\/Arah"
+    },
+    "pidTuningHorizon": {
+        "message": "Horizon"
+    },
+    "pidTuningAngle": {
+        "message": "Angle"
     }
 }
