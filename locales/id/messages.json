@@ -7,5 +7,14 @@
     },
     "firmwareFlasherManualBaudDescription": {
         "message": "Pemilihan baud rate manual untuk FC yang tidak mendukung kecepatan default atau untuk flashing via bluetooth. <br\/><span class = \"message-negative\"> Catatan: <\/span> Tidak digunakan saat flashing melalui USB DFU"
+    },
+    "firmwareFlasherGithubInfoHead": {
+        "message": "Info Firmware GitHub"
+    },
+    "firmwareFlasherCommiter": {
+        "message": "Oleh:"
+    },
+    "firmwareFlasherHash": {
+        "message": "Hash:"
     }
 }
