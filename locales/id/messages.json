@@ -85,5 +85,20 @@
     },
     "servosAngleAtMax": {
         "message": "Sudut di MAKS"
+    },
+    "servosDirectionAndRate": {
+        "message": "Arah dan rate"
+    },
+    "servosEepromSave": {
+        "message": "EEPROM <span class=\"message-positive\">disimpan<\/span>"
+    },
+    "gpsMapMessage2": {
+        "message": "Menunggu posisi 3D GPS terkunci…"
+    },
+    "gpsSats": {
+        "message": "Sat:"
+    },
+    "motorsResetMaximum": {
+        "message": "Reset maksimum overtime"
     }
 }
