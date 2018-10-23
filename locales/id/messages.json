@@ -16,5 +16,26 @@
     },
     "firmwareFlasherHash": {
         "message": "Hash:"
+    },
+    "firmwareFlasherWarningText": {
+        "message": "<span class =\"message-negative\">Jangan<\/span> coba flashing perangkat keras<strong> non-Betaflight<\/strong> dengan flasher firmware ini.<br \/> <span class =\"message-negative\" >Jangan <\/span><strong>memutuskan<\/strong> sambungan ke FC atau<strong>mematikan<\/strong> komputer Anda saat flashing.<br \/><br \/><strong> Catatan: <\/strong> bootloader STM32 disimpan dalam ROM, tidak akan rusak. <br \/><strong>Catatan:<\/strong><span class =\"message-negative\">Sambungan-otomatis<\/span> selalu dinonaktifkan saat Anda berada di dalam flasher firmware. <br \/><strong>Catatan:<\/strong>Pastikan Anda memiliki backup; beberapa upgrade \/ downgrade akan menghapus konfigurasi anda. <br \/><strong>Catatan:<\/strong>Jika Anda mengalami masalah flashing <strong>coba lepaskan semua kabel dari FC<\/strong>terlebih dulu, coba reboot, upgrade chrome, upgrade driver <br \/><strong>Catatan: <\/strong>Saat flashing FC yang terhubung langsung dengan soket USB (FC generasi baru) pastikan Anda telah membaca bagian USB Flashing di manual Betaflight dan menginstal perangkat lunak dan driver yang benar"
+    },
+    "firmwareFlasherRecoveryText": {
+        "message": "Jika komunikasi terputus dengan FC anda, ikuti cara ini untuk memulihkan komunikasi: <ul><li>Matikan daya<\/li><li>Aktifkan 'Tanpa urutan reboot', aktifkan 'Penghapusan chip penuh'.<\/li><li>Pasang pin jumper BOOT atau tahan tombol BOOT.<\/li><li> Hidupkan daya (LED aktivitas TIDAK akan menyala jika di lakukan dengan benar).<\/li><li> Pasang semua driver STM32 dan Zadig jika diperlukan (lihat <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\" target=\"_blank\">USB Flashing<\/a> bagian dari manual Betaflight).<\/li><li>Tutup configurator, Tutup semua proses Crome yang dijalankan, Tutup semua aplikasi Chrome, Restart Configurator.<\/li><li> Lepas tombol BOOT jika FC anda memilikinya.<\/li><li>Flash dengan firmware yang cocok (menggunakan nilai baud manual jika ditentukan dalam manual FC anda).<\/li><li>Matikan daya.<\/li><li>Lepas jumper BOOT.<\/li><li>Hidupkan daya (LED aktivitas seharusnya berkedip).<\/li><li>Hubungkan dengan normal.<\/li><\/ul>"
+    },
+    "firmwareFlasherRemoteFirmwareLoaded": {
+        "message": "<span class =\"message-positive\">Firmware online dimuat, siap untuk di flash<\/span>"
+    },
+    "firmwareFlasherFailedToLoadOnlineFirmware": {
+        "message": "Gagal memuat firmware online"
+    },
+    "firmwareFlasherNoFirmwareSelected": {
+        "message": "<b>Belum ada firmware yang dipilih untuk dimuat<\/b>"
+    },
+    "firmwareFlasherNoValidPort": {
+        "message": "<span class = \"message-negative\">Silakan pilih port serial yang benar<\/span>"
+    },
+    "firmwareFlasherWritePermissions": {
+        "message": "Anda tidak memiliki <span class =\"message-negative\">izin tulis<\/span> untuk berkas ini"
     }
 }
