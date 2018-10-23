@@ -61,5 +61,29 @@
     },
     "auxiliaryAddRange": {
         "message": "Tambahkan Rentang"
+    },
+    "transponderDataInvalid": {
+        "message": "Data Transponder <span class=\"message-negative\">tidak valid<\/span>"
+    },
+    "transponderEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">disimpan<\/span>"
+    },
+    "servosFirmwareUpgradeRequired": {
+        "message": "Servo memerlukan firmware &gt;= 1.10.0. dan dukungan target."
+    },
+    "servosChangeDirection": {
+        "message": "Ganti Arah di TX Agar Sesuai"
+    },
+    "servosMin": {
+        "message": "MIN"
+    },
+    "servosMax": {
+        "message": "MAKS"
+    },
+    "servosAngleAtMin": {
+        "message": "Sudut di MIN"
+    },
+    "servosAngleAtMax": {
+        "message": "Sudut di MAKS"
     }
 }
