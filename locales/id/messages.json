@@ -131,5 +131,8 @@
     },
     "pidTuningAngle": {
         "message": "Angle"
+    },
+    "pidTuningNonProfileFilterSettings": {
+        "message": "Pengaturan filter diluar profil"
     }
 }
