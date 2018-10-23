@@ -46,5 +46,14 @@
     },
     "receiverRcInterpolationHelp": {
         "message": "Sistem RC TX\/RX tidak secepat seperti loop PID. Artinya bahwa loop PID memiliki perbedaan informasi dengan sistem RC. Pilihan ini mengaktifkan interpolasi Input RC pada saat tidak ada input RC yg diterima. Pilihan ini juga menghasilkan respon P dan D yang lebih bersih karena tidak gap pada input kontrol."
+    },
+    "dialogCopyProfileTitle": {
+        "message": "Salin Nilai Profil"
+    },
+    "tuningHelp": {
+        "message": "<b>Tips Tuning<\/b><br \/><span class=\"message-negative\">PENTING:<\/span>Penting untuk memverifikasi suhu motor saat penerbangan pertama. Semakin tinggi nilai filter semakin baik, tapi Anda juga akan memberikan lebih banyak noise ke motor. <br>Nilai default 100Hz optimal, tetapi untuk setup yg memiliki noise lebih, Anda bisa mencoba menurunkan filter term D menjadi 50Hz dan mungkin juga filter gyro."
+    },
+    "receiverStickMin": {
+        "message": "Batas 'Stik Rendah'"
     }
 }
