@@ -37,5 +37,46 @@
     },
     "firmwareFlasherWritePermissions": {
         "message": "Anda tidak memiliki <span class =\"message-negative\">izin tulis<\/span> untuk berkas ini"
+    },
+    "firmwareFlasherFlashTrigger": {
+        "message": "Terdeteksi: <strong>$1<\/strong> - memulai flashing pada saat tersambung"
+    },
+    "firmwareFlasherPreviousDevice": {
+        "message": "Terdeteksi: <strong>$1<\/strong> - perangkat sebelumnya masih flashing, harap cabut dan sambungkan kembali untuk mencoba lagi"
+    },
+    "ledStripHelp": {
+        "message": "Flight controller dapat mengendalikan warna dan efek setiap LED pada strip. <br \/>Konfigurasi LED di grid, konfigurasi urutan kabel, kemudian pasang LED pada model Anda sesuai dengan posisi grid. LED tanpa urutan kabel yg sesuai tidak akan disimpan.<br \/>Klik dua kali pada warna untuk mengganti nilai HSV."
+    },
+    "ledStripFunctionArmOption": {
+        "message": "Status Arming",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripModeColorsModeHeadfree": {
+        "message": "Headfree",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModesOrientationTitle": {
+        "message": "Orientasi LED ('Mode &amp; Orientasi') dan Warna",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeDisarmed": {
+        "message": "Disarmed",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeArmed": {
+        "message": "Armed",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBlinkBg": {
+        "message": "Background Blink",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoSats": {
+        "message": "GPS: tidak ada sat",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoLock": {
+        "message": "GPS: tidak terkunci",
+        "description": "One of the modes in Color Mode in Led Strip"
     }
 }
