@@ -100,5 +100,23 @@
     },
     "motorsResetMaximum": {
         "message": "Reset maksimum overtime"
+    },
+    "sensorsInfo": {
+        "message": "Perlu di ingat bahwa menggunakan periode pembaruan yg cepat dan menampilkan beberapa grafik pada saat yang bersamaan memerlukan sumber daya yang besar dan akan mengurangi baterai anda lebih cepat jika anda menggunakan laptop.<br \/>Kami sarankan hanya membuat grafik untuk sensor yg anda perlukan dan menggunakan periode pembaruan yg sesuai."
+    },
+    "sensorsRefresh": {
+        "message": "Refresh:"
+    },
+    "sensorsScale": {
+        "message": "Skala:"
+    },
+    "sensorsGyroTitle": {
+        "message": "Gyroscope - deg\/s"
+    },
+    "cliInfo": {
+        "message": "<strong>Catatan<\/strong>: Meninggalkan tab CLI atau menekan Putus akan <strong> secara otomatis<\/strong> mengirimkan perintah \"<strong>keluar<\/strong>\" ke FC. Dengan firmware terbaru ini akan membuat FC di <span class =\"message-negative\"> restart<\/span> dan perubahan yang belum disimpan akan <span class =\"message-negative\">hilang<\/span>."
+    },
+    "cliReboot": {
+        "message": "Reboot CLI terdeteksi"
     }
 }
