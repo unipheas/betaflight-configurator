@@ -1,3 +1,11 @@
-[
-
-]
+{
+    "tabOnboardLogging": {
+        "message": "Blackbox"
+    },
+    "usbDeviceCloseFail": {
+        "message": "<span class=\"message-negative\">gagal<\/span> menutup perangkat USB"
+    },
+    "stm32GlobalEraseExtended": {
+        "message": "Melaksanakan penghapusan chip global (melalui penghapusan yg menyeluruh) ..."
+    }
+}
