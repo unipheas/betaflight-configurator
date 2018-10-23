@@ -7,5 +7,11 @@
     },
     "stm32GlobalEraseExtended": {
         "message": "Melaksanakan penghapusan chip global (melalui penghapusan yg menyeluruh) ..."
+    },
+    "uniqueDeviceIdReceived": {
+        "message": "ID unik perangkat: <strong>0x$1<\/strong>"
+    },
+    "statusbar_port_utilization": {
+        "message": "Pemakaian Port:"
     }
 }
