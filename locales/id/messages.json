@@ -13,5 +13,23 @@
     },
     "statusbar_port_utilization": {
         "message": "Pemakaian Port:"
+    },
+    "defaultWelcomeIntro": {
+        "message": "Selamat Datang di <strong> Betaflight - Configurator <\/strong>, sebuah perangkat yang dirancang untuk memudahkan pembaruan, konfigurasi dan menyetel <em> flight controller<\/em> anda."
+    },
+    "initialSetupButtonResetZaxisValue": {
+        "message": "Reset sumbu Z, offset: $1 derajat"
+    },
+    "initialSetupModel": {
+        "message": "Model: $1"
+    },
+    "initialSetupAttitude": {
+        "message": "$1 deg"
+    },
+    "initialSetupAccelCalibStarted": {
+        "message": "Kalibrasi accelerometer dimulai"
+    },
+    "feature3D": {
+        "message": "Mode 3D (untuk digunakan dengan ESC 2 arah)"
     }
 }
