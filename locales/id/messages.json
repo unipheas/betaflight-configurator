@@ -55,5 +55,11 @@
     },
     "receiverStickMin": {
         "message": "Batas 'Stik Rendah'"
+    },
+    "receiverStickMax": {
+        "message": "Batas 'Stik Tinggi'"
+    },
+    "auxiliaryAddRange": {
+        "message": "Tambahkan Rentang"
     }
 }
