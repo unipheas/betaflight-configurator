@@ -1,5 +1,8 @@
 {
     "osdDescElementOnTime": {
         "message": "Total waktu model telah dinyalakan"
+    },
+    "configurationUnsyncedPWMFreq": {
+        "message": "Frekuensi PWM motor"
     }
 }
