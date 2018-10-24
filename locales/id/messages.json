@@ -2922,6 +2922,24 @@
     "failsafeKillSwitchHelp": {
         "message": "Tetapkan pilihan ini untuk membuat saklar failsafe (Mode Tab) bertindak sebagai saklar membunuh langsung, melewati prosedur failsafe yang dipilih. <strong>Catatan:<\/strong> Mempersenjatai diblokir dengan saklar membunuh failsafe dalam posisi ON"
     },
+    "failsafeSwitchTitle": {
+        "message": "Switch Failsafe"
+    },
+    "failsafeSwitchModeItem": {
+        "message": "Aksi Switch Failsafe"
+    },
+    "failsafeSwitchModeHelp": {
+        "message": "Pilihan ini menentukan apa yg terjadi ketika Failsafe diaktifkan melalui switch AUX:<br\/><strong>Tingkat 1<\/strong> mengaktifkan failsafe Tingkat 1. Hal ini berguna jika anda ingin menguji fungsi failsafe pada saat kehilangan sinyal.<br\/><strong>Tingkat 2<\/strong> tidak melalui Tingkat 1 dan langsung mengaktifkan prosedur failsafe Tingkat 2<br\/><strong>Mati<\/strong> langsung disarm (unit anda akan crash)"
+    },
+    "failsafeSwitchOptionStage1": {
+        "message": "Tingkat 1"
+    },
+    "failsafeSwitchOptionStage2": {
+        "message": "Tingkat 2"
+    },
+    "failsafeSwitchOptionKill": {
+        "message": "Matikan"
+    },
     "powerButtonSave": {
         "message": "Simpan"
     },
@@ -3012,10 +3030,718 @@
     "powerVoltageId66": {
         "message": "ESC Motor 7"
     },
+    "powerVoltageId67": {
+        "message": "ESC Motor 8"
+    },
+    "powerVoltageId68": {
+        "message": "ESC Motor 9"
+    },
+    "powerVoltageId69": {
+        "message": "ESC Motor 10"
+    },
+    "powerVoltageId70": {
+        "message": "ESC Motor 11"
+    },
+    "powerVoltageId71": {
+        "message": "ESC Motor 12"
+    },
+    "powerVoltageId80": {
+        "message": "Sel 1"
+    },
+    "powerVoltageId81": {
+        "message": "Sel 2"
+    },
+    "powerVoltageId82": {
+        "message": "Sel 3"
+    },
+    "powerVoltageId83": {
+        "message": "Sel 4"
+    },
+    "powerVoltageId84": {
+        "message": "Sel 5"
+    },
+    "powerVoltageId85": {
+        "message": "Sel 6"
+    },
+    "powerVoltageScale": {
+        "message": "Skala"
+    },
+    "powerVoltageDivider": {
+        "message": "Nilai Pembagi"
+    },
+    "powerVoltageMultiplier": {
+        "message": "Nilai Pengali"
+    },
+    "powerAmperageHead": {
+        "message": "Ampere Meter"
+    },
+    "powerAmperageId10": {
+        "message": "Baterai"
+    },
+    "powerAmperageId50": {
+        "message": "Semua ESC"
+    },
+    "powerAmperageId60": {
+        "message": "ESC Motor 1"
+    },
+    "powerAmperageId61": {
+        "message": "ESC Motor 2"
+    },
+    "powerAmperageId62": {
+        "message": "ESC Motor 3"
+    },
+    "powerAmperageId63": {
+        "message": "ESC Motor 4"
+    },
+    "powerAmperageId64": {
+        "message": "ESC Motor 5"
+    },
+    "powerAmperageId65": {
+        "message": "ESC Motor 6"
+    },
+    "powerAmperageId66": {
+        "message": "ESC Motor 7"
+    },
+    "powerAmperageId67": {
+        "message": "ESC Motor 8"
+    },
+    "powerAmperageId68": {
+        "message": "ESC Motor 9"
+    },
+    "powerAmperageId69": {
+        "message": "ESC Motor 10"
+    },
+    "powerAmperageId70": {
+        "message": "ESC Motor 11"
+    },
+    "powerAmperageId71": {
+        "message": "ESC Motor 12"
+    },
+    "powerAmperageId80": {
+        "message": "Virtual"
+    },
+    "powerAmperageId90": {
+        "message": "MSP"
+    },
+    "powerMahValue": {
+        "message": "$1 mAh"
+    },
+    "powerAmperageScale": {
+        "message": "Skala [1\/10 mV\/A]"
+    },
+    "powerAmperageOffset": {
+        "message": "Offset [mA]"
+    },
+    "powerBatteryHead": {
+        "message": "Baterai"
+    },
+    "powerStateHead": {
+        "message": "Status Daya"
+    },
+    "powerBatteryConnected": {
+        "message": "Tersambung"
+    },
+    "powerBatteryConnectedValueYes": {
+        "message": "Ya (Sel: $1)"
+    },
+    "powerBatteryConnectedValueNo": {
+        "message": "Tidak"
+    },
+    "powerBatteryVoltage": {
+        "message": "Voltase"
+    },
+    "powerBatteryCurrentDrawn": {
+        "message": "mAh digunakan"
+    },
+    "powerBatteryAmperage": {
+        "message": "Arus"
+    },
+    "powerBatteryCapacity": {
+        "message": "Kapasitas (mAh)"
+    },
+    "osdSetupTitle": {
+        "message": "OSD"
+    },
+    "osdSetupPreviewHelp": {
+        "message": "<strong>Catatan:<\/strong> Tinjauan OSD mungkin tidak menampilkan bentuk huruf sebenarnya yang terpasang pada flight controller."
+    },
+    "osdSetupUnsupportedNote1": {
+        "message": "Flight controller anda tidak menanggapi ke perintah OSD. Mungkin FC anda tidak memiliki OSD Betaflight."
+    },
+    "osdSetupUnsupportedNote2": {
+        "message": "Perhatikan bahwa beberapa flight controller sudah terpasang <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a> yang dapat dinyalakan dan dikonfigurasi dengan <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target = '_ blank'>scarab-osd<\/a>, namun MinimOSD tidak dapat di konfigurasi melalui antarmuka ini."
+    },
+    "osdSetupElementsTitle": {
+        "message": "Elemen"
+    },
+    "osdSetupElementsSwitchAll": {
+        "message": "Alihkan semua"
+    },
+    "osdSetupPreviewTitle": {
+        "message": "Tinjauan (tarik untuk mengubah posisi)"
+    },
+    "osdSetupPreviewTitleTip": {
+        "message": "Tampilkan atau sembunyikan logo di jendela peninjauan. Ini tidak akan mengubah pengaturan apapun pada pengontrol penerbangan."
+    },
+    "osdSetupVideoFormatTitle": {
+        "message": "Format Video"
+    },
+    "osdSetupUnitsTitle": {
+        "message": "Unit"
+    },
+    "osdSetupTimersTitle": {
+        "message": "Pengukur waktu"
+    },
+    "osdSetupAlarmsTitle": {
+        "message": "Alarm"
+    },
+    "osdSetupStatsTitle": {
+        "message": "Statistik Akhir Penerbangan"
+    },
+    "osdSetupVtxTitle": {
+        "message": "Pengaturan VTX"
+    },
+    "osdSetupCraftNameTitle": {
+        "message": "Nama Model"
+    },
+    "osdSetupWarningsTitle": {
+        "message": "Peringatan"
+    },
+    "osdSetupFontPresets": {
+        "message": "Preset huruf:"
+    },
+    "osdSetupFontPresetsSelector": {
+        "message": "Pilihan huruf:"
+    },
+    "osdSetupFontPresetsSelectorOr": {
+        "message": "atau"
+    },
+    "osdSetupOpenFont": {
+        "message": "Buka Berkas Huruf"
+    },
+    "osdSetupCustomLogoTitle": {
+        "message": "Logo boot:"
+    },
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "Pilih gambar kustom&hellip;"
+    },
+    "osdSetupCustomLogoInfoTitle": {
+        "message": "Gambar kustom:"
+    },
+    "osdSetupCustomLogoInfoImageSize": {
+        "message": "Ukuran harus $t(logoWidthPx)×$t(logoHeightPx) piksel"
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "Warna piksel harus hijau, hitam dan putih"
+    },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "Klik <b>$t(osdSetupUploadFont.message)<\/b> untuk menerapkan logo kustom"
+    },
+    "osdSetupCustomLogoImageSizeError": {
+        "message": "Ukuran gambar salah: {{width}}×{{height}} (seharusnya $t(logoWidthPx)×$t(logoHeightPx))"
+    },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "Gambar mengandung warna piksel yang salah: rgb({{valueR}}, {{valueG}}, {{valueB}}) pada koordinat {{posX}}×{{posY}}"
+    },
+    "osdSetupUploadFont": {
+        "message": "Unggah Huruf"
+    },
+    "osdSetupSave": {
+        "message": "Simpan"
+    },
+    "osdSetupFontManager": {
+        "message": "Pengelolaan Huruf"
+    },
+    "osdSetupUncheckAll": {
+        "message": "Jangan tandai semua"
+    },
+    "osdSetupHead": {
+        "message": "Info"
+    },
+    "osdSetupVideoMode": {
+        "message": "Mode Video"
+    },
+    "osdSetupCameraConnected": {
+        "message": "Kamera Terhubung"
+    },
+    "osdSetupCameraConnectedValueYes": {
+        "message": "Ya"
+    },
+    "osdSetupCameraConnectedValueNo": {
+        "message": "Tidak"
+    },
+    "osdSetupResetText": {
+        "message": "Atur ulang OSD ke standar"
+    },
+    "osdSetupButtonReset": {
+        "message": "Atur Ulang Pengaturan"
+    },
+    "osdDescElementMainBattVoltage": {
+        "message": "Tegangan baterai utama seketika (berkedip saat berada di bawah ambang batas alarm)"
+    },
+    "osdDescElementRssiValue": {
+        "message": "Nilai RSSI sesaat (berkedip saat berada di bawah ambang batas alarm)"
+    },
+    "osdDescElementThrottlePosition": {
+        "message": "Nilai channel throttle saat ini"
+    },
+    "osdDescElementArmed": {
+        "message": "Pesan teks ketika armed"
+    },
+    "osdDescElementDisarmed": {
+        "message": "Pesan teks ketika disarmed"
+    },
+    "osdDescElementCrosshairs": {
+        "message": "Pusat crosshair layar"
+    },
+    "osdDescElementArtificialHorizon": {
+        "message": "Indikator grafis horizon khayal"
+    },
+    "osdDescElementHorizonSidebars": {
+        "message": "Sidebars di sekitar indikator horizon khayal"
+    },
+    "osdDescElementCurrentDraw": {
+        "message": "Arus baterai terpakai sesaat"
+    },
+    "osdDescElementMahDrawn": {
+        "message": "Kapasitas baterai terpakai"
+    },
+    "osdDescElementCraftName": {
+        "message": "Nama model seperti yang ada di tab Konfigurasi"
+    },
+    "osdDescElementAltitude": {
+        "message": "Ketinggian saat ini (berkedip saat berada di atas ambang alarm)"
+    },
     "osdDescElementOnTime": {
         "message": "Total waktu model telah dinyalakan"
     },
+    "osdDescElementFlyTime": {
+        "message": "Total waktu model telah armed dalam siklus daya saat ini (berkedip saat berada di atas ambang batas alarm)"
+    },
+    "osdDescElementFlyMode": {
+        "message": "Mode penerbangan saat ini"
+    },
+    "osdDescElementGPSSpeed": {
+        "message": "Kecepatan dari GPS"
+    },
+    "osdDescElementGPSSats": {
+        "message": "Jumlah satelit yg memberikan GPS fix"
+    },
+    "osdDescElementGPSLon": {
+        "message": "Bujur GPS"
+    },
+    "osdDescElementGPSLat": {
+        "message": "Lintang GPS"
+    },
+    "osdDescElementDebug": {
+        "message": "Variabel Debug"
+    },
+    "osdDescElementPIDRoll": {
+        "message": "Gain PID pada sumbu Roll"
+    },
+    "osdDescElementPIDPitch": {
+        "message": "Gain PID pada sumbu Pitch"
+    },
+    "osdDescElementPIDYaw": {
+        "message": "Gain PID pada sumbu Yaw"
+    },
+    "osdDescElementPower": {
+        "message": "Konsumsi listrik sesaat"
+    },
+    "osdDescElementPIDRateProfile": {
+        "message": "Tampilan angka dari PID dan profil rate yg aktif"
+    },
+    "osdDescElementBatteryWarning": {
+        "message": "Teks peringatan yang muncul ketika voltase baterai turun di bawah ambang peringatan"
+    },
+    "osdDescElementAvgCellVoltage": {
+        "message": "Voltase sel rata-rata (voltase baterai utama \/ jumlah sel)"
+    },
+    "osdDescElementPitchAngle": {
+        "message": "Angka sudut pitch dalam derajat"
+    },
+    "osdDescElementRollAngle": {
+        "message": "Angka sudut roll dalam derajat"
+    },
+    "osdDescElementMainBattUsage": {
+        "message": "Representasi grafis dari penggunaan kapasitas baterai"
+    },
+    "osdDescElementArmedTime": {
+        "message": "Waktu sejak model di arm"
+    },
+    "osdDescElementWarnings": {
+        "message": "Tanda (misalnya baterai rendah), peringatan (misalnya alasan untuk tidak mempersenjatai, baterai rendah kritis) dan pager visual (4 tanda berkedip)."
+    },
+    "osdDescElementEscTemperature": {
+        "message": "Suhu yang dilaporkan oleh telemetry ESC"
+    },
+    "osdDescElementEscRpm": {
+        "message": "RPM dilaporkan oleh telemetri ESC"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "RTC tanggal \/ waktu"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "Pengaturan dan nilai pengaturan penyesuaian aktif saat ini"
+    },
+    "osdDescElementHomeDirection": {
+        "message": "Panah menampilkan arah ke posisi rumah"
+    },
+    "osdDescElementHomeDistance": {
+        "message": "Jarak ke posisi rumah (baik dengan kaki atau meter berdasarkan pengaturan satuan sistem)"
+    },
+    "osdDescElementNumericalHeading": {
+        "message": "Pembacaan angka arah saat ini dalam derajat"
+    },
+    "osdDescElementNumericalVario": {
+        "message": "Pembacaan angka kecepatan vertikal (baik dalam kaki atau meter berdasarkan pengaturan satuan sistem)"
+    },
+    "osdDescElementCompassBar": {
+        "message": "Kompas grafis yang menunjukkan arah depan model saat ini"
+    },
+    "osdDescElementFlipArrow": {
+        "message": "Panah yang menandakan posisi motor yang berada di atas pada mode turtle"
+    },
+    "osdDescElementTimer1": {
+        "message": "Menunjukkan nilai timer 1"
+    },
+    "osdDescElementTimer2": {
+        "message": "Menunjukkan nilai timer 2"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Perkiraan waktu penerbangan yang tersisa"
+    },
+    "osdDescElementUnknown": {
+        "message": "Unsur tak dikenal (rincian akan di tambahkan dalam rilis yang akan datang)"
+    },
+    "osdDescElementCoreTemperature": {
+        "message": "Suhu inti MCU STM32"
+    },
+    "osdDescAntiGravity": {
+        "message": "Menampilkan indikator ketika mode anti gravity sedang aktif"
+    },
+    "osdDescGForce": {
+        "message": "Menampilkan nilai G-Force yang dialami unit"
+    },
+    "osdDescElementLogStatus": {
+        "message": "Nomor blackbox dan peringatan"
+    },
+    "osdDescStatMaxSpeed": {
+        "message": "Kecepatan maksimal terekam"
+    },
+    "osdDescStatMinBattery": {
+        "message": "Voltase minimal baterai terekam"
+    },
+    "osdDescStatMinRssi": {
+        "message": "Minimal RSSI terekam"
+    },
+    "osdDescStatMaxCurrent": {
+        "message": "Pemakaian arus maksimal terekam"
+    },
+    "osdDescStatUsedMah": {
+        "message": "Kapasitas baterai terpakai"
+    },
+    "osdDescStatMaxAltitude": {
+        "message": "Ketinggian maksimum yg terekam"
+    },
+    "osdDescStatBlackbox": {
+        "message": "Persentase penggunaan blackbox total"
+    },
+    "osdDescStatEndBattery": {
+        "message": "Voltase baterai pada saat disarm"
+    },
+    "osdDescStatFlyTime": {
+        "message": "Total waktu model telah di arm pada siklus tenaga saat ini"
+    },
+    "osdDescStatArmedTime": {
+        "message": "Waktu sejak model di arm"
+    },
+    "osdDescStatMaxDistance": {
+        "message": "Jarak maksimal dari lokasi rumah"
+    },
+    "osdDescStatBlackboxLogNumber": {
+        "message": "Nomor log untuk penerbangan ini Blackbox log"
+    },
+    "osdDescStatTimer1": {
+        "message": "Nilai timer 1 pada saat melucuti senjata"
+    },
+    "osdDescStatTimer2": {
+        "message": "Nilai timer 2 pada saat melucuti senjata"
+    },
+    "osdDescStatRtcDateTime": {
+        "message": "Tanggal dan waktu dari RTC"
+    },
+    "osdDescStatBattery": {
+        "message": "Voltase baterai real time"
+    },
+    "osdDescStatGForce": {
+        "message": "Max G-force yang dialami oleh unit"
+    },
+    "osdDescStatEscTemperature": {
+        "message": "Suhu Max ESC"
+    },
+    "osdDescStatEscRpm": {
+        "message": "RPM Max ESC"
+    },
+    "osdTimerSource": {
+        "message": "Sumber:"
+    },
+    "osdTimerSourceTooltip": {
+        "message": "Pilih sumber pengukur waktu, ini mengontrol durasi\/peristiwa yang diukur pengukur waktu"
+    },
+    "osdTimerPrecision": {
+        "message": "Presisi:"
+    },
+    "osdTimerPrecisionTooltip": {
+        "message": "Pilih presisi timer, ini mengontrol ketepatan waktu yang dilaporkan"
+    },
+    "osdTimerAlarm": {
+        "message": "Alarm:"
+    },
+    "osdTimerAlarmTooltip": {
+        "message": "Pilih ambang timer alarm dalam beberapa menit, bila melebihi nilai ini, elemen OSD akan berkedip, mengaturnya menjadi 0 untuk menonaktifkan alarm"
+    },
+    "osdWarningArmingDisabled": {
+        "message": "Laporkan alasan paling penting yg menyebabkan gagal arming"
+    },
+    "osdWarningBatteryNotFull": {
+        "message": "Peringatan saat baterai yg tersambung tidak terisi penuh"
+    },
+    "osdWarningBatteryWarning": {
+        "message": "Peringatan saat voltase baterai turun di bawah ambang batas"
+    },
+    "osdWarningBatteryCritical": {
+        "message": "Peringatan saat voltase baterai turun di bawah rata-rata voltase sel minimum"
+    },
+    "osdWarningVisualBeeper": {
+        "message": "Menampilkan visualisasi pager (menunjukkan 4 tanda bintang)"
+    },
+    "osdWarningCrashFlipMode": {
+        "message": "Memperingatkan saat terbalik setelah mode crash diaktifkan"
+    },
+    "osdWarningEscFail": {
+        "message": "Menamplikan daftar ESCs\/motors yang bermasalah (RPM atau temperatur diluar batas yg telah ditentukan)"
+    },
+    "osdSectionHelpElements": {
+        "message": "Mengaktifkan atau menonaktifkan elemen OSD."
+    },
+    "osdSectionHelpVideoMode": {
+        "message": "Tetapkan mode video yang diharapkan dari kamera (biasanya ini dapat dibiarkan di AUTO, jika anda mengalami kesulitan maka tetapkan ini agar sesuai dengan output kamera)."
+    },
+    "osdSectionHelpUnits": {
+        "message": "Mengatur unit sistem yang digunakan untuk pembacaan angka."
+    },
+    "osdSectionHelpTimers": {
+        "message": "Konfigurasikan timer penerbangan."
+    },
+    "osdSectionHelpAlarms": {
+        "message": "Menetapkan ambang yang digunakan untuk elemen OSD dengan status alarm."
+    },
+    "osdSectionHelpStats": {
+        "message": "Menetapkan nilai yang ditampilkan pada layar statistik pasca penerbangan."
+    },
+    "osdSectionHelpWarnings": {
+        "message": "Mengaktifkan atau menonaktifkan peringatan yang ditunjukkan pada elemen PERINGATAN."
+    },
+    "osdSettingsSaved": {
+        "message": "Pengaturan OSD tersimpan"
+    },
+    "osdWritePermissions": {
+        "message": "Anda tidak memiliki <span class =\"message-negative\">izin tulis<\/span> untuk berkas ini"
+    },
+    "osdButtonSaved": {
+        "message": "Disimpan"
+    },
+    "mainHelpArmed": {
+        "message": "Arming motor"
+    },
+    "mainHelpFailsafe": {
+        "message": "Mode Failsafe"
+    },
+    "mainHelpLink": {
+        "message": "Status Link Serial"
+    },
+    "configurationEscProtocol": {
+        "message": "Protokol ESC\/Motor"
+    },
+    "configurationEscProtocolHelp": {
+        "message": "Pilih protokol motor anda. <br>Pastikan untuk memverifikasi protokol yang didukung oleh ESC anda, informasi ini harus ada di situs web pembuatnya. <br> <b>Hati-hati menggunakan DSHOT900 dan DSHOT1200 karena tidak banyak ESC yg mendukung!<\/b>"
+    },
+    "configurationunsyndePwm": {
+        "message": "Kecepatan PWM motor Terpisah dari kecepatan PID"
+    },
     "configurationUnsyncedPWMFreq": {
         "message": "Frekuensi PWM motor"
+    },
+    "configurationGyroSyncDenom": {
+        "message": "Frekuensi update Gyro"
+    },
+    "configurationPidProcessDenom": {
+        "message": "Frekuensi loop PID"
+    },
+    "configurationPidProcessDenomHelp": {
+        "message": "Frekuensi maksimum pada loop PID terbatas oleh frekuensi maksimum yg dapat dikirim oleh protokol ESC atau motor."
+    },
+    "configurationGyroUse32kHz": {
+        "message": "Aktifkan mode sampling 32kHz gyro"
+    },
+    "configurationGyroUse32kHzHelp": {
+        "message": "Frekuensi update gyro 32 kHz hanya dimungkinkan jika chip gyro mendukungnya (saat ini MPU6500, MPU9250, dan ICM20xxx jika terhubung melalui SPI). Jika ragu, konsultasikan dengan spesifikasi untuk FC anda."
+    },
+    "configurationAccHardware": {
+        "message": "Accelerometer"
+    },
+    "configurationBaroHardware": {
+        "message": "Barometer (jika didukung)"
+    },
+    "configurationMagHardware": {
+        "message": "Magnetometer (jika didukung)"
+    },
+    "configurationSmallAngle": {
+        "message": "Kemiringan Maksimum saat ARMING [degrees]"
+    },
+    "configurationSmallAngleHelp": {
+        "message": "Model tidak dapat arming jika dimiringkan lebih dari jumlah derajat yang ditentukan. Hanya berlaku jika accelerometer diaktifkan. mengatur ke 180 akan secara efektif menonaktifkan fungsi ini"
+    },
+    "configurationBatteryVoltage": {
+        "message": "Voltase Baterai"
+    },
+    "configurationBatteryCurrent": {
+        "message": "Arus pada Baterai"
+    },
+    "configurationBatteryMeterType": {
+        "message": "Tipe Pengukur Baterai"
+    },
+    "configurationBatteryMinimum": {
+        "message": "Voltase Sel Minimum"
+    },
+    "configurationBatteryMaximum": {
+        "message": "Voltase Sel Maksimum"
+    },
+    "configurationBatteryWarning": {
+        "message": "Peringatan Voltase Sel"
+    },
+    "configurationBatteryScale": {
+        "message": "Skala Voltase"
+    },
+    "configurationCurrentMeterType": {
+        "message": "Tipe Pengukur Arus"
+    },
+    "configurationCurrent": {
+        "message": "Sensor Arus"
+    },
+    "configurationCurrentScale": {
+        "message": "Sesuaikan output arus menjadi milliampere [1 \/ 10th mV \/ A]"
+    },
+    "configurationCurrentOffset": {
+        "message": "Offset dalam langkah millivolt"
+    },
+    "configurationBatteryMultiwiiCurrent": {
+        "message": "Aktifkan dukungan untuk output arus Multiwii MSP"
+    },
+    "pidTuningProfile": {
+        "message": "Profil"
+    },
+    "pidTuningProfileTip": {
+        "message": "Sampai 3 (2 untuk beberapa pengendali) profil pid yang berbeda dapat disimpan di flight controller. Profil pid meliputi pengaturan pid, setpoint d dan pengaturan mode angle\/horizon pada tab ini. Ketika di lapangan, input stik (lihat petunjuk online) bisa di gunakan untuk berpindah antar profil."
+    },
+    "pidTuningRateProfile": {
+        "message": "ProfilRate"
+    },
+    "pidTuningRateProfileTip": {
+        "message": "Sampai dengan 3 ProfilRate yang berbeda dapat disimpan flight controller. ProfilRate termasuk pengaturan untuk 'Rate RC', 'Rate', 'Expo RC', 'Throttle', dan 'TPA'. Beralih antara profilrate dimungkinkan dalam penerbangan, dengan memasang switch 3 posisi untuk 'Pemilihan Profil Rate' pada tab 'Penyesuaian'."
+    },
+    "pidTuningDelta": {
+        "message": "Metode Derivatif"
+    },
+    "pidTuningDeltaError": {
+        "message": "Kesalahan"
+    },
+    "pidTuningDeltaMeasurement": {
+        "message": "Pengukuran"
+    },
+    "pidTuningDeltaTip": {
+        "message": "<b>Derivatif dari Kesalahan<\/b> memberikan respons stik langsung dan lebih sering digunakan untuk Racing.<br><br><b>Derivatif dari Pengukuran<\/b> memberikan respon stik yang lebih halus dan lebih berguna terbang freestyle"
+    },
+    "pidTuningPidControllerTip": {
+        "message": "<b>Legacy vs Betaflight (float):<\/b> PID scaling dan logika PID sama persis. Belum tentu butuh retune. Legacy adalah versi lama betaflight yg telah ditulis ulang, yg merupakan kontroler PID sederhana menggunakan perhitungan dalam bilangan bulat. Kontroler PID Betaflight menggunakan perhitungan desimal yg lebih presisi dan memiliki banyak fitur baru yg dirancang khusus untuk aplikasi multirotor <br><b>Koma vs Tanpa Koma:<\/b> scaling PID dan logika PID sama persis. Tidak butuh retune. FC F1 tidak memiliki FPU onboard dan perhitungan dengan tingkat presisi dalam koma meningkatkan beban CPU, bilangan tanpa koma akan memperbaiki kinerjanya, tapi perhitungan dalam koma mungkin akan sedikit lebih presisi."
+    },
+    "pidTuningFilterTip": {
+        "message": "<b>Gyro Soft Filter:<\/b> Filter lowpass untuk gyro. Gunakan nilai yang lebih rendah untuk penyaringan yang lebih banyak.<br><b>Filter Istilah D:<\/b> Filter lowpass untuk Dterm. Dapat mempengaruhi D tuning. Gunakan nilai yang lebih rendah untuk penyaringan yang lebih banyak.<br><b>Filter Yaw:<\/b> Filter menguap output. Ini bisa membantu dalam setup dengan sumbu yaw yang berisik."
+    },
+    "pidTuningPidTuningTip": {
+        "message": "<b>Proporsional:<\/b> Anda akan merasakan resistensi yang kuat saat mencoba memindahkan MutiRotor<br><b> Integral:<\/b> Meningkatkan kemampuan untuk mempertahankan posisi awal dan mengurangi drift, tetapi juga akan menambah waktu yang diperlukan untuk kembali ke posisi awal.<br><b>Derivatif:<\/b> Menambah kecepatan kembali ke posisi awal, tetapi meningkatkan noise<br><b>Rate dan Expo<\/b>: Tentukan respon stick anda berdasarkan parameter-parameter ini. Gunakan grafik dan model 3D yang berfungsi untuk menemukan pengaturan favorit anda"
+    },
+    "pidTuningPidTuningTipFeedforward": {
+        "message": "<b>Proporsional:<\/b> Anda akan merasakan resistensi yang kuat saat mencoba memindahkan MutiRotor<br><b>Integral:<\/b> Meningkatkan kemampuan untuk mempertahankan posisi awal dan mengurangi drift, tetapi juga akan menambah waktu yang diperlukan untuk kembali ke posisi awal.<br><b>Derivatif:<\/b> Menambah kecepatan kembali ke posisi awal, tetapi meningkatkan noise<br><b>Feedforward:<\/b> Umumnya pengaturan PID bereaksi terhadap error. Feedforward mengoreksi error berdasarkan masukan dari stick, menghasilkan quad yang responsif.<br><b>Rate dan Expo<\/b>: Tentukan respon stick anda berdasarkan parameter-parameter ini. Gunakan grafik dan model 3D yang berfungsi untuk menemukan pengaturan favorit anda"
+    },
+    "pidTuningRatesTip": {
+        "message": "Bermain dengan rate dan lihat pengaruhnya pada kurva stik"
+    },
+    "configurationCamera": {
+        "message": "Kamera"
+    },
+    "configurationPersonalization": {
+        "message": "Personalisasi"
+    },
+    "craftName": {
+        "message": "Nama Model"
+    },
+    "configurationFpvCamAngleDegrees": {
+        "message": "Sudut Kamera FPV [degrees]"
+    },
+    "onboardLoggingBlackbox": {
+        "message": "Perangkat logging Blackbox"
+    },
+    "onboardLoggingRateOfLogging": {
+        "message": "Rate logging blackbox"
+    },
+    "onboardLoggingSerialLogger": {
+        "message": "Perangkat logging serial lainnya"
+    },
+    "onboardLoggingFlashLogger": {
+        "message": "Chip dataflash onboard"
+    },
+    "onboardLoggingEraseInProgress": {
+        "message": "Sedang menghapus, harap menunggu..."
+    },
+    "onboardLoggingOnboardSDCard": {
+        "message": "Kartu SD onboard"
+    },
+    "onboardLoggingMsc": {
+        "message": "Mode Penyimpanan"
+    },
+    "onboardLoggingMscNote": {
+        "message": "Reboot ke mode <strong>penyimpanan(MSC)<\/strong>. Setelah diaktifkan, flash atau kartu MicroSD pada flight controller Anda akan dibaca sebagai perangkat penyimpanan oleh komputer Anda, dan memungkinkan Anda untuk mengunduh file log. Cabut, matikan, dan kembali nyalakan flight controller Anda untuk keluar dari mode penyimpanan."
+    },
+    "onboardLoggingRebootMscText": {
+        "message": "Aktifkan Mode Perangkat Penyimpanan"
+    },
+    "onboardLoggingMscNotReady": {
+        "message": "Modus penyimpanan tidak dapat diaktifkan karena perangkat penyimpanan tidak siap."
+    },
+    "dialogConfirmResetTitle": {
+        "message": "Konfirmasi"
+    },
+    "dialogConfirmResetNote": {
+        "message": "PERINGATAN: Apakah anda yakin ingin mengatur ulang semua pengaturan ke bawaan?"
+    },
+    "dialogConfirmResetConfirm": {
+        "message": "Atur ulang"
+    },
+    "dialogConfirmResetClose": {
+        "message": "Batal"
+    },
+    "modeCameraWifi": {
+        "message": "TOMBOL KAMERA WI-FI"
+    },
+    "modeCameraPower": {
+        "message": "TOMBOL DAYA KAMERA"
+    },
+    "modeCameraChangeMode": {
+        "message": "MENGGANTI MODE KAMERA"
+    },
+    "flashTab": {
+        "message": "Perbarui firmware"
     }
 }
