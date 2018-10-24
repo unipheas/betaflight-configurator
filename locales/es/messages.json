@@ -60,7 +60,7 @@
         "message": "Recordar última pestaña al conectar"
     },
     "analyticsOptOut": {
-        "message": "No incluir en la recogida anónima de datos estadísticos"
+        "message": "No participar en la recogida anónima de datos estadísticos"
     },
     "userLanguageSelect": {
         "message": "Idioma (hay que reiniciar la aplicación para que el cambio sea efectivo)"
