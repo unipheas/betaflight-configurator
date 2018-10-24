@@ -4,5 +4,8 @@
     },
     "configurationUnsyncedPWMFreq": {
         "message": "Frekuensi PWM motor"
+    },
+    "pidTuningPidControllerTip": {
+        "message": "<b>Legacy vs Betaflight (float):<\/b> PID scaling dan logika PID sama persis. Belum tentu butuh retune. Legacy adalah versi lama betaflight yg telah ditulis ulang, yg merupakan kontroler PID sederhana menggunakan perhitungan dalam bilangan bulat. Kontroler PID Betaflight menggunakan perhitungan desimal yg lebih presisi dan memiliki banyak fitur baru yg dirancang khusus untuk aplikasi multirotor <br><b>Koma vs Tanpa Koma:<\/b> scaling PID dan logika PID sama persis. Tidak butuh retune. FC F1 tidak memiliki FPU onboard dan perhitungan dengan tingkat presisi dalam koma meningkatkan beban CPU, bilangan tanpa koma akan memperbaiki kinerjanya, tapi perhitungan dalam koma mungkin akan sedikit lebih presisi."
     }
 }
