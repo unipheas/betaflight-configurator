@@ -140,5 +140,17 @@
     },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Batas Sudut Acro Trainer"
+    },
+    "configHelp2": {
+        "message": "Rotasi FC dalam derajat, untuk memungkinkan pemasangannya miring \/ terbalik \/ diputar dll. Saat menjalankan sensor eksternal, atur kelurusan sensor (Gyro, Acc, Mag) untuk menentukan posisi sensor tanpa pengaruh orientasi FC. "
+    },
+    "failsafeFeaturesHelpOld": {
+        "message": "Konfigurasi Failsafe sudah jauh berbeda. Gunakan Betaflight <strong>v1.12.0+<\/strong> untuk mengaktifkan panel konfigurasi yang lebih bagus."
+    },
+    "failsafePaneTitleOld": {
+        "message": "Failsafe Receiver"
+    },
+    "failsafeFeaturesHelpNew": {
+        "message": "Failsafe memiliki dua tahap. <strong>Tahap 1<\/strong> aktif saat salah satu channel memberikan nilai pwm yg tidak benar, receiver melaporkan mode failsafe atau tidak ada sinyal dari receiver sama sekali, pengaturan failsafe diterapkan pada <span class=\"message-negative\">semua channel<\/span> dan pemulihan hanya mungkin dalam rentang waktu yg singkat. <strong>Tahap 2<\/strong> aktif saat kondisi kesalahan memakan waktu lebih lama dari waktu pengaman yang dikonfigurasi saat unit <span class =\"message-negative\">armed<\/span>, semua channel akan tetap berada pengaturan failsafa channel yg diterapkan, kecuali jika diambil alih oleh prosedur lain yg dipilih. <br \/><strong>Catatan:<\/strong> Sebelum memasuki tahap 1, Pengaturan failsafe channel juga diterapkan ke setiap channel AUX yang memiliki nilai pwm yg tidak benar."
     }
 }
