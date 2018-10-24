@@ -134,5 +134,11 @@
     },
     "pidTuningNonProfileFilterSettings": {
         "message": "Pengaturan filter diluar profil"
+    },
+    "pidTuningVbatPidCompensation": {
+        "message": "Kompensasi PID Vbat"
+    },
+    "pidTuningAcroTrainerAngleLimit": {
+        "message": "Batas Sudut Acro Trainer"
     }
 }
