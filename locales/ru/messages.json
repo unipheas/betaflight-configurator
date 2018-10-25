@@ -3375,6 +3375,9 @@
     "osdDescElementEscRpm": {
         "message": "Скорость оборотов, полученная из телеметрии от ESC"
     },
+    "osdDescElementRtcDateTime": {
+        "message": "Отображать текущую дату и время"
+    },
     "osdDescElementAdjustmentRange": {
         "message": "В настоящее время активные регулировки диапазона параметров и значения"
     },
