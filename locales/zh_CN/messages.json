@@ -1531,9 +1531,6 @@
     "auxiliaryHelp": {
         "message": "使用黄色区域来定义你想要的开关通道和对应的飞行模式。所选通道的游标落在黄色区域时该模式会激活变成黄色（亮起），代表该通道开关已激活该模式。 完成后点击保存按钮以保存设置。"
     },
-    "auxiliaryToggleUnused": {
-        "message": "显示\/隐藏未使用的模式"
-    },
     "auxiliaryMin": {
         "message": "最小"
     },
