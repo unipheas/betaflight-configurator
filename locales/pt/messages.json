@@ -1531,9 +1531,6 @@
     "auxiliaryHelp": {
         "message": "Use as faixas para definir quais 'switches' no seu transmissor correspondem aos modos designados. Um canal no receptor que fornece uma leitura entre o máximo\/mínimo da faixa ativará o modo. Lembre-se de salvar suas configurações."
     },
-    "auxiliaryToggleUnused": {
-        "message": "Mostrar\/esconder modos não utilizados"
-    },
     "auxiliaryMin": {
         "message": "Min"
     },
