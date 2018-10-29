@@ -3228,6 +3228,9 @@
     "osdSetupCustomLogoInfoColorMap": {
         "message": "Deve conter pixels verdes, preto e branco"
     },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "Pressione <b>$t(osdSetupUploadFont.message)<\/b> para manter o logo personalizado"
+    },
     "osdSetupCustomLogoImageSizeError": {
         "message": "Tamanho da imagem inválido: {{width}}×{{height}} (deveria ser $t(logoWidthPx)×$t(logoHeightPx))"
     },
