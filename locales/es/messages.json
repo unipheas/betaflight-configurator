@@ -1531,9 +1531,6 @@
     "auxiliaryHelp": {
         "message": "Usa rangos para definir los interruptores en tu transmisor y las asignaciones de modo correspondientes. Un canal receptor que de una lectura entre un rango mín\/máx activará el modo. Recuerda guardar tus cambios usando el botón Guardar."
     },
-    "auxiliaryToggleUnused": {
-        "message": "Mostrar\/ocultar modos no usados"
-    },
     "auxiliaryMin": {
         "message": "Mín"
     },
