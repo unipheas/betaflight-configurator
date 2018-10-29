@@ -1162,9 +1162,6 @@
     "receiverMspEnableButton": {
         "message": "Povolit ovládání"
     },
-    "auxiliaryToggleUnused": {
-        "message": "Zobrazit\/skrýt nepoužívané módy"
-    },
     "auxiliaryMin": {
         "message": "Min"
     },
