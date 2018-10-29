@@ -1528,9 +1528,6 @@
     "auxiliaryHelp": {
         "message": "Utilisez les plages pour définir les commutateurs de votre émetteur et les affectations de mode correspondantes. Un canal récepteur qui donne une lecture entre une plage min \/ max activera le mode. N'oubliez pas d'enregistrer vos paramètres à l'aide du bouton Enregistrer."
     },
-    "auxiliaryToggleUnused": {
-        "message": "Afficher\/masquer les modes non utilisés"
-    },
     "auxiliaryMin": {
         "message": "Minimum"
     },
