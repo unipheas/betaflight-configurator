@@ -1534,6 +1534,9 @@
     "auxiliaryHelp": {
         "message": "Gunakan rentang untuk menentukan fungsi switch pada transmitter anda dan peruntukan mode yg sesuai. Channel receiver yg memberikan nilai antara min\/max akan mengaktifkan mode terbang. Simpan pengaturan anda menggunakan tombol Simpan."
     },
+    "auxiliaryToggleUnused": {
+        "message": "Sembunyikan mode yg tidak terpakai"
+    },
     "auxiliaryMin": {
         "message": "Min"
     },
