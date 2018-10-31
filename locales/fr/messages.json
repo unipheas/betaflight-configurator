@@ -341,7 +341,7 @@
         "message": "Le microprogramme de ce dispositif a besoin d'être mis à jour. Utilisez le CLI pour sauvegarder avant de flasher. Les procédures de sauvegarde\/restauration par le CLI sont décrites dans l'aide.<br \/> Téléchargez et utilisez une ancienne version du configurateur si vous n'êtes pas prêt à le mettre à jour."
     },
     "infoVersions": {
-        "message": "Running - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
+        "message": "Version - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurateur: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
     "buildServerLoaded": {
@@ -1528,6 +1528,9 @@
     "auxiliaryHelp": {
         "message": "Utilisez les plages pour définir les commutateurs de votre émetteur et les affectations de mode correspondantes. Un canal récepteur qui donne une lecture entre une plage min \/ max activera le mode. N'oubliez pas d'enregistrer vos paramètres à l'aide du bouton Enregistrer."
     },
+    "auxiliaryToggleUnused": {
+        "message": "Masquer les modes non utilisés"
+    },
     "auxiliaryMin": {
         "message": "Minimum"
     },
@@ -2004,6 +2007,9 @@
     },
     "cliSaveToFileBtn": {
         "message": "Enregistrer sous"
+    },
+    "cliClearOutputHistoryBtn": {
+        "message": "Effacer l'historique"
     },
     "loggingNote": {
         "message": "Les données sont enregistrées dans cet onglet <span class=\"message-negative\">uniquement<\/span>, quitter l'onglet  <span class=\"message-negative\">arrête<\/span> l'enregistrement et l'application retourne en <strong>\"configurateur\"<\/strong>.<br \/> Peu importe la période de rafraîchissement, les données sont écrites <strong>chaque<\/strong> seconde afin de préserver les performances."
@@ -2826,6 +2832,9 @@
     "pidTuningThrottleBoost": {
         "message": "Throttle Boost"
     },
+    "pidTuningThrottleBoostHelp": {
+        "message": "Cette fonctionnalité booste temporairement les gaz sur les mouvement rapides de sticks, accélére la montée de couple, réduit le temps de réponse des gaz."
+    },
     "pidTuningAcroTrainerAngleLimit": {
         "message": "Limite d'angle Acro Trainer"
     },
@@ -3384,6 +3393,9 @@
     "osdDescElementCompassBar": {
         "message": "Boussole graphique indiquant le cap actuel"
     },
+    "osdDescElementFlipArrow": {
+        "message": "En mode tortue, flèche indiquant quels moteurs seront activés"
+    },
     "osdDescElementTimer1": {
         "message": "Affiche la valeur du timer 1"
     },
@@ -3458,6 +3470,12 @@
     },
     "osdDescStatGForce": {
         "message": "G-Force Max ressentie par le multicopter"
+    },
+    "osdDescStatEscTemperature": {
+        "message": "Température max des ESC"
+    },
+    "osdDescStatEscRpm": {
+        "message": "Trs\/min Max des ESC"
     },
     "osdTimerSource": {
         "message": "Source:"
@@ -3716,5 +3734,8 @@
     },
     "modeCameraChangeMode": {
         "message": "Changement du mode de la caméra"
+    },
+    "flashTab": {
+        "message": "Mise à jour du firmware"
     }
 }
