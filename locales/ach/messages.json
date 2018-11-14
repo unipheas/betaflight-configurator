@@ -2965,6 +2965,45 @@
     "failsafeProcedureItemSelect2": {
         "message": "crwdns6127:0crwdne6127:0"
     },
+    "failsafeProcedureItemSelect4": {
+        "message": "crwdns8872:0crwdne8872:0"
+    },
+    "failsafeGpsRescueItemAngle": {
+        "message": "crwdns8874:0crwdne8874:0"
+    },
+    "failsafeGpsRescueItemInitialAltitude": {
+        "message": "crwdns8876:0crwdne8876:0"
+    },
+    "failsafeGpsRescueItemDescentDistance": {
+        "message": "crwdns8878:0crwdne8878:0"
+    },
+    "failsafeGpsRescueItemGroundSpeed": {
+        "message": "crwdns8880:0crwdne8880:0"
+    },
+    "failsafeGpsRescueItemThrottleMin": {
+        "message": "crwdns8882:0crwdne8882:0"
+    },
+    "failsafeGpsRescueItemThrottleMax": {
+        "message": "crwdns8884:0crwdne8884:0"
+    },
+    "failsafeGpsRescueItemThrottleHover": {
+        "message": "crwdns8886:0crwdne8886:0"
+    },
+    "failsafeGpsRescueItemMinSats": {
+        "message": "crwdns8888:0crwdne8888:0"
+    },
+    "failsafeGpsRescueItemSanityChecks": {
+        "message": "crwdns8890:0crwdne8890:0"
+    },
+    "failsafeGpsRescueItemSanityChecksOff": {
+        "message": "crwdns8892:0crwdne8892:0"
+    },
+    "failsafeGpsRescueItemSanityChecksOn": {
+        "message": "crwdns8894:0crwdne8894:0"
+    },
+    "failsafeGpsRescueItemSanityChecksFSOnly": {
+        "message": "crwdns8896:0crwdne8896:0"
+    },
     "failsafeKillSwitchItem": {
         "message": "crwdns6128:0crwdne6128:0"
     },
