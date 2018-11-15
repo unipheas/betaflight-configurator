@@ -2916,6 +2916,45 @@
     "failsafeProcedureItemSelect2": {
         "message": "Jatuhkan"
     },
+    "failsafeProcedureItemSelect4": {
+        "message": "Rescue GPS"
+    },
+    "failsafeGpsRescueItemAngle": {
+        "message": "Angle"
+    },
+    "failsafeGpsRescueItemInitialAltitude": {
+        "message": "Ketinggian awal (meter)"
+    },
+    "failsafeGpsRescueItemDescentDistance": {
+        "message": "Jarak turun (meter)"
+    },
+    "failsafeGpsRescueItemGroundSpeed": {
+        "message": "Kecepatan darat (meter\/detik)"
+    },
+    "failsafeGpsRescueItemThrottleMin": {
+        "message": "Throttle minimum"
+    },
+    "failsafeGpsRescueItemThrottleMax": {
+        "message": "Throttle maksimum"
+    },
+    "failsafeGpsRescueItemThrottleHover": {
+        "message": "Throttle hover"
+    },
+    "failsafeGpsRescueItemMinSats": {
+        "message": "Satelit minimum"
+    },
+    "failsafeGpsRescueItemSanityChecks": {
+        "message": "Cek kewajaran"
+    },
+    "failsafeGpsRescueItemSanityChecksOff": {
+        "message": "Mati"
+    },
+    "failsafeGpsRescueItemSanityChecksOn": {
+        "message": "Aktif"
+    },
+    "failsafeGpsRescueItemSanityChecksFSOnly": {
+        "message": "Hanya Failsafe"
+    },
     "failsafeKillSwitchItem": {
         "message": "Failsafe Kill Switch (setup Failsafe di Tab Modes)"
     },
