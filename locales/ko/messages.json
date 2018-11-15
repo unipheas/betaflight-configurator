@@ -2913,6 +2913,45 @@
     "failsafeProcedureItemSelect2": {
         "message": "추락"
     },
+    "failsafeProcedureItemSelect4": {
+        "message": "GPS 구조"
+    },
+    "failsafeGpsRescueItemAngle": {
+        "message": "각도"
+    },
+    "failsafeGpsRescueItemInitialAltitude": {
+        "message": "초기 고도 (미터)"
+    },
+    "failsafeGpsRescueItemDescentDistance": {
+        "message": "하강 거리 (미터)"
+    },
+    "failsafeGpsRescueItemGroundSpeed": {
+        "message": "지면 속도 (미터\/초)"
+    },
+    "failsafeGpsRescueItemThrottleMin": {
+        "message": "스로틀 최소값"
+    },
+    "failsafeGpsRescueItemThrottleMax": {
+        "message": "스로틀 최대값"
+    },
+    "failsafeGpsRescueItemThrottleHover": {
+        "message": "스로틀 호버"
+    },
+    "failsafeGpsRescueItemMinSats": {
+        "message": "최소위성수"
+    },
+    "failsafeGpsRescueItemSanityChecks": {
+        "message": "온전성 검사"
+    },
+    "failsafeGpsRescueItemSanityChecksOff": {
+        "message": "끄기"
+    },
+    "failsafeGpsRescueItemSanityChecksOn": {
+        "message": "켜기"
+    },
+    "failsafeGpsRescueItemSanityChecksFSOnly": {
+        "message": "페일세이프만"
+    },
     "failsafeKillSwitchItem": {
         "message": "페일세이프 킬 스위치 (모드 탭에서 페일세이프 설정)"
     },
