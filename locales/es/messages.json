@@ -2913,8 +2913,44 @@
     "failsafeProcedureItemSelect2": {
         "message": "Dejar caer"
     },
+    "failsafeProcedureItemSelect4": {
+        "message": "Rescate GPS"
+    },
+    "failsafeGpsRescueItemAngle": {
+        "message": "Ángulo"
+    },
+    "failsafeGpsRescueItemInitialAltitude": {
+        "message": "Altitud inicial (metros)"
+    },
+    "failsafeGpsRescueItemDescentDistance": {
+        "message": "Distancia de descenso (metros)"
+    },
+    "failsafeGpsRescueItemGroundSpeed": {
+        "message": "Velocidad (metros\/segundo)"
+    },
+    "failsafeGpsRescueItemThrottleMin": {
+        "message": "Acelerador mínimo"
+    },
+    "failsafeGpsRescueItemThrottleMax": {
+        "message": "Acelerador máximo"
+    },
+    "failsafeGpsRescueItemThrottleHover": {
+        "message": "Acelerador flotar"
+    },
+    "failsafeGpsRescueItemMinSats": {
+        "message": "Satélites mínimos"
+    },
     "failsafeGpsRescueItemSanityChecks": {
         "message": "Controles de corrección"
+    },
+    "failsafeGpsRescueItemSanityChecksOff": {
+        "message": "Apagados"
+    },
+    "failsafeGpsRescueItemSanityChecksOn": {
+        "message": "Activados"
+    },
+    "failsafeGpsRescueItemSanityChecksFSOnly": {
+        "message": "Sólo en modo de seguridad"
     },
     "failsafeKillSwitchItem": {
         "message": "Interruptor para Modo de Seguridad (FAILSAFE en apartado Modos)"
