@@ -1448,7 +1448,7 @@
         "message": "スロットルMID"
     },
     "receiverThrottleExpo": {
-        "message": "スロットルExpo"
+        "message": "スロットルEXPO"
     },
     "receiverStickMin": {
         "message": "スティック 低"
@@ -2912,6 +2912,45 @@
     },
     "failsafeProcedureItemSelect2": {
         "message": "落下"
+    },
+    "failsafeProcedureItemSelect4": {
+        "message": "GPS レスキュー"
+    },
+    "failsafeGpsRescueItemAngle": {
+        "message": "アングル"
+    },
+    "failsafeGpsRescueItemInitialAltitude": {
+        "message": "初期高度 (メートル)"
+    },
+    "failsafeGpsRescueItemDescentDistance": {
+        "message": "降下距離 (メートル)"
+    },
+    "failsafeGpsRescueItemGroundSpeed": {
+        "message": "地上速度 (メートル\/秒)"
+    },
+    "failsafeGpsRescueItemThrottleMin": {
+        "message": "スロットル最小値"
+    },
+    "failsafeGpsRescueItemThrottleMax": {
+        "message": "スロットル最大値"
+    },
+    "failsafeGpsRescueItemThrottleHover": {
+        "message": "スロットルホバー"
+    },
+    "failsafeGpsRescueItemMinSats": {
+        "message": "受信衛星 最小値"
+    },
+    "failsafeGpsRescueItemSanityChecks": {
+        "message": "正常チェック"
+    },
+    "failsafeGpsRescueItemSanityChecksOff": {
+        "message": "OFF"
+    },
+    "failsafeGpsRescueItemSanityChecksOn": {
+        "message": "ON"
+    },
+    "failsafeGpsRescueItemSanityChecksFSOnly": {
+        "message": "フェイルセーフのみ"
     },
     "failsafeKillSwitchItem": {
         "message": "フェイルセーフ 強制停止スイッチ ([モード] タブでフェイルセーフを設定)"
