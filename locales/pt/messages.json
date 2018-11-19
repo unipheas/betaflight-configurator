@@ -2913,6 +2913,45 @@
     "failsafeProcedureItemSelect2": {
         "message": "Cair"
     },
+    "failsafeProcedureItemSelect4": {
+        "message": "Resgate com GPS"
+    },
+    "failsafeGpsRescueItemAngle": {
+        "message": "Ângulo"
+    },
+    "failsafeGpsRescueItemInitialAltitude": {
+        "message": "Altitude inicial (metros)"
+    },
+    "failsafeGpsRescueItemDescentDistance": {
+        "message": "Distância a descer (metros)"
+    },
+    "failsafeGpsRescueItemGroundSpeed": {
+        "message": "Velocidade no solo (metros\/segundo)"
+    },
+    "failsafeGpsRescueItemThrottleMin": {
+        "message": "Acelerador mínimo"
+    },
+    "failsafeGpsRescueItemThrottleMax": {
+        "message": "Acelerador máximo"
+    },
+    "failsafeGpsRescueItemThrottleHover": {
+        "message": "Acelerador para flutuar"
+    },
+    "failsafeGpsRescueItemMinSats": {
+        "message": "Quantidade mínima satélites"
+    },
+    "failsafeGpsRescueItemSanityChecks": {
+        "message": "Verificações de sanidade"
+    },
+    "failsafeGpsRescueItemSanityChecksOff": {
+        "message": "Desligado"
+    },
+    "failsafeGpsRescueItemSanityChecksOn": {
+        "message": "Ligado"
+    },
+    "failsafeGpsRescueItemSanityChecksFSOnly": {
+        "message": "Somente segurança contra falhas"
+    },
     "failsafeKillSwitchItem": {
         "message": "\"Kill Switch\" do Failsafe (configure o Failsafe na aba Modos)"
     },
