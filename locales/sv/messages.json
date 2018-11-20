@@ -1198,7 +1198,7 @@
         "message": "Visa alla PIDs"
     },
     "pidTuningHideUnusedPids": {
-        "message": "Dölj PIDs som inte änvänds"
+        "message": "Dölj PIDs som inte används"
     },
     "pidTuningNonProfilePidSettings": {
         "message": "Profiloberoende PID-kontrollerinställningar"
