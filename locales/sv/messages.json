@@ -1535,6 +1535,9 @@
     "auxiliaryHelp": {
         "message": "Använd intervall för att definiera brytare på sändaren och motsvarande lägestilldelning. En mottagarkanal som ger en avläsning inom intervallet kommer att aktivera läget.  Kom ihåg att spara inställningarna med knappen Spara."
     },
+    "auxiliaryToggleUnused": {
+        "message": "Dölj oanvända lägen"
+    },
     "auxiliaryMin": {
         "message": "Min"
     },
@@ -2011,6 +2014,9 @@
     },
     "cliSaveToFileBtn": {
         "message": "Spara till fil"
+    },
+    "cliClearOutputHistoryBtn": {
+        "message": "Rensa utmatningshistoriken"
     },
     "loggingNote": {
         "message": "Data kommer <span class=\"message-negative\">endast<\/span> att loggas när denna flik är aktiv; om fliken lämnas kommer loggningen att <span class=\"message-negative\">avbrytas<\/span> och applikationen återgår till sitt normala <strong>\"konfigurations\"<\/strong> -läge.<br \/> Du kan fritt välja global uppdateringsperiod, data kommer att skrivas till loggen <strong>1<\/strong> gång per sekund av prestandaskäl."
@@ -2911,6 +2917,45 @@
     "failsafeProcedureItemSelect2": {
         "message": "Fall ner"
     },
+    "failsafeProcedureItemSelect4": {
+        "message": "GPS-räddning"
+    },
+    "failsafeGpsRescueItemAngle": {
+        "message": "Angle"
+    },
+    "failsafeGpsRescueItemInitialAltitude": {
+        "message": "Initial höjd (meter)"
+    },
+    "failsafeGpsRescueItemDescentDistance": {
+        "message": "Nedstigningsavstånd (meter)"
+    },
+    "failsafeGpsRescueItemGroundSpeed": {
+        "message": "Markhastighet (meter\/sekund)"
+    },
+    "failsafeGpsRescueItemThrottleMin": {
+        "message": "Trottelminimum"
+    },
+    "failsafeGpsRescueItemThrottleMax": {
+        "message": "Trottelmaximum"
+    },
+    "failsafeGpsRescueItemThrottleHover": {
+        "message": "Trottelhovring"
+    },
+    "failsafeGpsRescueItemMinSats": {
+        "message": "Minsta antal satelliter"
+    },
+    "failsafeGpsRescueItemSanityChecks": {
+        "message": "Rimlighetskontroller"
+    },
+    "failsafeGpsRescueItemSanityChecksOff": {
+        "message": "Av"
+    },
+    "failsafeGpsRescueItemSanityChecksOn": {
+        "message": "På"
+    },
+    "failsafeGpsRescueItemSanityChecksFSOnly": {
+        "message": "Endast failsafe"
+    },
     "failsafeKillSwitchItem": {
         "message": "Failsafe Stäng av-switch (konfigurera Failsafe i fliken Lägen)"
     },
@@ -3472,6 +3517,12 @@
     "osdDescStatGForce": {
         "message": "Den maximala G-kraft farkosten utsatts för"
     },
+    "osdDescStatEscTemperature": {
+        "message": "Maximal ESC-temperatur"
+    },
+    "osdDescStatEscRpm": {
+        "message": "Maximalt ESC-varvtal"
+    },
     "osdTimerSource": {
         "message": "Källa:"
     },
@@ -3729,5 +3780,8 @@
     },
     "modeCameraChangeMode": {
         "message": "CAMERA CHANGE MODE"
+    },
+    "flashTab": {
+        "message": "Uppdatera firmware"
     }
 }
