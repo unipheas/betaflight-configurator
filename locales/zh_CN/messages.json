@@ -1531,6 +1531,9 @@
     "auxiliaryHelp": {
         "message": "使用黄色区域来定义你想要的开关通道和对应的飞行模式。所选通道的游标落在黄色区域时该模式会激活变成黄色（亮起），代表该通道开关已激活该模式。 完成后点击保存按钮以保存设置。"
     },
+    "auxiliaryToggleUnused": {
+        "message": "隐藏未使用的模式"
+    },
     "auxiliaryMin": {
         "message": "最小"
     },
@@ -2909,6 +2912,45 @@
     },
     "failsafeProcedureItemSelect2": {
         "message": "坠落"
+    },
+    "failsafeProcedureItemSelect4": {
+        "message": "GPS 救援"
+    },
+    "failsafeGpsRescueItemAngle": {
+        "message": "角度"
+    },
+    "failsafeGpsRescueItemInitialAltitude": {
+        "message": "初始高度 (米)"
+    },
+    "failsafeGpsRescueItemDescentDistance": {
+        "message": "下降距离 (米)"
+    },
+    "failsafeGpsRescueItemGroundSpeed": {
+        "message": "地面速度 (米\/秒)"
+    },
+    "failsafeGpsRescueItemThrottleMin": {
+        "message": "最低油门"
+    },
+    "failsafeGpsRescueItemThrottleMax": {
+        "message": "最高油门"
+    },
+    "failsafeGpsRescueItemThrottleHover": {
+        "message": "悬停油门"
+    },
+    "failsafeGpsRescueItemMinSats": {
+        "message": "最小卫星数"
+    },
+    "failsafeGpsRescueItemSanityChecks": {
+        "message": "理智检查"
+    },
+    "failsafeGpsRescueItemSanityChecksOff": {
+        "message": "关闭"
+    },
+    "failsafeGpsRescueItemSanityChecksOn": {
+        "message": "开启"
+    },
+    "failsafeGpsRescueItemSanityChecksFSOnly": {
+        "message": "仅限失控保护"
     },
     "failsafeKillSwitchItem": {
         "message": "失控保护开关 （在模式页面设置失控保护模式）"
