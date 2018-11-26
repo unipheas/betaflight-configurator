@@ -1418,6 +1418,27 @@
     "pidTuningTPABreakPoint": {
         "message": "crwdns5710:0crwdne5710:0"
     },
+    "pidTuningThrottleLimitType": {
+        "message": "crwdns8898:0crwdne8898:0"
+    },
+    "pidTuningThrottleLimitPercent": {
+        "message": "crwdns8900:0crwdne8900:0"
+    },
+    "pidTuningThrottleLimitTypeOff": {
+        "message": "crwdns8902:0crwdne8902:0"
+    },
+    "pidTuningThrottleLimitTypeScale": {
+        "message": "crwdns8904:0crwdne8904:0"
+    },
+    "pidTuningThrottleLimitTypeClip": {
+        "message": "crwdns8906:0crwdne8906:0"
+    },
+    "pidTuningThrottleLimitTypeTip": {
+        "message": "crwdns8908:0crwdne8908:0"
+    },
+    "pidTuningThrottleLimitPercentTip": {
+        "message": "crwdns8910:0crwdne8910:0"
+    },
     "pidTuningFilter": {
         "message": "crwdns5711:0crwdne5711:0"
     },
