@@ -1366,6 +1366,27 @@
     "pidTuningTPABreakPoint": {
         "message": "Punto de corte del TPA"
     },
+    "pidTuningThrottleLimitType": {
+        "message": "Límite del Acelerador"
+    },
+    "pidTuningThrottleLimitPercent": {
+        "message": "% Límite del Acelerador"
+    },
+    "pidTuningThrottleLimitTypeOff": {
+        "message": "APAGADO"
+    },
+    "pidTuningThrottleLimitTypeScale": {
+        "message": "ESCALAR"
+    },
+    "pidTuningThrottleLimitTypeClip": {
+        "message": "ACORTAR"
+    },
+    "pidTuningThrottleLimitTypeTip": {
+        "message": "Selecciona el tipo de límite del acelerador. <b>APAGADO<\/b> desactiva la funcionalidad, <b>ESCALAR<\/b> transforma el rango del acelerador de 0 al porcentaje seleccionado usando el recorrido completo del mando, <b>ACORTAR<\/b> asigna un porcentaje máximo de acelerador y el recorrido del mando por encimo de este no tiene ningún efecto adicional"
+    },
+    "pidTuningThrottleLimitPercentTip": {
+        "message": "Ajusta el porcentaje límite de acelerador deseado. Un valor de 100% desactiva la funcionalidad."
+    },
     "pidTuningFilter": {
         "message": "Filtro"
     },
