@@ -1388,7 +1388,7 @@
         "message": "Pilih jenis pembatasan throttle. <b>MATI<\/b> fitur non-aktif, <b>SCALE<\/b> akan menyesuaikan throttle dari 0 hingga persentase terpilih dari pergerakan penuh stik, <b>CLIP<\/b> akan membatasi persentase throttle max dan input diatas persentase tersebut tidal akan memberikan efek tambahan"
     },
     "pidTuningThrottleLimitPercentTip": {
-        "message": "Menentukan persentase batas throttle. Nilai 100% akan berakibat fitur non-aktifkan."
+        "message": "Menentukan persentase batas throttle. Nilai 100% akan berakibat fitur non-aktif."
     },
     "pidTuningFilter": {
         "message": "Filter"
