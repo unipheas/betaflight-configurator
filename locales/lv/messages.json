@@ -1292,7 +1292,7 @@
         "message": "Interpolācijas intervāls priekš manuāla RC interpolācijas režīma milisekundēs"
     },
     "receiverRcInterpolationOff": {
-        "message": "Izslēgts"
+        "message": "Izslg."
     },
     "receiverRcSmoothingType": {
         "message": "Izlīdzināšanas tips"
