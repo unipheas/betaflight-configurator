@@ -1366,6 +1366,27 @@
     "pidTuningTPABreakPoint": {
         "message": "TPA 브레이크포인트"
     },
+    "pidTuningThrottleLimitType": {
+        "message": "스로틀 제한"
+    },
+    "pidTuningThrottleLimitPercent": {
+        "message": "스로틀 제한 %"
+    },
+    "pidTuningThrottleLimitTypeOff": {
+        "message": "끄기"
+    },
+    "pidTuningThrottleLimitTypeScale": {
+        "message": "스케일"
+    },
+    "pidTuningThrottleLimitTypeClip": {
+        "message": "클립"
+    },
+    "pidTuningThrottleLimitTypeTip": {
+        "message": "스로틀 제한의 유형을 선택합니다. <b>끄기<\/b>는 기능을 비활성, <b>스케일<\/b>은 스로틀 범위를 0에서 선택한 퍼센트까지를 전체 스틱범위로 사용하게끔 전환, <b>클립<\/b>은 최대 스로틀 백분율을 설정하고, 그 이상의 스틱범위는 아무런 추가 효과가 없게 합니다."
+    },
+    "pidTuningThrottleLimitPercentTip": {
+        "message": "원하는 스로틀 제한 백분율을 설정합니다. 100%로 설정하면 기능을 사용할 수 없습니다."
+    },
     "pidTuningFilter": {
         "message": "필터"
     },
