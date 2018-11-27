@@ -1366,6 +1366,27 @@
     "pidTuningTPABreakPoint": {
         "message": "TPA lūzumpunkts"
     },
+    "pidTuningThrottleLimitType": {
+        "message": "Droseles limits"
+    },
+    "pidTuningThrottleLimitPercent": {
+        "message": "Droseles limits %"
+    },
+    "pidTuningThrottleLimitTypeOff": {
+        "message": "Izslg."
+    },
+    "pidTuningThrottleLimitTypeScale": {
+        "message": "Mērogs"
+    },
+    "pidTuningThrottleLimitTypeClip": {
+        "message": "Nogriezt"
+    },
+    "pidTuningThrottleLimitTypeTip": {
+        "message": "Izvēlaties droseles limita tipu. <b>Izslg.<\/b> atslēdz iespēju, <b>Mērogs<\/b> pārveidos droseles darba diapazonu no 0 līdz izvēlētajai procenta vērtībai izmantojot visu droseles sviras diapazonu, <b>Nogriezt<\/b> uzstādīs maksimālo droseles procentu un droseles svira pēc šis vērtības nedos nekādu efektu"
+    },
+    "pidTuningThrottleLimitPercentTip": {
+        "message": "Uzstāda vēlamo droseles limitu procentos. Uzstādot uz 100% iespēja ir atslēgta."
+    },
     "pidTuningFilter": {
         "message": "Filtrs"
     },
@@ -1530,6 +1551,9 @@
     },
     "auxiliaryHelp": {
         "message": "Izmantojiet robežas, lai nodefinētu slēdžus uz jūsu uztvērēja ar atbilstošo režīmu piesaisti. Uztvērēja kanāls, kas dos nolasījumus starp robežām min\/max, aktivizēs režīmu. Atceries saglabāt izmaiņas lietojot pogu Saglabāt."
+    },
+    "auxiliaryToggleUnused": {
+        "message": "Slēpt neizmantotos režīmus"
     },
     "auxiliaryMin": {
         "message": "Min"
@@ -2909,6 +2933,45 @@
     },
     "failsafeProcedureItemSelect2": {
         "message": "Krist"
+    },
+    "failsafeProcedureItemSelect4": {
+        "message": "GPS Glābšana"
+    },
+    "failsafeGpsRescueItemAngle": {
+        "message": "Leņķis"
+    },
+    "failsafeGpsRescueItemInitialAltitude": {
+        "message": "Sākuma augstums (metri)"
+    },
+    "failsafeGpsRescueItemDescentDistance": {
+        "message": "Nolaišanās attālums (metri)"
+    },
+    "failsafeGpsRescueItemGroundSpeed": {
+        "message": "Ātrums (metri\/sekundē)"
+    },
+    "failsafeGpsRescueItemThrottleMin": {
+        "message": "Droseles minimums"
+    },
+    "failsafeGpsRescueItemThrottleMax": {
+        "message": "Droseles maksimums"
+    },
+    "failsafeGpsRescueItemThrottleHover": {
+        "message": "Karāšanās drosele"
+    },
+    "failsafeGpsRescueItemMinSats": {
+        "message": "Satelītu minimums"
+    },
+    "failsafeGpsRescueItemSanityChecks": {
+        "message": "Veselības pārbaude"
+    },
+    "failsafeGpsRescueItemSanityChecksOff": {
+        "message": "Izslg."
+    },
+    "failsafeGpsRescueItemSanityChecksOn": {
+        "message": "Ieslēgt"
+    },
+    "failsafeGpsRescueItemSanityChecksFSOnly": {
+        "message": "Tikai Failsafe"
     },
     "failsafeKillSwitchItem": {
         "message": "Failsafe izsaukšanas slēdzis (uzstādīt cilnē Režīmi)"
