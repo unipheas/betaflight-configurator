@@ -1381,6 +1381,12 @@
     "pidTuningThrottleLimitTypeClip": {
         "message": "クリップ"
     },
+    "pidTuningThrottleLimitTypeTip": {
+        "message": "スロットルリミットタイプを選択します。<b>オフ<\/b>は機能を無効にします。<b>スケール<\/b>はスロットルの範囲を、0から選択した割合までスティックの最大可動範囲として割り当てます。<b>クリップ<\/b> は最大スロットルの割合を設定し、スティック可動にはそれ以上の効果はありません。"
+    },
+    "pidTuningThrottleLimitPercentTip": {
+        "message": "スロットルリミットを割合で設定します。100%を設定すると機能は無効になります。"
+    },
     "pidTuningFilter": {
         "message": "フィルター"
     },
