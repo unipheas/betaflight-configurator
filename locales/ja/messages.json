@@ -1366,6 +1366,21 @@
     "pidTuningTPABreakPoint": {
         "message": "TPA 区切り点"
     },
+    "pidTuningThrottleLimitType": {
+        "message": "スロットルリミット"
+    },
+    "pidTuningThrottleLimitPercent": {
+        "message": "スロットルリミット %"
+    },
+    "pidTuningThrottleLimitTypeOff": {
+        "message": "オフ"
+    },
+    "pidTuningThrottleLimitTypeScale": {
+        "message": "スケール"
+    },
+    "pidTuningThrottleLimitTypeClip": {
+        "message": "クリップ"
+    },
     "pidTuningFilter": {
         "message": "フィルター"
     },
