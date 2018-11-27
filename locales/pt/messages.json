@@ -3342,9 +3342,6 @@
     "osdDescElementMahDrawn": {
         "message": "Capacidade total utilizada da bateria"
     },
-    "osdDescElementCraftName": {
-        "message": "Nome da aeronave como na aba de Configurações"
-    },
     "osdDescElementAltitude": {
         "message": "Altitude atual (Piscar quando estiver acima do limite)"
     },
