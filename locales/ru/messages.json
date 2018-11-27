@@ -1366,6 +1366,27 @@
     "pidTuningTPABreakPoint": {
         "message": "TPA-порог"
     },
+    "pidTuningThrottleLimitType": {
+        "message": "Предел газа"
+    },
+    "pidTuningThrottleLimitPercent": {
+        "message": "Предел газа %"
+    },
+    "pidTuningThrottleLimitTypeOff": {
+        "message": "Выкл"
+    },
+    "pidTuningThrottleLimitTypeScale": {
+        "message": "Масштаб"
+    },
+    "pidTuningThrottleLimitTypeClip": {
+        "message": "ОБРЕЗ"
+    },
+    "pidTuningThrottleLimitTypeTip": {
+        "message": "Выбор типа ограничения газа. <b> ВЫКЛ. <\/b> отключает опцию, <b> МАСШТАБ <\/b> преобразует диапазон дросселя от 0 до выбранного процента, используя полный ход стика, <b> ОБРЕЗ <\/b> будет устанавливать максимальный газ и удерживать его, движение стика выше этого значения не будет иметь никакого дополнительного эффекта"
+    },
+    "pidTuningThrottleLimitPercentTip": {
+        "message": "Установите желаемый процент ограничения газа. Установка на 100% отключает эту функцию."
+    },
     "pidTuningFilter": {
         "message": "Фильтр"
     },
@@ -2912,6 +2933,42 @@
     },
     "failsafeProcedureItemSelect2": {
         "message": "Падение"
+    },
+    "failsafeProcedureItemSelect4": {
+        "message": "GPS спасение"
+    },
+    "failsafeGpsRescueItemAngle": {
+        "message": "Угол"
+    },
+    "failsafeGpsRescueItemDescentDistance": {
+        "message": "Пройденное расстояние (м)"
+    },
+    "failsafeGpsRescueItemGroundSpeed": {
+        "message": "Скорость относительно земли (м\/сек)"
+    },
+    "failsafeGpsRescueItemThrottleMin": {
+        "message": "Газ минимум"
+    },
+    "failsafeGpsRescueItemThrottleMax": {
+        "message": "Газ максимум"
+    },
+    "failsafeGpsRescueItemThrottleHover": {
+        "message": "Газ висения"
+    },
+    "failsafeGpsRescueItemMinSats": {
+        "message": "Минимум спутников"
+    },
+    "failsafeGpsRescueItemSanityChecks": {
+        "message": "Проверка на исправность"
+    },
+    "failsafeGpsRescueItemSanityChecksOff": {
+        "message": "Выкл."
+    },
+    "failsafeGpsRescueItemSanityChecksOn": {
+        "message": "Вкл."
+    },
+    "failsafeGpsRescueItemSanityChecksFSOnly": {
+        "message": "Failsafe только"
     },
     "failsafeKillSwitchItem": {
         "message": "Failsafe - Аварийный тумблер (Failsafe во вкладке \"Режимы\")"
