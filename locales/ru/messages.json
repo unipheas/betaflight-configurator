@@ -2940,6 +2940,9 @@
     "failsafeGpsRescueItemAngle": {
         "message": "Угол"
     },
+    "failsafeGpsRescueItemInitialAltitude": {
+        "message": "Первоначальная высота (м)"
+    },
     "failsafeGpsRescueItemDescentDistance": {
         "message": "Пройденное расстояние (м)"
     },
