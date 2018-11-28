@@ -1375,6 +1375,15 @@
     "pidTuningThrottleLimitTypeOff": {
         "message": "关闭"
     },
+    "pidTuningThrottleLimitTypeScale": {
+        "message": "比例"
+    },
+    "pidTuningThrottleLimitTypeClip": {
+        "message": "截断"
+    },
+    "pidTuningThrottleLimitTypeTip": {
+        "message": "选择油门限制的类型。 <b>关闭<\/b> 将禁用此功能； <b>比例<\/b>将使用全杆行程来映射从0到指定百分比的油门； <b>截断<\/b> 将设置一个最大油门百分比，该百分比以上的杆位行程将不再起作用。"
+    },
     "pidTuningThrottleLimitPercentTip": {
         "message": "设置所需的限制百分比。设置为100% 将禁用该功能。"
     },
