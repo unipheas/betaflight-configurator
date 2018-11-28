@@ -1366,6 +1366,18 @@
     "pidTuningTPABreakPoint": {
         "message": "TPA 起始点"
     },
+    "pidTuningThrottleLimitType": {
+        "message": "油门限制"
+    },
+    "pidTuningThrottleLimitPercent": {
+        "message": "油门限制百分比"
+    },
+    "pidTuningThrottleLimitTypeOff": {
+        "message": "关闭"
+    },
+    "pidTuningThrottleLimitPercentTip": {
+        "message": "设置所需的限制百分比。设置为100% 将禁用该功能。"
+    },
     "pidTuningFilter": {
         "message": "滤波器"
     },
