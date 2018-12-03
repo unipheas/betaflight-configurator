@@ -1367,6 +1367,15 @@
     "pidTuningTPABreakPoint": {
         "message": "TPA Einstiegspunkt"
     },
+    "pidTuningThrottleLimitType": {
+        "message": "Gas Limit"
+    },
+    "pidTuningThrottleLimitPercent": {
+        "message": "Gas Limit %"
+    },
+    "pidTuningThrottleLimitTypeOff": {
+        "message": "Aus"
+    },
     "pidTuningThrottleLimitTypeScale": {
         "message": "Skalierungsfaktor"
     },
