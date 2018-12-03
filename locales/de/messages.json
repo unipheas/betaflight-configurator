@@ -1367,6 +1367,9 @@
     "pidTuningTPABreakPoint": {
         "message": "TPA Einstiegspunkt"
     },
+    "pidTuningThrottleLimitTypeScale": {
+        "message": "Skalierungsfaktor"
+    },
     "pidTuningFilter": {
         "message": "Filter"
     },
@@ -1531,6 +1534,9 @@
     },
     "auxiliaryHelp": {
         "message": "Hier können verschiedene Modi auf einen bestimmten Bereich eines oder mehrerer AUX Kanäle gelegt werden. Bitte beachte, dass Änderungen gespeichert werden müssen bevor diese aktiv werden."
+    },
+    "auxiliaryToggleUnused": {
+        "message": "Nicht verwendete Modi ausblenden"
     },
     "auxiliaryMin": {
         "message": "Min"
@@ -2911,6 +2917,39 @@
     "failsafeProcedureItemSelect2": {
         "message": "Sofortiges Abschalten und unkontrollierter Absturz"
     },
+    "failsafeProcedureItemSelect4": {
+        "message": "Go rescue"
+    },
+    "failsafeGpsRescueItemInitialAltitude": {
+        "message": "Anfängliche Höhe (Meter)"
+    },
+    "failsafeGpsRescueItemDescentDistance": {
+        "message": "Sink-Entfernung (meter)"
+    },
+    "failsafeGpsRescueItemGroundSpeed": {
+        "message": "Geschwindigkeit über Grund (Meter\/Sekunde)"
+    },
+    "failsafeGpsRescueItemThrottleMin": {
+        "message": "Gas min"
+    },
+    "failsafeGpsRescueItemThrottleMax": {
+        "message": "Gas max"
+    },
+    "failsafeGpsRescueItemThrottleHover": {
+        "message": "Gas schweben"
+    },
+    "failsafeGpsRescueItemMinSats": {
+        "message": "Mindestanzahl Satelliten"
+    },
+    "failsafeGpsRescueItemSanityChecksOff": {
+        "message": "Aus"
+    },
+    "failsafeGpsRescueItemSanityChecksOn": {
+        "message": "Ein"
+    },
+    "failsafeGpsRescueItemSanityChecksFSOnly": {
+        "message": "nur Failsafe"
+    },
     "failsafeKillSwitchItem": {
         "message": "Failsafe \"Kill Switch\" (Einstellungen im Modes Tab)"
     },
@@ -3472,6 +3511,12 @@
     "osdDescStatGForce": {
         "message": "Maximal einwirkende G-Kräfte auf das Fluggerät"
     },
+    "osdDescStatEscTemperature": {
+        "message": "Max. ESC Temperatur"
+    },
+    "osdDescStatEscRpm": {
+        "message": "Max Umdrehungen\/min"
+    },
     "osdTimerSource": {
         "message": "Quelle:"
     },
@@ -3729,5 +3774,8 @@
     },
     "modeCameraChangeMode": {
         "message": "KAMERAMODUS UMSCHALTEN"
+    },
+    "flashTab": {
+        "message": "Firmware aktualisieren"
     }
 }
