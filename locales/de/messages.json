@@ -1377,7 +1377,16 @@
         "message": "Aus"
     },
     "pidTuningThrottleLimitTypeScale": {
-        "message": "Skalierungsfaktor"
+        "message": "Skalierung"
+    },
+    "pidTuningThrottleLimitTypeClip": {
+        "message": "CLIP"
+    },
+    "pidTuningThrottleLimitTypeTip": {
+        "message": "Wählen Sie den Typ der Gasbegrenzung. <b>OFF<\/b> deaktiviert die Funktion <b>Skalierung<\/b>übersetzt den Gasbereich von 0 bis zum gewählten Prozentsatz auf die ganze Gashebelstrecke<b>CLIP<\/b>setzt ein maximalen Gas Prozentsatz und Gashebelbewegung über diesem Limit haben keine Auswirkung"
+    },
+    "pidTuningThrottleLimitPercentTip": {
+        "message": "Setzt den gewünschten Gas Limit Prozentsatz. 100% deaktiviert die Funktion."
     },
     "pidTuningFilter": {
         "message": "Filter"
@@ -2928,6 +2937,9 @@
     },
     "failsafeProcedureItemSelect4": {
         "message": "Go rescue"
+    },
+    "failsafeGpsRescueItemAngle": {
+        "message": "Winkel"
     },
     "failsafeGpsRescueItemInitialAltitude": {
         "message": "Anfängliche Höhe (Meter)"
