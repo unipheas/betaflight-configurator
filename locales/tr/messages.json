@@ -97,11 +97,18 @@
     "firmwareTypeNotSupported": {
         "message": "CLI modu dışında, Cleanfight\/Betafight dışındaki yazılımlar <span class=\"message-negative\">desteklenmez<\/span>."
     },
+    "infoVersions": {
+        "message": "Çalışan İşletim Sistemi: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Yapılandırıcı: <strong>{{configuratorVersion}}<\/strong>",
+        "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
+    },
     "releaseCheckFailed": {
         "message": "<b>$1 sürümü için GitHub sorgusu başarısız oldu, önbellek bilgileri kullanılıyor. Sebep: <code>$2<\/code><\/b>"
     },
     "craftNameReceived": {
         "message": "İsim yarat:<strong>$1<\/strong>"
+    },
+    "versionLabelConfigurator": {
+        "message": "Yapılandırıcı"
     },
     "statusbar_usage_download": {
         "message": "D: $1%"
