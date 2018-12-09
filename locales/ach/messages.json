@@ -3511,6 +3511,12 @@
     "osdDescElementFlipArrow": {
         "message": "crwdns8860:0crwdne8860:0"
     },
+    "osdDescElementLinkQuality": {
+        "message": "crwdns8912:0crwdne8912:0"
+    },
+    "osdDescElementFlightDist": {
+        "message": "crwdns8914:0crwdne8914:0"
+    },
     "osdDescElementTimer1": {
         "message": "crwdns6273:0crwdne6273:0"
     },
@@ -3531,6 +3537,9 @@
     },
     "osdDescGForce": {
         "message": "crwdns8775:0crwdne8775:0"
+    },
+    "osdDescElementMotorDiag": {
+        "message": "crwdns8916:0crwdne8916:0"
     },
     "osdDescElementLogStatus": {
         "message": "crwdns8859:0crwdne8859:0"
@@ -3591,6 +3600,12 @@
     },
     "osdDescStatEscRpm": {
         "message": "crwdns8867:0crwdne8867:0"
+    },
+    "osdDescStatMinLinkQuality": {
+        "message": "crwdns8918:0crwdne8918:0"
+    },
+    "osdDescStatFlightDistance": {
+        "message": "crwdns8920:0crwdne8920:0"
     },
     "osdTimerSource": {
         "message": "crwdns6293:0crwdne6293:0"
