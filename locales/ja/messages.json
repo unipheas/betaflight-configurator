@@ -3459,6 +3459,9 @@
     "osdDescElementFlipArrow": {
         "message": "タートルモードでどのモーターが起動しているかを示す矢印"
     },
+    "osdDescElementLinkQuality": {
+        "message": "フレーム損失に基く『リンク品質』代替インジケータ - 使用注意"
+    },
     "osdDescElementFlightDist": {
         "message": "この飛行での飛行距離"
     },
@@ -3545,6 +3548,9 @@
     },
     "osdDescStatEscRpm": {
         "message": "ESC 最大RPM"
+    },
+    "osdDescStatMinLinkQuality": {
+        "message": "フレーム損失に基く『リンク品質』代替インジケータ最小値"
     },
     "osdDescStatFlightDistance": {
         "message": "この飛行での総飛行距離"
