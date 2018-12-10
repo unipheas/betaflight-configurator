@@ -3459,6 +3459,12 @@
     "osdDescElementFlipArrow": {
         "message": "Flecha que indica que lado tiene los motores arriba en modo tortuga"
     },
+    "osdDescElementLinkQuality": {
+        "message": "Indicador alternativo para 'calidad del enlace' basado en la pérdida de paquetes - usar con precaución"
+    },
+    "osdDescElementFlightDist": {
+        "message": "Distancia volada durante este vuelo."
+    },
     "osdDescElementTimer1": {
         "message": "Muestra el valor del temporizador 1"
     },
@@ -3479,6 +3485,9 @@
     },
     "osdDescGForce": {
         "message": "Muestra cuánta Fuerza G está experimentando la aeronave"
+    },
+    "osdDescElementMotorDiag": {
+        "message": "Muestra un gráfico con la salida de cada motor"
     },
     "osdDescElementLogStatus": {
         "message": "Número de caja negra y avisos"
@@ -3539,6 +3548,12 @@
     },
     "osdDescStatEscRpm": {
         "message": "Máx. RPM ESC"
+    },
+    "osdDescStatMinLinkQuality": {
+        "message": "Mínimo del indicador alternativo para ' calidad del enlace' basado en pérdida de paquetes"
+    },
+    "osdDescStatFlightDistance": {
+        "message": "Distancia total recorrida durante el vuelo"
     },
     "osdTimerSource": {
         "message": "Origen:"
