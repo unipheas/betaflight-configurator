@@ -3459,6 +3459,9 @@
     "osdDescElementFlipArrow": {
         "message": "タートルモードでどのモーターが起動しているかを示す矢印"
     },
+    "osdDescElementFlightDist": {
+        "message": "この飛行での飛行距離"
+    },
     "osdDescElementTimer1": {
         "message": "タイマー1の値を表示"
     },
@@ -3479,6 +3482,9 @@
     },
     "osdDescGForce": {
         "message": "どのくらいのG値(加速度)が機体に負荷をかけているかを示す"
+    },
+    "osdDescElementMotorDiag": {
+        "message": "モーター毎の出力グラフを表示"
     },
     "osdDescElementLogStatus": {
         "message": "ブラックボックス番号と警告"
@@ -3539,6 +3545,9 @@
     },
     "osdDescStatEscRpm": {
         "message": "ESC 最大RPM"
+    },
+    "osdDescStatFlightDistance": {
+        "message": "この飛行での総飛行距離"
     },
     "osdTimerSource": {
         "message": "ソース:"
