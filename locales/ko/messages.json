@@ -3459,6 +3459,12 @@
     "osdDescElementFlipArrow": {
         "message": "터틀 모드에서 어떤 모터가 올라가는지를 보여주는 화살표"
     },
+    "osdDescElementLinkQuality": {
+        "message": "프레임 손실에 따른 링크 품질에 대한 대체 표시 - 주의해서 사용"
+    },
+    "osdDescElementFlightDist": {
+        "message": "이번 비행 중 비행한 거리"
+    },
     "osdDescElementTimer1": {
         "message": "타이머 1의 값 표시"
     },
@@ -3479,6 +3485,9 @@
     },
     "osdDescGForce": {
         "message": "기체가 얼마나 많은 G-포스를 경험하고 있는지를 보여줍니다."
+    },
+    "osdDescElementMotorDiag": {
+        "message": "각 모터의 출력 그래프 표시"
     },
     "osdDescElementLogStatus": {
         "message": "블랙박스 번호 및 경고"
@@ -3539,6 +3548,12 @@
     },
     "osdDescStatEscRpm": {
         "message": "최대 ESC RPM"
+    },
+    "osdDescStatMinLinkQuality": {
+        "message": "프레임 손실에 따른 링크 품질에 대한 대체 표시의 최소값"
+    },
+    "osdDescStatFlightDistance": {
+        "message": "비행 중 여행한 총 거리"
     },
     "osdTimerSource": {
         "message": "소스:"
