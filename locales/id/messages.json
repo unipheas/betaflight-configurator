@@ -3462,6 +3462,12 @@
     "osdDescElementFlipArrow": {
         "message": "Panah yang menandakan posisi motor yang berada di atas pada mode turtle"
     },
+    "osdDescElementLinkQuality": {
+        "message": "Indikator alternatif untuk 'kualitas link' berdasarkan frame loss - gunakan dengan hati-hati"
+    },
+    "osdDescElementFlightDist": {
+        "message": "Jarak tempuh pada penerbangan ini."
+    },
     "osdDescElementTimer1": {
         "message": "Menunjukkan nilai timer 1"
     },
@@ -3482,6 +3488,9 @@
     },
     "osdDescGForce": {
         "message": "Menampilkan nilai G-Force yang dialami unit"
+    },
+    "osdDescElementMotorDiag": {
+        "message": "Tampilkan grafik output dari tiap motor"
     },
     "osdDescElementLogStatus": {
         "message": "Nomor blackbox dan peringatan"
@@ -3542,6 +3551,12 @@
     },
     "osdDescStatEscRpm": {
         "message": "RPM Max ESC"
+    },
+    "osdDescStatMinLinkQuality": {
+        "message": "Nilai minimal indikator alternatif untuk 'kualitas link' berdasarkan frame loss"
+    },
+    "osdDescStatFlightDistance": {
+        "message": "Jarak tempuh total selama penerbangan"
     },
     "osdTimerSource": {
         "message": "Sumber:"
