@@ -1372,6 +1372,21 @@
     "pidTuningThrottleLimitPercent": {
         "message": "Limite gaz %"
     },
+    "pidTuningThrottleLimitTypeOff": {
+        "message": "OFF"
+    },
+    "pidTuningThrottleLimitTypeScale": {
+        "message": "ÉCHELLE"
+    },
+    "pidTuningThrottleLimitTypeClip": {
+        "message": "CLIP"
+    },
+    "pidTuningThrottleLimitTypeTip": {
+        "message": "Défini le type de limite de gaz. <b>OFF<\/b> désactive la fonction, <b>ECHELLE<\/b> transpose la plage de 0 jusqu'au pourcentage choisi et permet d'utiliser toute la course du stick des Gaz, <b>CLIP<\/b> fixe un pourcentage max et passer le stick au delà n'a plus d'effet"
+    },
+    "pidTuningThrottleLimitPercentTip": {
+        "message": "Défini le pourcentage de limite de gaz désiré. Paramètre à 100 % désactive la fonctionnalité."
+    },
     "pidTuningFilter": {
         "message": "Filtre"
     },
@@ -2916,6 +2931,45 @@
     "failsafeProcedureItemSelect2": {
         "message": "Tombe"
     },
+    "failsafeProcedureItemSelect4": {
+        "message": "Sauvetage GPS"
+    },
+    "failsafeGpsRescueItemAngle": {
+        "message": "Angle"
+    },
+    "failsafeGpsRescueItemInitialAltitude": {
+        "message": "Altitude initiale (mètres)"
+    },
+    "failsafeGpsRescueItemDescentDistance": {
+        "message": "Distance descendue (en mètres)"
+    },
+    "failsafeGpsRescueItemGroundSpeed": {
+        "message": "Vitesse-sol (mètres\/seconde)"
+    },
+    "failsafeGpsRescueItemThrottleMin": {
+        "message": "Gaz minimum"
+    },
+    "failsafeGpsRescueItemThrottleMax": {
+        "message": "Gaz maximum"
+    },
+    "failsafeGpsRescueItemThrottleHover": {
+        "message": "Maintien gaz"
+    },
+    "failsafeGpsRescueItemMinSats": {
+        "message": "Satellites minimum"
+    },
+    "failsafeGpsRescueItemSanityChecks": {
+        "message": "Vérification"
+    },
+    "failsafeGpsRescueItemSanityChecksOff": {
+        "message": "Off"
+    },
+    "failsafeGpsRescueItemSanityChecksOn": {
+        "message": "On"
+    },
+    "failsafeGpsRescueItemSanityChecksFSOnly": {
+        "message": "Failsafe uniquement"
+    },
     "failsafeKillSwitchItem": {
         "message": "Switch de Failsafe (attribution via l'onglet Modes)"
     },
@@ -3402,6 +3456,12 @@
     "osdDescElementFlipArrow": {
         "message": "En mode tortue, flèche indiquant quels moteurs seront activés"
     },
+    "osdDescElementLinkQuality": {
+        "message": "Indicateur alternatif de 'qualité de la liaison' basée sur la perte de trame - à utiliser avec prudence"
+    },
+    "osdDescElementFlightDist": {
+        "message": "Distance parcourue au cours de ce vol."
+    },
     "osdDescElementTimer1": {
         "message": "Affiche la valeur du timer 1"
     },
@@ -3422,6 +3482,9 @@
     },
     "osdDescGForce": {
         "message": "Indique le nombre de G subit par l'appareil"
+    },
+    "osdDescElementMotorDiag": {
+        "message": "Affiche un graphique de la sortie de chaque moteur"
     },
     "osdDescElementLogStatus": {
         "message": "Avertissements et numéros de Blackbox"
@@ -3482,6 +3545,12 @@
     },
     "osdDescStatEscRpm": {
         "message": "Trs\/min Max des ESC"
+    },
+    "osdDescStatMinLinkQuality": {
+        "message": "Valeur minimum de l'indicateur alternatif pour la 'qualité de liaison' basé sur la perte de trame"
+    },
+    "osdDescStatFlightDistance": {
+        "message": "Distance totale parcourue lors du vol"
     },
     "osdTimerSource": {
         "message": "Source:"
