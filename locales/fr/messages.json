@@ -1366,6 +1366,12 @@
     "pidTuningTPABreakPoint": {
         "message": "TPA Breakpoint"
     },
+    "pidTuningThrottleLimitType": {
+        "message": "Limite Gaz"
+    },
+    "pidTuningThrottleLimitPercent": {
+        "message": "Limite gaz %"
+    },
     "pidTuningFilter": {
         "message": "Filtre"
     },
