@@ -1372,6 +1372,9 @@
     "pidTuningThrottleLimitTypeOff": {
         "message": "DESLIGADO"
     },
+    "pidTuningThrottleLimitTypeScale": {
+        "message": "ESCALA"
+    },
     "pidTuningThrottleLimitTypeClip": {
         "message": "CORTAR"
     },
@@ -3453,6 +3456,12 @@
     "osdDescElementFlipArrow": {
         "message": "Seta que indica quais motores estão afastados do chão no modo 'virar após queda' (Turtle mode)"
     },
+    "osdDescElementLinkQuality": {
+        "message": "Indicador alternativo de \"Qualidade da conexão\" baseado em perdas de sinal - use com cuidado"
+    },
+    "osdDescElementFlightDist": {
+        "message": "Distância percorrida durante o voo."
+    },
     "osdDescElementTimer1": {
         "message": "Mostra o valor do cronômetro 1"
     },
@@ -3473,6 +3482,9 @@
     },
     "osdDescGForce": {
         "message": "Mostra o valor da Força-G sob a aeronave"
+    },
+    "osdDescElementMotorDiag": {
+        "message": "Mostra um gráfico da saída de cada motor"
     },
     "osdDescElementLogStatus": {
         "message": "Blackbox - Avisos e número do log"
@@ -3533,6 +3545,12 @@
     },
     "osdDescStatEscRpm": {
         "message": "Max ESC RPM"
+    },
+    "osdDescStatMinLinkQuality": {
+        "message": "Valor mínimo do indicador alternativo de \"Qualidade da conexão\" baseado em perdas de sinal"
+    },
+    "osdDescStatFlightDistance": {
+        "message": "Distância total percorrida durante o voo"
     },
     "osdTimerSource": {
         "message": "Origem:"
