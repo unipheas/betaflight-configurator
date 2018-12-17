@@ -1366,6 +1366,21 @@
     "pidTuningTPABreakPoint": {
         "message": "TPA Breakpoint"
     },
+    "pidTuningThrottleLimitType": {
+        "message": "Limite do Acelerador"
+    },
+    "pidTuningThrottleLimitTypeOff": {
+        "message": "DESLIGADO"
+    },
+    "pidTuningThrottleLimitTypeClip": {
+        "message": "CORTAR"
+    },
+    "pidTuningThrottleLimitTypeTip": {
+        "message": "Selecione o tipo de limitador:<br><b>DESLIGADO:<\/b> Desliga o limite do acelerador.<br><b>ESCALAR:<\/b> Transforma o alcance do acelerador de 0 até a porcentagem especificada, usando todo o movimento do stick.<br><b>CORTAR:<\/b> Define o valor máximo do acelerador, movimentos do stick acima da porcentagem serão ignorados."
+    },
+    "pidTuningThrottleLimitPercentTip": {
+        "message": "Define a porcentagem desejada para o Limite do Acelerador. Configurar em 100% desativa a função."
+    },
     "pidTuningFilter": {
         "message": "Filtro"
     },
@@ -3341,6 +3356,9 @@
     },
     "osdDescElementMahDrawn": {
         "message": "Capacidade total utilizada da bateria"
+    },
+    "osdDescElementCraftName": {
+        "message": "Nome da aeronave como definido na aba de Configurações"
     },
     "osdDescElementAltitude": {
         "message": "Altitude atual (Piscar quando estiver acima do limite)"
