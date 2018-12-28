@@ -3459,6 +3459,12 @@
     "osdDescElementFlipArrow": {
         "message": "在乌龟模式中，箭头指示哪边的电机朝上"
     },
+    "osdDescElementLinkQuality": {
+        "message": "基于帧丢失情况的“连接质量”的替代图标-请谨慎使用"
+    },
+    "osdDescElementFlightDist": {
+        "message": "此次飞行中的飞行距离"
+    },
     "osdDescElementTimer1": {
         "message": "显示计时器1"
     },
@@ -3479,6 +3485,9 @@
     },
     "osdDescGForce": {
         "message": "显示当前飞机所受的地心引力"
+    },
+    "osdDescElementMotorDiag": {
+        "message": "显示每个电机输出的图表"
     },
     "osdDescElementLogStatus": {
         "message": "黑匣子编号和警告"
@@ -3539,6 +3548,12 @@
     },
     "osdDescStatEscRpm": {
         "message": "电调最高转速"
+    },
+    "osdDescStatMinLinkQuality": {
+        "message": "基于帧丢失情况的“连接质量”的替代图标的最小值"
+    },
+    "osdDescStatFlightDistance": {
+        "message": "此次飞行中的总行程"
     },
     "osdTimerSource": {
         "message": "来源："
