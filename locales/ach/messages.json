@@ -3607,6 +3607,9 @@
     "osdDescStatFlightDistance": {
         "message": "crwdns8920:0crwdne8920:0"
     },
+    "osdDescStatMaxFFT": {
+        "message": "crwdns8922:0crwdne8922:0"
+    },
     "osdTimerSource": {
         "message": "crwdns6293:0crwdne6293:0"
     },
