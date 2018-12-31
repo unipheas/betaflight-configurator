@@ -3552,6 +3552,9 @@
     "osdDescStatFlightDistance": {
         "message": "Distância total percorrida durante o voo"
     },
+    "osdDescStatMaxFFT": {
+        "message": "Pico de frequência FFT"
+    },
     "osdTimerSource": {
         "message": "Origem:"
     },
