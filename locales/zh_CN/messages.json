@@ -3555,6 +3555,9 @@
     "osdDescStatFlightDistance": {
         "message": "此次飞行中的总行程"
     },
+    "osdDescStatMaxFFT": {
+        "message": "FFT峰值频率"
+    },
     "osdTimerSource": {
         "message": "来源："
     },
