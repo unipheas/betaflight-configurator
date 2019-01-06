@@ -3555,6 +3555,9 @@
     "osdDescStatFlightDistance": {
         "message": "この飛行での総飛行距離"
     },
+    "osdDescStatMaxFFT": {
+        "message": "FFTのピーク周波数"
+    },
     "osdTimerSource": {
         "message": "ソース:"
     },
