@@ -1077,6 +1077,9 @@
     "beeperCAM_CONNECTION_CLOSE": {
         "message": "crwdns8762:0crwdne8762:0"
     },
+    "beeperRC_SMOOTHING_INIT_FAIL": {
+        "message": "crwdns8924:0crwdne8924:0"
+    },
     "configuration3d": {
         "message": "crwdns5630:0crwdne5630:0"
     },
@@ -3648,6 +3651,24 @@
     },
     "osdWarningEscFail": {
         "message": "crwdns8711:0crwdne8711:0"
+    },
+    "osdWarningCoreTemperature": {
+        "message": "crwdns8926:0crwdne8926:0"
+    },
+    "osdWarningRcSmoothingFailure": {
+        "message": "crwdns8928:0crwdne8928:0"
+    },
+    "osdWarningFailsafe": {
+        "message": "crwdns8930:0crwdne8930:0"
+    },
+    "osdWarningLaunchControl": {
+        "message": "crwdns8932:0crwdne8932:0"
+    },
+    "osdWarningGpsRescueUnavailable": {
+        "message": "crwdns8934:0crwdne8934:0"
+    },
+    "osdWarningGpsRescueDisabled": {
+        "message": "crwdns8936:0crwdne8936:0"
     },
     "osdSectionHelpElements": {
         "message": "crwdns6305:0crwdne6305:0"
