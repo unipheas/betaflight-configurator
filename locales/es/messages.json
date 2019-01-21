@@ -1025,6 +1025,9 @@
     "beeperCAM_CONNECTION_CLOSE": {
         "message": "Pita cuando se sale del control de cámara de 5 teclas"
     },
+    "beeperRC_SMOOTHING_INIT_FAIL": {
+        "message": "Pita cuando está armado y el suavizado rc no ha inicializado los filtros"
+    },
     "configuration3d": {
         "message": "3D"
     },
@@ -3596,6 +3599,24 @@
     },
     "osdWarningEscFail": {
         "message": "Enumera una lista con los ESCs\/motores que están fallando (RPM o temperatura está fuera del umbral configurado)"
+    },
+    "osdWarningCoreTemperature": {
+        "message": "Avisa cuando la temperatura del núcleo MCU excede un rango configurado"
+    },
+    "osdWarningRcSmoothingFailure": {
+        "message": "Avisa cuando la inicialización del Suavizado RC ha fallado"
+    },
+    "osdWarningFailsafe": {
+        "message": "Avisa cuando se ejecuta el Modo de Seguridad"
+    },
+    "osdWarningLaunchControl": {
+        "message": "Avisa cuando el Control de Lanzamiento está activado"
+    },
+    "osdWarningGpsRescueUnavailable": {
+        "message": "Avisa cuando el Rescate GPS no está disponible y no puede ser activado"
+    },
+    "osdWarningGpsRescueDisabled": {
+        "message": "Avisa cuando el Rescate GPS está desactivado"
     },
     "osdSectionHelpElements": {
         "message": "Activa o desactiva elementos del OSD"
