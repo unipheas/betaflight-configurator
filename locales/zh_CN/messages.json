@@ -1025,6 +1025,9 @@
     "beeperCAM_CONNECTION_CLOSE": {
         "message": "当退出5键相机控制模式时发出蜂鸣音"
     },
+    "beeperRC_SMOOTHING_INIT_FAIL": {
+        "message": "当已解锁且 RC 平滑尚未完成滤波器初始化时发出警告"
+    },
     "configuration3d": {
         "message": "3D 电调\/电机功能"
     },
@@ -3596,6 +3599,24 @@
     },
     "osdWarningEscFail": {
         "message": "列举一个出现故障的ESCs\/电机的列表 (RPM 或温度超出配置的阈值)"
+    },
+    "osdWarningCoreTemperature": {
+        "message": "当 MCU 核心温度超过配置的阈值时发出警告"
+    },
+    "osdWarningRcSmoothingFailure": {
+        "message": "当 RC 平滑初始化失败时发出警告"
+    },
+    "osdWarningFailsafe": {
+        "message": "发生失控保护时发出警告"
+    },
+    "osdWarningLaunchControl": {
+        "message": "起飞控制（Launch Control）模式被激活时发出警告"
+    },
+    "osdWarningGpsRescueUnavailable": {
+        "message": "当 GPS 救援不可用且无法激活时发出警告"
+    },
+    "osdWarningGpsRescueDisabled": {
+        "message": "GPS 救援被禁用时发出警告"
     },
     "osdSectionHelpElements": {
         "message": "显示或者隐藏 OSD 显示信息"
