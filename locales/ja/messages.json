@@ -3606,6 +3606,18 @@
     "osdWarningRcSmoothingFailure": {
         "message": "RCスムージングの初期化に失敗した場合に警告"
     },
+    "osdWarningFailsafe": {
+        "message": "フェイルセーフ発生時に警告"
+    },
+    "osdWarningLaunchControl": {
+        "message": "起動制御モードが有効となったときの警告"
+    },
+    "osdWarningGpsRescueUnavailable": {
+        "message": "GPS レスキューが利用できず、有効にならないときに警告"
+    },
+    "osdWarningGpsRescueDisabled": {
+        "message": "GPS レスキューが無効な場合に警告"
+    },
     "osdSectionHelpElements": {
         "message": "OSDを有効、または無効にします。"
     },
