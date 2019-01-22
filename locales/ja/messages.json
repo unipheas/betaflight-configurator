@@ -1025,6 +1025,9 @@
     "beeperCAM_CONNECTION_CLOSE": {
         "message": "5つのキーによるカメラ操作を終了したときのビープ音"
     },
+    "beeperRC_SMOOTHING_INIT_FAIL": {
+        "message": "アーム時にRCスムージングがフィルターを初期化していない場合にビープ音を鳴らす"
+    },
     "configuration3d": {
         "message": "3D ESC \/ モーター機能"
     },
@@ -3596,6 +3599,12 @@
     },
     "osdWarningEscFail": {
         "message": "障害が発生しているESC \/ モーターリストの列挙\n (回転数または温度が設定しきい値を超過)"
+    },
+    "osdWarningCoreTemperature": {
+        "message": "MCUコア温度が設定されたしきい値を超えたときに警告"
+    },
+    "osdWarningRcSmoothingFailure": {
+        "message": "RCスムージングの初期化に失敗した場合に警告"
     },
     "osdSectionHelpElements": {
         "message": "OSDを有効、または無効にします。"
