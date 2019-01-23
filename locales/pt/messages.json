@@ -3670,7 +3670,7 @@
         "message": "Magnetômetro (se suportado)"
     },
     "configurationSmallAngle": {
-        "message": "Angulo máximo permitido para Armar [degrees]"
+        "message": "Angulo máximo permitido para Armar [graus]"
     },
     "configurationSmallAngleHelp": {
         "message": "A aeronave não irá ARMAR se estiver inclinada além do limite de graus especificado. Somente será utilizado se o acelerômetro estiver ativado. Definir um angulo de 180 irá efetivamente desativar esta verificação"
@@ -3760,7 +3760,7 @@
         "message": "Nome da aeronave"
     },
     "configurationFpvCamAngleDegrees": {
-        "message": "Angulo da câmera FPV [degrees]"
+        "message": "Angulo da câmera FPV [graus]"
     },
     "onboardLoggingBlackbox": {
         "message": "Dispositivo de log do Blackbox"
