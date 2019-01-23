@@ -3631,6 +3631,9 @@
     "osdTimerAlarmTooltip": {
         "message": "crwdns6298:0crwdne6298:0"
     },
+    "osdWarningUnknown": {
+        "message": "crwdns8938:0crwdne8938:0"
+    },
     "osdWarningArmingDisabled": {
         "message": "crwdns6299:0crwdne6299:0"
     },
