@@ -3579,6 +3579,9 @@
     "osdTimerAlarmTooltip": {
         "message": "タイマーアラームのしきい値を分単位で選択します。時間がこの値を超えると、OSD表示にて点滅し、これを0に設定するとアラームが無効になります。"
     },
+    "osdWarningUnknown": {
+        "message": "原因不明の警告 (詳細は今後のリリースで対応予定)"
+    },
     "osdWarningArmingDisabled": {
         "message": "アーミングできない最も重大な理由を報告"
     },
