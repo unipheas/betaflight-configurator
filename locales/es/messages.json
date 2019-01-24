@@ -1717,6 +1717,12 @@
     "adjustmentsFunction28": {
         "message": "Corrección de F en Yaw"
     },
+    "adjustmentsFunction29": {
+        "message": "Selección de Perfil OSD"
+    },
+    "adjustmentsFunction30": {
+        "message": "Selección de Perfil LED"
+    },
     "adjustmentsSave": {
         "message": "Guardar"
     },
