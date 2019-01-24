@@ -668,9 +668,6 @@
     "initialSetupArmingAllowed": {
         "message": "アーム許可"
     },
-    "initialSetupArmingDisableFlagsTooltip": {
-        "message": "現在アームが許可されていない理由を示すフラグのリストです。最も重要な値は、アームが行われたときの警告ビープ音の数です。これらのフラグの詳細については、Wiki (Arming Sequence＆Safety) ページを参照して下さい。"
-    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
