@@ -671,9 +671,6 @@
     "initialSetupArmingAllowed": {
         "message": "Arming Diizinkan"
     },
-    "initialSetupArmingDisableFlagsTooltip": {
-        "message": "Daftar rambu yang menunjukkan mengapa arming saat ini tidak di perbolehkan. Nilai pertama dan terpenting sesuai dengan jumlah peringatan beep yang terdengar ketika percobaan arming. Silakan lihat halaman Wiki ('Arming Sequence & Safety') untuk deskripsi tentang arti dari rambu-rambu ini."
-    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
