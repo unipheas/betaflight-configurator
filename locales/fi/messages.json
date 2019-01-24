@@ -563,9 +563,6 @@
     "initialSetupArmingAllowed": {
         "message": "Moottoreiden käynnistys sallittu"
     },
-    "initialSetupArmingDisableFlagsTooltip": {
-        "message": "Lista syistä (flags), joista johtuen moottoreiden käynnistäminen ei ole sallittua tällä hetkellä. Ensimmäinen ja tärkein arvo vastaa varoitusäänimerkkien määrää kun käynnistämistä yritetään. Katso lisätietoa näiden syiden (flags) merkityksistä Wikistä sivulta ('Arming Sequence & Safety')."
-    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
