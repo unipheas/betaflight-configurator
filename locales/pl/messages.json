@@ -539,9 +539,6 @@
     "initialSetupArmingAllowed": {
         "message": "Uzbrajanie dozwolone"
     },
-    "initialSetupArmingDisableFlagsTooltip": {
-        "message": "Lista flag informujących dlaczego uzbrajanie nie jest teraz dozwolone. Pierwsza i najważniejsza wartość odpowiada ilości pisków ostrzegawczych wydawanych podczas próby uzbrojenia. Aby dowiedzieć się o znaczeniu flag odwiedź Wiki (stronę 'Arming Sequence & Safety')."
-    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
