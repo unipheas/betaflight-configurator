@@ -668,9 +668,6 @@
     "initialSetupArmingAllowed": {
         "message": "Armar Permitido"
     },
-    "initialSetupArmingDisableFlagsTooltip": {
-        "message": "Lista de indicadores sobre o porque não é permitido armar. O primeiro e mais importante valor corresponde ao número de avisos sonoros emitidos quando se tenta armar. Consulte o Wiki (página 'Arming Sequence & Safety') para uma descrição do que significam esses indicadores."
-    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
