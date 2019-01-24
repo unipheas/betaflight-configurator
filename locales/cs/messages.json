@@ -650,9 +650,6 @@
     "initialSetupArmingAllowed": {
         "message": "Odjištění povoleno"
     },
-    "initialSetupArmingDisableFlagsTooltip": {
-        "message": "Seznam chyb, které vysvětlují, proč se nemůže odjistit. První a nejdůležitější hodnota koresponduje s počtem varovných pípnutí, které se ozvou při pokusu o odjištění. Podívejte se na Wiki (stránka 'Arming Sequence & Safety') pro popis toho, co tyto chyby znamenají."
-    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
