@@ -668,9 +668,6 @@
     "initialSetupArmingAllowed": {
         "message": "Armement autorisé"
     },
-    "initialSetupArmingDisableFlagsTooltip": {
-        "message": "Liste des paramètres empêchant actuellement l'armement. La première valeur qui est la plus importante correspond aux bips entendus lors d'une tentative d'armement. Veuillez vous référer au Wiki (page 'Arming Sequence & Safety') pour obtenir la description de ces paramètres."
-    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
