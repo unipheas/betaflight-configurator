@@ -672,9 +672,6 @@
     "initialSetupArmingAllowed": {
         "message": "Aktivering Tillåten"
     },
-    "initialSetupArmingDisableFlagsTooltip": {
-        "message": "Lista över flaggor som indikerar varför aktivering just nu inte tillåts. Det första och viktigaste värdet anger antalet varningspip som ljuder vid försök till aktivering. Hänvisa till Wikin (sidan 'Arming Sequence & Safety') för en beskrivning av flaggornas innebörd."
-    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
