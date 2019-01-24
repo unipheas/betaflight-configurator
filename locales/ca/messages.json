@@ -620,9 +620,6 @@
     "initialSetupArmingAllowed": {
         "message": "Armat permès"
     },
-    "initialSetupArmingDisableFlagsTooltip": {
-        "message": "Llista de flags indicant perquè l'armat no està permès actualment. El primer valor i el més important correspon al número de sons d'avís quan s'intenta armar. Mira la Wiki (pàgina 'Arming Sequence & Safety') per veure la descripció d'aquests flags."
-    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
