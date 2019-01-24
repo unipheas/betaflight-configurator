@@ -669,9 +669,6 @@
     "initialSetupArmingAllowed": {
         "message": "Arming erlaubt"
     },
-    "initialSetupArmingDisableFlagsTooltip": {
-        "message": "Anzeige der Gründe warum der Quad nicht gearmt werden kann. Der erste und wichtigste wird gleichzeig mit einer Piesper Sequenz angezeigt. Bitte Wiki prüfen für Lösungen und Beschreibungen was die Gründe genau bedeuten."
-    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
