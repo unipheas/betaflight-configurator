@@ -668,9 +668,6 @@
     "initialSetupArmingAllowed": {
         "message": "允许解锁"
     },
-    "initialSetupArmingDisableFlagsTooltip": {
-        "message": "禁止解锁标志列表。第一个也是最主要的值对应于当尝试解锁时蜂鸣器提示音的次数。具体每个标志所代表的含义请参阅 wiki ('Arming Sequence & Safety' 页) 。"
-    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
