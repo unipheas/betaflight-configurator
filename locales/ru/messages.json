@@ -668,9 +668,6 @@
     "initialSetupArmingAllowed": {
         "message": "Arming разрешён"
     },
-    "initialSetupArmingDisableFlagsTooltip": {
-        "message": "Перечень флагов, объясняющих, почему не происходит arming. Первый и самый важный флаг соответствует числу предупреждающих пищаний, возникающих при включении arming. Пожалуйста, обратитесь в Wiki (на странице \"Arming Sequence & Safety\"), чтобы узнать что означает тот или иной флаг."
-    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
