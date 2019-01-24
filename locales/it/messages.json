@@ -653,9 +653,6 @@
     "initialSetupArmingAllowed": {
         "message": "Armamento motori consentito"
     },
-    "initialSetupArmingDisableFlagsTooltip": {
-        "message": "Elenco di flag che indicano perché non è attualmente consentito armare i motori. Il primo e più importante valore corrisponde al numero di bip di avvertimento che suonano quando si tenta di armare. Si prega di fare riferimento alla pagina Wiki ('Arming Sequence & Safety') per una descrizione di cosa significano questi flag."
-    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
