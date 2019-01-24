@@ -668,9 +668,6 @@
     "initialSetupArmingAllowed": {
         "message": "Aktivizēšana atļauta"
     },
-    "initialSetupArmingDisableFlagsTooltip": {
-        "message": "Saraksts ar karogiem, kas indicē kāpēc aktivizācija nav atļauta. Pirmā un viss svarīgākā vērtība atbilst brīdinājuma pīkstienu skaitam, kas skan, kad mēģina aktivizēt. Lūdzu vērsieties Wiki ('Arming Sequence & Safety' lapā) priekš apraksta ko katrs karogs nozīmē."
-    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
