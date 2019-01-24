@@ -479,9 +479,6 @@
     "initialSetupArmingAllowed": {
         "message": "Armado Permitido"
     },
-    "initialSetupArmingDisableFlagsTooltip": {
-        "message": "Lista de flags indicando porqué o armado non está actualmente permitido. O primeiro e máis importante valor corresponde ó número de pitidos de aviso que soan cando se intenta o armado. Por favor, véxase a Wiki (páxina 'Secuencia de armado e Seguridade') para unha descripción do significado destos pitidos."
-    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
