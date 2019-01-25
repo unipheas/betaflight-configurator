@@ -668,6 +668,10 @@
     "initialSetupArmingAllowed": {
         "message": "アーム許可"
     },
+    "initialSetupArmingDisableFlagsTooltipRESC": {
+        "message": "'GPSレスキュー' スイッチが有効になりました",
+        "description": "Description of the RESC arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "他のフラグの1つはアーム時にフラグを解除",
         "description": "Description of the ARM_SWITCH arming disable flag"
