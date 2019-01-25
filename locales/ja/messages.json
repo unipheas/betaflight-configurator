@@ -671,6 +671,22 @@
     "initialSetupArmingDisableFlagsTooltip": {
         "message": "なぜアームが現在許可されていないかを示すフラグのリスト。 詳しくは、フラグにマウスオーバーするか、Wiki (『Arming Sequence＆Safety』ページ) を参照して下さい。"
     },
+    "initialSetupArmingDisableFlagsTooltipANGLE": {
+        "message": "機体が (十分に) 水平ではありません",
+        "description": "Description of the ANGLE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
+        "message": "電源ON直後のアーミング",
+        "description": "Description of the BOOT_GRACE_TIME arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipNOPREARM": {
+        "message": "PreArmスイッチが作動していない、またはディスアーム後にPreArmスイッチが正しい位置に戻っていない可能性があります",
+        "description": "Description of the NOPREARM arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipLOAD": {
+        "message": "安全な飛行にはシステム負荷が高すぎます",
+        "description": "Description of the LOAD arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipCLI": {
         "message": "CLI コマンドライン 有効",
         "description": "Description of the CLI arming disable flag"
