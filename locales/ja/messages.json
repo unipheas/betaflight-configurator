@@ -668,6 +668,14 @@
     "initialSetupArmingAllowed": {
         "message": "アーム許可"
     },
+    "initialSetupArmingDisableFlagsTooltipPARALYZE": {
+        "message": "パーアライズモードが有効になっています",
+        "description": "Description of the PARALYZE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipGPS": {
+        "message": "GPSレスキューモードは設定されているが、必要な衛星数が未決定",
+        "description": "Description of the GPS arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipRESC": {
         "message": "'GPSレスキュー' スイッチが有効になりました",
         "description": "Description of the RESC arming disable flag"
