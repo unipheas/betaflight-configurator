@@ -668,6 +668,10 @@
     "initialSetupArmingAllowed": {
         "message": "アーム許可"
     },
+    "initialSetupArmingDisableFlagsTooltipMSP": {
+        "message": "おそらくこのBetaflight Configuratorで、MSP接続は有効です",
+        "description": "Description of the MSP arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
         "message": "パーアライズモードが有効になっています",
         "description": "Description of the PARALYZE arming disable flag"
