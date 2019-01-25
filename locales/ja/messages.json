@@ -669,14 +669,42 @@
         "message": "アーム許可"
     },
     "initialSetupArmingDisableFlagsTooltip": {
-        "message": "なぜアームが現在許可されていないかを示すフラグのリスト。 詳しくは、フラグにマウスオーバーするか、Wiki (『Arming Sequence＆Safety』ページ) を参照して下さい。"
+        "message": "なぜアームが現在許可されていないかを示すフラグのリストです。 詳しくはフラグにマウスオーバーするか、Wiki ( Arming Sequence＆Safety ページ) を参照して下さい。"
+    },
+    "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
+        "message": "ジャイロセンサーが検出されませんでした",
+        "description": "Description of the NO GYRO arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
+        "message": "フェイルセーフが有効です",
+        "description": "Description of the FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
+        "message": "有効な受信機からの信号が検出されません",
+        "description": "Description of the RX_FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBAD_RX_RECOVERY": {
+        "message": "受信機はフェイルセーフから回復したばかりですが、アームスイッチはオンのままです",
+        "description": "Description of the BAD_RX_RECOVERY arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
+        "message": "「フェイルセーフ」スイッチが有効です",
+        "description": "Description of the BOXFAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
+        "message": "暴走離陸防止機能が実行されました",
+        "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
+        "message": "スロットルチャンネルが高すぎます",
+        "description": "Description of the THROTTLE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipANGLE": {
         "message": "機体が (十分に) 水平ではありません",
         "description": "Description of the ANGLE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
-        "message": "電源ON直後のアーミング",
+        "message": "電源ON直後のアーミングです",
         "description": "Description of the BOOT_GRACE_TIME arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipNOPREARM": {
@@ -687,12 +715,16 @@
         "message": "安全な飛行にはシステム負荷が高すぎます",
         "description": "Description of the LOAD arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
+        "message": "センサーキャリブレーションがまだ実行中です",
+        "description": "Description of the CALIBRATING arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipCLI": {
-        "message": "CLI コマンドライン 有効",
+        "message": "CLI コマンドラインが有効です",
         "description": "Description of the CLI arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
-        "message": "CMS (設定メニュー) 有効 - OSD上または他ディスプレイ -",
+        "message": "CMS (設定メニュー) が有効です - OSD上または他ディスプレイ -",
         "description": "Description of the CMS_MENU arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
@@ -708,11 +740,11 @@
         "description": "Description of the MSP arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
-        "message": "パーアライズモードが有効になっています",
+        "message": "パラライズモードが有効になっています",
         "description": "Description of the PARALYZE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipGPS": {
-        "message": "GPSレスキューモードは設定されているが、必要な衛星数が未決定",
+        "message": "GPSレスキューモードは設定されていますが、必要な衛星数が未確定です",
         "description": "Description of the GPS arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRESC": {
@@ -720,7 +752,7 @@
         "description": "Description of the RESC arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
-        "message": "他のフラグの1つはアーム時にフラグを解除",
+        "message": "他のフラグの1つはアーム時にフラグを解除します",
         "description": "Description of the ARM_SWITCH arming disable flag"
     },
     "initialSetupGPSHead": {
