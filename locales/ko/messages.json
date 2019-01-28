@@ -3705,6 +3705,9 @@
     "osdWarningRcSmoothingFailure": {
         "message": "RC 스무딩 초기화 실패시 경고합니다"
     },
+    "osdWarningFailsafe": {
+        "message": "페일세이프 발생시 경고합니다"
+    },
     "osdWarningLaunchControl": {
         "message": "론치 제어 모드가 활성화되면 경고합니다"
     },
