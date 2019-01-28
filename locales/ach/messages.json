@@ -3610,6 +3610,12 @@
     "osdDescElementFlightDist": {
         "message": "crwdns8914:0crwdne8914:0"
     },
+    "osdDescElementStickOverlayLeft": {
+        "message": "crwdns8988:0crwdne8988:0"
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "crwdns8990:0crwdne8990:0"
+    },
     "osdDescElementTimer1": {
         "message": "crwdns6273:0crwdne6273:0"
     },
