@@ -3558,6 +3558,12 @@
     "osdDescElementFlightDist": {
         "message": "Distancia volada durante este vuelo."
     },
+    "osdDescElementStickOverlayLeft": {
+        "message": "Superposición de la posición del mando izquierdo del transmisor."
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "Superposición de la posición del mando derecho del transmisor."
+    },
     "osdDescElementTimer1": {
         "message": "Muestra el valor del temporizador 1"
     },
