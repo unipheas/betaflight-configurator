@@ -668,6 +668,18 @@
     "initialSetupArmingAllowed": {
         "message": "允许解锁"
     },
+    "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
+        "message": "失控保护已激活",
+        "description": "Description of the FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
+        "message": "已触发起飞防暴走模式",
+        "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipLOAD": {
+        "message": "系统负载过高, 无法安全飞行",
+        "description": "Description of the LOAD arming disable flag"
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
@@ -3575,6 +3587,9 @@
     },
     "osdTimerAlarmTooltip": {
         "message": "设置计时器警报时间（分钟）。当计时器时间大于设置时间，将会在OSD上面闪烁。设定为0可禁用报警。"
+    },
+    "osdWarningUnknown": {
+        "message": "未知警告 (会在将来的版本中添加详细信息)"
     },
     "osdWarningArmingDisabled": {
         "message": "显示导致不能解锁最主要的原因"
