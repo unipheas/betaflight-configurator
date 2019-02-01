@@ -680,6 +680,10 @@
         "message": "系统负载过高, 无法安全飞行",
         "description": "Description of the LOAD arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipPARALYZE": {
+        "message": "瘫痪模式已被激活",
+        "description": "Description of the PARALYZE arming disable flag"
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
