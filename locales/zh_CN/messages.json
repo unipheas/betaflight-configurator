@@ -668,6 +668,10 @@
     "initialSetupArmingAllowed": {
         "message": "允许解锁"
     },
+    "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
+        "message": "未检测到陀螺仪",
+        "description": "Description of the NO GYRO arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
         "message": "失控保护已激活",
         "description": "Description of the FAILSAFE arming disable flag"
