@@ -731,6 +731,30 @@
         "message": "OSD izvēlne ir aktīva",
         "description": "Description of the OSD_MENU arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipBST": {
+        "message": "Black Sheep telemetrijas ierīce (piem. TBS Core Pro) ir deaktivēta un nepieļauj aktivizēšanu",
+        "description": "Description of the BST arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipMSP": {
+        "message": "MSP savienojums ir aktīvs, visdrīzāk ar Betaflight Configurator",
+        "description": "Description of the MSP arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipPARALYZE": {
+        "message": "Paralizēšanas režīms tika aktivizēts",
+        "description": "Description of the PARALYZE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipGPS": {
+        "message": "GPS glābšanas režīms ir nokonfigurēts, bet nepieciešama vairāku satelītu fiksācija",
+        "description": "Description of the GPS arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRESC": {
+        "message": "'GPS' slēdzis tika aktivizēts",
+        "description": "Description of the RESC arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
+        "message": "Viens no citiem dezaktivācijas karogiem ir aktīvs, kad aktivizē",
+        "description": "Description of the ARM_SWITCH arming disable flag"
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
@@ -1084,6 +1108,9 @@
     },
     "beeperCAM_CONNECTION_CLOSE": {
         "message": "Pīkstēt, kad 5 pogu kameras kontrole ir pabeigta"
+    },
+    "beeperRC_SMOOTHING_INIT_FAIL": {
+        "message": "Pīkstēt, kad aktivizēts un rc izlīdzināšanas filtri nav inicializējušies"
     },
     "configuration3d": {
         "message": "3D ESC\/Motora iespējas"
@@ -1773,6 +1800,12 @@
     },
     "adjustmentsFunction28": {
         "message": "Yaw F korekcija"
+    },
+    "adjustmentsFunction29": {
+        "message": "OSD profila izvēle"
+    },
+    "adjustmentsFunction30": {
+        "message": "LED profila izvēle"
     },
     "adjustmentsSave": {
         "message": "Saglabāt"
@@ -3426,6 +3459,9 @@
     "osdDescElementCraftName": {
         "message": "Konfigurācijas cilnē iestatītais gaisa kuģa vārds"
     },
+    "osdDescElementDisplayName": {
+        "message": "Rādīt vārdu, kas iestatīts Konfigurācijas cilnē"
+    },
     "osdDescElementAltitude": {
         "message": "Patreizējais augstums (mirgo, ja ir virs trauksmes sliekšņa)"
     },
@@ -3519,6 +3555,18 @@
     "osdDescElementFlipArrow": {
         "message": "Bultiņa parāda kurā pusē motori ir bruņurupuča režīmā"
     },
+    "osdDescElementLinkQuality": {
+        "message": "Savienojuma kvalitātes alternatīvais indikators, kas balstās uz datu paku zuduma"
+    },
+    "osdDescElementFlightDist": {
+        "message": "Šī lidojuma distance."
+    },
+    "osdDescElementStickOverlayLeft": {
+        "message": "Raidītāja kreisās vadības sviras pozīcijas overlais."
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "Raidītāja labās vadības sviras pozīcijas overlais."
+    },
     "osdDescElementTimer1": {
         "message": "Rādīt taimera 1 vērtību"
     },
@@ -3539,6 +3587,9 @@
     },
     "osdDescGForce": {
         "message": "Parādīt cik lielu G-Spēku piedzīvo gaisa kuģis"
+    },
+    "osdDescElementMotorDiag": {
+        "message": "Parādīt katra motora izejas grafisko joslu"
     },
     "osdDescElementLogStatus": {
         "message": "Melnā kastes numurs un brīdinājumi"
@@ -3600,6 +3651,15 @@
     "osdDescStatEscRpm": {
         "message": "Max ESC RPM"
     },
+    "osdDescStatMinLinkQuality": {
+        "message": "Minimums no savienojuma kvalitātes alternatīvā indikatora"
+    },
+    "osdDescStatFlightDistance": {
+        "message": "Kopējā lidojuma distance"
+    },
+    "osdDescStatMaxFFT": {
+        "message": "Pīķa FFT frekvence"
+    },
     "osdTimerSource": {
         "message": "Avots:"
     },
@@ -3617,6 +3677,9 @@
     },
     "osdTimerAlarmTooltip": {
         "message": "Izvēlēties taimera trauksmes slieksni minūtēs, kad tiks sasniegta šī vērtība, OSD elements sāks mirgot, uzstādiet 0, lai atslēgtu trauksmi"
+    },
+    "osdWarningUnknown": {
+        "message": "Nezināms brīdinājums (detaļas tiks pievienotas nākotnes relīzēs)"
     },
     "osdWarningArmingDisabled": {
         "message": "Ziņo par visiespējamāko iemeslu kāpēc neaktivizējas"
@@ -3638,6 +3701,24 @@
     },
     "osdWarningEscFail": {
         "message": "Uzskaita sarakstu ar tiem ESC\/Motoriem, kas ir nederīgi (RPM vai temperatūra ir ārpus uzstādītajām robežlīnijām)"
+    },
+    "osdWarningCoreTemperature": {
+        "message": "Brīdināt, kad MCU kodola temperatūra sasniedz uzstādīto robežvērtību"
+    },
+    "osdWarningRcSmoothingFailure": {
+        "message": "Brīdināt, kad RC izlīdzināšanas inicializācija neizdevās"
+    },
+    "osdWarningFailsafe": {
+        "message": "Brīdināt, kad Failsafe situācija rodas"
+    },
+    "osdWarningLaunchControl": {
+        "message": "Brīdināt, kad Palaišanas Kontroles režīms ir aktivizēts"
+    },
+    "osdWarningGpsRescueUnavailable": {
+        "message": "Brīdināt, kad GPS glābšana nav pieejama vai neiespējams aktivizēt"
+    },
+    "osdWarningGpsRescueDisabled": {
+        "message": "Brīdināt, kad GPS glābšana ir atslēgta"
     },
     "osdSectionHelpElements": {
         "message": "Ieslēgt vai izslēgt OSD elementus."
