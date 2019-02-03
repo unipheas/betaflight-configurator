@@ -3459,6 +3459,9 @@
     "osdDescElementCraftName": {
         "message": "[設定] タブで設定した機体名"
     },
+    "osdDescElementDisplayName": {
+        "message": "「基本設定」タブでの表示名"
+    },
     "osdDescElementAltitude": {
         "message": "現在の高度 (アラーム値を超えると点滅)"
     },
