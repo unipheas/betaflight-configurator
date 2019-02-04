@@ -762,7 +762,7 @@
         "message": "Tela OLED"
     },
     "featureDISPLAYTip": {
-        "message": "Se esta funcionalidade está ativada, e nenhum dispositivo de imagem está conectado (ou o dispositivo de imagem não está ligado), haverá um atraso de cerca de 10 segundos sempre que reiniciar o controlador de voo."
+        "message": "Se esta funcionalidade está ativa, e nenhum dispositivo de imagem está conectado (ou o dispositivo de imagem não está ligado), haverá um atraso de 10 segundos sempre que reiniciar o controlador de voo."
     },
     "featureONESHOT125": {
         "message": "Suporte a ESC com ONESHOT"
@@ -3400,7 +3400,7 @@
         "message": "Potência elétrica instantânea consumida"
     },
     "osdDescElementPIDRateProfile": {
-        "message": "Display numérico do PID e perfil de taxas ativos"
+        "message": "Mostra o número do perfil de PID e taxas em uso"
     },
     "osdDescElementBatteryWarning": {
         "message": "Texto de alerta que aparece quando a voltagem da bateria fica abaixo do limite"
