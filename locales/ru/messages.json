@@ -668,6 +668,18 @@
     "initialSetupArmingAllowed": {
         "message": "Arming разрешён"
     },
+    "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
+        "message": "Гироскоп не обнаружен",
+        "description": "Description of the NO GYRO arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
+        "message": "Не обнаружен корректный сигнал приёмника",
+        "description": "Description of the RX_FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
+        "message": "Переключатель 'FAILSAFE' активирован",
+        "description": "Description of the BOXFAILSAFE arming disable flag"
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
@@ -1710,6 +1722,12 @@
     },
     "adjustmentsFunction28": {
         "message": "Yaw F корректировка"
+    },
+    "adjustmentsFunction29": {
+        "message": "Выбор профиля OSD"
+    },
+    "adjustmentsFunction30": {
+        "message": "Выбор профиля LED"
     },
     "adjustmentsSave": {
         "message": "Сохранить"
@@ -3455,6 +3473,12 @@
     },
     "osdDescElementFlipArrow": {
         "message": "Стрелка показывает в какой стороне двигатели в режиме черепахи"
+    },
+    "osdDescElementStickOverlayLeft": {
+        "message": "Схема положения для левого стика передатчика."
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "Схема положения для правого стика передатчика."
     },
     "osdDescElementTimer1": {
         "message": "Показать значение таймера 1"
