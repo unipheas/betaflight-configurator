@@ -3246,12 +3246,6 @@
     "osdSetupElementsTitle": {
         "message": "Элементы"
     },
-    "osdSetupElementsSwitchAll": {
-        "message": "Выключить все"
-    },
-    "osdSetupPreviewTitle": {
-        "message": "Предпросмотр (здесь можно двигать элементы мышкой)"
-    },
     "osdSetupPreviewTitleTip": {
         "message": "Показать\/скрыть логотип в окне предпросмотра. Этот переключатель никак не повлияет на настройки полётного контроллера."
     },
