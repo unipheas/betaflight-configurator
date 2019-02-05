@@ -3021,12 +3021,6 @@
     "osdSetupElementsTitle": {
         "message": "Elementi"
     },
-    "osdSetupElementsSwitchAll": {
-        "message": "Scambia tutti"
-    },
-    "osdSetupPreviewTitle": {
-        "message": "Anteprima (trascina per cambiare posizione)"
-    },
     "osdSetupPreviewTitleTip": {
         "message": "Mostra o nascondi il logo nella finestra di anteprima. Questo non cambierà alcuna impostazione sul controller di volo."
     },
