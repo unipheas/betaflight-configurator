@@ -3324,12 +3324,6 @@
     "osdSetupElementsTitle": {
         "message": "Elementos"
     },
-    "osdSetupElementsSwitchAll": {
-        "message": "Activar todo"
-    },
-    "osdSetupPreviewTitle": {
-        "message": "Vista previa (arrastra para cambiar posición)"
-    },
     "osdSetupPreviewTitleTip": {
         "message": "Muestra u oculta el logo en la ventana de vista previa. Esto no cambiar ningún ajuste en el controlador de vuelo."
     },
