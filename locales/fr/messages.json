@@ -3225,12 +3225,6 @@
     "osdSetupElementsTitle": {
         "message": "Elements"
     },
-    "osdSetupElementsSwitchAll": {
-        "message": "Tout"
-    },
-    "osdSetupPreviewTitle": {
-        "message": "Aperçu (faites glisser pour changer de position)"
-    },
     "osdSetupPreviewTitleTip": {
         "message": "Afficher ou masquer le logo dans la fenêtre d'aperçu. Cela ne changera aucun paramètre sur le contrôleur de vol."
     },
