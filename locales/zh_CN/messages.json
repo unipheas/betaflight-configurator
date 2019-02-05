@@ -668,6 +668,9 @@
     "initialSetupArmingAllowed": {
         "message": "允许解锁"
     },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "阻止解锁的原因列表。将鼠标停留在标志上以获得信息，或参考Wiki中的(解锁顺序与安全) 章节。"
+    },
     "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
         "message": "未检测到陀螺仪",
         "description": "Description of the NO GYRO arming disable flag"
@@ -676,9 +679,29 @@
         "message": "失控保护已激活",
         "description": "Description of the FAILSAFE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
+        "message": "未检测到有效的接收机信号",
+        "description": "Description of the RX_FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBAD_RX_RECOVERY": {
+        "message": "你的接收机刚刚从接收机失控保护中恢复，但解锁开关处于已解锁状态。",
+        "description": "Description of the BAD_RX_RECOVERY arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
+        "message": "失控保护模式开关已激活",
+        "description": "Description of the BOXFAILSAFE arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
         "message": "已触发起飞防暴走模式",
         "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
+        "message": "油门通道值过高",
+        "description": "Description of the THROTTLE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipANGLE": {
+        "message": "飞行器未（充分）放平",
+        "description": "Description of the ANGLE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipLOAD": {
         "message": "系统负载过高, 无法安全飞行",
