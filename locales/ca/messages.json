@@ -2857,12 +2857,6 @@
     "osdSetupElementsTitle": {
         "message": "Elements"
     },
-    "osdSetupElementsSwitchAll": {
-        "message": "Activa tot"
-    },
-    "osdSetupPreviewTitle": {
-        "message": "Previsualització (arrossega per a canviar la posició)"
-    },
     "osdSetupPreviewTitleTip": {
         "message": "Mostra o amaga el logo a la finestra de previsualització. Això no canviarà cap configuració a la controladora de vol."
     },
