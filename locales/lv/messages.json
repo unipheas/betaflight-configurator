@@ -3324,12 +3324,6 @@
     "osdSetupElementsTitle": {
         "message": "Elementi"
     },
-    "osdSetupElementsSwitchAll": {
-        "message": "Pārslēgt visu"
-    },
-    "osdSetupPreviewTitle": {
-        "message": "Priekšskatīt (velciet, lai mainītu pozīciju)"
-    },
     "osdSetupPreviewTitleTip": {
         "message": "Rādīt vai slēpt logotipu priekšskatījuma logā. Šis nemainīs nekādus iestatījumus lidojuma kontrolierī."
     },
