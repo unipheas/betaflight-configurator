@@ -703,13 +703,57 @@
         "message": "飞行器未（充分）放平",
         "description": "Description of the ANGLE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
+        "message": "上电后解锁太早",
+        "description": "Description of the BOOT_GRACE_TIME arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipNOPREARM": {
+        "message": "预解锁开关没有激活或者预解锁开关没有在锁定后复位",
+        "description": "Description of the NOPREARM arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipLOAD": {
         "message": "系统负载过高, 无法安全飞行",
         "description": "Description of the LOAD arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
+        "message": "传感器校准仍在进行中",
+        "description": "Description of the CALIBRATING arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCLI": {
+        "message": "CLI (命令行) 已激活",
+        "description": "Description of the CLI arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
+        "message": "CMS（配置菜单）在OSD或者其他显示设备中处于激活状态",
+        "description": "Description of the CMS_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
+        "message": "OSD菜单处于激活状态",
+        "description": "Description of the OSD_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBST": {
+        "message": "一个黑羊遥测设备(例如TBS Core Pro) 已上锁并阻止解锁",
+        "description": "Description of the BST arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipMSP": {
+        "message": "MSP 连接已激活，可能正与当前的配置程序通信中。",
+        "description": "Description of the MSP arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
         "message": "瘫痪模式已被激活（已扑街）",
         "description": "Description of the PARALYZE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipGPS": {
+        "message": "已配置GPS救援模式，但尚未锁定所需数量的卫星。",
+        "description": "Description of the GPS arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRESC": {
+        "message": "“GPS救援”开关已激活",
+        "description": "Description of the RESC arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
+        "message": "解锁时有一个阻止解锁的标志处于活跃状态",
+        "description": "Description of the ARM_SWITCH arming disable flag"
     },
     "initialSetupGPSHead": {
         "message": "GPS"
@@ -1756,6 +1800,12 @@
     },
     "adjustmentsFunction28": {
         "message": "方向 F 调整"
+    },
+    "adjustmentsFunction29": {
+        "message": "选择OSD配置文件"
+    },
+    "adjustmentsFunction30": {
+        "message": "选择LED配置文件"
     },
     "adjustmentsSave": {
         "message": "保存"
@@ -3409,6 +3459,9 @@
     "osdDescElementCraftName": {
         "message": "设置页面里设置的飞行器名称"
     },
+    "osdDescElementDisplayName": {
+        "message": "显示在配置程序中设置的名称"
+    },
     "osdDescElementAltitude": {
         "message": "当前高度 (当超过设置的警告高度时会闪烁)"
     },
@@ -3507,6 +3560,12 @@
     },
     "osdDescElementFlightDist": {
         "message": "此次飞行中的飞行距离"
+    },
+    "osdDescElementStickOverlayLeft": {
+        "message": "遥控器左摇杆的叠层位置"
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "遥控器右摇杆的叠层位置"
     },
     "osdDescElementTimer1": {
         "message": "显示计时器1"
