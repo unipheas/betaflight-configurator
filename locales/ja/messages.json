@@ -3324,12 +3324,6 @@
     "osdSetupElementsTitle": {
         "message": "構成要素"
     },
-    "osdSetupElementsSwitchAll": {
-        "message": "全スイッチ"
-    },
-    "osdSetupPreviewTitle": {
-        "message": "プレビュー (ドラッグして位置を変更)"
-    },
     "osdSetupPreviewTitleTip": {
         "message": "表示またはプレビューウィンドウでロゴを非表示にします。フライトコント ローラの設定は変わりません。"
     },
