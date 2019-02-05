@@ -3225,12 +3225,6 @@
     "osdSetupElementsTitle": {
         "message": "Elementos"
     },
-    "osdSetupElementsSwitchAll": {
-        "message": "Ativar todos"
-    },
-    "osdSetupPreviewTitle": {
-        "message": "Pré-visualizar (Arraste para mudar a posição)"
-    },
     "osdSetupPreviewTitleTip": {
         "message": "Mostrar ou esconder o logo na janela de pré-visualização. Isso não irá afetar nenhuma configuração no controlador de voo."
     },
