@@ -3226,12 +3226,6 @@
     "osdSetupElementsTitle": {
         "message": "Elemente"
     },
-    "osdSetupElementsSwitchAll": {
-        "message": "Alle aktivieren"
-    },
-    "osdSetupPreviewTitle": {
-        "message": "Vorschau (Ziehen um Position zu ändern)"
-    },
     "osdSetupPreviewTitleTip": {
         "message": "Logo in der Vorschau anzeigen oder nicht anzeigen. Ändert keine Einstellungen des Flight Controllers."
     },
