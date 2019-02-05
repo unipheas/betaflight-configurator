@@ -3231,12 +3231,6 @@
     "osdSetupElementsTitle": {
         "message": "Elemen"
     },
-    "osdSetupElementsSwitchAll": {
-        "message": "Alihkan semua"
-    },
-    "osdSetupPreviewTitle": {
-        "message": "Tinjauan (tarik untuk mengubah posisi)"
-    },
     "osdSetupPreviewTitleTip": {
         "message": "Tampilkan atau sembunyikan logo di jendela peninjauan. Ini tidak akan mengubah pengaturan apapun pada pengontrol penerbangan."
     },
