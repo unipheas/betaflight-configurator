@@ -3211,12 +3211,6 @@
     "osdSetupElementsTitle": {
         "message": "Element"
     },
-    "osdSetupElementsSwitchAll": {
-        "message": "Växla alla"
-    },
-    "osdSetupPreviewTitle": {
-        "message": "Förhandsvisning (dra för att ändra position)"
-    },
     "osdSetupPreviewTitleTip": {
         "message": "Visa eller dölj logo i förhandsvisningen. Detta ändrar inga inställningar i flygkontrollern."
     },
