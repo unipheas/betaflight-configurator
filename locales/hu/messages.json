@@ -2003,12 +2003,6 @@
     "osdSetupElementsTitle": {
         "message": "Elemek"
     },
-    "osdSetupElementsSwitchAll": {
-        "message": "Mindent átkapcsolni"
-    },
-    "osdSetupPreviewTitle": {
-        "message": "Előnézet (húzza a megfelelő helyre)"
-    },
     "osdSetupPreviewTitleTip": {
         "message": "Logó rejtése, vagy megjelenítése az előnézeti képen. Nem érint semmilyen beállítást a repülésirányítón."
     },
