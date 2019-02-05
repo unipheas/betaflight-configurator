@@ -3324,12 +3324,6 @@
     "osdSetupElementsTitle": {
         "message": "元素"
     },
-    "osdSetupElementsSwitchAll": {
-        "message": "开关全部"
-    },
-    "osdSetupPreviewTitle": {
-        "message": "预览 (可以通过拖拽来改变位置)"
-    },
     "osdSetupPreviewTitleTip": {
         "message": "在预览窗口显示或者隐藏Betalight logo。这选项不会影响飞控上的设置。"
     },
