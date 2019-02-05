@@ -3324,12 +3324,6 @@
     "osdSetupElementsTitle": {
         "message": "요소"
     },
-    "osdSetupElementsSwitchAll": {
-        "message": "모두 켜기"
-    },
-    "osdSetupPreviewTitle": {
-        "message": "미리보기 (위치를 변경하려면 드래그 하세요.)"
-    },
     "osdSetupPreviewTitleTip": {
         "message": "미리보기 화면에서 로고를 보기 또는 숨기기 하세요. 이는 비행 컨트롤러의 어떠한 설정도 변경하지 않습니다."
     },
