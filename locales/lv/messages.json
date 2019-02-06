@@ -3321,8 +3321,20 @@
     "osdSetupUnsupportedNote2": {
         "message": "Ņemiet vēra to ka dažiem lidojuma kontrolieriem uz plates ir <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a>, kas var būt saprogrammēts un konfigurēts ar <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>, toties MinimOSD nevar nokonfigurēt caur šo interfeisu."
     },
+    "osdSetupProfilesTitle": {
+        "message": "OSD Profila numurs",
+        "description": "Description of the header of the OSD elements column associated to each profile"
+    },
     "osdSetupElementsTitle": {
         "message": "Elementi"
+    },
+    "osdSetupPreviewTitle": {
+        "message": "Velciet elementu, lai mainītu pozīciju",
+        "description": "Indicates in the preview window of the OSD that the user can drag the elements to reorder them"
+    },
+    "osdSetupPreviewSelectProfileTitle": {
+        "message": "Priekšskatījums",
+        "description": "Label of the selector for the OSD Profile in the preview"
     },
     "osdSetupPreviewTitleTip": {
         "message": "Rādīt vai slēpt logotipu priekšskatījuma logā. Šis nemainīs nekādus iestatījumus lidojuma kontrolierī."
