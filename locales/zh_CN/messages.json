@@ -3321,8 +3321,32 @@
     "osdSetupUnsupportedNote2": {
         "message": "注意，有的飞控带有 <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a> ，可以通过<a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>来烧录和设置，但是这样的飞控不能通过此页面来设置参数。"
     },
+    "osdSetupProfilesTitle": {
+        "message": "OSD 配置文件编号",
+        "description": "Description of the header of the OSD elements column associated to each profile"
+    },
     "osdSetupElementsTitle": {
         "message": "元素"
+    },
+    "osdSetupPreviewTitle": {
+        "message": "拖动元素以更改位置",
+        "description": "Indicates in the preview window of the OSD that the user can drag the elements to reorder them"
+    },
+    "osdSetupPreviewSelectProfileTitle": {
+        "message": "预览",
+        "description": "Label of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupSelectedProfileTitle": {
+        "message": "激活OSD配置文件",
+        "description": "Title of the box to select the current active OSD profile"
+    },
+    "osdSetupSelectedProfileLabel": {
+        "message": "当前：",
+        "description": "Label for the selection of the curren active OSD profile"
+    },
+    "osdSetupPreviewSelectProfileElement": {
+        "message": "OSD配置文件 {{profileNumber}}",
+        "description": "Content of the selector for the OSD Profile in the preview"
     },
     "osdSetupPreviewTitleTip": {
         "message": "在预览窗口显示或者隐藏Betalight logo。这选项不会影响飞控上的设置。"
