@@ -668,6 +668,38 @@
     "initialSetupArmingAllowed": {
         "message": "Armement autorisé"
     },
+    "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
+        "message": "Un gyro n'a pas été détecté",
+        "description": "Description of the NO GYRO arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
+        "message": "Failsafe actif",
+        "description": "Description of the FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
+        "message": "Aucun signal valide du récepteur détecté",
+        "description": "Description of the RX_FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBAD_RX_RECOVERY": {
+        "message": "Votre récepteur vient juste de récupérer du failsafe mais l'interrupteur d'armement est activé",
+        "description": "Description of the BAD_RX_RECOVERY arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
+        "message": "L'interrupteur FAILSAFE était activé",
+        "description": "Description of the BOXFAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
+        "message": "La prévention au décollage intempestif a été activée",
+        "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
+        "message": "Voie des gaz est trop élevée",
+        "description": "Description of the THROTTLE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipANGLE": {
+        "message": "Votre appareil n'est pas (assez) à l'horizontale",
+        "description": "Description of the ANGLE arming disable flag"
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
@@ -1021,6 +1053,9 @@
     },
     "beeperCAM_CONNECTION_CLOSE": {
         "message": "Bip lors de la sortie du mode émulation du pad 5 points caméra"
+    },
+    "beeperRC_SMOOTHING_INIT_FAIL": {
+        "message": "Bip à l'armement quand le lissage rc n'a pas initialisé les filtres"
     },
     "configuration3d": {
         "message": "Fonctions ESC\/Moteurs 3D"
@@ -1707,6 +1742,12 @@
     },
     "adjustmentsFunction28": {
         "message": "Ajustement du F Yaw"
+    },
+    "adjustmentsFunction29": {
+        "message": "Sélection du profil OSD"
+    },
+    "adjustmentsFunction30": {
+        "message": "Sélection du profil LED"
     },
     "adjustmentsSave": {
         "message": "Enregistrer"
@@ -3543,6 +3584,9 @@
     "osdDescStatFlightDistance": {
         "message": "Distance totale parcourue lors du vol"
     },
+    "osdDescStatMaxFFT": {
+        "message": "Pic fréquence FFT"
+    },
     "osdTimerSource": {
         "message": "Source:"
     },
@@ -3560,6 +3604,9 @@
     },
     "osdTimerAlarmTooltip": {
         "message": "Sélectionnez le seuil de l'alarme du timer en minutes, lorsque le temps dépasse cette valeur, l'élément OSD clignote, le réglage à 0 désactive l'alarme"
+    },
+    "osdWarningUnknown": {
+        "message": "Avertissement inconnu (détails à ajouter dans une version ultérieure)"
     },
     "osdWarningArmingDisabled": {
         "message": "Indique la raison la plus grave de ne pas armer"
@@ -3581,6 +3628,15 @@
     },
     "osdWarningEscFail": {
         "message": "Enumère une liste d'ESCs\/moteurs (RPM ou température en dehors des seuils configurés)"
+    },
+    "osdWarningCoreTemperature": {
+        "message": "Alerte quand température max processeur MCU dépasse la valeur configurée"
+    },
+    "osdWarningRcSmoothingFailure": {
+        "message": "Alerte échec initialisation du lissage rc"
+    },
+    "osdWarningFailsafe": {
+        "message": "Alerte Failsafe actif"
     },
     "osdSectionHelpElements": {
         "message": "Activer ou désactiver l'OSD"
