@@ -3638,6 +3638,15 @@
     "osdWarningFailsafe": {
         "message": "Alerte Failsafe actif"
     },
+    "osdWarningLaunchControl": {
+        "message": "Alerte lorsque le mode Launch Crontol est actif"
+    },
+    "osdWarningGpsRescueUnavailable": {
+        "message": "Alerte quand GPS Rescue n'est pas disponible et ne peut pas être activé"
+    },
+    "osdWarningGpsRescueDisabled": {
+        "message": "Alerte quand GPS rescue est désactivé"
+    },
     "osdSectionHelpElements": {
         "message": "Activer ou désactiver l'OSD"
     },
