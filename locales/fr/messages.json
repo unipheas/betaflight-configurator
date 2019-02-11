@@ -668,6 +668,9 @@
     "initialSetupArmingAllowed": {
         "message": "Armement autorisé"
     },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "Liste des drapeaux indicant pourquoi l'armement est actuellement indisponible. Passez la souris sur le drapeaux ou référez vous au wiki (page séquence armement et sécurité ) pour plus d'infos."
+    },
     "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
         "message": "Un gyro n'a pas été détecté",
         "description": "Description of the NO GYRO arming disable flag"
@@ -700,6 +703,10 @@
         "message": "Votre appareil n'est pas (assez) de niveau",
         "description": "Description of the ANGLE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
+        "message": "Armement trop tôt après la mise sous tension",
+        "description": "Description of the BOOT_GRACE_TIME arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipNOPREARM": {
         "message": "Le bouton de pré armement n'est pas activé ou n'a pas été activé aprés un désarmement",
         "description": "Description of the NOPREARM arming disable flag"
@@ -727,6 +734,26 @@
     "initialSetupArmingDisableFlagsTooltipBST": {
         "message": "Un appareil de télémétrie de TBS (Core Pro par exemple) est désarmé et empêche l'armement",
         "description": "Description of the BST arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipMSP": {
+        "message": "La connexion MSP est active, probablement avec ce configurateur Betaflight",
+        "description": "Description of the MSP arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipPARALYZE": {
+        "message": "Le mode Paralyze a été activé",
+        "description": "Description of the PARALYZE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipGPS": {
+        "message": "Le mode de sauvetage GPS est configuré mais le nombre requis de satellites n'a pas été atteint",
+        "description": "Description of the GPS arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRESC": {
+        "message": "Le bouton \"GPS Rescue\" a été activé",
+        "description": "Description of the RESC arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
+        "message": "Un des autres drapeaux désarmés est actif lors de l'armement",
+        "description": "Description of the ARM_SWITCH arming disable flag"
     },
     "initialSetupGPSHead": {
         "message": "GPS"
@@ -3291,8 +3318,32 @@
     "osdSetupUnsupportedNote2": {
         "message": "Note certaines FC ont un  <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD intégré<\/a> qui peut être configuré et flashé avec <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>, le MinimOSD ne peut pas être configuré avec cette interface."
     },
+    "osdSetupProfilesTitle": {
+        "message": "Numéro de profil OSD",
+        "description": "Description of the header of the OSD elements column associated to each profile"
+    },
     "osdSetupElementsTitle": {
         "message": "Elements"
+    },
+    "osdSetupPreviewTitle": {
+        "message": "Glisser les éléments pour changer la position",
+        "description": "Indicates in the preview window of the OSD that the user can drag the elements to reorder them"
+    },
+    "osdSetupPreviewSelectProfileTitle": {
+        "message": "Aperçu pour",
+        "description": "Label of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupSelectedProfileTitle": {
+        "message": "Profil OSD actif",
+        "description": "Title of the box to select the current active OSD profile"
+    },
+    "osdSetupSelectedProfileLabel": {
+        "message": "Courant :",
+        "description": "Label for the selection of the curren active OSD profile"
+    },
+    "osdSetupPreviewSelectProfileElement": {
+        "message": "Profil OSD {{profileNumber}}",
+        "description": "Content of the selector for the OSD Profile in the preview"
     },
     "osdSetupPreviewTitleTip": {
         "message": "Afficher ou masquer le logo dans la fenêtre d'aperçu. Cela ne changera aucun paramètre sur le contrôleur de vol."
@@ -3422,6 +3473,9 @@
     },
     "osdDescElementCraftName": {
         "message": "Nom du modèle comme indiqué dans le configurateur"
+    },
+    "osdDescElementDisplayName": {
+        "message": "Afficher le nom comme défini dans l'onglet Configuration"
     },
     "osdDescElementAltitude": {
         "message": "Altitude ( clignote quand le seuil d'alarme est atteint)"
