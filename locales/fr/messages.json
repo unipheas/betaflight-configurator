@@ -697,7 +697,7 @@
         "description": "Description of the THROTTLE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipANGLE": {
-        "message": "Votre appareil n'est pas (assez) à l'horizontale",
+        "message": "Votre appareil n'est pas (assez) de niveau",
         "description": "Description of the ANGLE arming disable flag"
     },
     "initialSetupGPSHead": {
