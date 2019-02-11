@@ -700,6 +700,34 @@
         "message": "Votre appareil n'est pas (assez) de niveau",
         "description": "Description of the ANGLE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipNOPREARM": {
+        "message": "Le bouton de pré armement n'est pas activé ou n'a pas été activé aprés un désarmement",
+        "description": "Description of the NOPREARM arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipLOAD": {
+        "message": "La charge CPU est trop élevée pour voler en sécurité",
+        "description": "Description of the LOAD arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
+        "message": "L'étalonnage des capteurs est toujours en cours",
+        "description": "Description of the CALIBRATING arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCLI": {
+        "message": "Ligne de Commande active",
+        "description": "Description of the CLI arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
+        "message": "CMS (menu de configuration) est actif - sur OSD ou autre affichage -",
+        "description": "Description of the CMS_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
+        "message": "Le menu OSD est actif",
+        "description": "Description of the OSD_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBST": {
+        "message": "Un appareil de télémétrie de TBS (Core Pro par exemple) est désarmé et empêche l'armement",
+        "description": "Description of the BST arming disable flag"
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
