@@ -2267,6 +2267,12 @@
     "dataflashButtonSaveFile": {
         "message": "crwdns5937:0crwdne5937:0"
     },
+    "dataflashButtonSaveFileDeprecated": {
+        "message": "crwdns9006:0crwdne9006:0"
+    },
+    "dataflashSaveFileDepreciationHint": {
+        "message": "crwdns9008:0$t(onboardLoggingRebootMscText.message)crwdne9008:0"
+    },
     "dataflashButtonErase": {
         "message": "crwdns5938:0crwdne5938:0"
     },
