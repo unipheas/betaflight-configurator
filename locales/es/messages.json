@@ -2215,6 +2215,12 @@
     "dataflashButtonSaveFile": {
         "message": "Guardar flash a archivo..."
     },
+    "dataflashButtonSaveFileDeprecated": {
+        "message": "Guardar flash a archivo... (obsoleto)"
+    },
+    "dataflashSaveFileDepreciationHint": {
+        "message": "Guardar registros de blackbox a través del configurador es lento y relativamente propenso a errores. Se recomienda que en su lugar uses '<b>$t(onboardLoggingRebootMscText.message)<\/b>' (debajo) para activar el Modo de Almacenamiento Masivo, y accedas a tu controlador de vuelo como un un dispositivo de almacenamiento para descargar los archivos de registro."
+    },
     "dataflashButtonErase": {
         "message": "Borrar flash"
     },
