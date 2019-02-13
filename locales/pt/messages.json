@@ -447,7 +447,7 @@
         "message": "Por favor use a opção de atualização de firmware para acessar dispositivos DFU"
     },
     "dfu_erased_kilobytes": {
-        "message": "$1 kB de memória flash foram eliminados <span class=\"message-positive\"> com êxito<\/span>"
+        "message": "$1 kB de memória flash foram eliminados <span class=\"message-positive\"> com sucesso<\/span>"
     },
     "dfu_device_flash_info": {
         "message": "Dispositivo detectado com memória flash de $1 KiB"
@@ -2114,7 +2114,7 @@
         "message": "Memória flash requer o firmware &gt;= 1.8.0."
     },
     "dataflashButtonSaveFile": {
-        "message": "Salvar flash em um arquivo..."
+        "message": "Salvar memória em um arquivo..."
     },
     "dataflashButtonErase": {
         "message": "Apagar flash"
