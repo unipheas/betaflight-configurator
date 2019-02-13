@@ -2215,6 +2215,9 @@
     "dataflashButtonSaveFile": {
         "message": "ファイルに保存します..."
     },
+    "dataflashButtonSaveFileDeprecated": {
+        "message": "フラッシュメモリを保存... (廃止予定)"
+    },
     "dataflashSaveFileDepreciationHint": {
         "message": "Betaflight Configuratorを使ってブラックボックスログを保存するのは、時間がかかり比較的エラーが発生しやすくなります。代わりに '<b>$t(onboardLoggingRebootMscText.message)<\/b>' (上記) を使用して大容量ストレージモードを有効にし、FCにアクセスしてログをダウンロードする記憶媒体とすることをお勧めします。"
     },
