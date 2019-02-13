@@ -23,9 +23,6 @@
     "connect": {
         "message": "Connexion"
     },
-    "connecting": {
-        "message": "Connexion encours"
-    },
     "disconnect": {
         "message": "Déconnecter"
     },
