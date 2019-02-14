@@ -2480,7 +2480,7 @@
         "message": "保存"
     },
     "ledStripColorSetupTitle": {
-        "message": "色の設定",
+        "message": "カラー設定",
         "description": "Color setup title of the led strip"
     },
     "ledStripH": {
@@ -2511,7 +2511,7 @@
         "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
     },
     "ledStripVtxOverlay": {
-        "message": "VTX (VTX周波数で色を割り当て)"
+        "message": "VTX (周波数毎にカラー割り当て)"
     },
     "ledStripFunctionSection": {
         "message": "LED機能"
@@ -2524,7 +2524,7 @@
         "description": "One of the modes of the Led Strip"
     },
     "ledStripFunctionColorOption": {
-        "message": "色",
+        "message": "カラー",
         "description": "One of the modes of the Led Strip"
     },
     "ledStripFunctionModesOption": {
