@@ -408,7 +408,7 @@
         "message": "Информация о полётном контроллере, идентификатор: <strong>$1<\/strong>, версия: <strong>$2<\/strong>"
     },
     "versionLabelTarget": {
-        "message": "Цель"
+        "message": "Target"
     },
     "versionLabelFirmware": {
         "message": "Прошивка"
