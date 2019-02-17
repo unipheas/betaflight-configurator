@@ -1139,6 +1139,9 @@
     "configurationLoopTimeHelp": {
         "message": "<strong>도움말:<\/strong> FC가 이러한 속도로 동작할 수 있는지 확인하십시오! CPU 및 사이클 시간의 안정성을 점검하십시오. 이를 변경하면 PID 재조정이 필요할 수 있습니다. 팁: 가속도계 및 기타 센서를 비활성화하여 더 많은 성능을 얻으십시오."
     },
+    "configurationLoopTimeNo32KhzHelp": {
+        "message": "$t(configurationLoopTimeHelp.message)<br><strong>32 kHz 자이로 샘플링 모드에 대한 공지:<\/strong> 32 kHz 자이로 샘플링 모드에 대한 지원은 베타플라이트에 추가 된 실험적인 기능입니다. 수 년 동안 그것을 사용할 수 있었으나, 그것은 진동에 대한 민감성 및 제어 루프의 지연을 야기하는 공격적인 필터링을 필요로 하는 높은 노이즈 수준 때문에, 결코 그것이 8 kHz 자이로 샘플링 모드 이상의 이점을 가진다고 보여지지 않았습니다. 이러한 이유로, 베타플라이트 4.0에는 <strong>32 kHz 자이로 샘플링 모드에 대한 지원이 중단되었습니다.<\/strong>"
+    },
     "configurationGPS": {
         "message": "GPS"
     },
@@ -2214,6 +2217,12 @@
     },
     "dataflashButtonSaveFile": {
         "message": "플래시를 파일로 저장..."
+    },
+    "dataflashButtonSaveFileDeprecated": {
+        "message": "플래시를 파일로 저장... (권장하지 않음)"
+    },
+    "dataflashSaveFileDepreciationHint": {
+        "message": "블랙박스 로그를 컨피규레이터를 통해 저장하면 속도가 느리고 오류가 발생하기 비교적 쉽습니다. 대신 '<b>$t(onboardLoggingRebootMscText.message)<\/b>'(아래)를 사용하여 대용량 저장 모드를 활성화하고 로그 파일을 다운로드하는 저장 장치로 비행 컨트롤러에 접근하는 것을 권장합니다."
     },
     "dataflashButtonErase": {
         "message": "플래시 삭제"
@@ -3321,8 +3330,32 @@
     "osdSetupUnsupportedNote2": {
         "message": "일부 비행 컨트롤러는 온보드 <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a>를 가지고 있습니다. 이는 <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>를 통해 플래시하고 설정할 수 있습니다. 그러나 MinimOSD는 이 인터페이스를 통해서 설정할수 없습니다."
     },
+    "osdSetupProfilesTitle": {
+        "message": "OSD 프로파일 번호",
+        "description": "Description of the header of the OSD elements column associated to each profile"
+    },
     "osdSetupElementsTitle": {
         "message": "요소"
+    },
+    "osdSetupPreviewTitle": {
+        "message": "위치를 변경하려면 항목을 드래그하세요.",
+        "description": "Indicates in the preview window of the OSD that the user can drag the elements to reorder them"
+    },
+    "osdSetupPreviewSelectProfileTitle": {
+        "message": "미리보기",
+        "description": "Label of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupSelectedProfileTitle": {
+        "message": "사용중인 OSD 프로파일",
+        "description": "Title of the box to select the current active OSD profile"
+    },
+    "osdSetupSelectedProfileLabel": {
+        "message": "현재:",
+        "description": "Label for the selection of the curren active OSD profile"
+    },
+    "osdSetupPreviewSelectProfileElement": {
+        "message": "OSD 프로파일 {{profileNumber}}",
+        "description": "Content of the selector for the OSD Profile in the preview"
     },
     "osdSetupPreviewTitleTip": {
         "message": "미리보기 화면에서 로고를 보기 또는 숨기기 하세요. 이는 비행 컨트롤러의 어떠한 설정도 변경하지 않습니다."
