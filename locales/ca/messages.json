@@ -1355,9 +1355,6 @@
     "receiverMspEnableButton": {
         "message": "Habilita els controls"
     },
-    "auxiliaryHelp": {
-        "message": "Fes servir els rangs per definir els interruptors al teu transmissor i els modes corresponents. Un canal del receptor que doni mesures entre un rang activarà el mode. Recorda desar la configuració amb el botó Desar."
-    },
     "auxiliaryMin": {
         "message": "Min"
     },
