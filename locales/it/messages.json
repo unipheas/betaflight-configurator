@@ -1450,9 +1450,6 @@
     "receiverMspEnableButton": {
         "message": "Abilita i controlli"
     },
-    "auxiliaryHelp": {
-        "message": "Attiva gli intervalli per definire gli switch sul tuo radiocomando ed i relativi modi di volo. Il canale della ricevente che dà una lettura compresa tra un intervallo min\/max attiverà il modo di volo. Ricordati di salvare le impostazioni premendo il pulsante Salva."
-    },
     "auxiliaryMin": {
         "message": "Min"
     },
