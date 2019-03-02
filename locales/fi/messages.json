@@ -1271,9 +1271,6 @@
     "receiverModelPreview": {
         "message": "Esikatselu"
     },
-    "auxiliaryHelp": {
-        "message": "Määritä ohjaimen kytkimien asentoja vastaavat alueet ohjaustilojen vaihtamista varten. Vastaanottimen kanava, joka antaa lukeman alueen rajojen sisällä, aktivoi kyseisen tilan. Muista tallentaa asetukset painamalla Tallenna-nappia."
-    },
     "auxiliaryMin": {
         "message": "Min"
     },
