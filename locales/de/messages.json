@@ -1547,9 +1547,6 @@
     "receiverMspEnableButton": {
         "message": "Kontrolle aktivieren"
     },
-    "auxiliaryHelp": {
-        "message": "Hier können verschiedene Modi auf einen bestimmten Bereich eines oder mehrerer AUX Kanäle gelegt werden. Bitte beachte, dass Änderungen gespeichert werden müssen bevor diese aktiv werden."
-    },
     "auxiliaryToggleUnused": {
         "message": "Nicht verwendete Modi ausblenden"
     },
