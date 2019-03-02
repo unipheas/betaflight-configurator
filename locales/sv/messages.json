@@ -1529,9 +1529,6 @@
     "receiverMspEnableButton": {
         "message": "Aktivera kontroller"
     },
-    "auxiliaryHelp": {
-        "message": "Använd intervall för att definiera brytare på sändaren och motsvarande lägestilldelning. En mottagarkanal som ger en avläsning inom intervallet kommer att aktivera läget.  Kom ihåg att spara inställningarna med knappen Spara."
-    },
     "auxiliaryToggleUnused": {
         "message": "Dölj oanvända lägen"
     },
