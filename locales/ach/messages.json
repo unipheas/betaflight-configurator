@@ -1692,7 +1692,7 @@
         "message": "crwdns6403:0crwdne6403:0"
     },
     "auxiliaryHelp": {
-        "message": "crwdns5761:0crwdne5761:0"
+        "message": "crwdns9012:0crwdne9012:0"
     },
     "auxiliaryToggleUnused": {
         "message": "crwdns8870:0crwdne8870:0"
@@ -1706,6 +1706,9 @@
     "auxiliaryAddRange": {
         "message": "crwdns5764:0crwdne5764:0"
     },
+    "auxiliaryAddLink": {
+        "message": "crwdns9014:0crwdne9014:0"
+    },
     "auxiliaryButtonSave": {
         "message": "crwdns5765:0crwdne5765:0"
     },
@@ -1714,6 +1717,12 @@
     },
     "auxiliaryAutoChannelSelect": {
         "message": "crwdns5767:0crwdne5767:0"
+    },
+    "auxiliaryModeLogicOR": {
+        "message": "crwdns9016:0crwdne9016:0"
+    },
+    "auxiliaryModeLogicAND": {
+        "message": "crwdns9018:0crwdne9018:0"
     },
     "adjustmentsHelp": {
         "message": "crwdns5768:0crwdne5768:0"
