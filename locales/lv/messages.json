@@ -1639,9 +1639,6 @@
     "receiverMspEnableButton": {
         "message": "Ieslēgt vadību"
     },
-    "auxiliaryHelp": {
-        "message": "Izmantojiet robežas, lai nodefinētu slēdžus uz jūsu uztvērēja ar atbilstošo režīmu piesaisti. Uztvērēja kanāls, kas dos nolasījumus starp robežām min\/max, aktivizēs režīmu. Atceries saglabāt izmaiņas lietojot pogu Saglabāt."
-    },
     "auxiliaryToggleUnused": {
         "message": "Slēpt neizmantotos režīmus"
     },
