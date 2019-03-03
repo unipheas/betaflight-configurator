@@ -1639,6 +1639,9 @@
     "receiverMspEnableButton": {
         "message": "제어 활성화"
     },
+    "auxiliaryHelp": {
+        "message": "여기서 범위 그리고\/또는 다른 모드의 조합을 사용하여 모드를 구성합니다(링크는 BF 4.0 이후부터 지원됩니다). <strong>범위<\/strong>를 사용하여 조종기에 스위치를 정의하고 해당 모드를 할당합니다. 수신기 채널이 범위의 최소\/최대값 사이에 읽혀지면 모드가 활성화됩니다. <strong>링크<\/strong>를 사용하여 다른 모드가 활성화될 때 모드를 활성화합니다. <strong>예외:<\/strong>아밍은 다른 모드에 또는 부터 링크될 수 없습니다. 모드는 링크(연결된 링크) 로 구성된 다른 모드에 링크될 수 없습니다. 여러 범위\/링크가 어느 모드를 활성하기 위해 사용될 수 있습니다. 하나의 모드에 대해 정의된 범위\/링크가 하나 이상일 경우, 각각은 <strong>AND<\/strong> 또는 <strong>OR<\/strong>로 설정할 수 있습니다. 모드는 다음의 경우에 활성화됩니다:<br \/>- 모든 <strong>AND<\/strong> 범위\/링크가 활성화일 때; 또는<br \/>- 최소 하나의 <strong>OR<\/strong> 범위\/링크가 활성화일 때.<br \/><br \/>저장 버튼을 이용해서 당신의 설정을 저장하는 것을 명심하세요."
+    },
     "auxiliaryToggleUnused": {
         "message": "사용하지 않는 모드 숨기기"
     },
@@ -1651,6 +1654,9 @@
     "auxiliaryAddRange": {
         "message": "범위 추가"
     },
+    "auxiliaryAddLink": {
+        "message": "링크 추가"
+    },
     "auxiliaryButtonSave": {
         "message": "저장"
     },
@@ -1659,6 +1665,12 @@
     },
     "auxiliaryAutoChannelSelect": {
         "message": "자동"
+    },
+    "auxiliaryModeLogicOR": {
+        "message": "OR"
+    },
+    "auxiliaryModeLogicAND": {
+        "message": "AND"
     },
     "adjustmentsHelp": {
         "message": "조정 스위치를 설정하십시오. 자세한 내용은 매뉴얼의 '비행-중 조정' 섹션을 참조하십시오. 조정 기능의 변경사항은 자동으로 저장되지 않습니다. 4개의 슬롯이 있습니다. 조정을 동시에 수행하는 데 사용되는 각 스위치는 슬롯을 독점적으로 사용해야합니다."
