@@ -1651,6 +1651,9 @@
     "auxiliaryAddRange": {
         "message": "範囲追加"
     },
+    "auxiliaryAddLink": {
+        "message": "リンクを追加"
+    },
     "auxiliaryButtonSave": {
         "message": "保存"
     },
@@ -1659,6 +1662,12 @@
     },
     "auxiliaryAutoChannelSelect": {
         "message": "自動"
+    },
+    "auxiliaryModeLogicOR": {
+        "message": "OR"
+    },
+    "auxiliaryModeLogicAND": {
+        "message": "AND"
     },
     "adjustmentsHelp": {
         "message": "調整スイッチを構成します。詳細については、マニュアルの [In-flight Adjustment] を参照して下さい。調整の変更は自動的には保存されません。 4つのスロットがありますが、調整を同時に行うために使用される各スイッチは、スロットを排他的に使用する必要があります。"
