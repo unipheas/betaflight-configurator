@@ -2917,7 +2917,7 @@
         "message": "Reduce el efecto del término F (Prealimentación) en el PID. Cuando tanto el término P como el término F están activos en el mismo momento, sólo usa el más grande de los dos, evitando sobre rebasamientos sin la necesidad de aumentar D, pero también reduce el efecto de respuesta producido por el término F cuando se ha añade a P."
     },
     "pidTuningItermRelax": {
-        "message": "Relajar I Term"
+        "message": "Relajar Término I"
     },
     "pidTuningItermRelaxHelp": {
         "message": "Limita la acumulación del término I cuando hay movimientos rápidos. Esto ayuda especialmente a reducir el rebote al final the rolls y otros movimientos rápidos. Puedes elegir en que ejes está activo, y si la detección del movimiento rápido se hace usando el Giro o el Valor objetivo (mando)."
@@ -2950,7 +2950,7 @@
         "message": "Control Absoluto"
     },
     "pidTuningAbsoluteControlGainHelp": {
-        "message": "Esta funcionalidad soluciona algunos problemas de la Rotación I Term y debería reemplazarla totalmente en algún momento. La funcionalidad acumula el error absoluto del giro en coordenadas de la aeronave y mezcla una corrección proporcional en el valor objetivo. Necesita que Relajar I Term esté activado para RPY."
+        "message": "Esta funcionalidad soluciona algunos problemas de la Rotación Término I y debería reemplazarla totalmente en algún momento. La funcionalidad acumula el error absoluto del giro en coordenadas de la aeronave y mezcla una corrección proporcional en el valor objetivo. Necesita que Relajar Término I esté activado para RPY."
     },
     "pidTuningThrottleBoost": {
         "message": "Potenciar Acelerador"
