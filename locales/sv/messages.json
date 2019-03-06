@@ -672,6 +672,13 @@
     "initialSetupArmingAllowed": {
         "message": "Aktivering Tillåten"
     },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "Lista över flaggor som indikerar varför aktivering inte är tillåten just nu. Håll musen över flaggan eller referera till Wikin (sidan 'Arming Sequence & Safety') för mer information."
+    },
+    "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
+        "message": "Ingen gyro detekterad",
+        "description": "Description of the NO GYRO arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
         "message": "Failsafe är aktiv",
         "description": "Description of the FAILSAFE arming disable flag"
@@ -680,9 +687,25 @@
         "message": "Ingen giltig mottagarsignal detekterad",
         "description": "Description of the RX_FAILSAFE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipBAD_RX_RECOVERY": {
+        "message": "Din mottagare har just återställts från Failsafe, men aktiveringsswitchen är på",
+        "description": "Description of the BAD_RX_RECOVERY arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
         "message": "'FAILSAFE'-switchen aktiverades",
         "description": "Description of the BOXFAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
+        "message": "Förhindrande av oavsiktlig uppstigning (Runaway Takeoff Prevention) har aktiverats",
+        "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
+        "message": "Trottelkanalen är för hög",
+        "description": "Description of the THROTTLE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipANGLE": {
+        "message": "Farkosten är inte (tillräckligt) horisontell",
+        "description": "Description of the ANGLE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
         "message": "Aktiverad för snabbt efter strömpåslag",
@@ -700,13 +723,25 @@
         "message": "CLI är aktiv",
         "description": "Description of the CLI arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
+        "message": "CMS (konfigureringsmeny) är aktiv - över OSD eller annan display",
+        "description": "Description of the CMS_MENU arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
         "message": "OSD-menyn är aktiv",
         "description": "Description of the OSD_MENU arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipPARALYZE": {
+        "message": "Paralyze-läge har aktiverats",
+        "description": "Description of the PARALYZE arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipRESC": {
         "message": "'GPS Rescue'-switchen aktiverades",
         "description": "Description of the RESC arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
+        "message": "En av de andra avaktiveringsflaggorna är aktiv vid aktivering",
+        "description": "Description of the ARM_SWITCH arming disable flag"
     },
     "initialSetupGPSHead": {
         "message": "GPS"
@@ -1412,6 +1447,15 @@
     "pidTuningThrottleLimitTypeOff": {
         "message": "AV"
     },
+    "pidTuningThrottleLimitTypeScale": {
+        "message": "SKALA"
+    },
+    "pidTuningThrottleLimitTypeClip": {
+        "message": "KLIPP"
+    },
+    "pidTuningThrottleLimitTypeTip": {
+        "message": "Välj typ av trottelbegränsning. <b>AV<\/b> avaktiverar funktionen, <b>SKALA<\/b> transformerar trottelns räckvidd från 0 till den valda procentnivån med fullt spakutslag, <b>KLIPP<\/b> sätter en maxprocentnivå, och spakutslag över den nivån har ingen ytterligare effekt"
+    },
     "pidTuningFilter": {
         "message": "Filter"
     },
@@ -1585,6 +1629,9 @@
     },
     "auxiliaryAddRange": {
         "message": "Lägg till intervall"
+    },
+    "auxiliaryAddLink": {
+        "message": "Lägg till länk"
     },
     "auxiliaryButtonSave": {
         "message": "Spara"
@@ -2155,6 +2202,9 @@
     },
     "dataflashButtonSaveFile": {
         "message": "Spara flashminne till fil..."
+    },
+    "dataflashButtonSaveFileDeprecated": {
+        "message": "Spara flashminne till fil (utfasad)"
     },
     "dataflashButtonErase": {
         "message": "Radera flashminne"
@@ -3269,6 +3319,14 @@
     "osdSetupElementsTitle": {
         "message": "Element"
     },
+    "osdSetupPreviewTitle": {
+        "message": "Dra element för att ändra position",
+        "description": "Indicates in the preview window of the OSD that the user can drag the elements to reorder them"
+    },
+    "osdSetupPreviewSelectProfileTitle": {
+        "message": "Förhandsgranskning för",
+        "description": "Label of the selector for the OSD Profile in the preview"
+    },
     "osdSetupSelectedProfileTitle": {
         "message": "Aktiv OSD-profil",
         "description": "Title of the box to select the current active OSD profile"
@@ -3406,6 +3464,9 @@
     "osdDescElementCraftName": {
         "message": "Farkostnamnet som det angivits i Konfigurationsfliken"
     },
+    "osdDescElementDisplayName": {
+        "message": "Visningsnamn som det angivits på fliken Konfiguration"
+    },
     "osdDescElementAltitude": {
         "message": "Aktuell höjd (blinkar om larmtröskeln överskridits)"
     },
@@ -3499,6 +3560,9 @@
     "osdDescElementFlipArrow": {
         "message": "Pil som visar vilken motorsida som pekar uppåt i sköldpaddsläge (turtle mode)"
     },
+    "osdDescElementFlightDist": {
+        "message": "Avverkad distans under denna flygning."
+    },
     "osdDescElementTimer1": {
         "message": "Visar värdet på timer 1"
     },
@@ -3580,6 +3644,9 @@
     "osdDescStatEscRpm": {
         "message": "Maximalt ESC-varvtal"
     },
+    "osdDescStatFlightDistance": {
+        "message": "Total färdsträcka under flygningen"
+    },
     "osdTimerSource": {
         "message": "Källa:"
     },
@@ -3597,6 +3664,9 @@
     },
     "osdTimerAlarmTooltip": {
         "message": "Välj tidslarmets tröskel i minuter, när tiden överskrider detta värde kommer OSD-elementet att blinka, sätt denna till 0 för att inaktivera larmet"
+    },
+    "osdWarningUnknown": {
+        "message": "Okänd varning (detaljer tillkommer i en kommande utgåva)"
     },
     "osdWarningArmingDisabled": {
         "message": "Rapporterar den viktigaste orsaken till att motoraktivering inte är tillåten"
@@ -3618,6 +3688,9 @@
     },
     "osdWarningEscFail": {
         "message": "Räknar upp en lista med de ESC:er\/motorer som fallerar (RPM eller temperatur är utanför konfigurerade tröskelvärden)"
+    },
+    "osdWarningCoreTemperature": {
+        "message": "Varnar när MCU-kärntemperaturen överskrider ett konfigurerat tröskelvärde"
     },
     "osdWarningFailsafe": {
         "message": "Varnar när Failsafe inträffar"
