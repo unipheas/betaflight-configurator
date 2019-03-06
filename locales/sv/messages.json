@@ -672,6 +672,42 @@
     "initialSetupArmingAllowed": {
         "message": "Aktivering Tillåten"
     },
+    "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
+        "message": "Failsafe är aktiv",
+        "description": "Description of the FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
+        "message": "Ingen giltig mottagarsignal detekterad",
+        "description": "Description of the RX_FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
+        "message": "'FAILSAFE'-switchen aktiverades",
+        "description": "Description of the BOXFAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
+        "message": "Aktiverad för snabbt efter strömpåslag",
+        "description": "Description of the BOOT_GRACE_TIME arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipLOAD": {
+        "message": "Belastningen på systemet är för hög för säker flygning",
+        "description": "Description of the LOAD arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
+        "message": "Sensorkalibrering pågår fortfarande",
+        "description": "Description of the CALIBRATING arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCLI": {
+        "message": "CLI är aktiv",
+        "description": "Description of the CLI arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
+        "message": "OSD-menyn är aktiv",
+        "description": "Description of the OSD_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRESC": {
+        "message": "'GPS Rescue'-switchen aktiverades",
+        "description": "Description of the RESC arming disable flag"
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
@@ -1367,6 +1403,15 @@
     "pidTuningTPABreakPoint": {
         "message": "TPA Brytpunkt"
     },
+    "pidTuningThrottleLimitType": {
+        "message": "Trottelbegränsning"
+    },
+    "pidTuningThrottleLimitPercent": {
+        "message": "Trottelbegränsning %"
+    },
+    "pidTuningThrottleLimitTypeOff": {
+        "message": "AV"
+    },
     "pidTuningFilter": {
         "message": "Filter"
     },
@@ -1550,6 +1595,12 @@
     "auxiliaryAutoChannelSelect": {
         "message": "AUTO"
     },
+    "auxiliaryModeLogicOR": {
+        "message": "ELLER"
+    },
+    "auxiliaryModeLogicAND": {
+        "message": "OCH"
+    },
     "adjustmentsHelp": {
         "message": "Konfigurera justerings-switchar. Se avsnittet 'In-flight adjustments' i manualen för detaljer. Ändringarna som justeringsfunktionerna utför sparas inte automatiskt. Det finns 4 platser. Varje switch som används för att göra samtidiga justeringar kräver exklusiv användning av en plats."
     },
@@ -1690,6 +1741,12 @@
     },
     "adjustmentsFunction28": {
         "message": "Gir F-justering"
+    },
+    "adjustmentsFunction29": {
+        "message": "Val av OSD-profil"
+    },
+    "adjustmentsFunction30": {
+        "message": "Val av LED-profil"
     },
     "adjustmentsSave": {
         "message": "Spara"
@@ -3205,8 +3262,20 @@
     "osdSetupUnsupportedNote2": {
         "message": "Notera att vissa flygkontrollers har en inbyggd <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a> som kan flashas och konfigureras med <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>, dock kan MinimOSD inte konfigureras via detta gränssnitt."
     },
+    "osdSetupProfilesTitle": {
+        "message": "OSD-profilnummer",
+        "description": "Description of the header of the OSD elements column associated to each profile"
+    },
     "osdSetupElementsTitle": {
         "message": "Element"
+    },
+    "osdSetupSelectedProfileTitle": {
+        "message": "Aktiv OSD-profil",
+        "description": "Title of the box to select the current active OSD profile"
+    },
+    "osdSetupPreviewSelectProfileElement": {
+        "message": "OSD-profil {{profileNumber}}",
+        "description": "Content of the selector for the OSD Profile in the preview"
     },
     "osdSetupPreviewTitleTip": {
         "message": "Visa eller dölj logo i förhandsvisningen. Detta ändrar inga inställningar i flygkontrollern."
@@ -3549,6 +3618,9 @@
     },
     "osdWarningEscFail": {
         "message": "Räknar upp en lista med de ESC:er\/motorer som fallerar (RPM eller temperatur är utanför konfigurerade tröskelvärden)"
+    },
+    "osdWarningFailsafe": {
+        "message": "Varnar när Failsafe inträffar"
     },
     "osdSectionHelpElements": {
         "message": "Aktivera eller avaktivera OSD-element."
