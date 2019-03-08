@@ -2856,6 +2856,15 @@
     "pidTuningGyroLowpassType": {
         "message": "Žiroskopa zemfrekvenču 1 filtra tips"
     },
+    "pidTuningGyroLowpassDynMinFrequency": {
+        "message": "Žiroskopa zemfrekvenču 1 dinamiskā minimālā nogriešanas frekvence [Hz]"
+    },
+    "pidTuningGyroLowpassDynMaxFrequency": {
+        "message": "Žiroskopa zemfrekvenču 1 dinamiskā maksimālā nogriešanas frekvence [Hz]"
+    },
+    "pidTuningGyroLowpassDynType": {
+        "message": "Žiroskopa zemfrekvenču 1 dinamiskā filtra tips"
+    },
     "pidTuningGyroLowpass2Frequency": {
         "message": "Žiroskopa zemfrekvenču 2 nogriešanas frekvence [Hz]"
     },
@@ -2880,6 +2889,9 @@
     "pidTuningNotchFilterHelp": {
         "message": "Joslas filtram ir centrs un nogriešana. Filtrs ir simetrisks. Centra frekvence ir filtra centrs un nogriešanas frekvence ir vieta, kur sākas joslas filtrs, Piemēram ar joslas filtra nogriešanu 160 un centu 260, nozīmēs ka diapazons būs 160-360 ar lielāko vājinājumu ap centru"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "Zemfrekvenču filtri var būt divu tipu: statiski un dinamiski. Dēļ ierobežotā zemfrekvenču filtra skaita tikai viens (statisks vai dinamisks) var tikt ieslēgts vienlaicīgi. Statiskajam ir tikai nogriešanas frekvence, kas ir vērtība kas nosaka vietu kur sākās filtrs. Dinamiskais nosaka minimālo un maksimālo vērtību, kas ir diapazons kurā uzstādās nogriešanas frekvence. Šī nogriešana pārvietojas no min līdz maks vienlaicīgi, kad jūs pārvietojat droseli sviru."
+    },
     "pidTuningFilterSettings": {
         "message": "Profila atkarīgo filtru iestatījumi"
     },
@@ -2894,6 +2906,18 @@
     },
     "pidTuningDTermLowpass2Frequency": {
         "message": "D Term zemfrekvenču 2 nogriešanas frekvence [Hz]"
+    },
+    "pidTuningDTermLowpass2Type": {
+        "message": "D Term zemfrekvenču 2 filtra tips"
+    },
+    "pidTuningDTermLowpassDynMinFrequency": {
+        "message": "D Term zemfrekvenču 1 dinamiskā minimālā nogriešanas frekvence [Hz]"
+    },
+    "pidTuningDTermLowpassDynMaxFrequency": {
+        "message": "D Term zemfrekvenču 1 dinamiskā maksimālā nogriešanas frekvence [Hz]"
+    },
+    "pidTuningDTermLowpassDynType": {
+        "message": "D Term zemfrekvenču 1 dinamiskā filtra tips"
     },
     "pidTuningDTermNotchFiltersGroup": {
         "message": "D Term joslas filtrs"
