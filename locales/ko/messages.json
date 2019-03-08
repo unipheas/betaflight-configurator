@@ -2859,6 +2859,12 @@
     "pidTuningGyroLowpassDynMinFrequency": {
         "message": "자이로 저역통과 1 다이나믹 최소 컷오프 주파수 [Hz]"
     },
+    "pidTuningGyroLowpassDynMaxFrequency": {
+        "message": "자이로 저역통과 1 다이나믹 최대 컷오프 주파수 [Hz]"
+    },
+    "pidTuningGyroLowpassDynType": {
+        "message": "자이로 저역통과 1 다이나믹 필터 형식"
+    },
     "pidTuningGyroLowpass2Frequency": {
         "message": "자이로 저역통과 2 컷오프 주파수 [Hz]"
     },
@@ -2883,6 +2889,9 @@
     "pidTuningNotchFilterHelp": {
         "message": "노치 필터는 센터와 컷오프로 나누어집니다. 필터는 대칭을 이룹니다. 센터 주파수는 필터의 중심이며 컷오프 주파수 노치 필터가 시작되는 곳입니다. 예를 들어 컷오프 160, 노치 센터 260은 범위가 센터 주변으로 대부분 감쇄를 갖는 160-360Hz임을 의미합니다."
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "저역통과 필터는 두 가지 변형을 가질 수 있습니다: 정적 필터와 동적 필터. 결정된 저역통과 필터의 경우 한 개 (정적 또는 동적) 만 동시에 활성화할 수 있습니다. 정적에는 필터가 시작되는 어떤 방식으로 정의되는 값인 컷오프만 있습니다. 동적에서는 최소값과 최대값, 즉 컷오프가 위치한 범위를 정의합니다. 이 컷오프는 스로틀 스틱을 이동하는 것보다 최소에서 최대로 동시에 이동합니다."
+    },
     "pidTuningFilterSettings": {
         "message": "프로파일 종속 필터 설정"
     },
@@ -2897,6 +2906,18 @@
     },
     "pidTuningDTermLowpass2Frequency": {
         "message": "D 텀 저역통과 2 컷오프 주파수 [Hz]"
+    },
+    "pidTuningDTermLowpass2Type": {
+        "message": "D 텀 저역통과 2 필터 형식"
+    },
+    "pidTuningDTermLowpassDynMinFrequency": {
+        "message": "D 텀 저역통과 1 다이나믹 최소 컷오프 주파수 [Hz]"
+    },
+    "pidTuningDTermLowpassDynMaxFrequency": {
+        "message": "D 텀 저역통과 1 다이나믹 최대 컷오프 주파수 [Hz]"
+    },
+    "pidTuningDTermLowpassDynType": {
+        "message": "D 텀 저역통과 1 다이나믹 필터 형식"
     },
     "pidTuningDTermNotchFiltersGroup": {
         "message": "D 텀 노치 필터"
