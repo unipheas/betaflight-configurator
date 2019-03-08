@@ -2856,6 +2856,9 @@
     "pidTuningGyroLowpassType": {
         "message": "자이로 저역통과 1 필터 형식"
     },
+    "pidTuningGyroLowpassDynMinFrequency": {
+        "message": "자이로 저역통과 1 다이나믹 최소 컷오프 주파수 [Hz]"
+    },
     "pidTuningGyroLowpass2Frequency": {
         "message": "자이로 저역통과 2 컷오프 주파수 [Hz]"
     },
