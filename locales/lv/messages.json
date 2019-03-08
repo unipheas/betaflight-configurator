@@ -1639,6 +1639,9 @@
     "receiverMspEnableButton": {
         "message": "Ieslēgt vadību"
     },
+    "auxiliaryHelp": {
+        "message": "Konfigurējiet režīmus izmantojot robežu kombinācijas un\/vai saites uz citiem režīmiem (saites tiek atbalstītas sākot ar BF 4.0). Izmantojiet <strong>robežas<\/strong>, lai definētu raidītāja slēdžus un atbilstošo režīmu piesaisti. Uztvērēja kanāls, kas dos rādījumus starp robežas min\/max vērtībām aktivizēs atbilstošo režīmu. Izmantojiet <strong>saites<\/strong>, lai aktivizētu režīmu, kad cits režīms tika aktivizēts. <strong>Izņēmums:<\/strong> Aktivizēšana nevar tikt piesaistīta uz vai no cita režīma, režīmi kas jau ir piesaistīti nevar tikt piesaistīti citiem režīmiem (virknes slēgums). Vairākas robežas\/saites nevar tikt izmantotas, lai aktivizētu režīmu. Ja ir vairāk par vienu definētu robežu\/saiti uz režīmu, katra no tām var tikt uzstādīta uz<strong>UN<\/strong> vai <strong>VAI<\/strong>. Režīms var tikt aktivizēts kad:<br \/>- VISAS <strong>UN<\/strong> robežas\/saites ir aktīvas; VAI<br \/>- vismaz viena<strong>VAI<\/strong> robeža\/saite ir aktīva.<br \/><br \/>Atcerieties saglabāt savus uzstādījumus izmantojot Saglabāt pogu."
+    },
     "auxiliaryToggleUnused": {
         "message": "Slēpt neizmantotos režīmus"
     },
@@ -1651,6 +1654,9 @@
     "auxiliaryAddRange": {
         "message": "Pievienot"
     },
+    "auxiliaryAddLink": {
+        "message": "Pievienot saiti"
+    },
     "auxiliaryButtonSave": {
         "message": "Saglabāt"
     },
@@ -1659,6 +1665,12 @@
     },
     "auxiliaryAutoChannelSelect": {
         "message": "AUTO"
+    },
+    "auxiliaryModeLogicOR": {
+        "message": "VAI"
+    },
+    "auxiliaryModeLogicAND": {
+        "message": "UN"
     },
     "adjustmentsHelp": {
         "message": "Konfigurēt pieregulēšanas slēdžus. Detaļas ir atrodamas manuāla sadaļā 'in-flight adjustments'. Šīs izmaiņas ko pieregulēšanas funkcija izpilda netiek automātiski saglabātas. Tur ir 4 sloti. Katrs slēdzis tiek lietots, lai vienlaikus veiktu nepieciešamās izmaiņas atbilstošam slotam."
