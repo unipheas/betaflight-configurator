@@ -1250,10 +1250,10 @@
         "message": "Os canais de suavização aplicam-se a"
     },
     "rcSmoothingDerivativeTypeHelp": {
-        "message": "O tipo de método de filtro usado para o setpoint derivado. A maioria dos usuários deve usar a predefinição \"BIQUAD\" pois providencia um bom balanço entre suavização e atraso. \"PT1\" reduz levemente o atraso mas providencia menos suavização."
+        "message": "O tipo de método de filtro usado para o setpoint derivado. A maioria dos usuários deve usar a predefinição \"BIQUAD\" pois é um bom balanço entre suavização e atraso. \"PT1\" reduz um pouco o atraso, mas é menos suave."
     },
     "rcSmoothingInputTypeHelp": {
-        "message": "O tipo de método de filtro usado para a entrada. A maioria dos usuários deve usar a predefinição \"BIQUAD\" pois providencia um bom balanço entre suavização e atraso. \"PT1\" reduz levemente o atraso mas providencia menos suavização."
+        "message": "O tipo de método de filtro usado para a entrada. A maioria dos usuários deve usar a predefinição \"BIQUAD\" que é um bom balanço entre suavização e atraso. \"PT1\" reduz um pouco o atraso, mas é menos suave."
     },
     "receiverRcSmoothingInputManual": {
         "message": "Seleciona se a frequência de corte do filtro de entrada é calculada automaticamente (recomendado) ou manualmente selecionada pelo usuário. Usar o \"Manual\" não é recomendado para protocolos do receptor como Crossfire que podem mudar durante o voo."
@@ -1268,10 +1268,10 @@
         "message": "Frequência de corte de derivada"
     },
     "receiverRcInputType": {
-        "message": "Tipo de filtro de entrada"
+        "message": "Tipo do filtro de entrada"
     },
     "receiverRcDerivativeType": {
-        "message": "Tipo de filtro derivado"
+        "message": "Tipo do filtro derivado"
     },
     "receiverRcSmoothingDerivativeTypeOff": {
         "message": "Desligado"
@@ -2734,13 +2734,13 @@
         "message": "Gyro - Lowpass 1 - Frequência de corte [Hz]"
     },
     "pidTuningGyroLowpassType": {
-        "message": "Gyro - Lowpass 1 - Tipo"
+        "message": "Gyro - Lowpass 1 - Tipo do filtro"
     },
     "pidTuningGyroLowpass2Frequency": {
         "message": "Gyro - Lowpass 2 - Frequência de corte [Hz]"
     },
     "pidTuningGyroLowpass2Type": {
-        "message": "Gyro - Lowpass 2 - Tipo"
+        "message": "Gyro - Lowpass 2 - Tipo do filtro"
     },
     "pidTuningGyroNotchFiltersGroup": {
         "message": "Filtros Notch (Rejeita Faixa) do GIROSCÓPIO"
@@ -2767,7 +2767,7 @@
         "message": "Filtro Lowpass (Passa Baixa) do TERMO D"
     },
     "pidTuningDTermLowpassType": {
-        "message": "Termo D - Lowpass 1 - Tipo"
+        "message": "Termo D - Lowpass 1 - Tipo do filtro"
     },
     "pidTuningDTermLowpassFrequency": {
         "message": "Termo D - Lowpass 1 - Frequência de corte [Hz]"
