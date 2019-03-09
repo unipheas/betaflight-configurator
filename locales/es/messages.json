@@ -2856,6 +2856,15 @@
     "pidTuningGyroLowpassType": {
         "message": "Giro Paso Bajo 1 Tipo de Filtro"
     },
+    "pidTuningGyroLowpassDynMinFrequency": {
+        "message": "Giro Paso Bajo 1 Dinámico Frecuencia de Corte Min [Hz]"
+    },
+    "pidTuningGyroLowpassDynMaxFrequency": {
+        "message": "Giro Paso Bajo 1 Dinámico Frecuencia de Corte Max [Hz]"
+    },
+    "pidTuningGyroLowpassDynType": {
+        "message": "Giro Paso Bajo 1 Dinámico Tipo de Filtro"
+    },
     "pidTuningGyroLowpass2Frequency": {
         "message": "Giro Paso Bajo 2 Frecuencia de Corte [Hz]"
     },
@@ -2880,6 +2889,9 @@
     "pidTuningNotchFilterHelp": {
         "message": "El Filtro Notch tiene un Centro y un Corte. El filtro es simétrico. La Frecuencia Central es el centro del filtro y la Frecuencia de Corte es donde el filtro Notch empieza. Por ejemplo con una Frecuencia de Corte de 160 y una Frecuencia Central de 260 el rango es 160-360Hz con la mayor atenuación en torno al centro"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "Los Filtros Paso Bajo pueden tener dos variantes: estático y dinámico. Para un determinado número de filtro paso bajo sólo uno puede estar activado a la vez (estático o dinámico). El estático sólo tiene un Corte que define de alguna manera dónde empieza el filtro. El dinámico define valores mínimos y máximos, que es el rango dónde se sitúa el Corte. Este Corte se mueve entre el mínimo y el máximo a la vez que mueves la palanca de acelerador."
+    },
     "pidTuningFilterSettings": {
         "message": "Ajustes de Filtros dependientes del Perfil"
     },
@@ -2894,6 +2906,18 @@
     },
     "pidTuningDTermLowpass2Frequency": {
         "message": "D Term Paso Bajo 2 Frecuencia de Corte [Hz]"
+    },
+    "pidTuningDTermLowpass2Type": {
+        "message": "D Term Paso Bajo 2 Tipo de Filtro"
+    },
+    "pidTuningDTermLowpassDynMinFrequency": {
+        "message": "D Term Paso Bajo 1 Dinámico Frecuencia de Corte Min [Hz]"
+    },
+    "pidTuningDTermLowpassDynMaxFrequency": {
+        "message": "D Term Paso Bajo 1 Dinámico Frecuencia de Corte Max [Hz]"
+    },
+    "pidTuningDTermLowpassDynType": {
+        "message": "D Term Paso Bajo 1 Dinámico Tipo de Filtro"
     },
     "pidTuningDTermNotchFiltersGroup": {
         "message": "Filtros Notch del D Term"
