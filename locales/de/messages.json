@@ -693,6 +693,10 @@
         "message": "Versehentlicher Start erkannt und unterbunden",
         "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
+        "message": "Gaskanal ist zu hoch",
+        "description": "Description of the THROTTLE arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipANGLE": {
         "message": "Modell steht nicht (ausreichend) eben",
         "description": "Description of the ANGLE arming disable flag"
@@ -1632,6 +1636,9 @@
     },
     "receiverMspEnableButton": {
         "message": "Kontrolle aktivieren"
+    },
+    "auxiliaryHelp": {
+        "message": "Konfiguration von Modi als Kombination aus Bereichen und\/oder Verknüpfungen zu anderen Modi (Verknüpfungen werden ab BF 4.0 oder später unterstützt). Verwendung von <strong>Bereichen<\/strong> zur Definition der Schalter an der Fernsteuerung und deren Zuordnungen. Ein Empfängerkanal mit einem Wert innerhalb des min\/max-Bereiches aktiviert den Modus. Verwendung von <strong>Verknüpfungen<\/strong> zur Aktivierung eines Modus, während ein anderer Modus aktiv ist. <strong>Ausnahmen:<\/strong> ARM kann nicht zu bzw. mit einem anderen Modus verknüpft werden, Modi können nicht mit anderen Modi verknüpft werden, wenn diese ihrerseits als Verknüpfung definiert sind (Verketten von Verknüpfungen). Es können mehrere Bereiche \/ Verknüpfungen verwendet werden, um einen Modus zu aktivieren. Falls für einen Modus mehr als ein Bereich \/ Verknüpfung definiert ist, können diese als <strong>UND<\/strong> oder <strong>ODER<\/strong> definiert werden. Ein Modus wird dann aktiviert, wenn:<br\/>- ALLE <strong>UND<\/strong> Bereiche \/ Verknüpfungen aktiv sind; ODER<br\/>- mindestens ein <strong>ODER<\/strong> Bereich \/ Verknüpfung aktiv ist.<br\/><br\/>Unbedingt die Einstellung mittels 'Save' speichern."
     },
     "auxiliaryToggleUnused": {
         "message": "Nicht verwendete Modi ausblenden"
@@ -3725,6 +3732,15 @@
     },
     "osdWarningRcSmoothingFailure": {
         "message": "Warnung, wenn Initialisierung der \"RC-Glättung\" fehlgeschlagen ist"
+    },
+    "osdWarningLaunchControl": {
+        "message": "Warnung, wenn Launch Control-Modus aktiviert ist"
+    },
+    "osdWarningGpsRescueUnavailable": {
+        "message": "Warnung, wenn GPS Rescue nicht verfügbar ist und nicht aktiviert werden kann"
+    },
+    "osdWarningGpsRescueDisabled": {
+        "message": "Warnung, wenn GPS Rescue deaktiviert ist"
     },
     "osdSectionHelpElements": {
         "message": "OSD Elemente aktivieren oder deaktivieren"
