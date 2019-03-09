@@ -697,6 +697,58 @@
         "message": "Modell steht nicht (ausreichend) eben",
         "description": "Description of the ANGLE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
+        "message": "Arming zu früh nach dem Einschalten ausgelöst",
+        "description": "Description of the BOOT_GRACE_TIME arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipNOPREARM": {
+        "message": "Prearm-Schalter ist nicht aktiv, oder Prearm wurde nach dem Disarmen nicht ausgelöst",
+        "description": "Description of the NOPREARM arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipLOAD": {
+        "message": "Systemauslastung zu hoch für einen sicheren Flug",
+        "description": "Description of the LOAD arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
+        "message": "Sensorkalibrierung noch nicht abgeschlossen",
+        "description": "Description of the CALIBRATING arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCLI": {
+        "message": "Kommandozeile ist aktiv",
+        "description": "Description of the CLI arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
+        "message": "CMS (Konfigurations-Menü) ist aktiv - über OSD oder ein anderes Display -",
+        "description": "Description of the CMS_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
+        "message": "OSD-Menü aktiv",
+        "description": "Description of the OSD_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBST": {
+        "message": "Ein Black Sheep Telemetrie-Gerät (z.B. TBS Core Pro) hat 'Disarming' ausgelöst und verhindert das Arming",
+        "description": "Description of the BST arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipMSP": {
+        "message": "MSP-Verbindung - wahrscheinlich mit diesem Betaflight-Konfigurator - ist aktiv",
+        "description": "Description of the MSP arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipPARALYZE": {
+        "message": "Paralyze-Modus wurde aktiviert",
+        "description": "Description of the PARALYZE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipGPS": {
+        "message": "Der 'GPS-Rescue'-Modus ist konfiguriert, aber die erforderliche Anzahl von Satelliten wurde nicht gefunden",
+        "description": "Description of the GPS arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRESC": {
+        "message": "Der 'GPS-Rescue'-Schalter wurde aktiviert",
+        "description": "Description of the RESC arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
+        "message": "Einer der anderen 'Disarm-Flags' ist aktiv während des Armings",
+        "description": "Description of the ARM_SWITCH arming disable flag"
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
@@ -1050,6 +1102,9 @@
     },
     "beeperCAM_CONNECTION_CLOSE": {
         "message": "Piept, wenn die 5 Tasten Kamera Steuerung beendet wurde"
+    },
+    "beeperRC_SMOOTHING_INIT_FAIL": {
+        "message": "Piept, wenn Copter gearmed ist und 'RC Smoothing' die Filter nicht initialisiert hat"
     },
     "configuration3d": {
         "message": "3D Regler \/ Motor Funktionen"
