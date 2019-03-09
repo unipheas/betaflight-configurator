@@ -3598,6 +3598,12 @@
     "osdDescElementFlightDist": {
         "message": "Zurückgelegte Entfernung in diesem Flug."
     },
+    "osdDescElementStickOverlayLeft": {
+        "message": "Positionsanzeige des linken Sendersticks."
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "Positionsanzeige des rechten Sendersticks."
+    },
     "osdDescElementTimer1": {
         "message": "Zeigt den Inhalt von Timer 1"
     },
