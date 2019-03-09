@@ -669,6 +669,34 @@
     "initialSetupArmingAllowed": {
         "message": "Arming erlaubt"
     },
+    "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
+        "message": "Kein Gyro-Sensor erkannt",
+        "description": "Description of the NO GYRO arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
+        "message": "Failsafe ist aktiv",
+        "description": "Description of the FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
+        "message": "Kein gültiges Empfänger-Signal erkannt",
+        "description": "Description of the RX_FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBAD_RX_RECOVERY": {
+        "message": "Der Empfänger hat den Status 'Empfänger Failsafe' verlassen, aber der Arming-Schalter ist auf 'Ein'",
+        "description": "Description of the BAD_RX_RECOVERY arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
+        "message": "Der 'FAILSAFE'-Schalter wurde betätigt",
+        "description": "Description of the BOXFAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
+        "message": "Versehentlicher Start erkannt und unterbunden",
+        "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipANGLE": {
+        "message": "Modell steht nicht (ausreichend) eben",
+        "description": "Description of the ANGLE arming disable flag"
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
