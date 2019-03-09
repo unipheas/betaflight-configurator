@@ -1133,6 +1133,9 @@
     "configurationLoopTimeHelp": {
         "message": "<strong>Hinweis:<\/strong> Stelle sicher, dass dein FC mit dieser Geschwindigkeit arbeiten kann. Prüfe die CPU Auslastung und die Cycletime Stabilität. Änderungen führen möglicherweise dazu, dass die PID's neu eingestellt werden müssen. Tipp: Deaktiviere unbenutzte Sensoren, um mehr Leistung zu haben."
     },
+    "configurationLoopTimeNo32KhzHelp": {
+        "message": "$t(configurationLoopTimeHelp.message)<br><strong>Hinweis zum 32 kHz-Gyro Gyro Sampling-Modus:<\/strong> Die Unterstützung für den 32 kHz-Gyro Gyro Sampling-Modus wurde als experimentelles Feature zu Betaflight hinzugefügt. In den Jahren, die es zur Verfügung stand, hat es keinen Vorteil gegenüber dem 8 kHz Gyro Sampling-Modus gezeigt. Aufgrund seiner Anfälligkeit für Vibrationen und des hohen Rauschpegels erfordert dies ein aggressives Filtern, was zu Verzögerungen im Regelkreis führt. Aus diesem Grund <strong>entfällt die Unterstützung für den 32 kHz Sampling Gyro-Modus <\/strong> in Betaflight 4.0."
+    },
     "configurationGPS": {
         "message": "GPS"
     },
@@ -1642,6 +1645,9 @@
     "auxiliaryAddRange": {
         "message": "Bereich hinzufügen"
     },
+    "auxiliaryAddLink": {
+        "message": "Link hinzufügen"
+    },
     "auxiliaryButtonSave": {
         "message": "Speichern"
     },
@@ -1650,6 +1656,12 @@
     },
     "auxiliaryAutoChannelSelect": {
         "message": "AUTO"
+    },
+    "auxiliaryModeLogicOR": {
+        "message": "ODER"
+    },
+    "auxiliaryModeLogicAND": {
+        "message": "UND"
     },
     "adjustmentsHelp": {
         "message": "Konfiguriere Schalter Anpassungen. Siehe im 'in-flight adjustments' Abschnitt des Handbuchs für Details nach. Die Änderungen an Anpassungsfunktionen werden nicht automatisch gespeichert. Es gibt 4 (Speicher-) Slots. Jeder Schalter der für gleichzeitige Anpassungen genutzt wird, muss jeweils einem eindeutigen Slot zugeordnet sein."
@@ -1791,6 +1803,12 @@
     },
     "adjustmentsFunction28": {
         "message": "Yaw F Faktor"
+    },
+    "adjustmentsFunction29": {
+        "message": "OSD-Profilauswahl"
+    },
+    "adjustmentsFunction30": {
+        "message": "LED-Profilauswahl"
     },
     "adjustmentsSave": {
         "message": "Speichtern"
@@ -2199,6 +2217,12 @@
     },
     "dataflashButtonSaveFile": {
         "message": "Inhalt in Datei speichern"
+    },
+    "dataflashButtonSaveFileDeprecated": {
+        "message": "Flashspeicher-Inhalt in Datei speichern... (veraltet)"
+    },
+    "dataflashSaveFileDepreciationHint": {
+        "message": "Das Speichern von Blackbox-Logs über den Konfigurator ist langsam und relativ anfällig für Fehler. Es wird empfohlen, stattdessen '<b>$t(onboardLoggingRebootMscText.message)<\/b>' (unten) zu verwenden, um den Massenspeichermodus zu aktivieren und auf den Flugcontroller als Speichergerät zuzugreifen, um die Logdateien herunterzuladen."
     },
     "dataflashButtonErase": {
         "message": "Speicher löschen"
@@ -3039,6 +3063,9 @@
     "failsafeGpsRescueItemMinSats": {
         "message": "Mindestanzahl Satelliten"
     },
+    "failsafeGpsRescueItemSanityChecks": {
+        "message": "Plausibilitätsprüfungen"
+    },
     "failsafeGpsRescueItemSanityChecksOff": {
         "message": "Aus"
     },
@@ -3303,8 +3330,32 @@
     "osdSetupUnsupportedNote2": {
         "message": "Einige Flightcontroller haben ein eingebautes <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a>, das über <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a> konfiguriert und geflasht werden kann.  Diese OSDs können nicht über dieses Interface konfiguriert werden."
     },
+    "osdSetupProfilesTitle": {
+        "message": "OSD-Profilnummer",
+        "description": "Description of the header of the OSD elements column associated to each profile"
+    },
     "osdSetupElementsTitle": {
         "message": "Elemente"
+    },
+    "osdSetupPreviewTitle": {
+        "message": "Elemente zum Ändern der Position ziehen",
+        "description": "Indicates in the preview window of the OSD that the user can drag the elements to reorder them"
+    },
+    "osdSetupPreviewSelectProfileTitle": {
+        "message": "Vorschau für",
+        "description": "Label of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupSelectedProfileTitle": {
+        "message": "Aktives OSD-Profil",
+        "description": "Title of the box to select the current active OSD profile"
+    },
+    "osdSetupSelectedProfileLabel": {
+        "message": "Aktuell:",
+        "description": "Label for the selection of the curren active OSD profile"
+    },
+    "osdSetupPreviewSelectProfileElement": {
+        "message": "OSD-Profil {{profileNumber}}",
+        "description": "Content of the selector for the OSD Profile in the preview"
     },
     "osdSetupPreviewTitleTip": {
         "message": "Logo in der Vorschau anzeigen oder nicht anzeigen. Ändert keine Einstellungen des Flight Controllers."
@@ -3435,6 +3486,9 @@
     "osdDescElementCraftName": {
         "message": "Name des Fluggerätes (gesetzt im Konfigurationstab)"
     },
+    "osdDescElementDisplayName": {
+        "message": "Anzeige des Namens (Pilot - gesetzt im Konfigurationstab)"
+    },
     "osdDescElementAltitude": {
         "message": "Aktuelle Höhe (blinkt, wenn über dem Alarm Schwellwert)"
     },
@@ -3528,6 +3582,12 @@
     "osdDescElementFlipArrow": {
         "message": "Ein Pfeil zeigt, welche Motorseite im Turtle-Modus vom Boden weiter weg ist"
     },
+    "osdDescElementLinkQuality": {
+        "message": "Alternativer auf \"Frame-Verlust\" basierender Indikator für die Link-Qualität - mit Vorsicht verwenden"
+    },
+    "osdDescElementFlightDist": {
+        "message": "Zurückgelegte Entfernung in diesem Flug."
+    },
     "osdDescElementTimer1": {
         "message": "Zeigt den Inhalt von Timer 1"
     },
@@ -3548,6 +3608,9 @@
     },
     "osdDescGForce": {
         "message": "Zeigt, welchen G-Kräften das Fluggerät ausgesetzt ist."
+    },
+    "osdDescElementMotorDiag": {
+        "message": "Diagramm der Ausgabe jeden Motors anzeigen"
     },
     "osdDescElementLogStatus": {
         "message": "Blackbox Nummer und Warnungen"
@@ -3609,6 +3672,12 @@
     "osdDescStatEscRpm": {
         "message": "Max Umdrehungen\/min"
     },
+    "osdDescStatFlightDistance": {
+        "message": "Insgesamt zurückgelegte Strecke während des Fluges"
+    },
+    "osdDescStatMaxFFT": {
+        "message": "FFT-Spitzenwert"
+    },
     "osdTimerSource": {
         "message": "Quelle:"
     },
@@ -3626,6 +3695,9 @@
     },
     "osdTimerAlarmTooltip": {
         "message": "Setze den Alarmwert der Stoppuhr in Minuten. Sobald die Zeit überschritten ist blinkt das dazugehörige OSD Element"
+    },
+    "osdWarningUnknown": {
+        "message": "Unbekannte Warnung (Details werden in einer künftigen Version ergänzt)"
     },
     "osdWarningArmingDisabled": {
         "message": "Zeigt den schwerwiegensten Fehler an, warum das Fluggerät nicht armt."
@@ -3647,6 +3719,12 @@
     },
     "osdWarningEscFail": {
         "message": "Liste der ESCs\/Motoren mit Fehlern (Drehzahl oder Temperatur sind ausserhalb der konfigurierten Schwellwerte)"
+    },
+    "osdWarningCoreTemperature": {
+        "message": "Warnung, wenn MCU-Kerntemperatur einen konfigurierten Schwellenwert überschreitet"
+    },
+    "osdWarningRcSmoothingFailure": {
+        "message": "Warnung, wenn Initialisierung der \"RC-Glättung\" fehlgeschlagen ist"
     },
     "osdSectionHelpElements": {
         "message": "OSD Elemente aktivieren oder deaktivieren"
