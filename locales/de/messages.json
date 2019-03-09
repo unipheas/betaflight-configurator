@@ -3733,6 +3733,9 @@
     "osdWarningRcSmoothingFailure": {
         "message": "Warnung, wenn Initialisierung der \"RC-Glättung\" fehlgeschlagen ist"
     },
+    "osdWarningFailsafe": {
+        "message": "Warnung, wenn 'Failsafe' auftritt"
+    },
     "osdWarningLaunchControl": {
         "message": "Warnung, wenn Launch Control-Modus aktiviert ist"
     },
