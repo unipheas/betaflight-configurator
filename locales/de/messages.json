@@ -669,6 +669,9 @@
     "initialSetupArmingAllowed": {
         "message": "Arming erlaubt"
     },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "Liste der Gründe, welche das 'Arming' momentan verhindern. Für nähere Informationen den Mauszeiger über die Meldung bewegen oder im Wiki (Rubrik \"Arming Sequence & Safety\") nachschlagen."
+    },
     "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
         "message": "Kein Gyro-Sensor erkannt",
         "description": "Description of the NO GYRO arming disable flag"
@@ -3678,6 +3681,9 @@
     },
     "osdDescStatEscRpm": {
         "message": "Max Umdrehungen\/min"
+    },
+    "osdDescStatMinLinkQuality": {
+        "message": "Minimum des alternativen auf \"Frame-Verlust\" basierenden Indikators für die Verbindungsqualität"
     },
     "osdDescStatFlightDistance": {
         "message": "Insgesamt zurückgelegte Strecke während des Fluges"
