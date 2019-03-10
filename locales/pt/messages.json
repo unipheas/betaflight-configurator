@@ -668,6 +668,9 @@
     "initialSetupArmingAllowed": {
         "message": "Armar Permitido"
     },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "Lista de indicadores sobre o porque não é permitido armar. Para saber mais, mova o mouse sobre o indicador ou consulte a página do Wiki 'Arming Sequence & Safety'."
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
@@ -3350,6 +3353,9 @@
     },
     "osdDescElementCraftName": {
         "message": "Nome da aeronave como definido na aba de Configurações"
+    },
+    "osdDescElementDisplayName": {
+        "message": "Exibe o nome definido na aba de Configurações"
     },
     "osdDescElementAltitude": {
         "message": "Altitude atual (Piscar quando estiver acima do limite)"
