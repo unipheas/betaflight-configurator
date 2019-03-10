@@ -671,6 +671,86 @@
     "initialSetupArmingDisableFlagsTooltip": {
         "message": "Lista de indicadores sobre o porque não é permitido armar. Para saber mais, mova o mouse sobre o indicador ou consulte a página do Wiki 'Arming Sequence & Safety'."
     },
+    "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
+        "message": "Giroscópio não foi detectado",
+        "description": "Description of the NO GYRO arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
+        "message": "Failsafe está ativo",
+        "description": "Description of the FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
+        "message": "Não foi detectado um sinal válido do receptor",
+        "description": "Description of the RX_FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBAD_RX_RECOVERY": {
+        "message": "Seu receptor se recuperou de um Failsafe, mas o switch para Armar está ativo",
+        "description": "Description of the BAD_RX_RECOVERY arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
+        "message": "O switch do Failsafe foi ativado",
+        "description": "Description of the BOXFAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
+        "message": "A prevenção contra voo acidental foi acionada",
+        "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
+        "message": "O Valor do canal do Acelerador está muito alto",
+        "description": "Description of the THROTTLE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipANGLE": {
+        "message": "A aeronave não está nivelada o suficiente",
+        "description": "Description of the ANGLE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
+        "message": "Armar muito cedo após ligar",
+        "description": "Description of the BOOT_GRACE_TIME arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipNOPREARM": {
+        "message": "Switch do Prearm não está ativo ou Prearm não foi alterado após desarmar",
+        "description": "Description of the NOPREARM arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
+        "message": "Os sensores ainda estão sendo calibrados",
+        "description": "Description of the CALIBRATING arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCLI": {
+        "message": "Linha de comandos está ativa",
+        "description": "Description of the CLI arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
+        "message": "CMS (Menu de configurações) está ativo no OSD ou outro display",
+        "description": "Description of the CMS_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
+        "message": "Menu OSD está ativo",
+        "description": "Description of the OSD_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBST": {
+        "message": "A Telemetria de um dispositivo Black Sheep (Por exemplo: TBS Core Pro) está desarmada e está impedindo armar",
+        "description": "Description of the BST arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipMSP": {
+        "message": "A conexão MSP está ativa, provavelmente com este configurador Betaflight",
+        "description": "Description of the MSP arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipPARALYZE": {
+        "message": "Modo Paralisar foi ativado",
+        "description": "Description of the PARALYZE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipGPS": {
+        "message": "O modo de Resgate com GPS está configurado mas a quantidade de satélites localizados não é suficiente",
+        "description": "Description of the GPS arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRESC": {
+        "message": "O Switch de Resgate com GPS foi ativado",
+        "description": "Description of the RESC arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
+        "message": "O Switch de armar não está em uma posição segura",
+        "description": "Description of the ARM_SWITCH arming disable flag"
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
@@ -1025,6 +1105,9 @@
     "beeperCAM_CONNECTION_CLOSE": {
         "message": "Sinal sonoro quando desativar o controle de câmera de 5 teclas"
     },
+    "beeperRC_SMOOTHING_INIT_FAIL": {
+        "message": "Emite um sinal sonoro quando armado e o \"Suavizar RC\" não iniciou seus filtros"
+    },
     "configuration3d": {
         "message": "Modo 3D dos Motores\/ESC"
     },
@@ -1051,6 +1134,9 @@
     },
     "configurationLoopTimeHelp": {
         "message": "<strong>Nota:<\/strong> Tenha a certeza de que o controlador é capaz de operar na velocidade selecionada! Verifique a estabilidade do CPU e o tempo de ciclo. Alterar este valor pode requerer uma nova afinação do PID. DICA: Desative o acelerômetro e outros sensores para ganhar mais performance."
+    },
+    "configurationLoopTimeNo32KhzHelp": {
+        "message": "$t(configurationLoopTimeHelp.message)<br><strong>Nota sobre a frequência de atualização do Gyro a 32 kHz:<\/strong> O Modo 32kHz foi adicionado no Betaflight de forma experimental. Durante o tempo em que esteve disponível, nunca foi possível observar qualquer vantagem sobre o modo de 8kHz, por ser susceptível a vibrações e seu alto nível de ruído, que requer uma filtragem agressiva, causando atrasos no loop de controle. Por este motivo, no Betaflight 4.0, <strong>não há mais suporte para a frequência de atualização do Gyro a 32 kHz<\/strong>."
     },
     "configurationGPS": {
         "message": "GPS"
@@ -1546,6 +1632,9 @@
     "receiverMspEnableButton": {
         "message": "Habilitar controles"
     },
+    "auxiliaryHelp": {
+        "message": "Configure modos aqui usando uma combinação de intervalos e\/ou links para outros modos (links suportados no BF 4.0 e posterior). Use <strong>intervalos<\/strong> para definir os Switches no seu transmissor e as atribuições de modo correspondente. Um canal receptor que fornece uma leitura entre um intervalo mínimo\/máximo ativará o modo. Use um <strong>link<\/strong> para ativar um modo quando outro modo for ativado. <strong>Exceções:<\/strong> ARMAR não pode ser vinculado para ou a partir de outro modo, os modos não podem ser vinculados a outros modos configurados com um link (links em cadeia). Vários intervalos\/links podem ser usados ​​para ativar qualquer modo. Se houver mais de um intervalo\/link definido para um modo, cada um deles pode ser definido como AND ou OR. Um modo será ativado quando: <br \/><strong>AND<\/strong> -Todos os intervalos\/links estiverem ativos; <strong>OR<\/strong><br \/> -Pelo menos um intervalo\/link está ativo. <br \/><br \/> Lembre-se de salvar as configurações usando o botão Salvar."
+    },
     "auxiliaryToggleUnused": {
         "message": "Ocultar modos não utilizados"
     },
@@ -1558,6 +1647,9 @@
     "auxiliaryAddRange": {
         "message": "Adicionar Faixa"
     },
+    "auxiliaryAddLink": {
+        "message": "Adicionar Link"
+    },
     "auxiliaryButtonSave": {
         "message": "Salvar"
     },
@@ -1566,6 +1658,12 @@
     },
     "auxiliaryAutoChannelSelect": {
         "message": "AUTO"
+    },
+    "auxiliaryModeLogicOR": {
+        "message": "OR"
+    },
+    "auxiliaryModeLogicAND": {
+        "message": "AND"
     },
     "adjustmentsHelp": {
         "message": "Configure os 'switches' de ajuste. Leia a seção do manual sobre 'in-flight adjustments' para detalhes. Os ajustes feitos por essas funções não serão salvos automaticamente. Existem 4 slots. Cada switch utilizado ao mesmo tempo para o ajuste exige o uso exclusivo de um slot."
@@ -1707,6 +1805,12 @@
     },
     "adjustmentsFunction28": {
         "message": "F do Yaw"
+    },
+    "adjustmentsFunction29": {
+        "message": "Seleção do Perfil do OSD"
+    },
+    "adjustmentsFunction30": {
+        "message": "Seleção do Perfil de LED"
     },
     "adjustmentsSave": {
         "message": "Salvar"
@@ -2115,6 +2219,12 @@
     },
     "dataflashButtonSaveFile": {
         "message": "Salvar memória em um arquivo..."
+    },
+    "dataflashButtonSaveFileDeprecated": {
+        "message": "Salvar memória em um arquivo... (Depreciado)"
+    },
+    "dataflashSaveFileDepreciationHint": {
+        "message": "Salvar logs do Blackbox através do configurador é lento de pode causar erros. É recomendado que você utilize a função '<b>$t(onboardLoggingRebootMscText.message)<\/b>' abaixo para ativar o modo de Armazenamento e então acesse seu controlador de voo e descarregue seus arquivos de log."
     },
     "dataflashButtonErase": {
         "message": "Apagar flash"
@@ -2739,6 +2849,15 @@
     "pidTuningGyroLowpassType": {
         "message": "Gyro - Lowpass 1 - Tipo do filtro"
     },
+    "pidTuningGyroLowpassDynMinFrequency": {
+        "message": "Gyro - Lowpass 1 Dinâmico - Frequência de corte mínima [Hz]"
+    },
+    "pidTuningGyroLowpassDynMaxFrequency": {
+        "message": "Gyro - Lowpass 1 Dinâmico - Frequência de corte máxima [Hz]"
+    },
+    "pidTuningGyroLowpassDynType": {
+        "message": "Gyro - Lowpass 1 Dinâmico - Tipo do filtro"
+    },
     "pidTuningGyroLowpass2Frequency": {
         "message": "Gyro - Lowpass 2 - Frequência de corte [Hz]"
     },
@@ -2763,6 +2882,9 @@
     "pidTuningNotchFilterHelp": {
         "message": "O filtro Notch tem duas frequências, a de centro e a de corte.<br>O filtro é simétrico.<br>A frequência de corte é onde o filtro começa e a frequência central é o centro do filtro. Por exemplo, configurando o corte em 160Hz e o centro em 260Hz indica que o filtro irá afetar as frequências de 160Hz a 360Hz, com a maior atenuação no centro"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "Os filtros Lowpass (Passa Baixa) têm dois tipos: Estático e dinâmico. Para cada filtro lowpass, somente um dos dois tipos pode estar ativo. O tipo estático tem uma única frequência de corte que determina o começo do filtro. O tipo dinâmico define um valor máximo e mínimo, a frequência de corte é então posicionada entre esses valores de acordo o movimento do Stick do Acelerador."
+    },
     "pidTuningFilterSettings": {
         "message": "Configurações de filtros por perfil"
     },
@@ -2777,6 +2899,18 @@
     },
     "pidTuningDTermLowpass2Frequency": {
         "message": "Termo D - Lowpass 2 - Frequência de corte [Hz]"
+    },
+    "pidTuningDTermLowpass2Type": {
+        "message": "Termo D - Lowpass 2 - Tipo do filtro"
+    },
+    "pidTuningDTermLowpassDynMinFrequency": {
+        "message": "Termo D - Lowpass 1 Dinâmico - Frequência de corte mínima [Hz]"
+    },
+    "pidTuningDTermLowpassDynMaxFrequency": {
+        "message": "Termo D - Lowpass 1 Dinâmico - Frequência de corte máxima [Hz]"
+    },
+    "pidTuningDTermLowpassDynType": {
+        "message": "Termo D - Lowpass 1 Dinâmico - Tipo do filtro"
     },
     "pidTuningDTermNotchFiltersGroup": {
         "message": "Filtros Notch (Rejeita Faixa) do TERMO D"
@@ -3222,8 +3356,32 @@
     "osdSetupUnsupportedNote2": {
         "message": "Nota: Alguns controladores de voo contém um <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a> a bordo que pode ser atualizado e configurado com o <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>, porém, o MinimOSD não pode ser configurado por aqui."
     },
+    "osdSetupProfilesTitle": {
+        "message": "Número do perfil OSD",
+        "description": "Description of the header of the OSD elements column associated to each profile"
+    },
     "osdSetupElementsTitle": {
         "message": "Elementos"
+    },
+    "osdSetupPreviewTitle": {
+        "message": "Arraste os elementos para mudar a posição",
+        "description": "Indicates in the preview window of the OSD that the user can drag the elements to reorder them"
+    },
+    "osdSetupPreviewSelectProfileTitle": {
+        "message": "Pré-visualização para",
+        "description": "Label of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupSelectedProfileTitle": {
+        "message": "Perfil OSD Ativo",
+        "description": "Title of the box to select the current active OSD profile"
+    },
+    "osdSetupSelectedProfileLabel": {
+        "message": "Atual:",
+        "description": "Label for the selection of the curren active OSD profile"
+    },
+    "osdSetupPreviewSelectProfileElement": {
+        "message": "Perfil OSD {{profileNumber}}",
+        "description": "Content of the selector for the OSD Profile in the preview"
     },
     "osdSetupPreviewTitleTip": {
         "message": "Mostrar ou esconder o logo na janela de pré-visualização. Isso não irá afetar nenhuma configuração no controlador de voo."
@@ -3455,6 +3613,12 @@
     },
     "osdDescElementFlightDist": {
         "message": "Distância percorrida durante o voo."
+    },
+    "osdDescElementStickOverlayLeft": {
+        "message": "Posição do stick esquerdo do transmissor."
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "Posição do stick direito do transmissor."
     },
     "osdDescElementTimer1": {
         "message": "Mostra o valor do cronômetro 1"
