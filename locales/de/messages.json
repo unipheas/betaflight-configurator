@@ -3487,9 +3487,6 @@
     "osdDescElementCraftName": {
         "message": "Name des Fluggerätes (gesetzt im Konfigurationstab)"
     },
-    "osdDescElementDisplayName": {
-        "message": "Anzeige des Namens (Pilot - gesetzt im Konfigurationstab)"
-    },
     "osdDescElementAltitude": {
         "message": "Aktuelle Höhe (blinkt, wenn über dem Alarm Schwellwert)"
     },
