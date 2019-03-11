@@ -1253,15 +1253,6 @@
     "portsFunction_BLACKBOX": {
         "message": "ブラックボックスログ"
     },
-    "portsFunction_TBS_SMARTAUDIO": {
-        "message": "TBS SmartAudio"
-    },
-    "portsFunction_IRC_TRAMP": {
-        "message": "IRC Tramp"
-    },
-    "portsFunction_RUNCAM_DEVICE_CONTROL": {
-        "message": "RunCamデバイス"
-    },
     "pidTuningProfileOption": {
         "message": "Profile $1"
     },
