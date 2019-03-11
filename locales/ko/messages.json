@@ -1253,6 +1253,15 @@
     "portsFunction_BLACKBOX": {
         "message": "블랙박스 로그기록"
     },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "VTX (TBS 스마트오디오)"
+    },
+    "portsFunction_IRC_TRAMP": {
+        "message": "VTX (IRC 트램프)"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "카메라 (런캠 프로토콜)"
+    },
     "pidTuningProfileOption": {
         "message": "프로파일 $1"
     },
