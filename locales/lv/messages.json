@@ -3519,9 +3519,6 @@
     "osdDescElementCraftName": {
         "message": "Konfigurācijas cilnē iestatītais gaisa kuģa vārds"
     },
-    "osdDescElementDisplayName": {
-        "message": "Rādīt vārdu, kas iestatīts Konfigurācijas cilnē"
-    },
     "osdDescElementAltitude": {
         "message": "Patreizējais augstums (mirgo, ja ir virs trauksmes sliekšņa)"
     },
