@@ -3455,9 +3455,6 @@
     "osdDescElementCraftName": {
         "message": "Farkostnamnet som det angivits i Konfigurationsfliken"
     },
-    "osdDescElementDisplayName": {
-        "message": "Visningsnamn som det angivits på fliken Konfiguration"
-    },
     "osdDescElementAltitude": {
         "message": "Aktuell höjd (blinkar om larmtröskeln överskridits)"
     },
