@@ -1256,6 +1256,9 @@
     "portsFunction_TBS_SMARTAUDIO": {
         "message": "VTX (TBS SmartAudio)"
     },
+    "portsFunction_IRC_TRAMP": {
+        "message": "VTX (IRC Tramp)"
+    },
     "portsFunction_RUNCAM_DEVICE_CONTROL": {
         "message": "Cámara (RunCam Protocol)"
     },
@@ -3515,6 +3518,9 @@
     },
     "osdDescElementCraftName": {
         "message": "Nombre de la aeronave tal como está en el apartado Configuración"
+    },
+    "osdDescElementDisplayName": {
+        "message": "Mostrar nombre configurado con el comando cli \"display_name\""
     },
     "osdDescElementAltitude": {
         "message": "Altitud actual (parpadea por encima del umbral de alarma)"
