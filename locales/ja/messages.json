@@ -2856,6 +2856,12 @@
     "pidTuningGyroLowpassType": {
         "message": "ジャイロ ローパス1 フィルタータイプ"
     },
+    "pidTuningGyroLowpassDynMinFrequency": {
+        "message": "ジャイロ ローパス1 ダイナミック最小 カットオフ周波数 [Hz]"
+    },
+    "pidTuningGyroLowpassDynMaxFrequency": {
+        "message": "ジャイロ ローパス1 ダイナミック最大 カットオフ周波数 [Hz]"
+    },
     "pidTuningGyroLowpass2Frequency": {
         "message": "ジャイロ ローパス2 カットオフ周波数 [Hz]"
     },
