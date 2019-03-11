@@ -1253,6 +1253,12 @@
     "portsFunction_BLACKBOX": {
         "message": "Grabadora de Caja Negra"
     },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "VTX (TBS SmartAudio)"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "Cámara (RunCam Protocol)"
+    },
     "pidTuningProfileOption": {
         "message": "Perfil $1"
     },
