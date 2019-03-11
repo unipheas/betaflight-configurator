@@ -1019,15 +1019,6 @@
     "portsFunction_BLACKBOX": {
         "message": "Blackbox lokitiedoston kirjoitus"
     },
-    "portsFunction_TBS_SMARTAUDIO": {
-        "message": "TBS SmartAudio"
-    },
-    "portsFunction_IRC_TRAMP": {
-        "message": "IRC Tramp"
-    },
-    "portsFunction_RUNCAM_DEVICE_CONTROL": {
-        "message": "RunCam Device"
-    },
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">PID-ohjaimen muuttaminen estetty - voit muuttaa sitä CLI-toiminnon kautta.<\/span> Laiteohjelmistosi API-versio on: <span class=\"message-negative\">$1<\/span>, mutta tämä toiminnallisuus vaatii: <span class=\"message-positive\">$2<\/span>."
     },
