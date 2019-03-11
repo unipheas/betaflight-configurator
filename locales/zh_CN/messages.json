@@ -3474,9 +3474,6 @@
     "osdDescElementCraftName": {
         "message": "设置页面里设置的飞行器名称"
     },
-    "osdDescElementDisplayName": {
-        "message": "显示在配置程序中设置的名称"
-    },
     "osdDescElementAltitude": {
         "message": "当前高度 (当超过设置的警告高度时会闪烁)"
     },
