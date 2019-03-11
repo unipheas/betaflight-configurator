@@ -1306,13 +1306,13 @@
         "message": "crwdns5675:0crwdne5675:0"
     },
     "portsFunction_TBS_SMARTAUDIO": {
-        "message": "crwdns5676:0crwdne5676:0"
+        "message": "crwdns9036:0crwdne9036:0"
     },
     "portsFunction_IRC_TRAMP": {
-        "message": "crwdns5677:0crwdne5677:0"
+        "message": "crwdns9038:0crwdne9038:0"
     },
     "portsFunction_RUNCAM_DEVICE_CONTROL": {
-        "message": "crwdns5678:0crwdne5678:0"
+        "message": "crwdns9040:0crwdne9040:0"
     },
     "pidTuningProfileOption": {
         "message": "crwdns6372:0$1crwdne6372:0"
