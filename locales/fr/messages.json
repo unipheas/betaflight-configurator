@@ -3471,9 +3471,6 @@
     "osdDescElementCraftName": {
         "message": "Nom du modèle comme indiqué dans le configurateur"
     },
-    "osdDescElementDisplayName": {
-        "message": "Afficher le nom comme défini dans l'onglet Configuration"
-    },
     "osdDescElementAltitude": {
         "message": "Altitude ( clignote quand le seuil d'alarme est atteint)"
     },
