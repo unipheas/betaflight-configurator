@@ -1253,6 +1253,15 @@
     "portsFunction_BLACKBOX": {
         "message": "Melnās kastes žurnalēšana"
     },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "VTX (TBS SmartAudio)"
+    },
+    "portsFunction_IRC_TRAMP": {
+        "message": "VTX (IRC Tramp)"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "Kamera (RunCam protokols)"
+    },
     "pidTuningProfileOption": {
         "message": "Profils $1"
     },
