@@ -3519,6 +3519,9 @@
     "osdDescElementCraftName": {
         "message": "환경설정 탭에서 설정된 기체 이름"
     },
+    "osdDescElementDisplayName": {
+        "message": "\"display_name\" cli 명령에 의해 설정된 이름을 표시합니다."
+    },
     "osdDescElementAltitude": {
         "message": "현재 고도 (임계값 이상일 때 깜빡임)"
     },
