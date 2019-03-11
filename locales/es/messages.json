@@ -3516,9 +3516,6 @@
     "osdDescElementCraftName": {
         "message": "Nombre de la aeronave tal como está en el apartado Configuración"
     },
-    "osdDescElementDisplayName": {
-        "message": "Muestra el nombre asignado en la pestaña Configuración"
-    },
     "osdDescElementAltitude": {
         "message": "Altitud actual (parpadea por encima del umbral de alarma)"
     },
