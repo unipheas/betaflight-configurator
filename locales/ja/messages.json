@@ -2889,6 +2889,9 @@
     "pidTuningNotchFilterHelp": {
         "message": "ノッチフィルターには中心周波数とカットオフ周波数があります。 フィルターは対称となり、 中心周波数はフィルターの中心位置で、カットオフ周波数はノッチフィルターの開始位置となります。 たとえばノッチフィルター カットオフ周波数が160Hz、ノッチフィルター中心周波数が260Hzの場合、範囲は160〜360Hzとなり、中心付近の減衰が最も大きくなります。"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "ローパスフィルタには静的・動的の2種類があります。設定したローパスフィルタ番号に対し、常に有効となるのは (静的または動的) どちらか1つです。静的カットオフは、フィルタ開始位置をいずれかの方法で定義します。動的カットオフは、最小値と最大値、つまりカットオフ有効範囲を定義します。このカットオフは、スロットルスティックを動かすのと同時に最小から最大へ変位します。"
+    },
     "pidTuningFilterSettings": {
         "message": "Profile毎のフィルター設定"
     },
@@ -2908,13 +2911,13 @@
         "message": "D値 ローパス2 フィルタータイプ"
     },
     "pidTuningDTermLowpassDynMinFrequency": {
-        "message": "D値 ローパス1 ダイナミック最小 カットオフ周波数 [Hz]"
+        "message": "D値 ローパス1 動的最小値 カットオフ周波数 [Hz]"
     },
     "pidTuningDTermLowpassDynMaxFrequency": {
-        "message": "D値 ローパス1 ダイナミック最大 カットオフ周波数 [Hz]"
+        "message": "D値 ローパス1 動的最大値 カットオフ周波数 [Hz]"
     },
     "pidTuningDTermLowpassDynType": {
-        "message": "D値 ローパス1 ダイナミックフィルター タイプ"
+        "message": "D値 ローパス1 動的フィルタータイプ"
     },
     "pidTuningDTermNotchFiltersGroup": {
         "message": "D値 ノッチフィルター"
