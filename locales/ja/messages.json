@@ -2857,10 +2857,13 @@
         "message": "ジャイロ ローパス1 フィルタータイプ"
     },
     "pidTuningGyroLowpassDynMinFrequency": {
-        "message": "ジャイロ ローパス1 ダイナミック最小 カットオフ周波数 [Hz]"
+        "message": "ジャイロ ローパス1 動的最小値 カットオフ周波数 [Hz]"
     },
     "pidTuningGyroLowpassDynMaxFrequency": {
-        "message": "ジャイロ ローパス1 ダイナミック最大 カットオフ周波数 [Hz]"
+        "message": "ジャイロ ローパス1 動的最大値 カットオフ周波数 [Hz]"
+    },
+    "pidTuningGyroLowpassDynType": {
+        "message": "ジャイロ ローパス1 動的フィルタータイプ"
     },
     "pidTuningGyroLowpass2Frequency": {
         "message": "ジャイロ ローパス2 カットオフ周波数 [Hz]"
@@ -2900,6 +2903,18 @@
     },
     "pidTuningDTermLowpass2Frequency": {
         "message": "D値 ローパス2 カットオフ周波数 [Hz]"
+    },
+    "pidTuningDTermLowpass2Type": {
+        "message": "D値 ローパス2 フィルタータイプ"
+    },
+    "pidTuningDTermLowpassDynMinFrequency": {
+        "message": "D値 ローパス1 ダイナミック最小 カットオフ周波数 [Hz]"
+    },
+    "pidTuningDTermLowpassDynMaxFrequency": {
+        "message": "D値 ローパス1 ダイナミック最大 カットオフ周波数 [Hz]"
+    },
+    "pidTuningDTermLowpassDynType": {
+        "message": "D値 ローパス1 ダイナミックフィルター タイプ"
     },
     "pidTuningDTermNotchFiltersGroup": {
         "message": "D値 ノッチフィルター"
