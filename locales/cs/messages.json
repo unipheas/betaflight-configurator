@@ -1001,12 +1001,6 @@
     "portsFunction_BLACKBOX": {
         "message": "Blackbox logování"
     },
-    "portsFunction_TBS_SMARTAUDIO": {
-        "message": "TBS SmartAudio"
-    },
-    "portsFunction_RUNCAM_DEVICE_CONTROL": {
-        "message": "Zařízení RunCam"
-    },
     "pidTuningProfileOption": {
         "message": "Profil $1"
     },
