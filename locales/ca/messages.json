@@ -1079,15 +1079,6 @@
     "portsFunction_BLACKBOX": {
         "message": "Enregistrament Blackbox"
     },
-    "portsFunction_TBS_SMARTAUDIO": {
-        "message": "TBS SmartAudio"
-    },
-    "portsFunction_IRC_TRAMP": {
-        "message": "IRC Tramp"
-    },
-    "portsFunction_RUNCAM_DEVICE_CONTROL": {
-        "message": "Dispositiu RunCam"
-    },
     "pidTuningProfileOption": {
         "message": "Perfil $1"
     },
