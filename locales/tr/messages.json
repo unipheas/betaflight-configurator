@@ -29,6 +29,15 @@
     "close": {
         "message": "Kapat"
     },
+    "permanentExpertMode": {
+        "message": "Uzman Modunu kalıcı olarak etkinleştir"
+    },
+    "rememberLastTab": {
+        "message": "Bağlandığında son sekmeyi aç"
+    },
+    "analyticsOptOut": {
+        "message": "İstatistiksel bilgilerin anonim olarak toplanması programından kaydını sil"
+    },
     "sensorDataFlashNotFound": {
         "message": "Veri akışı yok <br>Çip bulunamadı",
         "description": "Text of the dataflash image in the header of the page."
@@ -60,6 +69,9 @@
     "sensorStatusSonarShort": {
         "message": "Deniz radarı",
         "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "checkForConfiguratorUnstableVersions": {
+        "message": "Yapılandırıcının tutarsız sürümleri için güncelleştirme bildirimlerini göster"
     },
     "configuratorUpdateWebsite": {
         "message": "Yayın Web Sitesine gidin"
@@ -172,6 +184,9 @@
     },
     "defaultSupportSubline1": {
         "message": "Destek kaynakları"
+    },
+    "defaultSupportSubline2": {
+        "message": "Geliştirici"
     },
     "defaultSupport": {
         "message": "Destek için ilk olarak forumlarda ve wiki'de arama yapın veya satıcınızla görüşün.<br \/><br \/>"
