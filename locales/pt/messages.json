@@ -2107,16 +2107,16 @@
         "message": "Debug"
     },
     "cliInfo": {
-        "message": "<strong>Nota:<\/strong> Sair da aba de linha de comando (CLI) ou pressionar Desconectar irá <strong>automaticamente<\/strong> enviar o comando \"<strong>exit<\/strong>\" para a placa. No firmware mais recente, isto fará com que o controlador <span class=\"message-negative\">reinicie<\/span> e qualquer mudança não salva será <span class=\"message-negative\">perdida<\/span>."
+        "message": "<strong>Nota:<\/strong> Sair da aba de Linha de comandos (CLI) ou pressionar Desconectar irá <strong>automaticamente<\/strong> enviar o comando \"<strong>exit<\/strong>\" para a placa. No firmware mais recente, isto fará com que o controlador <span class=\"message-negative\">reinicie<\/span> e qualquer alteração que não está salva será <span class=\"message-negative\">perdida<\/span>."
     },
     "cliInputPlaceholder": {
         "message": "Escreva o seu comando aqui"
     },
     "cliEnter": {
-        "message": "Modo CLI detectado"
+        "message": "Modo Linha de comandos (CLI) detectado"
     },
     "cliReboot": {
-        "message": "Reiniciar CLI detectado"
+        "message": "Reiniciar por Linha de comandos (CLI) detectado"
     },
     "cliSaveToFileBtn": {
         "message": "Salvar para arquivo"
