@@ -1253,6 +1253,15 @@
     "portsFunction_BLACKBOX": {
         "message": "ブラックボックスログ"
     },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "VTX (TBS SmartAudio)"
+    },
+    "portsFunction_IRC_TRAMP": {
+        "message": "VTX (IRC Tramp)"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "カメラ (RunCamプロトコル)"
+    },
     "pidTuningProfileOption": {
         "message": "Profile $1"
     },
@@ -3509,6 +3518,9 @@
     },
     "osdDescElementCraftName": {
         "message": "[設定] タブで設定した機体名"
+    },
+    "osdDescElementDisplayName": {
+        "message": "CLIコマンド【display_name】で設定した表示名"
     },
     "osdDescElementAltitude": {
         "message": "現在の高度 (アラーム値を超えると点滅)"
