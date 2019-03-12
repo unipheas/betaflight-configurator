@@ -76,6 +76,9 @@
     "backupFileUnmigratable": {
         "message": "Sağlanan yedekleme dosyası Yapılandırıcının önceki bir sürümü tarafından oluşturulmuştur ve taşınabilir değildir. Üzgünüm."
     },
+    "tabFirmwareFlasher": {
+        "message": "Yazılım Yükleyici"
+    },
     "serialPortOpenFail": {
         "message": "Seri bağlantı noktası <span class=\"message-negative\">açılamadı<\/span>"
     },
@@ -131,6 +134,9 @@
     "eeprom_saved_ok": {
         "message": "EEPROM <span class=\"message-positive\">kaydedildi<\/span>"
     },
+    "defaultWelcomeIntro": {
+        "message": "Uçuş denetleyicinizi güncellemek, yapılandırmak ve ayarlamayı basitleştirmek için tasarlanmış yardımcı bir program olan <strong> Betaflight - Configurator <\/strong> 'a hoş geldiniz."
+    },
     "defaultContributingText": {
         "message": "Betaflight'ı daha da güzel yapmak için bir çok yoldan yardımcı olabilirsiniz. Bunlardan bazıları: <br \/><ul> IRC de forumlarda diğer kullanıcıların sorularını yanıtlamak. <\/li><li> Yapılandırıcı ve donanın yazılımı kodlarına katkıla bulunmak- yeni özellikler, düzeltmeler, geliştirmeler<\/li><li> <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">Yeni özellikleri <\/a> test etmek ve geri dönüt vermek. <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\"><li>İstenen özellikler hakkında durumlara ve yorumlara <\/a> yardım etmek. <\/li> <li> <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\"> ile işbirliği yaparak yapılandırıcı uygulamasını <\/a> kendi dilinize çevirmek<\/li><li><\/li><\/ul>"
     },
@@ -145,9 +151,6 @@
     },
     "defaultDonateHead": {
         "message": "Açık Kaynak \/ Bağış Bildirimi"
-    },
-    "defaultDonate": {
-        "message": "Bağış"
     },
     "defaultSponsorsHead": {
         "message": "Sponsorlar"
@@ -1299,7 +1302,7 @@
         "message": "Bağlantı yanıyor"
     },
     "firmwareFlasherFullChipErase": {
-        "message": "Tüm çipi silmek"
+        "message": "Tüm çipi sil"
     },
     "firmwareFlasherManualPort": {
         "message": "Bağlantı noktası"
