@@ -3519,6 +3519,9 @@
     "osdDescElementCraftName": {
         "message": "Konfigurācijas cilnē iestatītais gaisa kuģa vārds"
     },
+    "osdDescElementDisplayName": {
+        "message": "Rādīt vārdu kas uzstādīts ar CLI komandu \"display_name\""
+    },
     "osdDescElementAltitude": {
         "message": "Patreizējais augstums (mirgo, ja ir virs trauksmes sliekšņa)"
     },
