@@ -1358,6 +1358,34 @@
     "pidTuningAntiGravityThres": {
         "message": "crwdns5686:0crwdne5686:0"
     },
+    "pidTuningDMinHelp": {
+        "message": "crwdns9044:0crwdne9044:0",
+        "description": "Help message for D Min feature"
+    },
+    "pidTuningDMin": {
+        "message": "crwdns9046:0crwdne9046:0",
+        "description": "Table header of the D Min feature in the PIDs tab"
+    },
+    "pidTuningDMinRoll": {
+        "message": "crwdns9048:0crwdne9048:0",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinPitch": {
+        "message": "crwdns9050:0crwdne9050:0",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinYaw": {
+        "message": "crwdns9052:0crwdne9052:0",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinGain": {
+        "message": "crwdns9054:0crwdne9054:0",
+        "description": "Gain of the D Min feature"
+    },
+    "pidTuningDMinAdvance": {
+        "message": "crwdns9056:0crwdne9056:0",
+        "description": "Advane of the D Min feature"
+    },
     "pidTuningPidSettings": {
         "message": "crwdns5687:0crwdne5687:0"
     },
