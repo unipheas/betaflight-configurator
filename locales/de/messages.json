@@ -1254,6 +1254,15 @@
     "portsFunction_BLACKBOX": {
         "message": "Blackbox Logger"
     },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "VTX (TBS SmartAudio)"
+    },
+    "portsFunction_IRC_TRAMP": {
+        "message": "VTX (IRC-Tramp)"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "Kamera (RunCam Protokoll)"
+    },
     "pidTuningProfileOption": {
         "message": "Profil $1"
     },
@@ -2848,6 +2857,15 @@
     "pidTuningGyroLowpassType": {
         "message": "Gyro Lowpass 1 Filter Type"
     },
+    "pidTuningGyroLowpassDynMinFrequency": {
+        "message": "Gyro Lowpass 1 Dynamic Min Cutoff Frequency [Hz]"
+    },
+    "pidTuningGyroLowpassDynMaxFrequency": {
+        "message": "Gyro Lowpass 1 Dynamic Max Cutoff Frequency [Hz]"
+    },
+    "pidTuningGyroLowpassDynType": {
+        "message": "Gyro Lowpass 1 Dynamic Filter Type"
+    },
     "pidTuningGyroLowpass2Frequency": {
         "message": "Gyro Lowpass 2 Cutoff Frequency [Hz]"
     },
@@ -2886,6 +2904,12 @@
     },
     "pidTuningDTermLowpass2Frequency": {
         "message": "D Term Lowpass 2 Cutoff Frequency [Hz]"
+    },
+    "pidTuningDTermLowpass2Type": {
+        "message": "D Term Lowpass 2 Filter Type"
+    },
+    "pidTuningDTermLowpassDynMinFrequency": {
+        "message": "D Term Lowpass 1 Dynamic Min Cutoff Frequency [Hz]"
     },
     "pidTuningDTermNotchFiltersGroup": {
         "message": "D Term Notch Filter"
@@ -3486,6 +3510,9 @@
     },
     "osdDescElementCraftName": {
         "message": "Name des Fluggerätes (gesetzt im Konfigurationstab)"
+    },
+    "osdDescElementDisplayName": {
+        "message": "Zeigt den Namen, welcher durch den \"display_name\"-cli-Befehl festgelegt wurde."
     },
     "osdDescElementAltitude": {
         "message": "Aktuelle Höhe (blinkt, wenn über dem Alarm Schwellwert)"
