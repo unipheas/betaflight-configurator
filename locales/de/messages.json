@@ -2911,6 +2911,12 @@
     "pidTuningDTermLowpassDynMinFrequency": {
         "message": "D Term Lowpass 1 Dynamic Min Cutoff Frequency [Hz]"
     },
+    "pidTuningDTermLowpassDynMaxFrequency": {
+        "message": "D Term Lowpass 1 Dynamic Max Cutoff Frequency [Hz]"
+    },
+    "pidTuningDTermLowpassDynType": {
+        "message": "D Term Lowpass 1 Dynamic Filter Type"
+    },
     "pidTuningDTermNotchFiltersGroup": {
         "message": "D Term Notch Filter"
     },
