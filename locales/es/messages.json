@@ -3034,6 +3034,9 @@
     "pidTuningIntegratedYawCaution": {
         "message": "<span class=\"message-negative\">ATENCIÓN<\/span>: si activas esta funcionalidad, debes ajustar el PID del YAW en consecuencia. Más información <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">aquí<\/a>"
     },
+    "pidTuningIntegratedYawHelp": {
+        "message": "Yaw Integrado es una funcionalidad que corrige un problema fundamental en el control del dron: mientras los ejes de roll y pitch están controlados por los diferenciales de empuje que generan las hélices el de yaw es diferente. Yaw Integrado soluciona esto integrando la salida del pid del yaw antes de aplicarla en el mezclador. Esto normaliza la forma en que los pids funcionan. Ahora puedes ajustarlo como cualquier otro eje. Requiere el uso de Control Absoluto ya que no se necesita I con Yaw Integrado."
+    },
     "configHelp2": {
         "message": "Rotación arbitraria de la placa en grados, para permitir montaje de lado \/ boca abajo \/ rotada etc. Al ejecutar sensores externos, usa la alineación del sensor (Giro, Acc, Mag) para definir la posición del sensor independientemente de la orientación de la placa. "
     },
