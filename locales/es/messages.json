@@ -3028,6 +3028,12 @@
     "pidTuningAcroTrainerAngleLimitHelp": {
         "message": "Añade un nuevo modo que limita el ángulo para pilotos que están aprendiendo a volar en modo acro. El rango válido es 10-80 y debe activarse con un interruptor en la pestaña de $t(tabAuxiliary.message)."
     },
+    "pidTuningIntegratedYaw": {
+        "message": "Yaw Integrado"
+    },
+    "pidTuningIntegratedYawCaution": {
+        "message": "<span class=\"message-negative\">ATENCIÓN<\/span>: si activas esta funcionalidad, debes ajustar el PID del YAW en consecuencia. Más información <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">aquí<\/a>"
+    },
     "configHelp2": {
         "message": "Rotación arbitraria de la placa en grados, para permitir montaje de lado \/ boca abajo \/ rotada etc. Al ejecutar sensores externos, usa la alineación del sensor (Giro, Acc, Mag) para definir la posición del sensor independientemente de la orientación de la placa. "
     },
