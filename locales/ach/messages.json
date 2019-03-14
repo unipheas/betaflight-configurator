@@ -3080,6 +3080,15 @@
     "pidTuningAcroTrainerAngleLimitHelp": {
         "message": "crwdns8821:0$t(tabAuxiliary.message)crwdne8821:0"
     },
+    "pidTuningIntegratedYaw": {
+        "message": "crwdns9058:0crwdne9058:0"
+    },
+    "pidTuningIntegratedYawCaution": {
+        "message": "crwdns9060:0crwdne9060:0"
+    },
+    "pidTuningIntegratedYawHelp": {
+        "message": "crwdns9062:0crwdne9062:0"
+    },
     "configHelp2": {
         "message": "crwdns6105:0crwdne6105:0"
     },
