@@ -1306,6 +1306,34 @@
     "pidTuningAntiGravityThres": {
         "message": "Umbral Anti Gravedad"
     },
+    "pidTuningDMinHelp": {
+        "message": "D Min proporciona una manera de tener un valor más bajo de D en vuelo normal y un valor más alto para maniobras rápidas que podrían sufrir un sobre movimiento, como flips y rolls. También aumenta D durante las turbulencias. La aeronave tendrá un Término D dinámico que variará entre D Min (en vuelo normal) y la D estándar (en rolls y flips rápidos). Un valor de cero desactiva la característica. La Ganancia determina como de fuerte es el incremento de D durante el movimiento rápido de las palancas. El Avance acelera la aparición del efecto incremento. Esto puede ser útil si tiene exceso de sobre movimiento en giros con una tasa muy alta en quads muy reactivos.",
+        "description": "Help message for D Min feature"
+    },
+    "pidTuningDMin": {
+        "message": "D Min",
+        "description": "Table header of the D Min feature in the PIDs tab"
+    },
+    "pidTuningDMinRoll": {
+        "message": "Roll",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinPitch": {
+        "message": "Pitch",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinYaw": {
+        "message": "Yaw",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinGain": {
+        "message": "Ganancia",
+        "description": "Gain of the D Min feature"
+    },
+    "pidTuningDMinAdvance": {
+        "message": "Avance",
+        "description": "Advane of the D Min feature"
+    },
     "pidTuningPidSettings": {
         "message": "Ajustes del Controlador PID"
     },
