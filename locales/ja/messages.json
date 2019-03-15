@@ -3034,6 +3034,9 @@
     "pidTuningIntegratedYawCaution": {
         "message": "<span class=\"message-negative\">注意<\/span>: この機能を有効にした場合は、それに応じてYaw PID値を調整する必要があります。詳しくは<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">こちら<\/a>"
     },
+    "pidTuningIntegratedYawHelp": {
+        "message": "Integrated Yawは、機体コントロールの基本的な問題を修正する機能です。ピッチとロールは、プロペラがヨーを生成する推力差によって制御されます。Integrated Yawはミキサーにそれらの値を適用する前にYaw PID値の出力を積分することによって値を固定します。これらはPID機能を正常化します。これにより他のP値D値と同様に調整ができます。Integrated Yawには必要ないので絶対制御を使用する必要があります。"
+    },
     "configHelp2": {
         "message": "横向き \/ 下向き \/ 任意な回転による取付けが可能なFCボードの回転角度です。外部センサーを使用する場合は、センサーのアライメント (Gyro、Accel、コンパス) を使用して、ボードの向きから独立したセンサー位置を定義します。 "
     },
