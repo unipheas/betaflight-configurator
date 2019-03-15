@@ -1306,6 +1306,10 @@
     "pidTuningAntiGravityThres": {
         "message": "Anti Gravity 反重力 しきい値"
     },
+    "pidTuningDMinHelp": {
+        "message": "【D値 最小】は通常飛行ではより低い値のD値とし、フリップやロールのようにオーバーシュートを引き起こす可能プロップウォッシュの間にD値を上昇させます。この機体は、D値 最小 (通常飛行) から標準D値 (素早いロールやフリップアクション) の間で変化する動的なD値です。0値はこの機能を無効にします。ゲインは、素早いスティック入力時にD値がどの程度強くブーストされるかを決定します。アドバンスはブースト効果の開始スピードを上げます。非常に反応の速い機体で高速フリップアクションでオーバーシュートしてしまう場合、この機能が役立ちます。",
+        "description": "Help message for D Min feature"
+    },
     "pidTuningDMin": {
         "message": "D値最小",
         "description": "Table header of the D Min feature in the PIDs tab"
@@ -1323,11 +1327,11 @@
         "description": "Axis to apply D Min feature"
     },
     "pidTuningDMinGain": {
-        "message": "Gain",
+        "message": "ゲイン",
         "description": "Gain of the D Min feature"
     },
     "pidTuningDMinAdvance": {
-        "message": "拡張",
+        "message": "アドバンス",
         "description": "Advane of the D Min feature"
     },
     "pidTuningPidSettings": {
@@ -3025,7 +3029,7 @@
         "message": "アクロモードでの飛行を練習しているパイロットのための新しい角度制限モードを追加します。有効範囲は10-80、$t(tabAuxiliary.message)タブのスイッチで有効となります。"
     },
     "pidTuningIntegratedYaw": {
-        "message": "総合Yaw"
+        "message": "Integrated Yaw"
     },
     "pidTuningIntegratedYawCaution": {
         "message": "<span class=\"message-negative\">注意<\/span>: この機能を有効にした場合は、それに応じてYaw PID値を調整する必要があります。詳しくは<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">こちら<\/a>"
