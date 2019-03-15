@@ -3000,6 +3000,15 @@
     "pidTuningAcroTrainerAngleLimitHelp": {
         "message": "아크로 모드에서 비행을 배우는 파일럿을 위한 새로운 앵글 제한 모드를 추가 합니다. 유효한 범위 10-80 이며 $t(tabAuxiliary.message) 탭에서 스위치를 활성화 해야 합니다."
     },
+    "pidTuningIntegratedYaw": {
+        "message": "통합 요(Yaw)"
+    },
+    "pidTuningIntegratedYawCaution": {
+        "message": "<span class=\"message-negative\">주의<\/span>:이 기능을 사용하는 경우 그에 따라 요 PID를 조정해야 합니다. 더 자세한 정보는 <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">여기<\/a>에서 확인하세요."
+    },
+    "pidTuningIntegratedYawHelp": {
+        "message": "통합 요는 쿼드 제어의 근본적인 문제를 해결하기 위한 기능입니다: 피치와 롤 축이 프롭이 만들어내는 추력 차이로 제어가 되는 반면에 요는 다릅니다. 통합 요는 요 pid의 출력값을 믹서에 적용하기 전에 통합함으로써 이를 해결합니다. 이것은 pid가 일하는 방식을 정상화합니다. 이제 다른 축과 같이 설정할 수 있습니다. 통합 요와 함께 I가 필요하지 않기 때문에 절대 제어의 사용을 필요로 합니다."
+    },
     "configHelp2": {
         "message": "옆면 \/ 아래로 \/ 회전 등으로 장착 할 수 있는 임의의 보드 회전 각도(°). 외부 센서를 작동할 때 센서 정렬(자이로, 가속도계, 자력계)을 사용하여 보드 방향과 상관없이 센서 위치를 정의합니다."
     },
