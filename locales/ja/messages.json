@@ -1306,6 +1306,30 @@
     "pidTuningAntiGravityThres": {
         "message": "Anti Gravity 反重力 しきい値"
     },
+    "pidTuningDMin": {
+        "message": "D値最小",
+        "description": "Table header of the D Min feature in the PIDs tab"
+    },
+    "pidTuningDMinRoll": {
+        "message": "Roll",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinPitch": {
+        "message": "Pitch",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinYaw": {
+        "message": "Yaw",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinGain": {
+        "message": "Gain",
+        "description": "Gain of the D Min feature"
+    },
+    "pidTuningDMinAdvance": {
+        "message": "拡張",
+        "description": "Advane of the D Min feature"
+    },
     "pidTuningPidSettings": {
         "message": "PIDコントローラ設定"
     },
@@ -2999,6 +3023,12 @@
     },
     "pidTuningAcroTrainerAngleLimitHelp": {
         "message": "アクロモードでの飛行を練習しているパイロットのための新しい角度制限モードを追加します。有効範囲は10-80、$t(tabAuxiliary.message)タブのスイッチで有効となります。"
+    },
+    "pidTuningIntegratedYaw": {
+        "message": "総合Yaw"
+    },
+    "pidTuningIntegratedYawCaution": {
+        "message": "<span class=\"message-negative\">注意<\/span>: この機能を有効にした場合は、それに応じてYaw PID値を調整する必要があります。詳しくは<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">こちら<\/a>"
     },
     "configHelp2": {
         "message": "横向き \/ 下向き \/ 任意な回転による取付けが可能なFCボードの回転角度です。外部センサーを使用する場合は、センサーのアライメント (Gyro、Accel、コンパス) を使用して、ボードの向きから独立したセンサー位置を定義します。 "
