@@ -3025,6 +3025,9 @@
     "pidTuningAcroTrainerAngleLimitHelp": {
         "message": "Fügt einen neuen Winkelbegrenzungsmodus für Piloten hinzu, welche den Acro Modus lernen wollen. Der Wertebereich geht von 10-80 und muss mit einem Schalter im $t(tabAuxiliary.message) Tab aktiviert werden."
     },
+    "pidTuningIntegratedYaw": {
+        "message": "Integriertes Yaw"
+    },
     "pidTuningIntegratedYawCaution": {
         "message": "<span class=\"message-negative\">VORSICHT<\/span>: Wenn Sie diese Funktion aktivieren, müssen Sie die YAW PID entsprechend anpassen. Mehr Informationen <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">hier<\/a>"
     },
