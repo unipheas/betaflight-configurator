@@ -494,9 +494,6 @@
     "defaultDonateHead": {
         "message": "Open Source \/ Himbauan Donasi"
     },
-    "defaultDonateText": {
-        "message": "<strong>Betaflight<\/strong> adalah perangkat lunak flight controller <strong>open source<\/strong>, gratis, <strong>tanpa garansi<\/strong> untuk seluruh pengguna.<br \/>Jika Anda merasakan Betaflight atau Betaflight Configurator ini berguna, harap pertimbangkan untuk <strong>mendukung<\/strong> pengembangannya dengan memberikan donasi."
-    },
     "defaultDonate": {
         "message": "Donasi"
     },
