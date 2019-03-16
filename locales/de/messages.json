@@ -1307,6 +1307,30 @@
     "pidTuningAntiGravityThres": {
         "message": "Anti Gravity Schwellwert"
     },
+    "pidTuningDMin": {
+        "message": "D Min",
+        "description": "Table header of the D Min feature in the PIDs tab"
+    },
+    "pidTuningDMinRoll": {
+        "message": "Rollen",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinPitch": {
+        "message": "Kippen",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinYaw": {
+        "message": "Gieren",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinGain": {
+        "message": "Verstärkung",
+        "description": "Gain of the D Min feature"
+    },
+    "pidTuningDMinAdvance": {
+        "message": "Erweitert",
+        "description": "Advane of the D Min feature"
+    },
     "pidTuningPidSettings": {
         "message": "PID Kontroller EInstellungen"
     },
@@ -2890,6 +2914,9 @@
     "pidTuningNotchFilterHelp": {
         "message": "The Notch Filter has a Center and a Cutoff. The filter is symmetrical. The Center Frequency is the center of the filter and the Cutoff Frequency is where Notch filter starts. For example with Notch Cutoff of 160 and Notch Center of 260 it means the range is 160-360Hz with most attenuation around center"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "Die Lowpass Filter können zwei Ausprägungen haben: statisch und dynamisch. Nur eine der beiden Varianten kann für einen funktionsfähigen Lowpass Filter aktiviert sein. Der Statische definiert einen Wert, bei dem die Filterung beginnt. Der Dynamische definiert Min- und Maxwerte, zwischen denen die Filterung patziert wird. Diese bewegt sich dann mit der Gashebelstellung in diesem Korridor."
+    },
     "pidTuningFilterSettings": {
         "message": "Profilabhängige Filtereinstellungen"
     },
@@ -2997,6 +3024,9 @@
     },
     "pidTuningAcroTrainerAngleLimitHelp": {
         "message": "Fügt einen neuen Winkelbegrenzungsmodus für Piloten hinzu, welche den Acro Modus lernen wollen. Der Wertebereich geht von 10-80 und muss mit einem Schalter im $t(tabAuxiliary.message) Tab aktiviert werden."
+    },
+    "pidTuningIntegratedYawCaution": {
+        "message": "<span class=\"message-negative\">VORSICHT<\/span>: Wenn Sie diese Funktion aktivieren, müssen Sie die YAW PID entsprechend anpassen. Mehr Informationen <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">hier<\/a>"
     },
     "configHelp2": {
         "message": "Abweichender Winkel (Grad) in dem das Board anders eingebaut wurde als vorgesehen (über Kopf, gedreht, usw.) Falls externe Sensoren (Gyro, Acc, Mag) verwendet werden, bitte diese ebenfalls neu anlernen."
