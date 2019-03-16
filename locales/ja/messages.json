@@ -491,9 +491,6 @@
     "defaultDonateHead": {
         "message": "オープンソース \/ 寄付について"
     },
-    "defaultDonateText": {
-        "message": "<strong>Betaflight<\/strong>は<strong>オープンソース<\/strong>であり、すべてのユーザに対し無償かつ<strong>無保証<\/strong>で提供されるフライトコントローラソフトウェアです。<br\/>もし、あなたがBetaflightやBetaflight Configuratorを非常に便利だと感じ<\/strong>サポートしたい！<\/strong>と思ったら、ぜひ寄付をご検討下さい。"
-    },
     "defaultDonate": {
         "message": "寄付"
     },
