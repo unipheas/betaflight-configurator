@@ -491,9 +491,6 @@
     "defaultDonateHead": {
         "message": "Открытый код \/ Пожертвование"
     },
-    "defaultDonateText": {
-        "message": "<strong>Betaflight<\/strong> программное обеспечение для полетного контроллера <strong>с открытым исходным кодом<\/strong> и доступное для свободной модификации <strong>без гарантий<\/strong>для всех пользователей.<br \/>Если вы находите Betaflight и Betaflight Конфигуратор полезным то <strong>поддержите<\/strong> проект пожертвованиями."
-    },
     "defaultDonate": {
         "message": "Пожертвовать"
     },
