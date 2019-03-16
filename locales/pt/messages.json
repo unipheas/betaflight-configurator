@@ -491,9 +491,6 @@
     "defaultDonateHead": {
         "message": "Código Fonte \/ Nota de Doação"
     },
-    "defaultDonateText": {
-        "message": "<strong>Betaflight<\/strong> é um software para controladores de voo, feito com <strong>código aberto<\/strong> e disponível gratuitamente <strong>sem nenhuma garantia<\/strong> para todos os usuários.<br \/> Se você achou o Betaflight ou o Configurador Betaflight útil, considere <strong>ajudar<\/strong> seu desenvolvimento com uma doação."
-    },
     "defaultDonate": {
         "message": "Doar"
     },
