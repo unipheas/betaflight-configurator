@@ -3683,6 +3683,9 @@
     "osdDescElementEscRpm": {
         "message": "crwdns6265:0crwdne6265:0"
     },
+    "osdDescElementEscRpmFreq": {
+        "message": "crwdns9068:0crwdne9068:0"
+    },
     "osdDescElementRtcDateTime": {
         "message": "crwdns6266:0crwdne6266:0"
     },
