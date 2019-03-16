@@ -1303,6 +1303,18 @@
     "pidTuningAntiGravityThres": {
         "message": "Seuil Anti Gravity"
     },
+    "pidTuningDMin": {
+        "message": "D Min",
+        "description": "Table header of the D Min feature in the PIDs tab"
+    },
+    "pidTuningDMinGain": {
+        "message": "Gain",
+        "description": "Gain of the D Min feature"
+    },
+    "pidTuningDMinAdvance": {
+        "message": "Avance",
+        "description": "Advane of the D Min feature"
+    },
     "pidTuningPidSettings": {
         "message": "Réglages du Contrôleur PID"
     },
@@ -1632,6 +1644,9 @@
     },
     "receiverMspEnableButton": {
         "message": "Autoriser le contrôle"
+    },
+    "auxiliaryHelp": {
+        "message": "Configurer les modes en utilisant une combinaison de plages et\/ou des liens vers d’autres modes (les liens sont supportés sur BF 4.0 et versions ultérieures). Utiliser des <strong>plages<\/strong>pour assigner des interrupteurs aux modes sur votre émetteur. Utiliser un <strong>lien<\/strong> pour activer un mode lorsqu'un autre mode est activé. <strong>Exceptions :<\/strong> L'ARMEMENT ne peut PAS être lié à un autre mode (amont et avale), les modes ne peuvent pas être liés à d'autres modes configurés en liens (liens chaînés). Plusieurs plages\/liens (cumulés) peuvent être utilisés pour activer un mode. Si plus d'un lien\/plage sont attribués à un mode, chacun peut être défini <strong>ET<\/strong> ou <strong>OU<\/strong>. Un mode sera actif quand:\n<br \/>- TOUS les liens\/plages <strong>ET<\/strong> seront actifs;\nOU<br \/>- au moins un <strong>OU<\/strong> des liens\/plages seront actifs.\n<br \/><br \/>Ne pas oublier de sauvegarder les réglages avec le bouton Sauvegarder."
     },
     "auxiliaryToggleUnused": {
         "message": "Masquer les modes non utilisés"
