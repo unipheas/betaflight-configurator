@@ -491,9 +491,6 @@
     "defaultDonateHead": {
         "message": "Open Source \/ Avis de dons"
     },
-    "defaultDonateText": {
-        "message": "<strong>Betaflight<\/strong>est un logiciel de contrôle de vol <strong>libre (open source)<\/strong> et gratuit <strong>sans aucune garantie<\/strong>, pour tous les utilisateurs.<br \/>Si vous trouvez Betaflight ou Betaflight Configurator utiles, veuillez envisager<strong>d'aider<\/strong> leur développement grâce à un don."
-    },
     "defaultDonate": {
         "message": "Don"
     },
