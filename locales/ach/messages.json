@@ -541,7 +541,10 @@
         "message": "crwdns5459:0crwdne5459:0"
     },
     "defaultDonateText": {
-        "message": "crwdns8824:0crwdne8824:0"
+        "message": "crwdns9064:0crwdne9064:0"
+    },
+    "defaultDonateBottom": {
+        "message": "crwdns9066:0crwdne9066:0"
     },
     "defaultDonate": {
         "message": "crwdns5461:0crwdne5461:0"
