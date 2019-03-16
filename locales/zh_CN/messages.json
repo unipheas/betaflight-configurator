@@ -491,9 +491,6 @@
     "defaultDonateHead": {
         "message": "开源\/捐赠说明"
     },
-    "defaultDonateText": {
-        "message": "<strong>Betaflight<\/strong> 是一个<strong>开放源码<\/strong>的飞行控制器软件，它可供所有人免费使用，但<strong>不提供任何担保<\/strong> 。<br \/>如果您发现 Betaflight 或 Betaflight 配置程序对你有帮助，请考虑通过捐赠来 <strong>支持<\/strong> 它的开发。"
-    },
     "defaultDonate": {
         "message": "捐赠"
     },
