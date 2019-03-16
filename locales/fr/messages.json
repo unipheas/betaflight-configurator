@@ -1250,6 +1250,15 @@
     "portsFunction_BLACKBOX": {
         "message": "Blackbox log"
     },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "VTX (TBS SmartAudio)"
+    },
+    "portsFunction_IRC_TRAMP": {
+        "message": "VTX (IRC Tramp)"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "Caméra (protocole RunCam)"
+    },
     "pidTuningProfileOption": {
         "message": "Profile $1"
     },
@@ -1636,6 +1645,9 @@
     "auxiliaryAddRange": {
         "message": "Ajouter une plage"
     },
+    "auxiliaryAddLink": {
+        "message": "Ajouter un lien"
+    },
     "auxiliaryButtonSave": {
         "message": "Enregistrer"
     },
@@ -1644,6 +1656,12 @@
     },
     "auxiliaryAutoChannelSelect": {
         "message": "AUTOMATIQUE"
+    },
+    "auxiliaryModeLogicOR": {
+        "message": "Ou"
+    },
+    "auxiliaryModeLogicAND": {
+        "message": "ET"
     },
     "adjustmentsHelp": {
         "message": "Configurez les commutateurs d'ajustement. Voir la section «Ajustements en vol» du manuel pour plus de détails. Les modifications apportées par les fonctions de réglage ne sont pas enregistrées automatiquement. Il y a 4 emplacements. Chaque commutateur utilisé pour effectuer simultanément des ajustements nécessite l'utilisation exclusive d'un emplacement."
@@ -2829,6 +2847,15 @@
     "pidTuningGyroLowpassType": {
         "message": "Type de filtre gyro passe-bas 1"
     },
+    "pidTuningGyroLowpassDynMinFrequency": {
+        "message": "Fréquence de Coupure Min du filtre passe-bas gyro 1 [Hz]"
+    },
+    "pidTuningGyroLowpassDynMaxFrequency": {
+        "message": "Fréquence Max de Coupure du filtre passe-bas Gyro 1 [Hz]"
+    },
+    "pidTuningGyroLowpassDynType": {
+        "message": "Type de filtre dynamique Gyro passe-bas 1"
+    },
     "pidTuningGyroLowpass2Frequency": {
         "message": "Fréquence de Coupure du filtre passe-bas gyro 2 [Hz]"
     },
@@ -2853,6 +2880,9 @@
     "pidTuningNotchFilterHelp": {
         "message": "Le filtre Notch est définit par son centre et la coupure. Le filtre est symétrique. La fréquence centre est le milieu du filtre et la coupure est la fréquence à laquelle le filtre démarre. Par exemple avec une coupure de 160 et un centre à 260, la zone 160-360Hz sera filtrée avec un maximum d'atténuation autour du centre"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "Les filtres passe-bas peuvent avoir deux variantes : statique et dynamique. Un seul des nombres définit pour chacun des filtres passe-bas est utilisé (statique ou dynamique). Le statique est un seuil de coupure à partir duquel le filtre commence. Le dynamique définit un min et max, la plage dans laquelle la coupure sera placée. Cette plage de coupure varie entre le min et le max en même temps que vous bougez le stick des gaz."
+    },
     "pidTuningFilterSettings": {
         "message": "Réglages filtres liés au profile"
     },
@@ -2867,6 +2897,18 @@
     },
     "pidTuningDTermLowpass2Frequency": {
         "message": "Fréquence de coupure du filtre passe-bas D Term 2 [Hz]"
+    },
+    "pidTuningDTermLowpass2Type": {
+        "message": "Type du filtre passe-bas D Term 2"
+    },
+    "pidTuningDTermLowpassDynMinFrequency": {
+        "message": "Fréquence de coupure Min du filtre passe-bas dynamique D Term 1 [Hz]"
+    },
+    "pidTuningDTermLowpassDynMaxFrequency": {
+        "message": "Fréquence de coupure Max du filtre passe-bas dynamique D Term 1 [Hz]"
+    },
+    "pidTuningDTermLowpassDynType": {
+        "message": "Type de filtre dynamique D Term passe-bas 1"
     },
     "pidTuningDTermNotchFiltersGroup": {
         "message": "Filtres Notch D Term"
@@ -3467,6 +3509,9 @@
     },
     "osdDescElementCraftName": {
         "message": "Nom du modèle comme indiqué dans le configurateur"
+    },
+    "osdDescElementDisplayName": {
+        "message": "Afficher le nom comme défini par la commande cli \"display_name\""
     },
     "osdDescElementAltitude": {
         "message": "Altitude ( clignote quand le seuil d'alarme est atteint)"
