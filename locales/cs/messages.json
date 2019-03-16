@@ -479,9 +479,6 @@
     "defaultDonateHead": {
         "message": "Poznámka k Open Source \/ sponzorským darům"
     },
-    "defaultDonateText": {
-        "message": "<strong>Betaflight<\/strong> je software řídící jednotky, který je distribuován jako <strong>open source<\/strong>, zdarma a <strong>bez záruky<\/strong>.<br \/>Pokud vám Betaflight nebo Betaflight konfigurátor pomohl, prosím, zvažte <strong>podporu<\/strong> jeho vývoje příspěvkem."
-    },
     "defaultDonate": {
         "message": "Přispějte"
     },
