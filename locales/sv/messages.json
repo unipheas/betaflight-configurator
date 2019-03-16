@@ -495,9 +495,6 @@
     "defaultDonateHead": {
         "message": "Öppen källkod- \/ Donations-notis"
     },
-    "defaultDonateText": {
-        "message": "<strong>Betaflight<\/strong> är en flygkontrollerprogramvara som bygger på <strong>öppen källkod<\/strong> och är tillgänglig utan kostnad <strong>utan garanti<\/strong> för alla användare.<br \/>Om du tycker att Betaflight eller Betaflight configurator är användbar kanske du vill <strong>stödja<\/strong> utvecklingen genom en donation."
-    },
     "defaultDonate": {
         "message": "Donera"
     },
