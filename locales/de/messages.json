@@ -1051,7 +1051,7 @@
         "message": "Piepser Konfiguration"
     },
     "beeperGYRO_CALIBRATED": {
-        "message": "Piepse wenn Gyro kalibriert wurde"
+        "message": "Piept, wenn Gyro kalibriert wurde"
     },
     "beeperRX_LOST": {
         "message": "Piept, wenn die Verbindung zur Fernsteuerung abgerissen ist (bis zur Wiederherstellung der Verbindung)"
@@ -1102,7 +1102,7 @@
         "message": "Piept, wenn der FC durch USB mit Strom versorgt wird. Deaktiviere es, wenn du kein Piepen am Arbeitsplatz wünschst"
     },
     "beeperBLACKBOX_ERASE": {
-        "message": "Piepsen wen Blackbox Log löschen erfolgreich"
+        "message": "Piepst, wenn Blackbox Log erfolgreich gelöscht"
     },
     "beeperCRASH_FLIP": {
         "message": "Piept, wenn der Crash-Flip-Mode (Turtle Mode) aktiv ist"
@@ -3623,6 +3623,9 @@
         "message": "Regler Temperatur (über Regler Telemetrie)"
     },
     "osdDescElementEscRpm": {
+        "message": "Motordrehzahl (über Regler Telemetrie)"
+    },
+    "osdDescElementEscRpmFreq": {
         "message": "Motordrehzahl (über Regler Telemetrie)"
     },
     "osdDescElementRtcDateTime": {
