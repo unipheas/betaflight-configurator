@@ -491,6 +491,9 @@
     "defaultDonateHead": {
         "message": "オープンソース \/ 寄付について"
     },
+    "defaultDonateBottom": {
+        "message": "<p>引き続き経済的に貢献したい場合は <a href='https:\/\/www.patreon.com\/betaflight'>Patreon<\/a> で私達の支援者になることをご検討ください。<\/p>"
+    },
     "defaultDonate": {
         "message": "寄付"
     },
@@ -3623,6 +3626,9 @@
         "message": "温度レポート by ESCテレメトリー"
     },
     "osdDescElementEscRpm": {
+        "message": "回転数レポート by ESCテレメトリー"
+    },
+    "osdDescElementEscRpmFreq": {
         "message": "回転数レポート by ESCテレメトリー"
     },
     "osdDescElementRtcDateTime": {
