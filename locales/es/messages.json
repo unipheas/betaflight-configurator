@@ -3625,6 +3625,9 @@
     "osdDescElementEscRpm": {
         "message": "RPM reportadas por la telemetría de los ESC"
     },
+    "osdDescElementEscRpmFreq": {
+        "message": "Frecuencia RPM reportada por la telemetría de los ESC"
+    },
     "osdDescElementRtcDateTime": {
         "message": "Fecha \/ Hora en tiempo real"
     },
