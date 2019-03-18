@@ -1331,7 +1331,7 @@
         "description": "Gain of the D Min feature"
     },
     "pidTuningDMinAdvance": {
-        "message": "Erweitert",
+        "message": "Vorhaltezeit",
         "description": "Advane of the D Min feature"
     },
     "pidTuningPidSettings": {
