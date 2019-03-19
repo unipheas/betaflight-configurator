@@ -3038,6 +3038,9 @@
     "pidTuningIntegratedYawCaution": {
         "message": "<span class=\"message-negative\">VORSICHT<\/span>: Wenn Sie diese Funktion aktivieren, müssen Sie die YAW PID entsprechend anpassen. Mehr Informationen <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">hier<\/a>"
     },
+    "pidTuningIntegratedYawHelp": {
+        "message": "Gier-Integration (integrated Yaw) ist eine Funktion, die ein grundlegendes Problem mit der Quad-Steuerung korrigiert: während Pitch- und Rollachse durch Schubdifferenzen der Propeller gesteuert werden, verhält sich die Gierachse unterschiedlich. Gier-Integration behebt dies durch die Integration der Ausgabe des Gier-PID Reglers, bevor sie auf den Mischer angewendet werden. Dies normalisiert die Art und Weise, wie die PID Werte funktionieren. Du kannst die Gierachse nun wie jede andere Achse tunen. Das Feature erfordert die Verwendung von \"Absoluter Kontrolle\", da mit Gier-Integration kein I-Anteil benötigt wird."
+    },
     "configHelp2": {
         "message": "Abweichender Winkel (Grad) in dem das Board anders eingebaut wurde als vorgesehen (über Kopf, gedreht, usw.) Falls externe Sensoren (Gyro, Acc, Mag) verwendet werden, bitte diese ebenfalls neu anlernen."
     },
