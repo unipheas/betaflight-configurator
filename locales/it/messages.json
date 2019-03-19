@@ -1471,6 +1471,12 @@
     "auxiliaryAutoChannelSelect": {
         "message": "AUTO"
     },
+    "auxiliaryModeLogicOR": {
+        "message": "OPPURE"
+    },
+    "auxiliaryModeLogicAND": {
+        "message": "E"
+    },
     "adjustmentsHelp": {
         "message": "Configurare gli interruttori di regolazione. Vedi la sezione 'aggiustamenti in volo' del manuale per i dettagli. Le modifiche apportate dalle funzioni di regolazione non vengono salvate automaticamente. Ci sono 4 slot. Ogni interruttore utilizzato per apportare modifiche simultanee richiede l'uso esclusivo di uno slot."
     },
@@ -1915,6 +1921,9 @@
     "cliSaveToFileBtn": {
         "message": "Salva su file"
     },
+    "cliClearOutputHistoryBtn": {
+        "message": "Cancella la cronologia della CLI"
+    },
     "loggingNote": {
         "message": "I dati saranno registrati <span class=\"message-negative\">soltanto<\/span> in questa schermata, spostandoti da questa la registrazione sarà <span class=\"message-negative\">cancellata<\/span> ed il programma tornerà nel suo stato normale di <strong>\"configuratore\"<\/strong><br \/>. Sei libero di selezionare la frequenza di aggiornamento globale, i dati saranno scritti nel file di registro ogni <strong>1<\/strong> secondi per questioni di prestazioni."
     },
@@ -2001,6 +2010,9 @@
     },
     "dataflashButtonSaveFile": {
         "message": "Salva flash su file ..."
+    },
+    "dataflashButtonSaveFileDeprecated": {
+        "message": "Salva flash su file... (deprecato)"
     },
     "dataflashButtonErase": {
         "message": "Cancella flash"
@@ -2148,6 +2160,9 @@
     },
     "firmwareFlasherShowDevelopmentReleases": {
         "message": "Mostra versioni non stabili"
+    },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "Mostra i candidati al rilascio oltre alle versioni stabili"
     },
     "firmwareFlasherOptionLoading": {
         "message": "Caricamento in corso"
@@ -2681,6 +2696,9 @@
     },
     "pidTuningVbatPidCompensationHelp": {
         "message": "Aumenta i valori dei PID per compensare la diminuzione del voltaggio della batteria. Darà caratteristiche di volo più costanti per la durata di tutto il volo. La quantità di compensazione applicata è calcolata in base al $t(powerBatteryMaximum.message) impostato nella pagina $t(tabPower.message), quindi assicurati che sia impostato su in valore appropriato."
+    },
+    "pidTuningItermRelaxAxes": {
+        "message": "Assi:"
     },
     "pidTuningItermRelaxType": {
         "message": "Tipo:"
