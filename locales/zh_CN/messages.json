@@ -1303,6 +1303,30 @@
     "pidTuningAntiGravityThres": {
         "message": "反重力阈值"
     },
+    "pidTuningDMin": {
+        "message": "D Min",
+        "description": "Table header of the D Min feature in the PIDs tab"
+    },
+    "pidTuningDMinRoll": {
+        "message": "横滚",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinPitch": {
+        "message": "俯仰",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinYaw": {
+        "message": "偏航",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinGain": {
+        "message": "增益",
+        "description": "Gain of the D Min feature"
+    },
+    "pidTuningDMinAdvance": {
+        "message": "高级",
+        "description": "Advane of the D Min feature"
+    },
     "pidTuningPidSettings": {
         "message": "PID 控制器设置"
     },
