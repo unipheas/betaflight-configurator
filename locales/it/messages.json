@@ -2873,6 +2873,15 @@
     "failsafeProcedureItemSelect2": {
         "message": "Lascia cadere"
     },
+    "failsafeGpsRescueItemMinSats": {
+        "message": "Satelliti minimi"
+    },
+    "failsafeGpsRescueItemSanityChecksOff": {
+        "message": "Spento"
+    },
+    "failsafeGpsRescueItemSanityChecksOn": {
+        "message": "Acceso"
+    },
     "failsafeKillSwitchItem": {
         "message": "Interruttore di interruzione sicura (imposta Failsafe nella scheda modi di volo)"
     },
@@ -3413,6 +3422,9 @@
     "osdDescStatBattery": {
         "message": "Voltaggio batteria in tempo reale"
     },
+    "osdDescStatEscTemperature": {
+        "message": "Massima temperatura ESC"
+    },
     "osdTimerSource": {
         "message": "Sorgente:"
     },
@@ -3664,5 +3676,8 @@
     },
     "modeCameraChangeMode": {
         "message": "MODALITA' CAMBIO CAMERA"
+    },
+    "flashTab": {
+        "message": "Aggiornamento Firmware"
     }
 }
