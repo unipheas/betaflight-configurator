@@ -1310,25 +1310,9 @@
     "pidTuningAntiGravityThres": {
         "message": "Anti Gravity Schwellwert"
     },
-    "pidTuningDMinHelp": {
-        "message": "D Min bietet eine Möglichkeit, ein geringeres D im Normalflug zu haben und ein höheres D für schnelle Manöver wie Flips und Rollen, bei denen es zum Überschwingen kommen kann. Es hebt D auch während Propwash an. Der Kopter hat dadurch einen dynamischen D-Wert, variierend von D Min (bei normalem Flug) bis Standard D (während schneller Rollen und Flips). Ein Wert von Null deaktiviert die Funktion. Die Verstärkung bestimmt, wie stark D während schnellen Stick-Bewegungen erhöht wird. Die Vorhaltezeit definiert, mit welcher Verzögerung der Boost-Effekt einsetzt. Dies kann hilfreich sein, wenn sensible Quads Überschwinger bei sehr schnellen Flips haben.",
-        "description": "Help message for D Min feature"
-    },
     "pidTuningDMin": {
         "message": "D Min",
         "description": "Table header of the D Min feature in the PIDs tab"
-    },
-    "pidTuningDMinRoll": {
-        "message": "Rollen",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinPitch": {
-        "message": "Kippen",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinYaw": {
-        "message": "Gieren",
-        "description": "Axis to apply D Min feature"
     },
     "pidTuningDMinGain": {
         "message": "Verstärkung",
