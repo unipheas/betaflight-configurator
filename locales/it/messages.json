@@ -2882,6 +2882,9 @@
     "failsafeProcedureItemSelect2": {
         "message": "Lascia cadere"
     },
+    "failsafeProcedureItemSelect4": {
+        "message": "GPS Rescue"
+    },
     "failsafeGpsRescueItemMinSats": {
         "message": "Satelliti minimi"
     },
