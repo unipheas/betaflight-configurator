@@ -677,6 +677,10 @@
         "message": "Il carico del processore è troppo elevato per poter volare in sicurezza",
         "description": "Description of the LOAD arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
+        "message": "Calibrazione sensori in esecuzione",
+        "description": "Description of the CALIBRATING arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipCLI": {
         "message": "CLI è attivo",
         "description": "Description of the CLI arming disable flag"
