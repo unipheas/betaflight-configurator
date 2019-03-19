@@ -3603,6 +3603,9 @@
     "osdDescElementEscRpm": {
         "message": "ESC 텔레메트리에 의해 보고된 RPM"
     },
+    "osdDescElementEscRpmFreq": {
+        "message": "ESC 텔레메트리에 의해 보고된 RPM 주파수"
+    },
     "osdDescElementRtcDateTime": {
         "message": "실시간 날짜 \/ 시간"
     },
