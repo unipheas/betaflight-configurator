@@ -1317,6 +1317,18 @@
         "message": "D Min",
         "description": "Table header of the D Min feature in the PIDs tab"
     },
+    "pidTuningDMinRoll": {
+        "message": "Roll",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinPitch": {
+        "message": "Pitch",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinYaw": {
+        "message": "Yaw",
+        "description": "Axis to apply D Min feature"
+    },
     "pidTuningDMinGain": {
         "message": "Gain",
         "description": "Gain of the D Min feature"
@@ -3016,6 +3028,15 @@
     "pidTuningAcroTrainerAngleLimitHelp": {
         "message": "Ajoute un nouvelle limite d'angle afin d'apprendre le pilotage en acro. La plage valide est 10-80 et doit être activé avec un switch dans l'onglet $t(tabAuxiliary.message) ."
     },
+    "pidTuningIntegratedYaw": {
+        "message": "Yaw intégré"
+    },
+    "pidTuningIntegratedYawCaution": {
+        "message": "<span class=\"message-negative\">PRECAUTION<\/span>: si vous activez cette fonctionnalité, vous devez ajuster le PID YAW en conséquence. Plus d’infos <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">ici<\/a>"
+    },
+    "pidTuningIntegratedYawHelp": {
+        "message": "Le Yaw Intégré est une caractéristique qui corrige un problème fondamental avec le contrôle de quad : alors que l'axe du Pitch et du Roll sont contrôlés par les différentiels de poussée que les hélices génèrent Yaw est différent. Le Yaw Intégré corrige ceci en intégrant la sortie PID de Yaw avant de les appliquer au mixeur. Cela normalise la façon dont les PID fonctionnent. Vous pouvez avec, le régler comme n'importe quel autre axe. Il nécessite un contrôle absolu car le Yaw Intégré n'a pas besoin de I."
+    },
     "configHelp2": {
         "message": "Rotation arbitraire de la carte en degrés permettant un montage latéral \/ à l'envers \/ de côté etc. Si des capteurs externes sont utilisés, servez vous du sensor alignments (Gyro, Acc, Mag) pour définir leur position indépendamment  de l'orientation de la carte. "
     },
@@ -3606,6 +3627,9 @@
     },
     "osdDescElementEscRpm": {
         "message": "Tr\/min reporté par la télémétrie des ESC"
+    },
+    "osdDescElementEscRpmFreq": {
+        "message": "Fréquence Trs\/min reportée par la télémétrie des ESC"
     },
     "osdDescElementRtcDateTime": {
         "message": "Horloge réel date\/heure"
