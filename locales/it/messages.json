@@ -653,6 +653,18 @@
     "initialSetupArmingAllowed": {
         "message": "Armamento motori consentito"
     },
+    "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
+        "message": "Non è stato rilevato un giroscopio",
+        "description": "Description of the NO GYRO arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
+        "message": "Failsafe è attivo",
+        "description": "Description of the FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCLI": {
+        "message": "CLI è attivo",
+        "description": "Description of the CLI arming disable flag"
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
