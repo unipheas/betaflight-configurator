@@ -670,6 +670,14 @@
         "message": "Failsafe è attivo",
         "description": "Description of the FAILSAFE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
+        "message": "Nessun segnale valido ricevuto dalla ricevente",
+        "description": "Description of the RX_FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
+        "message": "È stato attivato l'interruttore 'FAIL-SAFE'",
+        "description": "Description of the BOXFAILSAFE arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "Canale gas troppo alto",
         "description": "Description of the THROTTLE arming disable flag"
@@ -1263,11 +1271,20 @@
     "pidTuningPidSettings": {
         "message": "Impostazioni del controller PID"
     },
+    "receiverRcSmoothing": {
+        "message": "RC Smoothing"
+    },
     "receiverRcSmoothingAuto": {
         "message": "Auto"
     },
     "receiverRcSmoothingManual": {
         "message": "Manuale"
+    },
+    "receiverRcDerivativeTypeSelect": {
+        "message": "Tipo di taglio derivativo"
+    },
+    "receiverRcInputTypeSelect": {
+        "message": "Tipo di taglio di Input"
     },
     "receiverRcSmoothingInterpolation": {
         "message": "Interpolazione"
@@ -1275,8 +1292,20 @@
     "receiverRcSmoothingFilter": {
         "message": "Filtro"
     },
+    "receiverRcSmoothingTypeHelp": {
+        "message": "Tipo di RC Smoothing usato"
+    },
+    "receiverRcInputType": {
+        "message": "Tipo filtro di input"
+    },
+    "receiverRcDerivativeType": {
+        "message": "Tipo di filtro derivativo"
+    },
     "receiverRcSmoothingDerivativeTypeOff": {
         "message": "Spento"
+    },
+    "receiverRcSmoothingChannel": {
+        "message": "Canali smoothed"
     },
     "receiverRcInterpolation": {
         "message": "Interpolazione RC"
@@ -1290,6 +1319,9 @@
     "receiverRcInterpolationOff": {
         "message": "Spento"
     },
+    "receiverRcSmoothingType": {
+        "message": "Tipo smoothing"
+    },
     "receiverRcInterpolationDefault": {
         "message": "Preimpostato"
     },
@@ -1301,6 +1333,9 @@
     },
     "receiverRcInterpolationInterval": {
         "message": "Intervallo di interpolazione RC [ms]"
+    },
+    "pidTuningFeedforwardTransition": {
+        "message": "Transizione Feedforward"
     },
     "pidTuningDtermSetpointTransition": {
         "message": "D Transizione setpoint"
@@ -2801,6 +2836,18 @@
     "pidTuningItermRelaxAxes": {
         "message": "Assi:"
     },
+    "pidTuningItermRelaxAxesOptionRP": {
+        "message": "RP"
+    },
+    "pidTuningItermRelaxAxesOptionRPY": {
+        "message": "RPY"
+    },
+    "pidTuningItermRelaxAxesOptionRPInc": {
+        "message": "RP (solo incremento)"
+    },
+    "pidTuningItermRelaxAxesOptionRPYInc": {
+        "message": "RPY (solo incremento)"
+    },
     "pidTuningItermRelaxType": {
         "message": "Tipo:"
     },
@@ -2812,6 +2859,9 @@
     },
     "pidTuningAbsoluteControlGain": {
         "message": "Controllo assoluto"
+    },
+    "pidTuningThrottleBoost": {
+        "message": "Boost Gas"
     },
     "configHelp2": {
         "message": "Rotazione arbitraria del controllore di volo, per permettere di montarlo di lato, sottosopra, ruotato ecc.. Quando si utilizzano sensori esterni, usa l'allineamento del sensore (Gyro, Acc, Mag) per definire la posizione del sensore indipendente dall'orientamento del controllore di volo."
@@ -2885,14 +2935,38 @@
     "failsafeProcedureItemSelect4": {
         "message": "GPS Rescue"
     },
+    "failsafeGpsRescueItemAngle": {
+        "message": "Angle"
+    },
+    "failsafeGpsRescueItemInitialAltitude": {
+        "message": "Altitudine iniziale (metri)"
+    },
+    "failsafeGpsRescueItemDescentDistance": {
+        "message": "Distanza di discesa (metri)"
+    },
+    "failsafeGpsRescueItemGroundSpeed": {
+        "message": "Velocità al suolo (metri\/secondo)"
+    },
+    "failsafeGpsRescueItemThrottleMin": {
+        "message": "Gas minimo"
+    },
+    "failsafeGpsRescueItemThrottleMax": {
+        "message": "Gas massimo"
+    },
     "failsafeGpsRescueItemMinSats": {
         "message": "Satelliti minimi"
+    },
+    "failsafeGpsRescueItemSanityChecks": {
+        "message": "Controlli di salute"
     },
     "failsafeGpsRescueItemSanityChecksOff": {
         "message": "Spento"
     },
     "failsafeGpsRescueItemSanityChecksOn": {
         "message": "Acceso"
+    },
+    "failsafeGpsRescueItemSanityChecksFSOnly": {
+        "message": "Solo failsafe"
     },
     "failsafeKillSwitchItem": {
         "message": "Interruttore di interruzione sicura (imposta Failsafe nella scheda modi di volo)"
@@ -3182,6 +3256,9 @@
     "osdSetupFontPresets": {
         "message": "Font predefiniti:"
     },
+    "osdSetupFontPresetsSelector": {
+        "message": "Seleziona i preset del Font:"
+    },
     "osdSetupFontPresetsSelectorOr": {
         "message": "o"
     },
@@ -3434,8 +3511,14 @@
     "osdDescStatBattery": {
         "message": "Voltaggio batteria in tempo reale"
     },
+    "osdDescStatGForce": {
+        "message": "Massima Forza-G subita dal modello"
+    },
     "osdDescStatEscTemperature": {
         "message": "Massima temperatura ESC"
+    },
+    "osdDescStatEscRpm": {
+        "message": "Massimo ESC RPM"
     },
     "osdTimerSource": {
         "message": "Sorgente:"
