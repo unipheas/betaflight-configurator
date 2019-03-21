@@ -1309,8 +1309,32 @@
     "pidTuningAntiGravityThres": {
         "message": "안티 그래비티 임계값"
     },
+    "pidTuningDMinHelp": {
+        "message": "D 최소는 일반 비행에서 D보다 낮은 수준을 가질 수 있는 방법과 플립이나 롤링과 같이 오버슈트를 일으킬 수 있는 빠른 기동을 위한 높은 수준을 제공합니다. 그것은 또한 프롭워시 동안 D를 끌어올립니다. 기체는 D 최소(정상 비행 중) 에서 표준 D(고속 롤링 및 플립 사용) 까지 다양한 동적 D텀을 가질 것입니다. 값이 0이면 기능이 비활성화됩니다. 게인은 퀵 스틱 입력 시 D가 얼마나 강하게 상승되는지를 결정합니다. 가속은 부스트 효과의 시작 속도를 높입니다. 이것은 매우 반응에 민감한 쿼드에서 매우 높은 비율의 플립으로 오버슈트를 했을 때 도움이 될 수 있습니다.",
+        "description": "Help message for D Min feature"
+    },
+    "pidTuningDMin": {
+        "message": "D 최소",
+        "description": "Table header of the D Min feature in the PIDs tab"
+    },
+    "pidTuningDMinRoll": {
+        "message": "롤",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinPitch": {
+        "message": "피치",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinYaw": {
+        "message": "요",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinGain": {
+        "message": "게인",
+        "description": "Gain of the D Min feature"
+    },
     "pidTuningDMinAdvance": {
-        "message": "고급설정",
+        "message": "가속",
         "description": "Advane of the D Min feature"
     },
     "pidTuningPidSettings": {
