@@ -1310,7 +1310,7 @@
         "message": "안티 그래비티 임계값"
     },
     "pidTuningDMinAdvance": {
-        "message": "고급 설정",
+        "message": "고급설정",
         "description": "Advane of the D Min feature"
     },
     "pidTuningPidSettings": {
