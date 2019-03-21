@@ -1246,6 +1246,15 @@
     "portsFunction_BLACKBOX": {
         "message": "Log do Blackbox"
     },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "VTX (TBS SmartAudio)"
+    },
+    "portsFunction_IRC_TRAMP": {
+        "message": "VTX (IRC Tramp)"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "Camera (Protocolo RunCam)"
+    },
     "pidTuningProfileOption": {
         "message": "Perfil $1"
     },
@@ -3736,6 +3745,12 @@
     },
     "osdWarningEscFail": {
         "message": "Mostra uma lista com os ESCs\/motores que estão falhando (A temperatura ou RPM estão fora dos limites configurados)"
+    },
+    "osdWarningGpsRescueUnavailable": {
+        "message": "Alerta quando o Resgate com GPS não está disponível e não pode ser ativado"
+    },
+    "osdWarningGpsRescueDisabled": {
+        "message": "Alerta quando o Resgate com GPS está desativado"
     },
     "osdSectionHelpElements": {
         "message": "Ativar ou desativar elementos do OSD."
