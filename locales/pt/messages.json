@@ -3746,6 +3746,18 @@
     "osdWarningEscFail": {
         "message": "Mostra uma lista com os ESCs\/motores que estão falhando (A temperatura ou RPM estão fora dos limites configurados)"
     },
+    "osdWarningCoreTemperature": {
+        "message": "Alerta quando a temperatura do núcleo do MCU excede o nível configurado"
+    },
+    "osdWarningRcSmoothingFailure": {
+        "message": "Alerta quando a inicialização do \"Suavizar RC\" falha"
+    },
+    "osdWarningFailsafe": {
+        "message": "Alerta quando um Failsafe ocorre"
+    },
+    "osdWarningLaunchControl": {
+        "message": "Alerta quando o modo Controle de Lançamento está ativo"
+    },
     "osdWarningGpsRescueUnavailable": {
         "message": "Alerta quando o Resgate com GPS não está disponível e não pode ser ativado"
     },
