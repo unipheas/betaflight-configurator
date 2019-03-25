@@ -2223,6 +2223,12 @@
     "cliClearOutputHistoryBtn": {
         "message": "crwdns8864:0crwdne8864:0"
     },
+    "cliCopyToClipboardBtn": {
+        "message": "crwdns9070:0crwdne9070:0"
+    },
+    "cliCopySuccessful": {
+        "message": "crwdns9072:0crwdne9072:0"
+    },
     "loggingNote": {
         "message": "crwdns5909:0crwdne5909:0"
     },
