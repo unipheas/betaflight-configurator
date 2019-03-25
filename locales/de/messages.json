@@ -2172,6 +2172,12 @@
     "cliClearOutputHistoryBtn": {
         "message": "CLI-Ausgaben löschen"
     },
+    "cliCopyToClipboardBtn": {
+        "message": "In die Zwischenablage kopieren"
+    },
+    "cliCopySuccessful": {
+        "message": "Kopiert!"
+    },
     "loggingNote": {
         "message": "Daten werden <span class=\"message-negative\">nur <\/span> in diesem Tab geloggt. Wenn der Tab geschlossen wird, wird das Loggen <span class=\"message-negative\">abgebrochen<\/span> und die Anwendung geht in den normalen Modus zurück."
     },
