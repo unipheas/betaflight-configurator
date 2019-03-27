@@ -1318,19 +1318,19 @@
         "description": "Table header of the D Min feature in the PIDs tab"
     },
     "pidTuningDMinRoll": {
-        "message": "横滚",
+        "message": "Roll",
         "description": "Axis to apply D Min feature"
     },
     "pidTuningDMinPitch": {
-        "message": "俯仰",
+        "message": "Pitch",
         "description": "Axis to apply D Min feature"
     },
     "pidTuningDMinYaw": {
-        "message": "偏航",
+        "message": "Yaw",
         "description": "Axis to apply D Min feature"
     },
     "pidTuningDMinGain": {
-        "message": "增益",
+        "message": "增益（Gain）",
         "description": "Gain of the D Min feature"
     },
     "pidTuningDMinAdvance": {
@@ -2635,15 +2635,15 @@
         "description": "North direction in Color Mode in Led Strip"
     },
     "ledStripDirE": {
-        "message": "南",
+        "message": "东",
         "description": "East direction in Color Mode in Led Strip"
     },
     "ledStripDirS": {
-        "message": "西",
+        "message": "南",
         "description": "South direction in Color Mode in Led Strip"
     },
     "ledStripDirW": {
-        "message": "东",
+        "message": "西",
         "description": "West direction in Color Mode in Led Strip"
     },
     "ledStripDirU": {
@@ -2957,7 +2957,7 @@
         "message": "D Term 低通滤波器1动态滤波器类型"
     },
     "pidTuningDTermNotchFiltersGroup": {
-        "message": "D Term 低通滤波器"
+        "message": "D Term 陷波滤波器"
     },
     "pidTuningDTermNotchFrequency": {
         "message": "D Term 陷波滤波器中心频率 [Hz]"
