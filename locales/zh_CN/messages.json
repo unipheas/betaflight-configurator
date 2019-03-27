@@ -2886,6 +2886,12 @@
     "pidTuningGyroLowpassType": {
         "message": "陀螺仪低通滤波器1类型"
     },
+    "pidTuningGyroLowpassDynMinFrequency": {
+        "message": "陀螺仪低通滤波器1动态最低截止频率[Hz]"
+    },
+    "pidTuningGyroLowpassDynMaxFrequency": {
+        "message": "陀螺仪低通滤波器1动态最高截止频率[Hz]"
+    },
     "pidTuningGyroLowpassDynType": {
         "message": "陀螺仪低通滤波器1动态滤波器类型"
     },
@@ -2930,6 +2936,15 @@
     },
     "pidTuningDTermLowpass2Type": {
         "message": "D Term 低通滤波器2类型"
+    },
+    "pidTuningDTermLowpassDynMinFrequency": {
+        "message": "D Term 低通滤波器1动态最低截止频率[Hz]"
+    },
+    "pidTuningDTermLowpassDynMaxFrequency": {
+        "message": "D Term 低通滤波器1动态最高截止频率[Hz]"
+    },
+    "pidTuningDTermLowpassDynType": {
+        "message": "D Term 低通滤波器1动态滤波器类型"
     },
     "pidTuningDTermNotchFiltersGroup": {
         "message": "D Term 低通滤波器"
@@ -3011,6 +3026,12 @@
     },
     "pidTuningAcroTrainerAngleLimitHelp": {
         "message": "为正在学习飞行的飞行员增加一个新的角度限制模式。有效范围为 10-80，需要使用 $t(tabAuxiliary.message) 选项卡中的一个开关激活。"
+    },
+    "pidTuningIntegratedYaw": {
+        "message": "整合式偏航"
+    },
+    "pidTuningIntegratedYawCaution": {
+        "message": "<span class=\"message-negative\">注意<\/span>:如果你启用此功能，则必须相应地调整偏航PID。更多信息在<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">此处<\/a>"
     },
     "configHelp2": {
         "message": "任意角度（直立，反转，旋转等）安装飞控板。当使用外部传感器时，请使用传感器校正设置(陀螺，加速度计，磁场计)来决定独立于飞控板的传感器位置。"
@@ -3531,6 +3552,9 @@
     "osdDescElementCraftName": {
         "message": "设置页面里设置的飞行器名称"
     },
+    "osdDescElementDisplayName": {
+        "message": "由CLI命令\"display_name\"设置的显示名称"
+    },
     "osdDescElementAltitude": {
         "message": "当前高度 (当超过设置的警告高度时会闪烁)"
     },
@@ -3599,6 +3623,9 @@
     },
     "osdDescElementEscRpm": {
         "message": "电调回传电机转速"
+    },
+    "osdDescElementEscRpmFreq": {
+        "message": "电调回传电机转速频率"
     },
     "osdDescElementRtcDateTime": {
         "message": "日期\/时间"
