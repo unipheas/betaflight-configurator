@@ -1309,6 +1309,10 @@
     "pidTuningAntiGravityThres": {
         "message": "反重力阈值"
     },
+    "pidTuningDMinHelp": {
+        "message": "D Min使得飞机可以在正常飞行过程中保持较低水平的D；而在可能导致过冲的高速特技动作，比如翻滚和滚转时提高D。它也会在发生洗桨时提高D。飞机的D项会在D Min(正常飞行时) 到标准D(快速翻滚和滚转时) 内动态变化。将增益设置为0将禁用该功能。增益决定了快速打杆时的D的增强强度。高级设置则加速了D的增强效果。这可以帮你解决在高Rate和响应迅速的飞机上的一些过冲现象。",
+        "description": "Help message for D Min feature"
+    },
     "pidTuningDMin": {
         "message": "D Min",
         "description": "Table header of the D Min feature in the PIDs tab"
