@@ -2168,6 +2168,12 @@
     "cliClearOutputHistoryBtn": {
         "message": "Effacer l'historique"
     },
+    "cliCopyToClipboardBtn": {
+        "message": "Copier dans le presse-papier"
+    },
+    "cliCopySuccessful": {
+        "message": "Copié !"
+    },
     "loggingNote": {
         "message": "Les données sont enregistrées dans cet onglet <span class=\"message-negative\">uniquement<\/span>, quitter l'onglet  <span class=\"message-negative\">arrête<\/span> l'enregistrement et l'application retourne en <strong>\"configurateur\"<\/strong>.<br \/> Peu importe la période de rafraîchissement, les données sont écrites <strong>chaque<\/strong> seconde afin de préserver les performances."
     },
