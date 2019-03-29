@@ -1299,6 +1299,30 @@
     "pidTuningAntiGravityThres": {
         "message": "Limiar Antigravidade"
     },
+    "pidTuningDMin": {
+        "message": "D Mínimo",
+        "description": "Table header of the D Min feature in the PIDs tab"
+    },
+    "pidTuningDMinRoll": {
+        "message": "Roll",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinPitch": {
+        "message": "Pitch",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinYaw": {
+        "message": "Yaw",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinGain": {
+        "message": "Ganho",
+        "description": "Gain of the D Min feature"
+    },
+    "pidTuningDMinAdvance": {
+        "message": "Avanço",
+        "description": "Advane of the D Min feature"
+    },
     "pidTuningPidSettings": {
         "message": "Configurar controlador PID"
     },
@@ -2129,6 +2153,9 @@
     },
     "cliClearOutputHistoryBtn": {
         "message": "Limpar histórico"
+    },
+    "cliCopySuccessful": {
+        "message": "Copiado!"
     },
     "loggingNote": {
         "message": "Os dados serão logados <span class=\"message-negative\">somente<\/span> nesta aba, sair da aba irá <span class=\"message-negative\">cancelar<\/span> o log e a aplicação irá retornar para seu estado <strong>\"configurador\"<\/strong> normal.<br \/> Você pode selecionar o período de atualização global, os dados serão escritos no arquivo de log a cada <strong>1<\/strong> segundo por motivos de performance."
