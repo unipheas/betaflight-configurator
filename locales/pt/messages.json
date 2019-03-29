@@ -491,6 +491,12 @@
     "defaultDonateHead": {
         "message": "Código Fonte \/ Nota de Doação"
     },
+    "defaultDonateText": {
+        "message": "<p><strong>Betaflight<\/strong> é um software para controladores de voo feito com <strong>código aberto<\/strong> e disponível gratuitamente <strong>sem nenhuma garantia<\/strong> para todos os usuários.<\/p><p> Se você achou o Betaflight ou o Configurador Betaflight útil, considere <strong>ajudar<\/strong> seu desenvolvimento com uma doação.<\/p>"
+    },
+    "defaultDonateBottom": {
+        "message": "<p>Se deseja ajudar este projeto financeiramente, de forma continua, considere tornar-se nosso benfeitor pelo site <a href='https:\/\/www.patreon.com\/betaflight'>Patreon<\/a><\/p>"
+    },
     "defaultDonate": {
         "message": "Doar"
     },
@@ -708,6 +714,10 @@
         "message": "Switch do Prearm não está ativo ou Prearm não foi alterado após desarmar",
         "description": "Description of the NOPREARM arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipLOAD": {
+        "message": "A carga da CPU está acima do limite permitido para um voo seguro",
+        "description": "Description of the LOAD arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
         "message": "Os sensores ainda estão sendo calibrados",
         "description": "Description of the CALIBRATING arming disable flag"
@@ -827,10 +837,10 @@
         "message": "Modo 3D (para uso com ESCs reversíveis)"
     },
     "featureRX_PARALLEL_PWM": {
-        "message": "Entrada de PWM RX (um fio por canal)"
+        "message": "Entrada PWM RX (um fio por canal)"
     },
     "featureRX_MSP": {
-        "message": "Entrada de MSP RX (controle via porta MSP)"
+        "message": "Entrada MSP RX (controle via porta MSP)"
     },
     "featureRSSI_ADC": {
         "message": "Entrada analógica de RSSI"
@@ -857,7 +867,7 @@
         "message": "Configure através da aba 'Blackbox' após ativar."
     },
     "featureRX_SPI": {
-        "message": "Suporte de SPI RX"
+        "message": "Suporte a RX SPI"
     },
     "featureESC_SENSOR": {
         "message": "Usar a telemetria KISS\/BLHeli_32 ESC como sensor"
@@ -1299,6 +1309,10 @@
     "pidTuningAntiGravityThres": {
         "message": "Limiar Antigravidade"
     },
+    "pidTuningDMinHelp": {
+        "message": "D Mínimo é uma forma de utilizar um valor menor para o termo D durante um voo normal e um valor maior para manobras rápidas que podem causar movimentos exagerados, como flips e rolls. Isto também aumenta o valor do termo D quando houver turbulência nas hélices. A aeronave terá um termo D dinâmico, entre o D Mínimo (durante voo normal) e o D normal (durante manobras rápidas). Um valor igual a 0 irá desativar a função. O <strong>Ganho<\/strong> determina o quanto o termo D será aumentado durante os movimentos rápidos do stick. O <strong>Avanço<\/strong> acelera o início do efeito de impulso. Isto pode ser útil se sua aeronave for extremamente rápida, causando movimentos exagerados no final das manobras.",
+        "description": "Help message for D Min feature"
+    },
     "pidTuningDMin": {
         "message": "D Mínimo",
         "description": "Table header of the D Min feature in the PIDs tab"
@@ -1475,6 +1489,9 @@
     },
     "pidTuningThrottleLimitType": {
         "message": "Limite do Acelerador"
+    },
+    "pidTuningThrottleLimitPercent": {
+        "message": "% do Limite do Acelerador"
     },
     "pidTuningThrottleLimitTypeOff": {
         "message": "DESLIGADO"
@@ -2153,6 +2170,9 @@
     },
     "cliClearOutputHistoryBtn": {
         "message": "Limpar histórico"
+    },
+    "cliCopyToClipboardBtn": {
+        "message": "Copiar para área de transferência"
     },
     "cliCopySuccessful": {
         "message": "Copiado!"
@@ -3017,6 +3037,15 @@
     "pidTuningAcroTrainerAngleLimitHelp": {
         "message": "Angulo máximo do modo ACRO TRAINER, para pilotos que estão aprendendo a voar no modo acro. Os valores aceitos são de 10 a 80 graus.<br>Para ativar o modo, é necessário configurar um switch na aba $t(tabAuxiliary.message)."
     },
+    "pidTuningIntegratedYaw": {
+        "message": "Yaw Integrado"
+    },
+    "pidTuningIntegratedYawCaution": {
+        "message": "<span class=\"message-negative\">CUIDADO<\/span>: Se ativar esta funcionalidade, você deve ajustar o PID do Yaw de acordo. Mais informações <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">aqui<\/a>"
+    },
+    "pidTuningIntegratedYawHelp": {
+        "message": "Yaw Integrado é uma funcionalidade que corrige um problema fundamental do controle da aeronave: Os eixos pitch e roll são controlados por uma diferença no impulso das hélices, mas o yaw é diferente. O Yaw integrado corrige isto ao integrar a saída do PID do yaw antes de o aplicar ao mixer. Isto normaliza o PID, e agora é possível afinar o yaw como os outros eixos. É necessário o uso do Controle Absoluto, uma vez que o termo I não é necessário com o Yaw Integrado."
+    },
     "configHelp2": {
         "message": "Rotação da placa em graus, permite que a placa seja montada de lado, de cabeça para baixo, rotacionada, etc. Quando estiver utilizando sensores externos, use o alinhamento dos sensores (Giro, Acc, Mag) para definir a posição do sensor independente da orientação da placa. "
     },
@@ -3536,6 +3565,9 @@
     "osdDescElementCraftName": {
         "message": "Nome da aeronave como definido na aba de Configurações"
     },
+    "osdDescElementDisplayName": {
+        "message": "Exibe o nome configurado pelo comando \"display_name\" na CLI"
+    },
     "osdDescElementAltitude": {
         "message": "Altitude atual (Piscar quando estiver acima do limite)"
     },
@@ -3604,6 +3636,9 @@
     },
     "osdDescElementEscRpm": {
         "message": "RPM reportado pela telemetria do ESC"
+    },
+    "osdDescElementEscRpmFreq": {
+        "message": "Frequência RPM, relatada pela telemetria do ESC"
     },
     "osdDescElementRtcDateTime": {
         "message": "Relógio real (data \/ hora)"
@@ -3723,7 +3758,7 @@
         "message": "Temperatura Max ESC"
     },
     "osdDescStatEscRpm": {
-        "message": "Max ESC RPM"
+        "message": "RPM Max ESC"
     },
     "osdDescStatMinLinkQuality": {
         "message": "Valor mínimo do indicador alternativo de \"Qualidade da conexão\" baseado em perdas de sinal"
@@ -3751,6 +3786,9 @@
     },
     "osdTimerAlarmTooltip": {
         "message": "Selecione o limite do alarme do cronômetro em minutos, quando o tempo excede este valor, o elemento no OSD irá piscar, um valor de 0 desabilita o alarme"
+    },
+    "osdWarningUnknown": {
+        "message": "Alerta Desconhecido (Detalhes serão adicionados em uma próxima versão)"
     },
     "osdWarningArmingDisabled": {
         "message": "Mostra o principal motivo de não ter armado"
