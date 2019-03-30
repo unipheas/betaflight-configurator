@@ -63,7 +63,7 @@
         "message": "Não participar da coleta anônima de dados estatísticos"
     },
     "userLanguageSelect": {
-        "message": "Idioma (necessário reiniciar a aplicação para que as alterações surtam efeito)"
+        "message": "Idioma (é necessário reiniciar a aplicação para que as alterações surtam efeito)"
     },
     "language_default": {
         "message": "Padrão"
@@ -2022,7 +2022,7 @@
         "message": "Corrente:"
     },
     "motorsmAhDrawn": {
-        "message": "Corrente Utilizada:"
+        "message": "Total Utilizado:"
     },
     "motorsVoltageValue": {
         "message": "$1 V"
@@ -2178,7 +2178,7 @@
         "message": "Copiado!"
     },
     "loggingNote": {
-        "message": "Os dados serão logados <span class=\"message-negative\">somente<\/span> nesta aba, sair da aba irá <span class=\"message-negative\">cancelar<\/span> o log e a aplicação irá retornar para seu estado <strong>\"configurador\"<\/strong> normal.<br \/> Você pode selecionar o período de atualização global, os dados serão escritos no arquivo de log a cada <strong>1<\/strong> segundo por motivos de performance."
+        "message": "Os dados serão gravados <span class=\"message-negative\">somente<\/span> nesta aba, sair da aba irá <span class=\"message-negative\">cancelar<\/span> o log e a aplicação irá retornar para seu estado <strong>\"configurador\"<\/strong> normal.<br \/> Você pode selecionar o período de atualização global, por motivos de performance, os dados serão escritos no arquivo de log a cada <strong>1<\/strong> segundo."
     },
     "loggingSamplesSaved": {
         "message": "Amostras Salvas:"
@@ -2707,7 +2707,7 @@
         "description": "Control button in the wiring modes in Led Strip"
     },
     "ledStripWiringMessage": {
-        "message": "LEDs sem numero de ordem não serão salvos.",
+        "message": "LEDs configurados em posições sem número não serão salvos.",
         "description": "Message in the wiring modes in Led Strip"
     },
     "ledStripVtxFunction": {
@@ -4001,7 +4001,7 @@
         "message": "Dispositivo de log do Blackbox"
     },
     "onboardLoggingRateOfLogging": {
-        "message": "Taxa de log do Blackbox"
+        "message": "Frequência de log do Blackbox"
     },
     "onboardLoggingSerialLogger": {
         "message": "Dispositivo de log externo"
