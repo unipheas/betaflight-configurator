@@ -200,7 +200,7 @@
         "message": "Motores"
     },
     "tabLedStrip": {
-        "message": "Fita de LED"
+        "message": "Faixa de LED"
     },
     "tabRawSensorData": {
         "message": "Sensores"
@@ -351,7 +351,7 @@
         "message": "<b>Requisição ao servidor de compilação para versões do $1 falhou, usando informações em cache. Motivo: <code>$2<\/code><\/b>"
     },
     "buildServerUsingCached": {
-        "message": "Utilizando informações de compilação em cache para o $1."
+        "message": "Utilizando informações de compilação em cache para $1."
     },
     "releaseCheckLoaded": {
         "message": "Informações da versão do $1 carregadas do GitHub."
@@ -591,7 +591,7 @@
         "message": "Redefinir eixo Z, offset: 0 graus"
     },
     "initialSetupButtonResetZaxisValue": {
-        "message": "Redefinir eixo Z, offset: $1 grau"
+        "message": "Redefinir eixo Z, offset: $1 graus"
     },
     "initialSetupMixerHead": {
         "message": "Tipo de Mixer"
@@ -639,7 +639,7 @@
         "message": "Declinação:"
     },
     "initialSetupInfoHead": {
-        "message": "Info"
+        "message": "Informações"
     },
     "initialSetupBattery": {
         "message": "Voltagem da bateria:"
@@ -1014,7 +1014,7 @@
         "message": "Armar está sempre desativado quando o acelerador não está no mínimo. Tenha cuidado porque pode desarmar acidentalmente com um botão enquanto estiver voando se esta opção estiver ativa."
     },
     "configurationDigitalIdlePercent": {
-        "message": "Valor do acelerador quando o motor está ocioso [percent]"
+        "message": "Valor do acelerador quando o motor está ocioso [porcentagem]"
     },
     "configurationDigitalIdlePercentHelp": {
         "message": "Este é o valor 'ocioso' em percentagem do valor máximo do acelerador que é enviado para os ESCs quando a aeronave está armada e o stick do acelerador está no mínimo. Aumente o valor para ganhar mais velocidade quando ocioso."
@@ -1188,7 +1188,7 @@
         "message": "Serial Rx"
     },
     "portsSensorIn": {
-        "message": "Entrada do sensor"
+        "message": "Entrada de sensor"
     },
     "portsTelemetryOut": {
         "message": "Saída de telemetria"
@@ -1197,7 +1197,7 @@
         "message": "Periféricos"
     },
     "portsHelp": {
-        "message": "<strong>Nota:<\/strong> nem todas as combinações são válidas.  Quando o firmware do controlador de voo detecta isto a configuração da porta serial será reiniciada."
+        "message": "<strong>Nota:<\/strong> Nem todas as combinações são válidas.  Quando o firmware do controlador de voo detecta isto a configuração da porta serial será reiniciada."
     },
     "portsMSPHelp": {
         "message": "<strong>Nota:<\/strong> <span class=\"message-negative\">NÃO<\/span> desative o MSP na primeira porta serial, a menos que saiba o que está fazendo. Poderá ter que reinstalar o firmware e apagar todas as configurações se fizer isto."
