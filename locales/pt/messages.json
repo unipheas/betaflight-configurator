@@ -1671,7 +1671,7 @@
         "message": "Habilitar controles"
     },
     "auxiliaryHelp": {
-        "message": "Configure modos aqui usando uma combinação de intervalos e\/ou links para outros modos (links suportados no BF 4.0 e posterior). Use <strong>intervalos<\/strong> para definir os Switches no seu transmissor e as atribuições de modo correspondente. Um canal receptor que fornece uma leitura entre um intervalo mínimo\/máximo ativará o modo. Use um <strong>link<\/strong> para ativar um modo quando outro modo for ativado. <strong>Exceções:<\/strong> ARMAR não pode ser vinculado para ou a partir de outro modo, os modos não podem ser vinculados a outros modos configurados com um link (links em cadeia). Vários intervalos\/links podem ser usados ​​para ativar qualquer modo. Se houver mais de um intervalo\/link definido para um modo, cada um deles pode ser definido como AND ou OR. Um modo será ativado quando: <br \/><strong>AND<\/strong> -Todos os intervalos\/links estiverem ativos; <strong>OR<\/strong><br \/> -Pelo menos um intervalo\/link está ativo. <br \/><br \/> Lembre-se de salvar as configurações usando o botão Salvar."
+        "message": "Configure modos aqui usando uma combinação de intervalos e\/ou links para outros modos (links suportados no BF 4.0 e posterior). Use <strong>intervalos<\/strong> para definir os Switches no seu transmissor e as atribuições de modo correspondente. Um canal receptor que fornece uma leitura entre um intervalo mínimo\/máximo ativará o modo. Use um <strong>link<\/strong> para ativar um modo quando outro modo for ativado. <strong>Exceções:<\/strong> ARMAR não pode ser vinculado para ou a partir de outro modo, os modos não podem ser vinculados a outros modos configurados com um link (links em cadeia). Vários intervalos\/links podem ser usados ​​para ativar qualquer modo. Se houver mais de um intervalo\/link definido para um modo, cada um deles pode ser definido como<strong> AND<\/strong> ou <strong>OR<\/strong>. Um modo será ativado quando: <br \/><strong>AND<\/strong> - Todos os intervalos\/links estiverem ativos; <br \/> <strong>OR<\/strong> - Pelo menos um intervalo\/link está ativo. <br \/><br \/> Lembre-se de salvar as configurações usando o botão Salvar."
     },
     "auxiliaryToggleUnused": {
         "message": "Ocultar modos não utilizados"
@@ -1683,7 +1683,7 @@
         "message": "Max"
     },
     "auxiliaryAddRange": {
-        "message": "Adicionar Faixa"
+        "message": "Adicionar Intervalo"
     },
     "auxiliaryAddLink": {
         "message": "Adicionar Link"
@@ -1719,19 +1719,19 @@
         "message": "Ativar"
     },
     "adjustmentsColumnUsingSlot": {
-        "message": "usando slot"
+        "message": "Utilizando o slot"
     },
     "adjustmentsColumnWhenChannel": {
         "message": "Quando o canal"
     },
     "adjustmentsColumnIsInRange": {
-        "message": "estiver na faixa"
+        "message": "Estiver no Intervalo"
     },
     "adjustmentsColumnThenApplyFunction": {
-        "message": "então ajustar"
+        "message": "Então ajustar"
     },
     "adjustmentsColumnViaChannel": {
-        "message": "via canal"
+        "message": "Via canal"
     },
     "adjustmentsSlot0": {
         "message": "Slot 1"
