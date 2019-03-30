@@ -1557,7 +1557,7 @@
         "message": "Cancelar"
     },
     "pidTuningResetProfile": {
-        "message": "Reiniciar valores do perfil"
+        "message": "Reiniciar valores"
     },
     "pidTuningProfileReset": {
         "message": "Valores padrão do perfil carregados."
