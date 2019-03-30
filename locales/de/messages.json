@@ -1150,7 +1150,7 @@
         "message": "GPS"
     },
     "configurationGPSProtocol": {
-        "message": "Protokol"
+        "message": "Protokoll"
     },
     "configurationGPSBaudrate": {
         "message": "Baudrate"
