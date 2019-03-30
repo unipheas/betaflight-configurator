@@ -3417,7 +3417,7 @@
         "message": "Elementos"
     },
     "osdSetupPreviewTitle": {
-        "message": "Arraste os elementos para mudar a posição",
+        "message": "Arraste os elementos para alterar a posição",
         "description": "Indicates in the preview window of the OSD that the user can drag the elements to reorder them"
     },
     "osdSetupPreviewSelectProfileTitle": {
@@ -3566,7 +3566,7 @@
         "message": "Nome da aeronave como definido na aba de Configurações"
     },
     "osdDescElementDisplayName": {
-        "message": "Exibe o nome configurado pelo comando \"display_name\" na CLI"
+        "message": "Exibe o nome configurado pelo comando \"display_name\" na Linha de Comandos (CLI)"
     },
     "osdDescElementAltitude": {
         "message": "Altitude atual (Piscar quando estiver acima do limite)"
