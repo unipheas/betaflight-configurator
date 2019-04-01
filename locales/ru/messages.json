@@ -491,6 +491,12 @@
     "defaultDonateHead": {
         "message": "Открытый код \/ Пожертвование"
     },
+    "defaultDonateText": {
+        "message": "<p><strong>Betaflight<\/strong> является прошивкой для полётных контроллеров <strong>с открытым исходным кодом<\/strong> и доступна абсолютно бесплатно <strong>без гарантии<\/strong> для всех пользователей.<\/p><p>Если вы нашли Betaflight или Betaflight конфигуратор полезными, пожалуйста<strong>поддержите<\/strong> разработку пожертвованием.<\/p>"
+    },
+    "defaultDonateBottom": {
+        "message": "<p>Если вы хотите финансово помогать на постоянной основе, вы можете стать нашим покровителем на <a href='https:\/\/www.patreon.com\/betaflight'>Patreon<\/a>.<\/p>"
+    },
     "defaultDonate": {
         "message": "Пожертвовать"
     },
@@ -665,17 +671,92 @@
     "initialSetupArmingAllowed": {
         "message": "Arming разрешён"
     },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "Список планов указывающих почему арминг сейчас не разрешен. Наведите курсор мыши на флаг или обратитесь к вики (страница «Последовательность арминга и безопасность») для получения дополнительной информации."
+    },
     "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
         "message": "Гироскоп не обнаружен",
         "description": "Description of the NO GYRO arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
+        "message": "Failsafe активен",
+        "description": "Description of the FAILSAFE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
         "message": "Не обнаружен корректный сигнал приёмника",
         "description": "Description of the RX_FAILSAFE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipBAD_RX_RECOVERY": {
+        "message": "Ваш приемник только что восстановил связь, но выключатель failsafe включен",
+        "description": "Description of the BAD_RX_RECOVERY arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
         "message": "Переключатель 'FAILSAFE' активирован",
         "description": "Description of the BOXFAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
+        "message": "Взлет с полосы переключен",
+        "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
+        "message": "Канал газа слишком высок",
+        "description": "Description of the THROTTLE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipANGLE": {
+        "message": "Судно не в уровне (достаточном)",
+        "description": "Description of the ANGLE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
+        "message": "Арминг слишком рано после включения питания",
+        "description": "Description of the BOOT_GRACE_TIME arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipNOPREARM": {
+        "message": "Переключатель преарма не активен или не был переключен после дизарма",
+        "description": "Description of the NOPREARM arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipLOAD": {
+        "message": "Системная нагрузка слишком высока для полета",
+        "description": "Description of the LOAD arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
+        "message": "Калибровка датчика все еще продолжается",
+        "description": "Description of the CALIBRATING arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCLI": {
+        "message": "Интерфейс командной строки активен",
+        "description": "Description of the CLI arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
+        "message": "CMS (конфигурационное меню) активен - над OSD или другим дисплеем -",
+        "description": "Description of the CMS_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
+        "message": "OSD меню активно",
+        "description": "Description of the OSD_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBST": {
+        "message": "Black Sheep устройство телеметрии (TBS Core Pro например) дизарм и предварительно арминг",
+        "description": "Description of the BST arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipMSP": {
+        "message": "MSP соединение активно, возможно с этим Betaflight Configurator",
+        "description": "Description of the MSP arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipPARALYZE": {
+        "message": "Парализный режим активирован",
+        "description": "Description of the PARALYZE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipGPS": {
+        "message": "Режим восстановления GPS настроен, но требуемое количество спутников не было зафиксировано",
+        "description": "Description of the GPS arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRESC": {
+        "message": "Переключатель 'GPS Rescue' активирован",
+        "description": "Description of the RESC arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
+        "message": "Один из других флагов дизарм активен при арминге",
+        "description": "Description of the ARM_SWITCH arming disable flag"
     },
     "initialSetupGPSHead": {
         "message": "GPS"
@@ -1031,6 +1112,9 @@
     "beeperCAM_CONNECTION_CLOSE": {
         "message": "Пищать когда 5 клавиша управления камеры отжата"
     },
+    "beeperRC_SMOOTHING_INIT_FAIL": {
+        "message": "Бипер если арминг не прошел инициализацию по фильтрам"
+    },
     "configuration3d": {
         "message": "3D функционал Моторов\/Регуляторов"
     },
@@ -1169,6 +1253,15 @@
     "portsFunction_BLACKBOX": {
         "message": "Запись в Blackbox"
     },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "VTX (TBS SmartAudio)"
+    },
+    "portsFunction_IRC_TRAMP": {
+        "message": "VTX (IRC Tramp)"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "Camera (RunCam Protocol)"
+    },
     "pidTuningProfileOption": {
         "message": "Профиль $1"
     },
@@ -1212,6 +1305,26 @@
     },
     "pidTuningAntiGravityThres": {
         "message": "Порог Anti Gravity"
+    },
+    "pidTuningDMin": {
+        "message": "D Мин",
+        "description": "Table header of the D Min feature in the PIDs tab"
+    },
+    "pidTuningDMinRoll": {
+        "message": "Крен",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinPitch": {
+        "message": "Тангаж",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinYaw": {
+        "message": "Рыскание",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinGain": {
+        "message": "Амплитуда",
+        "description": "Gain of the D Min feature"
     },
     "pidTuningPidSettings": {
         "message": "Настройки PID-контроллера"
@@ -1558,6 +1671,9 @@
     "auxiliaryAddRange": {
         "message": "Доб. диапазон"
     },
+    "auxiliaryAddLink": {
+        "message": "Добавить ссылку"
+    },
     "auxiliaryButtonSave": {
         "message": "Сохранить"
     },
@@ -1566,6 +1682,12 @@
     },
     "auxiliaryAutoChannelSelect": {
         "message": "АВТО"
+    },
+    "auxiliaryModeLogicOR": {
+        "message": "ИЛИ"
+    },
+    "auxiliaryModeLogicAND": {
+        "message": "И"
     },
     "adjustmentsHelp": {
         "message": "Установка нас троечных переключателей. Смотри 'in-flight adjustments' секцию руководства. Изменение этих настроек автоматически не сохраняется. Там 4 слота. Каждый переключатель используемый одновременно требует исключительного использования слота."
@@ -2035,6 +2157,12 @@
     "cliClearOutputHistoryBtn": {
         "message": "Очистить историю"
     },
+    "cliCopyToClipboardBtn": {
+        "message": "Копировать в буфер обмена"
+    },
+    "cliCopySuccessful": {
+        "message": "Скопировано!"
+    },
     "loggingNote": {
         "message": "Информация будет логироваться в эту закладку <span class=\"message-negative\">только<\/span>, покидая эту закладку будет <span class=\"message-negative\">отменено<\/span> логировние и приложение вернется в нормальное <strong>\"конфигуратор\"<\/strong> состояние.<br \/> Вы вольны выбрать глобальный период обновления, информация будет записана в лог файл каждые <strong>1<\/strong> секунд по соображениям производительности."
     },
@@ -2121,6 +2249,9 @@
     },
     "dataflashButtonSaveFile": {
         "message": "Сохранено в файл..."
+    },
+    "dataflashButtonSaveFileDeprecated": {
+        "message": "Сохранить в файл... (устарело)"
     },
     "dataflashButtonErase": {
         "message": "Стереть флэш"
@@ -2865,6 +2996,9 @@
     "pidTuningAcroTrainerAngleLimitHelp": {
         "message": "Добавляет новый режим пределов угла для пилотов которые учатся летать в акро режиме. Диапазон правильных 10-80 и должен быть активирован с переключателя в $t(tabAuxiliary.message) закладке."
     },
+    "pidTuningIntegratedYaw": {
+        "message": "Интегрированное рыскание"
+    },
     "configHelp2": {
         "message": "Произвольное вращение платы в градусах, для разрешения установки в другом направлении \/ вверх ногами \/ повернутое и т. д. При работе с внешними датчиками используется выравнивание датчиков (Gyro, Acc, Mag), чтобы определить положение датчика независимо от ориентации платы. "
     },
@@ -3228,8 +3362,32 @@
     "osdSetupUnsupportedNote2": {
         "message": "Обратите внимание, что некоторые полётные контроллеры имеют встроенный <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a>, который можно прошить и сконфигурировать при помощи <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>, однако после этого MinimOSD невозможно будет сконфигурировать в этом интерфейсе."
     },
+    "osdSetupProfilesTitle": {
+        "message": "Номер профиля OSD",
+        "description": "Description of the header of the OSD elements column associated to each profile"
+    },
     "osdSetupElementsTitle": {
         "message": "Элементы"
+    },
+    "osdSetupPreviewTitle": {
+        "message": "Перетащите элементы чтобы изменить позицию",
+        "description": "Indicates in the preview window of the OSD that the user can drag the elements to reorder them"
+    },
+    "osdSetupPreviewSelectProfileTitle": {
+        "message": "Предпросмотр для",
+        "description": "Label of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupSelectedProfileTitle": {
+        "message": "Активный профиль OSD",
+        "description": "Title of the box to select the current active OSD profile"
+    },
+    "osdSetupSelectedProfileLabel": {
+        "message": "Текущий:",
+        "description": "Label for the selection of the curren active OSD profile"
+    },
+    "osdSetupPreviewSelectProfileElement": {
+        "message": "OSD Profile {{profileNumber}}",
+        "description": "Content of the selector for the OSD Profile in the preview"
     },
     "osdSetupPreviewTitleTip": {
         "message": "Показать\/скрыть логотип в окне предпросмотра. Этот переключатель никак не повлияет на настройки полётного контроллера."
@@ -3360,6 +3518,9 @@
     "osdDescElementCraftName": {
         "message": "Позывной пилота, установленный во вкладке \"Конфигурация\""
     },
+    "osdDescElementDisplayName": {
+        "message": "Показываемое имя для установки показываемого имени в интерфейсе командной строки"
+    },
     "osdDescElementAltitude": {
         "message": "Текущая высота (замигает, если значение будет ниже заданного порога тревоги)"
     },
@@ -3429,6 +3590,9 @@
     "osdDescElementEscRpm": {
         "message": "Скорость оборотов, полученная из телеметрии от ESC"
     },
+    "osdDescElementEscRpmFreq": {
+        "message": "Частота RPM, сообщаемая телеметрией регуляторов оборотов"
+    },
     "osdDescElementRtcDateTime": {
         "message": "Отображать текущую дату и время"
     },
@@ -3452,6 +3616,12 @@
     },
     "osdDescElementFlipArrow": {
         "message": "Стрелка показывает в какой стороне двигатели в режиме черепахи"
+    },
+    "osdDescElementLinkQuality": {
+        "message": "Альтернативный индикатор основанный на потере кадров - использовать с осторожностью"
+    },
+    "osdDescElementFlightDist": {
+        "message": "Пройденное расстояние за этот полет."
     },
     "osdDescElementStickOverlayLeft": {
         "message": "Схема положения для левого стика передатчика."
@@ -3546,6 +3716,9 @@
     "osdDescStatMinLinkQuality": {
         "message": "Альтернативный минимальный индикатор качества основанный на потере кадров"
     },
+    "osdDescStatFlightDistance": {
+        "message": "Общее расстояние, пройденное за время полета"
+    },
     "osdDescStatMaxFFT": {
         "message": "Пиковая частота FFT"
     },
@@ -3593,6 +3766,9 @@
     },
     "osdWarningCoreTemperature": {
         "message": "Предупреждает, когда температура MCU превышает настроенный порог"
+    },
+    "osdWarningRcSmoothingFailure": {
+        "message": "Предупреждает когда инициализация RC не работает (нарушена)"
     },
     "osdWarningFailsafe": {
         "message": "Предупреждает когда происходит failsafe"
