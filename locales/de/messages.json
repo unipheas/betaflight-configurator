@@ -58,7 +58,7 @@
         "message": "Expertenmodus einschalten"
     },
     "expertModeDescription": {
-        "message": "Zeige unveröffentlichte und potentiell instabile Versionen"
+        "message": "Zeige unveröffentlichte und potentiell instabile Releases an"
     },
     "permanentExpertMode": {
         "message": "Expertenmodus dauerhaft aktivieren"
@@ -1301,7 +1301,7 @@
         "description": "One of the modes of anti gravity"
     },
     "pidTuningAntiGravityModeOptionStep": {
-        "message": "Schritt",
+        "message": "Stufe",
         "description": "One of the modes of anti gravity"
     },
     "pidTuningAntiGravityGain": {
