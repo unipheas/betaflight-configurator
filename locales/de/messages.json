@@ -58,7 +58,7 @@
         "message": "Expertenmodus einschalten"
     },
     "expertModeDescription": {
-        "message": "Zeige unveröffentlichte und potentiell instabile Releases an"
+        "message": "Zeige unveröffentlichte und potentiell instabile Versionen an"
     },
     "permanentExpertMode": {
         "message": "Expertenmodus dauerhaft aktivieren"
