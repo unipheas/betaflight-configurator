@@ -971,6 +971,24 @@
     "configurationSensorAlignmentGyro": {
         "message": "Alignement du Gyro"
     },
+    "configurationSensorGyroToUse": {
+        "message": "GYRO\/ACCEL"
+    },
+    "configurationSensorGyroToUseDefaultOption": {
+        "message": "Premier"
+    },
+    "configurationSensorGyroToUseSecond": {
+        "message": "Deuxième"
+    },
+    "configurationSensorGyroToUseBoth": {
+        "message": "Les deux"
+    },
+    "configurationSensorAlignmentGyro1": {
+        "message": "Premier GYRO"
+    },
+    "configurationSensorAlignmentGyro2": {
+        "message": "Deuxième GYRO"
+    },
     "configurationSensorAlignmentAcc": {
         "message": "Alignement de l'accéléromètre"
     },
