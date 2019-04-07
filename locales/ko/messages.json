@@ -971,6 +971,24 @@
     "configurationSensorAlignmentGyro": {
         "message": "자이로 정렬"
     },
+    "configurationSensorGyroToUse": {
+        "message": "자이로\/가속도계"
+    },
+    "configurationSensorGyroToUseDefaultOption": {
+        "message": "첫번째"
+    },
+    "configurationSensorGyroToUseSecond": {
+        "message": "두번째"
+    },
+    "configurationSensorGyroToUseBoth": {
+        "message": "모두"
+    },
+    "configurationSensorAlignmentGyro1": {
+        "message": "첫번째 자이로"
+    },
+    "configurationSensorAlignmentGyro2": {
+        "message": "두번째 자이로"
+    },
     "configurationSensorAlignmentAcc": {
         "message": "가속도계 정렬"
     },
