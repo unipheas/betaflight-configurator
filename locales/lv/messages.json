@@ -971,6 +971,24 @@
     "configurationSensorAlignmentGyro": {
         "message": "ŽIRO centrēšana"
     },
+    "configurationSensorGyroToUse": {
+        "message": "ŽIRO\/AKSEL"
+    },
+    "configurationSensorGyroToUseDefaultOption": {
+        "message": "Pirmais"
+    },
+    "configurationSensorGyroToUseSecond": {
+        "message": "Otrais"
+    },
+    "configurationSensorGyroToUseBoth": {
+        "message": "Abi"
+    },
+    "configurationSensorAlignmentGyro1": {
+        "message": "Pirmais ŽIRO"
+    },
+    "configurationSensorAlignmentGyro2": {
+        "message": "Otrais ŽIRO"
+    },
     "configurationSensorAlignmentAcc": {
         "message": "AKSEL centrēšana"
     },
