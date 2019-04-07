@@ -2909,7 +2909,7 @@
         "message": "Žiroskopa zemfrekvenču 2 filtra tips"
     },
     "pidTuningGyroNotchFiltersGroup": {
-        "message": "Gyro joslas filtrs"
+        "message": "Žiroskopa joslas filtrs"
     },
     "pidTuningGyroNotch1Frequency": {
         "message": "Žiroskopa joslas filtra 1 centra frekvence [Hz]"
@@ -3014,7 +3014,7 @@
         "message": "Tips:"
     },
     "pidTuningItermRelaxTypeOptionGyro": {
-        "message": "Gyro"
+        "message": "Žiro"
     },
     "pidTuningItermRelaxTypeOptionSetpoint": {
         "message": "Iestatījums"
