@@ -971,6 +971,24 @@
     "configurationSensorAlignmentGyro": {
         "message": "Rotacionar Giroscópio"
     },
+    "configurationSensorGyroToUse": {
+        "message": "GYRO\/ACCEL"
+    },
+    "configurationSensorGyroToUseDefaultOption": {
+        "message": "Primeiro"
+    },
+    "configurationSensorGyroToUseSecond": {
+        "message": "Segundo"
+    },
+    "configurationSensorGyroToUseBoth": {
+        "message": "Ambos"
+    },
+    "configurationSensorAlignmentGyro1": {
+        "message": "Primeiro GYRO"
+    },
+    "configurationSensorAlignmentGyro2": {
+        "message": "Segundo GYRO"
+    },
     "configurationSensorAlignmentAcc": {
         "message": "Rotacionar Acelerômetro"
     },
