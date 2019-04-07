@@ -1020,6 +1020,24 @@
     "configurationSensorAlignmentGyro": {
         "message": "crwdns5588:0crwdne5588:0"
     },
+    "configurationSensorGyroToUse": {
+        "message": "crwdns9074:0crwdne9074:0"
+    },
+    "configurationSensorGyroToUseDefaultOption": {
+        "message": "crwdns9076:0crwdne9076:0"
+    },
+    "configurationSensorGyroToUseSecond": {
+        "message": "crwdns9078:0crwdne9078:0"
+    },
+    "configurationSensorGyroToUseBoth": {
+        "message": "crwdns9080:0crwdne9080:0"
+    },
+    "configurationSensorAlignmentGyro1": {
+        "message": "crwdns9082:0crwdne9082:0"
+    },
+    "configurationSensorAlignmentGyro2": {
+        "message": "crwdns9084:0crwdne9084:0"
+    },
     "configurationSensorAlignmentAcc": {
         "message": "crwdns5589:0crwdne5589:0"
     },
