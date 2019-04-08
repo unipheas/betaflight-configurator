@@ -974,6 +974,12 @@
     "configurationSensorGyroToUse": {
         "message": "GYRO\/ACCEL"
     },
+    "configurationSensorGyroToUseNotFound": {
+        "message": "Avertissement: Aucun Gyroscope\/Accéléromètre détecté"
+    },
+    "configurationSensorGyroToUseFirst": {
+        "message": "Premier"
+    },
     "configurationSensorGyroToUseSecond": {
         "message": "Deuxième"
     },
