@@ -2925,7 +2925,7 @@
         "message": "Настройки фильтра в зависимости от выбранного профиля"
     },
     "pidTuningDTermLowpassFiltersGroup": {
-        "message": "D Term низкочастотные фильтры"
+        "message": "D Term Lowpass фильтры"
     },
     "pidTuningDTermLowpassType": {
         "message": "D Term Lowpass 1 тип фильтра"
