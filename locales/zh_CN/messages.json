@@ -2153,9 +2153,6 @@
     "sensorsDebugTitle": {
         "message": "调试"
     },
-    "cliInfo": {
-        "message": "<strong>注意<\/strong>：退出CLI命令行页面会 <strong>自动<\/strong> 发送\"<strong>exit<\/strong>\" 命令到飞控。这将会使飞控 <span class=\"message-negative\">重启<\/span>，所有没有保存的设置都会 <span class=\"message-negative\">丢失<\/span>。"
-    },
     "cliInputPlaceholder": {
         "message": "在这里输入命令"
     },
