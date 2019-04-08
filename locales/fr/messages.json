@@ -2165,9 +2165,6 @@
     "sensorsDebugTitle": {
         "message": "Debug"
     },
-    "cliInfo": {
-        "message": "<strong>Note<\/strong>: Quitter l'onglet CLI ou cliquer sur Déconnexion enverra <strong>automatiquement<\/strong> la commande <strong>exit<\/strong> à la carte. Avec le dernier firmware, le contrôleur <span class=\"message-negative\">redémarrera<\/span> et tous les changements non sauvegardés seront  <span class=\"message-negative\">perdus<\/span>."
-    },
     "cliInputPlaceholder": {
         "message": "Écrivez votre ligne de commande ici"
     },
