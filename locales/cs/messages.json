@@ -1111,6 +1111,9 @@
     "throttle": {
         "message": "Plyn"
     },
+    "filterWarning": {
+        "message": ""
+    },
     "receiverStickMin": {
         "message": "Limit \"stažené páky\""
     },
