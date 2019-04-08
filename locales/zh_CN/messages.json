@@ -1586,6 +1586,9 @@
     "tuningHelp": {
         "message": "<b> 调校技巧<\/b><br \/><span class=\"message-negative\">重要：<\/span>调校后的初次飞行需注意电机温度。滤波值越高，飞行效果可能越好，但也会导致更多的信号“噪音”进入电机。<br>100Hz 是默认较佳的数值，但对震动较严重的情况，你可以尝试把 Dterm 和 Gyro 滤波器降低到50Hz。"
     },
+    "filterWarning": {
+        "message": ""
+    },
     "receiverThrottleMid": {
         "message": "油门中点"
     },
