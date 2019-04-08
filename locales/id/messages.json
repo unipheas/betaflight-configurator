@@ -2002,9 +2002,6 @@
     "sensorsDebugTitle": {
         "message": "Debug"
     },
-    "cliInfo": {
-        "message": "<strong>Catatan<\/strong>: Meninggalkan tab CLI atau menekan Putus akan <strong> secara otomatis<\/strong> mengirimkan perintah \"<strong>keluar<\/strong>\" ke FC. Dengan firmware terbaru ini akan membuat FC di <span class =\"message-negative\"> restart<\/span> dan perubahan yang belum disimpan akan <span class =\"message-negative\">hilang<\/span>."
-    },
     "cliInputPlaceholder": {
         "message": "Tulis perintah anda di sini"
     },
