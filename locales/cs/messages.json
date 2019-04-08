@@ -1393,9 +1393,6 @@
     "sensorsScale": {
         "message": "Měřítko:"
     },
-    "cliInfo": {
-        "message": "<strong>Poznámka<\/strong>: Opuštěním karty CLI nebo stisknutím Odpojit se <strong>automaticky<\/strong> řídící jednotce odešle příkaz \"<strong>exit<\/strong>\". Pokud máte nejnovější firmware, tak se vaše řídící jednotka <span class=\"message-negative\">restartuje<\/span> a neuložené změny budou <span class=\"message-negative\">ztraceny<\/span>."
-    },
     "cliInputPlaceholder": {
         "message": "Zde napište svůj příkaz"
     },
