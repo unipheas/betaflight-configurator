@@ -974,9 +974,6 @@
     "configurationSensorGyroToUse": {
         "message": "ГИРО\/АКСЕЛ"
     },
-    "configurationSensorGyroToUseDefaultOption": {
-        "message": "Первый"
-    },
     "configurationSensorGyroToUseSecond": {
         "message": "Второй"
     },
