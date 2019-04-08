@@ -1682,9 +1682,6 @@
     "sensorsDebugTitle": {
         "message": "Vianetsintä"
     },
-    "cliInfo": {
-        "message": "<strong>Huom<\/strong>: CLI-välilehden sulkeminen tai \"Katkaise yhteys\" -napin painaminen lähettää <strong>automaattisesti<\/strong> \"<strong>exit<\/strong>\" -komennon lento-ohjaimelle. Viimeisimmän laiteohjelmiston myötä tämä komento aiheuttaa lento-ohjaimen <span class=\"message-negative\">uudelleenkäynnistyksen<\/span> ja kaikki tallentamattomat muutokset<span class=\"message-negative\">menetetään<\/span>."
-    },
     "cliInputPlaceholder": {
         "message": "Kirjoita komento tähän"
     },
