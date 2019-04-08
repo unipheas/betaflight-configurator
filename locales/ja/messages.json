@@ -971,6 +971,24 @@
     "configurationSensorAlignmentGyro": {
         "message": "Gyro アライメント"
     },
+    "configurationSensorGyroToUse": {
+        "message": "ジャイロ\/加速度"
+    },
+    "configurationSensorGyroToUseDefaultOption": {
+        "message": "第1"
+    },
+    "configurationSensorGyroToUseSecond": {
+        "message": "第2"
+    },
+    "configurationSensorGyroToUseBoth": {
+        "message": "両方"
+    },
+    "configurationSensorAlignmentGyro1": {
+        "message": "第1ジャイロ"
+    },
+    "configurationSensorAlignmentGyro2": {
+        "message": "第2ジャイロ"
+    },
     "configurationSensorAlignmentAcc": {
         "message": "Accel アライメント"
     },
