@@ -2168,9 +2168,6 @@
     "sensorsDebugTitle": {
         "message": "Atkļūdot"
     },
-    "cliInfo": {
-        "message": "<strong>Piezīme<\/strong>: Pametot CLI cilni vai nospiežot Atvienoties <strong>automātiski<\/strong> sūtīs \"<strong>iziet<\/strong>\" uz plati.  ar pēdējo programmatūru tas liks kontrolierim <span class=\"message-negative\">pārstartēt<\/span> un nesaglabātās izmaiņas tiks <span class=\"message-negative\">zaudētas<\/span>."
-    },
     "cliInputPlaceholder": {
         "message": "Rakstiet jūsu komandu šeit"
     },
