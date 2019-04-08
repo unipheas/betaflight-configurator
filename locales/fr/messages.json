@@ -974,9 +974,6 @@
     "configurationSensorGyroToUse": {
         "message": "GYRO\/ACCEL"
     },
-    "configurationSensorGyroToUseDefaultOption": {
-        "message": "Premier"
-    },
     "configurationSensorGyroToUseSecond": {
         "message": "Deuxième"
     },
