@@ -974,9 +974,6 @@
     "configurationSensorGyroToUse": {
         "message": "Giro\/Acel"
     },
-    "configurationSensorGyroToUseDefaultOption": {
-        "message": "Primero"
-    },
     "configurationSensorGyroToUseSecond": {
         "message": "Segundo"
     },
