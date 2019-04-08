@@ -1184,9 +1184,6 @@
     "sensorsDebugTitle": {
         "message": "Hata ayıklama"
     },
-    "cliInfo": {
-        "message": "<strong>Not<\/strong>: CLI bölümünden veya Bağlantıyı Kes'e basmak panele <strong>otomatik olarak<\/strong> \"<strong>çıkış<\/strong>\" mesajı yollar. En son yazılımla, bu, kontrolörün <span class=\"message-negative\">yeniden başlamasına<\/span> ve kaydedilmemiş değişikliklerin <span class=\"message-negative\">kaybolmasına<\/span> neden olur."
-    },
     "cliInputPlaceholder": {
         "message": "Komutunu buraya yaz"
     },
