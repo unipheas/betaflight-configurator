@@ -1607,6 +1607,9 @@
     "tuningHelp": {
         "message": "<b>Consejos para ajustar<\/b><br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Es importante verificar las temperaturas de los motores durante los primeros vuelos. Cuanto más alto sea el valor del filtro puede que vuele mejor, pero más ruido llegará a los motores. <br>El valor por defecto de 100Hz es óptimo, pero para montajes más ruidosos puedes probar a bajar el filtro D Term a 50Hz y posiblemente también el filtro del giro."
     },
+    "filterWarning": {
+        "message": ""
+    },
     "receiverThrottleMid": {
         "message": "Acelerador MED"
     },
