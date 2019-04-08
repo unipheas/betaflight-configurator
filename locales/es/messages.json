@@ -2174,6 +2174,9 @@
     "sensorsDebugTitle": {
         "message": "Debug"
     },
+    "cliInfo": {
+        "message": "<strong>Nota:<\/strong> Abandonar la pestaña CLI o pulsar Desconectar enviará \"<strong>exit<\/strong>\" <strong>automáticamente<\/strong> a la placa. En los últimos firmwares esto hace que el controlador <strong>reinicie<\/strong> y los cambios no salvados se <strong>perderán<\/strong>. <p><strong><span class=\"message-negative\">Atención:<\/span><\/strong> En CLI algunos comandos pueden resultar en señales arbitrarias enviadas a los pines de salida de motores. Esto puede provocar que los motores giren si la batería está conectada. Por lo tanto es altamente recomendable asegurarse de que <strong>no hay ninguna batería conectada antes de introducir comandos en CLI<\/strong>."
+    },
     "cliInputPlaceholder": {
         "message": "Escribe tu comando aquí"
     },
