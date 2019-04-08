@@ -2086,9 +2086,6 @@
     "sensorsDebugTitle": {
         "message": "Felsök"
     },
-    "cliInfo": {
-        "message": "<strong>Observera<\/strong>: Byte från CLI-fliken eller tryck på Koppla från kommer <strong>automatiskt<\/strong> att sända \"<strong>exit<\/strong>\" till styrkortet. Med den senaste firmwaren kommer detta att få kontrollern att <span class=\"message-negative\">starta om<\/span> och osparade ändringar kommer att <span class=\"message-negative\">förloras<\/span>."
-    },
     "cliInputPlaceholder": {
         "message": "Skriv ditt kommando här"
     },
