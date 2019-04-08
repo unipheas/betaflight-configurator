@@ -808,5 +808,8 @@
     },
     "portsPeripherals": {
         "message": "Peryferia"
+    },
+    "filterWarning": {
+        "message": ""
     }
 }
