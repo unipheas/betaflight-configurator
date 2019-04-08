@@ -1604,6 +1604,9 @@
     "tuningHelp": {
         "message": "<b>Dicas de otimização<\/b><br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Sempre verifique a temperatura dos motores durante os primeiros voos. Quanto maior o valor do filtro, melhor pode ser o voo, porém, mais ruído chegará aos motores. <br>O Valor padrão de 100Hz é ótimo, mas para aeronaves com mais ruídos, você pode tentar diminuir o filtro do termo D para 50Hz e possivelmente também o filtro do giroscópio."
     },
+    "filterWarning": {
+        "message": ""
+    },
     "receiverThrottleMid": {
         "message": "MEIO do Acelerador"
     },
