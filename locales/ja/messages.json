@@ -2168,9 +2168,6 @@
     "sensorsDebugTitle": {
         "message": "デバッグ"
     },
-    "cliInfo": {
-        "message": "<strong>注:<\/strong> [CLI] タブから他へ切り替える、又は切断した場合はFCボードへ<strong>自動的に<\/strong><strong>EXIT<\/strong>が送られます。最新のファームウェアではコントローラを<span class=\"message-negative\">再起動<\/span>させ 、未保存の変更は<span class=\"message-negative\">失われます<\/span>のでご注意下さい。"
-    },
     "cliInputPlaceholder": {
         "message": "こちらにコマンドを書いて下さい"
     },
