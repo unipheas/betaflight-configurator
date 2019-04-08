@@ -971,6 +971,24 @@
     "configurationSensorAlignmentGyro": {
         "message": "Alineación GIRO"
     },
+    "configurationSensorGyroToUse": {
+        "message": "Giro\/Acel"
+    },
+    "configurationSensorGyroToUseDefaultOption": {
+        "message": "Primero"
+    },
+    "configurationSensorGyroToUseSecond": {
+        "message": "Segundo"
+    },
+    "configurationSensorGyroToUseBoth": {
+        "message": "Ambos"
+    },
+    "configurationSensorAlignmentGyro1": {
+        "message": "Primer Giro"
+    },
+    "configurationSensorAlignmentGyro2": {
+        "message": "Segundo Giro"
+    },
     "configurationSensorAlignmentAcc": {
         "message": "Alineación ACEL"
     },
