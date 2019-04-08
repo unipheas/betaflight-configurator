@@ -974,6 +974,9 @@
     "configurationSensorGyroToUse": {
         "message": "GYRO\/ACCEL"
     },
+    "configurationSensorGyroToUseFirst": {
+        "message": "Primeiro"
+    },
     "configurationSensorGyroToUseSecond": {
         "message": "Segundo"
     },
@@ -1365,7 +1368,7 @@
         "message": "Manual"
     },
     "receiverRcDerivativeTypeSelect": {
-        "message": "Tipo de corte derivado"
+        "message": "Tipo do corte"
     },
     "receiverRcInputTypeSelect": {
         "message": "Tipo de corte de entrada"
@@ -3059,7 +3062,7 @@
         "message": "Yaw Integrado é uma funcionalidade que corrige um problema fundamental do controle da aeronave: Os eixos pitch e roll são controlados por uma diferença no impulso das hélices, mas o yaw é diferente. O Yaw integrado corrige isto ao integrar a saída do PID do yaw antes de o aplicar ao mixer. Isto normaliza o PID, e agora é possível afinar o yaw como os outros eixos. É necessário o uso do Controle Absoluto, uma vez que o termo I não é necessário com o Yaw Integrado."
     },
     "configHelp2": {
-        "message": "Rotação da placa em graus, permite que a placa seja montada de lado, de cabeça para baixo, rotacionada, etc. Quando estiver utilizando sensores externos, use o alinhamento dos sensores (Giro, Acc, Mag) para definir a posição do sensor independente da orientação da placa. "
+        "message": "Rotação da placa em graus, permite que a placa seja montada de lado, de cabeça para baixo, rotacionada, etc. Quando estiver utilizando sensores externos, use o alinhamento dos sensores (Gyro, Accel, Mag) para definir a posição do sensor independente da orientação da placa. "
     },
     "failsafeFeaturesHelpOld": {
         "message": "As configurações do Failsafe mudaram consideravelmente. Use o Betaflight <strong>v1.12.0+<\/strong> para ativar o painel de configuração aprimorado."
