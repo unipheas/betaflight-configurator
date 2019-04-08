@@ -2151,9 +2151,6 @@
     "sensorsDebugTitle": {
         "message": "Debug"
     },
-    "cliInfo": {
-        "message": "<strong>Hinweis<\/strong>: Wenn der CLI Tab verlassen wird oder trennen geklickt wird, wird <strong>automatisch<\/strong> ein <strong>exit<\/strong> Befehl an das Board geschickt. Mit der neusten Firmware macht das Board automatisch einen <span class=\"message-negative\">Neustart<\/span>. Ungesicherte Einstellungen gehen damit <span class=\"message-negative\">verloren<\/span>."
-    },
     "cliInputPlaceholder": {
         "message": "Kommandos hier eingeben"
     },
