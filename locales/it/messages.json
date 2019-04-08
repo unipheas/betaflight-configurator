@@ -2039,9 +2039,6 @@
     "sensorsDebugTitle": {
         "message": "Debug"
     },
-    "cliInfo": {
-        "message": "<strong>Nota<\/strong>: uscendo dalla scheda CLI o premendo Disconnetti verrà <strong>automaticamente<\/strong> inviato \"<strong>exit<\/strong>\" alla scheda di controllo. Con gli ultimi firmware questo farà sì che la scheda venga  <span class=\"message-negative\">riavviata<\/span> e tutti i cambiamenti non salvati saranno <span class=\"message-negative\">persi<\/span>."
-    },
     "cliInputPlaceholder": {
         "message": "Scrivi qui il comando"
     },
