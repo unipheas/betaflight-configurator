@@ -2174,9 +2174,6 @@
     "sensorsDebugTitle": {
         "message": "디버그 0"
     },
-    "cliInfo": {
-        "message": "<strong>노트<\/strong>: CLI 탭을 나가거나 \"연결 끊기\"를 누르면 보드에 \"<strong>exit<\/strong>\"를 <strong>자동으로<\/strong> 보냅니다. 최신 펌웨어를 사용하면 컨트롤러가 <span class=\"message-negative\">다시 시작<\/span>되며, 저장되지 않은 변경사항은 <span class=\"message-negative\">손실<\/span>됩니다."
-    },
     "cliInputPlaceholder": {
         "message": "여기에 명령을 입력하세요."
     },
