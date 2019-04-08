@@ -2157,9 +2157,6 @@
     "sensorsDebugTitle": {
         "message": "Отладка"
     },
-    "cliInfo": {
-        "message": "<strong>Примечание<\/strong>: Покидая CLI закладку или нажимая Отключить будет <strong>автоматически<\/strong>  послано\"<strong>выход<\/strong>\" на плату. С последней прошивкой будет сделана <span class=\"message-negative\">перезагрузка<\/span> контроллера и не сохраненные изменения будут <span class=\"message-negative\">потеряны<\/span>."
-    },
     "cliInputPlaceholder": {
         "message": "Пишите ваши команды здесь"
     },
