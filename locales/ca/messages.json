@@ -1790,9 +1790,6 @@
     "sensorsDebugTitle": {
         "message": "Debug"
     },
-    "cliInfo": {
-        "message": "<strong>Nota<\/strong>: deixeu la pestanya CLI o premeu Desconnectar <strong>automàticament<\/strong> enviar \"<strong>sortir<\/strong>\" al tauler. Amb l'últim firmware això farà que el controlador <span class=\"message-negative\">es reinicii<\/span> i els canvis no desats es <span class=\"message-negative\">perdran<\/span>."
-    },
     "cliInputPlaceholder": {
         "message": "Escriu la teva comanda aquí"
     },
