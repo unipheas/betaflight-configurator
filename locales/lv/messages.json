@@ -974,6 +974,12 @@
     "configurationSensorGyroToUse": {
         "message": "ŽIRO\/AKSEL"
     },
+    "configurationSensorGyroToUseNotFound": {
+        "message": "Brīdinājums: Žiro\/Aksel nav atrasts"
+    },
+    "configurationSensorGyroToUseFirst": {
+        "message": "Pirmais"
+    },
     "configurationSensorGyroToUseSecond": {
         "message": "Otrais"
     },
@@ -2167,6 +2173,9 @@
     },
     "sensorsDebugTitle": {
         "message": "Atkļūdot"
+    },
+    "cliInfo": {
+        "message": "<strong>Piezīme:<\/strong> Atstājot CLI  vai nospiežot Atvienot <strong>automātiski<\/strong> nosūta uz plati komandu \"<strong>exit<\/strong>\".  Ar jaunāko programmatūru tas liks kontrolierim <strong>pārstartēties<\/strong> un nesaglabātās izmaiņas tiks <strong>pazaudētas<\/strong>.<p><strong><span class=\"message-negative\">Brīdinājums:<\/span><\/strong> Iekš CLI dažas komandas var izraisīt patvaļīgu signālu nosūtīšanu uz motoru izejām. Tas var izraisīt motoru griešanos, ja akumulators ir pieslēgts. Tamdēļ ļoti iesakām pārliecināties, <strong>ka akumulators nav pieslēgts, pirms ievadīt komandas iekš CLI<\/strong>."
     },
     "cliInputPlaceholder": {
         "message": "Rakstiet jūsu komandu šeit"
