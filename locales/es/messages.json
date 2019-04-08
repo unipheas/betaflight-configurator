@@ -974,6 +974,12 @@
     "configurationSensorGyroToUse": {
         "message": "Giro\/Acel"
     },
+    "configurationSensorGyroToUseNotFound": {
+        "message": "Atención: Giro\/Acel no encontrado"
+    },
+    "configurationSensorGyroToUseFirst": {
+        "message": "Primero"
+    },
     "configurationSensorGyroToUseSecond": {
         "message": "Segundo"
     },
