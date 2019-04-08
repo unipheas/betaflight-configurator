@@ -1023,8 +1023,11 @@
     "configurationSensorGyroToUse": {
         "message": "crwdns9074:0crwdne9074:0"
     },
-    "configurationSensorGyroToUseDefaultOption": {
-        "message": "crwdns9076:0crwdne9076:0"
+    "configurationSensorGyroToUseNotFound": {
+        "message": "crwdns9086:0crwdne9086:0"
+    },
+    "configurationSensorGyroToUseFirst": {
+        "message": "crwdns9088:0crwdne9088:0"
     },
     "configurationSensorGyroToUseSecond": {
         "message": "crwdns9078:0crwdne9078:0"
