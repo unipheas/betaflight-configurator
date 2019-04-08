@@ -2174,9 +2174,6 @@
     "sensorsDebugTitle": {
         "message": "Debug"
     },
-    "cliInfo": {
-        "message": "<strong>Nota<\/strong>: Salir del apartado CLI o pulsar Desconectar enviará <strong>automáticamente<\/strong> \"<strong>salir<\/strong>\" a la placa. Con la última versión del firmware esto hace que el controlador <span class=\"message-negative\">se reinicie<\/span> y todos los cambios no salvados <span class=\"message-negative\">se perderán<\/span>."
-    },
     "cliInputPlaceholder": {
         "message": "Escribe tu comando aquí"
     },
