@@ -974,9 +974,6 @@
     "configurationSensorGyroToUse": {
         "message": "ŽIRO\/AKSEL"
     },
-    "configurationSensorGyroToUseDefaultOption": {
-        "message": "Pirmais"
-    },
     "configurationSensorGyroToUseSecond": {
         "message": "Otrais"
     },
