@@ -1184,6 +1184,9 @@
     "receiverHelp": {
         "message": "Ole hyvä ja lue dokumentaation kappale, joka käsittelee vastaanottimia. Määritä sarjaportti (jos on tarpeen), vastaanottimen tyyppi (sarjaliikenne\/ppm\/pwm), toimittaja (sarjaliikennevastaanottimille), parita vastaanotin, aseta kanavakartta, määritä kanavien ääripisteet\/liikeradat lähettimestä siten, että kaikkien kanavien liikeratojen arvot ovat välillä ~1000 - ~2000.  Aseta keskipiste (oletus 1500), hienosäädä kanavat tähän arvoon, määritä tikkujen kuollut kohta (välys) keskipisteessä, vahvista käytös kun lähetin on pois päältä\/kantaman ulkopuolella.<br \/><span class=\"message-negative\">TÄRKEÄÄ:<\/span> Lue ennen lentämistä Failsafe-asetuksia käsittelevä kappale dokumentaatiosta ja määritä Failsafen asetukset."
     },
+    "filterWarning": {
+        "message": ""
+    },
     "receiverThrottleMid": {
         "message": "Kaasun keskipiste"
     },
