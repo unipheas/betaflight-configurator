@@ -974,6 +974,12 @@
     "configurationSensorGyroToUse": {
         "message": "ジャイロ\/加速度"
     },
+    "configurationSensorGyroToUseNotFound": {
+        "message": "警告: ジャイロ\/加速度センサーが確認できません"
+    },
+    "configurationSensorGyroToUseFirst": {
+        "message": "第1"
+    },
     "configurationSensorGyroToUseSecond": {
         "message": "第2"
     },
@@ -2167,6 +2173,9 @@
     },
     "sensorsDebugTitle": {
         "message": "デバッグ"
+    },
+    "cliInfo": {
+        "message": "<strong>注:<\/strong> CLI: コマンドライン タブを離れるか、切断を押すと<strong>自動的<\/strong>にFCボードへ \"<strong>exit<\/strong>\" 命令を送ります。最新ファームウェアでは、これによりコントローラが<strong>再起動<\/strong>し、保存していない設定変更はすべて<strong>失われます<\/strong>。<p><strong><span class=\"message-negative\">警告:<\/span><\/strong> CLIのコマンドによっては、モーター出力ピンに任意の信号が送信される場合があります。バッテリーが接続されていると、モーターが回転する可能性があります。したがって<strong>CLIでコマンドを入力する前に、バッテリーが接続されていないという確認<\/strong>を強くお勧めします。"
     },
     "cliInputPlaceholder": {
         "message": "こちらにコマンドを書いて下さい"
