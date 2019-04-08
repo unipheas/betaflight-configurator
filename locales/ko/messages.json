@@ -974,9 +974,6 @@
     "configurationSensorGyroToUse": {
         "message": "자이로\/가속도계"
     },
-    "configurationSensorGyroToUseDefaultOption": {
-        "message": "첫번째"
-    },
     "configurationSensorGyroToUseSecond": {
         "message": "두번째"
     },
