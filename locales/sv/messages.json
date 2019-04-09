@@ -2919,9 +2919,6 @@
     "pidTuningAbsoluteControlGain": {
         "message": "Absolut kontroll"
     },
-    "pidTuningAbsoluteControlGainHelp": {
-        "message": "Denna funktion löser några underliggande problem med I Term-rotation och kommer förhoppningsvis så småningom att helt ersätta den. Funktionen ackumulerar det absoluta gyro-felet i quad-koordinater och mixar in en proportionell korrektion i setpointen. Den måste ha iterm_relax aktiv för RPY."
-    },
     "pidTuningThrottleBoost": {
         "message": "Trottelförstärkning"
     },
