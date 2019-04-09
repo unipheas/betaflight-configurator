@@ -1607,6 +1607,9 @@
     "tuningHelp": {
         "message": "<b>チューニングTips<\/b><br \/><span class=\"message-negative\">重要:<\/span> 最初のフライト中はモーターの温度を確認することが重要です。フィルター値が高くなるほど飛行が軽快となりますが、モーターにはより多くのノイズが発生します。<br>デフォルト値である100Hzが最適値となりますが、ノイズ低減設定ではD値フィルターを50Hzに、またはジャイロフィルターの値を下げてみて下さい。"
     },
+    "filterWarning": {
+        "message": "<span class=\"message-negative\"><b>警告:<\/b><\/span> 現在適用されているフィルタリング量が非常に少ないです。これは機体制御が困難となる可能性があり、飛行中に大きく影響する可能性があります。<b>『ジャイロダイナミックローパス』または『ジャイロローパス 1』の少なくとも1つと『D値ダイナミックローパス』または『D値ローパス1』の少なくとも1つを有効とする<\/b>ことを強くお奨めします。"
+    },
     "receiverThrottleMid": {
         "message": "スロットルMID"
     },
@@ -3042,6 +3045,9 @@
     },
     "pidTuningAbsoluteControlGain": {
         "message": "アブソリュート コントロール"
+    },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "この機能は $t(pidTuningItermRotation.message) のいくつかの根本的な問題を解決し、うまくいけばどこかの時点で置き換えるべきと考えます。この機能は絶対値ジャイロ誤差を直交座標で累積し、比例補正を設定値にミックスさせます。それを機能させるには『Airモード』と $t(pidTuningItermRelax.message) を有効にする必要があります。( $t(pidTuningItermRelaxAxesOptionRP.message) の場合にて) この機能と $t(pidTuningIntegratedYaw.message) を組み合わせると、 $t(pidTuningItermRelaxAxesOptionRPY.message) に対して $t(pidTuningItermRelax.message) が有効となります。"
     },
     "pidTuningThrottleBoost": {
         "message": "スロットルブースト"
