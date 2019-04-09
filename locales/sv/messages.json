@@ -495,6 +495,9 @@
     "defaultDonateHead": {
         "message": "Öppen källkod- \/ Donations-notis"
     },
+    "defaultDonateText": {
+        "message": "<p><strong>Betaflight<\/strong> är en flygkontrollerprogramvara som bygger på <strong>öppen källkod<\/strong> och är tillgänglig utan kostnad <strong>utan garanti<\/strong> för alla användare.<\/p><p>Om du tycker att Betaflight eller Betaflight configurator är användbar kanske du vill <strong>stödja<\/strong> utvecklingen genom en donation.<\/p>"
+    },
     "defaultDonate": {
         "message": "Donera"
     },
@@ -732,6 +735,10 @@
         "message": "Paralyze-läge har aktiverats",
         "description": "Description of the PARALYZE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipGPS": {
+        "message": "GPS-räddningsläge är konfigurerat, men tillräckligt antal satelliter har inte hittats",
+        "description": "Description of the GPS arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipRESC": {
         "message": "'GPS Rescue'-switchen aktiverades",
         "description": "Description of the RESC arming disable flag"
@@ -953,6 +960,24 @@
     "configurationSensorAlignmentGyro": {
         "message": "GYRO-orientering"
     },
+    "configurationSensorGyroToUse": {
+        "message": "GYRO\/ACCEL"
+    },
+    "configurationSensorGyroToUseFirst": {
+        "message": "Första"
+    },
+    "configurationSensorGyroToUseSecond": {
+        "message": "Andra"
+    },
+    "configurationSensorGyroToUseBoth": {
+        "message": "Båda"
+    },
+    "configurationSensorAlignmentGyro1": {
+        "message": "Första GYRO"
+    },
+    "configurationSensorAlignmentGyro2": {
+        "message": "Andra GYRO"
+    },
     "configurationSensorAlignmentAcc": {
         "message": "ACCEL-orientering"
     },
@@ -1094,6 +1119,9 @@
     "beeperCAM_CONNECTION_CLOSE": {
         "message": "Pip när 5-knappskamerakontrollen lämnas"
     },
+    "beeperRC_SMOOTHING_INIT_FAIL": {
+        "message": "Varningspip när styrkortet är aktiverat och rc-utjämning inte har initierat filter"
+    },
     "configuration3d": {
         "message": "3D ESC\/Motorfunktioner"
     },
@@ -1232,6 +1260,12 @@
     "portsFunction_BLACKBOX": {
         "message": "Blackbox-loggning"
     },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "VTX (TBS SmartAudio)"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "Kamera (RunCam-protokoll)"
+    },
     "pidTuningProfileOption": {
         "message": "Profil $1"
     },
@@ -1275,6 +1309,18 @@
     },
     "pidTuningAntiGravityThres": {
         "message": "Antigravitations-tröskel"
+    },
+    "pidTuningDMinRoll": {
+        "message": "Roll",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinPitch": {
+        "message": "Looping",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinYaw": {
+        "message": "Gir",
+        "description": "Axis to apply D Min feature"
     },
     "pidTuningPidSettings": {
         "message": "PID-kontrollerinställningar"
@@ -2100,6 +2146,12 @@
     },
     "cliClearOutputHistoryBtn": {
         "message": "Rensa utmatningshistoriken"
+    },
+    "cliCopyToClipboardBtn": {
+        "message": "Kopiera till urklipp"
+    },
+    "cliCopySuccessful": {
+        "message": "Kopierat!"
     },
     "loggingNote": {
         "message": "Data kommer <span class=\"message-negative\">endast<\/span> att loggas när denna flik är aktiv; om fliken lämnas kommer loggningen att <span class=\"message-negative\">avbrytas<\/span> och applikationen återgår till sitt normala <strong>\"konfigurations\"<\/strong> -läge.<br \/> Du kan fritt välja global uppdateringsperiod, data kommer att skrivas till loggen <strong>1<\/strong> gång per sekund av prestandaskäl."
@@ -2931,6 +2983,12 @@
     "pidTuningAcroTrainerAngleLimitHelp": {
         "message": "Lägger till ett nytt vinkelbegränsningsläge för piloter som lär sig flyga i acro-läge. Det giltiga intervallet är 10-80, och det måste aktiveras med en switch i fliken $t(tabAuxiliary.message)."
     },
+    "pidTuningIntegratedYaw": {
+        "message": "Integrerad Gir"
+    },
+    "pidTuningIntegratedYawCaution": {
+        "message": "<span class=\"message-negative\">VARNING<\/span>: om du aktiverar denna funktion måste du justera GIR PID på lämpligt sätt. Mer information finns <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">här<\/a>"
+    },
     "configHelp2": {
         "message": "Godtycklig styrkortsrotation i grader, för att möjliggöra montering sidledes \/ upp och ner \/ roterat etc. Vid användning av externa sensorer, använd sensorinriktning (Gyro, Acc, Mag) för att definiera sensorpositionen oberoende från styrkortsrotationen."
     },
@@ -3671,8 +3729,17 @@
     "osdWarningCoreTemperature": {
         "message": "Varnar när MCU-kärntemperaturen överskrider ett konfigurerat tröskelvärde"
     },
+    "osdWarningRcSmoothingFailure": {
+        "message": "Varnar när initiering av rc-utjämning misslyckades"
+    },
     "osdWarningFailsafe": {
         "message": "Varnar när Failsafe inträffar"
+    },
+    "osdWarningGpsRescueUnavailable": {
+        "message": "Varnar när GPS-räddning inte är tillgänglig och inte kan aktiveras"
+    },
+    "osdWarningGpsRescueDisabled": {
+        "message": "Varnar när GPS-räddning är avstängd"
     },
     "osdSectionHelpElements": {
         "message": "Aktivera eller avaktivera OSD-element."
