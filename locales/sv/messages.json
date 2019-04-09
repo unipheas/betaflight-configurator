@@ -963,6 +963,9 @@
     "configurationSensorGyroToUse": {
         "message": "GYRO\/ACCEL"
     },
+    "configurationSensorGyroToUseNotFound": {
+        "message": "Varning: Ingen Gyro\/Acc hittad"
+    },
     "configurationSensorGyroToUseFirst": {
         "message": "Första"
     },
@@ -1498,6 +1501,9 @@
     "pidTuningThrottleLimitTypeTip": {
         "message": "Välj typ av trottelbegränsning. <b>AV<\/b> avaktiverar funktionen, <b>SKALA<\/b> transformerar trottelns räckvidd från 0 till den valda procentnivån med fullt spakutslag, <b>KLIPP<\/b> sätter en maxprocentnivå, och spakutslag över den nivån har ingen ytterligare effekt"
     },
+    "pidTuningThrottleLimitPercentTip": {
+        "message": "Sätt den önskade trottelbegränsningsprocenten. Värdet 100% inaktiverar funktionen."
+    },
     "pidTuningFilter": {
         "message": "Filter"
     },
@@ -1575,6 +1581,9 @@
     },
     "tuningHelp": {
         "message": "<b>Inställningstips<\/b><br \/><span class=\"message-negative\">VIKTIGT:<\/span> Det är viktigt att kontrollera motorernas temperatur under de första flygningarna. Ett högre filtervärde kan ge en bättre flygning, men det kommer också att ge mer brus i motorerna.<br>Standardvärdet 100 Hz är optimalt, men om du drabbas av brus kan du försöka sänka Dterm-filtret till 50 Hz och eventuellt också gyrofiltret."
+    },
+    "filterWarning": {
+        "message": "<span class=\"message-negative\"><b>Varning:<\/b><\/span> Filtervärdet är farligt lågt. Farkosten blir troligen svår att styra, och risken ökar för att den flyger iväg okontrollerat. Det är starkt rekommenderat att du <b>aktiverar åtminstone ett av Gyro dynamiskt lågpass eller Gyro lågpass 1, och åtminstone ett av D Term dynamiskt lågpass eller D Term lågpass 1<\/b>."
     },
     "receiverThrottleMid": {
         "message": "Trottel MITT"
@@ -3609,6 +3618,9 @@
     "osdDescElementEscRpm": {
         "message": "Varvtal enligt ESC-telemetri"
     },
+    "osdDescElementEscRpmFreq": {
+        "message": "RPM-frekvens enligt ESC-telemetri"
+    },
     "osdDescElementRtcDateTime": {
         "message": "Datum \/ tid från realtidsklocka"
     },
@@ -3632,6 +3644,9 @@
     },
     "osdDescElementFlipArrow": {
         "message": "Pil som visar vilken motorsida som pekar uppåt i sköldpaddsläge (turtle mode)"
+    },
+    "osdDescElementLinkQuality": {
+        "message": "Alternativ indikator för 'länkkvalitet' baserat på bildförlust - använd med försiktighet"
     },
     "osdDescElementFlightDist": {
         "message": "Avverkad distans under denna flygning."
@@ -3726,8 +3741,14 @@
     "osdDescStatEscRpm": {
         "message": "Maximalt ESC-varvtal"
     },
+    "osdDescStatMinLinkQuality": {
+        "message": "Minimivärde för den alternativa indikatorn för 'länkkvalitet' baserat på bildförlust"
+    },
     "osdDescStatFlightDistance": {
         "message": "Total färdsträcka under flygningen"
+    },
+    "osdDescStatMaxFFT": {
+        "message": "Toppvärde FFT-frekvens"
     },
     "osdTimerSource": {
         "message": "Källa:"
@@ -3779,6 +3800,9 @@
     },
     "osdWarningFailsafe": {
         "message": "Varnar när Failsafe inträffar"
+    },
+    "osdWarningLaunchControl": {
+        "message": "Varnar när Launch Control-läget aktiveras"
     },
     "osdWarningGpsRescueUnavailable": {
         "message": "Varnar när GPS-räddning inte är tillgänglig och inte kan aktiveras"
