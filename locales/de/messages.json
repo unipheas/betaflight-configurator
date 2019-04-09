@@ -1584,9 +1584,6 @@
     "tuningHelp": {
         "message": "<b>Tuning tips<\/b><br \/><span class=\"message-negative\">Hinweis:<\/span> Es ist wichtig, bei den ersten Flügen, die Motortemperatur im Auge zu behalten. Je höher die Filterwerte, desto besser könnte er fliegen, aber es wird auch mehr Rauschen in die Motoren geben.<br>Die Standarteinstellung 100Hz ist optimal, für problematische Setups könnte man jedoch richtung 50Hz Dterm Filter (und eventuell auch beim Gyro-Filter) gehen."
     },
-    "filterWarning": {
-        "message": ""
-    },
     "receiverThrottleMid": {
         "message": "Gas Mittelwert"
     },
