@@ -3043,9 +3043,6 @@
     "pidTuningAbsoluteControlGain": {
         "message": "절대 제어"
     },
-    "pidTuningAbsoluteControlGainHelp": {
-        "message": "이 기능은 I 텀 회전의 몇가지 근본적인 문제를 해결하고 어느 시점에 이를 대체할 수 있을 것입니다. 이 기능은 쿼드 좌표에 절대 자이로 오류를 누적시키고 설정점에 비례 보정을 혼합합니다. RPY에 Item_relax를 활성화해야 합니다."
-    },
     "pidTuningThrottleBoost": {
         "message": "스로틀 부스트"
     },
