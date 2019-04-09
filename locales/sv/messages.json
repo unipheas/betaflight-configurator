@@ -1522,9 +1522,6 @@
     "tuningHelp": {
         "message": "<b>Inställningstips<\/b><br \/><span class=\"message-negative\">VIKTIGT:<\/span> Det är viktigt att kontrollera motorernas temperatur under de första flygningarna. Ett högre filtervärde kan ge en bättre flygning, men det kommer också att ge mer brus i motorerna.<br>Standardvärdet 100 Hz är optimalt, men om du drabbas av brus kan du försöka sänka Dterm-filtret till 50 Hz och eventuellt också gyrofiltret."
     },
-    "filterWarning": {
-        "message": ""
-    },
     "receiverThrottleMid": {
         "message": "Trottel MITT"
     },
