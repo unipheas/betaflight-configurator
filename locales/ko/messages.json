@@ -1607,6 +1607,9 @@
     "tuningHelp": {
         "message": "<b>튜닝 팁<\/b><br \/><span class=\"message-negative\">중요:<\/span> 첫 비행 중 모터 온도를 확인하는 것이 중요합니다. 필터 값이 높을수록 더 잘 날 수 있지만 모터에 더 많은 노이즈가 들리게 됩니다. <br> 기본값 100Hz가 최적이지만, 노이즈 설정을 위하여 D텀 필터를 50Hz로 낮출 수 있으며, 자이로 필터를 낮추는 것 또한 가능합니다."
     },
+    "filterWarning": {
+        "message": "<span class=\"message-negative\"><b>경고:<\/b><\/span> 당신이 사용하는 필터링 양은 위험할 정도로 낮습니다. 이는 기체를 제어하기 힘들게 하고, 분실을 초래할 수 있습니다. <b>최소한 하나의 자이로 다이나믹 저역통과 또는 자이로 저역통과 1과 최소한 하나의 D 텀 다이나믹 저역통과 또는 D 텀 저역통과 1을 활성화<\/b>할 것을 강력히 권장합니다."
+    },
     "receiverThrottleMid": {
         "message": "스로틀 중간값"
     },
@@ -3042,6 +3045,9 @@
     },
     "pidTuningAbsoluteControlGain": {
         "message": "절대 제어"
+    },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "이 기능은 $t(pidTuningItermRotation.message)의 기본 문제를 해결하고, 희망적으로 어느 시점에서 그것을 대체합니다. 이 기능은 쿼드 좌표에 절대 자이로 오류를 축적하고 설정점에 비례 교정을 혼합합니다. 당신이 그것을 작동하려면 에어모드와 $t(pidTuningItermRelax.message) ($t(pidTuningItermRelaxAxesOptionRP.message)로)을 활셩화해야 합니다. 만약 이 기능을 $t(pidTuningIntegratedYaw.message)와 결합하려면, $t(pidTuningItermRelax.message)을 $t(pidTuningItermRelaxAxesOptionRPY.message)로 설정할 수 있습니다."
     },
     "pidTuningThrottleBoost": {
         "message": "스로틀 부스트"
