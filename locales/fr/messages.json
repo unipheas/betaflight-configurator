@@ -1607,6 +1607,9 @@
     "tuningHelp": {
         "message": "<b>Conseils tuning<\/b><br \/><span class=\"message-negative\">IMPORTANT:<\/span> Il est important de contrôler les températures moteurs au premier vol. Des valeurs de filtre élevées peuvent introduire du bruit et des échauffements moteurs <br>La valeur par défaut de 100 Hz est optimale, mais pour des setups noisy vous pouvez essayer de baisser le filtre Dterm à 50 Hz."
     },
+    "filterWarning": {
+        "message": "<span class=\"message-negative\"><b>Avertissement:<\/b><\/span> Vous ne filtrez pas assez, la valeur est dangereusement basse. L'appareil pourrait devenir difficile à contrôler, et s'en aller seul . Il est vivement suggéré que vous <b>activiez au moins le Filtre Gyro Dynamique Passe-bas ou le filtre Gyro Passe-bas 1 et au moins le Filtre D Term Dynamique Passe-bas ou le filtre D Term Passe-bas 1<\/b>."
+    },
     "receiverThrottleMid": {
         "message": "Throttle MID"
     },
