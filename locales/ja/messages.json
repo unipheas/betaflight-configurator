@@ -1607,9 +1607,6 @@
     "tuningHelp": {
         "message": "<b>チューニングTips<\/b><br \/><span class=\"message-negative\">重要:<\/span> 最初のフライト中はモーターの温度を確認することが重要です。フィルター値が高くなるほど飛行が軽快となりますが、モーターにはより多くのノイズが発生します。<br>デフォルト値である100Hzが最適値となりますが、ノイズ低減設定ではD値フィルターを50Hzに、またはジャイロフィルターの値を下げてみて下さい。"
     },
-    "filterWarning": {
-        "message": ""
-    },
     "receiverThrottleMid": {
         "message": "スロットルMID"
     },
