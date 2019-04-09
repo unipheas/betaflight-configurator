@@ -969,6 +969,18 @@
     "configurationSensorAlignmentGyro": {
         "message": "Gyro Ausrichtung"
     },
+    "configurationSensorGyroToUseFirst": {
+        "message": "Erster"
+    },
+    "configurationSensorGyroToUseSecond": {
+        "message": "Zweiter"
+    },
+    "configurationSensorAlignmentGyro1": {
+        "message": "Erster Gyro"
+    },
+    "configurationSensorAlignmentGyro2": {
+        "message": "Zweiter Gyro"
+    },
     "configurationSensorAlignmentAcc": {
         "message": "ACCEL Ausrichtung"
     },
