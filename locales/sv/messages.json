@@ -1310,6 +1310,10 @@
     "pidTuningAntiGravityThres": {
         "message": "Antigravitations-tröskel"
     },
+    "pidTuningDMin": {
+        "message": "D Min",
+        "description": "Table header of the D Min feature in the PIDs tab"
+    },
     "pidTuningDMinRoll": {
         "message": "Roll",
         "description": "Axis to apply D Min feature"
@@ -1321,6 +1325,10 @@
     "pidTuningDMinYaw": {
         "message": "Gir",
         "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinGain": {
+        "message": "Ökning",
+        "description": "Gain of the D Min feature"
     },
     "pidTuningPidSettings": {
         "message": "PID-kontrollerinställningar"
@@ -2866,6 +2874,15 @@
     "pidTuningGyroLowpassType": {
         "message": "Gyro lågpassfiltertyp 1"
     },
+    "pidTuningGyroLowpassDynMinFrequency": {
+        "message": "Gyro lågpass 1 dynamisk Min cutoff-frekvens [Hz]"
+    },
+    "pidTuningGyroLowpassDynMaxFrequency": {
+        "message": "Gyro lågpass 1 dynamisk Max cutoff-frekvens [Hz]"
+    },
+    "pidTuningGyroLowpassDynType": {
+        "message": "Gyro lågpass 1 dynamisk filtertyp"
+    },
     "pidTuningGyroLowpass2Frequency": {
         "message": "Gyro lågpass 2 cutoff-frekvens [Hz]"
     },
@@ -2904,6 +2921,18 @@
     },
     "pidTuningDTermLowpass2Frequency": {
         "message": "D Term lågpass 2 cutoff-frekvens [Hz]"
+    },
+    "pidTuningDTermLowpass2Type": {
+        "message": "D Term lågpass 2 filtertyp"
+    },
+    "pidTuningDTermLowpassDynMinFrequency": {
+        "message": "D Term lågpass 1 dynamisk Min cutoff-frekvens [Hz]"
+    },
+    "pidTuningDTermLowpassDynMaxFrequency": {
+        "message": "D Term lågpass 1 dynamisk Max cutoff-frekvens [Hz]"
+    },
+    "pidTuningDTermLowpassDynType": {
+        "message": "D Term lågpass 1 dynamisk filtertyp"
     },
     "pidTuningDTermNotchFiltersGroup": {
         "message": "D Term bandspärrfilter"
@@ -3371,6 +3400,10 @@
         "message": "Aktiv OSD-profil",
         "description": "Title of the box to select the current active OSD profile"
     },
+    "osdSetupSelectedProfileLabel": {
+        "message": "Nuvarande:",
+        "description": "Label for the selection of the curren active OSD profile"
+    },
     "osdSetupPreviewSelectProfileElement": {
         "message": "OSD-profil {{profileNumber}}",
         "description": "Content of the selector for the OSD Profile in the preview"
@@ -3504,6 +3537,9 @@
     "osdDescElementCraftName": {
         "message": "Farkostnamnet som det angivits i Konfigurationsfliken"
     },
+    "osdDescElementDisplayName": {
+        "message": "Visningsnamnet som det har satts med cli-kommandot \"display_name\""
+    },
     "osdDescElementAltitude": {
         "message": "Aktuell höjd (blinkar om larmtröskeln överskridits)"
     },
@@ -3600,6 +3636,12 @@
     "osdDescElementFlightDist": {
         "message": "Avverkad distans under denna flygning."
     },
+    "osdDescElementStickOverlayLeft": {
+        "message": "Överlagring för vänster spakposition."
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "Överlagring för höger spakposition."
+    },
     "osdDescElementTimer1": {
         "message": "Visar värdet på timer 1"
     },
@@ -3620,6 +3662,9 @@
     },
     "osdDescGForce": {
         "message": "Visar hur stor G-kraft farkosten utsätts för"
+    },
+    "osdDescElementMotorDiag": {
+        "message": "Visar ett diagram över utmatningen från respektive motor"
     },
     "osdDescElementLogStatus": {
         "message": "Blackbox-nummer och varningar"
