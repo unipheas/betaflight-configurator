@@ -2832,9 +2832,6 @@
     "pidTuningAbsoluteControlGain": {
         "message": "Absolute Control"
     },
-    "pidTuningAbsoluteControlGainHelp": {
-        "message": "Fitur ini mengatasi beberapa masalah Rotasi I Term dan suatu saat akan menggantikannya. Fitur ini menjumlahkan galat absolut sensor gyro pada sumbu orientasi unit dan menerapkan koreksi proporsional terhadap setpoint. Variabel iterm_relax perlu diset enable untuk RPY."
-    },
     "pidTuningThrottleBoost": {
         "message": "Throttle Boost"
     },
