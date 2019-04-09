@@ -2171,6 +2171,9 @@
     "sensorsDebugTitle": {
         "message": "Debug"
     },
+    "cliInfo": {
+        "message": "<strong>Note:<\/strong> Quitter l'onglet CLI ou appuyer sur Déconnecter va <strong>automatiquement<\/strong> envoyer \"<strong>exit<\/strong>\" à la console de commande. Avec le dernier firmware, le contrôleur de vol va <strong>redémarrer<\/strong> et les changements non sauvegardés seront<strong>perdus<\/strong>.<p><strong><span class=\"message-negative\">Avertissement:<\/span><\/strong> Certaines commandes en CLI peuvent produirent des signaux aléatoires envoyés aux sorties moteurs. Ceux-ci, dans certains cas, feront tourner les moteurs si la batterie est connectée. Ainsi, il est fortement recommandé de s'assurer que<strong>la batterie soit déconnectée avant d'entrer des commandes en CLI<\/strong>."
+    },
     "cliInputPlaceholder": {
         "message": "Écrivez votre ligne de commande ici"
     },
