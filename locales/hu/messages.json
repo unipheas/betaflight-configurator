@@ -1046,9 +1046,6 @@
     "pidTuningEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">elmentve<\/span>"
     },
-    "filterWarning": {
-        "message": ""
-    },
     "receiverThrottleMid": {
         "message": "Gázkar MID"
     },
