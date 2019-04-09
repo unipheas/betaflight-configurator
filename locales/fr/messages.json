@@ -3037,9 +3037,6 @@
     "pidTuningAbsoluteControlGain": {
         "message": "Contrôle absolu"
     },
-    "pidTuningAbsoluteControlGainHelp": {
-        "message": "Cette fonctionnalité résout certains problèmes sous-jacents à I Term Rotation et peut remplacer sa valeur à certains moments. Elle observe les erreurs Gyro sur les coordonnées et applique une correction proportionnelle de la valeur de la consigne. Nécessite iterm_relax sur RPY."
-    },
     "pidTuningThrottleBoost": {
         "message": "Throttle Boost"
     },
