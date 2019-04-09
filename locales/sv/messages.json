@@ -498,6 +498,9 @@
     "defaultDonateText": {
         "message": "<p><strong>Betaflight<\/strong> är en flygkontrollerprogramvara som bygger på <strong>öppen källkod<\/strong> och är tillgänglig utan kostnad <strong>utan garanti<\/strong> för alla användare.<\/p><p>Om du tycker att Betaflight eller Betaflight configurator är användbar kanske du vill <strong>stödja<\/strong> utvecklingen genom en donation.<\/p>"
     },
+    "defaultDonateBottom": {
+        "message": "<p>Om du vill fortsätta bidra ekonomiskt bör du överväga att bli en \"patron\" för oss på <a href='https:\/\/www.patreon.com\/betaflight'>Patreon<\/a>.<\/p>"
+    },
     "defaultDonate": {
         "message": "Donera"
     },
@@ -711,6 +714,10 @@
         "message": "Aktiverad för snabbt efter strömpåslag",
         "description": "Description of the BOOT_GRACE_TIME arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipNOPREARM": {
+        "message": "Föraktiveringsswitchen är inte aktiv, eller föraktivering har inte återställts efter avaktivering",
+        "description": "Description of the NOPREARM arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipLOAD": {
         "message": "Belastningen på systemet är för hög för säker flygning",
         "description": "Description of the LOAD arming disable flag"
@@ -730,6 +737,14 @@
     "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
         "message": "OSD-menyn är aktiv",
         "description": "Description of the OSD_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBST": {
+        "message": "En Black Sheep Telemetry-enhet (TBS Core Pro t ex) avaktiverades och förhindrar aktivering",
+        "description": "Description of the BST arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipMSP": {
+        "message": "En MSP-koppling är aktiv, troligen via denna Betaflight-konfigurator",
+        "description": "Description of the MSP arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
         "message": "Paralyze-läge har aktiverats",
@@ -1265,6 +1280,9 @@
     },
     "portsFunction_TBS_SMARTAUDIO": {
         "message": "VTX (TBS SmartAudio)"
+    },
+    "portsFunction_IRC_TRAMP": {
+        "message": "VTX (IRC Tramp)"
     },
     "portsFunction_RUNCAM_DEVICE_CONTROL": {
         "message": "Kamera (RunCam-protokoll)"
@@ -3027,6 +3045,9 @@
     "pidTuningIntegratedYawCaution": {
         "message": "<span class=\"message-negative\">VARNING<\/span>: om du aktiverar denna funktion måste du justera GIR PID på lämpligt sätt. Mer information finns <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">här<\/a>"
     },
+    "pidTuningIntegratedYawHelp": {
+        "message": "Integrerad Gir är en funktion som korrigerar ett fundamentalt problem med quadstyrning: looping- och roll-axlarna styrs av tryckskillnader som genereras av propellrarna, men gir fungerar annorlunda. Integrerad Gir löser detta genom att integrera utdatat från gir-pid och sedan tillämpa det på mixern. Detta normaliserar pid-funktionen. Du kan nu justera den som de andra axlarna. Det kräver absolut kontroll eftersom inget I behövs med Integrerad Gir."
+    },
     "configHelp2": {
         "message": "Godtycklig styrkortsrotation i grader, för att möjliggöra montering sidledes \/ upp och ner \/ roterat etc. Vid användning av externa sensorer, använd sensorinriktning (Gyro, Acc, Mag) för att definiera sensorpositionen oberoende från styrkortsrotationen."
     },
@@ -3871,7 +3892,7 @@
         "message": "Maxfrekvensen för PID-loopen begränsas av den maximala frekvens som vald ESC \/ motorprotokoll kan skicka uppdateringar."
     },
     "configurationGyroUse32kHz": {
-        "message": "Aktivera 32kHz samplingsmode för gyro"
+        "message": "Aktivera 32 kHz samplingsmode för gyro"
     },
     "configurationGyroUse32kHzHelp": {
         "message": "32 kHz gyrouppdateringsfrekvens är endast möjligt om gyro-kretsen stödjer det. (gäller just nu MPU6500, MPU9250 och ICM20xxx om anslutna via SPI). Vid tveksamhet, se specifikationen för ditt styrkort."
