@@ -3043,9 +3043,6 @@
     "pidTuningAbsoluteControlGain": {
         "message": "Absolūtā kontrole"
     },
-    "pidTuningAbsoluteControlGainHelp": {
-        "message": "Šī iespēja atrisina dažas I Term rotācijas pamatproblēmas un cerams arī kādā brīdī aizvietos to. Šī iespēja akumulē absolūto žiroskopa kļūdu iekš multirotorā koordinātām un pievieno proporcionālu korekciju iekš iestatījuma. Tam nepieciešams ieslēgt iterm_relax priekš RPY."
-    },
     "pidTuningThrottleBoost": {
         "message": "Droseles būsts"
     },
