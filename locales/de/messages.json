@@ -975,6 +975,9 @@
     "configurationSensorGyroToUseSecond": {
         "message": "Zweiter"
     },
+    "configurationSensorGyroToUseBoth": {
+        "message": "Beide"
+    },
     "configurationSensorAlignmentGyro1": {
         "message": "Erster Gyro"
     },
