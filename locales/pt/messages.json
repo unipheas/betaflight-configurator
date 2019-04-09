@@ -3037,9 +3037,6 @@
     "pidTuningAbsoluteControlGain": {
         "message": "Controle Absoluto"
     },
-    "pidTuningAbsoluteControlGainHelp": {
-        "message": "Esta função resolve alguns dos problemas da \"Rotação do termo I\" e provavelmente a substituirá no futuro. A função acumula o erro absoluto do gyro em coordenadas da aeronave e adiciona uma correção proporcional no setpoint. É necessário que a função \"Relaxar o Termo I\" esteja ativo para todos os eixos (RPY)."
-    },
     "pidTuningThrottleBoost": {
         "message": "Ganho no acelerador"
     },
