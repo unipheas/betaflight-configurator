@@ -3019,9 +3019,6 @@
     "pidTuningAbsoluteControlGain": {
         "message": "绝对控制"
     },
-    "pidTuningAbsoluteControlGainHelp": {
-        "message": "此功能解决了 I 值旋转的一些底层问题，并希望最终可以替代它。该功能以四轴的坐标系统来累积陀螺仪的绝对误差，并按比例混合修正值到设定点中。它需要在RPY轴向上启用 I 值释放功能。"
-    },
     "pidTuningThrottleBoost": {
         "message": "油门增压"
     },
