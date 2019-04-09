@@ -3043,9 +3043,6 @@
     "pidTuningAbsoluteControlGain": {
         "message": "アブソリュート コントロール"
     },
-    "pidTuningAbsoluteControlGainHelp": {
-        "message": "この機能は、I値ローテーションのいくつかの根本的な問題を解決しますが、ある時点でそれを置き換えることが望ましいでしょう。この機能は、絶対的なジャイロエラーを座標に積算し、比例補正をセットポイントに混合します。RPYのiterm_relaxを有効にする必要があります。"
-    },
     "pidTuningThrottleBoost": {
         "message": "スロットルブースト"
     },
