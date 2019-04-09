@@ -740,9 +740,6 @@
     "tuningHelp": {
         "message": "<b>Ayarlama ipuçları<\/b><br \/><span class=\"message-negative\">ÖNEMLİ:<\/span> İlk uçuşlarda motor sıcaklıklarını doğrulamak önemlidir. Filtre değeri yükseldikçe uçabilir, fakat motorlardan daha fazla ses alınır.<br>. Varsayılan 100Hz değeri en iyisidir, ama gürültü ayarlayıcıları için Dterm filtresini ve ek olarak muhtemelen cyro filtresini 50 Hz'e indirmeyi deneyebilirsiniz."
     },
-    "filterWarning": {
-        "message": ""
-    },
     "receiverThrottleMid": {
         "message": "MID i kıs"
     },
