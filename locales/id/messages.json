@@ -1453,9 +1453,6 @@
     "tuningHelp": {
         "message": "<b>Tips Tuning<\/b><br \/><span class=\"message-negative\">PENTING:<\/span>Penting untuk memverifikasi suhu motor saat penerbangan pertama. Semakin tinggi nilai filter semakin baik, tapi Anda juga akan memberikan lebih banyak noise ke motor. <br>Nilai default 100Hz optimal, tetapi untuk setup yg memiliki noise lebih, Anda bisa mencoba menurunkan filter term D menjadi 50Hz dan mungkin juga filter gyro."
     },
-    "filterWarning": {
-        "message": ""
-    },
     "receiverThrottleMid": {
         "message": "Throttle MID"
     },
