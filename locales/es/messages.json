@@ -3046,9 +3046,6 @@
     "pidTuningAbsoluteControlGain": {
         "message": "Control Absoluto"
     },
-    "pidTuningAbsoluteControlGainHelp": {
-        "message": "Esta funcionalidad soluciona algunos problemas de la Rotación Término I y debería reemplazarla totalmente en algún momento. La funcionalidad acumula el error absoluto del giro en coordenadas de la aeronave y mezcla una corrección proporcional en el valor objetivo. Necesita que Relajar Término I esté activado para RPY."
-    },
     "pidTuningThrottleBoost": {
         "message": "Potenciar Acelerador"
     },
