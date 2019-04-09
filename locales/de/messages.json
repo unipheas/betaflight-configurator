@@ -3017,9 +3017,6 @@
     "pidTuningAbsoluteControlGain": {
         "message": "Absolute Kontrolle"
     },
-    "pidTuningAbsoluteControlGainHelp": {
-        "message": "Diese Funktion löst einige Probleme der I-Term Rotation und wird diese hoffentlich bald ersetzen. Die Funktion fasst den absoluten Gyro-Fehler im Kopter zusammen und mischt eine proportionale Korrektur in den Sollwert. Es muss dafür iterm_relax für RPY aktiviert sein."
-    },
     "pidTuningThrottleBoost": {
         "message": "Beschleunigungsschub"
     },
