@@ -1358,6 +1358,10 @@
         "message": "Ökning",
         "description": "Gain of the D Min feature"
     },
+    "pidTuningDMinAdvance": {
+        "message": "Advance",
+        "description": "Advane of the D Min feature"
+    },
     "pidTuningPidSettings": {
         "message": "PID-kontrollerinställningar"
     },
@@ -1693,6 +1697,9 @@
     },
     "receiverMspEnableButton": {
         "message": "Aktivera kontroller"
+    },
+    "auxiliaryHelp": {
+        "message": "Konfigurera lägen här med en kombination av räckvidder och\/eller länkar till andra lägen (länkar stöds på BF 4.0 och senare). Använd <strong>räckvidder<\/strong> för att definiera styrspakarna på din radiosändare och de motsvarande lägesbindningarna. En mottagarkanal som ger ett utslag mellan min och max för en räckvidd kommer att aktivera läget. Använd en <strong>länk<\/strong> för att aktivera ett läge när ett annat läge är aktivt. <strong>Undantag:<\/strong> ARM kan inte länkas till eller från ett annat läge, lägen kan inte länkas till andra lägen som är konfigurerade med en länk (kedjade länkar). Multipla räckvidder\/länkar kan användas för att aktivera valfria lägen. Om det finns mer än en räckvidd\/länk definierad för ett läge, kan var och en av dem sättas till <strong>AND<\/strong> eller <strong>OR<\/strong>. Ett läge aktiveras när:<br \/>- ALLA <strong>AND<\/strong>-räckvidder\/länkar är aktiva; ELLER<br \/>- åtminstone en <strong>OR<\/strong>räckvidd\/länk är aktiv.<br \/><br \/>Kom ihåg att spara dina inställningar med Spara-knappen."
     },
     "auxiliaryToggleUnused": {
         "message": "Dölj oanvända lägen"
