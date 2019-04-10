@@ -971,6 +971,27 @@
     "configurationSensorAlignmentGyro": {
         "message": "陀螺仪方向"
     },
+    "configurationSensorGyroToUse": {
+        "message": "陀螺仪\/加速度计"
+    },
+    "configurationSensorGyroToUseNotFound": {
+        "message": "警告：未找到陀螺仪\/加速度计"
+    },
+    "configurationSensorGyroToUseFirst": {
+        "message": "第一个"
+    },
+    "configurationSensorGyroToUseSecond": {
+        "message": "第二个"
+    },
+    "configurationSensorGyroToUseBoth": {
+        "message": "同时启用"
+    },
+    "configurationSensorAlignmentGyro1": {
+        "message": "第一个陀螺仪"
+    },
+    "configurationSensorAlignmentGyro2": {
+        "message": "第二个陀螺仪"
+    },
     "configurationSensorAlignmentAcc": {
         "message": "加速度计方向"
     },
@@ -1586,6 +1607,9 @@
     "tuningHelp": {
         "message": "<b> 调校技巧<\/b><br \/><span class=\"message-negative\">重要：<\/span>调校后的初次飞行需注意电机温度。滤波值越高，飞行效果可能越好，但也会导致更多的信号“噪音”进入电机。<br>100Hz 是默认较佳的数值，但对震动较严重的情况，你可以尝试把 Dterm 和 Gyro 滤波器降低到50Hz。"
     },
+    "filterWarning": {
+        "message": "<span class=\"message-negative\"><b>警告：<\/b><\/span>你使用的滤波器数量非常少。这可能会导致飞机难以控制，并可能导致起飞暴走。强烈建议您<b>至少启用一个陀螺仪动态低通滤波器或者陀螺仪低通滤波器1和一个Dterm动态低通滤波器或Dterm低通滤波器1<\/b>"
+    },
     "receiverThrottleMid": {
         "message": "油门中点"
     },
@@ -2152,6 +2176,9 @@
     },
     "sensorsDebugTitle": {
         "message": "调试"
+    },
+    "cliInfo": {
+        "message": "<strong>注意：<\/strong>退出CLI菜单或者点击断开连接将自动向飞控<strong><\/strong>发送“<strong>退出<\/strong>”指令。在最新的固件中这将使飞控<strong>重启<\/strong>并且未保存的设置将会<strong>丢失<\/strong>。<p><strong><span class=\"message-negative\">警告：<\/span><\/strong>CLI中的某些命令可能导致电机输出引脚发出随机指令。如果连接电池，这有可能导致电机旋转。因此，强烈建议<strong>在CLI中输入命令之前确保未连接电池<\/strong>。"
     },
     "cliInputPlaceholder": {
         "message": "在这里输入命令"
@@ -3018,6 +3045,9 @@
     },
     "pidTuningAbsoluteControlGain": {
         "message": "绝对控制"
+    },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "此功能解决了$t(pidTuningItermRotation.message)存在的一些潜在问题，并从某种角度上来说取代了它。此功能累积陀螺仪在四轴飞行器坐标系每个轴上的绝对误差，并按比例将其校正值混合到设定值中。要使它工作，您需要启用$t(pidTuningItermRelax.message)(轴设置为$t(pidTuningItermRelaxAxesOptionRP.message))。如果此功能与$t(pidTuningIntegratedYaw.message)一起使用，则可以将$t(pidTuningItermRelax.message)的轴设置为$t(pidTuningItermRelaxAxesOptionRPY.message)。"
     },
     "pidTuningThrottleBoost": {
         "message": "油门增压"
