@@ -1167,6 +1167,9 @@
     "configurationLoopTimeHelp": {
         "message": "<strong>Observera:<\/strong> Säkerställ att din flygkontroller klarar dessa hastigheter! Kontrollera CPU och cykeltidsstabiliteten. Ändringar här kan kräva ändringar av PID-inställningar. TIPS: Avaktivera accelerometer och andra sensorer för att få bättre prestanda."
     },
+    "configurationLoopTimeNo32KhzHelp": {
+        "message": "$t(configurationLoopTimeHelp.message)<br><strong>Notering om 32 kHz samplingsmode för gyro:<\/strong> Stöd för 32kHz samplingsmode för gyro lades till i Betaflight som en experimentell funktion. Under de år den funnits tillgänglig har den aldrig visat sig ha några fördelar gentemot 8 kHz samplingsmode för gyro, på grund av känsligheten för vibrationer och den höga brusnivån som kräver aggressiv filtrering, som i sin tur leder till fördröjningar i styrloopen. Av detta skäl har <strong>stödet för 32kHz samplingsmode för gyro tagits bort<\/strong> i Betaflight 4.0."
+    },
     "configurationGPS": {
         "message": "GPS"
     },
@@ -2167,6 +2170,9 @@
     "sensorsDebugTitle": {
         "message": "Felsök"
     },
+    "cliInfo": {
+        "message": "<strong>Notering:<\/strong> Om fliken CLI lämnas eller vid val av Koppla från kommer \"<strong>exit<\/strong>\" att sändas <strong>automatiskt<\/strong> till styrkortet. Med den senaste firmwaren kommer detta att <strong>starta om<\/strong> kontrollern, och osparade ändringar kommer att <strong>förloras<\/strong>.<p><strong><span class=\"message-negative\">Varning:<\/span><\/strong> Vissa CLI-kommandon kan leda till att slumpmässiga signaler skickas ut till motorerna. Detta kan få motorerna att sätta igång om ett batteri är inkopplat. Därför är det rekommenderat att säkerställa att <strong>inget batteri är anslutet innan CLI-kommandon anges<\/strong>."
+    },
     "cliInputPlaceholder": {
         "message": "Skriv ditt kommando här"
     },
@@ -2277,6 +2283,9 @@
     },
     "dataflashButtonSaveFileDeprecated": {
         "message": "Spara flashminne till fil (utfasad)"
+    },
+    "dataflashSaveFileDepreciationHint": {
+        "message": "Att spara blackbox-loggar via konfiguratorn är en långsam och relativt felkänslig process. Rekommendationen är att istället använda '<b>$t(onboardLoggingRebootMscText.message)<\/b>' (nedan) för att aktivera masslagringsläge, och koppla dig mot flygkontrollern som en lagringsenhet för att ladda ner loggfilerna."
     },
     "dataflashButtonErase": {
         "message": "Radera flashminne"
@@ -2934,6 +2943,9 @@
     "pidTuningNotchFilterHelp": {
         "message": "Bandspärrfiltret har ett centrum och en cutoff. Filtret är symmetriskt. Centrumfrekvensen är filtrets centrum och cutoff-frekvensen är där bandspärrfiltret börjar. Exempelvis så kommer en cutoff på 160 och centrum på 260 att ge ett omfång på 160-360Hz med mest försvagning kring centrum"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "Lågpassfiltren finns i två varianter: statiska och dynamiska. För ett förutbestämt lågpassfilternummer kan bara ett (statiskt eller dynamiskt) vara aktivt samtidigt. Det statiska filtret har ett Cutoff-värde som på något sätt definierar var filtret startar. Det dynamiska filtret sätter ett min- och ett maxvärde, som är Cutoff-omfånget. Denna Cutoff förflyttas från min till max samtidigt som styrspaken flyttas."
+    },
     "pidTuningFilterSettings": {
         "message": "Profilberoende filterinställningar"
     },
@@ -3026,6 +3038,9 @@
     },
     "pidTuningAbsoluteControlGain": {
         "message": "Absolut kontroll"
+    },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "Denna funktion löser några underliggande problem med $t(pidTuningItermRotation.message) och kommer förhoppningsvis att ersätta den helt så småningom. Funktionen ackumulerar det absoluta gyro-felet i quad-koordinater och mixar in ett proportionellt korrigeringsvärde i setpointen. För att det ska fungera måste du aktivera AirMode och $t(pidTuningItermRelax.message) (for $t(pidTuningItermRelaxAxesOptionRP.message)). Om du kombinerar denna funktion med $t(pidTuningIntegratedYaw.message), kan du sätta $t(pidTuningItermRelax.message) till aktiverad för $t(pidTuningItermRelaxAxesOptionRPY.message)."
     },
     "pidTuningThrottleBoost": {
         "message": "Trottelförstärkning"
