@@ -1335,7 +1335,7 @@
         "message": "Antigravitations-tröskel"
     },
     "pidTuningDMinHelp": {
-        "message": "D Min ger möjlighet att ha en lägre nivå av D under normal flygning och en högre nivå för snabba manövrer där man riskerar att ta i för mycket, som flippar och rollar. Den ökar också D vid propellerströmmar. Farkosten kommer att ha en dynamisk D Term som varierar mellan D Min (vid normal flygning) och standard-D (vid snabba rollar och flippar). Värdet noll stänger av funktionen. Ökningen bestämmer hur mycket D förstärks under snabba styrspaksrörelser. [The Advance speeds up of onset of the boost effect.] Detta kan vara bra om du får för höga utslag vid snabba flippar på extra responsiva quadar.",
+        "message": "D Min ger möjlighet att ha en lägre nivå av D under normal flygning och en högre nivå för snabba manövrer där man riskerar att ta i för mycket, som flippar och rollar. Den ökar också D vid propellerströmmar. Farkosten kommer att ha en dynamisk D Term som varierar mellan D Min (vid normal flygning) och standard-D (vid snabba rollar och flippar). Värdet noll stänger av funktionen. Ökningen bestämmer hur mycket D förstärks under snabba styrspaksrörelser. Advance får förstärkningseffekten att börja tidigare. Detta kan vara bra om du får för höga utslag vid snabba flippar på extra responsiva quadar.",
         "description": "Help message for D Min feature"
     },
     "pidTuningDMin": {
