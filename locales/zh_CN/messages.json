@@ -975,7 +975,7 @@
         "message": "陀螺仪\/加速度计"
     },
     "configurationSensorGyroToUseNotFound": {
-        "message": "警告：未找到陀螺仪\/加速度计"
+        "message": "警告：未检测到陀螺仪\/加速度计"
     },
     "configurationSensorGyroToUseFirst": {
         "message": "第一个"
