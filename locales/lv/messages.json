@@ -1607,6 +1607,9 @@
     "tuningHelp": {
         "message": "<b>Ieregulēšanas ieteikumi <\/b><br \/><span class=\"message-negative\">SVARĪGI:<\/span> Ir svarīgi pārbaudīt motoru temperatūras pirmā lidojuma laikā. Jo lielākas filtru vērtības, jo labāk iespējams tas lidos, bet jūs iegūsiet lielāku trokšņu līmeni motoros. <br>Noklusētā vērtība 100Hz ir optimāla, bet pie trokšņainākām konstrukcijām, jūs varat mēģināt samazināt Dterm filtru uz 50Hz un iespējams arī žiroskopa filtru."
     },
+    "filterWarning": {
+        "message": "<span class=\"message-negative\"><b>Brīdinājums:<\/b><\/span>Šāds filtrācijas daudzums ir bīstami mazs. Visdrīzāk gaisa kuģis būs grūti kontrolējams, un var izraisīt tā pazušanu. \n Ļoti tev iesakām <b>ieslēgt vismaz vienu Žiroskopa dinamisko zemfrekvenču vai Žiroskopa zemfrekvenču 1 un vismaz vienu D Term dinamisko zemfrekvenču vai D Term zemfrekvenču 1<\/b>."
+    },
     "receiverThrottleMid": {
         "message": "Droseles vidus"
     },
@@ -3042,6 +3045,9 @@
     },
     "pidTuningAbsoluteControlGain": {
         "message": "Absolūtā kontrole"
+    },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "Šī funkcionalitāte atrisina dažas $t(pidTuningItermRotation.message) pamatproblēmas un cerams kādreiz aizvietos to pilnībā. Šī funkcionalitāte akumulē absolūto žiroskopa kļūdu iekš multirotorā koordinātām un jauc kopā ar proporcionālo korekciju iekš iestatījuma. Lai tas strādātu jums jāieslēdz AirMode un $t(pidTuningItermRelax.message) (priekš $t(pidTuningItermRelaxAxesOptionRP.message)). Ja jūs kombinējat šo funkcionalitāti ar $t(pidTuningIntegratedYaw.message), jūs varat ieslēgt $t(pidTuningItermRelax.message) priekš $t(pidTuningItermRelaxAxesOptionRPY.message)."
     },
     "pidTuningThrottleBoost": {
         "message": "Droseles būsts"
