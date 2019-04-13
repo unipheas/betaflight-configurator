@@ -1876,7 +1876,7 @@
         "message": "LED-Profilauswahl"
     },
     "adjustmentsSave": {
-        "message": "Speichtern"
+        "message": "Speichern"
     },
     "adjustmentsEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">gespeichert<\/span>"
