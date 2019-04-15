@@ -699,6 +699,10 @@
         "message": "Kanał przepustnicy ma zbyt wysoką wartość",
         "description": "Description of the THROTTLE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipANGLE": {
+        "message": "Dron nie jest (wystarczająco) wypoziomowany",
+        "description": "Description of the ANGLE arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipLOAD": {
         "message": "Obciążenie systemu jest zbyt wysokie, aby zapewnić bezpieczny lot",
         "description": "Description of the LOAD arming disable flag"
@@ -1022,6 +1026,9 @@
     "configurationThrottleMinimumHelp": {
         "message": "Jest to wartość 'bezczynności', która jest wysyłana do ESC, gdy dron jest uzbrojony i drążek przepustnicy jest w najniższym położeniu. Zwiększ wartość aby uzyskać większą prędkość obrotową. Zwiększ wartość w przypadku desynchronizacji!"
     },
+    "configurationBeeper": {
+        "message": "Ustawienia buzzer'a"
+    },
     "beeperGYRO_CALIBRATED": {
         "message": "Zapikaj po skalibrowaniu żyroskopu"
     },
@@ -1036,6 +1043,36 @@
     },
     "beeperARMING": {
         "message": "Zapikaj przy uzbrajaniu kontrolera lotu"
+    },
+    "beeperARMING_GPS_FIX": {
+        "message": "Emituje specjalny dźwięk gdy FC jest uzbrajany i ma GPS fix'a"
+    },
+    "beeperBAT_CRIT_LOW": {
+        "message": "Dłuższe piknięcia gdy poziom baterii jest krytycznie niski (powtarzane)"
+    },
+    "beeperBAT_LOW": {
+        "message": "Ostrzegawcze piknięcia gdy poziom naładowania baterii spada (powtarzane)"
+    },
+    "beeperACC_CALIBRATION": {
+        "message": "Potwierdzenie zakończenia kalibracji akcelerometru podczas lotu"
+    },
+    "beeperACC_CALIBRATION_FAIL": {
+        "message": "Kalibracja akcelerometru podczas lotu nie powiodła się"
+    },
+    "configuration3d": {
+        "message": "Ustawienia ESC\/Silników do lotów 3D"
+    },
+    "configurationSystem": {
+        "message": "Konfiguracja systemu"
+    },
+    "configurationCalculatedCyclesSec": {
+        "message": "Cykle\/Sekundy [Hz]"
+    },
+    "configurationGPS": {
+        "message": "GPS"
+    },
+    "configurationGPSProtocol": {
+        "message": "Protokół"
     },
     "configurationSerialRX": {
         "message": "Rodzaj sygnału odbiornika"
@@ -1066,5 +1103,89 @@
     },
     "portsPeripherals": {
         "message": "Peryferia"
+    },
+    "portsButtonSave": {
+        "message": "Zapisz i zrestartuj"
+    },
+    "portsTelemetryDisabled": {
+        "message": "Wyłączony"
+    },
+    "portsFunction_MSP": {
+        "message": "MSP"
+    },
+    "portsFunction_GPS": {
+        "message": "GPS"
+    },
+    "portsFunction_TELEMETRY_FRSKY": {
+        "message": "FrSky"
+    },
+    "portsFunction_TELEMETRY_HOTT": {
+        "message": "HoTT"
+    },
+    "portsFunction_TELEMETRY_LTM": {
+        "message": "LTM"
+    },
+    "portsFunction_TELEMETRY_MAVLINK": {
+        "message": "MAVLink"
+    },
+    "portsFunction_TELEMETRY_MSP": {
+        "message": "MSP"
+    },
+    "portsFunction_TELEMETRY_SMARTPORT": {
+        "message": "SmartPort"
+    },
+    "portsFunction_TELEMETRY_IBUS": {
+        "message": "iBUS"
+    },
+    "portsFunction_TELEMETRY_JETIXBUS": {
+        "message": "JETIXBUS"
+    },
+    "portsFunction_TELEMETRY_CRSF": {
+        "message": "CRSF"
+    },
+    "portsFunction_TELEMETRY_SRXL": {
+        "message": "SRXL"
+    },
+    "portsFunction_ESC_SENSOR": {
+        "message": "ESC"
+    },
+    "portsFunction_RX_SERIAL": {
+        "message": "Serial RX"
+    },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "VTX (TBS SmartAudio)"
+    },
+    "portsFunction_IRC_TRAMP": {
+        "message": "VTX (IRC Tramp)"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "Kamera (RunCam Protocol)"
+    },
+    "pidTuningProfileOption": {
+        "message": "Profil $1"
+    },
+    "portsFunction_LIDAR_TF": {
+        "message": "Benewake LIDAR"
+    },
+    "pidTuningSubTabPid": {
+        "message": "Ustawienia PID"
+    },
+    "pidTuningSubTabFilter": {
+        "message": "Ustawienia filtrów"
+    },
+    "pidTuningShowAllPids": {
+        "message": "Pokaż wszystkie PID'y"
+    },
+    "pidTuningHideUnusedPids": {
+        "message": "Ukryj nieużywane PID'y"
+    },
+    "receiverButtonRefresh": {
+        "message": "Odśwież"
+    },
+    "receiverModelPreview": {
+        "message": "Podgląd"
+    },
+    "flashTab": {
+        "message": "Aktualizuj oprogramowanie"
     }
 }
