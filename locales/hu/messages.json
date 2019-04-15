@@ -1361,9 +1361,6 @@
     "sensorsDebugTitle": {
         "message": "Debug"
     },
-    "cliInputPlaceholder": {
-        "message": "Írja ide a parancsot"
-    },
     "cliEnter": {
         "message": "CLI mód felismerve"
     },
