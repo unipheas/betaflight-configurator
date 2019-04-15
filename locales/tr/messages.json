@@ -1184,9 +1184,6 @@
     "sensorsDebugTitle": {
         "message": "Hata ayıklama"
     },
-    "cliInputPlaceholder": {
-        "message": "Komutunu buraya yaz"
-    },
     "cliEnter": {
         "message": "CLI modu algılandı"
     },
