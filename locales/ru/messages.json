@@ -2157,9 +2157,6 @@
     "sensorsDebugTitle": {
         "message": "Отладка"
     },
-    "cliInputPlaceholder": {
-        "message": "Пишите ваши команды здесь"
-    },
     "cliEnter": {
         "message": "Обнаружен переход в режим командной строки"
     },
