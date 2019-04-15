@@ -461,8 +461,17 @@
     "defaultWelcomeHead": {
         "message": "Sprzęt"
     },
+    "defaultWelcomeText": {
+        "message": "Aplikacja wspiera wszystkie kontrolery lotu które mogą współpracować z Betaflight. Sprawdź kartę \"Wgrywanie oprogramowania\" aby zobaczyć listę wszystkich kompatybilnych urządzeń.<br><br><a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Pobierz Betaflight Blackbox<\/a><br \/><br \/>Kody źródłowe oprogramowania dostępne do pobrania <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">tutaj<\/a>.<br \/>Najnowsze oprogramowanie FC znajdziesz <a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">tutaj<\/a><br \/><br \/>Najnowsze <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">sterowniki CP210x<\/a> można pobrać <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">tutaj<\/a>.<br \/>Najnowsze <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">sterowniki STM USB VCP<\/a> można pobrać <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">tutaj<\/a>.<br \/>Najnowszy program <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> do instalacji sterowników USB w Windows można pobrać <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">tutaj<\/a>.<br \/>"
+    },
     "defaultContributingHead": {
         "message": "Współtworzenie"
+    },
+    "defaultContributingText": {
+        "message": "Jeżeli chcesz pomóc w rozwoju Betaflight, możesz to zrobić na wiele sposobów, np.:<br \/><ul><li>Odpowiadając na pytania innych użytkowników na forach i IRC,<\/li><li>Współtworząc kod oprogramowania FC i konfiguratora - nowe funkcjonalności, poprawki, ulepszenia,<\/li><li>Testując <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">nowe funkcjonalności\/poprawki<\/a>.<\/li><li>Pomagając w <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">problemach (GitHub Issues) i komentując zgłaszane funkcjonalności (feature requests)<\/a>.<\/li><li>Współpracując w <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">tłumaczeniu konfiguratora<\/a> na Twój język.<\/li><li><\/li><\/ul>"
+    },
+    "defaultFacebookText": {
+        "message": "Mamy również <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">Grupa Facebook<\/a>.<br \/>Dołącz do nas aby porozmawiać o Betaflight, spytać o konfiguracje lub po prostu spędzić czas z innymi pilotami."
     },
     "defaultChangelogAction": {
         "message": "Wykaz zmian"
@@ -470,11 +479,20 @@
     "defaultChangelogHead": {
         "message": "Wykaz zmian w konfiguratorze"
     },
+    "defaultPrivacyPolicyAction": {
+        "message": "Polityka Prywatności"
+    },
     "defaultButtonFirmwareFlasher": {
         "message": "Wgrywanie oprogramowania"
     },
     "defaultDonateHead": {
         "message": "Open Source \/ Informacja o darowiznach"
+    },
+    "defaultDonateText": {
+        "message": "<p><strong>Betaflight<\/strong> to oprogramowanie kontrolera lotu które jest <strong>open source<\/strong> i jest dostępne bez opłat, <strong>bez gwarancji<\/strong> dla wszystkich użytkowników.<\/p><p>Jeśli uważasz Betaflight lub Konfigurator Betaflight za przydatne, proszę rozważ <strong>wsparcie<\/strong> ich rozwoju przez darowiznę.<\/p>"
+    },
+    "defaultDonateBottom": {
+        "message": "<p>Jeśli chcesz wnosić wkład finansowy na bieżąco, powinieneś rozważyć możliwość zostania naszym patronem <a href='https:\/\/www.patreon.com\/betaflight'>Patreon<\/a>.<\/p>"
     },
     "defaultDonate": {
         "message": "Dotacja"
@@ -518,6 +536,9 @@
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
+    "defaultSupport5": {
+        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Developerzy Betaflight na slack'u<\/a>"
+    },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span class=\"message-negative\">Zapis i odtwarzanie konfiguracji jest wyłączone.<\/span> Posiadasz oprogramowanie FC z API w wersji <span class=\"message-negative\">$1<\/span>. Zapis i odtwarzanie konfiguracji wymaga wersji<span class=\"message-positive\">$2<\/span>. Prosimy, zapisz swoją konfigurację za pomocą CLI. Opis procedury znajdziesz w dokumentacji Betaflight."
     },
@@ -547,6 +568,9 @@
     },
     "initialSetupButtonRestore": {
         "message": "Przywróć kopię zapasową."
+    },
+    "initialSetupButtonRebootBootloader": {
+        "message": "Aktywacja Boot Loader'a \/ DFU"
     },
     "initialSetupBackupSuccess": {
         "message": "Kopia zapasowa została <span class=\"message-positive\">zapisana<\/span>."
