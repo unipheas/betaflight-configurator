@@ -711,9 +711,37 @@
         "message": "CLI jest aktywne",
         "description": "Description of the CLI arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
+        "message": "CMS (menu konfiguracji) jest aktywne - na OSD lub innym wyświetlaczu -",
+        "description": "Description of the CMS_MENU arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
         "message": "Menu OSD jest aktywne",
         "description": "Description of the OSD_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBST": {
+        "message": "Urządzenie Black Sheep Telemetry (np. TBS Core Pro) jest rozbrojone i uniemożliwia uzbrojenie",
+        "description": "Description of the BST arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipMSP": {
+        "message": "Połączenie MSP jest aktywne, prawdopodobnie z tym konfiguratorem Betafligh",
+        "description": "Description of the MSP arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipPARALYZE": {
+        "message": "Tryb Paraliż został aktywowany",
+        "description": "Description of the PARALYZE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipGPS": {
+        "message": "Tryb ratunkowy GPS jest skonfigurowany, ale wymagana liczba satelitów nie została połączona",
+        "description": "Description of the GPS arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRESC": {
+        "message": "Włączono przełącznik „GPS Rescue”",
+        "description": "Description of the RESC arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
+        "message": "Jedna z pozostałych flag rozbrojenia jest aktywna podczas uzbrajania",
+        "description": "Description of the ARM_SWITCH arming disable flag"
     },
     "initialSetupGPSHead": {
         "message": "GPS"
@@ -918,6 +946,9 @@
     },
     "configurationSensorAlignmentGyro": {
         "message": "Ułożenie żyroskopu"
+    },
+    "configurationSensorGyroToUse": {
+        "message": "GYRO\/ACCEL"
     },
     "configurationSensorAlignmentAcc": {
         "message": "Ułożenie akcelerometru"
