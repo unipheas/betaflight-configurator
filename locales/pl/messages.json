@@ -695,6 +695,10 @@
         "message": "Zabezpieczenie przed ucieczką podczas startu zostało wyzwolone",
         "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
+        "message": "Kanał przepustnicy ma zbyt wysoką wartość",
+        "description": "Description of the THROTTLE arming disable flag"
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
