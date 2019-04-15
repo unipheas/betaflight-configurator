@@ -2180,9 +2180,6 @@
     "cliInfo": {
         "message": "<strong>Nota:<\/strong> Sair da aba de Linha de Comandos (CLI) ou pressionar Desconectar irá <strong>automaticamente<\/strong> enviar o comando \"<strong>exit<\/strong>\" para a placa. No firmware mais recente, isto fará com que o controlador de voo <strong>reinicie<\/strong> e qualquer alteração que não foi salva será <strong>perdida<\/strong>. <p><strong><span class=\"message-negative\">Atenção:<\/span><\/strong> Alguns comandos podem enviar sinais arbitrários para os pinos de saída dos motores. Isto pode fazer com que os motores girem se uma bateria estiver conectada. Portanto, é altamente recomendado verificar que <strong>nenhuma bateria está conectada antes de enviar comandos na CLI<\/strong>."
     },
-    "cliInputPlaceholder": {
-        "message": "Escreva o seu comando aqui"
-    },
     "cliEnter": {
         "message": "Modo Linha de comandos (CLI) detectado"
     },
