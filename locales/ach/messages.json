@@ -2233,7 +2233,10 @@
         "message": "crwdns9090:0crwdne9090:0"
     },
     "cliInputPlaceholder": {
-        "message": "crwdns5905:0crwdne5905:0"
+        "message": "crwdns9096:0crwdne9096:0"
+    },
+    "cliInputPlaceholderBuilding": {
+        "message": "crwdns9098:0crwdne9098:0"
     },
     "cliEnter": {
         "message": "crwdns5906:0crwdne5906:0"
@@ -4126,5 +4129,8 @@
     },
     "flashTab": {
         "message": "crwdns8865:0crwdne8865:0"
+    },
+    "cliAutoComplete": {
+        "message": "crwdns9100:0crwdne9100:0"
     }
 }
