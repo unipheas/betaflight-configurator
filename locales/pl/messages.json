@@ -1022,6 +1022,21 @@
     "configurationThrottleMinimumHelp": {
         "message": "Jest to wartość 'bezczynności', która jest wysyłana do ESC, gdy dron jest uzbrojony i drążek przepustnicy jest w najniższym położeniu. Zwiększ wartość aby uzyskać większą prędkość obrotową. Zwiększ wartość w przypadku desynchronizacji!"
     },
+    "beeperGYRO_CALIBRATED": {
+        "message": "Zapikaj po skalibrowaniu żyroskopu"
+    },
+    "beeperRX_LOST": {
+        "message": "Zapikaj gdy nadajnik RC jest wyłączony lub nie ma zasięgu (powtarzaj dopóki nadajnik nie jest ok)"
+    },
+    "beeperRX_LOST_LANDING": {
+        "message": "Emituje sygnał SOS gdy jest uzbrojony a nadajnik RC jest wyłączony lub nie ma zasięgu (automatyczne lądowanie\/rozbrajanie)"
+    },
+    "beeperDISARMING": {
+        "message": "Zapikaj przy rozbrajaniu kontrolera lotu"
+    },
+    "beeperARMING": {
+        "message": "Zapikaj przy uzbrajaniu kontrolera lotu"
+    },
     "configurationSerialRX": {
         "message": "Rodzaj sygnału odbiornika"
     },
