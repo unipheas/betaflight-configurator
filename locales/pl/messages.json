@@ -1016,6 +1016,12 @@
     "configurationDigitalIdlePercentHelp": {
         "message": "Jest to wartość 'bezczynności\" wyrażana jako procent maksymalnej wartości przepustnicy wysyłanej do ESC kiedy dron jest uzbrojony i drążek przepustnicy jest w najniższym położeniu. Zwiększ liczbę procentów aby uzyskać większą prędkość podczas 'bezczynności'."
     },
+    "configurationThrottleMinimum": {
+        "message": "Minimum przepustnicy (Najniższa wartość ESC gdy uzbrojony)"
+    },
+    "configurationThrottleMinimumHelp": {
+        "message": "Jest to wartość 'bezczynności', która jest wysyłana do ESC, gdy dron jest uzbrojony i drążek przepustnicy jest w najniższym położeniu. Zwiększ wartość aby uzyskać większą prędkość obrotową. Zwiększ wartość w przypadku desynchronizacji!"
+    },
     "configurationSerialRX": {
         "message": "Rodzaj sygnału odbiornika"
     },
