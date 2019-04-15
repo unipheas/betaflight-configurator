@@ -950,6 +950,24 @@
     "configurationSensorGyroToUse": {
         "message": "GYRO\/ACCEL"
     },
+    "configurationSensorGyroToUseNotFound": {
+        "message": "Ostrzeżenie: Nie znaleziono Gyro\/Accel"
+    },
+    "configurationSensorGyroToUseFirst": {
+        "message": "Pierwszy"
+    },
+    "configurationSensorGyroToUseSecond": {
+        "message": "Drugi"
+    },
+    "configurationSensorGyroToUseBoth": {
+        "message": "Oba"
+    },
+    "configurationSensorAlignmentGyro1": {
+        "message": "Pierwsze GYRO"
+    },
+    "configurationSensorAlignmentGyro2": {
+        "message": "Drugie GYRO"
+    },
     "configurationSensorAlignmentAcc": {
         "message": "Ułożenie akcelerometru"
     },
@@ -980,11 +998,23 @@
     "configurationReverseMotorSwitch": {
         "message": "Kierunek silników jest odwrócony"
     },
+    "configurationReverseMotorSwitchHelp": {
+        "message": "Ta opcja konfiguruje mikser aby wyczekiwał że kierunek silnika zostanie odwrócony a śmigła odpowiedni założone.<strong>Ostrzeżenie:<\/strong> Nie zmienia to kierunku silnika. Użyj narzędzia do konfiguracji twoich ESC lub zamień kolejność przewodów silnika aby to osiągnąć. Upewnij się również bez założonych śmigieł czy silniki kręcą się w kierunku jak na diagramie powyżej przed próbą uzbrajania."
+    },
     "configurationAutoDisarmDelay": {
         "message": "Rozbrojenie silników po ustawionym czasie [sekundy] (Wymaga uruchomienia MOTOR_STOP)"
     },
     "configurationDisarmKillSwitch": {
         "message": "Rozbrojenie silników niezależnie od wartości gazu (Gdy uzbrajanie jest skonfigurowane jako przełącznik AUX)"
+    },
+    "configurationDisarmKillSwitchHelp": {
+        "message": "Uzbrojenie jest zawsze wyłączone, gdy przepustnica nie jest nisko. Bądź ostrożny, ponieważ możesz przypadkowo rozbroić przez przełącznik podczas lotu, gdy ta opcja jest aktywna."
+    },
+    "configurationDigitalIdlePercent": {
+        "message": "Wartość przepustnicy dla bezczynnego silnika [percent]"
+    },
+    "configurationDigitalIdlePercentHelp": {
+        "message": "Jest to wartość 'bezczynności\" wyrażana jako procent maksymalnej wartości przepustnicy wysyłanej do ESC kiedy dron jest uzbrojony i drążek przepustnicy jest w najniższym położeniu. Zwiększ liczbę procentów aby uzyskać większą prędkość podczas 'bezczynności'."
     },
     "configurationSerialRX": {
         "message": "Rodzaj sygnału odbiornika"
