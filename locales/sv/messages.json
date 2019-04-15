@@ -2184,9 +2184,6 @@
     "cliInfo": {
         "message": "<strong>Notering:<\/strong> Om fliken CLI lämnas eller vid val av Koppla från kommer \"<strong>exit<\/strong>\" att sändas <strong>automatiskt<\/strong> till styrkortet. Med den senaste firmwaren kommer detta att <strong>starta om<\/strong> kontrollern, och osparade ändringar kommer att <strong>förloras<\/strong>.<p><strong><span class=\"message-negative\">Varning:<\/span><\/strong> Vissa CLI-kommandon kan leda till att slumpmässiga signaler skickas ut till motorerna. Detta kan få motorerna att sätta igång om ett batteri är inkopplat. Därför är det rekommenderat att säkerställa att <strong>inget batteri är anslutet innan CLI-kommandon anges<\/strong>."
     },
-    "cliInputPlaceholder": {
-        "message": "Skriv ditt kommando här"
-    },
     "cliEnter": {
         "message": "CLI-läge upptäckt"
     },
