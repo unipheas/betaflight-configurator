@@ -1,9 +1,21 @@
 {
+    "error": {
+        "message": "Błąd: {{errorMessage}}"
+    },
+    "errorTitle": {
+        "message": "Błąd"
+    },
     "warningTitle": {
         "message": "Ostrzeżenie"
     },
     "noticeTitle": {
         "message": "Uwaga"
+    },
+    "operationNotSupported": {
+        "message": "Operacja nie jest obsługiwana przez urządzenie."
+    },
+    "storageDeviceNotReady": {
+        "message": "Urządzenie pamięci nie jest gotowe. W przypadku karty microSD upewnij się, że jest prawidłowo rozpoznawana przez kontroler lotu."
     },
     "options_title": {
         "message": "Ustawienia aplikacji"
@@ -38,8 +50,17 @@
     "expertMode": {
         "message": "Uruchom Tryb Eksperta"
     },
+    "expertModeDescription": {
+        "message": "Pokaż niepublikowane i możliwie niestabilne wersje"
+    },
     "permanentExpertMode": {
         "message": "Uruchom Tryb Eksperta na stałe"
+    },
+    "rememberLastTab": {
+        "message": "Otwórz ostatnią kartę po połączeniu"
+    },
+    "analyticsOptOut": {
+        "message": "Zrezygnuj z anonimowego zbierania danych statystycznych"
     },
     "userLanguageSelect": {
         "message": "Język (należy zrestartować aplikację aby zobaczyć zmiany)"
@@ -47,23 +68,55 @@
     "language_default": {
         "message": "Domyślne"
     },
+    "sensorDataFlashNotFound": {
+        "message": "Nie znaleziono <br>czipu DataFlash",
+        "description": "Text of the dataflash image in the header of the page."
+    },
+    "sensorDataFlashFreeSpace": {
+        "message": "Dataflash: wolne miejsce",
+        "description": "Text of the dataflash image in the header of the page."
+    },
     "sensorStatusGyro": {
         "message": "Żyroskop"
+    },
+    "sensorStatusGyroShort": {
+        "message": "Gyro",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusAccel": {
         "message": "Akcelerometr"
     },
+    "sensorStatusAccelShort": {
+        "message": "Accel",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
     "sensorStatusMag": {
         "message": "Magnetometr"
+    },
+    "sensorStatusMagShort": {
+        "message": "Mag",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusBaro": {
         "message": "Barometr"
     },
+    "sensorStatusBaroShort": {
+        "message": "Baro",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
     "sensorStatusGPS": {
         "message": "GPS"
     },
+    "sensorStatusGPSShort": {
+        "message": "GPS",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
     "sensorStatusSonar": {
         "message": "Sonar \/ Czujnik odległości"
+    },
+    "sensorStatusSonarShort": {
+        "message": "Sonar",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "checkForConfiguratorUnstableVersions": {
         "message": "Pokaż powiadomienia o aktualizacji dla niestabilnych wersji konfiguratora."
@@ -155,6 +208,9 @@
     "tabCLI": {
         "message": "CLI"
     },
+    "tabLogging": {
+        "message": "Logowanie powiązane"
+    },
     "tabOnboardLogging": {
         "message": "Czarna skrzynka"
     },
@@ -245,11 +301,32 @@
     "stm32ProgrammingFailed": {
         "message": "Programowanie nie udało się"
     },
+    "stm32AddressLoadFailed": {
+        "message": "Załadowanie adresu sektora bajtów z ustawieniami nie powiodło się. Prawdopodobnie przez uruchomione zabezpieczenie odczytu."
+    },
+    "stm32AddressLoadSuccess": {
+        "message": "Załadowanie adresu sektora bajtów z ustawieniami powiodło się."
+    },
+    "stm32AddressLoadUnknown": {
+        "message": "Nie można załadować bajtów ustawień procesora z powodu nieznanego błędu. Przerywanie."
+    },
     "stm32NotReadProtected": {
         "message": "Zabezpieczenie odczytu nieaktywne"
     },
     "stm32ReadProtected": {
         "message": "Płytka jest zabezpieczona przed odczytem. Odbezpieczanie. Nie rozłączaj urządzenia!"
+    },
+    "stm32UnprotectSuccessful": {
+        "message": "Usunięcie zabezpieczenia powiodło się."
+    },
+    "stm32UnprotectUnplug": {
+        "message": "WYMAGANE DZIAŁANIE UŻYTKOWNIKA: Aby spróbować wgrać oprogramowanie ponownie odłącz i podłącz kontroler lotu w trybie DFU!"
+    },
+    "stm32UnprotectFailed": {
+        "message": "Nie udało się odbezpieczyć płytki"
+    },
+    "stm32UnprotectInitFailed": {
+        "message": "Nie udało się uruchomić procedury odbezpieczania"
     },
     "noConfigurationReceived": {
         "message": "Nie otrzymano konfiguracji przez <span class=\"message-negative\">10 sekund<\/span>, komunikacja <span class=\"message-negative\">zawiodła<\/span>."
@@ -262,6 +339,16 @@
     },
     "firmwareUpgradeRequired": {
         "message": "Oprogramowanie tego kontrolera lotu wymaga aktualizacji do nowszej wersji. Użyj CLI, aby zgrać bieżącą konfigurację. Opis zgrywania\/przywrócenia konfiguracji opisany jest w dokumentacji.<br \/>Możesz także pobrać starszą wersję konfiguratora, jeżeli nie chcesz aktualizować oprogramowania kontrolera lotu."
+    },
+    "infoVersions": {
+        "message": "Działający - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Konfigurator: <strong>{{configuratorVersion}}<\/strong>",
+        "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
+    },
+    "buildServerLoaded": {
+        "message": "Załadowano informacje o kompilacji $1 z serwera."
+    },
+    "buildServerUsingCached": {
+        "message": "Użycie informacji o kompilacji z bufora dla $1."
     },
     "releaseCheckLoaded": {
         "message": "Załadowano informację o wersji $1 z GitHub'a."
@@ -301,6 +388,12 @@
     },
     "armingEnabled": {
         "message": "<strong>Uzbrajanie aktywne<\/strong>"
+    },
+    "runawayTakeoffPreventionDisabled": {
+        "message": "<strong>Zabezpieczenie przed ucieczką tymczasowo wyłączone<\/strong>"
+    },
+    "runawayTakeoffPreventionEnabled": {
+        "message": "Zabezpieczenie przed ucieczką włączone"
     },
     "boardInfoReceived": {
         "message": "Płytka: <strong>$1<\/strong>, wersja: <strong>$2<\/strong>"
@@ -352,6 +445,9 @@
     },
     "dfu_erased_kilobytes": {
         "message": "<span class=\"message-positive\">Prawidłowo<\/span> wyczyszczono $1 kB pamięci FLASH."
+    },
+    "dfu_device_flash_info": {
+        "message": "Wykryto urządzenie z całkowitym rozmiarem pamięci flash $1 KiB"
     },
     "eeprom_saved_ok": {
         "message": "<span class=\"message-positive\">Zapisano<\/span> zmiany w EEPROM"
