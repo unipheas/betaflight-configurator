@@ -1393,9 +1393,6 @@
     "sensorsScale": {
         "message": "Měřítko:"
     },
-    "cliInputPlaceholder": {
-        "message": "Zde napište svůj příkaz"
-    },
     "cliClearOutputHistoryBtn": {
         "message": "Vymazat historii výstupu"
     },
