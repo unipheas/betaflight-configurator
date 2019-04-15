@@ -1790,9 +1790,6 @@
     "sensorsDebugTitle": {
         "message": "Debug"
     },
-    "cliInputPlaceholder": {
-        "message": "Escriu la teva comanda aquí"
-    },
     "cliEnter": {
         "message": "Mode CLI detectat"
     },
