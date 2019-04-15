@@ -1682,9 +1682,6 @@
     "sensorsDebugTitle": {
         "message": "Vianetsintä"
     },
-    "cliInputPlaceholder": {
-        "message": "Kirjoita komento tähän"
-    },
     "cliEnter": {
         "message": "CLI-tila havaittu"
     },
