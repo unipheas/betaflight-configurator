@@ -2002,9 +2002,6 @@
     "sensorsDebugTitle": {
         "message": "Debug"
     },
-    "cliInputPlaceholder": {
-        "message": "Tulis perintah anda di sini"
-    },
     "cliEnter": {
         "message": "Mode CLI terdeteksi"
     },
