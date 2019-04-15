@@ -1179,6 +1179,102 @@
     "pidTuningHideUnusedPids": {
         "message": "Ukryj nieużywane PID'y"
     },
+    "pidTuningNonProfilePidSettings": {
+        "message": "Ustawienia regulatora PID niezależne od profilu"
+    },
+    "pidTuningPidSettings": {
+        "message": "Ustawienia regulatora PID"
+    },
+    "receiverRcSmoothing": {
+        "message": "Wygładzanie RC"
+    },
+    "receiverRcSmoothingAuto": {
+        "message": "Automatycznie"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "Ręcznie"
+    },
+    "receiverRcSmoothingFilter": {
+        "message": "Filtr"
+    },
+    "receiverRcInterpolationOff": {
+        "message": "Wyłączony"
+    },
+    "receiverRcInterpolationAuto": {
+        "message": "Automatycznie"
+    },
+    "receiverRcInterpolationManual": {
+        "message": "Ręcznie"
+    },
+    "pidTuningTPA": {
+        "message": "TPA"
+    },
+    "pidTuningTPABreakPoint": {
+        "message": "Punkt przerwania TPA"
+    },
+    "pidTuningThrottleLimitType": {
+        "message": "Limit przepustnicy"
+    },
+    "pidTuningThrottleLimitPercent": {
+        "message": "Limit przepustnicy %"
+    },
+    "pidTuningThrottleLimitTypeOff": {
+        "message": "Wył"
+    },
+    "pidTuningButtonSave": {
+        "message": "Zapisz"
+    },
+    "pidTuningButtonRefresh": {
+        "message": "Odśwież"
+    },
+    "pidTuningProfileHead": {
+        "message": "Profil"
+    },
+    "pidTuningControllerHead": {
+        "message": "Regulator PID"
+    },
+    "dialogCopyProfileText": {
+        "message": "Skopiuj wartości z obecnego profilu do"
+    },
+    "dialogCopyRateProfileText": {
+        "message": "Skopiuj wartości z obecnego profilu rate'ów do"
+    },
+    "dialogCopyProfileNote": {
+        "message": "Wszystkie wartości w profilu docelowym zostaną wymazane i nadpisane"
+    },
+    "dialogCopyProfileConfirm": {
+        "message": "Kopiuj"
+    },
+    "dialogCopyProfileClose": {
+        "message": "Anuluj"
+    },
+    "pidTuningResetProfile": {
+        "message": "Zresetuj wszystkie wartości w profilu"
+    },
+    "pidTuningProfileReset": {
+        "message": "Załaduj domyślne wartości w profilu."
+    },
+    "receiverChannelMap": {
+        "message": "Mapa kanałów"
+    },
+    "receiverChannelDefaultOption": {
+        "message": "Domyślne"
+    },
+    "receiverChannelMapTitle": {
+        "message": "Możesz zdefiniować własną mapę kanałów klikając w pole"
+    },
+    "receiverRssiChannel": {
+        "message": "Kanał RSSI"
+    },
+    "receiverRssiChannelDisabledOption": {
+        "message": "Wyłączony"
+    },
+    "receiverRefreshRateTitle": {
+        "message": "Częstotliwość odświeżania wykresu"
+    },
+    "receiverButtonSave": {
+        "message": "Zapisz"
+    },
     "receiverButtonRefresh": {
         "message": "Odśwież"
     },
