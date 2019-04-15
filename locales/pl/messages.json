@@ -572,6 +572,12 @@
     "initialSetupButtonRebootBootloader": {
         "message": "Aktywacja Boot Loader'a \/ DFU"
     },
+    "initialSetupBackupRestoreText": {
+        "message": "<strong>Utwórz kopię zapasową<\/strong> swojej konfiguracji na wypadek utraty, <strong>Ustawienia CLI<\/strong> <span class=\"message-negative\">nie są<\/span> uwzględniane - użyj do tego komendy 'diff all' w CLI."
+    },
+    "initialSetupRebootBootloaderText": {
+        "message": "Ponowne uruchomienie do <strong>boot loader'a \/ DFU<\/strong>."
+    },
     "initialSetupBackupSuccess": {
         "message": "Kopia zapasowa została <span class=\"message-positive\">zapisana<\/span>."
     },
@@ -661,6 +667,33 @@
     },
     "initialSetupArmingAllowed": {
         "message": "Uzbrajanie dozwolone"
+    },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "Lista flag wskazuje dlaczego uzbrojenie jest obecnie niedozwolone. Ustaw kursor myszki na fladze lub odnieś się do Wiki (strona 'Sekwencja uzbrajania & bezpieczeństwo'), aby uzyskać więcej informacji."
+    },
+    "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
+        "message": "Nie wykryto żyroskopu",
+        "description": "Description of the NO GYRO arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
+        "message": "Failsafe jest aktywny",
+        "description": "Description of the FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
+        "message": "Brak prawidłowego sygnału z odbiornika",
+        "description": "Description of the RX_FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBAD_RX_RECOVERY": {
+        "message": "Twój odbiornik wyszedł z stanu Failsafe ale przełącznik uzbrajania jest włączony",
+        "description": "Description of the BAD_RX_RECOVERY arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
+        "message": "Przełącznik \"FAILSAFE\" został aktywowany",
+        "description": "Description of the BOXFAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
+        "message": "Zabezpieczenie przed ucieczką podczas startu zostało wyzwolone",
+        "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
     },
     "initialSetupGPSHead": {
         "message": "GPS"
