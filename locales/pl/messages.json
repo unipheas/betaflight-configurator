@@ -699,6 +699,22 @@
         "message": "Kanał przepustnicy ma zbyt wysoką wartość",
         "description": "Description of the THROTTLE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipLOAD": {
+        "message": "Obciążenie systemu jest zbyt wysokie, aby zapewnić bezpieczny lot",
+        "description": "Description of the LOAD arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
+        "message": "Kalibracja czujnika nadal trwa",
+        "description": "Description of the CALIBRATING arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCLI": {
+        "message": "CLI jest aktywne",
+        "description": "Description of the CLI arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
+        "message": "Menu OSD jest aktywne",
+        "description": "Description of the OSD_MENU arming disable flag"
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
