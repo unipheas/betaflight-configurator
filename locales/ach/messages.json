@@ -3848,6 +3848,15 @@
     "osdDescStatMaxFFT": {
         "message": "crwdns8922:0crwdne8922:0"
     },
+    "osdDescStatTotalFlights": {
+        "message": "crwdns9106:0crwdne9106:0"
+    },
+    "osdDescStatTotalFlightTime": {
+        "message": "crwdns9108:0crwdne9108:0"
+    },
+    "osdDescStatTotalFlightDistance": {
+        "message": "crwdns9110:0crwdne9110:0"
+    },
     "osdTimerSource": {
         "message": "crwdns6293:0crwdne6293:0"
     },
