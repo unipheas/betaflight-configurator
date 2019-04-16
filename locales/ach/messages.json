@@ -3908,6 +3908,12 @@
     "osdWarningGpsRescueDisabled": {
         "message": "crwdns8936:0crwdne8936:0"
     },
+    "osdWarningRSSI": {
+        "message": "crwdns9102:0crwdne9102:0"
+    },
+    "osdWarningLinkQuality": {
+        "message": "crwdns9104:0crwdne9104:0"
+    },
     "osdSectionHelpElements": {
         "message": "crwdns6305:0crwdne6305:0"
     },
