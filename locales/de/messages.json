@@ -3851,6 +3851,12 @@
     "osdWarningGpsRescueDisabled": {
         "message": "Warnung, wenn GPS Rescue deaktiviert ist"
     },
+    "osdWarningRSSI": {
+        "message": "Warnt, wenn RSSI unter den Alarmwert fällt"
+    },
+    "osdWarningLinkQuality": {
+        "message": "Warnt, wenn die Verbindungsqualität unter den Alarmwert fällt"
+    },
     "osdSectionHelpElements": {
         "message": "OSD Elemente aktivieren oder deaktivieren"
     },
