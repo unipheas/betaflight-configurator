@@ -3796,6 +3796,15 @@
     "osdDescStatMaxFFT": {
         "message": "피크 FFT 주파수"
     },
+    "osdDescStatTotalFlights": {
+        "message": "총 비행횟수"
+    },
+    "osdDescStatTotalFlightTime": {
+        "message": "총 비행시간"
+    },
+    "osdDescStatTotalFlightDistance": {
+        "message": "총 비행거리"
+    },
     "osdTimerSource": {
         "message": "소스:"
     },
@@ -3855,6 +3864,12 @@
     },
     "osdWarningGpsRescueDisabled": {
         "message": "GPS 구조를 사용하지 않도록 설정하는 경우 경고합니다"
+    },
+    "osdWarningRSSI": {
+        "message": "RSSI가 알람 설정값 아래일 때 경고합니다"
+    },
+    "osdWarningLinkQuality": {
+        "message": "링크 품질(LQ)이 알람 설정값 아래일 때 경고합니다"
     },
     "osdSectionHelpElements": {
         "message": "OSD 요소를 활성화 또는 비활성화합니다."
