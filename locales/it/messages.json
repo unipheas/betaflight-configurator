@@ -464,6 +464,9 @@
     "defaultWelcomeHead": {
         "message": "Hardware"
     },
+    "defaultWelcomeText": {
+        "message": "L'applicazione supporta tutti gli hardware che eseguono Betaflight. Controlla il tab flash per la lista completa dell'hardware.<br><br> <a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\"> Scarica Betaflight Blackbox Log Viewer<\/a><br \/><br \/>Il codice sorgente del firmware è disponibile <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">qui<\/a><br \/><br \/>L'ultima versione di <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210x Drivers<\/a> è disponibile <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">qui<\/a><br \/>L'ultima versione di <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCP Drivers<\/a> è disponibile <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">qui<\/a><br \/>L'ultima versione di <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> per l'installazione dei driver USB su Windows è disponibile <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">qui<\/a><br \/>"
+    },
     "defaultContributingHead": {
         "message": "Contribuisci"
     },
@@ -487,6 +490,9 @@
     },
     "defaultDonateHead": {
         "message": "Open Source \/ donazione"
+    },
+    "defaultDonateText": {
+        "message": "<p><strong>Betaflight<\/strong> è un software <strong>open source<\/strong> per flight controller ed è disponibile gratuitamentee <strong>senza garanzie<\/strong> a tutti gli utenti.<\/p><p>Se hai trovato Betaflight o Betaflight configurator utili, ti invitiamo a valutare di <strong>supportare<\/strong> lo sviluppo con una donazione.<\/p>"
     },
     "defaultDonateBottom": {
         "message": "<p>Se vuoi contribuire economicamente in modo continuativo, puoi diventare un nostro patron su <a href='https:\/\/www.patreon.com\/betaflight'>Patreon<\/a>.<\/p>"
@@ -568,6 +574,9 @@
     },
     "initialSetupButtonRebootBootloader": {
         "message": "Attiva Boot Loader \/ DFU"
+    },
+    "initialSetupBackupRestoreText": {
+        "message": "Effettua un <strong>backup<\/strong> della tua configurazione in caso di incidente. I parametri <strong>CLI<\/strong> <span class=\"message-negative\">NON<\/span> sono inclusi - usa il comando 'diff all' nella CLI per salvarli."
     },
     "initialSetupRebootBootloaderText": {
         "message": "Riavvia in modalità <strong>boot loader \/ DFU<\/strong>."
@@ -662,6 +671,9 @@
     "initialSetupArmingAllowed": {
         "message": "Armamento motori consentito"
     },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "Lista dei flag che indicano perché non è permesso l'arming. Passa il mouse sul flag o fai riferimento al Wiki ('Arming Sequence & Safety') per ulteriori informazioni."
+    },
     "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
         "message": "Non è stato rilevato un giroscopio",
         "description": "Description of the NO GYRO arming disable flag"
@@ -674,9 +686,17 @@
         "message": "Nessun segnale valido ricevuto dalla ricevente",
         "description": "Description of the RX_FAILSAFE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipBAD_RX_RECOVERY": {
+        "message": "La tua ricevente è appena uscita da un failsafe ma lo switch di arm è attivo",
+        "description": "Description of the BAD_RX_RECOVERY arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
         "message": "È stato attivato l'interruttore 'FAIL-SAFE'",
         "description": "Description of the BOXFAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
+        "message": "Runaway Takeoff Prevention è entrato in funzione",
+        "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "Canale gas troppo alto",
@@ -690,6 +710,10 @@
         "message": "Stai armando troppo presto dopo l'accensione",
         "description": "Description of the BOOT_GRACE_TIME arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipNOPREARM": {
+        "message": "Il prearm switch non è attivo o prearm non è stato spento dopo disarm",
+        "description": "Description of the NOPREARM arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipLOAD": {
         "message": "Il carico del processore è troppo elevato per poter volare in sicurezza",
         "description": "Description of the LOAD arming disable flag"
@@ -702,9 +726,29 @@
         "message": "CLI è attivo",
         "description": "Description of the CLI arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
+        "message": "CMS (menù di configurazione) è attivo - su OSD o altro display -",
+        "description": "Description of the CMS_MENU arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
         "message": "Il menù OSD è attivo",
         "description": "Description of the OSD_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBST": {
+        "message": "Un dispositivo telemetria Black Sheep (ad esempio TBS Core Pro) ha disarmato e previene l'arming",
+        "description": "Description of the BST arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipMSP": {
+        "message": "La connessione MSP è attiva, probabilmente con questo Betaflight Configurator",
+        "description": "Description of the MSP arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipPARALYZE": {
+        "message": "La modalità paralisi è attivata",
+        "description": "Description of the PARALYZE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipGPS": {
+        "message": "La modalità GPS rescue è configurata ma non si ha configurato il numero di satelliti necessari",
+        "description": "Description of the GPS arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRESC": {
         "message": "E' stato attivato lo switch \"GPS Rescue\"",
@@ -923,6 +967,27 @@
     "configurationSensorAlignmentGyro": {
         "message": "Allinea GYRO"
     },
+    "configurationSensorGyroToUse": {
+        "message": "GYRO\/ACCEL"
+    },
+    "configurationSensorGyroToUseNotFound": {
+        "message": "Attenzione: Nessun Gyro\/Acc trovato"
+    },
+    "configurationSensorGyroToUseFirst": {
+        "message": "Primo"
+    },
+    "configurationSensorGyroToUseSecond": {
+        "message": "Secondo"
+    },
+    "configurationSensorGyroToUseBoth": {
+        "message": "Ambedue"
+    },
+    "configurationSensorAlignmentGyro1": {
+        "message": "Primo Gyro"
+    },
+    "configurationSensorAlignmentGyro2": {
+        "message": "Secondo Gyro"
+    },
     "configurationSensorAlignmentAcc": {
         "message": "Allinea ACCEL"
     },
@@ -1064,6 +1129,9 @@
     "beeperCAM_CONNECTION_CLOSE": {
         "message": "Biipa quando si esce dal controllo a 5 tasti della fotocamera"
     },
+    "beeperRC_SMOOTHING_INIT_FAIL": {
+        "message": "Beep quando si arma e l'rc smoothing non ha inizializzato i filtri"
+    },
     "configuration3d": {
         "message": "3D ESC\/Funzionalità motore"
     },
@@ -1201,6 +1269,9 @@
     },
     "portsFunction_BLACKBOX": {
         "message": "registrazione su scatola nera"
+    },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "VTX (TBS SmartAudio)"
     },
     "portsFunction_IRC_TRAMP": {
         "message": "VTX (IRC Tramp)"
@@ -2039,6 +2110,12 @@
     "sensorsDebugTitle": {
         "message": "Debug"
     },
+    "cliInputPlaceholder": {
+        "message": "Scrivi qui i tuoi comandi. Premi Tab per l'auto completamento."
+    },
+    "cliInputPlaceholderBuilding": {
+        "message": "Attendi durante la costruzione della cache di Auto Completamento"
+    },
     "cliEnter": {
         "message": "Rilevata modalità CLI"
     },
@@ -2050,6 +2127,12 @@
     },
     "cliClearOutputHistoryBtn": {
         "message": "Cancella la cronologia della CLI"
+    },
+    "cliCopyToClipboardBtn": {
+        "message": "Copia negli appunti"
+    },
+    "cliCopySuccessful": {
+        "message": "Copiato!"
     },
     "loggingNote": {
         "message": "I dati saranno registrati <span class=\"message-negative\">soltanto<\/span> in questa schermata, spostandoti da questa la registrazione sarà <span class=\"message-negative\">cancellata<\/span> ed il programma tornerà nel suo stato normale di <strong>\"configuratore\"<\/strong><br \/>. Sei libero di selezionare la frequenza di aggiornamento globale, i dati saranno scritti nel file di registro ogni <strong>1<\/strong> secondi per questioni di prestazioni."
@@ -2140,6 +2223,9 @@
     },
     "dataflashButtonSaveFileDeprecated": {
         "message": "Salva flash su file... (deprecato)"
+    },
+    "dataflashSaveFileDepreciationHint": {
+        "message": "Salvare i log blackbox tramite il configuratore è un processo lento e soggetto a errori. E' consigliato utilizzare invece il '<b>$t(onboardLoggingRebootMscText.message)<\/b>' (sotto) per attivare la modalità Mass Storage, e accedere al tuo flight controller come un dispositivo di archiviazione per scaricare i tuoi file di log."
     },
     "dataflashButtonErase": {
         "message": "Cancella flash"
