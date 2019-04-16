@@ -2180,6 +2180,9 @@
     "cliInfo": {
         "message": "<strong>노트:<\/strong> CLI 탭을 빠져 나가거나 연결끊기를 누르면 <strong>자동으로<\/strong>보드에 \"<strong>exit<\/strong>\"를 보냅니다. 최신 펌웨어를 사용하면 컨트롤러를 <strong>재시작<\/strong>하고, 저장되지 않은 변경은 <strong>상실<\/strong>합니다. <p><strong><span class=\"message-negative\">경고:<\/span><\/strong> CLI에서 일부 명령은 임의로 신호를 모터 출력 핀으로 보내는 결과를 초래할 수 있습니다. 이것은 만약 배터리가 연결된 상태에서 모터의 회전을 유발할 수 있습니다. 그러므로 <strong>CLI에서 명령을 입력하기 전에 배터리를 연결하지 말 것을<\/strong> 강력히 권장합니다."
     },
+    "cliInputPlaceholder": {
+        "message": "당신의 명령어를 여기에 작성하세요. 자동완성을 위해 탭을 누르세요."
+    },
     "cliInputPlaceholderBuilding": {
         "message": "자동완성 캐시를 구축하는 동안 잠시 기다려주세요 ..."
     },
