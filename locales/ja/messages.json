@@ -3796,6 +3796,15 @@
     "osdDescStatMaxFFT": {
         "message": "FFTのピーク周波数"
     },
+    "osdDescStatTotalFlights": {
+        "message": "合計飛行回数"
+    },
+    "osdDescStatTotalFlightTime": {
+        "message": "合計飛行時間"
+    },
+    "osdDescStatTotalFlightDistance": {
+        "message": "合計飛行距離"
+    },
     "osdTimerSource": {
         "message": "ソース:"
     },
@@ -3855,6 +3864,12 @@
     },
     "osdWarningGpsRescueDisabled": {
         "message": "GPS レスキューが無効な場合に警告"
+    },
+    "osdWarningRSSI": {
+        "message": "RSSIがアラーム設定を下回ったときの警告"
+    },
+    "osdWarningLinkQuality": {
+        "message": "送受信品質がアラーム設定を下回ったときの警告"
     },
     "osdSectionHelpElements": {
         "message": "OSDを有効、または無効にします。"
