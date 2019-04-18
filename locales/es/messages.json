@@ -3796,6 +3796,15 @@
     "osdDescStatMaxFFT": {
         "message": "Pico de frecuencia FFT"
     },
+    "osdDescStatTotalFlights": {
+        "message": "Número total de vuelos"
+    },
+    "osdDescStatTotalFlightTime": {
+        "message": "Tiempo total invertido volando"
+    },
+    "osdDescStatTotalFlightDistance": {
+        "message": "Distancia total recorrida"
+    },
     "osdTimerSource": {
         "message": "Origen:"
     },
@@ -3855,6 +3864,12 @@
     },
     "osdWarningGpsRescueDisabled": {
         "message": "Avisa cuando el Rescate GPS está desactivado"
+    },
+    "osdWarningRSSI": {
+        "message": "Avisa cuando el RSSI está por debajo de la alarma configurada"
+    },
+    "osdWarningLinkQuality": {
+        "message": "Avisa cuando la Calidad del Enlace está por debajo de la alarma configurada"
     },
     "osdSectionHelpElements": {
         "message": "Activa o desactiva elementos del OSD"
