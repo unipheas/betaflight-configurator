@@ -3800,6 +3800,15 @@
     "osdDescStatMaxFFT": {
         "message": "Toppvärde FFT-frekvens"
     },
+    "osdDescStatTotalFlights": {
+        "message": "Totalt antal flygningar"
+    },
+    "osdDescStatTotalFlightTime": {
+        "message": "Total flygtid"
+    },
+    "osdDescStatTotalFlightDistance": {
+        "message": "Total färdsträcka"
+    },
     "osdTimerSource": {
         "message": "Källa:"
     },
@@ -3859,6 +3868,12 @@
     },
     "osdWarningGpsRescueDisabled": {
         "message": "Varnar när GPS-räddning är avstängd"
+    },
+    "osdWarningRSSI": {
+        "message": "Varnar när RSSI underskrider larminställning"
+    },
+    "osdWarningLinkQuality": {
+        "message": "Varnar när länkkvaliteten underskrider larminställning"
     },
     "osdSectionHelpElements": {
         "message": "Aktivera eller avaktivera OSD-element."
