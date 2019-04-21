@@ -3863,7 +3863,7 @@
         "message": "Alerte quand GPS rescue est désactivé"
     },
     "osdWarningRSSI": {
-        "message": "Alerte quand le RSSI est sous la limite configurée"
+        "message": "Alerte quand le RSSI est inférieur à la valeur configurée"
     },
     "osdSectionHelpElements": {
         "message": "Activer ou désactiver l'OSD"
