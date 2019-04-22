@@ -3793,8 +3793,29 @@
     "configurationEscProtocol": {
         "message": "Protocolo dos ESC\/Motores"
     },
+    "configurationEscProtocolHelp": {
+        "message": "Elixa o seu protocolo para o motor.<br>Asegúrese de verificar nas características do seu ESC que protocolos soporta. <br><b>¡Coidado si selecciona DSHOT900 ou DSHOT1200 xa que a maioría de ESCs non o soportan!<\/b>"
+    },
+    "configurationunsyndePwm": {
+        "message": "Velocidade PWM do motor separada da velocidade PID"
+    },
+    "configurationUnsyncedPWMFreq": {
+        "message": "Frecuencia Motor PWM"
+    },
     "configurationGyroSyncDenom": {
         "message": "Frecuencia do xiroscopo actualizada"
+    },
+    "configurationPidProcessDenom": {
+        "message": "Frecuencia do ciclo PID"
+    },
+    "configurationPidProcessDenomHelp": {
+        "message": "A máxima frecuencia do ciclo PID está limitada pola máxima frecuencia na que as actualizacións pueden ser enviadas según o ESC \/ protocolo do motor elexidos."
+    },
+    "configurationGyroUse32kHz": {
+        "message": "Activar o modo de mostreo do xiro de 32kHz"
+    },
+    "configurationGyroUse32kHzHelp": {
+        "message": "A frecuencia de actualización do xiro de 32kHz só é posible si o chip da placa a soporta (actualmente MPU6500, MPU9259 e ICM20xxx si están conectados sobre SPI). Ante a duda, consulta a especificación da placa."
     },
     "configurationAccHardware": {
         "message": "Acelerómetro"
@@ -3802,14 +3823,50 @@
     "configurationBaroHardware": {
         "message": "Barómetro (se o soporta)"
     },
+    "configurationMagHardware": {
+        "message": "Magnetómetro (si está soportado)"
+    },
     "configurationSmallAngle": {
         "message": "Ángulos máximos de Armado"
+    },
+    "configurationSmallAngleHelp": {
+        "message": "A aeronave non se armará si está ladeada máis que o número de grados especificados. Só aplica si o acelerómetro está activado. Axustalo a 180 desactiva esta comprobación"
     },
     "configurationBatteryVoltage": {
         "message": "Voltaxe da LIPO"
     },
     "configurationBatteryCurrent": {
         "message": "Corrente da LIPO"
+    },
+    "configurationBatteryMeterType": {
+        "message": "Tipo de medidor de batería"
+    },
+    "configurationBatteryMinimum": {
+        "message": "Voltaxe Mínimo por Celda"
+    },
+    "configurationBatteryMaximum": {
+        "message": "Voltaxe Máximo por Celda"
+    },
+    "configurationBatteryWarning": {
+        "message": "Aviso de Voltaxe por Celda"
+    },
+    "configurationBatteryScale": {
+        "message": "Escala do Voltaxe"
+    },
+    "configurationCurrentMeterType": {
+        "message": "Tipo de Medidor de Corriente"
+    },
+    "configurationCurrent": {
+        "message": "Sensor de Corriente"
+    },
+    "configurationCurrentScale": {
+        "message": "Escala o voltaxe da saída a miliamperios [1\/10 mV\/A]"
+    },
+    "configurationCurrentOffset": {
+        "message": "Desplazamento en pasos de milivoltio"
+    },
+    "configurationBatteryMultiwiiCurrent": {
+        "message": "Activa soporte para la salida de corriente heredada MSP Multiwii"
     },
     "pidTuningProfileTip": {
         "message": "Ata 3 (2 para algúns controladores) perfis diferentes poden ser almacenados no controlador de voo. O perfil de pid inclue pid, punto de axuste de d e os axustes de ángulo\/horizonte deste apartado. Unha vez nol campo, pódense empregar simples comandos de palanca (mirar instruccións online) para cambiar entre perfis."
