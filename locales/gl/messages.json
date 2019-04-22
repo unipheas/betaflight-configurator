@@ -2581,6 +2581,84 @@
     "controlAxisAux16": {
         "message": "AUX 16"
     },
+    "pidTuningBasic": {
+        "message": "Básico\/Acro"
+    },
+    "pidTuningYawJumpPrevention": {
+        "message": "Previr Salto de Yaw"
+    },
+    "pidTuningYawJumpPreventionHelp": {
+        "message": "Evita que a aeronave salte ó final dos yaws. Un número máis alto da máis amortiguación ó final dos movementos de yaw (funciona como a anterior D de yaw, que no era realmente unha D real como noutros eixos)"
+    },
+    "pidTuningRcExpoPower": {
+        "message": "Potencia Expo RC"
+    },
+    "pidTuningRcExpoPowerHelp": {
+        "message": "O expoñente que se usa ó calcular o RC Expo. En versións de Betaflight anteriores a 3.0, este valor está fixado en 3."
+    },
+    "pidTuningLevel": {
+        "message": "Angle\/Horizon"
+    },
+    "pidTuningAltitude": {
+        "message": "Barómetro e Sonar\/Altitude"
+    },
+    "pidTuningMag": {
+        "message": "Magnetómetro\/Dirección"
+    },
+    "pidTuningGps": {
+        "message": "Navegación GPS"
+    },
+    "pidTuningStrength": {
+        "message": "Forza"
+    },
+    "pidTuningTransition": {
+        "message": "Transición"
+    },
+    "pidTuningHorizon": {
+        "message": "Horizon"
+    },
+    "pidTuningAngle": {
+        "message": "Angle"
+    },
+    "pidTuningLevelAngleLimit": {
+        "message": "Ángulo Límite"
+    },
+    "pidTuningLevelSensitivity": {
+        "message": "Sensibilidade"
+    },
+    "pidTuningLevelHelp": {
+        "message": "Os siguintes valores cambian o comportamento dos modos de voo ANGLE e HORIZON. Diferentes controladores PID manexan os diferentes valores. Consulta a documentación."
+    },
+    "pidTuningNonProfileFilterSettings": {
+        "message": "Axustes do perfil de Filtros independentes"
+    },
+    "pidTuningGyroLowpassFiltersGroup": {
+        "message": "Filtros Paso Baixo do Xiro"
+    },
+    "pidTuningGyroLowpassFrequency": {
+        "message": "Frecuencia de Corte Xiro Paso Baixo 1 [Hz]"
+    },
+    "pidTuningGyroLowpassType": {
+        "message": "Tipo de Filtro Xiro Paso Baixo 1"
+    },
+    "pidTuningGyroLowpassDynMinFrequency": {
+        "message": "Frecuencia de Corte Min do Xiro Paso Baixo 1 Dinámico [Hz]"
+    },
+    "pidTuningGyroLowpassDynMaxFrequency": {
+        "message": "Frecuencia de Corte Max Xiro Paso Baixo 1 Dinámico [Hz]"
+    },
+    "pidTuningGyroLowpassDynType": {
+        "message": "Tipo de Filtro Xiro Paso Baixo 1 Dinámico"
+    },
+    "pidTuningGyroLowpass2Frequency": {
+        "message": "Frecuencia de Corte Xiro Paso Baixo 2 [Hz]"
+    },
+    "pidTuningGyroLowpass2Type": {
+        "message": "Tipo de Filtro Xiro Paso Baixo 2"
+    },
+    "pidTuningGyroNotchFiltersGroup": {
+        "message": "Filtros Notch do Xiro"
+    },
     "pidTuningDTermLowpass2Type": {
         "message": "Tipo de filtro D Termo Lowpass 2"
     },
