@@ -2061,6 +2061,75 @@
     "osdDescElementCoreTemperature": {
         "message": "Temperatura do núcleo do STM32 MCU"
     },
+    "osdDescAntiGravity": {
+        "message": "Activa un indicador cando a anti gravidade está activa"
+    },
+    "osdDescGForce": {
+        "message": "Mostra canta Forza G está experimentando a aeronave"
+    },
+    "osdDescElementMotorDiag": {
+        "message": "Mostra un gráfico coa saída de cada motor"
+    },
+    "osdDescElementLogStatus": {
+        "message": "Número de caixa negra e avisos"
+    },
+    "osdDescStatMaxSpeed": {
+        "message": "Máxima velocidade rexistrada"
+    },
+    "osdDescStatMinBattery": {
+        "message": "Mínimo voltaxe da batería principal rexistrado"
+    },
+    "osdDescStatMinRssi": {
+        "message": "Mínimo RSSI rexistrado"
+    },
+    "osdDescStatMaxCurrent": {
+        "message": "Consumo máximo de corrente rexistrado"
+    },
+    "osdDescStatUsedMah": {
+        "message": "Capacidade usada da batería"
+    },
+    "osdDescStatMaxAltitude": {
+        "message": "Máxima altitude rexistrada"
+    },
+    "osdDescStatBlackbox": {
+        "message": "Porcentaxe total do uso da caixa negra"
+    },
+    "osdDescStatEndBattery": {
+        "message": "Voltaxe da batería no momento do desarme"
+    },
+    "osdDescStatFlyTime": {
+        "message": "Tempo total que a aeronave estivo armada no actual ciclo de enerxía"
+    },
+    "osdDescStatArmedTime": {
+        "message": "Tempo dende que a aeronave foi armada por última vez"
+    },
+    "osdDescStatMaxDistance": {
+        "message": "Distancia máxima a posición de casa"
+    },
+    "osdDescStatBlackboxLogNumber": {
+        "message": "Número de rexistro para este voo na caixa negra"
+    },
+    "osdDescStatTimer1": {
+        "message": "Valor do temporizador 1 no momento do desarme"
+    },
+    "osdDescStatTimer2": {
+        "message": "Valor do temporizador 2 no momento do desarme"
+    },
+    "osdDescStatRtcDateTime": {
+        "message": "Data e hora real"
+    },
+    "osdDescStatBattery": {
+        "message": "Voltaxe da batería en tempo real"
+    },
+    "osdDescStatGForce": {
+        "message": "Máxima forza G experimentada pola aeronave"
+    },
+    "osdDescStatEscTemperature": {
+        "message": "Temperatura máxima ESC"
+    },
+    "osdDescStatEscRpm": {
+        "message": "RPM máximos ESC"
+    },
     "osdWarningBatteryNotFull": {
         "message": "Alerta cando a batería está conectada pero non cargada totalmente"
     },
