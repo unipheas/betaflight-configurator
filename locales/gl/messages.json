@@ -1656,6 +1656,48 @@
     "pidTuningItermRotation": {
         "message": "Rotación Término I"
     },
+    "pidTuningItermRotationHelp": {
+        "message": "Xira correctamente o vector Termo I actual a outros eixes mentres o quad xira ao xirarse continuamente durante os rolls e ao realizar embudos e outros trucos. Moi apreciado polos pilotos LOS acro."
+    },
+    "pidTuningSmartFeedforward": {
+        "message": "Smart Feedforward"
+    },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "Reduce o efecto do termo F no PID. Cando tanto o termo P como o termo F están activos no mesmo momento, só usa o maior dos dous, evitando pasarse sen necesidade de levantar D, pero tamén reduce o efecto de reacción producido polo termo F cando se engade a P."
+    },
+    "pidTuningItermRelax": {
+        "message": "Afloxar Termo I"
+    },
+    "pidTuningItermRelaxHelp": {
+        "message": "Limita a acumulación de Termo I cando se producen movementos rápidos. Isto axuda especialmente a reducir o retroceso ao final dos rolls e outros movementos rápidos. Pode escoller os eixes nos que está activo e se o movemento rápido está detectado usando o Xiro ou o Setpoint (stick)."
+    },
+    "pidTuningItermRelaxAxes": {
+        "message": "Eixos:"
+    },
+    "pidTuningItermRelaxAxesOptionRP": {
+        "message": "RP"
+    },
+    "pidTuningItermRelaxAxesOptionRPY": {
+        "message": "RPY"
+    },
+    "pidTuningItermRelaxAxesOptionRPInc": {
+        "message": "RP (solo incremento)"
+    },
+    "pidTuningItermRelaxAxesOptionRPYInc": {
+        "message": "RPY (solo incremento)"
+    },
+    "pidTuningItermRelaxType": {
+        "message": "Tipo:"
+    },
+    "pidTuningItermRelaxTypeOptionGyro": {
+        "message": "Xiro"
+    },
+    "pidTuningItermRelaxTypeOptionSetpoint": {
+        "message": "Valor obxetivo"
+    },
+    "pidTuningAbsoluteControlGain": {
+        "message": "Control Absoluto"
+    },
     "failsafeFeaturesHelpOld": {
         "message": "A configuración de Failsafe cambiou considerablemente. Utiliza Betaflight <strong>v1.12.0+<\/strong> para habilitar o panel de configuración mellorado."
     },
