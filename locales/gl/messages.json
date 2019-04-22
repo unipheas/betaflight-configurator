@@ -1046,8 +1046,41 @@
     "receiverRcInterpolationInterval": {
         "message": "Intervalo de interpolación RC [ms]"
     },
+    "pidTuningFeedforwardTransition": {
+        "message": "Transición de Feedforward"
+    },
+    "pidTuningFeedforwardTransitionHelp": {
+        "message": "Con este parámetro, o termo Feedforward pode reducirse preto do centro dos sticks, o que resulta nun final máis suave dos flips e rolls.<br> O valor representa un punto de desvío do stick: 0 - stick centrado, 1 - deflexión completa. Cando o stick está por riba dese punto, Feedforward mantense constante no seu valor configurado. Cando o stick colócase por debaixo dese punto, Feedforward redúcese proporcionalmente, alcanzando 0 na posición central do stick.<br> O valor de 1 dá o efecto de alisado máximo, mentres que o valor de 0 mantén o Feedforward fixado no seu valor configurado en todo o intervalo de stick."
+    },
+    "pidTuningDtermSetpointTransition": {
+        "message": "Transición de punto D"
+    },
+    "pidTuningDtermSetpoint": {
+        "message": "Peso do punto D"
+    },
+    "pidTuningDtermSetpointTransitionHelp": {
+        "message": "Con este parámetro, o termo Feedforward pode reducirse preto do centro dos sticks, o que resulta nun final máis suave dos flips e rolls.<br> O valor representa un punto de desvío do stick: 0 - stick centrado, 1 - deflexión completa. Cando o stick está por riba dese punto, Feedforward mantense constante no seu valor configurado. Cando o stick colócase por debaixo dese punto, Feedforward redúcese proporcionalmente, alcanzando 0 na posición central do stick.<br> O valor de 1 dá o efecto de alisado máximo, mentres que o valor de 0 mantén o Feedforward fixado no seu valor configurado en todo o intervalo de stick."
+    },
+    "pidTuningDtermSetpointHelp": {
+        "message": "Este parámetro determina o efecto de aceleración de stick dentro do compoñente derivado.<br> Valor de 0 é igual ao antigo método de medición onde D só rastrexa o xiro, mentres que o valor de 1 é igual ao antigo método de rotación con igual xiro e relación de seguimento do stick.<br> Un valor baixo equivale a unha resposta de pau máis lenta \/ suave, mentres que un valor máis elevado proporciona máis resposta de aceleración de stick.<br> Recoméndase que a interpolación de RC estea habilitada con valores máis altos para evitar que os golpes de control fagan ruído."
+    },
     "receiverHelp": {
         "message": "Por favor, lee o capítulo de receptores na documentación. Configura os portos de serie (se e necesario), modo do receptor (serial\/ppm\/pwm), provedor (para receptores de serie), enlaza o receptor, configura o mapa de canales, configura os endpoints\/os rangos da emisora de forma que los canales vaian dende ~1000 ata ~2000. Establece o punto medio (por defecto 1500), axusta o trim dos canales a 1500, configura o deadband dos canales, comproba o comportamento cando a emisora encontrase apagada ou fora de.<br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Antes de voar lee o capítulo da documentación do modo failsafe e configurao."
+    },
+    "receiverStickCenter": {
+        "message": "Stick centrado"
+    },
+    "receiverHelpStickCenter": {
+        "message": "O valor (en us) é usado para determinar se un stick está centrado (MID_RC)."
+    },
+    "receiverStickMax": {
+        "message": "Límite \"Stick Alto\""
+    },
+    "receiverHelpStickMax": {
+        "message": "O valor mínimo (en us) para que un stick sexa recoñecido como alto \/ dereito para a entrada de comando (MAX_CHECK)."
+    },
+    "receiverDeadband": {
+        "message": "Progreso RC"
     },
     "adjustmentsSave": {
         "message": "Gardar"
