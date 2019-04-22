@@ -1620,6 +1620,24 @@
     "controlAxisAux2": {
         "message": "AUX 2"
     },
+    "pidTuningDTermLowpass2Type": {
+        "message": "Tipo de filtro D Termo Lowpass 2"
+    },
+    "pidTuningDTermLowpassDynMinFrequency": {
+        "message": "D termo Lowpass 1 Frecuencia mínima de corte dinámica [Hz]"
+    },
+    "pidTuningDTermLowpassDynMaxFrequency": {
+        "message": "D Termo Lowpass 1 Frecuencia máxima de corte dinámica [Hz]"
+    },
+    "pidTuningDTermLowpassDynType": {
+        "message": "D Term Lowpass 1 Tipo de filtro dinámico"
+    },
+    "pidTuningDTermNotchFiltersGroup": {
+        "message": "Filtros Notch de termo D"
+    },
+    "pidTuningDTermNotchFrequency": {
+        "message": "Filtro D de terminais Notch Frecuencia do centro [Hz]"
+    },
     "failsafeFeaturesHelpOld": {
         "message": "A configuración de Failsafe cambiou considerablemente. Utiliza Betaflight <strong>v1.12.0+<\/strong> para habilitar o panel de configuración mellorado."
     },
