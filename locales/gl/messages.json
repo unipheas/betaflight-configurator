@@ -2010,6 +2010,9 @@
     "servosMax": {
         "message": "MAX"
     },
+    "servosAngleAtMin": {
+        "message": "Ángulo ó mín"
+    },
     "servosAngleAtMax": {
         "message": "Ángulo máximo"
     },
@@ -2496,6 +2499,9 @@
     "firmwareFlasherOptionLabelBuildTypeRelease": {
         "message": "Versións"
     },
+    "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
+        "message": "Versións e versións candidatas"
+    },
     "firmwareFlasherOptionLabelBuildTypeDevelopment": {
         "message": "Desenvolvemento"
     },
@@ -2683,6 +2689,10 @@
     },
     "ledStripModeColorsModeHorizon": {
         "message": "Horizon",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAngle": {
+        "message": "Angle",
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripModeColorsModeMag": {
@@ -3003,6 +3013,9 @@
     },
     "pidTuningDTermLowpassFrequency": {
         "message": "Frecuencia de Corte D Term Paso Baixo 1 [Hz]"
+    },
+    "pidTuningDTermLowpass2Frequency": {
+        "message": "Frecuencia de Corte D Term Paso Baixo 2 [Hz]"
     },
     "pidTuningDTermLowpass2Type": {
         "message": "Tipo de filtro D Termo Lowpass 2"
@@ -3337,6 +3350,33 @@
     "powerVoltageId69": {
         "message": "ESC Motor 10"
     },
+    "powerVoltageId70": {
+        "message": "ESC Motor 11"
+    },
+    "powerVoltageId71": {
+        "message": "ESC Motor 12"
+    },
+    "powerVoltageId80": {
+        "message": "Celda 1"
+    },
+    "powerVoltageId81": {
+        "message": "Celda 2"
+    },
+    "powerVoltageId82": {
+        "message": "Celda 3"
+    },
+    "powerVoltageId83": {
+        "message": "Celda 4"
+    },
+    "powerVoltageId84": {
+        "message": "Celda 5"
+    },
+    "powerVoltageId85": {
+        "message": "Celda 6"
+    },
+    "powerVoltageScale": {
+        "message": "Escala"
+    },
     "powerVoltageDivider": {
         "message": "Valor Divisor"
     },
@@ -3642,6 +3682,9 @@
     },
     "osdDescElementPIDRateProfile": {
         "message": "Visualización numérica do perfil activo de PID e rates"
+    },
+    "osdDescElementBatteryWarning": {
+        "message": "Texto de aviso que aparece cando o voltaxe da batería cae por debaixo do limiar de alarma"
     },
     "osdDescElementAvgCellVoltage": {
         "message": "Voltaxe medio das baterías (voltaxe principal da batería \/ número de celdas)"
@@ -3990,6 +4033,9 @@
     },
     "configurationBatteryMultiwiiCurrent": {
         "message": "Activa soporte para la salida de corriente heredada MSP Multiwii"
+    },
+    "pidTuningProfile": {
+        "message": "Perfil"
     },
     "pidTuningProfileTip": {
         "message": "Ata 3 (2 para algúns controladores) perfis diferentes poden ser almacenados no controlador de voo. O perfil de pid inclue pid, punto de axuste de d e os axustes de ángulo\/horizonte deste apartado. Unha vez nol campo, pódense empregar simples comandos de palanca (mirar instruccións online) para cambiar entre perfis."
