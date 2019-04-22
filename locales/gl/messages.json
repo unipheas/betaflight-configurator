@@ -2484,6 +2484,9 @@
     "firmwareFlasherManualBaud": {
         "message": "Velocidade manual"
     },
+    "firmwareFlasherManualBaudDescription": {
+        "message": "Selección manual da velocidade de transmisión en baudios para controladoras que non soportan a velocidade por defecto ou que se están a actualizar a través de bluetooth.<br \/><span class=\"message-negative\">Nota:<\/span> Non empregado cando se está a utilizar USB DFU"
+    },
     "firmwareFlasherBaudRate": {
         "message": "Velocidade de Transmisión"
     },
@@ -3480,7 +3483,7 @@
         "message": "O controlador de voo non responde aos comandos OSD. Isto probablemente significa que non ten un OSD integrado de BetaFlight."
     },
     "osdSetupUnsupportedNote2": {
-        "message": "Observa que algunhas placas controladoras teñen integrado un <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a> que pode ser flasheado e configurado con <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>, de calquera manera o MinimOSD non pode ser configurado a través de este interfaz."
+        "message": "Observa que algunhas placas controladoras teñen integrado un <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a> que pode ser flasheado e configurado con <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>, de calquera maneira o MinimOSD non pode ser configurado a través deste interfaz."
     },
     "osdSetupProfilesTitle": {
         "message": "Número Perfil OSD",
@@ -3927,7 +3930,7 @@
         "message": "Axusta o sistema de unidades usado para as lecturas numéricas."
     },
     "osdSectionHelpTimers": {
-        "message": "Configurar os cronómetros de voo"
+        "message": "Configurar os temporizadores de voo."
     },
     "osdSectionHelpAlarms": {
         "message": "Axusta os limiares empregados para os elementos do OSD con estado de alarma."
@@ -4128,10 +4131,10 @@
         "message": "Cancelar"
     },
     "modeCameraWifi": {
-        "message": "Botón da WI-FI da cámara"
+        "message": "Botón da cámara Wi-fi"
     },
     "modeCameraPower": {
-        "message": "Botón de encendido"
+        "message": "Botón encendido da cámara"
     },
     "modeCameraChangeMode": {
         "message": "Cambiar o modo da cámara"
