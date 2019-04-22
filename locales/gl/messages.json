@@ -1188,6 +1188,9 @@
     "configuration3dDeadbandLow": {
         "message": "Baixa Bandamorta 3D"
     },
+    "configuration3dDeadbandHigh": {
+        "message": "Alta Bandamorta 3D"
+    },
     "configuration3dNeutral": {
         "message": "3D Neutro"
     },
@@ -1316,6 +1319,9 @@
     },
     "portsFunction_RX_SERIAL": {
         "message": "Serial RX"
+    },
+    "portsFunction_BLACKBOX": {
+        "message": "Rexistro de caixa negra"
     },
     "portsFunction_TBS_SMARTAUDIO": {
         "message": "VTX (TBS SmartAudio)"
@@ -1533,8 +1539,134 @@
     "pidTuningRate": {
         "message": "Rate"
     },
+    "pidTuningSuperRate": {
+        "message": "Super Rate"
+    },
+    "pidTuningRatesPreview": {
+        "message": "Previsualizar tasas"
+    },
+    "pidTuningRcExpo": {
+        "message": "RC Expo"
+    },
+    "pidTuningTPA": {
+        "message": "TPA"
+    },
+    "pidTuningTPABreakPoint": {
+        "message": "TPA Breakpoint"
+    },
+    "pidTuningThrottleLimitType": {
+        "message": "Límite Throttle"
+    },
+    "pidTuningThrottleLimitPercent": {
+        "message": "Límite Throttle %"
+    },
+    "pidTuningThrottleLimitTypeOff": {
+        "message": "OFF"
+    },
+    "pidTuningThrottleLimitTypeScale": {
+        "message": "Escala"
+    },
+    "pidTuningThrottleLimitTypeClip": {
+        "message": "CLIP"
+    },
+    "pidTuningThrottleLimitTypeTip": {
+        "message": "Seleccione o tipo de limitación do acelerador. <b> Desactivar <\/b> Desactivar a función, <b> ESCALA <\/b> transformará o rango do acelerador de 0 á porcentaxe seleccionada usando o recorrido completo, <b> CLIP <\/b> establecerá un porcentaxe de acelerador máximo e un recorrido por riba que non teña ningún efecto adicional"
+    },
+    "pidTuningThrottleLimitPercentTip": {
+        "message": "Estableza a porcentaxe de límite do acelerador desexado. O axuste ao 100% desactiva a función."
+    },
+    "pidTuningFilter": {
+        "message": "Filtro"
+    },
+    "pidTuningFilterFrequency": {
+        "message": "Frecuencia"
+    },
+    "pidTuningRatesCurve": {
+        "message": "Valores"
+    },
+    "throttle": {
+        "message": "Throttle"
+    },
+    "pidTuningButtonSave": {
+        "message": "Gardar"
+    },
+    "pidTuningButtonRefresh": {
+        "message": "Refrescar"
+    },
+    "pidTuningProfileHead": {
+        "message": "Perfil"
+    },
+    "pidTuningControllerHead": {
+        "message": "Controlador PID"
+    },
+    "pidTuningCopyProfile": {
+        "message": "Copiar valores do perfil"
+    },
+    "pidTuningCopyRateProfile": {
+        "message": "Copiar valores do perfil de rate"
+    },
+    "dialogCopyProfileText": {
+        "message": "Copiar valores dende o perfil actual a"
+    },
+    "dialogCopyRateProfileText": {
+        "message": "Copiar valores dende o perfil de rates actual a"
+    },
+    "dialogCopyProfileTitle": {
+        "message": "Copiar valores do perfil"
+    },
+    "dialogCopyProfileNote": {
+        "message": "Eliminaranse e sobrescribirán todos os valores do perfil de destino"
+    },
+    "dialogCopyProfileConfirm": {
+        "message": "Copiar"
+    },
+    "dialogCopyProfileClose": {
+        "message": "Cancelar"
+    },
+    "pidTuningResetProfile": {
+        "message": "Resetear tódolos valores do perfil"
+    },
+    "pidTuningProfileReset": {
+        "message": "Cargados os valeres por defecto do perfil."
+    },
+    "pidTuningReceivedProfile": {
+        "message": "Conjunto de perfil do controlador de voo: <strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningReceivedRateProfile": {
+        "message": "Conjunto de perfil de rate do controlador de voo: <strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningLoadedProfile": {
+        "message": "Perfil cargado: <strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningLoadedRateProfile": {
+        "message": "Rateprofile cargado: <strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningDataRefreshed": {
+        "message": "Datos PID <strong>actualizados<\/strong>"
+    },
+    "pidTuningEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">gardada<\/span>"
+    },
     "receiverHelp": {
         "message": "Por favor, lee o capítulo de receptores na documentación. Configura os portos de serie (se e necesario), modo do receptor (serial\/ppm\/pwm), provedor (para receptores de serie), enlaza o receptor, configura o mapa de canales, configura os endpoints\/os rangos da emisora de forma que los canales vaian dende ~1000 ata ~2000. Establece o punto medio (por defecto 1500), axusta o trim dos canales a 1500, configura o deadband dos canales, comproba o comportamento cando a emisora encontrase apagada ou fora de.<br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Antes de voar lee o capítulo da documentación do modo failsafe e configurao."
+    },
+    "tuningHelp": {
+        "message": "<b>Consellos de axuste<\/b><br\/><span class=\"message-negative\"> IMPORTANTE: <\/span> É importante verificar as temperaturas do motor durante os primeiros voos. Canto maior sexa o valor do filtro, mellor pode voar, pero tamén conseguirá máis ruído nos motores. <br> O valor predeterminado de 100Hz é óptimo, pero para configuracións de ruído pode intentar baixar o filtro Dterm a 50Hz e posiblemente tamén o filtro xiratorio."
+    },
+    "filterWarning": {
+        "message": "<span class=\"message-negative\"><b>Aviso: <\/b><\/span> A cantidade de filtrado que está a usar é perigosamente baixa. É probable que sexa difícil de controlar. É altamente recomendable que <b> habilite polo menos un dos Gyro Dynamic Lowpass ou Gyro Lowpass 1 e polo menos un dos D Term Dynamic Lowpass ou D Term Lowpass 1<\/b>."
+    },
+    "receiverThrottleMid": {
+        "message": "Throttle MID"
+    },
+    "receiverThrottleExpo": {
+        "message": "Throttle EXPO"
+    },
+    "receiverStickMin": {
+        "message": "'Stick Low' Threshold"
+    },
+    "receiverHelpStickMin": {
+        "message": "O valor máximo (en us) para que un stick sexa recoñecido como baixo para a entrada de comando (MIN_CHECK)."
     },
     "receiverStickCenter": {
         "message": "Stick centrado"
@@ -1562,6 +1694,9 @@
     },
     "recevier3dDeadbandThrottle": {
         "message": "Progreso 3D Throttle"
+    },
+    "receiverHelp3dDeadbandThrottle": {
+        "message": "Estes son valores (en us). Para ensanchar a zona neutral aumente o valor. <strong> Esta configuración é só para o acelerador 3D. <\/strong>"
     },
     "receiverChannelMap": {
         "message": "Mapa de canles"
@@ -1682,6 +1817,21 @@
     },
     "adjustmentsMin": {
         "message": "Mín"
+    },
+    "adjustmentsMax": {
+        "message": "Máximo"
+    },
+    "adjustmentsFunction0": {
+        "message": "Sin cambios"
+    },
+    "adjustmentsFunction1": {
+        "message": "Axuste valor RC"
+    },
+    "adjustmentsFunction2": {
+        "message": "Axuste RC Expo"
+    },
+    "adjustmentsFunction3": {
+        "message": "Axuste Throttle Expo"
     },
     "adjustmentsFunction4": {
         "message": "Axuste valor Pitch & Roll"
