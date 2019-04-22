@@ -767,6 +767,9 @@
     "configurationReverseMotorSwitch": {
         "message": "Dirección de motor invertida"
     },
+    "configurationReverseMotorSwitchHelp": {
+        "message": "Esta opción configura o mesturador para esperar que a dirección do motor se invirta e que as hélices estean en consecuencia.<strong>Aviso:<\/strong> isto non inverte a dirección do motor. Use a ferramenta de configuración para os seus ESCs ou cambie a orde do cableado do motor para lograr isto. Ademais, asegúrese de verificar con hélices que os seus motores están rotando nas direccións que se mostran no diagrama anterior antes de intentar armalo."
+    },
     "configurationAutoDisarmDelay": {
         "message": "Desarmar motores despóis de [segundos] (Require a característica de MOTOR_STOP)"
     },
@@ -779,8 +782,14 @@
     "configurationDigitalIdlePercent": {
         "message": "Valor Aceledaror Motor Inactivo [porcentaxe]"
     },
+    "configurationDigitalIdlePercentHelp": {
+        "message": "Este é o valor 'a ralentí' en porcentaxe do acelerador máximo que se envía aos ESCs cando a aeronave está armada e o stick está en posición mínima. Aumente o porcentaxe de valor para gañar máis velocidade do ralentí."
+    },
     "configurationThrottleMinimum": {
         "message": "Minimun Throttle (Valor minimo do ESC o armar)"
+    },
+    "configurationThrottleMinimumHelp": {
+        "message": "Este é o valor 'ralentí' que se envía aos ESCs cando a aeronave está armada e o acelerador está en posición mínima. Aumente o valor para gañar máis velocidade do ralentí. Tamén aumente o valor en caso de desincronización!"
     },
     "configurationThrottleMaximum": {
         "message": "Maximum Throttle ( Valor maximo do ESC o armar)"
@@ -790,6 +799,12 @@
     },
     "configurationThrottleMinimumCommandHelp": {
         "message": "Este é o valor que se envía aos ESC cando a nave está desarmada. Selecciona un valor onde os motores estean parados (1000 para a maioria dos ESC)"
+    },
+    "configurationDshotBeeper": {
+        "message": "Dshot Beacon Configuration"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "Use a baliza Dshot (use o pitido dos motores cando se desarme)"
     },
     "configurationBeeper": {
         "message": "Configuración do Beeper"
