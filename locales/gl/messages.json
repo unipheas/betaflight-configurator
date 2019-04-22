@@ -3153,7 +3153,7 @@
         "message": "<strong> Auto <\/strong> significa Roll, Pitch and Yaw ao centro e baixo Throttle. <strong>Manter<\/strong> significa manter o último valor bo recibido"
     },
     "failsafeChannelFallbackSettingsHold": {
-        "message": "<strong>Manter<\/strong> significa manter o último valor correcto recibido. <strong>Axustar<\/strong> significa que se utilizará o valor especificado aquí"
+        "message": "<strong>Hold<\/strong> significa manter o último valor correcto recibido. <strong>Set<\/strong> significa que se utilizará o valor especificado aquí"
     },
     "failsafeStageTwoSettingsTitle": {
         "message": "Etapa 2 - Axustes"
