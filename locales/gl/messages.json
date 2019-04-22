@@ -1809,14 +1809,155 @@
     "failsafeGpsRescueItemThrottleMin": {
         "message": "Aceleredor mínimo"
     },
+    "failsafeGpsRescueItemThrottleMax": {
+        "message": "Acelerador máximo"
+    },
+    "failsafeGpsRescueItemThrottleHover": {
+        "message": "Acelerador planear"
+    },
+    "failsafeGpsRescueItemMinSats": {
+        "message": "Satélites mínimos"
+    },
+    "failsafeGpsRescueItemSanityChecks": {
+        "message": "Controis de corrección"
+    },
     "failsafeKillSwitchItem": {
         "message": "Failsafe Kill Switch (configura o Failsafe na Pestana de Modos)"
     },
     "failsafeKillSwitchHelp": {
         "message": "Activa esta opción para facer que o interruptor de failsafe (na Pestana de Modos) actue como un interruptor de apagado, ignorando o procedemento de Failsafe seleccionado. <strong>Nota:<\/strong> O armado está bloqueado mentres o interruptor de failsafe esté en posición de ACTIVADO."
     },
+    "powerVoltageDivider": {
+        "message": "Valor Divisor"
+    },
+    "powerVoltageMultiplier": {
+        "message": "Valor Multiplicador"
+    },
+    "powerAmperageHead": {
+        "message": "Medidor de Amperaxe"
+    },
+    "powerAmperageId10": {
+        "message": "Batería"
+    },
+    "powerAmperageId50": {
+        "message": "ESC Combinado"
+    },
+    "powerAmperageId60": {
+        "message": "ESC Motor 1"
+    },
+    "powerAmperageId61": {
+        "message": "ESC Motor 2"
+    },
+    "powerAmperageId62": {
+        "message": "ESC Motor 3"
+    },
+    "powerAmperageId63": {
+        "message": "ESC Motor 4"
+    },
+    "powerAmperageId64": {
+        "message": "ESC Motor 5"
+    },
+    "powerAmperageId65": {
+        "message": "ESC Motor 6"
+    },
+    "powerAmperageId66": {
+        "message": "ESC Motor 7"
+    },
+    "powerAmperageId67": {
+        "message": "ESC Motor 8"
+    },
+    "powerAmperageId68": {
+        "message": "ESC Motor 9"
+    },
+    "powerAmperageId69": {
+        "message": "ESC Motor 10"
+    },
+    "powerAmperageId70": {
+        "message": "ESC Motor 11"
+    },
+    "powerAmperageId71": {
+        "message": "ESC Motor 12"
+    },
+    "powerAmperageId80": {
+        "message": "Virtual"
+    },
+    "powerAmperageId90": {
+        "message": "MSP"
+    },
+    "powerMahValue": {
+        "message": "$1 mAh"
+    },
+    "powerAmperageScale": {
+        "message": "Escala [1\/10mV\/A]"
+    },
+    "powerAmperageOffset": {
+        "message": "Desprazamento [mA]"
+    },
+    "powerBatteryHead": {
+        "message": "Batería"
+    },
+    "powerStateHead": {
+        "message": "Estado da Energía"
+    },
+    "powerBatteryConnected": {
+        "message": "Conectada"
+    },
+    "powerBatteryConnectedValueYes": {
+        "message": "Si (Cells: $1)"
+    },
+    "powerBatteryConnectedValueNo": {
+        "message": "Non"
+    },
+    "powerBatteryVoltage": {
+        "message": "Voltaxe"
+    },
+    "powerBatteryCurrentDrawn": {
+        "message": "mAh empregados"
+    },
+    "powerBatteryAmperage": {
+        "message": "Amperaxe"
+    },
+    "powerBatteryCapacity": {
+        "message": "Capacidade (mAh)"
+    },
+    "osdSetupTitle": {
+        "message": "OSD"
+    },
+    "osdSetupPreviewHelp": {
+        "message": "<strong> Nota: <\/strong> a vista previa da OSD pode non mostrar a fonte real que está instalada no controlador de voo."
+    },
+    "osdSetupUnsupportedNote1": {
+        "message": "O controlador de voo non responde aos comandos OSD. Isto probablemente significa que non ten un OSD integrado de BetaFlight."
+    },
     "osdSetupUnsupportedNote2": {
         "message": "Observa que algunhas placas controladoras teñen integrado un <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a> que pode ser flasheado e configurado con <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>, de calquera manera o MinimOSD non pode ser configurado a través de este interfaz."
+    },
+    "osdSetupProfilesTitle": {
+        "message": "Número Perfil OSD",
+        "description": "Description of the header of the OSD elements column associated to each profile"
+    },
+    "osdSetupElementsTitle": {
+        "message": "Elementos"
+    },
+    "osdSetupPreviewTitle": {
+        "message": "Arrastre elementos para cambiar de posición",
+        "description": "Indicates in the preview window of the OSD that the user can drag the elements to reorder them"
+    },
+    "osdSetupPreviewSelectProfileTitle": {
+        "message": "Previsualizar para",
+        "description": "Label of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupSelectedProfileTitle": {
+        "message": "Perfil OSD activo",
+        "description": "Title of the box to select the current active OSD profile"
+    },
+    "osdSetupSelectedProfileLabel": {
+        "message": "Actual:",
+        "description": "Label for the selection of the curren active OSD profile"
+    },
+    "osdSetupPreviewSelectProfileElement": {
+        "message": "Perfil OSD {{profileNumber}}",
+        "description": "Content of the selector for the OSD Profile in the preview"
     },
     "osdWarningBatteryNotFull": {
         "message": "Alerta cando a batería está conectada pero non cargada totalmente"
