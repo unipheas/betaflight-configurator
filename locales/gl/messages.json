@@ -2659,6 +2659,36 @@
     "pidTuningGyroNotchFiltersGroup": {
         "message": "Filtros Notch do Xiro"
     },
+    "pidTuningGyroNotch1Frequency": {
+        "message": "Xiro Filtro Notch 1 Frecuencia Central [Hz]"
+    },
+    "pidTuningGyroNotch2Frequency": {
+        "message": "Xiro Filtro Notch 2 Frecuencia Central [Hz]"
+    },
+    "pidTuningGyroNotch1Cutoff": {
+        "message": "Xiro Filtro Notch 1 Frecuencia de Corte [Hz]"
+    },
+    "pidTuningGyroNotch2Cutoff": {
+        "message": "Xiro Filtro Notch 2 Frecuencia de Corte [Hz]"
+    },
+    "pidTuningNotchFilterHelp": {
+        "message": "O Filtro Notch ten un Centro e un Corte. O filtro é simétrico. A Frecuencia Central é o centro do filtro e a Frecuencia de Corte é donde o filtro Notch empeza. Por exemplo cunha Frecuencia de Corte de 160 e unha Frecuencia Central de 260 o rango é 160-360Hz cunha maior atenuación en torno ó centro"
+    },
+    "pidTuningLowpassFilterHelp": {
+        "message": "Os Filtros Paso Baixo poden ter duas variantes: estático e dinámico. Para un determinado número de filtro paso baixo só uno pode estar activado á vez (estático ou dinámico). O estático só ten un Corte que define de algunha maneira dónde empeza o filtro. O dinámico define valores mínimos e máximos, que é o rango dónde se sitúa o Corte. Este Corte móvese entre o mínimo e o máximo á vez que se move o stick do acelerador."
+    },
+    "pidTuningFilterSettings": {
+        "message": "Axustes de Filtros dependentes do Perfil"
+    },
+    "pidTuningDTermLowpassFiltersGroup": {
+        "message": "Filtros Paso Baixo do Termo D"
+    },
+    "pidTuningDTermLowpassType": {
+        "message": "Tipo de Filtro D Term Paso Baixo 1"
+    },
+    "pidTuningDTermLowpassFrequency": {
+        "message": "Frecuencia de Corte D Term Paso Baixo 1 [Hz]"
+    },
     "pidTuningDTermLowpass2Type": {
         "message": "Tipo de filtro D Termo Lowpass 2"
     },
