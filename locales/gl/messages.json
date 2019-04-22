@@ -925,6 +925,22 @@
     "pidTuningAntiGravityThres": {
         "message": "Limiar Anti gravidade"
     },
+    "pidTuningDMinRoll": {
+        "message": "Roll",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinPitch": {
+        "message": "Pitch",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinYaw": {
+        "message": "Yaw",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinGain": {
+        "message": "Ganancia",
+        "description": "Gain of the D Min feature"
+    },
     "receiverHelp": {
         "message": "Por favor, lee o capítulo de receptores na documentación. Configura os portos de serie (se e necesario), modo do receptor (serial\/ppm\/pwm), provedor (para receptores de serie), enlaza o receptor, configura o mapa de canales, configura os endpoints\/os rangos da emisora de forma que los canales vaian dende ~1000 ata ~2000. Establece o punto medio (por defecto 1500), axusta o trim dos canales a 1500, configura o deadband dos canales, comproba o comportamento cando a emisora encontrase apagada ou fora de.<br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Antes de voar lee o capítulo da documentación do modo failsafe e configurao."
     },
