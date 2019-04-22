@@ -2178,6 +2178,33 @@
     "configurationBatteryCurrent": {
         "message": "Corrente da LIPO"
     },
+    "pidTuningProfileTip": {
+        "message": "Ata 3 (2 para algúns controladores) perfis diferentes poden ser almacenados no controlador de voo. O perfil de pid inclue pid, punto de axuste de d e os axustes de ángulo\/horizonte deste apartado. Unha vez nol campo, pódense empregar simples comandos de palanca (mirar instruccións online) para cambiar entre perfis."
+    },
+    "pidTuningRateProfile": {
+        "message": "Perfil de Tasas"
+    },
+    "pidTuningRateProfileTip": {
+        "message": "Asta 3 Perfiles de Tasas diferentes por perfil poden ser almacenados no controlador de voo. Os perfis de tasas incluen axustes para 'Tasa RC', 'Tasa', 'Expo RC', 'Acelerador' e 'TPA'. Cambiar entre perfiles de tasas é posible en voo, configurando un interruptor de 3 posicións como 'Selección de Perfil de Tasas' no apartado de ' Axustes'."
+    },
+    "pidTuningDelta": {
+        "message": "Método Derivativo"
+    },
+    "pidTuningDeltaError": {
+        "message": "Erro"
+    },
+    "pidTuningDeltaMeasurement": {
+        "message": "Medida"
+    },
+    "pidTuningDeltaTip": {
+        "message": "<b>Derivativo dende Erro<\/b> proporciona una respuesta más directa do stick e prefírese para Carreiras.<br><br><b>Derivativo dende Medida<\/b> proporciona unha respuesta do stick máis suave o cual é máis útil para freestyle"
+    },
+    "pidTuningPidControllerTip": {
+        "message": "<b>Tradicional vs Betaflight (planear):<\/b> A escala e a lóxica do PID son exactamente as mesmas. No se necesita reaxustar. Tradicional é o antiguo betaflight evolucionado e reescrito, que é o controlador PID básico basado en matemáticas integradas. O controlador PID de Betaflight usa matemáticas en punto flotante e tene moitas novas funcionalidades especialmente diseñadas para aplicacións multirotor<br><b>Flotante vs Enteiro:<\/b> La escala e a lóxica do PID son exactamente as mesmas. No se necesita reaxustar. As placas F1 non teñen FPU integrada e o cálculo en punto flotante incrementa a carga de CPU e a matemática integral melloraría o rendimento, pero a matemática en punto flotante pode dar algo máis de precisión."
+    },
+    "pidTuningFilterTip": {
+        "message": "<b>Filtro Soft do Xiro:<\/b> Filtro paso baixo para o xiro. Usa un valor máis baixo para maior filtrado.<br><b>Filtro Termo D:<\/b> Filtro paso baixo para D termo. Pode afectar ó axuste de D. Usa un valor máis baixo para maior filtrado. <br><b>Filtro Yaw:<\/b> Filtra a saída de yaw. Pode axudar en configuracións con eixo yaw ruidoso."
+    },
     "pidTuningRatesTip": {
         "message": "Xogue cos rates e vexa como afectan á curva do stick"
     },
