@@ -1638,6 +1638,24 @@
     "pidTuningDTermNotchFrequency": {
         "message": "Filtro D de terminais Notch Frecuencia do centro [Hz]"
     },
+    "pidTuningDTermNotchCutoff": {
+        "message": "Frecuencia de corte do filtro D de termo Notch [Hz]"
+    },
+    "pidTuningYawLospassFiltersGroup": {
+        "message": "Filtros Paso Baixo do Yaw"
+    },
+    "pidTuningYawLowpassFrequency": {
+        "message": "Frecuencia de corte de paso baixo de Yaw [Hz]"
+    },
+    "pidTuningVbatPidCompensation": {
+        "message": "Compensación PID Vbat"
+    },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Aumenta os valores PID para compensar cando Vbat diminúe. Isto dará características de voo máis constantes durante todo o voo. A cantidade de compensación que se aplica calcúlase a partir do $t(powerBatteryMaximum.message) definido na páxina $t(tabPower.message), así que asegúrese de que está axustado a algo apropiado."
+    },
+    "pidTuningItermRotation": {
+        "message": "Rotación Término I"
+    },
     "failsafeFeaturesHelpOld": {
         "message": "A configuración de Failsafe cambiou considerablemente. Utiliza Betaflight <strong>v1.12.0+<\/strong> para habilitar o panel de configuración mellorado."
     },
