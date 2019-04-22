@@ -3128,10 +3128,82 @@
         "message": "Reiniciar Axustes"
     },
     "osdDescElementMainBattVoltage": {
-        "message": "Voltaxe instantáneo da batería principal (parpadea por debaixo do umbral de alarma)"
+        "message": "Voltaxe instantáneo da batería principal (parpadea por debaixo do limiar de alarma)"
     },
     "osdDescElementRssiValue": {
-        "message": "Valor instantáneo RSSI (parpadea por debaixo do umbral de alarma)"
+        "message": "Valor instantáneo RSSI (parpadea por debaixo do limiar de alarma)"
+    },
+    "osdDescElementThrottlePosition": {
+        "message": "Valor actual do canle do acelerador"
+    },
+    "osdDescElementArmed": {
+        "message": "Mensaxe de texto armado"
+    },
+    "osdDescElementDisarmed": {
+        "message": "Mensaxe de texto desarmado"
+    },
+    "osdDescElementCrosshairs": {
+        "message": "Punto de mira no centro da pantalla"
+    },
+    "osdDescElementArtificialHorizon": {
+        "message": "Indicador gráfico do horizonte artificial"
+    },
+    "osdDescElementHorizonSidebars": {
+        "message": "Barras laterais do indicador do horizonte artificial"
+    },
+    "osdDescElementCurrentDraw": {
+        "message": "Consumo instantáneo de corriente da batería"
+    },
+    "osdDescElementMahDrawn": {
+        "message": "Capacidad total usada da batería"
+    },
+    "osdDescElementCraftName": {
+        "message": "Nome da aeronave tal como está no apartado Configuración"
+    },
+    "osdDescElementDisplayName": {
+        "message": "Mostrar nome configurado có comando cli \"display_name\""
+    },
+    "osdDescElementAltitude": {
+        "message": "Altitude actual (parpadea por riba do limiar de alarma)"
+    },
+    "osdDescElementOnTime": {
+        "message": "Tempo total que a aeronave estivo encendida"
+    },
+    "osdDescElementFlyTime": {
+        "message": "Tempo total que a aeronave estivo armada no ciclo actual de enerxía (parpadea por riba do limiar de alarma)"
+    },
+    "osdDescElementFlyMode": {
+        "message": "Modo de voo actual"
+    },
+    "osdDescElementGPSSpeed": {
+        "message": "Velocidade proporcionada polo GPS"
+    },
+    "osdDescElementGPSSats": {
+        "message": "Número de satélites GPS fixados"
+    },
+    "osdDescElementGPSLon": {
+        "message": "Lonxitude GPS"
+    },
+    "osdDescElementGPSLat": {
+        "message": "Latitude GPS"
+    },
+    "osdDescElementDebug": {
+        "message": "Variables de Debug"
+    },
+    "osdDescElementPIDRoll": {
+        "message": "Valores PID do eixo roll"
+    },
+    "osdDescElementPIDPitch": {
+        "message": "Valores PID do eixo pitch"
+    },
+    "osdDescElementPIDYaw": {
+        "message": "Valores PID do eixo yaw"
+    },
+    "osdDescElementPower": {
+        "message": "Potencia eléctrica instantánea consumida"
+    },
+    "osdDescElementPIDRateProfile": {
+        "message": "Visualización numérica do perfil activo de PID e rates"
     },
     "osdDescElementAvgCellVoltage": {
         "message": "Voltaxe medio das baterías (voltaxe principal da batería \/ número de celdas)"
