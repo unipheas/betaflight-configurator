@@ -925,6 +925,14 @@
     "pidTuningAntiGravityThres": {
         "message": "Limiar Anti gravidade"
     },
+    "pidTuningDMinHelp": {
+        "message": "D Min proporciona un xeito de ter un nivel máis baixo de D no voo normal e un nivel máis elevado para manobras rápidas que poidan provocar un exceso, como flips e rolls. Tamén podrá subir D durante prop wash. A aeronave terá un termo D dinámico que varía de D Min (en voo normal) ao D estándar (baixo rolls e flips rápidos). Un valor cero desactivará a función. A ganancia determina o fortalecemento de D durante as entradas de adherencia rápida. O ascenso acelérase ao comezo do efecto de aumento. Isto pode ser útil se ten un exceso de velocidade con taxas moi altas en quads moi sensibles.",
+        "description": "Help message for D Min feature"
+    },
+    "pidTuningDMin": {
+        "message": "D Min",
+        "description": "Table header of the D Min feature in the PIDs tab"
+    },
     "pidTuningDMinRoll": {
         "message": "Roll",
         "description": "Axis to apply D Min feature"
@@ -940,6 +948,37 @@
     "pidTuningDMinGain": {
         "message": "Ganancia",
         "description": "Gain of the D Min feature"
+    },
+    "pidTuningDMinAdvance": {
+        "message": "Ascenso",
+        "description": "Advane of the D Min feature"
+    },
+    "pidTuningPidSettings": {
+        "message": "Configuración do controlador PID"
+    },
+    "receiverRcSmoothing": {
+        "message": "Alisado RC"
+    },
+    "receiverRcSmoothingAuto": {
+        "message": "Auto"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "Manual"
+    },
+    "receiverRcDerivativeTypeSelect": {
+        "message": "Tipo de corte derivado"
+    },
+    "receiverRcInputTypeSelect": {
+        "message": "Tipo de corte de entrada"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "Interpolación"
+    },
+    "receiverRcSmoothingFilter": {
+        "message": "Filtro"
+    },
+    "receiverRcSmoothingTypeHelp": {
+        "message": "Tipo de suavizado RC usado"
     },
     "receiverHelp": {
         "message": "Por favor, lee o capítulo de receptores na documentación. Configura os portos de serie (se e necesario), modo do receptor (serial\/ppm\/pwm), provedor (para receptores de serie), enlaza o receptor, configura o mapa de canales, configura os endpoints\/os rangos da emisora de forma que los canales vaian dende ~1000 ata ~2000. Establece o punto medio (por defecto 1500), axusta o trim dos canales a 1500, configura o deadband dos canales, comproba o comportamento cando a emisora encontrase apagada ou fora de.<br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Antes de voar lee o capítulo da documentación do modo failsafe e configurao."
