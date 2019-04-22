@@ -2337,6 +2337,9 @@
     "dataflashButtonSaveFileDeprecated": {
         "message": "Guardar flash a arquivo... (obsoleto)"
     },
+    "dataflashSaveFileDepreciationHint": {
+        "message": "Gardar os rexistros da caixa negra a través do configurador é lento e propenso a erros. Recoméndase que en cambio use<b>$t(onboardLoggingRebootMscText.message)<\/b> '(abaixo) para activar o modo de almacenamento masivo, e acceda ao controlador de voo como dispositivo de almacenamento para descargar os ficheiros de rexistro."
+    },
     "dataflashButtonErase": {
         "message": "Borrar flash"
     },
@@ -2366,6 +2369,27 @@
     },
     "dataflashButtonEraseCancel": {
         "message": "Cancelar"
+    },
+    "dataflashFileWriteFailed": {
+        "message": "Non se puido escribir no ficheiro que seleccionou, están correctos os permisos nese cartafol?"
+    },
+    "sdcardStatusNoCard": {
+        "message": "Tarxeta non insertada"
+    },
+    "sdcardStatusReboot": {
+        "message": "Erro fatal<br>Reinicia para reintentar"
+    },
+    "sdcardStatusReady": {
+        "message": "Tarxeta dispoñible"
+    },
+    "sdcardStatusStarting": {
+        "message": "Iniciando tarxeta..."
+    },
+    "sdcardStatusFileSystem": {
+        "message": "Iniciando sistema de arquivos..."
+    },
+    "sdcardStatusUnknown": {
+        "message": "Estado descoñecido $1"
     },
     "firmwareFlasherReleaseSummaryHead": {
         "message": "Información de versión"
@@ -2466,8 +2490,20 @@
     "firmwareFlasherShowDevelopmentReleasesDescription": {
         "message": "Mostrar versións candidatas ademais de versións estables"
     },
+    "firmwareFlasherOptionLoading": {
+        "message": "Cargando ..."
+    },
     "firmwareFlasherOptionLabelBuildTypeRelease": {
         "message": "Versións"
+    },
+    "firmwareFlasherOptionLabelBuildTypeDevelopment": {
+        "message": "Desenvolvemento"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_3": {
+        "message": "Parche 3.3 AKK e RDQ VTX"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_4": {
+        "message": "Parche 3.4 AKK e RDQ VTX"
     },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Elixe un Firmware \/ Controladora"
@@ -2519,6 +2555,12 @@
     },
     "firmwareFlasherRecoveryText": {
         "message": "Se perdela conexión coa tua controladora sigue estes pasos para reestabrecer a comunicación: <ul><li>Apaga<\/li><li>Activa 'Sen secuencia de reinicio', Activa 'Borrado completo do chip'.<\/li><li>Puentea os pins de BOOT ou manten pulsado o botón BOOT.<\/li><li>Encende(o LED de actividad NON parpadeará se se fai correctamente).<\/li><li>Instala todos os drivers para STM32 drivers e Zadig en caso de ser necesario (consulta a sección <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">Flasheo USB<\/a> do manual de Betaflight.<\/li><li>Cerra o configurador, Cerra todalas instancias de chrome, Cerra todalas aplicacións de Chrome, Reinicia o Configurador.<\/li><li>Solta o botón se a tua controladora ten un.<\/li><li>Carga o firmware correcto utilizando unha velocidade de transmisión manual se está especificada no manual da controladora)<\/li><li>Apaga.<\/li><li>Elimina o puenteo dos pins de BOOT<\/li><li>Encende (o LED de actividad debería de parpadear).<\/li><li>Conecta con normalidade.<\/li><\/ul>"
+    },
+    "firmwareFlasherButtonLeave": {
+        "message": "Abandoando o Instalador o Firmware"
+    },
+    "firmwareFlasherFirmwareNotLoaded": {
+        "message": "Firmware non cargado"
     },
     "ledStripModeColorsModeMag": {
         "message": "Mag",
