@@ -1503,6 +1503,123 @@
         "message": "Animación",
         "description": "One of the modes in Color Mode in Led Strip"
     },
+    "ledStripModeColorsModeBlinkBg": {
+        "message": "Parpadeo de fondo",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoSats": {
+        "message": "GPS: Non hai satélites",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoLock": {
+        "message": "GPS: Sin rexistrar",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSLocked": {
+        "message": "GPS: Rexistrado",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripWiring": {
+        "message": "Tira LED",
+        "description": "One of the modes in Led Strip"
+    },
+    "ledStripWiringMode": {
+        "message": "Modo de ordenar cables",
+        "description": "One of the wiring modes in Led Strip"
+    },
+    "ledStripWiringClearControl": {
+        "message": "Borrar seleccionado",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringClearAllControl": {
+        "message": "Borrar toda a instalación eléctrica",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringMessage": {
+        "message": "Os LED sen número de orde de arame non se gardarán.",
+        "description": "Message in the wiring modes in Led Strip"
+    },
+    "ledStripVtxFunction": {
+        "message": "Escáner de Larson"
+    },
+    "ledStripBlinkTitle": {
+        "message": "Parpadeo"
+    },
+    "ledStripBlinkAlwaysOverlay": {
+        "message": "Parpadeo continuo"
+    },
+    "ledStripBlinkLandingOverlay": {
+        "message": "Parpadeo ao aterrar"
+    },
+    "ledStripOverlayTitle": {
+        "message": "Superposición"
+    },
+    "ledStripWarningsOverlay": {
+        "message": "Avisos"
+    },
+    "ledStripIndecatorOverlay": {
+        "message": "Indicador (usa a posición na matriz)"
+    },
+    "colorBlack": {
+        "message": "negro"
+    },
+    "colorWhite": {
+        "message": "branco"
+    },
+    "colorRed": {
+        "message": "vermello"
+    },
+    "colorOrange": {
+        "message": "laranxa"
+    },
+    "colorYellow": {
+        "message": "amarelo"
+    },
+    "colorLimeGreen": {
+        "message": "verde lima"
+    },
+    "colorGreen": {
+        "message": "verde"
+    },
+    "colorMintGreen": {
+        "message": "verde menta"
+    },
+    "colorCyan": {
+        "message": "cian"
+    },
+    "colorLightBlue": {
+        "message": "azul claro"
+    },
+    "colorBlue": {
+        "message": "azul"
+    },
+    "colorDarkViolet": {
+        "message": "violeta oscuro"
+    },
+    "colorMagenta": {
+        "message": "magenta"
+    },
+    "colorDeepPink": {
+        "message": "rosa intenso"
+    },
+    "controlAxisRoll": {
+        "message": "Roll [A]"
+    },
+    "controlAxisPitch": {
+        "message": "Pitch [E]"
+    },
+    "controlAxisYaw": {
+        "message": "Yaw [R]"
+    },
+    "controlAxisThrottle": {
+        "message": "Throttle [T]"
+    },
+    "controlAxisAux1": {
+        "message": "AUX 1"
+    },
+    "controlAxisAux2": {
+        "message": "AUX 2"
+    },
     "failsafeFeaturesHelpOld": {
         "message": "A configuración de Failsafe cambiou considerablemente. Utiliza Betaflight <strong>v1.12.0+<\/strong> para habilitar o panel de configuración mellorado."
     },
