@@ -1117,22 +1117,22 @@
         "message": "Configuración do Beeper"
     },
     "beeperGYRO_CALIBRATED": {
-        "message": "Sona cando o Gyro ha sido calibrado"
+        "message": "Soa cando o Xiro foi calibrado"
     },
     "beeperRX_LOST": {
-        "message": "Sona cando o TX se apague ou se perda sinal(se repetira ata co TX estea ben)"
+        "message": "Soa cando se apague o TX ou se perda sinal (repetirase ata co TX estea ben)"
     },
     "beeperRX_LOST_LANDING": {
-        "message": "Sona SOS cando estando armado o Tx apagase ou perde sinal (autoaterrizaxe\/autodesarme)"
+        "message": "Soa SOS cando estando armado o Tx apagase ou perde sinal (autoaterrizaxe\/autodesarme)"
     },
     "beeperDISARMING": {
-        "message": "Sona cando desarmase a controladora de voo"
+        "message": "Soa cando desarmas a controladora de voo"
     },
     "beeperARMING": {
-        "message": "Sona cando se arma a controladora de voo"
+        "message": "Soa cando se arma a controladora de voo"
     },
     "beeperARMING_GPS_FIX": {
-        "message": "Sona un tono especial cando se arma a controladora e o GPS esta fixado"
+        "message": "Soa un ton especial cando se arma a controladora e o GPS está fixado"
     },
     "beeperBAT_CRIT_LOW": {
         "message": "Pitidos longos de peligro cando a batería é moi baixa (repítese)"
