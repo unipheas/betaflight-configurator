@@ -2639,6 +2639,52 @@
         "message": "Ningunha",
         "description": "One of the modes of the Led Strip"
     },
+    "ledStripFunctionColorOption": {
+        "message": "Cor",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionModesOption": {
+        "message": "Modos &amp; Orientación",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionArmOption": {
+        "message": "Estado do Armado",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionBatteryOption": {
+        "message": "Batería",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionRSSIOption": {
+        "message": "RSSI",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionGPSOption": {
+        "message": "GPS",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionRingOption": {
+        "message": "Sonido",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripColorModifierTitle": {
+        "message": "Modificador de cor"
+    },
+    "ledStripModeColorsTitle": {
+        "message": "Cores do modo"
+    },
+    "ledStripModeColorsModeOrientation": {
+        "message": "Orientación",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeHeadfree": {
+        "message": "Headfree",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeHorizon": {
+        "message": "Horizon",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
     "ledStripModeColorsModeMag": {
         "message": "Mag",
         "description": "One of the modes in Color Mode in Led Strip"
@@ -3623,6 +3669,39 @@
     },
     "osdDescStatMinLinkQuality": {
         "message": "Mínimo do indicador alternativo para 'calidade do enlace' basado na pérdida de paquetes"
+    },
+    "osdDescStatFlightDistance": {
+        "message": "Distancia total percorrida durante o voo"
+    },
+    "osdDescStatMaxFFT": {
+        "message": "Pico de frecuencia FFT"
+    },
+    "osdDescStatTotalFlights": {
+        "message": "Número total de voos"
+    },
+    "osdDescStatTotalFlightTime": {
+        "message": "Tempo total invertido voando"
+    },
+    "osdDescStatTotalFlightDistance": {
+        "message": "Distancia total percorrida"
+    },
+    "osdTimerSource": {
+        "message": "Orixen:"
+    },
+    "osdTimerSourceTooltip": {
+        "message": "Elixe o orixen do temporizador, isto controla a duración\/evento que este temporizador mide"
+    },
+    "osdTimerPrecision": {
+        "message": "Precisión:"
+    },
+    "osdTimerPrecisionTooltip": {
+        "message": "Elixe a precisión do temporizador, isto controla a precisión coa que o tiempo é reportado"
+    },
+    "osdTimerAlarm": {
+        "message": "Alarma:"
+    },
+    "osdTimerAlarmTooltip": {
+        "message": "Elixe o limiar de alarma do temporizador en minutos, cando o tempo excede este valor o elemento do OSD parpadeará, indicando 0 se desactiva a alarma"
     },
     "osdWarningBatteryNotFull": {
         "message": "Alerta cando a batería está conectada pero non cargada totalmente"
