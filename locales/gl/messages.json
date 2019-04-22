@@ -842,6 +842,27 @@
     "beeperGPS_STATUS": {
         "message": "Usa un número de pitidos para indicar cantos satélites GPS se atoparon"
     },
+    "beeperRX_SET": {
+        "message": "Pitidos cando o canle auxiliar está configurado para pitido"
+    },
+    "beeperACC_CALIBRATION": {
+        "message": "Confirmación completa da calibración do acelerómetro de voo"
+    },
+    "beeperACC_CALIBRATION_FAIL": {
+        "message": "Erro da calibración do acelerómetro de voo"
+    },
+    "beeperREADY_BEEP": {
+        "message": "Soar un ton cando o GPS estea bloqueado e listo"
+    },
+    "beeperDISARM_REPEAT": {
+        "message": "Soan beeps mentres o stick quede en posición de desarmado"
+    },
+    "beeperARMED": {
+        "message": "Pitido de advertencia cando a placa está armada cós motores apagados inactivos (repítese ata que a placa está desarmada ou o acelerador aumenta)"
+    },
+    "beeperSYSTEM_INIT": {
+        "message": "Pitido de iniciación cando se encende a placa"
+    },
     "configurationButtonSave": {
         "message": "Gardar e Reiniciar"
     },
