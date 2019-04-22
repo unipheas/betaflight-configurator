@@ -483,6 +483,26 @@
         "message": "Un dispositivo Black Sheep Telemetry (por exemplo, TBS Core Pro) desarmouse e está impedindo que se arme",
         "description": "Description of the BST arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipMSP": {
+        "message": "A conexión MSP está activa, probablemente con este Betaflight Configurator",
+        "description": "Description of the MSP arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipPARALYZE": {
+        "message": "Activouse o modo de paralización",
+        "description": "Description of the PARALYZE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipGPS": {
+        "message": "O modo de rescate GPS está configurado pero o número de satélites requirido non foi fixado",
+        "description": "Description of the GPS arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRESC": {
+        "message": "O switch 'GPS Rescue' foi activado",
+        "description": "Description of the RESC arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
+        "message": "Unha das outras sinais de desarmado está activa ao armar",
+        "description": "Description of the ARM_SWITCH arming disable flag"
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
@@ -695,6 +715,12 @@
     },
     "configurationSensorAlignmentGyro": {
         "message": "Aliñado do GYRO"
+    },
+    "configurationSensorGyroToUse": {
+        "message": "XIRO\/ACCEL"
+    },
+    "configurationSensorGyroToUseNotFound": {
+        "message": "Peligro: Non funciona Xiro\/Acc"
     },
     "configurationSensorAlignmentAcc": {
         "message": "Aliñado do ACELERADOR"
