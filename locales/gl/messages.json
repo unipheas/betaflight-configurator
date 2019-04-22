@@ -3703,6 +3703,12 @@
     "osdTimerAlarmTooltip": {
         "message": "Elixe o limiar de alarma do temporizador en minutos, cando o tempo excede este valor o elemento do OSD parpadeará, indicando 0 se desactiva a alarma"
     },
+    "osdWarningUnknown": {
+        "message": "Aviso descoñecido (os detalles añadiranse nunha futura versión)"
+    },
+    "osdWarningArmingDisabled": {
+        "message": "Avisa da razón máis importante para non armar"
+    },
     "osdWarningBatteryNotFull": {
         "message": "Alerta cando a batería está conectada pero non cargada totalmente"
     },
@@ -3712,17 +3718,68 @@
     "osdWarningBatteryCritical": {
         "message": "Alerta cando a voltaxe da batería baixe da media mínima por celda"
     },
+    "osdWarningVisualBeeper": {
+        "message": "Mostra unha visualización dos avisos acústicos (muestrase como 4 asteriscos)"
+    },
     "osdWarningCrashFlipMode": {
         "message": "Advertir ao voltearse despois de activar o modo de choque"
+    },
+    "osdWarningEscFail": {
+        "message": "Enumera unha lista cos ESCs\/motores que están fallando (RPM ou temperatura están fora do limiar configurado)"
+    },
+    "osdWarningCoreTemperature": {
+        "message": "Avisa cando a temperatura do núcleo MCU excede un rango configurado"
+    },
+    "osdWarningRcSmoothingFailure": {
+        "message": "Avisa cuando a inicialización do Suavizado RC fallou"
+    },
+    "osdWarningFailsafe": {
+        "message": "Avisa cuando se executa o Modo de Seguridade"
+    },
+    "osdWarningLaunchControl": {
+        "message": "Avisa cuando o Control de Lanzamento está activado"
+    },
+    "osdWarningGpsRescueUnavailable": {
+        "message": "Avisa cando o GPS Rescue non está dispoñible e non pode ser activado"
+    },
+    "osdWarningGpsRescueDisabled": {
+        "message": "Avisa cando o GPS Rescue está desactivado"
+    },
+    "osdWarningRSSI": {
+        "message": "Avisa cando o RSSI está por debaixo da alarma configurada"
+    },
+    "osdWarningLinkQuality": {
+        "message": "Avisa cando a Calidad do Enlace está por debaixo da alarma configurada"
     },
     "osdSectionHelpElements": {
         "message": "Activar ou desactivar os elementos do OSD"
     },
+    "osdSectionHelpVideoMode": {
+        "message": "Axusta o modo de vídeo esperado da cámara (habitualmente pode deixarse como AUTO, si ten problemas entonces axusta o valor a la salida da tua cámara)."
+    },
+    "osdSectionHelpUnits": {
+        "message": "Axusta o sistema de unidades usado para as lecturas numéricas."
+    },
     "osdSectionHelpTimers": {
         "message": "Configurar os cronómetros de voo"
     },
+    "osdSectionHelpAlarms": {
+        "message": "Axusta os limiares empregados para os elementos do OSD con estado de alarma."
+    },
+    "osdSectionHelpStats": {
+        "message": "Axusta os valores mostrados na pantalla de estadísticas post voo."
+    },
+    "osdSectionHelpWarnings": {
+        "message": "Activa ou desactiva avisos mostrados no elemento AVISOS."
+    },
     "osdSettingsSaved": {
         "message": "Axustes do OSD gardados"
+    },
+    "osdWritePermissions": {
+        "message": "Non ten <span class=\"message-negative\">permisos de escritura<\/span> para este arquivo"
+    },
+    "osdButtonSaved": {
+        "message": "Gardado"
     },
     "mainHelpArmed": {
         "message": "Armado de Motores"
