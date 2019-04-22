@@ -333,7 +333,7 @@
         "message": "A documentación de Betaflight está dispoñible nas notas da versión e na wiki.<br \/><br \/>"
     },
     "defaultDocumentation1": {
-        "message": "O Wiki de Betaflight ten unha gran cantidade de información e pode encontrarse <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">aquí<\/a>."
+        "message": "O Wiki de Betaflight ten unha gran cantidade de información e pode atoparse <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">aquí<\/a>."
     },
     "defaultDocumentation2": {
         "message": "As notas da versión do firmware poden ser lidas na páxina de GitHub, <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">aquí<\/a>."
