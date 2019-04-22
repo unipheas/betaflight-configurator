@@ -2,6 +2,10 @@
     "translation_version": {
         "message": "0"
     },
+    "windowTitle": {
+        "message": "Betaflight Configurator",
+        "description": "Title of the application window, usually not translated"
+    },
     "error": {
         "message": "Erro: {{errorMessage}} "
     },
@@ -71,6 +75,48 @@
     "language_default": {
         "message": "Por defecto"
     },
+    "language_ca": {
+        "message": "Català (ca)"
+    },
+    "language_de": {
+        "message": "Deutsch (de)"
+    },
+    "language_en": {
+        "message": "English (en)"
+    },
+    "language_es": {
+        "message": "Español (es)"
+    },
+    "language_fr": {
+        "message": "Français (fr)"
+    },
+    "language_id": {
+        "message": "Bahasa Indonesia (id)"
+    },
+    "language_it": {
+        "message": "Italiano (it)"
+    },
+    "language_ja": {
+        "message": "日本語 (ja)"
+    },
+    "language_ko": {
+        "message": "한국어 (ko)"
+    },
+    "language_lv": {
+        "message": "Latviešu (lv)"
+    },
+    "language_pt": {
+        "message": "Português (pt)"
+    },
+    "language_ru": {
+        "message": "Русский язык (ru)"
+    },
+    "language_sv": {
+        "message": "Svenska (sv)"
+    },
+    "language_zh_CN": {
+        "message": "简体中文 (zh_CN)"
+    },
     "sensorDataFlashNotFound": {
         "message": "Non se atopou un chip de almacenamento",
         "description": "Text of the dataflash image in the header of the page."
@@ -135,6 +181,9 @@
     },
     "deviceReady": {
         "message": "Dispositivo -  <span class=\"message-positive\">Preparado<\/span>"
+    },
+    "backupFileIncompatible": {
+        "message": "O arquivo de resgardo facilitado foi creado para unha versión anterior do configurador polo que e incompatible coa versión, sentímolo"
     },
     "configMigrationFrom": {
         "message": "Migrando arquivo de configuración xerado por: $1"
@@ -304,6 +353,27 @@
     "stm32AddressLoadSuccess": {
         "message": "A carga de enderezo para a opción de bytes do sector tivo éxito."
     },
+    "stm32AddressLoadUnknown": {
+        "message": "A carga de enderezos para a opción de bytes do sector fallou cun erro descoñecido. Abortando."
+    },
+    "stm32NotReadProtected": {
+        "message": "Ler a protección non activo"
+    },
+    "stm32ReadProtected": {
+        "message": "A tarxeta parece estar protexida. Desprotexendo. Non desconecte!!"
+    },
+    "stm32UnprotectSuccessful": {
+        "message": "Desprotección satisfactoria."
+    },
+    "stm32UnprotectUnplug": {
+        "message": "ACCIÓN REQUERIDA: Desconecte e volva a conectar a controladora de voo en modo DFU para intentar cargar de novo!"
+    },
+    "stm32UnprotectFailed": {
+        "message": "Erro ó desprotexer a placa"
+    },
+    "stm32UnprotectInitFailed": {
+        "message": "Erro ó iniciar rutina de desprotexer"
+    },
     "noConfigurationReceived": {
         "message": "Non se recibiu configuración algunha en <span class=\"message-negative\">10 segundos<\/span>, <span class=\"message-negative\">fallou<\/span> a comunicación"
     },
@@ -315,6 +385,19 @@
     },
     "firmwareUpgradeRequired": {
         "message": "O firmware neste dispositivo necesita actualización a unha nova versión. Empregue o CLI para backup antes de flashear. O procedemento CLI de backup\/recuperación atópase na documentación.<br \/>Se o prefire tamén pode descargar e usar unha versión antigua do configurador se non desexa actualizar."
+    },
+    "infoVersions": {
+        "message": "Executando - OS: <strong> {{operatingSystem}} <\/strong>, Chrome: <strong>{{chromeVersion}} <\/strong>, Configurador: <strong> {{configuratorVersion}} <\/strong>",
+        "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
+    },
+    "buildServerLoaded": {
+        "message": "Lendo construcción informativa para $1 dende o servidor de compilación."
+    },
+    "buildServerLoadFailed": {
+        "message": "<b>Erro editando a consulta do servidor para $1, empregando a información da caché. Motivo: <code>$2<\/code><\/b>"
+    },
+    "buildServerUsingCached": {
+        "message": "Usando información construida na caché para $1."
     },
     "releaseCheckLoaded": {
         "message": "Cargada información de lanzamento para $1 dende GitHub."
@@ -354,6 +437,12 @@
     },
     "armingEnabled": {
         "message": "<strong>Armado Activado<\/strong>"
+    },
+    "runawayTakeoffPreventionDisabled": {
+        "message": "<strong>Desabilitado temporalmente prevención de despegue<\/strong>"
+    },
+    "runawayTakeoffPreventionEnabled": {
+        "message": "<strong>Prevención de despegue habilitada<\/strong>"
     },
     "boardInfoReceived": {
         "message": "Placa: <strong>$1<\/strong>, versión: <strong>$2<\/strong>"
@@ -406,6 +495,12 @@
     "dfu_erased_kilobytes": {
         "message": "Borrados $1 kB de flash <span class=\"message-positive\">correctamente<\/span>"
     },
+    "dfu_device_flash_info": {
+        "message": "Dispositivo detectado cun tamaño de flash total $1 KiB"
+    },
+    "dfu_error_image_size": {
+        "message": "<span class=\"message-negative\">Erro<\/span>: A imaxe estregada é maior que o tamaño do chip! Imaxe: $1 KiB, límite= $2 KiB"
+    },
     "eeprom_saved_ok": {
         "message": "EEPROM <span class=\"message-positive\">gardada<\/span>"
     },
@@ -415,8 +510,17 @@
     "defaultWelcomeHead": {
         "message": "Hardware"
     },
+    "defaultWelcomeText": {
+        "message": "A aplicación admite todo o hardware que pode executar Betaflight. Comproba a pestana de flash para ver a lista completa de hardware.<br><br> <a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\"> Descargue Betaflight Blackbox Log Viewer<\/a><br \/><br \/>O código fonte do firmware pode ser descagado dende <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">here<\/a><br \/><br \/>Último <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210x Drivers<\/a> pode ser descargado dende <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">here<\/a><br \/>Último <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCP Drivers<\/a> pode ser descargado dende <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">here<\/a><br \/>Último <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> a instalación de drivers USB para Windows pode ser descargada dende <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">here<\/a><br \/>"
+    },
     "defaultContributingHead": {
         "message": "Contribuir"
+    },
+    "defaultContributingText": {
+        "message": "Se queres axudar a facer mellor Betaflight, podes axudar de moitas maneiras, incluíndo:<br \/><ul><li>Contestando preguntas de outros usuarios en forums e IRC.<\/li><li>Contribuindo código ó firmware e ó configurador: novas funcións, correccións, melloras<\/li><li>Testeando <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">novas características \/ correccións<\/a> e proporcionar feedback.<\/li><li>Axudar con <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">cuestións e comentarios sobre solicitudes de funcións<\/a>.<\/li><li>Colaborado por <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">traducindo a aplicación do configurador<\/a> na tua lingua.<\/li><li><\/li><\/ul"
+    },
+    "defaultFacebookText": {
+        "message": "Nós tamén temos <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">Grupo de Facebook<\/a>.<br \/>Únete a nós para conseguir un lugar para falar sobre Betaflight, facer preguntas de configuración ou simplemente saír cos compañeiros pilotos."
     },
     "defaultChangelogAction": {
         "message": "Rexistro de actualización"
@@ -424,11 +528,20 @@
     "defaultChangelogHead": {
         "message": "Configurator - Novidades"
     },
+    "defaultPrivacyPolicyAction": {
+        "message": "Política de privacidade"
+    },
     "defaultButtonFirmwareFlasher": {
         "message": "Flasheador de Firmware"
     },
     "defaultDonateHead": {
         "message": "Código aberto \/ Aviso de doazón"
+    },
+    "defaultDonateText": {
+        "message": "<p><strong>Betaflight<\/strong> é un software de controlador de voo que é <strong>open source<\/strong> e está dispoñible gratuitamente <strong>sin garantía<\/strong> para tódolos usuarios.<\/p><p>Se atopou o Betaflight ou o configurador Betaflight, porfavor considere<strong>apoiar<\/strong> o seu desenvolvemento cunha donación.<\/p>"
+    },
+    "defaultDonateBottom": {
+        "message": "<p>Se quere contribuír continuamente de forma financeira, debe considerar converterse nun socio para nós en <a href='https:\/\/www.patreon.com\/betaflight'> Patreon <\/a>.<\/p >"
     },
     "defaultDonate": {
         "message": "Doar"
@@ -472,6 +585,12 @@
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
+    "defaultSupport5": {
+        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\"> Desenvolvedores de Betaflight no slack<\/a>"
+    },
+    "initialSetupBackupAndRestoreApiVersion": {
+        "message": "<span class=\"message-negative\"> Desactivada función de copia de seguridade e restauración. <\/span> Ten firmware con versión API <span class=\"message-negative\">$1<\/span>, requere copia de seguridade e restauración <span class=\"mensaxe positiva\">$2<\/span>. Por favor, faga unha copia de seguridade dos axustes mediante a CLI, consulte a documentación de Betaflight para o procedemento."
+    },
     "initialSetupButtonCalibrateAccel": {
         "message": "Calibrar Acelerómetro"
     },
@@ -498,6 +617,15 @@
     },
     "initialSetupButtonRestore": {
         "message": "Restaurar"
+    },
+    "initialSetupButtonRebootBootloader": {
+        "message": "Activar o cargador de arranque \/ DFU"
+    },
+    "initialSetupBackupRestoreText": {
+        "message": "<strong>Copiar<\/strong> a túa configuración en caso de accidente,<strong>CLI<\/strong>ten opcións<span class=\"message-negative\">non<\/span>incluídas - usa o comando 'diff all' en CLI para isto."
+    },
+    "initialSetupRebootBootloaderText": {
+        "message": "Reinicia en modo<strong>cargador de arranque \/ DFU <\/strong>."
     },
     "initialSetupBackupSuccess": {
         "message": "Backup gardado <span class=\"message-positive\">exitosamente<\/span>"
@@ -588,6 +716,69 @@
     },
     "initialSetupArmingAllowed": {
         "message": "Armado Permitido"
+    },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "Lista de bandeiras que indican por que non se permite armar actualmente. Pase o rato sobre a bandeira ou consulte a Wiki (páxina 'Arming Sequence & Safety') para máis información."
+    },
+    "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
+        "message": "O xiro non foi detectado",
+        "description": "Description of the NO GYRO arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
+        "message": "Failsafe está activado",
+        "description": "Description of the FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
+        "message": "Non se detecta ningún sinal de receptor válido",
+        "description": "Description of the RX_FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBAD_RX_RECOVERY": {
+        "message": "O seu receptor acaba de recuperarse do dispositivo a proba de fallos, pero o interruptor de armar está activo",
+        "description": "Description of the BAD_RX_RECOVERY arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
+        "message": "O switch 'FAILSAFE' foi activado",
+        "description": "Description of the BOXFAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
+        "message": "Se desencadeou a prevención de despegue de pista",
+        "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
+        "message": "A canle do acelerador é demasiado alto",
+        "description": "Description of the THROTTLE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipANGLE": {
+        "message": "A aeronave non está nivelada (suficientemente)",
+        "description": "Description of the ANGLE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
+        "message": "Armado demasiado pronto despois de acenderse",
+        "description": "Description of the BOOT_GRACE_TIME arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipNOPREARM": {
+        "message": "O interruptor prearmar non está activado ou prearmar non se alterou despois de desarmalo",
+        "description": "Description of the NOPREARM arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipLOAD": {
+        "message": "A carga do sistema é demasiado alta para un voo seguro",
+        "description": "Description of the LOAD arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
+        "message": "A calibración do sensor aínda está en curso",
+        "description": "Description of the CALIBRATING arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCLI": {
+        "message": "CLI está activo",
+        "description": "Description of the CLI arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
+        "message": "O CMS (menú de configuración) está activo - a través de OSD ou outra pantalla -",
+        "description": "Description of the CMS_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
+        "message": "Menú OSD está activo",
+        "description": "Description of the OSD_MENU arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipBST": {
         "message": "Un dispositivo Black Sheep Telemetry (por exemplo, TBS Core Pro) desarmouse e está impedindo que se arme",
@@ -976,6 +1167,27 @@
     "beeperUSB": {
         "message": "Emitir un pitido cando o controlador de voo estea alimentado por USB. Desactive isto se non quere que o pitido soe no banco de traballo"
     },
+    "beeperBLACKBOX_ERASE": {
+        "message": "Bip cando se complete o borrado da caixa negra"
+    },
+    "beeperCRASH_FLIP": {
+        "message": "Pitido cando o modo de xiro estea activo"
+    },
+    "beeperCAM_CONNECTION_OPEN": {
+        "message": "Pitido cando se introduce o control da cámara de 5 teclas"
+    },
+    "beeperCAM_CONNECTION_CLOSE": {
+        "message": "Bip cando se retira o control da cámara de 5 teclas"
+    },
+    "beeperRC_SMOOTHING_INIT_FAIL": {
+        "message": "Bip cando se arme e non teña os filtros de suavizado inicializados"
+    },
+    "configuration3d": {
+        "message": "Características do 3D ESC\/Motor"
+    },
+    "configuration3dDeadbandLow": {
+        "message": "Baixa Bandamorta 3D"
+    },
     "configuration3dNeutral": {
         "message": "3D Neutro"
     },
@@ -1351,6 +1563,9 @@
     "recevier3dDeadbandThrottle": {
         "message": "Progreso 3D Throttle"
     },
+    "adjustmentsFunction4": {
+        "message": "Axuste valor Pitch & Roll"
+    },
     "adjustmentsFunction5": {
         "message": "Axuste valor Yaw"
     },
@@ -1636,6 +1851,138 @@
     "servoNumber6": {
         "message": "Servo - 6"
     },
+    "servoNumber7": {
+        "message": "Servo - 7"
+    },
+    "servoNumber8": {
+        "message": "Servo - 8"
+    },
+    "motorsResetMaximumButton": {
+        "message": "Reset"
+    },
+    "motorsResetMaximum": {
+        "message": "Restablecer o tempo máximo"
+    },
+    "motorsSensorGyroSelect": {
+        "message": "xiro"
+    },
+    "motorsSensorAccelSelect": {
+        "message": "accel"
+    },
+    "motorsMaster": {
+        "message": "Master"
+    },
+    "motorsNotice": {
+        "message": "<strong>Modo proba de motor \/ Aviso de armado: <\/strong><br\/> Mover os controles ou armar a nave coa emisora ​​fará que os motores <strong> xiren <\/strong>.<br\/> Para previr lesións <strong class=\"message-negative\"> eliminar TODAS as hélices <\/strong> antes de empregar esta función. <br\/> A habilitación do modo de proba do motor tamén desactivará temporalmente a prevención de despegue para evitar que desarme a nave cando o banco fai a proba sen hélices.<br\/>"
+    },
+    "motorsEnableControl": {
+        "message": "<strong> Comprendo os riscos <\/strong>, as hélices están retiradas: permítese o control e armado do motor, e desactivase a prevención do despegue de Runaway."
+    },
+    "sensorsInfo": {
+        "message": "Teña presente que usar períodos de actualización rápida e renderizar varios gráficos ao mesmo tempo é un recurso pesado e gravará a batería máis rápido se usa un portátil. <br \/> Recomendamos facer representacións gráficas só para sensores que estean interesados ​​mentres usa períodos razonables de actualización."
+    },
+    "sensorsRefresh": {
+        "message": "Refrescar:"
+    },
+    "sensorsScale": {
+        "message": "Escala:"
+    },
+    "sensorsGyroSelect": {
+        "message": "Xiroscopio"
+    },
+    "sensorsAccelSelect": {
+        "message": "Acelerómetro"
+    },
+    "sensorsMagSelect": {
+        "message": "Magnetómetro"
+    },
+    "sensorsBaroSelect": {
+        "message": "Barómetro"
+    },
+    "sensorsSonarSelect": {
+        "message": "Sonar"
+    },
+    "sensorsDebugSelect": {
+        "message": "Depuración"
+    },
+    "sensorsGyroTitle": {
+        "message": "Xiroscopio - deg\/s"
+    },
+    "sensorsAccelTitle": {
+        "message": "Acelerómetro - g"
+    },
+    "sensorsMagTitle": {
+        "message": "Magnetómetro - Ga"
+    },
+    "sensorsBaroTitle": {
+        "message": "Barómetro - metros"
+    },
+    "sensorsSonarTitle": {
+        "message": "Sonar - cm"
+    },
+    "sensorsDebugTitle": {
+        "message": "Depuración"
+    },
+    "cliInfo": {
+        "message": "<strong> Nota: <\/strong> Deixar a pestana CLI ou premer Desconectar <strong> automaticamente <\/strong> enviará \"<strong> saír <\/strong>\" á placa. Con o último firmware isto fará que o controlador se <strong>reinicie<\/strong> e os cambios sen gardar sexan <strong>perdidos<\/strong> <p><strong> <span class=\"message-negative\">Aviso<\/span> <\/strong> Algúns comandos na CLI poden producir sinais arbitrarios nos pins de saída do motor. Isto pode facer que os motores xiren si a batería está conectada. Por iso, recoméndase asegurarse de que <strong> non hai batería conectada antes de introducir comandos en CLI <\/strong>."
+    },
+    "cliInputPlaceholder": {
+        "message": "Escriba o seu comando aquí. Prema Tab para Autocompletar."
+    },
+    "cliInputPlaceholderBuilding": {
+        "message": "Agarda mentres se crea a caché de autocompletar ..."
+    },
+    "cliEnter": {
+        "message": "Modo CLI detectado"
+    },
+    "cliReboot": {
+        "message": "Detectouse o reinicio de CLI"
+    },
+    "cliSaveToFileBtn": {
+        "message": "Guardar en archivo"
+    },
+    "cliClearOutputHistoryBtn": {
+        "message": "Borrar o historial de saídas"
+    },
+    "cliCopyToClipboardBtn": {
+        "message": "Copiar ao portapapeis"
+    },
+    "cliCopySuccessful": {
+        "message": "Copiado!"
+    },
+    "loggingNote": {
+        "message": "Os datos rexistraranse nesta pestana <span class=\"message-negative\">solo<\/span>, deixando a pestana <span class=\"message-negative\">cancela<\/span> o rexistro e a aplicación volverá ao seu normal <strong>\"configurador\" <\/strong>.<br\/> É libre para seleccionar o período de actualización global, os datos serán escritos no ficheiro de rexistro cada <strong>1<\/strong> segundo por razóns de rendemento."
+    },
+    "loggingSamplesSaved": {
+        "message": "Exemplos gardados:"
+    },
+    "loggingLogSize": {
+        "message": "Tamaño Log:"
+    },
+    "loggingButtonLogFile": {
+        "message": "Arquivo de Log seleccionado"
+    },
+    "loggingStart": {
+        "message": "Empezar rexistro"
+    },
+    "loggingStop": {
+        "message": "Parar rexistro"
+    },
+    "loggingBack": {
+        "message": "Deixar rexistro \/ desconectar"
+    },
+    "loggingErrorNotConnected": {
+        "message": "Necesita <strong>conectar<\/strong>primeiro"
+    },
+    "loggingErrorLogFile": {
+        "message": "Por favor seleccionar arquivo de log"
+    },
+    "loggingErrorOneProperty": {
+        "message": "Seleccione polo menos unha propiedade para rexistrar"
+    },
+    "loggingAutomaticallyRetained": {
+        "message": "Cargouse automaticamente o ficheiro de rexistro anterior: <strong>$1<\/strong>"
+    },
     "blackboxNotSupported": {
         "message": "O firmware do controlador de voo non admite rexistro na Blackbox."
     },
@@ -1689,6 +2036,9 @@
     },
     "dataflashButtonSaveFile": {
         "message": "Gardar flash a arquivo..."
+    },
+    "dataflashButtonSaveFileDeprecated": {
+        "message": "Guardar flash a arquivo... (obsoleto)"
     },
     "dataflashButtonErase": {
         "message": "Borrar flash"
@@ -1771,6 +2121,9 @@
     "firmwareFlasherNoReboot": {
         "message": "Sen secuencia de reinicio"
     },
+    "firmwareFlasherOnlineSelectBuildType": {
+        "message": "Selecciona o tipo de compilación para ver as dispoñibles."
+    },
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "Elixe a tua placa para poder ver as versións de firmware dispoñibles en linea - Selecciona a versión correcta de firmware apropiada para a túa controladora."
     },
@@ -1809,6 +2162,15 @@
     },
     "firmwareFlasherBaudRate": {
         "message": "Velocidade de Transmisión"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Mostra versións inestables"
+    },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "Mostrar versións candidatas ademais de versións estables"
+    },
+    "firmwareFlasherOptionLabelBuildTypeRelease": {
+        "message": "Versións"
     },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Elixe un Firmware \/ Controladora"
