@@ -2562,6 +2562,36 @@
     "firmwareFlasherFirmwareNotLoaded": {
         "message": "Firmware non cargado"
     },
+    "firmwareFlasherFirmwareLocalLoaded": {
+        "message": "Firmware Local Cargado: ($1 bytes)"
+    },
+    "firmwareFlasherHexCorrupted": {
+        "message": "O arquivo HEX parece estar corrupto"
+    },
+    "firmwareFlasherRemoteFirmwareLoaded": {
+        "message": "<span class=\"message-positive\">Firmware remoto cargado, listo para instalar<\/span>"
+    },
+    "firmwareFlasherFailedToLoadOnlineFirmware": {
+        "message": "Erro ó cargar o firmware remoto"
+    },
+    "firmwareFlasherNoFirmwareSelected": {
+        "message": "<b>Non se seleccionou ningún firmware para cargar<\/b>"
+    },
+    "firmwareFlasherNoValidPort": {
+        "message": "<span class=\"message-negative\">Por favor selecciona un porto serie válido<\/span>"
+    },
+    "firmwareFlasherWritePermissions": {
+        "message": "Non ten <span class=\"message-negative\">permisos de escritura<\/span> para este arquivo"
+    },
+    "firmwareFlasherFlashTrigger": {
+        "message": "Detectado: <strong>$1<\/strong> - executando instalar ó conectar"
+    },
+    "firmwareFlasherPreviousDevice": {
+        "message": "Detectado: <strong>$1<\/strong> - dispositivo anterior todavía en instalación, por favor volva conectalo para volver intentalo"
+    },
+    "ledStripHelp": {
+        "message": "O controlador de voo pode controlar cores e efectos dos LEDs individuais duna tira.<br\/>Configura LEDs, configura a orde do cableado e engade LEDs a tua aeronave acordo coas posiciones da reixa. LEDs sen número de orden do cableado non se gardarán.<br \/>Doble-pulsación nun cor para editar os valores HSV."
+    },
     "ledStripModeColorsModeMag": {
         "message": "Mag",
         "description": "One of the modes in Color Mode in Led Strip"
