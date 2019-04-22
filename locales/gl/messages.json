@@ -479,6 +479,10 @@
     "initialSetupArmingAllowed": {
         "message": "Armado Permitido"
     },
+    "initialSetupArmingDisableFlagsTooltipBST": {
+        "message": "Un dispositivo Black Sheep Telemetry (por exemplo, TBS Core Pro) desarmouse e está impedindo que se arme",
+        "description": "Description of the BST arming disable flag"
+    },
     "initialSetupGPSHead": {
         "message": "GPS"
     },
@@ -966,7 +970,7 @@
         "message": "Velocidade manual"
     },
     "firmwareFlasherManualBaudDescription": {
-        "message": "Selección manual da velocidade de transmisión en baudios para controladoras que non soportan a velocidade por defecto ou que se están a actualizar a través de bluetooth.<br \/><span class=\"message-negative\">Note:<\/span> Non utilizado cando se está a utilizar USB DFU"
+        "message": "Selección manual da velocidade de transmisión en baudios para controladoras que non soportan a velocidade por defecto ou que se están a actualizar a través de bluetooth.<br \/><span class=\"message-negative\">Nota:<\/span> Non empregado cando se está a utilizar USB DFU"
     },
     "firmwareFlasherBaudRate": {
         "message": "Velocidade de Transmisión"
