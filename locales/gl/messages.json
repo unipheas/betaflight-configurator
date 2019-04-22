@@ -722,6 +722,21 @@
     "configurationSensorGyroToUseNotFound": {
         "message": "Peligro: Non funciona Xiro\/Acc"
     },
+    "configurationSensorGyroToUseFirst": {
+        "message": "Primeiro"
+    },
+    "configurationSensorGyroToUseSecond": {
+        "message": "Segundo"
+    },
+    "configurationSensorGyroToUseBoth": {
+        "message": "Ámbalas dúas"
+    },
+    "configurationSensorAlignmentGyro1": {
+        "message": "Primer XIRO"
+    },
+    "configurationSensorAlignmentGyro2": {
+        "message": "Segundo XIRO"
+    },
     "configurationSensorAlignmentAcc": {
         "message": "Aliñado do ACELERADOR"
     },
