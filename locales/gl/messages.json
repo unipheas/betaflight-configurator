@@ -3058,6 +3058,81 @@
     "osdSetupWarningsTitle": {
         "message": "Avisos"
     },
+    "osdSetupFontPresets": {
+        "message": "Preaxustes:"
+    },
+    "osdSetupFontPresetsSelector": {
+        "message": "Elixe unha Fonte Predefinida:"
+    },
+    "osdSetupFontPresetsSelectorOr": {
+        "message": "or"
+    },
+    "osdSetupOpenFont": {
+        "message": "Abrir Arquivo Fonte"
+    },
+    "osdSetupCustomLogoTitle": {
+        "message": "Logo do arranque:"
+    },
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "Seleccionar imaxen personalizada&hellip;"
+    },
+    "osdSetupCustomLogoInfoTitle": {
+        "message": "Imaxen personalizada:"
+    },
+    "osdSetupCustomLogoInfoImageSize": {
+        "message": "O tamaño debe ser $t(logoWidthPx)×$t(logoHeightPx) píxeles"
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "Debe contener píxeles verdes, brancos e negros"
+    },
+    "osdSetupCustomLogoInfoUploadHint": {
+        "message": "Pulse <b>$t(osdSetupUploadFont.message)<\/b> para conservar logo personalizado"
+    },
+    "osdSetupCustomLogoImageSizeError": {
+        "message": "Tamaño da imaxen inválido: {{width}}×{{height}} (esperado $t(logoWidthPx)×$t(logoHeightPx))"
+    },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "A imaxen conten un píxel inválido: rgb({{valueR}}, {{valueG}}, {{valueB}}) nas coordenadas {{posX}}×{{posY}}"
+    },
+    "osdSetupUploadFont": {
+        "message": "Cargar Fonte"
+    },
+    "osdSetupSave": {
+        "message": "Gardar"
+    },
+    "osdSetupFontManager": {
+        "message": "Xestor de Fontes"
+    },
+    "osdSetupUncheckAll": {
+        "message": "Desmarcar todo"
+    },
+    "osdSetupHead": {
+        "message": "Info"
+    },
+    "osdSetupVideoMode": {
+        "message": "Modo Vídeo"
+    },
+    "osdSetupCameraConnected": {
+        "message": "Cámara Conectada"
+    },
+    "osdSetupCameraConnectedValueYes": {
+        "message": "Si"
+    },
+    "osdSetupCameraConnectedValueNo": {
+        "message": "Non"
+    },
+    "osdSetupResetText": {
+        "message": "Reiniciar OSD a valores por defecto"
+    },
+    "osdSetupButtonReset": {
+        "message": "Reiniciar Axustes"
+    },
+    "osdDescElementMainBattVoltage": {
+        "message": "Voltaxe instantáneo da batería principal (parpadea por debaixo do umbral de alarma)"
+    },
+    "osdDescElementRssiValue": {
+        "message": "Valor instantáneo RSSI (parpadea por debaixo do umbral de alarma)"
+    },
     "osdDescElementAvgCellVoltage": {
         "message": "Voltaxe medio das baterías (voltaxe principal da batería \/ número de celdas)"
     },
