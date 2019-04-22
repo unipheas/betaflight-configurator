@@ -185,11 +185,14 @@
     "backupFileIncompatible": {
         "message": "O arquivo de resgardo facilitado foi creado para unha versión anterior do configurador polo que e incompatible coa versión, sentímolo"
     },
+    "backupFileUnmigratable": {
+        "message": "Este arquivo de copia de seguridad foi xerado cunha versión anterior do configurador e non se pode migrar. Sentímolo."
+    },
     "configMigrationFrom": {
         "message": "Migrando arquivo de configuración xerado por: $1"
     },
     "configMigratedTo": {
-        "message": "Configuraciónes migradas al configurador: $1"
+        "message": "Configuracións migradas ó configurador: $1"
     },
     "configMigrationSuccessful": {
         "message": "Migración da configuración completada, migracións aplicadas: $1"
@@ -273,7 +276,7 @@
         "message": "Amosar rexistro de conexións"
     },
     "serialPortOpened": {
-        "message": "Porto serie aberto <span class=\"message-positive\">satisfactoriamente<\/span> opened coa ID: $1"
+        "message": "Porto serie aberto <span class=\"message-positive\">satisfactoriamente<\/span> aberto coa ID: $1"
     },
     "serialPortOpenFail": {
         "message": "<span class=\"message-negative\">Fallo<\/span> abrindo porto serie"
@@ -282,7 +285,7 @@
         "message": "Porto serie pechado <span class=\"message-positive\">satisfactoriamente<\/span>"
     },
     "serialPortClosedFail": {
-        "message": "<span class=\"message-negative\">Fallo<\/span> ó pechar porto serie"
+        "message": "<span class=\"message-negative\">Erro<\/span> ó pechar porto serie"
     },
     "serialUnrecoverable": {
         "message": "<span class=\"message-negative\">Erro<\/span> irrecuperable da conexión serie, desconectando..."
@@ -291,16 +294,16 @@
         "message": "Dispositivo USB aberto <span class=\"message-positive\">satisfactoriamente<\/span> coa ID: $1"
     },
     "usbDeviceOpenFail": {
-        "message": "!<span class=\"message-negative\">Fallo<\/span> abrindo dispositivo USB!"
+        "message": "!<span class=\"message-negative\">Erro<\/span> abrindo dispositivo USB!"
     },
     "usbDeviceClosed": {
         "message": "Dispositivo USB pechado <span class=\"message-positive\">satisfactoriamente<\/span>"
     },
     "usbDeviceCloseFail": {
-        "message": "<span class=\"message-negative\">Fallo<\/span> pechando dispositivo USB"
+        "message": "<span class=\"message-negative\">Erro<\/span> pechando dispositivo USB"
     },
     "usbDeviceUdevNotice": {
-        "message": "¿Están as <strong>udev rules<\/strong> instaladas correctamente? Consulte a documentación para instruccións"
+        "message": "¿Están as <strong>regras udev<\/strong> instaladas correctamente? Consulte a documentación para instruccións"
     },
     "stm32UsbDfuNotFound": {
         "message": "USB DFU non encontrado"
