@@ -1082,6 +1082,18 @@
     "receiverDeadband": {
         "message": "Progreso RC"
     },
+    "receiverHelpDeadband": {
+        "message": "Estes son valores (en us) por canta entrada de RC pode ser diferente antes de que se considere válido. Para os transmisores con jitter nas saídas, este valor pódese aumentar cando as entradas rc se contraen mentres está inactivo."
+    },
+    "receiverYawDeadband": {
+        "message": "Progreso Yaw"
+    },
+    "receiverHelpYawDeadband": {
+        "message": "Estes son valores (en us) por canta entrada de RC pode ser diferente antes de que se considere válido. Para os transmisores con jitter nas saídas, este valor pódese aumentar cando as entradas rc se contraen mentres está inactivo. <strong> Esta configuración só é para Yaw. <\/strong>"
+    },
+    "recevier3dDeadbandThrottle": {
+        "message": "Progreso 3D Throttle"
+    },
     "adjustmentsSave": {
         "message": "Gardar"
     },
@@ -1096,6 +1108,39 @@
     },
     "servosFirmwareUpgradeRequired": {
         "message": "O servos necesitan como mínimo o firmware &gt;= 1.10.0. e soporte y soporte para ese target."
+    },
+    "servosAngleAtMax": {
+        "message": "Ángulo máximo"
+    },
+    "servosDirectionAndRate": {
+        "message": "Dirección e valor"
+    },
+    "servosLiveMode": {
+        "message": "Activar o modo en directo"
+    },
+    "servosButtonSave": {
+        "message": "Gardar"
+    },
+    "servosNormal": {
+        "message": "Normal"
+    },
+    "servosReverse": {
+        "message": "Reverso"
+    },
+    "servosEepromSave": {
+        "message": "EEPROM <span class=\"message-positive\">gardada<\/span>"
+    },
+    "gpsHead": {
+        "message": "GPS"
+    },
+    "gpsMapHead": {
+        "message": "Localización GPS actual"
+    },
+    "gpsMapMessage1": {
+        "message": "Por favor comprove a súa conexión a internet"
+    },
+    "gpsMapMessage2": {
+        "message": "Agardando a corrección 3D de GPS…"
     },
     "blackboxLoggingFlash": {
         "message": "Memoria Flash integrada"
