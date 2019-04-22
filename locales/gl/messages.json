@@ -1142,8 +1142,122 @@
     "gpsMapMessage2": {
         "message": "Agardando a corrección 3D de GPS…"
     },
+    "gps3dFix": {
+        "message": "Corrección 3D:"
+    },
+    "gpsFixTrue": {
+        "message": "<span class=\"fixtrue\">Aplicada<\/span>"
+    },
+    "gpsFixFalse": {
+        "message": "<\/span><span class=\"fixfalse\">Falso<\/span>"
+    },
+    "gpsAltitude": {
+        "message": "Altura:"
+    },
+    "gpsLat": {
+        "message": "Latitude:"
+    },
+    "gpsLon": {
+        "message": "Lonxitude:"
+    },
+    "gpsSpeed": {
+        "message": "Velocidade:"
+    },
+    "gpsSats": {
+        "message": "Satélites:"
+    },
+    "gpsDistToHome": {
+        "message": "Distancia a casa:"
+    },
+    "gpsSignalStrHead": {
+        "message": "Forza de sinal GPS"
+    },
+    "gpsSignalStr": {
+        "message": "Forza de sinal"
+    },
+    "gpsSignalSatId": {
+        "message": "Identificación satélite"
+    },
+    "gpsSignalQty": {
+        "message": "Cantidade"
+    },
+    "motorsVoltage": {
+        "message": "Voltaxe:"
+    },
+    "motorsADrawing": {
+        "message": "Amperaxe:"
+    },
+    "motorsmAhDrawn": {
+        "message": "Amp. debuxado:"
+    },
+    "motorsVoltageValue": {
+        "message": "$1 V"
+    },
+    "motorsADrawingValue": {
+        "message": "$1 A"
+    },
+    "motorsmAhDrawnValue": {
+        "message": "$1 mAh"
+    },
+    "motorsText": {
+        "message": "Motores"
+    },
+    "motorNumber1": {
+        "message": "Motor - 1"
+    },
+    "motorNumber2": {
+        "message": "Motor - 2"
+    },
+    "motorNumber3": {
+        "message": "Motor - 3"
+    },
+    "motorNumber4": {
+        "message": "Motor - 4"
+    },
+    "motorNumber5": {
+        "message": "Motor - 5"
+    },
+    "motorNumber6": {
+        "message": "Motor - 6"
+    },
+    "motorNumber7": {
+        "message": "Motor - 7"
+    },
+    "motorNumber8": {
+        "message": "Motor - 8"
+    },
+    "servosText": {
+        "message": "Servos"
+    },
+    "blackboxNotSupported": {
+        "message": "O firmware do controlador de voo non admite rexistro na Blackbox."
+    },
+    "blackboxMaybeSupported": {
+        "message": "O firmware do controlador de voo é demasiado antigo para soportar esta pestana ou a función Blackbox está desactivada na pestana Configuration."
+    },
+    "blackboxConfiguration": {
+        "message": "Configuración Blackbox"
+    },
+    "blackboxButtonSave": {
+        "message": "Gardar e reiniciar"
+    },
+    "blackboxLoggingNone": {
+        "message": "Sen rexistro"
+    },
     "blackboxLoggingFlash": {
         "message": "Memoria Flash integrada"
+    },
+    "blackboxLoggingSdCard": {
+        "message": "Tarxeta SD"
+    },
+    "blackboxLoggingSerial": {
+        "message": "Porto Serie"
+    },
+    "serialLoggingSupportedNote": {
+        "message": "Pode conectarse a un dispositivo de rexistro externo (como un clon OpenLog ou compatible) usando un porto serie. Configure o porto na pestana Ports."
+    },
+    "sdcardNote": {
+        "message": "Os rexistros de voos pódense gravar no slot para tarxetas SD do controlador de voo."
     },
     "dataflashUsedSpace": {
         "message": "Espacio en uso"
@@ -1336,6 +1450,58 @@
     },
     "firmwareFlasherRecoveryText": {
         "message": "Se perdela conexión coa tua controladora sigue estes pasos para reestabrecer a comunicación: <ul><li>Apaga<\/li><li>Activa 'Sen secuencia de reinicio', Activa 'Borrado completo do chip'.<\/li><li>Puentea os pins de BOOT ou manten pulsado o botón BOOT.<\/li><li>Encende(o LED de actividad NON parpadeará se se fai correctamente).<\/li><li>Instala todos os drivers para STM32 drivers e Zadig en caso de ser necesario (consulta a sección <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">Flasheo USB<\/a> do manual de Betaflight.<\/li><li>Cerra o configurador, Cerra todalas instancias de chrome, Cerra todalas aplicacións de Chrome, Reinicia o Configurador.<\/li><li>Solta o botón se a tua controladora ten un.<\/li><li>Carga o firmware correcto utilizando unha velocidade de transmisión manual se está especificada no manual da controladora)<\/li><li>Apaga.<\/li><li>Elimina o puenteo dos pins de BOOT<\/li><li>Encende (o LED de actividad debería de parpadear).<\/li><li>Conecta con normalidade.<\/li><\/ul>"
+    },
+    "ledStripModeColorsModeMag": {
+        "message": "Mag",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBaro": {
+        "message": "Baro",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripDirN": {
+        "message": "N",
+        "description": "North direction in Color Mode in Led Strip"
+    },
+    "ledStripDirE": {
+        "message": "E",
+        "description": "East direction in Color Mode in Led Strip"
+    },
+    "ledStripDirS": {
+        "message": "S",
+        "description": "South direction in Color Mode in Led Strip"
+    },
+    "ledStripDirW": {
+        "message": "O",
+        "description": "West direction in Color Mode in Led Strip"
+    },
+    "ledStripDirU": {
+        "message": "Alto",
+        "description": "Up direction in Color Mode in Led Strip"
+    },
+    "ledStripDirD": {
+        "message": "Baixo",
+        "description": "Down direction in Color Mode in Led Strip"
+    },
+    "ledStripModesOrientationTitle": {
+        "message": "Orientación LED ('Modos &amp; Orientación ') e cor",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModesSpecialColorsTitle": {
+        "message": "Cores especiais",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeDisarmed": {
+        "message": "Desarmado",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeArmed": {
+        "message": "Armado",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAnimation": {
+        "message": "Animación",
+        "description": "One of the modes in Color Mode in Led Strip"
     },
     "failsafeFeaturesHelpOld": {
         "message": "A configuración de Failsafe cambiou considerablemente. Utiliza Betaflight <strong>v1.12.0+<\/strong> para habilitar o panel de configuración mellorado."
