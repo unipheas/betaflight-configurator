@@ -980,6 +980,27 @@
     "receiverRcSmoothingTypeHelp": {
         "message": "Tipo de suavizado RC usado"
     },
+    "rcSmoothingInputCutoffHelp": {
+        "message": "A frecuencia de corte en Hz usada polo filtro de entrada. Usar valores máis baixos dará como resultado entradas máis suaves e máis apropiadas para protocolos de recepción máis lentos. A maioría dos usuarios deberían deixar isto en 0 correspondente a \"Auto\"."
+    },
+    "rcSmoothingDerivativeCutoffHelp": {
+        "message": "A frecuencia de corte en Hz usada polo filtro derivado da entrada. Usar valores máis baixos dará como resultado entradas máis suaves e máis apropiadas para protocolos de recepción máis lentos. A maioría dos usuarios deberían deixar isto en 0 correspondente a \"Auto\"."
+    },
+    "rcSmoothingChannelsSmoothedHelp": {
+        "message": "A suavización de canles aplícase a"
+    },
+    "rcSmoothingDerivativeTypeHelp": {
+        "message": "O tipo de método de filtrado empregado para a derivada de consigna. A maioría dos usuarios deben usar o valor \"BIQUAD\" predeterminado xa que proporciona un bo equilibrio entre a suavidade e o atraso. \"PT1\" reduce o atraso lixeiramente pero proporciona menos suavización."
+    },
+    "rcSmoothingInputTypeHelp": {
+        "message": "O tipo de método de filtrado empregado para a entrada. A maioría dos usuarios deben usar o valor \"BIQUAD\" predeterminado xa que proporciona un bo equilibrio entre a suavidade e o atraso. \"PT1\" reduce o atraso lixeiramente pero proporciona menos suavización."
+    },
+    "receiverRcSmoothingInputManual": {
+        "message": "Selecciona se a frecuencia de corte do filtro de entrada é calculada automaticamente (recomendada) ou seleccionada manualmente polo usuario. Non se recomenda usar \"Manual\" para protocolos de recepción como Crossfire que poden cambiar en voo."
+    },
+    "receiverRcSmoothingDerivativeManual": {
+        "message": "Selecciona se a frecuencia de corte do filtro derivado da consola é calculada automaticamente (recomendada) ou seleccionada manualmente polo usuario. Non se recomenda usar \"Manual\" para protocolos de recepción como Crossfire que poden cambiar en voo."
+    },
     "receiverHelp": {
         "message": "Por favor, lee o capítulo de receptores na documentación. Configura os portos de serie (se e necesario), modo do receptor (serial\/ppm\/pwm), provedor (para receptores de serie), enlaza o receptor, configura o mapa de canales, configura os endpoints\/os rangos da emisora de forma que los canales vaian dende ~1000 ata ~2000. Establece o punto medio (por defecto 1500), axusta o trim dos canales a 1500, configura o deadband dos canales, comproba o comportamento cando a emisora encontrase apagada ou fora de.<br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Antes de voar lee o capítulo da documentación do modo failsafe e configurao."
     },
