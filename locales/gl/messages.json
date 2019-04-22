@@ -1563,6 +1563,81 @@
     "recevier3dDeadbandThrottle": {
         "message": "Progreso 3D Throttle"
     },
+    "receiverChannelMap": {
+        "message": "Mapa de canles"
+    },
+    "receiverChannelDefaultOption": {
+        "message": "Por defecto"
+    },
+    "receiverChannelMapTitle": {
+        "message": "Podes definir o teu propio mapa de canles pulsando dentro do cadro"
+    },
+    "receiverRssiChannel": {
+        "message": "Canle RSSI"
+    },
+    "receiverRssiChannelDisabledOption": {
+        "message": "Desactivado"
+    },
+    "receiverRefreshRateTitle": {
+        "message": "Tasa de refresco do gráfico"
+    },
+    "receiverButtonSave": {
+        "message": "Gardar"
+    },
+    "receiverButtonRefresh": {
+        "message": "Refrescar"
+    },
+    "receiverButtonSticks": {
+        "message": "Sticks de control"
+    },
+    "receiverDataRefreshed": {
+        "message": "Datos de Axustes de RC <strong>actualizados<\/strong>"
+    },
+    "receiverEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">gardada<\/span>"
+    },
+    "receiverModelPreview": {
+        "message": "Vista Previa"
+    },
+    "receiverMspWarningText": {
+        "message": "Estos controles permiten armar e probar Betaflight sin que haxa un transmisor ou receptor presente. Sin embargo, <strong>esta característica non está diseñada para o voo e as hélices non deben estar postas.<\/strong><br><br>Esta funcionalidade non garantiza un control fiable da aeronave. <strong>Poden producirse lesións graves si se deixan as hélices postas.<\/strong>"
+    },
+    "receiverMspEnableButton": {
+        "message": "Activar controis"
+    },
+    "auxiliaryHelp": {
+        "message": "Configure os modos aquí usando unha combinación de canles e \/ ou enlaces a outros modos (enlaces soportados en BF 4.0 e posteriores). Use <strong>intervalos<\/strong> para definir os interruptores do seu transmisor e as asignacións de modo correspondentes. Un canle de receptor que dá unha lectura entre un intervalo mínimo \/ máximo activará o modo. Usa a<strong>ligazón <\/strong> para activar un modo cando se activa outro modo. <strong> Excepcións: <\/strong> ARM non se pode ligar a ou desde outro modo, non se pode ligar a outros modos configurados cunha ligazón (ligazóns encadeadas). Pódense usar varios intervalos \/ ligazóns para activar calquera modo. Se hai máis dun intervalo \/ ligazón definido para un modo, cada un deles pode configurarse como <strong>e<\/strong>ou<strong>OR<\/strong>. Activarase un modo cando:<br\/> - Todas as ligazóns <strong>e<\/strong> rangos\/links estean activas; OR <br\/> - polo menos un <strong> OR <\/strong> intervalo \/ ligazón está activo. <br\/> <br\/> Non esqueza gardar a configuración mediante o botón Gardar."
+    },
+    "auxiliaryToggleUnused": {
+        "message": "Ocultar modos non empregados"
+    },
+    "auxiliaryMin": {
+        "message": "Mín"
+    },
+    "auxiliaryMax": {
+        "message": "Máx"
+    },
+    "auxiliaryAddRange": {
+        "message": "Engadir Rango"
+    },
+    "auxiliaryAddLink": {
+        "message": "Engadir Enlace"
+    },
+    "auxiliaryButtonSave": {
+        "message": "Gardar"
+    },
+    "auxiliaryEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">gardada<\/span>"
+    },
+    "auxiliaryAutoChannelSelect": {
+        "message": "AUTO"
+    },
+    "auxiliaryModeLogicOR": {
+        "message": "OR"
+    },
+    "auxiliaryModeLogicAND": {
+        "message": "E"
+    },
     "adjustmentsFunction4": {
         "message": "Axuste valor Pitch & Roll"
     },
