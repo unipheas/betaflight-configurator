@@ -2205,6 +2205,12 @@
     "pidTuningFilterTip": {
         "message": "<b>Filtro Soft do Xiro:<\/b> Filtro paso baixo para o xiro. Usa un valor máis baixo para maior filtrado.<br><b>Filtro Termo D:<\/b> Filtro paso baixo para D termo. Pode afectar ó axuste de D. Usa un valor máis baixo para maior filtrado. <br><b>Filtro Yaw:<\/b> Filtra a saída de yaw. Pode axudar en configuracións con eixo yaw ruidoso."
     },
+    "pidTuningPidTuningTip": {
+        "message": "<b>Proporcional:<\/b> Notarás unha forte resistencia a calquer intento de mover o MultiRotor<br><b>Integral:<\/b> Incrementa a habilidade de manter a posición inicial xeral e reduce a derivada, pero tamén incrementa o retraso para volver a posición inicial.<br><b>Derivativo:<\/b> Mellora a velocidade a que se recuperan as desviacións, pero incrementa o ruido<br><b>Tasas e Expo<\/b>: Determina as sensacións cos sticks basadas nestos parámetros. Usa o gráfico e o modelo 3D en vivo para encontrar os teus axustes de tasas favoritos"
+    },
+    "pidTuningPidTuningTipFeedforward": {
+        "message": "<b>Proporcional:<\/b> Notarás unha forte resistencia a calquer intento de moverol MultiRotor<br><b>Integral:<\/b> Incrementa a habilidade de manter a posición inicial xeral e reduce a derivada, pero tamén incrementa o retraso para volver a posición inicial.<br><b>Derivativo:<\/b> Mellora a velocidade a que se recuperan as desviacións, pero incrementa o ruido<br><b>Prealimentación:<\/b> Normalmente o controlador PID reacciona ó erro. A Prealimentación anticipa o error basándose na entrada dos mandos, mellorando o tempo de resposta do quad.<br><b>Tasas e Expo<\/b>: Determina as sensacións cós sticks basadas nestos parámetros. Usa o gráfico e o modelo 3D en vivo para encontrar os teus axustes de tasas favoritos"
+    },
     "pidTuningRatesTip": {
         "message": "Xogue cos rates e vexa como afectan á curva do stick"
     },
@@ -2238,6 +2244,18 @@
     "onboardLoggingOnboardSDCard": {
         "message": "Tarxeta SD integrada"
     },
+    "onboardLoggingMsc": {
+        "message": "Modo de Almacenamento Masivo"
+    },
+    "onboardLoggingMscNote": {
+        "message": "Reinicia en modo<strong>dispositivo de almacenamiento masivo (MSC)<\/strong>. Unha vez activado, a memoria integrada ou a tarjeta SD do teu controlador de voo será reconocida como dispositivo de almacenamiento polo teu ordenador, e lle permitirá descargar os seus arquivos de rexistro. Expulsa e apaga e encende de novo o teu controlador de voo para abandoar o modo de dispositivo de almacenamento masivo."
+    },
+    "onboardLoggingRebootMscText": {
+        "message": "Activar Modo de Dispositivo de Almacenamento Masivo"
+    },
+    "onboardLoggingMscNotReady": {
+        "message": "O modo de almacenamento masivo non pode ser activado porque o dispositivo de almacenamento non está dispoñible."
+    },
     "dialogConfirmResetTitle": {
         "message": "Confirmar"
     },
@@ -2258,5 +2276,8 @@
     },
     "modeCameraChangeMode": {
         "message": "Cambiar o modo da cámara"
+    },
+    "cliAutoComplete": {
+        "message": "AutoCompletar CLI Avanzado"
     }
 }
