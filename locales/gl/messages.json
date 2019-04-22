@@ -2592,6 +2592,53 @@
     "ledStripHelp": {
         "message": "O controlador de voo pode controlar cores e efectos dos LEDs individuais duna tira.<br\/>Configura LEDs, configura a orde do cableado e engade LEDs a tua aeronave acordo coas posiciones da reixa. LEDs sen número de orden do cableado non se gardarán.<br \/>Doble-pulsación nun cor para editar os valores HSV."
     },
+    "ledStripButtonSave": {
+        "message": "Gardar"
+    },
+    "ledStripColorSetupTitle": {
+        "message": "Axuste da cor",
+        "description": "Color setup title of the led strip"
+    },
+    "ledStripH": {
+        "message": "H",
+        "description": "Abbreviation of Hue in HSV (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripS": {
+        "message": "S",
+        "description": "Abbreviation of Saturation in HSV  (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripV": {
+        "message": "V",
+        "description": "Abbreviation of Brightness in HSV  (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripRemainingText": {
+        "message": "Restantes",
+        "description": "In the LED STRIP, text next the counter of leds remaining"
+    },
+    "ledStripClearSelectedButton": {
+        "message": "Borrar seleccionado",
+        "description": "In the LED STRIP, clear selected leds"
+    },
+    "ledStripClearAllButton": {
+        "message": "Borrar todo",
+        "description": "In the LED STRIP, clear all leds"
+    },
+    "ledStripEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">gardada<\/span>"
+    },
+    "ledStripVtxOverlay": {
+        "message": "VTX (usa a frecuencia VTX para asinar a cor)"
+    },
+    "ledStripFunctionSection": {
+        "message": "Funcións LED"
+    },
+    "ledStripFunctionTitle": {
+        "message": "Función"
+    },
+    "ledStripFunctionNoneOption": {
+        "message": "Ningunha",
+        "description": "One of the modes of the Led Strip"
+    },
     "ledStripModeColorsModeMag": {
         "message": "Mag",
         "description": "One of the modes in Color Mode in Led Strip"
