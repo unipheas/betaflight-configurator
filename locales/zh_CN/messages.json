@@ -3164,7 +3164,7 @@
         "message": "最小卫星数"
     },
     "failsafeGpsRescueItemSanityChecks": {
-        "message": "理智检查"
+        "message": "可用性检测"
     },
     "failsafeGpsRescueItemSanityChecksOff": {
         "message": "关闭"
