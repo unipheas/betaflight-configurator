@@ -378,7 +378,7 @@
         "message": "Erro ó iniciar rutina de desprotexer"
     },
     "noConfigurationReceived": {
-        "message": "Non se recibiu configuración algunha en <span class=\"message-negative\">10 segundos<\/span>, <span class=\"message-negative\">fallou<\/span> a comunicación"
+        "message": "Non se recibiu configuración algunha en <span class=\"message-negative\">10 segundos<\/span>, comunicación<span class=\"message-negative\">errada<\/span>"
     },
     "firmwareVersionNotSupported": {
         "message": "Esta versión de firmware <span class=\"message-negative\">non está soportada<\/span>. Por favor actualice a un firmware que soporte a versión de api <strong>$1<\/strong> ou superior. Empregue o CLI para facer un backup antes de flashear. O procedemento CLI de backup\/recuperación atópase na documentación.<br \/>Se o prefire tamén pode descargar e usar unha versión antigua do configurador se non desexa actualizar."
@@ -433,7 +433,7 @@
         "message": "ID único do dispositivo: <strong>0x$1<\/strong>"
     },
     "craftNameReceived": {
-        "message": "Nome da nave: <strong>$1<\/strong>"
+        "message": "Nome aeronave: <strong>$1<\/strong>"
     },
     "armingDisabled": {
         "message": "<strong>Armado Desactivado<\/strong>"
@@ -451,13 +451,13 @@
         "message": "Placa: <strong>$1<\/strong>, versión: <strong>$2<\/strong>"
     },
     "buildInfoReceived": {
-        "message": "Executando firmware publicado o: <strong>$1<\/strong>"
+        "message": "Executando firmware publicado en: <strong>$1<\/strong>"
     },
     "fcInfoReceived": {
         "message": "Información de controladora de voo, identificador: <strong>$1<\/strong>, versión: <strong>$2<\/strong>"
     },
     "versionLabelTarget": {
-        "message": "Target"
+        "message": "Placa"
     },
     "versionLabelFirmware": {
         "message": "Firmware"
@@ -469,7 +469,7 @@
         "message": "Aplicación actualizada á versión: $1"
     },
     "notifications_click_here_to_start_app": {
-        "message": "pulsa aqui para abrir a aplicación "
+        "message": "Pulsa aquí para abrila aplicación"
     },
     "statusbar_port_utilization": {
         "message": "Utilización do porto:"
@@ -877,10 +877,10 @@
         "message": "Sonar"
     },
     "featureTELEMETRY": {
-        "message": "Saida de telemetría"
+        "message": "Saída de telemetría"
     },
     "featureCURRENT_METER": {
-        "message": "Análisis do sensor de corrente"
+        "message": "Monitorización do sensor de corrente"
     },
     "feature3D": {
         "message": "Modo 3D (para utilizar con ESCs reversibles)"
@@ -988,7 +988,7 @@
         "message": "RSSI (Calidade da sinal)"
     },
     "configurationRSSIHelp": {
-        "message": "RSSI e a medida da forza dinal e e moy útil pois te permite saber cando a aeronave está a sairse de alcance ou se está a sufrir de interferencias de radiofrecuencia."
+        "message": "RSSI e a medida da forza da sinal e é moy útil porque permite saber cando a aeronave está a sairse do alcance ou si está a sufrir interferencias de radiofrecuencia."
     },
     "configurationEscFeatures": {
         "message": "Características de ESC\/Motores"
@@ -1090,16 +1090,16 @@
         "message": "Este é o valor 'a ralentí' en porcentaxe do acelerador máximo que se envía aos ESCs cando a aeronave está armada e o stick está en posición mínima. Aumente o porcentaxe de valor para gañar máis velocidade do ralentí."
     },
     "configurationThrottleMinimum": {
-        "message": "Minimun Throttle (Valor minimo do ESC o armar)"
+        "message": "Minimun Throttle (Valor minimo do ESC ó armar)"
     },
     "configurationThrottleMinimumHelp": {
         "message": "Este é o valor 'ralentí' que se envía aos ESCs cando a aeronave está armada e o acelerador está en posición mínima. Aumente o valor para gañar máis velocidade do ralentí. Tamén aumente o valor en caso de desincronización!"
     },
     "configurationThrottleMaximum": {
-        "message": "Maximum Throttle ( Valor maximo do ESC o armar)"
+        "message": "Maximum Throttle ( Valor maximo do ESC ó armar)"
     },
     "configurationThrottleMinimumCommand": {
-        "message": "Comando mínimo ( Valor do ESC o desarmar)"
+        "message": "Comando mínimo ( Valor do ESC ó desarmar)"
     },
     "configurationThrottleMinimumCommandHelp": {
         "message": "Este é o valor que se envía aos ESC cando a nave está desarmada. Selecciona un valor onde os motores estean parados (1000 para a maioria dos ESC)"
@@ -1261,7 +1261,7 @@
         "message": "Entrada Sensor"
     },
     "portsTelemetryOut": {
-        "message": "Salida Telemetría"
+        "message": "Saída Telemetría"
     },
     "portsPeripherals": {
         "message": "Periféricos"
@@ -1996,7 +1996,7 @@
         "message": "EEPROM <span class=\"message-positive\">gardada<\/span>"
     },
     "servosFirmwareUpgradeRequired": {
-        "message": "O servos necesitan como mínimo o firmware &gt;= 1.10.0. e soporte y soporte para ese target."
+        "message": "O servos necesitan como mínimo o firmware &gt;= 1.10.0. e soporte para esa placa."
     },
     "servosChangeDirection": {
         "message": "Cambiar dirección no TX para Igualar"
@@ -2317,7 +2317,7 @@
         "message": "Os rexistros de voos pódense gravar no slot para tarxetas SD do controlador de voo."
     },
     "dataflashUsedSpace": {
-        "message": "Espacio en uso"
+        "message": "Espaza en uso"
     },
     "dataflashFreeSpace": {
         "message": "Espazo libre"
@@ -2332,7 +2332,7 @@
         "message": "Os históricos de vo poden grabarse na memoria dataflash da controladora."
     },
     "dataflashNotPresentNote": {
-        "message": "A tua controladora non ten unha disponible una memoria dataflash compatible."
+        "message": "A tua controladora non dispon duna memoria dataflash compatible."
     },
     "dataflashFirmwareUpgradeRequired": {
         "message": "Dataflash require un firmware &gt;= 1.8.0."
@@ -2401,13 +2401,13 @@
         "message": "Información de versión"
     },
     "firmwareFlasherReleaseName": {
-        "message": "Nombre\/Versión"
+        "message": "Nome\/Versión:"
     },
     "firmwareFlasherReleaseVersionUrl": {
-        "message": "Visitar página de esta versión"
+        "message": "Visitar páxina desta versión."
     },
     "firmwareFlasherReleaseNotes": {
-        "message": "Notas de la versión:"
+        "message": "Notas da versión:"
     },
     "firmwareFlasherReleaseDate": {
         "message": "Data:"
@@ -2416,19 +2416,19 @@
         "message": "Estado:"
     },
     "firmwareFlasherReleaseTarget": {
-        "message": "Target:"
+        "message": "Placa:"
     },
     "firmwareFlasherReleaseFile": {
         "message": "Binario:"
     },
     "firmwareFlasherReleaseStatusReleaseCandidate": {
-        "message": "<span class=\"message-negative\">IMPORTANTE: Esta versión de firmware está marcada como versión candidata a convertirse en estable (release candidate). Por favor, informa de calquera problema inmediatamente.<\/span>"
+        "message": "<span class=\"message-negative\">IMPORTANTE: Esta versión de firmware está marcada como versión candidata a convertirse en estable. Por favor, informa de calquera problema inmediatamente.<\/span>"
     },
     "firmwareFlasherReleaseFileUrl": {
         "message": "Descargar manualmente."
     },
     "firmwareFlasherTargetWarning": {
-        "message": "<span class=\"message-negative\">IMPORTANTE<\/span>: Asegurate de que cargas un arquivo apropiado para o teu target. Flashear un binario para un target erroneo pode facer que cousas <span class=\"message-negative\">malas<\/span> acontezan."
+        "message": "<span class=\"message-negative\">IMPORTANTE<\/span>: Asegurate de que cargas un arquivo apropiado para a tua placa. Flashear un binario para unha placa erronea pode facer que <span class=\"message-negative\">acontezan<\/span> cousas malas."
     },
     "firmwareFlasherPath": {
         "message": "Ruta:"
@@ -2464,7 +2464,7 @@
         "message": "Flashear ó conectar"
     },
     "firmwareFlasherFlashOnConnectDescription": {
-        "message": "Intentar flashear a controladora automáticamente (tan pronto como se detecte un nuevo puerto de serie)."
+        "message": "Intentar flashear a controladora automáticamente (tan pronto como se detecte un novo porto serie)."
     },
     "firmwareFlasherFullChipErase": {
         "message": "Borrado completo do chip"
@@ -2483,9 +2483,6 @@
     },
     "firmwareFlasherManualBaud": {
         "message": "Velocidade manual"
-    },
-    "firmwareFlasherManualBaudDescription": {
-        "message": "Selección manual da velocidade de transmisión en baudios para controladoras que non soportan a velocidade por defecto ou que se están a actualizar a través de bluetooth.<br \/><span class=\"message-negative\">Nota:<\/span> Non empregado cando se está a utilizar USB DFU"
     },
     "firmwareFlasherBaudRate": {
         "message": "Velocidade de Transmisión"
@@ -2551,7 +2548,7 @@
         "message": "Hash:"
     },
     "firmwareFlasherUrl": {
-        "message": "Ir a GitHub a revisar este cambio..."
+        "message": "Ir a GitHub para revisar este cambio..."
     },
     "firmwareFlasherMessage": {
         "message": "Mensaxe:"
