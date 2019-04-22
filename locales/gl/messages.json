@@ -1959,6 +1959,72 @@
         "message": "Perfil OSD {{profileNumber}}",
         "description": "Content of the selector for the OSD Profile in the preview"
     },
+    "osdSetupPreviewTitleTip": {
+        "message": "Mostrar ou ocultar o logotipo na xanela de previsualización. Isto non cambiará ningunha configuración do controlador de voo."
+    },
+    "osdSetupVideoFormatTitle": {
+        "message": "Formato de vídeo"
+    },
+    "osdSetupUnitsTitle": {
+        "message": "Unidades"
+    },
+    "osdSetupTimersTitle": {
+        "message": "Temporizadores"
+    },
+    "osdSetupAlarmsTitle": {
+        "message": "Alarmas"
+    },
+    "osdSetupStatsTitle": {
+        "message": "Estadísticas Post Voo"
+    },
+    "osdSetupVtxTitle": {
+        "message": "Axustes VTX"
+    },
+    "osdSetupCraftNameTitle": {
+        "message": "Nome aeronave"
+    },
+    "osdDescElementAvgCellVoltage": {
+        "message": "Voltaxe medio das baterías (voltaxe principal da batería \/ número de celdas)"
+    },
+    "osdDescElementPitchAngle": {
+        "message": "Ángulo numérico do pitch en grados"
+    },
+    "osdDescElementRollAngle": {
+        "message": "Ángulo numérico do roll en grados"
+    },
+    "osdDescElementMainBattUsage": {
+        "message": "Representación gráfica da capacidad da batería usada"
+    },
+    "osdDescElementArmedTime": {
+        "message": "Tempo dende que a aeronave foi armada por última vez"
+    },
+    "osdDescElementWarnings": {
+        "message": "Alertas (p.ej. batería baixa), avisos (p.ej. razons para non armar, batería baixa crítica) e pitido visual (4 asteriscos parpadeando)."
+    },
+    "osdDescElementEscTemperature": {
+        "message": "Temperatura reportada pola telemetría dos ESC"
+    },
+    "osdDescElementEscRpm": {
+        "message": "RPM reportadas por la telemetría dos ESC"
+    },
+    "osdDescElementEscRpmFreq": {
+        "message": "Frecuencia RPM reportada pola telemetría dos ESC"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "Data \/ Hora en tempo real"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "Axuste de rango e valor do elemento activo actualmente"
+    },
+    "osdDescElementHomeDirection": {
+        "message": "Flecha mostrando a dirección da posición da casa"
+    },
+    "osdDescElementHomeDistance": {
+        "message": "Distancia cara a posición casa (en pes ou en metros basada no axuste de unidades do sistema)"
+    },
+    "osdDescElementNumericalHeading": {
+        "message": "Lectura numérica da dirección actual en grados"
+    },
     "osdWarningBatteryNotFull": {
         "message": "Alerta cando a batería está conectada pero non cargada totalmente"
     },
