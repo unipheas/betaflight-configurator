@@ -1731,6 +1731,15 @@
     "failsafePaneTitleOld": {
         "message": "Failsafe do receptor"
     },
+    "failsafeFeaturesHelpNew": {
+        "message": "Failsafe ten dúas etapas. <strong>Etapa 1<\/strong> introdúcese cando un canle de voo ten unha lonxitude de pulso inválida, o receptor informa do modo a proba de fallos ou non hai ningún sinal do receptor, os axustes de caída do canal aplícanse a <span class=\"message-negative\"> todos os canais <\/span> e fornécese un curto período de tempo para permitir a recuperación. <strong> Etapa 2 <\/strong> introdúcese cando a condición de erro leva máis tempo que a garda configurada mentres que a nave é <span class=\"message-negative\"> armada <\/span>, todos os canles permanecerán na canle aplicada opción de reposición a menos que se exceda o procedemento escollido. <br \/> <strong> Nota: <\/strong> Antes de entrar na fase 1, as opcións de caída do canal tamén se aplican a canles AUX individuais que teñen pulsos non válidos."
+    },
+    "failsafePulsrangeTitle": {
+        "message": "Configuración de intervalo de pulsos válidos"
+    },
+    "failsafePulsrangeHelp": {
+        "message": "Os pulsos máis curtos que o mínimo ou máis que o máximo non son válidos e desencadearán a aplicación das opcións de devolución de canles individuais para as canles AUX ou entrar na fase 1 para os canles de voo"
+    },
     "failsafeRxMinUsecItem": {
         "message": "Lonxitud mínima"
     },
@@ -1742,6 +1751,9 @@
     },
     "failsafeChannelFallbackSettingsHelp": {
         "message": "Estes axustes aplicaranse a cada canal auxiliar non válido ou a todolos canáis cando se entra na Etapa 1.<strong>Nota:<\/strong> os valores gárdanse en pasos de 25usec, polo que os cambios pequenos desaparecen"
+    },
+    "failsafeChannelFallbackSettingsAuto": {
+        "message": "<strong> Auto <\/strong> significa Roll, Pitch and Yaw ao centro e baixo Throttle. <strong>Manter<\/strong> significa manter o último valor bo recibido"
     },
     "failsafeChannelFallbackSettingsHold": {
         "message": "<strong>Manter<\/strong> significa manter o último valor correcto recibido. <strong>Axustar<\/strong> significa que se utilizará o valor especificado aquí"
@@ -1778,6 +1790,24 @@
     },
     "failsafeProcedureItemSelect2": {
         "message": "Caer"
+    },
+    "failsafeProcedureItemSelect4": {
+        "message": "GPS Rescue"
+    },
+    "failsafeGpsRescueItemAngle": {
+        "message": "Ángulo"
+    },
+    "failsafeGpsRescueItemInitialAltitude": {
+        "message": "Altura inicial (metros)"
+    },
+    "failsafeGpsRescueItemDescentDistance": {
+        "message": "Distancia de descenso (metros)"
+    },
+    "failsafeGpsRescueItemGroundSpeed": {
+        "message": "Velocidade de aterraxe (metros\/segundo)"
+    },
+    "failsafeGpsRescueItemThrottleMin": {
+        "message": "Aceleredor mínimo"
     },
     "failsafeKillSwitchItem": {
         "message": "Failsafe Kill Switch (configura o Failsafe na Pestana de Modos)"
