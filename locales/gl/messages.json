@@ -1698,6 +1698,33 @@
     "pidTuningAbsoluteControlGain": {
         "message": "Control Absoluto"
     },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "Esta característica resolve algúns problemas subxacentes de $t(pidTuningItermRotation.message) e debería substituílo por algún outro punto. Este recurso acumula o erro xiratorio absoluto nas coordenadas quad e mestura unha corrección proporcional no punto de consigna. Para que funcione, ten que activar AirMode e $t(pidTuningItermRelax.message) (for $t(pidTuningItermRelaxAxesOptionRP.message)). Se combina esta función con $t(pidTuningIntegratedYaw.message), pode configurar $t(pidTuningItermRelax.message) activado para $t(pidTuningItermRelaxAxesOptionRPY.message)."
+    },
+    "pidTuningThrottleBoost": {
+        "message": "Potenciar do Acelerador"
+    },
+    "pidTuningThrottleBoostHelp": {
+        "message": "Esta característica permite que o acelerador sexa impulsado temporalmente nos movementos de adherencia rápida, o que aumenta o par de aceleración dos motores, proporcionando unha resposta moito máis rápida."
+    },
+    "pidTuningAcroTrainerAngleLimit": {
+        "message": "Ángulo límite para Entrenador Acro"
+    },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "Engade un novo modo de limitación de ángulo para os pilotos que aprenden a voar en modo acro. O intervalo válido é de 10 a 80 e debe activarse cun cambio no separador $t(tabAuxiliary.message)."
+    },
+    "pidTuningIntegratedYaw": {
+        "message": "Yaw Integrado"
+    },
+    "pidTuningIntegratedYawCaution": {
+        "message": "<span class=\"message-negative\"> ATENCIÓN <\/span>: se habilita esta función, ten que axustar o PID YAW de acordo. Máis información <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\"> aquí <\/a>"
+    },
+    "pidTuningIntegratedYawHelp": {
+        "message": "Yaw integrado é unha característica que corrixe un problema fundamental co control do quad: mentres que o eixe do pich e roll son controlados polos diferenciais de empuxe, as hélices xeran diferente Yaw. Yaw integrado resolve isto integrando a saída do yaw pid antes de aplicalos ao mixer. Isto normaliza o xeito no que funcionan os pids. Agora podes sintonizar con calquera outro eixe. Require o uso do control absoluto xa que non se necesitan con Yaw integrado."
+    },
+    "configHelp2": {
+        "message": "Rotación arbitraria de taboleiro en graos, para permitir a súa montaxe lateral \/ boca abaixo \/ rotada etc. Ao executar sensores externos, use os aliñamentos do sensor (Xiro, Acc, Mag) para definir a posición do sensor independente da orientación da placa. "
+    },
     "failsafeFeaturesHelpOld": {
         "message": "A configuración de Failsafe cambiou considerablemente. Utiliza Betaflight <strong>v1.12.0+<\/strong> para habilitar o panel de configuración mellorado."
     },
