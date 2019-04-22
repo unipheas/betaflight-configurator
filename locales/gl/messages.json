@@ -2025,6 +2025,42 @@
     "osdDescElementNumericalHeading": {
         "message": "Lectura numérica da dirección actual en grados"
     },
+    "osdDescElementNumericalVario": {
+        "message": "Lectura numérica da velocidade vertical (en pes ou metros basada no axuste de unidades do sistema)"
+    },
+    "osdDescElementCompassBar": {
+        "message": "Barra gráfica cuna brúxula mostrando a dirección actual"
+    },
+    "osdDescElementFlipArrow": {
+        "message": "Flecha que indica que lado ten os motores arriba en modo tartaruga"
+    },
+    "osdDescElementLinkQuality": {
+        "message": "Indicador alternativo para 'calidade do enlace' basado na pérdida de paquetes - empregar con precaución"
+    },
+    "osdDescElementFlightDist": {
+        "message": "Distancia recorrida durante este voo."
+    },
+    "osdDescElementStickOverlayLeft": {
+        "message": "Superposición da posición do mando esquerdo do transmisor."
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "Superposición da posición do mando dereito do transmisor."
+    },
+    "osdDescElementTimer1": {
+        "message": "Mostra o valor do temporizador 1"
+    },
+    "osdDescElementTimer2": {
+        "message": "Mostra o valor do temporizador 2"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Tempo estimado restante de voo"
+    },
+    "osdDescElementUnknown": {
+        "message": "Elemento descoñecido (os detalles añadiranse nunha futura versión)"
+    },
+    "osdDescElementCoreTemperature": {
+        "message": "Temperatura do núcleo do STM32 MCU"
+    },
     "osdWarningBatteryNotFull": {
         "message": "Alerta cando a batería está conectada pero non cargada totalmente"
     },
