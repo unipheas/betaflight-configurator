@@ -3208,11 +3208,134 @@
     "failsafeGpsRescueItemSanityChecksOff": {
         "message": "Apagado"
     },
+    "failsafeGpsRescueItemSanityChecksOn": {
+        "message": "Activo"
+    },
+    "failsafeGpsRescueItemSanityChecksFSOnly": {
+        "message": "Só modo de seguridade"
+    },
     "failsafeKillSwitchItem": {
         "message": "Failsafe Kill Switch (configura o Failsafe na Pestana de Modos)"
     },
     "failsafeKillSwitchHelp": {
         "message": "Activa esta opción para facer que o interruptor de failsafe (na Pestana de Modos) actue como un interruptor de apagado, ignorando o procedemento de Failsafe seleccionado. <strong>Nota:<\/strong> O armado está bloqueado mentres o interruptor de failsafe esté en posición de ACTIVADO."
+    },
+    "failsafeSwitchTitle": {
+        "message": "Interruptor Failsafe"
+    },
+    "failsafeSwitchModeItem": {
+        "message": "Acción Interruptor Failsafe"
+    },
+    "failsafeSwitchModeHelp": {
+        "message": "Esta opción determina qué pasa cando o Modo de seguridade se activa a través dun interruptor AUX:<br\/><strong>Etapa 1<\/strong> activa o modo de seguridade Etapa 1. É útil si queres simular o comportamiento exacto duna pérdida de sinal.<br\/><strong>Etapa 2<\/strong>salta a Etapa 1 e activa o procedemiento Etapa 2 inmediatamente<br\/><strong>Matar<\/strong> desarma instantáneamente (a aeronave estrellarase)"
+    },
+    "failsafeSwitchOptionStage1": {
+        "message": "Etapa 1"
+    },
+    "failsafeSwitchOptionStage2": {
+        "message": "Etapa 2"
+    },
+    "failsafeSwitchOptionKill": {
+        "message": "Matar"
+    },
+    "powerButtonSave": {
+        "message": "Gardar"
+    },
+    "powerFirmwareUpgradeRequired": {
+        "message": "Actualitzación de firmware <span class=\"message-negative\">requerida<\/span>. A configuración de Batería\/Amperatge\/Voltatge empregando l'API &lt; 1.33.0 (Versió de Betaflight &lt;= 3.17) no està suportada."
+    },
+    "powerBatteryVoltageMeterSource": {
+        "message": "Orixe do Sensor de Voltaxe"
+    },
+    "powerBatteryVoltageMeterTypeNone": {
+        "message": "Ningún"
+    },
+    "powerBatteryVoltageMeterTypeAdc": {
+        "message": "ADC Integrado"
+    },
+    "powerBatteryVoltageMeterTypeEsc": {
+        "message": "Sensor ESC"
+    },
+    "powerBatteryCurrentMeterSource": {
+        "message": "Orixen do Sensor de Corriente"
+    },
+    "powerBatteryCurrentMeterTypeNone": {
+        "message": "Ningún"
+    },
+    "powerBatteryCurrentMeterTypeAdc": {
+        "message": "ADC Integrado"
+    },
+    "powerBatteryCurrentMeterTypeVirtual": {
+        "message": "Virtual"
+    },
+    "powerBatteryCurrentMeterTypeEsc": {
+        "message": "Sensor ESC"
+    },
+    "powerBatteryCurrentMeterTypeMsp": {
+        "message": "Sensor MSP\/OSD Esclavo"
+    },
+    "powerBatteryMinimum": {
+        "message": "Voltaxe Mínimo da celda"
+    },
+    "powerBatteryMaximum": {
+        "message": "Voltaxe Màximo da celda"
+    },
+    "powerBatteryWarning": {
+        "message": "Aviso Voltaxe por Celda"
+    },
+    "powerVoltageHead": {
+        "message": "Medidor de Voltaxe"
+    },
+    "powerVoltageValue": {
+        "message": "$1 V"
+    },
+    "powerAmperageValue": {
+        "message": "$1 A"
+    },
+    "powerVoltageId10": {
+        "message": "Batería"
+    },
+    "powerVoltageId20": {
+        "message": "5V"
+    },
+    "powerVoltageId30": {
+        "message": "9V"
+    },
+    "powerVoltageId40": {
+        "message": "12V"
+    },
+    "powerVoltageId50": {
+        "message": "ESC Combinado"
+    },
+    "powerVoltageId60": {
+        "message": "ESC Motor 1"
+    },
+    "powerVoltageId61": {
+        "message": "ESC Motor 2"
+    },
+    "powerVoltageId62": {
+        "message": "ESC Motor 3"
+    },
+    "powerVoltageId63": {
+        "message": "ESC Motor 4"
+    },
+    "powerVoltageId64": {
+        "message": "ESC Motor 5"
+    },
+    "powerVoltageId65": {
+        "message": "ESC Motor 6"
+    },
+    "powerVoltageId66": {
+        "message": "ESC Motor 7"
+    },
+    "powerVoltageId67": {
+        "message": "ESC Motor 8"
+    },
+    "powerVoltageId68": {
+        "message": "ESC Motor 9"
+    },
+    "powerVoltageId69": {
+        "message": "ESC Motor 10"
     },
     "powerVoltageDivider": {
         "message": "Valor Divisor"
