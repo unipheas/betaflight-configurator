@@ -806,6 +806,12 @@
     "configurationUseDshotBeeper": {
         "message": "Use a baliza Dshot (use o pitido dos motores cando se desarme)"
     },
+    "configurationDshotBeaconTone": {
+        "message": "Ton da baliza"
+    },
+    "configurationDshotBeaconHelp": {
+        "message": "A baliza Dshot utiliza os ESCs e os motores para producir son. Isto significa que a baliza Dshot non se pode empregar cando os motores están xirando. En Betaflight 3.4 e máis recentes, cando se intenta armar mentres a baliza Dshot está activa, hai un atraso de 2 segundos despois do último ton da baliza Dshot antes de que a aeronave estea armada. Trátase de evitar que a funcionalidade de baliza Dshot interfira cós comandos Dshot enviados ao armar. <br\/><strong>Aviso:<\/strong> Xa que a baliza Dshot está funcionando a través dos seus motores cando está activo, isto pode provocar un exceso de calor producindo danos nos seus motores e \/ ou ESCs se a intensidade da baliza é demasiado alta. Use BLHeli Configurator ou BLHeli Suite para axustar e probar a intensidade da baliza."
+    },
     "configurationBeeper": {
         "message": "Configuración do Beeper"
     },
@@ -826,6 +832,15 @@
     },
     "beeperARMING_GPS_FIX": {
         "message": "Sona un tono especial cando se arma a controladora e o GPS esta fixado"
+    },
+    "beeperBAT_CRIT_LOW": {
+        "message": "Pitidos longos de peligro cando a batería é moi baixa (repítese)"
+    },
+    "beeperBAT_LOW": {
+        "message": "Pitidos de peligro cando a batería é baixar (repítese)"
+    },
+    "beeperGPS_STATUS": {
+        "message": "Usa un número de pitidos para indicar cantos satélites GPS se atoparon"
     },
     "configurationButtonSave": {
         "message": "Gardar e Reiniciar"
