@@ -850,13 +850,13 @@
         "message": "Monitorización do voltaxe da batería"
     },
     "featureINFLIGHT_ACC_CAL": {
-        "message": "Calibración do nivel en-voo"
+        "message": "Calibración do nivel en voo"
     },
     "featureRX_SERIAL": {
         "message": "Receptor tipo serie (SPEKSAT, SBUS, SUMD)"
     },
     "featureMOTOR_STOP": {
-        "message": "Non xirar motores cando se arme"
+        "message": "Non xiran os motores cando se arme"
     },
     "featureSERVO_TILT": {
         "message": "Servo gimbal"
@@ -886,7 +886,7 @@
         "message": "Modo 3D (para utilizar con ESCs reversibles)"
     },
     "featureRX_PARALLEL_PWM": {
-        "message": "Entrada PWM RX (un cable por canal)"
+        "message": "Entrada PWM RX (un cable por canle)"
     },
     "featureRX_MSP": {
         "message": "Entrada MSP RX (control polo porto MSP)"
@@ -907,7 +907,7 @@
         "message": "Soporte para ESCs ONESHOT"
     },
     "featureONESHOT125Tip": {
-        "message": "Desconecta a batería e quita as hélices antes de activalo"
+        "message": "Desconecte a batería e quite as hélices antes de activalo."
     },
     "featureBLACKBOX": {
         "message": "Gravador de datos de voo blackbox"
@@ -958,10 +958,10 @@
         "message": "Activar Failsafe"
     },
     "featureFAILSAFETip": {
-        "message": "<strong>Nota:<\/strong> Cando a etapa 2 está DESACTIVADA, en lugar de utilizar as configuracións de usuario para todos os canales (Roll, Pitch, Yaw and Throttle) utilizaránse a modo de respaldo os de configuración <strong>Auto<\/strong>."
+        "message": "<strong>Nota:<\/strong> Cando a etapa 2 está DESACTIVADA, a configuración de rerpaldo<strong>Automática<\/strong> será empregada en lugar da configuración do usuario para todos os canles (Roll, Pitch, Yaw and Throttle)."
     },
     "featureFAILSAFEOldTip": {
-        "message": "Utilizar configuraciones de Failsafe en caso de pérdida de señal en la receptor"
+        "message": "Utilizar configuracións de Failsafe en caso de pérdida de sinal no receptor"
     },
     "configurationFeatureEnabled": {
         "message": "Activado"
