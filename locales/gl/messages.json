@@ -25,7 +25,7 @@
         "message": "O dispositivo de almacenamento non está preparado. No caso dunha tarxeta microSD, asegúrese de que o controlador de voo a recoñeza correctamente."
     },
     "options_title": {
-        "message": "Opcións"
+        "message": "Axustes da aplicación"
     },
     "connect": {
         "message": "Conectar"
@@ -49,10 +49,10 @@
         "message": "Pechar"
     },
     "autoConnectEnabled": {
-        "message": "Conexión automática: Activada - O configurador intentarase conectarse automaticamente cando un porto novo é detectado"
+        "message": "Conexión automática: Activada - O configurador intentase conectarse automaticamente cando un porto novo é detectado"
     },
     "autoConnectDisabled": {
-        "message": "Auto conectar: Desactivado - Necesitas seleccionar o porto serie correcto e premer ti mesmo o boton \"conectar\" "
+        "message": "Auto conectar: Desactivado - Necesita seleccionar o porto serie correcto e premer o botón \"conectar\""
     },
     "expertMode": {
         "message": "Activar Modo Experto"
@@ -70,7 +70,7 @@
         "message": "Elimina os datos anónimos das estatísticas"
     },
     "userLanguageSelect": {
-        "message": "Idioma (É necesario reiniciar a aplicación para que os cambios teñan efecto)"
+        "message": "Lingua (É necesario reiniciar a aplicación para que os cambios teñan efecto)"
     },
     "language_default": {
         "message": "Por defecto"
@@ -118,11 +118,11 @@
         "message": "简体中文 (zh_CN)"
     },
     "sensorDataFlashNotFound": {
-        "message": "Non se atopou un chip de almacenamento",
+        "message": "Memoria flash <br> non dispoñible",
         "description": "Text of the dataflash image in the header of the page."
     },
     "sensorDataFlashFreeSpace": {
-        "message": "Almacenamento: espacio libre",
+        "message": "Memoria flash: libre",
         "description": "Text of the dataflash image in the header of the page."
     },
     "sensorStatusGyro": {
