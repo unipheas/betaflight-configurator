@@ -1267,10 +1267,10 @@
         "message": "<strong> Nota: <\/strong> non todas as combinacións son válidas. Cando o firmware do controlador de voo detecte isto, restablecerase a configuración do porto serie."
     },
     "portsMSPHelp": {
-        "message": "<strong>Nota:<\/strong><span class=\"message-negative\">NON<\/span> desactives o MSP do primeiro porto de serie a non ser que saivas o que estás a facer. E posible que teñas que reflashear e borrar a tua configuración se o fas."
+        "message": "<strong>Nota:<\/strong><span class=\"message-negative\">NON<\/span> desactive o MSP do primeiro porto serie a non ser que saiva o que está a facer. E posible que teña que reflashear e borrar a súa configuración si o fai."
     },
     "portsFirmwareUpgradeRequired": {
-        "message": "Actualización do firmware <span class=\"message-negative\"> requerida <\/span>. Configuracións de porto serie do firmware &lt; 1.8.0 non está soportado."
+        "message": "Actualización do firmware <span class=\"message-negative\"> requerida <\/span>. Configuracións do porto serie do firmware &lt; 1.8.0 non está soportado."
     },
     "portsButtonSave": {
         "message": "Gardar e Reiniciar"
@@ -1330,7 +1330,7 @@
         "message": "VTX (IRC Tramp)"
     },
     "portsFunction_RUNCAM_DEVICE_CONTROL": {
-        "message": "Camara (Protocolo RunCam)"
+        "message": "Cámara (Protocolo RunCam)"
     },
     "pidTuningProfileOption": {
         "message": "Perfil $1"
@@ -1342,7 +1342,7 @@
         "message": "Benewake LIDAR"
     },
     "pidTuningUpgradeFirmwareToChangePidController": {
-        "message": "<span class=\"message-negative\"> Cambiando o controlador PID desactivado - pode cambialo a través da CLI. <\/span> Ten firmware coa versión API <span class=\"message-negative\">$1<\/span>, pero esta funcionalidade require <span class=\"message-positive\">$2<\/span>."
+        "message": "<span class=\"message-negative\"> Cambio do controlador PID desactivado - pode cambialo a través da CLI. <\/span> Ten firmware coa versión API <span class=\"message-negative\">$1<\/span>, pero esta funcionalidade require <span class=\"message-positive\">$2<\/span>."
     },
     "pidTuningSubTabPid": {
         "message": "Opcións de PID"
