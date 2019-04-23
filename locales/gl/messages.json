@@ -1102,10 +1102,10 @@
         "message": "Comando mínimo ( Valor do ESC ó desarmar)"
     },
     "configurationThrottleMinimumCommandHelp": {
-        "message": "Este é o valor que se envía aos ESC cando a nave está desarmada. Selecciona un valor onde os motores estean parados (1000 para a maioria dos ESC)"
+        "message": "Este é o valor que se envía aos ESCs cando a aeronave está desarmada. Selecciona un valor onde os motores estean parados (1000 para a maioria dos ESCs)."
     },
     "configurationDshotBeeper": {
-        "message": "Dshot Beacon Configuration"
+        "message": "Configuración baliza Dshot"
     },
     "configurationUseDshotBeeper": {
         "message": "Use a baliza Dshot (use o pitido dos motores cando se desarme)"
