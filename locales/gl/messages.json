@@ -1236,14 +1236,11 @@
     "configurationGPSHelp": {
         "message": "<strong> Nota: <\/strong> non esqueza configurar un porto serie (a través da pestana Ports) cando use a función GPS."
     },
-    "configurationSerialRX": {
-        "message": "Provedor de receptores en serie"
-    },
     "configurationSpiRX": {
         "message": "Provedor de receptores de bus SPI"
     },
     "configurationEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">guardado<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">guardada<\/span>"
     },
     "configurationButtonSave": {
         "message": "Gardar e Reiniciar"
