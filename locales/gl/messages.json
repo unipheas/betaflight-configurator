@@ -403,16 +403,16 @@
         "message": "Usando información construida na caché para $1."
     },
     "releaseCheckLoaded": {
-        "message": "Cargada información de lanzamento para $1 dende GitHub."
+        "message": "Cargada información de versión para $1 dende GitHub."
     },
     "releaseCheckFailed": {
-        "message": "<b>Fallou a consulta a GitHub para $1 lanzamentos, empregarase a información gardada na caché. Motivo: <code>$2<\/code><\/b>"
+        "message": "<b>Fallou a consulta GitHub para a versión $1, empregarase a información gardada na caché. Motivo: <code>$2<\/code><\/b>"
     },
     "releaseCheckCached": {
-        "message": "Empregando información gardada na caché para $1 lanzamentos."
+        "message": "Empregando información gardada na caché para a versión $1."
     },
     "releaseCheckNoInfo": {
-        "message": "Non se atopa información de lanzamento para $1."
+        "message": "Non se atopa información válida para a versión $1."
     },
     "tabSwitchConnectionRequired": {
         "message": "É necesario <strong>conectar<\/strong> para poder ver as pestanas."
@@ -496,7 +496,7 @@
         "message": "Por favor emprega o Flasheador de Firmware para acceder os dispositivos DFU"
     },
     "dfu_erased_kilobytes": {
-        "message": "Borrados $1 kB de flash <span class=\"message-positive\">correctamente<\/span>"
+        "message": "Borrados $1 kB da flash <span class=\"message-positive\">correctamente<\/span>"
     },
     "dfu_device_flash_info": {
         "message": "Dispositivo detectado cun tamaño de flash total $1 KiB"
@@ -508,7 +508,7 @@
         "message": "EEPROM <span class=\"message-positive\">gardada<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Benvido a <strong>Betaflight - Configurator<\/strong>, unha utilidade deseñada para simplificar a actualización, configuración e axuste da túa controladora de voo."
+        "message": "Benvido ó <strong>Betaflight - Configurator<\/strong>, unha utilidade deseñada para simplificar a actualización, configuración e axuste da súa controladora de voo."
     },
     "defaultWelcomeHead": {
         "message": "Hardware"
