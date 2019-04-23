@@ -1108,7 +1108,7 @@
         "message": "Configuración baliza Dshot"
     },
     "configurationUseDshotBeeper": {
-        "message": "Use a baliza Dshot (use o pitido dos motores cando se desarme)"
+        "message": "Usar a baliza Dshot (usa os motores para emitir pitidos cando está desarmado)"
     },
     "configurationDshotBeaconTone": {
         "message": "Ton da baliza"
@@ -1123,7 +1123,7 @@
         "message": "Soa cando o Xiro foi calibrado"
     },
     "beeperRX_LOST": {
-        "message": "Soa cando se apague o TX ou se perda sinal (repetirase ata co TX estea ben)"
+        "message": "Soa cando se apague o TX ou se perda a sinal (repetirase ata co TX estea ben)"
     },
     "beeperRX_LOST_LANDING": {
         "message": "Soa SOS cando estando armado o Tx apagase ou perde sinal (autoaterrizaxe\/autodesarme)"
@@ -1156,7 +1156,7 @@
         "message": "Erro da calibración do acelerómetro de voo"
     },
     "beeperREADY_BEEP": {
-        "message": "Soar un ton cando o GPS estea bloqueado e listo"
+        "message": "Soa un ton cando o GPS estea bloqueado e listo"
     },
     "beeperDISARM_REPEAT": {
         "message": "Soan beeps mentres o stick quede en posición de desarmado"
