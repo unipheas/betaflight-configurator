@@ -168,10 +168,10 @@
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "checkForConfiguratorUnstableVersions": {
-        "message": "Mostrar notificacións de actualización para versións inestables do configurador"
+        "message": "Mostrar notificacións de actualizacións para versións inestables do configurador"
     },
     "configuratorUpdateNotice": {
-        "message": "Está a usar unha versión desactualizada do <b> Configurador de Betaflight<\/ b>. <br> A versión <b> $ 1 <\/ b> está dispoñible en liña, visite a <a href=\"$2\" target=\"_blank\"> a páxina de lanzamento <\/a> para descargar e instalar a última versión con correccións e melloras. Por favor pecha a xanela do configurador antes de actualizar."
+        "message": "Está a usar unha versión desactualizada do <b> Configurador Betaflight<\/ b>.<br> A versión <b>$1<\/ b> está dispoñible en liña, visite <a href=\"$2\" target=\"_blank\"> a páxina de lanzamento <\/a> para descargar e instalar a última versión con correccións e melloras. Por favor pecha a xanela do configurador antes de actualizar."
     },
     "configuratorUpdateWebsite": {
         "message": "Ir a web de descargas"
@@ -183,7 +183,7 @@
         "message": "Dispositivo -  <span class=\"message-positive\">Preparado<\/span>"
     },
     "backupFileIncompatible": {
-        "message": "O arquivo de resgardo facilitado foi creado para unha versión anterior do configurador polo que e incompatible coa versión, sentímolo"
+        "message": "O arquivo de resgardo facilitado foi creado para unha versión anterior do configurador polo que e incompatible coa versión. Sentímolo"
     },
     "backupFileUnmigratable": {
         "message": "Este arquivo de copia de seguridad foi xerado cunha versión anterior do configurador e non se pode migrar. Sentímolo."
@@ -276,10 +276,10 @@
         "message": "Amosar rexistro de conexións"
     },
     "serialPortOpened": {
-        "message": "Porto serie aberto <span class=\"message-positive\">satisfactoriamente<\/span> aberto coa ID: $1"
+        "message": "Porto serie <span class=\"message-positive\">satisfactoriamente<\/span> aberto coa ID: $1"
     },
     "serialPortOpenFail": {
-        "message": "<span class=\"message-negative\">Fallo<\/span> abrindo porto serie"
+        "message": "<span class=\"message-negative\">Erro<\/span> abrindo porto serie"
     },
     "serialPortClosedOk": {
         "message": "Porto serie pechado <span class=\"message-positive\">satisfactoriamente<\/span>"
