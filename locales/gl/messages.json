@@ -994,10 +994,10 @@
         "message": "Características de ESC\/Motores"
     },
     "configurationFeaturesHelp": {
-        "message": "<strong>Nota:<\/strong>Non todalas combinacións de opcións son válidas. Cando o firmware da controladora detecta unha configuración inválida as opcións con conflicto serán desactivadas. <br \/><strong>Nota:<\/strong> Configurar portos serie <span class=\"message-negative\">before<\/span> activando as características que usan esos portos."
+        "message": "<strong>Nota:<\/strong>Non tódalas combinacións de opcións son válidas. Cando o firmware da controladora detecta unha configuración inválida as opcións con conflicto serán desactivadas. <br \/><strong>Nota:<\/strong> Configurar portos serie <span class=\"message-negative\">antes<\/span> activando as características que usan esos portos."
     },
     "configurationSerialRXHelp": {
-        "message": "<strong>Nota:<\/strong> Recorda configurar o Porto Serie (menú Portos) e elixir Receptor Serie cando se use a opción RX_SERIAL."
+        "message": "<strong>Nota:<\/strong> Recorde configurar o Porto Serie (menú Portos) e elixir Receptor Serie cando se use a opción RX_SERIAL."
     },
     "configurationSpiRxHelp": {
         "message": "<strong>Nota:<\/strong> O provedor SPI RX só funcionará se o hardware necesario está na placa ou se conecta a un bus SPI."
@@ -1018,7 +1018,7 @@
         "message": "Graos de Yaw"
     },
     "configurationSensorAlignmentGyro": {
-        "message": "Aliñado do GYRO"
+        "message": "Aliñado do XIRO"
     },
     "configurationSensorGyroToUse": {
         "message": "XIRO\/ACCEL"
