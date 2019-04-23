@@ -49,7 +49,7 @@
         "message": "Pechar"
     },
     "autoConnectEnabled": {
-        "message": "Conexión automática: Activada: o configurador intenta conectarse automaticamente cando un novo porto é detectado"
+        "message": "Conexión automática: Activada - O configurador intentarase conectarse automaticamente cando un porto novo é detectado"
     },
     "autoConnectDisabled": {
         "message": "Auto conectar: Desactivado - Necesitas seleccionar o porto serie correcto e premer ti mesmo o boton \"conectar\" "
