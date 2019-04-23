@@ -744,7 +744,7 @@
         "description": "Description of the BOXFAILSAFE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
-        "message": "Se desencadeou a prevención de despegue de pista",
+        "message": "Activouse a protección de despegue incontrolado",
         "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
@@ -760,7 +760,7 @@
         "description": "Description of the BOOT_GRACE_TIME arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipNOPREARM": {
-        "message": "O interruptor prearmar non está activado ou prearmar non se alterou despois de desarmalo",
+        "message": "O interruptor prearmar non está activado ou non se desactivou despois de desarmalo",
         "description": "Description of the NOPREARM arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipLOAD": {
