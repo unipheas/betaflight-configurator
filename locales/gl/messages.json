@@ -1933,7 +1933,7 @@
         "message": "O firmware do controlador de voo non admite a funcionalidade do transpondedor."
     },
     "transponderInformation": {
-        "message": "Os sistemas de transponders permiten aos organizadores de carreiras darlle o tempo das voltas. O transpondedor está instalado no teu avión e cando o avión pasa a porta de sincronización, o receptor da pista rexistra o teu código e rexistra o seu tempo da volta. Ao colocar un transpondedor baseado en IR, debe asegurarse de que apunte cara a fóra desde a súa aeronave cara aos receptores do camiño e que o raio de luz non estea bloqueado polo seu fuselaxe, as súas correas de batería, os seus cables, hélices, etc."
+        "message": "Os sistemas de transponders permiten aos organizadores de carreiras darlle o tempo das voltas. O transpondedor está instalado na súa aeronave e cando pasa a porta de sincronización, o receptor da pista rexistra o seu código e o seu tempo da volta. Ao colocar un transpondedor baseado en IR, debe asegurarse de que apunte cara a fóra desde a súa aeronave cara aos receptores do camiño e que o raio de luz non estea bloqueado polo seu fuselaxe, as súas correas de batería, os seus cables, hélices, etc."
     },
     "transponderConfigurationType": {
         "message": "Tipo transponder"
@@ -1972,10 +1972,10 @@
         "message": "Só díxitos hexadecimais, 0-9, A-F"
     },
     "transponderHelp1": {
-        "message": "Configura o teu código de transpondedor aquí. Nota: Os sistemas de medición de tempos en carreira so recoñecerán códigos válidos. Podes obter códigos válidos de transpondedor en <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a>."
+        "message": "Configure o seu código de transpondedor aquí. Nota: Os sistemas de medición de tempos en carreira so recoñecerán códigos válidos. Pode obter códigos válidos de transpondedor en <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a>."
     },
     "transponderHelp2": {
-        "message": "Para obter mais información, por favor, visita <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer<\/a>"
+        "message": "Para obter máis información, por favor, visite <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer<\/a>"
     },
     "transponderDataHelp3": {
         "message": "Elexir ERLT ID 0-63"
@@ -2176,10 +2176,10 @@
         "message": "Master"
     },
     "motorsNotice": {
-        "message": "<strong>Modo proba de motor \/ Aviso de armado: <\/strong><br\/> Mover os controles ou armar a nave coa emisora ​​fará que os motores <strong> xiren <\/strong>.<br\/> Para previr lesións <strong class=\"message-negative\"> eliminar TODAS as hélices <\/strong> antes de empregar esta función. <br\/> A habilitación do modo de proba do motor tamén desactivará temporalmente a prevención de despegue para evitar que desarme a nave cando o banco fai a proba sen hélices.<br\/>"
+        "message": "<strong>Modo proba de motor \/ Aviso de armado: <\/strong><br\/> Mover os controis ou armar a aeronave coa emisora ​​fará que os motores <strong> xiren <\/strong>.<br\/> Para previr lesións <strong class=\"message-negative\">retirar Tódalas hélices <\/strong> antes de empregar esta función. <br\/> A habilitación do modo de proba do motor tamén desactivará temporalmente a prevención de despegue para evitar que desarme a nave cando o banco fai a proba sen hélices.<br\/>"
     },
     "motorsEnableControl": {
-        "message": "<strong> Comprendo os riscos <\/strong>, as hélices están retiradas: permítese o control e armado do motor, e desactivase a prevención do despegue de Runaway."
+        "message": "<strong> Comprendo os riscos <\/strong>, as hélices están retiradas: permítese o control e armado do motor, e desactívase a prevención do despegue de Runaway."
     },
     "sensorsInfo": {
         "message": "Teña presente que usar períodos de actualización rápida e renderizar varios gráficos ao mesmo tempo é un recurso pesado e gravará a batería máis rápido se usa un portátil. <br \/> Recomendamos facer representacións gráficas só para sensores que estean interesados ​​mentres usa períodos razonables de actualización."
