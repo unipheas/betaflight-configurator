@@ -1450,10 +1450,10 @@
         "message": "O tipo de método de filtrado empregado para a entrada. A maioría dos usuarios deben usar o valor \"BIQUAD\" predeterminado xa que proporciona un bo equilibrio entre a suavidade e o atraso. \"PT1\" reduce o atraso lixeiramente pero proporciona menos suavización."
     },
     "receiverRcSmoothingInputManual": {
-        "message": "Selecciona se a frecuencia de corte do filtro de entrada é calculada automaticamente (recomendada) ou seleccionada manualmente polo usuario. Non se recomenda usar \"Manual\" para protocolos de recepción como Crossfire que poden cambiar en voo."
+        "message": "Seleccionar se a frecuencia de corte do filtro de entrada é calculada automaticamente (recomendada) ou seleccionada manualmente polo usuario. Non se recomenda usar \"Manual\" para protocolos de recepción como Crossfire que poden cambiar en voo."
     },
     "receiverRcSmoothingDerivativeManual": {
-        "message": "Selecciona se a frecuencia de corte do filtro derivado da consola é calculada automaticamente (recomendada) ou seleccionada manualmente polo usuario. Non se recomenda usar \"Manual\" para protocolos de recepción como Crossfire que poden cambiar en voo."
+        "message": "Seleccionar se a frecuencia de corte do filtro derivado da consola é calculada automaticamente (recomendada) ou seleccionada manualmente polo usuario. Non se recomenda usar \"Manual\" para protocolos de recepción como Crossfire que poden cambiar en voo."
     },
     "receiverRcSmoothingInputHz": {
         "message": "Frecuencia de corte de entrada"
@@ -1633,16 +1633,16 @@
         "message": "Cargados os valeres por defecto do perfil."
     },
     "pidTuningReceivedProfile": {
-        "message": "Conjunto de perfil do controlador de voo: <strong class=\"message-positive\">$1<\/strong>"
+        "message": "Perfil do controlador de voo seleccionado: <strong class=\"message-positive\">$1<\/strong>"
     },
     "pidTuningReceivedRateProfile": {
-        "message": "Conjunto de perfil de rate do controlador de voo: <strong class=\"message-positive\">$1<\/strong>"
+        "message": "Perfil de tasas do controlador de voo seleccionado: <strong class=\"message-positive\">$1<\/strong>"
     },
     "pidTuningLoadedProfile": {
         "message": "Perfil cargado: <strong class=\"message-positive\">$1<\/strong>"
     },
     "pidTuningLoadedRateProfile": {
-        "message": "Rateprofile cargado: <strong class=\"message-positive\">$1<\/strong>"
+        "message": "Perfil de tasas cargado: <strong class=\"message-positive\">$1<\/strong>"
     },
     "pidTuningDataRefreshed": {
         "message": "Datos PID <strong>actualizados<\/strong>"
