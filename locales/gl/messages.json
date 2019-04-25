@@ -2377,7 +2377,7 @@
         "message": "Cancelar"
     },
     "dataflashFileWriteFailed": {
-        "message": "Non se puido escribir no ficheiro que seleccionou, están correctos os permisos nese cartafol?"
+        "message": "Non se puido escribir no ficheiro que seleccionou, ¿están correctos os permisos nese cartafol?"
     },
     "sdcardStatusNoCard": {
         "message": "Tarxeta non insertada"
@@ -2422,13 +2422,13 @@
         "message": "Binario:"
     },
     "firmwareFlasherReleaseStatusReleaseCandidate": {
-        "message": "<span class=\"message-negative\">IMPORTANTE: Esta versión de firmware está marcada como versión candidata a convertirse en estable. Por favor, informa de calquera problema inmediatamente.<\/span>"
+        "message": "<span class=\"message-negative\">IMPORTANTE: Esta versión de firmware está marcada como versión candidata a convertirse en estable. Por favor, informe de calquera problema inmediatamente.<\/span>"
     },
     "firmwareFlasherReleaseFileUrl": {
         "message": "Descargar manualmente."
     },
     "firmwareFlasherTargetWarning": {
-        "message": "<span class=\"message-negative\">IMPORTANTE<\/span>: Asegurate de que cargas un arquivo apropiado para a tua placa. Flashear un binario para unha placa erronea pode facer que <span class=\"message-negative\">acontezan<\/span> cousas malas."
+        "message": "<span class=\"message-negative\">IMPORTANTE<\/span>: Asegurese de que carga un arquivo apropiado para a súa placa. Flashear un binario para unha placa erronea pode facer que <span class=\"message-negative\">acontezan<\/span> cousas malas."
     },
     "firmwareFlasherPath": {
         "message": "Ruta:"
@@ -2443,22 +2443,22 @@
         "message": "Progreso:"
     },
     "firmwareFlasherLoadFirmwareFile": {
-        "message": "Porfavor, carga un arquivo de firmware"
+        "message": "Por favor, cargue o arquivo do firmware"
     },
     "firmwareFlasherNoReboot": {
         "message": "Sen secuencia de reinicio"
     },
     "firmwareFlasherOnlineSelectBuildType": {
-        "message": "Selecciona o tipo de compilación para ver as dispoñibles."
+        "message": "Seleccione o tipo de compilación para ver as dispoñibles."
     },
     "firmwareFlasherOnlineSelectBoardDescription": {
-        "message": "Elixe a tua placa para poder ver as versións de firmware dispoñibles en linea - Selecciona a versión correcta de firmware apropiada para a túa controladora."
+        "message": "Elixa a súa placa para poder ver as versións de firmware dispoñibles en linea - Seleccione a versión correcta de firmware apropiada para a súa controladora."
     },
     "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
-        "message": "Elixe a versión de firmware para a tua controladora."
+        "message": "Elixa a versión de firmware para a súa controladora."
     },
     "firmwareFlasherNoRebootDescription": {
-        "message": "Actívao se a tua FC está en modo boot. por exemplo se encendes a túa FC cos pins de bootloader conectados ou suxeitando o botón de BOOT de esta."
+        "message": "Actívo si a súa FC está en modo boot. por exemplo se encende a súa FC cos pins de bootloader conectados ou suxeitando o botón de BOOT desta."
     },
     "firmwareFlasherFlashOnConnect": {
         "message": "Flashear ó conectar"
