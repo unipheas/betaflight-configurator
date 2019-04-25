@@ -2182,7 +2182,7 @@
         "message": "<strong> Comprendo os riscos <\/strong>, as hélices están retiradas: permítese o control e armado do motor, e desactívase a prevención do despegue de Runaway."
     },
     "sensorsInfo": {
-        "message": "Teña presente que usar períodos de actualización rápida e renderizar varios gráficos ao mesmo tempo é un recurso pesado e gravará a batería máis rápido se usa un portátil. <br \/> Recomendamos facer representacións gráficas só para sensores que estean interesados ​​mentres usa períodos razonables de actualización."
+        "message": "Teña presente que usar períodos de actualización rápida e renderizar varios gráficos ao mesmo tempo é un recurso pesado e agotará a batería máis rápido se usa un portátil. <br \/> Recomendamos facer representacións gráficas só para sensores que estean interesados ​​mentres usa períodos razonables de actualización."
     },
     "sensorsRefresh": {
         "message": "Refrescar:"
@@ -2329,10 +2329,10 @@
         "message": "Espazo libre para históricos"
     },
     "dataflashNote": {
-        "message": "Os históricos de vo poden grabarse na memoria dataflash da controladora."
+        "message": "Os históricos de voo poden gravarse na memoria dataflash da controladora."
     },
     "dataflashNotPresentNote": {
-        "message": "A tua controladora non dispon duna memoria dataflash compatible."
+        "message": "A súa controladora non dispon duna memoria dataflash compatible."
     },
     "dataflashFirmwareUpgradeRequired": {
         "message": "Dataflash require un firmware &gt;= 1.8.0."
@@ -2353,16 +2353,16 @@
         "message": "Confirma o borrado da dataflash"
     },
     "dataflashConfirmEraseNote": {
-        "message": "Esto eliminará calquer rexistro da Caixa Negra ou outros datos contidos na flash. Debería tardar uns 20 segundos ¿Estás seguro?"
+        "message": "Esto eliminará calquer rexistro da Caixa Negra ou outros datos contidos na flash. Debería tardar uns 20 segundos ¿Está seguro?"
     },
     "dataflashSavingTitle": {
         "message": "Gardando dataflash a un arquivo"
     },
     "dataflashSavingNote": {
-        "message": "Gardar pode levar uns cantos minutos, por favor, espera."
+        "message": "Gardar pode levar uns cantos minutos, por favor espere."
     },
     "dataflashSavingNoteAfter": {
-        "message": "¡Completouse o gardado! Fai clic en \"OK\" para continuar."
+        "message": "¡Completouse o gardado! Prema \"Ok\" para continuar."
     },
     "dataflashButtonSaveCancel": {
         "message": "Cancelar"
