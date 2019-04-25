@@ -1618,7 +1618,7 @@
         "message": "Copiar valores do perfil"
     },
     "dialogCopyProfileNote": {
-        "message": "Eliminaranse e sobrescribirán todos os valores do perfil de destino"
+        "message": "Tódolos valores do perfil de destino serán borrados e sobrescritos"
     },
     "dialogCopyProfileConfirm": {
         "message": "Copiar"
@@ -1651,7 +1651,7 @@
         "message": "EEPROM <span class=\"message-positive\">gardada<\/span>"
     },
     "receiverHelp": {
-        "message": "Por favor, lee o capítulo de receptores na documentación. Configura os portos de serie (se e necesario), modo do receptor (serial\/ppm\/pwm), provedor (para receptores de serie), enlaza o receptor, configura o mapa de canales, configura os endpoints\/os rangos da emisora de forma que los canales vaian dende ~1000 ata ~2000. Establece o punto medio (por defecto 1500), axusta o trim dos canales a 1500, configura o deadband dos canales, comproba o comportamento cando a emisora encontrase apagada ou fora de.<br \/><span class=\"message-negative\">IMPORTANTE:<\/span> Antes de voar lee o capítulo da documentación do modo failsafe e configurao."
+        "message": "Por favor, lea o capítulo sobre a documentación do receptor. Configurar o porto serie (se é necesario), o modo do receptor (serial \/ ppm \/ pwm), o provedor (para os receptores serie), enlazar co receptor, seleccionar o canal do mapa, configurar os puntos finais do canle \/ intervalo na TX para que tódolos canles pasen de ~ 1000 a ~ 2000. Estableza o punto medio (predeterminado 1500), reduza as canles a 1500, configure a banda morta dos stick, comprobe o comportamento cando a TX está desactivada ou fóra do rango. <br \/> <span class = \"message-negative\"> IMPORTANTE: <\/span> Antes de voar lea a documentación sobre a proba de fallos (Failsafe) e configureo."
     },
     "tuningHelp": {
         "message": "<b>Consellos de axuste<\/b><br\/><span class=\"message-negative\"> IMPORTANTE: <\/span> É importante verificar as temperaturas do motor durante os primeiros voos. Canto maior sexa o valor do filtro, mellor pode voar, pero tamén conseguirá máis ruído nos motores. <br> O valor predeterminado de 100Hz é óptimo, pero para configuracións de ruído pode intentar baixar o filtro Dterm a 50Hz e posiblemente tamén o filtro xiratorio."
@@ -1708,7 +1708,7 @@
         "message": "Por defecto"
     },
     "receiverChannelMapTitle": {
-        "message": "Podes definir o teu propio mapa de canles pulsando dentro do cadro"
+        "message": "Pode definir o seu propio mapa de canles pulsando dentro do cadro"
     },
     "receiverRssiChannel": {
         "message": "Canle RSSI"
