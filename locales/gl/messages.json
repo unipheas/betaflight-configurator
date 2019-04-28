@@ -2227,7 +2227,7 @@
         "message": "Depuración"
     },
     "cliInfo": {
-        "message": "<strong> Nota: <\/strong> Deixar a pestana CLI ou premer Desconectar <strong> automaticamente <\/strong> enviará \"<strong> saír <\/strong>\" á placa. Con o último firmware isto fará que o controlador se <strong>reinicie<\/strong> e os cambios sen gardar sexan <strong>perdidos<\/strong> <p><strong> <span class=\"message-negative\">Aviso<\/span> <\/strong> Algúns comandos na CLI poden producir sinais arbitrarios nos pins de saída do motor. Isto pode facer que os motores xiren si a batería está conectada. Por iso, recoméndase asegurarse de que <strong> non hai batería conectada antes de introducir comandos en CLI <\/strong>."
+        "message": "<strong> Nota: <\/strong> Deixar a pestana CLI ou premer Desconectar <strong> automaticamente <\/strong> enviará \"<strong> saír <\/strong>\" á placa. Co último firmware, fará que o controlador se <strong>reinicie<\/strong> e os cambios sen gardar sexan <strong>perdidos<\/strong> <p><strong> <span class=\"message-negative\">Aviso<\/span> <\/strong> Algúns comandos na CLI poden producir sinais arbitrarios nos pins de saída do motor. Isto pode facer que os motores xiren si a batería está conectada. Por iso, recoméndase asegurarse de que <strong> non hai batería conectada antes de introducir comandos en CLI <\/strong>."
     },
     "cliInputPlaceholder": {
         "message": "Escriba o seu comando aquí. Prema Tab para Autocompletar."
