@@ -1,4 +1,409 @@
 {
+    "error": {
+        "message": "Greška: {{errorMessage}}"
+    },
+    "errorTitle": {
+        "message": "Greška"
+    },
+    "warningTitle": {
+        "message": "Upozorenje"
+    },
+    "noticeTitle": {
+        "message": "Napomena"
+    },
+    "operationNotSupported": {
+        "message": "Hardver ne podržava ovu operaciju."
+    },
+    "storageDeviceNotReady": {
+        "message": "Uređaj za pohranu nije spreman. U slučaju da koristite microSD karticu, provjerite prepoznaje li ju kontroler leta."
+    },
+    "options_title": {
+        "message": "Postavke aplikacije"
+    },
+    "connect": {
+        "message": "Poveži"
+    },
+    "connecting": {
+        "message": "Povezivanje"
+    },
+    "disconnect": {
+        "message": "Odspoji"
+    },
+    "portsSelectManual": {
+        "message": "Ručni odabir"
+    },
+    "portOverrideText": {
+        "message": "Port:"
+    },
+    "autoConnect": {
+        "message": "Automatsko povezivanje"
+    },
+    "close": {
+        "message": "Zatvori"
+    },
+    "autoConnectEnabled": {
+        "message": "Automatsko povezivanje: Omogućeno - Konfigurator će se sam povezati kada otkrije novi priključak"
+    },
+    "autoConnectDisabled": {
+        "message": "Automatsko povezivanje: Onemogućeno - Korisnik mora ručno odabrati ispravan serijski port i pritisnuti \"Poveži\""
+    },
+    "expertMode": {
+        "message": "Omogući način za eksperte"
+    },
+    "expertModeDescription": {
+        "message": "Prikaži neobjavljene i potencijalno nestabilne verzije"
+    },
+    "permanentExpertMode": {
+        "message": "Trajno omogući način za eksperte"
+    },
+    "rememberLastTab": {
+        "message": "Ponovno otvori posljednju karticu pri spajanju"
+    },
+    "analyticsOptOut": {
+        "message": "Isključi anonimno prikupljanje statističkih podataka"
+    },
+    "userLanguageSelect": {
+        "message": "Jezik (potrebno je ponovno pokrenuti aplikaciju kako biste vidjeli promjene)"
+    },
+    "language_default": {
+        "message": "Zadano"
+    },
+    "sensorStatusGyro": {
+        "message": "Žiroskop"
+    },
+    "sensorStatusGyroShort": {
+        "message": "Žiro",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusAccel": {
+        "message": "Akcelerometar"
+    },
+    "sensorStatusAccelShort": {
+        "message": "Accel",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusMag": {
+        "message": "Magnetometar"
+    },
+    "sensorStatusMagShort": {
+        "message": "Mag",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusBaro": {
+        "message": "Barometar"
+    },
+    "sensorStatusBaroShort": {
+        "message": "Baro",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusGPS": {
+        "message": "GPS"
+    },
+    "sensorStatusGPSShort": {
+        "message": "GPS",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusSonar": {
+        "message": "Sonar \/ Daljinomjer"
+    },
+    "sensorStatusSonarShort": {
+        "message": "Sonar",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "checkForConfiguratorUnstableVersions": {
+        "message": "Prikaži obavijesti o ažuriranjima za nestabilne verzije konfiguratora"
+    },
+    "configuratorUpdateNotice": {
+        "message": "Koristite zastarjelu verziju <b>Betaflight konfiguratora<\/b>.<br>Verzija<b>$1<\/b> je dostupna online, molimo posjetite <a href=\"$2\" target=\"_blank\">stranicu<\/a> da biste preuzeli i instalirali najnoviju verziju.<br>Molimo zatvorite konfigurator prije ažuriranja."
+    },
+    "configuratorUpdateWebsite": {
+        "message": "Idi na stranicu s izdanjima"
+    },
+    "deviceRebooting": {
+        "message": "Uređaj - <span class=\"message-negative\">Ponovno pokretanje<\/span>"
+    },
+    "deviceReady": {
+        "message": "Uređaj - <span class=\"message-positive\">Spreman<\/span>"
+    },
+    "backupFileIncompatible": {
+        "message": "Ova backup datoteka je generirana za prijašnju verziju i nije kompatibilna s ovom verzijom konfiguratora"
+    },
+    "backupFileUnmigratable": {
+        "message": "Ova backup datoteka je generirana u prošloj verziji konfiguratora i nije ju moguće migrirati."
+    },
+    "configMigratedTo": {
+        "message": "Migrirana konfiguracija u konfigurator: $1"
+    },
+    "tabFirmwareFlasher": {
+        "message": "Ažuriranje Firmwarea"
+    },
+    "tabLanding": {
+        "message": "Dobrodošli"
+    },
+    "tabHelp": {
+        "message": "Dokumentacija i podrška"
+    },
+    "buildServerUsingCached": {
+        "message": "Korištenje spremljenih informacija o verzijama za $1."
+    },
+    "releaseCheckLoaded": {
+        "message": "Učitane informacije o izdanjima za $1 s GitHuba."
+    },
+    "releaseCheckCached": {
+        "message": "Korištenje pohranjenih informacija za informacije o izdanjima za $1."
+    },
+    "releaseCheckNoInfo": {
+        "message": "Nema informacija o izdanju za $1."
+    },
+    "craftNameReceived": {
+        "message": "Naziv letjelice: <strong>$1<\/strong>"
+    },
+    "versionLabelTarget": {
+        "message": "Cilj"
+    },
+    "versionLabelFirmware": {
+        "message": "Firmware"
+    },
+    "versionLabelConfigurator": {
+        "message": "Konfigurator"
+    },
+    "notifications_app_just_updated_to_version": {
+        "message": "Aplikacija se upravo ažurirala na verziju: $1"
+    },
+    "notifications_click_here_to_start_app": {
+        "message": "Kliknite ovdje da biste pokrenuli aplikaciju"
+    },
+    "statusbar_port_utilization": {
+        "message": "Iskorištenost porta:"
+    },
+    "statusbar_usage_download": {
+        "message": "D: $1%"
+    },
+    "statusbar_usage_upload": {
+        "message": "U: $1%"
+    },
+    "statusbar_packet_error": {
+        "message": "Pogreške paketa:"
+    },
+    "statusbar_i2c_error": {
+        "message": "I2C greška:"
+    },
+    "statusbar_cycle_time": {
+        "message": "Vrijeme ciklusa:"
+    },
+    "statusbar_cpu_load": {
+        "message": "CPU opterećenje: $1%"
+    },
+    "eeprom_saved_ok": {
+        "message": "EEPROM <span class=\"message-positive\">spremljen<\/span>"
+    },
+    "defaultWelcomeIntro": {
+        "message": "Dobrodošli u <strong>Betaflight - Konfigurator<\/strong>, alat dizajniran pojednostavljenju ažuriranja, konfiguriranja i ugađanja postavki vašeg kontrolera leta."
+    },
+    "defaultWelcomeHead": {
+        "message": "Hardware"
+    },
+    "defaultWelcomeText": {
+        "message": "Ova aplikacija podržava sav hardware koji može pokrenuti Betaflight. Provjerite alat za ažuriranje firmwarea za cijeli popis hardwarea.<br><br> <a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\"> Preuzmite Betaflight Blackbox Log Viewer<\/a><br \/><br \/>Izvorni kod firmwarea može se preuzeti<a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\"> ovdje<\/a><br \/><br \/>Posljednji <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210x Driveri<\/a> mogu se preuzeti<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\"> ovdje<\/a><br \/>Posljednji <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCP Driveri<\/a> mogu se preuzeti<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\"> ovdje<\/a><br \/>Posljednji <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> za Windows USB driver instalaciju može se preuzeti<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\"> ovdje<\/a><br \/>"
+    },
+    "defaultContributingHead": {
+        "message": "Pridonošenje"
+    },
+    "defaultContributingText": {
+        "message": "Ako biste htjeli Betaflight učinit još boljim možete pomoći na razne načine, uključujući:<br \/><ul><li>Odgovaranjem na upite drugih korisnika na forumima i IRC-u<\/li><li>Dodavanjem programskog koda firmwareu i konfiguratoru - nove mogućnosti, popravci i nadogradnje<\/li><li>Testiranjem <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">novih mogućnosti<\/a> i davanje povratnih informacija.<\/li><li>Pomaganjem <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">problemima i komentiranjem na nove <\/a>.<\/li><li>Kolaboracijom u <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">prevođenju aplikacije za konfiguriranje<\/a> na svoj jezik.<\/li><li><\/li><\/ul>"
+    },
+    "defaultFacebookText": {
+        "message": "Imamo i svoju <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">Facebook grupu<\/a>.<br \/>Pridružite nam se i postavite pitanja o Betaflightu, konfiguriranju i ostalom."
+    },
+    "defaultChangelogAction": {
+        "message": "Popis promjena"
+    },
+    "defaultChangelogHead": {
+        "message": "Konfigurator - zapis o promjenama"
+    },
+    "defaultPrivacyPolicyAction": {
+        "message": "Pravila o privatnosti"
+    },
+    "defaultButtonFirmwareFlasher": {
+        "message": "Ažuriranje Firmwarea"
+    },
+    "defaultDonateHead": {
+        "message": "Napomena za doniranje"
+    },
+    "defaultDonateText": {
+        "message": "<p><strong>Betaflight<\/strong> je software za kontrolere leta koji je <strong>open source<\/strong>, potpuno je besplatan i <strong>bez garancije<\/strong> za sve korisnike.<\/p><p>Ako su vam Betaflight ili Betaflight konfigurator poslužili svrsi, <strong>podržite<\/strong> daljnji razvoj donacijom.<\/p>"
+    },
+    "defaultDonateBottom": {
+        "message": "<p>Ako želite doprinjeti financiski na mjesečnoj bazi, razmislite o doniranju putem <a href='https:\/\/www.patreon.com\/betaflight'>Patreona<\/a>.<\/p>"
+    },
+    "defaultDonate": {
+        "message": "Donirajte"
+    },
+    "defaultSponsorsHead": {
+        "message": "Sponzori"
+    },
+    "defaultDocumentationHead": {
+        "message": "Dokumentacija \/ Uputsvo"
+    },
+    "defaultDocumentation": {
+        "message": "Betaflight dokumentacija je dostupna u napomenama izdanja i na Betaflight wikiju.<br \/><br \/>"
+    },
+    "defaultDocumentation1": {
+        "message": "Betaflight wiki je odličan izvor informacija, može se naći <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">ovdje<\/a>."
+    },
+    "defaultDocumentation2": {
+        "message": "Napomene izdanja za firmware možete pročitati na GitHubu <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">ovdje<\/a>."
+    },
+    "defaultSupportHead": {
+        "message": "Podrška"
+    },
+    "defaultSupportSubline1": {
+        "message": "Izvori"
+    },
+    "defaultSupportSubline2": {
+        "message": "Developeri"
+    },
+    "defaultSupport": {
+        "message": "Za podršku molimo potražite na forumima i na Betaflight wikiju ili kontaktirajte vašek proizvođaća<br \/><br \/>"
+    },
+    "defaultSupport1": {
+        "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">RC Groups thread<\/a>"
+    },
+    "defaultSupport2": {
+        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Betaflight Wiki<\/a>"
+    },
+    "defaultSupport3": {
+        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Betaflight Videos<\/a>"
+    },
+    "defaultSupport4": {
+        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+    },
+    "defaultSupport5": {
+        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Betaflight developeri na Slack platformi<\/a>"
+    },
+    "initialSetupButtonCalibrateAccel": {
+        "message": "Kalibracija akcelerometra"
+    },
+    "initialSetupButtonCalibrateMag": {
+        "message": "Kalibracija magnetometra"
+    },
+    "initialSetupButtonCalibratingText": {
+        "message": "Kalibriranje..."
+    },
+    "initialSetupButtonReset": {
+        "message": "Resetiraj postavke"
+    },
+    "featureRX_SERIAL": {
+        "message": "Serijski prijemnik (SPEKSAT, SBUS, SUMD)"
+    },
+    "featureMOTOR_STOP": {
+        "message": "Motori se ne vrte kad je letljelica armirana"
+    },
+    "featureSERVO_TILT": {
+        "message": "Servo gimbal"
+    },
+    "featureSONAR": {
+        "message": "Sonar"
+    },
+    "featureRSSI_ADC": {
+        "message": "Analogni ulaz za RSSI"
+    },
+    "featureDISPLAY": {
+        "message": "OLED zaslon"
+    },
+    "featureONESHOT125": {
+        "message": "ONESHOT ESC podrška"
+    },
+    "featureRX_SPI": {
+        "message": "SPI RX podrška"
+    },
+    "configurationFeatureEnabled": {
+        "message": "Omogućeno"
+    },
+    "configurationFeatureName": {
+        "message": "Značajka"
+    },
+    "configurationFeatureDescription": {
+        "message": "Opis"
+    },
+    "configurationReceiver": {
+        "message": "Prijemnik"
+    },
+    "configurationReceiverMode": {
+        "message": "Način rada prijemnika"
+    },
+    "configurationRSSI": {
+        "message": "RSSI (Jačina signala)"
+    },
+    "configurationEscFeatures": {
+        "message": "Značajke ESC-a\/Motora"
+    },
+    "configurationSensorAlignmentGyro": {
+        "message": "GYRO Poravnanje"
+    },
+    "configurationSensorGyroToUseNotFound": {
+        "message": "Upozorenje: Nema žiroskopa\/akcelerometra"
+    },
+    "configurationSensorGyroToUseFirst": {
+        "message": "Prvi"
+    },
+    "configurationSensorGyroToUseSecond": {
+        "message": "Drugi"
+    },
+    "configurationSensorGyroToUseBoth": {
+        "message": "Oba"
+    },
+    "configurationSensorAlignmentGyro1": {
+        "message": "Prvi GYRO"
+    },
+    "configurationSensorAlignmentGyro2": {
+        "message": "Drugi GYRO"
+    },
+    "configurationSensorAlignmentAcc": {
+        "message": "ACCEL Poravnanje"
+    },
+    "configurationSensorAlignmentMag": {
+        "message": "MAG Poravnanje"
+    },
+    "configurationSensorAlignmentDefaultOption": {
+        "message": "Zadano"
+    },
+    "configurationArming": {
+        "message": "Arming"
+    },
+    "configurationMagDeclination": {
+        "message": "Magnetometarska deklinacija [deg]"
+    },
+    "configurationReverseMotorSwitch": {
+        "message": "Rotacija motora je obrnuta"
+    },
+    "configurationDshotBeaconTone": {
+        "message": "Ton oznake"
+    },
+    "portsFunction_TELEMETRY_SMARTPORT": {
+        "message": "SmartPort"
+    },
+    "portsFunction_TELEMETRY_IBUS": {
+        "message": "iBUS"
+    },
+    "portsFunction_TELEMETRY_JETIXBUS": {
+        "message": "JETIXBUS"
+    },
+    "portsFunction_TELEMETRY_CRSF": {
+        "message": "CRSF"
+    },
+    "portsFunction_TELEMETRY_SRXL": {
+        "message": "SRXL"
+    },
+    "portsFunction_ESC_SENSOR": {
+        "message": "ESC"
+    },
+    "portsFunction_RX_SERIAL": {
+        "message": "Serijski RX"
+    },
+    "firmwareFlasherOptionLabelBuildTypeRelease": {
+        "message": "Stabilna izdanja"
+    },
     "firmwareFlasherButtonLoadLocal": {
         "message": "Učitaj firmware [Local]"
     }
