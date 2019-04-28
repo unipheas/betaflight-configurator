@@ -2771,7 +2771,7 @@
         "description": "One of the modes in Led Strip"
     },
     "ledStripWiringMode": {
-        "message": "Modo de ordenar cables",
+        "message": "Modo orde cableado",
         "description": "One of the wiring modes in Led Strip"
     },
     "ledStripWiringClearControl": {
@@ -2779,7 +2779,7 @@
         "description": "Control button in the wiring modes in Led Strip"
     },
     "ledStripWiringClearAllControl": {
-        "message": "Borrar toda a instalación eléctrica",
+        "message": "Borrar tódala instalación eléctrica",
         "description": "Control button in the wiring modes in Led Strip"
     },
     "ledStripWiringMessage": {
@@ -2955,7 +2955,7 @@
         "message": "Sensibilidade"
     },
     "pidTuningLevelHelp": {
-        "message": "Os siguintes valores cambian o comportamento dos modos de voo ANGLE e HORIZON. Diferentes controladores PID manexan os diferentes valores. Consulta a documentación."
+        "message": "Os seguintes valores cambian o comportamento dos modos de voo ANGLE e HORIZON. Diferentes controladores PID manexan os diferentes valores. Consulte a documentación."
     },
     "pidTuningNonProfileFilterSettings": {
         "message": "Axustes do perfil de Filtros independentes"
@@ -3051,7 +3051,7 @@
         "message": "Compensación PID Vbat"
     },
     "pidTuningVbatPidCompensationHelp": {
-        "message": "Aumenta os valores PID para compensar cando Vbat diminúe. Isto dará características de voo máis constantes durante todo o voo. A cantidade de compensación que se aplica calcúlase a partir do $t(powerBatteryMaximum.message) definido na páxina $t(tabPower.message), así que asegúrese de que está axustado a algo apropiado."
+        "message": "Aumente os valores PID para compensar cando Vbat diminúe. Isto dará características de voo máis constantes durante todo o voo. A cantidade de compensación que se aplica calcúlase a partir do $t(powerBatteryMaximum.message) definido na páxina $t(tabPower.message), así que asegúrese de que está axustado a algo apropiado."
     },
     "pidTuningItermRotation": {
         "message": "Rotación Término I"
@@ -3132,7 +3132,7 @@
         "message": "Failsafe do receptor"
     },
     "failsafeFeaturesHelpNew": {
-        "message": "Failsafe ten dúas etapas. <strong>Etapa 1<\/strong> introdúcese cando un canle de voo ten unha lonxitude de pulso inválida, o receptor informa do modo a proba de fallos ou non hai ningún sinal do receptor, os axustes de caída do canal aplícanse a <span class=\"message-negative\"> todos os canais <\/span> e fornécese un curto período de tempo para permitir a recuperación. <strong> Etapa 2 <\/strong> introdúcese cando a condición de erro leva máis tempo que a garda configurada mentres que a nave é <span class=\"message-negative\"> armada <\/span>, todos os canles permanecerán na canle aplicada opción de reposición a menos que se exceda o procedemento escollido. <br \/> <strong> Nota: <\/strong> Antes de entrar na fase 1, as opcións de caída do canal tamén se aplican a canles AUX individuais que teñen pulsos non válidos."
+        "message": "Failsafe ten dúas etapas. <strong>Etapa 1<\/strong> introdúcese cando un canle de voo ten unha lonxitude de pulso inválida, o receptor informa do modo a proba de fallos ou non hai ningún sinal do receptor, os axustes de caída do canal aplícanse a <span class=\"message-negative\"> todos os canais <\/span> e fornécese un curto período de tempo para permitir a recuperación. <strong> Etapa 2 <\/strong> introdúcese cando a condición de erro leva máis tempo que a garda configurada mentres que a nave é <span class=\"message-negative\"> armada <\/span>, tódolos canles permanecerán na canle aplicada opción de reposición a menos que se exceda o procedemento escollido. <br \/> <strong> Nota: <\/strong> Antes de entrar na fase 1, as opcións de caída do canal tamén se aplican a canles AUX individuais que teñen pulsos non válidos."
     },
     "failsafePulsrangeTitle": {
         "message": "Configuración de intervalo de pulsos válidos"
@@ -3150,7 +3150,7 @@
         "message": "Configuracións de respaldo dos canáis"
     },
     "failsafeChannelFallbackSettingsHelp": {
-        "message": "Estes axustes aplicaranse a cada canal auxiliar non válido ou a todolos canáis cando se entra na Etapa 1.<strong>Nota:<\/strong> os valores gárdanse en pasos de 25usec, polo que os cambios pequenos desaparecen"
+        "message": "Estes axustes aplicaranse a cada canal auxiliar non válido ou a tódolos canáis cando se entra na Etapa 1.<strong>Nota:<\/strong> os valores gárdanse en pasos de 25usec, polo que os cambios pequenos desaparecen"
     },
     "failsafeChannelFallbackSettingsAuto": {
         "message": "<strong> Auto <\/strong> significa Roll, Pitch and Yaw ao centro e baixo Throttle. <strong>Manter<\/strong> significa manter o último valor bo recibido"
@@ -3228,7 +3228,7 @@
         "message": "Activo"
     },
     "failsafeGpsRescueItemSanityChecksFSOnly": {
-        "message": "Só modo de seguridade"
+        "message": "Só Failsafe"
     },
     "failsafeKillSwitchItem": {
         "message": "Failsafe Kill Switch (configura o Failsafe na Pestana de Modos)"
@@ -3243,7 +3243,7 @@
         "message": "Acción Interruptor Failsafe"
     },
     "failsafeSwitchModeHelp": {
-        "message": "Esta opción determina qué pasa cando o Modo de seguridade se activa a través dun interruptor AUX:<br\/><strong>Etapa 1<\/strong> activa o modo de seguridade Etapa 1. É útil si queres simular o comportamiento exacto duna pérdida de sinal.<br\/><strong>Etapa 2<\/strong>salta a Etapa 1 e activa o procedemiento Etapa 2 inmediatamente<br\/><strong>Matar<\/strong> desarma instantáneamente (a aeronave estrellarase)"
+        "message": "Esta opción determina qué pasa cando o Failsafe se activa a través dun interruptor AUX:<br\/><strong>Etapa 1<\/strong> activa o modo de seguridade Etapa 1. É útil si queres simular o comportamiento exacto duna pérdida de sinal.<br\/><strong>Etapa 2<\/strong>salta a Etapa 1 e activa o procedemiento Etapa 2 inmediatamente<br\/><strong>Matar<\/strong> desarma instantáneamente (a aeronave estrellarase)"
     },
     "failsafeSwitchOptionStage1": {
         "message": "Etapa 1"
