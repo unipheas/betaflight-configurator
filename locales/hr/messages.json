@@ -527,10 +527,10 @@
         "message": "Omogući kontrole"
     },
     "auxiliaryHelp": {
-        "message": "Ovdje konfigurirajte načine rada koristeći kombinacije raspona i\/ili veza s drugim načinima rada (veze su podržane u BF 4.0 verziji i kasnijim) Koristite<strong>raspone<\/strong> kako biste definirali koji prekidači na vašoj stanici aktiviraju koje načine rada. Kanal s prijeminika koji daje vrijednost unutar raspona će aktivirati taj način rada. Koristite <strong>veze<\/strong> kako biste aktivirali način rada kada je neki drugi način rada aktivan. <strong>Iznimke:<\/strong> Način rada ARM ne može biti vezan na ili s drugim načinima rada, isto tako načini rada ne mogu biti vezani na druge načina rada koji su već konfigurirani da se aktiviraju vezom. Nije moguće stvarati lančane veze. Načini rada mogu biti aktivirani s više različitih raspona i veza. Ako je definirano više od jednog raspona\/veze za jedan način rada, svaki od njih može biti postavljen na <strong>I<\/strong> ili <strong>ILI<\/strong>. Način rada će biti aktiviran kada:<br \/>-su svi<strong>I<\/strong> rasponi\/veze aktivne ili <br \/>-barem jedan <strong>ILI<\/strong> raspon\/veza aktivna. <br \/><br \/> Sve postavko je potrebno spremiti klikom na tipku 'Spremi'."
+        "message": "Ovdje konfigurirajte načine rada koristeći kombinacije raspona i\/ili veza s drugim načinima rada (veze su podržane u BF 4.0 verziji i kasnijim) Koristite <strong>raspone<\/strong> kako biste definirali koji prekidači na vašoj stanici aktiviraju koje načine rada. Odabrani kanal s prijeminika koji daje vrijednost unutar raspona će aktivirati taj način rada. Koristite <strong>veze<\/strong> kako biste aktivirali način rada kada je neki drugi način rada aktivan. <strong>Iznimke:<\/strong> Način rada ARM ne može biti vezan na ili s drugim načinima rada, isto tako načini rada ne mogu biti vezani na druge načina rada koji su već konfigurirani da se aktiviraju vezom. Nije moguće stvarati lančane veze. Načini rada mogu biti aktivirani s više različitih raspona i veza. Ako je definirano više od jednog raspona\/veze za jedan način rada, svaki od njih može biti postavljen na <strong>I<\/strong> ili <strong>ILI<\/strong>. <br \/><br>Način rada će biti aktiviran kada:<br \/>-su svi <strong>I<\/strong> rasponi\/veze aktivne ili <br \/>-barem jedan <strong>ILI<\/strong> raspon\/veza aktivna. <br \/><br \/> Sve postavke je potrebno spremiti klikom na tipku 'Spremi'."
     },
     "auxiliaryToggleUnused": {
-        "message": "Sakrij nekorištene modove"
+        "message": "Sakrij načine rada koji se ne koriste"
     },
     "auxiliaryMin": {
         "message": "Min"
@@ -704,7 +704,7 @@
         "message": "Osvježi:"
     },
     "sensorsScale": {
-        "message": "Skaliranje:"
+        "message": "Skala:"
     },
     "sensorsGyroSelect": {
         "message": "Žiroskop"
