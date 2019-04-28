@@ -487,6 +487,9 @@
     "receiverRcSmoothingFilter": {
         "message": "Filter"
     },
+    "receiverRcInterpolationDefault": {
+        "message": "Preset"
+    },
     "pidTuningProportional": {
         "message": "Proporcionalno"
     },
