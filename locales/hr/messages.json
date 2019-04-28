@@ -1112,6 +1112,90 @@
     "pidTuningThrottleLimitTypeClip": {
         "message": "ODREZANO"
     },
+    "pidTuningFilter": {
+        "message": "Filter"
+    },
+    "pidTuningFilterFrequency": {
+        "message": "Frekvencija"
+    },
+    "pidTuningRatesCurve": {
+        "message": "Rateovi"
+    },
+    "throttle": {
+        "message": "Gas\/Throttle"
+    },
+    "pidTuningButtonSave": {
+        "message": "Spremi"
+    },
+    "pidTuningButtonRefresh": {
+        "message": "Osvježi"
+    },
+    "pidTuningProfileHead": {
+        "message": "Profil"
+    },
+    "pidTuningControllerHead": {
+        "message": "PID kontroler"
+    },
+    "pidTuningCopyProfile": {
+        "message": "Kopiraj vrijednosti profila"
+    },
+    "pidTuningCopyRateProfile": {
+        "message": "Kopiraj vrijednosti rateprofila"
+    },
+    "dialogCopyProfileText": {
+        "message": "Kopiraj vrijednosti iz trenutnog profila u"
+    },
+    "dialogCopyRateProfileText": {
+        "message": "Kopiraj vrijednosti iz trenutnog rateprofila u"
+    },
+    "dialogCopyProfileTitle": {
+        "message": "Kopiraj vrijednosti profila"
+    },
+    "dialogCopyProfileConfirm": {
+        "message": "Kopiraj"
+    },
+    "dialogCopyProfileClose": {
+        "message": "Poništi"
+    },
+    "pidTuningResetProfile": {
+        "message": "Resetiraj sve vrijednosti profila"
+    },
+    "pidTuningProfileReset": {
+        "message": "Učitaj zadane vrijednosti profila."
+    },
+    "pidTuningLoadedRateProfile": {
+        "message": "Učitan rateprofil: <strong class=\"message-positive\">$1<\/strong>"
+    },
+    "receiverThrottleMid": {
+        "message": "Gas\/Throttle MID"
+    },
+    "receiverThrottleExpo": {
+        "message": "Gas\/Throttle EXPO"
+    },
+    "receiverStickMin": {
+        "message": "'Stick low' prag"
+    },
+    "receiverStickCenter": {
+        "message": "Stick centar"
+    },
+    "receiverStickMax": {
+        "message": "'Stick High' prag"
+    },
+    "receiverDeadband": {
+        "message": "RC mrtva-zona"
+    },
+    "receiverYawDeadband": {
+        "message": "Yaw mrtva-zona"
+    },
+    "recevier3dDeadbandThrottle": {
+        "message": "3D Gas\/Throttle mrtva-zona"
+    },
+    "receiverChannelMap": {
+        "message": "Mapiranje kanala"
+    },
+    "receiverChannelDefaultOption": {
+        "message": "Zadano"
+    },
     "receiverRssiChannel": {
         "message": "RSSI kanal"
     },
@@ -1238,6 +1322,15 @@
     "adjustmentsFunction20": {
         "message": "Roll D prilagodba"
     },
+    "adjustmentsFunction21": {
+        "message": "RC Rate Yaw"
+    },
+    "adjustmentsFunction22": {
+        "message": "D Setpoint"
+    },
+    "adjustmentsFunction24": {
+        "message": "Podešavanje Horizon snage"
+    },
     "adjustmentsFunction27": {
         "message": "Roll F prilagodba"
     },
@@ -1252,6 +1345,63 @@
     },
     "adjustmentsSave": {
         "message": "Spremi"
+    },
+    "transponderConfigurationType": {
+        "message": "Vrsta transpondera"
+    },
+    "transponderType0": {
+        "message": "Ništa"
+    },
+    "transponderType1": {
+        "message": "iLap"
+    },
+    "transponderType2": {
+        "message": "aRCiTimer"
+    },
+    "transponderType3": {
+        "message": "ERLT"
+    },
+    "transponderConfiguration2": {
+        "message": "Konfiguracija aRCiTimera"
+    },
+    "transponderData1": {
+        "message": "Podaci"
+    },
+    "transponderData2": {
+        "message": "Transponder ID"
+    },
+    "transponderData3": {
+        "message": "Transponder ID"
+    },
+    "transponderDataHelp1": {
+        "message": "Samo heksadekadske znamenke, 0-9, A-F"
+    },
+    "transponderDataHelp3": {
+        "message": "Odaberi ERLT ID 0-63"
+    },
+    "transponderButtonSave": {
+        "message": "Spremi"
+    },
+    "transponderButtonSaveReboot": {
+        "message": "Spremi i ponovno pokreni"
+    },
+    "servosName": {
+        "message": "Ime"
+    },
+    "servosMid": {
+        "message": "MID"
+    },
+    "servosMin": {
+        "message": "MIN"
+    },
+    "servosMax": {
+        "message": "MAX"
+    },
+    "servosAngleAtMin": {
+        "message": "Kut na min"
+    },
+    "servosAngleAtMax": {
+        "message": "Kut na max"
     },
     "servosLiveMode": {
         "message": "Omogući mod za uživo"
@@ -1598,6 +1748,42 @@
     "firmwareFlasherReleaseFileUrl": {
         "message": "Ručno preuzimanje."
     },
+    "firmwareFlasherTargetWarning": {
+        "message": "<span class=\"message-negative\">UPOZORENJE<\/span>: Provjerite ažurirate li datoteku primjerenu vašem kontroleru leta. Ažuriranje s pogrešnom datotekom za drugi kontroler može prouzrokokvati <span class=\"message-negative\">probleme<\/span>."
+    },
+    "firmwareFlasherPath": {
+        "message": "Putanja:"
+    },
+    "firmwareFlasherSize": {
+        "message": "Veličina:"
+    },
+    "firmwareFlasherStatus": {
+        "message": "Status:"
+    },
+    "firmwareFlasherProgress": {
+        "message": "Napredak:"
+    },
+    "firmwareFlasherLoadFirmwareFile": {
+        "message": "Molimo učitajte datoteku firmwarea"
+    },
+    "firmwareFlasherNoReboot": {
+        "message": "Nema ponovnog pokretanja"
+    },
+    "firmwareFlasherOnlineSelectBuildType": {
+        "message": "Odaberite vrstu verzije za dostupne kontrolere."
+    },
+    "firmwareFlasherOnlineSelectBoardDescription": {
+        "message": "Odaberite kontroler leta kako biste vidjeli dostupna izdanja firmwarea - Odaberite ispravan firmware koji odgovara vašem kontroleru leta."
+    },
+    "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
+        "message": "Odaberite verziju firmwarea za vaš kontroler."
+    },
+    "firmwareFlasherNoRebootDescription": {
+        "message": "Omogućite ako je vaš kontroler leta u boot načinu rada, tj. ako ste uključili vaš kontroler leta držeći BOOT tipku ili prespajajući BOOT pinove."
+    },
+    "firmwareFlasherFlashOnConnect": {
+        "message": "Ažuriraj pri spajanju"
+    },
     "firmwareFlasherFullChipErase": {
         "message": "Puno brisanje čipa"
     },
@@ -1706,6 +1892,10 @@
     "ledStripButtonSave": {
         "message": "Spremi"
     },
+    "ledStripColorSetupTitle": {
+        "message": "Postavke boje",
+        "description": "Color setup title of the led strip"
+    },
     "ledStripH": {
         "message": "H",
         "description": "Abbreviation of Hue in HSV (Hue, Saturation, Brightness) color model"
@@ -1717,6 +1907,32 @@
     "ledStripV": {
         "message": "V",
         "description": "Abbreviation of Brightness in HSV  (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripRemainingText": {
+        "message": "Preostalo",
+        "description": "In the LED STRIP, text next the counter of leds remaining"
+    },
+    "ledStripClearSelectedButton": {
+        "message": "Izbrišite odabrano",
+        "description": "In the LED STRIP, clear selected leds"
+    },
+    "ledStripClearAllButton": {
+        "message": "Očisti sve",
+        "description": "In the LED STRIP, clear all leds"
+    },
+    "ledStripFunctionSection": {
+        "message": "LED Mogućnosti"
+    },
+    "ledStripFunctionTitle": {
+        "message": "Funkcija"
+    },
+    "ledStripFunctionNoneOption": {
+        "message": "Ništa",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionColorOption": {
+        "message": "Boja",
+        "description": "One of the modes of the Led Strip"
     },
     "ledStripFunctionModesOption": {
         "message": "Načini rada &amp; Orjentacija",
@@ -1897,6 +2113,21 @@
     "colorMagenta": {
         "message": "magenta"
     },
+    "colorDeepPink": {
+        "message": "tamno ružičasta"
+    },
+    "controlAxisRoll": {
+        "message": "Roll [A]"
+    },
+    "controlAxisPitch": {
+        "message": "Pitch [E]"
+    },
+    "controlAxisYaw": {
+        "message": "Yaw [R]"
+    },
+    "controlAxisThrottle": {
+        "message": "Throttle [T]"
+    },
     "controlAxisAux1": {
         "message": "AUX 1"
     },
@@ -1945,6 +2176,120 @@
     "controlAxisAux16": {
         "message": "AUX 16"
     },
+    "pidTuningBasic": {
+        "message": "Basic\/Acro"
+    },
+    "pidTuningYawJumpPrevention": {
+        "message": "Yaw prevencija skoka"
+    },
+    "pidTuningRcExpoPower": {
+        "message": "RC Expo snaga"
+    },
+    "pidTuningLevel": {
+        "message": "Angle\/Horizon"
+    },
+    "pidTuningMag": {
+        "message": "Magnetometar\/Smjer"
+    },
+    "pidTuningGps": {
+        "message": "GPS navigacija"
+    },
+    "pidTuningStrength": {
+        "message": "Jačina"
+    },
+    "pidTuningTransition": {
+        "message": "Prijelaz"
+    },
+    "pidTuningHorizon": {
+        "message": "Horizon"
+    },
+    "pidTuningAngle": {
+        "message": "Angle"
+    },
+    "pidTuningLevelAngleLimit": {
+        "message": "Limit kuta"
+    },
+    "pidTuningLevelSensitivity": {
+        "message": "Osjetljivost"
+    },
+    "pidTuningVbatPidCompensation": {
+        "message": "Vbat PID kompenzacija"
+    },
+    "pidTuningItermRotation": {
+        "message": "I Term Rotation"
+    },
+    "pidTuningItermRelax": {
+        "message": "I Term Relax"
+    },
+    "pidTuningItermRelaxAxes": {
+        "message": "Osi:"
+    },
+    "pidTuningItermRelaxAxesOptionRP": {
+        "message": "RP"
+    },
+    "pidTuningItermRelaxAxesOptionRPY": {
+        "message": "RPY"
+    },
+    "pidTuningItermRelaxType": {
+        "message": "Vrsta:"
+    },
+    "pidTuningItermRelaxTypeOptionGyro": {
+        "message": "Žiro"
+    },
+    "pidTuningItermRelaxTypeOptionSetpoint": {
+        "message": "Setpoint"
+    },
+    "pidTuningAbsoluteControlGain": {
+        "message": "Apsolutna kontrola"
+    },
+    "pidTuningThrottleBoost": {
+        "message": "Gas\/Throttle Boost"
+    },
+    "pidTuningIntegratedYaw": {
+        "message": "Integrirani Yaw"
+    },
+    "failsafePaneTitleOld": {
+        "message": "Failsafe prijemnika"
+    },
+    "failsafeFeaturesHelpNew": {
+        "message": "Failsafe ima dvije faze. <strong>Faza 1<\/strong> se aktivira kada jedan kanal s prijemnika ima nepravilnu dužinu impulsa, odnosno kada prijemnik uđe u failsafe način rada ili ako uopče nema signala s prijemnika. Primjenjuju se zadane postavke <span class=\"message-negative\">na sve kanale<\/span> i počinje teći kratko vrijeme za oporavak prije ulaska u sljedeću fazu. <strong>Faza 2<\/strong> se aktivira kada Faza 1 traje dulje od zadanog vremena za oporavak dok je letjelica <span class=\"message-negative\">armirana<\/span>, svi kanali će ostati na već primjenjenim postavkama u Fazi 1 osim ako ih se ne pregazi određenim procedurama. <br \/><strong>Napomena:<\/strong> Prije ulaska u Fazu 1, zadane postavke se isto tako primjenjuju na zasebne AUX kanale koji imaju nepravilne impulse."
+    },
+    "failsafePulsrangeTitle": {
+        "message": "Postavke ispravnog raspona dužine impulsa"
+    },
+    "failsafeRxMinUsecItem": {
+        "message": "Minimalna dužina"
+    },
+    "failsafeRxMaxUsecItem": {
+        "message": "Maksimalna dužina"
+    },
+    "failsafeChannelFallbackSettingsTitle": {
+        "message": "Postavke stanja kanala"
+    },
+    "failsafeStageTwoSettingsTitle": {
+        "message": "Faza 2 - Postavke"
+    },
+    "failsafeDelayItem": {
+        "message": "Vrijeme za oporavak nakon gubitka signala prije aktivacije Faze 2"
+    },
+    "failsafeDelayHelp": {
+        "message": "Vrijeme u Fazi 1 za oporavak"
+    },
+    "failsafeThrottleLowItem": {
+        "message": "Odgoda failsafea kod niskog gasa [1 = 0.1 sec.]"
+    },
+    "failsafeThrottleLowHelp": {
+        "message": "Disarmiraj letjelicu bez izvršavanja zadane failsafe procedure ako je throttle bio nizak ovoliko vremena"
+    },
+    "failsafeThrottleItem": {
+        "message": "Vrijednost gasa pri sljetanju"
+    },
+    "failsafeOffDelayItem": {
+        "message": "Odgoda gašenja motora u failsafeu [1 = 0.1 sec.]"
+    },
+    "failsafeSubTitle1": {
+        "message": "Faza 2 - Failsafe procedura"
+    },
     "failsafeProcedureItemSelect1": {
         "message": "Slijetanje"
     },
@@ -1956,6 +2301,27 @@
     },
     "failsafeGpsRescueItemAngle": {
         "message": "Kut"
+    },
+    "failsafeGpsRescueItemInitialAltitude": {
+        "message": "Inicijalna visina (metri)"
+    },
+    "failsafeGpsRescueItemDescentDistance": {
+        "message": "Udaljenost početaka spuštanja (metri)"
+    },
+    "failsafeGpsRescueItemGroundSpeed": {
+        "message": "Stvarna brzina (metri\/sekundi)"
+    },
+    "failsafeGpsRescueItemThrottleMin": {
+        "message": "Minimalni zadani gas\/throttle"
+    },
+    "failsafeGpsRescueItemThrottleMax": {
+        "message": "Maksimalni zadani gas\/throttle"
+    },
+    "failsafeGpsRescueItemThrottleHover": {
+        "message": "Gas\/throttle lebdenja"
+    },
+    "failsafeGpsRescueItemMinSats": {
+        "message": "Minimalno satelita"
     },
     "failsafeGpsRescueItemSanityChecks": {
         "message": "Provjere stanja sustava Gps spašavanja"
@@ -2131,6 +2497,162 @@
     "powerAmperageId62": {
         "message": "ESC Motor 3"
     },
+    "powerAmperageId63": {
+        "message": "ESC Motor 4"
+    },
+    "powerAmperageId64": {
+        "message": "ESC Motor 5"
+    },
+    "powerAmperageId65": {
+        "message": "ESC Motor 6"
+    },
+    "powerAmperageId66": {
+        "message": "ESC Motor 7"
+    },
+    "powerAmperageId67": {
+        "message": "ESC Motor 8"
+    },
+    "powerAmperageId68": {
+        "message": "ESC Motor 9"
+    },
+    "powerAmperageId69": {
+        "message": "ESC Motor 10"
+    },
+    "powerAmperageId70": {
+        "message": "ESC Motor 11"
+    },
+    "powerAmperageId71": {
+        "message": "ESC Motor 12"
+    },
+    "powerAmperageId80": {
+        "message": "Virtualno"
+    },
+    "powerAmperageId90": {
+        "message": "MSP"
+    },
+    "powerMahValue": {
+        "message": "$1 mAh"
+    },
+    "powerAmperageScale": {
+        "message": "Skaliranje[1\/10th mV\/A]"
+    },
+    "powerAmperageOffset": {
+        "message": "Pomak [mA]"
+    },
+    "powerBatteryHead": {
+        "message": "Baterija"
+    },
+    "powerStateHead": {
+        "message": "Stanje napajanja"
+    },
+    "powerBatteryConnected": {
+        "message": "Povezano"
+    },
+    "powerBatteryConnectedValueYes": {
+        "message": "Da (Čelije: $1)"
+    },
+    "powerBatteryConnectedValueNo": {
+        "message": "Ne"
+    },
+    "powerBatteryVoltage": {
+        "message": "Napon"
+    },
+    "powerBatteryCurrentDrawn": {
+        "message": "mAh iskorišteno"
+    },
+    "powerBatteryAmperage": {
+        "message": "Struja"
+    },
+    "powerBatteryCapacity": {
+        "message": "Kapacitet (mAh)"
+    },
+    "osdSetupTitle": {
+        "message": "OSD"
+    },
+    "osdSetupPreviewHelp": {
+        "message": "<strong>Napomena:<\/strong> OSD pretpregled možda neće prikazati stvarni font koji je instaliran na kontroleru leta."
+    },
+    "osdSetupProfilesTitle": {
+        "message": "Broj profila OSD-a",
+        "description": "Description of the header of the OSD elements column associated to each profile"
+    },
+    "osdSetupElementsTitle": {
+        "message": "Elementi"
+    },
+    "osdSetupPreviewTitle": {
+        "message": "Povucite elemente kako biste promjenili poziciju",
+        "description": "Indicates in the preview window of the OSD that the user can drag the elements to reorder them"
+    },
+    "osdSetupPreviewSelectProfileTitle": {
+        "message": "Pregled",
+        "description": "Label of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupSelectedProfileTitle": {
+        "message": "Aktivni OSD profil",
+        "description": "Title of the box to select the current active OSD profile"
+    },
+    "osdSetupSelectedProfileLabel": {
+        "message": "Struja:",
+        "description": "Label for the selection of the curren active OSD profile"
+    },
+    "osdSetupPreviewSelectProfileElement": {
+        "message": "OSD profil {{profileNumber}}",
+        "description": "Content of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupVideoFormatTitle": {
+        "message": "Video format"
+    },
+    "osdSetupUnitsTitle": {
+        "message": "Mjerne jedinice"
+    },
+    "osdSetupTimersTitle": {
+        "message": "Brojači"
+    },
+    "osdSetupAlarmsTitle": {
+        "message": "Alarmi"
+    },
+    "osdSetupStatsTitle": {
+        "message": "Statistika poslije leta"
+    },
+    "osdSetupVtxTitle": {
+        "message": "VTX postavke"
+    },
+    "osdSetupCraftNameTitle": {
+        "message": "Naziv letjelice"
+    },
+    "osdSetupWarningsTitle": {
+        "message": "Upozorenja"
+    },
+    "osdSetupFontPresets": {
+        "message": "Font presets:"
+    },
+    "osdSetupFontPresetsSelectorOr": {
+        "message": "ili"
+    },
+    "osdSetupOpenFont": {
+        "message": "Otvori datoteku fonta"
+    },
+    "osdSetupCustomLogoTitle": {
+        "message": "Boot logo:"
+    },
+    "osdSetupCustomLogoOpenImageButton": {
+        "message": "Odaberi prilagođenu sliku&hellip;"
+    },
+    "osdSetupCustomLogoInfoTitle": {
+        "message": "Prilagođena slika:"
+    },
+    "osdSetupCustomLogoInfoColorMap": {
+        "message": "Mora sadržavati zelene, crnei bijele piksele"
+    },
+    "osdSetupUploadFont": {
+        "message": "Prenesi font"
+    },
+    "osdSetupSave": {
+        "message": "Spremi"
+    },
+    "osdSetupFontManager": {
+        "message": "Upravitelj fonta"
+    },
     "osdSetupUncheckAll": {
         "message": "Odznači sve"
     },
@@ -2280,6 +2802,156 @@
     },
     "osdTimerSource": {
         "message": "Izvor:"
+    },
+    "osdTimerPrecision": {
+        "message": "Točnost:"
+    },
+    "osdTimerAlarm": {
+        "message": "Alarmi:"
+    },
+    "osdWarningArmingDisabled": {
+        "message": "Prijavljuje najvažniji razlog kod nemogućnosti armiranja"
+    },
+    "osdWarningFailsafe": {
+        "message": "Upozorava kad se dogodi failsafe"
+    },
+    "osdWarningGpsRescueDisabled": {
+        "message": "Upozorava kad je GPS spašavanje onemogućeno"
+    },
+    "osdWarningLinkQuality": {
+        "message": "Upozori kad je kvaliteta veze ispod postavljene razine za alarm"
+    },
+    "osdSectionHelpElements": {
+        "message": "Omogućavanje ili onemogućavanje elemenata OSD-a."
+    },
+    "osdSectionHelpUnits": {
+        "message": "Postavlja sustav jedinica korišten pri brojčanom ispisu."
+    },
+    "osdButtonSaved": {
+        "message": "Spremljeno"
+    },
+    "mainHelpArmed": {
+        "message": "Arming Motora"
+    },
+    "mainHelpFailsafe": {
+        "message": "Failsafe način rada"
+    },
+    "mainHelpLink": {
+        "message": "Status serijskog priključka"
+    },
+    "configurationEscProtocol": {
+        "message": "Protokol ESC-a\/Motora"
+    },
+    "configurationunsyndePwm": {
+        "message": "Brzina PWM motora odvojena od brzine PID kontrolera"
+    },
+    "configurationUnsyncedPWMFreq": {
+        "message": "PWM frekvencija motora"
+    },
+    "configurationGyroSyncDenom": {
+        "message": "Frekvencija uzorkovanja stanja žiroskopa"
+    },
+    "configurationPidProcessDenom": {
+        "message": "Frekvencija PID petlje"
+    },
+    "configurationGyroUse32kHz": {
+        "message": "Omogući 32kHz uzorkovanje stanja žiroskopa"
+    },
+    "configurationAccHardware": {
+        "message": "Akcelerometar"
+    },
+    "configurationBaroHardware": {
+        "message": "Barometar (ako je podržan)"
+    },
+    "configurationMagHardware": {
+        "message": "Magnetometar (ako je podržan)"
+    },
+    "configurationSmallAngle": {
+        "message": "Maksimalni ARMING kut [degrees]"
+    },
+    "configurationBatteryVoltage": {
+        "message": "Napon baterije"
+    },
+    "configurationBatteryCurrent": {
+        "message": "Struja baterije"
+    },
+    "configurationBatteryMeterType": {
+        "message": "Vrsta mjerača baterije"
+    },
+    "configurationBatteryMinimum": {
+        "message": "Minimalni napon čelije"
+    },
+    "configurationBatteryMaximum": {
+        "message": "Maksimalni napon čelije"
+    },
+    "configurationBatteryWarning": {
+        "message": "Upozorenje napona čelije"
+    },
+    "configurationBatteryScale": {
+        "message": "Skaliranje napona"
+    },
+    "configurationCurrentMeterType": {
+        "message": "Vrsta mjerača struje"
+    },
+    "configurationCurrent": {
+        "message": "Senzor struje"
+    },
+    "pidTuningProfile": {
+        "message": "Profil"
+    },
+    "pidTuningRateProfile": {
+        "message": "Rateprofil"
+    },
+    "pidTuningDelta": {
+        "message": "Derivacijska metoda"
+    },
+    "pidTuningDeltaError": {
+        "message": "Greška"
+    },
+    "pidTuningDeltaMeasurement": {
+        "message": "Mjerenje"
+    },
+    "configurationCamera": {
+        "message": "Kamera"
+    },
+    "configurationPersonalization": {
+        "message": "Personalizacija"
+    },
+    "craftName": {
+        "message": "Naziv letjelice"
+    },
+    "configurationFpvCamAngleDegrees": {
+        "message": "Kut FPV kamere [degrees]"
+    },
+    "onboardLoggingBlackbox": {
+        "message": "Uređaj zapisivanja crne kutije"
+    },
+    "onboardLoggingRateOfLogging": {
+        "message": "Brzina zapisivanja u crnu kutiju"
+    },
+    "onboardLoggingSerialLogger": {
+        "message": "Vanjski serijski uređaj zapisivanja"
+    },
+    "onboardLoggingFlashLogger": {
+        "message": "Memorijski čip na ploči"
+    },
+    "onboardLoggingEraseInProgress": {
+        "message": "Brisanje u tijeku, molimo pričekajte..."
+    },
+    "onboardLoggingOnboardSDCard": {
+        "message": "SD kartica na ploči"
+    },
+    "onboardLoggingMsc": {
+        "message": "Masovna pohrana"
+    },
+    "onboardLoggingMscNote": {
+        "message": "Ponovno pokreni u <strong>načinu rada za masovnu pohranu<\/strong>. Kada je aktivirano, memorija na kontroleru leta ili SD kartica će biti vidljiva kao medij za pohranu. To će omogućiti preuzimanje zapisa o letu. Odspojite i ponovno pokrenite kontroler leta da biste napustili ovaj način za masovnu pohranu."
+    },
+    "onboardLoggingRebootMscText": {
+        "message": "Aktiviraj način rada s uređajem vanjske memorije"
+    },
+    "onboardLoggingMscNotReady": {
+        "message": "Način rada za masovnu pohranu ne može biti aktiviran jer medij za pohranu nije spreman."
     },
     "dialogConfirmResetTitle": {
         "message": "Potvrdi"
