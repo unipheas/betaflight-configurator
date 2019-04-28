@@ -2557,13 +2557,13 @@
         "message": "Mensaxe:"
     },
     "firmwareFlasherWarningText": {
-        "message": "Por favor <span class=\"message-negative\">non<\/span> intentes flashear <strong>no-Betaflight<\/strong> hardware con este flasheador de firmwares.<br \/><span class=\"message-negative\">Non<\/span> <strong>desconectes<\/strong> a controladora nin<strong>apagues<\/strong> o ordeador mentres se escribe o firmware.<br \/><br \/><strong>Nota:<\/strong>o bootloader STM32 está almacenado na ROM, polo que non se pode estragar.<br \/><strong>Nota: <\/strong><span class=\"message-negative\">Auto-Conectar<\/span>está sempre deshabilitado mentres estás no Flasheador de Firmware.<br \/><strong>Nota: <\/strong>Asegurate de que tes unha backup; algunhas actualizacións\/downgrades borrarán a tua configuración.<br \/><strong>Nota:<\/strong> Se tes problemas flasheando <strong>proba a desconectar todolos cables da tua controladora<\/strong> primeiro, proba a reiniciar, actualiza chrome, actualiza drivers.<br \/><strong>Nota:<\/strong> Cuando acualices placas que se conecten directamente a través de conectores USB (as controladoras máis novas) asegurate de que tes leido a sección de Flasheo do manual de Betaflight e de que tes o software e drivers correctos instalados"
+        "message": "Por favor <span class=\"message-negative\">non<\/span> intente flashear <strong>hardware non compatible con Betaflight<\/strong> con este flasheador de firmwares.<br \/><span class=\"message-negative\">Non<\/span> <strong>desconecte<\/strong> a controladora nin<strong>apague<\/strong> o ordeador mentres se escribe o firmware.<br \/><br \/><strong>Nota:<\/strong>o bootloader STM32 está almacenado na ROM, polo que non se pode estragar.<br \/><strong>Nota: <\/strong><span class=\"message-negative\">Auto-Conectar<\/span>está sempre deshabilitado mentres está no Flasheador de Firmware.<br \/><strong>Nota: <\/strong>Asegúrese de que ten unha backup; algunhas actualizacións\/downgrades borrarán a súa configuración.<br \/><strong>Nota:<\/strong> Se ten problemas flasheando <strong>probe a desconectar tódolos cables da súa controladora<\/strong> primeiro, probe a reiniciar, actualiza chrome, actualiza drivers.<br \/><strong>Nota:<\/strong> Cando acualice placas que se conecten directamente a través de conectores USB (as controladoras máis novas) asegúrese de que ten lido a sección de Flasheo do manual de Betaflight e de que ten o software e drivers correctos instalados"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong> Recuperación \/ comunicación perdida <\/strong>"
     },
     "firmwareFlasherRecoveryText": {
-        "message": "Se perdela conexión coa súa controladora sigua estes pasos para reestabrecer a comunicación: <ul><li>Apaga<\/li><li>Activa 'Sen secuencia de reinicio', Activa 'Borrado completo do chip'.<\/li><li>Puentea os pins de BOOT ou manten pulsado o botón BOOT.<\/li><li>Encende(o LED de actividad NON parpadeará se se fai correctamente).<\/li><li>Instala todos os drivers para STM32 drivers e Zadig en caso de ser necesario (consulta a sección <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">Flasheo USB<\/a> do manual de Betaflight).<\/li><li>Cerra o configurador, Cerra tódalas instancias de chrome, Cerra tódalas aplicacións de Chrome, Reinicia o Configurador.<\/li><li>Solta o botón se a súa controladora ten un.<\/li><li>Carga o firmware correcto utilizando unha velocidade de transmisión manual (se está especificada no manual da controladora)<\/li><li>Apagar.<\/li><li>Elimine o puenteo dos pins de BOOT<\/li><li>Encenda (o LED de actividad debería de parpadear).<\/li><li>Conecte con normalidade.<\/li><\/ul>"
+        "message": "Se perde a conexión coa súa controladora siga estes pasos para reestabrecer a comunicación: <ul><li>Apagar<\/li><li>Activar 'non reiniciar', Activar 'Borrado completo do chip'.<\/li><li>Puenté os pins de BOOT ou manteña pulsado o botón BOOT.<\/li><li>Encenda(o LED de actividade NON parpadeará se se fai correctamente).<\/li><li>Instale tódolos drivers para STM32 e Zadig en caso de ser necesario (consulte a sección <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">Flasheo USB<\/a> do manual de Betaflight).<\/li><li>Peche o configurador, peche tódalas instancias de chrome, peche tódalas aplicacións de Chrome, Reinicie o Configurador.<\/li><li>Solte o botón se a súa controladora ten un.<\/li><li>Cargue o firmware correcto empregando unha velocidade de transmisión manual (se está especificada no manual da controladora)<\/li><li>Apagar.<\/li><li>Elimine o puenteo dos pins de BOOT<\/li><li>Encenda (o LED de actividad debería de parpadear).<\/li><li>Conecte con normalidade.<\/li><\/ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "Abandoando o Instalador o Firmware"
@@ -2599,7 +2599,7 @@
         "message": "Detectado: <strong>$1<\/strong> - dispositivo anterior todavía en instalación, por favor volva conectalo para volver intentalo"
     },
     "ledStripHelp": {
-        "message": "O controlador de voo pode controlar cores e efectos dos LEDs individuais duna tira.<br\/>Configura LEDs, configura a orde do cableado e engade LEDs a tua aeronave acordo coas posiciones da reixa. LEDs sen número de orden do cableado non se gardarán.<br \/>Doble-pulsación nun cor para editar os valores HSV."
+        "message": "O controlador de voo pode controlar cores e efectos dos LEDs individuais duna tira.<br\/>Configure LEDs, configure a orde do cableado e engada LEDs a súa aeronave acordo coas posiciones da reixa. LEDs sen número de orden do cableado non se gardarán.<br \/>Doble-pulsación nun cor para editar os valores HSV."
     },
     "ledStripButtonSave": {
         "message": "Gardar"
@@ -2759,7 +2759,7 @@
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripModeColorsModeGPSNoLock": {
-        "message": "GPS: Sin rexistrar",
+        "message": "GPS: Sen rexistrar",
         "description": "One of the modes in Color Mode in Led Strip"
     },
     "ledStripModeColorsModeGPSLocked": {
