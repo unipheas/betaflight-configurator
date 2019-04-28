@@ -159,7 +159,7 @@
         "message": "Naziv letjelice: <strong>$1<\/strong>"
     },
     "versionLabelTarget": {
-        "message": "Cilj"
+        "message": "Target"
     },
     "versionLabelFirmware": {
         "message": "Firmware"
