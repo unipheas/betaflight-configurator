@@ -2254,7 +2254,7 @@
         "message": "Copiado!"
     },
     "loggingNote": {
-        "message": "Os datos rexistraranse nesta pestana <span class=\"message-negative\">solo<\/span>, deixando a pestana <span class=\"message-negative\">cancela<\/span> o rexistro e a aplicación volverá ao seu normal <strong>\"configurador\" <\/strong>.<br\/> É libre para seleccionar o período de actualización global, os datos serán escritos no ficheiro de rexistro cada <strong>1<\/strong> segundo por razóns de rendemento."
+        "message": "Os datos rexistraranse nesta pestana <span class=\"message-negative\">solo<\/span>, deixando a pestana <span class=\"message-negative\">cancela<\/span> o rexistro e a aplicación volverá ao seu estado normal <strong>\"configurador\" <\/strong>.<br\/> É libre para seleccionar o período de actualización global, os datos serán escritos no ficheiro de rexistro cada <strong>1<\/strong> segundo por razóns de rendemento."
     },
     "loggingSamplesSaved": {
         "message": "Exemplos gardados:"
@@ -2317,7 +2317,7 @@
         "message": "Os rexistros de voos pódense gravar no slot para tarxetas SD do controlador de voo."
     },
     "dataflashUsedSpace": {
-        "message": "Espaza en uso"
+        "message": "Espazo en uso"
     },
     "dataflashFreeSpace": {
         "message": "Espazo libre"
@@ -2326,7 +2326,7 @@
         "message": "Espazo non dispiñible"
     },
     "dataflashLogsSpace": {
-        "message": "Espazo libre para históricos"
+        "message": "Espazo libre para logs"
     },
     "dataflashNote": {
         "message": "Os históricos de voo poden gravarse na memoria dataflash da controladora."
@@ -2383,7 +2383,7 @@
         "message": "Tarxeta non insertada"
     },
     "sdcardStatusReboot": {
-        "message": "Erro fatal<br>Reinicia para reintentar"
+        "message": "Erro fatal<br>Reinicie para reintentar"
     },
     "sdcardStatusReady": {
         "message": "Tarxeta dispoñible"
