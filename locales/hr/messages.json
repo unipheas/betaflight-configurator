@@ -68,6 +68,14 @@
     "language_default": {
         "message": "Zadano"
     },
+    "sensorDataFlashNotFound": {
+        "message": "Memorijski čip <br> nije pronađen",
+        "description": "Text of the dataflash image in the header of the page."
+    },
+    "sensorDataFlashFreeSpace": {
+        "message": "Memorijski čip: slobodan prostor",
+        "description": "Text of the dataflash image in the header of the page."
+    },
     "sensorStatusGyro": {
         "message": "Žiroskop"
     },
@@ -131,8 +139,14 @@
     "backupFileUnmigratable": {
         "message": "Ova backup datoteka je generirana u prošloj verziji konfiguratora i nije ju moguće migrirati."
     },
+    "configMigrationFrom": {
+        "message": "Migriracijska konfiguracijska datoteka generirana: $1"
+    },
     "configMigratedTo": {
         "message": "Migrirana konfiguracija u konfigurator: $1"
+    },
+    "configMigrationSuccessful": {
+        "message": "Migracija konfiguracije završena, migracije primjenjene: $1"
     },
     "tabFirmwareFlasher": {
         "message": "Ažuriranje Firmwarea"
@@ -142,6 +156,145 @@
     },
     "tabHelp": {
         "message": "Dokumentacija i podrška"
+    },
+    "tabSetup": {
+        "message": "Postavke"
+    },
+    "tabSetupOSD": {
+        "message": "OSD postavke"
+    },
+    "tabConfiguration": {
+        "message": "Konfiguracija"
+    },
+    "tabPorts": {
+        "message": "Portovi"
+    },
+    "tabPidTuning": {
+        "message": "PID Tuning"
+    },
+    "tabReceiver": {
+        "message": "Prijemnik"
+    },
+    "tabModeSelection": {
+        "message": "Odabir načina rada"
+    },
+    "tabServos": {
+        "message": "Servo motori"
+    },
+    "tabFailsafe": {
+        "message": "Failsafe"
+    },
+    "tabTransponder": {
+        "message": "Transponder utrke"
+    },
+    "tabOsd": {
+        "message": "OSD"
+    },
+    "tabPower": {
+        "message": "Napajanje i baterija"
+    },
+    "tabGPS": {
+        "message": "GPS"
+    },
+    "tabMotorTesting": {
+        "message": "Motori"
+    },
+    "tabLedStrip": {
+        "message": "LED traka"
+    },
+    "tabRawSensorData": {
+        "message": "Senzori"
+    },
+    "tabCLI": {
+        "message": "CLI"
+    },
+    "tabLogging": {
+        "message": "Tethered Logging"
+    },
+    "tabOnboardLogging": {
+        "message": "Crna kutija"
+    },
+    "tabAdjustments": {
+        "message": "Prilagodbe"
+    },
+    "tabAuxiliary": {
+        "message": "Načini rada"
+    },
+    "logActionHide": {
+        "message": "Sakrij zapisnik"
+    },
+    "logActionShow": {
+        "message": "Prikaži zapisnik"
+    },
+    "serialPortOpened": {
+        "message": "Serijski port <span class=\"message-positive\">uspješno<\/span> otvoren s ID: $1"
+    },
+    "serialPortOpenFail": {
+        "message": "<span class=\"message-negative\">Neuspješno<\/span> otvaranje serijskog porta"
+    },
+    "serialPortClosedOk": {
+        "message": "Serijski port <span class=\"message-positive\">uspješno<\/span> zatvoren"
+    },
+    "serialPortClosedFail": {
+        "message": "<span class=\"message-negative\">Neuspješno<\/span> zatvaranje serijskog porta"
+    },
+    "stm32UsbDfuNotFound": {
+        "message": "USB DFU nije pronađen"
+    },
+    "stm32TimedOut": {
+        "message": "STM32 - vrijeme isteklo, programiranje: NEUSPJEŠNO"
+    },
+    "stm32ContactingBootloaderFailed": {
+        "message": "Komunikacija s bootloaderom nije uspjela"
+    },
+    "stm32GlobalErase": {
+        "message": "Izvršavanje globalnog brisanja čipa ..."
+    },
+    "stm32LocalErase": {
+        "message": "Izvršavanje lokalnog brisanja ..."
+    },
+    "stm32Erase": {
+        "message": "Brisanje..."
+    },
+    "stm32Flashing": {
+        "message": "Instaliranje ..."
+    },
+    "stm32Verifying": {
+        "message": "Provjeravanje ..."
+    },
+    "stm32ProgrammingSuccessful": {
+        "message": "Programiranje: USPJEŠNO"
+    },
+    "stm32ProgrammingFailed": {
+        "message": "Programiranje: NEUSPJEŠNO"
+    },
+    "stm32NotReadProtected": {
+        "message": "Zaštita čitanja nije aktivna"
+    },
+    "stm32ReadProtected": {
+        "message": "Ploča ima zaštitu čitanja. Otključavanje. Nemojte prekidati\/isključivati!"
+    },
+    "stm32UnprotectSuccessful": {
+        "message": "Otključavanja uspješno."
+    },
+    "stm32UnprotectUnplug": {
+        "message": "AKCIJA POTREBNA: Odspojite i ponovno povežite kontroler leta u DFU načinu kako bi pokušali ponovno!"
+    },
+    "stm32UnprotectFailed": {
+        "message": "Otključavanje ploče nije uspjelo"
+    },
+    "stm32UnprotectInitFailed": {
+        "message": "Neuspjelo pokretanje otključavanja"
+    },
+    "noConfigurationReceived": {
+        "message": "Nema komunikacije u posljednjih <span class=\"message-negative\">10 sekundi<\/span>, komunikacija<span class=\"message-negative\">neuspješna<\/span>"
+    },
+    "infoVersions": {
+        "message": "Koristi se - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Konfigurator: <strong>{{configuratorVersion}}<\/strong>",
+        "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
+    },
+    "buildServerLoaded": {
+        "message": "Učitane informacije o verzijama za $1 s build servera."
     },
     "buildServerUsingCached": {
         "message": "Korištenje spremljenih informacija o verzijama za $1."
@@ -157,6 +310,18 @@
     },
     "craftNameReceived": {
         "message": "Naziv letjelice: <strong>$1<\/strong>"
+    },
+    "armingDisabled": {
+        "message": "<strong>Arming onemogućen<\/strong>"
+    },
+    "armingEnabled": {
+        "message": "<strong>Arming omogućen<\/strong>"
+    },
+    "runawayTakeoffPreventionDisabled": {
+        "message": "<strong>Zaštita od nekontroliranog polijetanja privremeno je onemogućena<\/strong>"
+    },
+    "runawayTakeoffPreventionEnabled": {
+        "message": "<strong>Zaštita od nekontroliranog polijetanja omogućena<\/strong>"
     },
     "versionLabelTarget": {
         "message": "Target"
@@ -293,6 +458,151 @@
     "initialSetupButtonReset": {
         "message": "Resetiraj postavke"
     },
+    "initialSetupResetText": {
+        "message": "Vraća sve postavke na <strong>zadane<\/strong>"
+    },
+    "initialSetupButtonBackup": {
+        "message": "Stvori sigurnosnu kopiju"
+    },
+    "initialSetupButtonRestore": {
+        "message": "Vrati sigurnosnu kopiju"
+    },
+    "initialSetupButtonRebootBootloader": {
+        "message": "Aktiviraj Boot Loader \/ DFU"
+    },
+    "initialSetupBackupRestoreText": {
+        "message": "Stvorite <strong>sigurnosnu kopiju<\/strong> vaše konfiguracije kako bi spriječili njihov gubitak, <strong>CLI<\/strong> postavke <span class=\"message-negative\">nisu uključene<\/span>, za te postavke koristite komandu 'diff all' u CLI sučelju."
+    },
+    "initialSetupRebootBootloaderText": {
+        "message": "Ponovno pokreni u <strong> boot loader \/ DFU <\/strong> načinu rada."
+    },
+    "initialSetupButtonResetZaxis": {
+        "message": "Resetiraj Z os, pomak: 0 stupnjeva"
+    },
+    "initialSetupButtonResetZaxisValue": {
+        "message": "Resetiraj Z os, pomak: $1 stupnjeva"
+    },
+    "initialSetupMixerHead": {
+        "message": "Tip miksera"
+    },
+    "initialSetupThrottleHead": {
+        "message": "Postavke gasa\/throttlea"
+    },
+    "initialSetupMinimum": {
+        "message": "Minimum:"
+    },
+    "initialSetupMaximum": {
+        "message": "Maksimum:"
+    },
+    "initialSetupFailsafe": {
+        "message": "Failsafe:"
+    },
+    "initialSetupMinCommand": {
+        "message": "MinCommand:"
+    },
+    "initialSetupBatteryHead": {
+        "message": "Baterija"
+    },
+    "initialSetupMinCellV": {
+        "message": "Minimalni napon čelije:"
+    },
+    "initialSetupMaxCellV": {
+        "message": "Maksimalni napon čelije:"
+    },
+    "initialSetupVoltageScale": {
+        "message": "Skaliranje napona:"
+    },
+    "initialSetupAccelTrimsHead": {
+        "message": "Akcelerometar Trim"
+    },
+    "initialSetupPitch": {
+        "message": "Pitch:"
+    },
+    "initialSetupRoll": {
+        "message": "Roll:"
+    },
+    "initialSetupMagHead": {
+        "message": "Magnetometar"
+    },
+    "initialSetupDeclination": {
+        "message": "Deklinacija:"
+    },
+    "initialSetupInfoHead": {
+        "message": "Informacije"
+    },
+    "initialSetupBattery": {
+        "message": "Napon baterije:"
+    },
+    "initialSetupBatteryValue": {
+        "message": "$1 V"
+    },
+    "initialSetupDrawn": {
+        "message": "Potrošeni kapacitet:"
+    },
+    "initialSetupDrawing": {
+        "message": "Struja:"
+    },
+    "initialSetupBatteryMahValue": {
+        "message": "$1 mAh"
+    },
+    "initialSetupBatteryAValue": {
+        "message": "$1 V"
+    },
+    "initialSetupRSSI": {
+        "message": "RSSI:"
+    },
+    "initialSetupRSSIValue": {
+        "message": "$1 %"
+    },
+    "initialSetupArmingDisableFlags": {
+        "message": "Zastavice onemogućenosti Arminga:"
+    },
+    "initialSetupArmingAllowed": {
+        "message": "Arming dozvoljen"
+    },
+    "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
+        "message": "Žiroskop nije pronađen",
+        "description": "Description of the NO GYRO arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
+        "message": "Failsafe je aktivan",
+        "description": "Description of the FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipANGLE": {
+        "message": "Letjelica nije dovoljno ravna",
+        "description": "Description of the ANGLE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
+        "message": "Arming prebrzo nakon uključivanja",
+        "description": "Description of the BOOT_GRACE_TIME arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipLOAD": {
+        "message": "Opterećenje sustava je previsoko za siguran let",
+        "description": "Description of the LOAD arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
+        "message": "Kalibracija senzora još uvijek traje",
+        "description": "Description of the CALIBRATING arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCLI": {
+        "message": "CLI je aktivan",
+        "description": "Description of the CLI arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
+        "message": "OSD meni je aktivan",
+        "description": "Description of the OSD_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipPARALYZE": {
+        "message": "Način rada 'Paraliziraj' je aktiviran",
+        "description": "Description of the PARALYZE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRESC": {
+        "message": "Prekidač za GPS spašavanje je aktiviran",
+        "description": "Description of the RESC arming disable flag"
+    },
+    "initialSetupGPSHead": {
+        "message": "GPS"
+    },
     "featureRX_SERIAL": {
         "message": "Serijski prijemnik (SPEKSAT, SBUS, SUMD)"
     },
@@ -380,6 +690,69 @@
     "configurationDshotBeaconTone": {
         "message": "Ton oznake"
     },
+    "configurationGPSBaudrate": {
+        "message": "Baudrate"
+    },
+    "configurationGPSAutoBaud": {
+        "message": "Auto Baud"
+    },
+    "configurationGPSAutoConfig": {
+        "message": "Automatska konfiguracija"
+    },
+    "configurationButtonSave": {
+        "message": "Spremi i ponovno pokreni"
+    },
+    "portsIdentifier": {
+        "message": "Identifikator"
+    },
+    "portsConfiguration": {
+        "message": "Konfiguracija\/MSP"
+    },
+    "portsSerialRx": {
+        "message": "Serijski Rx"
+    },
+    "portsSensorIn": {
+        "message": "Ulaz senzora"
+    },
+    "portsTelemetryOut": {
+        "message": "Izlaz za telemetriju"
+    },
+    "portsPeripherals": {
+        "message": "Periferija"
+    },
+    "portsHelp": {
+        "message": "<strong>Napomena:<\/strong> Nisu sve kombinacije ispravne. Kada kontroler leta to prepozna, konfiguracija serijskih portova će biti resetirana."
+    },
+    "portsMSPHelp": {
+        "message": "<strong>Napomena:<\/strong > <span class=\"message-negative\">Nemojte<\/span> onemogućavati MSP na prvom serijskom portu ako niste sigurni što radite. U suprotnom, možda ćete morati u potpunosti obrisati konfiguraciju i ponovno instalirati firmware."
+    },
+    "portsButtonSave": {
+        "message": "Spremi i ponovno pokreni"
+    },
+    "portsTelemetryDisabled": {
+        "message": "Onemogućeno"
+    },
+    "portsFunction_MSP": {
+        "message": "MSP"
+    },
+    "portsFunction_GPS": {
+        "message": "GPS"
+    },
+    "portsFunction_TELEMETRY_FRSKY": {
+        "message": "FrSky"
+    },
+    "portsFunction_TELEMETRY_HOTT": {
+        "message": "HoTT"
+    },
+    "portsFunction_TELEMETRY_LTM": {
+        "message": "LTM"
+    },
+    "portsFunction_TELEMETRY_MAVLINK": {
+        "message": "MAVLink"
+    },
+    "portsFunction_TELEMETRY_MSP": {
+        "message": "MSP"
+    },
     "portsFunction_TELEMETRY_SMARTPORT": {
         "message": "SmartPort"
     },
@@ -400,6 +773,9 @@
     },
     "portsFunction_RX_SERIAL": {
         "message": "Serijski RX"
+    },
+    "portsFunction_BLACKBOX": {
+        "message": "Zapisivanje u crnu kutiju"
     },
     "portsFunction_TBS_SMARTAUDIO": {
         "message": "VTX (TBS SmartAudio)"
@@ -475,11 +851,20 @@
     "pidTuningPidSettings": {
         "message": "Postavke PID kontrolera"
     },
+    "receiverRcSmoothing": {
+        "message": "RC poravnavanje"
+    },
     "receiverRcSmoothingAuto": {
         "message": "Auto"
     },
     "receiverRcSmoothingManual": {
         "message": "Ručno"
+    },
+    "receiverRcDerivativeTypeSelect": {
+        "message": "Način odrezivanja derivacijskog filtera"
+    },
+    "receiverRcInputTypeSelect": {
+        "message": "Način odrezivanja ulaznog filtera"
     },
     "receiverRcSmoothingInterpolation": {
         "message": "Interpolacija"
@@ -487,8 +872,44 @@
     "receiverRcSmoothingFilter": {
         "message": "Filter"
     },
+    "receiverRcSmoothingInputHz": {
+        "message": "Frekvencija odrezivanja ulaza"
+    },
+    "receiverRcSmoothingDerivativeCutoff": {
+        "message": "Frekvencija odrezivanja dervacijskog ulaznog filtera"
+    },
+    "receiverRcInputType": {
+        "message": "Vrsta ulaznog filtera"
+    },
+    "receiverRcDerivativeType": {
+        "message": "Vrsta derivacijskog filtera"
+    },
+    "receiverRcSmoothingDerivativeTypeOff": {
+        "message": "Isključeno"
+    },
+    "receiverRcSmoothingChannel": {
+        "message": "Poravnavanje kanala"
+    },
+    "receiverRcInterpolation": {
+        "message": "RC interpolacija"
+    },
+    "receiverRcInterpolationOff": {
+        "message": "Isključeno"
+    },
+    "receiverRcSmoothingType": {
+        "message": "Način poravnavanja"
+    },
     "receiverRcInterpolationDefault": {
         "message": "Preset"
+    },
+    "receiverRcInterpolationAuto": {
+        "message": "Auto"
+    },
+    "receiverRcInterpolationManual": {
+        "message": "Ručno"
+    },
+    "receiverRcInterpolationInterval": {
+        "message": "RC interval interpolacije [ms]"
     },
     "pidTuningProportional": {
         "message": "Proporcionalno"
@@ -501,6 +922,45 @@
     },
     "pidTuningFeedforward": {
         "message": "Feedforward"
+    },
+    "pidTuningRcRate": {
+        "message": "RC Rate"
+    },
+    "pidTuningMaxVel": {
+        "message": "Max brz. [deg\/s]"
+    },
+    "pidTuningRate": {
+        "message": "Rate"
+    },
+    "pidTuningSuperRate": {
+        "message": "Super Rate"
+    },
+    "pidTuningRatesPreview": {
+        "message": "Rate prikaz"
+    },
+    "pidTuningRcExpo": {
+        "message": "RC Expo"
+    },
+    "pidTuningTPA": {
+        "message": "TPA"
+    },
+    "pidTuningTPABreakPoint": {
+        "message": "TPA točka prijeloma"
+    },
+    "pidTuningThrottleLimitType": {
+        "message": "Način limitiranja gasa\/throttlea"
+    },
+    "pidTuningThrottleLimitPercent": {
+        "message": "Gas\/Throttle limit %"
+    },
+    "pidTuningThrottleLimitTypeOff": {
+        "message": "ISKLJUČENO"
+    },
+    "pidTuningThrottleLimitTypeScale": {
+        "message": "SKALIRANO"
+    },
+    "pidTuningThrottleLimitTypeClip": {
+        "message": "ODREZANO"
     },
     "receiverRssiChannel": {
         "message": "RSSI kanal"
@@ -642,6 +1102,42 @@
     },
     "adjustmentsSave": {
         "message": "Spremi"
+    },
+    "servosLiveMode": {
+        "message": "Omogući mod za uživo"
+    },
+    "servosButtonSave": {
+        "message": "Spremi"
+    },
+    "servosNormal": {
+        "message": "Normalno"
+    },
+    "servosReverse": {
+        "message": "Obrnuto"
+    },
+    "gpsHead": {
+        "message": "GPS"
+    },
+    "gpsMapHead": {
+        "message": "Trenutna GPS lokacija"
+    },
+    "gpsMapMessage1": {
+        "message": "Provjerite internetsku vezu"
+    },
+    "gpsMapMessage2": {
+        "message": "Čekanje na GPS 3D lokaciju…"
+    },
+    "gps3dFix": {
+        "message": "3D Fix:"
+    },
+    "gpsFixTrue": {
+        "message": "<span class=\"fixtrue\">Istina<\/span>"
+    },
+    "gpsAltitude": {
+        "message": "Visina:"
+    },
+    "gpsLat": {
+        "message": "Zemljopisna širina:"
     },
     "motorNumber2": {
         "message": "Motor - 2"
