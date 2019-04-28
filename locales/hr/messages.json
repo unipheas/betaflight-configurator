@@ -1,3 +1,5 @@
 {
-
+    "firmwareFlasherButtonLoadLocal": {
+        "message": "Učitaj firmware [Local]"
+    }
 }
