@@ -401,10 +401,552 @@
     "portsFunction_RX_SERIAL": {
         "message": "Serijski RX"
     },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "VTX (TBS SmartAudio)"
+    },
+    "portsFunction_IRC_TRAMP": {
+        "message": "VTX (IRC Tramp)"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "Kamera (RunCam Protocol)"
+    },
+    "pidTuningProfileOption": {
+        "message": "Profil $1"
+    },
+    "pidTuningRateProfileOption": {
+        "message": "Rateprofil $1"
+    },
+    "portsFunction_LIDAR_TF": {
+        "message": "Benewake LIDAR"
+    },
+    "pidTuningSubTabPid": {
+        "message": "PID Postavke"
+    },
+    "pidTuningSubTabFilter": {
+        "message": "Postavke filtera"
+    },
+    "pidTuningShowAllPids": {
+        "message": "Prikaži sve PIDove"
+    },
+    "pidTuningHideUnusedPids": {
+        "message": "Sakrij nekorištene PIDove"
+    },
+    "pidTuningAntiGravityMode": {
+        "message": "Anti Gravity način rada"
+    },
+    "pidTuningAntiGravityModeOptionSmooth": {
+        "message": "Glatko",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityModeOptionStep": {
+        "message": "Korak",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityGain": {
+        "message": "Anti Gravity gain"
+    },
+    "pidTuningAntiGravityThres": {
+        "message": "Anti Gravity prag"
+    },
+    "pidTuningDMin": {
+        "message": "D Min",
+        "description": "Table header of the D Min feature in the PIDs tab"
+    },
+    "pidTuningDMinRoll": {
+        "message": "Roll",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinPitch": {
+        "message": "Pitch",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinYaw": {
+        "message": "Yaw",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinGain": {
+        "message": "Gain",
+        "description": "Gain of the D Min feature"
+    },
+    "pidTuningDMinAdvance": {
+        "message": "Advance",
+        "description": "Advane of the D Min feature"
+    },
+    "pidTuningPidSettings": {
+        "message": "Postavke PID kontrolera"
+    },
+    "receiverRcSmoothingAuto": {
+        "message": "Auto"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "Ručno"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "Interpolacija"
+    },
+    "receiverRcSmoothingFilter": {
+        "message": "Filter"
+    },
+    "pidTuningProportional": {
+        "message": "Proporcionalno"
+    },
+    "pidTuningIntegral": {
+        "message": "Integralno"
+    },
+    "pidTuningDerivative": {
+        "message": "Derivacijski"
+    },
+    "pidTuningFeedforward": {
+        "message": "Feedforward"
+    },
+    "receiverRssiChannel": {
+        "message": "RSSI kanal"
+    },
+    "receiverRssiChannelDisabledOption": {
+        "message": "Onemogućeno"
+    },
+    "receiverRefreshRateTitle": {
+        "message": "Brzina osvježavanja grafa"
+    },
+    "receiverButtonSave": {
+        "message": "Spremi"
+    },
+    "receiverButtonRefresh": {
+        "message": "Osvježi"
+    },
+    "receiverButtonSticks": {
+        "message": "Kontrolne palice"
+    },
+    "receiverModelPreview": {
+        "message": "Pregled"
+    },
+    "receiverMspEnableButton": {
+        "message": "Omogući kontrole"
+    },
+    "auxiliaryHelp": {
+        "message": "Ovdje konfigurirajte načine rada koristeći kombinacije raspona i\/ili veza s drugim načinima rada (veze su podržane u BF 4.0 verziji i kasnijim) Koristite<strong>raspone<\/strong> kako biste definirali koji prekidači na vašoj stanici aktiviraju koje načine rada. Kanal s prijeminika koji daje vrijednost unutar raspona će aktivirati taj način rada. Koristite <strong>veze<\/strong> kako biste aktivirali način rada kada je neki drugi način rada aktivan. <strong>Iznimke:<\/strong> Način rada ARM ne može biti vezan na ili s drugim načinima rada, isto tako načini rada ne mogu biti vezani na druge načina rada koji su već konfigurirani da se aktiviraju vezom. Nije moguće stvarati lančane veze. Načini rada mogu biti aktivirani s više različitih raspona i veza. Ako je definirano više od jednog raspona\/veze za jedan način rada, svaki od njih može biti postavljen na <strong>I<\/strong> ili <strong>ILI<\/strong>. Način rada će biti aktiviran kada:<br \/>-su svi<strong>I<\/strong> rasponi\/veze aktivne ili <br \/>-barem jedan <strong>ILI<\/strong> raspon\/veza aktivna. <br \/><br \/> Sve postavko je potrebno spremiti klikom na tipku 'Spremi'."
+    },
+    "auxiliaryToggleUnused": {
+        "message": "Sakrij nekorištene modove"
+    },
+    "auxiliaryMin": {
+        "message": "Min"
+    },
+    "auxiliaryMax": {
+        "message": "Max"
+    },
+    "auxiliaryAddRange": {
+        "message": "Dodaj raspon"
+    },
+    "auxiliaryAddLink": {
+        "message": "Dodaj vezu"
+    },
+    "auxiliaryButtonSave": {
+        "message": "Spremi"
+    },
+    "auxiliaryAutoChannelSelect": {
+        "message": "AUTO"
+    },
+    "auxiliaryModeLogicOR": {
+        "message": "ILI"
+    },
+    "auxiliaryModeLogicAND": {
+        "message": "I"
+    },
+    "adjustmentsExamples": {
+        "message": "Primjeri"
+    },
+    "adjustmentsColumnEnable": {
+        "message": "Ako je omogućeno"
+    },
+    "adjustmentsColumnUsingSlot": {
+        "message": "koristeći slot"
+    },
+    "adjustmentsColumnWhenChannel": {
+        "message": "kad je kanal"
+    },
+    "adjustmentsColumnIsInRange": {
+        "message": "u rasponu"
+    },
+    "adjustmentsColumnThenApplyFunction": {
+        "message": "onda primjeni"
+    },
+    "adjustmentsColumnViaChannel": {
+        "message": "kanalom"
+    },
+    "adjustmentsSlot0": {
+        "message": "Slot 1"
+    },
+    "adjustmentsSlot1": {
+        "message": "Slot 2"
+    },
+    "adjustmentsSlot2": {
+        "message": "Slot 3"
+    },
+    "adjustmentsSlot3": {
+        "message": "Slot 4"
+    },
+    "adjustmentsMin": {
+        "message": "Min"
+    },
+    "adjustmentsMax": {
+        "message": "Max"
+    },
+    "adjustmentsFunction0": {
+        "message": "Bez promjena"
+    },
+    "adjustmentsFunction5": {
+        "message": "Yaw Rate prilagodba"
+    },
+    "adjustmentsFunction9": {
+        "message": "Yaw P prilagodba"
+    },
+    "adjustmentsFunction10": {
+        "message": "Yaw I prilagodba"
+    },
+    "adjustmentsFunction11": {
+        "message": "Yaw D prilagodba"
+    },
+    "adjustmentsFunction12": {
+        "message": "Odabir rateprofila"
+    },
+    "adjustmentsFunction13": {
+        "message": "Pitch Rate"
+    },
+    "adjustmentsFunction14": {
+        "message": "Roll Rate"
+    },
+    "adjustmentsFunction18": {
+        "message": "Roll P prilagodba"
+    },
+    "adjustmentsFunction19": {
+        "message": "Roll I prilagodba"
+    },
+    "adjustmentsFunction20": {
+        "message": "Roll D prilagodba"
+    },
+    "adjustmentsFunction27": {
+        "message": "Roll F prilagodba"
+    },
+    "adjustmentsFunction28": {
+        "message": "Yaw F prilagodba"
+    },
+    "adjustmentsFunction29": {
+        "message": "Odabir profila OSD-a"
+    },
+    "adjustmentsFunction30": {
+        "message": "Odabir profila LED-a"
+    },
+    "adjustmentsSave": {
+        "message": "Spremi"
+    },
+    "motorNumber2": {
+        "message": "Motor - 2"
+    },
+    "motorNumber3": {
+        "message": "Motor - 3"
+    },
+    "motorNumber4": {
+        "message": "Motor - 4"
+    },
+    "motorNumber5": {
+        "message": "Motor - 5"
+    },
+    "motorNumber6": {
+        "message": "Motor - 6"
+    },
+    "motorNumber7": {
+        "message": "Motor - 7"
+    },
+    "motorNumber8": {
+        "message": "Motor - 8"
+    },
+    "servosText": {
+        "message": "Servo motori"
+    },
+    "servoNumber1": {
+        "message": "Servo motor - 1"
+    },
+    "servoNumber2": {
+        "message": "Servo motor - 2"
+    },
+    "servoNumber3": {
+        "message": "Servo motor - 3"
+    },
+    "servoNumber4": {
+        "message": "Servo motor - 4"
+    },
+    "servoNumber5": {
+        "message": "Servo motor - 5"
+    },
+    "servoNumber6": {
+        "message": "Servo motor - 6"
+    },
+    "servoNumber7": {
+        "message": "Servo motor - 7"
+    },
+    "servoNumber8": {
+        "message": "Servo motor - 8"
+    },
+    "motorsSensorGyroSelect": {
+        "message": "žiro"
+    },
+    "motorsSensorAccelSelect": {
+        "message": "accel"
+    },
+    "motorsMaster": {
+        "message": "Master"
+    },
+    "sensorsRefresh": {
+        "message": "Osvježi:"
+    },
+    "sensorsScale": {
+        "message": "Skaliranje:"
+    },
+    "sensorsGyroSelect": {
+        "message": "Žiroskop"
+    },
+    "sensorsAccelSelect": {
+        "message": "Akcelerometar"
+    },
+    "sensorsMagSelect": {
+        "message": "Magnetometar"
+    },
+    "sensorsBaroSelect": {
+        "message": "Barometar"
+    },
+    "sensorsSonarSelect": {
+        "message": "Sonar"
+    },
+    "sensorsDebugSelect": {
+        "message": "Debugiranje"
+    },
+    "sensorsGyroTitle": {
+        "message": "Žiroskop - stupnjeva\/s"
+    },
+    "sensorsAccelTitle": {
+        "message": "Akcelerometar -g"
+    },
+    "sensorsMagTitle": {
+        "message": "Magnetometar - Ga"
+    },
+    "sensorsSonarTitle": {
+        "message": "Sonar - cm"
+    },
+    "sensorsDebugTitle": {
+        "message": "Debugiranje"
+    },
+    "cliSaveToFileBtn": {
+        "message": "Spremi u datoteku"
+    },
+    "cliCopyToClipboardBtn": {
+        "message": "Kopiraj u međuspremnik"
+    },
+    "cliCopySuccessful": {
+        "message": "Kopirano!"
+    },
+    "firmwareFlasherFullChipErase": {
+        "message": "Puno brisanje čipa"
+    },
+    "firmwareFlasherFullChipEraseDescription": {
+        "message": "Briše sve konfiguracijske podatke trenutno spremljene na kontroleru leta."
+    },
+    "firmwareFlasherFlashDevelopmentFirmware": {
+        "message": "Koristi firmware u razvoju"
+    },
+    "firmwareFlasherManualPort": {
+        "message": "Port"
+    },
+    "firmwareFlasherManualBaud": {
+        "message": "Ručno postavi baud rate"
+    },
+    "firmwareFlasherManualBaudDescription": {
+        "message": "Ručni odabir baud ratea za kontrolere leta koji ne podržavaju zadanu brzinu ili za ažuriranje preko bluetootha.<br \/><span class=\"message-negative\">Napomena:<\/span> Ne treba koristiti kod ažuriranja preko USB DFU načina"
+    },
+    "firmwareFlasherBaudRate": {
+        "message": "Baud Rate"
+    },
+    "firmwareFlasherShowDevelopmentReleases": {
+        "message": "Prikaži nestabilne verzije"
+    },
+    "firmwareFlasherShowDevelopmentReleasesDescription": {
+        "message": "Prikaži još i kandidate za idzanja uz stabilna izdanja"
+    },
+    "firmwareFlasherOptionLoading": {
+        "message": "Učitavanje ..."
+    },
     "firmwareFlasherOptionLabelBuildTypeRelease": {
         "message": "Stabilna izdanja"
     },
+    "firmwareFlasherOptionLabelBuildTypeReleaseCandidate": {
+        "message": "Stabilna izdanja i kandidati za izdanja"
+    },
+    "firmwareFlasherOptionLabelBuildTypeDevelopment": {
+        "message": "Razvoj"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_3": {
+        "message": "3.3 AKK & RDQ VTX Patch"
+    },
+    "firmwareFlasherOptionLabelBuildTypeAKK3_4": {
+        "message": "3.4 AKK & RDQ VTX Patch"
+    },
+    "firmwareFlasherOptionLabelSelectBoard": {
+        "message": "Odaberite kontroler leta"
+    },
+    "firmwareFlasherOptionLabelSelectFirmwareVersionFor": {
+        "message": "Odaberite verziju firmware za"
+    },
     "firmwareFlasherButtonLoadLocal": {
         "message": "Učitaj firmware [Local]"
+    },
+    "firmwareFlasherButtonLoadOnline": {
+        "message": "Učitaj firmware [Online]"
+    },
+    "firmwareFlasherButtonDownloading": {
+        "message": "Preuzimanje..."
+    },
+    "firmwareFlasherFlashFirmware": {
+        "message": "Nadogradi firmware"
+    },
+    "firmwareFlasherGithubInfoHead": {
+        "message": "GitHub informacije o firmwareu"
+    },
+    "firmwareFlasherCommiter": {
+        "message": "Committer:"
+    },
+    "firmwareFlasherDate": {
+        "message": "Datum:"
+    },
+    "firmwareFlasherHash": {
+        "message": "Hash:"
+    },
+    "firmwareFlasherUrl": {
+        "message": "Idite na GitHub za recenziju ovog commita..."
+    },
+    "firmwareFlasherMessage": {
+        "message": "Poruka:"
+    },
+    "firmwareFlasherWarningText": {
+        "message": "Molimo da <span class=\"message-negative\">ne<\/span> pokušavate ažurirati <strong>hardware koji nije namjenjen za Betaflight<\/strong> s ovim alatom za ažuriranje.<br \/> <span class=\"message-negative\">Nemojte <\/span><strong>odspajati<\/strong> kontroler ili <strong>gasiti<\/strong> računalo tijekom ažuriranja. <br \/><br \/><strong>Napomena: <\/strong>STM32 bootloader je smješten u ROM-u i ne može se uništiti.<br \/><strong>Napomena:<\/strong><span class=\"message-negative\">Automatsko povezivanje<\/span> je uvijek onemogućeno dok koristite alat za ažuriranje firmwarea.<br \/><strong>Napomena:<\/strong> Uvijek imajte backup jer postoji mogućnost gubitka cijele konfiguracije. <br \/><strong>Napomena:<\/strong> Ako imate problema pri ažuriranju pokušajte prije svega <strong>ponovno spojiti kabel s kontrolera leta<\/strong>, ponovno pokrenuti konfigurator, ažurirati Chrome i drivere. <br \/><strong>Napomena:<\/strong> Kada ažurirate kontrolere koji se direktno spajaju na USB priključak(većina novih kontrolera) obvezno pročitajte poglavlje 'USB Flashing' u Betaflight uputstvima"
+    },
+    "firmwareFlasherRecoveryHead": {
+        "message": "<strong>Oporavljanje \/ Izgubljena komunikacija<\/strong>"
+    },
+    "firmwareFlasherRecoveryText": {
+        "message": "Ako ste izgubili komunikaciju s pločom, pratite ove korake kako biste ponovno uspostavili komunikaciju <ul><li>Isključite sve<\/li><li>Omogučite 'Bez sekvence ponovnog pokretanja<\/li><li>Prespojite BOOT pinove ili držite BOOT tipku<\/li><li>Uključite (LED lampica aktivnosti ne bi trebala treptati).<\/li><li>Instalirajte sve STM32 drivere i Zadig ako je potrebno (pogledajte <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">'USB Flashing'<\/a> poglavlje u Betaflight uputstvima).<\/li><li>Zatvorite konfigurator, sve Chrome prozore, sve Chrome aplikacije i ponovno pokrenite konfigurator<\/li><li>Pustite BOOT tipku ako ju vaš FC ima.<\/li><li>Ažurirajte kontroler ispravnim firmwareom (koristeći ručno postavljen baud rate ako kontroler tako zahtjeva) <\/li><li>Isključite sve.<\/li><li>Uklonite BOOT prespojnicu<\/li><li>Uključite (LED lampica aktivnosti bi trebala treperiti).<\/li><li>Normalno se povežite.<\/li><\/ul>"
+    },
+    "firmwareFlasherButtonLeave": {
+        "message": "Napusti firmware flasher"
+    },
+    "firmwareFlasherFirmwareNotLoaded": {
+        "message": "Firmware nije učitan"
+    },
+    "firmwareFlasherFirmwareLocalLoaded": {
+        "message": "Učitan lokalni firmware: ($1 bajtova)"
+    },
+    "firmwareFlasherHexCorrupted": {
+        "message": "HEX datoteka je koruptirana"
+    },
+    "firmwareFlasherFailedToLoadOnlineFirmware": {
+        "message": "Učitavanje firmwarea nije uspjelo"
+    },
+    "ledStripButtonSave": {
+        "message": "Spremi"
+    },
+    "ledStripH": {
+        "message": "H",
+        "description": "Abbreviation of Hue in HSV (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripS": {
+        "message": "S",
+        "description": "Abbreviation of Saturation in HSV  (Hue, Saturation, Brightness) color model"
+    },
+    "ledStripV": {
+        "message": "V",
+        "description": "Abbreviation of Brightness in HSV  (Hue, Saturation, Brightness) color model"
+    },
+    "controlAxisAux1": {
+        "message": "AUX 1"
+    },
+    "controlAxisAux2": {
+        "message": "AUX 2"
+    },
+    "controlAxisAux3": {
+        "message": "AUX 3"
+    },
+    "controlAxisAux4": {
+        "message": "AUX 4"
+    },
+    "controlAxisAux5": {
+        "message": "AUX 5"
+    },
+    "controlAxisAux6": {
+        "message": "AUX 6"
+    },
+    "controlAxisAux7": {
+        "message": "AUX 7"
+    },
+    "controlAxisAux8": {
+        "message": "AUX 8"
+    },
+    "controlAxisAux9": {
+        "message": "AUX 9"
+    },
+    "controlAxisAux10": {
+        "message": "AUX 10"
+    },
+    "controlAxisAux11": {
+        "message": "AUX 11"
+    },
+    "controlAxisAux12": {
+        "message": "AUX 12"
+    },
+    "controlAxisAux13": {
+        "message": "AUX 13"
+    },
+    "controlAxisAux14": {
+        "message": "AUX 14"
+    },
+    "controlAxisAux15": {
+        "message": "AUX 15"
+    },
+    "controlAxisAux16": {
+        "message": "AUX 16"
+    },
+    "failsafeProcedureItemSelect1": {
+        "message": "Slijetanje"
+    },
+    "failsafeProcedureItemSelect2": {
+        "message": "Padni"
+    },
+    "failsafeProcedureItemSelect4": {
+        "message": "GPS Spašavanje"
+    },
+    "failsafeGpsRescueItemAngle": {
+        "message": "Kut"
+    },
+    "failsafeGpsRescueItemSanityChecksOff": {
+        "message": "Isključeno"
+    },
+    "failsafeGpsRescueItemSanityChecksOn": {
+        "message": "Uključeno"
+    },
+    "failsafeGpsRescueItemSanityChecksFSOnly": {
+        "message": "Samo failsafe"
+    },
+    "failsafeSwitchTitle": {
+        "message": "Failsafe prekidač"
+    },
+    "failsafeSwitchModeItem": {
+        "message": "Akcija failsafe prekidača"
+    },
+    "failsafeSwitchOptionStage1": {
+        "message": "Faza 1"
+    },
+    "failsafeSwitchOptionStage2": {
+        "message": "Faza 2"
+    },
+    "powerButtonSave": {
+        "message": "Spremi"
     }
 }
