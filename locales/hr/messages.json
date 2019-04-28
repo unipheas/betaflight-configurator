@@ -603,6 +603,33 @@
     "initialSetupGPSHead": {
         "message": "GPS"
     },
+    "initialSetupInstrumentsHead": {
+        "message": "Instrumenti"
+    },
+    "initialSetupButtonSave": {
+        "message": "Spremi"
+    },
+    "initialSetupModel": {
+        "message": "Model: $1"
+    },
+    "initialSetupAttitude": {
+        "message": "$1 deg"
+    },
+    "initialSetupAccelCalibStarted": {
+        "message": "Kalibracija akcelerometra pokrenuta"
+    },
+    "initialSetupMagCalibStarted": {
+        "message": "Kalibracija magnetometra pokrenuta"
+    },
+    "featureNone": {
+        "message": "&lt;Odaberi jednu&gt;"
+    },
+    "featureRX_PPM": {
+        "message": "PPM RX input"
+    },
+    "featureINFLIGHT_ACC_CAL": {
+        "message": "Kalibracija akcelerometra u letu"
+    },
     "featureRX_SERIAL": {
         "message": "Serijski prijemnik (SPEKSAT, SBUS, SUMD)"
     },
@@ -612,8 +639,20 @@
     "featureSERVO_TILT": {
         "message": "Servo gimbal"
     },
+    "featureSOFTSERIALTip": {
+        "message": "Konfigurairaj portove na kartici Portovi nakon omogućavanja."
+    },
+    "featureGPS": {
+        "message": "GPS za navigaciju i telemetriju"
+    },
     "featureSONAR": {
         "message": "Sonar"
+    },
+    "featureTELEMETRY": {
+        "message": "Izlaz za telemetriju"
+    },
+    "feature3D": {
+        "message": "3D način rada (korištenje uz reverzibilne ESCove)"
     },
     "featureRSSI_ADC": {
         "message": "Analogni ulaz za RSSI"
@@ -627,6 +666,30 @@
     "featureRX_SPI": {
         "message": "SPI RX podrška"
     },
+    "featureESC_SENSOR": {
+        "message": "Koristi KISS\/BLHeli_32 ESC telemetriju kao senzor"
+    },
+    "featureTRANSPONDER": {
+        "message": "Transponder utrke"
+    },
+    "featureSUPEREXPO_RATES": {
+        "message": "Super Expo Rateovi"
+    },
+    "featureSDCARD": {
+        "message": "Podrška za SD karticu(za zapisivanje)"
+    },
+    "featureOSD": {
+        "message": "Prikaz na zaslonu"
+    },
+    "featureVTX": {
+        "message": "Video odašiljač"
+    },
+    "featureFAILSAFE": {
+        "message": "Omogući failsafe fazu 2"
+    },
+    "featureFAILSAFEOld": {
+        "message": "Omogući failsafe"
+    },
     "configurationFeatureEnabled": {
         "message": "Omogućeno"
     },
@@ -635,6 +698,12 @@
     },
     "configurationFeatureDescription": {
         "message": "Opis"
+    },
+    "configurationMixer": {
+        "message": "Odabir modela"
+    },
+    "configurationFeatures": {
+        "message": "Ostale opcije"
     },
     "configurationReceiver": {
         "message": "Prijemnik"
@@ -648,8 +717,26 @@
     "configurationEscFeatures": {
         "message": "Značajke ESC-a\/Motora"
     },
+    "configurationFeaturesHelp": {
+        "message": "<strong>Napomena:<\/strong>Nisu sve kombinacije značajki ispravne. Kada to kontroler leta prepozna neke od značajki će se onemogućiti.<br \/><strong>Napomena:<\/strong> Konfigurirajte serijske portove <span class=\"message-negative\">prije<\/span> omogućavanja značajki koje će koristiti te portove."
+    },
+    "configurationBoardAlignment": {
+        "message": "Poravnanje ploče i senzora"
+    },
+    "configurationBoardAlignmentRoll": {
+        "message": "Roll Stupnjevi"
+    },
+    "configurationBoardAlignmentPitch": {
+        "message": "Pitch Stupnjevi"
+    },
+    "configurationBoardAlignmentYaw": {
+        "message": "Yaw Stupnjevi"
+    },
     "configurationSensorAlignmentGyro": {
         "message": "GYRO Poravnanje"
+    },
+    "configurationSensorGyroToUse": {
+        "message": "GYRO\/ACCEL"
     },
     "configurationSensorGyroToUseNotFound": {
         "message": "Upozorenje: Nema žiroskopa\/akcelerometra"
@@ -678,6 +765,9 @@
     "configurationSensorAlignmentDefaultOption": {
         "message": "Zadano"
     },
+    "configurationAccelTrims": {
+        "message": "Akcelerometar Trim"
+    },
     "configurationArming": {
         "message": "Arming"
     },
@@ -687,8 +777,68 @@
     "configurationReverseMotorSwitch": {
         "message": "Rotacija motora je obrnuta"
     },
+    "configurationAutoDisarmDelay": {
+        "message": "Disarmaj motore nakon zadane odgode od [seconds] (Zahtjeva MOTOR_STOP mogućnost)"
+    },
+    "configurationDisarmKillSwitch": {
+        "message": "Disarmaj motore neovisno o stanju gasa\/throttlea (Kada je ARM način rada konfiguriran preko AUX kanala)"
+    },
+    "configurationDigitalIdlePercent": {
+        "message": "Vrijednost gasa\/throttlea u praznom hodu [percent]"
+    },
+    "configurationThrottleMinimum": {
+        "message": "Minimalni gas\/throttle (Najniža vrijednost prema ESCu kada je letjelica armirana)"
+    },
+    "configurationThrottleMaximum": {
+        "message": "Maksimalni gas\/throttle (Najviša vrijednost prema ESCu kada je letjelica armirana)"
+    },
+    "configurationThrottleMinimumCommand": {
+        "message": "Minimalni 'Command' (Vrijedsnot prema ESCu kada je letjelica disarmana)"
+    },
     "configurationDshotBeaconTone": {
         "message": "Ton oznake"
+    },
+    "configurationDshotBeaconHelp": {
+        "message": "DShot beacon koristi ESCove i motore da proizvede zvuk. To znači da se DShot beacon ne može koristiti dok se motori vrte. U Betaflight verziji 3.4 i kasnijoj, kada se pokuša armirati dok je DShot beacon aktivan, postoji kašnjenje od 2 sekunde nakon posljednjeg zvuka prije nego što se letjelica armira. To služi tome da se spriječi ometanje arming procedure. <br\/><strong>Upozorenje:<\/strong>Budući da DShot beacon koristi motore da bi proizveo zvuk, postoji mogućnost od pregrijavanja i oštećenja samih motora ako je postavljena jačina beacona prevelika. Koristite BLHeli konfigurator ili BLHeli Suite kako biste postavili i testirali jačinu beacona."
+    },
+    "configurationBeeper": {
+        "message": "Konfiguracija beepera"
+    },
+    "beeperACC_CALIBRATION_FAIL": {
+        "message": "Kalibracija akcelerometra u letu neuspješna"
+    },
+    "configuration3d": {
+        "message": "Značajke 3D ESC-a\/Motora"
+    },
+    "configuration3dDeadbandLow": {
+        "message": "3D mrtva-zona niska"
+    },
+    "configuration3dDeadbandHigh": {
+        "message": "3D mrtva-zona gornja"
+    },
+    "configuration3dNeutral": {
+        "message": "3D Neutralno"
+    },
+    "configurationSystem": {
+        "message": "Konfiguracija sustava"
+    },
+    "configurationLoopTime": {
+        "message": "Vrijeme petlje kontrolera leta"
+    },
+    "configurationCalculatedCyclesSec": {
+        "message": "Ciklusa\/Sekundi [Hz]"
+    },
+    "configurationLoopTimeHelp": {
+        "message": "<strong>Napomena:<\/strong> Provjerite da vaš kontroler leta može raditi na odabranim brzinama! Provjerite CPU opterećenje i stabilnost vremena ciklusa. Mjenjanje ovih postavki će možda utjecati na postavke PID kontrolera. SAVJET: Onemogućite akcelerometa i ostale senzore koje ne koristite kako bi oslobodili procesor."
+    },
+    "configurationLoopTimeNo32KhzHelp": {
+        "message": "$t(configurationLoopTimeHelp.message)<br><strong>Napomena o korištenju 32kHz frekvencije uzorkovanja stanja žiroskopa<\/strong>Podrška za 32kHz je dodana u Betaflight kao eksperimentalna mogućnost. Dosad nikad nije dokazano da postoji prednost nad 8 kHz uzorkovanjem, zbog podložnosti vibracijama koje zahtjevaju agresivno filtriranje, stvarajući kašnjenja u kontrolnoj petlji. Stoga, <strong> podrška za 32kHz uzorkovanje je ukinuta<\/strong> u Betaflight verziji 4.0."
+    },
+    "configurationGPS": {
+        "message": "GPS"
+    },
+    "configurationGPSProtocol": {
+        "message": "Protokol"
     },
     "configurationGPSBaudrate": {
         "message": "Baudrate"
@@ -1139,6 +1289,54 @@
     "gpsLat": {
         "message": "Zemljopisna širina:"
     },
+    "gpsLon": {
+        "message": "Zemljopisna dužina:"
+    },
+    "gpsSpeed": {
+        "message": "Brzina:"
+    },
+    "gpsSats": {
+        "message": "Sateliti:"
+    },
+    "gpsDistToHome": {
+        "message": "Udaljenost od kuće:"
+    },
+    "gpsSignalStrHead": {
+        "message": "GPS jačina signala"
+    },
+    "gpsSignalStr": {
+        "message": "Jačina signala"
+    },
+    "gpsSignalSatId": {
+        "message": "Sat ID"
+    },
+    "gpsSignalQty": {
+        "message": "Kol"
+    },
+    "motorsVoltage": {
+        "message": "Napon:"
+    },
+    "motorsADrawing": {
+        "message": "Struja:"
+    },
+    "motorsmAhDrawn": {
+        "message": "Potrošeno:"
+    },
+    "motorsVoltageValue": {
+        "message": "$1 V"
+    },
+    "motorsADrawingValue": {
+        "message": "$1 A"
+    },
+    "motorsmAhDrawnValue": {
+        "message": "$1 mAh"
+    },
+    "motorsText": {
+        "message": "Motori"
+    },
+    "motorNumber1": {
+        "message": "Motor - 1"
+    },
     "motorNumber2": {
         "message": "Motor - 2"
     },
@@ -1187,6 +1385,9 @@
     "servoNumber8": {
         "message": "Servo motor - 8"
     },
+    "motorsResetMaximumButton": {
+        "message": "Reset"
+    },
     "motorsSensorGyroSelect": {
         "message": "žiro"
     },
@@ -1195,6 +1396,15 @@
     },
     "motorsMaster": {
         "message": "Master"
+    },
+    "motorsNotice": {
+        "message": "<strong>Napomena za test motora i arminga:<\/strong><br \/>Pomicanje klizača ili armiranje preko stanice će <strong>pokrenuti motore<\/strong>.<br \/>Kako bi se izbjegla ozljeda <strong class=\"message-negative\">uklonite SVE propelere<\/strong> prije korištenja ove mogućnosti.<br \/>Omogućavanje ovog načina rada za testiranje privremeno će onemogućiti zaštitu od nekontroliranog polijetanja.<br \/>"
+    },
+    "motorsEnableControl": {
+        "message": "<strong>Upoznat sam s rizicima<\/strong>, propeleri su uklonjeni - omogući testiranje motora i armiranje te onemogući zaštitu od nekontroliranog polijetanja."
+    },
+    "sensorsInfo": {
+        "message": "Imajte na umu da korištenje brzih vremena osvježavanja i prikazivanja više grafova u isto vrijeme je procesorski zahtjevno i možda će brže potrošiti bateriju laptopa ako ga koristite.<br \/>Preporučujemo da prikazujete samo grafove senzora koje vas zanimaju i korištenje razumnih vremena osvježavanja."
     },
     "sensorsRefresh": {
         "message": "Osvježi:"
@@ -1235,14 +1445,158 @@
     "sensorsDebugTitle": {
         "message": "Debugiranje"
     },
+    "cliEnter": {
+        "message": "CLI mod otkriven"
+    },
+    "cliReboot": {
+        "message": "CLI ponovno pokretanje otkriveno"
+    },
     "cliSaveToFileBtn": {
         "message": "Spremi u datoteku"
+    },
+    "cliClearOutputHistoryBtn": {
+        "message": "Obriši povijest izlaza"
     },
     "cliCopyToClipboardBtn": {
         "message": "Kopiraj u međuspremnik"
     },
     "cliCopySuccessful": {
         "message": "Kopirano!"
+    },
+    "loggingSamplesSaved": {
+        "message": "Spremljeni uzorci:"
+    },
+    "loggingLogSize": {
+        "message": "Veličina zapisnika:"
+    },
+    "loggingButtonLogFile": {
+        "message": "Odaberi datoteku zapisnika"
+    },
+    "loggingStart": {
+        "message": "Počni zapisivati"
+    },
+    "loggingStop": {
+        "message": "Prestani zapisivati"
+    },
+    "loggingErrorNotConnected": {
+        "message": "Potrebno se prije toga <strong>spojiti<\/strong>"
+    },
+    "loggingErrorLogFile": {
+        "message": "Molimo odaberite datoteku zapisa"
+    },
+    "loggingErrorOneProperty": {
+        "message": "Molimo odaberiti bar jednu vrijednost za bilježenje"
+    },
+    "blackboxConfiguration": {
+        "message": "Konfiguracija crne kutije"
+    },
+    "blackboxButtonSave": {
+        "message": "Spremi i ponovno pokreni"
+    },
+    "blackboxLoggingNone": {
+        "message": "Nema zapisivanja"
+    },
+    "blackboxLoggingFlash": {
+        "message": "Memorija na ploči"
+    },
+    "blackboxLoggingSdCard": {
+        "message": "SD kartica"
+    },
+    "blackboxLoggingSerial": {
+        "message": "Serijski port"
+    },
+    "serialLoggingSupportedNote": {
+        "message": "Možete zapisivati na vanjski uređaj zapisivanja (kao što je OpenLog ili kompatibilni klon) koristeći serijski port. Konfigurirajte port na kartici za portove."
+    },
+    "sdcardNote": {
+        "message": "Zapisi leta mogu se snimiti na SD karticu u slotu na kontroleru leta."
+    },
+    "dataflashUsedSpace": {
+        "message": "Iskorišteni prostor"
+    },
+    "dataflashFreeSpace": {
+        "message": "Slobodni prostor"
+    },
+    "dataflashUnavSpace": {
+        "message": "Nedostupni prostor"
+    },
+    "dataflashLogsSpace": {
+        "message": "Slobodani prostor za zapisnike"
+    },
+    "dataflashNote": {
+        "message": "Zapisi leta mogu se snimiti na memorijski čip na kontroleru leta."
+    },
+    "dataflashButtonErase": {
+        "message": "Obriši flash memoriju"
+    },
+    "dataflashConfirmEraseTitle": {
+        "message": "Potvrdi brisanje memorijskog čipa"
+    },
+    "dataflashSavingTitle": {
+        "message": "Spremanje memorije čipa u datoteku"
+    },
+    "dataflashSavingNote": {
+        "message": "Spremanje bi moglo potrajati nekoliko minuta, molimo pričekajte."
+    },
+    "dataflashSavingNoteAfter": {
+        "message": "Spremanje dovršeno! Pritisnite \"Ok\" za nastavak."
+    },
+    "dataflashButtonSaveCancel": {
+        "message": "Poništi"
+    },
+    "dataflashButtonSaveDismiss": {
+        "message": "Ok"
+    },
+    "dataflashButtonEraseConfirm": {
+        "message": "Da, obriši memoriju"
+    },
+    "dataflashButtonEraseCancel": {
+        "message": "Poništi"
+    },
+    "sdcardStatusNoCard": {
+        "message": "Kartica nije umetnuta"
+    },
+    "sdcardStatusReboot": {
+        "message": "Fatalna pogreška<br>Ponovno pokrenite da biste pokušali ponovno"
+    },
+    "sdcardStatusReady": {
+        "message": "Kartica spremna"
+    },
+    "sdcardStatusStarting": {
+        "message": "Kartica se pokreće..."
+    },
+    "sdcardStatusFileSystem": {
+        "message": "Uključivanje datotečnog sustava..."
+    },
+    "sdcardStatusUnknown": {
+        "message": "Nepoznato stanje $1"
+    },
+    "firmwareFlasherReleaseSummaryHead": {
+        "message": "Informacije o izdanju"
+    },
+    "firmwareFlasherReleaseName": {
+        "message": "Ime\/Verzija:"
+    },
+    "firmwareFlasherReleaseVersionUrl": {
+        "message": "Posjetite stranicu izdanja."
+    },
+    "firmwareFlasherReleaseNotes": {
+        "message": "Bilješke o izdanju:"
+    },
+    "firmwareFlasherReleaseDate": {
+        "message": "Datum:"
+    },
+    "firmwareFlasherReleaseStatus": {
+        "message": "Stanje:"
+    },
+    "firmwareFlasherReleaseTarget": {
+        "message": "Target:"
+    },
+    "firmwareFlasherReleaseFile": {
+        "message": "Binary:"
+    },
+    "firmwareFlasherReleaseFileUrl": {
+        "message": "Ručno preuzimanje."
     },
     "firmwareFlasherFullChipErase": {
         "message": "Puno brisanje čipa"
@@ -1364,6 +1718,185 @@
         "message": "V",
         "description": "Abbreviation of Brightness in HSV  (Hue, Saturation, Brightness) color model"
     },
+    "ledStripFunctionModesOption": {
+        "message": "Načini rada &amp; Orjentacija",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionArmOption": {
+        "message": "Stanje arminga",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionBatteryOption": {
+        "message": "Baterija",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionRSSIOption": {
+        "message": "RSSI",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionGPSOption": {
+        "message": "GPS",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripFunctionRingOption": {
+        "message": "Zvono",
+        "description": "One of the modes of the Led Strip"
+    },
+    "ledStripColorModifierTitle": {
+        "message": "Modifikator boje"
+    },
+    "ledStripModeColorsTitle": {
+        "message": "Boje modova"
+    },
+    "ledStripModeColorsModeOrientation": {
+        "message": "Orijentacija",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeHeadfree": {
+        "message": "Headfree",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeHorizon": {
+        "message": "Horizont",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAngle": {
+        "message": "Angle",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeMag": {
+        "message": "Mag",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBaro": {
+        "message": "Baro",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripDirN": {
+        "message": "N",
+        "description": "North direction in Color Mode in Led Strip"
+    },
+    "ledStripDirE": {
+        "message": "E",
+        "description": "East direction in Color Mode in Led Strip"
+    },
+    "ledStripDirS": {
+        "message": "S",
+        "description": "South direction in Color Mode in Led Strip"
+    },
+    "ledStripDirW": {
+        "message": "W",
+        "description": "West direction in Color Mode in Led Strip"
+    },
+    "ledStripDirU": {
+        "message": "U",
+        "description": "Up direction in Color Mode in Led Strip"
+    },
+    "ledStripDirD": {
+        "message": "D",
+        "description": "Down direction in Color Mode in Led Strip"
+    },
+    "ledStripModesSpecialColorsTitle": {
+        "message": "Posebne boje",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeDisarmed": {
+        "message": "Disarmiran",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeArmed": {
+        "message": "Armiran",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeAnimation": {
+        "message": "Animacija",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeBlinkBg": {
+        "message": "Treperi pozadinu",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoSats": {
+        "message": "GPS: nema satelita",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSNoLock": {
+        "message": "GPS: nema lociranja",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripModeColorsModeGPSLocked": {
+        "message": "GPS: lociran",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "ledStripWiring": {
+        "message": "Povezivanje LED trake",
+        "description": "One of the modes in Led Strip"
+    },
+    "ledStripWiringClearControl": {
+        "message": "Izbrišite odabrano",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripWiringClearAllControl": {
+        "message": "Obriši sva povezivanja",
+        "description": "Control button in the wiring modes in Led Strip"
+    },
+    "ledStripVtxFunction": {
+        "message": "Larson scanner"
+    },
+    "ledStripBlinkTitle": {
+        "message": "Treptaj"
+    },
+    "ledStripBlinkAlwaysOverlay": {
+        "message": "Uvjek treperi"
+    },
+    "ledStripBlinkLandingOverlay": {
+        "message": "Treperi pri sljetanju"
+    },
+    "ledStripOverlayTitle": {
+        "message": "Overlay"
+    },
+    "ledStripWarningsOverlay": {
+        "message": "Upozorenja"
+    },
+    "colorBlack": {
+        "message": "crno"
+    },
+    "colorWhite": {
+        "message": "bijelo"
+    },
+    "colorRed": {
+        "message": "crveno"
+    },
+    "colorOrange": {
+        "message": "narančasta"
+    },
+    "colorYellow": {
+        "message": "žuta"
+    },
+    "colorLimeGreen": {
+        "message": "lime zelena"
+    },
+    "colorGreen": {
+        "message": "zeleno"
+    },
+    "colorMintGreen": {
+        "message": "plavo zelena"
+    },
+    "colorCyan": {
+        "message": "cijan"
+    },
+    "colorLightBlue": {
+        "message": "svjetlo plava"
+    },
+    "colorBlue": {
+        "message": "plava"
+    },
+    "colorDarkViolet": {
+        "message": "tamno ljubičasta"
+    },
+    "colorMagenta": {
+        "message": "magenta"
+    },
     "controlAxisAux1": {
         "message": "AUX 1"
     },
@@ -1424,6 +1957,9 @@
     "failsafeGpsRescueItemAngle": {
         "message": "Kut"
     },
+    "failsafeGpsRescueItemSanityChecks": {
+        "message": "Provjere stanja sustava Gps spašavanja"
+    },
     "failsafeGpsRescueItemSanityChecksOff": {
         "message": "Isključeno"
     },
@@ -1445,7 +1981,325 @@
     "failsafeSwitchOptionStage2": {
         "message": "Faza 2"
     },
+    "failsafeSwitchOptionKill": {
+        "message": "Ubij"
+    },
     "powerButtonSave": {
         "message": "Spremi"
+    },
+    "powerBatteryVoltageMeterSource": {
+        "message": "Izvor mjerača napona"
+    },
+    "powerBatteryVoltageMeterTypeNone": {
+        "message": "Ništa"
+    },
+    "powerBatteryVoltageMeterTypeAdc": {
+        "message": "ADC na ploči"
+    },
+    "powerBatteryVoltageMeterTypeEsc": {
+        "message": "ESC Senzor"
+    },
+    "powerBatteryCurrentMeterSource": {
+        "message": "Izvor mjerača struje"
+    },
+    "powerBatteryCurrentMeterTypeNone": {
+        "message": "Ništa"
+    },
+    "powerBatteryCurrentMeterTypeAdc": {
+        "message": "ADC na ploči"
+    },
+    "powerBatteryCurrentMeterTypeVirtual": {
+        "message": "Virtualno"
+    },
+    "powerBatteryCurrentMeterTypeEsc": {
+        "message": "ESC Senzor"
+    },
+    "powerBatteryCurrentMeterTypeMsp": {
+        "message": "MSP seznor \/ OSD slave"
+    },
+    "powerBatteryMinimum": {
+        "message": "Minimalni napon čelije"
+    },
+    "powerBatteryMaximum": {
+        "message": "Maksimalni napon čelije"
+    },
+    "powerBatteryWarning": {
+        "message": "Upozorenje napona čelije"
+    },
+    "powerVoltageHead": {
+        "message": "Mjerač napona"
+    },
+    "powerVoltageValue": {
+        "message": "$1 V"
+    },
+    "powerAmperageValue": {
+        "message": "$1 V"
+    },
+    "powerVoltageId10": {
+        "message": "Baterija"
+    },
+    "powerVoltageId20": {
+        "message": "5V"
+    },
+    "powerVoltageId30": {
+        "message": "9V"
+    },
+    "powerVoltageId40": {
+        "message": "12V"
+    },
+    "powerVoltageId50": {
+        "message": "ESC Kombinirano"
+    },
+    "powerVoltageId60": {
+        "message": "ESC Motor 1"
+    },
+    "powerVoltageId61": {
+        "message": "ESC Motor 2"
+    },
+    "powerVoltageId62": {
+        "message": "ESC Motor 3"
+    },
+    "powerVoltageId63": {
+        "message": "ESC Motor 4"
+    },
+    "powerVoltageId64": {
+        "message": "ESC Motor 5"
+    },
+    "powerVoltageId65": {
+        "message": "ESC Motor 6"
+    },
+    "powerVoltageId66": {
+        "message": "ESC Motor 7"
+    },
+    "powerVoltageId67": {
+        "message": "ESC Motor 8"
+    },
+    "powerVoltageId68": {
+        "message": "ESC Motor 9"
+    },
+    "powerVoltageId69": {
+        "message": "ESC Motor 10"
+    },
+    "powerVoltageId70": {
+        "message": "ESC Motor 11"
+    },
+    "powerVoltageId71": {
+        "message": "ESC Motor 12"
+    },
+    "powerVoltageId80": {
+        "message": "Čelija 1"
+    },
+    "powerVoltageId81": {
+        "message": "Čelija 2"
+    },
+    "powerVoltageId82": {
+        "message": "Čelija 3"
+    },
+    "powerVoltageId83": {
+        "message": "Čelija 4"
+    },
+    "powerVoltageId84": {
+        "message": "Čelija 5"
+    },
+    "powerVoltageId85": {
+        "message": "Čelija 6"
+    },
+    "powerVoltageScale": {
+        "message": "Skaliranje"
+    },
+    "powerVoltageDivider": {
+        "message": "Vrijednost djelitelja"
+    },
+    "powerVoltageMultiplier": {
+        "message": "Vrijednost množitelja"
+    },
+    "powerAmperageHead": {
+        "message": "Mjerač Struje"
+    },
+    "powerAmperageId10": {
+        "message": "Baterija"
+    },
+    "powerAmperageId50": {
+        "message": "ESC Kombinirano"
+    },
+    "powerAmperageId60": {
+        "message": "ESC Motor 1"
+    },
+    "powerAmperageId61": {
+        "message": "ESC Motor 2"
+    },
+    "powerAmperageId62": {
+        "message": "ESC Motor 3"
+    },
+    "osdSetupUncheckAll": {
+        "message": "Odznači sve"
+    },
+    "osdSetupHead": {
+        "message": "Informacije"
+    },
+    "osdSetupVideoMode": {
+        "message": "Video mod"
+    },
+    "osdSetupCameraConnected": {
+        "message": "Kamera spojena"
+    },
+    "osdSetupCameraConnectedValueYes": {
+        "message": "Da"
+    },
+    "osdSetupCameraConnectedValueNo": {
+        "message": "Ne"
+    },
+    "osdSetupResetText": {
+        "message": "Vrati OSD na zadane postavke"
+    },
+    "osdSetupButtonReset": {
+        "message": "Resetiraj postavke"
+    },
+    "osdDescElementThrottlePosition": {
+        "message": "Trenutna vrijednost kanala gasa"
+    },
+    "osdDescElementDisarmed": {
+        "message": "Tekstualna poruka disarminga"
+    },
+    "osdDescElementArtificialHorizon": {
+        "message": "Indikator grafičkog umjetnog horizonta"
+    },
+    "osdDescElementMahDrawn": {
+        "message": "Ukupno potrošen kapacitet baterije"
+    },
+    "osdDescElementCraftName": {
+        "message": "Ime letjelice postavljeno u kartici Konfiguracija"
+    },
+    "osdDescElementFlyMode": {
+        "message": "Trenutni mod leta"
+    },
+    "osdDescElementGPSSpeed": {
+        "message": "GPS brzina"
+    },
+    "osdDescElementGPSSats": {
+        "message": "Broj satelita koji određuju GPS lokaciju"
+    },
+    "osdDescElementGPSLon": {
+        "message": "GPS dužina"
+    },
+    "osdDescElementGPSLat": {
+        "message": "GPS širina"
+    },
+    "osdDescElementDebug": {
+        "message": "Debug varijable"
+    },
+    "osdDescElementMainBattUsage": {
+        "message": "Grafička reprezentacija potrošenosti baterije"
+    },
+    "osdDescElementEscTemperature": {
+        "message": "Temperatura koju prijavljuje ESC telemetrija"
+    },
+    "osdDescElementEscRpm": {
+        "message": "RPM koji prijavljuje ESC telemetrija"
+    },
+    "osdDescElementEscRpmFreq": {
+        "message": "RPM frekvencija koju prijavljuje ESC telemetrija"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "Stvarno vrijeme \/ datum"
+    },
+    "osdDescElementHomeDirection": {
+        "message": "Strelica koja pokazuje lokaciju kuće"
+    },
+    "osdDescElementFlightDist": {
+        "message": "Udaljenost pređena tijekom ovog leta."
+    },
+    "osdDescElementCoreTemperature": {
+        "message": "Temperatura STM32 MCU jezgre"
+    },
+    "osdDescAntiGravity": {
+        "message": "Omogućuje indikator aktivacije Anti-Gravityja"
+    },
+    "osdDescGForce": {
+        "message": "Prikazuje G silu letjelice"
+    },
+    "osdDescElementMotorDiag": {
+        "message": "Prikazuje graf poslanih upravljačkih signala za svaki motor"
+    },
+    "osdDescStatMaxSpeed": {
+        "message": "Maksimalna zabilježena brzina"
+    },
+    "osdDescStatMinBattery": {
+        "message": "Minimalni zabilježeni napon baterije"
+    },
+    "osdDescStatMaxCurrent": {
+        "message": "Maksimalna zabilježena struja"
+    },
+    "osdDescStatUsedMah": {
+        "message": "Potrošen kapacitet baterije"
+    },
+    "osdDescStatBlackbox": {
+        "message": "Postotak iskorištenosti crne kutije"
+    },
+    "osdDescStatEndBattery": {
+        "message": "Napon baterije u trenutku disarminga"
+    },
+    "osdDescStatMaxDistance": {
+        "message": "Maksimalna udaljenost od lokacije kuće"
+    },
+    "osdDescStatBlackboxLogNumber": {
+        "message": "Broj zapisnika crne kutije za ovaj let"
+    },
+    "osdDescStatTimer1": {
+        "message": "Vrijednost Brojača 1 u vrijme disarminga"
+    },
+    "osdDescStatTimer2": {
+        "message": "Vrijednost Brojača 2 u vrijme disarminga"
+    },
+    "osdDescStatRtcDateTime": {
+        "message": "Datum i vrijeme stvarnog sata"
+    },
+    "osdDescStatBattery": {
+        "message": "Napon baterije u stvarnom vremenu"
+    },
+    "osdDescStatEscTemperature": {
+        "message": "Maksimalna temperatura ESC-a"
+    },
+    "osdDescStatEscRpm": {
+        "message": "Max ESC RPM"
+    },
+    "osdDescStatFlightDistance": {
+        "message": "Ukupna pređena udaljenost tijekom leta"
+    },
+    "osdDescStatMaxFFT": {
+        "message": "Vršna FFT frekvencija"
+    },
+    "osdDescStatTotalFlights": {
+        "message": "Ukupni broj letova"
+    },
+    "osdDescStatTotalFlightTime": {
+        "message": "Ukupno vrijeme u letu"
+    },
+    "osdDescStatTotalFlightDistance": {
+        "message": "Ukupna pređena udaljenost"
+    },
+    "osdTimerSource": {
+        "message": "Izvor:"
+    },
+    "dialogConfirmResetTitle": {
+        "message": "Potvrdi"
+    },
+    "dialogConfirmResetConfirm": {
+        "message": "Resetiranje"
+    },
+    "dialogConfirmResetClose": {
+        "message": "Poništi"
+    },
+    "modeCameraWifi": {
+        "message": "WI-FI TIPKA NA KAMERI"
+    },
+    "modeCameraPower": {
+        "message": "TIPKA ZA UKLJUČIVANJE NA KAMERI"
+    },
+    "modeCameraChangeMode": {
+        "message": "PROMJENA MODA KAMERE"
+    },
+    "flashTab": {
+        "message": "Ažuriranje firmwarea"
     }
 }
