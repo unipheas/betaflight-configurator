@@ -932,7 +932,7 @@
         "message": "Uključeno"
     },
     "failsafeGpsRescueItemSanityChecksFSOnly": {
-        "message": "Samo failsafe"
+        "message": "Samo u FAILSAFEU"
     },
     "failsafeSwitchTitle": {
         "message": "Failsafe prekidač"
