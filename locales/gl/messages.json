@@ -3483,7 +3483,7 @@
         "message": "O controlador de voo non responde aos comandos OSD. Isto probablemente significa que non ten un OSD integrado de BetaFlight."
     },
     "osdSetupUnsupportedNote2": {
-        "message": "Observa que algunhas placas controladoras teñen integrado un <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a> que pode ser flasheado e configurado con <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>, de calquera maneira o MinimOSD non pode ser configurado a través deste interfaz."
+        "message": "Observe que algunhas placas controladoras teñen integrado un <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a> que pode ser flasheado e configurado con <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>, de calquera maneira o MinimOSD non pode ser configurado a través deste interfaz."
     },
     "osdSetupProfilesTitle": {
         "message": "Número Perfil OSD",
@@ -3564,7 +3564,7 @@
         "message": "O tamaño debe ser $t(logoWidthPx)×$t(logoHeightPx) píxeles"
     },
     "osdSetupCustomLogoInfoColorMap": {
-        "message": "Debe contener píxeles verdes, brancos e negros"
+        "message": "Debe conter píxeles verdes, brancos e negros"
     },
     "osdSetupCustomLogoInfoUploadHint": {
         "message": "Pulse <b>$t(osdSetupUploadFont.message)<\/b> para conservar logo personalizado"
@@ -3984,7 +3984,7 @@
         "message": "Activar o modo de mostreo do xiro de 32kHz"
     },
     "configurationGyroUse32kHzHelp": {
-        "message": "A frecuencia de actualización do xiro de 32kHz só é posible si o chip da placa a soporta (actualmente MPU6500, MPU9259 e ICM20xxx si están conectados sobre SPI). Ante a duda, consulta a especificación da placa."
+        "message": "A frecuencia de actualización do xiro de 32kHz só é posible si o chip da placa a soporta (actualmente MPU6500, MPU9259 e ICM20xxx si están conectados sobre SPI). Ante a duda, consulte a especificación da placa."
     },
     "configurationAccHardware": {
         "message": "Acelerómetro"
@@ -4023,10 +4023,10 @@
         "message": "Escala do Voltaxe"
     },
     "configurationCurrentMeterType": {
-        "message": "Tipo de Medidor de Corriente"
+        "message": "Tipo de Medidor de Corrente"
     },
     "configurationCurrent": {
-        "message": "Sensor de Corriente"
+        "message": "Sensor de Corrente"
     },
     "configurationCurrentScale": {
         "message": "Escala o voltaxe da saída a miliamperios [1\/10 mV\/A]"
@@ -4041,13 +4041,13 @@
         "message": "Perfil"
     },
     "pidTuningProfileTip": {
-        "message": "Ata 3 (2 para algúns controladores) perfis diferentes poden ser almacenados no controlador de voo. O perfil de pid inclue pid, punto de axuste de d e os axustes de ángulo\/horizonte deste apartado. Unha vez no campo, pódense empregar simples comandos de palanca (mirar instruccións online) para cambiar entre perfis."
+        "message": "Ata 3 (2 para algúns controladores) perfís diferentes poden ser almacenados no controlador de voo. O perfil de pid inclue pid, punto de axuste de d e os axustes de ángulo\/horizonte deste apartado. Unha vez no campo, pódense empregar simples comandos de palanca (mirar instruccións online) para cambiar entre perfis."
     },
     "pidTuningRateProfile": {
         "message": "Perfil de Tasas"
     },
     "pidTuningRateProfileTip": {
-        "message": "Asta 3 Perfiles de Tasas diferentes por perfil poden ser almacenados no controlador de voo. Os perfis de tasas incluen axustes para 'Tasa RC', 'Tasa', 'Expo RC', 'Acelerador' e 'TPA'. Cambiar entre perfiles de tasas é posible en voo, configurando un interruptor de 3 posicións como 'Selección de Perfil de Tasas' no apartado de ' Axustes'."
+        "message": "Asta 3 Perfís de Tasas diferentes por perfil poden ser almacenados no controlador de voo. Os perfís de tasas incluen axustes para 'Tasa RC', 'Tasa', 'Expo RC', 'Acelerador' e 'TPA'. Cambiar entre perfís de tasas é posible en voo, configurando un interruptor de 3 posicións como 'Selección de Perfil de Tasas' no apartado de ' Axustes'."
     },
     "pidTuningDelta": {
         "message": "Método Derivativo"
