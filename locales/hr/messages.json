@@ -646,7 +646,7 @@
         "message": "Servo gimbal"
     },
     "featureSOFTSERIALTip": {
-        "message": "Konfigurairaj portove na kartici Portovi nakon omogućavanja."
+        "message": "Konfigurairaj software serijske portove na kartici Portovi nakon omogućavanja."
     },
     "featureGPS": {
         "message": "GPS za navigaciju i telemetriju"
