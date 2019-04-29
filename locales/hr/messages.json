@@ -1026,7 +1026,7 @@
         "message": "Maksimalni gas\/throttle (Najviša vrijednost prema ESCu kada je letjelica armirana)"
     },
     "configurationThrottleMinimumCommand": {
-        "message": "Minimalni 'Command' (Vrijedsnot prema ESCu kada je letjelica disarmana)"
+        "message": "Minimalni 'Command' (Vrijednost prema ESCu kada je letjelica disarmana)"
     },
     "configurationThrottleMinimumCommandHelp": {
         "message": "Ovo je vrijednost koja se šalje ESCovima kada je letjelica disarmirana. Postavite ovu vrijednost na onu koja zaustavlja motore (1000 za većinu ESCova)."
@@ -2039,7 +2039,7 @@
         "message": "Spremi u datoteku"
     },
     "cliClearOutputHistoryBtn": {
-        "message": "Obriši povijest izlaza"
+        "message": "Obriši povijest ispisa"
     },
     "cliCopyToClipboardBtn": {
         "message": "Kopiraj u međuspremnik"
