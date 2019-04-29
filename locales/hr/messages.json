@@ -238,14 +238,47 @@
     "serialPortClosedFail": {
         "message": "<span class=\"message-negative\">Neuspješno<\/span> zatvaranje serijskog porta"
     },
+    "serialUnrecoverable": {
+        "message": "Nepopravljiva <span class=\"message-negative\">pogreška<\/span> serijske veze, odspajanje..."
+    },
+    "usbDeviceOpened": {
+        "message": "USB uređaj<span class=\"message-positive\">uspješno<\/span> otvoren s ID: $1"
+    },
+    "usbDeviceOpenFail": {
+        "message": "<span class=\"message-negative\">Pogreška<\/span> otvaranja USB uređaja!"
+    },
+    "usbDeviceClosed": {
+        "message": "USB uređaj<span class=\"message-positive\">uspješno<\/span> zatvoren"
+    },
+    "usbDeviceCloseFail": {
+        "message": "<span class=\"message-negative\">Neuspješno<\/span> zatvaranje USB uređaja"
+    },
+    "usbDeviceUdevNotice": {
+        "message": "Jesu li<strong>udev pravila<\/strong> instalirana ispravno? Pogledajte dokumentaciju"
+    },
     "stm32UsbDfuNotFound": {
         "message": "USB DFU nije pronađen"
     },
     "stm32TimedOut": {
         "message": "STM32 - vrijeme isteklo, programiranje: NEUSPJEŠNO"
     },
+    "stm32WrongResponse": {
+        "message": "STM32 Komunikacija neuspješna, pogrešan odgovor, očekivao: $1 (0x$2) primio: $3 (0x$4)"
+    },
+    "stm32ContactingBootloader": {
+        "message": "Kontaktiranje bootloadera ..."
+    },
     "stm32ContactingBootloaderFailed": {
         "message": "Komunikacija s bootloaderom nije uspjela"
+    },
+    "stm32ResponseBootloaderFailed": {
+        "message": "Nema odgovora od bootloadera, programiranje: NEUSPJEŠNO"
+    },
+    "stm32GlobalEraseExtended": {
+        "message": "Izvršavanje globalnog brisanja čipa (kroz prošireno brisanje) ..."
+    },
+    "stm32LocalEraseExtended": {
+        "message": "Izvršavanje lokalnog brisanja čipa (kroz prošireno brisanje) ..."
     },
     "stm32GlobalErase": {
         "message": "Izvršavanje globalnog brisanja čipa ..."
@@ -268,6 +301,15 @@
     "stm32ProgrammingFailed": {
         "message": "Programiranje: NEUSPJEŠNO"
     },
+    "stm32AddressLoadFailed": {
+        "message": "Učitavanje adresa opcija byte sektora neuspješno. Vjerojatno zbog zaštite čitanja."
+    },
+    "stm32AddressLoadSuccess": {
+        "message": "Učitavanje adresa opcija byte sektora uspješno."
+    },
+    "stm32AddressLoadUnknown": {
+        "message": "Učitavanje adresa opcija byte sektora neuspješno s nepoznatom greškom. Prekidanje."
+    },
     "stm32NotReadProtected": {
         "message": "Zaštita čitanja nije aktivna"
     },
@@ -289,6 +331,12 @@
     "noConfigurationReceived": {
         "message": "Nema komunikacije u posljednjih <span class=\"message-negative\">10 sekundi<\/span>, komunikacija<span class=\"message-negative\">neuspješna<\/span>"
     },
+    "firmwareVersionNotSupported": {
+        "message": "Ova verzija firmwarea <span class=\"message-negative\">nije podržana<\/span>. Molimo ažurirajte firmware na onaj koji podržava API verziju <strong>$1<\/strong> ili kasniju. Koristite CLI za stvaranje sigurnosne kopije prije ažuriranja. CLI procedura za sigurnosnu kopiju je u dokumentaciji. <br \/>U suprotnom, preuzmite i koristite stariju verziju konfiguratora ako niste spremni na ažuriranje firmwarea."
+    },
+    "firmwareUpgradeRequired": {
+        "message": "Firmware na ovom uređaju potrebno je ažurirati na noviju verziju. Koristite CLI za stvaranje sigurnosne kopije prije ažuriranja. CLI procedura za sigurnosnu kopiju je u dokumentaciji. <br \/>U suprotnom, preuzmite i koristite stariju verziju konfiguratora ako niste spremni za ažuriranje firmwarea."
+    },
     "infoVersions": {
         "message": "Koristi se - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Konfigurator: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
@@ -307,6 +355,18 @@
     },
     "releaseCheckNoInfo": {
         "message": "Nema informacija o izdanju za $1."
+    },
+    "tabSwitchConnectionRequired": {
+        "message": "Morate se <strong>spojiti<\/strong>prije nego što možete vidjeti bilo koju od kartica."
+    },
+    "tabSwitchWaitForOperation": {
+        "message": "<span class=\"message-negative\">Ne možete<\/span> to učiniti sada, molimo pričekajte da se trenutna operacija završi ..."
+    },
+    "tabSwitchUpgradeRequired": {
+        "message": "Morate <strong>ažurirati<\/strong> firmware na posljednju verziju Betaflighta prije nego što možete koristiti $1 tab."
+    },
+    "firmwareVersion": {
+        "message": "Firmware Verzija: <strong>$1<\/strong>"
     },
     "apiVersionReceived": {
         "message": "MultiWii API verzija: <strong>$1<\/strong>"
@@ -373,6 +433,18 @@
     },
     "statusbar_cpu_load": {
         "message": "CPU opterećenje: $1%"
+    },
+    "dfu_connect_message": {
+        "message": "Molimo koristite alat za ažuriranje firmware kako biste pristupili uređajima u DFU načinu rada"
+    },
+    "dfu_erased_kilobytes": {
+        "message": "Brisanje $1 kB memorije<span class=\"message-positive\">uspješno<\/span>"
+    },
+    "dfu_device_flash_info": {
+        "message": "Otkriven uređaj s kapacitetom memorije od $1 KiB"
+    },
+    "dfu_error_image_size": {
+        "message": "<span class=\"message-negative\">Greška:<\/span> Ova slika zauzima više memorije nego što je dostupno na memorijskom čipu! Slika: $1 Kib, limit = $2 KiB"
     },
     "eeprom_saved_ok": {
         "message": "EEPROM <span class=\"message-positive\">spremljen<\/span>"
@@ -461,6 +533,9 @@
     "defaultSupport5": {
         "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Betaflight developeri na Slack platformi<\/a>"
     },
+    "initialSetupBackupAndRestoreApiVersion": {
+        "message": "<span class=\"message-negative\">Izrada i korištenje sigurnosnih kopija onemogućeno.<\/span> Koristite firmware s API verzijom <span class=\"message-negative\">$1<\/span>, sigurnosne kopije zahtijevaju <span class=\"message-positive\">$2<\/span>.  Molimo napravite sigurnosne kopije postavki kroz CLI sučelje, pogledajte Betaflight dokumentaciju za proceduru."
+    },
     "initialSetupButtonCalibrateAccel": {
         "message": "Kalibracija akcelerometra"
     },
@@ -496,6 +571,12 @@
     },
     "initialSetupRebootBootloaderText": {
         "message": "Ponovno pokreni u <strong> boot loader \/ DFU <\/strong> načinu rada."
+    },
+    "initialSetupBackupSuccess": {
+        "message": "Sigurnosna kopija spremljena <span class=\"message-positive\">uspješno<\/span>"
+    },
+    "initialSetupRestoreSuccess": {
+        "message": "Sigurnosna kopija učitana <span class=\"message-positive\">uspješno<\/span>"
     },
     "initialSetupButtonResetZaxis": {
         "message": "Resetiraj Z os, pomak: 0 stupnjeva"
@@ -581,6 +662,9 @@
     "initialSetupArmingAllowed": {
         "message": "Arming dozvoljen"
     },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "Popis zastavica koje pokazuju zašto arming trenutno nije dozvoljen. Pređite mišem preko zastavice ili posjetiti poglavlje 'Arming Sequence & Safety' u Betaflight Wikiju za više informacija."
+    },
     "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
         "message": "Žiroskop nije pronađen",
         "description": "Description of the NO GYRO arming disable flag"
@@ -589,6 +673,26 @@
         "message": "Failsafe je aktivan",
         "description": "Description of the FAILSAFE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
+        "message": "Nema ispravnog signala prijemnika",
+        "description": "Description of the RX_FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBAD_RX_RECOVERY": {
+        "message": "Prijemnik se upravo oporavio od failsafea ali je arming prekidač aktivan",
+        "description": "Description of the BAD_RX_RECOVERY arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
+        "message": "FAILSAFE prekidač je aktiviran",
+        "description": "Description of the BOXFAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
+        "message": "Zaštita od nekontroliranog polijetanja je bila aktivirana",
+        "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
+        "message": "Kanal gasa\/throttlea je previsok",
+        "description": "Description of the THROTTLE arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipANGLE": {
         "message": "Letjelica nije dovoljno ravna",
         "description": "Description of the ANGLE arming disable flag"
@@ -596,6 +700,10 @@
     "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
         "message": "Arming prebrzo nakon uključivanja",
         "description": "Description of the BOOT_GRACE_TIME arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipNOPREARM": {
+        "message": "PREARM prekidač nije aktiviran ili se nije resetirao nakon disarma",
+        "description": "Description of the NOPREARM arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipLOAD": {
         "message": "Opterećenje sustava je previsoko za siguran let",
@@ -609,17 +717,37 @@
         "message": "CLI je aktivan",
         "description": "Description of the CLI arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
+        "message": "CMS (konfiguracijski meni) je Aktivan - preko OSD-a ili drugog zaslona -",
+        "description": "Description of the CMS_MENU arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
         "message": "OSD meni je aktivan",
         "description": "Description of the OSD_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBST": {
+        "message": "Uređaj za Black Sheep telemetriju je disarman i preventira armiranje",
+        "description": "Description of the BST arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipMSP": {
+        "message": "MSP veza je aktivna, vjerojatno s ovim Betaflight Konfiguratorom",
+        "description": "Description of the MSP arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
         "message": "Način rada 'Paraliziraj' je aktiviran",
         "description": "Description of the PARALYZE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipGPS": {
+        "message": "GPS spašavanje je konfigurirano, ali zadani broj satelita nije pronađen",
+        "description": "Description of the GPS arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipRESC": {
         "message": "Prekidač za GPS spašavanje je aktiviran",
         "description": "Description of the RESC arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
+        "message": "Jedna od drugih disarm zastavica je aktivna kod arminga",
+        "description": "Description of the ARM_SWITCH arming disable flag"
     },
     "initialSetupGPSHead": {
         "message": "GPS"
@@ -639,14 +767,29 @@
     "initialSetupAccelCalibStarted": {
         "message": "Kalibracija akcelerometra pokrenuta"
     },
+    "initialSetupAccelCalibEnded": {
+        "message": "Kalibracija akcelerometra <span class=\"message-positive\">završena<\/span>"
+    },
     "initialSetupMagCalibStarted": {
         "message": "Kalibracija magnetometra pokrenuta"
+    },
+    "initialSetupMagCalibEnded": {
+        "message": "Kalibracija magnetometra <span class=\"message-positive\">završena<\/span>"
+    },
+    "initialSetupSettingsRestored": {
+        "message": "Postavke vraćene na <strong>zadane<\/strong>"
+    },
+    "initialSetupEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">spremljen<\/span>"
     },
     "featureNone": {
         "message": "&lt;Odaberi jednu&gt;"
     },
     "featureRX_PPM": {
         "message": "PPM RX input"
+    },
+    "featureVBAT": {
+        "message": "Praćenja napona baterije"
     },
     "featureINFLIGHT_ACC_CAL": {
         "message": "Kalibracija akcelerometra u letu"
@@ -678,6 +821,9 @@
     "featureTELEMETRY": {
         "message": "Izlaz za telemetriju"
     },
+    "featureCURRENT_METER": {
+        "message": "Praćenja struje baterije"
+    },
     "feature3D": {
         "message": "3D način rada (korištenje uz reverzibilne ESCove)"
     },
@@ -701,6 +847,12 @@
     },
     "featureONESHOT125": {
         "message": "ONESHOT ESC podrška"
+    },
+    "featureONESHOT125Tip": {
+        "message": "Odspojite bateriju i maknite sve propelere prije omogućavanja."
+    },
+    "featureBLACKBOX": {
+        "message": "Snimač podataka o letu crne kutije"
     },
     "featureRX_SPI": {
         "message": "SPI RX podrška"
@@ -1481,8 +1633,23 @@
     "adjustmentsFunction0": {
         "message": "Bez promjena"
     },
+    "adjustmentsFunction3": {
+        "message": "Throttle Expo prilagodba"
+    },
+    "adjustmentsFunction4": {
+        "message": "Pitch & Roll Rate prilagodba"
+    },
     "adjustmentsFunction5": {
         "message": "Yaw Rate prilagodba"
+    },
+    "adjustmentsFunction6": {
+        "message": "Pitch & Roll P prilagodba"
+    },
+    "adjustmentsFunction7": {
+        "message": "Pitch & Roll I prilagodba"
+    },
+    "adjustmentsFunction8": {
+        "message": "Pitch & Roll D prilagodba"
     },
     "adjustmentsFunction9": {
         "message": "Yaw P prilagodba"
@@ -1502,6 +1669,15 @@
     "adjustmentsFunction14": {
         "message": "Roll Rate"
     },
+    "adjustmentsFunction15": {
+        "message": "Pitch P prilagodba"
+    },
+    "adjustmentsFunction16": {
+        "message": "Pitch I prilagodba"
+    },
+    "adjustmentsFunction17": {
+        "message": "Pitch D prilagodba"
+    },
     "adjustmentsFunction18": {
         "message": "Roll P prilagodba"
     },
@@ -1517,8 +1693,23 @@
     "adjustmentsFunction22": {
         "message": "D Setpoint"
     },
+    "adjustmentsFunction22_2": {
+        "message": "Pitch & Roll F prilagodba"
+    },
+    "adjustmentsFunction23": {
+        "message": "D Setpoint prijelaz"
+    },
+    "adjustmentsFunction23_2": {
+        "message": "Feedforward tranzicija"
+    },
     "adjustmentsFunction24": {
         "message": "Podešavanje Horizon snage"
+    },
+    "adjustmentsFunction25": {
+        "message": "PID-Audio selekcija"
+    },
+    "adjustmentsFunction26": {
+        "message": "Pitch F prilagodba"
     },
     "adjustmentsFunction27": {
         "message": "Roll F prilagodba"
@@ -1535,6 +1726,15 @@
     "adjustmentsSave": {
         "message": "Spremi"
     },
+    "adjustmentsEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">spremljen<\/span>"
+    },
+    "transponderNotSupported": {
+        "message": "Firmware kontorlera leta ne podržava funkciju transpondera."
+    },
+    "transponderInformation": {
+        "message": "Sustavi transpondera omogućuju da organizatori utrka prate vremena vaših krugova. Transponder je postavljen na letjelicu i kada letjelica prođe kroz vrata za praćenje vremena, prijemnik na stazi registrira vaš kod i zapisuje vrijeme kruga. Kada postavljate transponder koji radi na IR principu bitno je da gleda od letjelice prema vani, odnosno prijemniku na stazi i da svjetlosna zraka nije sakrivena kabelima, okvirom, propelerima, itd."
+    },
     "transponderConfigurationType": {
         "message": "Vrsta transpondera"
     },
@@ -1550,8 +1750,14 @@
     "transponderType3": {
         "message": "ERLT"
     },
+    "transponderConfiguration1": {
+        "message": "Konfiguracijski iLap"
+    },
     "transponderConfiguration2": {
         "message": "Konfiguracija aRCiTimera"
+    },
+    "transponderConfiguration3": {
+        "message": "Konfiguracija ERLT"
     },
     "transponderData1": {
         "message": "Podaci"
@@ -1565,14 +1771,35 @@
     "transponderDataHelp1": {
         "message": "Samo heksadekadske znamenke, 0-9, A-F"
     },
+    "transponderHelp1": {
+        "message": "Ovdje konfigurirajte kod transpondera. Napomena: Samo ispravni kodovi će biti prepoznati u sustavu praćenja vremena. Ispravne kodove možete pronaći na <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a>."
+    },
+    "transponderHelp2": {
+        "message": "Za više informacija posjetite stranicu <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer<\/a>"
+    },
     "transponderDataHelp3": {
         "message": "Odaberi ERLT ID 0-63"
+    },
+    "transponderHelp3": {
+        "message": "Za više informacija posjetite stranicu <a href=\"https:\/\/github.com\/polyvision\/EasyRaceLapTimer\" title=\"aRCiTimer\" target=\"_blank\">EasyRaceLapTimer<\/a>"
     },
     "transponderButtonSave": {
         "message": "Spremi"
     },
     "transponderButtonSaveReboot": {
         "message": "Spremi i ponovno pokreni"
+    },
+    "transponderDataInvalid": {
+        "message": "Podaci transpondera su <span class=\"message-negative\">neispravni<\/span>"
+    },
+    "transponderEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">spremljen<\/span>"
+    },
+    "servosFirmwareUpgradeRequired": {
+        "message": "Servo motori zahtijevaju firmware &gt;= 1.10.0. i 'target' podršku."
+    },
+    "servosChangeDirection": {
+        "message": "Promjena smjera u TX-u"
     },
     "servosName": {
         "message": "Ime"
@@ -1592,6 +1819,9 @@
     "servosAngleAtMax": {
         "message": "Kut na max"
     },
+    "servosDirectionAndRate": {
+        "message": "Smjer i rate"
+    },
     "servosLiveMode": {
         "message": "Omogući mod za uživo"
     },
@@ -1603,6 +1833,9 @@
     },
     "servosReverse": {
         "message": "Obrnuto"
+    },
+    "servosEepromSave": {
+        "message": "EEPROM <span class=\"message-positive\">spremljen<\/span>"
     },
     "gpsHead": {
         "message": "GPS"
@@ -1621,6 +1854,9 @@
     },
     "gpsFixTrue": {
         "message": "<span class=\"fixtrue\">Istina<\/span>"
+    },
+    "gpsFixFalse": {
+        "message": "<span class=\"fixfalse\">Laž<\/span>"
     },
     "gpsAltitude": {
         "message": "Visina:"
@@ -1778,11 +2014,20 @@
     "sensorsMagTitle": {
         "message": "Magnetometar - Ga"
     },
+    "sensorsBaroTitle": {
+        "message": "Barometar - metri"
+    },
     "sensorsSonarTitle": {
         "message": "Sonar - cm"
     },
     "sensorsDebugTitle": {
         "message": "Debugiranje"
+    },
+    "cliInputPlaceholder": {
+        "message": "Upišite komandu ovdje. Pritisnite Tab za samodovršavanje."
+    },
+    "cliInputPlaceholderBuilding": {
+        "message": "Molimo pričekajte dok se stvori 'cache' samodovršavanja..."
     },
     "cliEnter": {
         "message": "CLI mod otkriven"
@@ -1864,6 +2109,9 @@
     },
     "dataflashNote": {
         "message": "Zapisi leta mogu se snimiti na memorijski čip na kontroleru leta."
+    },
+    "dataflashButtonSaveFile": {
+        "message": "Spremanje memorije čipa u datoteku..."
     },
     "dataflashButtonErase": {
         "message": "Obriši flash memoriju"
@@ -2018,8 +2266,14 @@
     "firmwareFlasherOptionLabelBuildTypeAKK3_4": {
         "message": "3.4 AKK & RDQ VTX Patch"
     },
+    "firmwareFlasherOptionLabelSelectFirmware": {
+        "message": "Odaberite firmware"
+    },
     "firmwareFlasherOptionLabelSelectBoard": {
         "message": "Odaberite kontroler leta"
+    },
+    "firmwareFlasherOptionLabelSelectFirmwareVersion": {
+        "message": "Odaberite verziju firmwarea"
     },
     "firmwareFlasherOptionLabelSelectFirmwareVersionFor": {
         "message": "Odaberite verziju firmware za"
@@ -2992,17 +3246,35 @@
     "osdDescElementThrottlePosition": {
         "message": "Trenutna vrijednost kanala gasa"
     },
+    "osdDescElementArmed": {
+        "message": "Tekstualna poruka arminga"
+    },
     "osdDescElementDisarmed": {
         "message": "Tekstualna poruka disarminga"
     },
     "osdDescElementArtificialHorizon": {
         "message": "Indikator grafičkog umjetnog horizonta"
     },
+    "osdDescElementCurrentDraw": {
+        "message": "Trenutačna struja baterije"
+    },
     "osdDescElementMahDrawn": {
         "message": "Ukupno potrošen kapacitet baterije"
     },
     "osdDescElementCraftName": {
         "message": "Ime letjelice postavljeno u kartici Konfiguracija"
+    },
+    "osdDescElementDisplayName": {
+        "message": "Prikaži naziv koji je postavljen u CLI komandi \"display_name\""
+    },
+    "osdDescElementAltitude": {
+        "message": "Trenutna visina (treperi kad je iznad praga alarma)"
+    },
+    "osdDescElementOnTime": {
+        "message": "Ukupno vrijeme koje je letjelica uključena"
+    },
+    "osdDescElementFlyTime": {
+        "message": "Ukupno vrijeme koje je letjelica armana u trenutnom ciklusu (treperi kad je iznad praga alarma)"
     },
     "osdDescElementFlyMode": {
         "message": "Trenutni mod leta"
@@ -3022,8 +3294,41 @@
     "osdDescElementDebug": {
         "message": "Debug varijable"
     },
+    "osdDescElementPIDRoll": {
+        "message": "Roll os PID gainovi"
+    },
+    "osdDescElementPIDPitch": {
+        "message": "Pitch os PID gainovi"
+    },
+    "osdDescElementPIDYaw": {
+        "message": "Yaw os PID gainovi"
+    },
+    "osdDescElementPower": {
+        "message": "Trenutačna potrošnja električne energije"
+    },
+    "osdDescElementPIDRateProfile": {
+        "message": "Numerički prikaz aktivnog PID i rate profila"
+    },
+    "osdDescElementBatteryWarning": {
+        "message": "Tekst upozorenja koji se pojavljuje kad napon baterije padne ispon praga upozorenja"
+    },
+    "osdDescElementAvgCellVoltage": {
+        "message": "Prosječni napon čelija (napon baterije\/ broj čelija)"
+    },
+    "osdDescElementPitchAngle": {
+        "message": "Brojčani kut pitcha u stupnjevima"
+    },
+    "osdDescElementRollAngle": {
+        "message": "Brojčani kut roll-a u stupnjevima"
+    },
     "osdDescElementMainBattUsage": {
         "message": "Grafička reprezentacija potrošenosti baterije"
+    },
+    "osdDescElementArmedTime": {
+        "message": "Vrijeme otkada je letjelica armana"
+    },
+    "osdDescElementWarnings": {
+        "message": "Obavijesti (npr. prazna baterija), upozorenja(npr. razlozi nemogućnosti arminga, kritična baterija) i visualni beeper (4 trepteće zvjezdice)."
     },
     "osdDescElementEscTemperature": {
         "message": "Temperatura koju prijavljuje ESC telemetrija"
@@ -3037,11 +3342,50 @@
     "osdDescElementRtcDateTime": {
         "message": "Stvarno vrijeme \/ datum"
     },
+    "osdDescElementAdjustmentRange": {
+        "message": "Trenutno aktivni raspon prilagodba postavki i vrijednosti"
+    },
     "osdDescElementHomeDirection": {
         "message": "Strelica koja pokazuje lokaciju kuće"
     },
+    "osdDescElementHomeDistance": {
+        "message": "Udaljenost od pozicije kuće (u stopama ili metrima ovisno o postavci mjernih jedinica)"
+    },
+    "osdDescElementNumericalHeading": {
+        "message": "Brojčani ispis trenutnog smjera u stupnjevima"
+    },
+    "osdDescElementNumericalVario": {
+        "message": "Brojčani ispis vertikalne brzine (u stopama ili metrima ovisno o postavci mjernih jedinica)"
+    },
+    "osdDescElementCompassBar": {
+        "message": "Grafička traka kompasa koja prikazuje trenutačni smjer"
+    },
+    "osdDescElementFlipArrow": {
+        "message": "Strelica koja pokazuje koji motori su u 'turtle' načinu rada"
+    },
+    "osdDescElementLinkQuality": {
+        "message": "Alternativni indikator za kvalitetu veze baziran na gubitku paketa - koristite s oprezom"
+    },
     "osdDescElementFlightDist": {
         "message": "Udaljenost pređena tijekom ovog leta."
+    },
+    "osdDescElementStickOverlayLeft": {
+        "message": "Overlay za poziciju lijeve palice stanice\/transmittera."
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "Overlay za poziciju desne palice stanice\/transmittera."
+    },
+    "osdDescElementTimer1": {
+        "message": "Prikazuje vrijednost tajmera 1"
+    },
+    "osdDescElementTimer2": {
+        "message": "Prikazuje vrijednost tajmera 2"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Očekivano preostalo vrijeme leta"
+    },
+    "osdDescElementUnknown": {
+        "message": "Nepoznati element (detalji će biti dodani u budućim verzijama)"
     },
     "osdDescElementCoreTemperature": {
         "message": "Temperatura STM32 MCU jezgre"
@@ -3055,11 +3399,17 @@
     "osdDescElementMotorDiag": {
         "message": "Prikazuje graf poslanih upravljačkih signala za svaki motor"
     },
+    "osdDescElementLogStatus": {
+        "message": "Broj crne kutije i upozorenja"
+    },
     "osdDescStatMaxSpeed": {
         "message": "Maksimalna zabilježena brzina"
     },
     "osdDescStatMinBattery": {
         "message": "Minimalni zabilježeni napon baterije"
+    },
+    "osdDescStatMinRssi": {
+        "message": "Minimalni zabilježeni RSSI"
     },
     "osdDescStatMaxCurrent": {
         "message": "Maksimalna zabilježena struja"
@@ -3067,11 +3417,20 @@
     "osdDescStatUsedMah": {
         "message": "Potrošen kapacitet baterije"
     },
+    "osdDescStatMaxAltitude": {
+        "message": "Maksimalna zabilježena visina"
+    },
     "osdDescStatBlackbox": {
         "message": "Postotak iskorištenosti crne kutije"
     },
     "osdDescStatEndBattery": {
         "message": "Napon baterije u trenutku disarminga"
+    },
+    "osdDescStatFlyTime": {
+        "message": "Ukupno vrijeme koje je letjelica bila armirana od uključivanja"
+    },
+    "osdDescStatArmedTime": {
+        "message": "Vrijeme otkada je letjelica armana"
     },
     "osdDescStatMaxDistance": {
         "message": "Maksimalna udaljenost od lokacije kuće"
@@ -3090,6 +3449,9 @@
     },
     "osdDescStatBattery": {
         "message": "Napon baterije u stvarnom vremenu"
+    },
+    "osdDescStatGForce": {
+        "message": "Max G-Sila letjelice"
     },
     "osdDescStatEscTemperature": {
         "message": "Maksimalna temperatura ESC-a"
@@ -3124,11 +3486,17 @@
     "osdWarningArmingDisabled": {
         "message": "Prijavljuje najvažniji razlog kod nemogućnosti armiranja"
     },
+    "osdWarningBatteryNotFull": {
+        "message": "Upozorava kada je spojena baterija koja nije posve napunjena"
+    },
     "osdWarningFailsafe": {
         "message": "Upozorava kad se dogodi failsafe"
     },
     "osdWarningGpsRescueDisabled": {
         "message": "Upozorava kad je GPS spašavanje onemogućeno"
+    },
+    "osdWarningRSSI": {
+        "message": "Upozori kad je RSSI ispod praga za alarm"
     },
     "osdWarningLinkQuality": {
         "message": "Upozori kad je kvaliteta veze ispod postavljene razine za alarm"
@@ -3138,6 +3506,21 @@
     },
     "osdSectionHelpUnits": {
         "message": "Postavlja sustav jedinica korišten pri brojčanom ispisu."
+    },
+    "osdSectionHelpTimers": {
+        "message": "Konfiguracija tajmera leta."
+    },
+    "osdSectionHelpStats": {
+        "message": "Postavi vrijednosti prikazane na prikazu statistike poslije leta."
+    },
+    "osdSectionHelpWarnings": {
+        "message": "Omogući ili onemogući upozorenja koja su prikazana u elementu UPOZORENJA."
+    },
+    "osdSettingsSaved": {
+        "message": "OSD postavke spremljene"
+    },
+    "osdWritePermissions": {
+        "message": "Nemate <span class=\"message-negative\">privilegije za pisanje<\/span> u ovu datoteku"
     },
     "osdButtonSaved": {
         "message": "Spremljeno"
@@ -3174,6 +3557,9 @@
     },
     "configurationGyroUse32kHz": {
         "message": "Omogući 32kHz uzorkovanje stanja žiroskopa"
+    },
+    "configurationGyroUse32kHzHelp": {
+        "message": "32 kHz frekfencja ažuriranja stanja žiroskopa je samo moguća ako je čip žiroskopa podržava (trenutno MPU6500, MPU9250 i ICM20xxx spojeni preko SPIa) Ako niste sigurni, pogledajte specifikacije kontrolera leta."
     },
     "configurationAccHardware": {
         "message": "Akcelerometar"
@@ -3235,6 +3621,9 @@
     "pidTuningRateProfile": {
         "message": "Rateprofil"
     },
+    "pidTuningRateProfileTip": {
+        "message": "Do 3 različita rateprofila po profilu mogu biti spremljena na kontroler leta. Rateprofili uključuju postavke za 'RC Rate', 'Rate', 'RC Expo', 'Throttle' i 'TPA'. Mijenjanje između rateprofila je moguće u letu postavljanjem 3 pozicijskog prekidača u Rate Profile odabiru u karitici Prilagodbe."
+    },
     "pidTuningDelta": {
         "message": "Derivacijska metoda"
     },
@@ -3243,6 +3632,9 @@
     },
     "pidTuningDeltaMeasurement": {
         "message": "Mjerenje"
+    },
+    "pidTuningRatesTip": {
+        "message": "Testirajte rateove i vidite kako oni mijenjaju krivulju"
     },
     "configurationCamera": {
         "message": "Kamera"
@@ -3289,6 +3681,9 @@
     "dialogConfirmResetTitle": {
         "message": "Potvrdi"
     },
+    "dialogConfirmResetNote": {
+        "message": "UPOZORENJE: Jeste li sigurni da želite vratiti SVE postavke na zadane?"
+    },
     "dialogConfirmResetConfirm": {
         "message": "Resetiranje"
     },
@@ -3306,5 +3701,8 @@
     },
     "flashTab": {
         "message": "Ažuriranje firmwarea"
+    },
+    "cliAutoComplete": {
+        "message": "Napredno CLI samodovršavanje"
     }
 }
