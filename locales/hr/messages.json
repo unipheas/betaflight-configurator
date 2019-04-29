@@ -1451,10 +1451,10 @@
         "message": "Frekvencija"
     },
     "pidTuningRatesCurve": {
-        "message": "Rateovi"
+        "message": "Rate krivulja"
     },
     "throttle": {
-        "message": "Gas\/Throttle"
+        "message": "Gas\/Throttle krivulja"
     },
     "pidTuningButtonSave": {
         "message": "Spremi"
@@ -3526,7 +3526,7 @@
         "message": "Spremljeno"
     },
     "mainHelpArmed": {
-        "message": "Arming Motora"
+        "message": "Arming motora"
     },
     "mainHelpFailsafe": {
         "message": "Failsafe način rada"
