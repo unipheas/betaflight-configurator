@@ -1166,6 +1166,9 @@
     "configurationSpiRX": {
         "message": "Protokol SPI Bus prijemnika"
     },
+    "configurationEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">spremljen<\/span>"
+    },
     "configurationButtonSave": {
         "message": "Spremi i ponovno pokreni"
     },
@@ -1498,8 +1501,14 @@
     "pidTuningProfileReset": {
         "message": "Učitaj zadane vrijednosti profila."
     },
+    "pidTuningLoadedProfile": {
+        "message": "Učitan profil: <strong class=\"message-positive\">$1<\/strong>"
+    },
     "pidTuningLoadedRateProfile": {
         "message": "Učitan rateprofil: <strong class=\"message-positive\">$1<\/strong>"
+    },
+    "pidTuningEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">spremljen<\/span>"
     },
     "tuningHelp": {
         "message": "<b>Tuning savjeti<\/b><br \/><span class=\"message-negative\">VAŽNO:<\/span> Bitno je provjeravati temperature motora tijekom prvih letova. Veće vrijednosti filtera će poboljšava karakteristike leta, ali može povećati temperature motora.<br>Zadana vrijednost od 100Hz je optimalna, ali za sustave koji imaju veće vibracije pokušajte smanjiti Dterm filter na 50Hz i po želji gyro filter."
@@ -1555,6 +1564,9 @@
     "receiverButtonSticks": {
         "message": "Kontrolne palice"
     },
+    "receiverEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">spremljen<\/span>"
+    },
     "receiverModelPreview": {
         "message": "Pregled"
     },
@@ -1581,6 +1593,9 @@
     },
     "auxiliaryButtonSave": {
         "message": "Spremi"
+    },
+    "auxiliaryEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">spremljen<\/span>"
     },
     "auxiliaryAutoChannelSelect": {
         "message": "AUTO"
@@ -2362,6 +2377,9 @@
     "ledStripClearAllButton": {
         "message": "Očisti sve",
         "description": "In the LED STRIP, clear all leds"
+    },
+    "ledStripEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">spremljen<\/span>"
     },
     "ledStripFunctionSection": {
         "message": "LED Mogućnosti"
