@@ -2256,6 +2256,18 @@
     "cliCopySuccessful": {
         "message": "crwdns9072:0crwdne9072:0"
     },
+    "cliLoadFromFileBtn": {
+        "message": "crwdns9112:0crwdne9112:0"
+    },
+    "cliConfirmSnippetDialogTitle": {
+        "message": "crwdns9114:0crwdne9114:0"
+    },
+    "cliConfirmSnippetNote": {
+        "message": "crwdns9116:0crwdne9116:0"
+    },
+    "cliConfirmSnippetBtn": {
+        "message": "crwdns9118:0crwdne9118:0"
+    },
     "loggingNote": {
         "message": "crwdns5909:0crwdne5909:0"
     },
