@@ -1466,6 +1466,9 @@
     "pidTuningDtermSetpointTransitionHelp": {
         "message": "S ovom vrijednosti, D Setpoint težina može biti smanjena kada su kontrole na sredini, što poboljšava završetke flipova i rollova.<br> Vrijednost reprezentira točku otklona kontrola od centra: 0 - kontrole centrirane, 1 - maksimalni otklon od centra. Kad je kontrola iznad zadadne vrijednosti, Setpoint težina je konstantna na konfiguriranoj vrijednosti. Kada je kontrola ispod zadane vrijednosti, Setpoint težina se smanjuje proporcionalno do 0 kada su kontrole na centru. <br> Vrijednost 1 daje maksimalni efekt poravnavanja, dok vrijednost 0 drži Setpoint težinu fiksnom na konfiguriranoj vrijednosti kroz cijeli hod kontrola."
     },
+    "pidTuningDtermSetpointHelp": {
+        "message": "Ovaj parametar određuje akceleracijski efekt kontrole derivacijske komponente.<br> Vrijednost od 0 je jednaka staroj metodi gdje D samo prati žiroskop, dok vrijednost od 1 je jednaka staroj metodi pogreške s jednakim praćenjem žirskopa i kontrolnog omjera.<br>Niža vrijednost znači sporiji\/uglađeniji odziv na kontrolu, dok viša vrijednost nudi više akceleracijskog odziva kontrole.<br>Napomena: RC poravnavanje je preporučeno sa višim vrijednostima kako bi se smanjile vibracije kod naglih kontrola."
+    },
     "pidTuningDtermSetpointTransitionWarning": {
         "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong> Kokrištenje D Setpoint prijelaza većeg od 0 i manjeg od 0.1 se ne preporučuje. To može dovesti do nestabilnosti i smanjenog odzina na upravljanje kod prijela središnje točke stickova<\/span>"
     },
@@ -1729,6 +1732,12 @@
     },
     "adjustmentsExamples": {
         "message": "Primjeri"
+    },
+    "adjustmentsExample1": {
+        "message": "Koristite Slot 1 i 3POS prekidač na AUX1 kako biste odabrali između Pitch\/Roll P, I i D i drugi 3POS prekidač na AUX2 za povećavanje ili smanjivanje vrijednosti kad se zadrži u gornjoj, odnsno donjoj poziciji."
+    },
+    "adjustmentsExample2": {
+        "message": "Koristite Slot 2 i 3POS prekidač na AUX4 da omogućite odabir rateprofila istim 3POS prekidačem na istom kanalu."
     },
     "adjustmentsColumnEnable": {
         "message": "Ako je omogućeno"
@@ -2207,6 +2216,9 @@
     "cliConfirmSnippetBtn": {
         "message": "Izvrši"
     },
+    "loggingNote": {
+        "message": "Podaci će biti bilježeni u <span class=\"message-negative\">samo ovoj karitici<\/span>, napuštanje ove kartice će <span class=\"message-negative\">poništiti <\/span> zapisivanje i aplikacije će se vratiti u normalno <strong>\"konfiguracijsko\"<\/strong> stanje. <br \/> Odaberite globalni period ažuriranja, podaci će se zapisivati u datoteku zapisa svaku <strong>1<\/strong> sekundu zbog performansi."
+    },
     "loggingSamplesSaved": {
         "message": "Spremljeni uzorci:"
     },
@@ -2221,6 +2233,9 @@
     },
     "loggingStop": {
         "message": "Prestani zapisivati"
+    },
+    "loggingBack": {
+        "message": "Napusti zapisivanje \/ Odspoji"
     },
     "loggingErrorNotConnected": {
         "message": "Potrebno se prije toga <strong>spojiti<\/strong>"
@@ -2287,6 +2302,12 @@
     },
     "dataflashButtonSaveFile": {
         "message": "Spremanje memorije čipa u datoteku..."
+    },
+    "dataflashButtonSaveFileDeprecated": {
+        "message": "Spremi memoriju u datoteku... (''deprecated'')"
+    },
+    "dataflashSaveFileDepreciationHint": {
+        "message": "Spremanje zapisa crne kutije kroz konfigurator je sporo i podložno greškama. Preporučuje se da koristite '<b>$t(onboardLoggingRebootMscText.message)<\/b>' (ispod) kako biste aktivirali način rada s masovnom pohranom da pristupite memorijskom čipu ili karitici na kontroleru leta da preuzmete zapise direktno."
     },
     "dataflashButtonErase": {
         "message": "Obriši flash memoriju"
@@ -2539,6 +2560,9 @@
     },
     "firmwareFlasherPreviousDevice": {
         "message": "Otkriveno: <strong>$1<\/strong> - prethodni uređaj još se uvijek ažurira, molimo ponovno spojite da biste pokušali ponovno"
+    },
+    "ledStripHelp": {
+        "message": "Kontroler leta može upravljati bojama i efektima individualnih LEDica na traci.<br \/>Konfigurirajte LEDice na gridu, konfigurirajte poredak povezivanja i onda spojite LEDice na letjelicu prema zadanim pozicijama. LEDice bez broja poretka poverivanja neće biti spremljene.<br \/>Dupli klik na boju omogućuje uređivanje HSV vrijednosti."
     },
     "ledStripButtonSave": {
         "message": "Spremi"
@@ -2938,6 +2962,12 @@
     "pidTuningGyroNotch2Cutoff": {
         "message": "Gyro Notch Filter 2 Cutoff Frekvencija[Hz]"
     },
+    "pidTuningNotchFilterHelp": {
+        "message": "Notch filter ima centar i cutoff. Filter je simetričan. Centralna frekvencija je centar filtera a cutoff frekvencije je gdje notch filter započinje. Na primjer sa notch cutoffom 160 i notch centrom na 260, znači da je raspon 160-360Hz sa najviše atenuacije oko centra"
+    },
+    "pidTuningLowpassFilterHelp": {
+        "message": "Lowpass filteri imaju dvije varijante: statički i dinamički. Za određeni lowpass filter samo jedan (statički ili dinamički) može biti omogućen i isto vrijeme. Statički ima samo cutoff što je vrijednost koja određuje gdje filter započinje. Dinamički ima raspon od min do max vrijednosti, u tom se rasponu nalazi cutoof i on se pomiče u tom rasponu kako se mijenja gas\/throttle."
+    },
     "pidTuningFilterSettings": {
         "message": "Profilno ovisne postavke filtera"
     },
@@ -2983,14 +3013,26 @@
     "pidTuningVbatPidCompensation": {
         "message": "Vbat PID kompenzacija"
     },
+    "pidTuningVbatPidCompensationHelp": {
+        "message": "Povećava PID vrijednosti kako bi kompenziralo pad napona baterije. Ovo će omogućiti konstante karakteristike leta kroz cijeli let. Količina kompenzacije koja je primjenjena se računa iz $t(powerBatteryMaximum.message) postavljene u $t(tabPower.message) kartici, tako da je bitno da to ispravno postavite."
+    },
     "pidTuningItermRotation": {
         "message": "I Term Rotation"
+    },
+    "pidTuningItermRotationHelp": {
+        "message": "Rotira trenutni I Term vektor ispravno na druge osi kad se letjelica rotira kod yawa tijekom dugih rollova i rađenja drugih trikova. Bitno za LOS acro pilote."
     },
     "pidTuningSmartFeedforward": {
         "message": "Smart Feedforward"
     },
+    "pidTuningSmartFeedforwardHelp": {
+        "message": "Smanjuje efekt F Terma u PIDu. Kada su i P Term i F Term aktivini u isto vrijeme, koristi samo onaj koji je veći, izbjegavajući preskakanja bez potrebe povećanja D Terma, ali smanjuje efekt dobrog odziva na kontrole kojeg stvara F Term kada se pridoda P Termu."
+    },
     "pidTuningItermRelax": {
         "message": "I Term Relax"
+    },
+    "pidTuningItermRelaxHelp": {
+        "message": "Ograničava akumulaciju I Terma kod brzih pokreta. Ovo pomaže smanjiti bounceback na kraju rollova i drugih brzih pokreta. Možete odabrati za koje osi se ovo primjenjuje, i prepoznaju li se brzi pokreti koristeći žiroskop ili određenu razinu kontrole."
     },
     "pidTuningItermRelaxAxes": {
         "message": "Osi:"
@@ -3019,6 +3061,9 @@
     "pidTuningAbsoluteControlGain": {
         "message": "Apsolutna kontrola"
     },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "Ova mogućnost riješava probleme $t(pidTuningItermRotation.message) i trebala bi biti uskoro zamijenjena. Ova mogućnost akumulira apsolutnu pogrešku žiroskopa u koordinatama letjelice i dodaje proporcionalnu korekciju u setpoint. Kako bi radila, potrebno je da omogućite AirMode i $t(pidTuningItermRelax.message) (za $t(pidTuningItermRelaxAxesOptionRP.message)). Ako kombinirate ovu mogućnost s $t(pidTuningIntegratedYaw.message), možete omogućiti $t(pidTuningItermRelax.message) za $t(pidTuningItermRelaxAxesOptionRPY.message)."
+    },
     "pidTuningThrottleBoost": {
         "message": "Gas\/Throttle Boost"
     },
@@ -3036,6 +3081,9 @@
     },
     "pidTuningIntegratedYawCaution": {
         "message": "<span class=\"message-negative\">OPREZ<\/span>: ako ovo omogućite, morate postaviti YAW PID kako piše <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">ovdje<\/a>"
+    },
+    "pidTuningIntegratedYawHelp": {
+        "message": "Integrirani Yaw je mogućnost koja popravlja fundamentalni problem upravljanja četverokoptera: pitch i roll osi su kontrolirane diferencijalnim postiskom koje stvaraju propeleri, yaw je kontroliran drugačije. Integrirani Yaw ovo popravlja integriranjem izlaza yaw Pida prije nego što se primjeni. Ovo popravlja kako Pid vrijednosti rade i sada se može postavljati kao i za sve druge osi. Zahtijeva Apsolutnu Kontrolu jer je I Term nepotreban s Integriranim Yawom."
     },
     "configHelp2": {
         "message": "Poravnanje ploče kontrolera leta u stupnjevima. Omogućuje postavljanje kontrolera bočno ili naopako. Kada koristite vanjske senzore koristite poravnanje senzora kako biste neovisno o orjentacije kontrolera leta definirali pozicije senzora. "
@@ -3066,6 +3114,12 @@
     },
     "failsafeChannelFallbackSettingsHelp": {
         "message": "Ova stanja su primjenjena neispravnim AUX kanalima ili svim kanalima kada je pokrenuta Faza 1. <strong>Napomena:<\/strong>vrijednosti su spremljene u koracima od 25uSec, da bi male promjene nestale"
+    },
+    "failsafeChannelFallbackSettingsAuto": {
+        "message": "<strong>Auto<\/strong> znači Roll, Pitch i Yaw centrirano i gas\/thorrle nisko. <strong>Hold<\/strong> zadržava posljednju ispravnu primljenuvrijednost"
+    },
+    "failsafeChannelFallbackSettingsHold": {
+        "message": "<strong>Hold<\/strong> zadržava posljednju ispravnu primljenu vrijednost. <strong>Set<\/strong> postavlja vrijednost koja će biti korištena"
     },
     "failsafeStageTwoSettingsTitle": {
         "message": "Faza 2 - Postavke"
@@ -3390,6 +3444,9 @@
     },
     "osdSetupUnsupportedNote1": {
         "message": "Kontroler leta ne odgovara na OSD komande. Ovo vjerojatno znači da nema integrirani Betaflight OSD."
+    },
+    "osdSetupUnsupportedNote2": {
+        "message": "Neki kontroleri leta imaju onboard <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a> koji može biti ažuriran i konfiguriran s <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>, svejedno, MinimOSD ne može biti konfiguriran kroz ovo sučelje."
     },
     "osdSetupProfilesTitle": {
         "message": "Broj profila OSD-a",
@@ -3742,6 +3799,9 @@
     "osdDescStatEscRpm": {
         "message": "Max ESC RPM"
     },
+    "osdDescStatMinLinkQuality": {
+        "message": "Minimum alternativnog indikatora za kvalitetu veze temeljenu na gubicima paketa"
+    },
     "osdDescStatFlightDistance": {
         "message": "Ukupna pređena udaljenost tijekom leta"
     },
@@ -3960,6 +4020,21 @@
     },
     "pidTuningDeltaMeasurement": {
         "message": "Mjerenje"
+    },
+    "pidTuningDeltaTip": {
+        "message": "<b>Derivacijski iz greške<\/b> daje direktniju kontrolu i odziv i koristan je za utrkivanje.<br><br><b>Derivacijski iz mjerenja<\/b>nudi uglađeniji odziv na kontrole i koristan je za freestyling"
+    },
+    "pidTuningPidControllerTip": {
+        "message": "<b>Legacy vs Betaflight(float):<\/b> PID skaliranje i PID logika su potpuno isti. Nije potrebno ponovno tunirati. Legacy koristi jednostavni PID kontroler baziran na cjelobrojnom izračunu. Betaflight PID kontroler koristi kompleksnije decimalne izračune i ima mnog drugih značajki posebno dizajniranih za letjelice s više propelera. <br><b>Float vs Integer:<\/b> PID skaliranje i PID logika su potpuno isti. Nije potrebno ponovno tunirati. F1 procesori nemaju FPU i operacije s pomičnim zarezom povećavaju korištenje prcesora, a cjelobrojne(Integer) operacije će poboljšati performanse, ali će biti manje precizne."
+    },
+    "pidTuningFilterTip": {
+        "message": "<b>Gyro Soft Filter:<\/b> Lowpass filter žiroskopa. Koristite niže vrijednosti za više filtriranja.<br><b>D Term Filter:<\/b> Lowpass filter za Dterm. Može utjecati na D term tuning. Koristite niže vrijednosti za više filtriranja. <br><b>Yaw Filter:<\/b> Filtrira yaw izlaz. Može pomoći na letjelicama koje imaju šum na yaw osi."
+    },
+    "pidTuningPidTuningTip": {
+        "message": "<b>Proporcionalno:<\/b> Osjetit ćete jaku silu otpora ako pokušate pomaknuti letjelicu. <br><b>Integrirano:<\/b> Povećava mogućnost letjelica da drži inicjalnu poziciju i smanji pomicanje, ali povećava kašnjenje kod vraćanja u inicijalnu poziciju.<br><b>Derivacijski:<\/b> Poboljšava brzinu oporavka od devijacija, ali povećava šum<br><b>Rateovi i Expo<\/b>: Određuju osjećaj kontrola prema ovim vrijednostima. Koristite graf i 3d prikaz modela kako biste pronašli najbolje rate postavke"
+    },
+    "pidTuningPidTuningTipFeedforward": {
+        "message": "<b>Proporcionalno:<\/b> Osjetit ćete jaku silu otpora ako pokušate pomaknuti letjelicu. <br><b>Integrirano:<\/b> Povećava mogućnost letjelica da drži inicjalnu poziciju i smanji pomicanje, ali povećava kašnjenje kod vraćanja u inicijalnu poziciju.<br><b>Derivacijski:<\/b> Poboljšava brzinu oporavka od devijacija, ali povećava šum<br><b>Feedforward:<\/b> Obično PID kontroler reagira na pogrešku. Feedforward predviđa pogrešku na temelju kontrola koje dajete, dajući bolji odziv i kontrolu letjelici.<br><b>Rateovi i Expo<\/b>: Određuju osjećaj kontrola prema ovim vrijednostima. Koristite graf i 3d prikaz modela kako biste pronašni najbolje rate postavke"
     },
     "pidTuningRatesTip": {
         "message": "Testirajte rateove i vidite kako oni mijenjaju krivulju"
