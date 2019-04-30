@@ -3056,6 +3056,9 @@
     "failsafeGpsRescueItemThrottleMax": {
         "message": "Gas massimo"
     },
+    "failsafeGpsRescueItemThrottleHover": {
+        "message": "Gas hovering"
+    },
     "failsafeGpsRescueItemMinSats": {
         "message": "Satelliti minimi"
     },
@@ -3326,8 +3329,32 @@
     "osdSetupUnsupportedNote2": {
         "message": "Tieni presente che alcuni controllori di volo hanno un <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a> integrato che può essere visualizzato e configurato con <a href = \"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target = '_ blank'> scarab-osd <\/a>, tuttavia il MinimOSD non può essere configurato tramite questa interfaccia."
     },
+    "osdSetupProfilesTitle": {
+        "message": "Numero profilo OSD",
+        "description": "Description of the header of the OSD elements column associated to each profile"
+    },
     "osdSetupElementsTitle": {
         "message": "Elementi"
+    },
+    "osdSetupPreviewTitle": {
+        "message": "Trascina gli elementi per cambiarne la posizione",
+        "description": "Indicates in the preview window of the OSD that the user can drag the elements to reorder them"
+    },
+    "osdSetupPreviewSelectProfileTitle": {
+        "message": "Anteprima per",
+        "description": "Label of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupSelectedProfileTitle": {
+        "message": "Profilo OSD attivo",
+        "description": "Title of the box to select the current active OSD profile"
+    },
+    "osdSetupSelectedProfileLabel": {
+        "message": "Attuale:",
+        "description": "Label for the selection of the curren active OSD profile"
+    },
+    "osdSetupPreviewSelectProfileElement": {
+        "message": "Profilo OSD {{profileNumber}}",
+        "description": "Content of the selector for the OSD Profile in the preview"
     },
     "osdSetupPreviewTitleTip": {
         "message": "Mostra o nascondi il logo nella finestra di anteprima. Questo non cambierà alcuna impostazione sul controller di volo."
@@ -3545,6 +3572,15 @@
     "osdDescElementCompassBar": {
         "message": "Barra della bussola grafica che mostra la direzione corrente"
     },
+    "osdDescElementFlightDist": {
+        "message": "Distanza percorsa durante questo volo."
+    },
+    "osdDescElementStickOverlayLeft": {
+        "message": "Overlay per la posizione dello stick sinistro della radio."
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "Overlay per la posizione dello stick destro della radio."
+    },
     "osdDescElementTimer1": {
         "message": "Mostra il valore del timer 1"
     },
@@ -3623,6 +3659,15 @@
     "osdDescStatEscRpm": {
         "message": "Massimo ESC RPM"
     },
+    "osdDescStatTotalFlights": {
+        "message": "Numero totale di voli"
+    },
+    "osdDescStatTotalFlightTime": {
+        "message": "Tempo totale trascorso in volo"
+    },
+    "osdDescStatTotalFlightDistance": {
+        "message": "Distanza totale percorsa"
+    },
     "osdTimerSource": {
         "message": "Sorgente:"
     },
@@ -3640,6 +3685,9 @@
     },
     "osdTimerAlarmTooltip": {
         "message": "Selezionare la soglia di allarme del timer in minuti, quando il tempo supera questo valore l'elemento OSD lampeggia, impostandolo su 0 si disabilita l'allarme"
+    },
+    "osdWarningUnknown": {
+        "message": "Avviso sconosciuto (dettagli aggiunti nelle future release)"
     },
     "osdWarningArmingDisabled": {
         "message": "Segnala la ragione più grave per non armare"
@@ -3661,6 +3709,30 @@
     },
     "osdWarningEscFail": {
         "message": "Mostra una lista degli ESC\/motori che hanno problemi (giri\/min o temperatura fuori dala soglia configurata)"
+    },
+    "osdWarningCoreTemperature": {
+        "message": "Avvisa quando la temperatura dell' MCU supera la soglia impostata"
+    },
+    "osdWarningRcSmoothingFailure": {
+        "message": "Avviso quando l'inizializzazione dell'RC Smoothing è fallita"
+    },
+    "osdWarningFailsafe": {
+        "message": "Avviso quando si verifica un failsafe"
+    },
+    "osdWarningLaunchControl": {
+        "message": "Avviso quando il Launch Control è attivo"
+    },
+    "osdWarningGpsRescueUnavailable": {
+        "message": "Avviso quando GPS Rescue non è disponibile e non attivabile"
+    },
+    "osdWarningGpsRescueDisabled": {
+        "message": "Avviso quando GPS Rescue è disabilitato"
+    },
+    "osdWarningRSSI": {
+        "message": "Avviso quando l' RSSI è sotto la soglia di allarme"
+    },
+    "osdWarningLinkQuality": {
+        "message": "Avviso quando il Link Quality è sotto la soglia di allarme"
     },
     "osdSectionHelpElements": {
         "message": "Abilita o disabilita gli elementi OSD"
@@ -3848,6 +3920,9 @@
     "onboardLoggingMsc": {
         "message": "Modalità archiviazione di massa"
     },
+    "onboardLoggingMscNote": {
+        "message": "Riavvia nella <strong>modalità archivio di massa (MSC)<\/strong>. Una volta attivata, la memoria interna o la SD verranno rilevate dal tuo computer come dispositivi di archiviazione di massa permettendoti di scaricare i tuoi file di log. Effettua la rimozione sicura e riavvia il tuo flight controller per uscire da questa modalità."
+    },
     "onboardLoggingRebootMscText": {
         "message": "Attiva modalità periferica di archiviazione di massa"
     },
@@ -3877,5 +3952,8 @@
     },
     "flashTab": {
         "message": "Aggiornamento Firmware"
+    },
+    "cliAutoComplete": {
+        "message": "Autocompletamento avanzato della CLI"
     }
 }
