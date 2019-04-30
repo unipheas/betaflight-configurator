@@ -1323,6 +1323,10 @@
     "pidTuningAntiGravityThres": {
         "message": "Soglia Anti Gravità"
     },
+    "pidTuningDMin": {
+        "message": "D min",
+        "description": "Table header of the D Min feature in the PIDs tab"
+    },
     "pidTuningDMinRoll": {
         "message": "Roll",
         "description": "Axis to apply D Min feature"
@@ -1338,6 +1342,10 @@
     "pidTuningDMinGain": {
         "message": "Guadagno",
         "description": "Gain of the D Min feature"
+    },
+    "pidTuningDMinAdvance": {
+        "message": "Avanzamento",
+        "description": "Advane of the D Min feature"
     },
     "pidTuningPidSettings": {
         "message": "Impostazioni del controller PID"
@@ -1365,6 +1373,21 @@
     },
     "receiverRcSmoothingTypeHelp": {
         "message": "Tipo di RC Smoothing usato"
+    },
+    "rcSmoothingInputCutoffHelp": {
+        "message": "La frequenza di interruzione in Hz usata dal input filter. Usando valori più bassi si otterranno input più regolari e più appropriati per i protocolli dei ricevitori più lenti. La maggior parte degli utenti dovrebbe lasciare questa opzione a 0 che corrisponde ad \"Auto\"."
+    },
+    "rcSmoothingDerivativeCutoffHelp": {
+        "message": "La frequenza di interruzione in Hz usata dal setpoint derivative filter. Usando valori più bassi si otterranno input più regolari e più appropriati per i protocolli dei ricevitori più lenti. La maggior parte degli utenti dovrebbe lasciare questa opzione a 0 che corrisponde ad \"Auto\"."
+    },
+    "rcSmoothingChannelsSmoothedHelp": {
+        "message": "La regolarizzazione dei canali si applica a"
+    },
+    "rcSmoothingDerivativeTypeHelp": {
+        "message": "Il tipo di metodo di filtraggio usato per setpoint derivative. La maggior parte degli utenti dovrebbero usare il valore di default \"BIQUAD\" poichè esso è un buon compromesso tra XXX e ritardo. \"PT1\" riduce leggermento il ritardo ma offre meno XXX."
+    },
+    "rcSmoothingInputTypeHelp": {
+        "message": "Il tipo di metodo di filtraggio usato per l'input. La maggior parte degli utenti dovrebbero usare il valore di default \"BIQUAD\" poichè esso è un buon compromesso tra XXX e ritardo. \"PT1\" riduce leggermento il ritardo ma offre meno XXX."
     },
     "receiverRcInputType": {
         "message": "Tipo filtro di input"
