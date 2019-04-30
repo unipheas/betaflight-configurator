@@ -2208,6 +2208,18 @@
     "cliCopySuccessful": {
         "message": "Kopierat!"
     },
+    "cliLoadFromFileBtn": {
+        "message": "Ladda från fil"
+    },
+    "cliConfirmSnippetDialogTitle": {
+        "message": "Granska laddade kommandon"
+    },
+    "cliConfirmSnippetNote": {
+        "message": "<strong>Observera<\/strong>: Du kan granska och redigera kommandon innan de verkställs."
+    },
+    "cliConfirmSnippetBtn": {
+        "message": "Verkställ"
+    },
     "loggingNote": {
         "message": "Data kommer <span class=\"message-negative\">endast<\/span> att loggas när denna flik är aktiv; om fliken lämnas kommer loggningen att <span class=\"message-negative\">avbrytas<\/span> och applikationen återgår till sitt normala <strong>\"konfigurations\"<\/strong> -läge.<br \/> Du kan fritt välja global uppdateringsperiod, data kommer att skrivas till loggen <strong>1<\/strong> gång per sekund av prestandaskäl."
     },
