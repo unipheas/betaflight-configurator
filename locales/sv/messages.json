@@ -72,6 +72,9 @@
     "language_default": {
         "message": "Standard"
     },
+    "language_gl": {
+        "message": "Galego (gl)"
+    },
     "sensorDataFlashNotFound": {
         "message": "Inget dataflash-<br>chip hittades",
         "description": "Text of the dataflash image in the header of the page."
