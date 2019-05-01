@@ -372,7 +372,7 @@
         "message": "<span class=\"message-negative\">Ne možete<\/span> to učiniti sada, molimo pričekajte da se trenutna operacija završi ..."
     },
     "tabSwitchUpgradeRequired": {
-        "message": "Morate <strong>ažurirati<\/strong> firmware na posljednju verziju Betaflighta prije nego što možete koristiti $1 tab."
+        "message": "Morate <strong>ažurirati<\/strong> firmware na posljednju verziju Betaflighta prije nego što možete koristiti karticu $1."
     },
     "firmwareVersion": {
         "message": "Firmware Verzija: <strong>$1<\/strong>"
