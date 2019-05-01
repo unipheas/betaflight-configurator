@@ -75,47 +75,8 @@
     "language_default": {
         "message": "Por defecto"
     },
-    "language_ca": {
-        "message": "Català (ca)"
-    },
-    "language_de": {
-        "message": "Deutsch (de)"
-    },
-    "language_en": {
-        "message": "English (en)"
-    },
-    "language_es": {
-        "message": "Español (es)"
-    },
-    "language_fr": {
-        "message": "Français (fr)"
-    },
-    "language_id": {
-        "message": "Bahasa Indonesia (id)"
-    },
-    "language_it": {
-        "message": "Italiano (it)"
-    },
-    "language_ja": {
-        "message": "日本語 (ja)"
-    },
-    "language_ko": {
-        "message": "한국어 (ko)"
-    },
-    "language_lv": {
-        "message": "Latviešu (lv)"
-    },
-    "language_pt": {
-        "message": "Português (pt)"
-    },
-    "language_ru": {
-        "message": "Русский язык (ru)"
-    },
-    "language_sv": {
-        "message": "Svenska (sv)"
-    },
-    "language_zh_CN": {
-        "message": "简体中文 (zh_CN)"
+    "language_gl": {
+        "message": "Galego (gl)"
     },
     "sensorDataFlashNotFound": {
         "message": "Memoria flash <br> non dispoñible",
@@ -2252,6 +2213,18 @@
     },
     "cliCopySuccessful": {
         "message": "Copiado!"
+    },
+    "cliLoadFromFileBtn": {
+        "message": "Lectura dende arquivo"
+    },
+    "cliConfirmSnippetDialogTitle": {
+        "message": "Revisar os comandos gardados"
+    },
+    "cliConfirmSnippetNote": {
+        "message": "<strong>Nota<\/strong>: Voste pode editar e revisar os comandos anates da súa execución."
+    },
+    "cliConfirmSnippetBtn": {
+        "message": "Executar"
     },
     "loggingNote": {
         "message": "Os datos rexistraranse nesta pestana <span class=\"message-negative\">solo<\/span>, deixando a pestana <span class=\"message-negative\">cancela<\/span> o rexistro e a aplicación volverá ao seu estado normal <strong>\"configurador\" <\/strong>.<br\/> É libre para seleccionar o período de actualización global, os datos serán escritos no ficheiro de rexistro cada <strong>1<\/strong> segundo por razóns de rendemento."
