@@ -209,7 +209,7 @@
         "message": "CLI"
     },
     "tabLogging": {
-        "message": "Tethered Logging"
+        "message": "Tethered zapisivanje"
     },
     "tabOnboardLogging": {
         "message": "Crna kutija"
@@ -3456,7 +3456,7 @@
         "message": "Elementi"
     },
     "osdSetupPreviewTitle": {
-        "message": "Povucite elemente kako biste promjenili poziciju",
+        "message": "Povucite elemente kako biste im promijenili poziciju",
         "description": "Indicates in the preview window of the OSD that the user can drag the elements to reorder them"
     },
     "osdSetupPreviewSelectProfileTitle": {
@@ -3468,7 +3468,7 @@
         "description": "Title of the box to select the current active OSD profile"
     },
     "osdSetupSelectedProfileLabel": {
-        "message": "Struja:",
+        "message": "Trenutni:",
         "description": "Label for the selection of the curren active OSD profile"
     },
     "osdSetupPreviewSelectProfileElement": {
@@ -3485,7 +3485,7 @@
         "message": "Mjerne jedinice"
     },
     "osdSetupTimersTitle": {
-        "message": "Brojači"
+        "message": "Tajmeri"
     },
     "osdSetupAlarmsTitle": {
         "message": "Alarmi"
@@ -3524,10 +3524,10 @@
         "message": "Prilagođena slika:"
     },
     "osdSetupCustomLogoInfoImageSize": {
-        "message": "Veluluba nira biti $t(logoWidthPx)×$t(logoHeightPx) piksela"
+        "message": "Veličina mora biti $t(logoWidthPx)×$t(logoHeightPx) piksela"
     },
     "osdSetupCustomLogoInfoColorMap": {
-        "message": "Mora sadržavati zelene, crnei bijele piksele"
+        "message": "Mora sadržavati zelene, crne i bijele piksele"
     },
     "osdSetupCustomLogoInfoUploadHint": {
         "message": "Kliknite <b>$t(osdSetupUploadFont.message)<\/b> da biste dodali poseban logo"
