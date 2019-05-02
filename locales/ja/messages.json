@@ -4103,7 +4103,7 @@
         "message": "カメラ モード切替"
     },
     "flashTab": {
-        "message": "ファーム<br>更新"
+        "message": "Update Firmware"
     },
     "cliAutoComplete": {
         "message": "CLI オートコンプリート"
