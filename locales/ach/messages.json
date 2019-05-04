@@ -76,49 +76,68 @@
         "message": "crwdns5329:0crwdne5329:0"
     },
     "language_ca": {
-        "message": "crwdns5330:0crwdne5330:0"
+        "message": "crwdns5330:0crwdne5330:0",
+        "description": "Don't translate!!!"
     },
     "language_de": {
-        "message": "crwdns5331:0crwdne5331:0"
+        "message": "crwdns5331:0crwdne5331:0",
+        "description": "Don't translate!!!"
     },
     "language_en": {
-        "message": "crwdns5332:0crwdne5332:0"
+        "message": "crwdns5332:0crwdne5332:0",
+        "description": "Don't translate!!!"
     },
     "language_es": {
-        "message": "crwdns5333:0crwdne5333:0"
+        "message": "crwdns5333:0crwdne5333:0",
+        "description": "Don't translate!!!"
     },
     "language_fr": {
-        "message": "crwdns5334:0crwdne5334:0"
+        "message": "crwdns5334:0crwdne5334:0",
+        "description": "Don't translate!!!"
     },
     "language_gl": {
-        "message": "crwdns9120:0crwdne9120:0"
+        "message": "crwdns9120:0crwdne9120:0",
+        "description": "Don't translate!!!"
+    },
+    "language_hr": {
+        "message": "crwdns9122:0crwdne9122:0",
+        "description": "Don't translate!!!"
     },
     "language_id": {
-        "message": "crwdns8868:0crwdne8868:0"
+        "message": "crwdns8868:0crwdne8868:0",
+        "description": "Don't translate!!!"
     },
     "language_it": {
-        "message": "crwdns6392:0crwdne6392:0"
+        "message": "crwdns6392:0crwdne6392:0",
+        "description": "Don't translate!!!"
     },
     "language_ja": {
-        "message": "crwdns8701:0crwdne8701:0"
+        "message": "crwdns8701:0crwdne8701:0",
+        "description": "Don't translate!!!"
     },
     "language_ko": {
-        "message": "crwdns5335:0crwdne5335:0"
+        "message": "crwdns5335:0crwdne5335:0",
+        "description": "Don't translate!!!"
     },
     "language_lv": {
-        "message": "crwdns6393:0crwdne6393:0"
+        "message": "crwdns6393:0crwdne6393:0",
+        "description": "Don't translate!!!"
     },
     "language_pt": {
-        "message": "crwdns8708:0crwdne8708:0"
+        "message": "crwdns8708:0crwdne8708:0",
+        "description": "Don't translate!!!"
     },
     "language_ru": {
-        "message": "crwdns8863:0crwdne8863:0"
+        "message": "crwdns8863:0crwdne8863:0",
+        "description": "Don't translate!!!"
     },
     "language_sv": {
-        "message": "crwdns8862:0crwdne8862:0"
+        "message": "crwdns8862:0crwdne8862:0",
+        "description": "Don't translate!!!"
     },
     "language_zh_CN": {
-        "message": "crwdns5336:0crwdne5336:0"
+        "message": "crwdns5336:0crwdne5336:0",
+        "description": "Don't translate!!!"
     },
     "sensorDataFlashNotFound": {
         "message": "crwdns6394:0crwdne6394:0",
