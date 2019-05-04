@@ -68,6 +68,10 @@
     "language_default": {
         "message": "기본값"
     },
+    "language_hr": {
+        "message": "Hrvatski (hr)",
+        "description": "Don't translate!!!"
+    },
     "sensorDataFlashNotFound": {
         "message": "데이터플래시 <br>칩이 발견되지 않음",
         "description": "Text of the dataflash image in the header of the page."
@@ -2203,6 +2207,18 @@
     },
     "cliCopySuccessful": {
         "message": "복사됨!"
+    },
+    "cliLoadFromFileBtn": {
+        "message": "파일로부터 불러오기"
+    },
+    "cliConfirmSnippetDialogTitle": {
+        "message": "로드된 명령 검토"
+    },
+    "cliConfirmSnippetNote": {
+        "message": "<strong>노트<\/strong>: 실행하기 전에 명령을 검토하고 편집할 수 있습니다."
+    },
+    "cliConfirmSnippetBtn": {
+        "message": "실행"
     },
     "loggingNote": {
         "message": "데이터가 이 탭에 로그되어 집니다. 데이터는 <span class=\"message-negative\">오직<\/span> 이 탭에서만 기록되며, 탭을 나가면 기록을 <span class=\"message-negative\">취소<\/span>하고 어플리케이션이 일반적인 <strong>\"컨피규레이터\"<\/strong> 상태로 돌아갑니다.<br \/> 사용자는 전체 업데이트 주기를 자유롭게 선택할 수 있으며, 데이터는 성능상의 이유로 매 <strong>1<\/strong>초마다 로그 파일에 기록됩니다."
