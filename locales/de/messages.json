@@ -2184,6 +2184,9 @@
     "cliInputPlaceholder": {
         "message": "Schreibe hier deinen Befehl. Drücke Tab zur Autovervollständigung."
     },
+    "cliInputPlaceholderBuilding": {
+        "message": "Bitte warte während der Erstellung des Autovervollständigungs-Zwischenspeichers ..."
+    },
     "cliEnter": {
         "message": "CLI Modus erkannt"
     },
@@ -2201,6 +2204,18 @@
     },
     "cliCopySuccessful": {
         "message": "Kopiert!"
+    },
+    "cliLoadFromFileBtn": {
+        "message": "Aus Datei laden"
+    },
+    "cliConfirmSnippetDialogTitle": {
+        "message": "Geladene Befehle überprüfen"
+    },
+    "cliConfirmSnippetNote": {
+        "message": "<strong>Hinweis<\/strong>: Du kannst Befehle vor der Ausführung überprüfen und bearbeiten."
+    },
+    "cliConfirmSnippetBtn": {
+        "message": "Ausführen"
     },
     "loggingNote": {
         "message": "Daten werden <span class=\"message-negative\">nur <\/span> in diesem Tab geloggt. Wenn der Tab geschlossen wird, wird das Loggen <span class=\"message-negative\">abgebrochen<\/span> und die Anwendung geht in den normalen Modus zurück."
@@ -3794,6 +3809,15 @@
     "osdDescStatMaxFFT": {
         "message": "FFT-Spitzenwert"
     },
+    "osdDescStatTotalFlights": {
+        "message": "Gesamtanzahl Flüge"
+    },
+    "osdDescStatTotalFlightTime": {
+        "message": "Gesamte Flugzeit"
+    },
+    "osdDescStatTotalFlightDistance": {
+        "message": "gesamt zurückgelegte Strecke"
+    },
     "osdTimerSource": {
         "message": "Quelle:"
     },
@@ -4081,5 +4105,8 @@
     },
     "flashTab": {
         "message": "Firmware aktualisieren"
+    },
+    "cliAutoComplete": {
+        "message": "Erweiterte CLI Autoervollständigung"
     }
 }
