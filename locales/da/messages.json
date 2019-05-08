@@ -43,5 +43,79 @@
     },
     "autoConnectEnabled": {
         "message": "Autotilslut: Aktiveret - Opsæt automatiske tilslutningsforsøg, når ny port registreres"
+    },
+    "autoConnectDisabled": {
+        "message": "Autotilslut: Deaktiveret - Bruger skal selv vælge den korrekte serielport og klikke på knappen \"Tilslut\""
+    },
+    "expertMode": {
+        "message": "Aktivér Eksperttilstand"
+    },
+    "expertModeDescription": {
+        "message": "Vis ikke-udgivne og potentielt ustabile builds"
+    },
+    "permanentExpertMode": {
+        "message": "Aktivér Eksperttilstand permanent"
+    },
+    "rememberLastTab": {
+        "message": "Genåbn seneste fane ved tilslutning"
+    },
+    "analyticsOptOut": {
+        "message": "Fravælg anonymiseret statistikdataindsamling"
+    },
+    "userLanguageSelect": {
+        "message": "Sprog (kræver programgenstart for effektuering af evt. ændringer)"
+    },
+    "language_default": {
+        "message": "Standard"
+    },
+    "sensorDataFlashNotFound": {
+        "message": "Ingen dataflash-<br>chip fundet",
+        "description": "Text of the dataflash image in the header of the page."
+    },
+    "sensorDataFlashFreeSpace": {
+        "message": "Dataflash: Ledig plads",
+        "description": "Text of the dataflash image in the header of the page."
+    },
+    "sensorStatusGyro": {
+        "message": "Gyroskop"
+    },
+    "sensorStatusGyroShort": {
+        "message": "Gyro",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusAccel": {
+        "message": "Accelerometer"
+    },
+    "sensorStatusAccelShort": {
+        "message": "Accel",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusMag": {
+        "message": "Magnetometer"
+    },
+    "sensorStatusMagShort": {
+        "message": "Mag",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusBaro": {
+        "message": "Barometer"
+    },
+    "sensorStatusBaroShort": {
+        "message": "Baro",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusGPS": {
+        "message": "GPS"
+    },
+    "sensorStatusGPSShort": {
+        "message": "GPS",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusSonar": {
+        "message": "Sonar\/Afstandsmåler"
+    },
+    "sensorStatusSonarShort": {
+        "message": "Sonar",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
     }
 }
