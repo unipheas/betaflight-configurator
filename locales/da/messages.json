@@ -1,3 +1,47 @@
 {
-
+    "error": {
+        "message": "Fejl: {{errorMessage}}"
+    },
+    "errorTitle": {
+        "message": "Fejl"
+    },
+    "warningTitle": {
+        "message": "Advarsel"
+    },
+    "noticeTitle": {
+        "message": "Bemærk"
+    },
+    "operationNotSupported": {
+        "message": "Din hardware understøtter ikke denne handling."
+    },
+    "storageDeviceNotReady": {
+        "message": "Lagerenheden er ikke klar. Ved microSD-kort skal du sørge for, at det er korrekt genkendt af din flight controller."
+    },
+    "options_title": {
+        "message": "Programindstillinger"
+    },
+    "connect": {
+        "message": "Tilslut"
+    },
+    "connecting": {
+        "message": "Tilslutter"
+    },
+    "disconnect": {
+        "message": "Afbryd"
+    },
+    "portsSelectManual": {
+        "message": "Manuelt valg"
+    },
+    "portOverrideText": {
+        "message": "Port:"
+    },
+    "autoConnect": {
+        "message": "Autotilslut"
+    },
+    "close": {
+        "message": "Luk"
+    },
+    "autoConnectEnabled": {
+        "message": "Autotilslut: Aktiveret - Opsæt automatiske tilslutningsforsøg, når ny port registreres"
+    }
 }
