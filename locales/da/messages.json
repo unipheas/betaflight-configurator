@@ -120,5 +120,8 @@
     },
     "checkForConfiguratorUnstableVersions": {
         "message": "Vis opdateringsadviseringer for ustabile versioner af konfiguratoren"
+    },
+    "configuratorUpdateNotice": {
+        "message": "Du benytter en forældet version af <b>Betaflight Configurator<\/b>.<br>Version <b>$1<\/b> er tilgængelig online, så besøg <a href=\"$2\" target=\"_blank\">udgivelsessiden<\/a> for at downloade og installere den seneste version med fejlrettelser og forbedringer.<br>Luk konfiguratorvinduet inden opdatering."
     }
 }
