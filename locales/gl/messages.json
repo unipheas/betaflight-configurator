@@ -75,6 +75,10 @@
     "language_default": {
         "message": "Por defecto"
     },
+    "language_ca": {
+        "message": "Catalán (ca)",
+        "description": "Don't translate!!!"
+    },
     "language_gl": {
         "message": "Galego (gl)",
         "description": "Don't translate!!!"
