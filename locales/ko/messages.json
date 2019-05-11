@@ -698,6 +698,10 @@
         "message": "폭주이륙방지가 실행되고 있습니다",
         "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCRASH": {
+        "message": "충돌 감지를 통해 디스아밍됨",
+        "description": "Description of the CRASH arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "스로틀이 너무 높습니다",
         "description": "Description of the THROTTLE arming disable flag"
