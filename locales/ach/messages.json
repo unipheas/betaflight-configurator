@@ -769,6 +769,10 @@
         "message": "crwdns8956:0crwdne8956:0",
         "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCRASH": {
+        "message": "crwdns9124:0crwdne9124:0",
+        "description": "Description of the CRASH arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "crwdns8958:0crwdne8958:0",
         "description": "Description of the THROTTLE arming disable flag"
