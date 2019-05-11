@@ -698,6 +698,10 @@
         "message": "Zaštita od nekontroliranog polijetanja je bila aktivirana",
         "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCRASH": {
+        "message": "Disarman detekcijom pada\/sudara",
+        "description": "Description of the CRASH arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "Kanal gasa\/throttlea je previsok",
         "description": "Description of the THROTTLE arming disable flag"
