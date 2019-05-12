@@ -2201,6 +2201,9 @@
     "cliCopySuccessful": {
         "message": "Copié !"
     },
+    "cliConfirmSnippetBtn": {
+        "message": "Exécuter"
+    },
     "loggingNote": {
         "message": "Les données sont enregistrées dans cet onglet <span class=\"message-negative\">uniquement<\/span>, quitter l'onglet  <span class=\"message-negative\">arrête<\/span> l'enregistrement et l'application retourne en <strong>\"configurateur\"<\/strong>.<br \/> Peu importe la période de rafraîchissement, les données sont écrites <strong>chaque<\/strong> seconde afin de préserver les performances."
     },
@@ -3865,6 +3868,9 @@
     "osdWarningRSSI": {
         "message": "Alerte quand le RSSI est inférieur à la valeur configurée"
     },
+    "osdWarningLinkQuality": {
+        "message": "Alerte lorsque la qualité de la liaison est inférieure à la valeur configurée"
+    },
     "osdSectionHelpElements": {
         "message": "Activer ou désactiver l'OSD"
     },
@@ -4086,5 +4092,8 @@
     },
     "flashTab": {
         "message": "Mise à jour du firmware"
+    },
+    "cliAutoComplete": {
+        "message": "CLI avancé avec saisie semi-automatique"
     }
 }
