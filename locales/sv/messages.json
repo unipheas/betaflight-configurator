@@ -702,6 +702,10 @@
         "message": "Förhindrande av oavsiktlig uppstigning (Runaway Takeoff Prevention) har aktiverats",
         "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCRASH": {
+        "message": "Inaktiverad via kraschdetektering",
+        "description": "Description of the CRASH arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "Trottelkanalen är för hög",
         "description": "Description of the THROTTLE arming disable flag"
