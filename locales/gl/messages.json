@@ -713,6 +713,10 @@
         "message": "Activouse a protección de despegue incontrolado",
         "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCRASH": {
+        "message": "Desarmado mediante a detección de colisión",
+        "description": "Description of the CRASH arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "A canle do acelerador é demasiado alto",
         "description": "Description of the THROTTLE arming disable flag"
