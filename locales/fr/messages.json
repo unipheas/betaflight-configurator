@@ -698,6 +698,10 @@
         "message": "La prévention au décollage intempestif a été activée",
         "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCRASH": {
+        "message": "Désarmé via la détection d'un crash",
+        "description": "Description of the CRASH arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "Voie des gaz est trop élevée",
         "description": "Description of the THROTTLE arming disable flag"
@@ -2200,6 +2204,15 @@
     },
     "cliCopySuccessful": {
         "message": "Copié !"
+    },
+    "cliLoadFromFileBtn": {
+        "message": "Charger à partir du fichier"
+    },
+    "cliConfirmSnippetDialogTitle": {
+        "message": "Réviser les commandes chargées"
+    },
+    "cliConfirmSnippetNote": {
+        "message": "<strong>Note<\/strong>: Vous pouvez revoir et modifier les commandes avant l'exécution."
     },
     "cliConfirmSnippetBtn": {
         "message": "Exécuter"
