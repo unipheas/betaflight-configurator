@@ -698,6 +698,10 @@
         "message": "暴走離陸防止機能が実行されました",
         "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCRASH": {
+        "message": "クラッシュ検出によるディスアーム",
+        "description": "Description of the CRASH arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "スロットルチャンネルが高すぎます",
         "description": "Description of the THROTTLE arming disable flag"
