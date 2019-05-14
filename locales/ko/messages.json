@@ -3821,6 +3821,15 @@
     "osdDescStatTotalFlightDistance": {
         "message": "총 비행거리"
     },
+    "osdDescribeFontVersion1": {
+        "message": "폰트 버전: 1 (펌웨어 버전 <= 4.0)"
+    },
+    "osdDescribeFontVersion2": {
+        "message": "폰트 버전: 2 (펌웨어 버전 >= 4.1)"
+    },
+    "osdDescribeFontVersionCUSTOM": {
+        "message": "폰트 버전: 사용자 제공"
+    },
     "osdTimerSource": {
         "message": "소스:"
     },
