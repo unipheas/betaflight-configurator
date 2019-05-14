@@ -698,6 +698,10 @@
         "message": "La Protección de Despegue Incontrolado se ha activado",
         "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCRASH": {
+        "message": "Desarmado por detección de colisión",
+        "description": "Description of the CRASH arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "El canal del acelerador está demasiado alto",
         "description": "Description of the THROTTLE arming disable flag"
@@ -3816,6 +3820,15 @@
     },
     "osdDescStatTotalFlightDistance": {
         "message": "Distancia total recorrida"
+    },
+    "osdDescribeFontVersion1": {
+        "message": "Fuente versión: 1 (firmware versión <= 4.0)"
+    },
+    "osdDescribeFontVersion2": {
+        "message": "Fuente versión: 2 (firmware versión >= 4.1)"
+    },
+    "osdDescribeFontVersionCUSTOM": {
+        "message": "Fuente versión: proporcionada por usuario"
     },
     "osdTimerSource": {
         "message": "Origen:"
