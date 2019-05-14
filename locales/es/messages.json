@@ -1167,9 +1167,6 @@
     "configurationLoopTimeHelp": {
         "message": "<strong>Nota:<\/strong> ¡Asegúrate de que tu FC es capaz de operar a estas velocidades! Comprueba la CPU y la estabilidad del tiempo por ciclo. Al cambiarlo puede ser necesario reajustar el PID. CONSEJO: Deshabilita el Acelerómetro y otros sensores para obtener más rendimiento."
     },
-    "configurationLoopTimeNo32KhzHelp": {
-        "message": "$t(configurationLoopTimeHelp.message)<br><strong>Nota sobre el modo de muestreo de 32 kHz:<\/strong> La posibilidad de muestreo de giro de 32 kHz se añadió en Betaflight como una funcionalidad experimental. En los años en los que ha estado disponible, nunca ha mostrado ninguna ventaja sobre el modo de muestreo de giro de 8 kHz, debido a su susceptibilidad a vibraciones, y a su alto nivel de ruido que requiere un filtrado agresivo, causando retardos en el bucle de control. Por esta razón, <strong>el soporte de muestreo de giro de 32 kHz ha sido eliminado<\/strong> en Betaflight 4.0."
-    },
     "configurationGPS": {
         "message": "GPS"
     },
