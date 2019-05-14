@@ -1167,9 +1167,6 @@
     "configurationLoopTimeHelp": {
         "message": "<strong>注意:<\/strong>FCがこの速度で動作するか確認して下さい！CPUとサイクル時間の安定度を確認して下さい。この変更はPIDの再調整を必要とするかもしれません。TIP: パフォーマンスを上げるためには加速度センサや他センサを無効にします。"
     },
-    "configurationLoopTimeNo32KhzHelp": {
-        "message": "$t(configurationLoopTimeHelp.message)<br><strong>ジャイロ 32kMz サンプリングモードにおける注意事項:<\/strong> 実験的な機能として、ジャイロ 32kHz サンプリングモードがBetaflightに実装されました。利用可能になって以降、機体の振動に過敏であること、および積極的なフィルタリングを必要とし高ノイズとなってしまうことがあるため、ジャイロ 8kHz サンプリングモードを超えるような利点が実績として得られませんでした。このため、Betaflight 4.0では<strong>ジャイロ32 kHzサンプリングモードのサポートを終了致します。<\/strong>"
-    },
     "configurationGPS": {
         "message": "GPS"
     },
