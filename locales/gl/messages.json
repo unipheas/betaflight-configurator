@@ -79,6 +79,22 @@
         "message": "Catalán (ca)",
         "description": "Don't translate!!!"
     },
+    "language_de": {
+        "message": "Deutsch (de)",
+        "description": "Don't translate!!!"
+    },
+    "language_en": {
+        "message": "English (en)",
+        "description": "Don't translate!!!"
+    },
+    "language_es": {
+        "message": "Español (es)",
+        "description": "Don't translate!!!"
+    },
+    "language_fr": {
+        "message": "Français (fr)",
+        "description": "Don't translate!!!"
+    },
     "language_gl": {
         "message": "Galego (gl)",
         "description": "Don't translate!!!"
