@@ -1242,7 +1242,7 @@
         "message": "crwdns5638:0crwdne5638:0"
     },
     "configurationLoopTimeNo32KhzHelp": {
-        "message": "crwdns9010:0$t(configurationLoopTimeHelp.message)crwdne9010:0"
+        "message": "crwdns9132:0$t(configurationLoopTimeHelp.message)crwdne9132:0"
     },
     "configurationGPS": {
         "message": "crwdns5639:0crwdne5639:0"
