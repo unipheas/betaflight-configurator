@@ -1164,9 +1164,6 @@
     "configurationLoopTimeHelp": {
         "message": "<strong>Hinweis:<\/strong> Stelle sicher, dass dein FC mit dieser Geschwindigkeit arbeiten kann. Prüfe die CPU Auslastung und die Cycletime Stabilität. Änderungen führen möglicherweise dazu, dass die PID's neu eingestellt werden müssen. Tipp: Deaktiviere unbenutzte Sensoren, um mehr Leistung zu haben."
     },
-    "configurationLoopTimeNo32KhzHelp": {
-        "message": "$t(configurationLoopTimeHelp.message)<br><strong>Hinweis zum 32 kHz-Gyro Gyro Sampling-Modus:<\/strong> Die Unterstützung für den 32 kHz-Gyro Gyro Sampling-Modus wurde als experimentelles Feature zu Betaflight hinzugefügt. In den Jahren, die es zur Verfügung stand, hat es keinen Vorteil gegenüber dem 8 kHz Gyro Sampling-Modus gezeigt. Aufgrund seiner Anfälligkeit für Vibrationen und des hohen Rauschpegels erfordert dies ein aggressives Filtern, was zu Verzögerungen im Regelkreis führt. Aus diesem Grund <strong>entfällt die Unterstützung für den 32 kHz Sampling Gyro-Modus <\/strong> in Betaflight 4.0."
-    },
     "configurationGPS": {
         "message": "GPS"
     },
