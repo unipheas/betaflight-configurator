@@ -3895,6 +3895,15 @@
     "osdDescStatTotalFlightDistance": {
         "message": "crwdns9110:0crwdne9110:0"
     },
+    "osdDescribeFontVersion1": {
+        "message": "crwdns9126:0crwdne9126:0"
+    },
+    "osdDescribeFontVersion2": {
+        "message": "crwdns9128:0crwdne9128:0"
+    },
+    "osdDescribeFontVersionCUSTOM": {
+        "message": "crwdns9130:0crwdne9130:0"
+    },
     "osdTimerSource": {
         "message": "crwdns6293:0crwdne6293:0"
     },
