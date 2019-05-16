@@ -3359,9 +3359,6 @@
     "osdSetupTitle": {
         "message": "OSD"
     },
-    "osdSetupPreviewHelp": {
-        "message": "<strong>Примечание:<\/strong> OSD предпросмотр может отображаться не тем шрифтом, который установлен в полётном контроллере."
-    },
     "osdSetupUnsupportedNote1": {
         "message": "Ваш полётный контроллер не отвечает на команды OSD. Возможно, это означает, что в него не встроен Betaflight OSD."
     },
