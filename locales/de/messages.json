@@ -3437,9 +3437,6 @@
     "osdSetupTitle": {
         "message": "OSD"
     },
-    "osdSetupPreviewHelp": {
-        "message": "<strong>Hinweis:<\/strong> OSD-Vorschau eventuell nicht in der Schriftart, welche aktuell auf dem FC installiert ist."
-    },
     "osdSetupUnsupportedNote1": {
         "message": "Dein FC reagiert nicht auf OSD-Kommandos. Das bedeutet wahrscheinlich, daß er kein eingebautes Betaflight-OSD hat."
     },
