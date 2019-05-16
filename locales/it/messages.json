@@ -3320,9 +3320,6 @@
     "osdSetupTitle": {
         "message": "OSD"
     },
-    "osdSetupPreviewHelp": {
-        "message": "<strong> Nota: <\/ strong> l'anteprima OSD potrebbe non mostrare il carattere effettivo installato sul controller di volo."
-    },
     "osdSetupUnsupportedNote1": {
         "message": "Il tuo controllore di volo non risponde ai comandi OSD. Questo probabilmente significa che non ha un OSD BetaFlight integrato."
     },
