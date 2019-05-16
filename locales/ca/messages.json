@@ -2827,9 +2827,6 @@
     "osdSetupTitle": {
         "message": "OSD"
     },
-    "osdSetupPreviewHelp": {
-        "message": "<strong>Nota:<\/strong> La previsualització de l'OSD pot no mostrar la font instaŀlada a la controladora de vol."
-    },
     "osdSetupUnsupportedNote1": {
         "message": "La teva controladora de vol no respon a les comandes OSD. Això vol dir, probablement, que no està integrada a l'OSD de BetaFlight"
     },
