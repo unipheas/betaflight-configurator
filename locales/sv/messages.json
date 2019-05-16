@@ -3447,6 +3447,9 @@
     "osdSetupTitle": {
         "message": "OSD"
     },
+    "osdSetupPreviewHelp": {
+        "message": "<strong>Observera:<\/strong> OSD-förhandsgranskningen kanske inte visar det typsnitt som finns installerat på flygkontrollern. Layouten för enskilda element kan se annorlunda ut när äldre versioner av firmwaren används - kontrollera utseendet genom dina goggles före flygning."
+    },
     "osdSetupUnsupportedNote1": {
         "message": "Din flygkontroller svarar inte på OSD-kommandon. Detta innebär förmodligen att den inte har en integrerad BetaFlight-OSD."
     },
