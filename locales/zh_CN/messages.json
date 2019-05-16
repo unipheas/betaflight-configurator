@@ -3418,9 +3418,6 @@
     "osdSetupTitle": {
         "message": "OSD 屏幕叠加显示"
     },
-    "osdSetupPreviewHelp": {
-        "message": "<strong>注意：<\/strong> 预览界面的字体有可能和实际OSD显示的字体不一样。"
-    },
     "osdSetupUnsupportedNote1": {
         "message": "飞控对 OSD 命令无反应，有可能飞控不带 OSD 功能。"
     },
