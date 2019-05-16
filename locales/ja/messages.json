@@ -3824,6 +3824,9 @@
     "osdDescribeFontVersion2": {
         "message": "Font version: 2 (firmware version >= 4.1)"
     },
+    "osdDescribeFontVersionCUSTOM": {
+        "message": "Font version: ユーザ指定"
+    },
     "osdTimerSource": {
         "message": "ソース:"
     },
