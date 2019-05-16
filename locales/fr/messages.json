@@ -3437,9 +3437,6 @@
     "osdSetupTitle": {
         "message": "OSD"
     },
-    "osdSetupPreviewHelp": {
-        "message": "<strong>Note: <\/strong> La police d'écriture sur l’aperçu OSD et celle installée dans le contrôleur de vol peuvent être différentes."
-    },
     "osdSetupUnsupportedNote1": {
         "message": "Votre contrôleur de vol ne répond pas aux commandes OSD. L'OSD intégré n'est probablement pas celui de Betaflight."
     },
