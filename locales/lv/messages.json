@@ -3418,9 +3418,6 @@
     "osdSetupTitle": {
         "message": "OSD"
     },
-    "osdSetupPreviewHelp": {
-        "message": "<strong>Piezīme:<\/strong> OSD priekšskatījums var nerādīt aktuālos fontus, kas ieinstalēti lidojuma kontrolierī."
-    },
     "osdSetupUnsupportedNote1": {
         "message": "Jūsu lidojuma kontrolieris neatbild uz OSD komandām. Visdrīzāk tas nozīmē to, ka tam nav integrēta BetaFlight OSD."
     },
