@@ -3443,9 +3443,6 @@
     "osdSetupTitle": {
         "message": "OSD"
     },
-    "osdSetupPreviewHelp": {
-        "message": "<strong>注:<\/strong> プレビュー画面のフォントは実際のフォントと異なる場合があります。"
-    },
     "osdSetupUnsupportedNote1": {
         "message": "お使いのフライトコントローラはBetaFlight OSDに対応していないようです。"
     },
