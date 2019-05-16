@@ -3471,9 +3471,6 @@
     "osdSetupTitle": {
         "message": "OSD"
     },
-    "osdSetupPreviewHelp": {
-        "message": "<strong> Nota: <\/strong> a vista previa da OSD pode non mostrar a fonte real que está instalada no controlador de voo."
-    },
     "osdSetupUnsupportedNote1": {
         "message": "O controlador de voo non responde aos comandos OSD. Isto probablemente significa que non ten un OSD integrado de BetaFlight."
     },
