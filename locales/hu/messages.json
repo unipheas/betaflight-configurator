@@ -1985,9 +1985,6 @@
     "osdSetupTitle": {
         "message": "OSD"
     },
-    "osdSetupPreviewHelp": {
-        "message": "<strong>Megjegyzés:<\/strong> Az OSD előnézet nem feltétlenül ugyanazt a betűtípust használja, mint ami a repülésirányítón instalálva van."
-    },
     "osdSetupUnsupportedNote1": {
         "message": "A repülésirányító nem reagál az OSD parancsaira. Ezt valószínűleg az okozza, hogy nem rendelkezik beépített BetaFlight OSD-vel."
     },
