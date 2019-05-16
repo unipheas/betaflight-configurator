@@ -3443,9 +3443,6 @@
     "osdSetupTitle": {
         "message": "OSD"
     },
-    "osdSetupPreviewHelp": {
-        "message": "<strong>Napomena:<\/strong> OSD pretpregled možda neće prikazati stvarni font koji je instaliran na kontroleru leta."
-    },
     "osdSetupUnsupportedNote1": {
         "message": "Kontroler leta ne odgovara na OSD komande. Ovo vjerojatno znači da nema integrirani Betaflight OSD."
     },
