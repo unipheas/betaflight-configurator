@@ -3195,9 +3195,6 @@
     "osdSetupTitle": {
         "message": "OSD"
     },
-    "osdSetupPreviewHelp": {
-        "message": "<strong>Catatan:<\/strong> Tinjauan OSD mungkin tidak menampilkan bentuk huruf sebenarnya yang terpasang pada flight controller."
-    },
     "osdSetupUnsupportedNote1": {
         "message": "Flight controller anda tidak menanggapi ke perintah OSD. Mungkin FC anda tidak memiliki OSD Betaflight."
     },
