@@ -3443,6 +3443,9 @@
     "osdSetupTitle": {
         "message": "OSD"
     },
+    "osdSetupPreviewHelp": {
+        "message": "<strong>注:<\/strong> OSDプレビューでは、フライトコントローラにインストールされている実際のフォントが表示されない場合があります。旧バージョンのファームウェアが使用されている場合、OSD項目の個々のレイアウトが異なる場合があります。そのため、飛行する前にゴーグルを通してOSD表示を確認してください。"
+    },
     "osdSetupUnsupportedNote1": {
         "message": "お使いのフライトコントローラはBetaFlight OSDに対応していないようです。"
     },
