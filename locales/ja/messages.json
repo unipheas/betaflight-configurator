@@ -3821,12 +3821,6 @@
     "osdDescStatTotalFlightDistance": {
         "message": "合計飛行距離"
     },
-    "osdDescribeFontVersion1": {
-        "message": "Font version: 1 (firmware version <= 4.0)"
-    },
-    "osdDescribeFontVersion2": {
-        "message": "Font version: 2 (firmware version >= 4.1)"
-    },
     "osdDescribeFontVersionCUSTOM": {
         "message": "Font version: ユーザ指定"
     },
