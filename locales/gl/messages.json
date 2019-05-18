@@ -1198,6 +1198,9 @@
     "configurationLoopTimeHelp": {
         "message": "<strong>Nota:<\/strong> Asegúrese de que a súa FC poida funcionar a estas velocidades. Comprobe a estabilidade da CPU e do ciclo. Cambiar isto pode requirir a reordenación de PID. SUXERENCIA: desactivar o acelerómetro e outros sensores para obter máis rendemento."
     },
+    "configurationLoopTimeNo32KhzHelp": {
+        "message": "$t(configurationLoopTimeHelp.message) <br> <strong> Nota sobre o modo de mostraxe xiratorio de 32 kHz: <\/strong> o soporte para o modo de mostraxe de xiro de 32 kHz engadiuse a Betaflight como unha característica experimental. Nos anos nos que estivo dispoñible, nunca mostrou que ten ningunha vantaxe sobre o modo de mostraxe xiratorio de 8 kHz, debido á súa susceptibilidade ás vibracións e ao seu alto nivel de ruído que require un filtrado agresivo, provocando atrasos no circuíto de control. Por esa razón, o <strong> soporte para o modo de mostraxe xiratorio de 32 kHz foi descartado <\/strong> en Betaflight 4.0."
+    },
     "configurationGPS": {
         "message": "GPS"
     },
@@ -2569,6 +2572,9 @@
     "firmwareFlasherFirmwareLocalLoaded": {
         "message": "Firmware Local Cargado: ($1 bytes)"
     },
+    "firmwareFlasherFirmwareOnlineLoaded": {
+        "message": "Firmware Online cargado: ($1 bytes)"
+    },
     "firmwareFlasherHexCorrupted": {
         "message": "O arquivo HEX parece estar corrupto"
     },
@@ -3471,6 +3477,9 @@
     "osdSetupTitle": {
         "message": "OSD"
     },
+    "osdSetupPreviewHelp": {
+        "message": "<strong> Nota: <\/strong> A vista previa do OSD pode non mostrar a fonte real que está instalada no controlador de voo. O esquema dos elementos individuais pode ter un aspecto diferente cando se usan versións antigas do firmware. Comprobe o aspecto a través dos seus lentes antes de voar."
+    },
     "osdSetupUnsupportedNote1": {
         "message": "O controlador de voo non responde aos comandos OSD. Isto probablemente significa que non ten un OSD integrado de BetaFlight."
     },
@@ -3569,6 +3578,9 @@
     },
     "osdSetupUploadFont": {
         "message": "Cargar Fonte"
+    },
+    "osdSetupUploadingFont": {
+        "message": "Cargando..."
     },
     "osdSetupSave": {
         "message": "Gardar"
@@ -3845,6 +3857,15 @@
     },
     "osdDescStatTotalFlightDistance": {
         "message": "Distancia total percorrida"
+    },
+    "osdDescribeFontVersion1": {
+        "message": "Versión da fonte: 1 (Betaflight 4.0 ou superior)"
+    },
+    "osdDescribeFontVersion2": {
+        "message": "Versión da fonte: 2 (Betaflight 4.1 ou máis recente)"
+    },
+    "osdDescribeFontVersionCUSTOM": {
+        "message": "Versión da fonte: subministrada polo usuario"
     },
     "osdTimerSource": {
         "message": "Orixen:"
