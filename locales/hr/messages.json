@@ -3818,12 +3818,6 @@
     "osdDescStatTotalFlightDistance": {
         "message": "Ukupna pređena udaljenost"
     },
-    "osdDescribeFontVersion1": {
-        "message": "Font verzija: 1 (firmware verzija <= 4.0)"
-    },
-    "osdDescribeFontVersion2": {
-        "message": "Font verzija: 2 (firmware verzija >= 4.1)"
-    },
     "osdDescribeFontVersionCUSTOM": {
         "message": "Font verzija: od korisnika"
     },
