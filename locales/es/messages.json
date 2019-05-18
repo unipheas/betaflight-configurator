@@ -2541,6 +2541,9 @@
     "firmwareFlasherFirmwareLocalLoaded": {
         "message": "Cargado Firmware Local ($1 bytes)"
     },
+    "firmwareFlasherFirmwareOnlineLoaded": {
+        "message": "Cargado Firmware Internet: ($1 bytes)"
+    },
     "firmwareFlasherHexCorrupted": {
         "message": "El archivo HEX parece estar corrupto"
     },
@@ -3545,6 +3548,9 @@
     "osdSetupUploadFont": {
         "message": "Cargar Fuente"
     },
+    "osdSetupUploadingFont": {
+        "message": "Actualizando..."
+    },
     "osdSetupSave": {
         "message": "Guardar"
     },
@@ -3820,6 +3826,12 @@
     },
     "osdDescStatTotalFlightDistance": {
         "message": "Distancia total recorrida"
+    },
+    "osdDescribeFontVersion1": {
+        "message": "Versión de fuente: 1 (Betaflight 4.0 o anterior)"
+    },
+    "osdDescribeFontVersion2": {
+        "message": "Versión de fuente: 2 (Betaflight 4.1 o posterior)"
     },
     "osdDescribeFontVersionCUSTOM": {
         "message": "Fuente versión: proporcionada por usuario"
