@@ -2541,6 +2541,9 @@
     "firmwareFlasherFirmwareLocalLoaded": {
         "message": "로드된 로컬 펌웨어: ($1 바이트)"
     },
+    "firmwareFlasherFirmwareOnlineLoaded": {
+        "message": "로드된 온라인 펌웨어: ($1 바이트)"
+    },
     "firmwareFlasherHexCorrupted": {
         "message": "HEX 파일이 손상된 것으로 보입니다."
     },
@@ -3545,6 +3548,9 @@
     "osdSetupUploadFont": {
         "message": "글꼴 업로드"
     },
+    "osdSetupUploadingFont": {
+        "message": "업로드중..."
+    },
     "osdSetupSave": {
         "message": "저장"
     },
@@ -3820,6 +3826,12 @@
     },
     "osdDescStatTotalFlightDistance": {
         "message": "총 비행거리"
+    },
+    "osdDescribeFontVersion1": {
+        "message": "폰트 버전: 1 (베타플라이트 4.0 또는 이전)"
+    },
+    "osdDescribeFontVersion2": {
+        "message": "폰트 버전: 2 (베타플라이트 4.1 또는 이후)"
     },
     "osdDescribeFontVersionCUSTOM": {
         "message": "폰트 버전: 사용자 제공"
