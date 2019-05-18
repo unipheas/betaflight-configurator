@@ -2615,6 +2615,9 @@
     "firmwareFlasherFirmwareLocalLoaded": {
         "message": "crwdns6447:0$1crwdne6447:0"
     },
+    "firmwareFlasherFirmwareOnlineLoaded": {
+        "message": "crwdns9136:0$1crwdne9136:0"
+    },
     "firmwareFlasherHexCorrupted": {
         "message": "crwdns6007:0crwdne6007:0"
     },
@@ -3618,6 +3621,9 @@
     },
     "osdSetupUploadFont": {
         "message": "crwdns6221:0crwdne6221:0"
+    },
+    "osdSetupUploadingFont": {
+        "message": "crwdns9138:0crwdne9138:0"
     },
     "osdSetupSave": {
         "message": "crwdns6222:0crwdne6222:0"
