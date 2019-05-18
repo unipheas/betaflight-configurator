@@ -3825,12 +3825,6 @@
     "osdDescStatTotalFlightDistance": {
         "message": "Total färdsträcka"
     },
-    "osdDescribeFontVersion1": {
-        "message": "Typsnittsversion: 1 (firmware-version <= 4.0)"
-    },
-    "osdDescribeFontVersion2": {
-        "message": "Typsnittsversion: 2 (firmware-version <= 4.1)"
-    },
     "osdDescribeFontVersionCUSTOM": {
         "message": "Typsnittsversion: från användaren"
     },
