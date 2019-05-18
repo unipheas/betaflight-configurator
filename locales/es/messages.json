@@ -3821,12 +3821,6 @@
     "osdDescStatTotalFlightDistance": {
         "message": "Distancia total recorrida"
     },
-    "osdDescribeFontVersion1": {
-        "message": "Fuente versión: 1 (firmware versión <= 4.0)"
-    },
-    "osdDescribeFontVersion2": {
-        "message": "Fuente versión: 2 (firmware versión >= 4.1)"
-    },
     "osdDescribeFontVersionCUSTOM": {
         "message": "Fuente versión: proporcionada por usuario"
     },
