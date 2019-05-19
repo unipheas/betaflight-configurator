@@ -2545,6 +2545,9 @@
     "firmwareFlasherFirmwareLocalLoaded": {
         "message": "Laddade lokal firmware: ($1 bytes)"
     },
+    "firmwareFlasherFirmwareOnlineLoaded": {
+        "message": "Laddade online-firmware: ($1 bytes)"
+    },
     "firmwareFlasherHexCorrupted": {
         "message": "HEX-filen verkar vara korrupt"
     },
@@ -3549,6 +3552,9 @@
     "osdSetupUploadFont": {
         "message": "Ladda upp teckensnitt"
     },
+    "osdSetupUploadingFont": {
+        "message": "Laddar upp..."
+    },
     "osdSetupSave": {
         "message": "Spara"
     },
@@ -3824,6 +3830,12 @@
     },
     "osdDescStatTotalFlightDistance": {
         "message": "Total färdsträcka"
+    },
+    "osdDescribeFontVersion1": {
+        "message": "Teckensnittsversion: 1 (Betaflight 4.0 eller äldre)"
+    },
+    "osdDescribeFontVersion2": {
+        "message": "Teckensnittsversion: 2 (Betaflight 4.1 eller nyare)"
     },
     "osdDescribeFontVersionCUSTOM": {
         "message": "Typsnittsversion: från användaren"
