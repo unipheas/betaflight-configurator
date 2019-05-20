@@ -698,6 +698,10 @@
         "message": "Runaway Takeoff Prevention è entrato in funzione",
         "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCRASH": {
+        "message": "Disattivato tramite rilevamento collisione",
+        "description": "Description of the CRASH arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "Canale gas troppo alto",
         "description": "Description of the THROTTLE arming disable flag"
@@ -753,6 +757,10 @@
     "initialSetupArmingDisableFlagsTooltipRESC": {
         "message": "E' stato attivato lo switch \"GPS Rescue\"",
         "description": "Description of the RESC arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
+        "message": "Uno dei flag di disarmo è attivo quando si arma",
+        "description": "Description of the ARM_SWITCH arming disable flag"
     },
     "initialSetupGPSHead": {
         "message": "GPS"
@@ -1389,6 +1397,12 @@
     "rcSmoothingInputTypeHelp": {
         "message": "Il tipo di metodo di filtraggio usato per l'input. La maggior parte degli utenti dovrebbero usare il valore di default \"BIQUAD\" poichè esso è un buon compromesso tra XXX e ritardo. \"PT1\" riduce leggermento il ritardo ma offre meno XXX."
     },
+    "receiverRcSmoothingInputHz": {
+        "message": "Frequenza Cutoff d'ingresso"
+    },
+    "receiverRcSmoothingDerivativeCutoff": {
+        "message": "Frequenza Cutoff Derivative"
+    },
     "receiverRcInputType": {
         "message": "Tipo filtro di input"
     },
@@ -1496,6 +1510,9 @@
     },
     "pidTuningThrottleLimitTypeClip": {
         "message": "CLIP"
+    },
+    "pidTuningThrottleLimitPercentTip": {
+        "message": "Impostare la percentuale limite desiderata per il throttle. Impostarla al 100% disabiliterà l'opzione."
     },
     "pidTuningFilter": {
         "message": "Filtro"
@@ -1671,6 +1688,9 @@
     "auxiliaryAddRange": {
         "message": "Attiva"
     },
+    "auxiliaryAddLink": {
+        "message": "Aggiungi collegamento"
+    },
     "auxiliaryButtonSave": {
         "message": "Salva"
     },
@@ -1802,6 +1822,9 @@
     },
     "adjustmentsFunction22": {
         "message": "D Setpoint"
+    },
+    "adjustmentsFunction22_2": {
+        "message": "Regolazione del parametro F del Pitch & Roll"
     },
     "adjustmentsFunction23": {
         "message": "Transizione D Setpoint"
@@ -2157,6 +2180,18 @@
     "cliCopySuccessful": {
         "message": "Copiato!"
     },
+    "cliLoadFromFileBtn": {
+        "message": "Carica da file"
+    },
+    "cliConfirmSnippetDialogTitle": {
+        "message": "Controlla i comandi caricati"
+    },
+    "cliConfirmSnippetNote": {
+        "message": "<strong>Nota<\/strong>: Puoi ricontrollare e modificare i comandi prima dell esecuzione."
+    },
+    "cliConfirmSnippetBtn": {
+        "message": "Esegui"
+    },
     "loggingNote": {
         "message": "I dati saranno registrati <span class=\"message-negative\">soltanto<\/span> in questa schermata, spostandoti da questa la registrazione sarà <span class=\"message-negative\">cancellata<\/span> ed il programma tornerà nel suo stato normale di <strong>\"configuratore\"<\/strong><br \/>. Sei libero di selezionare la frequenza di aggiornamento globale, i dati saranno scritti nel file di registro ogni <strong>1<\/strong> secondi per questioni di prestazioni."
     },
@@ -2476,6 +2511,9 @@
         "message": "Firmware non caricato"
     },
     "firmwareFlasherFirmwareLocalLoaded": {
+        "message": "Caricato Firmware locale: ($1 byte)"
+    },
+    "firmwareFlasherFirmwareOnlineLoaded": {
         "message": "Caricato Firmware locale: ($1 byte)"
     },
     "firmwareFlasherHexCorrupted": {
@@ -2933,8 +2971,14 @@
     "pidTuningVbatPidCompensationHelp": {
         "message": "Aumenta i valori dei PID per compensare la diminuzione del voltaggio della batteria. Darà caratteristiche di volo più costanti per la durata di tutto il volo. La quantità di compensazione applicata è calcolata in base al $t(powerBatteryMaximum.message) impostato nella pagina $t(tabPower.message), quindi assicurati che sia impostato su in valore appropriato."
     },
+    "pidTuningItermRotation": {
+        "message": "I Term Rotation"
+    },
     "pidTuningSmartFeedforward": {
         "message": "Feedforward Intelligente"
+    },
+    "pidTuningItermRelax": {
+        "message": "I Term Relax"
     },
     "pidTuningItermRelaxAxes": {
         "message": "Assi:"
@@ -2965,6 +3009,18 @@
     },
     "pidTuningThrottleBoost": {
         "message": "Boost Gas"
+    },
+    "pidTuningAcroTrainerAngleLimit": {
+        "message": "Angolo limite per l'Acro Trainer"
+    },
+    "pidTuningAcroTrainerAngleLimitHelp": {
+        "message": "Aggiunge una nuova modalita limitamento angolo per piloti che stanno imparando a volare in modalità acro. L'intervallo valido è di 10-80 gradi e deve essere attivato con uno switch nel pannello $t(tabAuxiliary.message)."
+    },
+    "pidTuningIntegratedYaw": {
+        "message": "Yaw integrato"
+    },
+    "pidTuningIntegratedYawCaution": {
+        "message": "<span class=\"message-negative\">ATTENZIONE<\/span>: se attivi questa opzione, dovrari modificare il PID dello YAW di conseguenza. Più informazioni <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">qui<\/a>"
     },
     "configHelp2": {
         "message": "Rotazione arbitraria del controllore di volo, per permettere di montarlo di lato, sottosopra, ruotato ecc.. Quando si utilizzano sensori esterni, usa l'allineamento del sensore (Gyro, Acc, Mag) per definire la posizione del sensore indipendente dall'orientamento del controllore di volo."
@@ -3413,8 +3469,14 @@
     "osdSetupCustomLogoImageSizeError": {
         "message": "Dimensione dell'immagine non valida: {{width}}×{{height}} (expected $t(logoWidthPx)×$t(logoHeightPx))"
     },
+    "osdSetupCustomLogoColorMapError": {
+        "message": "L'immagine contiene un pixel non valido: rgb ({{valueR}}, {{valueG}}, {{valueB}}) alle coordinate {{posX}}×{{posY}}"
+    },
     "osdSetupUploadFont": {
         "message": "Carica carattere"
+    },
+    "osdSetupUploadingFont": {
+        "message": "Caricamento..."
     },
     "osdSetupSave": {
         "message": "Salva"
@@ -3478,6 +3540,9 @@
     },
     "osdDescElementCraftName": {
         "message": "Nome del modello come impostato nella scheda Configurazione"
+    },
+    "osdDescElementDisplayName": {
+        "message": "Mostra il nome come impostato dal comando cli \"display_name\""
     },
     "osdDescElementAltitude": {
         "message": "Altitudine attuale (lampeggia quando sopra la soglia di allarme)"
@@ -3548,6 +3613,9 @@
     "osdDescElementEscRpm": {
         "message": "RPM riportato dalla telemetria ESC"
     },
+    "osdDescElementEscRpmFreq": {
+        "message": "Frequenza RPM trasmessa dalla telemetria degli ESC"
+    },
     "osdDescElementRtcDateTime": {
         "message": "Data \/ ora dell'orologio in tempo reale"
     },
@@ -3568,6 +3636,12 @@
     },
     "osdDescElementCompassBar": {
         "message": "Barra della bussola grafica che mostra la direzione corrente"
+    },
+    "osdDescElementFlipArrow": {
+        "message": "Freccia che mostra quale dei motori laterali sono in alto in modalità tartaruga"
+    },
+    "osdDescElementLinkQuality": {
+        "message": "Indicatore alternativo per la 'qualità di collegamento' basato sulla perdita di frame - usare con cautela"
     },
     "osdDescElementFlightDist": {
         "message": "Distanza percorsa durante questo volo."
@@ -3598,6 +3672,12 @@
     },
     "osdDescGForce": {
         "message": "Mostra la quantità di forza G che sta agendo sul modello"
+    },
+    "osdDescElementMotorDiag": {
+        "message": "Mostra un grafico dell'output per ogni motore"
+    },
+    "osdDescElementLogStatus": {
+        "message": "Numero Blackbox e avvisi"
     },
     "osdDescStatMaxSpeed": {
         "message": "Massima velocità registrata"
@@ -3656,6 +3736,15 @@
     "osdDescStatEscRpm": {
         "message": "Massimo ESC RPM"
     },
+    "osdDescStatMinLinkQuality": {
+        "message": "Minimo dell'indicatore alternativo per la 'qualità del collegamento' basato sulla perdita del frame"
+    },
+    "osdDescStatFlightDistance": {
+        "message": "Distanza totale percorsa durante il volo"
+    },
+    "osdDescStatMaxFFT": {
+        "message": "Frequenza di picco FFT"
+    },
     "osdDescStatTotalFlights": {
         "message": "Numero totale di voli"
     },
@@ -3664,6 +3753,15 @@
     },
     "osdDescStatTotalFlightDistance": {
         "message": "Distanza totale percorsa"
+    },
+    "osdDescribeFontVersion1": {
+        "message": "Versione font: 1 (Betaflight 4.0 o precedente)"
+    },
+    "osdDescribeFontVersion2": {
+        "message": "Versione font: 2 (Betaflight 4.1 o più recente)"
+    },
+    "osdDescribeFontVersionCUSTOM": {
+        "message": "Versione font: fornito dall'utente"
     },
     "osdTimerSource": {
         "message": "Sorgente:"
@@ -3880,6 +3978,9 @@
     },
     "pidTuningPidTuningTip": {
         "message": "<b>Proporzionale:<\/b> Noterai un forte resistenza ad ogni tentativo di muovere il MultiRotore<br><b>Integrale:<\/b> Aumenta la capacità di mantenere la posizione iniziale e riduce il drift, ma aumenta anche il ritardo nel ritornare nella posizione iniziale.<br><b>Derivativo:<\/b> Aumenta la velocità di recupero delle deviazioni, ma aumenta il rumore<br><b>Rates e Expo<\/b>: Determina il funzionamento dei tuoi stick usando questi parametri. Usa il modello 3D per trovare le tue impostazioni preferite"
+    },
+    "pidTuningPidTuningTipFeedforward": {
+        "message": "<b>Proporzionale:<\/b> Noterai una forte forza resistente ad ogni tentativo di muovere il MultiRotore <br><b>Integrale:<\/b> Aumenta l'abilità di mantenere complessivamente la posizione iniziale e di ridurre lo sbando, ma aumenta anche il ritardo nel tornare nella posizione iniziale.<br><b>Derivativo:<\/b> Migliora la velocità alla quale le deviazioni sono corrette, ma aumenta il rumore di fondo<br><b>Feedforward:<\/b>Solitamente il PID controller reagisce al errore. Il Feedforward anticipa l'errore basato sull'input degli stick, fornendo maggior reattività al quadricottero.<br><b>Rates and Expo<\/b>: Determina il funzionamento dei tuoi sticks usando questi parametri. Usa il grafico e il modello interattivo 3D per trovare le tue impostazioni preferite"
     },
     "pidTuningRatesTip": {
         "message": "Gioca con i \"rates\" e verifica come influiscono sulla curva dello stick"
