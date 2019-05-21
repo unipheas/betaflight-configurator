@@ -3465,7 +3465,7 @@
     },
     "osdSetupPreviewSelectProfileTitle": {
         "message": "Aperçu pour",
-        "description": "Label of the selector for the OSD Profile in the preview"
+        "description": "Label of the selector for the OSD Profile in the preview. KEEP IT SHORT!!!"
     },
     "osdSetupSelectedProfileTitle": {
         "message": "Profil OSD actif",
