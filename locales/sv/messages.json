@@ -3474,6 +3474,10 @@
         "message": "Förhandsgranskning för",
         "description": "Label of the selector for the OSD Profile in the preview. KEEP IT SHORT!!!"
     },
+    "osdSetupPreviewForTitle": {
+        "message": "En ändring av profilen eller teckensnittet här kommer INTE att ändra profilen eller teckensnittet i flygkontrollern, ändringen syns bara i förhandsgranskningsfönstret. Om du vill ändra dem måste du använda alternativet '$t(osdSetupSelectedProfileTitle.message)' eller knappen '$t(osdSetupFontManager.message)' för respektive ändring.",
+        "description": "Help content for the OSD profile and font PREVIEW"
+    },
     "osdSetupSelectedProfileTitle": {
         "message": "Aktiv OSD-profil",
         "description": "Title of the box to select the current active OSD profile"
@@ -3485,6 +3489,10 @@
     "osdSetupPreviewSelectProfileElement": {
         "message": "OSD-profil {{profileNumber}}",
         "description": "Content of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupPreviewSelectFontElement": {
+        "message": "Teckensnitt {{fontName}}",
+        "description": "Content of the selector for the OSD Font in the preview"
     },
     "osdSetupPreviewTitleTip": {
         "message": "Visa eller dölj logo i förhandsvisningen. Detta ändrar inga inställningar i flygkontrollern."
@@ -3518,6 +3526,10 @@
     },
     "osdSetupFontPresetsSelector": {
         "message": "Välj förinställningar för teckensnitt:"
+    },
+    "osdSetupFontPresetsSelectorCustomOption": {
+        "message": "Användardefinierat teckensnitt",
+        "description": "Option to show as selected when the user selects a custom local font"
     },
     "osdSetupFontPresetsSelectorOr": {
         "message": "eller"
