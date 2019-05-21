@@ -123,5 +123,131 @@
     },
     "configuratorUpdateNotice": {
         "message": "Du benytter en forældet version af <b>Betaflight Configurator<\/b>.<br>Version <b>$1<\/b> er tilgængelig online, så besøg <a href=\"$2\" target=\"_blank\">udgivelsessiden<\/a> for at downloade og installere den seneste version med fejlrettelser og forbedringer.<br>Luk konfiguratorvinduet inden opdatering."
+    },
+    "configuratorUpdateWebsite": {
+        "message": "Åbn udgivelseswebsted"
+    },
+    "deviceRebooting": {
+        "message": "Enhed - <span class=\"message-negative\">Genstarter<\/span>"
+    },
+    "deviceReady": {
+        "message": "Enhed - <span class=\"message-positive\">Klar<\/span>"
+    },
+    "backupFileIncompatible": {
+        "message": "Beklager, sikkerhedskopifilen er genereret for en tidligere version af konfiguratoren og er inkompatibel med denne version af konfiguratoren"
+    },
+    "backupFileUnmigratable": {
+        "message": "Beklager, sikkerhedskopifilen er genereret af en tidligere version af konfiguratoren og kan ikke migreres."
+    },
+    "configMigrationFrom": {
+        "message": "Migrerer opsætningsfil genereret af konfigurator: $1"
+    },
+    "configMigratedTo": {
+        "message": "Migreret opsætning til konfigurator: $1"
+    },
+    "configMigrationSuccessful": {
+        "message": "Opsætningsmigrering fuldført, migreringer effektueret: $1"
+    },
+    "tabFirmwareFlasher": {
+        "message": "Firmware Flasher"
+    },
+    "tabLanding": {
+        "message": "Velkommen"
+    },
+    "tabHelp": {
+        "message": "Dokumentation og Support"
+    },
+    "tabSetup": {
+        "message": "Opsætning"
+    },
+    "tabSetupOSD": {
+        "message": "OSD-opsætning"
+    },
+    "tabConfiguration": {
+        "message": "Opsætning"
+    },
+    "tabPorts": {
+        "message": "Porte"
+    },
+    "tabPidTuning": {
+        "message": "PID-tuning"
+    },
+    "tabReceiver": {
+        "message": "Modtager"
+    },
+    "tabModeSelection": {
+        "message": "Tilstandsvalg"
+    },
+    "tabServos": {
+        "message": "Servoer"
+    },
+    "tabFailsafe": {
+        "message": "Fejlsikring"
+    },
+    "tabTransponder": {
+        "message": "Race-transponder"
+    },
+    "tabOsd": {
+        "message": "OSD"
+    },
+    "tabPower": {
+        "message": "Strøm og Batteri"
+    },
+    "tabGPS": {
+        "message": "GPS"
+    },
+    "tabMotorTesting": {
+        "message": "Motorer"
+    },
+    "tabLedStrip": {
+        "message": "LED-strimmel"
+    },
+    "tabRawSensorData": {
+        "message": "Sensorer"
+    },
+    "tabCLI": {
+        "message": "CLI"
+    },
+    "tabLogging": {
+        "message": "Kablet logning"
+    },
+    "tabOnboardLogging": {
+        "message": "Blackbox"
+    },
+    "tabAdjustments": {
+        "message": "Justeringer"
+    },
+    "tabAuxiliary": {
+        "message": "Tilstande"
+    },
+    "logActionHide": {
+        "message": "Skjul log"
+    },
+    "logActionShow": {
+        "message": "Vis log"
+    },
+    "serialPortOpened": {
+        "message": "Serielport <span class=\"message-positive\">åbnet<\/span> med ID: $1"
+    },
+    "serialPortOpenFail": {
+        "message": "<span class=\"message-negative\">Mislykkedes<\/span> at åbne serielport"
+    },
+    "serialPortClosedOk": {
+        "message": "Serielport <span class=\"message-positive\">lukket<\/span>"
+    },
+    "serialPortClosedFail": {
+        "message": "<span class=\"message-negative\">Mislykkedes<\/span> at lukke serielport"
+    },
+    "serialUnrecoverable": {
+        "message": "Uoprettelig <span class=\"message-negative\">fejl<\/span> i serielforbindelse, frakobler..."
+    },
+    "usbDeviceOpened": {
+        "message": "USB-enhed <span class=\"message-positive\">åbnet<\/span> med ID: $1"
+    },
+    "usbDeviceOpenFail": {
+        "message": "<span class=\"message-negative\">Mislykkedes<\/span> at åbne USB-enhed!"
+    },
+    "usbDeviceClosed": {
+        "message": "USB-enhed <span class=\"message-positive\">lukket<\/span>"
     }
 }
