@@ -249,5 +249,32 @@
     },
     "usbDeviceClosed": {
         "message": "USB-enhed <span class=\"message-positive\">lukket<\/span>"
+    },
+    "usbDeviceCloseFail": {
+        "message": "<span class=\"message-negative\">Mislykkedes<\/span> at lukke USB-enhed"
+    },
+    "usbDeviceUdevNotice": {
+        "message": "Er <strong>udev-regler<\/strong> korrekt installeret? Se doks for instruktioner"
+    },
+    "stm32UsbDfuNotFound": {
+        "message": "USB DFU ikke fundet"
+    },
+    "stm32TimedOut": {
+        "message": "STM32 - timeout, programmering: MISLYKKET"
+    },
+    "stm32WrongResponse": {
+        "message": "STM32-kommunikation mislykkedes, forkert svar, forventet: $1 (0x$2) modtaget: $3 (0x$4)"
+    },
+    "stm32ContactingBootloader": {
+        "message": "Kontakter bootloader..."
+    },
+    "stm32ContactingBootloaderFailed": {
+        "message": "Bootloader-kommunikationen mislykkedes"
+    },
+    "stm32ResponseBootloaderFailed": {
+        "message": "Intet svar fra bootloader, programmering: MISLYKKET"
+    },
+    "stm32GlobalEraseExtended": {
+        "message": "Eksekverer global chip-sletning (via udvidet sletning)..."
     }
 }
