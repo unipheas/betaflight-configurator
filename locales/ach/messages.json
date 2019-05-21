@@ -3542,7 +3542,11 @@
     },
     "osdSetupPreviewSelectProfileTitle": {
         "message": "crwdns8998:0crwdne8998:0",
-        "description": "Label of the selector for the OSD Profile in the preview"
+        "description": "Label of the selector for the OSD Profile in the preview. KEEP IT SHORT!!!"
+    },
+    "osdSetupPreviewForTitle": {
+        "message": "crwdns9144:0$t(osdSetupSelectedProfileTitle.message)crwdnd9144:0$t(osdSetupFontManager.message)crwdne9144:0",
+        "description": "Help content for the OSD profile and font PREVIEW"
     },
     "osdSetupSelectedProfileTitle": {
         "message": "crwdns9000:0crwdne9000:0",
@@ -3555,6 +3559,10 @@
     "osdSetupPreviewSelectProfileElement": {
         "message": "crwdns9004:0{{profileNumber}}crwdne9004:0",
         "description": "Content of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupPreviewSelectFontElement": {
+        "message": "crwdns9146:0{{fontName}}crwdne9146:0",
+        "description": "Content of the selector for the OSD Font in the preview"
     },
     "osdSetupPreviewTitleTip": {
         "message": "crwdns6210:0crwdne6210:0"
@@ -3588,6 +3596,10 @@
     },
     "osdSetupFontPresetsSelector": {
         "message": "crwdns8825:0crwdne8825:0"
+    },
+    "osdSetupFontPresetsSelectorCustomOption": {
+        "message": "crwdns9148:0crwdne9148:0",
+        "description": "Option to show as selected when the user selects a custom local font"
     },
     "osdSetupFontPresetsSelectorOr": {
         "message": "crwdns8826:0crwdne8826:0"
