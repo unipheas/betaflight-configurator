@@ -3437,7 +3437,7 @@
     },
     "osdSetupPreviewSelectProfileTitle": {
         "message": "预览",
-        "description": "Label of the selector for the OSD Profile in the preview"
+        "description": "Label of the selector for the OSD Profile in the preview. KEEP IT SHORT!!!"
     },
     "osdSetupSelectedProfileTitle": {
         "message": "激活OSD配置文件",
