@@ -18,7 +18,7 @@
         "message": "存储设备尚未就绪。如果是 microSD 卡, 请确保它已被飞控正确识别。"
     },
     "options_title": {
-        "message": "选项"
+        "message": "应用程序选项"
     },
     "connect": {
         "message": "连接"
