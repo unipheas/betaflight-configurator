@@ -3470,6 +3470,10 @@
         "message": "Vista previa para",
         "description": "Label of the selector for the OSD Profile in the preview. KEEP IT SHORT!!!"
     },
+    "osdSetupPreviewForTitle": {
+        "message": "Cambiar aquí el perfil o la fuente NO cambiará el perfil o la fuente en el controlador de vuelo, sólo afecta a la ventana de vista previa. Si deseas cambiarlo, debes usar la opción '$t(osdSetupSelectedProfileTitle.message)' o el botón '$t(osdSetupFontManager.message)' respectivamente.",
+        "description": "Help content for the OSD profile and font PREVIEW"
+    },
     "osdSetupSelectedProfileTitle": {
         "message": "Perfil OSD Activo",
         "description": "Title of the box to select the current active OSD profile"
@@ -3481,6 +3485,10 @@
     "osdSetupPreviewSelectProfileElement": {
         "message": "Perfil OSD {{profileNumber}}",
         "description": "Content of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupPreviewSelectFontElement": {
+        "message": "Fuente {{fontName}}",
+        "description": "Content of the selector for the OSD Font in the preview"
     },
     "osdSetupPreviewTitleTip": {
         "message": "Muestra u oculta el logo en la ventana de vista previa. Esto no cambiar ningún ajuste en el controlador de vuelo."
@@ -3514,6 +3522,10 @@
     },
     "osdSetupFontPresetsSelector": {
         "message": "Elije una Fuente Predefinida:"
+    },
+    "osdSetupFontPresetsSelectorCustomOption": {
+        "message": "Fuente personalizada",
+        "description": "Option to show as selected when the user selects a custom local font"
     },
     "osdSetupFontPresetsSelectorOr": {
         "message": "o"
