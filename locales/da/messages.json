@@ -802,5 +802,47 @@
     },
     "configurationDshotBeeper": {
         "message": "Dshot Beacon-opsætning"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "Brug Dshot beacon (lad motorer afgive bip når frakoblede)"
+    },
+    "configurationDshotBeaconTone": {
+        "message": "Beacon-tone"
+    },
+    "configurationDshotBeaconHelp": {
+        "message": "Dshot-beacon'et benytter ESC'erne og motorerne til lydafgivelse. Dette betyder, at Dshot-beacon'et ikke kan benyttes, når motorerne roterer. Fra Betaflight 3.4: Forsøges der tilkoblet, mens Dshot-beacon'et er aktivt, forekommer en 2 sekunders forsinkelse efter den seneste Dshot beacon-tone, inden fartøjet tilkobles. Dette forhindrer Dshot-beacon funktionen i at forstyrre Dshot-tilkoblingskommandoerne. <br\/><strong>Advarsel:<\/strong> Når aktiveret, sender Dshot-beacon'et strøm gennem motorerne, hvilket kan resultere i for høj varmeudvikling og beskadigelse af motorer og\/eller ESC'er, hvis beacon-styrken er for høj. Benyt BLHeli Configurator eller BLHeli Suite til at justere og teste beacon-styrken."
+    },
+    "configurationBeeper": {
+        "message": "Bipperopsætning"
+    },
+    "beeperGYRO_CALIBRATED": {
+        "message": "Bipper, når gyro er færdigkalibreret"
+    },
+    "beeperDISARMING": {
+        "message": "Bip, når flight controller frakobles"
+    },
+    "beeperARMING": {
+        "message": "Bip, når flight controller tilkobles"
+    },
+    "beeperARMING_GPS_FIX": {
+        "message": "Særlig biptone ved board-tilkobling og GPS-låsning"
+    },
+    "beeperBAT_CRIT_LOW": {
+        "message": "Længere advarselsbip ved kritisk lavt batteriniveau (gentages)"
+    },
+    "beeperBAT_LOW": {
+        "message": "Advarselsbip ved lavt batteriniveau (gentages)"
+    },
+    "beeperGPS_STATUS": {
+        "message": "Benyt bipantal til at angive antal fundne GPS-satellitter"
+    },
+    "beeperRX_SET": {
+        "message": "Bip, når aux-kanal er sat til at bippe"
+    },
+    "beeperACC_CALIBRATION": {
+        "message": "Bekræftelse for Accelerometer flyvekalibrering afsluttet"
+    },
+    "beeperACC_CALIBRATION_FAIL": {
+        "message": "Mislykket Accelerometer flyvekalibrering"
     }
 }
