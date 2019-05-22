@@ -634,5 +634,35 @@
     },
     "featureDISPLAY": {
         "message": "OLED-skærmvisning"
+    },
+    "featureDISPLAYTip": {
+        "message": "Er denne funktion aktiveret, og er ingen visningsenhed tilsluttet (eller er visningsenheden ikke tændt), vil der være en forsinkelse på ca. 10 sek. ved hver flight controller-genstart."
+    },
+    "featureONESHOT125Tip": {
+        "message": "Frakobl flybatteri og fjern propeller inden aktivering."
+    },
+    "featureBLACKBOX": {
+        "message": "Blackbox-flydataoptager"
+    },
+    "featureBLACKBOXTip": {
+        "message": "Efter aktivering, opsæt via fanen BlackBox."
+    },
+    "featureESC_SENSOR": {
+        "message": "Benyt KISS\/BLHeli_32 ESC-telemetri som sensor"
+    },
+    "featureCHANNEL_FORWARDING": {
+        "message": "Videresend aux-kanaler til servoudgange"
+    },
+    "featureTRANSPONDER": {
+        "message": "Race Transponder"
+    },
+    "featureTRANSPONDERTip": {
+        "message": "Efter aktivering, opsæt via fanen Race Transponder."
+    },
+    "featureOSD": {
+        "message": "On Screen-visning"
+    },
+    "featureVTX": {
+        "message": "Videosender"
     }
 }
