@@ -781,5 +781,26 @@
     },
     "configurationDigitalIdlePercent": {
         "message": "Motortomgangsniveau [percent]"
+    },
+    "configurationDigitalIdlePercentHelp": {
+        "message": "Dette er tomgangsniveauet i procent ift. maksimal gas, der sendes til ESC'erne, når fartøjet er tilkoblet, og gaspinden er i minimumsposition. Forøg procentværdien for højere tomgangshastighed."
+    },
+    "configurationThrottleMinimum": {
+        "message": "Minimumsgas (laveste ESC-værdi, når tilkoblet)"
+    },
+    "configurationThrottleMinimumHelp": {
+        "message": "Dette er tomgangsniveauet, der sendes til ESC'erne, når fartøjet er tilkoblet, og gaspinden er i minimumsposition. Forøg værdien for højere tomgangshastighed. Forøg også værdien i tilfælde af desyncs!"
+    },
+    "configurationThrottleMaximum": {
+        "message": "Maksimumsgas (højeste ESC-værdi, når tilkoblet)"
+    },
+    "configurationThrottleMinimumCommand": {
+        "message": "Minimumskommando (ESC-værdi, når frakoblet)"
+    },
+    "configurationThrottleMinimumCommandHelp": {
+        "message": "Værdien, der sendes til ESC'erne, når fartøjet er frakoblet. Sæt dette til en værdi, der har motorene stoppet (1.000 for de fleste ESC'ere)."
+    },
+    "configurationDshotBeeper": {
+        "message": "Dshot Beacon-opsætning"
     }
 }
