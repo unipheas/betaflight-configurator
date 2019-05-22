@@ -706,5 +706,68 @@
     },
     "configurationSerialRXHelp": {
         "message": "<strong>Bemærk:<\/strong> Husk at opsætte en serielport (via fanen Porte) og vælg en Serielmodtagerleverandør, når RX_SERIAL-funktionen benyttes."
+    },
+    "configurationOtherFeaturesHelp": {
+        "message": "<strong>Bemærk:<\/strong> Ikke alle funktioner understøttes af alle flight controllere. Aktiveres en bestemt funktion, og er den derefter deaktiveret, når du har valgt \"Gem og genstart\", er funktionen uunderstøttet af boardet."
+    },
+    "configurationBoardAlignment": {
+        "message": "Board- og Sensorjustering"
+    },
+    "configurationBoardAlignmentRoll": {
+        "message": "Roll-grader"
+    },
+    "configurationBoardAlignmentPitch": {
+        "message": "Pitch-grader"
+    },
+    "configurationBoardAlignmentYaw": {
+        "message": "Yaw-grader"
+    },
+    "configurationSensorAlignmentGyro": {
+        "message": "GYRO-justering"
+    },
+    "configurationSensorGyroToUse": {
+        "message": "GYRO\/ACCEL"
+    },
+    "configurationSensorGyroToUseFirst": {
+        "message": "Første"
+    },
+    "configurationSensorGyroToUseSecond": {
+        "message": "Sekundære"
+    },
+    "configurationSensorGyroToUseBoth": {
+        "message": "Begge"
+    },
+    "configurationSensorAlignmentGyro1": {
+        "message": "Første GYRO"
+    },
+    "configurationSensorAlignmentGyro2": {
+        "message": "Sekundære GYRO"
+    },
+    "configurationSensorAlignmentAcc": {
+        "message": "ACCEL-justering"
+    },
+    "configurationSensorAlignmentMag": {
+        "message": "MAG-justering"
+    },
+    "configurationSensorAlignmentDefaultOption": {
+        "message": "Standard"
+    },
+    "configurationAccelTrims": {
+        "message": "Accelerometertrim"
+    },
+    "configurationAccelTrimRoll": {
+        "message": "Accelerometer Roll-trim"
+    },
+    "configurationAccelTrimPitch": {
+        "message": "Accelerometer Pitch-trim"
+    },
+    "configurationArming": {
+        "message": "Tilkobling"
+    },
+    "configurationArmingHelp": {
+        "message": "Visse Tilkoblingsfunktioner kan kræve aktivt accelerometer"
+    },
+    "configurationMagDeclination": {
+        "message": "Magnetometerdeclination [deg]"
     }
 }
