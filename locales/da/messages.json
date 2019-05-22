@@ -703,5 +703,8 @@
     },
     "configurationFeaturesHelp": {
         "message": "<strong>Bemærk:<\/strong> Ikke alle funktionskombinationer fungerer. Opdager flight controller-firmwaren ugyldige funktionskombinationer, deaktiveres modstridende funktioner.<br \/><strong>Bemærk:<\/strong> Opsæt serielporte <span class=\"message-negative\">inden<\/span> aktivering af funktioner, som skal benytter portene."
+    },
+    "configurationSerialRXHelp": {
+        "message": "<strong>Bemærk:<\/strong> Husk at opsætte en serielport (via fanen Porte) og vælg en Serielmodtagerleverandør, når RX_SERIAL-funktionen benyttes."
     }
 }
