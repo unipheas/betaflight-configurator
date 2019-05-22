@@ -433,5 +433,56 @@
     },
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+    },
+    "initialSetupCalibrateMagText": {
+        "message": "Bevæg indenfor 30 sek. multirotoren mindst <strong>360<\/strong> grader i alle dens rotationsakser"
+    },
+    "initialSetupButtonReset": {
+        "message": "Nulstil Indstillinger"
+    },
+    "initialSetupResetText": {
+        "message": "Gendan til <strong>standardindstillinger<\/strong>"
+    },
+    "initialSetupButtonBackup": {
+        "message": "Sikkerhedskopiér"
+    },
+    "initialSetupButtonRestore": {
+        "message": "Gendan"
+    },
+    "initialSetupButtonRebootBootloader": {
+        "message": "Aktivér Boot Loader\/DFU"
+    },
+    "initialSetupRebootBootloaderText": {
+        "message": "Reboot til <strong>boot loader-\/DFU-tilstand<\/strong>."
+    },
+    "initialSetupBackupSuccess": {
+        "message": "Sikkerhedskopi er <span class=\"message-positive\">gemt<\/span>"
+    },
+    "initialSetupRestoreSuccess": {
+        "message": "Opsætning blev <span class=\"message-positive\">gendannet<\/span>"
+    },
+    "initialSetupMixerHead": {
+        "message": "Mixertype"
+    },
+    "initialSetupThrottleHead": {
+        "message": "Gasindstillinger"
+    },
+    "initialSetupMinimum": {
+        "message": "Minimum:"
+    },
+    "initialSetupMaximum": {
+        "message": "Maksimum:"
+    },
+    "initialSetupFailsafe": {
+        "message": "Fejlsikring:"
+    },
+    "initialSetupBatteryHead": {
+        "message": "Batteri"
+    },
+    "initialSetupMinCellV": {
+        "message": "Min. Cellespænd.:"
+    },
+    "initialSetupMaxCellV": {
+        "message": "Maks. Cellespænd.:"
     }
 }
