@@ -275,6 +275,33 @@
         "message": "Intet svar fra bootloader, programmering: MISLYKKET"
     },
     "stm32GlobalEraseExtended": {
-        "message": "Eksekverer global chip-sletning (via udvidet sletning)..."
+        "message": "Udfører global chip-sletning (via udvidet sletning)..."
+    },
+    "stm32LocalEraseExtended": {
+        "message": "Udfører lokal sletning (via udvidet sletning)..."
+    },
+    "stm32GlobalErase": {
+        "message": "Udfører global chip-sletning..."
+    },
+    "stm32LocalErase": {
+        "message": "Udfører lokal sletning..."
+    },
+    "stm32Erase": {
+        "message": "Sletter..."
+    },
+    "stm32Flashing": {
+        "message": "Flasher..."
+    },
+    "stm32Verifying": {
+        "message": "Verificerer..."
+    },
+    "stm32ProgrammingSuccessful": {
+        "message": "Programmering: LYKKEDES"
+    },
+    "stm32ProgrammingFailed": {
+        "message": "Programmering: MISLYKKEDES"
+    },
+    "stm32NotReadProtected": {
+        "message": "Læsebeskyttelse inaktiv"
     }
 }
