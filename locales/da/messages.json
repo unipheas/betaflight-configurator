@@ -844,5 +844,26 @@
     },
     "beeperACC_CALIBRATION_FAIL": {
         "message": "Mislykket Accelerometer flyvekalibrering"
+    },
+    "beeperREADY_BEEP": {
+        "message": "Afgiv ringetone, når GPS er låst og klar"
+    },
+    "beeperDISARM_REPEAT": {
+        "message": "Biplyd mens pind holdes i frakoblingsposition"
+    },
+    "beeperARMED": {
+        "message": "Advarselbip, når board tilkobles med motorer stoppet i tomgang (gentages, indtil board frakobles\/gassen øges)"
+    },
+    "beeperSYSTEM_INIT": {
+        "message": "Initialiseringsbip, når board tændes"
+    },
+    "beeperUSB": {
+        "message": "Bip, når flight controller strømfødes fra USB. Slå evt. bipper fra i servicesituationer (f.eks. når på arbejdsbord)"
+    },
+    "beeperBLACKBOX_ERASE": {
+        "message": "Bip ved fuldført Blackbox-sletning"
+    },
+    "beeperCRASH_FLIP": {
+        "message": "Bip, når crash flip-tistand er aktiv"
     }
 }
