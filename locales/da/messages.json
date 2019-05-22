@@ -484,5 +484,56 @@
     },
     "initialSetupMaxCellV": {
         "message": "Maks. Cellespænd.:"
+    },
+    "initialSetupAccelTrimsHead": {
+        "message": "Accelerometer-trims"
+    },
+    "initialSetupMagHead": {
+        "message": "Magnetometer"
+    },
+    "initialSetupDeclination": {
+        "message": "Deklination:"
+    },
+    "initialSetupInfoHead": {
+        "message": "Info"
+    },
+    "initialSetupBattery": {
+        "message": "Batterispænd.:"
+    },
+    "initialSetupBatteryValue": {
+        "message": "$1 V"
+    },
+    "initialSetupDrawn": {
+        "message": "Kapacitetsforbrug:"
+    },
+    "initialSetupBatteryMahValue": {
+        "message": "$1 mAh"
+    },
+    "initialSetupBatteryAValue": {
+        "message": "$1 A"
+    },
+    "initialSetupRSSI": {
+        "message": "RSSI:"
+    },
+    "initialSetupRSSIValue": {
+        "message": "$1 %"
+    },
+    "initialSetupArmingDisableFlags": {
+        "message": "Tilkobler Deaktiveringsflag:"
+    },
+    "initialSetupArmingAllowed": {
+        "message": "Tilkobling Tilladt"
+    },
+    "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
+        "message": "En gyro blev ikke fundet",
+        "description": "Description of the NO GYRO arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
+        "message": "Fejlsikring er aktiv",
+        "description": "Description of the FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
+        "message": "Intet gyldigt modtagersignal fundet",
+        "description": "Description of the RX_FAILSAFE arming disable flag"
     }
 }
