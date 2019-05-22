@@ -865,5 +865,35 @@
     },
     "beeperCRASH_FLIP": {
         "message": "Bip, når crash flip-tistand er aktiv"
+    },
+    "beeperCAM_CONNECTION_OPEN": {
+        "message": "Bip, når 5-tasts kamerakontrol tilgås"
+    },
+    "beeperCAM_CONNECTION_CLOSE": {
+        "message": "Bip, når 5-tasts kamerakontrol forlades"
+    },
+    "beeperRC_SMOOTHING_INIT_FAIL": {
+        "message": "Bip når tilkoblet og rc smooting ikke har initialiseret filtre"
+    },
+    "configuration3d": {
+        "message": "3D ESC\/Motorfunktioner"
+    },
+    "configuration3dDeadbandLow": {
+        "message": "3D Deadband Lav"
+    },
+    "configuration3dDeadbandHigh": {
+        "message": "3D Deadband Høj"
+    },
+    "configuration3dNeutral": {
+        "message": "3D Neutral"
+    },
+    "configuration3dDeadbandThrottle": {
+        "message": "3D Deadband Gas"
+    },
+    "configurationSystem": {
+        "message": "Systemopsætning"
+    },
+    "configurationLoopTime": {
+        "message": "Flight Controller Loop-tid"
     }
 }
