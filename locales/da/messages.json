@@ -535,5 +535,101 @@
     "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
         "message": "Intet gyldigt modtagersignal fundet",
         "description": "Description of the RX_FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
+        "message": "Sensorkalibrering er stadig i gang",
+        "description": "Description of the CALIBRATING arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCLI": {
+        "message": "CLI er aktiv",
+        "description": "Description of the CLI arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
+        "message": "CMS (opsætningsmenu) er Aktiv - via OSD\/anden skærm -",
+        "description": "Description of the CMS_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
+        "message": "OSD-menu er aktiv",
+        "description": "Description of the OSD_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipPARALYZE": {
+        "message": "Paralyze-tilstand er aktivatet",
+        "description": "Description of the PARALYZE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRESC": {
+        "message": "Kontakten 'GPS-redning' er aktiveret",
+        "description": "Description of the RESC arming disable flag"
+    },
+    "initialSetupGPSHead": {
+        "message": "GPS"
+    },
+    "initialSetupInstrumentsHead": {
+        "message": "Instrumenter"
+    },
+    "initialSetupButtonSave": {
+        "message": "Gem"
+    },
+    "initialSetupModel": {
+        "message": "Model: $1"
+    },
+    "initialSetupAttitude": {
+        "message": "$1 gr"
+    },
+    "initialSetupAccelCalibStarted": {
+        "message": "Accelerometerkalibrering startet"
+    },
+    "initialSetupAccelCalibEnded": {
+        "message": "Accelerometerkalibrering <span class=\"message-positive\">færdig<\/span>"
+    },
+    "initialSetupMagCalibStarted": {
+        "message": "Magnetometerkalibrering startet"
+    },
+    "initialSetupMagCalibEnded": {
+        "message": "Magnetometerkalibrering <span class=\"message-positive\">færdig<\/span>"
+    },
+    "initialSetupEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">gemt<\/span>"
+    },
+    "featureNone": {
+        "message": "&lt;Vælg en&gt;"
+    },
+    "featureRX_PPM": {
+        "message": "PPM RX-input"
+    },
+    "featureVBAT": {
+        "message": "Batterispændingsmonitering"
+    },
+    "featureRX_SERIAL": {
+        "message": "Serielbaseret modtager (SPEKSAT, SBUS, SUMD)"
+    },
+    "featureMOTOR_STOP": {
+        "message": "Rotér ikke motorerer, når tilkoblet"
+    },
+    "featureSOFTSERIALTip": {
+        "message": "Opsæt porte på fanen Porte efter aktivering."
+    },
+    "featureGPS": {
+        "message": "GPS til navigation og telemetri"
+    },
+    "featureGPSTip": {
+        "message": "Opsæt først portscenarie"
+    },
+    "featureSONAR": {
+        "message": "Sonar"
+    },
+    "featureTELEMETRY": {
+        "message": "Telemetri-output"
+    },
+    "featureCURRENT_METER": {
+        "message": "Batterstrømmonitering"
+    },
+    "featureRX_PARALLEL_PWM": {
+        "message": "PWM RX-input (én ledning pr. kanal)"
+    },
+    "featureRX_MSP": {
+        "message": "MSP RX-input (styring via MSP-port)"
+    },
+    "featureRSSI_ADC": {
+        "message": "Analog RSSI-input"
     }
 }
