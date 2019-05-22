@@ -631,5 +631,8 @@
     },
     "featureRSSI_ADC": {
         "message": "Analog RSSI-input"
+    },
+    "featureDISPLAY": {
+        "message": "OLED-skærmvisning"
     }
 }
