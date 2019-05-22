@@ -700,5 +700,8 @@
     },
     "configurationEscFeatures": {
         "message": "ESC-\/Motorfunktioner"
+    },
+    "configurationFeaturesHelp": {
+        "message": "<strong>Bemærk:<\/strong> Ikke alle funktionskombinationer fungerer. Opdager flight controller-firmwaren ugyldige funktionskombinationer, deaktiveres modstridende funktioner.<br \/><strong>Bemærk:<\/strong> Opsæt serielporte <span class=\"message-negative\">inden<\/span> aktivering af funktioner, som skal benytter portene."
     }
 }
