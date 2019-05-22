@@ -664,5 +664,41 @@
     },
     "featureVTX": {
         "message": "Videosender"
+    },
+    "featureFAILSAFEOld": {
+        "message": "Aktivér Fejlsikring"
+    },
+    "featureFAILSAFETip": {
+        "message": "<strong>Bemærk:<\/strong> Når Triin 2 er DEAKTIVERET, benyttes fejlsikringsindstillingen <strong>Auto<\/strong> for alle flykanalerne (Roll, Pitch, Yaw og Gas) i stedet for brugerindstillingerne."
+    },
+    "configurationFeatureEnabled": {
+        "message": "Aktiveret"
+    },
+    "configurationFeatureName": {
+        "message": "Funktion"
+    },
+    "configurationFeatureDescription": {
+        "message": "Beskriveslse"
+    },
+    "configurationMixer": {
+        "message": "Mixer"
+    },
+    "configurationFeatures": {
+        "message": "Øvrige funktioner"
+    },
+    "configurationReceiver": {
+        "message": "Modtager"
+    },
+    "configurationReceiverMode": {
+        "message": "Modtagertilstand"
+    },
+    "configurationRSSI": {
+        "message": "RSSI (signalstyrke)"
+    },
+    "configurationRSSIHelp": {
+        "message": "RSSI er en måling af signalstyrke og er meget praktisk for at vide, hvornår dit fly når uden for rækkevidde eller udsættes for RF-interferens."
+    },
+    "configurationEscFeatures": {
+        "message": "ESC-\/Motorfunktioner"
     }
 }
