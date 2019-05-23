@@ -304,6 +304,12 @@
     "stm32NotReadProtected": {
         "message": "Læsebeskyttelse inaktiv"
     },
+    "stm32ReadProtected": {
+        "message": "Board synes læsbeskyttet. Afbeskytter. Afbryd ikke\/fjern ikke stikket!"
+    },
+    "stm32UnprotectSuccessful": {
+        "message": "Beskyttelse fjernet."
+    },
     "infoVersions": {
         "message": "Kører - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
@@ -774,7 +780,7 @@
         "message": "Denne mulighed opsætter mixeren til at forvente, at motorretningen skal vendes, og at propellerne er tilsvarende monteret. <strong>Advarsel:<\/strong> Dette vender ikke motorretningen. Brug opsætningssværktøjet til dine ESC'er eller skift ESC-motorledningsrækkefølgen for at opnå dette. Tjek også, uden propeller, at dine motorer roterer i retningerne vist i diagrammet ovenfor, inden du forsøger at tilkoble."
     },
     "configurationDisarmKillSwitch": {
-        "message": "Frakobl motorer uanset gasværdi (når ARM er opsat på fanebladet Tilstande via AUX-kanal)"
+        "message": "Afkobl motorer uanset gasværdi (når ARM er opsat på fanebladet Tilstande via AUX-kanal)"
     },
     "configurationDisarmKillSwitchHelp": {
         "message": "Tilkobling er altid deaktiveret, når gas ikke er lav. Vær forsigtig, med denne indstilling aktiv kan du ved et uheld tilkoble via en kontakt under flyvning."
