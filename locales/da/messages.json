@@ -542,6 +542,10 @@
         "message": "Intet gyldigt modtagersignal fundet",
         "description": "Description of the RX_FAILSAFE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCRASH": {
+        "message": "Afkoblet via havaridetektering",
+        "description": "Description of the CRASH arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
         "message": "Sensorkalibrering er stadig i gang",
         "description": "Description of the CALIBRATING arming disable flag"
@@ -558,6 +562,10 @@
         "message": "OSD-menu er aktiv",
         "description": "Description of the OSD_MENU arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipBST": {
+        "message": "En Black Sheep-telemetrienhed (f.eks. TBS Core Pro) er afkoblet og forhindrer tilkobling",
+        "description": "Description of the BST arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
         "message": "Paralyze-tilstand er aktivatet",
         "description": "Description of the PARALYZE arming disable flag"
@@ -565,6 +573,10 @@
     "initialSetupArmingDisableFlagsTooltipRESC": {
         "message": "Kontakten 'GPS-redning' er aktiveret",
         "description": "Description of the RESC arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
+        "message": "Et af de øvrige afkoblingsflag er aktivt under tilkobling",
+        "description": "Description of the ARM_SWITCH arming disable flag"
     },
     "initialSetupGPSHead": {
         "message": "GPS"
@@ -801,16 +813,16 @@
         "message": "Maksimumsgas (højeste ESC-værdi, når tilkoblet)"
     },
     "configurationThrottleMinimumCommand": {
-        "message": "Minimumskommando (ESC-værdi, når frakoblet)"
+        "message": "Minimumskommando (ESC-værdi, når afkoblet)"
     },
     "configurationThrottleMinimumCommandHelp": {
-        "message": "Værdien, der sendes til ESC'erne, når fartøjet er frakoblet. Sæt dette til en værdi, der har motorene stoppet (1.000 for de fleste ESC'ere)."
+        "message": "Værdien, der sendes til ESC'erne, når fartøjet er afkoblet. Sæt dette til en værdi, der har motorene stoppet (1.000 for de fleste ESC'ere)."
     },
     "configurationDshotBeeper": {
         "message": "Dshot Beacon-opsætning"
     },
     "configurationUseDshotBeeper": {
-        "message": "Brug Dshot beacon (lad motorer afgive bip når frakoblede)"
+        "message": "Brug Dshot beacon (lad motorer afgive bip når afkoblede)"
     },
     "configurationDshotBeaconTone": {
         "message": "Beacon-tone"
@@ -825,7 +837,7 @@
         "message": "Bipper, når gyro er færdigkalibreret"
     },
     "beeperDISARMING": {
-        "message": "Bip, når flight controller frakobles"
+        "message": "Bip, når flight controller afkobles"
     },
     "beeperARMING": {
         "message": "Bip, når flight controller tilkobles"
@@ -855,10 +867,10 @@
         "message": "Afgiv ringetone, når GPS er låst og klar"
     },
     "beeperDISARM_REPEAT": {
-        "message": "Biplyd mens pind holdes i frakoblingsposition"
+        "message": "Biplyd mens pind holdes i afkoblingsposition"
     },
     "beeperARMED": {
-        "message": "Advarselbip, når board tilkobles med motorer stoppet i tomgang (gentages, indtil board frakobles\/gassen øges)"
+        "message": "Advarselbip, når board tilkobles med motorer stoppet i tomgang (gentages, indtil board afkobles eller gassen øges)"
     },
     "beeperSYSTEM_INIT": {
         "message": "Initialiseringsbip, når board tændes"
@@ -901,5 +913,12 @@
     },
     "configurationLoopTime": {
         "message": "Flight Controller Loop-tid"
+    },
+    "ledStripModeColorsModeDisarmed": {
+        "message": "Afkoblet",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "osdDescElementDisarmed": {
+        "message": "Afkoblet-tekstmeddelelse"
     }
 }
