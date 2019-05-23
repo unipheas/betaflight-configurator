@@ -563,7 +563,7 @@
         "description": "Description of the OSD_MENU arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipBST": {
-        "message": "En Black Sheep-telemetrienhed (f.eks. TBS Core Pro) er afkoblet og forhindrer tilkobling",
+        "message": "En Black Sheep-telemetrienhed (f.eks. TBS Core Pro) er afkoblet og forhindrer indkobling",
         "description": "Description of the BST arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
@@ -575,7 +575,7 @@
         "description": "Description of the RESC arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
-        "message": "Et af de øvrige afkoblingsflag er aktivt under tilkobling",
+        "message": "Et af de øvrige afkoblingsflag er aktivt under indkobling",
         "description": "Description of the ARM_SWITCH arming disable flag"
     },
     "initialSetupGPSHead": {
@@ -795,7 +795,7 @@
         "message": "Afkobl motorer uanset gasværdi (når ARM er opsat på fanebladet Tilstande via AUX-kanal)"
     },
     "configurationDisarmKillSwitchHelp": {
-        "message": "Tilkobling er altid deaktiveret, når gas ikke er lav. Vær forsigtig, med denne indstilling aktiv kan du ved et uheld tilkoble via en kontakt under flyvning."
+        "message": "Indkobling er altid deaktiveret, når gas ikke er lav. Vær forsigtig, med denne indstilling aktiv kan du ved et uheld indkoble via en kontakt under flyvning."
     },
     "configurationDigitalIdlePercent": {
         "message": "Motortomgangsniveau [percent]"
@@ -822,7 +822,7 @@
         "message": "Dshot Beacon-opsætning"
     },
     "configurationUseDshotBeeper": {
-        "message": "Brug Dshot beacon (lad motorer afgive bip når afkoblede)"
+        "message": "Benyt Dshot-beacon (lad motorer afgive bip, når afkoblede)"
     },
     "configurationDshotBeaconTone": {
         "message": "Beacon-tone"
@@ -870,7 +870,7 @@
         "message": "Biplyd mens pind holdes i afkoblingsposition"
     },
     "beeperARMED": {
-        "message": "Advarselbip, når board tilkobles med motorer stoppet i tomgang (gentages, indtil board afkobles eller gassen øges)"
+        "message": "Advarselbip, når board indkobles med motorer stoppet i tomgang (gentages, indtil board afkobles eller gassen øges)"
     },
     "beeperSYSTEM_INIT": {
         "message": "Initialiseringsbip, når board tændes"
