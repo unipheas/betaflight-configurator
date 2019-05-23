@@ -3467,6 +3467,10 @@
         "message": "プレビュー",
         "description": "Label of the selector for the OSD Profile in the preview. KEEP IT SHORT!!!"
     },
+    "osdSetupPreviewForTitle": {
+        "message": "ここでプロファイルまたはフォントを変更しても、FC側のプロファイルまたはフォントは変更されず、プレビュー画面にのみ反映します。変更したい場合は、それぞれ $t(osdSetupSelectedProfileTitle.message) オプションまたは\n $t(osdSetupFontManager.message) ボタンを使用してください。",
+        "description": "Help content for the OSD profile and font PREVIEW"
+    },
     "osdSetupSelectedProfileTitle": {
         "message": "OSDプロファイル有効",
         "description": "Title of the box to select the current active OSD profile"
@@ -3478,6 +3482,10 @@
     "osdSetupPreviewSelectProfileElement": {
         "message": "OSDプロファイル {{profileNumber}}",
         "description": "Content of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupPreviewSelectFontElement": {
+        "message": "フォント {{fontName}}",
+        "description": "Content of the selector for the OSD Font in the preview"
     },
     "osdSetupPreviewTitleTip": {
         "message": "表示またはプレビューウィンドウでロゴを非表示にします。フライトコント ローラの設定は変わりません。"
@@ -3512,6 +3520,10 @@
     "osdSetupFontPresetsSelector": {
         "message": "フォントプリセットを選択:"
     },
+    "osdSetupFontPresetsSelectorCustomOption": {
+        "message": "ユーザ指定フォント",
+        "description": "Option to show as selected when the user selects a custom local font"
+    },
     "osdSetupFontPresetsSelectorOr": {
         "message": "or"
     },
@@ -3544,6 +3556,9 @@
     },
     "osdSetupUploadFont": {
         "message": "フォントアップロード"
+    },
+    "osdSetupUploadingFont": {
+        "message": "アップロード中..."
     },
     "osdSetupSave": {
         "message": "保存"
@@ -3821,8 +3836,14 @@
     "osdDescStatTotalFlightDistance": {
         "message": "合計飛行距離"
     },
+    "osdDescribeFontVersion1": {
+        "message": "フォントバージョン: 1 (Betaflight 4.0以前)"
+    },
+    "osdDescribeFontVersion2": {
+        "message": "フォントバージョン: 2 (Betaflight 4.1以降)"
+    },
     "osdDescribeFontVersionCUSTOM": {
-        "message": "Font version: ユーザ指定"
+        "message": "フォントバージョン: ユーザ指定"
     },
     "osdTimerSource": {
         "message": "ソース:"
