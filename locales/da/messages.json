@@ -926,5 +926,11 @@
     },
     "osdDescElementDisarmed": {
         "message": "Afkoblet-tekstmeddelelse"
+    },
+    "osdDescStatTimer1": {
+        "message": "Værdi af timer 1 på afkoblingstidspunkt"
+    },
+    "osdDescStatTimer2": {
+        "message": "Værdi af timer 2 på afkoblingstidspunkt"
     }
 }
