@@ -525,10 +525,10 @@
         "message": "$1 %"
     },
     "initialSetupArmingDisableFlags": {
-        "message": "Tilkobler Deaktiveringsflag:"
+        "message": "Indkoblingsdeaktiveringsflag:"
     },
     "initialSetupArmingAllowed": {
-        "message": "Tilkobling Tilladt"
+        "message": "Indkobling Tilladt"
     },
     "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
         "message": "En gyro blev ikke fundet",
@@ -545,6 +545,10 @@
     "initialSetupArmingDisableFlagsTooltipCRASH": {
         "message": "Afkoblet via havaridetektering",
         "description": "Description of the CRASH arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
+        "message": "Indkoblet for hurtigt efter Tænd",
+        "description": "Description of the BOOT_GRACE_TIME arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
         "message": "Sensorkalibrering er stadig i gang",
