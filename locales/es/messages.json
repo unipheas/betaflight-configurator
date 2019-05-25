@@ -3701,6 +3701,12 @@
     "osdDescElementEscRpmFreq": {
         "message": "Frecuencia RPM reportada por la telemetría de los ESC"
     },
+    "osdDescElementRateProfileName": {
+        "message": "Muestra el nombre del perfil de tasas actual"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "Muestra el nombre del perfil PID actual"
+    },
     "osdDescElementRtcDateTime": {
         "message": "Fecha \/ Hora en tiempo real"
     },
@@ -3763,6 +3769,9 @@
     },
     "osdDescElementLogStatus": {
         "message": "Número de caja negra y avisos"
+    },
+    "osdDescElementOsdProfileName": {
+        "message": "Nombre del perfil OSD tal como esté configurado en las variables CLI \"osd_profile_1_name\", \"osd_profile_2_name\" y \"osd_profile_3_name\""
     },
     "osdDescStatMaxSpeed": {
         "message": "Máxima velocidad registrada"
