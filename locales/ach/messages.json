@@ -3838,6 +3838,9 @@
     "osdDescElementLogStatus": {
         "message": "crwdns8859:0crwdne8859:0"
     },
+    "osdDescElementOsdProfileName": {
+        "message": "crwdns9150:0crwdne9150:0"
+    },
     "osdDescStatMaxSpeed": {
         "message": "crwdns6278:0crwdne6278:0"
     },
