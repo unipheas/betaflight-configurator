@@ -3775,6 +3775,12 @@
     "osdDescElementEscRpmFreq": {
         "message": "crwdns9068:0crwdne9068:0"
     },
+    "osdDescElementRateProfileName": {
+        "message": "crwdns9152:0crwdne9152:0"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "crwdns9154:0crwdne9154:0"
+    },
     "osdDescElementRtcDateTime": {
         "message": "crwdns6266:0crwdne6266:0"
     },
