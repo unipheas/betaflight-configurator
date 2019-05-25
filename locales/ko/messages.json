@@ -3486,6 +3486,10 @@
         "message": "OSD 프로파일 {{profileNumber}}",
         "description": "Content of the selector for the OSD Profile in the preview"
     },
+    "osdSetupPreviewSelectFontElement": {
+        "message": "폰트 {{fontName}}",
+        "description": "Content of the selector for the OSD Font in the preview"
+    },
     "osdSetupPreviewTitleTip": {
         "message": "미리보기 화면에서 로고를 보기 또는 숨기기 하세요. 이는 비행 컨트롤러의 어떠한 설정도 변경하지 않습니다."
     },
@@ -3518,6 +3522,10 @@
     },
     "osdSetupFontPresetsSelector": {
         "message": "글꼴 프리셋 선택:"
+    },
+    "osdSetupFontPresetsSelectorCustomOption": {
+        "message": "사용자 제공 폰트",
+        "description": "Option to show as selected when the user selects a custom local font"
     },
     "osdSetupFontPresetsSelectorOr": {
         "message": "또는"
