@@ -3705,6 +3705,12 @@
     "osdDescElementEscRpmFreq": {
         "message": "RPM-frekvens enligt ESC-telemetri"
     },
+    "osdDescElementRateProfileName": {
+        "message": "Visar namn på aktuell rate-profil"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "Visar namn på aktuell PID-profil"
+    },
     "osdDescElementRtcDateTime": {
         "message": "Datum \/ tid från realtidsklocka"
     },
@@ -3767,6 +3773,9 @@
     },
     "osdDescElementLogStatus": {
         "message": "Blackbox-nummer och varningar"
+    },
+    "osdDescElementOsdProfileName": {
+        "message": "OSD-profilnamn som det satts i CLI-variablerna \"osd_profile_1_name\", \"osd_profile_2_name\" och \"osd_profile_3_name\""
     },
     "osdDescStatMaxSpeed": {
         "message": "Högsta registrerade hastighet"
