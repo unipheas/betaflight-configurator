@@ -3397,6 +3397,10 @@
         "message": "Anteprima per",
         "description": "Label of the selector for the OSD Profile in the preview. KEEP IT SHORT!!!"
     },
+    "osdSetupPreviewForTitle": {
+        "message": "Effettuando modifiche al profilo o al font NON effettuerai modifiche o al font nel flight controller, ma solo alla finestra di anteprima. Se vuoi modificarli devi usare rispettivamente l'opzione $t(osdSetupSelectedProfileTitle.message) o il bottone $t(osdSetupFontManager.message).",
+        "description": "Help content for the OSD profile and font PREVIEW"
+    },
     "osdSetupSelectedProfileTitle": {
         "message": "Profilo OSD attivo",
         "description": "Title of the box to select the current active OSD profile"
@@ -3408,6 +3412,10 @@
     "osdSetupPreviewSelectProfileElement": {
         "message": "Profilo OSD {{profileNumber}}",
         "description": "Content of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupPreviewSelectFontElement": {
+        "message": "Font {{fontName}}",
+        "description": "Content of the selector for the OSD Font in the preview"
     },
     "osdSetupPreviewTitleTip": {
         "message": "Mostra o nascondi il logo nella finestra di anteprima. Questo non cambierà alcuna impostazione sul controller di volo."
@@ -3441,6 +3449,10 @@
     },
     "osdSetupFontPresetsSelector": {
         "message": "Seleziona i preset del Font:"
+    },
+    "osdSetupFontPresetsSelectorCustomOption": {
+        "message": "Font fornito dall'utente",
+        "description": "Option to show as selected when the user selects a custom local font"
     },
     "osdSetupFontPresetsSelectorOr": {
         "message": "o"
@@ -3616,6 +3628,12 @@
     "osdDescElementEscRpmFreq": {
         "message": "Frequenza RPM trasmessa dalla telemetria degli ESC"
     },
+    "osdDescElementRateProfileName": {
+        "message": "Mostra il nome del profilo rate corrente"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "Mostra il nome del profilo PID corrente"
+    },
     "osdDescElementRtcDateTime": {
         "message": "Data \/ ora dell'orologio in tempo reale"
     },
@@ -3678,6 +3696,9 @@
     },
     "osdDescElementLogStatus": {
         "message": "Numero Blackbox e avvisi"
+    },
+    "osdDescElementOsdProfileName": {
+        "message": "Nome del profilo OSD come impostato nelle variabili CLI \"osd_profile_1_name\", \"osd_profile_2_name\" e \"osd_profile_3_name\""
     },
     "osdDescStatMaxSpeed": {
         "message": "Massima velocità registrata"
