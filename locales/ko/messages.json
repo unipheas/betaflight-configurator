@@ -3470,6 +3470,10 @@
         "message": "미리보기",
         "description": "Label of the selector for the OSD Profile in the preview. KEEP IT SHORT!!!"
     },
+    "osdSetupPreviewForTitle": {
+        "message": "여기서 프로파일이나 폰트를 바꿔도 비행컨트롤러의 프로파일이나 폰트가 바뀌진 않고, 단지 미리보기 창에만 영향을 끼칩니다. 그것을 변경하기를 원한다면, '$t(osdSetupSelectedProfileTitle.message)' 옵션이나 '$t(osdSetupFontManager.message)' 버튼을 각각 사용해야 합니다.",
+        "description": "Help content for the OSD profile and font PREVIEW"
+    },
     "osdSetupSelectedProfileTitle": {
         "message": "사용중인 OSD 프로파일",
         "description": "Title of the box to select the current active OSD profile"
@@ -3689,6 +3693,12 @@
     "osdDescElementEscRpmFreq": {
         "message": "ESC 텔레메트리에 의해 보고된 RPM 주파수"
     },
+    "osdDescElementRateProfileName": {
+        "message": "현재 레이트 프로파일 이름을 보여줍니다"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "현재 PID 프로파일 이름을 보여줍니다"
+    },
     "osdDescElementRtcDateTime": {
         "message": "실시간 날짜 \/ 시간"
     },
@@ -3751,6 +3761,9 @@
     },
     "osdDescElementLogStatus": {
         "message": "블랙박스 번호 및 경고"
+    },
+    "osdDescElementOsdProfileName": {
+        "message": "\"osd_profile_1_name\", \"osd_profile_2_name\" 그리고 \"osd_profile_3_name\" CLI 변수에서 설정된 OSD 프로파일 이름"
     },
     "osdDescStatMaxSpeed": {
         "message": "최대 기록 속도"
