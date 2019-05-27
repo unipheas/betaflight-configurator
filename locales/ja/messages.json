@@ -2541,6 +2541,9 @@
     "firmwareFlasherFirmwareLocalLoaded": {
         "message": "読込まれたローカル ファームウェア: ($1 bytes)"
     },
+    "firmwareFlasherFirmwareOnlineLoaded": {
+        "message": "読込済みオンラインファーム: ($1 bytes)"
+    },
     "firmwareFlasherHexCorrupted": {
         "message": "HEXファイルが破損しているようです"
     },
@@ -3698,6 +3701,12 @@
     "osdDescElementEscRpmFreq": {
         "message": "回転数レポート by ESCテレメトリー"
     },
+    "osdDescElementRateProfileName": {
+        "message": "現在のレートプロファイル名を表示"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "現在のPIDプロファイル名を表示"
+    },
     "osdDescElementRtcDateTime": {
         "message": "ハードウェアクロック 日付 \/ 時間"
     },
@@ -3760,6 +3769,9 @@
     },
     "osdDescElementLogStatus": {
         "message": "ブラックボックス番号と警告"
+    },
+    "osdDescElementOsdProfileName": {
+        "message": "\"osd_profile_1_name\"、\"osd_profile_2_name\"、\"osd_profile_3_name\"はCLIにて設定されているOSDプロファイル名"
     },
     "osdDescStatMaxSpeed": {
         "message": "記録された最大スピード"
