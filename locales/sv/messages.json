@@ -3273,11 +3273,41 @@
     "powerBatteryWarning": {
         "message": "Varningsnivå för cellspänning"
     },
+    "powerCalibrationManagerButton": {
+        "message": "Kalibrering"
+    },
+    "powerCalibrationManagerHelp": {
+        "message": "För att kalibrera, använd en multimeter för att mäta den faktiska spänningen \/ strömförbrukningen för din farkost (med ett batteri inkopplat), och ange värdena nedan. Klicka sedan [Calibrate], med samma batteri fortfarande inkopplat."
+    },
+    "powerCalibrationManagerNote": {
+        "message": "<strong>Observera:<\/strong> Före kalibrering av skalan, se till att divisor- och multiplikatorvärdena för spänning och offset för strömstyrka är korrekt angivna.<br>Om värdena lämnas kvar på 0 kommer kalibreringen inte att tillämpas.<\/br><strong>Kom ihåg att ta bort propellrarna innan ett batteri kopplas in!<\/strong>"
+    },
+    "powerCalibrationManagerSourceNote": {
+        "message": "<span class=\"message-negative\">Varning:<\/span> Spännings- och\/eller strömstyrkemätarkällorna <strong>har ändrats men inte sparats.<\/strong> Ange korrekta mätarkällor och spara dem innan kalibrering påbörjas."
+    },
+    "powerCalibrationSave": {
+        "message": "Kalibrera"
+    },
+    "powerCalibrationApply": {
+        "message": "Tillämpa kalibrering"
+    },
+    "powerCalibrationDiscard": {
+        "message": "Överge kalibrering"
+    },
+    "powerCalibrationConfirmHelp": {
+        "message": "Nya kalibreringsskalor visas här. <br>Tillämpning av dem kommer att aktivera skalorna men <strong>kommer inte att spara dem.<\/strong><\/br>\n<br>Se till att de nya värdena för spänning och ström är korrekta när de sparats.<\/br>"
+    },
     "powerVoltageHead": {
         "message": "Spänningsmätare"
     },
     "powerVoltageValue": {
         "message": "$1 V"
+    },
+    "powerVoltageCalibration": {
+        "message": "Uppmätt spänning"
+    },
+    "powerVoltageCalibratedScale": {
+        "message": "Kalibrerad spänningsskala:"
     },
     "powerAmperageValue": {
         "message": "$1 A"
@@ -3355,7 +3385,7 @@
         "message": "Skala"
     },
     "powerVoltageDivider": {
-        "message": "Divisionsvärde"
+        "message": "Divisorvärde"
     },
     "powerVoltageMultiplier": {
         "message": "Multiplikatorvärde"
@@ -3420,6 +3450,12 @@
     "powerAmperageOffset": {
         "message": "Offset [mA]"
     },
+    "powerAmperageCalibration": {
+        "message": "Uppmätt strömstyrka"
+    },
+    "powerAmperageCalibratedScale": {
+        "message": "Kalibrerad strömstyrkeskala:"
+    },
     "powerBatteryHead": {
         "message": "Batteri"
     },
@@ -3442,7 +3478,7 @@
         "message": "mAh använt"
     },
     "powerBatteryAmperage": {
-        "message": "Amperestyrka"
+        "message": "Strömstyrka"
     },
     "powerBatteryCapacity": {
         "message": "Kapacitet (mAh)"
