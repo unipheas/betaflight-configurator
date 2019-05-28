@@ -3282,6 +3282,9 @@
     "powerCalibrationManagerNote": {
         "message": "<strong>Observera:<\/strong> Före kalibrering av skalan, se till att divisor- och multiplikatorvärdena för spänning och offset för strömstyrka är korrekt angivna.<br>Om värdena lämnas kvar på 0 kommer kalibreringen inte att tillämpas.<\/br><strong>Kom ihåg att ta bort propellrarna innan ett batteri kopplas in!<\/strong>"
     },
+    "powerCalibrationManagerWarning": {
+        "message": "<span class=\"message-negative\">Varning:<\/span> Batteriet <span class=\"message-negative\">är inte inkopplat<\/span> eller så är spännings- eller strömstyrkemätarkällorna <span class=\"message-negative\">inte korrekt angivna<\/span>. Se till att spänning och\/eller strömstyrka visar ett värde över 0, annars går det inte att kalibrera med detta verktyg."
+    },
     "powerCalibrationManagerSourceNote": {
         "message": "<span class=\"message-negative\">Varning:<\/span> Spännings- och\/eller strömstyrkemätarkällorna <strong>har ändrats men inte sparats.<\/strong> Ange korrekta mätarkällor och spara dem innan kalibrering påbörjas."
     },
