@@ -621,7 +621,7 @@
         "message": "최대 셀 전압:"
     },
     "initialSetupVoltageScale": {
-        "message": "전압 크기:"
+        "message": "전압 스케일:"
     },
     "initialSetupAccelTrimsHead": {
         "message": "가속도계 트림"
@@ -3276,7 +3276,7 @@
         "message": "교정하려면 멀티미터를 사용하여 기체에서 실제 전압 \/ 전류 드로잉을 측정하고(배터리가 연결된 상태에서) 아래 값을 입력하십시오. 그런 다음 동일한 배터리를 계속 연결한 상태에서 [Calibrate] 를 클릭하십시오."
     },
     "powerCalibrationManagerNote": {
-        "message": "<strong>노트:<\/strong> 눈금을 교정하기 전에 전압에 대한 분배기 및 승수와 전류 오프셋이 올바르게 설정되어 있는지 확인하십시오.<br>값을 0으로 두면 교정이 적용되지 않습니다.<\/br> <strong>배터리를 꽂기 전에 프로펠러를 분리하는 것을 명심하세요!<\/strong>"
+        "message": "<strong>노트:<\/strong> 스케일을 교정하기 전에 전압에 대한 분배기 및 승수와 전류 오프셋이 올바르게 설정되어 있는지 확인하십시오.<br>값을 0으로 두면 교정이 적용되지 않습니다.<\/br> <strong>배터리를 꽂기 전에 프로펠러를 분리하는 것을 명심하세요!<\/strong>"
     },
     "powerCalibrationManagerWarning": {
         "message": "<span class=\"message-negative\">경고:<\/span> 배터리가 <span class=\"message-negative\">연결되지 않으면<\/span> 전압과 전류 측정소스가 <span class=\"message-negative\">제대로 설정되지 않습니다.<\/span> 전압과\/또는 전류가 0 이상의 수치로 읽혀져야 합니다. 그렇지 않으면 당신은 이 도구를 사용하여 교정할 수 없을 것입니다."
@@ -3381,7 +3381,7 @@
         "message": "셀 6"
     },
     "powerVoltageScale": {
-        "message": "크기"
+        "message": "스케일"
     },
     "powerVoltageDivider": {
         "message": "분할"
@@ -4062,7 +4062,7 @@
         "message": "셀 전압 경고"
     },
     "configurationBatteryScale": {
-        "message": "전압 크기"
+        "message": "전압 스케일"
     },
     "configurationCurrentMeterType": {
         "message": "전류 측정 형식"
@@ -4071,7 +4071,7 @@
         "message": "전류 센서"
     },
     "configurationCurrentScale": {
-        "message": "출력 전압을 mA로 스케일 [1\/10th mV\/A]"
+        "message": "출력전압 대 밀리암페어 스케일 [1\/10th mV\/A]"
     },
     "configurationCurrentOffset": {
         "message": "오프셋 [mV 단위]"
