@@ -3278,6 +3278,12 @@
     "powerCalibrationManagerNote": {
         "message": "<strong>노트:<\/strong> 눈금을 교정하기 전에 전압에 대한 분배기 및 승수와 전류 오프셋이 올바르게 설정되어 있는지 확인하십시오.<br>값을 0으로 두면 교정이 적용되지 않습니다.<\/br> <strong>배터리를 꽂기 전에 프로펠러를 분리하는 것을 명심하세요!<\/strong>"
     },
+    "powerCalibrationManagerWarning": {
+        "message": "<span class=\"message-negative\">경고:<\/span> 배터리가 <span class=\"message-negative\">연결되지 않으면<\/span> 전압과 전류 측정소스가 <span class=\"message-negative\">제대로 설정되지 않습니다.<\/span> 전압과\/또는 전류가 0 이상의 수치로 읽혀져야 합니다. 그렇지 않으면 당신은 이 도구를 사용하여 교정할 수 없을 것입니다."
+    },
+    "powerCalibrationManagerSourceNote": {
+        "message": "<span class=\"message-negative\">경고:<\/span> 전압과\/또는 전류 측정소스가 <strong>변경되었지만 저장되지 않았습니다.<\/strong> 교정을 시도하기 전에 올바른 측정소스를 설정하고 저장하세요."
+    },
     "powerCalibrationSave": {
         "message": "교정"
     },
@@ -3286,6 +3292,9 @@
     },
     "powerCalibrationDiscard": {
         "message": "교정 취소"
+    },
+    "powerCalibrationConfirmHelp": {
+        "message": "새로 교정된 스케일이 여기에 보여집니다. <br>그것들을 적용하면 스케일은 설정되지만 <strong>저장되지는 않습니다.<\/strong><\/br> <br>저장한 후에 새로운 전압과 전류가 올바른지 반드시 확인하세요.<\/br>"
     },
     "powerVoltageHead": {
         "message": "전압"
