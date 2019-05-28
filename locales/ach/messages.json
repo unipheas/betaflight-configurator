@@ -3343,11 +3343,44 @@
     "powerBatteryWarning": {
         "message": "crwdns6144:0crwdne6144:0"
     },
+    "powerCalibrationManagerButton": {
+        "message": "crwdns9156:0crwdne9156:0"
+    },
+    "powerCalibrationManagerHelp": {
+        "message": "crwdns9158:0[Calibrate]crwdne9158:0"
+    },
+    "powerCalibrationManagerNote": {
+        "message": "crwdns9160:0crwdne9160:0"
+    },
+    "powerCalibrationManagerWarning": {
+        "message": "crwdns9162:0crwdne9162:0"
+    },
+    "powerCalibrationManagerSourceNote": {
+        "message": "crwdns9164:0crwdne9164:0"
+    },
+    "powerCalibrationSave": {
+        "message": "crwdns9166:0crwdne9166:0"
+    },
+    "powerCalibrationApply": {
+        "message": "crwdns9168:0crwdne9168:0"
+    },
+    "powerCalibrationDiscard": {
+        "message": "crwdns9170:0crwdne9170:0"
+    },
+    "powerCalibrationConfirmHelp": {
+        "message": "crwdns9172:0crwdne9172:0"
+    },
     "powerVoltageHead": {
         "message": "crwdns6145:0crwdne6145:0"
     },
     "powerVoltageValue": {
         "message": "crwdns6146:0$1crwdne6146:0"
+    },
+    "powerVoltageCalibration": {
+        "message": "crwdns9174:0crwdne9174:0"
+    },
+    "powerVoltageCalibratedScale": {
+        "message": "crwdns9176:0crwdne9176:0"
     },
     "powerAmperageValue": {
         "message": "crwdns6147:0$1crwdne6147:0"
@@ -3489,6 +3522,12 @@
     },
     "powerAmperageOffset": {
         "message": "crwdns8721:0[mA]crwdne8721:0"
+    },
+    "powerAmperageCalibration": {
+        "message": "crwdns9178:0crwdne9178:0"
+    },
+    "powerAmperageCalibratedScale": {
+        "message": "crwdns9180:0crwdne9180:0"
     },
     "powerBatteryHead": {
         "message": "crwdns6194:0crwdne6194:0"
