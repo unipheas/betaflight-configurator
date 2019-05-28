@@ -2541,6 +2541,9 @@
     "firmwareFlasherFirmwareLocalLoaded": {
         "message": "Učitan lokalni firmware: ($1 bajtova)"
     },
+    "firmwareFlasherFirmwareOnlineLoaded": {
+        "message": "Učitan online firmware: ($1 bajtova)"
+    },
     "firmwareFlasherHexCorrupted": {
         "message": "HEX datoteka je koruptirana"
     },
@@ -3266,11 +3269,44 @@
     "powerBatteryWarning": {
         "message": "Upozorenje napona čelije"
     },
+    "powerCalibrationManagerButton": {
+        "message": "Kalibracija"
+    },
+    "powerCalibrationManagerHelp": {
+        "message": "Za kalibraciju, koristite multimetar kako biste saznali stvarni napon \/ struju (sa spojenom baterijom), i unesite vrijednosti ispod. Onda, dok je baterija još uvijek spojena pritisnite [Calibrate]."
+    },
+    "powerCalibrationManagerNote": {
+        "message": "<strong>Napomena:<\/strong> Prije kalibracije postavite djelitelj i množitelj napona i pomak za mjerač struje.<br>Ostavljanje vrijednosti na 0 neće primijeniti kalibraciju.<\/br><strong>Skinite propelere prije spajanja baterije!<\/strong>"
+    },
+    "powerCalibrationManagerWarning": {
+        "message": "<span class=\"message-negative\">Upozorenje:<\/span> Baterija <span class=\"message-negative\">nije spojena<\/span> ili izvori mjerača napona i struje<span class=\"message-negative\">nisu pravilno postavljeni.<\/span> Vrijednosti mjerača napona i struje bi trebali prikazivati vrijednost iznad 0. Inače, nećete moći kalibrirati koristeći ovaj alat."
+    },
+    "powerCalibrationManagerSourceNote": {
+        "message": "<span class=\"message-negative\">Upozorenje:<\/span> Postavke izvora mjerača napona i\/ili struje <strong>su promijenjene, ali nisu spremljene.<\/strong> Molimo postavite izvore mjerača i spremite postavke prije kalibracije."
+    },
+    "powerCalibrationSave": {
+        "message": "Kalibriraj"
+    },
+    "powerCalibrationApply": {
+        "message": "Primjeni kalibraciju"
+    },
+    "powerCalibrationDiscard": {
+        "message": "Odbaci kalibraciju"
+    },
+    "powerCalibrationConfirmHelp": {
+        "message": "Nove kalibrirane skale su prikazane ovdje. <br>Primjenjivanje će postaviti skale, ali<strong>ih neće spremiti<\/strong><\/br> <br>Poslije spremanja provjerite jesu li nove vrijednosti mjerača ispravne.<\/br>"
+    },
     "powerVoltageHead": {
         "message": "Mjerač napona"
     },
     "powerVoltageValue": {
         "message": "$1 V"
+    },
+    "powerVoltageCalibration": {
+        "message": "Izmjereni napon"
+    },
+    "powerVoltageCalibratedScale": {
+        "message": "Kalibririrana skala napona:"
     },
     "powerAmperageValue": {
         "message": "$1 V"
@@ -3413,6 +3449,12 @@
     "powerAmperageOffset": {
         "message": "Pomak [mA]"
     },
+    "powerAmperageCalibration": {
+        "message": "Izmjerena struja"
+    },
+    "powerAmperageCalibratedScale": {
+        "message": "Kalibririrana skala struje:"
+    },
     "powerBatteryHead": {
         "message": "Baterija"
     },
@@ -3443,6 +3485,9 @@
     "osdSetupTitle": {
         "message": "OSD"
     },
+    "osdSetupPreviewHelp": {
+        "message": "<strong>Napomena:<\/strong> OSD pretprikaz možda neće prikazati stvarni font koji je instaliran na kontroleru leta. Raspored individualnih elemenata može izgledati znatno drugačije kada se koriste starije verzije firmwarea - molimo provjerite raspored kroz FPV sustav prije leta."
+    },
     "osdSetupUnsupportedNote1": {
         "message": "Kontroler leta ne odgovara na OSD komande. Ovo vjerojatno znači da nema integrirani Betaflight OSD."
     },
@@ -3464,6 +3509,10 @@
         "message": "Pregled",
         "description": "Label of the selector for the OSD Profile in the preview. KEEP IT SHORT!!!"
     },
+    "osdSetupPreviewForTitle": {
+        "message": "Mijenjanje profila ili fonta ovdje NEĆE promijeniti isti na kontroleru leta, ovo samo utječe na prozor pretpregleda. Ako ih želite mijenjati, morate koristiti '$t(osdSetupSelectedProfileTitle.message)' opciju ili '$t(osdSetupFontManager.message)' tipku.",
+        "description": "Help content for the OSD profile and font PREVIEW"
+    },
     "osdSetupSelectedProfileTitle": {
         "message": "Aktivni OSD profil",
         "description": "Title of the box to select the current active OSD profile"
@@ -3475,6 +3524,10 @@
     "osdSetupPreviewSelectProfileElement": {
         "message": "OSD profil {{profileNumber}}",
         "description": "Content of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupPreviewSelectFontElement": {
+        "message": "Font {{fontName}}",
+        "description": "Content of the selector for the OSD Font in the preview"
     },
     "osdSetupPreviewTitleTip": {
         "message": "Prikaži ili sakrij logo u prozoru pretpregleda. Ovo neće promjeniti postavke na kontroleru leta."
@@ -3509,6 +3562,10 @@
     "osdSetupFontPresetsSelector": {
         "message": "Odaberite presetove fonta:"
     },
+    "osdSetupFontPresetsSelectorCustomOption": {
+        "message": "Korisnički zadan font",
+        "description": "Option to show as selected when the user selects a custom local font"
+    },
     "osdSetupFontPresetsSelectorOr": {
         "message": "ili"
     },
@@ -3541,6 +3598,9 @@
     },
     "osdSetupUploadFont": {
         "message": "Prenesi font"
+    },
+    "osdSetupUploadingFont": {
+        "message": "Prenošenje..."
     },
     "osdSetupSave": {
         "message": "Spremi"
@@ -3680,6 +3740,12 @@
     "osdDescElementEscRpmFreq": {
         "message": "RPM frekvencija koju prijavljuje ESC telemetrija"
     },
+    "osdDescElementRateProfileName": {
+        "message": "Prikazuje trenutno ime rateprofila"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "Prikazuje trenutno ime PID profila"
+    },
     "osdDescElementRtcDateTime": {
         "message": "Stvarno vrijeme \/ datum"
     },
@@ -3742,6 +3808,9 @@
     },
     "osdDescElementLogStatus": {
         "message": "Broj crne kutije i upozorenja"
+    },
+    "osdDescElementOsdProfileName": {
+        "message": "OSD ime profila kao što je postavljeno u \"osd_profile_1_name\", \"osd_profile_2_name\" i \"osd_profile_3_name\" CLI varijablama"
     },
     "osdDescStatMaxSpeed": {
         "message": "Maksimalna zabilježena brzina"
@@ -3817,6 +3886,12 @@
     },
     "osdDescStatTotalFlightDistance": {
         "message": "Ukupna pređena udaljenost"
+    },
+    "osdDescribeFontVersion1": {
+        "message": "Font verzija: 1 (Betaflight 4.0 i stariji)"
+    },
+    "osdDescribeFontVersion2": {
+        "message": "Font verzija: 2 (Betaflight 4.1 i noviji)"
     },
     "osdDescribeFontVersionCUSTOM": {
         "message": "Font verzija: od korisnika"
