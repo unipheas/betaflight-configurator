@@ -721,6 +721,12 @@
     "featureVTX": {
         "message": "Videosender"
     },
+    "featureANTI_GRAVITY": {
+        "message": "Boost midlertidigt I-Term ved højgasændringer"
+    },
+    "featureFAILSAFE": {
+        "message": "Aktivér Fejlsikring Trin 2"
+    },
     "featureFAILSAFEOld": {
         "message": "Aktivér Fejlsikring"
     },
@@ -963,6 +969,12 @@
         "message": "Indkoblet",
         "description": "One of the modes in Color Mode in Led Strip"
     },
+    "failsafeFeaturesHelpNew": {
+        "message": "Fejlsikring har to trin. <strong>Trin 1<\/strong> tilgås, når en flykanal har en ugyldig pulslængde, modtageren rapporterer fejlsikret tilstand eller der intet signal er fra modtageren, hvorefter kanalreserveindstillingerne for <span class=\"message- negativ\">alle kanaler<\/span> anvendes, og en lille mængde tid afsættes for at muliggøre gendannelse. <strong>Trin 2<\/strong> tilgås, når fejltilstanden, mens fartøjet er <span class=\"message-negative\">indkoblet<\/span>, varer længere end den opsattee beskyttelsestid, og her forbliver alle kanaler på den anvendte kanalreserveindstilling, medmindre den tilsidesættes af den valgte procedure.<br \/><strong>Bemærk:<\/strong> Inden Trin 1 tilgås, anvendes kanalreserveindstillingerne også på individuelle AUX-kanaler, som har ugyldige impulser."
+    },
+    "failsafeStageTwoSettingsTitle": {
+        "message": "Trin 2 - Indstillinger"
+    },
     "failsafeThrottleLowHelp": {
         "message": "Afkobl blot fartøjet i stedet for at udføre den valgte fejlsikringsprocedure, når gassen har været lav i dette tidsinterval"
     },
@@ -971,6 +983,12 @@
     },
     "failsafeSwitchModeHelp": {
         "message": "Denne indstilling afgør, hvad der sker, når Fejlsikring aktiveres via AUX-knappen:<br\/><strong>Trin 1<\/strong> aktiverer Trin 1-fejlsikring, der er nyttig til at simulere den nøjagtige fejlsikringsadfærd ved signaltab.<br\/><strong>Trin 2<\/strong> overspringer Trin 1 og aktiverer straks Trin 2-proceduren <br\/><strong>Kill<\/strong>, der straks afkobler (fartøjet havarerer)"
+    },
+    "failsafeSwitchOptionStage1": {
+        "message": "Trin 1"
+    },
+    "failsafeSwitchOptionStage2": {
+        "message": "Trin 2"
     },
     "osdSetupAlarmsTitle": {
         "message": "Alarmer"
