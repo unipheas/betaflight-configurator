@@ -1991,9 +1991,6 @@
     "osdSetupElementsTitle": {
         "message": "Elemek"
     },
-    "osdSetupPreviewTitleTip": {
-        "message": "Logó rejtése, vagy megjelenítése az előnézeti képen. Nem érint semmilyen beállítást a repülésirányítón."
-    },
     "osdSetupVideoFormatTitle": {
         "message": "Videó Formátum"
     },
