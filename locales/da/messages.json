@@ -947,11 +947,20 @@
     "osdSetupAlarmsTitle": {
         "message": "Alarmer"
     },
+    "osdDescElementMainBattVoltage": {
+        "message": "Øjeblikkelig hovedbatterispænding (blinker, når under alarmtærskelværdi)"
+    },
+    "osdDescElementRssiValue": {
+        "message": "Øjeblikkelig RSSI-værdi (blinker, når under alarmtærskelværdi)"
+    },
     "osdDescElementArmed": {
         "message": "Indkoblingstekstmeddelelse"
     },
     "osdDescElementDisarmed": {
         "message": "Afkoblingstekstmeddelelse"
+    },
+    "osdDescElementAltitude": {
+        "message": "Aktuel højde (blinker, når over alarmtærskelværdi)"
     },
     "osdDescElementArmedTime": {
         "message": "Tid siden fartøjets seneste indkobling"
