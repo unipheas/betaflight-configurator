@@ -941,6 +941,9 @@
     "failsafeOffDelayHelp": {
         "message": "Tid at forblive i landingstilstand, indtil motorerne er slået fra, og fartøjet er afkoblet"
     },
+    "failsafeSwitchModeHelp": {
+        "message": "Denne indstilling afgør, hvad der sker, når Fejlsikring aktiveres via AUX-knappen:<br\/><strong>Trin 1<\/strong> aktiverer Trin 1-fejlsikring, der er nyttig til at simulere den nøjagtige fejlsikringsadfærd ved signaltab.<br\/><strong>Trin 2<\/strong> overspringer Trin 1 og aktiverer straks Trin 2-proceduren <br\/><strong>Kill<\/strong>, der straks afkobler (fartøjet havarerer)"
+    },
     "osdSetupAlarmsTitle": {
         "message": "Alarmer"
     },
