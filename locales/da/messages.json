@@ -928,19 +928,41 @@
         "message": "Afkoblet",
         "description": "One of the modes in Color Mode in Led Strip"
     },
+    "ledStripModeColorsModeArmed": {
+        "message": "Indkoblet",
+        "description": "One of the modes in Color Mode in Led Strip"
+    },
     "failsafeThrottleLowHelp": {
         "message": "Afkobl blot fartøjet i stedet for at udføre den valgte fejlsikringsprocedure, når gassen har været lav i dette tidsinterval"
     },
     "failsafeOffDelayHelp": {
         "message": "Tid at forblive i landingstilstand, indtil motorerne er slået fra, og fartøjet er afkoblet"
     },
+    "osdSetupAlarmsTitle": {
+        "message": "Alarmer"
+    },
+    "osdDescElementArmed": {
+        "message": "Indkoblingstekstmeddelelse"
+    },
     "osdDescElementDisarmed": {
-        "message": "Afkoblet-tekstmeddelelse"
+        "message": "Afkoblingstekstmeddelelse"
+    },
+    "osdDescElementArmedTime": {
+        "message": "Tid siden fartøjets seneste indkobling"
+    },
+    "osdDescStatArmedTime": {
+        "message": "Tid siden fartøjs seneste indkobling"
     },
     "osdDescStatTimer1": {
         "message": "Værdi af timer 1 på afkoblingstidspunkt"
     },
     "osdDescStatTimer2": {
         "message": "Værdi af timer 2 på afkoblingstidspunkt"
+    },
+    "osdTimerAlarm": {
+        "message": "Alarm:"
+    },
+    "osdTimerAlarmTooltip": {
+        "message": "Vælg timeralarmgrænse i minutter. Når tiden overstiger denne værdi, vil OSD-elementet blinke. Angives dette til 0, deaktiveres alarmen"
     }
 }
