@@ -3479,9 +3479,6 @@
         "message": "Profil OSD {{profileNumber}}",
         "description": "Content of the selector for the OSD Profile in the preview"
     },
-    "osdSetupPreviewTitleTip": {
-        "message": "Afficher ou masquer le logo dans la fenêtre d'aperçu. Cela ne changera aucun paramètre sur le contrôleur de vol."
-    },
     "osdSetupVideoFormatTitle": {
         "message": "Format vidéo"
     },
