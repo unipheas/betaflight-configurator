@@ -3603,9 +3603,6 @@
         "message": "crwdns9146:0{{fontName}}crwdne9146:0",
         "description": "Content of the selector for the OSD Font in the preview"
     },
-    "osdSetupPreviewTitleTip": {
-        "message": "crwdns6210:0crwdne6210:0"
-    },
     "osdSetupVideoFormatTitle": {
         "message": "crwdns6211:0crwdne6211:0"
     },
