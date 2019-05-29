@@ -3392,9 +3392,6 @@
         "message": "OSD Profile {{profileNumber}}",
         "description": "Content of the selector for the OSD Profile in the preview"
     },
-    "osdSetupPreviewTitleTip": {
-        "message": "Показать\/скрыть логотип в окне предпросмотра. Этот переключатель никак не повлияет на настройки полётного контроллера."
-    },
     "osdSetupVideoFormatTitle": {
         "message": "Формат видео"
     },
