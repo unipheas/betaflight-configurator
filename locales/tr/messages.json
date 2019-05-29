@@ -1795,9 +1795,6 @@
     "osdSetupUnsupportedNote2": {
         "message": "Bazı uçuş kumandalarının yerleşik <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a> ile yanıp sönebilen ve yapılandırılabilen <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a>'si bulunduğunu not edin, buna rağmen MinimOSD bu arayüz üzerinden yapılandırılamaz."
     },
-    "osdSetupPreviewTitleTip": {
-        "message": "Önizleme penceresinde logoyu gösterin veya gizleyin. Bu, uçuş denetleyicisinde herhangi bir ayar değiştirmeyecektir."
-    },
     "osdSetupVideoFormatTitle": {
         "message": "Video formatı"
     },
