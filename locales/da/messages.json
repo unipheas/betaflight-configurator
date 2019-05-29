@@ -631,7 +631,7 @@
         "message": "Serielbaseret modtager (SPEKSAT, SBUS, SUMD)"
     },
     "featureMOTOR_STOP": {
-        "message": "Rotér ikke motorerer, når tilkoblet"
+        "message": "Rotér ikke motorerer, når indkoblet"
     },
     "featureSOFTSERIALTip": {
         "message": "Opsæt porte på fanen Porte efter aktivering."
@@ -799,7 +799,7 @@
         "message": "Magnetometerdeclination [deg]"
     },
     "configurationReverseMotorSwitchHelp": {
-        "message": "Denne mulighed opsætter mixeren til at forvente, at motorretningen skal vendes, og at propellerne er tilsvarende monteret. <strong>Advarsel:<\/strong> Dette vender ikke motorretningen. Brug opsætningssværktøjet til dine ESC'er eller skift ESC-motorledningsrækkefølgen for at opnå dette. Tjek også, uden propeller, at dine motorer roterer i retningerne vist i diagrammet ovenfor, inden du forsøger at tilkoble."
+        "message": "Denne mulighed opsætter mixeren til at forvente, at motorretningen skal vendes, og at propellerne er tilsvarende monteret. <strong>Advarsel:<\/strong> Dette vender ikke motorretningen. Brug opsætningssværktøjet til dine ESC'er eller skift ESC-motorledningsrækkefølgen for at opnå dette. Tjek også, uden propeller, at dine motorer roterer i retningerne vist i diagrammet ovenfor, inden du forsøger at indkoble."
     },
     "configurationDisarmKillSwitch": {
         "message": "Afkobl motorer uanset gasværdi (når ARM er opsat på fanebladet Tilstande via AUX-kanal)"
@@ -811,16 +811,16 @@
         "message": "Motortomgangsniveau [percent]"
     },
     "configurationDigitalIdlePercentHelp": {
-        "message": "Dette er tomgangsniveauet i procent ift. maksimal gas, der sendes til ESC'erne, når fartøjet er tilkoblet, og gaspinden er i minimumsposition. Forøg procentværdien for højere tomgangshastighed."
+        "message": "Dette er tomgangsniveauet i procent ift. maksimal gas, der sendes til ESC'erne, når fartøjet er indkoblet, og gaspinden er i minimumsposition. Forøg procentværdien for højere tomgangshastighed."
     },
     "configurationThrottleMinimum": {
-        "message": "Minimumsgas (laveste ESC-værdi, når tilkoblet)"
+        "message": "Minimumsgas (laveste ESC-værdi, når indkoblet)"
     },
     "configurationThrottleMinimumHelp": {
-        "message": "Dette er tomgangsniveauet, der sendes til ESC'erne, når fartøjet er tilkoblet, og gaspinden er i minimumsposition. Forøg værdien for højere tomgangshastighed. Forøg også værdien i tilfælde af desyncs!"
+        "message": "Dette er tomgangsniveauet, der sendes til ESC'erne, når fartøjet er indkoblet, og gaspinden er i minimumsposition. Forøg værdien for højere tomgangshastighed. Forøg også værdien i tilfælde af desyncs!"
     },
     "configurationThrottleMaximum": {
-        "message": "Maksimumsgas (højeste ESC-værdi, når tilkoblet)"
+        "message": "Maksimumsgas (højeste ESC-værdi, når indkoblet)"
     },
     "configurationThrottleMinimumCommand": {
         "message": "Minimumskommando (ESC-værdi, når afkoblet)"
@@ -838,7 +838,7 @@
         "message": "Beacon-tone"
     },
     "configurationDshotBeaconHelp": {
-        "message": "Dshot-beacon'et benytter ESC'erne og motorerne til lydafgivelse. Dette betyder, at Dshot-beacon'et ikke kan benyttes, når motorerne roterer. Fra Betaflight 3.4: Forsøges der tilkoblet, mens Dshot-beacon'et er aktivt, forekommer en 2 sekunders forsinkelse efter den seneste Dshot beacon-tone, inden fartøjet tilkobles. Dette forhindrer Dshot-beacon funktionen i at forstyrre Dshot-tilkoblingskommandoerne. <br\/><strong>Advarsel:<\/strong> Når aktiveret, sender Dshot-beacon'et strøm gennem motorerne, hvilket kan resultere i for høj varmeudvikling og beskadigelse af motorer og\/eller ESC'er, hvis beacon-styrken er for høj. Benyt BLHeli Configurator eller BLHeli Suite til at justere og teste beacon-styrken."
+        "message": "Dshot-beacon'et benytter ESC'erne og motorerne til lydafgivelse. Dette betyder, at Dshot-beacon'et ikke kan benyttes, når motorerne roterer. Fra Betaflight 3.4: Forsøges der indkoblet, mens Dshot-beacon'et er aktivt, forekommer en 2 sekunders forsinkelse efter den seneste Dshot beacon-tone, inden fartøjet indkobles. Dette forhindrer Dshot-beacon funktionen i at forstyrre Dshot-indkoblingskommandoerne. <br\/><strong>Advarsel:<\/strong> Når aktiveret, sender Dshot-beacon'et strøm gennem motorerne, hvilket kan resultere i for høj varmeudvikling og beskadigelse af motorer og\/eller ESC'er, hvis beacon-styrken er for høj. Benyt BLHeli Configurator eller BLHeli Suite til at justere og teste beacon-styrken."
     },
     "configurationBeeper": {
         "message": "Bipperopsætning"
@@ -901,7 +901,7 @@
         "message": "Bip, når 5-tasts kamerakontrol forlades"
     },
     "beeperRC_SMOOTHING_INIT_FAIL": {
-        "message": "Bip når tilkoblet og rc smooting ikke har initialiseret filtre"
+        "message": "Bip når indkoblet og rc smooting ikke har initialiseret filtre"
     },
     "configuration3d": {
         "message": "3D ESC\/Motorfunktioner"
