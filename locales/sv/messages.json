@@ -3533,9 +3533,6 @@
         "message": "Teckensnitt {{fontName}}",
         "description": "Content of the selector for the OSD Font in the preview"
     },
-    "osdSetupPreviewTitleTip": {
-        "message": "Visa eller dölj logo i förhandsvisningen. Detta ändrar inga inställningar i flygkontrollern."
-    },
     "osdSetupVideoFormatTitle": {
         "message": "Videoformat"
     },
