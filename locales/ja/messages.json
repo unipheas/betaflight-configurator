@@ -3529,9 +3529,6 @@
         "message": "フォント {{fontName}}",
         "description": "Content of the selector for the OSD Font in the preview"
     },
-    "osdSetupPreviewTitleTip": {
-        "message": "表示またはプレビューウィンドウでロゴを非表示にします。フライトコント ローラの設定は変わりません。"
-    },
     "osdSetupVideoFormatTitle": {
         "message": "ビデオ形式"
     },
