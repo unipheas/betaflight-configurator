@@ -3451,9 +3451,6 @@
         "message": "OSD profils {{profileNumber}}",
         "description": "Content of the selector for the OSD Profile in the preview"
     },
-    "osdSetupPreviewTitleTip": {
-        "message": "Rādīt vai slēpt logotipu priekšskatījuma logā. Šis nemainīs nekādus iestatījumus lidojuma kontrolierī."
-    },
     "osdSetupVideoFormatTitle": {
         "message": "Video Formāts"
     },
