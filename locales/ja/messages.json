@@ -3275,6 +3275,9 @@
     "powerCalibrationManagerHelp": {
         "message": "キャリブレートするには、(バッテリーを接続した状態で) テスターを使って機体にかかる実電圧\/電流を計測し、以下の値を入力してください。 それから同じくバッテリーを接続したまま [Calibrate] をクリックします。"
     },
+    "powerCalibrationManagerNote": {
+        "message": "<strong>注:<\/strong> スケールを調整する前に、電圧の倍率と電流のオフセット値が正しく設定されていることを確認してください。<br>値が0のままですと、キャリブレーションは適用されません。<\/br><strong>バッテリーを接続する前に必ずプロペラを取り外してください！<\/strong>"
+    },
     "powerCalibrationSave": {
         "message": "キャリブレート"
     },
