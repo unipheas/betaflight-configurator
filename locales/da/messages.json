@@ -969,10 +969,10 @@
         "message": "Tid siden fartøjs seneste indkobling"
     },
     "osdDescStatTimer1": {
-        "message": "Værdi af timer 1 på afkoblingstidspunkt"
+        "message": "Værdi for timer 1 på afkoblingstidspunkt"
     },
     "osdDescStatTimer2": {
-        "message": "Værdi af timer 2 på afkoblingstidspunkt"
+        "message": "Værdi på timer 2 på afkoblingstidspunkt"
     },
     "osdTimerAlarm": {
         "message": "Alarm:"
