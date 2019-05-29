@@ -3272,6 +3272,9 @@
     "powerCalibrationManagerButton": {
         "message": "キャリブレーション"
     },
+    "powerCalibrationManagerHelp": {
+        "message": "キャリブレートするには、(バッテリーを接続した状態で) テスターを使って機体にかかる実電圧\/電流を計測し、以下の値を入力してください。 それから同じくバッテリーを接続したまま [Calibrate] をクリックします。"
+    },
     "powerCalibrationSave": {
         "message": "キャリブレート"
     },
