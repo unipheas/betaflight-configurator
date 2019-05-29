@@ -3529,9 +3529,6 @@
         "message": "Fuente {{fontName}}",
         "description": "Content of the selector for the OSD Font in the preview"
     },
-    "osdSetupPreviewTitleTip": {
-        "message": "Muestra u oculta el logo en la ventana de vista previa. Esto no cambiar ningún ajuste en el controlador de vuelo."
-    },
     "osdSetupVideoFormatTitle": {
         "message": "Formato de Video"
     },
