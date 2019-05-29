@@ -2836,9 +2836,6 @@
     "osdSetupElementsTitle": {
         "message": "Elements"
     },
-    "osdSetupPreviewTitleTip": {
-        "message": "Mostra o amaga el logo a la finestra de previsualització. Això no canviarà cap configuració a la controladora de vol."
-    },
     "osdSetupVideoFormatTitle": {
         "message": "Format de video"
     },
