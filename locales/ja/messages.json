@@ -3269,11 +3269,29 @@
     "powerBatteryWarning": {
         "message": "1セルあたりの警告電圧"
     },
+    "powerCalibrationManagerButton": {
+        "message": "キャリブレーション"
+    },
+    "powerCalibrationSave": {
+        "message": "キャリブレート"
+    },
+    "powerCalibrationApply": {
+        "message": "キャリブレーション適用"
+    },
+    "powerCalibrationDiscard": {
+        "message": "キャリブレーション破棄"
+    },
     "powerVoltageHead": {
         "message": "電圧メーター"
     },
     "powerVoltageValue": {
         "message": "$1 V"
+    },
+    "powerVoltageCalibration": {
+        "message": "計測電圧"
+    },
+    "powerVoltageCalibratedScale": {
+        "message": "電圧スケール調整:"
     },
     "powerAmperageValue": {
         "message": "$1 A"
@@ -3415,6 +3433,12 @@
     },
     "powerAmperageOffset": {
         "message": "オフセット [mA]"
+    },
+    "powerAmperageCalibration": {
+        "message": "計測電流"
+    },
+    "powerAmperageCalibratedScale": {
+        "message": "電流スケール調整:"
     },
     "powerBatteryHead": {
         "message": "バッテリー"
