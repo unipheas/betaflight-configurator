@@ -976,16 +976,19 @@
         "message": "Alarmer"
     },
     "osdDescElementMainBattVoltage": {
-        "message": "Øjeblikkelig hovedbatterispænding (blinker, når under alarmtærskelværdi)"
+        "message": "Aktuel hovedbatterispænding (blinker, når under alarmtærskelværdi)"
     },
     "osdDescElementRssiValue": {
-        "message": "Øjeblikkelig RSSI-værdi (blinker, når under alarmtærskelværdi)"
+        "message": "Aktuel RSSI-værdi (blinker, når under alarmtærskelværdi)"
     },
     "osdDescElementArmed": {
         "message": "Indkoblingstekstmeddelelse"
     },
     "osdDescElementDisarmed": {
         "message": "Afkoblingstekstmeddelelse"
+    },
+    "osdDescElementCurrentDraw": {
+        "message": "Aktuel batteristrømforbrug"
     },
     "osdDescElementAltitude": {
         "message": "Aktuel højde (blinker, når over alarmtærskelværdi)"
