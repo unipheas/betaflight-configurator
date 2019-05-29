@@ -3278,6 +3278,12 @@
     "powerCalibrationManagerNote": {
         "message": "<strong>注:<\/strong> スケールを調整する前に、電圧の倍率と電流のオフセット値が正しく設定されていることを確認してください。<br>値が0のままですと、キャリブレーションは適用されません。<\/br><strong>バッテリーを接続する前に必ずプロペラを取り外してください！<\/strong>"
     },
+    "powerCalibrationManagerWarning": {
+        "message": "<span class=\"message-negative\">警告:<\/span> バッテリーが<span class = \"message-negative\">接続されていない<\/span>、または電圧・電流計測テスターの電源が<span class = \"message-negative\">正しく設定されていない<\/span>可能性があります。このままでは、ツールでキャリブレーションすることはできません。"
+    },
+    "powerCalibrationManagerSourceNote": {
+        "message": "<span class=\"message-negative\">警告:<\/span> 電圧および\/または電流メーター情報は<strong>変更されましたが保存していません。<\/strong> 正しいメーター情報を設定して一度保存してから調整してください。"
+    },
     "powerCalibrationSave": {
         "message": "キャリブレート"
     },
@@ -3286,6 +3292,9 @@
     },
     "powerCalibrationDiscard": {
         "message": "キャリブレーション破棄"
+    },
+    "powerCalibrationConfirmHelp": {
+        "message": "最新情報のスケールがここに表示されます。<br>適用すると縮尺は設定されますが<strong>保存はされません。<\/strong><\/br><br>保存後、新たな電圧・電流が正く表示されることを確認してください。<\/br>"
     },
     "powerVoltageHead": {
         "message": "電圧メーター"
