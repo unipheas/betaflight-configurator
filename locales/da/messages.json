@@ -924,6 +924,9 @@
     "configurationLoopTime": {
         "message": "Flight Controller Loop-tid"
     },
+    "receiverMspWarningText": {
+        "message": "Disse pinde tillader indkobling og test af Betaflight, uden en sender\/modtager er til stede. Bemærk, <strong>at denne funktion ikke er beregnet til flyvning, og propeller må ikke monteres.<\/strong><br><br>Denne funktion garanterer ikke pålidelig kontrol med dit fartøj. <strong>Alvorlig skade vil sandsynligvis opstå, hvis propellerne er påsat.<\/strong>"
+    },
     "ledStripModeColorsModeDisarmed": {
         "message": "Afkoblet",
         "description": "One of the modes in Color Mode in Led Strip"
