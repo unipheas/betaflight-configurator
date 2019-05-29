@@ -548,13 +548,33 @@
         "message": "Intet gyldigt modtagersignal fundet",
         "description": "Description of the RX_FAILSAFE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
+        "message": "Kontakten 'FEJLSIKRING' blev aktiveret",
+        "description": "Description of the BOXFAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
+        "message": "Runway Takeoff-beskyttelse er blevet udløst",
+        "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipCRASH": {
         "message": "Afkoblet via havaridetektering",
         "description": "Description of the CRASH arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
+        "message": "Gaskanalværdi er for høj",
+        "description": "Description of the THROTTLE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipANGLE": {
+        "message": "Fartøj er ikke nivelleret (nok)",
+        "description": "Description of the ANGLE arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
         "message": "Indkoblet for hurtigt efter Tænd",
         "description": "Description of the BOOT_GRACE_TIME arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipLOAD": {
+        "message": "Systembelastning for høj til sikker flyvning",
+        "description": "Description of the LOAD arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
         "message": "Sensorkalibrering er stadig i gang",
@@ -576,9 +596,17 @@
         "message": "En Black Sheep-telemetrienhed (f.eks. TBS Core Pro) er afkoblet og forhindrer indkobling",
         "description": "Description of the BST arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipMSP": {
+        "message": "MSP-forbindelsen er aktiv, antagelig med denne Betaflight Configurator",
+        "description": "Description of the MSP arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
         "message": "Paralyze-tilstand er aktivatet",
         "description": "Description of the PARALYZE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipGPS": {
+        "message": "GPS-redningstilstand er opsat, men nødvendigt satellitantal er ikke fastlåst",
+        "description": "Description of the GPS arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRESC": {
         "message": "Kontakten 'GPS-redning' er aktiveret",
@@ -979,5 +1007,11 @@
     },
     "osdTimerAlarmTooltip": {
         "message": "Vælg timeralarmgrænse i minutter. Når tiden overstiger denne værdi, vil OSD-elementet blinke. Angives dette til 0, deaktiveres alarmen"
+    },
+    "osdWarningRSSI": {
+        "message": "Advarer, når RSSI er under alarmindstilling"
+    },
+    "configurationSmallAngleHelp": {
+        "message": "Fartøj vil ikke INDKOBLE, hvis vippet mere end angivet graderværdi. Gælder kun, hvis accelerometer er aktivt. Indstilling til 180 vil deaktivere tjek"
     }
 }
