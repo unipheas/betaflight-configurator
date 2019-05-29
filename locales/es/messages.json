@@ -3269,11 +3269,44 @@
     "powerBatteryWarning": {
         "message": "Aviso Voltaje por Celda"
     },
+    "powerCalibrationManagerButton": {
+        "message": "Calibración"
+    },
+    "powerCalibrationManagerHelp": {
+        "message": "Para calibrar, usa un multímetro para medir el voltaje actual \/ consumo de corriente en tu aeronave (con una batería enchufada), e introduce los valores debajo. Después, con la misma batería todavía conectada, pulsa [Calibrar]."
+    },
+    "powerCalibrationManagerNote": {
+        "message": "<strong>Nota:<\/strong> Antes de calibrar la escala asegúrate de que el divisor y el multiplicador para el voltaje y el desplazamiento para la corriente sean correctos.<br>Dejando estos valores a 0 no se efectuará ninguna calibración.<\/br><strong>¡Recuerda quitar las hélices antes de enchufar una batería!<\/strong>"
+    },
+    "powerCalibrationManagerWarning": {
+        "message": "<span class=\"message-negative\">Atención:<\/span> La batería <span class=\"message-negative\">no está enchufada<\/span> o el origen de los sensores de voltaje y corriente <span class=\"message-negative\">no están configurados correctamente.<\/span> Asegúrate de que el voltaje y\/o corriente marcan un valor sobre 0. The otro modo no podrás usar esta herramienta para calibrar."
+    },
+    "powerCalibrationManagerSourceNote": {
+        "message": "<span class=\"message-negative\">Atención:<\/span> Los orígenes de los sensores de voltaje y\/o corriente <strong>han cambiado pero no han sido salvados.<\/strong> Por favor configura los orígenes de los sensores correctamente y guárdalo antes de intentar calibrar."
+    },
+    "powerCalibrationSave": {
+        "message": "Calibrar"
+    },
+    "powerCalibrationApply": {
+        "message": "Aplicar Calibración"
+    },
+    "powerCalibrationDiscard": {
+        "message": "Descartar Calibración"
+    },
+    "powerCalibrationConfirmHelp": {
+        "message": "Las nuevas escalas calibradas se muestran aquí.<br>Aplicarlas asignará las escalas pero <strong>no las guardará.<\/strong><\/br><br>Después de guardarlas asegúrate de que el nuevo voltaje y corriente son correctos<\/br>"
+    },
     "powerVoltageHead": {
         "message": "Medidor de Voltaje"
     },
     "powerVoltageValue": {
         "message": "$1 V"
+    },
+    "powerVoltageCalibration": {
+        "message": "Voltaje Medido"
+    },
+    "powerVoltageCalibratedScale": {
+        "message": "Escala de Voltaje Calibrada:"
     },
     "powerAmperageValue": {
         "message": "$1 A"
@@ -3415,6 +3448,12 @@
     },
     "powerAmperageOffset": {
         "message": "Desplazamiento [mA]"
+    },
+    "powerAmperageCalibration": {
+        "message": "Corriente Medida"
+    },
+    "powerAmperageCalibratedScale": {
+        "message": "Escala de Corriente Calibrada:"
     },
     "powerBatteryHead": {
         "message": "Batería"
