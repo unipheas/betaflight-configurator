@@ -972,6 +972,9 @@
     "failsafeFeaturesHelpNew": {
         "message": "Fejlsikring har to trin. <strong>Trin 1<\/strong> tilgås, når en flykanal har en ugyldig pulslængde, modtageren rapporterer fejlsikret tilstand eller der intet signal er fra modtageren, hvorefter kanalreserveindstillingerne for <span class=\"message- negativ\">alle kanaler<\/span> anvendes, og en lille mængde tid afsættes for at muliggøre gendannelse. <strong>Trin 2<\/strong> tilgås, når fejltilstanden, mens fartøjet er <span class=\"message-negative\">indkoblet<\/span>, varer længere end den opsattee beskyttelsestid, og her forbliver alle kanaler på den anvendte kanalreserveindstilling, medmindre den tilsidesættes af den valgte procedure.<br \/><strong>Bemærk:<\/strong> Inden Trin 1 tilgås, anvendes kanalreserveindstillingerne også på individuelle AUX-kanaler, som har ugyldige impulser."
     },
+    "failsafePulsrangeHelp": {
+        "message": "Pulser kortere end minimum eller længere end maksimum er ugyldige og vil udløse anvendelse af individuelle kanalreserveindstillinger for AUX-kanaler eller anvendelse af trin 1 for flykanaler"
+    },
     "failsafeStageTwoSettingsTitle": {
         "message": "Trin 2 - Indstillinger"
     },
