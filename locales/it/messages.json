@@ -3199,11 +3199,26 @@
     "powerBatteryWarning": {
         "message": "Avviso tensione cella"
     },
+    "powerCalibrationSave": {
+        "message": "Calibra"
+    },
+    "powerCalibrationApply": {
+        "message": "Applica calibrazione"
+    },
+    "powerCalibrationDiscard": {
+        "message": "Annulla calibrazione"
+    },
     "powerVoltageHead": {
         "message": "Misuratore di tensione"
     },
     "powerVoltageValue": {
         "message": "$1 V"
+    },
+    "powerVoltageCalibration": {
+        "message": "Tensione misurata"
+    },
+    "powerVoltageCalibratedScale": {
+        "message": "Scala tensione calibrata:"
     },
     "powerAmperageValue": {
         "message": "$1 A"
@@ -3346,6 +3361,12 @@
     "powerAmperageOffset": {
         "message": "Offset [mA]"
     },
+    "powerAmperageCalibration": {
+        "message": "Assorbimento misurato"
+    },
+    "powerAmperageCalibratedScale": {
+        "message": "Scala assorbimento calibrata:"
+    },
     "powerBatteryHead": {
         "message": "Batteria"
     },
@@ -3375,6 +3396,9 @@
     },
     "osdSetupTitle": {
         "message": "OSD"
+    },
+    "osdSetupPreviewHelp": {
+        "message": "<strong>Nota:<\/strong> l'anteprima OSD potrebbe non mostrare il carattere effettivo installato sul flight controller. Il layout dei singoli elementi potrebbe risultare differente nelle versioni vecchie del firmware - verifica attraverso i tuoi goggles prima di volare."
     },
     "osdSetupUnsupportedNote1": {
         "message": "Il tuo controllore di volo non risponde ai comandi OSD. Questo probabilmente significa che non ha un OSD BetaFlight integrato."
