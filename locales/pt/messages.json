@@ -50,9 +50,6 @@
     "expertMode": {
         "message": "Modo avançado"
     },
-    "expertModeDescription": {
-        "message": "Mostrar versões não liberadas e potencialmente instáveis"
-    },
     "permanentExpertMode": {
         "message": "Sempre usar o modo avançado"
     },
@@ -117,9 +114,6 @@
     "sensorStatusSonarShort": {
         "message": "Sonar",
         "description": "Text of the image in the top sensors icons. Please keep it short."
-    },
-    "checkForConfiguratorUnstableVersions": {
-        "message": "Mostrar notificações de atualizações para versões instáveis do configurador"
     },
     "configuratorUpdateNotice": {
         "message": "Você está usando uma versão antiga do <b>Betaflight Configurator<\/b>. <br>A versão <b>$1<\/b> está disponível online, por favor visite <a href=\"$2\" target=\"_blank\">a página da nova versão<\/a> para efetuar o download e instalar a última versão com correções e melhorias. <br>Por favor feche a janela do configurador antes de atualizar."
@@ -2438,9 +2432,6 @@
     "firmwareFlasherBaudRate": {
         "message": "Baud Rate"
     },
-    "firmwareFlasherShowDevelopmentReleasesDescription": {
-        "message": "Mostrar versões candidatas em conjunto com versões estáveis"
-    },
     "firmwareFlasherOptionLoading": {
         "message": "Carregando..."
     },
@@ -3673,9 +3664,6 @@
     "osdDescElementNumericalVario": {
         "message": "Leitura numérica da velocidade vertical (em pés ou metros, baseado na configuração de unidade)"
     },
-    "osdDescElementCompassBar": {
-        "message": "Barra de bússola gráfica, mostrando a direção atual"
-    },
     "osdDescElementFlipArrow": {
         "message": "Seta que indica quais motores estão afastados do chão no modo 'virar após queda' (Turtle mode)"
     },
@@ -3691,12 +3679,6 @@
     "osdDescElementStickOverlayRight": {
         "message": "Posição do stick direito do transmissor."
     },
-    "osdDescElementTimer1": {
-        "message": "Mostra o valor do cronômetro 1"
-    },
-    "osdDescElementTimer2": {
-        "message": "Mostra o valor do cronômetro 2"
-    },
     "osdDescElementRemaningTimeEstimate": {
         "message": "Tempo estimado de voo restante"
     },
@@ -3708,12 +3690,6 @@
     },
     "osdDescAntiGravity": {
         "message": "Exibe um indicador quando o módulo antigravidade estiver em efeito"
-    },
-    "osdDescGForce": {
-        "message": "Mostra o valor da Força-G sob a aeronave"
-    },
-    "osdDescElementMotorDiag": {
-        "message": "Mostra um gráfico da saída de cada motor"
     },
     "osdDescElementLogStatus": {
         "message": "Blackbox - Avisos e número do log"
@@ -3826,9 +3802,6 @@
     "osdWarningBatteryCritical": {
         "message": "Alertas quando a voltagem da bateria fica abaixo da média mínima por célula"
     },
-    "osdWarningVisualBeeper": {
-        "message": "Mostra uma visualização do beeper (mostra 4 asteriscos)"
-    },
     "osdWarningCrashFlipMode": {
         "message": "Alerta quando o modo 'virar após queda' (Turtle mode) estiver ativo"
     },
@@ -3878,7 +3851,7 @@
         "message": "Escolha os valores exibidos na tela de estatísticas após voo."
     },
     "osdSectionHelpWarnings": {
-        "message": "Ative ou Desative alertas exibidos no elemento de ALERTAS."
+        "message": "Ative ou Desative os alertas que serão exibidos no elemento de ALERTAS."
     },
     "osdSettingsSaved": {
         "message": "Configurações do OSD salvas"
