@@ -993,6 +993,12 @@
     "failsafeRxMinUsecItem": {
         "message": "Minimumslængde"
     },
+    "failsafeRxMaxUsecItem": {
+        "message": "Maskimumslængde"
+    },
+    "failsafeChannelFallbackSettingsTitle": {
+        "message": "Kanal Fallback-indstillinger"
+    },
     "failsafeChannelFallbackSettingsHelp": {
         "message": "Disse indstillinger anvendes på ugyldige individuelle AUX-kanaler eller på alle kanaler, når disse overgår til Trin 1. <strong>Bemærk:<\/strong> Værdierne gemmes i trin på 25 mikrosek, så små ændringer forsvinder"
     },
