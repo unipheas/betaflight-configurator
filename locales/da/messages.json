@@ -1005,6 +1005,12 @@
     "failsafeGpsRescueItemSanityChecksFSOnly": {
         "message": "Kun Failsafe"
     },
+    "failsafeSwitchTitle": {
+        "message": "Failsafe-kontakt"
+    },
+    "failsafeSwitchModeItem": {
+        "message": "Failsafe-kontakthandling"
+    },
     "failsafeSwitchModeHelp": {
         "message": "Denne indstilling afgør, hvad der sker, når Failsafe aktiveres via AUX-knappen:<br\/><strong>Trin 1<\/strong> aktiverer Trin 1 Failsafe, der er nyttig til at simulere den nøjagtige fejlsikringsadfærd ved signaltab.<br\/><strong>Trin 2<\/strong> overspringer Trin 1 og aktiverer omgående Trin 2-proceduren <br\/><strong>Kill<\/strong>, der straks afkobler (fartøjet havarerer)"
     },
@@ -1053,8 +1059,14 @@
     "osdTimerAlarmTooltip": {
         "message": "Vælg timeralarmgrænse i minutter. Når tiden overstiger denne værdi, vil OSD-elementet blinke. Angives dette til 0, deaktiveres alarmen"
     },
+    "osdWarningFailsafe": {
+        "message": "Advarer, når fejlsikring opstår"
+    },
     "osdWarningRSSI": {
         "message": "Advarer, når RSSI er under alarmindstilling"
+    },
+    "mainHelpFailsafe": {
+        "message": "Failsafe-tilstand"
     },
     "configurationSmallAngleHelp": {
         "message": "Fartøj vil ikke INDKOBLE, hvis vippet mere end angivet graderværdi. Gælder kun, hvis accelerometer er aktivt. Indstilling til 180 vil deaktivere tjek"
