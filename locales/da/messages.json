@@ -996,8 +996,14 @@
     "failsafeThrottleLowHelp": {
         "message": "Afkobler blot fartøjet i stedet for at udføre den valgte fejlsikringsprocedure, når gassen har været lav i dette tidsinterval"
     },
+    "failsafeOffDelayItem": {
+        "message": "Forsinkelse for at slukke motorer under Failsafe [1 = 0,1 sek.]"
+    },
     "failsafeOffDelayHelp": {
         "message": "Tid at forblive i landingstilstand, indtil motorerne er slået fra, og fartøjet er afkoblet"
+    },
+    "failsafeGpsRescueItemSanityChecksFSOnly": {
+        "message": "Kun Failsafe"
     },
     "failsafeSwitchModeHelp": {
         "message": "Denne indstilling afgør, hvad der sker, når Failsafe aktiveres via AUX-knappen:<br\/><strong>Trin 1<\/strong> aktiverer Trin 1 Failsafe, der er nyttig til at simulere den nøjagtige fejlsikringsadfærd ved signaltab.<br\/><strong>Trin 2<\/strong> overspringer Trin 1 og aktiverer omgående Trin 2-proceduren <br\/><strong>Kill<\/strong>, der straks afkobler (fartøjet havarerer)"
