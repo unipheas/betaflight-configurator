@@ -975,6 +975,9 @@
     "failsafePulsrangeHelp": {
         "message": "Pulser kortere end minimum eller længere end maksimum er ugyldige og vil udløse anvendelse af individuelle kanalreserveindstillinger for AUX-kanaler eller anvendelse af trin 1 for flykanaler"
     },
+    "failsafeChannelFallbackSettingsHelp": {
+        "message": "Disse indstillinger anvendes på ugyldige individuelle AUX-kanaler eller på alle kanaler, når disse overgår til Trin 1. <strong>Bemærk:<\/strong> Værdierne gemmes i trin på 25 mikrosek, så små ændringer forsvinder"
+    },
     "failsafeStageTwoSettingsTitle": {
         "message": "Trin 2 - Indstillinger"
     },
