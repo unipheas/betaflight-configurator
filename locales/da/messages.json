@@ -1005,17 +1005,47 @@
     "failsafeStageTwoSettingsTitle": {
         "message": "Trin 2 - Indstillinger"
     },
+    "failsafeDelayItem": {
+        "message": "Guard-tid til Trin 2-aktivering efter signaltab [1 = 0,1 sec.]"
+    },
+    "failsafeDelayHelp": {
+        "message": "Trin 1-ventetid for gendannelse"
+    },
     "failsafeThrottleLowItem": {
         "message": "Failsafe Lav Gas Lav-forsinkelse [1 = 0,1 sek.]"
     },
     "failsafeThrottleLowHelp": {
         "message": "Afkobler blot fartøjet i stedet for at udføre den valgte fejlsikringsprocedure, når gassen har været lav i dette tidsinterval"
     },
+    "failsafeThrottleItem": {
+        "message": "Gasværdi anvendt under landing"
+    },
     "failsafeOffDelayItem": {
         "message": "Forsinkelse for at slukke motorer under Failsafe [1 = 0,1 sek.]"
     },
     "failsafeOffDelayHelp": {
         "message": "Tid at forblive i landingstilstand, indtil motorerne er slået fra, og fartøjet er afkoblet"
+    },
+    "failsafeProcedureItemSelect1": {
+        "message": "Land"
+    },
+    "failsafeProcedureItemSelect2": {
+        "message": "Drop"
+    },
+    "failsafeProcedureItemSelect4": {
+        "message": "GPS-redning"
+    },
+    "failsafeGpsRescueItemAngle": {
+        "message": "Vinkel"
+    },
+    "failsafeGpsRescueItemInitialAltitude": {
+        "message": "Indledende højde (meter)"
+    },
+    "failsafeGpsRescueItemDescentDistance": {
+        "message": "Nedstigningsdistance (meter)"
+    },
+    "failsafeGpsRescueItemGroundSpeed": {
+        "message": "Jordhastighed (meter\/sekund)"
     },
     "failsafeGpsRescueItemSanityChecksFSOnly": {
         "message": "Kun Failsafe"
