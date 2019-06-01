@@ -908,6 +908,9 @@
     "configurationReverseMotorSwitchHelp": {
         "message": "Denne mulighed opsætter mixeren til at forvente, at motorretningen skal vendes, og at propellerne er tilsvarende monteret. <strong>Advarsel:<\/strong> Dette vender ikke motorretningen. Brug opsætningssværktøjet til dine ESC'er eller skift ESC-motorledningsrækkefølgen for at opnå dette. Tjek også, uden propeller, at dine motorer roterer i retningerne vist i diagrammet ovenfor, inden du forsøger at indkoble."
     },
+    "configurationAutoDisarmDelay": {
+        "message": "Afkobl motorer jf. opsat forsinkelse [seconds] (Kræver MOTOR_STOP-funktion)"
+    },
     "configurationDisarmKillSwitch": {
         "message": "Afkobl motorer uanset gasværdi (når ARM er opsat på fanebladet Tilstande via AUX-kanal)"
     },
@@ -952,6 +955,9 @@
     },
     "beeperGYRO_CALIBRATED": {
         "message": "Bipper, når gyro er færdigkalibreret"
+    },
+    "beeperRX_LOST": {
+        "message": "Bipper, når TX er slået fra eller signal mistes (gentages indtil TX er OK)"
     },
     "beeperDISARMING": {
         "message": "Bip, når flight controller afkobles"
