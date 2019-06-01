@@ -3540,6 +3540,10 @@
         "message": "Previsualizar para",
         "description": "Label of the selector for the OSD Profile in the preview. KEEP IT SHORT!!!"
     },
+    "osdSetupPreviewForTitle": {
+        "message": "Cambiando aquí o perfil ou a fonte NON cambiará o perfil ou a fonte no controlador de voo, só afecta á ventá de previsualización. Se queres cambialo, debes usar a opción '$t(osdSetupSelectedProfileTitle.message)' ou o botón '$t(osdSetupFontManager.message)' respectivamente.",
+        "description": "Help content for the OSD profile and font PREVIEW"
+    },
     "osdSetupSelectedProfileTitle": {
         "message": "Perfil OSD activo",
         "description": "Title of the box to select the current active OSD profile"
@@ -3551,6 +3555,10 @@
     "osdSetupPreviewSelectProfileElement": {
         "message": "Perfil OSD {{profileNumber}}",
         "description": "Content of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupPreviewSelectFontElement": {
+        "message": "Fonte {{fontName}}",
+        "description": "Content of the selector for the OSD Font in the preview"
     },
     "osdSetupVideoFormatTitle": {
         "message": "Formato de vídeo"
@@ -3581,6 +3589,10 @@
     },
     "osdSetupFontPresetsSelector": {
         "message": "Elixe unha Fonte Predefinida:"
+    },
+    "osdSetupFontPresetsSelectorCustomOption": {
+        "message": "Fonte suministrada polo usuario",
+        "description": "Option to show as selected when the user selects a custom local font"
     },
     "osdSetupFontPresetsSelectorOr": {
         "message": "or"
@@ -3756,6 +3768,12 @@
     "osdDescElementEscRpmFreq": {
         "message": "Frecuencia RPM reportada pola telemetría dos ESC"
     },
+    "osdDescElementRateProfileName": {
+        "message": "Mostra o nome do perfil de taxa actual"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "Mostra o nome do perfil PID actual"
+    },
     "osdDescElementRtcDateTime": {
         "message": "Data \/ Hora en tempo real"
     },
@@ -3818,6 +3836,9 @@
     },
     "osdDescElementLogStatus": {
         "message": "Número de caixa negra e avisos"
+    },
+    "osdDescElementOsdProfileName": {
+        "message": "O nome do perfil OSD definido nas variables CLI \"osd_profile_1_name\", \"osd_profile_2_name\" and \"osd_profile_3_name\""
     },
     "osdDescStatMaxSpeed": {
         "message": "Máxima velocidade rexistrada"
