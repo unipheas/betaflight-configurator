@@ -3300,11 +3300,44 @@
     "powerBatteryWarning": {
         "message": "Aviso Voltaxe por Celda"
     },
+    "powerCalibrationManagerButton": {
+        "message": "Calibración"
+    },
+    "powerCalibrationManagerHelp": {
+        "message": "Para calibrar, use un multímetro para medir a tensión \/ corrente real da súa aeronave (cunha batería conectada) e introduza os valores seguintes. Entón, coa mesma batería aínda conectada, faga clic en [Calibrate]."
+    },
+    "powerCalibrationManagerNote": {
+        "message": "<strong> Nota: <\/strong> antes de calibrar a escala, asegúrese de que o divisor e multiplicador de tensión e desprazamento para o amperaje estea axustado correctamente. <br> Deixar os valores en 0 non aplicará a calibración. <\/br> <strong> Recorde retirar as hélices antes de enchufar unha batería! <\/strong>"
+    },
+    "powerCalibrationManagerWarning": {
+        "message": "<span class = \"message-negative\"> Aviso: <\/span> A batería <span class = \"message-negative\"> non está conectada <\/span> ou as fontes de tensión e amperage non <span class = \" negativo \"> son adecuadas. <\/span> Asegúrese de que a tensión e \/ ou o amperaje son un valor por enriba de 0. Se non, non poderá calibrar con esta ferramenta."
+    },
+    "powerCalibrationManagerSourceNote": {
+        "message": "<span class = \"message-negative\"> Aviso: <\/span> As fontes de medición de tensión e \/ ou amperage <strong> modificáronse pero non se gardaron. <\/strong> Configure as fontes correctas do medidor e gárdeas antes de intentar calibrar."
+    },
+    "powerCalibrationSave": {
+        "message": "Calibrado"
+    },
+    "powerCalibrationApply": {
+        "message": "Aplicar a calibración"
+    },
+    "powerCalibrationDiscard": {
+        "message": "Descartar a Calibración"
+    },
+    "powerCalibrationConfirmHelp": {
+        "message": "Aquí móstranse novas escalas calibradas. <br> As solicitudes establecerán as escalas, pero <strong> non as gardarán. <\/strong> <\/br> <br> Despois de gardar asegúrese de que a nova tensión e corrente sexan correctas. <\/br>"
+    },
     "powerVoltageHead": {
         "message": "Medidor de Voltaxe"
     },
     "powerVoltageValue": {
         "message": "$1 V"
+    },
+    "powerVoltageCalibration": {
+        "message": "Tensión medida"
+    },
+    "powerVoltageCalibratedScale": {
+        "message": "Escala de voltaxe calibrada:"
     },
     "powerAmperageValue": {
         "message": "$1 A"
@@ -3446,6 +3479,12 @@
     },
     "powerAmperageOffset": {
         "message": "Desprazamento [mA]"
+    },
+    "powerAmperageCalibration": {
+        "message": "Amperaxe medido"
+    },
+    "powerAmperageCalibratedScale": {
+        "message": "Escala de amperios calibrada:"
     },
     "powerBatteryHead": {
         "message": "Batería"
