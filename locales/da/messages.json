@@ -602,6 +602,10 @@
         "message": "Indkoblet for hurtigt efter Tænd",
         "description": "Description of the BOOT_GRACE_TIME arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipNOPREARM": {
+        "message": "Præindkoblingskontakt er ikke aktiveret eller er ikke omskiftet efter frakobling",
+        "description": "Description of the NOPREARM arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipLOAD": {
         "message": "Systembelastning for høj til sikker flyvning",
         "description": "Description of the LOAD arming disable flag"
@@ -691,6 +695,12 @@
     "featureMOTOR_STOP": {
         "message": "Rotér ikke motorerer, når indkoblet"
     },
+    "featureSERVO_TILT": {
+        "message": "Servo-gimbal"
+    },
+    "featureSOFTSERIAL": {
+        "message": "Aktivér CPU-baserede serielporte"
+    },
     "featureSOFTSERIALTip": {
         "message": "Opsæt porte på fanen Porte efter aktivering."
     },
@@ -709,6 +719,9 @@
     "featureCURRENT_METER": {
         "message": "Batterstrømmonitering"
     },
+    "feature3D": {
+        "message": "3D-tilstand (til brug med vendbare ESC'er)"
+    },
     "featureRX_PARALLEL_PWM": {
         "message": "PWM RX-input (én ledning pr. kanal)"
     },
@@ -724,6 +737,9 @@
     "featureDISPLAYTip": {
         "message": "Er denne funktion aktiveret, og er ingen visningsenhed tilsluttet (eller er visningsenheden ikke tændt), vil der være en forsinkelse på ca. 10 sek. ved hver flight controller-genstart."
     },
+    "featureONESHOT125": {
+        "message": "ONESHOT ESC-understøttelse"
+    },
     "featureONESHOT125Tip": {
         "message": "Frakobl flybatteri og fjern propeller inden aktivering."
     },
@@ -732,6 +748,9 @@
     },
     "featureBLACKBOXTip": {
         "message": "Efter aktivering, opsæt via fanen BlackBox."
+    },
+    "featureRX_SPI": {
+        "message": "SPI RX-understøttelse"
     },
     "featureESC_SENSOR": {
         "message": "Benyt KISS\/BLHeli_32 ESC-telemetri som sensor"
@@ -745,6 +764,15 @@
     "featureTRANSPONDERTip": {
         "message": "Efter aktivering, opsæt via fanen Race Transponder."
     },
+    "featureAIRMODE": {
+        "message": "Aktivér Airmode permanent"
+    },
+    "featureSUPEREXPO_RATES": {
+        "message": "Super Expo Rates"
+    },
+    "featureSDCARD": {
+        "message": "SD-kortunderstøttelse (til logging)"
+    },
     "featureOSD": {
         "message": "On Screen-visning"
     },
@@ -753,6 +781,9 @@
     },
     "featureANTI_GRAVITY": {
         "message": "Boost midlertidigt I-Term ved højgasændringer"
+    },
+    "featureDYNAMIC_FILTER": {
+        "message": "Dynamisk gyro notch filtrering"
     },
     "featureFAILSAFE": {
         "message": "Aktivér Failsafe Trin 2"
@@ -802,6 +833,9 @@
     "configurationSerialRXHelp": {
         "message": "<strong>Bemærk:<\/strong> Husk at opsætte en serielport (via fanen Porte) og vælg en Serielmodtagerleverandør, når RX_SERIAL-funktionen benyttes."
     },
+    "configurationSpiRxHelp": {
+        "message": "<strong>Note:<\/strong> SPI RX-leverandøren vil kun fungere, hvis den nødvendige hardware er on-board eller tilsluttet en SPI-bus."
+    },
     "configurationOtherFeaturesHelp": {
         "message": "<strong>Bemærk:<\/strong> Ikke alle funktioner understøttes af alle flight controllere. Aktiveres en bestemt funktion, og er den derefter deaktiveret, når du har valgt \"Gem og genstart\", er funktionen uunderstøttet af boardet."
     },
@@ -822,6 +856,9 @@
     },
     "configurationSensorGyroToUse": {
         "message": "GYRO\/ACCEL"
+    },
+    "configurationSensorGyroToUseNotFound": {
+        "message": "Advarsel: Ingen Gyro\/Acc fundet"
     },
     "configurationSensorGyroToUseFirst": {
         "message": "Første"
@@ -864,6 +901,9 @@
     },
     "configurationMagDeclination": {
         "message": "Magnetometerdeclination [deg]"
+    },
+    "configurationReverseMotorSwitch": {
+        "message": "Motorretning er vendt om"
     },
     "configurationReverseMotorSwitchHelp": {
         "message": "Denne mulighed opsætter mixeren til at forvente, at motorretningen skal vendes, og at propellerne er tilsvarende monteret. <strong>Advarsel:<\/strong> Dette vender ikke motorretningen. Brug opsætningssværktøjet til dine ESC'er eller skift ESC-motorledningsrækkefølgen for at opnå dette. Tjek også, uden propeller, at dine motorer roterer i retningerne vist i diagrammet ovenfor, inden du forsøger at indkoble."
