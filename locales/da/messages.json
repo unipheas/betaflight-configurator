@@ -1047,6 +1047,15 @@
     "failsafeGpsRescueItemGroundSpeed": {
         "message": "Jordhastighed (meter\/sekund)"
     },
+    "failsafeGpsRescueItemThrottleMin": {
+        "message": "Gas minimum"
+    },
+    "failsafeGpsRescueItemThrottleMax": {
+        "message": "Gas maksimum"
+    },
+    "failsafeGpsRescueItemThrottleHover": {
+        "message": "Gas svævning"
+    },
     "failsafeGpsRescueItemSanityChecksFSOnly": {
         "message": "Kun Failsafe"
     },
