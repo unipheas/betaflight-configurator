@@ -449,6 +449,9 @@
     "initialSetupCalibrateMagText": {
         "message": "Bevæg indenfor 30 sek. multirotoren mindst <strong>360<\/strong> grader i alle dens rotationsakser"
     },
+    "initialSetupButtonCalibratingText": {
+        "message": "Kalibrerér..."
+    },
     "initialSetupButtonReset": {
         "message": "Nulstil Indstillinger"
     },
@@ -464,6 +467,9 @@
     "initialSetupButtonRebootBootloader": {
         "message": "Aktivér Boot Loader\/DFU"
     },
+    "initialSetupBackupRestoreText": {
+        "message": "<strong>Sikkerhedskopiér<\/strong> din opsætning i tilfælde af uheld. <strong>CLI-indstillinger<\/strong> medtages <span class=\"message-negative\">ikke<\/span> - benyt kommandoen 'diff all' i CLI til dette."
+    },
     "initialSetupRebootBootloaderText": {
         "message": "Reboot til <strong>boot loader-\/DFU-tilstand<\/strong>."
     },
@@ -472,6 +478,12 @@
     },
     "initialSetupRestoreSuccess": {
         "message": "Opsætning blev <span class=\"message-positive\">gendannet<\/span>"
+    },
+    "initialSetupButtonResetZaxis": {
+        "message": "Nulstil Z-akse, forskydn.: 0 gr"
+    },
+    "initialSetupButtonResetZaxisValue": {
+        "message": "Nulstil Z-akse, forskydn.: $1 gr"
     },
     "initialSetupMixerHead": {
         "message": "Mixertype"
@@ -488,6 +500,9 @@
     "initialSetupFailsafe": {
         "message": "Failsafe:"
     },
+    "initialSetupMinCommand": {
+        "message": "MinCommand:"
+    },
     "initialSetupBatteryHead": {
         "message": "Batteri"
     },
@@ -497,8 +512,17 @@
     "initialSetupMaxCellV": {
         "message": "Maks. Cellespænd.:"
     },
+    "initialSetupVoltageScale": {
+        "message": "Spænd.skala:"
+    },
     "initialSetupAccelTrimsHead": {
         "message": "Accelerometer-trims"
+    },
+    "initialSetupPitch": {
+        "message": "Pitch:"
+    },
+    "initialSetupRoll": {
+        "message": "Roll:"
     },
     "initialSetupMagHead": {
         "message": "Magnetometer"
@@ -518,6 +542,9 @@
     "initialSetupDrawn": {
         "message": "Kapacitetsforbrug:"
     },
+    "initialSetupDrawing": {
+        "message": "Strømforbrug:"
+    },
     "initialSetupBatteryMahValue": {
         "message": "$1 mAh"
     },
@@ -535,6 +562,9 @@
     },
     "initialSetupArmingAllowed": {
         "message": "Indkobling Tilladt"
+    },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "Liste over flag som angiver, hvorfor indkobling pt. ikke er tilladt. Før markøren over flaget, eller se Wiki'en (siden 'Indkoblingssekvens og Sikkerhed'), for mere info."
     },
     "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
         "message": "En gyro blev ikke fundet",
@@ -1056,6 +1086,15 @@
     "failsafeGpsRescueItemThrottleHover": {
         "message": "Gas svævning"
     },
+    "failsafeGpsRescueItemSanityChecks": {
+        "message": "Sanity checks"
+    },
+    "failsafeGpsRescueItemSanityChecksOff": {
+        "message": "Fra"
+    },
+    "failsafeGpsRescueItemSanityChecksOn": {
+        "message": "Til"
+    },
     "failsafeGpsRescueItemSanityChecksFSOnly": {
         "message": "Kun Failsafe"
     },
@@ -1073,6 +1112,9 @@
     },
     "failsafeSwitchOptionStage2": {
         "message": "Trin 2"
+    },
+    "failsafeSwitchOptionKill": {
+        "message": "Kill"
     },
     "osdSetupAlarmsTitle": {
         "message": "Alarmer"
