@@ -1046,6 +1046,108 @@
     "configurationGPSProtocol": {
         "message": "Protokol"
     },
+    "configurationGPSBaudrate": {
+        "message": "Baud-hastighed"
+    },
+    "configurationGPSubxSbas": {
+        "message": "Ground Assistance Type"
+    },
+    "configurationGPSAutoBaud": {
+        "message": "Auto Baud"
+    },
+    "configurationGPSAutoConfig": {
+        "message": "Auto-opsætn."
+    },
+    "configurationGPSHelp": {
+        "message": "<strong>Bemærk:<\/strong> Husk at opsætte en Serielport (via fanen Porte) ved brug af GPS-funktion."
+    },
+    "configurationSerialRX": {
+        "message": "Serielmodtagerleverandør"
+    },
+    "configurationSpiRX": {
+        "message": "SPI-busmodtagerleverandør"
+    },
+    "configurationEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">gemt<\/span>"
+    },
+    "configurationButtonSave": {
+        "message": "Gem og Genstart"
+    },
+    "portsIdentifier": {
+        "message": "Identifikator"
+    },
+    "portsConfiguration": {
+        "message": "Opsætning\/MSP"
+    },
+    "portsSerialRx": {
+        "message": "Seriel-Rx"
+    },
+    "portsSensorIn": {
+        "message": "Sensor-input"
+    },
+    "portsTelemetryOut": {
+        "message": "Telemetri-output"
+    },
+    "portsPeripherals": {
+        "message": "Tilbehør"
+    },
+    "portsHelp": {
+        "message": "<strong>Bemærk:<\/strong> Ikke alle kombinationer er gyldige. Når flight controller-firmwaren opdager dette, nulstilles serielportopsætningen."
+    },
+    "portsMSPHelp": {
+        "message": "<strong>Bemærk:<\/strong> Deaktivér <span class=\"message-negative\">IKKE<\/span> MSP på den første serielport med mindre du ved, hvad du gør. Du skal måske gen-flashe og slette opsætningen i så tilfælde."
+    },
+    "portsFirmwareUpgradeRequired": {
+        "message": "Firmware-opgradering <span class=\"message-negative\">nødvendig<\/span>.  Serielportopsætning understøttes ikke af firmware &lt; 1.8.0."
+    },
+    "portsButtonSave": {
+        "message": "Gem og Genstart"
+    },
+    "portsTelemetryDisabled": {
+        "message": "Deaktiveret"
+    },
+    "portsFunction_MSP": {
+        "message": "MSP"
+    },
+    "portsFunction_GPS": {
+        "message": "GPS"
+    },
+    "portsFunction_TELEMETRY_FRSKY": {
+        "message": "FrSky"
+    },
+    "portsFunction_TELEMETRY_HOTT": {
+        "message": "HoTT"
+    },
+    "portsFunction_TELEMETRY_LTM": {
+        "message": "LTM"
+    },
+    "portsFunction_TELEMETRY_MAVLINK": {
+        "message": "MAVLink"
+    },
+    "portsFunction_TELEMETRY_MSP": {
+        "message": "MSP"
+    },
+    "portsFunction_TELEMETRY_SMARTPORT": {
+        "message": "SmartPort"
+    },
+    "portsFunction_TELEMETRY_IBUS": {
+        "message": "iBUS"
+    },
+    "portsFunction_TELEMETRY_JETIXBUS": {
+        "message": "JETIXBUS"
+    },
+    "portsFunction_TELEMETRY_CRSF": {
+        "message": "CRSF"
+    },
+    "portsFunction_TELEMETRY_SRXL": {
+        "message": "SRXL"
+    },
+    "portsFunction_ESC_SENSOR": {
+        "message": "ESC"
+    },
+    "portsFunction_RX_SERIAL": {
+        "message": "Seriel-RX"
+    },
     "receiverHelp": {
         "message": "Læs Modtagerkapitlet i dokumentationen. Opsæt serielport (om nødvendigt), modtagertilstand (seriel\/ppm\/pwm), leverandør (til serielmodtagere), bind modtager, opsæt kanallayout, opsæt kanalendepunkter\/område på TX, så alle kanaler går fra ~ 1.000 til ~ 2.000. Opsæt midterpunkt (standard 1.500), trim kanaler til 1.500, opsæt stick deadband, bekræft adfærd, når TX er slukket eller uden for rækkevidde.<br \/><span class=\"message-negative\">VIGTIGT:<\/span> Før du flyver, læs Failsafe-kapitlet i dokumentation og opsæt fejlsikring."
     },
