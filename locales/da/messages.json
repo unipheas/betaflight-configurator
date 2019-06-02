@@ -1144,6 +1144,9 @@
     "failsafeGpsRescueItemSanityChecksFSOnly": {
         "message": "Kun Failsafe"
     },
+    "failsafeKillSwitchItem": {
+        "message": "Failsafe Kill-kontakt (opsæt Failsafe på fanen Tilstande)"
+    },
     "failsafeSwitchTitle": {
         "message": "Failsafe-kontakt"
     },
