@@ -1163,6 +1163,33 @@
     "pidTuningProfileOption": {
         "message": "Profil $1"
     },
+    "pidTuningRateProfileOption": {
+        "message": "Rateprofile $1"
+    },
+    "portsFunction_LIDAR_TF": {
+        "message": "Benewake LIDAR"
+    },
+    "pidTuningUpgradeFirmwareToChangePidController": {
+        "message": "<span class=\"message-negative\">Ændring af PID-controller er deaktiveret - du kan ændre den via CLI.<\/span> Du har firmware med API-version <span class=\"message-negative\">$1<\/span>, men denne funktionalitet kræver <span class=\"message-positive\">$2<\/span>."
+    },
+    "pidTuningSubTabPid": {
+        "message": "PID-indstillinger"
+    },
+    "pidTuningSubTabFilter": {
+        "message": "Filterindstillinger"
+    },
+    "pidTuningShowAllPids": {
+        "message": "Vis alle PID'er"
+    },
+    "pidTuningHideUnusedPids": {
+        "message": "Skjul ubenyttede PID'er"
+    },
+    "pidTuningNonProfilePidSettings": {
+        "message": "Profiluafhængige PID-controller indstillinger"
+    },
+    "pidTuningAntiGravityMode": {
+        "message": "Anti-tyngdekrafttilstand"
+    },
     "receiverHelp": {
         "message": "Læs Modtagerkapitlet i dokumentationen. Opsæt serielport (om nødvendigt), modtagertilstand (seriel\/ppm\/pwm), leverandør (til serielmodtagere), bind modtager, opsæt kanallayout, opsæt kanalendepunkter\/område på TX, så alle kanaler går fra ~ 1.000 til ~ 2.000. Opsæt midterpunkt (standard 1.500), trim kanaler til 1.500, opsæt stick deadband, bekræft adfærd, når TX er slukket eller uden for rækkevidde.<br \/><span class=\"message-negative\">VIGTIGT:<\/span> Før du flyver, læs Failsafe-kapitlet i dokumentation og opsæt fejlsikring."
     },
