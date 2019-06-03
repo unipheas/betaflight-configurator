@@ -310,6 +310,9 @@
     "stm32UnprotectSuccessful": {
         "message": "Beskyttelse fjernet."
     },
+    "stm32UnprotectUnplug": {
+        "message": "HANDLING KRÆVES: Frakobl og tilkobl flight controller i DFU-tilstand for at forsøge gen-flashning!"
+    },
     "infoVersions": {
         "message": "Kører - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
@@ -1199,10 +1202,18 @@
         "description": "One of the modes of anti gravity"
     },
     "pidTuningAntiGravityGain": {
-        "message": "Anti-tyngdekraftforøgelse"
+        "message": "Anti Gravity Gain"
     },
     "pidTuningAntiGravityThres": {
         "message": "Anti-tyngdekraftgrænse"
+    },
+    "pidTuningDMinHelp": {
+        "message": "D Min muliggør et lavere D-niveau under normal flyvning og et højere niveau for hurtige manøvrer, som kan forårsage overskridelse, såsom flips og rolls. Det forøger også D under prop wash. Fartøjet vil have en dynamisk D-periode, der varierer fra D Min (under normal flyvning) til standard D (under hurtig rolls og flips). En værdi på nul vil deaktivere funktionen. Gain bestemmer, hvor kraftigt D boostes under hurtige pindinput. Advance accelererer effektueringen af boost-effekten. Dette kan være nyttigt, hvis du har overdrevet nogle højhastigheds-flips på meget responsive quad'er.",
+        "description": "Help message for D Min feature"
+    },
+    "pidTuningDMinGain": {
+        "message": "Gain",
+        "description": "Gain of the D Min feature"
     },
     "receiverHelp": {
         "message": "Læs Modtagerkapitlet i dokumentationen. Opsæt serielport (om nødvendigt), modtagertilstand (seriel\/ppm\/pwm), leverandør (til serielmodtagere), bind modtager, opsæt kanallayout, opsæt kanalendepunkter\/område på TX, så alle kanaler går fra ~ 1.000 til ~ 2.000. Opsæt midterpunkt (standard 1.500), trim kanaler til 1.500, opsæt stick deadband, bekræft adfærd, når TX er slukket eller uden for rækkevidde.<br \/><span class=\"message-negative\">VIGTIGT:<\/span> Før du flyver, læs Failsafe-kapitlet i dokumentation og opsæt fejlsikring."
