@@ -1221,6 +1221,9 @@
     "receiverMspWarningText": {
         "message": "Disse pinde tillader indkobling og test af Betaflight, uden en sender\/modtager er til stede. Bemærk, <strong>at denne funktion ikke er beregnet til flyvning, og propeller må ikke monteres.<\/strong><br><br>Denne funktion garanterer ikke pålidelig kontrol med dit fartøj. <strong>Alvorlig skade vil sandsynligvis opstå, hvis propellerne er påsat.<\/strong>"
     },
+    "firmwareFlasherPreviousDevice": {
+        "message": "Detekteret: <strong>$1<\/strong> - tidligere enhed flashes stadig, gentilslut og forsøg igen"
+    },
     "ledStripModeColorsModeDisarmed": {
         "message": "Afkoblet",
         "description": "One of the modes in Color Mode in Led Strip"
@@ -1363,6 +1366,15 @@
     },
     "osdDescElementAltitude": {
         "message": "Aktuel højde (blinker, når over alarmtærskelværdi)"
+    },
+    "osdDescElementPIDRoll": {
+        "message": "Roll-akses PID-forøgelser"
+    },
+    "osdDescElementPIDPitch": {
+        "message": "Pitch-akses PID-forøgelser"
+    },
+    "osdDescElementPIDYaw": {
+        "message": "Yaw-akses PID-forøgelser"
     },
     "osdDescElementArmedTime": {
         "message": "Tid siden fartøjets seneste indkobling"
