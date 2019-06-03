@@ -1211,6 +1211,22 @@
         "message": "D Min muliggør et lavere D-niveau under normal flyvning og et højere niveau for hurtige manøvrer, som kan forårsage overskridelse, såsom flips og rolls. Det forøger også D under prop wash. Fartøjet vil have en dynamisk D-periode, der varierer fra D Min (under normal flyvning) til standard D (under hurtig rolls og flips). En værdi på nul vil deaktivere funktionen. Gain bestemmer, hvor kraftigt D boostes under hurtige pindinput. Advance accelererer effektueringen af boost-effekten. Dette kan være nyttigt, hvis du har overdrevet nogle højhastigheds-flips på meget responsive quad'er.",
         "description": "Help message for D Min feature"
     },
+    "pidTuningDMin": {
+        "message": "D Min",
+        "description": "Table header of the D Min feature in the PIDs tab"
+    },
+    "pidTuningDMinRoll": {
+        "message": "Roll",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinPitch": {
+        "message": "Pitch",
+        "description": "Axis to apply D Min feature"
+    },
+    "pidTuningDMinYaw": {
+        "message": "Yaw",
+        "description": "Axis to apply D Min feature"
+    },
     "pidTuningDMinGain": {
         "message": "Gain",
         "description": "Gain of the D Min feature"
@@ -1231,6 +1247,12 @@
     "ledStripModeColorsModeArmed": {
         "message": "Indkoblet",
         "description": "One of the modes in Color Mode in Led Strip"
+    },
+    "pidTuningAbsoluteControlGain": {
+        "message": "Absolute Control"
+    },
+    "pidTuningAbsoluteControlGainHelp": {
+        "message": "Denne funktion løser nogle af $t(pidTuningItermRotation.message) underliggende problemer og erstatter den forhåbentlig på et tidspunkt. Denne funktion akkumulerer den absolutte gyrofejl i quadkoordinater og indfører en proportionalkorrektion i setpoint. For at det skal fungere, skal AirMode og $t(pidTuningItermRelax.message) aktiveres (for $t(pidTuningItermRelaxAxesOptionRP.message)). Kombineres denne funktion med $t(pidTuningIntegratedYaw.message), kan du sætte $t(pidTuningItermRelax.message) aktiveret for $t(pidTuningItermRelaxAxesOptionRPY.message)."
     },
     "failsafeFeaturesHelpOld": {
         "message": "Failsafe-opsætning er ændret betydeligt. Benyt Betaflight <strong>v1.12.0+<\/strong> for at aktivere det forbedrede opsætningspanel."
