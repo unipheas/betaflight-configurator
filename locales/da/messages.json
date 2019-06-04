@@ -1261,6 +1261,18 @@
     "rcSmoothingInputCutoffHelp": {
         "message": "Afskæringsfrekvensen i Hz brugt af indgangsfilteret. Lavere værdier vil resultere i jævnere input og er mere passende til langsommere modtagerprotokoller. Bør, for de fleste brugere, bibeholdes på 0, dvs. \"Auto\"."
     },
+    "rcSmoothingDerivativeCutoffHelp": {
+        "message": "Afskæringsfrekvensen i Hz brugt af det afledte setpoint-filter. Lavere værdier vil resultere i jævnere input og er mere passende til langsommere modtagerprotokoller. Bør, for de fleste brugere, bibeholdes på 0, dvs. \"Auto\"."
+    },
+    "rcSmoothingChannelsSmoothedHelp": {
+        "message": "Kanaludjævningen gælder for"
+    },
+    "rcSmoothingDerivativeTypeHelp": {
+        "message": "Filtreringsmetoden, der benyttes til det afledte setpoint. De fleste brugere bør bruge standardværdien \"BIQUAD\", da den giver en god balance mellem jævnhed og forsinkelse. \"PT1\" reducerer forsinkelsen lidt, men giver mindre udjævning."
+    },
+    "rcSmoothingInputTypeHelp": {
+        "message": "Filtreringsmetoden, der benyttes til indput. De fleste brugere bør bruge standardværdien \"BIQUAD\", da den giver en god balance mellem jævnhed og forsinkelse. \"PT1\" reducerer forsinkelsen lidt, men giver mindre udjævning."
+    },
     "receiverHelp": {
         "message": "Læs Modtagerkapitlet i dokumentationen. Opsæt serielport (om nødvendigt), modtagertilstand (seriel\/ppm\/pwm), leverandør (til serielmodtagere), bind modtager, opsæt kanallayout, opsæt kanalendepunkter\/område på TX, så alle kanaler går fra ~ 1.000 til ~ 2.000. Opsæt midterpunkt (standard 1.500), trim kanaler til 1.500, opsæt stick deadband, bekræft adfærd, når TX er slukket eller uden for rækkevidde.<br \/><span class=\"message-negative\">VIGTIGT:<\/span> Før du flyver, læs Failsafe-kapitlet i dokumentation og opsæt fejlsikring."
     },
