@@ -1231,6 +1231,36 @@
         "message": "Gain",
         "description": "Gain of the D Min feature"
     },
+    "pidTuningPidSettings": {
+        "message": "PID Controller-indstillinger"
+    },
+    "receiverRcSmoothing": {
+        "message": "RC-udjævning"
+    },
+    "receiverRcSmoothingAuto": {
+        "message": "Auto"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "Manuel"
+    },
+    "receiverRcDerivativeTypeSelect": {
+        "message": "Afledt Cutoff-type"
+    },
+    "receiverRcInputTypeSelect": {
+        "message": "Input Cutoff-type"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "Interpolation"
+    },
+    "receiverRcSmoothingFilter": {
+        "message": "Filter"
+    },
+    "receiverRcSmoothingTypeHelp": {
+        "message": "Anvendt RC-udjævningstype"
+    },
+    "rcSmoothingInputCutoffHelp": {
+        "message": "Afskæringsfrekvensen i Hz brugt af indgangsfilteret. Lavere værdier vil resultere i jævnere input og er mere passende til langsommere modtagerprotokoller. Bør, for de fleste brugere, bibeholdes på 0, dvs. \"Auto\"."
+    },
     "receiverHelp": {
         "message": "Læs Modtagerkapitlet i dokumentationen. Opsæt serielport (om nødvendigt), modtagertilstand (seriel\/ppm\/pwm), leverandør (til serielmodtagere), bind modtager, opsæt kanallayout, opsæt kanalendepunkter\/område på TX, så alle kanaler går fra ~ 1.000 til ~ 2.000. Opsæt midterpunkt (standard 1.500), trim kanaler til 1.500, opsæt stick deadband, bekræft adfærd, når TX er slukket eller uden for rækkevidde.<br \/><span class=\"message-negative\">VIGTIGT:<\/span> Før du flyver, læs Failsafe-kapitlet i dokumentation og opsæt fejlsikring."
     },
