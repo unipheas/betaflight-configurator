@@ -1273,6 +1273,33 @@
     "rcSmoothingInputTypeHelp": {
         "message": "Filtreringsmetoden, der benyttes til indput. De fleste brugere bør bruge standardværdien \"BIQUAD\", da den giver en god balance mellem jævnhed og forsinkelse. \"PT1\" reducerer forsinkelsen lidt, men giver mindre udjævning."
     },
+    "receiverRcSmoothingInputManual": {
+        "message": "Vælger, om inputfilterafskæringsfrekvensen beregnes automatisk (anbefales) eller vælges manuelt af brugeren. Brug af \"Manuel\" anbefales ikke til modtagerprotokoller såsom Crossfire, der kan ændre sig under flyvning."
+    },
+    "receiverRcSmoothingDerivativeManual": {
+        "message": "Vælger, om den afledte setpoint-filterafskæringsfrekvens beregnes automatisk (anbefales) eller vælges manuelt af brugeren. Brug af \"Manuel\" anbefales ikke til modtagerprotokoller såsom Crossfire, der kan ændre sig under flyvning."
+    },
+    "receiverRcSmoothingInputHz": {
+        "message": "Inputafskæringsfrekvens"
+    },
+    "receiverRcSmoothingDerivativeCutoff": {
+        "message": "Afledt Afskæringsfrekvens"
+    },
+    "receiverRcInputType": {
+        "message": "Inputfiltertype"
+    },
+    "receiverRcDerivativeType": {
+        "message": "Afledt Filtertype"
+    },
+    "receiverRcSmoothingDerivativeTypeOff": {
+        "message": "Fra"
+    },
+    "receiverRcSmoothingChannel": {
+        "message": "Kanaler udjævnet"
+    },
+    "receiverRcInterpolation": {
+        "message": "RC-interpolation"
+    },
     "receiverHelp": {
         "message": "Læs Modtagerkapitlet i dokumentationen. Opsæt serielport (om nødvendigt), modtagertilstand (seriel\/ppm\/pwm), leverandør (til serielmodtagere), bind modtager, opsæt kanallayout, opsæt kanalendepunkter\/område på TX, så alle kanaler går fra ~ 1.000 til ~ 2.000. Opsæt midterpunkt (standard 1.500), trim kanaler til 1.500, opsæt stick deadband, bekræft adfærd, når TX er slukket eller uden for rækkevidde.<br \/><span class=\"message-negative\">VIGTIGT:<\/span> Før du flyver, læs Failsafe-kapitlet i dokumentation og opsæt fejlsikring."
     },
