@@ -1300,6 +1300,45 @@
     "receiverRcInterpolation": {
         "message": "RC-interpolation"
     },
+    "receiverRcInterpolationHelp": {
+        "message": "RC TX-\/RX-systemer er ikke så hurtige som PID-loops. Det betyder, at en PID-loop har huller i informationsstrømmen fra RC-systemer. Denne indstilling muliggør interpolering af RC-inpout på de tidspunkter, hvor der ikke modtages RC-frames. Muligheden giver også renere P- og D-adfærd, da kontrolinput ikke sker rykvist."
+    },
+    "receiverRcInterpolationIntervalHelp": {
+        "message": "Interpoleringsinterval i millisekunder ved manuel RC-interpolationstilstand"
+    },
+    "receiverRcInterpolationOff": {
+        "message": "Fra"
+    },
+    "receiverRcSmoothingType": {
+        "message": "Udjævningstype"
+    },
+    "receiverRcInterpolationDefault": {
+        "message": "Forvalgt"
+    },
+    "receiverRcInterpolationAuto": {
+        "message": "Auto"
+    },
+    "receiverRcInterpolationManual": {
+        "message": "Manuel"
+    },
+    "receiverRcInterpolationInterval": {
+        "message": "RC-interpoleringsinterval [ms]"
+    },
+    "pidTuningFeedforwardTransition": {
+        "message": "Feedforward-overgang"
+    },
+    "pidTuningFeedforwardTransitionHelp": {
+        "message": "Med denne parameter kan Feedforward-tiden reduceres tæt ved pindenes centerpositioner, hvilket betyder en mere glidene afslutning på flips og rolls.<br> Værdien repræsenterer et punkt af pindudslaget: 0 - pind centreret, 1 - fuldt udslag. Når pinden er over dette punkt, holdes Feedforward konstant på den opsattte værdi. Når pinden er placeret under dette punkt, reduceres Feedforward proportionalt og når 0 ved pindens centerposition. <br> Værdien 1 giver maksimal udjævningseffekt, mens værdien 0 holder Feedforward på den opsatte værdi over hele pindområdet."
+    },
+    "pidTuningDtermSetpointTransition": {
+        "message": "D Setpoint-overgang"
+    },
+    "pidTuningDtermSetpoint": {
+        "message": "D Setpoint-vægtning"
+    },
+    "pidTuningDtermSetpointTransitionHelp": {
+        "message": "Med denne parameter kan D Setpoint reduceres tæt ved pindenes centerpositioner, hvilket betyder en mere glidene afslutning på flips og rolls.<br> Værdien repræsenterer et punkt af pindudslaget: 0 - pind centreret, 1 - fuldt udslag. Når pinden er over dette punkt, holdes Setpoint-vægtningen konstant på den opsattte værdi. Når pinden er placeret under dette punkt, reduceres Setpoint-vægtningen proportionalt og når 0 ved pindens centerposition. <br> Værdien 1 giver maksimal udjævningseffekt, mens værdien 0 holder Setpoint-vægtningen på den opsatte værdi over hele pindområdet."
+    },
     "receiverHelp": {
         "message": "Læs Modtagerkapitlet i dokumentationen. Opsæt serielport (om nødvendigt), modtagertilstand (seriel\/ppm\/pwm), leverandør (til serielmodtagere), bind modtager, opsæt kanallayout, opsæt kanalendepunkter\/område på TX, så alle kanaler går fra ~ 1.000 til ~ 2.000. Opsæt midterpunkt (standard 1.500), trim kanaler til 1.500, opsæt stick deadband, bekræft adfærd, når TX er slukket eller uden for rækkevidde.<br \/><span class=\"message-negative\">VIGTIGT:<\/span> Før du flyver, læs Failsafe-kapitlet i dokumentation og opsæt fejlsikring."
     },
