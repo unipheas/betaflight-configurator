@@ -1342,6 +1342,15 @@
     "pidTuningDtermSetpointHelp": {
         "message": "Denne parameter afgør pindaccelerationseffekt indenfor en afledt komponent.<br> Værdien 0 modsvarer den gamle målemetode, hvor D kun sporer gyro, mens værdien 1 modsvarer den gamle fejlmetode med samme gyro- og pindsporingsforhold.<br> Lavere værdi modsvarer langsommere\/jævnere pindrespons, mens højere værdi giver øget pindaccelerationsrespons.<br> Bemærk, at RC-interpolation ambefales aktiveret ved højere værdier for at forhindre støj fra bratte kontrolpulser."
     },
+    "pidTuningDtermSetpointTransitionWarning": {
+        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong> Brug af en D Setpoint-overgang højere end 0 og lavere end 0.1 frarådes kraftigt, da dette kan medføre ustabilitet samt reduceret pindrespons, når pindene krydser centerpositionerne.<\/span>"
+    },
+    "pidTuningProportional": {
+        "message": "Proportional"
+    },
+    "pidTuningIntegral": {
+        "message": "Integrering"
+    },
     "receiverHelp": {
         "message": "Læs Modtagerkapitlet i dokumentationen. Opsæt serielport (om nødvendigt), modtagertilstand (seriel\/ppm\/pwm), leverandør (til serielmodtagere), bind modtager, opsæt kanallayout, opsæt kanalendepunkter\/område på TX, så alle kanaler går fra ~ 1.000 til ~ 2.000. Opsæt midterpunkt (standard 1.500), trim kanaler til 1.500, opsæt stick deadband, bekræft adfærd, når TX er slukket eller uden for rækkevidde.<br \/><span class=\"message-negative\">VIGTIGT:<\/span> Før du flyver, læs Failsafe-kapitlet i dokumentation og opsæt fejlsikring."
     },
