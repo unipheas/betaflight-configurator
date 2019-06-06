@@ -1354,6 +1354,9 @@
     "pidTuningRate": {
         "message": "Rate"
     },
+    "pidTuningTPABreakPoint": {
+        "message": "TPA Breakpoint"
+    },
     "pidTuningThrottleLimitType": {
         "message": "Gasbegrænsning"
     },
@@ -1404,6 +1407,27 @@
     },
     "dialogCopyProfileText": {
         "message": "Kopiér værdier fra aktuel profil til"
+    },
+    "dialogCopyRateProfileText": {
+        "message": "Kopiér værdier fra aktuel rate-profil til"
+    },
+    "dialogCopyProfileTitle": {
+        "message": "Kopiér Profilværdier"
+    },
+    "dialogCopyProfileNote": {
+        "message": "Alle destinationsprofilens værdier bliver ryddes og overskreves"
+    },
+    "dialogCopyProfileConfirm": {
+        "message": "Kopiér"
+    },
+    "dialogCopyProfileClose": {
+        "message": "Annullér"
+    },
+    "pidTuningResetProfile": {
+        "message": "Nulstil alle profilværdier"
+    },
+    "pidTuningProfileReset": {
+        "message": "Standard profilværdier indlæst."
     },
     "receiverHelp": {
         "message": "Læs Modtagerkapitlet i dokumentationen. Opsæt serielport (om nødvendigt), modtagertilstand (seriel\/ppm\/pwm), leverandør (til serielmodtagere), bind modtager, opsæt kanallayout, opsæt kanalendepunkter\/område på TX, så alle kanaler går fra ~ 1.000 til ~ 2.000. Opsæt midterpunkt (standard 1.500), trim kanaler til 1.500, opsæt stick deadband, bekræft adfærd, når TX er slukket eller uden for rækkevidde.<br \/><span class=\"message-negative\">VIGTIGT:<\/span> Før du flyver, læs Failsafe-kapitlet i dokumentation og opsæt fejlsikring."
