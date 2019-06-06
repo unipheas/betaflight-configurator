@@ -1351,6 +1351,9 @@
     "pidTuningIntegral": {
         "message": "Integrering"
     },
+    "pidTuningRate": {
+        "message": "Rate"
+    },
     "pidTuningThrottleLimitType": {
         "message": "Gasbegrænsning"
     },
