@@ -1354,6 +1354,18 @@
     "pidTuningThrottleLimitType": {
         "message": "Gasbegrænsning"
     },
+    "pidTuningThrottleLimitPercent": {
+        "message": "Gasbegrænsning %"
+    },
+    "pidTuningThrottleLimitTypeOff": {
+        "message": "FRA"
+    },
+    "pidTuningThrottleLimitTypeScale": {
+        "message": "SKALERING"
+    },
+    "pidTuningThrottleLimitTypeTip": {
+        "message": "Vælg gasbegrænsningstypen. <b>FRA<\/b> deaktiverer funktionen, <b>SKALÉR<\/b> inddeler gasområdet fra 0 til den valgte procentdel ift. hele gaspindområdet, <b>CLIP<\/b> indstiller en maks. gasprocentdel og pindudslag, udover hvilken der ikke vil være nogen yderligere effekt"
+    },
     "receiverHelp": {
         "message": "Læs Modtagerkapitlet i dokumentationen. Opsæt serielport (om nødvendigt), modtagertilstand (seriel\/ppm\/pwm), leverandør (til serielmodtagere), bind modtager, opsæt kanallayout, opsæt kanalendepunkter\/område på TX, så alle kanaler går fra ~ 1.000 til ~ 2.000. Opsæt midterpunkt (standard 1.500), trim kanaler til 1.500, opsæt stick deadband, bekræft adfærd, når TX er slukket eller uden for rækkevidde.<br \/><span class=\"message-negative\">VIGTIGT:<\/span> Før du flyver, læs Failsafe-kapitlet i dokumentation og opsæt fejlsikring."
     },
