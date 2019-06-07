@@ -1531,6 +1531,36 @@
     "receiverMspEnableButton": {
         "message": "Aktivér kontroller"
     },
+    "auxiliaryToggleUnused": {
+        "message": "Skjul ubrugte tilstande"
+    },
+    "auxiliaryMin": {
+        "message": "Min"
+    },
+    "auxiliaryMax": {
+        "message": "Maks"
+    },
+    "auxiliaryAddRange": {
+        "message": "Tilføj Område"
+    },
+    "auxiliaryAddLink": {
+        "message": "Tilføj Link"
+    },
+    "auxiliaryButtonSave": {
+        "message": "Gem"
+    },
+    "auxiliaryEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">gemt<\/span>"
+    },
+    "auxiliaryAutoChannelSelect": {
+        "message": "AUTO"
+    },
+    "auxiliaryModeLogicOR": {
+        "message": "ELLER"
+    },
+    "auxiliaryModeLogicAND": {
+        "message": "OG"
+    },
     "firmwareFlasherPreviousDevice": {
         "message": "Detekteret: <strong>$1<\/strong> - tidligere enhed flashes stadig, gentilslut og forsøg igen"
     },
