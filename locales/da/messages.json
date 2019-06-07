@@ -1486,6 +1486,30 @@
     "recevier3dDeadbandThrottle": {
         "message": "3D Gas Deadband"
     },
+    "receiverHelp3dDeadbandThrottle": {
+        "message": "Disse er værdier (i μs). For at udvide den neutrale zone, forøg værdien. <strong>Denne indstilling gælder kun 3D-gas.<\/strong>"
+    },
+    "receiverChannelMap": {
+        "message": "Kanalkort"
+    },
+    "receiverChannelDefaultOption": {
+        "message": "Standard"
+    },
+    "receiverChannelMapTitle": {
+        "message": "Du kan definere din egen kanalkortlægning ved at klikke i boksen"
+    },
+    "receiverRssiChannel": {
+        "message": "RSSI-kanal"
+    },
+    "receiverRssiChannelDisabledOption": {
+        "message": "Deaktiveret"
+    },
+    "receiverRefreshRateTitle": {
+        "message": "Grafopfriskningrate"
+    },
+    "receiverButtonSave": {
+        "message": "Gem"
+    },
     "receiverMspWarningText": {
         "message": "Disse pinde tillader indkobling og test af Betaflight, uden en sender\/modtager er til stede. Bemærk, <strong>at denne funktion ikke er beregnet til flyvning, og propeller må ikke monteres.<\/strong><br><br>Denne funktion garanterer ikke pålidelig kontrol med dit fartøj. <strong>Alvorlig skade vil sandsynligvis opstå, hvis propellerne er påsat.<\/strong>"
     },
