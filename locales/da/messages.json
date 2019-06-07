@@ -1513,8 +1513,23 @@
     "receiverButtonRefresh": {
         "message": "Opfrisk"
     },
+    "receiverButtonSticks": {
+        "message": "Styrpinde"
+    },
+    "receiverDataRefreshed": {
+        "message": "RC-tuningdata <strong>opfrisket<\/strong>"
+    },
+    "receiverEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">gemt<\/span>"
+    },
+    "receiverModelPreview": {
+        "message": "Forh.visning"
+    },
     "receiverMspWarningText": {
         "message": "Disse pinde tillader indkobling og test af Betaflight, uden en sender\/modtager er til stede. Bemærk, <strong>at denne funktion ikke er beregnet til flyvning, og propeller må ikke monteres.<\/strong><br><br>Denne funktion garanterer ikke pålidelig kontrol med dit fartøj. <strong>Alvorlig skade vil sandsynligvis opstå, hvis propellerne er påsat.<\/strong>"
+    },
+    "receiverMspEnableButton": {
+        "message": "Aktivér kontroller"
     },
     "firmwareFlasherPreviousDevice": {
         "message": "Detekteret: <strong>$1<\/strong> - tidligere enhed flashes stadig, gentilslut og forsøg igen"
