@@ -1456,11 +1456,20 @@
     "receiverStickMin": {
         "message": "'Pind Lav'-tærskel"
     },
+    "receiverHelpStickMin": {
+        "message": "Maks. værdi (i μs) for at en pind registreres som lav\/venstre kommandoinput (MIN_CHECK)."
+    },
     "receiverStickCenter": {
         "message": "Pindcenter"
     },
     "receiverHelpStickCenter": {
         "message": "Værdien (i μs) til bestemmelse af, om en pind er centreret (MID_RC)."
+    },
+    "receiverStickMax": {
+        "message": "'Pind Høj'-tærskel"
+    },
+    "receiverHelpStickMax": {
+        "message": "Minimumsværdien (i μs) for at en pind registreres som høj\/højre for kommandoinput (MAX_CHECK)."
     },
     "receiverMspWarningText": {
         "message": "Disse pinde tillader indkobling og test af Betaflight, uden en sender\/modtager er til stede. Bemærk, <strong>at denne funktion ikke er beregnet til flyvning, og propeller må ikke monteres.<\/strong><br><br>Denne funktion garanterer ikke pålidelig kontrol med dit fartøj. <strong>Alvorlig skade vil sandsynligvis opstå, hvis propellerne er påsat.<\/strong>"
