@@ -1475,10 +1475,16 @@
         "message": "RC Deadband"
     },
     "receiverHelpDeadband": {
-        "message": "Disse er værdier (i μs) af, hvor meget RC-input kan afvige, før det anses for at være gyldigt. For sendere med output-fluktueringer, kan denne værdi øges, hvis RC-inpur splætter i tomgang."
+        "message": "Disse er værdier (i μs) af, hvor meget RC-input kan afvige, før det anses som gyldigt. For sendere med output-fluktueringer, kan denne værdi øges, hvis RC-inpur splætter i tomgang."
     },
     "receiverYawDeadband": {
         "message": "Yaw Deadband"
+    },
+    "receiverHelpYawDeadband": {
+        "message": "Disse er værdier (i μs) af, hvor meget RC-input kan afvige, før det anses som gyldigt. For sendere med output-fluktueringer, kan denne værdi øges, hvis RC-inpur splætter i tomgang. <strong>Denne indstilling gælder kun Yaw.<\/strong>"
+    },
+    "recevier3dDeadbandThrottle": {
+        "message": "3D Gas Deadband"
     },
     "receiverMspWarningText": {
         "message": "Disse pinde tillader indkobling og test af Betaflight, uden en sender\/modtager er til stede. Bemærk, <strong>at denne funktion ikke er beregnet til flyvning, og propeller må ikke monteres.<\/strong><br><br>Denne funktion garanterer ikke pålidelig kontrol med dit fartøj. <strong>Alvorlig skade vil sandsynligvis opstå, hvis propellerne er påsat.<\/strong>"
