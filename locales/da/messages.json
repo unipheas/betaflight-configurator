@@ -1510,6 +1510,9 @@
     "receiverButtonSave": {
         "message": "Gem"
     },
+    "receiverButtonRefresh": {
+        "message": "Opfrisk"
+    },
     "receiverMspWarningText": {
         "message": "Disse pinde tillader indkobling og test af Betaflight, uden en sender\/modtager er til stede. Bemærk, <strong>at denne funktion ikke er beregnet til flyvning, og propeller må ikke monteres.<\/strong><br><br>Denne funktion garanterer ikke pålidelig kontrol med dit fartøj. <strong>Alvorlig skade vil sandsynligvis opstå, hvis propellerne er påsat.<\/strong>"
     },
