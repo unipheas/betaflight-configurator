@@ -1471,6 +1471,15 @@
     "receiverHelpStickMax": {
         "message": "Minimumsværdien (i μs) for at en pind registreres som høj\/højre for kommandoinput (MAX_CHECK)."
     },
+    "receiverDeadband": {
+        "message": "RC Deadband"
+    },
+    "receiverHelpDeadband": {
+        "message": "Disse er værdier (i μs) af, hvor meget RC-input kan afvige, før det anses for at være gyldigt. For sendere med output-fluktueringer, kan denne værdi øges, hvis RC-inpur splætter i tomgang."
+    },
+    "receiverYawDeadband": {
+        "message": "Yaw Deadband"
+    },
     "receiverMspWarningText": {
         "message": "Disse pinde tillader indkobling og test af Betaflight, uden en sender\/modtager er til stede. Bemærk, <strong>at denne funktion ikke er beregnet til flyvning, og propeller må ikke monteres.<\/strong><br><br>Denne funktion garanterer ikke pålidelig kontrol med dit fartøj. <strong>Alvorlig skade vil sandsynligvis opstå, hvis propellerne er påsat.<\/strong>"
     },
