@@ -1813,6 +1813,153 @@
     "servosButtonSave": {
         "message": "Gem"
     },
+    "servosNormal": {
+        "message": "Normal"
+    },
+    "servosReverse": {
+        "message": "Omvendt"
+    },
+    "servosEepromSave": {
+        "message": "EEPROM <span class=\"message-positive\">gemt<\/span>"
+    },
+    "gpsHead": {
+        "message": "GPS"
+    },
+    "gpsMapHead": {
+        "message": "Aktuel GPS-placering"
+    },
+    "gpsMapMessage1": {
+        "message": "Tjek Internetforbindelsen"
+    },
+    "gpsMapMessage2": {
+        "message": "Afventer GPS 3D-fiksering…"
+    },
+    "gps3dFix": {
+        "message": "3D-fiksering:"
+    },
+    "gpsFixTrue": {
+        "message": "<span class=\"text\">Sand<\/span>"
+    },
+    "gpsFixFalse": {
+        "message": "<span class=\"text\">Falsk<\/span>"
+    },
+    "gpsAltitude": {
+        "message": "Højde:"
+    },
+    "gpsLat": {
+        "message": "Breddegrad:"
+    },
+    "gpsLon": {
+        "message": "Længdegrad:"
+    },
+    "gpsSpeed": {
+        "message": "Hastighed:"
+    },
+    "gpsSats": {
+        "message": "Satel.:"
+    },
+    "gpsDistToHome": {
+        "message": "Afst. til Hjem:"
+    },
+    "gpsSignalStrHead": {
+        "message": "GPS-signalstyrke"
+    },
+    "gpsSignalStr": {
+        "message": "Signalstyrke"
+    },
+    "gpsSignalSatId": {
+        "message": "Sat-ID"
+    },
+    "gpsSignalQty": {
+        "message": "Antal"
+    },
+    "motorsVoltage": {
+        "message": "Spænding:"
+    },
+    "motorsADrawing": {
+        "message": "Strøm:"
+    },
+    "motorsmAhDrawn": {
+        "message": "Strømforbr.:"
+    },
+    "motorsVoltageValue": {
+        "message": "$1 V"
+    },
+    "motorsADrawingValue": {
+        "message": "$1 A"
+    },
+    "motorsmAhDrawnValue": {
+        "message": "$1 mAh"
+    },
+    "motorsText": {
+        "message": "Motorer"
+    },
+    "motorNumber1": {
+        "message": "Motor - 1"
+    },
+    "motorNumber2": {
+        "message": "Motor - 2"
+    },
+    "motorNumber3": {
+        "message": "Motor - 3"
+    },
+    "motorNumber4": {
+        "message": "Motor - 4"
+    },
+    "motorNumber5": {
+        "message": "Motor - 5"
+    },
+    "motorNumber6": {
+        "message": "Motor - 6"
+    },
+    "motorNumber7": {
+        "message": "Motor - 7"
+    },
+    "motorNumber8": {
+        "message": "Motor - 8"
+    },
+    "servosText": {
+        "message": "Servoer"
+    },
+    "servoNumber1": {
+        "message": "Servo - 1"
+    },
+    "servoNumber2": {
+        "message": "Servo - 2"
+    },
+    "servoNumber3": {
+        "message": "Servo - 3"
+    },
+    "servoNumber4": {
+        "message": "Servo - 4"
+    },
+    "servoNumber5": {
+        "message": "Servo - 5"
+    },
+    "servoNumber6": {
+        "message": "Servo - 6"
+    },
+    "servoNumber7": {
+        "message": "Servo - 7"
+    },
+    "servoNumber8": {
+        "message": "Servo - 8"
+    },
+    "motorsResetMaximumButton": {
+        "message": "Nulstil"
+    },
+    "motorsResetMaximum": {
+        "message": "Nulstil tidsoverskridelsesmaks."
+    },
+    "motorsSensorGyroSelect": {
+        "message": "gyro"
+    },
+    "motorsSensorAccelSelect": {
+        "message": "accel"
+    },
+    "motorsMaster": {
+        "message": "Master"
+    },
     "firmwareFlasherPreviousDevice": {
         "message": "Detekteret: <strong>$1<\/strong> - tidligere enhed flashes stadig, gentilslut og forsøg igen"
     },
