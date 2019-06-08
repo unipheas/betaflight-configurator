@@ -1774,6 +1774,45 @@
     "transponderButtonSaveReboot": {
         "message": "Gem og Genstart"
     },
+    "transponderDataInvalid": {
+        "message": "Transponderdata er <span class=\"message-negative\">ugyldig<\/span>"
+    },
+    "transponderEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">gemt<\/span>"
+    },
+    "servosFirmwareUpgradeRequired": {
+        "message": "Servoer kræver firmware &gt;= 1.10.0 og målunderstøttelse."
+    },
+    "servosChangeDirection": {
+        "message": "Skift retning i TX for at matche"
+    },
+    "servosName": {
+        "message": "Navn"
+    },
+    "servosMid": {
+        "message": "MID"
+    },
+    "servosMin": {
+        "message": "MIN"
+    },
+    "servosMax": {
+        "message": "MAKS"
+    },
+    "servosAngleAtMin": {
+        "message": "Vinkel ved min"
+    },
+    "servosAngleAtMax": {
+        "message": "Vinkel ved maks"
+    },
+    "servosDirectionAndRate": {
+        "message": "Retning og rate"
+    },
+    "servosLiveMode": {
+        "message": "Aktivér Live-tilstand"
+    },
+    "servosButtonSave": {
+        "message": "Gem"
+    },
     "firmwareFlasherPreviousDevice": {
         "message": "Detekteret: <strong>$1<\/strong> - tidligere enhed flashes stadig, gentilslut og forsøg igen"
     },
