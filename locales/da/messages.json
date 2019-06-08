@@ -1570,6 +1570,36 @@
     "adjustmentsExample1": {
         "message": "Benyt Plads 1 og en 3POS-kontakt på AUX1 for at vælge mellem Pitch\/Roll P, I og D, og en anden 3POS-kontakt på AUX2 for at øge\/reducere værdien, når den holdes op\/ned."
     },
+    "adjustmentsExample2": {
+        "message": "Benyt Plads 2 og en 3POS-kontakt på AUX4 for at vælge aktivering af Rate Profile Valg via samme 3POS-kontakt på samme kanal."
+    },
+    "adjustmentsColumnEnable": {
+        "message": "Hvis aktiveret"
+    },
+    "adjustmentsColumnUsingSlot": {
+        "message": "vha. plads"
+    },
+    "adjustmentsColumnWhenChannel": {
+        "message": "når kanal"
+    },
+    "adjustmentsColumnIsInRange": {
+        "message": "er i område"
+    },
+    "adjustmentsColumnThenApplyFunction": {
+        "message": "så anvend"
+    },
+    "adjustmentsColumnViaChannel": {
+        "message": "via kanal"
+    },
+    "adjustmentsSlot0": {
+        "message": "Plads 1"
+    },
+    "adjustmentsSlot1": {
+        "message": "Plads 2"
+    },
+    "adjustmentsSlot2": {
+        "message": "Plads 3"
+    },
     "firmwareFlasherPreviousDevice": {
         "message": "Detekteret: <strong>$1<\/strong> - tidligere enhed flashes stadig, gentilslut og forsøg igen"
     },
