@@ -1571,7 +1571,7 @@
         "message": "Benyt Plads 1 og en 3POS-kontakt på AUX1 for at vælge mellem Pitch\/Roll P, I og D, og en anden 3POS-kontakt på AUX2 for at øge\/reducere værdien, når den holdes op\/ned."
     },
     "adjustmentsExample2": {
-        "message": "Benyt Plads 2 og en 3POS-kontakt på AUX4 for at vælge aktivering af Rate Profile Valg via samme 3POS-kontakt på samme kanal."
+        "message": "Benyt Plads 2 og en 3POS-kontakt på AUX4 for at vælge aktivering af Rate Profil-valg via samme 3POS-kontakt på samme kanal."
     },
     "adjustmentsColumnEnable": {
         "message": "Hvis aktiveret"
@@ -1689,6 +1689,33 @@
     },
     "adjustmentsFunction24": {
         "message": "Horizon Strength-justering"
+    },
+    "adjustmentsFunction25": {
+        "message": "PID-lydvalg"
+    },
+    "adjustmentsFunction26": {
+        "message": "Pitch F-justering"
+    },
+    "adjustmentsFunction27": {
+        "message": "Roll F-justering"
+    },
+    "adjustmentsFunction28": {
+        "message": "Yaw F-justering"
+    },
+    "adjustmentsFunction29": {
+        "message": "OSD-profilvalg"
+    },
+    "adjustmentsFunction30": {
+        "message": "LED-profilvalg"
+    },
+    "adjustmentsSave": {
+        "message": "Gem"
+    },
+    "adjustmentsEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">gemt<\/span>"
+    },
+    "transponderNotSupported": {
+        "message": "Din flight controller-firmware understøtter ikke transponderfunktionalitet."
     },
     "firmwareFlasherPreviousDevice": {
         "message": "Detekteret: <strong>$1<\/strong> - tidligere enhed flashes stadig, gentilslut og forsøg igen"
