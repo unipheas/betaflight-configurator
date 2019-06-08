@@ -1717,6 +1717,42 @@
     "transponderNotSupported": {
         "message": "Din flight controller-firmware understøtter ikke transponderfunktionalitet."
     },
+    "transponderInformation": {
+        "message": "Transpondersystemer gør tidtagning af dine omgange mulig for konkurrencearrangører. Transponderen monteres på fartøjet, og når det passerer tidtagningsporten, registrerer banemodtageren din kode og gemmer din omgangstid. Monteres en IR-baseret transponder, så tjek, at den peger udad fra fartøjet mod banemodtageren, samt at lysstrålen ikke er obstrueres af steldele, batteribefæstigelser, kabler, propeller mv."
+    },
+    "transponderConfigurationType": {
+        "message": "Transpondertype"
+    },
+    "transponderType0": {
+        "message": "Ingen"
+    },
+    "transponderType1": {
+        "message": "iLap"
+    },
+    "transponderType2": {
+        "message": "aRCiTimer"
+    },
+    "transponderType3": {
+        "message": "ERLT"
+    },
+    "transponderConfiguration1": {
+        "message": "iLap-opsætning"
+    },
+    "transponderConfiguration2": {
+        "message": "aRCiTimer-opsætning"
+    },
+    "transponderConfiguration3": {
+        "message": "ERLT-opsætning"
+    },
+    "transponderData1": {
+        "message": "Data"
+    },
+    "transponderData2": {
+        "message": "Transponder-ID"
+    },
+    "transponderData3": {
+        "message": "Transponder-ID"
+    },
     "firmwareFlasherPreviousDevice": {
         "message": "Detekteret: <strong>$1<\/strong> - tidligere enhed flashes stadig, gentilslut og forsøg igen"
     },
