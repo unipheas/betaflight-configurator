@@ -1753,6 +1753,27 @@
     "transponderData3": {
         "message": "Transponder-ID"
     },
+    "transponderDataHelp1": {
+        "message": "Kun hexadecimale cifre, 0-9, A-F"
+    },
+    "transponderHelp1": {
+        "message": "Opsæt din transponderkode hér. Bemærk: Kun gyldige koder bliver genkendt af konkurrencetidtagningssystemer. Gyldige transponderkoder kan fås fra <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a>."
+    },
+    "transponderHelp2": {
+        "message": "For yderligere information besøg <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer-webstedet<\/a>"
+    },
+    "transponderDataHelp3": {
+        "message": "Vælg ERLT ID 0-63"
+    },
+    "transponderHelp3": {
+        "message": "For yderligere information besøg <a href=\"https:\/\/github.com\/polyvision\/EasyRaceLapTimer\" title=\"aRCiTimer\" target=\"_blank\">EasyRaceLapTimer-webstedet<\/a>"
+    },
+    "transponderButtonSave": {
+        "message": "Gem"
+    },
+    "transponderButtonSaveReboot": {
+        "message": "Gem og Genstart"
+    },
     "firmwareFlasherPreviousDevice": {
         "message": "Detekteret: <strong>$1<\/strong> - tidligere enhed flashes stadig, gentilslut og forsøg igen"
     },
