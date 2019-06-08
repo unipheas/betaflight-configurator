@@ -1960,6 +1960,12 @@
     "motorsMaster": {
         "message": "Master"
     },
+    "motorsNotice": {
+        "message": "<strong>Motortesttilstand\/Indkoblingsnotits:<\/strong><br\/>Bevæges skyderne eller indkobles dit fartøj med senderen,<strong>forøges<\/strong> motoromdrejningerne.<br\/>For at forhindre personskade, så <strong class=\"message-negative\">afmontér ALLE propeller<\/strong>, før brug af denne funktion.<br\/>Aktivering af motortesttilstand vil også midlertidigt deaktivere Runaway Takeoff-beskyttelsen, for at hindre den i at afkoble fartøjet ved værkstedsaftestning uden propeller.<br\/>"
+    },
+    "motorsEnableControl": {
+        "message": "<strong>Jeg forstår risikoen,<\/strong> propellerne er fjernet - aktivér motorkontrol og indkobling, og deaktivér Runaway Takeoff-beskyttelse."
+    },
     "firmwareFlasherPreviousDevice": {
         "message": "Detekteret: <strong>$1<\/strong> - tidligere enhed flashes stadig, gentilslut og forsøg igen"
     },
