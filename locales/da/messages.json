@@ -1600,6 +1600,96 @@
     "adjustmentsSlot2": {
         "message": "Plads 3"
     },
+    "adjustmentsSlot3": {
+        "message": "Plads 4"
+    },
+    "adjustmentsMin": {
+        "message": "Min"
+    },
+    "adjustmentsMax": {
+        "message": "Maks"
+    },
+    "adjustmentsFunction0": {
+        "message": "Ingen ændringer"
+    },
+    "adjustmentsFunction1": {
+        "message": "RC Rate-justering"
+    },
+    "adjustmentsFunction2": {
+        "message": "RC Expo-justering"
+    },
+    "adjustmentsFunction3": {
+        "message": "Gas Expo-justering"
+    },
+    "adjustmentsFunction4": {
+        "message": "Pitch- og Roll-rate justering"
+    },
+    "adjustmentsFunction5": {
+        "message": "Yaw-rate justering"
+    },
+    "adjustmentsFunction6": {
+        "message": "Pitch- og Roll P-justering"
+    },
+    "adjustmentsFunction7": {
+        "message": "Pitch- og Roll I-justering"
+    },
+    "adjustmentsFunction8": {
+        "message": "Pitch- og Roll D-justering"
+    },
+    "adjustmentsFunction9": {
+        "message": "Yaw P-justering"
+    },
+    "adjustmentsFunction10": {
+        "message": "Yaw I-justering"
+    },
+    "adjustmentsFunction11": {
+        "message": "Yaw D-justering"
+    },
+    "adjustmentsFunction12": {
+        "message": "Rate Profil-valg"
+    },
+    "adjustmentsFunction13": {
+        "message": "Pitch-rate"
+    },
+    "adjustmentsFunction14": {
+        "message": "Roll-rate"
+    },
+    "adjustmentsFunction15": {
+        "message": "Pitch P-justering"
+    },
+    "adjustmentsFunction16": {
+        "message": "Pitch I-justering"
+    },
+    "adjustmentsFunction17": {
+        "message": "Pitch D-justering"
+    },
+    "adjustmentsFunction18": {
+        "message": "Roll P-justering"
+    },
+    "adjustmentsFunction19": {
+        "message": "Roll I-justering"
+    },
+    "adjustmentsFunction20": {
+        "message": "Roll D-justering"
+    },
+    "adjustmentsFunction21": {
+        "message": "RC-rate Yaw"
+    },
+    "adjustmentsFunction22": {
+        "message": "D Setpoint"
+    },
+    "adjustmentsFunction22_2": {
+        "message": "Pitch- og Roll F-justering"
+    },
+    "adjustmentsFunction23": {
+        "message": "D Setpoint-overgang"
+    },
+    "adjustmentsFunction23_2": {
+        "message": "Feedforward-overgang"
+    },
+    "adjustmentsFunction24": {
+        "message": "Horizon Strength-justering"
+    },
     "firmwareFlasherPreviousDevice": {
         "message": "Detekteret: <strong>$1<\/strong> - tidligere enhed flashes stadig, gentilslut og forsøg igen"
     },
