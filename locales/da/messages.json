@@ -1561,6 +1561,9 @@
     "auxiliaryModeLogicAND": {
         "message": "OG"
     },
+    "adjustmentsExamples": {
+        "message": "Eksempler"
+    },
     "firmwareFlasherPreviousDevice": {
         "message": "Detekteret: <strong>$1<\/strong> - tidligere enhed flashes stadig, gentilslut og forsøg igen"
     },
