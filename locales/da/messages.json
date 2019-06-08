@@ -1966,6 +1966,51 @@
     "motorsEnableControl": {
         "message": "<strong>Jeg forstår risikoen,<\/strong> propellerne er fjernet - aktivér motorkontrol og indkobling, og deaktivér Runaway Takeoff-beskyttelse."
     },
+    "sensorsInfo": {
+        "message": "Husk at samtidig brug af hurtige opdateringsintervaller og generering af flere grafer er ressourcekrævende og vil opbruge batteriet hurtigere på f.eks. en laptop.<br\/>Det anbefales kun at generere grafer for sensorer af interesse og under brug af rimelig opdateringsintervaller."
+    },
+    "sensorsRefresh": {
+        "message": "Opfrisk:"
+    },
+    "sensorsScale": {
+        "message": "Skala:"
+    },
+    "sensorsGyroSelect": {
+        "message": "Gyroskop"
+    },
+    "sensorsAccelSelect": {
+        "message": "Accelerometer"
+    },
+    "sensorsMagSelect": {
+        "message": "Magnetometer"
+    },
+    "sensorsBaroSelect": {
+        "message": "Barometer"
+    },
+    "sensorsSonarSelect": {
+        "message": "Sonar"
+    },
+    "sensorsDebugSelect": {
+        "message": "Fejlfinding"
+    },
+    "sensorsGyroTitle": {
+        "message": "Gyroskop - gr\/s"
+    },
+    "sensorsAccelTitle": {
+        "message": "Accelerometer - g"
+    },
+    "sensorsMagTitle": {
+        "message": "Magnetometer - Ga"
+    },
+    "sensorsBaroTitle": {
+        "message": "Barometer - meter"
+    },
+    "sensorsSonarTitle": {
+        "message": "Sonar - cm"
+    },
+    "sensorsDebugTitle": {
+        "message": "Fejlfinding"
+    },
     "firmwareFlasherPreviousDevice": {
         "message": "Detekteret: <strong>$1<\/strong> - tidligere enhed flashes stadig, gentilslut og forsøg igen"
     },
