@@ -758,6 +758,14 @@
         "message": "'GPS 구조' 스위치가 작동중입니다",
         "description": "Description of the RESC arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipRPMFILTER": {
+        "message": "RPM-기반 필터링이 활성화되었지만 하나 이상의 ESC가 유효한 DSHOT 텔레메트리를 공급하지 않습니다. ESC가 양방향 DSHOT 텔레메트리를 공급하기 위해 필요한 펌웨어가 적용가능한지 설치되었는지 확인하십시요.",
+        "description": "Description of the RPMFILTER arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
+        "message": "환경설정 변경은 재부팅을 필요로합니다.",
+        "description": "Description of the REBOOT_REQD arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "다른 디스암 플래그 중 하나가 아밍시 활성화 중입니다",
         "description": "Description of the ARM_SWITCH arming disable flag"
