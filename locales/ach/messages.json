@@ -829,6 +829,14 @@
         "message": "crwdns8984:0crwdne8984:0",
         "description": "Description of the RESC arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipRPMFILTER": {
+        "message": "crwdns9182:0crwdne9182:0",
+        "description": "Description of the RPMFILTER arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
+        "message": "crwdns9184:0crwdne9184:0",
+        "description": "Description of the REBOOT_REQD arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "crwdns8986:0crwdne8986:0",
         "description": "Description of the ARM_SWITCH arming disable flag"
