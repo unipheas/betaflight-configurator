@@ -762,6 +762,14 @@
         "message": "'GPS Rescue'-switchen aktiverades",
         "description": "Description of the RESC arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipRPMFILTER": {
+        "message": "RPM-baserad filtrering är aktiverad, men en eller flera ESCar stödjer inte giltig DSHOT-telemetri. Kontrollera att ESCarna har stöd och har rätt firmware installerad för att kunna stödja dubbelriktad DSHOT-telemetri.",
+        "description": "Description of the RPMFILTER arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
+        "message": "En konfigurationsändring kräver en omstart",
+        "description": "Description of the REBOOT_REQD arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "En av de andra avaktiveringsflaggorna är aktiv vid aktivering",
         "description": "Description of the ARM_SWITCH arming disable flag"
