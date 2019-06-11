@@ -758,6 +758,14 @@
         "message": "「GPSレスキュー」スイッチが有効になりました",
         "description": "Description of the RESC arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipRPMFILTER": {
+        "message": "RPMベースのフィルタリングは有効ですが、1つ以上のESCが有効なDSHOTテレメトリー情報を提供していません。ESCがDSHOT双方向テレメトリーをサポートするために必要なファームウェアがインストールされていることを確認してください。",
+        "description": "Description of the RPMFILTER arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
+        "message": "設定を変更するには再起動が必要です",
+        "description": "Description of the REBOOT_REQD arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "他のフラグの1つはアーム時にフラグを解除します",
         "description": "Description of the ARM_SWITCH arming disable flag"
