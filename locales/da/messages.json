@@ -1561,18 +1561,6 @@
     "auxiliaryModeLogicAND": {
         "message": "OG"
     },
-    "adjustmentsHelp": {
-        "message": "Opsæt justeringskontakter. Se manualafsnittet \"Justeringer under flyvning\" for yderligere info. Ændringer foretaget af justeringsfunktioner gemmes ikke automatisk. Der er 4 pladser, og hver kontakt, der foretage samtidige justeringer, beslaglægger én plads."
-    },
-    "adjustmentsExamples": {
-        "message": "Eksempler"
-    },
-    "adjustmentsExample1": {
-        "message": "Benyt Plads 1 og en 3POS-kontakt på AUX1 for at vælge mellem Pitch\/Roll P, I og D, og en anden 3POS-kontakt på AUX2 for at øge\/reducere værdien, når den holdes op\/ned."
-    },
-    "adjustmentsExample2": {
-        "message": "Benyt Plads 2 og en 3POS-kontakt på AUX4 for at vælge aktivering af Rate Profil-valg via samme 3POS-kontakt på samme kanal."
-    },
     "adjustmentsColumnEnable": {
         "message": "Hvis aktiveret"
     },
