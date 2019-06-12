@@ -1739,6 +1739,18 @@
     "auxiliaryModeLogicAND": {
         "message": "AND"
     },
+    "adjustmentSlotsHelp": {
+        "message": "4スロットありますが、同時に調整を行うために使用される各スイッチは、スロットの排他的な利用を必須とします。"
+    },
+    "adjustmentsExamples": {
+        "message": "例:"
+    },
+    "adjustmentsExample1": {
+        "message": "AUX1の3POSスイッチを使ってPitch\/RollのP、I、Dを選択し、AUX2のもう1つの3POSスイッチを押したままにすると値が増減します。"
+    },
+    "adjustmentsExample2": {
+        "message": "AUX4の3POSスイッチを使用し、同じチャンネルの同じ3POSスイッチでレートプロファイル選択を有効にします。"
+    },
     "adjustmentsColumnEnable": {
         "message": "有効 \/ 無効"
     },
