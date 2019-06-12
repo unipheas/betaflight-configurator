@@ -1739,6 +1739,9 @@
     "auxiliaryModeLogicAND": {
         "message": "AND"
     },
+    "adjustmentsHelp": {
+        "message": "調整スイッチを設定します。詳細については、マニュアルの『in-flight adjustment(飛行調整)』の項目を参照してください。『調整』機能による変更は自動的には保存されません。"
+    },
     "adjustmentSlotsHelp": {
         "message": "4スロットありますが、同時に調整を行うために使用される各スイッチは、スロットの排他的な利用を必須とします。"
     },
@@ -1749,7 +1752,7 @@
         "message": "AUX1の3POSスイッチを使ってPitch\/RollのP、I、Dを選択し、AUX2のもう1つの3POSスイッチを押したままにすると値が増減します。"
     },
     "adjustmentsExample2": {
-        "message": "AUX4の3POSスイッチを使用し、同じチャンネルの同じ3POSスイッチでレートプロファイル選択を有効にします。"
+        "message": "AUX4の3POSスイッチを使用し、同じチャンネルの同じ3POSスイッチでRateprofile選択を有効にします。"
     },
     "adjustmentsColumnEnable": {
         "message": "有効 \/ 無効"
@@ -3746,7 +3749,7 @@
         "message": "回転数レポート by ESCテレメトリー"
     },
     "osdDescElementRateProfileName": {
-        "message": "現在のレートプロファイル名を表示"
+        "message": "現在のRateprofile名を表示"
     },
     "osdDescElementPidProfileName": {
         "message": "現在のPIDプロファイル名を表示"
@@ -4094,7 +4097,7 @@
         "message": "Rateprofile"
     },
     "pidTuningRateProfileTip": {
-        "message": "1つのProfileにつき最大3つの異なるRateprofileをフライトコントローラに保存することができます。Rateprofileには、RCレート、レート、RC Expo、スロットル、およびTPAの設定が含まれます。 [調整] タブの [Rateprofile選択] の3つのポジションスイッチを設定することで、Rateprofileの切り替えが可能です。"
+        "message": "1つのProfileにつき最大3つの異なるRateprofileをフライトコントローラに保存することができます。Rateprofileには、RCレート、レート、RC Expo、スロットル、およびTPAの設定が含まれます。 [調整] タブの [Rateprofile選択] の3POSスイッチを設定することで、Rateprofileの切り替えが可能です。"
     },
     "pidTuningDelta": {
         "message": "D値 メソッド"
