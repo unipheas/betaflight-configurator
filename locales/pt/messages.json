@@ -1721,18 +1721,6 @@
     "auxiliaryModeLogicAND": {
         "message": "AND"
     },
-    "adjustmentsHelp": {
-        "message": "Configure os 'switches' de ajuste. Leia a seção do manual sobre 'in-flight adjustments' para detalhes. Os ajustes feitos por essas funções não serão salvos automaticamente. Existem 4 slots. Cada switch utilizado ao mesmo tempo para o ajuste exige o uso exclusivo de um slot."
-    },
-    "adjustmentsExamples": {
-        "message": "Exemplos"
-    },
-    "adjustmentsExample1": {
-        "message": "Use o Slot 1 e um switch de 3 posições no AUX1 para selecionar entre o P, I e D do Pitch\/Roll e outro switch de 3 posições no AUX2 para aumentar ou diminuir o valor quando o switch está para cima ou para baixo."
-    },
-    "adjustmentsExample2": {
-        "message": "Use o Slot 2 e um switch de 3 posições no AUX4 para selecionar e ativar um perfil de taxa."
-    },
     "adjustmentsColumnEnable": {
         "message": "Ativar"
     },
