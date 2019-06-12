@@ -1704,18 +1704,6 @@
     "auxiliaryModeLogicAND": {
         "message": "И"
     },
-    "adjustmentsHelp": {
-        "message": "Установка нас троечных переключателей. Смотри 'in-flight adjustments' секцию руководства. Изменение этих настроек автоматически не сохраняется. Там 4 слота. Каждый переключатель используемый одновременно требует исключительного использования слота."
-    },
-    "adjustmentsExamples": {
-        "message": "Примеры"
-    },
-    "adjustmentsExample1": {
-        "message": "Используете Slot 1 и 3POS переключите на AUX1 для выбора между Pitch\/Roll P, I и D и другой 3POS переключатель на AUX2 увеличит или уменьшит значение когда задержан вверх или вниз."
-    },
-    "adjustmentsExample2": {
-        "message": "Используете Slot 2 и 3POS переключатель в AUX4 для включения Rate Profile секция через тот же 3POS в тот же канал."
-    },
     "adjustmentsColumnEnable": {
         "message": "Если включено"
     },
