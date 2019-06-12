@@ -1280,18 +1280,6 @@
     "auxiliaryAutoChannelSelect": {
         "message": "AUTO"
     },
-    "adjustmentsHelp": {
-        "message": "Määritä kytkimiä asetusten säätämiseen. Katso dokumentaation \"in-flight adjustments\" kappaleesta lisätietoa. Säätökytkimillä tehtyjä muutoksia ei tallenneta automaattisesti. Voit määrittää 4 eri säädettävää asetusta. Jokainen asetusten säätämiseen käytettävä kytkin vaatii oman asetuspaikkansa."
-    },
-    "adjustmentsExamples": {
-        "message": "Esimerkkejä"
-    },
-    "adjustmentsExample1": {
-        "message": "Käytä paikkaa 1 ja AUX1-kanavan 3-asentoista kytkintä valitaksesi pituusakselin P, I ja D arvojen välillä ja toista 3-asentoista kytkintä kanavassa AUX2, suurentaaksesi tai pienentääksesi arvoa, kun kytkintä pidetään ääriasennoissa."
-    },
-    "adjustmentsExample2": {
-        "message": "Käytä paikkaa 2 ja AUX4-kanavan 3-asentoista kytkintä kytkeäksesi Suhdeprofiilien välillä vaihtamisen päälle."
-    },
     "adjustmentsColumnEnable": {
         "message": "Jos käytössä"
     },
