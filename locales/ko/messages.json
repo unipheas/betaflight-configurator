@@ -1739,18 +1739,6 @@
     "auxiliaryModeLogicAND": {
         "message": "AND"
     },
-    "adjustmentsHelp": {
-        "message": "조정 스위치를 설정하십시오. 자세한 내용은 매뉴얼의 '비행-중 조정' 섹션을 참조하십시오. 조정 기능의 변경사항은 자동으로 저장되지 않습니다. 4개의 슬롯이 있습니다. 조정을 동시에 수행하는 데 사용되는 각 스위치는 슬롯을 독점적으로 사용해야합니다."
-    },
-    "adjustmentsExamples": {
-        "message": "예시"
-    },
-    "adjustmentsExample1": {
-        "message": "AUX1의 슬롯 1과 3POS 스위치를 사용하여 피치\/롤 P, I, D 중 하나를 선택하고, AUX2의 다른 3POS 스위치를 사용하여 위 또는 아래로 움직여서 값을 높이거나 낮춥니다."
-    },
-    "adjustmentsExample2": {
-        "message": "AUX4의 슬롯 2 및 3POS 스위치를 사용하여 동일한 채널의 동일한 3POS 스위치를 통해 적용가능한 레이트 프로파일을 선택하십시오."
-    },
     "adjustmentsColumnEnable": {
         "message": "사용"
     },
