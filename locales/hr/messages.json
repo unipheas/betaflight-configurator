@@ -1731,18 +1731,6 @@
     "auxiliaryModeLogicAND": {
         "message": "I"
     },
-    "adjustmentsHelp": {
-        "message": "Konfigurirajte prekidače prilagodbi. Pogledajte poglavlje 'in-flight adjustments' u dokumentaciji. Promjene koje ove funkcije naprave nisu automatski spremljene. Postoje 4 slota. Svaki prekidač traži zaseban slot."
-    },
-    "adjustmentsExamples": {
-        "message": "Primjeri"
-    },
-    "adjustmentsExample1": {
-        "message": "Koristite Slot 1 i 3POS prekidač na AUX1 kako biste odabrali između Pitch\/Roll P, I i D i drugi 3POS prekidač na AUX2 za povećavanje ili smanjivanje vrijednosti kad se zadrži u gornjoj, odnsno donjoj poziciji."
-    },
-    "adjustmentsExample2": {
-        "message": "Koristite Slot 2 i 3POS prekidač na AUX4 da omogućite odabir rateprofila istim 3POS prekidačem na istom kanalu."
-    },
     "adjustmentsColumnEnable": {
         "message": "Ako je omogućeno"
     },
