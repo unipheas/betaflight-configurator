@@ -1762,18 +1762,6 @@
     "auxiliaryModeLogicAND": {
         "message": "E"
     },
-    "adjustmentsHelp": {
-        "message": "Configura interruptores para correccións. Mire o apartado 'in-flight adjustments' do manual para detalles. As correccións realizadas non se gardan automáticamente. Hai 4 slots. Cada interruptor usado para facer correccións concurrentemente requiere o uso exclusivo dun slot."
-    },
-    "adjustmentsExamples": {
-        "message": "Exemplos"
-    },
-    "adjustmentsExample1": {
-        "message": "Use Slot 1 e un interruptor de 3POS en AUX1 para elexir entre Pitch\/Roll de P, I e D e outro interruptor de 3POS en AUX2 para incrementar ou decrementar o valor ó mover arriba ou abaixo."
-    },
-    "adjustmentsExample2": {
-        "message": "Use Slot 2 e un interruptor de 3POS en AUX4 para activar a Selección de Perfil de Tasas a través do mesmo interruptor de 3POS no mesmo canle."
-    },
     "adjustmentsColumnEnable": {
         "message": "Si activo"
     },
