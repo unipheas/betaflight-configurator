@@ -1724,18 +1724,6 @@
     "auxiliaryModeLogicAND": {
         "message": "UN"
     },
-    "adjustmentsHelp": {
-        "message": "Konfigurēt pieregulēšanas slēdžus. Detaļas ir atrodamas manuāla sadaļā 'in-flight adjustments'. Šīs izmaiņas ko pieregulēšanas funkcija izpilda netiek automātiski saglabātas. Tur ir 4 sloti. Katrs slēdzis tiek lietots, lai vienlaikus veiktu nepieciešamās izmaiņas atbilstošam slotam."
-    },
-    "adjustmentsExamples": {
-        "message": "Piemēri"
-    },
-    "adjustmentsExample1": {
-        "message": "Izmantojiet Slotu 1 un 3 pozīciju slēdzi uz AUX1, lai izvēlētos starp Pitch\/Roll P, I un D un citu 3 pozīciju slēdzi uz AUX2, lai palielinātu vai samazinātu vērtību turot to augšā vai lejā."
-    },
-    "adjustmentsExample2": {
-        "message": "Izmanto Slotu 2 un 3 pozīciju slēdzi uz AUX4 lai izvēlētos ieslēgt Ātrumprofilu izvēli ar to pašu 3 pozīciju slēdzi uz tā paša kanāla."
-    },
     "adjustmentsColumnEnable": {
         "message": "Ja ieslēgts"
     },
