@@ -1739,18 +1739,6 @@
     "auxiliaryModeLogicAND": {
         "message": "Y"
     },
-    "adjustmentsHelp": {
-        "message": "Configura interruptores para correcciones. Mira el apartado 'in-flight adjustments' del manual para detalles. Las correcciones realizadas no se guardan automáticamente. Hay 4 ranuras. Cada interruptor usado para hacer correcciones concurrentemente requiere el uso exclusivo de una ranura."
-    },
-    "adjustmentsExamples": {
-        "message": "Ejemplos"
-    },
-    "adjustmentsExample1": {
-        "message": "Usa Ranura 1 y un interruptor de 3POS en AUX1 para elegir entre Pitch\/Roll de P, I y D y otro interruptor de 3POS en AUX2 para incrementar o decrementar el valor al mover arriba o abajo."
-    },
-    "adjustmentsExample2": {
-        "message": "Usa Ranura 2 y un interruptor de 3POS en AUX4 para activar la Selección de Perfil de Tasas a través del mismo interruptor de 3POS en el mismo canal."
-    },
     "adjustmentsColumnEnable": {
         "message": "Si activado"
     },
