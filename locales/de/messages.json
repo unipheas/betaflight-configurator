@@ -1725,18 +1725,6 @@
     "auxiliaryModeLogicAND": {
         "message": "UND"
     },
-    "adjustmentsHelp": {
-        "message": "Konfiguriere Schalter Anpassungen. Siehe im 'in-flight adjustments' Abschnitt des Handbuchs für Details nach. Die Änderungen an Anpassungsfunktionen werden nicht automatisch gespeichert. Es gibt 4 (Speicher-) Slots. Jeder Schalter der für gleichzeitige Anpassungen genutzt wird, muss jeweils einem eindeutigen Slot zugeordnet sein."
-    },
-    "adjustmentsExamples": {
-        "message": "Beispiele:"
-    },
-    "adjustmentsExample1": {
-        "message": "Benutze Speicherplatz 1 und einen 3 Pos. Schalter auf AUX1, um die Werte von Roll \/ Pitch P I und D mit Hilfe eines weitern 3 Pos. Schalters auf AUX2 zu erhöhen oder zu senken."
-    },
-    "adjustmentsExample2": {
-        "message": "Benutze Speicherplatz 2 und einen 3 Pos. Schalter auf AUX4, um die Auswahl des Rate Profils über diesen 3 Kanal Schalter auf dem selben Kanal auszuwählen."
-    },
     "adjustmentsColumnEnable": {
         "message": "falls aktiviert"
     },
