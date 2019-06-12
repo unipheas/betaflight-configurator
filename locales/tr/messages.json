@@ -827,15 +827,6 @@
     "auxiliaryAutoChannelSelect": {
         "message": "OTOMATİK"
     },
-    "adjustmentsExamples": {
-        "message": "Örnekler"
-    },
-    "adjustmentsExample1": {
-        "message": "Yükselme\/Yuvarlanma P, I ve D arasından seçmek için Oluk 1i ve AUX1'de bir 3POS anahtarı kullanın ve yukarı ve aşağı kaldırıldığında değeri yükseltmek ve düşürmek için AUX2 de başka bir 3POS anahtarı kullanın."
-    },
-    "adjustmentsExample2": {
-        "message": "Aynı kanalda aynı 3POS anahtarı üzerinden Hız Profili Seçimini etkinleştirmek için AUX4 üzerindeki Yuva 3POS anahtarını ve Slot 2'yi kullanın."
-    },
     "adjustmentsColumnEnable": {
         "message": "Etkinleştirilirse"
     },
