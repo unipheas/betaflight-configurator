@@ -1364,18 +1364,6 @@
     "auxiliaryAutoChannelSelect": {
         "message": "AUTO"
     },
-    "adjustmentsHelp": {
-        "message": "Configureu els interruptors d'ajust. Consulteu la secció \"Ajustaments de vol\" del manual per obtenir-ne més detalls. Els canvis que realitzen les funcions d'ajust no es guarden automàticament. Hi ha 4 ranures (slots). Cada interruptor utilitzat per fer ajustaments simultanis requereix l'ús exclusiu d'una ranura."
-    },
-    "adjustmentsExamples": {
-        "message": "Exemples"
-    },
-    "adjustmentsExample1": {
-        "message": "Utilitza l'Slot 1 i un switch de tres posicions a l'AUX1 per seleccionar entre Pitch\/Roll P, I i D i un altre switch de tres posicions a l'AUX2 per incrementar o disminuir el valor mantenint amunt o avall."
-    },
-    "adjustmentsExample2": {
-        "message": "Utilitza Slot 2 i un switch de 3 posicions a l'AUX4 per a habilitat la selecció de perfil de rate al mateix switch de 3 posicions del mateix canal."
-    },
     "adjustmentsColumnEnable": {
         "message": "si habilitat"
     },
