@@ -1743,18 +1743,6 @@
     "auxiliaryModeLogicAND": {
         "message": "OCH"
     },
-    "adjustmentsHelp": {
-        "message": "Konfigurera justerings-switchar. Se avsnittet 'In-flight adjustments' i manualen för detaljer. Ändringarna som justeringsfunktionerna utför sparas inte automatiskt. Det finns 4 platser. Varje switch som används för att göra samtidiga justeringar kräver exklusiv användning av en plats."
-    },
-    "adjustmentsExamples": {
-        "message": "Exempel"
-    },
-    "adjustmentsExample1": {
-        "message": "Använd plats 1 och en 3POS-switch på AUX1 för att välja mellan Looping\/Roll P, I och D och en annan 3POS-switch på AUX2 för att öka eller minska värdet när den fälls uppåt eller nedåt."
-    },
-    "adjustmentsExample2": {
-        "message": "Använd plats 2 och en 3POS-switch på AUX4 för att aktivera Rate-profilval via samma 3POS-switch på samma kanal."
-    },
     "adjustmentsColumnEnable": {
         "message": "Om aktiverad"
     },
