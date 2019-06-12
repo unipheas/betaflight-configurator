@@ -1728,18 +1728,6 @@
     "auxiliaryModeLogicAND": {
         "message": "ET"
     },
-    "adjustmentsHelp": {
-        "message": "Configurez les commutateurs d'ajustement. Voir la section «Ajustements en vol» du manuel pour plus de détails. Les modifications apportées par les fonctions de réglage ne sont pas enregistrées automatiquement. Il y a 4 emplacements. Chaque commutateur utilisé pour effectuer simultanément des ajustements nécessite l'utilisation exclusive d'un emplacement."
-    },
-    "adjustmentsExamples": {
-        "message": "Exemples"
-    },
-    "adjustmentsExample1": {
-        "message": "Utiliser la position 1 d'un switch 3 positions sur AUX1 pour choisir Pitch\/Roll P,I, et D, ainsi qu'un autre switch 3 positions sur AUX2 pour augmenter ou baisser la valeur lorsqu'il sera monté ou baissé."
-    },
-    "adjustmentsExample2": {
-        "message": "Utiliser la position 2 d'un switch 3 positions sur AUX4 pour choisir un Profile Rate à l'aide du même switch sur la même voie."
-    },
     "adjustmentsColumnEnable": {
         "message": "Si activé"
     },
