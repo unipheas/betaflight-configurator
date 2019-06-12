@@ -1724,18 +1724,6 @@
     "auxiliaryModeLogicAND": {
         "message": "和"
     },
-    "adjustmentsHelp": {
-        "message": "配置调整开关。参阅手册的 'in-flight adjustments' 章解获取具体信息。通过该功能所做的调校修改不会被自动保存。总共有4个槽位。每一个开关需要独占一个槽位。"
-    },
-    "adjustmentsExamples": {
-        "message": "范例"
-    },
-    "adjustmentsExample1": {
-        "message": "使用插槽1 和AUX1通道上的三段开关在Pitch\/Roll P， I 和 D 之间选择，使用AUX2通道的三段开关来上下增大和减小数值（保持高，或者保持低）。"
-    },
-    "adjustmentsExample2": {
-        "message": "使用插槽2 和AUX4通道上的三段开关来选择 Rate 配置文件"
-    },
     "adjustmentsColumnEnable": {
         "message": "如果激活"
     },
