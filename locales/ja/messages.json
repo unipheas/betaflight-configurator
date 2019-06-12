@@ -948,7 +948,7 @@
         "message": "受信機モード"
     },
     "configurationRSSI": {
-        "message": "RSSI (信号強度)"
+        "message": "(受信機) 信号強度"
     },
     "configurationRSSIHelp": {
         "message": "RSSIは信号強度の値で、機体が圏外になったときやRF干渉を受けていることを確認でき非常に有益です。"
