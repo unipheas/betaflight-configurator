@@ -1739,18 +1739,6 @@
     "auxiliaryModeLogicAND": {
         "message": "AND"
     },
-    "adjustmentsHelp": {
-        "message": "調整スイッチを構成します。詳細については、マニュアルの [In-flight Adjustment] を参照して下さい。調整の変更は自動的には保存されません。 4つのスロットがありますが、調整を同時に行うために使用される各スイッチは、スロットを排他的に使用する必要があります。"
-    },
-    "adjustmentsExamples": {
-        "message": "例"
-    },
-    "adjustmentsExample1": {
-        "message": "AUX1のスロット1と3ポジションスイッチを使用し、ピッチ \/ ロール、PIDの設定を、AUX2の別の3ポジションスイッチを選択し、上下することで値を増減させます。"
-    },
-    "adjustmentsExample2": {
-        "message": "AUX4のスロット2と3ポジションスイッチを選択し、かつ同じチャンネルの3ポジションスイッチを使用することでRateprofile変更を有効にすることができます。"
-    },
     "adjustmentsColumnEnable": {
         "message": "有効 \/ 無効"
     },
