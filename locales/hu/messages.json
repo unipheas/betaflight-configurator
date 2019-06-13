@@ -2102,12 +2102,6 @@
     "osdDescElementGPSSats": {
         "message": "GPS bemérést biztosító műholdak száma"
     },
-    "osdDescElementGPSLon": {
-        "message": "GPS hosszúság"
-    },
-    "osdDescElementGPSLat": {
-        "message": "GPS szélesség"
-    },
     "osdDescElementDebug": {
         "message": "Debug változók"
     },
@@ -2135,18 +2129,6 @@
     "osdDescElementArmedTime": {
         "message": "Legutóbbi élesítés óta eltelt idő"
     },
-    "osdDescElementWarnings": {
-        "message": "Figyelmeztetések (pl. alacsony feszültség, kritikusan alacsony feszültség, élesítésre képtelenség, ...) és vizuális csipogó (4 villogó csillag)."
-    },
-    "osdDescElementEscTemperature": {
-        "message": "ESC telemetria hőmérsékletadata"
-    },
-    "osdDescElementEscRpm": {
-        "message": "ESC telemetria RPM adata"
-    },
-    "osdDescElementRtcDateTime": {
-        "message": "Valós idő és dátum"
-    },
     "osdDescElementNumericalHeading": {
         "message": "Pillanatnyi irány fokokban"
     },
@@ -2156,14 +2138,26 @@
     "osdDescElementCompassBar": {
         "message": "Pillanatnyi irány grafikus reprezentációja"
     },
+    "osdDescElementWarnings": {
+        "message": "Figyelmeztetések (pl. alacsony feszültség, kritikusan alacsony feszültség, élesítésre képtelenség, ...) és vizuális csipogó (4 villogó csillag)."
+    },
+    "osdDescElementEscTemperature": {
+        "message": "ESC telemetria hőmérsékletadata"
+    },
+    "osdDescElementEscRpm": {
+        "message": "ESC telemetria RPM adata"
+    },
     "osdDescElementRemaningTimeEstimate": {
         "message": "Fennmaradó repülési idő becslés"
     },
-    "osdDescElementUnknown": {
-        "message": "Ismeretlen elem (további részletek a későbbi verziókban várhatók)"
+    "osdDescElementRtcDateTime": {
+        "message": "Valós idő és dátum"
     },
     "osdDescElementCoreTemperature": {
         "message": "Az STM32 MCU mag hőmérséklete"
+    },
+    "osdDescElementUnknown": {
+        "message": "Ismeretlen elem (további részletek a későbbi verziókban várhatók)"
     },
     "osdDescStatMaxSpeed": {
         "message": "Maximális mért sebesség"
