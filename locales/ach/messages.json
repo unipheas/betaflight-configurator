@@ -3714,185 +3714,453 @@
     "osdSetupButtonReset": {
         "message": "crwdns6231:0crwdne6231:0"
     },
+    "osdTextElementMainBattVoltage": {
+        "message": "crwdns9196:0crwdne9196:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementMainBattVoltage": {
         "message": "crwdns6232:0crwdne6232:0"
+    },
+    "osdTextElementRssiValue": {
+        "message": "crwdns9198:0crwdne9198:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRssiValue": {
         "message": "crwdns6233:0crwdne6233:0"
     },
+    "osdTextElementTimer": {
+        "message": "crwdns9200:0crwdne9200:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementTimer": {
+        "message": "crwdns9202:0crwdne9202:0"
+    },
+    "osdTextElementThrottlePosition": {
+        "message": "crwdns9204:0crwdne9204:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementThrottlePosition": {
         "message": "crwdns6234:0crwdne6234:0"
+    },
+    "osdTextElementCpuLoad": {
+        "message": "crwdns9206:0crwdne9206:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementCpuLoad": {
+        "message": "crwdns9208:0crwdne9208:0"
+    },
+    "osdTextElementVtxChannel": {
+        "message": "crwdns9210:0crwdne9210:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementVtxChannel": {
+        "message": "crwdns9212:0crwdne9212:0"
+    },
+    "osdTextElementVoltageWarning": {
+        "message": "crwdns9214:0crwdne9214:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementVoltageWarning": {
+        "message": "crwdns9216:0crwdne9216:0"
+    },
+    "osdTextElementArmed": {
+        "message": "crwdns9218:0crwdne9218:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementArmed": {
         "message": "crwdns6235:0crwdne6235:0"
     },
+    "osdTextElementDisarmed": {
+        "message": "crwdns9220:0crwdne9220:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementDisarmed": {
         "message": "crwdns6236:0crwdne6236:0"
+    },
+    "osdTextElementCrosshairs": {
+        "message": "crwdns9222:0crwdne9222:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementCrosshairs": {
         "message": "crwdns6237:0crwdne6237:0"
     },
+    "osdTextElementArtificialHorizon": {
+        "message": "crwdns9224:0crwdne9224:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementArtificialHorizon": {
         "message": "crwdns6238:0crwdne6238:0"
+    },
+    "osdTextElementHorizonSidebars": {
+        "message": "crwdns9226:0crwdne9226:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementHorizonSidebars": {
         "message": "crwdns6239:0crwdne6239:0"
     },
+    "osdTextElementCurrentDraw": {
+        "message": "crwdns9228:0crwdne9228:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCurrentDraw": {
         "message": "crwdns6240:0crwdne6240:0"
+    },
+    "osdTextElementMahDrawn": {
+        "message": "crwdns9230:0crwdne9230:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMahDrawn": {
         "message": "crwdns6241:0crwdne6241:0"
     },
+    "osdTextElementCraftName": {
+        "message": "crwdns9232:0crwdne9232:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCraftName": {
         "message": "crwdns6242:0crwdne6242:0"
     },
-    "osdDescElementDisplayName": {
-        "message": "crwdns9042:0crwdne9042:0"
+    "osdTextElementAltitude": {
+        "message": "crwdns9234:0crwdne9234:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementAltitude": {
         "message": "crwdns6243:0crwdne6243:0"
     },
+    "osdTextElementOnTime": {
+        "message": "crwdns9236:0crwdne9236:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementOnTime": {
         "message": "crwdns6244:0crwdne6244:0"
+    },
+    "osdTextElementFlyTime": {
+        "message": "crwdns9238:0crwdne9238:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementFlyTime": {
         "message": "crwdns6245:0crwdne6245:0"
     },
+    "osdTextElementFlyMode": {
+        "message": "crwdns9240:0crwdne9240:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementFlyMode": {
         "message": "crwdns6246:0crwdne6246:0"
+    },
+    "osdTextElementGPSSpeed": {
+        "message": "crwdns9242:0crwdne9242:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementGPSSpeed": {
         "message": "crwdns6247:0crwdne6247:0"
     },
+    "osdTextElementGPSSats": {
+        "message": "crwdns9244:0crwdne9244:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementGPSSats": {
         "message": "crwdns6248:0crwdne6248:0"
     },
+    "osdTextElementGPSLon": {
+        "message": "crwdns9246:0crwdne9246:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementGPSLon": {
-        "message": "crwdns6249:0crwdne6249:0"
+        "message": "crwdns9248:0crwdne9248:0"
+    },
+    "osdTextElementGPSLat": {
+        "message": "crwdns9250:0crwdne9250:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementGPSLat": {
-        "message": "crwdns6250:0crwdne6250:0"
+        "message": "crwdns9252:0crwdne9252:0"
+    },
+    "osdTextElementDebug": {
+        "message": "crwdns9254:0crwdne9254:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementDebug": {
         "message": "crwdns6251:0crwdne6251:0"
     },
+    "osdTextElementPIDRoll": {
+        "message": "crwdns9256:0crwdne9256:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDRoll": {
         "message": "crwdns6252:0crwdne6252:0"
+    },
+    "osdTextElementPIDPitch": {
+        "message": "crwdns9258:0crwdne9258:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDPitch": {
         "message": "crwdns6253:0crwdne6253:0"
     },
+    "osdTextElementPIDYaw": {
+        "message": "crwdns9260:0crwdne9260:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDYaw": {
         "message": "crwdns6254:0crwdne6254:0"
+    },
+    "osdTextElementPower": {
+        "message": "crwdns9262:0crwdne9262:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPower": {
         "message": "crwdns6255:0crwdne6255:0"
     },
+    "osdTextElementPIDRateProfile": {
+        "message": "crwdns9264:0crwdne9264:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDRateProfile": {
         "message": "crwdns6256:0crwdne6256:0"
+    },
+    "osdTextElementBatteryWarning": {
+        "message": "crwdns9266:0crwdne9266:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementBatteryWarning": {
         "message": "crwdns6257:0crwdne6257:0"
     },
+    "osdTextElementAvgCellVoltage": {
+        "message": "crwdns9268:0crwdne9268:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementAvgCellVoltage": {
         "message": "crwdns6258:0crwdne6258:0"
+    },
+    "osdTextElementPitchAngle": {
+        "message": "crwdns9270:0crwdne9270:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPitchAngle": {
         "message": "crwdns6259:0crwdne6259:0"
     },
+    "osdTextElementRollAngle": {
+        "message": "crwdns9272:0crwdne9272:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementRollAngle": {
         "message": "crwdns6260:0crwdne6260:0"
+    },
+    "osdTextElementMainBattUsage": {
+        "message": "crwdns9274:0crwdne9274:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMainBattUsage": {
         "message": "crwdns6261:0crwdne6261:0"
     },
+    "osdTextElementArmedTime": {
+        "message": "crwdns9276:0crwdne9276:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementArmedTime": {
         "message": "crwdns6262:0crwdne6262:0"
     },
-    "osdDescElementWarnings": {
-        "message": "crwdns6263:0crwdne6263:0"
-    },
-    "osdDescElementEscTemperature": {
-        "message": "crwdns6264:0crwdne6264:0"
-    },
-    "osdDescElementEscRpm": {
-        "message": "crwdns6265:0crwdne6265:0"
-    },
-    "osdDescElementEscRpmFreq": {
-        "message": "crwdns9068:0crwdne9068:0"
-    },
-    "osdDescElementRateProfileName": {
-        "message": "crwdns9152:0crwdne9152:0"
-    },
-    "osdDescElementPidProfileName": {
-        "message": "crwdns9154:0crwdne9154:0"
-    },
-    "osdDescElementRtcDateTime": {
-        "message": "crwdns6266:0crwdne6266:0"
-    },
-    "osdDescElementAdjustmentRange": {
-        "message": "crwdns6267:0crwdne6267:0"
+    "osdTextElementHomeDirection": {
+        "message": "crwdns9278:0crwdne9278:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementHomeDirection": {
         "message": "crwdns6268:0crwdne6268:0"
     },
+    "osdTextElementHomeDistance": {
+        "message": "crwdns9280:0crwdne9280:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementHomeDistance": {
         "message": "crwdns6269:0crwdne6269:0"
+    },
+    "osdTextElementNumericalHeading": {
+        "message": "crwdns9282:0crwdne9282:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementNumericalHeading": {
         "message": "crwdns6270:0crwdne6270:0"
     },
+    "osdTextElementNumericalVario": {
+        "message": "crwdns9284:0crwdne9284:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementNumericalVario": {
         "message": "crwdns6271:0crwdne6271:0"
+    },
+    "osdTextElementCompassBar": {
+        "message": "crwdns9286:0crwdne9286:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementCompassBar": {
         "message": "crwdns6272:0crwdne6272:0"
     },
-    "osdDescElementFlipArrow": {
-        "message": "crwdns8860:0crwdne8860:0"
+    "osdTextElementWarnings": {
+        "message": "crwdns9288:0crwdne9288:0",
+        "description": "One of the elements of the OSD"
     },
-    "osdDescElementLinkQuality": {
-        "message": "crwdns8912:0crwdne8912:0"
+    "osdDescElementWarnings": {
+        "message": "crwdns6263:0crwdne6263:0"
     },
-    "osdDescElementFlightDist": {
-        "message": "crwdns8914:0crwdne8914:0"
+    "osdTextElementEscTemperature": {
+        "message": "crwdns9290:0crwdne9290:0",
+        "description": "One of the elements of the OSD"
     },
-    "osdDescElementStickOverlayLeft": {
-        "message": "crwdns8988:0crwdne8988:0"
+    "osdDescElementEscTemperature": {
+        "message": "crwdns6264:0crwdne6264:0"
     },
-    "osdDescElementStickOverlayRight": {
-        "message": "crwdns8990:0crwdne8990:0"
+    "osdTextElementEscRpm": {
+        "message": "crwdns9292:0crwdne9292:0",
+        "description": "One of the elements of the OSD"
     },
-    "osdDescElementTimer1": {
-        "message": "crwdns6273:0crwdne6273:0"
+    "osdDescElementEscRpm": {
+        "message": "crwdns6265:0crwdne6265:0"
     },
-    "osdDescElementTimer2": {
-        "message": "crwdns6274:0crwdne6274:0"
+    "osdTextElementRemaningTimeEstimate": {
+        "message": "crwdns9294:0crwdne9294:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRemaningTimeEstimate": {
         "message": "crwdns6275:0crwdne6275:0"
     },
-    "osdDescElementUnknown": {
-        "message": "crwdns6276:0crwdne6276:0"
+    "osdTextElementRtcDateTime": {
+        "message": "crwdns9296:0crwdne9296:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "crwdns6266:0crwdne6266:0"
+    },
+    "osdTextElementAdjustmentRange": {
+        "message": "crwdns9298:0crwdne9298:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "crwdns6267:0crwdne6267:0"
+    },
+    "osdTextElementTimer1": {
+        "message": "crwdns9300:0crwdne9300:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementTimer1": {
+        "message": "crwdns6273:0crwdne6273:0"
+    },
+    "osdTextElementTimer2": {
+        "message": "crwdns9302:0crwdne9302:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementTimer2": {
+        "message": "crwdns6274:0crwdne6274:0"
+    },
+    "osdTextElementCoreTemperature": {
+        "message": "crwdns9304:0crwdne9304:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementCoreTemperature": {
         "message": "crwdns6277:0crwdne6277:0"
     },
+    "osdTextAntiGravity": {
+        "message": "crwdns9306:0crwdne9306:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescAntiGravity": {
         "message": "crwdns8772:0crwdne8772:0"
+    },
+    "osdTextGForce": {
+        "message": "crwdns9308:0crwdne9308:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescGForce": {
         "message": "crwdns8775:0crwdne8775:0"
     },
+    "osdTextElementMotorDiag": {
+        "message": "crwdns9310:0crwdne9310:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementMotorDiag": {
         "message": "crwdns8916:0crwdne8916:0"
+    },
+    "osdTextElementLogStatus": {
+        "message": "crwdns9312:0crwdne9312:0",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementLogStatus": {
         "message": "crwdns8859:0crwdne8859:0"
     },
+    "osdTextElementFlipArrow": {
+        "message": "crwdns9314:0crwdne9314:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementFlipArrow": {
+        "message": "crwdns8860:0crwdne8860:0"
+    },
+    "osdTextElementLinkQuality": {
+        "message": "crwdns9316:0crwdne9316:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementLinkQuality": {
+        "message": "crwdns8912:0crwdne8912:0"
+    },
+    "osdTextElementFlightDist": {
+        "message": "crwdns9318:0crwdne9318:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementFlightDist": {
+        "message": "crwdns8914:0crwdne8914:0"
+    },
+    "osdTextElementStickOverlayLeft": {
+        "message": "crwdns9320:0crwdne9320:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementStickOverlayLeft": {
+        "message": "crwdns8988:0crwdne8988:0"
+    },
+    "osdTextElementStickOverlayRight": {
+        "message": "crwdns9322:0crwdne9322:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "crwdns8990:0crwdne8990:0"
+    },
+    "osdTextElementDisplayName": {
+        "message": "crwdns9324:0crwdne9324:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementDisplayName": {
+        "message": "crwdns9042:0crwdne9042:0"
+    },
+    "osdTextElementEscRpmFreq": {
+        "message": "crwdns9326:0crwdne9326:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementEscRpmFreq": {
+        "message": "crwdns9068:0crwdne9068:0"
+    },
+    "osdTextElementRateProfileName": {
+        "message": "crwdns9328:0crwdne9328:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementRateProfileName": {
+        "message": "crwdns9152:0crwdne9152:0"
+    },
+    "osdTextElementPidProfileName": {
+        "message": "crwdns9330:0crwdne9330:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "crwdns9154:0crwdne9154:0"
+    },
+    "osdTextElementOsdProfileName": {
+        "message": "crwdns9332:0crwdne9332:0",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementOsdProfileName": {
         "message": "crwdns9150:0crwdne9150:0"
+    },
+    "osdTextElementUnknown": {
+        "message": "crwdns9334:0$1crwdne9334:0",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementUnknown": {
+        "message": "crwdns6276:0crwdne6276:0"
     },
     "osdDescStatMaxSpeed": {
         "message": "crwdns6278:0crwdne6278:0"
