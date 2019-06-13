@@ -1864,12 +1864,6 @@
     "osdDescElementGPSSats": {
         "message": "Global konumlandırma sistemi düzeltme sağlayan uyduların sayısı"
     },
-    "osdDescElementGPSLon": {
-        "message": "Global konumlandırma sistemi boylamı"
-    },
-    "osdDescElementGPSLat": {
-        "message": "Global konumlandırma sistemi eylemi"
-    },
     "osdDescElementDebug": {
         "message": "Değişkenlerde hata ayıklama"
     },
@@ -1894,14 +1888,14 @@
     "osdDescElementArmedTime": {
         "message": "Uçağın en son silahlandırılmasından itibaren geçen süre"
     },
+    "osdDescElementHomeDistance": {
+        "message": "Ana konuma olan uzaklık ( birim sistem ayarları baz alınarak feet veya metre cinsinden)"
+    },
     "osdDescElementWarnings": {
         "message": "Uyarılar (örn. düşük pil), uyarılar (örn. silahlandırılmama sebepleri, kritik derecede düşük pil) ve görsel bipleyici (yanıp sönen 4 yıldız)."
     },
     "osdDescElementEscRpm": {
         "message": "RPM ESC telemetrisi tarafından raporlandı"
-    },
-    "osdDescElementHomeDistance": {
-        "message": "Ana konuma olan uzaklık ( birim sistem ayarları baz alınarak feet veya metre cinsinden)"
     },
     "osdDescElementTimer1": {
         "message": "Zamanlayıcı 1'in değerini gösterir"
@@ -1909,11 +1903,11 @@
     "osdDescElementTimer2": {
         "message": "Zamanlayıcı 2'nin değerini gösterir"
     },
-    "osdDescElementUnknown": {
-        "message": "Bilinmeyen öğe(detaylar sonraki bir sürümde eklenecektir)"
-    },
     "osdDescElementCoreTemperature": {
         "message": "STM32 MCU çekirdeğinin sıcaklığı"
+    },
+    "osdDescElementUnknown": {
+        "message": "Bilinmeyen öğe(detaylar sonraki bir sürümde eklenecektir)"
     },
     "osdDescStatMinRssi": {
         "message": "Kaydedilen en küçük RSSI"
