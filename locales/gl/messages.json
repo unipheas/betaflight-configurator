@@ -3704,9 +3704,6 @@
     "osdDescElementCraftName": {
         "message": "Nome da aeronave tal como está no apartado Configuración"
     },
-    "osdDescElementDisplayName": {
-        "message": "Mostrar nome configurado có comando cli \"display_name\""
-    },
     "osdDescElementAltitude": {
         "message": "Altitude actual (parpadea por riba do limiar de alarma)"
     },
@@ -3724,12 +3721,6 @@
     },
     "osdDescElementGPSSats": {
         "message": "Número de satélites GPS fixados"
-    },
-    "osdDescElementGPSLon": {
-        "message": "Lonxitude GPS"
-    },
-    "osdDescElementGPSLat": {
-        "message": "Latitude GPS"
     },
     "osdDescElementDebug": {
         "message": "Variables de Debug"
@@ -3767,30 +3758,6 @@
     "osdDescElementArmedTime": {
         "message": "Tempo dende que a aeronave foi armada por última vez"
     },
-    "osdDescElementWarnings": {
-        "message": "Alertas (p.ej. batería baixa), avisos (p.ej. razons para non armar, batería baixa crítica) e pitido visual (4 asteriscos parpadeando)."
-    },
-    "osdDescElementEscTemperature": {
-        "message": "Temperatura reportada pola telemetría dos ESC"
-    },
-    "osdDescElementEscRpm": {
-        "message": "RPM reportadas por la telemetría dos ESC"
-    },
-    "osdDescElementEscRpmFreq": {
-        "message": "Frecuencia RPM reportada pola telemetría dos ESC"
-    },
-    "osdDescElementRateProfileName": {
-        "message": "Mostra o nome do perfil de taxa actual"
-    },
-    "osdDescElementPidProfileName": {
-        "message": "Mostra o nome do perfil PID actual"
-    },
-    "osdDescElementRtcDateTime": {
-        "message": "Data \/ Hora en tempo real"
-    },
-    "osdDescElementAdjustmentRange": {
-        "message": "Axuste de rango e valor do elemento activo actualmente"
-    },
     "osdDescElementHomeDirection": {
         "message": "Flecha mostrando a dirección da posición da casa"
     },
@@ -3806,32 +3773,29 @@
     "osdDescElementCompassBar": {
         "message": "Barra gráfica cuna brúxula mostrando a dirección actual"
     },
-    "osdDescElementFlipArrow": {
-        "message": "Flecha que indica que lado ten os motores arriba en modo tartaruga"
+    "osdDescElementWarnings": {
+        "message": "Alertas (p.ej. batería baixa), avisos (p.ej. razons para non armar, batería baixa crítica) e pitido visual (4 asteriscos parpadeando)."
     },
-    "osdDescElementLinkQuality": {
-        "message": "Indicador alternativo para 'calidade do enlace' basado na pérdida de paquetes - empregar con precaución"
+    "osdDescElementEscTemperature": {
+        "message": "Temperatura reportada pola telemetría dos ESC"
     },
-    "osdDescElementFlightDist": {
-        "message": "Distancia recorrida durante este voo."
+    "osdDescElementEscRpm": {
+        "message": "RPM reportadas por la telemetría dos ESC"
     },
-    "osdDescElementStickOverlayLeft": {
-        "message": "Superposición da posición do mando esquerdo do transmisor."
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Tempo estimado restante de voo"
     },
-    "osdDescElementStickOverlayRight": {
-        "message": "Superposición da posición do mando dereito do transmisor."
+    "osdDescElementRtcDateTime": {
+        "message": "Data \/ Hora en tempo real"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "Axuste de rango e valor do elemento activo actualmente"
     },
     "osdDescElementTimer1": {
         "message": "Mostra o valor do temporizador 1"
     },
     "osdDescElementTimer2": {
         "message": "Mostra o valor do temporizador 2"
-    },
-    "osdDescElementRemaningTimeEstimate": {
-        "message": "Tempo estimado restante de voo"
-    },
-    "osdDescElementUnknown": {
-        "message": "Elemento descoñecido (os detalles añadiranse nunha futura versión)"
     },
     "osdDescElementCoreTemperature": {
         "message": "Temperatura do núcleo do STM32 MCU"
@@ -3848,8 +3812,38 @@
     "osdDescElementLogStatus": {
         "message": "Número de caixa negra e avisos"
     },
+    "osdDescElementFlipArrow": {
+        "message": "Flecha que indica que lado ten os motores arriba en modo tartaruga"
+    },
+    "osdDescElementLinkQuality": {
+        "message": "Indicador alternativo para 'calidade do enlace' basado na pérdida de paquetes - empregar con precaución"
+    },
+    "osdDescElementFlightDist": {
+        "message": "Distancia recorrida durante este voo."
+    },
+    "osdDescElementStickOverlayLeft": {
+        "message": "Superposición da posición do mando esquerdo do transmisor."
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "Superposición da posición do mando dereito do transmisor."
+    },
+    "osdDescElementDisplayName": {
+        "message": "Mostrar nome configurado có comando cli \"display_name\""
+    },
+    "osdDescElementEscRpmFreq": {
+        "message": "Frecuencia RPM reportada pola telemetría dos ESC"
+    },
+    "osdDescElementRateProfileName": {
+        "message": "Mostra o nome do perfil de taxa actual"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "Mostra o nome do perfil PID actual"
+    },
     "osdDescElementOsdProfileName": {
         "message": "O nome do perfil OSD definido nas variables CLI \"osd_profile_1_name\", \"osd_profile_2_name\" and \"osd_profile_3_name\""
+    },
+    "osdDescElementUnknown": {
+        "message": "Elemento descoñecido (os detalles añadiranse nunha futura versión)"
     },
     "osdDescStatMaxSpeed": {
         "message": "Máxima velocidade rexistrada"
