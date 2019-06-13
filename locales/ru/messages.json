@@ -3506,9 +3506,6 @@
     "osdDescElementCraftName": {
         "message": "Позывной пилота, установленный во вкладке \"Конфигурация\""
     },
-    "osdDescElementDisplayName": {
-        "message": "Показываемое имя для установки показываемого имени в интерфейсе командной строки"
-    },
     "osdDescElementAltitude": {
         "message": "Текущая высота (замигает, если значение будет ниже заданного порога тревоги)"
     },
@@ -3526,12 +3523,6 @@
     },
     "osdDescElementGPSSats": {
         "message": "Число пойманных спутников"
-    },
-    "osdDescElementGPSLon": {
-        "message": "GPS-Долгота"
-    },
-    "osdDescElementGPSLat": {
-        "message": "GPS-Широта"
     },
     "osdDescElementDebug": {
         "message": "Показывать Debug-переменные"
@@ -3569,24 +3560,6 @@
     "osdDescElementArmedTime": {
         "message": "Момент когда судно было последний раз в арминге"
     },
-    "osdDescElementWarnings": {
-        "message": "Показывать тревоги (напр., о низком заряде), предупреждения (напр., причины: почему не армится, критич. низкий заряд), а также визуально отображать сигнал с пищалки (в виде 4-х мигающих звёздочек)."
-    },
-    "osdDescElementEscTemperature": {
-        "message": "Температура, полученная с телеметрии от ESC"
-    },
-    "osdDescElementEscRpm": {
-        "message": "Скорость оборотов, полученная из телеметрии от ESC"
-    },
-    "osdDescElementEscRpmFreq": {
-        "message": "Частота RPM, сообщаемая телеметрией регуляторов оборотов"
-    },
-    "osdDescElementRtcDateTime": {
-        "message": "Отображать текущую дату и время"
-    },
-    "osdDescElementAdjustmentRange": {
-        "message": "В настоящее время активные регулировки диапазона параметров и значения"
-    },
     "osdDescElementHomeDirection": {
         "message": "Стрелка, показывающая направление к месту взлёта"
     },
@@ -3601,6 +3574,45 @@
     },
     "osdDescElementCompassBar": {
         "message": "Отображет шкалу компаса, показывающего текущее направление"
+    },
+    "osdDescElementWarnings": {
+        "message": "Показывать тревоги (напр., о низком заряде), предупреждения (напр., причины: почему не армится, критич. низкий заряд), а также визуально отображать сигнал с пищалки (в виде 4-х мигающих звёздочек)."
+    },
+    "osdDescElementEscTemperature": {
+        "message": "Температура, полученная с телеметрии от ESC"
+    },
+    "osdDescElementEscRpm": {
+        "message": "Скорость оборотов, полученная из телеметрии от ESC"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Расчётное время до полного разряда батареи"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "Отображать текущую дату и время"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "В настоящее время активные регулировки диапазона параметров и значения"
+    },
+    "osdDescElementTimer1": {
+        "message": "Показать значение таймера 1"
+    },
+    "osdDescElementTimer2": {
+        "message": "Показать значение таймера 2"
+    },
+    "osdDescElementCoreTemperature": {
+        "message": "Температура ядра STM32 MCU"
+    },
+    "osdDescAntiGravity": {
+        "message": "Включает индикатор когда режим антигравити активен"
+    },
+    "osdDescGForce": {
+        "message": "Показывает как много G-силы судно испытывает"
+    },
+    "osdDescElementMotorDiag": {
+        "message": "Показывает график работы каждого мотора"
+    },
+    "osdDescElementLogStatus": {
+        "message": "BlackBox номер и предупреждения"
     },
     "osdDescElementFlipArrow": {
         "message": "Стрелка показывает в какой стороне двигатели в режиме черепахи"
@@ -3617,32 +3629,14 @@
     "osdDescElementStickOverlayRight": {
         "message": "Схема положения для правого стика передатчика."
     },
-    "osdDescElementTimer1": {
-        "message": "Показать значение таймера 1"
+    "osdDescElementDisplayName": {
+        "message": "Показываемое имя для установки показываемого имени в интерфейсе командной строки"
     },
-    "osdDescElementTimer2": {
-        "message": "Показать значение таймера 2"
-    },
-    "osdDescElementRemaningTimeEstimate": {
-        "message": "Расчётное время до полного разряда батареи"
+    "osdDescElementEscRpmFreq": {
+        "message": "Частота RPM, сообщаемая телеметрией регуляторов оборотов"
     },
     "osdDescElementUnknown": {
         "message": "Неизвестный элемент (детали будут добавлены в будущих выпусках)"
-    },
-    "osdDescElementCoreTemperature": {
-        "message": "Температура ядра STM32 MCU"
-    },
-    "osdDescAntiGravity": {
-        "message": "Включает индикатор когда режим антигравити активен"
-    },
-    "osdDescGForce": {
-        "message": "Показывает как много G-силы судно испытывает"
-    },
-    "osdDescElementMotorDiag": {
-        "message": "Показывает график работы каждого мотора"
-    },
-    "osdDescElementLogStatus": {
-        "message": "BlackBox номер и предупреждения"
     },
     "osdDescStatMaxSpeed": {
         "message": "Максимальная зафиксированная скорость"
