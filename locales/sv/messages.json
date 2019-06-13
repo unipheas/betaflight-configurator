@@ -3662,9 +3662,6 @@
     "osdDescElementCraftName": {
         "message": "Farkostnamnet som det angivits i Konfigurationsfliken"
     },
-    "osdDescElementDisplayName": {
-        "message": "Visningsnamnet som det har satts med cli-kommandot \"display_name\""
-    },
     "osdDescElementAltitude": {
         "message": "Aktuell höjd (blinkar om larmtröskeln överskridits)"
     },
@@ -3682,12 +3679,6 @@
     },
     "osdDescElementGPSSats": {
         "message": "Antal satelliter för GPS-fix"
-    },
-    "osdDescElementGPSLon": {
-        "message": "GPS-longitud"
-    },
-    "osdDescElementGPSLat": {
-        "message": "GPS-latitud"
     },
     "osdDescElementDebug": {
         "message": "Felsökningsvariabler"
@@ -3725,30 +3716,6 @@
     "osdDescElementArmedTime": {
         "message": "Tid sedan farkosten senast aktiverades"
     },
-    "osdDescElementWarnings": {
-        "message": "Larm (t ex lågt batteri), varningar (t ex aktiveringshinder, kritiskt lågt batteri) och visuell ljudsignal (4 blinkande asterisker)."
-    },
-    "osdDescElementEscTemperature": {
-        "message": "Temperatur enligt ESC-telemetri"
-    },
-    "osdDescElementEscRpm": {
-        "message": "Varvtal enligt ESC-telemetri"
-    },
-    "osdDescElementEscRpmFreq": {
-        "message": "RPM-frekvens enligt ESC-telemetri"
-    },
-    "osdDescElementRateProfileName": {
-        "message": "Visar namn på aktuell rate-profil"
-    },
-    "osdDescElementPidProfileName": {
-        "message": "Visar namn på aktuell PID-profil"
-    },
-    "osdDescElementRtcDateTime": {
-        "message": "Datum \/ tid från realtidsklocka"
-    },
-    "osdDescElementAdjustmentRange": {
-        "message": "Inställning och värde för justeringsområde som är aktivt nu"
-    },
     "osdDescElementHomeDirection": {
         "message": "Pil som visar riktning till hemposition"
     },
@@ -3764,32 +3731,29 @@
     "osdDescElementCompassBar": {
         "message": "Grafisk kompass som visar aktuell riktning"
     },
-    "osdDescElementFlipArrow": {
-        "message": "Pil som visar vilken motorsida som pekar uppåt i sköldpaddsläge (turtle mode)"
+    "osdDescElementWarnings": {
+        "message": "Larm (t ex lågt batteri), varningar (t ex aktiveringshinder, kritiskt lågt batteri) och visuell ljudsignal (4 blinkande asterisker)."
     },
-    "osdDescElementLinkQuality": {
-        "message": "Alternativ indikator för 'länkkvalitet' baserat på bildförlust - använd med försiktighet"
+    "osdDescElementEscTemperature": {
+        "message": "Temperatur enligt ESC-telemetri"
     },
-    "osdDescElementFlightDist": {
-        "message": "Avverkad distans under denna flygning."
+    "osdDescElementEscRpm": {
+        "message": "Varvtal enligt ESC-telemetri"
     },
-    "osdDescElementStickOverlayLeft": {
-        "message": "Överlagring för vänster spakposition."
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Uppskattad återstående flygtid"
     },
-    "osdDescElementStickOverlayRight": {
-        "message": "Överlagring för höger spakposition."
+    "osdDescElementRtcDateTime": {
+        "message": "Datum \/ tid från realtidsklocka"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "Inställning och värde för justeringsområde som är aktivt nu"
     },
     "osdDescElementTimer1": {
         "message": "Visar värdet på timer 1"
     },
     "osdDescElementTimer2": {
         "message": "Visar värdet på timer 2"
-    },
-    "osdDescElementRemaningTimeEstimate": {
-        "message": "Uppskattad återstående flygtid"
-    },
-    "osdDescElementUnknown": {
-        "message": "Okänt element (detaljer tillkommer i en kommande utgåva)"
     },
     "osdDescElementCoreTemperature": {
         "message": "Temperatur på STM32 MCU-kärna"
@@ -3806,8 +3770,38 @@
     "osdDescElementLogStatus": {
         "message": "Blackbox-nummer och varningar"
     },
+    "osdDescElementFlipArrow": {
+        "message": "Pil som visar vilken motorsida som pekar uppåt i sköldpaddsläge (turtle mode)"
+    },
+    "osdDescElementLinkQuality": {
+        "message": "Alternativ indikator för 'länkkvalitet' baserat på bildförlust - använd med försiktighet"
+    },
+    "osdDescElementFlightDist": {
+        "message": "Avverkad distans under denna flygning."
+    },
+    "osdDescElementStickOverlayLeft": {
+        "message": "Överlagring för vänster spakposition."
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "Överlagring för höger spakposition."
+    },
+    "osdDescElementDisplayName": {
+        "message": "Visningsnamnet som det har satts med cli-kommandot \"display_name\""
+    },
+    "osdDescElementEscRpmFreq": {
+        "message": "RPM-frekvens enligt ESC-telemetri"
+    },
+    "osdDescElementRateProfileName": {
+        "message": "Visar namn på aktuell rate-profil"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "Visar namn på aktuell PID-profil"
+    },
     "osdDescElementOsdProfileName": {
         "message": "OSD-profilnamn som det satts i CLI-variablerna \"osd_profile_1_name\", \"osd_profile_2_name\" och \"osd_profile_3_name\""
+    },
+    "osdDescElementUnknown": {
+        "message": "Okänt element (detaljer tillkommer i en kommande utgåva)"
     },
     "osdDescStatMaxSpeed": {
         "message": "Högsta registrerade hastighet"
