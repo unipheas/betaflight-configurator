@@ -3565,9 +3565,6 @@
     "osdDescElementCraftName": {
         "message": "设置页面里设置的飞行器名称"
     },
-    "osdDescElementDisplayName": {
-        "message": "由CLI命令\"display_name\"设置的显示名称"
-    },
     "osdDescElementAltitude": {
         "message": "当前高度 (当超过设置的警告高度时会闪烁)"
     },
@@ -3585,12 +3582,6 @@
     },
     "osdDescElementGPSSats": {
         "message": "GPS 锁定卫星数"
-    },
-    "osdDescElementGPSLon": {
-        "message": "GPS 经度"
-    },
-    "osdDescElementGPSLat": {
-        "message": "GPS 纬度"
     },
     "osdDescElementDebug": {
         "message": "调试用变量"
@@ -3628,24 +3619,6 @@
     "osdDescElementArmedTime": {
         "message": "距离上次解锁时间"
     },
-    "osdDescElementWarnings": {
-        "message": "警报 (比如低电压)，警告 (不能开锁原因，电池电压极低) 和模拟蜂鸣器(4个闪烁星号)。"
-    },
-    "osdDescElementEscTemperature": {
-        "message": "电调回传温度"
-    },
-    "osdDescElementEscRpm": {
-        "message": "电调回传电机转速"
-    },
-    "osdDescElementEscRpmFreq": {
-        "message": "电调回传电机转速频率"
-    },
-    "osdDescElementRtcDateTime": {
-        "message": "日期\/时间"
-    },
-    "osdDescElementAdjustmentRange": {
-        "message": "当前激活的调整范围和数值"
-    },
     "osdDescElementHomeDirection": {
         "message": "指向起飞点的箭头 （啊~那是家的方向~~）"
     },
@@ -3660,6 +3633,45 @@
     },
     "osdDescElementCompassBar": {
         "message": "当前行进方向的图形箭头"
+    },
+    "osdDescElementWarnings": {
+        "message": "警报 (比如低电压)，警告 (不能开锁原因，电池电压极低) 和模拟蜂鸣器(4个闪烁星号)。"
+    },
+    "osdDescElementEscTemperature": {
+        "message": "电调回传温度"
+    },
+    "osdDescElementEscRpm": {
+        "message": "电调回传电机转速"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "预计剩余电池飞行时间"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "日期\/时间"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "当前激活的调整范围和数值"
+    },
+    "osdDescElementTimer1": {
+        "message": "显示计时器1"
+    },
+    "osdDescElementTimer2": {
+        "message": "显示计时器2"
+    },
+    "osdDescElementCoreTemperature": {
+        "message": "显示飞控主芯片温度"
+    },
+    "osdDescAntiGravity": {
+        "message": "当反重力功能激活时显示指示器"
+    },
+    "osdDescGForce": {
+        "message": "显示当前飞机所受的地心引力"
+    },
+    "osdDescElementMotorDiag": {
+        "message": "显示每个电机输出的图表"
+    },
+    "osdDescElementLogStatus": {
+        "message": "黑匣子编号和警告"
     },
     "osdDescElementFlipArrow": {
         "message": "在乌龟模式中，箭头指示哪边的电机朝上"
@@ -3676,32 +3688,14 @@
     "osdDescElementStickOverlayRight": {
         "message": "遥控器右摇杆的叠层位置"
     },
-    "osdDescElementTimer1": {
-        "message": "显示计时器1"
+    "osdDescElementDisplayName": {
+        "message": "由CLI命令\"display_name\"设置的显示名称"
     },
-    "osdDescElementTimer2": {
-        "message": "显示计时器2"
-    },
-    "osdDescElementRemaningTimeEstimate": {
-        "message": "预计剩余电池飞行时间"
+    "osdDescElementEscRpmFreq": {
+        "message": "电调回传电机转速频率"
     },
     "osdDescElementUnknown": {
         "message": "未知参数"
-    },
-    "osdDescElementCoreTemperature": {
-        "message": "显示飞控主芯片温度"
-    },
-    "osdDescAntiGravity": {
-        "message": "当反重力功能激活时显示指示器"
-    },
-    "osdDescGForce": {
-        "message": "显示当前飞机所受的地心引力"
-    },
-    "osdDescElementMotorDiag": {
-        "message": "显示每个电机输出的图表"
-    },
-    "osdDescElementLogStatus": {
-        "message": "黑匣子编号和警告"
     },
     "osdDescStatMaxSpeed": {
         "message": "记录到的最大速度"
