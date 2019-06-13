@@ -2460,7 +2460,7 @@
         "message": "Puerto"
     },
     "firmwareFlasherManualBaud": {
-        "message": "Velocidad de transmision manual"
+        "message": "Velocidad de transmisión"
     },
     "firmwareFlasherManualBaudDescription": {
         "message": "Selección manual de la velocidad de transmisión para placas que no soportan la velocidad por defecto o para instalar por bluetooth.<br \/><span class=\"message-negative\">Nota:<\/span> No se usa cuando la instalación es por USB DFU."
