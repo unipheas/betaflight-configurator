@@ -3673,9 +3673,6 @@
     "osdDescElementCraftName": {
         "message": "[設定] タブで設定した機体名"
     },
-    "osdDescElementDisplayName": {
-        "message": "CLIコマンド【display_name】で設定した表示名"
-    },
     "osdDescElementAltitude": {
         "message": "現在の高度 (アラーム値を超えると点滅)"
     },
@@ -3693,12 +3690,6 @@
     },
     "osdDescElementGPSSats": {
         "message": "GPSの有効衛星数"
-    },
-    "osdDescElementGPSLon": {
-        "message": "GPS経度"
-    },
-    "osdDescElementGPSLat": {
-        "message": "GPS緯度"
     },
     "osdDescElementDebug": {
         "message": "デバッグ変数"
@@ -3736,30 +3727,6 @@
     "osdDescElementArmedTime": {
         "message": "機体が最後にアームしてからの時間"
     },
-    "osdDescElementWarnings": {
-        "message": "アラート (例: 電池切れ)、警告 (例: アーミング不可理由、バッテリーが非常に低い)、ビジュアルビープ (4点滅LED)。"
-    },
-    "osdDescElementEscTemperature": {
-        "message": "温度レポート by ESCテレメトリー"
-    },
-    "osdDescElementEscRpm": {
-        "message": "回転数レポート by ESCテレメトリー"
-    },
-    "osdDescElementEscRpmFreq": {
-        "message": "回転数レポート by ESCテレメトリー"
-    },
-    "osdDescElementRateProfileName": {
-        "message": "現在のRateprofile名を表示"
-    },
-    "osdDescElementPidProfileName": {
-        "message": "現在のPIDプロファイル名を表示"
-    },
-    "osdDescElementRtcDateTime": {
-        "message": "ハードウェアクロック 日付 \/ 時間"
-    },
-    "osdDescElementAdjustmentRange": {
-        "message": "調整タブで設定した現在有効となる値"
-    },
     "osdDescElementHomeDirection": {
         "message": "ホームポジション方向を示す矢印"
     },
@@ -3775,32 +3742,29 @@
     "osdDescElementCompassBar": {
         "message": "現在のヘッディングを示すグラフィカルなコンパスバー"
     },
-    "osdDescElementFlipArrow": {
-        "message": "タートルモードでどのモーターが起動しているかを示す矢印"
+    "osdDescElementWarnings": {
+        "message": "アラート (例: 電池切れ)、警告 (例: アーミング不可理由、バッテリーが非常に低い)、ビジュアルビープ (4点滅LED)。"
     },
-    "osdDescElementLinkQuality": {
-        "message": "フレーム損失に基く『リンク品質』代替インジケータ - 使用注意"
+    "osdDescElementEscTemperature": {
+        "message": "温度レポート by ESCテレメトリー"
     },
-    "osdDescElementFlightDist": {
-        "message": "この飛行での飛行距離"
+    "osdDescElementEscRpm": {
+        "message": "回転数レポート by ESCテレメトリー"
     },
-    "osdDescElementStickOverlayLeft": {
-        "message": "送信機 左スティック ポジションをオーバーレイ表示"
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "残り飛行時間の予測"
     },
-    "osdDescElementStickOverlayRight": {
-        "message": "送信機 右スティック ポジションをオーバーレイ表示"
+    "osdDescElementRtcDateTime": {
+        "message": "ハードウェアクロック 日付 \/ 時間"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "調整タブで設定した現在有効となる値"
     },
     "osdDescElementTimer1": {
         "message": "タイマー1の値を表示"
     },
     "osdDescElementTimer2": {
         "message": "タイマー2の値を表示"
-    },
-    "osdDescElementRemaningTimeEstimate": {
-        "message": "残り飛行時間の予測"
-    },
-    "osdDescElementUnknown": {
-        "message": "不明な構成要素 (将来のリリースで追加される予定)"
     },
     "osdDescElementCoreTemperature": {
         "message": "STM32 MCUコア温度"
@@ -3817,8 +3781,38 @@
     "osdDescElementLogStatus": {
         "message": "ブラックボックス番号と警告"
     },
+    "osdDescElementFlipArrow": {
+        "message": "タートルモードでどのモーターが起動しているかを示す矢印"
+    },
+    "osdDescElementLinkQuality": {
+        "message": "フレーム損失に基く『リンク品質』代替インジケータ - 使用注意"
+    },
+    "osdDescElementFlightDist": {
+        "message": "この飛行での飛行距離"
+    },
+    "osdDescElementStickOverlayLeft": {
+        "message": "送信機 左スティック ポジションをオーバーレイ表示"
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "送信機 右スティック ポジションをオーバーレイ表示"
+    },
+    "osdDescElementDisplayName": {
+        "message": "CLIコマンド【display_name】で設定した表示名"
+    },
+    "osdDescElementEscRpmFreq": {
+        "message": "回転数レポート by ESCテレメトリー"
+    },
+    "osdDescElementRateProfileName": {
+        "message": "現在のRateprofile名を表示"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "現在のPIDプロファイル名を表示"
+    },
     "osdDescElementOsdProfileName": {
         "message": "\"osd_profile_1_name\"、\"osd_profile_2_name\"、\"osd_profile_3_name\"はCLIにて設定されているOSDプロファイル名"
+    },
+    "osdDescElementUnknown": {
+        "message": "不明な構成要素 (将来のリリースで追加される予定)"
     },
     "osdDescStatMaxSpeed": {
         "message": "記録された最大スピード"
