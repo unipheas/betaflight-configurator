@@ -789,6 +789,14 @@
         "message": "O switch 'GPS Rescue' foi activado",
         "description": "Description of the RESC arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipRPMFILTER": {
+        "message": "O filtrado baseado en RPM está activado, pero un ou máis ESC non están a proporcionar unha telemetría DSHOT válida. Comprobe que os ESC son capaces de instalar e posúen o firmware necesario para soportar a telemetría bidireccional DSHOT.",
+        "description": "Description of the RPMFILTER arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
+        "message": "Un cambio na configuración require un reinicio",
+        "description": "Description of the REBOOT_REQD arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "Unha das outras sinais de desarmado está activa ao armar",
         "description": "Description of the ARM_SWITCH arming disable flag"
@@ -1761,6 +1769,21 @@
     },
     "auxiliaryModeLogicAND": {
         "message": "E"
+    },
+    "adjustmentsHelp": {
+        "message": "Configure os interruptores de axuste. Vexa a sección de \"axustes en voo\" do manual para obter máis detalles. Os cambios que fan as funcións de axuste non se gardan automaticamente."
+    },
+    "adjustmentSlotsHelp": {
+        "message": "Hai 4 slots. Cada interruptor usado para facer axustes simultaneamente require o uso exclusivo dunha ranura."
+    },
+    "adjustmentsExamples": {
+        "message": "Exemplos:"
+    },
+    "adjustmentsExample1": {
+        "message": "Utilice un conmutador de tres posicións no AUX1 para seleccionar entre Pitch\/Roll P, I e D e outro conmutador de tres posicións en AUX2 para aumentar ou diminuír o valor cando se mantén cara arriba ou abaixo."
+    },
+    "adjustmentsExample2": {
+        "message": "Use un conmutador de tres posicións no AUX4 para seleccionar a opción Perfil de Rate mediante o mesmo interruptor de tres posicións no mesmo canal."
     },
     "adjustmentsColumnEnable": {
         "message": "Si activo"
