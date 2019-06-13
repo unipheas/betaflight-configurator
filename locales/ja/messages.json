@@ -855,7 +855,7 @@
         "message": "MSP受信入力 (MSPポート経由制御)"
     },
     "featureRSSI_ADC": {
-        "message": "アナログRSSI 入力"
+        "message": "アナログRSSI 信号入力"
     },
     "featureLED_STRIP": {
         "message": "マルチカラーLEDストリップ サポート"
@@ -948,7 +948,7 @@
         "message": "受信機モード"
     },
     "configurationRSSI": {
-        "message": "(受信機) 信号強度"
+        "message": "アナログRSSI (信号強度設定)"
     },
     "configurationRSSIHelp": {
         "message": "RSSIは信号強度の値で、機体が圏外になったときやRF干渉を受けていることを確認でき非常に有益です。"
