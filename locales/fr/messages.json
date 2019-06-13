@@ -3596,9 +3596,6 @@
     "osdDescElementCraftName": {
         "message": "Nom du modèle comme indiqué dans le configurateur"
     },
-    "osdDescElementDisplayName": {
-        "message": "Afficher le nom comme défini par la commande cli \"display_name\""
-    },
     "osdDescElementAltitude": {
         "message": "Altitude ( clignote quand le seuil d'alarme est atteint)"
     },
@@ -3616,12 +3613,6 @@
     },
     "osdDescElementGPSSats": {
         "message": "Nombre de satellites GPS"
-    },
-    "osdDescElementGPSLon": {
-        "message": "GPS longitude"
-    },
-    "osdDescElementGPSLat": {
-        "message": "GPS latitude"
     },
     "osdDescElementDebug": {
         "message": "Debug variables"
@@ -3659,24 +3650,6 @@
     "osdDescElementArmedTime": {
         "message": "Temps depuis le dernier armement"
     },
-    "osdDescElementWarnings": {
-        "message": "Alertes (par exemple: batterie faible), Avertissements (par exemple: raisons de ne pas armer, batterie critique) et signal sonore (4 astérisques clignotants)."
-    },
-    "osdDescElementEscTemperature": {
-        "message": "Température reportée par la télémétrie des ESC"
-    },
-    "osdDescElementEscRpm": {
-        "message": "Tr\/min reporté par la télémétrie des ESC"
-    },
-    "osdDescElementEscRpmFreq": {
-        "message": "Fréquence Trs\/min reportée par la télémétrie des ESC"
-    },
-    "osdDescElementRtcDateTime": {
-        "message": "Horloge réel date\/heure"
-    },
-    "osdDescElementAdjustmentRange": {
-        "message": "Paramètre et plage de réglage actuel"
-    },
     "osdDescElementHomeDirection": {
         "message": "Flèche indiquant la direction par rapport à la position de départ"
     },
@@ -3691,6 +3664,45 @@
     },
     "osdDescElementCompassBar": {
         "message": "Boussole graphique indiquant le cap actuel"
+    },
+    "osdDescElementWarnings": {
+        "message": "Alertes (par exemple: batterie faible), Avertissements (par exemple: raisons de ne pas armer, batterie critique) et signal sonore (4 astérisques clignotants)."
+    },
+    "osdDescElementEscTemperature": {
+        "message": "Température reportée par la télémétrie des ESC"
+    },
+    "osdDescElementEscRpm": {
+        "message": "Tr\/min reporté par la télémétrie des ESC"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Estimation du temps de vol restant"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "Horloge réel date\/heure"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "Paramètre et plage de réglage actuel"
+    },
+    "osdDescElementTimer1": {
+        "message": "Affiche la valeur du timer 1"
+    },
+    "osdDescElementTimer2": {
+        "message": "Affiche la valeur du timer 2"
+    },
+    "osdDescElementCoreTemperature": {
+        "message": "Température du coeur du STM32 MCU"
+    },
+    "osdDescAntiGravity": {
+        "message": "Indique lorsque l'anti gravity est actif"
+    },
+    "osdDescGForce": {
+        "message": "Indique le nombre de G subit par l'appareil"
+    },
+    "osdDescElementMotorDiag": {
+        "message": "Affiche un graphique de la sortie de chaque moteur"
+    },
+    "osdDescElementLogStatus": {
+        "message": "Avertissements et numéros de Blackbox"
     },
     "osdDescElementFlipArrow": {
         "message": "En mode tortue, flèche indiquant quels moteurs seront activés"
@@ -3707,32 +3719,14 @@
     "osdDescElementStickOverlayRight": {
         "message": "Superpose la valeur du stick droit de l'émetteur."
     },
-    "osdDescElementTimer1": {
-        "message": "Affiche la valeur du timer 1"
+    "osdDescElementDisplayName": {
+        "message": "Afficher le nom comme défini par la commande cli \"display_name\""
     },
-    "osdDescElementTimer2": {
-        "message": "Affiche la valeur du timer 2"
-    },
-    "osdDescElementRemaningTimeEstimate": {
-        "message": "Estimation du temps de vol restant"
+    "osdDescElementEscRpmFreq": {
+        "message": "Fréquence Trs\/min reportée par la télémétrie des ESC"
     },
     "osdDescElementUnknown": {
         "message": "Éléments inconnus (détails devant être ajoutés dans le"
-    },
-    "osdDescElementCoreTemperature": {
-        "message": "Température du coeur du STM32 MCU"
-    },
-    "osdDescAntiGravity": {
-        "message": "Indique lorsque l'anti gravity est actif"
-    },
-    "osdDescGForce": {
-        "message": "Indique le nombre de G subit par l'appareil"
-    },
-    "osdDescElementMotorDiag": {
-        "message": "Affiche un graphique de la sortie de chaque moteur"
-    },
-    "osdDescElementLogStatus": {
-        "message": "Avertissements et numéros de Blackbox"
     },
     "osdDescStatMaxSpeed": {
         "message": "Vitesse maximale relevée"
