@@ -2956,12 +2956,6 @@
     "osdDescElementGPSSats": {
         "message": "Nombre de satèŀlits GPS que donen localització"
     },
-    "osdDescElementGPSLon": {
-        "message": "Longitud GPS"
-    },
-    "osdDescElementGPSLat": {
-        "message": "Latitud  GPS"
-    },
     "osdDescElementDebug": {
         "message": "Variables de Debug"
     },
@@ -2998,21 +2992,6 @@
     "osdDescElementArmedTime": {
         "message": "Temps des que l'aeronau va ser armada"
     },
-    "osdDescElementWarnings": {
-        "message": "Alertes (p.ex. bateria baixa), avisos (p.ex. raons per les quals no arma) i beeper visual (4 asteriscs parpellejant)."
-    },
-    "osdDescElementEscTemperature": {
-        "message": "Temperatura reportada per la telemetria d'ESCs"
-    },
-    "osdDescElementEscRpm": {
-        "message": "RPM reportat per la telemetria ESC"
-    },
-    "osdDescElementRtcDateTime": {
-        "message": "Hora \/ data real"
-    },
-    "osdDescElementAdjustmentRange": {
-        "message": "Ajustament de rang i de valor actiu actualment"
-    },
     "osdDescElementHomeDirection": {
         "message": "Fletxa indicant la direcció de la posició de casa"
     },
@@ -3028,20 +3007,35 @@
     "osdDescElementCompassBar": {
         "message": "Compàs gràfic mostrant la direcció actual"
     },
+    "osdDescElementWarnings": {
+        "message": "Alertes (p.ex. bateria baixa), avisos (p.ex. raons per les quals no arma) i beeper visual (4 asteriscs parpellejant)."
+    },
+    "osdDescElementEscTemperature": {
+        "message": "Temperatura reportada per la telemetria d'ESCs"
+    },
+    "osdDescElementEscRpm": {
+        "message": "RPM reportat per la telemetria ESC"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Temps estimat restant de volt"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "Hora \/ data real"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "Ajustament de rang i de valor actiu actualment"
+    },
     "osdDescElementTimer1": {
         "message": "Mostra el valor del timer 1"
     },
     "osdDescElementTimer2": {
         "message": "Mostra el valor del timer 2"
     },
-    "osdDescElementRemaningTimeEstimate": {
-        "message": "Temps estimat restant de volt"
+    "osdDescElementCoreTemperature": {
+        "message": "Temperatura del nucli MCU STM32"
     },
     "osdDescElementUnknown": {
         "message": "Element desconegut (Els detalls s'afegiran a publicacions futures)"
-    },
-    "osdDescElementCoreTemperature": {
-        "message": "Temperatura del nucli MCU STM32"
     },
     "osdDescStatMaxSpeed": {
         "message": "Velocitat màxima registrada"
