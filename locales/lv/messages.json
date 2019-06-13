@@ -3565,9 +3565,6 @@
     "osdDescElementCraftName": {
         "message": "Konfigurācijas cilnē iestatītais gaisa kuģa vārds"
     },
-    "osdDescElementDisplayName": {
-        "message": "Rādīt vārdu kas uzstādīts ar CLI komandu \"display_name\""
-    },
     "osdDescElementAltitude": {
         "message": "Patreizējais augstums (mirgo, ja ir virs trauksmes sliekšņa)"
     },
@@ -3585,12 +3582,6 @@
     },
     "osdDescElementGPSSats": {
         "message": "GPS pieejamo satelītu skaits"
-    },
-    "osdDescElementGPSLon": {
-        "message": "GPS garums"
-    },
-    "osdDescElementGPSLat": {
-        "message": "GPS platums"
     },
     "osdDescElementDebug": {
         "message": "Atkļūdošanas mainīgie"
@@ -3628,24 +3619,6 @@
     "osdDescElementArmedTime": {
         "message": "Laiks kopš gaisa kuģis pēdējo reizi tika aktivizēts"
     },
-    "osdDescElementWarnings": {
-        "message": "Trauksmes (piem. zems akumulatora līmenis), brīdinājumi (piem. iemesls kāpēc neaktivējas, kritiski zems akumulatora līmenis) un vizuālais pīkstulis (4 mirgojoša zvaigznītes)."
-    },
-    "osdDescElementEscTemperature": {
-        "message": "ESC telemetrijas ziņotā temperatūra"
-    },
-    "osdDescElementEscRpm": {
-        "message": "ESC telemetrijas ziņotais RPM"
-    },
-    "osdDescElementEscRpmFreq": {
-        "message": "ESC telemetrijas ziņotā RPM frekvence"
-    },
-    "osdDescElementRtcDateTime": {
-        "message": "Reālā laika pulksteņa datums \/ laiks"
-    },
-    "osdDescElementAdjustmentRange": {
-        "message": "Patreiz aktīvā pieregulējamā diapazona konfigurācija un vērtība"
-    },
     "osdDescElementHomeDirection": {
         "message": "Bulta, kas norāda virzienu uz mājām"
     },
@@ -3660,6 +3633,45 @@
     },
     "osdDescElementCompassBar": {
         "message": "Kompasa grafiskā josla, kas norāda patreizējo debespusi"
+    },
+    "osdDescElementWarnings": {
+        "message": "Trauksmes (piem. zems akumulatora līmenis), brīdinājumi (piem. iemesls kāpēc neaktivējas, kritiski zems akumulatora līmenis) un vizuālais pīkstulis (4 mirgojoša zvaigznītes)."
+    },
+    "osdDescElementEscTemperature": {
+        "message": "ESC telemetrijas ziņotā temperatūra"
+    },
+    "osdDescElementEscRpm": {
+        "message": "ESC telemetrijas ziņotais RPM"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Paredzamais atlikušais lidojuma laiks"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "Reālā laika pulksteņa datums \/ laiks"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "Patreiz aktīvā pieregulējamā diapazona konfigurācija un vērtība"
+    },
+    "osdDescElementTimer1": {
+        "message": "Rādīt taimera 1 vērtību"
+    },
+    "osdDescElementTimer2": {
+        "message": "Rādīt taimera 2 vērtību"
+    },
+    "osdDescElementCoreTemperature": {
+        "message": "STM32 MCU kodola temperatūra"
+    },
+    "osdDescAntiGravity": {
+        "message": "Ieslēdz indikatoru, ja antigravitācija ir aktīva"
+    },
+    "osdDescGForce": {
+        "message": "Parādīt cik lielu G-Spēku piedzīvo gaisa kuģis"
+    },
+    "osdDescElementMotorDiag": {
+        "message": "Parādīt katra motora izejas grafisko joslu"
+    },
+    "osdDescElementLogStatus": {
+        "message": "Melnā kastes numurs un brīdinājumi"
     },
     "osdDescElementFlipArrow": {
         "message": "Bultiņa parāda kurā pusē motori ir bruņurupuča režīmā"
@@ -3676,32 +3688,14 @@
     "osdDescElementStickOverlayRight": {
         "message": "Raidītāja labās vadības sviras pozīcijas overlais."
     },
-    "osdDescElementTimer1": {
-        "message": "Rādīt taimera 1 vērtību"
+    "osdDescElementDisplayName": {
+        "message": "Rādīt vārdu kas uzstādīts ar CLI komandu \"display_name\""
     },
-    "osdDescElementTimer2": {
-        "message": "Rādīt taimera 2 vērtību"
-    },
-    "osdDescElementRemaningTimeEstimate": {
-        "message": "Paredzamais atlikušais lidojuma laiks"
+    "osdDescElementEscRpmFreq": {
+        "message": "ESC telemetrijas ziņotā RPM frekvence"
     },
     "osdDescElementUnknown": {
         "message": "Nezināms elements (informācija tiks pievienota nākamajā relīzē)"
-    },
-    "osdDescElementCoreTemperature": {
-        "message": "STM32 MCU kodola temperatūra"
-    },
-    "osdDescAntiGravity": {
-        "message": "Ieslēdz indikatoru, ja antigravitācija ir aktīva"
-    },
-    "osdDescGForce": {
-        "message": "Parādīt cik lielu G-Spēku piedzīvo gaisa kuģis"
-    },
-    "osdDescElementMotorDiag": {
-        "message": "Parādīt katra motora izejas grafisko joslu"
-    },
-    "osdDescElementLogStatus": {
-        "message": "Melnā kastes numurs un brīdinājumi"
     },
     "osdDescStatMaxSpeed": {
         "message": "Maksimālais piefiksētais ātrums"
