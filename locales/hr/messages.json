@@ -3650,9 +3650,6 @@
     "osdDescElementCraftName": {
         "message": "Ime letjelice postavljeno u kartici Konfiguracija"
     },
-    "osdDescElementDisplayName": {
-        "message": "Prikaži naziv koji je postavljen u CLI komandi \"display_name\""
-    },
     "osdDescElementAltitude": {
         "message": "Trenutna visina (treperi kad je iznad praga alarma)"
     },
@@ -3670,12 +3667,6 @@
     },
     "osdDescElementGPSSats": {
         "message": "Broj satelita koji određuju GPS lokaciju"
-    },
-    "osdDescElementGPSLon": {
-        "message": "GPS dužina"
-    },
-    "osdDescElementGPSLat": {
-        "message": "GPS širina"
     },
     "osdDescElementDebug": {
         "message": "Debug varijable"
@@ -3713,30 +3704,6 @@
     "osdDescElementArmedTime": {
         "message": "Vrijeme otkada je letjelica armana"
     },
-    "osdDescElementWarnings": {
-        "message": "Obavijesti (npr. prazna baterija), upozorenja(npr. razlozi nemogućnosti arminga, kritična baterija) i visualni beeper (4 trepteće zvjezdice)."
-    },
-    "osdDescElementEscTemperature": {
-        "message": "Temperatura koju prijavljuje ESC telemetrija"
-    },
-    "osdDescElementEscRpm": {
-        "message": "RPM koji prijavljuje ESC telemetrija"
-    },
-    "osdDescElementEscRpmFreq": {
-        "message": "RPM frekvencija koju prijavljuje ESC telemetrija"
-    },
-    "osdDescElementRateProfileName": {
-        "message": "Prikazuje trenutno ime rateprofila"
-    },
-    "osdDescElementPidProfileName": {
-        "message": "Prikazuje trenutno ime PID profila"
-    },
-    "osdDescElementRtcDateTime": {
-        "message": "Stvarno vrijeme \/ datum"
-    },
-    "osdDescElementAdjustmentRange": {
-        "message": "Trenutno aktivni raspon prilagodba postavki i vrijednosti"
-    },
     "osdDescElementHomeDirection": {
         "message": "Strelica koja pokazuje lokaciju kuće"
     },
@@ -3752,32 +3719,29 @@
     "osdDescElementCompassBar": {
         "message": "Grafička traka kompasa koja prikazuje trenutačni smjer"
     },
-    "osdDescElementFlipArrow": {
-        "message": "Strelica koja pokazuje koji motori su u 'turtle' načinu rada"
+    "osdDescElementWarnings": {
+        "message": "Obavijesti (npr. prazna baterija), upozorenja(npr. razlozi nemogućnosti arminga, kritična baterija) i visualni beeper (4 trepteće zvjezdice)."
     },
-    "osdDescElementLinkQuality": {
-        "message": "Alternativni indikator za kvalitetu veze baziran na gubitku paketa - koristite s oprezom"
+    "osdDescElementEscTemperature": {
+        "message": "Temperatura koju prijavljuje ESC telemetrija"
     },
-    "osdDescElementFlightDist": {
-        "message": "Udaljenost pređena tijekom ovog leta."
+    "osdDescElementEscRpm": {
+        "message": "RPM koji prijavljuje ESC telemetrija"
     },
-    "osdDescElementStickOverlayLeft": {
-        "message": "Overlay za poziciju lijeve palice stanice\/transmittera."
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Očekivano preostalo vrijeme leta"
     },
-    "osdDescElementStickOverlayRight": {
-        "message": "Overlay za poziciju desne palice stanice\/transmittera."
+    "osdDescElementRtcDateTime": {
+        "message": "Stvarno vrijeme \/ datum"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "Trenutno aktivni raspon prilagodba postavki i vrijednosti"
     },
     "osdDescElementTimer1": {
         "message": "Prikazuje vrijednost tajmera 1"
     },
     "osdDescElementTimer2": {
         "message": "Prikazuje vrijednost tajmera 2"
-    },
-    "osdDescElementRemaningTimeEstimate": {
-        "message": "Očekivano preostalo vrijeme leta"
-    },
-    "osdDescElementUnknown": {
-        "message": "Nepoznati element (detalji će biti dodani u budućim verzijama)"
     },
     "osdDescElementCoreTemperature": {
         "message": "Temperatura STM32 MCU jezgre"
@@ -3794,8 +3758,38 @@
     "osdDescElementLogStatus": {
         "message": "Broj crne kutije i upozorenja"
     },
+    "osdDescElementFlipArrow": {
+        "message": "Strelica koja pokazuje koji motori su u 'turtle' načinu rada"
+    },
+    "osdDescElementLinkQuality": {
+        "message": "Alternativni indikator za kvalitetu veze baziran na gubitku paketa - koristite s oprezom"
+    },
+    "osdDescElementFlightDist": {
+        "message": "Udaljenost pređena tijekom ovog leta."
+    },
+    "osdDescElementStickOverlayLeft": {
+        "message": "Overlay za poziciju lijeve palice stanice\/transmittera."
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "Overlay za poziciju desne palice stanice\/transmittera."
+    },
+    "osdDescElementDisplayName": {
+        "message": "Prikaži naziv koji je postavljen u CLI komandi \"display_name\""
+    },
+    "osdDescElementEscRpmFreq": {
+        "message": "RPM frekvencija koju prijavljuje ESC telemetrija"
+    },
+    "osdDescElementRateProfileName": {
+        "message": "Prikazuje trenutno ime rateprofila"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "Prikazuje trenutno ime PID profila"
+    },
     "osdDescElementOsdProfileName": {
         "message": "OSD ime profila kao što je postavljeno u \"osd_profile_1_name\", \"osd_profile_2_name\" i \"osd_profile_3_name\" CLI varijablama"
+    },
+    "osdDescElementUnknown": {
+        "message": "Nepoznati element (detalji će biti dodani u budućim verzijama)"
     },
     "osdDescStatMaxSpeed": {
         "message": "Maksimalna zabilježena brzina"
