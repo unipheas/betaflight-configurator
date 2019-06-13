@@ -3584,9 +3584,6 @@
     "osdDescElementCraftName": {
         "message": "Name des Fluggerätes (gesetzt im Konfigurationstab)"
     },
-    "osdDescElementDisplayName": {
-        "message": "Zeigt den Namen, welcher durch den \"display_name\"-cli-Befehl festgelegt wurde."
-    },
     "osdDescElementAltitude": {
         "message": "Aktuelle Höhe (blinkt, wenn über dem Alarm Schwellwert)"
     },
@@ -3604,12 +3601,6 @@
     },
     "osdDescElementGPSSats": {
         "message": "Anzahl der Satelliten"
-    },
-    "osdDescElementGPSLon": {
-        "message": "GPS Längengrad"
-    },
-    "osdDescElementGPSLat": {
-        "message": "GPS Breitengrad"
     },
     "osdDescElementDebug": {
         "message": "Debug Variablen"
@@ -3647,24 +3638,6 @@
     "osdDescElementArmedTime": {
         "message": "Vergangene Zeit seit dem letzten Armen"
     },
-    "osdDescElementWarnings": {
-        "message": "Alarme (z.B. niedrige Batteriespannung), Warnungen (z.B. der Grund warum das Gerät nicht armt), und visueller Alarm (4 blinkende Sterne)"
-    },
-    "osdDescElementEscTemperature": {
-        "message": "Regler Temperatur (über Regler Telemetrie)"
-    },
-    "osdDescElementEscRpm": {
-        "message": "Motordrehzahl (über Regler Telemetrie)"
-    },
-    "osdDescElementEscRpmFreq": {
-        "message": "Motordrehzahl (über Regler Telemetrie)"
-    },
-    "osdDescElementRtcDateTime": {
-        "message": "Datum \/ Uhrzeit"
-    },
-    "osdDescElementAdjustmentRange": {
-        "message": "Currently active adjustment range setting and value"
-    },
     "osdDescElementHomeDirection": {
         "message": "Pfeil der die Richtung zur Home Position anzeigt"
     },
@@ -3679,6 +3652,45 @@
     },
     "osdDescElementCompassBar": {
         "message": "Grafischer Kompass, welcher die aktuelle Richtung zeigt"
+    },
+    "osdDescElementWarnings": {
+        "message": "Alarme (z.B. niedrige Batteriespannung), Warnungen (z.B. der Grund warum das Gerät nicht armt), und visueller Alarm (4 blinkende Sterne)"
+    },
+    "osdDescElementEscTemperature": {
+        "message": "Regler Temperatur (über Regler Telemetrie)"
+    },
+    "osdDescElementEscRpm": {
+        "message": "Motordrehzahl (über Regler Telemetrie)"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Errechnete verbleibende Flugzeit"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "Datum \/ Uhrzeit"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "Currently active adjustment range setting and value"
+    },
+    "osdDescElementTimer1": {
+        "message": "Zeigt den Inhalt von Timer 1"
+    },
+    "osdDescElementTimer2": {
+        "message": "Zeigt den Inhalt von Timer 2"
+    },
+    "osdDescElementCoreTemperature": {
+        "message": "Temperatur des STM32 MCU Kerns"
+    },
+    "osdDescAntiGravity": {
+        "message": "aktiviert einen Indikator, wenn Anti Gravity aktiv ist"
+    },
+    "osdDescGForce": {
+        "message": "Zeigt, welchen G-Kräften das Fluggerät ausgesetzt ist."
+    },
+    "osdDescElementMotorDiag": {
+        "message": "Diagramm der Ausgabe jeden Motors anzeigen"
+    },
+    "osdDescElementLogStatus": {
+        "message": "Blackbox Nummer und Warnungen"
     },
     "osdDescElementFlipArrow": {
         "message": "Ein Pfeil zeigt, welche Motorseite im Turtle-Modus vom Boden weiter weg ist"
@@ -3695,32 +3707,14 @@
     "osdDescElementStickOverlayRight": {
         "message": "Positionsanzeige des rechten Sendersticks."
     },
-    "osdDescElementTimer1": {
-        "message": "Zeigt den Inhalt von Timer 1"
+    "osdDescElementDisplayName": {
+        "message": "Zeigt den Namen, welcher durch den \"display_name\"-cli-Befehl festgelegt wurde."
     },
-    "osdDescElementTimer2": {
-        "message": "Zeigt den Inhalt von Timer 2"
-    },
-    "osdDescElementRemaningTimeEstimate": {
-        "message": "Errechnete verbleibende Flugzeit"
+    "osdDescElementEscRpmFreq": {
+        "message": "Motordrehzahl (über Regler Telemetrie)"
     },
     "osdDescElementUnknown": {
         "message": "Unbekanntes Element (Details kommen in zukünftigen Versionen)"
-    },
-    "osdDescElementCoreTemperature": {
-        "message": "Temperatur des STM32 MCU Kerns"
-    },
-    "osdDescAntiGravity": {
-        "message": "aktiviert einen Indikator, wenn Anti Gravity aktiv ist"
-    },
-    "osdDescGForce": {
-        "message": "Zeigt, welchen G-Kräften das Fluggerät ausgesetzt ist."
-    },
-    "osdDescElementMotorDiag": {
-        "message": "Diagramm der Ausgabe jeden Motors anzeigen"
-    },
-    "osdDescElementLogStatus": {
-        "message": "Blackbox Nummer und Warnungen"
     },
     "osdDescStatMaxSpeed": {
         "message": "Maximal erreichte Geschwindigkeit"
