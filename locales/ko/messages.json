@@ -3658,9 +3658,6 @@
     "osdDescElementCraftName": {
         "message": "환경설정 탭에서 설정된 기체 이름"
     },
-    "osdDescElementDisplayName": {
-        "message": "\"display_name\" cli 명령에 의해 설정된 이름을 표시합니다."
-    },
     "osdDescElementAltitude": {
         "message": "현재 고도 (임계값 이상일 때 깜빡임)"
     },
@@ -3678,12 +3675,6 @@
     },
     "osdDescElementGPSSats": {
         "message": "GPS 위성 수"
-    },
-    "osdDescElementGPSLon": {
-        "message": "GPS 경도"
-    },
-    "osdDescElementGPSLat": {
-        "message": "GPS 위도"
     },
     "osdDescElementDebug": {
         "message": "디버그 변수"
@@ -3721,30 +3712,6 @@
     "osdDescElementArmedTime": {
         "message": "기체가 마지막으로 아밍된 이후 시간"
     },
-    "osdDescElementWarnings": {
-        "message": "경계 (예. 배터리 부족시), 경고 (예. 아밍되지 않은 여러 원인 발생시, 배터리 매우 부족시) 및 시각적인 경고 (4개의 깜박이는 별표)."
-    },
-    "osdDescElementEscTemperature": {
-        "message": "ESC 텔레메트리에 의해 보고된 온도"
-    },
-    "osdDescElementEscRpm": {
-        "message": "ESC 텔레메트리에 의해 보고된 RPM"
-    },
-    "osdDescElementEscRpmFreq": {
-        "message": "ESC 텔레메트리에 의해 보고된 RPM 주파수"
-    },
-    "osdDescElementRateProfileName": {
-        "message": "현재 레이트 프로파일 이름을 보여줍니다"
-    },
-    "osdDescElementPidProfileName": {
-        "message": "현재 PID 프로파일 이름을 보여줍니다"
-    },
-    "osdDescElementRtcDateTime": {
-        "message": "실시간 날짜 \/ 시간"
-    },
-    "osdDescElementAdjustmentRange": {
-        "message": "현재 활성화된 조정 범위 설정 및 값"
-    },
     "osdDescElementHomeDirection": {
         "message": "홈 포지션 방향을 보여주는 화살표"
     },
@@ -3760,32 +3727,29 @@
     "osdDescElementCompassBar": {
         "message": "현재 기체방향을 보여주는 나침반 그래픽 막대"
     },
-    "osdDescElementFlipArrow": {
-        "message": "터틀 모드에서 어떤 모터가 올라가는지를 보여주는 화살표"
+    "osdDescElementWarnings": {
+        "message": "경계 (예. 배터리 부족시), 경고 (예. 아밍되지 않은 여러 원인 발생시, 배터리 매우 부족시) 및 시각적인 경고 (4개의 깜박이는 별표)."
     },
-    "osdDescElementLinkQuality": {
-        "message": "프레임 손실에 따른 링크 품질에 대한 대체 표시 - 주의해서 사용"
+    "osdDescElementEscTemperature": {
+        "message": "ESC 텔레메트리에 의해 보고된 온도"
     },
-    "osdDescElementFlightDist": {
-        "message": "이번 비행 중 비행한 거리"
+    "osdDescElementEscRpm": {
+        "message": "ESC 텔레메트리에 의해 보고된 RPM"
     },
-    "osdDescElementStickOverlayLeft": {
-        "message": "좌측 조종기 스틱 위치에 대한 오버레이"
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "남은 비행시간 예상"
     },
-    "osdDescElementStickOverlayRight": {
-        "message": "우측 조종기 스틱 위치에 대한 오버레이"
+    "osdDescElementRtcDateTime": {
+        "message": "실시간 날짜 \/ 시간"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "현재 활성화된 조정 범위 설정 및 값"
     },
     "osdDescElementTimer1": {
         "message": "타이머 1의 값 표시"
     },
     "osdDescElementTimer2": {
         "message": "타이머 2의 값 표시"
-    },
-    "osdDescElementRemaningTimeEstimate": {
-        "message": "남은 비행시간 예상"
-    },
-    "osdDescElementUnknown": {
-        "message": "알 수 없는 요소 (다음 릴리스에 추가 될 세부 정보)"
     },
     "osdDescElementCoreTemperature": {
         "message": "STM32 MCU 코어 온도"
@@ -3802,8 +3766,38 @@
     "osdDescElementLogStatus": {
         "message": "블랙박스 번호 및 경고"
     },
+    "osdDescElementFlipArrow": {
+        "message": "터틀 모드에서 어떤 모터가 올라가는지를 보여주는 화살표"
+    },
+    "osdDescElementLinkQuality": {
+        "message": "프레임 손실에 따른 링크 품질에 대한 대체 표시 - 주의해서 사용"
+    },
+    "osdDescElementFlightDist": {
+        "message": "이번 비행 중 비행한 거리"
+    },
+    "osdDescElementStickOverlayLeft": {
+        "message": "좌측 조종기 스틱 위치에 대한 오버레이"
+    },
+    "osdDescElementStickOverlayRight": {
+        "message": "우측 조종기 스틱 위치에 대한 오버레이"
+    },
+    "osdDescElementDisplayName": {
+        "message": "\"display_name\" cli 명령에 의해 설정된 이름을 표시합니다."
+    },
+    "osdDescElementEscRpmFreq": {
+        "message": "ESC 텔레메트리에 의해 보고된 RPM 주파수"
+    },
+    "osdDescElementRateProfileName": {
+        "message": "현재 레이트 프로파일 이름을 보여줍니다"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "현재 PID 프로파일 이름을 보여줍니다"
+    },
     "osdDescElementOsdProfileName": {
         "message": "\"osd_profile_1_name\", \"osd_profile_2_name\" 그리고 \"osd_profile_3_name\" CLI 변수에서 설정된 OSD 프로파일 이름"
+    },
+    "osdDescElementUnknown": {
+        "message": "알 수 없는 요소 (다음 릴리스에 추가 될 세부 정보)"
     },
     "osdDescStatMaxSpeed": {
         "message": "최대 기록 속도"
