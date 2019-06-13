@@ -3336,12 +3336,6 @@
     "osdDescElementGPSSats": {
         "message": "Jumlah satelit yg memberikan GPS fix"
     },
-    "osdDescElementGPSLon": {
-        "message": "Bujur GPS"
-    },
-    "osdDescElementGPSLat": {
-        "message": "Lintang GPS"
-    },
     "osdDescElementDebug": {
         "message": "Variabel Debug"
     },
@@ -3378,21 +3372,6 @@
     "osdDescElementArmedTime": {
         "message": "Waktu sejak model di arm"
     },
-    "osdDescElementWarnings": {
-        "message": "Tanda (misalnya baterai rendah), peringatan (misalnya alasan untuk tidak mempersenjatai, baterai rendah kritis) dan pager visual (4 tanda berkedip)."
-    },
-    "osdDescElementEscTemperature": {
-        "message": "Suhu yang dilaporkan oleh telemetry ESC"
-    },
-    "osdDescElementEscRpm": {
-        "message": "RPM dilaporkan oleh telemetri ESC"
-    },
-    "osdDescElementRtcDateTime": {
-        "message": "RTC tanggal \/ waktu"
-    },
-    "osdDescElementAdjustmentRange": {
-        "message": "Pengaturan dan nilai pengaturan penyesuaian aktif saat ini"
-    },
     "osdDescElementHomeDirection": {
         "message": "Panah menampilkan arah ke posisi rumah"
     },
@@ -3408,26 +3387,29 @@
     "osdDescElementCompassBar": {
         "message": "Kompas grafis yang menunjukkan arah depan model saat ini"
     },
-    "osdDescElementFlipArrow": {
-        "message": "Panah yang menandakan posisi motor yang berada di atas pada mode turtle"
+    "osdDescElementWarnings": {
+        "message": "Tanda (misalnya baterai rendah), peringatan (misalnya alasan untuk tidak mempersenjatai, baterai rendah kritis) dan pager visual (4 tanda berkedip)."
     },
-    "osdDescElementLinkQuality": {
-        "message": "Indikator alternatif untuk 'kualitas link' berdasarkan frame loss - gunakan dengan hati-hati"
+    "osdDescElementEscTemperature": {
+        "message": "Suhu yang dilaporkan oleh telemetry ESC"
     },
-    "osdDescElementFlightDist": {
-        "message": "Jarak tempuh pada penerbangan ini."
+    "osdDescElementEscRpm": {
+        "message": "RPM dilaporkan oleh telemetri ESC"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Perkiraan waktu penerbangan yang tersisa"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "RTC tanggal \/ waktu"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "Pengaturan dan nilai pengaturan penyesuaian aktif saat ini"
     },
     "osdDescElementTimer1": {
         "message": "Menunjukkan nilai timer 1"
     },
     "osdDescElementTimer2": {
         "message": "Menunjukkan nilai timer 2"
-    },
-    "osdDescElementRemaningTimeEstimate": {
-        "message": "Perkiraan waktu penerbangan yang tersisa"
-    },
-    "osdDescElementUnknown": {
-        "message": "Unsur tak dikenal (rincian akan di tambahkan dalam rilis yang akan datang)"
     },
     "osdDescElementCoreTemperature": {
         "message": "Suhu inti MCU STM32"
@@ -3443,6 +3425,18 @@
     },
     "osdDescElementLogStatus": {
         "message": "Nomor blackbox dan peringatan"
+    },
+    "osdDescElementFlipArrow": {
+        "message": "Panah yang menandakan posisi motor yang berada di atas pada mode turtle"
+    },
+    "osdDescElementLinkQuality": {
+        "message": "Indikator alternatif untuk 'kualitas link' berdasarkan frame loss - gunakan dengan hati-hati"
+    },
+    "osdDescElementFlightDist": {
+        "message": "Jarak tempuh pada penerbangan ini."
+    },
+    "osdDescElementUnknown": {
+        "message": "Unsur tak dikenal (rincian akan di tambahkan dalam rilis yang akan datang)"
     },
     "osdDescStatMaxSpeed": {
         "message": "Kecepatan maksimal terekam"
