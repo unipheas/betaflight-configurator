@@ -3559,9 +3559,6 @@
     "osdDescElementCraftName": {
         "message": "Nome da aeronave como definido na aba de Configurações"
     },
-    "osdDescElementDisplayName": {
-        "message": "Exibe o nome configurado pelo comando \"display_name\" na Linha de Comandos (CLI)"
-    },
     "osdDescElementAltitude": {
         "message": "Altitude atual (Piscar quando estiver acima do limite)"
     },
@@ -3579,12 +3576,6 @@
     },
     "osdDescElementGPSSats": {
         "message": "Numero de satélites localizados pelo GPS"
-    },
-    "osdDescElementGPSLon": {
-        "message": "Longitude do GPS"
-    },
-    "osdDescElementGPSLat": {
-        "message": "Latitude do GPS"
     },
     "osdDescElementDebug": {
         "message": "Depuração de variáveis"
@@ -3622,24 +3613,6 @@
     "osdDescElementArmedTime": {
         "message": "Tempo desde a ultima vez que a aeronave foi armada"
     },
-    "osdDescElementWarnings": {
-        "message": "Alerta (ex. bateria baixa), avisos (ex. razão por não ter armado, bateria extremamente baixa) e beeper visual (4 asteriscos piscando)."
-    },
-    "osdDescElementEscTemperature": {
-        "message": "Temperatura reportada pela telemetria do ESC"
-    },
-    "osdDescElementEscRpm": {
-        "message": "RPM reportado pela telemetria do ESC"
-    },
-    "osdDescElementEscRpmFreq": {
-        "message": "Frequência RPM, relatada pela telemetria do ESC"
-    },
-    "osdDescElementRtcDateTime": {
-        "message": "Relógio real (data \/ hora)"
-    },
-    "osdDescElementAdjustmentRange": {
-        "message": "Faixa e valor do elemento de ajuste atualmente ativo"
-    },
     "osdDescElementHomeDirection": {
         "message": "Seta que indica a direção até a base (home)"
     },
@@ -3651,6 +3624,33 @@
     },
     "osdDescElementNumericalVario": {
         "message": "Leitura numérica da velocidade vertical (em pés ou metros, baseado na configuração de unidade)"
+    },
+    "osdDescElementWarnings": {
+        "message": "Alerta (ex. bateria baixa), avisos (ex. razão por não ter armado, bateria extremamente baixa) e beeper visual (4 asteriscos piscando)."
+    },
+    "osdDescElementEscTemperature": {
+        "message": "Temperatura reportada pela telemetria do ESC"
+    },
+    "osdDescElementEscRpm": {
+        "message": "RPM reportado pela telemetria do ESC"
+    },
+    "osdDescElementRemaningTimeEstimate": {
+        "message": "Tempo estimado de voo restante"
+    },
+    "osdDescElementRtcDateTime": {
+        "message": "Relógio real (data \/ hora)"
+    },
+    "osdDescElementAdjustmentRange": {
+        "message": "Faixa e valor do elemento de ajuste atualmente ativo"
+    },
+    "osdDescElementCoreTemperature": {
+        "message": "Temperatura do núcleo MCU do STM32"
+    },
+    "osdDescAntiGravity": {
+        "message": "Exibe um indicador quando o módulo antigravidade estiver em efeito"
+    },
+    "osdDescElementLogStatus": {
+        "message": "Blackbox - Avisos e número do log"
     },
     "osdDescElementFlipArrow": {
         "message": "Seta que indica quais motores estão afastados do chão no modo 'virar após queda' (Turtle mode)"
@@ -3667,20 +3667,14 @@
     "osdDescElementStickOverlayRight": {
         "message": "Posição do stick direito do transmissor."
     },
-    "osdDescElementRemaningTimeEstimate": {
-        "message": "Tempo estimado de voo restante"
+    "osdDescElementDisplayName": {
+        "message": "Exibe o nome configurado pelo comando \"display_name\" na Linha de Comandos (CLI)"
+    },
+    "osdDescElementEscRpmFreq": {
+        "message": "Frequência RPM, relatada pela telemetria do ESC"
     },
     "osdDescElementUnknown": {
         "message": "Elemento desconhecido (detalhes serão adicionados em uma versão futura)"
-    },
-    "osdDescElementCoreTemperature": {
-        "message": "Temperatura do núcleo MCU do STM32"
-    },
-    "osdDescAntiGravity": {
-        "message": "Exibe um indicador quando o módulo antigravidade estiver em efeito"
-    },
-    "osdDescElementLogStatus": {
-        "message": "Blackbox - Avisos e número do log"
     },
     "osdDescStatMaxSpeed": {
         "message": "Velocidade máxima registrada"
