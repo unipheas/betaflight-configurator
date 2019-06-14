@@ -3704,14 +3704,14 @@
         "message": "Mensaje textual de desarmado"
     },
     "osdTextElementCrosshairs": {
-        "message": "Punto de mira",
+        "message": "Horizonte artificial: punto de mira",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementCrosshairs": {
         "message": "Centro del punto de mira de la pantalla"
     },
     "osdTextElementArtificialHorizon": {
-        "message": "Horizonte artificial",
+        "message": "Horizonte artificial: línea del horizonte",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementArtificialHorizon": {
@@ -3830,7 +3830,7 @@
         "message": "Valores PID del eje yaw"
     },
     "osdTextElementPower": {
-        "message": "Potencia",
+        "message": "Batería: potencia",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementPower": {
@@ -3998,7 +3998,7 @@
         "message": "Muestra cuánta Fuerza G está experimentando la aeronave"
     },
     "osdTextElementMotorDiag": {
-        "message": "Motor, diagnósticos",
+        "message": "Motor: diagnósticos",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementMotorDiag": {
