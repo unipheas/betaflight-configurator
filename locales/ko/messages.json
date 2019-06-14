@@ -3679,59 +3679,135 @@
     "osdDescElementDebug": {
         "message": "디버그 변수"
     },
+    "osdTextElementPIDRoll": {
+        "message": "PID 롤",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDRoll": {
         "message": "롤 축 PID 게인값"
+    },
+    "osdTextElementPIDPitch": {
+        "message": "PID 피치",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDPitch": {
         "message": "피치 축 PID 게인값"
     },
+    "osdTextElementPIDYaw": {
+        "message": "PID 요",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDYaw": {
         "message": "요 축 PID 게인값"
+    },
+    "osdTextElementPower": {
+        "message": "전압",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPower": {
         "message": "순간 전력 소비"
     },
+    "osdTextElementPIDRateProfile": {
+        "message": "프로파일: PID와 레이트",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDRateProfile": {
         "message": "활성된 PID 및 레이트 프로파일의 수치 표시"
+    },
+    "osdTextElementBatteryWarning": {
+        "message": "배터리 경고",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementBatteryWarning": {
         "message": "배터리 전압이 경고 임계 값 아래로 떨어질 때 나타나는 경고 텍스트"
     },
+    "osdTextElementAvgCellVoltage": {
+        "message": "배터리 평균 셀 전압",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementAvgCellVoltage": {
         "message": "평균 셀 전압 (메인 배터리 전압 \/ 셀 수)"
+    },
+    "osdTextElementPitchAngle": {
+        "message": "각도: 피치",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPitchAngle": {
         "message": "피치 각도를 도 단위로 수치 표시"
     },
+    "osdTextElementRollAngle": {
+        "message": "각도: 롤",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementRollAngle": {
         "message": "롤 각도를 도 단위로 수치 표시"
+    },
+    "osdTextElementMainBattUsage": {
+        "message": "배터리 사용량",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMainBattUsage": {
         "message": "배터리 용량 사용에 대한 그래픽 표현"
     },
+    "osdTextElementArmedTime": {
+        "message": "타이머: 아밍된 시간",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementArmedTime": {
         "message": "기체가 마지막으로 아밍된 이후 시간"
+    },
+    "osdTextElementHomeDirection": {
+        "message": "홈 방향",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementHomeDirection": {
         "message": "홈 포지션 방향을 보여주는 화살표"
     },
+    "osdTextElementHomeDistance": {
+        "message": "홈 거리",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementHomeDistance": {
         "message": "홈 포지션까지의 거리 (단위 시스템 설정에 따라 피트 또는 미터로 표시)"
+    },
+    "osdTextElementNumericalHeading": {
+        "message": "숫자로 나타낸 기수방향",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementNumericalHeading": {
         "message": "현재 기체방향을 도 단위로 수치 판독"
     },
+    "osdTextElementNumericalVario": {
+        "message": "숫자로 나타낸 베리오 데이타",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementNumericalVario": {
         "message": "수직 속도의 수치 판독 (단위 시스템 설정에 따라 피트 또는 미터로 표시)"
+    },
+    "osdTextElementCompassBar": {
+        "message": "나침반 막대",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementCompassBar": {
         "message": "현재 기체방향을 보여주는 나침반 그래픽 막대"
     },
+    "osdTextElementWarnings": {
+        "message": "경고",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementWarnings": {
         "message": "경계 (예. 배터리 부족시), 경고 (예. 아밍되지 않은 여러 원인 발생시, 배터리 매우 부족시) 및 시각적인 경고 (4개의 깜박이는 별표)."
     },
+    "osdTextElementEscTemperature": {
+        "message": "ESC 온도",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementEscTemperature": {
         "message": "ESC 텔레메트리에 의해 보고된 온도"
+    },
+    "osdTextElementEscRpm": {
+        "message": "ESC RPM",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementEscRpm": {
         "message": "ESC 텔레메트리에 의해 보고된 RPM"
