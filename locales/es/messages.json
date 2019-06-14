@@ -2172,7 +2172,7 @@
         "message": "Sonar"
     },
     "sensorsDebugSelect": {
-        "message": "Debug"
+        "message": "Depuración"
     },
     "sensorsGyroTitle": {
         "message": "Giroscopio - grad\/s"
@@ -2190,7 +2190,7 @@
         "message": "Sonar - cm"
     },
     "sensorsDebugTitle": {
-        "message": "Debug"
+        "message": "Depuración"
     },
     "cliInfo": {
         "message": "<strong>Nota:<\/strong> Abandonar la pestaña CLI o pulsar Desconectar enviará \"<strong>exit<\/strong>\" <strong>automáticamente<\/strong> a la placa. En los últimos firmwares esto hace que el controlador <strong>reinicie<\/strong> y los cambios no salvados se <strong>perderán<\/strong>. <p><strong><span class=\"message-negative\">Atención:<\/span><\/strong> En CLI algunos comandos pueden resultar en señales arbitrarias enviadas a los pines de salida de motores. Esto puede provocar que los motores giren si la batería está conectada. Por lo tanto es altamente recomendable asegurarse de que <strong>no hay ninguna batería conectada antes de introducir comandos en CLI<\/strong>."
@@ -3640,140 +3640,366 @@
     "osdSetupButtonReset": {
         "message": "Reiniciar Ajustes"
     },
+    "osdTextElementMainBattVoltage": {
+        "message": "Batería, voltaje",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementMainBattVoltage": {
         "message": "Voltaje instantáneo de la batería principal (parpadea por debajo del umbral de alarma)"
+    },
+    "osdTextElementRssiValue": {
+        "message": "RSSI, valor",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRssiValue": {
         "message": "Valor instantáneo RSSI (parpadea por debajo del umbral de alarma)"
     },
+    "osdTextElementTimer": {
+        "message": "Temporizador",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementTimer": {
+        "message": "Un temporizador de vuelo"
+    },
+    "osdTextElementThrottlePosition": {
+        "message": "Acelerador, posición",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementThrottlePosition": {
         "message": "Valor actual del canal del acelerador"
+    },
+    "osdTextElementCpuLoad": {
+        "message": "CPU, carga",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementCpuLoad": {
+        "message": "Carga actual de CPU"
+    },
+    "osdTextElementVtxChannel": {
+        "message": "VTX, canal",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementVtxChannel": {
+        "message": "Canal y potencia actual del VTX"
+    },
+    "osdTextElementVoltageWarning": {
+        "message": "Batería, aviso de voltaje",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementVoltageWarning": {
+        "message": "Muestra un aviso cuando el voltaje está por debajo del valor de alarma"
+    },
+    "osdTextElementArmed": {
+        "message": "Armado",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementArmed": {
         "message": "Mensaje textual de armado"
     },
+    "osdTextElementDisarmed": {
+        "message": "Desarmado",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementDisarmed": {
         "message": "Mensaje textual de desarmado"
+    },
+    "osdTextElementCrosshairs": {
+        "message": "Punto de mira",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementCrosshairs": {
         "message": "Centro del punto de mira de la pantalla"
     },
+    "osdTextElementArtificialHorizon": {
+        "message": "Horizonte artificial",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementArtificialHorizon": {
         "message": "Indicador gráfico del horizonte artificial"
+    },
+    "osdTextElementHorizonSidebars": {
+        "message": "Horizonte artificial, barras laterales",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementHorizonSidebars": {
         "message": "Barras laterales del indicador de horizonte artificial"
     },
+    "osdTextElementCurrentDraw": {
+        "message": "Batería, corriente actual",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCurrentDraw": {
         "message": "Consumo instantáneo de corriente de la batería"
+    },
+    "osdTextElementMahDrawn": {
+        "message": "Batería, mAh de corriente consumidos",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMahDrawn": {
         "message": "Capacidad total usada de la batería"
     },
+    "osdTextElementCraftName": {
+        "message": "Nombre de la aeronave",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCraftName": {
         "message": "Nombre de la aeronave tal como está en el apartado Configuración"
+    },
+    "osdTextElementAltitude": {
+        "message": "Altitud",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementAltitude": {
         "message": "Altitud actual (parpadea por encima del umbral de alarma)"
     },
+    "osdTextElementOnTime": {
+        "message": "Tiempo encendido",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementOnTime": {
         "message": "Tiempo total que la aeronave ha estado encendida"
+    },
+    "osdTextElementFlyTime": {
+        "message": "Tiempo de vuelo",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementFlyTime": {
         "message": "Tiempo total en que la aeronave ha estado armada en el ciclo actual de energía (parpadea por encima del umbral de alarma)"
     },
+    "osdTextElementFlyMode": {
+        "message": "Modo de vuelo",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementFlyMode": {
         "message": "Modo de vuelo actual"
+    },
+    "osdTextElementGPSSpeed": {
+        "message": "GPS, velocidad",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementGPSSpeed": {
         "message": "Velocidad proporcionada por el GPS"
     },
+    "osdTextElementGPSSats": {
+        "message": "GPS, satélites",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementGPSSats": {
         "message": "Número de satélites GPS fijados"
     },
+    "osdTextElementGPSLon": {
+        "message": "GPS, longitud",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementGPSLon": {
+        "message": "Coordenada de longitud del GPS"
+    },
+    "osdTextElementGPSLat": {
+        "message": "GPS, latitud",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementGPSLat": {
+        "message": "Coordenada de latitud del GPS"
+    },
+    "osdTextElementDebug": {
+        "message": "Depuración",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementDebug": {
-        "message": "Variables de debug"
+        "message": "Variables de depuración"
+    },
+    "osdTextElementPIDRoll": {
+        "message": "PID, roll",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDRoll": {
         "message": "Valores PID del eje roll"
     },
+    "osdTextElementPIDPitch": {
+        "message": "PID, pitch",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDPitch": {
         "message": "Valores PID del eje pitch"
+    },
+    "osdTextElementPIDYaw": {
+        "message": "PID, yaw",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDYaw": {
         "message": "Valores PID del eje yaw"
     },
+    "osdTextElementPower": {
+        "message": "Potencia",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPower": {
         "message": "Potencia eléctrica instantánea consumida"
+    },
+    "osdTextElementPIDRateProfile": {
+        "message": "Perfil, PID y tasa",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDRateProfile": {
         "message": "Visualización numérica del PID activo y el perfil de tasas"
     },
+    "osdTextElementBatteryWarning": {
+        "message": "Batería, aviso",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementBatteryWarning": {
         "message": "Texto de aviso que aparece cuando el voltaje de la batería cae por debajo del umbral de alarma"
+    },
+    "osdTextElementAvgCellVoltage": {
+        "message": "Batería, voltaje medio por celda",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementAvgCellVoltage": {
         "message": "Voltaje medio de las baterías (voltaje principal de la batería \/ número de celdas)"
     },
+    "osdTextElementPitchAngle": {
+        "message": "Ángulo, pitch",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPitchAngle": {
         "message": "Ángulo numérico del pitch en grados"
+    },
+    "osdTextElementRollAngle": {
+        "message": "Ángulo, roll",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRollAngle": {
         "message": "Ángulo numérico del roll en grados"
     },
+    "osdTextElementMainBattUsage": {
+        "message": "Batería, uso",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementMainBattUsage": {
         "message": "Representación gráfica del uso de la capacidad de la batería"
+    },
+    "osdTextElementArmedTime": {
+        "message": "Temporizador: tiempo armado",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementArmedTime": {
         "message": "Tiempo desde que la aeronave fue armada por última vez"
     },
+    "osdTextElementHomeDirection": {
+        "message": "Casa, dirección",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementHomeDirection": {
         "message": "Flecha mostrando la dirección hacia la posición casa"
+    },
+    "osdTextElementHomeDistance": {
+        "message": "Casa, distancia",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementHomeDistance": {
         "message": "Distancia hacia la posición casa (en pies o en metros basada en el ajuste de unidades del sistema)"
     },
+    "osdTextElementNumericalHeading": {
+        "message": "Dirección numérica",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementNumericalHeading": {
         "message": "Lectura numérica de la dirección actual en grados"
+    },
+    "osdTextElementNumericalVario": {
+        "message": "Variómetro numérico",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementNumericalVario": {
         "message": "Lectura numérica de la velocidad vertical (en pies o metros basada en el ajuste de unidades del sistema)"
     },
+    "osdTextElementCompassBar": {
+        "message": "Brújula, barra",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCompassBar": {
         "message": "Barra gráfica con una brújula mostrando la dirección actual"
+    },
+    "osdTextElementWarnings": {
+        "message": "Avisos",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementWarnings": {
         "message": "Alertas (p.ej. batería baja), avisos (p.ej. razones para no armar, batería baja crítica) y pitido visual (4 asteriscos parpadeando)."
     },
+    "osdTextElementEscTemperature": {
+        "message": "ESC, temperatura",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementEscTemperature": {
         "message": "Temperatura reportada por la telemetría de los ESC"
+    },
+    "osdTextElementEscRpm": {
+        "message": "ESC, RPM",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementEscRpm": {
         "message": "RPM reportadas por la telemetría de los ESC"
     },
+    "osdTextElementRemaningTimeEstimate": {
+        "message": "Temporizador, tiempo restante estimado",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementRemaningTimeEstimate": {
         "message": "Tiempo estimado de vuelo restante"
+    },
+    "osdTextElementRtcDateTime": {
+        "message": "RTC, fecha y hora",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRtcDateTime": {
         "message": "Fecha \/ Hora en tiempo real"
     },
+    "osdTextElementAdjustmentRange": {
+        "message": "Correcciones, rango",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementAdjustmentRange": {
         "message": "Rango y valor del elemento y ajuste activo actualmente"
+    },
+    "osdTextElementTimer1": {
+        "message": "Temporizador 1",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementTimer1": {
         "message": "Muestra el valor del temporizador 1"
     },
+    "osdTextElementTimer2": {
+        "message": "Temporizador 2",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementTimer2": {
         "message": "Muestra el valor del temporizador 2"
+    },
+    "osdTextElementCoreTemperature": {
+        "message": "Nucleo, temperatura",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementCoreTemperature": {
         "message": "Temperatura del núcleo del MCU STM32"
     },
+    "osdTextAntiGravity": {
+        "message": "Anti gravedad",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescAntiGravity": {
         "message": "Activa un indicador cuando la anti gravedad está activa"
     },
+    "osdTextGForce": {
+        "message": "Fuerza G",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescGForce": {
         "message": "Muestra cuánta Fuerza G está experimentando la aeronave"
+    },
+    "osdTextElementMotorDiag": {
+        "message": "Motor, diagnósticos",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMotorDiag": {
         "message": "Muestra un gráfico con la salida de cada motor"
@@ -3781,35 +4007,79 @@
     "osdDescElementLogStatus": {
         "message": "Número de caja negra y avisos"
     },
+    "osdTextElementFlipArrow": {
+        "message": "Boca abajo después de choque, flecha",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementFlipArrow": {
         "message": "Flecha que indica que lado tiene los motores arriba en modo tortuga"
+    },
+    "osdTextElementLinkQuality": {
+        "message": "Enlace, calidad",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementLinkQuality": {
         "message": "Indicador alternativo para 'calidad del enlace' basado en la pérdida de paquetes - usar con precaución"
     },
+    "osdTextElementFlightDist": {
+        "message": "Distancia de vuelo",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementFlightDist": {
         "message": "Distancia volada durante este vuelo."
+    },
+    "osdTextElementStickOverlayLeft": {
+        "message": "Mando, superposición del izquierdo",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementStickOverlayLeft": {
         "message": "Superposición de la posición del mando izquierdo del transmisor."
     },
+    "osdTextElementStickOverlayRight": {
+        "message": "Mando, superposición del derecho",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementStickOverlayRight": {
         "message": "Superposición de la posición del mando derecho del transmisor."
+    },
+    "osdTextElementDisplayName": {
+        "message": "Nombre en pantalla",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementDisplayName": {
         "message": "Mostrar nombre configurado con el comando cli \"display_name\""
     },
+    "osdTextElementEscRpmFreq": {
+        "message": "ESC, frecuencia RPM",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementEscRpmFreq": {
         "message": "Frecuencia RPM reportada por la telemetría de los ESC"
+    },
+    "osdTextElementRateProfileName": {
+        "message": "Perfil, nombre del perfil de tasas",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRateProfileName": {
         "message": "Muestra el nombre del perfil de tasas actual"
     },
+    "osdTextElementPidProfileName": {
+        "message": "Perfil, nombre del perfil PID",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPidProfileName": {
         "message": "Muestra el nombre del perfil PID actual"
     },
+    "osdTextElementOsdProfileName": {
+        "message": "Perfil, nombre del perfil OSD",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementOsdProfileName": {
         "message": "Nombre del perfil OSD tal como esté configurado en las variables CLI \"osd_profile_1_name\", \"osd_profile_2_name\" y \"osd_profile_3_name\""
+    },
+    "osdTextElementUnknown": {
+        "message": "Desconocido $1",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementUnknown": {
         "message": "Elemento desconocido (los detalles se añadirán en una futura versión)"
