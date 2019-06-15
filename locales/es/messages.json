@@ -4081,6 +4081,13 @@
     "osdDescElementOsdProfileName": {
         "message": "Nombre del perfil OSD tal como esté configurado en las variables CLI \"osd_profile_1_name\", \"osd_profile_2_name\" y \"osd_profile_3_name\""
     },
+    "osdTextElementRssiDbmValue": {
+        "message": "RSSI: dBm value",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementRssiDbmValue": {
+        "message": "Valor en dBm de la señal RSSI si está disponible"
+    },
     "osdTextElementUnknown": {
         "message": "Desconocido $1",
         "description": "One of the elements of the OSD"
@@ -4237,6 +4244,9 @@
     },
     "osdWarningLinkQuality": {
         "message": "Avisa cuando la Calidad del Enlace está por debajo de la alarma configurada"
+    },
+    "osdWarningRssiDbm": {
+        "message": "Avisa cuando el valor RSSI en dBm está por debajo del valor de alarma configurado"
     },
     "osdSectionHelpElements": {
         "message": "Activa o desactiva elementos del OSD"
