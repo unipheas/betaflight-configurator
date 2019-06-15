@@ -3932,6 +3932,10 @@
     "osdDescElementRtcDateTime": {
         "message": "Horloge réel date\/heure"
     },
+    "osdTextElementAdjustmentRange": {
+        "message": "Plage d'ajustement",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementAdjustmentRange": {
         "message": "Paramètre et plage de réglage actuel"
     },
