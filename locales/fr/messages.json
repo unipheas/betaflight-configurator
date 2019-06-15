@@ -758,6 +758,10 @@
         "message": "Le bouton \"GPS Rescue\" a été activé",
         "description": "Description of the RESC arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
+        "message": "Une modification de configuration nécessite un redémarrage",
+        "description": "Description of the REBOOT_REQD arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "Un des autres drapeaux désarmés est actif lors de l'armement",
         "description": "Description of the ARM_SWITCH arming disable flag"
@@ -1727,6 +1731,21 @@
     },
     "auxiliaryModeLogicAND": {
         "message": "ET"
+    },
+    "adjustmentsHelp": {
+        "message": "Configurer les commutateurs d'ajustement. Voir la section \"ajustements en vol\" du manuel pour plus de détails. Les modifications que les fonctions d'ajustement effectuent ne sont pas enregistrées automatiquement."
+    },
+    "adjustmentSlotsHelp": {
+        "message": "Il y a 4 emplacements. Chaque commutateur utilisé pour effectuer des ajustements nécessite l'utilisation exclusive d'une position."
+    },
+    "adjustmentsExamples": {
+        "message": "Exemples:"
+    },
+    "adjustmentsExample1": {
+        "message": "Utilisez un commutateur à trois positions sur AUX1 pour sélectionner entre Pitch\/Roll P, I et D et un autre commutateur à trois positions sur AUX2 pour augmenter ou diminuer la valeur lorsqu'elle est maintenue vers le haut ou vers le bas."
+    },
+    "adjustmentsExample2": {
+        "message": "Utilisez un commutateur à trois positions sur AUX4 pour sélectionner Activer la Sélection de \"Profil Rate\" via le même commutateur à trois positions sur le même canal."
     },
     "adjustmentsColumnEnable": {
         "message": "Si activé"
@@ -3254,11 +3273,44 @@
     "powerBatteryWarning": {
         "message": "Tension d'avertissement par élément"
     },
+    "powerCalibrationManagerButton": {
+        "message": "Etalonnage"
+    },
+    "powerCalibrationManagerHelp": {
+        "message": "Pour l'étalonnage, utiliser un multi mètres et mesurer la tension actuelle \/ consommée sur la machine (avec batterie branchée), et renseigner les valeurs. Puis, avec la même batterie toujours branchée, cliquer sur [Calibrate]."
+    },
+    "powerCalibrationManagerNote": {
+        "message": "<strong>Remarque:<\/strong> Avant d'étalonner, s'assurer que le diviseur et multiplicateur pour la tension et l'écart pour l’ampérage sont correctement définis.<br> L'étalonnage ne se fait pas si les valeurs sont à 0.<\/br><strong>Ne pas oublier de retirer les hélices avant de brancher la batterie!<\/strong>"
+    },
+    "powerCalibrationManagerWarning": {
+        "message": "<span class=\"message-negative\">Attention:<\/span> La batterie <span class=\"message-negative\">n'est pas branchée<\/span> ou les sources des tensions et intensités <span class=\"message-negative\">ne sont pas configurées correctement.<\/span> S'assurer que les tensions et intensités ont des valeurs supérieures à 0. Autrement vous ne pourrez pas étalonner avec cet outil."
+    },
+    "powerCalibrationManagerSourceNote": {
+        "message": "<span class=\"message-negative\">Attention :<\/span> Les sources de mesure des tension et\/ou d'ampérage <strong>ont été modifiées mais non enregistrées.<\/strong> Veuillez définir les bonnes sources de mesures et les enregistrer avant de procéder à l'étalonnage."
+    },
+    "powerCalibrationSave": {
+        "message": "Calibrer"
+    },
+    "powerCalibrationApply": {
+        "message": "Appliquer l'étalonnage"
+    },
+    "powerCalibrationDiscard": {
+        "message": "Annuler l'étalonnage"
+    },
+    "powerCalibrationConfirmHelp": {
+        "message": "Les échelles étalonnées sont affichées ici. <br>Appliquer utilisera les échelles mais <strong>sans les sauvegarder.<\/strong><\/br> <br>Aprés avoir sauvegardé, vérifier que la nouvelle tension et nouvelle intensité sont correctes.<\/br>"
+    },
     "powerVoltageHead": {
         "message": "Tension"
     },
     "powerVoltageValue": {
         "message": "$1 V"
+    },
+    "powerVoltageCalibration": {
+        "message": "Tension mesurée"
+    },
+    "powerVoltageCalibratedScale": {
+        "message": "Échelle de tension calibrée:"
     },
     "powerAmperageValue": {
         "message": "$1 A"
@@ -3401,6 +3453,12 @@
     "powerAmperageOffset": {
         "message": "Ecart [mA]"
     },
+    "powerAmperageCalibration": {
+        "message": "Intensité mesurée"
+    },
+    "powerAmperageCalibratedScale": {
+        "message": "Echelle d'intensité mesurée:"
+    },
     "powerBatteryHead": {
         "message": "Batterie"
     },
@@ -3455,6 +3513,10 @@
         "message": "Aperçu pour",
         "description": "Label of the selector for the OSD Profile in the preview. KEEP IT SHORT!!!"
     },
+    "osdSetupPreviewForTitle": {
+        "message": "Changer ici le profil ou la police ne modifiera PAS le profil ou la police dans le contrôleur de vol, cela n'affectera que la fenêtre d'aperçu. Si vous voulez rendre effective la modification, vous devez utiliser l'option '$t(osdSetupSelectedProfileTitle.message)' ou le bouton '$t(osdSetupFontManager.message)'.",
+        "description": "Help content for the OSD profile and font PREVIEW"
+    },
     "osdSetupSelectedProfileTitle": {
         "message": "Profil OSD actif",
         "description": "Title of the box to select the current active OSD profile"
@@ -3466,6 +3528,10 @@
     "osdSetupPreviewSelectProfileElement": {
         "message": "Profil OSD {{profileNumber}}",
         "description": "Content of the selector for the OSD Profile in the preview"
+    },
+    "osdSetupPreviewSelectFontElement": {
+        "message": "Police {{fontName}}",
+        "description": "Content of the selector for the OSD Font in the preview"
     },
     "osdSetupVideoFormatTitle": {
         "message": "Format vidéo"
@@ -3496,6 +3562,10 @@
     },
     "osdSetupFontPresetsSelector": {
         "message": "Choisir des réglages de Police:"
+    },
+    "osdSetupFontPresetsSelectorCustomOption": {
+        "message": "Police fournie par l'utilisateur",
+        "description": "Option to show as selected when the user selects a custom local font"
     },
     "osdSetupFontPresetsSelectorOr": {
         "message": "ou"
@@ -3563,38 +3633,114 @@
     "osdSetupButtonReset": {
         "message": "Réinitialiser les réglages"
     },
+    "osdTextElementMainBattVoltage": {
+        "message": "Tension batterie",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementMainBattVoltage": {
         "message": "Tension instantanée de la batterie principale (clignote lorsque le seuil d'alarme est atteint)"
+    },
+    "osdTextElementRssiValue": {
+        "message": "Valeur RSSI",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRssiValue": {
         "message": "Valeur RSSI instantanée (clignote en dessous du seuil d'alarme)"
     },
+    "osdTextElementTimer": {
+        "message": "Minuterie",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementTimer": {
+        "message": "Un minuteur de vol"
+    },
+    "osdTextElementThrottlePosition": {
+        "message": "Position des gaz",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementThrottlePosition": {
         "message": "Valeur actuelle du throttle"
+    },
+    "osdTextElementCpuLoad": {
+        "message": "Utilisation CPU",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementCpuLoad": {
+        "message": "Utilisation CPU actuelle"
+    },
+    "osdTextElementVtxChannel": {
+        "message": "Canal VTX",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementVtxChannel": {
+        "message": "Canal et puissance VTX actuels"
+    },
+    "osdTextElementVoltageWarning": {
+        "message": "Avertissement de tension batterie",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementVoltageWarning": {
+        "message": "Affiche un avertissement lorsque la tension est sous la valeur d'alarme"
+    },
+    "osdTextElementArmed": {
+        "message": "Armé",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementArmed": {
         "message": "Message lors de l'armement"
     },
+    "osdTextElementDisarmed": {
+        "message": "Désarmé",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementDisarmed": {
         "message": "Message lors du désarmement"
+    },
+    "osdTextElementCrosshairs": {
+        "message": "Viseur",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementCrosshairs": {
         "message": "Centre de réticule de l'écran"
     },
+    "osdTextElementArtificialHorizon": {
+        "message": "Horizon artificiel",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementArtificialHorizon": {
         "message": "Graphique de l'horizon artificielle"
+    },
+    "osdTextElementHorizonSidebars": {
+        "message": "Barres latérales de l'horizon artificiel",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementHorizonSidebars": {
         "message": "Barres latérales autour de l'horizon artificiel"
     },
+    "osdTextElementCurrentDraw": {
+        "message": "Consommation ampèremétrique de la batterie",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCurrentDraw": {
         "message": "Courant instantané de la batterie"
+    },
+    "osdTextElementMahDrawn": {
+        "message": "mAh de la batterie consommé",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMahDrawn": {
         "message": "Capacité total utilisée de la batterie utilisée"
     },
+    "osdTextElementCraftName": {
+        "message": "Nom de l'appareil",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCraftName": {
         "message": "Nom du modèle comme indiqué dans le configurateur"
+    },
+    "osdTextElementAltitude": {
+        "message": "Altitude",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementAltitude": {
         "message": "Altitude ( clignote quand le seuil d'alarme est atteint)"
@@ -3602,21 +3748,47 @@
     "osdDescElementOnTime": {
         "message": "Temps total depuis la mise en marche"
     },
+    "osdTextElementFlyTime": {
+        "message": "Temps de vol",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementFlyTime": {
         "message": "Temps total pendant lequel l'engin a été armé (clignote lorsque le seuil d'alarme est au-dessus)"
+    },
+    "osdTextElementFlyMode": {
+        "message": "Mode Vol",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementFlyMode": {
         "message": "Mode de vol"
     },
+    "osdTextElementGPSSpeed": {
+        "message": "Vitesse GPS",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementGPSSpeed": {
         "message": "Vitesse fournie par le GPS"
+    },
+    "osdTextElementGPSSats": {
+        "message": "Satellites GPS",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementGPSSats": {
         "message": "Nombre de satellites GPS"
     },
+    "osdTextElementGPSLon": {
+        "message": "Longitude GPS",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementGPSLon": {
+        "message": "Coordonnées de Longitude GPS"
+    },
     "osdTextElementGPSLat": {
         "message": "Latitude GPS",
         "description": "One of the elements of the OSD"
+    },
+    "osdDescElementGPSLat": {
+        "message": "Coordonnées de latitude GPS"
     },
     "osdTextElementDebug": {
         "message": "Débogage",
@@ -3718,6 +3890,10 @@
     "osdDescElementNumericalVario": {
         "message": "Vitesse verticale"
     },
+    "osdTextElementCompassBar": {
+        "message": "Boussole",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCompassBar": {
         "message": "Boussole graphique indiquant le cap actuel"
     },
@@ -3776,11 +3952,23 @@
     "osdDescElementCoreTemperature": {
         "message": "Température du coeur du STM32 MCU"
     },
+    "osdTextAntiGravity": {
+        "message": "Anti gravity",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescAntiGravity": {
         "message": "Indique lorsque l'anti gravity est actif"
     },
+    "osdTextGForce": {
+        "message": "G force",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescGForce": {
         "message": "Indique le nombre de G subit par l'appareil"
+    },
+    "osdTextElementMotorDiag": {
+        "message": "Diagnostic moteur",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMotorDiag": {
         "message": "Affiche un graphique de la sortie de chaque moteur"
@@ -3808,6 +3996,15 @@
     },
     "osdDescElementEscRpmFreq": {
         "message": "Fréquence Trs\/min reportée par la télémétrie des ESC"
+    },
+    "osdDescElementRateProfileName": {
+        "message": "Affiche le nom de profile rate actuel"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "Affiche le nom du profil PID actuel"
+    },
+    "osdDescElementOsdProfileName": {
+        "message": "Nom du profil OSD tel que défini dans les variables CLI \"osd_profile_1_name\", \"osd_profile_2_name\" et \"osd_profile_3_name\""
     },
     "osdDescElementUnknown": {
         "message": "Éléments inconnus (détails devant être ajoutés dans le"
