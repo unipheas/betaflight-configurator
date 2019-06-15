@@ -3614,14 +3614,34 @@
     "osdDescElementGPSSats": {
         "message": "Nombre de satellites GPS"
     },
+    "osdTextElementGPSLat": {
+        "message": "Latitude GPS",
+        "description": "One of the elements of the OSD"
+    },
+    "osdTextElementDebug": {
+        "message": "Débogage",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementDebug": {
         "message": "Debug variables"
+    },
+    "osdTextElementPIDRoll": {
+        "message": "PID roll",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDRoll": {
         "message": "PID du Roll"
     },
+    "osdTextElementPIDPitch": {
+        "message": "PID pitch",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDPitch": {
         "message": "PID du Pitch"
+    },
+    "osdTextElementPIDYaw": {
+        "message": "PID yaw",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDYaw": {
         "message": "PID du Yaw"
@@ -3629,29 +3649,65 @@
     "osdDescElementPower": {
         "message": "Consommation instantanée"
     },
+    "osdTextElementPIDRateProfile": {
+        "message": "Profil : PID et Rate",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDRateProfile": {
         "message": "Affichage numérique des PID et RATE actuels"
+    },
+    "osdTextElementBatteryWarning": {
+        "message": "Avertissement batterie",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementBatteryWarning": {
         "message": "Texte d'avertissement qui apparaît lorsque la tension de la batterie tombe en dessous du seuil d'avertissement"
     },
+    "osdTextElementAvgCellVoltage": {
+        "message": "Tension moyenne d'une cellule",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementAvgCellVoltage": {
         "message": "Tension moyenne de la cellule (tension de la batterie principale \/ nombre de cellules)"
+    },
+    "osdTextElementPitchAngle": {
+        "message": "Angle : pitch",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPitchAngle": {
         "message": "PITCH angle en degrés"
     },
+    "osdTextElementRollAngle": {
+        "message": "Angle : roll",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementRollAngle": {
         "message": "ROLL angle en degrés"
+    },
+    "osdTextElementMainBattUsage": {
+        "message": "Niveau de la batterie",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMainBattUsage": {
         "message": "Représentation graphique de l'utilisation de la batterie"
     },
+    "osdTextElementArmedTime": {
+        "message": "Minuterie : temps armé",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementArmedTime": {
         "message": "Temps depuis le dernier armement"
     },
+    "osdTextElementHomeDirection": {
+        "message": "Direction point de décollage",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementHomeDirection": {
         "message": "Flèche indiquant la direction par rapport à la position de départ"
+    },
+    "osdTextElementHomeDistance": {
+        "message": "Distance du point de décollage",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementHomeDistance": {
         "message": "Distance par rapport à la base de départ"
@@ -3665,17 +3721,37 @@
     "osdDescElementCompassBar": {
         "message": "Boussole graphique indiquant le cap actuel"
     },
+    "osdTextElementWarnings": {
+        "message": "Avertissements",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementWarnings": {
         "message": "Alertes (par exemple: batterie faible), Avertissements (par exemple: raisons de ne pas armer, batterie critique) et signal sonore (4 astérisques clignotants)."
+    },
+    "osdTextElementEscTemperature": {
+        "message": "Température ESC",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementEscTemperature": {
         "message": "Température reportée par la télémétrie des ESC"
     },
+    "osdTextElementEscRpm": {
+        "message": "RPM ESC",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementEscRpm": {
         "message": "Tr\/min reporté par la télémétrie des ESC"
     },
+    "osdTextElementRemaningTimeEstimate": {
+        "message": "Minuterie : estimation du temps restant",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementRemaningTimeEstimate": {
         "message": "Estimation du temps de vol restant"
+    },
+    "osdTextElementRtcDateTime": {
+        "message": "Date et heure RTC",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRtcDateTime": {
         "message": "Horloge réel date\/heure"
@@ -3683,8 +3759,16 @@
     "osdDescElementAdjustmentRange": {
         "message": "Paramètre et plage de réglage actuel"
     },
+    "osdTextElementTimer1": {
+        "message": "Minuterie 1",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementTimer1": {
         "message": "Affiche la valeur du timer 1"
+    },
+    "osdTextElementTimer2": {
+        "message": "Minuterie 2",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementTimer2": {
         "message": "Affiche la valeur du timer 2"
