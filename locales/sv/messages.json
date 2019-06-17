@@ -3901,9 +3901,6 @@
     "osdTimerAlarmTooltip": {
         "message": "Välj tidslarmets tröskel i minuter, när tiden överskrider detta värde kommer OSD-elementet att blinka, sätt denna till 0 för att inaktivera larmet"
     },
-    "osdWarningUnknown": {
-        "message": "Okänd varning (detaljer tillkommer i en kommande utgåva)"
-    },
     "osdWarningArmingDisabled": {
         "message": "Rapporterar den viktigaste orsaken till att motoraktivering inte är tillåten"
     },
@@ -3948,6 +3945,9 @@
     },
     "osdWarningLinkQuality": {
         "message": "Varnar när länkkvaliteten underskrider larminställning"
+    },
+    "osdWarningUnknown": {
+        "message": "Okänd varning (detaljer tillkommer i en kommande utgåva)"
     },
     "osdSectionHelpElements": {
         "message": "Aktivera eller avaktivera OSD-element."
