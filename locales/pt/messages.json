@@ -3769,9 +3769,6 @@
     "osdTimerAlarmTooltip": {
         "message": "Selecione o limite do alarme do cronômetro em minutos, quando o tempo excede este valor, o elemento no OSD irá piscar, um valor de 0 desabilita o alarme"
     },
-    "osdWarningUnknown": {
-        "message": "Alerta Desconhecido (Detalhes serão adicionados em uma próxima versão)"
-    },
     "osdWarningArmingDisabled": {
         "message": "Mostra o principal motivo de não ter armado"
     },
@@ -3813,6 +3810,9 @@
     },
     "osdWarningLinkQuality": {
         "message": "Avisa quando a qualidade do link está abaixo da configuração do alarme"
+    },
+    "osdWarningUnknown": {
+        "message": "Alerta Desconhecido (Detalhes serão adicionados em uma próxima versão)"
     },
     "osdSectionHelpElements": {
         "message": "Ativar ou desativar elementos do OSD."
