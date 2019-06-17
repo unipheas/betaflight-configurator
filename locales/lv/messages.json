@@ -3781,9 +3781,6 @@
     "osdTimerAlarmTooltip": {
         "message": "Izvēlēties taimera trauksmes slieksni minūtēs, kad tiks sasniegta šī vērtība, OSD elements sāks mirgot, uzstādiet 0, lai atslēgtu trauksmi"
     },
-    "osdWarningUnknown": {
-        "message": "Nezināms brīdinājums (detaļas tiks pievienotas nākotnes relīzēs)"
-    },
     "osdWarningArmingDisabled": {
         "message": "Ziņo par visiespējamāko iemeslu kāpēc neaktivizējas"
     },
@@ -3822,6 +3819,9 @@
     },
     "osdWarningGpsRescueDisabled": {
         "message": "Brīdināt, kad GPS glābšana ir atslēgta"
+    },
+    "osdWarningUnknown": {
+        "message": "Nezināms brīdinājums (detaļas tiks pievienotas nākotnes relīzēs)"
     },
     "osdSectionHelpElements": {
         "message": "Ieslēgt vai izslēgt OSD elementus."
