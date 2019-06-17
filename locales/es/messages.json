@@ -4197,9 +4197,6 @@
     "osdTimerAlarmTooltip": {
         "message": "Elige el umbral de alarma del temporizador en minutos, cuando el tiempo excede este valor el elemento del OSD parpadeará, indicando 0 se desactiva la alarma"
     },
-    "osdWarningUnknown": {
-        "message": "Aviso desconocido (los detalles se añadirán en una futura versión)"
-    },
     "osdWarningArmingDisabled": {
         "message": "Avisa de la razón más importante para no armar"
     },
@@ -4247,6 +4244,9 @@
     },
     "osdWarningRssiDbm": {
         "message": "Avisa cuando el valor RSSI en dBm está por debajo del valor de alarma configurado"
+    },
+    "osdWarningUnknown": {
+        "message": "Aviso desconocido (los detalles se añadirán en una futura versión)"
     },
     "osdSectionHelpElements": {
         "message": "Activa o desactiva elementos del OSD"
