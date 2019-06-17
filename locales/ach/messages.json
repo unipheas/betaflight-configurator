@@ -3617,8 +3617,28 @@
     "osdSetupVideoFormatTitle": {
         "message": "crwdns6211:0crwdne6211:0"
     },
+    "osdSetupVideoFormatOptionAuto": {
+        "message": "crwdns9342:0crwdne9342:0",
+        "description": "Option for the video format in the OSD"
+    },
+    "osdSetupVideoFormatOptionPal": {
+        "message": "crwdns9344:0crwdne9344:0",
+        "description": "Option for the video format in the OSD"
+    },
+    "osdSetupVideoFormatOptionNtsc": {
+        "message": "crwdns9346:0crwdne9346:0",
+        "description": "Option for the video format in the OSD"
+    },
     "osdSetupUnitsTitle": {
         "message": "crwdns6212:0crwdne6212:0"
+    },
+    "osdSetupUnitsOptionImperial": {
+        "message": "crwdns9348:0crwdne9348:0",
+        "description": "Option for the units system used in the OSD"
+    },
+    "osdSetupUnitsOptionMetric": {
+        "message": "crwdns9350:0crwdne9350:0",
+        "description": "Option for the units system used in the OSD"
     },
     "osdSetupTimersTitle": {
         "message": "crwdns6213:0crwdne6213:0"
@@ -3683,6 +3703,9 @@
     },
     "osdSetupUploadingFont": {
         "message": "crwdns9138:0crwdne9138:0"
+    },
+    "osdSetupUploadingFontEnd": {
+        "message": "crwdns9352:0{{length}}crwdne9352:0"
     },
     "osdSetupSave": {
         "message": "crwdns6222:0crwdne6222:0"
@@ -4259,11 +4282,39 @@
     "osdTimerSourceTooltip": {
         "message": "crwdns6294:0crwdne6294:0"
     },
+    "osdTimerSourceOptionOnTime": {
+        "message": "crwdns9354:0crwdne9354:0",
+        "description": "One of the options for the source timer. This options shows the amount of time has passed since the battery was plugged"
+    },
+    "osdTimerSourceOptionTotalArmedTime": {
+        "message": "crwdns9356:0crwdne9356:0",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed since the battery was plugged"
+    },
+    "osdTimerSourceOptionLastArmedTime": {
+        "message": "crwdns9358:0crwdne9358:0",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed the latest time"
+    },
+    "osdTimerSourceOptionOnArmTime": {
+        "message": "crwdns9360:0crwdne9360:0",
+        "description": "One of the options for the source timer. This option shows On time when craft is disarmed, and Armed time when armed"
+    },
     "osdTimerPrecision": {
         "message": "crwdns6295:0crwdne6295:0"
     },
     "osdTimerPrecisionTooltip": {
         "message": "crwdns6296:0crwdne6296:0"
+    },
+    "osdTimerPrecisionOptionSecond": {
+        "message": "crwdns9362:0crwdne9362:0",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionHundredth": {
+        "message": "crwdns9364:0crwdne9364:0",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionTenth": {
+        "message": "crwdns9366:0crwdne9366:0",
+        "description": "Selectable option for the precision of the timer in the OSD"
     },
     "osdTimerAlarm": {
         "message": "crwdns6297:0crwdne6297:0"
@@ -4271,56 +4322,135 @@
     "osdTimerAlarmTooltip": {
         "message": "crwdns6298:0crwdne6298:0"
     },
-    "osdWarningUnknown": {
-        "message": "crwdns8938:0crwdne8938:0"
+    "osdTimerAlarmOptionRssi": {
+        "message": "crwdns9368:0crwdne9368:0",
+        "description": "Text of the RSSI alarm"
+    },
+    "osdTimerAlarmOptionCapacity": {
+        "message": "crwdns9370:0crwdne9370:0",
+        "description": "Text of the capacity alarm"
+    },
+    "osdTimerAlarmOptionAltitude": {
+        "message": "crwdns9372:0crwdne9372:0",
+        "description": "Text of the altitude alarm"
+    },
+    "osdWarningTextArmingDisabled": {
+        "message": "crwdns9374:0crwdne9374:0",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningArmingDisabled": {
         "message": "crwdns6299:0crwdne6299:0"
     },
+    "osdWarningTextBatteryNotFull": {
+        "message": "crwdns9376:0crwdne9376:0",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningBatteryNotFull": {
         "message": "crwdns6300:0crwdne6300:0"
+    },
+    "osdWarningTextBatteryWarning": {
+        "message": "crwdns9378:0crwdne9378:0",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningBatteryWarning": {
         "message": "crwdns6301:0crwdne6301:0"
     },
+    "osdWarningTextBatteryCritical": {
+        "message": "crwdns9380:0crwdne9380:0",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningBatteryCritical": {
         "message": "crwdns6302:0crwdne6302:0"
+    },
+    "osdWarningTextVisualBeeper": {
+        "message": "crwdns9382:0crwdne9382:0",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningVisualBeeper": {
         "message": "crwdns6303:0crwdne6303:0"
     },
+    "osdWarningTextCrashFlipMode": {
+        "message": "crwdns9384:0crwdne9384:0",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningCrashFlipMode": {
         "message": "crwdns6304:0crwdne6304:0"
+    },
+    "osdWarningTextEscFail": {
+        "message": "crwdns9386:0crwdne9386:0",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningEscFail": {
         "message": "crwdns8711:0crwdne8711:0"
     },
+    "osdWarningTextCoreTemperature": {
+        "message": "crwdns9388:0crwdne9388:0",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningCoreTemperature": {
         "message": "crwdns8926:0crwdne8926:0"
+    },
+    "osdWarningTextRcSmoothingFailure": {
+        "message": "crwdns9390:0crwdne9390:0",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningRcSmoothingFailure": {
         "message": "crwdns8928:0crwdne8928:0"
     },
+    "osdWarningTextFailsafe": {
+        "message": "crwdns9392:0crwdne9392:0",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningFailsafe": {
         "message": "crwdns8930:0crwdne8930:0"
+    },
+    "osdWarningTextLaunchControl": {
+        "message": "crwdns9394:0crwdne9394:0",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningLaunchControl": {
         "message": "crwdns8932:0crwdne8932:0"
     },
+    "osdWarningTextGpsRescueUnavailable": {
+        "message": "crwdns9396:0crwdne9396:0",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningGpsRescueUnavailable": {
         "message": "crwdns8934:0crwdne8934:0"
+    },
+    "osdWarningTextGpsRescueDisabled": {
+        "message": "crwdns9398:0crwdne9398:0",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningGpsRescueDisabled": {
         "message": "crwdns8936:0crwdne8936:0"
     },
+    "osdWarningTextRSSI": {
+        "message": "crwdns9400:0crwdne9400:0",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningRSSI": {
         "message": "crwdns9102:0crwdne9102:0"
+    },
+    "osdWarningTextLinkQuality": {
+        "message": "crwdns9402:0crwdne9402:0",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningLinkQuality": {
         "message": "crwdns9104:0crwdne9104:0"
     },
+    "osdWarningTextRssiDbm": {
+        "message": "crwdns9404:0crwdne9404:0",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningRssiDbm": {
         "message": "crwdns9340:0crwdne9340:0"
+    },
+    "osdWarningTextUnknown": {
+        "message": "crwdns9406:0$1crwdne9406:0"
+    },
+    "osdWarningUnknown": {
+        "message": "crwdns8938:0crwdne8938:0"
     },
     "osdSectionHelpElements": {
         "message": "crwdns6305:0crwdne6305:0"
