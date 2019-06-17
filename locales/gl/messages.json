@@ -2,10 +2,6 @@
     "translation_version": {
         "message": "0"
     },
-    "windowTitle": {
-        "message": "Betaflight Configurator",
-        "description": "Title of the application window, usually not translated"
-    },
     "error": {
         "message": "Erro: {{errorMessage}} "
     },
@@ -3947,9 +3943,6 @@
     "osdTimerAlarmTooltip": {
         "message": "Elixe o limiar de alarma do temporizador en minutos, cando o tempo excede este valor o elemento do OSD parpadeará, indicando 0 se desactiva a alarma"
     },
-    "osdWarningUnknown": {
-        "message": "Aviso descoñecido (os detalles añadiranse nunha futura versión)"
-    },
     "osdWarningArmingDisabled": {
         "message": "Avisa da razón máis importante para non armar"
     },
@@ -3994,6 +3987,9 @@
     },
     "osdWarningLinkQuality": {
         "message": "Avisa cando a Calidad do Enlace está por debaixo da alarma configurada"
+    },
+    "osdWarningUnknown": {
+        "message": "Aviso descoñecido (os detalles añadiranse nunha futura versión)"
     },
     "osdSectionHelpElements": {
         "message": "Activar ou desactivar os elementos do OSD"
