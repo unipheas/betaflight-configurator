@@ -3543,8 +3543,28 @@
     "osdSetupVideoFormatTitle": {
         "message": "Formato de Video"
     },
+    "osdSetupVideoFormatOptionAuto": {
+        "message": "Auto",
+        "description": "Option for the video format in the OSD"
+    },
+    "osdSetupVideoFormatOptionPal": {
+        "message": "PAL",
+        "description": "Option for the video format in the OSD"
+    },
+    "osdSetupVideoFormatOptionNtsc": {
+        "message": "NTSC",
+        "description": "Option for the video format in the OSD"
+    },
     "osdSetupUnitsTitle": {
         "message": "Unidades"
+    },
+    "osdSetupUnitsOptionImperial": {
+        "message": "Imperial",
+        "description": "Option for the units system used in the OSD"
+    },
+    "osdSetupUnitsOptionMetric": {
+        "message": "Métrico",
+        "description": "Option for the units system used in the OSD"
     },
     "osdSetupTimersTitle": {
         "message": "Temporizadores"
@@ -3609,6 +3629,9 @@
     },
     "osdSetupUploadingFont": {
         "message": "Actualizando..."
+    },
+    "osdSetupUploadingFontEnd": {
+        "message": "Cargados todos los {{length}} caracteres en el OSD"
     },
     "osdSetupSave": {
         "message": "Guardar"
@@ -4185,11 +4208,39 @@
     "osdTimerSourceTooltip": {
         "message": "Elige el origen del temporizador, esto controla la duración\/evento que este temporizador mide."
     },
+    "osdTimerSourceOptionOnTime": {
+        "message": "Tiempo encendido",
+        "description": "One of the options for the source timer. This options shows the amount of time has passed since the battery was plugged"
+    },
+    "osdTimerSourceOptionTotalArmedTime": {
+        "message": "Tiempo armado total",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed since the battery was plugged"
+    },
+    "osdTimerSourceOptionLastArmedTime": {
+        "message": "Tiempo del último armado",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed the latest time"
+    },
+    "osdTimerSourceOptionOnArmTime": {
+        "message": "Tiempo encendido\/armado",
+        "description": "One of the options for the source timer. This option shows On time when craft is disarmed, and Armed time when armed"
+    },
     "osdTimerPrecision": {
         "message": "Precisión:"
     },
     "osdTimerPrecisionTooltip": {
         "message": "Elige la precisión del temporizador, esto controla la precisión con la que el tiempo es reportado"
+    },
+    "osdTimerPrecisionOptionSecond": {
+        "message": "Segundo",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionHundredth": {
+        "message": "Centésima",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionTenth": {
+        "message": "Décima",
+        "description": "Selectable option for the precision of the timer in the OSD"
     },
     "osdTimerAlarm": {
         "message": "Alarma:"
@@ -4197,53 +4248,132 @@
     "osdTimerAlarmTooltip": {
         "message": "Elige el umbral de alarma del temporizador en minutos, cuando el tiempo excede este valor el elemento del OSD parpadeará, indicando 0 se desactiva la alarma"
     },
+    "osdTimerAlarmOptionRssi": {
+        "message": "RSSI",
+        "description": "Text of the RSSI alarm"
+    },
+    "osdTimerAlarmOptionCapacity": {
+        "message": "Capacidad",
+        "description": "Text of the capacity alarm"
+    },
+    "osdTimerAlarmOptionAltitude": {
+        "message": "Altitud",
+        "description": "Text of the altitude alarm"
+    },
+    "osdWarningTextArmingDisabled": {
+        "message": "Armado desactivado",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningArmingDisabled": {
         "message": "Avisa de la razón más importante para no armar"
+    },
+    "osdWarningTextBatteryNotFull": {
+        "message": "Batería: no llena",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningBatteryNotFull": {
         "message": "Alerta cuando una batería está conectada y no está completamente cargada"
     },
+    "osdWarningTextBatteryWarning": {
+        "message": "Batería: aviso",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningBatteryWarning": {
         "message": "Alerta cuando el voltaje de la batería cae por debajo del umbral"
+    },
+    "osdWarningTextBatteryCritical": {
+        "message": "Batería: crítica",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningBatteryCritical": {
         "message": "Alerta cuando el voltaje de la batería cae por debajo del voltaje por celda medio mínimo"
     },
+    "osdWarningTextVisualBeeper": {
+        "message": "Pitido visual",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningVisualBeeper": {
         "message": "Muestra una visualización de los avisos acústicos (se muestra como 4 asteriscos)"
+    },
+    "osdWarningTextCrashFlipMode": {
+        "message": "Boca abajo después de choque: modo",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningCrashFlipMode": {
         "message": "Avisa cuando el modo boca abajo después de choque está activado"
     },
+    "osdWarningTextEscFail": {
+        "message": "ESC: error",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningEscFail": {
         "message": "Enumera una lista con los ESCs\/motores que están fallando (RPM o temperatura está fuera del umbral configurado)"
+    },
+    "osdWarningTextCoreTemperature": {
+        "message": "CPU: temperatura del núcleo",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningCoreTemperature": {
         "message": "Avisa cuando la temperatura del núcleo MCU excede un rango configurado"
     },
+    "osdWarningTextRcSmoothingFailure": {
+        "message": "Suavizado RC: error",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningRcSmoothingFailure": {
         "message": "Avisa cuando la inicialización del Suavizado RC ha fallado"
+    },
+    "osdWarningTextFailsafe": {
+        "message": "Modo de seguridad",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningFailsafe": {
         "message": "Avisa cuando se ejecuta el Modo de Seguridad"
     },
+    "osdWarningTextLaunchControl": {
+        "message": "Control de lanzamiento",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningLaunchControl": {
         "message": "Avisa cuando el Control de Lanzamiento está activado"
+    },
+    "osdWarningTextGpsRescueUnavailable": {
+        "message": "GPS Rescate: no disponible",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningGpsRescueUnavailable": {
         "message": "Avisa cuando el Rescate GPS no está disponible y no puede ser activado"
     },
+    "osdWarningTextGpsRescueDisabled": {
+        "message": "GPS Rescate: desactivado",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningGpsRescueDisabled": {
         "message": "Avisa cuando el Rescate GPS está desactivado"
+    },
+    "osdWarningTextRSSI": {
+        "message": "RSSI",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningRSSI": {
         "message": "Avisa cuando el RSSI está por debajo de la alarma configurada"
     },
+    "osdWarningTextLinkQuality": {
+        "message": "RSSI: calidad del enlace",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningLinkQuality": {
         "message": "Avisa cuando la Calidad del Enlace está por debajo de la alarma configurada"
     },
+    "osdWarningTextRssiDbm": {
+        "message": "RSSI: dBm",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningRssiDbm": {
         "message": "Avisa cuando el valor RSSI en dBm está por debajo del valor de alarma configurado"
+    },
+    "osdWarningTextUnknown": {
+        "message": "Desconocido $1"
     },
     "osdWarningUnknown": {
         "message": "Aviso desconocido (los detalles se añadirán en una futura versión)"
