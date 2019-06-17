@@ -3981,9 +3981,6 @@
     "osdTimerAlarmTooltip": {
         "message": "타이머 알람 임계값을 분 단위로 선택하십시오. 시간이 이 값을 초과하면 OSD 항목이 깜박이고, 0으로 설정하면 알람이 비활성화됩니다."
     },
-    "osdWarningUnknown": {
-        "message": "알 수 없는 경고 (다음 릴리스에 추가 될 세부 정보)"
-    },
     "osdWarningArmingDisabled": {
         "message": "아밍이 되지 않는 가장 심각한 이유 보고"
     },
@@ -4028,6 +4025,9 @@
     },
     "osdWarningLinkQuality": {
         "message": "링크 품질(LQ)이 알람 설정값 아래일 때 경고합니다"
+    },
+    "osdWarningUnknown": {
+        "message": "알 수 없는 경고 (다음 릴리스에 추가 될 세부 정보)"
     },
     "osdSectionHelpElements": {
         "message": "OSD 요소를 활성화 또는 비활성화합니다."
