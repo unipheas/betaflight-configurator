@@ -3893,9 +3893,6 @@
     "osdTimerAlarmTooltip": {
         "message": "Odaberite prag alarma tajmera u minutama, kada vrijeme pređe tu vrijednost OSD element će treperiti, postavljanje ovo na 0 onemogućava alarm"
     },
-    "osdWarningUnknown": {
-        "message": "Nepoznato upozorenje(detalji će biti dodani u budućim verzijama)"
-    },
     "osdWarningArmingDisabled": {
         "message": "Prijavljuje najvažniji razlog kod nemogućnosti armiranja"
     },
@@ -3940,6 +3937,9 @@
     },
     "osdWarningLinkQuality": {
         "message": "Upozori kad je kvaliteta veze ispod postavljene razine za alarm"
+    },
+    "osdWarningUnknown": {
+        "message": "Nepoznato upozorenje(detalji će biti dodani u budućim verzijama)"
     },
     "osdSectionHelpElements": {
         "message": "Omogućavanje ili onemogućavanje elemenata OSD-a."
