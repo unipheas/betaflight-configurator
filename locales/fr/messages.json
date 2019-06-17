@@ -4115,9 +4115,6 @@
     "osdTimerAlarmTooltip": {
         "message": "Sélectionnez le seuil de l'alarme du timer en minutes, lorsque le temps dépasse cette valeur, l'élément OSD clignote, le réglage à 0 désactive l'alarme"
     },
-    "osdWarningUnknown": {
-        "message": "Avertissement inconnu (détails à ajouter dans une version ultérieure)"
-    },
     "osdWarningArmingDisabled": {
         "message": "Indique la raison la plus grave de ne pas armer"
     },
@@ -4162,6 +4159,9 @@
     },
     "osdWarningLinkQuality": {
         "message": "Alerte lorsque la qualité de la liaison est inférieure à la valeur configurée"
+    },
+    "osdWarningUnknown": {
+        "message": "Avertissement inconnu (détails à ajouter dans une version ultérieure)"
     },
     "osdSectionHelpElements": {
         "message": "Activer ou désactiver l'OSD"
