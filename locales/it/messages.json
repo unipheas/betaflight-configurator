@@ -3805,9 +3805,6 @@
     "osdTimerAlarmTooltip": {
         "message": "Selezionare la soglia di allarme del timer in minuti, quando il tempo supera questo valore l'elemento OSD lampeggia, impostandolo su 0 si disabilita l'allarme"
     },
-    "osdWarningUnknown": {
-        "message": "Avviso sconosciuto (dettagli aggiunti nelle future release)"
-    },
     "osdWarningArmingDisabled": {
         "message": "Segnala la ragione più grave per non armare"
     },
@@ -3852,6 +3849,9 @@
     },
     "osdWarningLinkQuality": {
         "message": "Avviso quando il Link Quality è sotto la soglia di allarme"
+    },
+    "osdWarningUnknown": {
+        "message": "Avviso sconosciuto (dettagli aggiunti nelle future release)"
     },
     "osdSectionHelpElements": {
         "message": "Abilita o disabilita gli elementi OSD"
