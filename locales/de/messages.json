@@ -2,10 +2,6 @@
     "translation_version": {
         "message": "0"
     },
-    "windowTitle": {
-        "message": "Betaflight Konfigurator",
-        "description": "Title of the application window, usually not translated"
-    },
     "error": {
         "message": "Fehler: {{errorMessage}}"
     },
@@ -3809,9 +3805,6 @@
     "osdTimerAlarmTooltip": {
         "message": "Setze den Alarmwert der Stoppuhr in Minuten. Sobald die Zeit überschritten ist blinkt das dazugehörige OSD Element"
     },
-    "osdWarningUnknown": {
-        "message": "Unbekannte Warnung (Details werden in einer künftigen Version ergänzt)"
-    },
     "osdWarningArmingDisabled": {
         "message": "Zeigt den schwerwiegensten Fehler an, warum das Fluggerät nicht armt."
     },
@@ -3856,6 +3849,9 @@
     },
     "osdWarningLinkQuality": {
         "message": "Warnt, wenn die Verbindungsqualität unter den Alarmwert fällt"
+    },
+    "osdWarningUnknown": {
+        "message": "Unbekannte Warnung (Details werden in einer künftigen Version ergänzt)"
     },
     "osdSectionHelpElements": {
         "message": "OSD Elemente aktivieren oder deaktivieren"
