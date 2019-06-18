@@ -3528,8 +3528,28 @@
     "osdSetupVideoFormatTitle": {
         "message": "비디오 형식"
     },
+    "osdSetupVideoFormatOptionAuto": {
+        "message": "자동",
+        "description": "Option for the video format in the OSD"
+    },
+    "osdSetupVideoFormatOptionPal": {
+        "message": "PAL",
+        "description": "Option for the video format in the OSD"
+    },
+    "osdSetupVideoFormatOptionNtsc": {
+        "message": "NTSC",
+        "description": "Option for the video format in the OSD"
+    },
     "osdSetupUnitsTitle": {
         "message": "단위"
+    },
+    "osdSetupUnitsOptionImperial": {
+        "message": "영국단위",
+        "description": "Option for the units system used in the OSD"
+    },
+    "osdSetupUnitsOptionMetric": {
+        "message": "미터단위",
+        "description": "Option for the units system used in the OSD"
     },
     "osdSetupTimersTitle": {
         "message": "타이머"
@@ -3594,6 +3614,9 @@
     },
     "osdSetupUploadingFont": {
         "message": "업로드중..."
+    },
+    "osdSetupUploadingFontEnd": {
+        "message": "OSD에 모든 {{length}} 특성이 업로드됨"
     },
     "osdSetupSave": {
         "message": "저장"
@@ -3969,11 +3992,39 @@
     "osdTimerSourceTooltip": {
         "message": "타이머 소스를 선택하면, 타이머가 측정하는 지속시간\/이벤트를 제어합니다."
     },
+    "osdTimerSourceOptionOnTime": {
+        "message": "사용 시간",
+        "description": "One of the options for the source timer. This options shows the amount of time has passed since the battery was plugged"
+    },
+    "osdTimerSourceOptionTotalArmedTime": {
+        "message": "전체 아밍된 시간",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed since the battery was plugged"
+    },
+    "osdTimerSourceOptionLastArmedTime": {
+        "message": "마지막 아밍된 시간",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed the latest time"
+    },
+    "osdTimerSourceOptionOnArmTime": {
+        "message": "사용\/아밍된 시간",
+        "description": "One of the options for the source timer. This option shows On time when craft is disarmed, and Armed time when armed"
+    },
     "osdTimerPrecision": {
         "message": "정밀도:"
     },
     "osdTimerPrecisionTooltip": {
         "message": "타이머 정밀도를 선택하면 시간이 보고되는 정밀도를 제어합니다."
+    },
+    "osdTimerPrecisionOptionSecond": {
+        "message": "두번째",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionHundredth": {
+        "message": "100분의1",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionTenth": {
+        "message": "10분의1",
+        "description": "Selectable option for the precision of the timer in the OSD"
     },
     "osdTimerAlarm": {
         "message": "알람:"
@@ -3981,50 +4032,129 @@
     "osdTimerAlarmTooltip": {
         "message": "타이머 알람 임계값을 분 단위로 선택하십시오. 시간이 이 값을 초과하면 OSD 항목이 깜박이고, 0으로 설정하면 알람이 비활성화됩니다."
     },
+    "osdTimerAlarmOptionRssi": {
+        "message": "RSSI",
+        "description": "Text of the RSSI alarm"
+    },
+    "osdTimerAlarmOptionCapacity": {
+        "message": "용량",
+        "description": "Text of the capacity alarm"
+    },
+    "osdTimerAlarmOptionAltitude": {
+        "message": "고도",
+        "description": "Text of the altitude alarm"
+    },
+    "osdWarningTextArmingDisabled": {
+        "message": "아밍이 비활성화됨",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningArmingDisabled": {
         "message": "아밍이 되지 않는 가장 심각한 이유 보고"
+    },
+    "osdWarningTextBatteryNotFull": {
+        "message": "배터리가 완충되지 않음",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningBatteryNotFull": {
         "message": "완전 충전되지 않은 배터리가 연결되면 경고"
     },
+    "osdWarningTextBatteryWarning": {
+        "message": "배터리 경고",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningBatteryWarning": {
         "message": "배터리 전압이 경고 임계 값 아래로 떨어지면 경고"
+    },
+    "osdWarningTextBatteryCritical": {
+        "message": "배터리 매우 부족",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningBatteryCritical": {
         "message": "배터리 전압이 최소 평균 셀 전압 미만으로 떨어지면 경고"
     },
+    "osdWarningTextVisualBeeper": {
+        "message": "비쥬얼 비퍼",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningVisualBeeper": {
         "message": "비퍼의 시각화를 보여주기 (별표 4개로 표시)"
+    },
+    "osdWarningTextCrashFlipMode": {
+        "message": "크래쉬 플립 모드",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningCrashFlipMode": {
         "message": "충돌 모드가 활성화 된 후 뒤집힐 때 경고"
     },
+    "osdWarningTextEscFail": {
+        "message": "ESC 실패",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningEscFail": {
         "message": "실패한 ESC\/모터 목록을 열거합니다 (RPM 또는 온도가 구성된 임계값을 벗어남)"
+    },
+    "osdWarningTextCoreTemperature": {
+        "message": "코어 온도",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningCoreTemperature": {
         "message": "MCU 코어 온도가 설정된 임계값을 초과할 때 경고합니다"
     },
+    "osdWarningTextRcSmoothingFailure": {
+        "message": "RC 스무딩 결함",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningRcSmoothingFailure": {
         "message": "RC 스무딩 초기화 실패시 경고합니다"
+    },
+    "osdWarningTextFailsafe": {
+        "message": "페일세이프",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningFailsafe": {
         "message": "페일세이프 발생시 경고합니다"
     },
+    "osdWarningTextLaunchControl": {
+        "message": "론치 제어",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningLaunchControl": {
         "message": "론치 제어 모드가 활성화되면 경고합니다"
+    },
+    "osdWarningTextGpsRescueUnavailable": {
+        "message": "GPS 구조 사용불가",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningGpsRescueUnavailable": {
         "message": "GPS 구조가 사용할 수 없을 때 및 활성화할 수 없을 때 경고합니다"
     },
+    "osdWarningTextGpsRescueDisabled": {
+        "message": "GPS 구조 비활성화됨",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningGpsRescueDisabled": {
         "message": "GPS 구조를 사용하지 않도록 설정하는 경우 경고합니다"
+    },
+    "osdWarningTextRSSI": {
+        "message": "RSSI",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningRSSI": {
         "message": "RSSI가 알람 설정값 아래일 때 경고합니다"
     },
+    "osdWarningTextLinkQuality": {
+        "message": "링크 품질",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningLinkQuality": {
         "message": "링크 품질(LQ)이 알람 설정값 아래일 때 경고합니다"
+    },
+    "osdWarningTextRssiDbm": {
+        "message": "RSSI dBm",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
+    "osdWarningTextUnknown": {
+        "message": "알 수 없음 $1"
     },
     "osdWarningUnknown": {
         "message": "알 수 없는 경고 (다음 릴리스에 추가 될 세부 정보)"
