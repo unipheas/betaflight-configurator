@@ -3558,6 +3558,10 @@
     "osdSetupUnitsTitle": {
         "message": "単位"
     },
+    "osdSetupUnitsOptionImperial": {
+        "message": "ヤードポンド法",
+        "description": "Option for the units system used in the OSD"
+    },
     "osdSetupUnitsOptionMetric": {
         "message": "メートル法",
         "description": "Option for the units system used in the OSD"
@@ -3626,6 +3630,9 @@
     "osdSetupUploadingFont": {
         "message": "アップロード中..."
     },
+    "osdSetupUploadingFontEnd": {
+        "message": "全ての {{length}} 文字をOSDにアップロード"
+    },
     "osdSetupSave": {
         "message": "保存"
     },
@@ -3662,8 +3669,22 @@
     "osdDescElementRssiValue": {
         "message": "瞬間RSSI値 (アラームしきい値以下の場合は点滅)"
     },
+    "osdDescElementTimer": {
+        "message": "フライトタイマー"
+    },
     "osdDescElementThrottlePosition": {
         "message": "現在のスロットルチャンネル値"
+    },
+    "osdTextElementCpuLoad": {
+        "message": "CPU使用率",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementCpuLoad": {
+        "message": "現在のCPU使用率"
+    },
+    "osdTextElementVoltageWarning": {
+        "message": "バッテリー電圧警告",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementArmed": {
         "message": "アームメッセージ"
@@ -3689,8 +3710,16 @@
     "osdDescElementCraftName": {
         "message": "[設定] タブで設定した機体名"
     },
+    "osdTextElementAltitude": {
+        "message": "高度",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementAltitude": {
         "message": "現在の高度 (アラーム値を超えると点滅)"
+    },
+    "osdTextElementOnTime": {
+        "message": "On time",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementOnTime": {
         "message": "電源投入からの経過時間"
@@ -3722,17 +3751,37 @@
     "osdDescElementPower": {
         "message": "瞬間電力消費量"
     },
+    "osdTextElementPIDRateProfile": {
+        "message": "Profile: PID＆レート",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDRateProfile": {
         "message": "有効PIDおよびRateprofile数値表示"
+    },
+    "osdTextElementBatteryWarning": {
+        "message": "バッテリー警告",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementBatteryWarning": {
         "message": "バッテリー電圧が警告しきい値を下回ったときに表示される警告テキスト"
     },
+    "osdTextElementAvgCellVoltage": {
+        "message": "バッテリー セル平均電圧",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementAvgCellVoltage": {
         "message": "セル電圧平均値 (メインバッテリー電圧 \/ セル数)"
     },
+    "osdTextElementPitchAngle": {
+        "message": "Angle: pitch",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPitchAngle": {
         "message": "ピッチ角度値"
+    },
+    "osdTextElementRollAngle": {
+        "message": "Angle: roll",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRollAngle": {
         "message": "ロール角度値"
