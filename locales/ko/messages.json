@@ -1739,6 +1739,21 @@
     "auxiliaryModeLogicAND": {
         "message": "AND"
     },
+    "adjustmentsHelp": {
+        "message": "조정 스위치를 설정하세요. 자세한 내용은 매뉴얼의 '비행중 조정' 섹션을 참조하십시오. 조정 기능의 변경 사항은 자동으로 저장되지 않습니다."
+    },
+    "adjustmentSlotsHelp": {
+        "message": "슬롯은 4개 입니다. 동시에 조정하기 위해 사용되는 각 스위치는 슬롯을 단독으로 사용해야 합니다."
+    },
+    "adjustmentsExamples": {
+        "message": "예시:"
+    },
+    "adjustmentsExample1": {
+        "message": "AUX1의 3POS 스위치를 사용하여 피치\/롤 P, I, D를 선택하고, AUX2의 다른 3POS 스위치를 사용하여 위 또는 아래로 움직여서 값을 높이거나 낮춥니다."
+    },
+    "adjustmentsExample2": {
+        "message": "AUX4의 3POS 스위치를 사용하여 동일한 채널의 동일한 3POS 스위치를 통해 적용 가능한 레이트 프로파일을 선택하십시오."
+    },
     "adjustmentsColumnEnable": {
         "message": "사용"
     },
@@ -3648,56 +3663,170 @@
     "osdSetupButtonReset": {
         "message": "초기화 설정"
     },
+    "osdTextElementMainBattVoltage": {
+        "message": "배터리 전압",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementMainBattVoltage": {
         "message": "순간 메인 배터리 전압 (알람 임계값 이하일 때 깜박임)"
+    },
+    "osdTextElementRssiValue": {
+        "message": "RSSI 수치",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRssiValue": {
         "message": "순간 RSSI 값 (알람 임계값 이하일 때 깜박임)"
     },
+    "osdTextElementTimer": {
+        "message": "타이머",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementTimer": {
+        "message": "비행 타이머"
+    },
+    "osdTextElementThrottlePosition": {
+        "message": "스로틀 위치",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementThrottlePosition": {
         "message": "현재 스로틀 채널 값"
+    },
+    "osdTextElementCpuLoad": {
+        "message": "CPU 로드",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementCpuLoad": {
+        "message": "현재 CPU 로드"
+    },
+    "osdTextElementVtxChannel": {
+        "message": "VTX 채널",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementVtxChannel": {
+        "message": "현재 VTX 채널과 출력"
+    },
+    "osdTextElementVoltageWarning": {
+        "message": "배터리 전압 경고",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementVoltageWarning": {
+        "message": "전압이 알람 값 아래로 떨어지면 경고를 표시합니다"
+    },
+    "osdTextElementArmed": {
+        "message": "아밍됨",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementArmed": {
         "message": "아밍 메시지 텍스트 표시"
     },
+    "osdTextElementDisarmed": {
+        "message": "디스아밍됨",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementDisarmed": {
         "message": "해제 메시지 텍스트 표시"
+    },
+    "osdTextElementCrosshairs": {
+        "message": "십자선",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementCrosshairs": {
         "message": "화면 십자선의 중심"
     },
+    "osdTextElementArtificialHorizon": {
+        "message": "인공 수평선",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementArtificialHorizon": {
         "message": "인공 지평선 그래픽 표시"
+    },
+    "osdTextElementHorizonSidebars": {
+        "message": "인공 수평선 사이드바",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementHorizonSidebars": {
         "message": "인공 지평선 표시 주변의 사이드바"
     },
+    "osdTextElementCurrentDraw": {
+        "message": "배터리 전류 강하",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCurrentDraw": {
         "message": "순간 배터리 전류 소비"
+    },
+    "osdTextElementMahDrawn": {
+        "message": "배터리 전류 mAh 강하",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMahDrawn": {
         "message": "사용 된 총 배터리 용량"
     },
+    "osdTextElementCraftName": {
+        "message": "기체 이름",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCraftName": {
         "message": "환경설정 탭에서 설정된 기체 이름"
+    },
+    "osdTextElementAltitude": {
+        "message": "고도",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementAltitude": {
         "message": "현재 고도 (임계값 이상일 때 깜빡임)"
     },
+    "osdTextElementOnTime": {
+        "message": "사용 시간",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementOnTime": {
         "message": "기체의 전원이 켜진 총 시간"
+    },
+    "osdTextElementFlyTime": {
+        "message": "비행 시간",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementFlyTime": {
         "message": "현재의 전력 사이클에서 기체가 해제된 총 시간 (알람 임계값 이상일 때 깜박임)"
     },
+    "osdTextElementFlyMode": {
+        "message": "비행 모드",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementFlyMode": {
         "message": "현재 비행 모드"
+    },
+    "osdTextElementGPSSpeed": {
+        "message": "GPS 속도",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementGPSSpeed": {
         "message": "GPS 속도"
     },
+    "osdTextElementGPSSats": {
+        "message": "GPS 위성",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementGPSSats": {
         "message": "GPS 위성 수"
+    },
+    "osdTextElementGPSLon": {
+        "message": "GPS 경도",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementGPSLon": {
+        "message": "GPS 경도 좌표"
+    },
+    "osdTextElementGPSLat": {
+        "message": "GPS 위도",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementGPSLat": {
+        "message": "GPS 위도 좌표"
+    },
+    "osdTextElementDebug": {
+        "message": "디버그",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementDebug": {
         "message": "디버그 변수"
@@ -3842,62 +3971,149 @@
     "osdDescElementRemaningTimeEstimate": {
         "message": "남은 비행시간 예상"
     },
+    "osdTextElementRtcDateTime": {
+        "message": "RTC 날짜 및 시간",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementRtcDateTime": {
         "message": "실시간 날짜 \/ 시간"
+    },
+    "osdTextElementAdjustmentRange": {
+        "message": "범위 조정",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementAdjustmentRange": {
         "message": "현재 활성화된 조정 범위 설정 및 값"
     },
+    "osdTextElementTimer1": {
+        "message": "타이머 1",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementTimer1": {
         "message": "타이머 1의 값 표시"
+    },
+    "osdTextElementTimer2": {
+        "message": "타이머 2",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementTimer2": {
         "message": "타이머 2의 값 표시"
     },
+    "osdTextElementCoreTemperature": {
+        "message": "코어 온도",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCoreTemperature": {
         "message": "STM32 MCU 코어 온도"
+    },
+    "osdTextAntiGravity": {
+        "message": "안티 그라비티",
+        "description": "One of the elements of the OSD"
     },
     "osdDescAntiGravity": {
         "message": "안티 그래비티 활성시 표시기 사용"
     },
+    "osdTextGForce": {
+        "message": "G 포스",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescGForce": {
         "message": "기체가 얼마나 많은 G-포스를 경험하고 있는지를 보여줍니다."
+    },
+    "osdTextElementMotorDiag": {
+        "message": "모터 진단",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMotorDiag": {
         "message": "각 모터의 출력 그래프 표시"
     },
+    "osdTextElementLogStatus": {
+        "message": "블랙박스 로그 상태",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementLogStatus": {
         "message": "블랙박스 번호 및 경고"
+    },
+    "osdTextElementFlipArrow": {
+        "message": "충돌 후 플립 화살표",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementFlipArrow": {
         "message": "터틀 모드에서 어떤 모터가 올라가는지를 보여주는 화살표"
     },
+    "osdTextElementLinkQuality": {
+        "message": "링크 품질",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementLinkQuality": {
         "message": "프레임 손실에 따른 링크 품질에 대한 대체 표시 - 주의해서 사용"
+    },
+    "osdTextElementFlightDist": {
+        "message": "비행 거리",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementFlightDist": {
         "message": "이번 비행 중 비행한 거리"
     },
+    "osdTextElementStickOverlayLeft": {
+        "message": "스틱 오버레이 좌",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementStickOverlayLeft": {
         "message": "좌측 조종기 스틱 위치에 대한 오버레이"
+    },
+    "osdTextElementStickOverlayRight": {
+        "message": "스틱 오버레이 우",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementStickOverlayRight": {
         "message": "우측 조종기 스틱 위치에 대한 오버레이"
     },
+    "osdTextElementDisplayName": {
+        "message": "디스플레이 이름",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementDisplayName": {
         "message": "\"display_name\" cli 명령에 의해 설정된 이름을 표시합니다."
+    },
+    "osdTextElementEscRpmFreq": {
+        "message": "ESC RPM 주파수",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementEscRpmFreq": {
         "message": "ESC 텔레메트리에 의해 보고된 RPM 주파수"
     },
+    "osdTextElementRateProfileName": {
+        "message": "프로파일: 레이트 프로파일 이름",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementRateProfileName": {
         "message": "현재 레이트 프로파일 이름을 보여줍니다"
+    },
+    "osdTextElementPidProfileName": {
+        "message": "프로파일: PID 프로파일 이름",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPidProfileName": {
         "message": "현재 PID 프로파일 이름을 보여줍니다"
     },
+    "osdTextElementOsdProfileName": {
+        "message": "프로파일: OSD 프로파일 이름",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementOsdProfileName": {
         "message": "\"osd_profile_1_name\", \"osd_profile_2_name\" 그리고 \"osd_profile_3_name\" CLI 변수에서 설정된 OSD 프로파일 이름"
+    },
+    "osdTextElementRssiDbmValue": {
+        "message": "RSSI dBm 수치",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementRssiDbmValue": {
+        "message": "가능한 경우 RSSI 신호의 dBm 수치"
+    },
+    "osdTextElementUnknown": {
+        "message": "알 수 없음 $1",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementUnknown": {
         "message": "알 수 없는 요소 (다음 릴리스에 추가 될 세부 정보)"
@@ -4152,6 +4368,9 @@
     "osdWarningTextRssiDbm": {
         "message": "RSSI dBm",
         "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
+    "osdWarningRssiDbm": {
+        "message": "RSSI dBm 수치가 알람 설정값 아래일 때 경고합니다"
     },
     "osdWarningTextUnknown": {
         "message": "알 수 없음 $1"
