@@ -3702,6 +3702,9 @@
         "message": "受信機チャンネル",
         "description": "One of the elements of the OSD"
     },
+    "osdDescElementVtxChannel": {
+        "message": "現在のVTX ChとVTX出力"
+    },
     "osdTextElementVoltageWarning": {
         "message": "バッテリー電圧警告",
         "description": "One of the elements of the OSD"
@@ -3919,83 +3922,198 @@
     "osdDescElementHomeDistance": {
         "message": "ホームポジションまでの距離 (設定に基づいたフィートまたはメートル表示)"
     },
+    "osdTextElementNumericalHeading": {
+        "message": "ヘディング角度値",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementNumericalHeading": {
         "message": "ヘッディング角度値"
+    },
+    "osdTextElementNumericalVario": {
+        "message": "垂直スピード値",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementNumericalVario": {
         "message": "垂直スピード値 (設定に基づいたフィートまたはメートル表示)"
     },
+    "osdTextElementCompassBar": {
+        "message": "コンパス バー",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCompassBar": {
         "message": "現在のヘッディングを示すグラフィカルなコンパスバー"
+    },
+    "osdTextElementWarnings": {
+        "message": "警告",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementWarnings": {
         "message": "アラート (例: 電池切れ)、警告 (例: アーミング不可理由、バッテリーが非常に低い)、ビジュアルビープ (4点滅LED)。"
     },
+    "osdTextElementEscTemperature": {
+        "message": "ESC 温度",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementEscTemperature": {
         "message": "温度レポート by ESCテレメトリー"
+    },
+    "osdTextElementEscRpm": {
+        "message": "ESC 回転数",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementEscRpm": {
         "message": "回転数レポート by ESCテレメトリー"
     },
+    "osdTextElementRemaningTimeEstimate": {
+        "message": "Timer: 想定残り時間",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementRemaningTimeEstimate": {
         "message": "残り飛行時間の予測"
+    },
+    "osdTextElementRtcDateTime": {
+        "message": "RTC 日付と時刻",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRtcDateTime": {
         "message": "ハードウェアクロック 日付 \/ 時間"
     },
+    "osdTextElementAdjustmentRange": {
+        "message": "調整範囲",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementAdjustmentRange": {
         "message": "調整タブで設定した現在有効となる値"
+    },
+    "osdTextElementTimer1": {
+        "message": "タイマー 1",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementTimer1": {
         "message": "タイマー1の値を表示"
     },
+    "osdTextElementTimer2": {
+        "message": "タイマー 2",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementTimer2": {
         "message": "タイマー2の値を表示"
+    },
+    "osdTextElementCoreTemperature": {
+        "message": "コア温度",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementCoreTemperature": {
         "message": "STM32 MCUコア温度"
     },
+    "osdTextAntiGravity": {
+        "message": "Anti Gravity",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescAntiGravity": {
         "message": "Anti Gravity機能がオンの時、インジケーターを有効にします。"
+    },
+    "osdTextGForce": {
+        "message": "G Force",
+        "description": "One of the elements of the OSD"
     },
     "osdDescGForce": {
         "message": "どのくらいのG値(加速度)が機体に負荷をかけているかを示す"
     },
+    "osdTextElementMotorDiag": {
+        "message": "モーターの診断",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementMotorDiag": {
         "message": "モーター毎の出力グラフを表示"
+    },
+    "osdTextElementLogStatus": {
+        "message": "ブラックボックス ログステータス",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementLogStatus": {
         "message": "ブラックボックス番号と警告"
     },
+    "osdTextElementFlipArrow": {
+        "message": "Flip after crash 向き",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementFlipArrow": {
         "message": "タートルモードでどのモーターが起動しているかを示す矢印"
+    },
+    "osdTextElementLinkQuality": {
+        "message": "リンク品質",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementLinkQuality": {
         "message": "フレーム損失に基く『リンク品質』代替インジケータ - 使用注意"
     },
+    "osdTextElementFlightDist": {
+        "message": "今回の飛行距離",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementFlightDist": {
         "message": "この飛行での飛行距離"
+    },
+    "osdTextElementStickOverlayLeft": {
+        "message": "左スティック オーバーレイ表示",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementStickOverlayLeft": {
         "message": "送信機 左スティック ポジションをオーバーレイ表示"
     },
+    "osdTextElementStickOverlayRight": {
+        "message": "右スティック オーバーレイ表示",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementStickOverlayRight": {
         "message": "送信機 右スティック ポジションをオーバーレイ表示"
+    },
+    "osdTextElementDisplayName": {
+        "message": "ディスプレイ名称",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementDisplayName": {
         "message": "CLIコマンド【display_name】で設定した表示名"
     },
+    "osdTextElementEscRpmFreq": {
+        "message": "ESC RPM 周波数",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementEscRpmFreq": {
         "message": "回転数レポート by ESCテレメトリー"
+    },
+    "osdTextElementRateProfileName": {
+        "message": "Profile: レートプロファイル名",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRateProfileName": {
         "message": "現在のRateprofile名を表示"
     },
+    "osdTextElementPidProfileName": {
+        "message": "Profile: PIDプロファイル名",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPidProfileName": {
         "message": "現在のPIDプロファイル名を表示"
     },
+    "osdTextElementOsdProfileName": {
+        "message": "Profile: OSDプロファイル名",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementOsdProfileName": {
         "message": "\"osd_profile_1_name\"、\"osd_profile_2_name\"、\"osd_profile_3_name\"はCLIにて設定されているOSDプロファイル名"
+    },
+    "osdTextElementRssiDbmValue": {
+        "message": "RSSI dBm 値",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementRssiDbmValue": {
+        "message": "RSSI信号値(dBm) ※有効な場合"
+    },
+    "osdTextElementUnknown": {
+        "message": "不明 $1",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementUnknown": {
         "message": "不明な構成要素 (将来のリリースで追加される予定)"
@@ -4090,11 +4208,39 @@
     "osdTimerSourceTooltip": {
         "message": "タイマーソースを選択します。これはタイマー計測する期間 \/ イベントを制御します。"
     },
+    "osdTimerSourceOptionOnTime": {
+        "message": "On time",
+        "description": "One of the options for the source timer. This options shows the amount of time has passed since the battery was plugged"
+    },
+    "osdTimerSourceOptionTotalArmedTime": {
+        "message": "合計アーム時間",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed since the battery was plugged"
+    },
+    "osdTimerSourceOptionLastArmedTime": {
+        "message": "直近のアーム時間",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed the latest time"
+    },
+    "osdTimerSourceOptionOnArmTime": {
+        "message": "ON\/アーム時間",
+        "description": "One of the options for the source timer. This option shows On time when craft is disarmed, and Armed time when armed"
+    },
     "osdTimerPrecision": {
         "message": "精度:"
     },
     "osdTimerPrecisionTooltip": {
         "message": "タイマー精度を選択します。これは、時間情報がどれくらいの精度でレポートされるかを制御します。"
+    },
+    "osdTimerPrecisionOptionSecond": {
+        "message": "秒",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionHundredth": {
+        "message": "100分の1",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionTenth": {
+        "message": "10分の1",
+        "description": "Selectable option for the precision of the timer in the OSD"
     },
     "osdTimerAlarm": {
         "message": "アラーム:"
@@ -4102,26 +4248,70 @@
     "osdTimerAlarmTooltip": {
         "message": "タイマーアラームのしきい値を分単位で選択します。時間がこの値を超えると、OSD表示にて点滅し、これを0に設定するとアラームが無効になります。"
     },
+    "osdTimerAlarmOptionRssi": {
+        "message": "RSSI",
+        "description": "Text of the RSSI alarm"
+    },
+    "osdTimerAlarmOptionCapacity": {
+        "message": "キャパシティ",
+        "description": "Text of the capacity alarm"
+    },
+    "osdTimerAlarmOptionAltitude": {
+        "message": "高度",
+        "description": "Text of the altitude alarm"
+    },
+    "osdWarningTextArmingDisabled": {
+        "message": "アーム無効",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningArmingDisabled": {
         "message": "アーミングできない最も重大な理由を報告"
+    },
+    "osdWarningTextBatteryNotFull": {
+        "message": "バッテリー満充電でない",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningBatteryNotFull": {
         "message": "完全に充電されていないバッテリーが接続されたときの警告"
     },
+    "osdWarningTextBatteryWarning": {
+        "message": "バッテリー警告",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningBatteryWarning": {
         "message": "バッテリー電圧が警告しきい値を下回ったときの警告"
+    },
+    "osdWarningTextBatteryCritical": {
+        "message": "バッテリー臨界値",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningBatteryCritical": {
         "message": "バッテリー電圧が最小平均セル電圧を下回ったときの警告"
     },
+    "osdWarningTextVisualBeeper": {
+        "message": "ビープ音",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningVisualBeeper": {
         "message": "ビープを可視化 (4点滅LED表示)"
+    },
+    "osdWarningTextCrashFlipMode": {
+        "message": "Crash flip モード",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningCrashFlipMode": {
         "message": "クラッシュモードを有効後、フリップすると警告"
     },
+    "osdWarningTextEscFail": {
+        "message": "ESC不良",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningEscFail": {
         "message": "障害が発生しているESC \/ モーターリストの列挙\n (回転数または温度が設定しきい値を超過)"
+    },
+    "osdWarningTextCoreTemperature": {
+        "message": "コア温度",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningCoreTemperature": {
         "message": "MCUコア温度が設定されたしきい値を超えたときに警告"
@@ -4132,6 +4322,10 @@
     },
     "osdWarningRcSmoothingFailure": {
         "message": "RCスムージングの初期化に失敗した場合に警告"
+    },
+    "osdWarningTextFailsafe": {
+        "message": "フェイルセーフ",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningFailsafe": {
         "message": "フェイルセーフ発生時に警告"
