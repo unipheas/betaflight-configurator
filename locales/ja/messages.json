@@ -3663,14 +3663,30 @@
     "osdSetupButtonReset": {
         "message": "設定をリセット"
     },
+    "osdTextElementMainBattVoltage": {
+        "message": "バッテリー電圧",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementMainBattVoltage": {
         "message": "瞬間メインバッテリー電圧 (アラームしきい値以下の場合は点滅)"
+    },
+    "osdTextElementRssiValue": {
+        "message": "瞬間RSSI値",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRssiValue": {
         "message": "瞬間RSSI値 (アラームしきい値以下の場合は点滅)"
     },
+    "osdTextElementTimer": {
+        "message": "タイマー",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementTimer": {
         "message": "フライトタイマー"
+    },
+    "osdTextElementThrottlePosition": {
+        "message": "スロットルポジション",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementThrottlePosition": {
         "message": "現在のスロットルチャンネル値"
@@ -3682,30 +3698,69 @@
     "osdDescElementCpuLoad": {
         "message": "現在のCPU使用率"
     },
+    "osdTextElementVtxChannel": {
+        "message": "受信機チャンネル",
+        "description": "One of the elements of the OSD"
+    },
     "osdTextElementVoltageWarning": {
         "message": "バッテリー電圧警告",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementVoltageWarning": {
+        "message": "電圧が警告値を下回ったときに通知を表示"
+    },
+    "osdTextElementArmed": {
+        "message": "アーム",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementArmed": {
         "message": "アームメッセージ"
     },
+    "osdTextElementDisarmed": {
+        "message": "ディスアーム",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementDisarmed": {
         "message": "ディスアームメッセージ"
+    },
+    "osdTextElementCrosshairs": {
+        "message": "十字線",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementCrosshairs": {
         "message": "画面中央クロスマーク"
     },
+    "osdTextElementArtificialHorizon": {
+        "message": "水平線",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementArtificialHorizon": {
         "message": "水平表示"
+    },
+    "osdTextElementHorizonSidebars": {
+        "message": "水平サイドバー",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementHorizonSidebars": {
         "message": "ピッチ表示"
     },
+    "osdTextElementCurrentDraw": {
+        "message": "バッテリー瞬間電流値",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCurrentDraw": {
         "message": "瞬間電流量"
     },
+    "osdTextElementMahDrawn": {
+        "message": "バッテリー総容量",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementMahDrawn": {
         "message": "使用バッテリー総容量"
+    },
+    "osdTextElementCraftName": {
+        "message": "機体名",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementCraftName": {
         "message": "[設定] タブで設定した機体名"
@@ -3724,29 +3779,79 @@
     "osdDescElementOnTime": {
         "message": "電源投入からの経過時間"
     },
+    "osdTextElementFlyTime": {
+        "message": "飛行時間",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementFlyTime": {
         "message": "アーム後の経過時間 (アラーム値を超えると点滅)"
+    },
+    "osdTextElementFlyMode": {
+        "message": "フライトモード",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementFlyMode": {
         "message": "現在のフライトモード"
     },
+    "osdTextElementGPSSpeed": {
+        "message": "GPS 速度",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementGPSSpeed": {
         "message": "GPSによる速度"
+    },
+    "osdTextElementGPSSats": {
+        "message": "GPS 衛星数",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementGPSSats": {
         "message": "GPSの有効衛星数"
     },
+    "osdTextElementGPSLon": {
+        "message": "GPS 経度",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementGPSLon": {
+        "message": "GPS 経度座標"
+    },
+    "osdTextElementGPSLat": {
+        "message": "GPS 緯度",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementGPSLat": {
+        "message": "GPS 緯度座標"
+    },
+    "osdTextElementDebug": {
+        "message": "デバッグ",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementDebug": {
         "message": "デバッグ変数"
+    },
+    "osdTextElementPIDRoll": {
+        "message": "PID ロール",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDRoll": {
         "message": "ロール軸 PIDゲイン"
     },
+    "osdTextElementPIDPitch": {
+        "message": "PID ピッチ",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDPitch": {
         "message": "ピッチ軸 PIDゲイン"
     },
+    "osdTextElementPIDYaw": {
+        "message": "PID ヨー",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDYaw": {
         "message": "ヨー軸 PIDゲイン"
+    },
+    "osdTextElementPower": {
+        "message": "電源",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPower": {
         "message": "瞬間電力消費量"
@@ -3786,14 +3891,30 @@
     "osdDescElementRollAngle": {
         "message": "ロール角度値"
     },
+    "osdTextElementMainBattUsage": {
+        "message": "バッテリー使用量",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementMainBattUsage": {
         "message": "バッテリー容量の使用状況をグラフ表示"
+    },
+    "osdTextElementArmedTime": {
+        "message": "タイマー: アーム後 経過時間",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementArmedTime": {
         "message": "機体が最後にアームしてからの時間"
     },
+    "osdTextElementHomeDirection": {
+        "message": "ホームへの方向",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementHomeDirection": {
         "message": "ホームポジション方向を示す矢印"
+    },
+    "osdTextElementHomeDistance": {
+        "message": "ホームまでの距離",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementHomeDistance": {
         "message": "ホームポジションまでの距離 (設定に基づいたフィートまたはメートル表示)"
@@ -4005,26 +4126,60 @@
     "osdWarningCoreTemperature": {
         "message": "MCUコア温度が設定されたしきい値を超えたときに警告"
     },
+    "osdWarningTextRcSmoothingFailure": {
+        "message": "RC Smoothing 不良",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningRcSmoothingFailure": {
         "message": "RCスムージングの初期化に失敗した場合に警告"
     },
     "osdWarningFailsafe": {
         "message": "フェイルセーフ発生時に警告"
     },
+    "osdWarningTextLaunchControl": {
+        "message": "ローンチコントロール",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningLaunchControl": {
-        "message": "起動制御モードが有効となったときの警告"
+        "message": "ローンチコントロールモードが有効となったときの警告"
+    },
+    "osdWarningTextGpsRescueUnavailable": {
+        "message": "GPSレスキュー利用不可",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningGpsRescueUnavailable": {
         "message": "GPS レスキューが利用できず、有効にならないときに警告"
     },
+    "osdWarningTextGpsRescueDisabled": {
+        "message": "GPSレスキュー無効",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningGpsRescueDisabled": {
         "message": "GPS レスキューが無効な場合に警告"
+    },
+    "osdWarningTextRSSI": {
+        "message": "RSSI",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningRSSI": {
         "message": "RSSIがアラーム設定を下回ったときの警告"
     },
+    "osdWarningTextLinkQuality": {
+        "message": "リンク品質",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningLinkQuality": {
         "message": "送受信品質がアラーム設定を下回ったときの警告"
+    },
+    "osdWarningTextRssiDbm": {
+        "message": "RSSI dBm",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
+    "osdWarningRssiDbm": {
+        "message": "RSSI dBm値がアラーム設定を下回ったときの警告"
+    },
+    "osdWarningTextUnknown": {
+        "message": "不明 $1"
     },
     "osdWarningUnknown": {
         "message": "原因不明の警告 (詳細は今後のリリースで対応予定)"
