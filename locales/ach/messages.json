@@ -4676,5 +4676,8 @@
     },
     "cliAutoComplete": {
         "message": "crwdns9100:0crwdne9100:0"
+    },
+    "darkTheme": {
+        "message": "crwdns9408:0crwdne9408:0"
     }
 }
