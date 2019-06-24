@@ -758,6 +758,10 @@
         "message": "Prekidač za GPS spašavanje je aktiviran",
         "description": "Description of the RESC arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
+        "message": "Promjena zahtijeva ponovno pokretanja",
+        "description": "Description of the REBOOT_REQD arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "Jedna od drugih disarm zastavica je aktivna kod arminga",
         "description": "Description of the ARM_SWITCH arming disable flag"
@@ -1730,6 +1734,9 @@
     },
     "auxiliaryModeLogicAND": {
         "message": "I"
+    },
+    "adjustmentsExamples": {
+        "message": "Primjeri:"
     },
     "adjustmentsColumnEnable": {
         "message": "Ako je omogućeno"
@@ -3520,8 +3527,28 @@
     "osdSetupVideoFormatTitle": {
         "message": "Video format"
     },
+    "osdSetupVideoFormatOptionAuto": {
+        "message": "Auto",
+        "description": "Option for the video format in the OSD"
+    },
+    "osdSetupVideoFormatOptionPal": {
+        "message": "PAL",
+        "description": "Option for the video format in the OSD"
+    },
+    "osdSetupVideoFormatOptionNtsc": {
+        "message": "NTSC",
+        "description": "Option for the video format in the OSD"
+    },
     "osdSetupUnitsTitle": {
         "message": "Mjerne jedinice"
+    },
+    "osdSetupUnitsOptionImperial": {
+        "message": "Imperijalni",
+        "description": "Option for the units system used in the OSD"
+    },
+    "osdSetupUnitsOptionMetric": {
+        "message": "Metrički",
+        "description": "Option for the units system used in the OSD"
     },
     "osdSetupTimersTitle": {
         "message": "Tajmeri"
@@ -3617,143 +3644,373 @@
     "osdSetupButtonReset": {
         "message": "Resetiraj postavke"
     },
+    "osdTextElementMainBattVoltage": {
+        "message": "Napon baterije",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementMainBattVoltage": {
         "message": "Trenutačni napon baterije (treperi kad je ispod praga alarma)"
+    },
+    "osdTextElementRssiValue": {
+        "message": "RSSI vrijednost",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRssiValue": {
         "message": "Trenutačna vrijednost RSSI-a (treperi kad je ispod praga alarma)"
     },
+    "osdTextElementTimer": {
+        "message": "Tajmer",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementTimer": {
+        "message": "Tajmer leta"
+    },
+    "osdTextElementThrottlePosition": {
+        "message": "Pozicija gasa\/throttlea",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementThrottlePosition": {
         "message": "Trenutna vrijednost kanala gasa"
+    },
+    "osdTextElementCpuLoad": {
+        "message": "CPU opterećenje",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementCpuLoad": {
+        "message": "Trenutno opterećenje CPU"
+    },
+    "osdTextElementVtxChannel": {
+        "message": "VTX kanal",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementVtxChannel": {
+        "message": "Trenutni VTX kanal i snaga"
+    },
+    "osdTextElementVoltageWarning": {
+        "message": "Upozorenje napona baterije",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementVoltageWarning": {
+        "message": "Prikazuje upozorenje kad je napon ispod razine za alarm"
+    },
+    "osdTextElementArmed": {
+        "message": "Armiran",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementArmed": {
         "message": "Tekstualna poruka arminga"
     },
+    "osdTextElementDisarmed": {
+        "message": "Disarmiran",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementDisarmed": {
         "message": "Tekstualna poruka disarminga"
+    },
+    "osdTextElementCrosshairs": {
+        "message": "Ciljnik",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementCrosshairs": {
         "message": "Sredina prikaza crosshaira"
     },
+    "osdTextElementArtificialHorizon": {
+        "message": "Umjetni horizont",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementArtificialHorizon": {
         "message": "Indikator grafičkog umjetnog horizonta"
+    },
+    "osdTextElementHorizonSidebars": {
+        "message": "Stupci umjetnog horizonta",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementHorizonSidebars": {
         "message": "Stupci oko indikatora umjetnog horizonta"
     },
+    "osdTextElementCurrentDraw": {
+        "message": "Struja baterije",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCurrentDraw": {
         "message": "Trenutačna struja baterije"
+    },
+    "osdTextElementMahDrawn": {
+        "message": "Potrošena struja baterije",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMahDrawn": {
         "message": "Ukupno potrošen kapacitet baterije"
     },
+    "osdTextElementCraftName": {
+        "message": "Naziv letjelice",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCraftName": {
         "message": "Ime letjelice postavljeno u kartici Konfiguracija"
+    },
+    "osdTextElementAltitude": {
+        "message": "Visina",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementAltitude": {
         "message": "Trenutna visina (treperi kad je iznad praga alarma)"
     },
+    "osdTextElementOnTime": {
+        "message": "Vrijeme uključenosti",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementOnTime": {
         "message": "Ukupno vrijeme koje je letjelica uključena"
+    },
+    "osdTextElementFlyTime": {
+        "message": "Vrijeme leta",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementFlyTime": {
         "message": "Ukupno vrijeme koje je letjelica armana u trenutnom ciklusu (treperi kad je iznad praga alarma)"
     },
+    "osdTextElementFlyMode": {
+        "message": "Načina rada",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementFlyMode": {
         "message": "Trenutni mod leta"
+    },
+    "osdTextElementGPSSpeed": {
+        "message": "GPS brzina",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementGPSSpeed": {
         "message": "GPS brzina"
     },
+    "osdTextElementGPSSats": {
+        "message": "GPS sateliti",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementGPSSats": {
         "message": "Broj satelita koji određuju GPS lokaciju"
+    },
+    "osdTextElementGPSLon": {
+        "message": "GPS dužina",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementGPSLon": {
+        "message": "GPS koordinate dužine"
+    },
+    "osdTextElementGPSLat": {
+        "message": "GPS širina",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementGPSLat": {
+        "message": "GPS koordinate širine"
+    },
+    "osdTextElementDebug": {
+        "message": "Debugiranje",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementDebug": {
         "message": "Debug varijable"
     },
+    "osdTextElementPIDRoll": {
+        "message": "PID roll",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDRoll": {
         "message": "Roll os PID gainovi"
+    },
+    "osdTextElementPIDPitch": {
+        "message": "PID pitch",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDPitch": {
         "message": "Pitch os PID gainovi"
     },
+    "osdTextElementPIDYaw": {
+        "message": "PID yaw",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDYaw": {
         "message": "Yaw os PID gainovi"
+    },
+    "osdTextElementPower": {
+        "message": "Snaga",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPower": {
         "message": "Trenutačna potrošnja električne energije"
     },
+    "osdTextElementPIDRateProfile": {
+        "message": "Profil: PID i rateprofil",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDRateProfile": {
         "message": "Numerički prikaz aktivnog PID i rate profila"
+    },
+    "osdTextElementBatteryWarning": {
+        "message": "Upozorenje o bateriji",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementBatteryWarning": {
         "message": "Tekst upozorenja koji se pojavljuje kad napon baterije padne ispon praga upozorenja"
     },
+    "osdTextElementAvgCellVoltage": {
+        "message": "Prosječni napon čelije baterije",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementAvgCellVoltage": {
         "message": "Prosječni napon čelija (napon baterije\/ broj čelija)"
+    },
+    "osdTextElementPitchAngle": {
+        "message": "Kut: pitch",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPitchAngle": {
         "message": "Brojčani kut pitcha u stupnjevima"
     },
+    "osdTextElementRollAngle": {
+        "message": "Kut: roll",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementRollAngle": {
         "message": "Brojčani kut roll-a u stupnjevima"
+    },
+    "osdTextElementMainBattUsage": {
+        "message": "Iskorištenost baterije",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMainBattUsage": {
         "message": "Grafička reprezentacija potrošenosti baterije"
     },
+    "osdTextElementArmedTime": {
+        "message": "Tajmer: armirano vrijeme",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementArmedTime": {
         "message": "Vrijeme otkada je letjelica armana"
+    },
+    "osdTextElementHomeDirection": {
+        "message": "Smjer prema kući",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementHomeDirection": {
         "message": "Strelica koja pokazuje lokaciju kuće"
     },
+    "osdTextElementHomeDistance": {
+        "message": "Smjer prema kući",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementHomeDistance": {
         "message": "Udaljenost od pozicije kuće (u stopama ili metrima ovisno o postavci mjernih jedinica)"
+    },
+    "osdTextElementNumericalHeading": {
+        "message": "Brojčani smjer",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementNumericalHeading": {
         "message": "Brojčani ispis trenutnog smjera u stupnjevima"
     },
+    "osdTextElementNumericalVario": {
+        "message": "Brojčani variometar",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementNumericalVario": {
         "message": "Brojčani ispis vertikalne brzine (u stopama ili metrima ovisno o postavci mjernih jedinica)"
+    },
+    "osdTextElementCompassBar": {
+        "message": "Kompas traka",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementCompassBar": {
         "message": "Grafička traka kompasa koja prikazuje trenutačni smjer"
     },
+    "osdTextElementWarnings": {
+        "message": "Upozorenja",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementWarnings": {
         "message": "Obavijesti (npr. prazna baterija), upozorenja(npr. razlozi nemogućnosti arminga, kritična baterija) i visualni beeper (4 trepteće zvjezdice)."
+    },
+    "osdTextElementEscTemperature": {
+        "message": "ESC temperatura",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementEscTemperature": {
         "message": "Temperatura koju prijavljuje ESC telemetrija"
     },
+    "osdTextElementEscRpm": {
+        "message": "ESC RPM",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementEscRpm": {
         "message": "RPM koji prijavljuje ESC telemetrija"
+    },
+    "osdTextElementRemaningTimeEstimate": {
+        "message": "Tajmer: predviđeno preostalo vrijeme",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRemaningTimeEstimate": {
         "message": "Očekivano preostalo vrijeme leta"
     },
+    "osdTextElementRtcDateTime": {
+        "message": "RTC datum i vrijeme",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementRtcDateTime": {
         "message": "Stvarno vrijeme \/ datum"
+    },
+    "osdTextElementAdjustmentRange": {
+        "message": "Raspon prilagodbe",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementAdjustmentRange": {
         "message": "Trenutno aktivni raspon prilagodba postavki i vrijednosti"
     },
+    "osdTextElementTimer1": {
+        "message": "Tajmer 1",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementTimer1": {
         "message": "Prikazuje vrijednost tajmera 1"
+    },
+    "osdTextElementTimer2": {
+        "message": "Tajmer 2",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementTimer2": {
         "message": "Prikazuje vrijednost tajmera 2"
     },
+    "osdTextElementCoreTemperature": {
+        "message": "Temperatura procesora",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCoreTemperature": {
         "message": "Temperatura STM32 MCU jezgre"
+    },
+    "osdTextAntiGravity": {
+        "message": "Anti Gravity",
+        "description": "One of the elements of the OSD"
     },
     "osdDescAntiGravity": {
         "message": "Omogućuje indikator aktivacije Anti-Gravityja"
     },
+    "osdTextGForce": {
+        "message": "G sila",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescGForce": {
         "message": "Prikazuje G silu letjelice"
     },
+    "osdTextElementMotorDiag": {
+        "message": "Dijagnostika motora",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementMotorDiag": {
         "message": "Prikazuje graf poslanih upravljačkih signala za svaki motor"
+    },
+    "osdTextElementLogStatus": {
+        "message": "Stanje zapisa crne kutije",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementLogStatus": {
         "message": "Broj crne kutije i upozorenja"
@@ -3761,8 +4018,16 @@
     "osdDescElementFlipArrow": {
         "message": "Strelica koja pokazuje koji motori su u 'turtle' načinu rada"
     },
+    "osdTextElementLinkQuality": {
+        "message": "Kvaliteta veze",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementLinkQuality": {
         "message": "Alternativni indikator za kvalitetu veze baziran na gubitku paketa - koristite s oprezom"
+    },
+    "osdTextElementFlightDist": {
+        "message": "Pređena udaljenost",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementFlightDist": {
         "message": "Udaljenost pređena tijekom ovog leta."
@@ -3773,20 +4038,51 @@
     "osdDescElementStickOverlayRight": {
         "message": "Overlay za poziciju desne palice stanice\/transmittera."
     },
+    "osdTextElementDisplayName": {
+        "message": "Prikazani naziv",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementDisplayName": {
         "message": "Prikaži naziv koji je postavljen u CLI komandi \"display_name\""
+    },
+    "osdTextElementEscRpmFreq": {
+        "message": "ESC RPM frekvencija",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementEscRpmFreq": {
         "message": "RPM frekvencija koju prijavljuje ESC telemetrija"
     },
+    "osdTextElementRateProfileName": {
+        "message": "Profil: naziv rateprofila",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementRateProfileName": {
         "message": "Prikazuje trenutno ime rateprofila"
+    },
+    "osdTextElementPidProfileName": {
+        "message": "Profil: naziv PID profila",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPidProfileName": {
         "message": "Prikazuje trenutno ime PID profila"
     },
+    "osdTextElementOsdProfileName": {
+        "message": "Profil: naziv OSD profila",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementOsdProfileName": {
         "message": "OSD ime profila kao što je postavljeno u \"osd_profile_1_name\", \"osd_profile_2_name\" i \"osd_profile_3_name\" CLI varijablama"
+    },
+    "osdTextElementRssiDbmValue": {
+        "message": "RSSI dBm vrijednost",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementRssiDbmValue": {
+        "message": "Vrijednost u dBm RSSI signala ako je dostupna"
+    },
+    "osdTextElementUnknown": {
+        "message": "Nepoznato $1",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementUnknown": {
         "message": "Nepoznati element (detalji će biti dodani u budućim verzijama)"
@@ -3881,11 +4177,35 @@
     "osdTimerSourceTooltip": {
         "message": "Određuje izvor tajmera, ovo kontrolira trajanje\/događaj koji tajmjer mjeri"
     },
+    "osdTimerSourceOptionOnTime": {
+        "message": "Vrijeme uključenosti",
+        "description": "One of the options for the source timer. This options shows the amount of time has passed since the battery was plugged"
+    },
+    "osdTimerSourceOptionTotalArmedTime": {
+        "message": "Ukupno armirano vrijeme",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed since the battery was plugged"
+    },
+    "osdTimerSourceOptionLastArmedTime": {
+        "message": "Posljednje vrijeme arminga",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed the latest time"
+    },
     "osdTimerPrecision": {
         "message": "Točnost:"
     },
     "osdTimerPrecisionTooltip": {
         "message": "Odaberite točnost tajmera, ovo određuje koja je preciznost prikazanog vremena"
+    },
+    "osdTimerPrecisionOptionSecond": {
+        "message": "Sekunda",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionHundredth": {
+        "message": "Stotinka",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionTenth": {
+        "message": "Desetinka",
+        "description": "Selectable option for the precision of the timer in the OSD"
     },
     "osdTimerAlarm": {
         "message": "Alarmi:"
@@ -3893,17 +4213,49 @@
     "osdTimerAlarmTooltip": {
         "message": "Odaberite prag alarma tajmera u minutama, kada vrijeme pređe tu vrijednost OSD element će treperiti, postavljanje ovo na 0 onemogućava alarm"
     },
+    "osdTimerAlarmOptionRssi": {
+        "message": "RSSI",
+        "description": "Text of the RSSI alarm"
+    },
+    "osdTimerAlarmOptionCapacity": {
+        "message": "Kapacitet",
+        "description": "Text of the capacity alarm"
+    },
+    "osdTimerAlarmOptionAltitude": {
+        "message": "Visina",
+        "description": "Text of the altitude alarm"
+    },
+    "osdWarningTextArmingDisabled": {
+        "message": "Arming onemogućen",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningArmingDisabled": {
         "message": "Prijavljuje najvažniji razlog kod nemogućnosti armiranja"
+    },
+    "osdWarningTextBatteryNotFull": {
+        "message": "Baterija nije puna",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningBatteryNotFull": {
         "message": "Upozorava kada je spojena baterija koja nije posve napunjena"
     },
+    "osdWarningTextBatteryWarning": {
+        "message": "Upozorenje o bateriji",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningBatteryWarning": {
         "message": "Upozorava kada je napon baterije ispod praga upozorenja"
     },
+    "osdWarningTextBatteryCritical": {
+        "message": "Baterija kritična",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningBatteryCritical": {
         "message": "Upozorava kada je napon baterije ispod minmalnog napona po čeliji"
+    },
+    "osdWarningTextVisualBeeper": {
+        "message": "Vizualni beeper",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningVisualBeeper": {
         "message": "Prikazuje vizualizaciju beepera s 4 zvjezdice"
@@ -3911,8 +4263,16 @@
     "osdWarningCrashFlipMode": {
         "message": "Upozorava kada je aktivan način rada za prevrtanje poslije pada"
     },
+    "osdWarningTextEscFail": {
+        "message": "ESC pogreška",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningEscFail": {
         "message": "Daje popis s ESCovima\/motorima koji imaju grešku (RPM ili temperatura su van konfiguriranih pragova)"
+    },
+    "osdWarningTextCoreTemperature": {
+        "message": "Temperatura procesora",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningCoreTemperature": {
         "message": "Upozorava kad je temperatura MCU jezgre iznad konfiguriranog praga"
@@ -3920,23 +4280,53 @@
     "osdWarningRcSmoothingFailure": {
         "message": "Upozorava kad je inicijalizacija RC poravnavanja neuspješna"
     },
+    "osdWarningTextFailsafe": {
+        "message": "Failsafe",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningFailsafe": {
         "message": "Upozorava kad se dogodi failsafe"
     },
     "osdWarningLaunchControl": {
         "message": "Upozorava kada je aktiviran Launch Control"
     },
+    "osdWarningTextGpsRescueUnavailable": {
+        "message": "GPS Rescue onemogućen",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningGpsRescueUnavailable": {
         "message": "Upozorava kad je GPS spašavanje nedostupno i ne može biti aktivirano"
+    },
+    "osdWarningTextGpsRescueDisabled": {
+        "message": "GPS Rescue onemogućen",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningGpsRescueDisabled": {
         "message": "Upozorava kad je GPS spašavanje onemogućeno"
     },
+    "osdWarningTextRSSI": {
+        "message": "RSSI",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningRSSI": {
         "message": "Upozori kad je RSSI ispod praga za alarm"
     },
+    "osdWarningTextLinkQuality": {
+        "message": "Kvaliteta veze",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningLinkQuality": {
         "message": "Upozori kad je kvaliteta veze ispod postavljene razine za alarm"
+    },
+    "osdWarningTextRssiDbm": {
+        "message": "RSSI dBm",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
+    "osdWarningRssiDbm": {
+        "message": "Upozorava kada je RSSI dBm vrijednost ispod razine za alarm"
+    },
+    "osdWarningTextUnknown": {
+        "message": "Nepoznato $1"
     },
     "osdWarningUnknown": {
         "message": "Nepoznato upozorenje(detalji će biti dodani u budućim verzijama)"
@@ -4165,5 +4555,8 @@
     },
     "cliAutoComplete": {
         "message": "Napredno CLI samodovršavanje"
+    },
+    "darkTheme": {
+        "message": "Omogući tamni izgled"
     }
 }
