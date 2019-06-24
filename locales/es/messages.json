@@ -4602,5 +4602,8 @@
     },
     "cliAutoComplete": {
         "message": "AutoCompletar CLI Avanzado"
+    },
+    "darkTheme": {
+        "message": "Activar tema oscuro"
     }
 }
