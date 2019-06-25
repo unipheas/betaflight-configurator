@@ -4602,5 +4602,8 @@
     },
     "cliAutoComplete": {
         "message": "고급 CLI 자동완성"
+    },
+    "darkTheme": {
+        "message": "어두운 테마 사용"
     }
 }
