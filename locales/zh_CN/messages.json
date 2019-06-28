@@ -1735,6 +1735,9 @@
     "auxiliaryModeLogicAND": {
         "message": "和"
     },
+    "adjustmentsHelp": {
+        "message": "配置调整开关。详细信息请参阅手册中的“飞行中调整”章节。通过该调整功能所进行的更改将不会被自动保存。"
+    },
     "adjustmentsExamples": {
         "message": "示例："
     },
