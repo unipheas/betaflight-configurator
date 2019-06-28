@@ -3229,9 +3229,6 @@
     "powerBatteryWarning": {
         "message": "警告单芯电压"
     },
-    "powerCalibrationManagerNote": {
-        "message": "<strong>注意：<\/strong>在校准缩放之前，请确保电压和电流漂移的除数和乘数设置正确。<br>将值设置为0将不会应用校准。<\/br><strong>切记在插入电池之前移除螺旋桨！<\/strong>"
-    },
     "powerCalibrationConfirmHelp": {
         "message": "这里显示新的校准放缩表。<br>应用它们将会设置缩放但<strong>并不会保存<\/strong>。<\/br> <br>在保存之后，请确保新的电压和电流读数正确。<\/br>"
     },
