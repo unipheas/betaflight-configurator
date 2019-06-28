@@ -1188,7 +1188,7 @@
         "message": "串行数字接收机协议"
     },
     "configurationSpiRX": {
-        "message": "SPI 总线接口接收机提供者"
+        "message": "SPI 总线接口接收机协议"
     },
     "configurationEepromSaved": {
         "message": "EEPROM <span class=\"message-positive\">已保存<\/span>"
