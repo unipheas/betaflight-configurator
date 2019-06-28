@@ -3719,7 +3719,7 @@
         "message": "黑匣子空间使用百分比"
     },
     "osdDescStatEndBattery": {
-        "message": "解锁时电池电压"
+        "message": "锁定时电池电压"
     },
     "osdDescStatFlyTime": {
         "message": "解锁总时间"
