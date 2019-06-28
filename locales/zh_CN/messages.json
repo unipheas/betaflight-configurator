@@ -3524,7 +3524,7 @@
         "description": "Content of the selector for the OSD Profile in the preview"
     },
     "osdSetupPreviewSelectFontElement": {
-        "message": "字体{{fontName}}",
+        "message": "字体 {{fontName}}",
         "description": "Content of the selector for the OSD Font in the preview"
     },
     "osdSetupVideoFormatTitle": {
@@ -3900,14 +3900,14 @@
         "description": "One of the elements of the OSD"
     },
     "osdDescElementHomeDirection": {
-        "message": "指向起飞点的箭头 （啊~那是家的方向~~）"
+        "message": "指向起飞点的箭头"
     },
     "osdTextElementHomeDistance": {
         "message": "到起飞点的距离",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementHomeDistance": {
-        "message": "距离起飞点的距离"
+        "message": "距离起飞点的距离 (单位为英尺或米，取决于系统设置)"
     },
     "osdTextElementNumericalHeading": {
         "message": "数字式航向",
@@ -4047,14 +4047,14 @@
         "description": "One of the elements of the OSD"
     },
     "osdDescElementStickOverlayLeft": {
-        "message": "遥控器左摇杆的叠层位置"
+        "message": "遥控器左摇杆的浮层位置"
     },
     "osdTextElementStickOverlayRight": {
         "message": "摇杆右浮层",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementStickOverlayRight": {
-        "message": "遥控器右摇杆的叠层位置"
+        "message": "遥控器右摇杆的浮层位置"
     },
     "osdTextElementDisplayName": {
         "message": "显示名称",
