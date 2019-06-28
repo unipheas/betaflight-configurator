@@ -1735,6 +1735,9 @@
     "auxiliaryModeLogicAND": {
         "message": "和"
     },
+    "adjustmentsExamples": {
+        "message": "示例："
+    },
     "adjustmentsColumnEnable": {
         "message": "如果激活"
     },
@@ -2175,6 +2178,12 @@
     },
     "cliInfo": {
         "message": "<strong>注意：<\/strong>退出CLI菜单或者点击断开连接将自动向飞控<strong><\/strong>发送“<strong>退出<\/strong>”指令。在最新的固件中这将使飞控<strong>重启<\/strong>并且未保存的设置将会<strong>丢失<\/strong>。<p><strong><span class=\"message-negative\">警告：<\/span><\/strong>CLI中的某些命令可能导致电机输出引脚发出随机指令。如果连接电池，这有可能导致电机旋转。因此，强烈建议<strong>在CLI中输入命令之前确保未连接电池<\/strong>。"
+    },
+    "cliInputPlaceholder": {
+        "message": "在这里输入你的命令。按 Tab 可以进行自动填充。"
+    },
+    "cliInputPlaceholderBuilding": {
+        "message": "正在构建“自动填充”缓存，请稍候……"
     },
     "cliEnter": {
         "message": "检测到命令行模式"
@@ -3694,14 +3703,30 @@
     "osdDescElementArmed": {
         "message": "解锁文字提示"
     },
+    "osdTextElementDisarmed": {
+        "message": "已上锁",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementDisarmed": {
         "message": "锁定文字提示"
+    },
+    "osdTextElementCrosshairs": {
+        "message": "十字准星",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementCrosshairs": {
         "message": "屏幕中间的十字光标"
     },
+    "osdTextElementArtificialHorizon": {
+        "message": "模拟地平线",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementArtificialHorizon": {
         "message": "图形化模拟地平线"
+    },
+    "osdTextElementHorizonSidebars": {
+        "message": "模拟地平线侧标尺",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementHorizonSidebars": {
         "message": "模拟地平线旁边显示的边栏"
@@ -3712,6 +3737,10 @@
     },
     "osdDescElementCurrentDraw": {
         "message": "实时电流"
+    },
+    "osdTextElementMahDrawn": {
+        "message": "电池已消耗毫安数",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMahDrawn": {
         "message": "累计已用电池容量"
@@ -3954,41 +3983,121 @@
     "osdDescElementTimer2": {
         "message": "显示计时器2"
     },
+    "osdTextElementCoreTemperature": {
+        "message": "核心温度",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCoreTemperature": {
         "message": "显示飞控主芯片温度"
+    },
+    "osdTextAntiGravity": {
+        "message": "反重力",
+        "description": "One of the elements of the OSD"
     },
     "osdDescAntiGravity": {
         "message": "当反重力功能激活时显示指示器"
     },
+    "osdTextGForce": {
+        "message": "重力加速度",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescGForce": {
         "message": "显示当前飞机所受的地心引力"
+    },
+    "osdTextElementMotorDiag": {
+        "message": "电机诊断",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMotorDiag": {
         "message": "显示每个电机输出的图表"
     },
+    "osdTextElementLogStatus": {
+        "message": "黑盒日志状态",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementLogStatus": {
         "message": "黑匣子编号和警告"
+    },
+    "osdTextElementFlipArrow": {
+        "message": "反乌龟箭头",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementFlipArrow": {
         "message": "在乌龟模式中，箭头指示哪边的电机朝上"
     },
+    "osdTextElementLinkQuality": {
+        "message": "连接质量",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementLinkQuality": {
         "message": "基于帧丢失情况的“连接质量”的替代图标-请谨慎使用"
+    },
+    "osdTextElementFlightDist": {
+        "message": "飞行距离",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementFlightDist": {
         "message": "此次飞行中的飞行距离"
     },
+    "osdTextElementStickOverlayLeft": {
+        "message": "摇杆左浮层",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementStickOverlayLeft": {
         "message": "遥控器左摇杆的叠层位置"
+    },
+    "osdTextElementStickOverlayRight": {
+        "message": "摇杆右浮层",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementStickOverlayRight": {
         "message": "遥控器右摇杆的叠层位置"
     },
+    "osdTextElementDisplayName": {
+        "message": "显示名称",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementDisplayName": {
         "message": "由CLI命令\"display_name\"设置的显示名称"
     },
+    "osdTextElementEscRpmFreq": {
+        "message": "电调转速频率",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementEscRpmFreq": {
         "message": "电调回传电机转速频率"
+    },
+    "osdTextElementRateProfileName": {
+        "message": "配置文件：Rate 配置名称",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementRateProfileName": {
+        "message": "显示当前 Rate 配置名称"
+    },
+    "osdTextElementPidProfileName": {
+        "message": "配置文件：PID 配置名称",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "显示当前 PID 配置文件名称"
+    },
+    "osdTextElementOsdProfileName": {
+        "message": "配置文件：OSD 配置名称",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementOsdProfileName": {
+        "message": "在 CLI 中设置的 \"osd_profile_1_name\", \"osd_profile_2_name\" 和 \"osd_profile_3_name\" 所对应的OSD配置文件名称"
+    },
+    "osdTextElementRssiDbmValue": {
+        "message": "RSSI dBm 值",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementRssiDbmValue": {
+        "message": "RSSI 信号的 dBm 值 （如果可用）"
+    },
+    "osdTextElementUnknown": {
+        "message": "未知$1",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementUnknown": {
         "message": "未知参数"
@@ -4059,11 +4168,41 @@
     "osdDescStatMaxFFT": {
         "message": "FFT峰值频率"
     },
+    "osdDescStatTotalFlights": {
+        "message": "总飞行次数"
+    },
+    "osdDescStatTotalFlightTime": {
+        "message": "总飞行时间"
+    },
+    "osdDescStatTotalFlightDistance": {
+        "message": "总航行距离"
+    },
+    "osdDescribeFontVersion1": {
+        "message": "字体版本: 1 (Betaflight 4.0或更旧版本)"
+    },
+    "osdDescribeFontVersion2": {
+        "message": "字体版本: 2 (Betaflight 4.1或更新版本)"
+    },
+    "osdDescribeFontVersionCUSTOM": {
+        "message": "字库版本: 用户提供"
+    },
     "osdTimerSource": {
         "message": "来源："
     },
     "osdTimerSourceTooltip": {
         "message": "选择时钟源"
+    },
+    "osdTimerSourceOptionTotalArmedTime": {
+        "message": "总解锁时间",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed since the battery was plugged"
+    },
+    "osdTimerSourceOptionLastArmedTime": {
+        "message": "上次解锁时间",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed the latest time"
+    },
+    "osdTimerSourceOptionOnArmTime": {
+        "message": "启动\/解锁时间",
+        "description": "One of the options for the source timer. This option shows On time when craft is disarmed, and Armed time when armed"
     },
     "osdTimerPrecision": {
         "message": "精度："
@@ -4071,20 +4210,60 @@
     "osdTimerPrecisionTooltip": {
         "message": "选择计时器精度"
     },
+    "osdTimerPrecisionOptionSecond": {
+        "message": "第二",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionHundredth": {
+        "message": "第百",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionTenth": {
+        "message": "第十",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
     "osdTimerAlarm": {
         "message": "警报："
     },
     "osdTimerAlarmTooltip": {
         "message": "设置计时器警报时间（分钟）。当计时器时间大于设置时间，将会在OSD上面闪烁。设定为0可禁用报警。"
     },
+    "osdTimerAlarmOptionRssi": {
+        "message": "RSSI",
+        "description": "Text of the RSSI alarm"
+    },
+    "osdTimerAlarmOptionCapacity": {
+        "message": "容量",
+        "description": "Text of the capacity alarm"
+    },
+    "osdTimerAlarmOptionAltitude": {
+        "message": "海拔高度",
+        "description": "Text of the altitude alarm"
+    },
+    "osdWarningTextArmingDisabled": {
+        "message": "禁止解锁",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningArmingDisabled": {
         "message": "显示导致不能解锁最主要的原因"
+    },
+    "osdWarningTextBatteryNotFull": {
+        "message": "电池不满",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningBatteryNotFull": {
         "message": "当上电时检测到电池电量不满发出警告"
     },
+    "osdWarningTextBatteryWarning": {
+        "message": "电池警告",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningBatteryWarning": {
         "message": "当电池电压低于设置警报电压时发出警告"
+    },
+    "osdWarningTextBatteryCritical": {
+        "message": "电池电量危急",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningBatteryCritical": {
         "message": "当电池电压低于最小单芯电压时发出警告"
@@ -4092,29 +4271,85 @@
     "osdWarningVisualBeeper": {
         "message": "显示模拟蜂鸣器（表现为4个星号）"
     },
+    "osdWarningTextCrashFlipMode": {
+        "message": "反乌龟模式",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningCrashFlipMode": {
         "message": "当激活坠机模式又发生翻转时发出警告"
+    },
+    "osdWarningTextEscFail": {
+        "message": "ESC 通信失败",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningEscFail": {
         "message": "列举一个出现故障的ESCs\/电机的列表 (RPM 或温度超出配置的阈值)"
     },
+    "osdWarningTextCoreTemperature": {
+        "message": "核心温度",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningCoreTemperature": {
         "message": "当 MCU 核心温度超过配置的阈值时发出警告"
+    },
+    "osdWarningTextRcSmoothingFailure": {
+        "message": "RC 平滑失败",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningRcSmoothingFailure": {
         "message": "当 RC 平滑初始化失败时发出警告"
     },
+    "osdWarningTextFailsafe": {
+        "message": "失控保护",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningFailsafe": {
         "message": "发生失控保护时发出警告"
+    },
+    "osdWarningTextLaunchControl": {
+        "message": "起飞控制",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningLaunchControl": {
         "message": "起飞控制（Launch Control）模式被激活时发出警告"
     },
+    "osdWarningTextGpsRescueUnavailable": {
+        "message": "GPS 救援不可用",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningGpsRescueUnavailable": {
         "message": "当 GPS 救援不可用且无法激活时发出警告"
     },
+    "osdWarningTextGpsRescueDisabled": {
+        "message": "GPS 救援已禁用",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningGpsRescueDisabled": {
         "message": "GPS 救援被禁用时发出警告"
+    },
+    "osdWarningTextRSSI": {
+        "message": "RSSI",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
+    "osdWarningRSSI": {
+        "message": "当 RSSI 低于报警设置时发出警告"
+    },
+    "osdWarningTextLinkQuality": {
+        "message": "连接质量",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
+    "osdWarningLinkQuality": {
+        "message": "当连接质量（Link Quality）低于报警设置时发出警告"
+    },
+    "osdWarningTextRssiDbm": {
+        "message": "RSSI 分贝",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
+    "osdWarningRssiDbm": {
+        "message": "当 RSSI 分贝低于报警设置时发出警告"
+    },
+    "osdWarningTextUnknown": {
+        "message": "未知$1"
     },
     "osdWarningUnknown": {
         "message": "未知警告 (会在将来的版本中添加详细信息)"
@@ -4340,5 +4575,11 @@
     },
     "flashTab": {
         "message": "更新固件"
+    },
+    "cliAutoComplete": {
+        "message": "高级CLI自动填充"
+    },
+    "darkTheme": {
+        "message": "使用暗色主题"
     }
 }
