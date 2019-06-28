@@ -1738,8 +1738,17 @@
     "adjustmentsHelp": {
         "message": "配置调整开关。详细信息请参阅手册中的“飞行中调整”章节。通过该调整功能所进行的更改将不会被自动保存。"
     },
+    "adjustmentSlotsHelp": {
+        "message": "共有4个滑槽。同时进行调整时每个开关都需要配置专用滑槽。"
+    },
     "adjustmentsExamples": {
-        "message": "示例："
+        "message": "例如："
+    },
+    "adjustmentsExample1": {
+        "message": "使用AUX1通道上的三段开关在Pitch\/Roll的 P, I 和 D 之间选择，使用AUX2通道的三段开关来上下增大和减小数值（拨高，或拨低）。"
+    },
+    "adjustmentsExample2": {
+        "message": "使用AUX4通道上的三段开关来选择 Rate 配置文件"
     },
     "adjustmentsColumnEnable": {
         "message": "如果激活"
@@ -4005,7 +4014,7 @@
         "description": "One of the elements of the OSD"
     },
     "osdDescGForce": {
-        "message": "显示当前飞机所受的地心引力"
+        "message": "显示当前飞机所受G力"
     },
     "osdTextElementMotorDiag": {
         "message": "电机诊断",
