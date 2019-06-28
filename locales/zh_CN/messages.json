@@ -698,6 +698,10 @@
         "message": "已触发起飞防暴走模式",
         "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCRASH": {
+        "message": "检测到坠机事故",
+        "description": "Description of the CRASH arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "油门通道值过高",
         "description": "Description of the THROTTLE arming disable flag"
@@ -4204,6 +4208,10 @@
     "osdTimerSourceTooltip": {
         "message": "选择时钟源"
     },
+    "osdTimerSourceOptionOnTime": {
+        "message": "总上电时间",
+        "description": "One of the options for the source timer. This options shows the amount of time has passed since the battery was plugged"
+    },
     "osdTimerSourceOptionTotalArmedTime": {
         "message": "总解锁时间",
         "description": "One of the options for the source timer. This options shows the amount of time the craft was armed since the battery was plugged"
@@ -4279,6 +4287,10 @@
     },
     "osdWarningBatteryCritical": {
         "message": "当电池电压低于最小单芯电压时发出警告"
+    },
+    "osdWarningTextVisualBeeper": {
+        "message": "模拟蜂鸣器",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningVisualBeeper": {
         "message": "显示模拟蜂鸣器（表现为4个星号）"
