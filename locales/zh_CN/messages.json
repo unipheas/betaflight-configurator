@@ -4235,11 +4235,11 @@
         "description": "Selectable option for the precision of the timer in the OSD"
     },
     "osdTimerPrecisionOptionHundredth": {
-        "message": "第百",
+        "message": "百分之一秒",
         "description": "Selectable option for the precision of the timer in the OSD"
     },
     "osdTimerPrecisionOptionTenth": {
-        "message": "第十",
+        "message": "十分之一秒",
         "description": "Selectable option for the precision of the timer in the OSD"
     },
     "osdTimerAlarm": {
