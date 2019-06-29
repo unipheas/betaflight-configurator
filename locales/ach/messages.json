@@ -4267,6 +4267,9 @@
     "osdDescStatTotalFlightDistance": {
         "message": "crwdns9110:0crwdne9110:0"
     },
+    "osdDescStatMinRssiDbm": {
+        "message": "crwdns9410:0crwdne9410:0"
+    },
     "osdDescribeFontVersion1": {
         "message": "crwdns9140:0crwdne9140:0"
     },
