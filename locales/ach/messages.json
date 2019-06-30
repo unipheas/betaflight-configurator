@@ -4370,6 +4370,9 @@
     "osdDescStatMinRssiDbm": {
         "message": "crwdns9410:0crwdne9410:0"
     },
+    "osdDescStatUnknown": {
+        "message": "crwdns9462:0crwdne9462:0"
+    },
     "osdDescribeFontVersion1": {
         "message": "crwdns9140:0crwdne9140:0"
     },
