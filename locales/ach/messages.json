@@ -4192,77 +4192,177 @@
     "osdDescElementUnknown": {
         "message": "crwdns6276:0crwdne6276:0"
     },
+    "osdTextStatMaxSpeed": {
+        "message": "crwdns9412:0crwdne9412:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxSpeed": {
         "message": "crwdns6278:0crwdne6278:0"
+    },
+    "osdTextStatMinBattery": {
+        "message": "crwdns9414:0crwdne9414:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinBattery": {
         "message": "crwdns6279:0crwdne6279:0"
     },
+    "osdTextStatMinRssi": {
+        "message": "crwdns9416:0crwdne9416:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMinRssi": {
         "message": "crwdns6280:0crwdne6280:0"
+    },
+    "osdTextStatMaxCurrent": {
+        "message": "crwdns9418:0crwdne9418:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxCurrent": {
         "message": "crwdns6281:0crwdne6281:0"
     },
+    "osdTextStatUsedMah": {
+        "message": "crwdns9420:0crwdne9420:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatUsedMah": {
         "message": "crwdns6282:0crwdne6282:0"
+    },
+    "osdTextStatMaxAltitude": {
+        "message": "crwdns9422:0crwdne9422:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxAltitude": {
         "message": "crwdns6283:0crwdne6283:0"
     },
+    "osdTextStatBlackbox": {
+        "message": "crwdns9424:0crwdne9424:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatBlackbox": {
         "message": "crwdns6284:0crwdne6284:0"
+    },
+    "osdTextStatEndBattery": {
+        "message": "crwdns9426:0crwdne9426:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatEndBattery": {
         "message": "crwdns6285:0crwdne6285:0"
     },
+    "osdTextStatFlyTime": {
+        "message": "crwdns9428:0crwdne9428:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatFlyTime": {
         "message": "crwdns6286:0crwdne6286:0"
+    },
+    "osdTextStatArmedTime": {
+        "message": "crwdns9430:0crwdne9430:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatArmedTime": {
         "message": "crwdns6287:0crwdne6287:0"
     },
+    "osdTextStatMaxDistance": {
+        "message": "crwdns9432:0crwdne9432:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxDistance": {
         "message": "crwdns6288:0crwdne6288:0"
+    },
+    "osdTextStatBlackboxLogNumber": {
+        "message": "crwdns9434:0crwdne9434:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatBlackboxLogNumber": {
         "message": "crwdns6289:0crwdne6289:0"
     },
+    "osdTextStatTimer1": {
+        "message": "crwdns9436:0crwdne9436:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTimer1": {
         "message": "crwdns6290:0crwdne6290:0"
+    },
+    "osdTextStatTimer2": {
+        "message": "crwdns9438:0crwdne9438:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTimer2": {
         "message": "crwdns6291:0crwdne6291:0"
     },
+    "osdTextStatRtcDateTime": {
+        "message": "crwdns9440:0crwdne9440:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatRtcDateTime": {
         "message": "crwdns6292:0crwdne6292:0"
+    },
+    "osdTextStatBattery": {
+        "message": "crwdns9442:0crwdne9442:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatBattery": {
         "message": "crwdns8709:0crwdne8709:0"
     },
+    "osdTextStatGForce": {
+        "message": "crwdns9444:0crwdne9444:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatGForce": {
         "message": "crwdns8858:0crwdne8858:0"
+    },
+    "osdTextStatEscTemperature": {
+        "message": "crwdns9446:0crwdne9446:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatEscTemperature": {
         "message": "crwdns8866:0crwdne8866:0"
     },
+    "osdTextStatEscRpm": {
+        "message": "crwdns9448:0crwdne9448:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatEscRpm": {
         "message": "crwdns8867:0crwdne8867:0"
+    },
+    "osdTextStatMinLinkQuality": {
+        "message": "crwdns9450:0crwdne9450:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinLinkQuality": {
         "message": "crwdns8918:0crwdne8918:0"
     },
+    "osdTextStatFlightDistance": {
+        "message": "crwdns9452:0crwdne9452:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatFlightDistance": {
         "message": "crwdns8920:0crwdne8920:0"
+    },
+    "osdTextStatMaxFFT": {
+        "message": "crwdns9454:0crwdne9454:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxFFT": {
         "message": "crwdns8922:0crwdne8922:0"
     },
+    "osdTextStatTotalFlights": {
+        "message": "crwdns9456:0crwdne9456:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTotalFlights": {
         "message": "crwdns9106:0crwdne9106:0"
     },
+    "osdTextStatTotalFlightTime": {
+        "message": "crwdns9458:0crwdne9458:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTotalFlightTime": {
         "message": "crwdns9108:0crwdne9108:0"
+    },
+    "osdTextStatTotalFlightDistance": {
+        "message": "crwdns9460:0crwdne9460:0",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTotalFlightDistance": {
         "message": "crwdns9110:0crwdne9110:0"
