@@ -4193,6 +4193,9 @@
     "osdDescStatTotalFlightDistance": {
         "message": "总航行距离"
     },
+    "osdDescStatMinRssiDbm": {
+        "message": "最小 RSSI 分贝值"
+    },
     "osdDescribeFontVersion1": {
         "message": "字体版本: 1 (Betaflight 4.0或更旧版本)"
     },
