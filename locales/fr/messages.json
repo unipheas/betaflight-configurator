@@ -758,6 +758,10 @@
         "message": "Le bouton \"GPS Rescue\" a été activé",
         "description": "Description of the RESC arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipRPMFILTER": {
+        "message": "Le filtrage basé sur RPM est activé mais un ou plusieurs ESC ne fournissent pas de télémétrie DSHOT valide. Vérifiez que les ESC sont capables et ont le firmware requis installé pour supporter la télémétrie DSHOT bidirectionnelle.",
+        "description": "Description of the RPMFILTER arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
         "message": "Une modification de configuration nécessite un redémarrage",
         "description": "Description of the REBOOT_REQD arming disable flag"
@@ -3536,8 +3540,28 @@
     "osdSetupVideoFormatTitle": {
         "message": "Format vidéo"
     },
+    "osdSetupVideoFormatOptionAuto": {
+        "message": "Auto",
+        "description": "Option for the video format in the OSD"
+    },
+    "osdSetupVideoFormatOptionPal": {
+        "message": "PAL",
+        "description": "Option for the video format in the OSD"
+    },
+    "osdSetupVideoFormatOptionNtsc": {
+        "message": "NTSC",
+        "description": "Option for the video format in the OSD"
+    },
     "osdSetupUnitsTitle": {
         "message": "Unités"
+    },
+    "osdSetupUnitsOptionImperial": {
+        "message": "Impérial",
+        "description": "Option for the units system used in the OSD"
+    },
+    "osdSetupUnitsOptionMetric": {
+        "message": "Metrique",
+        "description": "Option for the units system used in the OSD"
     },
     "osdSetupTimersTitle": {
         "message": "Timers"
@@ -3602,6 +3626,9 @@
     },
     "osdSetupUploadingFont": {
         "message": "Téléversement en cours..."
+    },
+    "osdSetupUploadingFontEnd": {
+        "message": "Tous les caractères {{length}} ont été téléversés vers l'OSD"
     },
     "osdSetupSave": {
         "message": "Sauvegarder"
@@ -3745,6 +3772,10 @@
     "osdDescElementAltitude": {
         "message": "Altitude ( clignote quand le seuil d'alarme est atteint)"
     },
+    "osdTextElementOnTime": {
+        "message": "Temps de fonctionnement",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementOnTime": {
         "message": "Temps total depuis la mise en marche"
     },
@@ -3817,6 +3848,10 @@
     },
     "osdDescElementPIDYaw": {
         "message": "PID du Yaw"
+    },
+    "osdTextElementPower": {
+        "message": "Consommation",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPower": {
         "message": "Consommation instantanée"
@@ -4044,11 +4079,30 @@
     "osdDescElementRateProfileName": {
         "message": "Affiche le nom de profile rate actuel"
     },
+    "osdTextElementPidProfileName": {
+        "message": "Profil : Nom du profil PID",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPidProfileName": {
         "message": "Affiche le nom du profil PID actuel"
     },
+    "osdTextElementOsdProfileName": {
+        "message": "Profil : Nom du profil OSD",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementOsdProfileName": {
         "message": "Nom du profil OSD tel que défini dans les variables CLI \"osd_profile_1_name\", \"osd_profile_2_name\" et \"osd_profile_3_name\""
+    },
+    "osdTextElementRssiDbmValue": {
+        "message": "Valeur dBm RSSI",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementRssiDbmValue": {
+        "message": "Valeur RSSI du signal en dBm si disponible"
+    },
+    "osdTextElementUnknown": {
+        "message": "Inconnu $1",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementUnknown": {
         "message": "Éléments inconnus (détails devant être ajoutés dans le"
@@ -4143,11 +4197,39 @@
     "osdTimerSourceTooltip": {
         "message": "Sélectionnez la source du Timer, cela contrôle la durée \/ l'événement que le Timer mesure"
     },
+    "osdTimerSourceOptionOnTime": {
+        "message": "Temps de fonctionnement",
+        "description": "One of the options for the source timer. This options shows the amount of time has passed since the battery was plugged"
+    },
+    "osdTimerSourceOptionTotalArmedTime": {
+        "message": "Temps total armé",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed since the battery was plugged"
+    },
+    "osdTimerSourceOptionLastArmedTime": {
+        "message": "Dernière heure armée",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed the latest time"
+    },
+    "osdTimerSourceOptionOnArmTime": {
+        "message": "Temps Activé\/Armé",
+        "description": "One of the options for the source timer. This option shows On time when craft is disarmed, and Armed time when armed"
+    },
     "osdTimerPrecision": {
         "message": "Précision:"
     },
     "osdTimerPrecisionTooltip": {
         "message": "Sélectionnez la précision du Timer, cela contrôle à quelle précision le temps est indiqué dans"
+    },
+    "osdTimerPrecisionOptionSecond": {
+        "message": "Deuxième",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionHundredth": {
+        "message": "centièmes",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionTenth": {
+        "message": "dixièmes",
+        "description": "Selectable option for the precision of the timer in the OSD"
     },
     "osdTimerAlarm": {
         "message": "Alarme:"
@@ -4155,14 +4237,42 @@
     "osdTimerAlarmTooltip": {
         "message": "Sélectionnez le seuil de l'alarme du timer en minutes, lorsque le temps dépasse cette valeur, l'élément OSD clignote, le réglage à 0 désactive l'alarme"
     },
+    "osdTimerAlarmOptionRssi": {
+        "message": "RSSI",
+        "description": "Text of the RSSI alarm"
+    },
+    "osdTimerAlarmOptionCapacity": {
+        "message": "Capacité",
+        "description": "Text of the capacity alarm"
+    },
+    "osdTimerAlarmOptionAltitude": {
+        "message": "Altitude",
+        "description": "Text of the altitude alarm"
+    },
+    "osdWarningTextArmingDisabled": {
+        "message": "Armement désactivé",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningArmingDisabled": {
         "message": "Indique la raison la plus grave de ne pas armer"
+    },
+    "osdWarningTextBatteryNotFull": {
+        "message": "Accu entamé",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningBatteryNotFull": {
         "message": "Alerte lorsqu'une batterie n'est pas complètement chargée"
     },
+    "osdWarningTextBatteryWarning": {
+        "message": "Avertissement accu",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningBatteryWarning": {
         "message": "Alerte lorsque la tension de la batterie tombe en dessous du seuil d'avertissement"
+    },
+    "osdWarningTextBatteryCritical": {
+        "message": "Accu critique",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningBatteryCritical": {
         "message": "Alerte lorsque la tension de la batterie tombe en dessous de la tension minimale moyenne de la cellule"
