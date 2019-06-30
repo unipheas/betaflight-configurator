@@ -3884,6 +3884,10 @@
     "osdDescElementHomeDistance": {
         "message": "Distance par rapport à la base de départ"
     },
+    "osdTextElementNumericalHeading": {
+        "message": "En-tête numérique",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementNumericalHeading": {
         "message": "Cap actuel en degrés"
     },
@@ -3953,6 +3957,10 @@
     "osdDescElementTimer2": {
         "message": "Affiche la valeur du timer 2"
     },
+    "osdTextElementCoreTemperature": {
+        "message": "Température du noyau",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCoreTemperature": {
         "message": "Température du coeur du STM32 MCU"
     },
@@ -3977,20 +3985,44 @@
     "osdDescElementMotorDiag": {
         "message": "Affiche un graphique de la sortie de chaque moteur"
     },
+    "osdTextElementLogStatus": {
+        "message": "Statut du journal Blackbox",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementLogStatus": {
         "message": "Avertissements et numéros de Blackbox"
+    },
+    "osdTextElementFlipArrow": {
+        "message": "Indicateur Flip-after-crash",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementFlipArrow": {
         "message": "En mode tortue, flèche indiquant quels moteurs seront activés"
     },
+    "osdTextElementLinkQuality": {
+        "message": "Qualité du lien",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementLinkQuality": {
         "message": "Indicateur alternatif de 'qualité de la liaison' basée sur la perte de trame - à utiliser avec prudence"
+    },
+    "osdTextElementFlightDist": {
+        "message": "Distance parcourue en vol",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementFlightDist": {
         "message": "Distance parcourue au cours de ce vol."
     },
+    "osdTextElementStickOverlayLeft": {
+        "message": "Overlay du manche gauche",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementStickOverlayLeft": {
         "message": "Superpose la valeur du stick gauche de l'émetteur."
+    },
+    "osdTextElementStickOverlayRight": {
+        "message": "Overlay du manche droit",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementStickOverlayRight": {
         "message": "Superpose la valeur du stick droit de l'émetteur."
@@ -3998,8 +4030,16 @@
     "osdDescElementDisplayName": {
         "message": "Afficher le nom comme défini par la commande cli \"display_name\""
     },
+    "osdTextElementEscRpmFreq": {
+        "message": "Fréquence RPM ESC",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementEscRpmFreq": {
         "message": "Fréquence Trs\/min reportée par la télémétrie des ESC"
+    },
+    "osdTextElementRateProfileName": {
+        "message": "Profil : nom du profil de rate",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRateProfileName": {
         "message": "Affiche le nom de profile rate actuel"
@@ -4159,6 +4199,9 @@
     },
     "osdWarningLinkQuality": {
         "message": "Alerte lorsque la qualité de la liaison est inférieure à la valeur configurée"
+    },
+    "osdWarningRssiDbm": {
+        "message": "Avertissement lorsque la valeur RSSI en dBm est inférieure au paramètre alarme"
     },
     "osdWarningUnknown": {
         "message": "Avertissement inconnu (détails à ajouter dans une version ultérieure)"
