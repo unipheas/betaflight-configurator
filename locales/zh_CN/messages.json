@@ -4121,14 +4121,30 @@
     "osdDescStatMaxSpeed": {
         "message": "记录到的最大速度"
     },
+    "osdTextStatMinBattery": {
+        "message": "电池电压最小值",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMinBattery": {
         "message": "记录到的最低主电池电压"
+    },
+    "osdTextStatMinRssi": {
+        "message": "RSSI 最小值",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinRssi": {
         "message": "记录到的最小RSSI值"
     },
+    "osdTextStatMaxCurrent": {
+        "message": "电池电流最高值",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxCurrent": {
         "message": "记录到的最大电流"
+    },
+    "osdTextStatUsedMah": {
+        "message": "电池已使用毫安数",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatUsedMah": {
         "message": "已用电池容量"
