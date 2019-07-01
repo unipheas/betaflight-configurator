@@ -4118,6 +4118,10 @@
     "osdDescElementUnknown": {
         "message": "未知参数"
     },
+    "osdTextStatMaxSpeed": {
+        "message": "速度最大值",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxSpeed": {
         "message": "记录到的最大速度"
     },
@@ -4149,68 +4153,151 @@
     "osdDescStatUsedMah": {
         "message": "已用电池容量"
     },
+    "osdTextStatMaxAltitude": {
+        "message": "最大高度",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxAltitude": {
         "message": "记录到的最大高度"
+    },
+    "osdTextStatBlackbox": {
+        "message": "黑盒日志使用情况",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatBlackbox": {
         "message": "黑匣子空间使用百分比"
     },
+    "osdTextStatEndBattery": {
+        "message": "电池电压截止值",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatEndBattery": {
         "message": "锁定时电池电压"
+    },
+    "osdTextStatFlyTime": {
+        "message": "总飞行时间",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatFlyTime": {
         "message": "解锁总时间"
     },
+    "osdTextStatArmedTime": {
+        "message": "上次解锁总飞行时间",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatArmedTime": {
         "message": "距离上一次解锁时间"
+    },
+    "osdTextStatMaxDistance": {
+        "message": "距起飞点最大距离",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxDistance": {
         "message": "距离起飞位置最大距离"
     },
+    "osdTextStatBlackboxLogNumber": {
+        "message": "黑盒日志编号",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatBlackboxLogNumber": {
         "message": "黑匣子记录文件编号"
+    },
+    "osdTextStatTimer1": {
+        "message": "计时器1",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTimer1": {
         "message": "上锁时计时器1数值"
     },
+    "osdTextStatTimer2": {
+        "message": "计时器2",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTimer2": {
         "message": "上锁时计时器2数值"
+    },
+    "osdTextStatRtcDateTime": {
+        "message": "RTC日期和时间",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatRtcDateTime": {
         "message": "实时时钟时间日期"
     },
+    "osdTextStatBattery": {
+        "message": "电池电压",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatBattery": {
         "message": "电池实时电压"
+    },
+    "osdTextStatGForce": {
+        "message": "G力最大值",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatGForce": {
         "message": "飞行器经历的最大 G 力"
     },
+    "osdTextStatEscTemperature": {
+        "message": "电调温度最高值",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatEscTemperature": {
         "message": "电调最高温度"
+    },
+    "osdTextStatEscRpm": {
+        "message": "电调转速最大值",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatEscRpm": {
         "message": "电调最高转速"
     },
+    "osdTextStatMinLinkQuality": {
+        "message": "连接质量最小值",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMinLinkQuality": {
         "message": "基于帧丢失情况的“连接质量”的替代图标的最小值"
+    },
+    "osdTextStatFlightDistance": {
+        "message": "飞行距离",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatFlightDistance": {
         "message": "此次飞行中的总行程"
     },
+    "osdTextStatMaxFFT": {
+        "message": "FFT 最大值",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxFFT": {
         "message": "FFT峰值频率"
+    },
+    "osdTextStatTotalFlights": {
+        "message": "总飞行次数",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTotalFlights": {
         "message": "总飞行次数"
     },
+    "osdTextStatTotalFlightTime": {
+        "message": "总飞行时间",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTotalFlightTime": {
         "message": "总飞行时间"
+    },
+    "osdTextStatTotalFlightDistance": {
+        "message": "总飞行距离",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTotalFlightDistance": {
         "message": "总航行距离"
     },
     "osdDescStatMinRssiDbm": {
         "message": "最小 RSSI 分贝值"
+    },
+    "osdDescStatUnknown": {
+        "message": "未知统计 (会在将来的版本中添加详细信息)"
     },
     "osdDescribeFontVersion1": {
         "message": "字体版本: 1 (Betaflight 4.0或更旧版本)"
