@@ -4105,7 +4105,7 @@
         "message": "Nombre del perfil OSD tal como esté configurado en las variables CLI \"osd_profile_1_name\", \"osd_profile_2_name\" y \"osd_profile_3_name\""
     },
     "osdTextElementRssiDbmValue": {
-        "message": "RSSI: dBm value",
+        "message": "RSSI: valor dBm",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementRssiDbmValue": {
@@ -4154,7 +4154,7 @@
         "message": "Capacidad de batería usada"
     },
     "osdTextStatMaxAltitude": {
-        "message": "Altitud máxima",
+        "message": "Altitud: máxima",
         "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxAltitude": {
@@ -4266,14 +4266,14 @@
         "message": "Distancia total recorrida durante el vuelo"
     },
     "osdTextStatMaxFFT": {
-        "message": "FFT máxima",
+        "message": "FFT: máxima",
         "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxFFT": {
         "message": "Pico de frecuencia FFT"
     },
     "osdTextStatTotalFlights": {
-        "message": "Vuelos: contador total",
+        "message": "Vuelo: contador total",
         "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTotalFlights": {
