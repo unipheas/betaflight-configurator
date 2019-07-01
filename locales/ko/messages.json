@@ -4174,53 +4174,121 @@
     "osdDescStatEndBattery": {
         "message": "해제시 배터리 전압"
     },
+    "osdTextStatFlyTime": {
+        "message": "전체 비행 시간",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatFlyTime": {
         "message": "현재 전력 사이클에서 기체가 아밍된 총 시간"
+    },
+    "osdTextStatArmedTime": {
+        "message": "마지막 아밍된 비행 시간",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatArmedTime": {
         "message": "기체가 마지막으로 아밍된 이후 시간"
     },
+    "osdTextStatMaxDistance": {
+        "message": "홈 최대 거리",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxDistance": {
         "message": "홈 위치로부터 최대 거리"
+    },
+    "osdTextStatBlackboxLogNumber": {
+        "message": "블랙박스 No.",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatBlackboxLogNumber": {
         "message": "이 비행 블랙박스 로그의 로그 번호"
     },
+    "osdTextStatTimer1": {
+        "message": "타이머 1",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTimer1": {
         "message": "해제시 타이머 1의 값"
+    },
+    "osdTextStatTimer2": {
+        "message": "타이머 2",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTimer2": {
         "message": "해제시 타이머 2의 값"
     },
+    "osdTextStatRtcDateTime": {
+        "message": "RTC 날짜 및 시간",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatRtcDateTime": {
         "message": "실시간 시계로부터 날짜 및 시간"
+    },
+    "osdTextStatBattery": {
+        "message": "배터리 전압",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatBattery": {
         "message": "실시간 배터리 전압"
     },
+    "osdTextStatGForce": {
+        "message": "G 포스 최대값",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatGForce": {
         "message": "기체에 의해 경험된 최대 G-포스"
+    },
+    "osdTextStatEscTemperature": {
+        "message": "ESC 최대 온도",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatEscTemperature": {
         "message": "최대 ESC 온도"
     },
+    "osdTextStatEscRpm": {
+        "message": "ESC RPM 최대값",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatEscRpm": {
         "message": "최대 ESC RPM"
+    },
+    "osdTextStatMinLinkQuality": {
+        "message": "링크 품질 최소값",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinLinkQuality": {
         "message": "프레임 손실에 따른 링크 품질에 대한 대체 표시의 최소값"
     },
+    "osdTextStatFlightDistance": {
+        "message": "비행 거리",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatFlightDistance": {
         "message": "비행 중 여행한 총 거리"
+    },
+    "osdTextStatMaxFFT": {
+        "message": "FFT 최대값",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxFFT": {
         "message": "피크 FFT 주파수"
     },
+    "osdTextStatTotalFlights": {
+        "message": "전체 비행 회수",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTotalFlights": {
         "message": "총 비행횟수"
     },
+    "osdTextStatTotalFlightTime": {
+        "message": "전체 비행 시간",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTotalFlightTime": {
         "message": "총 비행시간"
+    },
+    "osdTextStatTotalFlightDistance": {
+        "message": "전체 비행 거리",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTotalFlightDistance": {
         "message": "총 비행거리"
@@ -4229,9 +4297,15 @@
         "message": "RSSI dBm 최소값",
         "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
+    "osdDescStatMinRssiDbm": {
+        "message": "최소 RSSI dBm 값"
+    },
     "osdTextStatUnknown": {
         "message": "알 수 없음 $1",
         "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
+    "osdDescStatUnknown": {
+        "message": "알 수 없는 통계 (다음 릴리스에 추가 될 세부 정보)"
     },
     "osdDescribeFontVersion1": {
         "message": "폰트 버전: 1 (베타플라이트 4.0 또는 이전)"
