@@ -4118,26 +4118,58 @@
     "osdDescElementUnknown": {
         "message": "알 수 없는 요소 (다음 릴리스에 추가 될 세부 정보)"
     },
+    "osdTextStatMaxSpeed": {
+        "message": "최대 속도",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxSpeed": {
         "message": "최대 기록 속도"
+    },
+    "osdTextStatMinBattery": {
+        "message": "배터리 전압 최저값",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinBattery": {
         "message": "최소 메인 배터리 전압"
     },
+    "osdTextStatMinRssi": {
+        "message": "RSSI 최소값",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMinRssi": {
         "message": "최소 RSSI값"
+    },
+    "osdTextStatMaxCurrent": {
+        "message": "배터리 전류 강하 최대값",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxCurrent": {
         "message": "최대 전류 소비"
     },
+    "osdTextStatUsedMah": {
+        "message": "배터리 사용 mAh",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatUsedMah": {
         "message": "사용된 배터리 용량"
+    },
+    "osdTextStatMaxAltitude": {
+        "message": "최대 고도",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxAltitude": {
         "message": "최대 고도"
     },
+    "osdTextStatBlackbox": {
+        "message": "블랙박스 사용",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatBlackbox": {
         "message": "전체 블랙박스 사용률"
+    },
+    "osdTextStatEndBattery": {
+        "message": "마지막 배터리 전압",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatEndBattery": {
         "message": "해제시 배터리 전압"
@@ -4192,6 +4224,14 @@
     },
     "osdDescStatTotalFlightDistance": {
         "message": "총 비행거리"
+    },
+    "osdTextStatMinRssiDbm": {
+        "message": "RSSI dBm 최소값",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
+    "osdTextStatUnknown": {
+        "message": "알 수 없음 $1",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescribeFontVersion1": {
         "message": "폰트 버전: 1 (베타플라이트 4.0 또는 이전)"
