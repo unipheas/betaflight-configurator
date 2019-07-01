@@ -4140,7 +4140,7 @@
         "message": "Mínimo RSSI registrado"
     },
     "osdTextStatMaxCurrent": {
-        "message": "Batería: corriente consumida máxima",
+        "message": "Batería: corriente máxima",
         "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxCurrent": {
