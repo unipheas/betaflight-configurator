@@ -4252,7 +4252,7 @@
         "message": "ESC 最大RPM"
     },
     "osdTextStatMinLinkQuality": {
-        "message": "接続品質最低",
+        "message": "接続品質最低値",
         "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinLinkQuality": {
@@ -4266,7 +4266,7 @@
         "message": "この飛行での総飛行距離"
     },
     "osdTextStatMaxFFT": {
-        "message": "最大FFT",
+        "message": "FFT最大値",
         "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxFFT": {
@@ -4297,7 +4297,7 @@
         "message": "最小RSSI値 (dBm)"
     },
     "osdDescStatUnknown": {
-        "message": "不明な統計値 (将来のリリースで対応予定)"
+        "message": "不明 統計値 (将来のリリースで対応予定)"
     },
     "osdDescribeFontVersion1": {
         "message": "フォントバージョン: 1 (Betaflight 4.0以前)"
