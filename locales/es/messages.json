@@ -4049,7 +4049,7 @@
         "message": "Indicador alternativo para 'calidad del enlace' basado en la pérdida de paquetes - usar con precaución"
     },
     "osdTextElementFlightDist": {
-        "message": "Distancia de vuelo",
+        "message": "Vuelo: distancia",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementFlightDist": {
@@ -4118,83 +4118,186 @@
     "osdDescElementUnknown": {
         "message": "Elemento desconocido (los detalles se añadirán en una futura versión)"
     },
+    "osdTextStatMaxSpeed": {
+        "message": "GPS: velocidad máxima",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxSpeed": {
         "message": "Máxima velocidad registrada"
+    },
+    "osdTextStatMinBattery": {
+        "message": "Batería: voltaje mínimo",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinBattery": {
         "message": "Mínimo voltaje de batería principal registrado"
     },
+    "osdTextStatMinRssi": {
+        "message": "RSSI: mínimo",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMinRssi": {
         "message": "Mínimo RSSI registrado"
+    },
+    "osdTextStatMaxCurrent": {
+        "message": "Batería: corriente consumida máxima",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxCurrent": {
         "message": "Máxima corriente consumida registrada"
     },
+    "osdTextStatUsedMah": {
+        "message": "Batería: mAh consumidos",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatUsedMah": {
         "message": "Capacidad de batería usada"
+    },
+    "osdTextStatMaxAltitude": {
+        "message": "Altitud máxima",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxAltitude": {
         "message": "Máxima altitud registrada"
     },
+    "osdTextStatBlackbox": {
+        "message": "Caja negra: espacio usado",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatBlackbox": {
         "message": "Porcentaje de uso total de la caja negra"
+    },
+    "osdTextStatEndBattery": {
+        "message": "Batería: voltaje final",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatEndBattery": {
         "message": "Voltaje de batería en el momento del desarme"
     },
+    "osdTextStatFlyTime": {
+        "message": "Tiempo de vuelo: total",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatFlyTime": {
         "message": "Tiempo total que la aeronave ha estado armada en el actual ciclo de energía"
+    },
+    "osdTextStatArmedTime": {
+        "message": "Tiempo de vuelo: último armado",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatArmedTime": {
         "message": "Tiempo desde que la aeronave fue armada por última vez"
     },
+    "osdTextStatMaxDistance": {
+        "message": "Casa: distancia máxima",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxDistance": {
         "message": "Distancia máxima a la posición de casa"
+    },
+    "osdTextStatBlackboxLogNumber": {
+        "message": "Caja negra: número",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatBlackboxLogNumber": {
         "message": "Número de archivo para este registro en la caja negra"
     },
+    "osdTextStatTimer1": {
+        "message": "Temporizador 1",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTimer1": {
         "message": "Valor del temporizador 1 en el momento del desarme"
+    },
+    "osdTextStatTimer2": {
+        "message": "Temporizador 2",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTimer2": {
         "message": "Valor del temporizador 2 en el momento del desarme"
     },
+    "osdTextStatRtcDateTime": {
+        "message": "RTC: fecha y hora",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatRtcDateTime": {
         "message": "Fecha y hora desde el reloj de tiempo real"
+    },
+    "osdTextStatBattery": {
+        "message": "Batería: voltaje",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatBattery": {
         "message": "Voltaje de la batería en tiempo real"
     },
+    "osdTextStatGForce": {
+        "message": "Fuerza G: máximo",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatGForce": {
         "message": "Máxima fuerza G experimentada por la aeronave"
+    },
+    "osdTextStatEscTemperature": {
+        "message": "ESC: temperatura máxima",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatEscTemperature": {
         "message": "Máx. temperatura ESC"
     },
+    "osdTextStatEscRpm": {
+        "message": "ESC: RPM máximas",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatEscRpm": {
         "message": "Máx. RPM ESC"
+    },
+    "osdTextStatMinLinkQuality": {
+        "message": "RSSI: calidad del enlace mínima",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinLinkQuality": {
         "message": "Mínimo del indicador alternativo para ' calidad del enlace' basado en pérdida de paquetes"
     },
+    "osdTextStatFlightDistance": {
+        "message": "Vuelo: distancia",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatFlightDistance": {
         "message": "Distancia total recorrida durante el vuelo"
+    },
+    "osdTextStatMaxFFT": {
+        "message": "FFT máxima",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxFFT": {
         "message": "Pico de frecuencia FFT"
     },
+    "osdTextStatTotalFlights": {
+        "message": "Vuelos: contador total",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTotalFlights": {
         "message": "Número total de vuelos"
     },
+    "osdTextStatTotalFlightTime": {
+        "message": "Vuelo: tiempo total",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTotalFlightTime": {
         "message": "Tiempo total invertido volando"
+    },
+    "osdTextStatTotalFlightDistance": {
+        "message": "Vuelo: distancia total",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTotalFlightDistance": {
         "message": "Distancia total recorrida"
     },
     "osdDescStatMinRssiDbm": {
         "message": "Valor mínimo de RSSI en dBm"
+    },
+    "osdDescStatUnknown": {
+        "message": "Estadística desconocido (los detalles se añadirán en una futura versión)"
     },
     "osdDescribeFontVersion1": {
         "message": "Versión de fuente: 1 (Betaflight 4.0 o anterior)"
