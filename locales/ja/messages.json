@@ -4193,6 +4193,12 @@
     "osdDescStatTotalFlightDistance": {
         "message": "合計飛行距離"
     },
+    "osdDescStatMinRssiDbm": {
+        "message": "最小RSSI値 (dBm)"
+    },
+    "osdDescStatUnknown": {
+        "message": "不明な統計値 (将来のリリースで対応予定)"
+    },
     "osdDescribeFontVersion1": {
         "message": "フォントバージョン: 1 (Betaflight 4.0以前)"
     },
@@ -4602,5 +4608,8 @@
     },
     "cliAutoComplete": {
         "message": "CLI オートコンプリート"
+    },
+    "darkTheme": {
+        "message": "ダークテーマを有効"
     }
 }
