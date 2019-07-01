@@ -4118,8 +4118,16 @@
     "osdDescElementUnknown": {
         "message": "不明な構成要素 (将来のリリースで追加される予定)"
     },
+    "osdTextStatMaxSpeed": {
+        "message": "最高速度",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxSpeed": {
         "message": "記録された最大スピード"
+    },
+    "osdTextStatMinBattery": {
+        "message": "最小バッテリー電圧",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinBattery": {
         "message": "記録されたメインバッテリーの最小電圧"
@@ -4136,20 +4144,44 @@
     "osdDescStatMaxAltitude": {
         "message": "記録された最大高度"
     },
+    "osdTextStatBlackbox": {
+        "message": "Blackboxの利用",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatBlackbox": {
         "message": "ブラックボックス合計使用率"
+    },
+    "osdTextStatEndBattery": {
+        "message": "バッテリー終止電圧",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatEndBattery": {
         "message": "ディスアーム時バッテリー電圧"
     },
+    "osdTextStatFlyTime": {
+        "message": "合計飛行時間",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatFlyTime": {
         "message": "現在の電源サイクルで機体がアームしている合計時間"
+    },
+    "osdTextStatArmedTime": {
+        "message": "最後にアームした時の飛行時間",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatArmedTime": {
         "message": "機体が最後にアームしてからの時間"
     },
+    "osdTextStatMaxDistance": {
+        "message": "ホーム位置最大距離",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxDistance": {
         "message": "ホームロケーションからの最大距離"
+    },
+    "osdTextStatBlackboxLogNumber": {
+        "message": "Blackbox 番号",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatBlackboxLogNumber": {
         "message": "飛行後のブラックボックスログ番号"
