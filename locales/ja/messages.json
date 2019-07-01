@@ -4154,41 +4154,93 @@
     "osdDescStatBlackboxLogNumber": {
         "message": "飛行後のブラックボックスログ番号"
     },
+    "osdTextStatTimer1": {
+        "message": "タイマー1",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTimer1": {
         "message": "ディスアーム時のタイマー1の値"
+    },
+    "osdTextStatTimer2": {
+        "message": "タイマー2",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTimer2": {
         "message": "ディスアーム時のタイマー2の値"
     },
+    "osdTextStatRtcDateTime": {
+        "message": "日付と時刻 (RTC)",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatRtcDateTime": {
         "message": "ハードウェアクロックからの日付と時間"
+    },
+    "osdTextStatBattery": {
+        "message": "バッテリー電圧",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatBattery": {
         "message": "リアルタイム バッテリー電圧"
     },
+    "osdTextStatGForce": {
+        "message": "最大Gフォース",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatGForce": {
         "message": "機体が記録した最大G値"
+    },
+    "osdTextStatEscTemperature": {
+        "message": "ESC 最高温度",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatEscTemperature": {
         "message": "ESC 最高温度"
     },
+    "osdTextStatEscRpm": {
+        "message": "ESC 最大回転数",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatEscRpm": {
         "message": "ESC 最大RPM"
+    },
+    "osdTextStatMinLinkQuality": {
+        "message": "接続品質最低",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinLinkQuality": {
         "message": "フレーム損失に基く『リンク品質』代替インジケータ最小値"
     },
+    "osdTextStatFlightDistance": {
+        "message": "飛行距離",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatFlightDistance": {
         "message": "この飛行での総飛行距離"
+    },
+    "osdTextStatMaxFFT": {
+        "message": "最大FFT",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxFFT": {
         "message": "FFTのピーク周波数"
     },
+    "osdTextStatTotalFlights": {
+        "message": "合計フライト数",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTotalFlights": {
         "message": "合計飛行回数"
     },
+    "osdTextStatTotalFlightTime": {
+        "message": "合計飛行時間",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTotalFlightTime": {
         "message": "合計飛行時間"
+    },
+    "osdTextStatTotalFlightDistance": {
+        "message": "合計飛行距離",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTotalFlightDistance": {
         "message": "合計飛行距離"
