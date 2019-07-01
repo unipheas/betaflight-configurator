@@ -4293,8 +4293,16 @@
     "osdDescStatTotalFlightDistance": {
         "message": "Distancia total recorrida"
     },
+    "osdTextStatMinRssiDbm": {
+        "message": "RSSI: dBM mínimo",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMinRssiDbm": {
         "message": "Valor mínimo de RSSI en dBm"
+    },
+    "osdTextStatUnknown": {
+        "message": "Desconocido $1",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatUnknown": {
         "message": "Estadística desconocido (los detalles se añadirán en una futura versión)"
