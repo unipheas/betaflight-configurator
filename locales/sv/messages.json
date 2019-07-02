@@ -4184,6 +4184,10 @@
     "osdDescStatFlyTime": {
         "message": "Total tid farkosten har varit aktiverad i aktuell strömcykel"
     },
+    "osdTextStatArmedTime": {
+        "message": "Flygtid efter senaste aktivering",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatArmedTime": {
         "message": "Tid sedan farkosten senast aktiverades"
     },
