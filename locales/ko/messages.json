@@ -3283,6 +3283,9 @@
     "powerCalibrationManagerButton": {
         "message": "교정"
     },
+    "powerCalibrationManagerTitle": {
+        "message": "교정 관리자"
+    },
     "powerCalibrationManagerHelp": {
         "message": "교정하려면 멀티미터를 사용하여 기체에서 실제 전압 \/ 전류 드로잉을 측정하고(배터리가 연결된 상태에서) 아래 값을 입력하십시오. 그런 다음 동일한 배터리를 계속 연결한 상태에서 [Calibrate] 를 클릭하십시오."
     },
