@@ -1739,8 +1739,20 @@
     "auxiliaryModeLogicAND": {
         "message": "OCH"
     },
+    "adjustmentsHelp": {
+        "message": "Konfigurera justeringsswitchar. Se sektionen 'in-flight adjustments' i manualen för detaljer. Ändringarna som görs av justeringsfunktionerna sparas inte automatiskt."
+    },
+    "adjustmentSlotsHelp": {
+        "message": "Det finns 4 platser. Varje switch som används för samtidiga justeringar kräver exklusiv användning av en plats."
+    },
     "adjustmentsExamples": {
         "message": "Exempel:"
+    },
+    "adjustmentsExample1": {
+        "message": "Använd en trepositionsswitch på AUX1 för att välja mellan Looping\/Roll P, I och D och en annan trepositionsswitch på AUX2 för att öka eller minska värdet när den fälls uppåt eller nedåt."
+    },
+    "adjustmentsExample2": {
+        "message": "Använd en trepositionsswitch på AUX4 för att välja Rate-profilval via samma trepositionsswitch på samma kanal."
     },
     "adjustmentsColumnEnable": {
         "message": "Om aktiverad"
@@ -3776,14 +3788,44 @@
     "osdDescElementFlyTime": {
         "message": "Total tid farkosten har varit aktiverad i aktuell strömcykel (blinkar om larmtröskeln överskridits)"
     },
+    "osdTextElementFlyMode": {
+        "message": "Flygläge",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementFlyMode": {
         "message": "Aktuellt flygläge"
+    },
+    "osdTextElementGPSSpeed": {
+        "message": "GPS-hastighet",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementGPSSpeed": {
         "message": "Hastighet enligt GPS"
     },
+    "osdTextElementGPSSats": {
+        "message": "GPS-satelliter",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementGPSSats": {
         "message": "Antal satelliter för GPS-fix"
+    },
+    "osdTextElementGPSLon": {
+        "message": "GPS-longitud",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementGPSLon": {
+        "message": "GPS longitudkoordinat"
+    },
+    "osdTextElementGPSLat": {
+        "message": "GPS-latitud",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementGPSLat": {
+        "message": "GPS latitudkoordinat"
+    },
+    "osdTextElementDebug": {
+        "message": "Felsökning",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementDebug": {
         "message": "Felsökningsvariabler"
@@ -3801,6 +3843,10 @@
     },
     "osdDescElementPIDPitch": {
         "message": "Looping-axel PID-ökningar"
+    },
+    "osdTextElementPIDYaw": {
+        "message": "PID gir",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDYaw": {
         "message": "Gir-axel PID-ökningar"
@@ -3833,23 +3879,51 @@
     "osdDescElementAvgCellVoltage": {
         "message": "Genomsnittlig cellspänning (full batterispänning \/ antal celler)"
     },
+    "osdTextElementPitchAngle": {
+        "message": "Angle: looping",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPitchAngle": {
         "message": "Numerisk looping-vinkel i grader"
+    },
+    "osdTextElementRollAngle": {
+        "message": "Angle: roll",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRollAngle": {
         "message": "Numerisk roll-vinkel i grader"
     },
+    "osdTextElementMainBattUsage": {
+        "message": "Batteriförbrukning",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementMainBattUsage": {
         "message": "Grafisk representation av batterianvändning"
+    },
+    "osdTextElementArmedTime": {
+        "message": "Timer: aktiverad tid",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementArmedTime": {
         "message": "Tid sedan farkosten senast aktiverades"
     },
+    "osdTextElementHomeDirection": {
+        "message": "Riktning hem",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementHomeDirection": {
         "message": "Pil som visar riktning till hemposition"
     },
+    "osdTextElementHomeDistance": {
+        "message": "Distans hem",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementHomeDistance": {
         "message": "Avstånd till hemposition (i fot eller meter baserat på enhetssysteminställning)"
+    },
+    "osdTextElementNumericalHeading": {
+        "message": "Riktning numeriskt",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementNumericalHeading": {
         "message": "Numerisk avläsning av aktuell riktning i grader"
@@ -3857,29 +3931,65 @@
     "osdDescElementNumericalVario": {
         "message": "Numerisk avläsning av vertikal hastighet (i fot eller meter baserat på enhetssysteminställning)"
     },
+    "osdTextElementCompassBar": {
+        "message": "Kompassnål",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCompassBar": {
         "message": "Grafisk kompass som visar aktuell riktning"
+    },
+    "osdTextElementWarnings": {
+        "message": "Varningar",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementWarnings": {
         "message": "Larm (t ex lågt batteri), varningar (t ex aktiveringshinder, kritiskt lågt batteri) och visuell ljudsignal (4 blinkande asterisker)."
     },
+    "osdTextElementEscTemperature": {
+        "message": "ESC-temperatur",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementEscTemperature": {
         "message": "Temperatur enligt ESC-telemetri"
+    },
+    "osdTextElementEscRpm": {
+        "message": "ESC RPM",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementEscRpm": {
         "message": "Varvtal enligt ESC-telemetri"
     },
+    "osdTextElementRemaningTimeEstimate": {
+        "message": "Timer: uppskattad kvarvarande tid",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementRemaningTimeEstimate": {
         "message": "Uppskattad återstående flygtid"
+    },
+    "osdTextElementRtcDateTime": {
+        "message": "RTC datum och tid",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRtcDateTime": {
         "message": "Datum \/ tid från realtidsklocka"
     },
+    "osdTextElementAdjustmentRange": {
+        "message": "Justeringsintervall",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementAdjustmentRange": {
         "message": "Inställning och värde för justeringsområde som är aktivt nu"
     },
+    "osdTextElementTimer1": {
+        "message": "Timer 1",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementTimer1": {
         "message": "Visar värdet på timer 1"
+    },
+    "osdTextElementTimer2": {
+        "message": "Timer 2",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementTimer2": {
         "message": "Visar värdet på timer 2"
@@ -3912,6 +4022,10 @@
     "osdDescElementMotorDiag": {
         "message": "Visar ett diagram över utmatningen från respektive motor"
     },
+    "osdTextElementLogStatus": {
+        "message": "Blackbox loggstatus",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementLogStatus": {
         "message": "Blackbox-nummer och varningar"
     },
@@ -3936,8 +4050,16 @@
     "osdDescElementFlightDist": {
         "message": "Avverkad distans under denna flygning."
     },
+    "osdTextElementStickOverlayLeft": {
+        "message": "Spak-överlagring vänster",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementStickOverlayLeft": {
         "message": "Överlagring för vänster spakposition."
+    },
+    "osdTextElementStickOverlayRight": {
+        "message": "Spak-överlagring höger",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementStickOverlayRight": {
         "message": "Överlagring för höger spakposition."
@@ -4019,17 +4141,37 @@
     "osdDescStatMaxCurrent": {
         "message": "Högsta registrerade stömmuttag"
     },
+    "osdTextStatUsedMah": {
+        "message": "Batteriförbrukning i mAh",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatUsedMah": {
         "message": "Använd batterikapacitet"
+    },
+    "osdTextStatMaxAltitude": {
+        "message": "Maximal höjd",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxAltitude": {
         "message": "Högsta registrerade höjd"
     },
+    "osdTextStatBlackbox": {
+        "message": "Blackbox-användning",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatBlackbox": {
         "message": "Procentandel av total blackbox-användning"
     },
+    "osdTextStatEndBattery": {
+        "message": "Slutlig batterispänning",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatEndBattery": {
         "message": "Batterispänning vid tiden för avaktivering"
+    },
+    "osdTextStatFlyTime": {
+        "message": "Total flygtid",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatFlyTime": {
         "message": "Total tid farkosten har varit aktiverad i aktuell strömcykel"
@@ -4037,50 +4179,124 @@
     "osdDescStatArmedTime": {
         "message": "Tid sedan farkosten senast aktiverades"
     },
+    "osdTextStatMaxDistance": {
+        "message": "Maximal distans hem",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxDistance": {
         "message": "Största avstånd från hemposition"
+    },
+    "osdTextStatBlackboxLogNumber": {
+        "message": "Blackbox-nummer",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatBlackboxLogNumber": {
         "message": "Logg-nummer för denna flygnings Blackbox-logg"
     },
+    "osdTextStatTimer1": {
+        "message": "Timer 1",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTimer1": {
         "message": "Värdet på timer 1 vid tiden för avaktivering"
+    },
+    "osdTextStatTimer2": {
+        "message": "Timer 2",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTimer2": {
         "message": "Värdet på timer 2 vid tiden för avaktivering"
     },
+    "osdTextStatRtcDateTime": {
+        "message": "RTC datum och tid",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatRtcDateTime": {
         "message": "Datum och tid från realtidsklocka"
+    },
+    "osdTextStatBattery": {
+        "message": "Batterispänning",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatBattery": {
         "message": "Batterispänning i realtid"
     },
+    "osdTextStatGForce": {
+        "message": "Maximal G-kraft",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatGForce": {
         "message": "Den maximala G-kraft farkosten utsatts för"
+    },
+    "osdTextStatEscTemperature": {
+        "message": "Högsta ESC-temperatur",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatEscTemperature": {
         "message": "Maximal ESC-temperatur"
     },
+    "osdTextStatEscRpm": {
+        "message": "Högsta ESC-varvtal",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatEscRpm": {
         "message": "Maximalt ESC-varvtal"
+    },
+    "osdTextStatMinLinkQuality": {
+        "message": "Lägsta länkkvalitet",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinLinkQuality": {
         "message": "Minimivärde för den alternativa indikatorn för 'länkkvalitet' baserat på bildförlust"
     },
+    "osdTextStatFlightDistance": {
+        "message": "Flygdistans",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatFlightDistance": {
         "message": "Total färdsträcka under flygningen"
+    },
+    "osdTextStatMaxFFT": {
+        "message": "FFT-maximum",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxFFT": {
         "message": "Toppvärde FFT-frekvens"
     },
+    "osdTextStatTotalFlights": {
+        "message": "Totalt antal flygningar",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTotalFlights": {
         "message": "Totalt antal flygningar"
+    },
+    "osdTextStatTotalFlightTime": {
+        "message": "Total flygtid",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTotalFlightTime": {
         "message": "Total flygtid"
     },
+    "osdTextStatTotalFlightDistance": {
+        "message": "Total flygdistans",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTotalFlightDistance": {
         "message": "Total färdsträcka"
+    },
+    "osdTextStatMinRssiDbm": {
+        "message": "RSSI dBm-minimum",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
+    "osdDescStatMinRssiDbm": {
+        "message": "Minsta RSSI dBm-värde"
+    },
+    "osdTextStatUnknown": {
+        "message": "Okänd $1",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
+    "osdDescStatUnknown": {
+        "message": "Okänt element (detaljer tillkommer i en kommande utgåva)"
     },
     "osdDescribeFontVersion1": {
         "message": "Teckensnittsversion: 1 (Betaflight 4.0 eller äldre)"
@@ -4097,11 +4313,31 @@
     "osdTimerSourceTooltip": {
         "message": "Välj timer-källa, detta styr varaktigheten\/händelsen som timern mäter"
     },
+    "osdTimerSourceOptionTotalArmedTime": {
+        "message": "Total aktiveringstid",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed since the battery was plugged"
+    },
+    "osdTimerSourceOptionLastArmedTime": {
+        "message": "Senast aktiverad",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed the latest time"
+    },
     "osdTimerPrecision": {
         "message": "Precision:"
     },
     "osdTimerPrecisionTooltip": {
         "message": "Välj timer-precision, detta styr vilken precision tiden rapporteras i"
+    },
+    "osdTimerPrecisionOptionSecond": {
+        "message": "Sekund",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionHundredth": {
+        "message": "Hundradel",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionTenth": {
+        "message": "Tiondel",
+        "description": "Selectable option for the precision of the timer in the OSD"
     },
     "osdTimerAlarm": {
         "message": "Larm:"
@@ -4109,50 +4345,132 @@
     "osdTimerAlarmTooltip": {
         "message": "Välj tidslarmets tröskel i minuter, när tiden överskrider detta värde kommer OSD-elementet att blinka, sätt denna till 0 för att inaktivera larmet"
     },
+    "osdTimerAlarmOptionRssi": {
+        "message": "RSSI",
+        "description": "Text of the RSSI alarm"
+    },
+    "osdTimerAlarmOptionCapacity": {
+        "message": "Kapacitet",
+        "description": "Text of the capacity alarm"
+    },
+    "osdTimerAlarmOptionAltitude": {
+        "message": "Höjd",
+        "description": "Text of the altitude alarm"
+    },
+    "osdWarningTextArmingDisabled": {
+        "message": "Aktivering avstängd",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningArmingDisabled": {
         "message": "Rapporterar den viktigaste orsaken till att motoraktivering inte är tillåten"
+    },
+    "osdWarningTextBatteryNotFull": {
+        "message": "Batteri ej fulladdat",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningBatteryNotFull": {
         "message": "Varnar när ett ej fullt laddat batteri ansluts"
     },
+    "osdWarningTextBatteryWarning": {
+        "message": "Batterivarning",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningBatteryWarning": {
         "message": "Varnar när batteriets spänning sjunker under varningströskeln"
+    },
+    "osdWarningTextBatteryCritical": {
+        "message": "Batterinivå kritisk",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningBatteryCritical": {
         "message": "Varnar när batteriets spänning sjunker under minsta genomsnittliga cellspänning"
     },
+    "osdWarningTextVisualBeeper": {
+        "message": "Visuell signal",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningVisualBeeper": {
         "message": "Visar en visualisering av ljudsignalen (visas som 4 asterisker)"
+    },
+    "osdWarningTextCrashFlipMode": {
+        "message": "Kraschflipp-läge",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningCrashFlipMode": {
         "message": "Varnar när kraschflipp-läge aktiveras"
     },
+    "osdWarningTextEscFail": {
+        "message": "ESC-avbrott",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningEscFail": {
         "message": "Räknar upp en lista med de ESC:er\/motorer som fallerar (RPM eller temperatur är utanför konfigurerade tröskelvärden)"
+    },
+    "osdWarningTextCoreTemperature": {
+        "message": "Kärntemperatur",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningCoreTemperature": {
         "message": "Varnar när MCU-kärntemperaturen överskrider ett konfigurerat tröskelvärde"
     },
+    "osdWarningTextRcSmoothingFailure": {
+        "message": "RC-utjämning misslyckad",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningRcSmoothingFailure": {
         "message": "Varnar när initiering av rc-utjämning misslyckades"
+    },
+    "osdWarningTextFailsafe": {
+        "message": "Failsafe",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningFailsafe": {
         "message": "Varnar när Failsafe inträffar"
     },
+    "osdWarningTextLaunchControl": {
+        "message": "Launch control",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningLaunchControl": {
         "message": "Varnar när Launch Control-läget aktiveras"
+    },
+    "osdWarningTextGpsRescueUnavailable": {
+        "message": "GPS-räddning ej tillgänglig",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningGpsRescueUnavailable": {
         "message": "Varnar när GPS-räddning inte är tillgänglig och inte kan aktiveras"
     },
+    "osdWarningTextGpsRescueDisabled": {
+        "message": "GPS-räddning avstängd",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningGpsRescueDisabled": {
         "message": "Varnar när GPS-räddning är avstängd"
+    },
+    "osdWarningTextRSSI": {
+        "message": "RSSI",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningRSSI": {
         "message": "Varnar när RSSI underskrider larminställning"
     },
+    "osdWarningTextLinkQuality": {
+        "message": "Länkkvalitet",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningLinkQuality": {
         "message": "Varnar när länkkvaliteten underskrider larminställning"
+    },
+    "osdWarningTextRssiDbm": {
+        "message": "RSSI dBm",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
+    "osdWarningRssiDbm": {
+        "message": "Varnar när RSSI dBm-värdet understiger larminställning"
+    },
+    "osdWarningTextUnknown": {
+        "message": "Okänd $1"
     },
     "osdWarningUnknown": {
         "message": "Okänd varning (detaljer tillkommer i en kommande utgåva)"
@@ -4381,5 +4699,8 @@
     },
     "cliAutoComplete": {
         "message": "Avancerad CLI AutoComplete"
+    },
+    "darkTheme": {
+        "message": "Använd mörkt färgtema"
     }
 }
