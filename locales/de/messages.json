@@ -3267,11 +3267,29 @@
     "powerCalibrationManagerTitle": {
         "message": "Kalibrierungsmanager"
     },
+    "powerCalibrationSave": {
+        "message": "Kalibriere"
+    },
+    "powerCalibrationApply": {
+        "message": "Kalibrierung verwenden"
+    },
+    "powerCalibrationDiscard": {
+        "message": "Kalibrierung verwerfen"
+    },
+    "powerCalibrationConfirmHelp": {
+        "message": "Neue kalibrierte Skalen werden hier angezeigt. <br>Wenn du sie anwendest, werden die Skalen gesetzt, aber <strong>sie werden nicht gespeichert.<\/strong><\/br> <br>Stelle nach dem Speichern sicher, dass die neue Spannung- und Stromanzeige korrekt ist.<\/br>"
+    },
     "powerVoltageHead": {
         "message": "Voltmeter"
     },
     "powerVoltageValue": {
         "message": "$1 V"
+    },
+    "powerVoltageCalibration": {
+        "message": "Gemessene Spannung"
+    },
+    "powerVoltageCalibratedScale": {
+        "message": "Kalibrierte Spannungsskala:"
     },
     "powerAmperageValue": {
         "message": "$1 A"
@@ -3413,6 +3431,12 @@
     },
     "powerAmperageOffset": {
         "message": "Versatz [mA]"
+    },
+    "powerAmperageCalibration": {
+        "message": "Gemesser Strom"
+    },
+    "powerAmperageCalibratedScale": {
+        "message": "Kalibrierte Stromskala:"
     },
     "powerBatteryHead": {
         "message": "Akku"
