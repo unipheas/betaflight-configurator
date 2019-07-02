@@ -3963,8 +3963,16 @@
     "osdDescElementRateProfileName": {
         "message": "Visar namn på aktuell rate-profil"
     },
+    "osdTextElementPidProfileName": {
+        "message": "Profil: PID-profilnamn",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPidProfileName": {
         "message": "Visar namn på aktuell PID-profil"
+    },
+    "osdTextElementOsdProfileName": {
+        "message": "Profil: OSD-profilnamn",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementOsdProfileName": {
         "message": "OSD-profilnamn som det satts i CLI-variablerna \"osd_profile_1_name\", \"osd_profile_2_name\" och \"osd_profile_3_name\""
