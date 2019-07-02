@@ -1160,6 +1160,9 @@
     "configurationLoopTimeHelp": {
         "message": "<strong>Hinweis:<\/strong> Stelle sicher, dass dein FC mit dieser Geschwindigkeit arbeiten kann. Prüfe die CPU Auslastung und die Cycletime Stabilität. Änderungen führen möglicherweise dazu, dass die PID's neu eingestellt werden müssen. Tipp: Deaktiviere unbenutzte Sensoren, um mehr Leistung zu haben."
     },
+    "configurationLoopTimeNo32KhzHelp": {
+        "message": "$t(configurationLoopTimeHelp.message)\n<br>\n<strong>Hinweis zum 32 kHz-Gyro Sampling-Modus:<\/strong> \nDie Unterstützung für den 32 kHz-Gyro Sampling-Modus wurde als experimentelles Feature zu Betaflight hinzugefügt. In den Jahren, die es zur Verfügung stand, hat es keinen Vorteil gegenüber dem 8 kHz Gyro Sampling-Modus gezeigt. Aufgrund seiner Anfälligkeit für Vibrationen und des hohen Rauschpegels erfordert dies ein aggressives Filtern, was zu Verzögerungen im Regelkreis führt. Aus diesem Grund \n<strong>entfällt die Unterstützung für den 32 kHz Sampling Gyro-Modus <\/strong>\n in Betaflight 4.0."
+    },
     "configurationGPS": {
         "message": "GPS"
     },
@@ -3488,6 +3491,10 @@
     "osdSetupFontPresetsSelector": {
         "message": "Wähle Schriftart-Voreinstellungen:"
     },
+    "osdSetupFontPresetsSelectorCustomOption": {
+        "message": "Benutzerdefinierte Schriftart",
+        "description": "Option to show as selected when the user selects a custom local font"
+    },
     "osdSetupFontPresetsSelectorOr": {
         "message": "oder"
     },
@@ -3520,6 +3527,9 @@
     },
     "osdSetupUploadFont": {
         "message": "Schriftart hochladen"
+    },
+    "osdSetupUploadingFont": {
+        "message": "Wird hochgeladen..."
     },
     "osdSetupSave": {
         "message": "Speichern"
