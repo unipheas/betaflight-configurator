@@ -3454,6 +3454,10 @@
         "message": "OSD-Profil {{profileNumber}}",
         "description": "Content of the selector for the OSD Profile in the preview"
     },
+    "osdSetupPreviewSelectFontElement": {
+        "message": "Schriftart {{fontName}}",
+        "description": "Content of the selector for the OSD Font in the preview"
+    },
     "osdSetupVideoFormatTitle": {
         "message": "Videoformat"
     },
