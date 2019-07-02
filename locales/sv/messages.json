@@ -3778,6 +3778,10 @@
     "osdDescElementAltitude": {
         "message": "Aktuell höjd (blinkar om larmtröskeln överskridits)"
     },
+    "osdTextElementOnTime": {
+        "message": "Aktiv tid",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementOnTime": {
         "message": "Total tid farkosten varit påslagen"
     },
@@ -4313,6 +4317,10 @@
     "osdTimerSourceTooltip": {
         "message": "Välj timer-källa, detta styr varaktigheten\/händelsen som timern mäter"
     },
+    "osdTimerSourceOptionOnTime": {
+        "message": "Aktiv tid",
+        "description": "One of the options for the source timer. This options shows the amount of time has passed since the battery was plugged"
+    },
     "osdTimerSourceOptionTotalArmedTime": {
         "message": "Total aktiveringstid",
         "description": "One of the options for the source timer. This options shows the amount of time the craft was armed since the battery was plugged"
@@ -4320,6 +4328,10 @@
     "osdTimerSourceOptionLastArmedTime": {
         "message": "Senast aktiverad",
         "description": "One of the options for the source timer. This options shows the amount of time the craft was armed the latest time"
+    },
+    "osdTimerSourceOptionOnArmTime": {
+        "message": "Aktiv\/aktiverad tid",
+        "description": "One of the options for the source timer. This option shows On time when craft is disarmed, and Armed time when armed"
     },
     "osdTimerPrecision": {
         "message": "Precision:"
