@@ -3357,6 +3357,9 @@
     "powerCalibrationManagerButton": {
         "message": "crwdns9156:0crwdne9156:0"
     },
+    "powerCalibrationManagerTitle": {
+        "message": "crwdns9468:0crwdne9468:0"
+    },
     "powerCalibrationManagerHelp": {
         "message": "crwdns9158:0[Calibrate]crwdne9158:0"
     },
