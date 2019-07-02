@@ -3283,6 +3283,9 @@
     "powerCalibrationManagerButton": {
         "message": "Calibración"
     },
+    "powerCalibrationManagerTitle": {
+        "message": "Asistente de Calibración"
+    },
     "powerCalibrationManagerHelp": {
         "message": "Para calibrar, usa un multímetro para medir el voltaje actual \/ consumo de corriente en tu aeronave (con una batería enchufada), e introduce los valores debajo. Después, con la misma batería todavía conectada, pulsa [Calibrar]."
     },
