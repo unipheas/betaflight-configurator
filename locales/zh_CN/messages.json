@@ -3283,6 +3283,9 @@
     "powerCalibrationManagerButton": {
         "message": "校准"
     },
+    "powerCalibrationManagerTitle": {
+        "message": "校准管理器"
+    },
     "powerCalibrationManagerHelp": {
         "message": "要校准，请使用万用表测量你的飞行器上(接上电池) 的实际电压\/电流，然后在下方输入值。然后，在同一块电池仍然接入的情况下，点击 [Calibrate] 按钮。"
     },
@@ -4293,8 +4296,16 @@
     "osdDescStatTotalFlightDistance": {
         "message": "总航行距离"
     },
+    "osdTextStatMinRssiDbm": {
+        "message": "RSSI dBm最小值",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMinRssiDbm": {
         "message": "最小 RSSI 分贝值"
+    },
+    "osdTextStatUnknown": {
+        "message": "未知 $1",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatUnknown": {
         "message": "未知统计 (会在将来的版本中添加详细信息)"
