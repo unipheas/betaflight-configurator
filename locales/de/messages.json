@@ -751,6 +751,14 @@
         "message": "Der 'GPS-Rescue'-Schalter wurde aktiviert",
         "description": "Description of the RESC arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipRPMFILTER": {
+        "message": "Die RPM-basierte Filterung ist aktiviert, aber ein oder mehrere ESCs liefern keine gültige DSHOT-Telemetrie. Prüfe, ob die ESCs kompatibel sind und die erforderliche Firmware installiert haben, um bidirektionale DSHOT-Telemetrie zu unterstützen.",
+        "description": "Description of the RPMFILTER arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
+        "message": "Eine Konfigurationsänderung erfordert einen Neustart",
+        "description": "Description of the REBOOT_REQD arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "Einer der anderen 'Disarm-Flags' ist aktiv während des Armings",
         "description": "Description of the ARM_SWITCH arming disable flag"
@@ -1723,6 +1731,12 @@
     },
     "auxiliaryModeLogicAND": {
         "message": "UND"
+    },
+    "adjustmentSlotsHelp": {
+        "message": "Es gibt 4 Slots. Jeder Schalter, der zur gleichzeitigen Anpassung verwendet wird, erfordert eine exklusive Verwendung eines Slots."
+    },
+    "adjustmentsExamples": {
+        "message": "Beispiele:"
     },
     "adjustmentsColumnEnable": {
         "message": "falls aktiviert"
@@ -3247,6 +3261,12 @@
     "powerBatteryWarning": {
         "message": "Zellspannung Warnung"
     },
+    "powerCalibrationManagerButton": {
+        "message": "Kalibrierung"
+    },
+    "powerCalibrationManagerTitle": {
+        "message": "Kalibrierungsmanager"
+    },
     "powerVoltageHead": {
         "message": "Voltmeter"
     },
@@ -3722,6 +3742,9 @@
     },
     "osdDescElementEscRpmFreq": {
         "message": "Motordrehzahl (über Regler Telemetrie)"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "Zeigt den aktuellen PID-Profilnamen an"
     },
     "osdDescElementUnknown": {
         "message": "Unbekanntes Element (Details kommen in zukünftigen Versionen)"
