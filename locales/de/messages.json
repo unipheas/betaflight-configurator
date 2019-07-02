@@ -3508,6 +3508,14 @@
     "osdSetupVideoFormatTitle": {
         "message": "Videoformat"
     },
+    "osdSetupVideoFormatOptionPal": {
+        "message": "PAL",
+        "description": "Option for the video format in the OSD"
+    },
+    "osdSetupVideoFormatOptionNtsc": {
+        "message": "NTSC",
+        "description": "Option for the video format in the OSD"
+    },
     "osdSetupUnitsTitle": {
         "message": "Einheiten"
     },
