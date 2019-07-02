@@ -3932,6 +3932,10 @@
     "osdDescElementNumericalHeading": {
         "message": "Numerisk avläsning av aktuell riktning i grader"
     },
+    "osdTextElementNumericalVario": {
+        "message": "Numerisk vario",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementNumericalVario": {
         "message": "Numerisk avläsning av vertikal hastighet (i fot eller meter baserat på enhetssysteminställning)"
     },
