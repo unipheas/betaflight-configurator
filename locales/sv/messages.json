@@ -1137,7 +1137,7 @@
         "message": "Pip när blackbox-radering slutförs"
     },
     "beeperCRASH_FLIP": {
-        "message": "Pip när kraschflippläge är aktivt"
+        "message": "Pip när kraschflipp-läge är aktivt"
     },
     "beeperCAM_CONNECTION_OPEN": {
         "message": "Pip när 5-knappskamerakontrollen aktiveras"
@@ -3917,7 +3917,7 @@
         "message": "Visar en visualisering av ljudsignalen (visas som 4 asterisker)"
     },
     "osdWarningCrashFlipMode": {
-        "message": "Varnar när \"flippa över efter krasch\"-läge aktiveras"
+        "message": "Varnar när kraschflipp-läge aktiveras"
     },
     "osdWarningEscFail": {
         "message": "Räknar upp en lista med de ESC:er\/motorer som fallerar (RPM eller temperatur är utanför konfigurerade tröskelvärden)"
