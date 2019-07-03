@@ -895,6 +895,9 @@
     "featureSERVO_TILT": {
         "message": "crwdns5535:0crwdne5535:0"
     },
+    "featureSERVO_TILTTip": {
+        "message": "crwdns9470:0crwdne9470:0"
+    },
     "featureSOFTSERIAL": {
         "message": "crwdns5536:0crwdne5536:0"
     },
