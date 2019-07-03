@@ -824,6 +824,9 @@
     "featureSERVO_TILT": {
         "message": "Servo-gimbal"
     },
+    "featureSERVO_TILTTip": {
+        "message": "Denna funktion aktiverar CAMSTAB-läge, vilket kan användas för att stabilisera upp till två axlar genom användning av accelerometern"
+    },
     "featureSOFTSERIAL": {
         "message": "Aktivera CPU-baserade seriella portar"
     },
