@@ -824,6 +824,9 @@
     "featureSERVO_TILT": {
         "message": "서보 짐벌"
     },
+    "featureSERVO_TILTTip": {
+        "message": "이 기능은 CAMSTAB 모드를 사용하게 합니다. 이는 가속도계를 이용하여 2축을 안정적으로 잡기위해 사용될 수 있습니다."
+    },
     "featureSOFTSERIAL": {
         "message": "CPU 기반 시리얼 포트 활성화"
     },
