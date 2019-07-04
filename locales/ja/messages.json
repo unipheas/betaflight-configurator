@@ -3283,6 +3283,9 @@
     "powerCalibrationManagerButton": {
         "message": "キャリブレーション"
     },
+    "powerCalibrationManagerTitle": {
+        "message": "キャリブレーション マネージャー"
+    },
     "powerCalibrationManagerHelp": {
         "message": "キャリブレートするには、(バッテリーを接続した状態で) テスターを使って機体にかかる実電圧\/電流を計測し、以下の値を入力してください。 それから同じくバッテリーを接続したまま [Calibrate] をクリックします。"
     },
@@ -4105,7 +4108,7 @@
         "message": "\"osd_profile_1_name\"、\"osd_profile_2_name\"、\"osd_profile_3_name\"はCLIにて設定されているOSDプロファイル名"
     },
     "osdTextElementRssiDbmValue": {
-        "message": "RSSI dBm 値",
+        "message": "RSSI値 (dBm)",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementRssiDbmValue": {
@@ -4133,7 +4136,7 @@
         "message": "記録されたメインバッテリーの最小電圧"
     },
     "osdTextStatMinRssi": {
-        "message": "最小RSSI値",
+        "message": "RSSI最小値",
         "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinRssi": {
@@ -4293,8 +4296,16 @@
     "osdDescStatTotalFlightDistance": {
         "message": "合計飛行距離"
     },
+    "osdTextStatMinRssiDbm": {
+        "message": "RSSI最小値 (dBm)",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMinRssiDbm": {
         "message": "最小RSSI値 (dBm)"
+    },
+    "osdTextStatUnknown": {
+        "message": "不明 $1",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatUnknown": {
         "message": "不明 統計値 (将来のリリースで対応予定)"
@@ -4476,7 +4487,7 @@
         "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningRssiDbm": {
-        "message": "RSSI dBm値がアラーム設定を下回ったときの警告"
+        "message": "RSSI値 (dBm) がアラーム設定を下回ったときの警告"
     },
     "osdWarningTextUnknown": {
         "message": "不明 $1"
