@@ -824,6 +824,9 @@
     "featureSERVO_TILT": {
         "message": "Gimbal servo"
     },
+    "featureSERVO_TILTTip": {
+        "message": "Esta funcionalidad activa el modo CAMSTAB qué puede ser utilizado para mantener hasta dos ejes estables usando el acelerómetro"
+    },
     "featureSOFTSERIAL": {
         "message": "Activar puertos serie basados en CPU"
     },
