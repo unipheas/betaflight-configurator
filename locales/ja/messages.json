@@ -824,6 +824,9 @@
     "featureSERVO_TILT": {
         "message": "サーボジンバル"
     },
+    "featureSERVO_TILTTip": {
+        "message": "この機能によりCAMSTABモードが有効になります。これは加速度センサーを用いて最大2軸を安定して利用することができます。"
+    },
     "featureSOFTSERIAL": {
         "message": "CPUベース シリアルポート 有効"
     },
