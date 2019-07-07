@@ -571,87 +571,87 @@
     },
     "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
         "message": "En gyro blev ikke fundet",
-        "description": "Description of the NO GYRO arming disable flag"
+        "description": "Message that pops up to describe the NO_GYRO arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
         "message": "Failsafe er aktiv",
-        "description": "Description of the FAILSAFE arming disable flag"
+        "description": "Message that pops up to describe the FAILSAFE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
         "message": "Intet gyldigt modtagersignal fundet",
-        "description": "Description of the RX_FAILSAFE arming disable flag"
+        "description": "Message that pops up to describe the RX_FAILSAFE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
         "message": "Kontakten 'FAILSAFE' blev aktiveret",
-        "description": "Description of the BOXFAILSAFE arming disable flag"
+        "description": "Message that pops up to describe the BOXFAILSAFE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
         "message": "Runway Takeoff-beskyttelse er blevet udløst",
-        "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
+        "description": "Message that pops up to describe the RUNAWAY_TAKEOFF arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCRASH": {
         "message": "Afkoblet via havaridetektering",
-        "description": "Description of the CRASH arming disable flag"
+        "description": "Message that pops up to describe the CRASH arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "Gaskanalværdi er for høj",
-        "description": "Description of the THROTTLE arming disable flag"
+        "description": "Message that pops up to describe the THROTTLE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipANGLE": {
         "message": "Fartøj er ikke nivelleret (nok)",
-        "description": "Description of the ANGLE arming disable flag"
+        "description": "Message that pops up to describe the ANGLE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
         "message": "Indkoblet for hurtigt efter Tænd",
-        "description": "Description of the BOOT_GRACE_TIME arming disable flag"
+        "description": "Message that pops up to describe the BOOT_GRACE_TIME arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipNOPREARM": {
         "message": "Præindkoblingskontakt er ikke aktiveret eller er ikke omskiftet efter frakobling",
-        "description": "Description of the NOPREARM arming disable flag"
+        "description": "Message that pops up to describe the NOPREARM arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipLOAD": {
         "message": "Systembelastning for høj til sikker flyvning",
-        "description": "Description of the LOAD arming disable flag"
+        "description": "Message that pops up to describe the LOAD arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
         "message": "Sensorkalibrering er stadig i gang",
-        "description": "Description of the CALIBRATING arming disable flag"
+        "description": "Message that pops up to describe the CALIBRATING arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCLI": {
         "message": "CLI er aktiv",
-        "description": "Description of the CLI arming disable flag"
+        "description": "Message that pops up to describe the CLI arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
         "message": "CMS (opsætningsmenu) er Aktiv - via OSD\/anden skærm -",
-        "description": "Description of the CMS_MENU arming disable flag"
+        "description": "Message that pops up to describe the CMS_MENU arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
         "message": "OSD-menu er aktiv",
-        "description": "Description of the OSD_MENU arming disable flag"
+        "description": "Message that pops up to describe the OSD_MENU arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipBST": {
         "message": "En Black Sheep-telemetrienhed (f.eks. TBS Core Pro) er afkoblet og forhindrer indkobling",
-        "description": "Description of the BST arming disable flag"
+        "description": "Message that pops up to describe the BST arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipMSP": {
         "message": "MSP-forbindelsen er aktiv, antagelig med denne Betaflight Configurator",
-        "description": "Description of the MSP arming disable flag"
+        "description": "Message that pops up to describe the MSP arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
         "message": "Paralyze-tilstand er aktivatet",
-        "description": "Description of the PARALYZE arming disable flag"
+        "description": "Message that pops up to describe the PARALYZE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipGPS": {
         "message": "GPS-redningstilstand er opsat, men nødvendigt satellitantal er ikke fastlåst",
-        "description": "Description of the GPS arming disable flag"
+        "description": "Message that pops up to describe the GPS arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRESC": {
         "message": "Kontakten 'GPS-redning' er aktiveret",
-        "description": "Description of the RESC arming disable flag"
+        "description": "Message that pops up to describe the RESC arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "Et af de øvrige afkoblingsflag er aktivt under indkobling",
-        "description": "Description of the ARM_SWITCH arming disable flag"
+        "description": "Message that pops up to describe the ARM_SWITCH arming disable flag"
     },
     "initialSetupGPSHead": {
         "message": "GPS"
