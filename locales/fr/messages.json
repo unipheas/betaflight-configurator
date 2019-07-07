@@ -4107,11 +4107,23 @@
     "osdDescElementUnknown": {
         "message": "Éléments inconnus (détails devant être ajoutés dans le"
     },
+    "osdTextStatMaxSpeed": {
+        "message": "Vitesse maximale",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxSpeed": {
         "message": "Vitesse maximale relevée"
     },
+    "osdTextStatMinBattery": {
+        "message": "Tension batterie minimum",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMinBattery": {
         "message": "Tension batterie minimum relevée"
+    },
+    "osdTextStatMinRssi": {
+        "message": "Minimum RSSI",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinRssi": {
         "message": "RSSI minimum relevé"
