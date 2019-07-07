@@ -3932,6 +3932,10 @@
     "osdDescElementNumericalHeading": {
         "message": "Cap actuel en degrés"
     },
+    "osdTextElementNumericalVario": {
+        "message": "vario numérique",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementNumericalVario": {
         "message": "Vitesse verticale"
     },
@@ -4067,6 +4071,10 @@
     },
     "osdDescElementStickOverlayRight": {
         "message": "Superpose la valeur du stick droit de l'émetteur."
+    },
+    "osdTextElementDisplayName": {
+        "message": "Afficher le nom",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementDisplayName": {
         "message": "Afficher le nom comme défini par la commande cli \"display_name\""
@@ -4292,6 +4300,16 @@
         "message": "RSSI minimum en dBm",
         "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
+    "osdDescStatMinRssiDbm": {
+        "message": "Valeur minimum du RSSI en dBm"
+    },
+    "osdTextStatUnknown": {
+        "message": "Inconnu $1",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
+    "osdDescStatUnknown": {
+        "message": "Statistique inconnue (détails à ajouter dans une prochaine version)"
+    },
     "osdDescribeFontVersion1": {
         "message": "Version de police : 1 (Betaflight 4.0 ou antérieur)"
     },
@@ -4387,41 +4405,92 @@
     "osdWarningBatteryCritical": {
         "message": "Alerte lorsque la tension de la batterie tombe en dessous de la tension minimale moyenne de la cellule"
     },
+    "osdWarningTextVisualBeeper": {
+        "message": "Beeper visuel",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningVisualBeeper": {
         "message": "Affiche une visualisation du beeper ( 4 astérisques)"
+    },
+    "osdWarningTextCrashFlipMode": {
+        "message": "Mode crash flip",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningCrashFlipMode": {
         "message": "Avertit lors d'un retournement après l'activation du mode crash"
     },
+    "osdWarningTextEscFail": {
+        "message": "Problème ESC",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningEscFail": {
         "message": "Enumère une liste d'ESCs\/moteurs (RPM ou température en dehors des seuils configurés)"
+    },
+    "osdWarningTextCoreTemperature": {
+        "message": "Température du noyau",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningCoreTemperature": {
         "message": "Alerte quand température max processeur MCU dépasse la valeur configurée"
     },
+    "osdWarningTextRcSmoothingFailure": {
+        "message": "Echec du RC Smoothing",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningRcSmoothingFailure": {
         "message": "Alerte échec initialisation du lissage rc"
+    },
+    "osdWarningTextFailsafe": {
+        "message": "Failsafe",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningFailsafe": {
         "message": "Alerte Failsafe actif"
     },
+    "osdWarningTextLaunchControl": {
+        "message": "Contrôle du démarrage lancé",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningLaunchControl": {
         "message": "Alerte lorsque le mode Launch Crontol est actif"
+    },
+    "osdWarningTextGpsRescueUnavailable": {
+        "message": "Sauvetage GPS indisponible",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningGpsRescueUnavailable": {
         "message": "Alerte quand GPS Rescue n'est pas disponible et ne peut pas être activé"
     },
+    "osdWarningTextGpsRescueDisabled": {
+        "message": "Sauvetage GPS désactivé",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningGpsRescueDisabled": {
         "message": "Alerte quand GPS rescue est désactivé"
+    },
+    "osdWarningTextRSSI": {
+        "message": "RSSI",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningRSSI": {
         "message": "Alerte quand le RSSI est inférieur à la valeur configurée"
     },
+    "osdWarningTextLinkQuality": {
+        "message": "Qualité de la liaison",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningLinkQuality": {
         "message": "Alerte lorsque la qualité de la liaison est inférieure à la valeur configurée"
     },
+    "osdWarningTextRssiDbm": {
+        "message": "RSSI dBm",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningRssiDbm": {
         "message": "Avertissement lorsque la valeur RSSI en dBm est inférieure au paramètre alarme"
+    },
+    "osdWarningTextUnknown": {
+        "message": "Inconnu $1"
     },
     "osdWarningUnknown": {
         "message": "Avertissement inconnu (détails à ajouter dans une version ultérieure)"
@@ -4650,5 +4719,8 @@
     },
     "cliAutoComplete": {
         "message": "CLI avancé avec saisie semi-automatique"
+    },
+    "darkTheme": {
+        "message": "Activer le thème sombre"
     }
 }
