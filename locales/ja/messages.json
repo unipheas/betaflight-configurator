@@ -676,99 +676,99 @@
     },
     "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
         "message": "ジャイロセンサーが検出されませんでした",
-        "description": "Description of the NO GYRO arming disable flag"
+        "description": "Message that pops up to describe the NO_GYRO arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
         "message": "フェイルセーフが有効です",
-        "description": "Description of the FAILSAFE arming disable flag"
+        "description": "Message that pops up to describe the FAILSAFE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
         "message": "有効な受信機からの信号が検出されません",
-        "description": "Description of the RX_FAILSAFE arming disable flag"
+        "description": "Message that pops up to describe the RX_FAILSAFE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipBAD_RX_RECOVERY": {
         "message": "受信機はフェイルセーフから回復したばかりですが、アームスイッチはオンのままです",
-        "description": "Description of the BAD_RX_RECOVERY arming disable flag"
+        "description": "Message that pops up to describe the BAD_RX_RECOVERY arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
         "message": "「フェイルセーフ」スイッチが有効です",
-        "description": "Description of the BOXFAILSAFE arming disable flag"
+        "description": "Message that pops up to describe the BOXFAILSAFE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
         "message": "暴走離陸防止機能が実行されました",
-        "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
+        "description": "Message that pops up to describe the RUNAWAY_TAKEOFF arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCRASH": {
         "message": "クラッシュ検出によるディスアーム",
-        "description": "Description of the CRASH arming disable flag"
+        "description": "Message that pops up to describe the CRASH arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "スロットルチャンネルが高すぎます",
-        "description": "Description of the THROTTLE arming disable flag"
+        "description": "Message that pops up to describe the THROTTLE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipANGLE": {
         "message": "機体が (十分に) 水平ではありません",
-        "description": "Description of the ANGLE arming disable flag"
+        "description": "Message that pops up to describe the ANGLE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
         "message": "電源ON直後のアーミングです",
-        "description": "Description of the BOOT_GRACE_TIME arming disable flag"
+        "description": "Message that pops up to describe the BOOT_GRACE_TIME arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipNOPREARM": {
         "message": "PreArmスイッチが作動していない、またはディスアーム後にPreArmスイッチが正しい位置に戻っていない可能性があります",
-        "description": "Description of the NOPREARM arming disable flag"
+        "description": "Message that pops up to describe the NOPREARM arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipLOAD": {
         "message": "安全な飛行にはシステム負荷が高すぎます",
-        "description": "Description of the LOAD arming disable flag"
+        "description": "Message that pops up to describe the LOAD arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
         "message": "センサーキャリブレーションがまだ実行中です",
-        "description": "Description of the CALIBRATING arming disable flag"
+        "description": "Message that pops up to describe the CALIBRATING arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCLI": {
         "message": "CLI コマンドラインが有効です",
-        "description": "Description of the CLI arming disable flag"
+        "description": "Message that pops up to describe the CLI arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
         "message": "CMS (設定メニュー) が有効です - OSD上または他ディスプレイ -",
-        "description": "Description of the CMS_MENU arming disable flag"
+        "description": "Message that pops up to describe the CMS_MENU arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
         "message": "OSDメニューが有効です",
-        "description": "Description of the OSD_MENU arming disable flag"
+        "description": "Message that pops up to describe the OSD_MENU arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipBST": {
         "message": "Black Sheepテレメトリーデバイス (TBS Core Pro等) がディスアームし、アームを抑止しています",
-        "description": "Description of the BST arming disable flag"
+        "description": "Message that pops up to describe the BST arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipMSP": {
         "message": "おそらくこのBetaflight Configuratorで、MSP接続は有効です",
-        "description": "Description of the MSP arming disable flag"
+        "description": "Message that pops up to describe the MSP arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
         "message": "パラライズモードが有効になっています",
-        "description": "Description of the PARALYZE arming disable flag"
+        "description": "Message that pops up to describe the PARALYZE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipGPS": {
         "message": "GPSレスキューモードは設定されていますが、必要な衛星数が未確定です",
-        "description": "Description of the GPS arming disable flag"
+        "description": "Message that pops up to describe the GPS arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRESC": {
         "message": "「GPSレスキュー」スイッチが有効になりました",
-        "description": "Description of the RESC arming disable flag"
+        "description": "Message that pops up to describe the RESC arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRPMFILTER": {
         "message": "RPMベースのフィルタリングは有効ですが、1つ以上のESCが有効なDSHOTテレメトリー情報を提供していません。ESCがDSHOT双方向テレメトリーをサポートするために必要なファームウェアがインストールされていることを確認してください。",
-        "description": "Description of the RPMFILTER arming disable flag"
+        "description": "Message that pops up to describe the RPMFILTER arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
         "message": "設定を変更するには再起動が必要です",
-        "description": "Description of the REBOOT_REQD arming disable flag"
+        "description": "Message that pops up to describe the REBOOT_REQD arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "他のフラグの1つはアーム時にフラグを解除します",
-        "description": "Description of the ARM_SWITCH arming disable flag"
+        "description": "Message that pops up to describe the ARM_SWITCH arming disable flag"
     },
     "initialSetupGPSHead": {
         "message": "GPS"
