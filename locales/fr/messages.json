@@ -824,6 +824,9 @@
     "featureSERVO_TILT": {
         "message": "Servo gimbal"
     },
+    "featureSERVO_TILTTip": {
+        "message": "Cette fonctionnalité active le mode CAMSTAB, qui permet de stabiliser jusqu'à deux axes en utilisant l'accéléromètre"
+    },
     "featureSOFTSERIAL": {
         "message": "Activer le port série logiciel"
     },
@@ -3280,6 +3283,9 @@
     "powerCalibrationManagerButton": {
         "message": "Etalonnage"
     },
+    "powerCalibrationManagerTitle": {
+        "message": "Gestion de l'étalonnage"
+    },
     "powerCalibrationManagerHelp": {
         "message": "Pour l'étalonnage, utiliser un multi mètres et mesurer la tension actuelle \/ consommée sur la machine (avec batterie branchée), et renseigner les valeurs. Puis, avec la même batterie toujours branchée, cliquer sur [Calibrate]."
     },
@@ -4128,71 +4134,163 @@
     "osdDescStatMinRssi": {
         "message": "RSSI minimum relevé"
     },
+    "osdTextStatMaxCurrent": {
+        "message": "Consommation maximum batterie",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxCurrent": {
         "message": "Courant maximum relevé"
+    },
+    "osdTextStatUsedMah": {
+        "message": "mAh consommés sur la batterie",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatUsedMah": {
         "message": "Capacité de la batterie utilisée"
     },
+    "osdTextStatMaxAltitude": {
+        "message": "Altitude maximum",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxAltitude": {
         "message": "Altitude maximum relevée"
+    },
+    "osdTextStatBlackbox": {
+        "message": "Place utilisée sur la Blackbox",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatBlackbox": {
         "message": "Pourcentage total utilisé de la Blackbox"
     },
+    "osdTextStatEndBattery": {
+        "message": "Tension batterie à la fin",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatEndBattery": {
         "message": "Tension de batterie au désarmement"
+    },
+    "osdTextStatFlyTime": {
+        "message": "Temps de vol total",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatFlyTime": {
         "message": "Temps total durant lequel l'appareil a été armé pendant cette session"
     },
+    "osdTextStatArmedTime": {
+        "message": "Durée du vol depuis le dernier armement",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatArmedTime": {
         "message": "Temps depuis le dernier armement"
+    },
+    "osdTextStatMaxDistance": {
+        "message": "Distance max depuis point de décollage",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxDistance": {
         "message": "Distance maximum depuis la base"
     },
+    "osdTextStatBlackboxLogNumber": {
+        "message": "Numéro de log Blackbox",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatBlackboxLogNumber": {
         "message": "Numéro du log pour ce vol"
+    },
+    "osdTextStatTimer1": {
+        "message": "Timer 1",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTimer1": {
         "message": "Valeur du Timer 1 au moment du désarmement"
     },
+    "osdTextStatTimer2": {
+        "message": "Timer 2",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTimer2": {
         "message": "Valeur du Timer 2 au moment du désarmement"
+    },
+    "osdTextStatRtcDateTime": {
+        "message": "Date et heure RTC",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatRtcDateTime": {
         "message": "Date et heure depuis l'horloge réél"
     },
+    "osdTextStatBattery": {
+        "message": "Tension de la batterie",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatBattery": {
         "message": "Tension de la batterie en temps réel"
+    },
+    "osdTextStatGForce": {
+        "message": "Nombre de G maximum",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatGForce": {
         "message": "G-Force Max ressentie par le multicopter"
     },
+    "osdTextStatEscTemperature": {
+        "message": "Température ESC maximum",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatEscTemperature": {
         "message": "Température max des ESC"
+    },
+    "osdTextStatEscRpm": {
+        "message": "RPM maximum ESC",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatEscRpm": {
         "message": "Trs\/min Max des ESC"
     },
+    "osdTextStatMinLinkQuality": {
+        "message": "Qualité minimum de la liaison",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMinLinkQuality": {
         "message": "Valeur minimum de l'indicateur alternatif pour la 'qualité de liaison' basé sur la perte de trame"
+    },
+    "osdTextStatFlightDistance": {
+        "message": "Distance parcourue en vol",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatFlightDistance": {
         "message": "Distance totale parcourue lors du vol"
     },
+    "osdTextStatMaxFFT": {
+        "message": "Maximum FFT",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxFFT": {
         "message": "Pic fréquence FFT"
+    },
+    "osdTextStatTotalFlights": {
+        "message": "Nombre total de vols",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTotalFlights": {
         "message": "Nombre total de vols"
     },
+    "osdTextStatTotalFlightTime": {
+        "message": "Temps de vol total",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTotalFlightTime": {
         "message": "Temps total passé en vol"
     },
+    "osdTextStatTotalFlightDistance": {
+        "message": "Distance de vol totale",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTotalFlightDistance": {
         "message": "Distance totale parcourue"
+    },
+    "osdTextStatMinRssiDbm": {
+        "message": "RSSI minimum en dBm",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescribeFontVersion1": {
         "message": "Version de police : 1 (Betaflight 4.0 ou antérieur)"
