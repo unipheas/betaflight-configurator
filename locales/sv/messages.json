@@ -676,99 +676,99 @@
     },
     "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
         "message": "Ingen gyro detekterad",
-        "description": "Description of the NO GYRO arming disable flag"
+        "description": "Message that pops up to describe the NO_GYRO arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
         "message": "Failsafe är aktiv",
-        "description": "Description of the FAILSAFE arming disable flag"
+        "description": "Message that pops up to describe the FAILSAFE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
         "message": "Ingen giltig mottagarsignal detekterad",
-        "description": "Description of the RX_FAILSAFE arming disable flag"
+        "description": "Message that pops up to describe the RX_FAILSAFE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipBAD_RX_RECOVERY": {
         "message": "Din mottagare har just återställts från Failsafe, men aktiveringsswitchen är på",
-        "description": "Description of the BAD_RX_RECOVERY arming disable flag"
+        "description": "Message that pops up to describe the BAD_RX_RECOVERY arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
         "message": "'FAILSAFE'-switchen aktiverades",
-        "description": "Description of the BOXFAILSAFE arming disable flag"
+        "description": "Message that pops up to describe the BOXFAILSAFE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
         "message": "Förhindrande av oavsiktlig uppstigning (Runaway Takeoff Prevention) har aktiverats",
-        "description": "Description of the RUNAWAY_TAKEOFF arming disable flag"
+        "description": "Message that pops up to describe the RUNAWAY_TAKEOFF arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCRASH": {
         "message": "Inaktiverad via kraschdetektering",
-        "description": "Description of the CRASH arming disable flag"
+        "description": "Message that pops up to describe the CRASH arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "Trottelkanalen är för hög",
-        "description": "Description of the THROTTLE arming disable flag"
+        "description": "Message that pops up to describe the THROTTLE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipANGLE": {
         "message": "Farkosten är inte (tillräckligt) horisontell",
-        "description": "Description of the ANGLE arming disable flag"
+        "description": "Message that pops up to describe the ANGLE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
         "message": "Aktiverad för snabbt efter strömpåslag",
-        "description": "Description of the BOOT_GRACE_TIME arming disable flag"
+        "description": "Message that pops up to describe the BOOT_GRACE_TIME arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipNOPREARM": {
         "message": "Föraktiveringsswitchen är inte aktiv, eller föraktivering har inte återställts efter avaktivering",
-        "description": "Description of the NOPREARM arming disable flag"
+        "description": "Message that pops up to describe the NOPREARM arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipLOAD": {
         "message": "Belastningen på systemet är för hög för säker flygning",
-        "description": "Description of the LOAD arming disable flag"
+        "description": "Message that pops up to describe the LOAD arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
         "message": "Sensorkalibrering pågår fortfarande",
-        "description": "Description of the CALIBRATING arming disable flag"
+        "description": "Message that pops up to describe the CALIBRATING arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCLI": {
         "message": "CLI är aktiv",
-        "description": "Description of the CLI arming disable flag"
+        "description": "Message that pops up to describe the CLI arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
         "message": "CMS (konfigureringsmeny) är aktiv - över OSD eller annan display",
-        "description": "Description of the CMS_MENU arming disable flag"
+        "description": "Message that pops up to describe the CMS_MENU arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
         "message": "OSD-menyn är aktiv",
-        "description": "Description of the OSD_MENU arming disable flag"
+        "description": "Message that pops up to describe the OSD_MENU arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipBST": {
         "message": "En Black Sheep Telemetry-enhet (TBS Core Pro t ex) avaktiverades och förhindrar aktivering",
-        "description": "Description of the BST arming disable flag"
+        "description": "Message that pops up to describe the BST arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipMSP": {
         "message": "En MSP-koppling är aktiv, troligen via denna Betaflight-konfigurator",
-        "description": "Description of the MSP arming disable flag"
+        "description": "Message that pops up to describe the MSP arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
         "message": "Paralyze-läge har aktiverats",
-        "description": "Description of the PARALYZE arming disable flag"
+        "description": "Message that pops up to describe the PARALYZE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipGPS": {
         "message": "GPS-räddningsläge är konfigurerat, men tillräckligt antal satelliter har inte hittats",
-        "description": "Description of the GPS arming disable flag"
+        "description": "Message that pops up to describe the GPS arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRESC": {
         "message": "'GPS Rescue'-switchen aktiverades",
-        "description": "Description of the RESC arming disable flag"
+        "description": "Message that pops up to describe the RESC arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRPMFILTER": {
         "message": "RPM-baserad filtrering är aktiverad, men en eller flera ESCar stödjer inte giltig DSHOT-telemetri. Kontrollera att ESCarna har stöd och har rätt firmware installerad för att kunna stödja dubbelriktad DSHOT-telemetri.",
-        "description": "Description of the RPMFILTER arming disable flag"
+        "description": "Message that pops up to describe the RPMFILTER arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
         "message": "En konfigurationsändring kräver en omstart",
-        "description": "Description of the REBOOT_REQD arming disable flag"
+        "description": "Message that pops up to describe the REBOOT_REQD arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "En av de andra avaktiveringsflaggorna är aktiv vid aktivering",
-        "description": "Description of the ARM_SWITCH arming disable flag"
+        "description": "Message that pops up to describe the ARM_SWITCH arming disable flag"
     },
     "initialSetupGPSHead": {
         "message": "GPS"
