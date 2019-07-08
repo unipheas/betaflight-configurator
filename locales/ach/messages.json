@@ -297,6 +297,12 @@
     "logActionShow": {
         "message": "crwdns5378:0crwdne5378:0"
     },
+    "serialErrorFrameError": {
+        "message": "crwdns9472:0crwdne9472:0"
+    },
+    "serialErrorParityError": {
+        "message": "crwdns9474:0crwdne9474:0"
+    },
     "serialPortOpened": {
         "message": "crwdns5379:0$1crwdne5379:0"
     },
