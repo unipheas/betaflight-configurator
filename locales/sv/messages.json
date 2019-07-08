@@ -226,6 +226,12 @@
     "logActionShow": {
         "message": "Visa logg"
     },
+    "serialErrorFrameError": {
+        "message": "Fel i seriell anslutning: framing-fel"
+    },
+    "serialErrorParityError": {
+        "message": "Fel i seriell anslutning: paritetsfel"
+    },
     "serialPortOpened": {
         "message": "Anslutning till serieport <span class=\"message-positive\">lyckades<\/span> med ID: $1"
     },
