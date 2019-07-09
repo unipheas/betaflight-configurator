@@ -3267,6 +3267,9 @@
     "powerCalibrationManagerButton": {
         "message": "Kalibracija"
     },
+    "powerCalibrationManagerTitle": {
+        "message": "Upravitelj kalibracije"
+    },
     "powerCalibrationManagerHelp": {
         "message": "Za kalibraciju, koristite multimetar kako biste saznali stvarni napon \/ struju (sa spojenom baterijom), i unesite vrijednosti ispod. Onda, dok je baterija još uvijek spojena pritisnite [Calibrate]."
     },
@@ -3613,6 +3616,9 @@
     },
     "osdSetupUploadingFont": {
         "message": "Prenošenje..."
+    },
+    "osdSetupUploadingFontEnd": {
+        "message": "Preneseno svih {{length}} znakova na OSD"
     },
     "osdSetupSave": {
         "message": "Spremi"
@@ -4087,29 +4093,65 @@
     "osdDescElementUnknown": {
         "message": "Nepoznati element (detalji će biti dodani u budućim verzijama)"
     },
+    "osdTextStatMaxSpeed": {
+        "message": "Maksimalna brzina",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxSpeed": {
         "message": "Maksimalna zabilježena brzina"
+    },
+    "osdTextStatMinBattery": {
+        "message": "Minimalni napon baterije",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinBattery": {
         "message": "Minimalni zabilježeni napon baterije"
     },
+    "osdTextStatMinRssi": {
+        "message": "RSSI minimum",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMinRssi": {
         "message": "Minimalni zabilježeni RSSI"
+    },
+    "osdTextStatMaxCurrent": {
+        "message": "Maksimalna struja baterije",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxCurrent": {
         "message": "Maksimalna zabilježena struja"
     },
+    "osdTextStatUsedMah": {
+        "message": "Potrošeno mAh",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatUsedMah": {
         "message": "Potrošen kapacitet baterije"
+    },
+    "osdTextStatMaxAltitude": {
+        "message": "Maksimalna visina",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxAltitude": {
         "message": "Maksimalna zabilježena visina"
     },
+    "osdTextStatBlackbox": {
+        "message": "Iskorištenost crne kutije",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatBlackbox": {
         "message": "Postotak iskorištenosti crne kutije"
     },
+    "osdTextStatEndBattery": {
+        "message": "Napon baterije na kraju leta",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatEndBattery": {
         "message": "Napon baterije u trenutku disarminga"
+    },
+    "osdTextStatFlyTime": {
+        "message": "Ukupno vrijeme letenja",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatFlyTime": {
         "message": "Ukupno vrijeme koje je letjelica bila armirana od uključivanja"
@@ -4117,50 +4159,124 @@
     "osdDescStatArmedTime": {
         "message": "Vrijeme otkada je letjelica armana"
     },
+    "osdTextStatMaxDistance": {
+        "message": "Maksimalna udaljenost od kuće",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxDistance": {
         "message": "Maksimalna udaljenost od lokacije kuće"
+    },
+    "osdTextStatBlackboxLogNumber": {
+        "message": "Broj zapisa crne kutije",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatBlackboxLogNumber": {
         "message": "Broj zapisnika crne kutije za ovaj let"
     },
+    "osdTextStatTimer1": {
+        "message": "Tajmer 1",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTimer1": {
         "message": "Vrijednost Brojača 1 u vrijme disarminga"
+    },
+    "osdTextStatTimer2": {
+        "message": "Tajmer 2",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTimer2": {
         "message": "Vrijednost Brojača 2 u vrijme disarminga"
     },
+    "osdTextStatRtcDateTime": {
+        "message": "RTC datum i vrijeme",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatRtcDateTime": {
         "message": "Datum i vrijeme stvarnog sata"
+    },
+    "osdTextStatBattery": {
+        "message": "Napon baterije",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatBattery": {
         "message": "Napon baterije u stvarnom vremenu"
     },
+    "osdTextStatGForce": {
+        "message": "Maksimalna G sila",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatGForce": {
         "message": "Max G-Sila letjelice"
+    },
+    "osdTextStatEscTemperature": {
+        "message": "Maksimalna ESC temperatura",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatEscTemperature": {
         "message": "Maksimalna temperatura ESC-a"
     },
+    "osdTextStatEscRpm": {
+        "message": "Maksimalni ESC RPM",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatEscRpm": {
         "message": "Max ESC RPM"
+    },
+    "osdTextStatMinLinkQuality": {
+        "message": "Minimum kvalitete veze",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinLinkQuality": {
         "message": "Minimum alternativnog indikatora za kvalitetu veze temeljenu na gubicima paketa"
     },
+    "osdTextStatFlightDistance": {
+        "message": "Pređena udaljenost",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatFlightDistance": {
         "message": "Ukupna pređena udaljenost tijekom leta"
+    },
+    "osdTextStatMaxFFT": {
+        "message": "FFT maksimum",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxFFT": {
         "message": "Vršna FFT frekvencija"
     },
+    "osdTextStatTotalFlights": {
+        "message": "Ukupni broj letova",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTotalFlights": {
         "message": "Ukupni broj letova"
+    },
+    "osdTextStatTotalFlightTime": {
+        "message": "Ukupno vrijeme letenja",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTotalFlightTime": {
         "message": "Ukupno vrijeme u letu"
     },
+    "osdTextStatTotalFlightDistance": {
+        "message": "Ukupna pređena udaljenost",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTotalFlightDistance": {
         "message": "Ukupna pređena udaljenost"
+    },
+    "osdTextStatMinRssiDbm": {
+        "message": "RSSI dBm minimum",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
+    "osdDescStatMinRssiDbm": {
+        "message": "Minimalna vrijednost RSSI dBm"
+    },
+    "osdTextStatUnknown": {
+        "message": "Nepoznato $1",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
+    "osdDescStatUnknown": {
+        "message": "Nepoznata statistika(detalji će biti dodani u budućim verzijama)"
     },
     "osdDescribeFontVersion1": {
         "message": "Font verzija: 1 (Betaflight 4.0 i stariji)"
