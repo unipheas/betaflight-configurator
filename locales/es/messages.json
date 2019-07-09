@@ -226,6 +226,12 @@
     "logActionShow": {
         "message": "Mostrar registro"
     },
+    "serialErrorFrameError": {
+        "message": "Error en conexión serie: framing incorrecto"
+    },
+    "serialErrorParityError": {
+        "message": "Error en conexión serie: paridad incorrecta"
+    },
     "serialPortOpened": {
         "message": "Puerto serie abierto <span class=\"message-positive\">correctamente<\/span> con ID: $1"
     },
