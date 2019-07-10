@@ -226,6 +226,12 @@
     "logActionShow": {
         "message": "ログ表示"
     },
+    "serialErrorFrameError": {
+        "message": "シリアル接続エラー: フレーム長 不良"
+    },
+    "serialErrorParityError": {
+        "message": "シリアル接続エラー: パリティー 不良"
+    },
     "serialPortOpened": {
         "message": "ID: $1のシリアルポートへ<span class=\"message-positive\">正常<\/span>に接続しています"
     },
