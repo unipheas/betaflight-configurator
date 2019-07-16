@@ -758,6 +758,10 @@
         "message": "E' stato attivato lo switch \"GPS Rescue\"",
         "description": "Message that pops up to describe the RESC arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
+        "message": "Un cambio alla configurazione richiede un riavvio",
+        "description": "Message that pops up to describe the REBOOT_REQD arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "Uno dei flag di disarmo è attivo quando si arma",
         "description": "Message that pops up to describe the ARM_SWITCH arming disable flag"
@@ -815,6 +819,9 @@
     },
     "featureSERVO_TILT": {
         "message": "Servo gimbal"
+    },
+    "featureSERVO_TILTTip": {
+        "message": "Questa funzione abilita la modalità CAMSTAB, che può essere utilizzata per tenere fermi fino a due assi con l'accelerometro"
     },
     "featureSOFTSERIAL": {
         "message": "Abilita porte seriali basate su CPU"
@@ -3538,17 +3545,37 @@
     "osdDescElementThrottlePosition": {
         "message": "valore attuale del canale del Gas"
     },
+    "osdTextElementArmed": {
+        "message": "Armato",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementArmed": {
         "message": "Messaggio di armamento motori"
+    },
+    "osdTextElementDisarmed": {
+        "message": "Disarmato",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementDisarmed": {
         "message": "Messaggio di disarmo"
     },
+    "osdTextElementCrosshairs": {
+        "message": "Mirino",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCrosshairs": {
         "message": "Mirino al centro dello schermo"
     },
+    "osdTextElementArtificialHorizon": {
+        "message": "Orizzonte artificiale",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementArtificialHorizon": {
         "message": "Indicatore grafico di orizzonte artificiale"
+    },
+    "osdTextElementHorizonSidebars": {
+        "message": "Barre laterali dell'orizzonte artificiale",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementHorizonSidebars": {
         "message": "Barre laterali attorno all'indicatore di orizzonte artificiale"
@@ -3700,11 +3727,30 @@
     "osdDescElementOsdProfileName": {
         "message": "Nome del profilo OSD come impostato nelle variabili CLI \"osd_profile_1_name\", \"osd_profile_2_name\" e \"osd_profile_3_name\""
     },
+    "osdTextElementRssiDbmValue": {
+        "message": "Valore RSSI dBm",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementRssiDbmValue": {
+        "message": "Valore in dBm del segnale RSSI se disponibile"
+    },
+    "osdTextElementUnknown": {
+        "message": "Sconosciuto $1",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementUnknown": {
         "message": "Elemento sconosciuto (dettagli da aggiungere in una versione futura)"
     },
+    "osdTextStatMaxSpeed": {
+        "message": "Massima velocità",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatMaxSpeed": {
         "message": "Massima velocità registrata"
+    },
+    "osdTextStatMinBattery": {
+        "message": "Tensione minima batteria",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinBattery": {
         "message": "Tensione minima della batteria principale registrata"
@@ -3724,29 +3770,65 @@
     "osdDescStatBlackbox": {
         "message": "Percentuale del totale utilizzo della blackbox"
     },
+    "osdTextStatEndBattery": {
+        "message": "Tensione batteria finale",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatEndBattery": {
         "message": "Voltaggio della batteria al momento del disarmo"
+    },
+    "osdTextStatFlyTime": {
+        "message": "Tempo totale di volo",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatFlyTime": {
         "message": "Il tempo totale in cui il modello è stato armato nel ciclo di accensione corrente"
     },
+    "osdTextStatArmedTime": {
+        "message": "Tempo di volo ultimo arm",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatArmedTime": {
         "message": "Tempo trascorso dall'ultima volta in cui il modello è stato armato"
+    },
+    "osdTextStatMaxDistance": {
+        "message": "Massima distanza da casa",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxDistance": {
         "message": "Distanza massima dalla posizione di partenza"
     },
+    "osdTextStatBlackboxLogNumber": {
+        "message": "Numero Blackbox",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatBlackboxLogNumber": {
         "message": "Numero di registro per questi Blackbox di volo"
+    },
+    "osdTextStatTimer1": {
+        "message": "Timer 1",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTimer1": {
         "message": "Valore del timer 1 al momento del disarmo"
     },
+    "osdTextStatTimer2": {
+        "message": "Timer 2",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTimer2": {
         "message": "Valore del timer 2 al momento del disarmo"
     },
+    "osdTextStatRtcDateTime": {
+        "message": "Data e ora RTC",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatRtcDateTime": {
         "message": "Data e ora dall'orologio in tempo reale"
+    },
+    "osdTextStatBattery": {
+        "message": "Voltaggio Batteria",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatBattery": {
         "message": "Voltaggio batteria in tempo reale"
