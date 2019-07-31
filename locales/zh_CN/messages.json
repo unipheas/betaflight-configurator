@@ -226,6 +226,12 @@
     "logActionShow": {
         "message": "显示日志"
     },
+    "serialErrorFrameError": {
+        "message": "串行连接错误：数据帧错误"
+    },
+    "serialErrorParityError": {
+        "message": "串行连接错误：奇偶错误"
+    },
     "serialPortOpened": {
         "message": "打开串口 <span class=\"message-positive\">成功<\/span> ID: $1"
     },
@@ -823,6 +829,9 @@
     },
     "featureSERVO_TILT": {
         "message": "舵机云台"
+    },
+    "featureSERVO_TILTTip": {
+        "message": "此功能将开启相机稳定模式，使用加速度计来保持两个轴的稳定。"
     },
     "featureSOFTSERIAL": {
         "message": "启用软串口"
