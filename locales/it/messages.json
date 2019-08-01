@@ -494,9 +494,6 @@
     "defaultDonateText": {
         "message": "<p><strong>Betaflight<\/strong> è un software <strong>open source<\/strong> per flight controller ed è disponibile gratuitamentee <strong>senza garanzie<\/strong> a tutti gli utenti.<\/p><p>Se hai trovato Betaflight o Betaflight configurator utili, ti invitiamo a valutare di <strong>supportare<\/strong> lo sviluppo con una donazione.<\/p>"
     },
-    "defaultDonateBottom": {
-        "message": "<p>Se vuoi contribuire economicamente in modo continuativo, puoi diventare un nostro patron su <a href='https:\/\/www.patreon.com\/betaflight'>Patreon<\/a>.<\/p>"
-    },
     "defaultDonate": {
         "message": "Dona"
     },
