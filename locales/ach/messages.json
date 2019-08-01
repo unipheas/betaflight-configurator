@@ -572,7 +572,11 @@
         "message": "crwdns9064:0crwdne9064:0"
     },
     "defaultDonateBottom": {
-        "message": "crwdns9066:0crwdne9066:0"
+        "message": "crwdns9476:0$t(patreonLink.message)crwdne9476:0"
+    },
+    "patreonLink": {
+        "message": "crwdns9478:0crwdne9478:0",
+        "description": "Patreon is name, and should not require translation"
     },
     "defaultDonate": {
         "message": "crwdns5461:0crwdne5461:0"
