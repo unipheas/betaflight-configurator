@@ -500,9 +500,6 @@
     "defaultDonateText": {
         "message": "<p><strong>Betaflight<\/strong> är en flygkontrollerprogramvara som bygger på <strong>öppen källkod<\/strong> och är tillgänglig utan kostnad <strong>utan garanti<\/strong> för alla användare.<\/p><p>Om du tycker att Betaflight eller Betaflight configurator är användbar kanske du vill <strong>stödja<\/strong> utvecklingen genom en donation.<\/p>"
     },
-    "defaultDonateBottom": {
-        "message": "<p>Om du vill fortsätta bidra ekonomiskt bör du överväga att bli en \"patron\" för oss på <a href='https:\/\/www.patreon.com\/betaflight'>Patreon<\/a>.<\/p>"
-    },
     "defaultDonate": {
         "message": "Donera"
     },
