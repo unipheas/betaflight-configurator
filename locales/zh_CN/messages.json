@@ -62,12 +62,6 @@
     "analyticsOptOut": {
         "message": "退出匿名的统计数据收集"
     },
-    "userLanguageSelect": {
-        "message": "语言 （需要重启应用才能生效）"
-    },
-    "language_default": {
-        "message": "默认"
-    },
     "sensorDataFlashNotFound": {
         "message": "没有找到<br>闪存芯片",
         "description": "Text of the dataflash image in the header of the page."
@@ -482,14 +476,8 @@
     "defaultFacebookText": {
         "message": "我们还有一个 <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">Facebook 小组<\/a>。<br \/>加入我们来一起讨论 Betaflight, 询问配置问题, 或者只是和小伙伴们闲聊。"
     },
-    "defaultChangelogAction": {
-        "message": "更新日志"
-    },
     "defaultChangelogHead": {
         "message": "Configurator - 更新日志"
-    },
-    "defaultPrivacyPolicyAction": {
-        "message": "隐私政策"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "固件烧写器"
