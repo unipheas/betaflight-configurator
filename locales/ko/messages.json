@@ -3089,6 +3089,9 @@
     "pidTuningItermRelaxTypeOptionSetpoint": {
         "message": "설정점"
     },
+    "pidTuningItermRelaxCutoff": {
+        "message": "컷오프:"
+    },
     "pidTuningAbsoluteControlGain": {
         "message": "절대 제어"
     },
