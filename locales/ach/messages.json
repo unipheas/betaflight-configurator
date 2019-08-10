@@ -69,74 +69,81 @@
     "analyticsOptOut": {
         "message": "crwdns8831:0crwdne8831:0"
     },
-    "userLanguageSelect": {
-        "message": "crwdns5328:0crwdne5328:0"
+    "language_changed": {
+        "message": "crwdns9482:0crwdne9482:0"
+    },
+    "language_choice_message": {
+        "message": "crwdns9484:0crwdne9484:0",
+        "description": "Try and be brief"
     },
     "language_default": {
-        "message": "crwdns5329:0crwdne5329:0"
+        "message": "crwdns9486:0crwdne9486:0"
+    },
+    "language_default_pretty": {
+        "message": "crwdns9488:0$t(detectedLanguage)crwdne9488:0"
     },
     "language_ca": {
-        "message": "crwdns5330:0crwdne5330:0",
+        "message": "crwdns9490:0crwdne9490:0",
         "description": "Don't translate!!!"
     },
     "language_de": {
-        "message": "crwdns5331:0crwdne5331:0",
+        "message": "crwdns9492:0crwdne9492:0",
         "description": "Don't translate!!!"
     },
     "language_en": {
-        "message": "crwdns5332:0crwdne5332:0",
+        "message": "crwdns9494:0crwdne9494:0",
         "description": "Don't translate!!!"
     },
     "language_es": {
-        "message": "crwdns5333:0crwdne5333:0",
+        "message": "crwdns9496:0crwdne9496:0",
         "description": "Don't translate!!!"
     },
     "language_fr": {
-        "message": "crwdns5334:0crwdne5334:0",
+        "message": "crwdns9498:0crwdne9498:0",
         "description": "Don't translate!!!"
     },
     "language_gl": {
-        "message": "crwdns9120:0crwdne9120:0",
+        "message": "crwdns9500:0crwdne9500:0",
         "description": "Don't translate!!!"
     },
     "language_hr": {
-        "message": "crwdns9122:0crwdne9122:0",
+        "message": "crwdns9502:0crwdne9502:0",
         "description": "Don't translate!!!"
     },
     "language_id": {
-        "message": "crwdns8868:0crwdne8868:0",
+        "message": "crwdns9504:0crwdne9504:0",
         "description": "Don't translate!!!"
     },
     "language_it": {
-        "message": "crwdns6392:0crwdne6392:0",
+        "message": "crwdns9506:0crwdne9506:0",
         "description": "Don't translate!!!"
     },
     "language_ja": {
-        "message": "crwdns8701:0crwdne8701:0",
+        "message": "crwdns9508:0crwdne9508:0",
         "description": "Don't translate!!!"
     },
     "language_ko": {
-        "message": "crwdns5335:0crwdne5335:0",
+        "message": "crwdns9510:0crwdne9510:0",
         "description": "Don't translate!!!"
     },
     "language_lv": {
-        "message": "crwdns6393:0crwdne6393:0",
+        "message": "crwdns9512:0crwdne9512:0",
         "description": "Don't translate!!!"
     },
     "language_pt": {
-        "message": "crwdns8708:0crwdne8708:0",
+        "message": "crwdns9514:0crwdne9514:0",
         "description": "Don't translate!!!"
     },
     "language_ru": {
-        "message": "crwdns8863:0crwdne8863:0",
+        "message": "crwdns9516:0crwdne9516:0",
         "description": "Don't translate!!!"
     },
     "language_sv": {
-        "message": "crwdns8862:0crwdne8862:0",
+        "message": "crwdns9518:0crwdne9518:0",
         "description": "Don't translate!!!"
     },
     "language_zh_CN": {
-        "message": "crwdns5336:0crwdne5336:0",
+        "message": "crwdns9520:0crwdne9520:0",
         "description": "Don't translate!!!"
     },
     "sensorDataFlashNotFound": {
@@ -224,6 +231,12 @@
     },
     "tabLanding": {
         "message": "crwdns5354:0crwdne5354:0"
+    },
+    "tabChangelog": {
+        "message": "crwdns9522:0crwdne9522:0"
+    },
+    "tabPrivacyPolicy": {
+        "message": "crwdns9524:0crwdne9524:0"
     },
     "tabHelp": {
         "message": "crwdns5355:0crwdne5355:0"
@@ -553,14 +566,8 @@
     "defaultFacebookText": {
         "message": "crwdns8774:0crwdne8774:0"
     },
-    "defaultChangelogAction": {
-        "message": "crwdns5456:0crwdne5456:0"
-    },
     "defaultChangelogHead": {
         "message": "crwdns5457:0crwdne5457:0"
-    },
-    "defaultPrivacyPolicyAction": {
-        "message": "crwdns8832:0crwdne8832:0"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "crwdns5458:0crwdne5458:0"
