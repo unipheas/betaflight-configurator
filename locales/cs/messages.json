@@ -62,12 +62,6 @@
     "analyticsOptOut": {
         "message": "Neúčastnit se anonymního sběru dat o používání"
     },
-    "userLanguageSelect": {
-        "message": "Jazyk (je potřeba restartovat aplikaci, aby se změny projevily)"
-    },
-    "language_default": {
-        "message": "Výchozí"
-    },
     "sensorDataFlashNotFound": {
         "message": "Paměťový čip <br>nenalezen",
         "description": "Text of the dataflash image in the header of the page."
@@ -464,14 +458,8 @@
     "defaultFacebookText": {
         "message": "Máme také <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">Facebook skupinu<\/a>.<br \/>Připojte se a můžete si přečíst novinky o Betaflightu, nechat si poradit s konfigurací, nebo se jen tak připojit do komunity pilotů."
     },
-    "defaultChangelogAction": {
-        "message": "Seznam změn"
-    },
     "defaultChangelogHead": {
         "message": "Konfigurátor - Seznam změn"
-    },
-    "defaultPrivacyPolicyAction": {
-        "message": "Zásady ochrany osobních údajů"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "Aktualizace firmwaru"
