@@ -3163,6 +3163,9 @@
     "pidTuningItermRelaxTypeOptionSetpoint": {
         "message": "crwdns8800:0crwdne8800:0"
     },
+    "pidTuningItermRelaxCutoff": {
+        "message": "crwdns9480:0crwdne9480:0"
+    },
     "pidTuningAbsoluteControlGain": {
         "message": "crwdns8801:0crwdne8801:0"
     },
