@@ -152,9 +152,6 @@
     "defaultContributingText": {
         "message": "Betaflight'ı daha da güzel yapmak için bir çok yoldan yardımcı olabilirsiniz. Bunlardan bazıları: <br \/><ul> IRC de forumlarda diğer kullanıcıların sorularını yanıtlamak. <\/li><li> Yapılandırıcı ve donanın yazılımı kodlarına katkıla bulunmak- yeni özellikler, düzeltmeler, geliştirmeler<\/li><li> <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">Yeni özellikleri <\/a> test etmek ve geri dönüt vermek. <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\"><li>İstenen özellikler hakkında durumlara ve yorumlara <\/a> yardım etmek. <\/li> <li> <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\"> ile işbirliği yaparak yapılandırıcı uygulamasını <\/a> kendi dilinize çevirmek<\/li><li><\/li><\/ul>"
     },
-    "defaultChangelogAction": {
-        "message": "Değişiklikler"
-    },
     "defaultChangelogHead": {
         "message": "Yapılandırıcı - Değişiklikler"
     },
