@@ -62,12 +62,6 @@
     "analyticsOptOut": {
         "message": "Fravælg anonymiseret statistikdataindsamling"
     },
-    "userLanguageSelect": {
-        "message": "Sprog (kræver programgenstart for effektuering af evt. ændringer)"
-    },
-    "language_default": {
-        "message": "Standard"
-    },
     "sensorDataFlashNotFound": {
         "message": "Ingen dataflash-<br>chip fundet",
         "description": "Text of the dataflash image in the header of the page."
@@ -403,9 +397,6 @@
     },
     "defaultContributingHead": {
         "message": "Bidrag"
-    },
-    "defaultPrivacyPolicyAction": {
-        "message": "Fortrolighedspolitik"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "Firmware-flasher"
