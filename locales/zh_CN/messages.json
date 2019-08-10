@@ -62,6 +62,83 @@
     "analyticsOptOut": {
         "message": "退出匿名的统计数据收集"
     },
+    "language_changed": {
+        "message": "语言已经更改"
+    },
+    "language_choice_message": {
+        "message": "更改语言:",
+        "description": "Try and be brief"
+    },
+    "language_default": {
+        "message": "系统默认"
+    },
+    "language_default_pretty": {
+        "message": "系统默认($t(detectedLanguage))"
+    },
+    "language_ca": {
+        "message": "Català",
+        "description": "Don't translate!!!"
+    },
+    "language_de": {
+        "message": "Deutsch",
+        "description": "Don't translate!!!"
+    },
+    "language_en": {
+        "message": "English",
+        "description": "Don't translate!!!"
+    },
+    "language_es": {
+        "message": "Español",
+        "description": "Don't translate!!!"
+    },
+    "language_fr": {
+        "message": "Français",
+        "description": "Don't translate!!!"
+    },
+    "language_gl": {
+        "message": "Galego",
+        "description": "Don't translate!!!"
+    },
+    "language_hr": {
+        "message": "Hrvatski",
+        "description": "Don't translate!!!"
+    },
+    "language_id": {
+        "message": "Bahasa Indonesia",
+        "description": "Don't translate!!!"
+    },
+    "language_it": {
+        "message": "Italiano",
+        "description": "Don't translate!!!"
+    },
+    "language_ja": {
+        "message": "日本語",
+        "description": "Don't translate!!!"
+    },
+    "language_ko": {
+        "message": "한국어",
+        "description": "Don't translate!!!"
+    },
+    "language_lv": {
+        "message": "Latviešu",
+        "description": "Don't translate!!!"
+    },
+    "language_pt": {
+        "message": "Português",
+        "description": "Don't translate!!!"
+    },
+    "language_ru": {
+        "message": "Русский язык",
+        "description": "Don't translate!!!"
+    },
+    "language_sv": {
+        "message": "Svenska",
+        "description": "Don't translate!!!"
+    },
+    "language_zh_CN": {
+        "message": "简体中文",
+        "description": "Don't translate!!!"
+    },
     "sensorDataFlashNotFound": {
         "message": "没有找到<br>闪存芯片",
         "description": "Text of the dataflash image in the header of the page."
@@ -147,6 +224,12 @@
     },
     "tabLanding": {
         "message": "欢迎"
+    },
+    "tabChangelog": {
+        "message": "更新日志"
+    },
+    "tabPrivacyPolicy": {
+        "message": "隐私政策"
     },
     "tabHelp": {
         "message": "设置文档 & 支持"
@@ -3072,6 +3155,9 @@
     },
     "pidTuningItermRelaxTypeOptionSetpoint": {
         "message": "设定点"
+    },
+    "pidTuningItermRelaxCutoff": {
+        "message": "截止频率:"
     },
     "pidTuningAbsoluteControlGain": {
         "message": "绝对控制"
