@@ -41,12 +41,6 @@
     "permanentExpertMode": {
         "message": "אפשר מצב מתקדם באופן קבוע"
     },
-    "userLanguageSelect": {
-        "message": "בחירת שפה (נדרש איתחול של היישום)"
-    },
-    "language_default": {
-        "message": "ברירת מחדל"
-    },
     "sensorStatusGyro": {
         "message": "גירוסקופ"
     },
