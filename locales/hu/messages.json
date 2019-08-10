@@ -41,12 +41,6 @@
     "permanentExpertMode": {
         "message": "Szakértő mód állandó engedélyezése"
     },
-    "userLanguageSelect": {
-        "message": "Nyelv (a változtatások újraindítás után jelennek meg)"
-    },
-    "language_default": {
-        "message": "Alapértelmezett"
-    },
     "sensorStatusGyro": {
         "message": "Giroszkóp"
     },
@@ -361,9 +355,6 @@
     },
     "defaultContributingText": {
         "message": "Ha azt szeretne hozzájárulni, hogy a Betaflight még jobb legyen, több módon is segíthet, például <br\/><ul><li>más felhasználók kérdéseinke megválaszolásával a fórumokon és az IRC csatornán.<\/li><li>Firmware és konfigurátor forráskód írásával - új funkciók, javítások, fejlesztések<\/li><li><a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">Új funkciók, javítások<\/a> tesztelésével.<\/li><li><a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\"> Hibák, vagy kérések<\/a> kommentálásával.<\/li><li><a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">A konfigurátor fordításával.<\/a><\/li><li><\/li><\/ul>"
-    },
-    "defaultChangelogAction": {
-        "message": "Változtatásnapló"
     },
     "defaultChangelogHead": {
         "message": "Konfigurátor - Változtatásnapló"
