@@ -41,12 +41,6 @@
     "permanentExpertMode": {
         "message": "Kytke edistynyt tila pysyvästi päälle"
     },
-    "userLanguageSelect": {
-        "message": "Kieli (käynnistä ohjelma uudestaan, jotta muutokset tulevat voimaan)"
-    },
-    "language_default": {
-        "message": "Oletus"
-    },
     "sensorStatusGyro": {
         "message": "Gyroskooppi"
     },
@@ -388,9 +382,6 @@
     },
     "defaultContributingHead": {
         "message": "Avustaminen"
-    },
-    "defaultChangelogAction": {
-        "message": "Muutosloki"
     },
     "defaultChangelogHead": {
         "message": "Configurator - Muutosloki"
