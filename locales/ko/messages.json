@@ -62,12 +62,6 @@
     "analyticsOptOut": {
         "message": "익명화된 통계 데이타 수집 선택 해제"
     },
-    "userLanguageSelect": {
-        "message": "언어 (변경 사항을 적용하려면 어플리케이션을 다시 시작해야 함)"
-    },
-    "language_default": {
-        "message": "기본값"
-    },
     "sensorDataFlashNotFound": {
         "message": "데이터플래시 <br>칩이 발견되지 않음",
         "description": "Text of the dataflash image in the header of the page."
@@ -482,14 +476,8 @@
     "defaultFacebookText": {
         "message": "우리는 또한 <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">페이스북 그룹<\/a>이 있습니다.<br \/>우리와 함께 베타플라이트에 대해 이야기하고, 환경설정 질문을 하거나, 동료 파일럿과 어울릴 수 있습니다."
     },
-    "defaultChangelogAction": {
-        "message": "변경이력"
-    },
     "defaultChangelogHead": {
         "message": "컨피규레이터 - 변경이력"
-    },
-    "defaultPrivacyPolicyAction": {
-        "message": "개인정보 보호정책"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "펌웨어 플래시 도구"
