@@ -62,6 +62,39 @@
     "analyticsOptOut": {
         "message": "익명화된 통계 데이타 수집 선택 해제"
     },
+    "language_changed": {
+        "message": "언어 변경이 저장됨"
+    },
+    "language_choice_message": {
+        "message": "언어 변경:",
+        "description": "Try and be brief"
+    },
+    "language_default": {
+        "message": "시스템 기본"
+    },
+    "language_default_pretty": {
+        "message": "시스템 기본 ($t(detectedLanguage))"
+    },
+    "language_ca": {
+        "message": "Català",
+        "description": "Don't translate!!!"
+    },
+    "language_de": {
+        "message": "Deutsch",
+        "description": "Don't translate!!!"
+    },
+    "language_en": {
+        "message": "English",
+        "description": "Don't translate!!!"
+    },
+    "language_es": {
+        "message": "Español",
+        "description": "Don't translate!!!"
+    },
+    "language_fr": {
+        "message": "Français",
+        "description": "Don't translate!!!"
+    },
     "sensorDataFlashNotFound": {
         "message": "데이터플래시 <br>칩이 발견되지 않음",
         "description": "Text of the dataflash image in the header of the page."
