@@ -3080,6 +3080,39 @@
     "pidTuningNotchFilterHelp": {
         "message": "crwdns8743:0crwdne8743:0"
     },
+    "pidTuningDynamicNotchFilterGroup": {
+        "message": "crwdns9528:0crwdne9528:0"
+    },
+    "pidTuningDynamicNotchFilterHelp": {
+        "message": "crwdns9530:0crwdne9530:0"
+    },
+    "pidTuningDynamicNotchFilterDisabledWarning": {
+        "message": "crwdns9532:0$t(configurationFeatures.message)crwdnd9532:0$t(tabConfiguration.message)crwdne9532:0"
+    },
+    "pidTuningDynamicNotchRange": {
+        "message": "crwdns9534:0crwdne9534:0"
+    },
+    "pidTuningDynamicNotchWidthPercent": {
+        "message": "crwdns9536:0crwdne9536:0"
+    },
+    "pidTuningDynamicNotchQ": {
+        "message": "crwdns9538:0crwdne9538:0"
+    },
+    "pidTuningDynamicNotchMinHz": {
+        "message": "crwdns9540:0crwdne9540:0"
+    },
+    "pidTuningDynamicNotchRangeHelp": {
+        "message": "crwdns9542:0crwdne9542:0"
+    },
+    "pidTuningDynamicNotchWidthPercentHelp": {
+        "message": "crwdns9544:0crwdne9544:0"
+    },
+    "pidTuningDynamicNotchQHelp": {
+        "message": "crwdns9546:0crwdne9546:0"
+    },
+    "pidTuningDynamicNotchMinHzHelp": {
+        "message": "crwdns9548:0crwdne9548:0"
+    },
     "pidTuningLowpassFilterHelp": {
         "message": "crwdns9026:0crwdne9026:0"
     },
