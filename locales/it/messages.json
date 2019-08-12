@@ -62,6 +62,16 @@
     "analyticsOptOut": {
         "message": "Disattiva la raccolta anonima di dati statistici"
     },
+    "language_changed": {
+        "message": "Cambio della lingua salvato"
+    },
+    "language_choice_message": {
+        "message": "Cambia lingua:",
+        "description": "Try and be brief"
+    },
+    "language_default": {
+        "message": "Lingua di sistema"
+    },
     "sensorDataFlashNotFound": {
         "message": "Nessun chip per <br>flashare i dati trovato",
         "description": "Text of the dataflash image in the header of the page."
@@ -284,7 +294,7 @@
         "message": "cancellazione in corso..."
     },
     "stm32Flashing": {
-        "message": "Lampeggiante ..."
+        "message": "Flashando..."
     },
     "stm32Verifying": {
         "message": "Verifica in corso..."
