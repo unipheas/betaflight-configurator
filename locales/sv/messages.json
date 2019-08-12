@@ -3066,6 +3066,39 @@
     "pidTuningNotchFilterHelp": {
         "message": "Bandspärrfiltret har ett centrum och en cutoff. Filtret är symmetriskt. Centrumfrekvensen är filtrets centrum och cutoff-frekvensen är där bandspärrfiltret börjar. Exempelvis så kommer en cutoff på 160 och centrum på 260 att ge ett omfång på 160-360Hz med mest försvagning kring centrum"
     },
+    "pidTuningDynamicNotchFilterGroup": {
+        "message": "Dynamiskt bandspärrfilter"
+    },
+    "pidTuningDynamicNotchFilterHelp": {
+        "message": "Dynamiskt bandspärrfilter spårar motorernas högsta brusfrekvens och sätter ett eller två bandspärrfilter med centrum vid den frekvensen."
+    },
+    "pidTuningDynamicNotchFilterDisabledWarning": {
+        "message": "<strong>Observera:<\/strong> Det dynamiska bandspärrfiltret är avstängt. För att konfigurera och använda det, aktivera funktionen 'DYNAMIC_FILTER' i sektionen '$t(configurationFeatures.message)' under fliken '$t(tabConfiguration.message)'."
+    },
+    "pidTuningDynamicNotchRange": {
+        "message": "Dynamiskt bandspärrfilteromfång"
+    },
+    "pidTuningDynamicNotchWidthPercent": {
+        "message": "Dynamisk bandspärrviddsprocent"
+    },
+    "pidTuningDynamicNotchQ": {
+        "message": "Dynamisk bandspärr Q"
+    },
+    "pidTuningDynamicNotchMinHz": {
+        "message": "Dynamisk bandspärr Min Hz"
+    },
+    "pidTuningDynamicNotchRangeHelp": {
+        "message": "Den dynamiska bandspärren kan arbeta i tre frekvensomfång: LOW(80-330hz) för långsamt roterande quadar, som 6 tum eller större, MEDIUM(140-550hz) för en normal 5-tumsquad, HIGH(230-800hz) för snabbt roterande 2.5-3-tumsquadar. Alternativet AUTO väljer omfång utifrån värdet på den maximala cutoff-frekvensen på gyrons dynamiska lågpassfilter 1."
+    },
+    "pidTuningDynamicNotchWidthPercentHelp": {
+        "message": "Denna sätter vidden mellan två dynamiska bandspärrfilter. Om den sätts till 0 kommer det andra dynamiska bandspärrfiltret att avaktiveras och filterfördröjningen minskar, dock kan detta medföra ökade motortemperaturer."
+    },
+    "pidTuningDynamicNotchQHelp": {
+        "message": "Q-faktorn justerar hur snäva eller breda de dynamiska bandspärrfiltren är. Ett högre värde gör dem snävare och mer precisa, och ett lägre värde gör dem bredare. Ett riktigt lågt värde kommer att öka filterfördröjningen märkbart."
+    },
+    "pidTuningDynamicNotchMinHzHelp": {
+        "message": "Definierar den lägsta dynamiska bandspärrscentrumfrekvensen som den dynamiska bandspärren inte kan understiga."
+    },
     "pidTuningLowpassFilterHelp": {
         "message": "Lågpassfiltren finns i två varianter: statiska och dynamiska. För ett förutbestämt lågpassfilternummer kan bara ett (statiskt eller dynamiskt) vara aktivt samtidigt. Det statiska filtret har ett Cutoff-värde som på något sätt definierar var filtret startar. Det dynamiska filtret sätter ett min- och ett maxvärde, som är Cutoff-omfånget. Denna Cutoff förflyttas från min till max samtidigt som styrspaken flyttas."
     },
