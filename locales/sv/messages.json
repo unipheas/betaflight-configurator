@@ -369,6 +369,9 @@
     "stm32LocalErase": {
         "message": "Utför lokal radering ..."
     },
+    "stm32InvalidHex": {
+        "message": "Ogiltigt hexvärde"
+    },
     "stm32Erase": {
         "message": "Raderar ..."
     },
