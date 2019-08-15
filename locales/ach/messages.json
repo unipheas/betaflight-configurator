@@ -4802,6 +4802,12 @@
     "onboardLoggingRateOfLogging": {
         "message": "crwdns6360:0crwdne6360:0"
     },
+    "onboardLoggingDebugMode": {
+        "message": "crwdns9550:0crwdne9550:0"
+    },
+    "onboardLoggingDebugModeUnknown": {
+        "message": "crwdns9552:0crwdne9552:0"
+    },
     "onboardLoggingSerialLogger": {
         "message": "crwdns6361:0crwdne6361:0"
     },
