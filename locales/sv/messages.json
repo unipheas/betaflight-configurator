@@ -4788,6 +4788,12 @@
     "onboardLoggingRateOfLogging": {
         "message": "Blackbox loggningshastighet"
     },
+    "onboardLoggingDebugMode": {
+        "message": "Blackbox debugläge"
+    },
+    "onboardLoggingDebugModeUnknown": {
+        "message": "OKÄNT"
+    },
     "onboardLoggingSerialLogger": {
         "message": "Extern seriell loggenhet"
     },
