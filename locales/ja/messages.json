@@ -62,6 +62,19 @@
     "analyticsOptOut": {
         "message": "匿名の統計データ収集を無効"
     },
+    "language_changed": {
+        "message": "言語の変更を保存しました"
+    },
+    "language_choice_message": {
+        "message": "表示言語の切替:",
+        "description": "Try and be brief"
+    },
+    "language_default": {
+        "message": "システム初期値"
+    },
+    "language_default_pretty": {
+        "message": "システム初期値 ($t(detectedLanguage))"
+    },
     "sensorDataFlashNotFound": {
         "message": "データ書込みできません<br>チップを確認しました",
         "description": "Text of the dataflash image in the header of the page."
@@ -147,6 +160,12 @@
     },
     "tabLanding": {
         "message": "ようこそ"
+    },
+    "tabChangelog": {
+        "message": "変更履歴"
+    },
+    "tabPrivacyPolicy": {
+        "message": "プライバシーポリシー"
     },
     "tabHelp": {
         "message": "マニュアル & サポート"
@@ -285,6 +304,9 @@
     },
     "stm32LocalErase": {
         "message": "ローカル消去を実行中 ..."
+    },
+    "stm32InvalidHex": {
+        "message": "無効なHEXファイル"
     },
     "stm32Erase": {
         "message": "消去中..."
@@ -487,6 +509,9 @@
     },
     "defaultDonateText": {
         "message": "<p><strong>Betaflight<\/strong>は<strong>オープンソース<\/strong>であり、すべてのユーザに対し保証なしで<strong>無償<\/strong>にて提供されるフライトコントローラソフトウェアです。<\/p><p>もし、あなたがBetaflightやBetaflight Configuratorが役立つと感じたら、寄付による開発の<strong>サポート<\/strong>をご検討ください。<\/p>"
+    },
+    "defaultDonateBottom": {
+        "message": "<p>継続して金銭的に貢献したい場合は $t(patreonLink.message) で支援者になることをご検討ください。<\/p>"
     },
     "defaultDonate": {
         "message": "寄付"
@@ -2977,6 +3002,39 @@
     "pidTuningNotchFilterHelp": {
         "message": "ノッチフィルターには中心周波数とカットオフ周波数があります。 フィルターは対称となり、 中心周波数はフィルターの中心位置で、カットオフ周波数はノッチフィルターの開始位置となります。 たとえばノッチフィルター カットオフ周波数が160Hz、ノッチフィルター中心周波数が260Hzの場合、範囲は160〜360Hzとなり、中心付近の減衰が最も大きくなります。"
     },
+    "pidTuningDynamicNotchFilterGroup": {
+        "message": "ダイナミックノッチフィルター"
+    },
+    "pidTuningDynamicNotchFilterHelp": {
+        "message": "ダイナミックノッチフィルターは、モーターノイズのピーク周波数を追跡し、その周波数を中心に1つ、または2つのノッチフィルターを配置します。"
+    },
+    "pidTuningDynamicNotchFilterDisabledWarning": {
+        "message": "<strong>注:<\/strong> 動的ノッチフィルターは無効です。設定して使用するには【$t(tabConfiguration.message)】タブの【$t(configurationFeatures.message)】項で『DYNAMIC_FILTER』機能を有効にしてください。"
+    },
+    "pidTuningDynamicNotchRange": {
+        "message": "ダイナミックノッチフィルター範囲"
+    },
+    "pidTuningDynamicNotchWidthPercent": {
+        "message": "ダイナミックノッチ 幅％"
+    },
+    "pidTuningDynamicNotchQ": {
+        "message": "ダイナミックノッチ Q"
+    },
+    "pidTuningDynamicNotchMinHz": {
+        "message": "ダイナミックノッチ 最小Hz"
+    },
+    "pidTuningDynamicNotchRangeHelp": {
+        "message": "ダイナミックノッチには、設定可能な3つの周波数範囲があります。6インチ以上の低回転型クワッドコプターの場合はLOW(80-330hz)、通常の5インチの場合はMEDIUM(140-550hz)、2.5～3インチのような非常に高回転の場合はHIGH(230-800hz) となります。AUTOオプションは、ジャイロダイナミックローパスフィルター1の最大カットオフ周波数の値に応じて範囲を選択します。"
+    },
+    "pidTuningDynamicNotchWidthPercentHelp": {
+        "message": "これにより、2つの動的ノッチフィルター間の幅が設定されます。0に設定すると、動的ノッチフィルター2が無効となり、フィルター遅延が減少しますが、モーターの温度が高くなる場合があります。"
+    },
+    "pidTuningDynamicNotchQHelp": {
+        "message": "Q係数は動的ノッチフィルターの幅を調整します。値を大きくすると幅が狭くなり、より正確となり、値を低くすると幅が広くなります。本当に低い値を設定すると、フィルター遅延が大幅に増加します。"
+    },
+    "pidTuningDynamicNotchMinHzHelp": {
+        "message": "その値以下でダイナミックノッチが遷移しない最低ダイナミックノッチ中心周波数を定義します。"
+    },
     "pidTuningLowpassFilterHelp": {
         "message": "ローパスフィルタには静的・動的の2種類があります。設定したローパスフィルタ番号に対し、常に有効となるのは (静的または動的) どちらか1つです。静的カットオフは、フィルタ開始位置をいずれかの方法で定義します。動的カットオフは、最小値と最大値、つまりカットオフ有効範囲を定義します。このカットオフは、スロットルスティックを動かすのと同時に最小から最大へ変位します。"
     },
@@ -3069,6 +3127,9 @@
     },
     "pidTuningItermRelaxTypeOptionSetpoint": {
         "message": "セットポイント"
+    },
+    "pidTuningItermRelaxCutoff": {
+        "message": "カットオフ:"
     },
     "pidTuningAbsoluteControlGain": {
         "message": "アブソリュート コントロール"
@@ -4662,6 +4723,12 @@
     },
     "onboardLoggingRateOfLogging": {
         "message": "ブラックボックス ログレート"
+    },
+    "onboardLoggingDebugMode": {
+        "message": "Blackboxデバッグモード"
+    },
+    "onboardLoggingDebugModeUnknown": {
+        "message": "UNKNOWN"
     },
     "onboardLoggingSerialLogger": {
         "message": "外付 シリアルログデバイス"
