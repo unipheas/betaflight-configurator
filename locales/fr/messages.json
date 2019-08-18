@@ -3072,6 +3072,30 @@
     "pidTuningDynamicNotchFilterDisabledWarning": {
         "message": "<strong>Remarque:<\/strong> Le filtre Notch dynamique est désactivé. Pour pouvoir le configurer et l'utiliser, veuillez activer la fonctionnalité 'DYNAMIC_FILTER' dans la section '$t(configurationFeatures.message)' de l'onglet '$t(tabConfiguration.message)'."
     },
+    "pidTuningDynamicNotchRange": {
+        "message": "Étendue du filtre Notch Dynamique"
+    },
+    "pidTuningDynamicNotchWidthPercent": {
+        "message": "Largeur du Notch Dynamique en pourcent"
+    },
+    "pidTuningDynamicNotchQ": {
+        "message": "Notch Dynamique Q"
+    },
+    "pidTuningDynamicNotchMinHz": {
+        "message": "Hz Min Notch Dynamique"
+    },
+    "pidTuningDynamicNotchRangeHelp": {
+        "message": "Le Notch Dynamique peut fonctionner sur trois plages de fréquences : BAS(80-330hz) pour des quads à vitesse de rotation faible comme les 6 pouces et +, MEDIUM(140-550hz) pour un quad normal de 5 pouces, HIGH(230-800hz) pour des vitesses de rotation élevées comme les 2,5-3 pouces. AUTO choisit la plage selon les valeurs de coupure du filtre Dynamique Gyro Lowpass 1."
+    },
+    "pidTuningDynamicNotchWidthPercentHelp": {
+        "message": "Définit l'écart entre deux filtres Notch Dynamiques. 0 désactive le second filtre Notch Dynamique et réduit la latence liée au filtrage, mais peut engendrer des températures moteurs plus élevées."
+    },
+    "pidTuningDynamicNotchQHelp": {
+        "message": "Q ajuste la largeur de plage du filtre Notch Dynamique. Une valeur élevée rétrécie la plage et le rend plus précis, une valeur élevée élargit la plage. Une valeur vraiment basse augmente significativement la latence liée au filtrage."
+    },
+    "pidTuningDynamicNotchMinHzHelp": {
+        "message": "Définit la fréquence minimum du centre du Notch Dynamique, valeur en dessous de laquelle le Notch Dynamique n'interviendra pas."
+    },
     "pidTuningLowpassFilterHelp": {
         "message": "Les filtres passe-bas peuvent avoir deux variantes : statique et dynamique. Un seul des nombres définit pour chacun des filtres passe-bas est utilisé (statique ou dynamique). Le statique est un seuil de coupure à partir duquel le filtre commence. Le dynamique définit un min et max, la plage dans laquelle la coupure sera placée. Cette plage de coupure varie entre le min et le max en même temps que vous bougez le stick des gaz."
     },
