@@ -4773,6 +4773,26 @@
         "message": "Nombre",
         "description": "Text of one of the titles of the VTX Table element in the VTX tab"
     },
+    "vtxTableBandTitleLetter": {
+        "message": "Letra",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleFactory": {
+        "message": "Fábrica",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandsChannelsTableHelp": {
+        "message": "Esta tabla representa todas las frecuencias que pueden ser utilizadas por tu VTX. Puedes tener diferentes bandas y por cada banda debes configurar:<br><b>- $t(vtxTableBandTitleName.message):<\/b> Nombre que quieres asignar a esa banda, como BOSCAM_A, FATSHARK o RACEBAND.<br><b>- $t(vtxTableBandTitleLetter.message):<\/b> Letra corta que referencia a la banda.<br><b>- $t(vtxTableBandTitleFactory.message):<\/b> Esto indica que es una banda de fábrica. Si se activa Betaflight sólo envía al VTX una banda y un número de canal. El VTX usará su tabla de frecuencias preconfigurada y las frecuencias configuradas aquí sólo se utilizarán para mostrar el valor en el OSD y en otros lugares. Si no está activado, entonces Betaflight enviará al VTX la frecuencia real configurada aquí.<br><b>- Frecuencias:<\/b> Frecuencias para esta banda.<br><br>Recuerda que no todas las frecuencias son legales en tu país. Debes poner un valor de <b>cero<\/b> en cada índice de frecuencia que no estés autorizado a utilizar para desactivarlo.",
+        "description": "Help for the table of bands-channels that appears in the VTX tab"
+    },
+    "vtxButtonSave": {
+        "message": "Guardar",
+        "description": "Save button in the VTX tab"
+    },
+    "vtxButtonSaved": {
+        "message": "Guardado",
+        "description": "Saved action button in the VTX tab"
+    },
     "mainHelpArmed": {
         "message": "Motor Armado"
     },
