@@ -3623,12 +3623,6 @@
     "osdSetupCameraConnected": {
         "message": "Kamera spojena"
     },
-    "osdSetupCameraConnectedValueYes": {
-        "message": "Da"
-    },
-    "osdSetupCameraConnectedValueNo": {
-        "message": "Ne"
-    },
     "osdSetupResetText": {
         "message": "Vrati OSD na zadane postavke"
     },
