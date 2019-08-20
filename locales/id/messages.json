@@ -3261,12 +3261,6 @@
     "osdSetupCameraConnected": {
         "message": "Kamera Terhubung"
     },
-    "osdSetupCameraConnectedValueYes": {
-        "message": "Ya"
-    },
-    "osdSetupCameraConnectedValueNo": {
-        "message": "Tidak"
-    },
     "osdSetupResetText": {
         "message": "Atur ulang OSD ke standar"
     },
