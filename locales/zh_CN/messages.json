@@ -275,6 +275,9 @@
     "tabOsd": {
         "message": "OSD 屏幕叠加显示"
     },
+    "tabVtx": {
+        "message": "图传(VTX)"
+    },
     "tabPower": {
         "message": "动力 & 电池"
     },
@@ -4658,6 +4661,14 @@
         "message": "当前值",
         "description": "Title for the actual values header of the VTX"
     },
+    "vtxType": {
+        "message": "图传类型",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxType_0": {
+        "message": "不支持",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
     "vtxType_1": {
         "message": "RTC607",
         "description": "Text for one of the types of the VTX type in VTX tab"
@@ -4720,6 +4731,10 @@
     },
     "vtxTablePowerLevelsValue": {
         "message": "值",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsLabel": {
+        "message": "标签",
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
     },
     "vtxTableBandTitleName": {
