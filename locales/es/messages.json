@@ -1,4 +1,12 @@
 {
+    "yes": {
+        "message": "Si",
+        "description": "General Yes message to be used across the application"
+    },
+    "no": {
+        "message": "No",
+        "description": "General No message to be used across the application"
+    },
     "error": {
         "message": "Error: {{errorMessage}}"
     },
@@ -202,6 +210,9 @@
     },
     "tabOsd": {
         "message": "OSD"
+    },
+    "tabVtx": {
+        "message": "Transmisor de Video"
     },
     "tabPower": {
         "message": "Energía y Batería"
@@ -4573,6 +4584,194 @@
     },
     "osdButtonSaved": {
         "message": "Guardado"
+    },
+    "vtxHelp": {
+        "message": "Puedes configurar aquí los valores para tu Transmisor de Video (VTX). Puedes consultar y configurar los valores de la transmisión incluyendo las Tablas VTX si el controlador de vuelo y el VTX lo soportan",
+        "description": "Introduction message in the VTX tab"
+    },
+    "vtxMessageNotSupported": {
+        "message": "<span class=\"message-negative\">Atención:<\/span> Tu VTX no está configurado o no está soportado. Por lo tanto no puedes modificar los valores del VTX desde aquí. Esto sólo sería posible si el controlador de vuelo está conectado al VTX usando algún tipo de protocolo como Tramp o SmartAudio y está correctamente configurado en la pestaña $t(tabPorts.message) si fuera necesario.",
+        "description": "Message to show when the VTX is not supported in the VTX tab"
+    },
+    "vtxMessageTableNotConfigured": {
+        "message": "<span class=\"message-negative\">Atención:<\/span> Necesitas configurar y guardar PRIMERO la Tabla VTX de abajo antes de que puedas hacer uso de los campos de $t(vtxSelectedMode.message).",
+        "description": "Message to show when the VTX is not supported in the VTX tab"
+    },
+    "vtxFrequencyChannel": {
+        "message": "Introducir frecuencia directamente",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxFrequencyChannelHelp": {
+        "message": "Si lo activas, la aplicación te permitirá seleccionar una frecuencia en lugar de la habitual banda\/canal. Para que esto funcione tu VTX debe soportar esta funcionalidad.",
+        "description": "Help text for the frequency or channel select field of the VTX tab"
+    },
+    "vtxSelectedMode": {
+        "message": "Modo Seleccionado",
+        "description": "Title for the actual mode header of the VTX"
+    },
+    "vtxActualState": {
+        "message": "Valores Actuales",
+        "description": "Title for the actual values header of the VTX"
+    },
+    "vtxType": {
+        "message": "Tipo de VTX",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxType_0": {
+        "message": "No soportado",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_1": {
+        "message": "RTC607",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_3": {
+        "message": "SmartAudio",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_4": {
+        "message": "Tramp",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_255": {
+        "message": "Desconocido",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxBand": {
+        "message": "Banda",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxBandHelp": {
+        "message": "Aquí puedes seleccionar la banda para tu VTX",
+        "description": "Help text for the band field of the VTX tab"
+    },
+    "vtxBand_0": {
+        "message": "Ninguna",
+        "description": "Text of one of the options for the band field of the VTX tab"
+    },
+    "vtxBand_X": {
+        "message": "Banda {{bandName}}",
+        "description": "Text of one of the options for the band field of the VTX tab"
+    },
+    "vtxChannel_0": {
+        "message": "Ninguno",
+        "description": "Text of one of the options for the channel field of the VTX tab"
+    },
+    "vtxChannel_X": {
+        "message": "Canal {{channelName}}",
+        "description": "Text of one of the options for the channel field of the VTX tab"
+    },
+    "vtxPower_0": {
+        "message": "Ninguno",
+        "description": "Text of one of the options for the power field of the VTX tab"
+    },
+    "vtxPower_X": {
+        "message": "Nivel {{powerLevel}}",
+        "description": "Text of one of the options for the power field of the VTX tab"
+    },
+    "vtxChannel": {
+        "message": "Canal",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxChannelHelp": {
+        "message": "Aquí puedes seleccionar el canal para tu VTX",
+        "description": "Help text for the channel field of the VTX tab"
+    },
+    "vtxFrequency": {
+        "message": "Frecuencia",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxFrequencyHelp": {
+        "message": "Aquí puedes seleccionar la frecuencia para tu VTX",
+        "description": "Help text for the frequency field of the VTX tab"
+    },
+    "vtxDeviceReady": {
+        "message": "Dispositivo listo",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPower": {
+        "message": "Potencia",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPowerHelp": {
+        "message": "Este es el nivel de potencia seleccionado para el VTX. Puede ser modificado si el $t(vtxPitMode.message) o el $t(vtxLowPowerDisarm.message) están activados",
+        "description": "Help text for the power field of the VTX tab"
+    },
+    "vtxPitMode": {
+        "message": "Modo Pit",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPitModeHelp": {
+        "message": "Cuando está activado, el VTX entra en un modo de muy baja energía para permitir que el quad esté en el banco de pruebas sin molestar a otros pilotos. Generalmente el rango de este modo es inferior a 5m.<br><br>NOTA: Algunos protocolos, como SmartAudio, no pueden activar el Modo Pit vía software después de encendido.",
+        "description": "Help text for the pit mode field of the VTX tab"
+    },
+    "vtxPitModeFrequency": {
+        "message": "Frecuencia del Modo Pit",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPitModeFrequencyHelp": {
+        "message": "Frecuencia a la que el Modo Pit cambia cuando se activa.",
+        "description": "Help text for the pit mode field of the VTX tab"
+    },
+    "vtxLowPowerDisarm": {
+        "message": "Desarme de Baja Energía",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxLowPowerDisarmHelp": {
+        "message": "Cuando se activa, el VTX usa el nivel más bajo de energía disponible si está desarmado (excepto si se ha ejecutado el Modo de Seguridad).",
+        "description": "Help text for the low power disarm field of the VTX tab"
+    },
+    "vtxLowPowerDisarmOption_0": {
+        "message": "Apagado",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxLowPowerDisarmOption_1": {
+        "message": "Encendido",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxLowPowerDisarmOption_2": {
+        "message": "Encendido hasta primer armado",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxTable": {
+        "message": "Tabla VTX",
+        "description": "Text of the header of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevels": {
+        "message": "Número de niveles de potencia",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsHelp": {
+        "message": "Esto define el número de niveles de potencia soportados por tu VTX",
+        "description": "Help for the number of power levels field of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsTableHelp": {
+        "message": "Esta tabla representa los diferentes valores de potencia que pueden ser usados por el VTX. Están divididos en dos:<br><b>$t(vtxTablePowerLevelsValue.message):<\/b> cada nivel de potencia requiere un valor que define el fabricante del hardware. Pregunta a tu fabricante por el valor correcto o consulta la wiki de Betaflight sobre Tablas VTX para obtener algunos ejemplos.<br><b>$t(vtxTablePowerLevelsLabel.message):<\/b> puedes poner aquí la etiqueta que quieras para cada nivel de potencia. Pueden ser números (25, 200, 600, 1.2), letras (OFF, MIN, MAX) o una mezcla de ambos.<br><br>Debes configurar <b>sólo<\/b> los niveles de potencia que son legales en tu país.",
+        "description": "Help for the table of power levels (value-label) that appears in the VTX tab"
+    },
+    "vtxTablePowerLevelsValue": {
+        "message": "Valor",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsLabel": {
+        "message": "Etiqueta",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBands": {
+        "message": "Número de bandas",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableChannels": {
+        "message": "Número de canales por banda",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandsChannelsHelp": {
+        "message": "Esto define el número de bandas y el número de canales por banda que quieres para tu VTX.",
+        "description": "Help for the number of bands and channels field of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleName": {
+        "message": "Nombre",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
     },
     "mainHelpArmed": {
         "message": "Motor Armado"
