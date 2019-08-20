@@ -1,4 +1,12 @@
 {
+    "yes": {
+        "message": "是",
+        "description": "General Yes message to be used across the application"
+    },
+    "no": {
+        "message": "否",
+        "description": "General No message to be used across the application"
+    },
     "error": {
         "message": "错误: {{errorMessage}}"
     },
@@ -368,6 +376,9 @@
     },
     "stm32LocalErase": {
         "message": "正在执行本地擦除……"
+    },
+    "stm32InvalidHex": {
+        "message": "无效固件"
     },
     "stm32Erase": {
         "message": "正在擦除……"
@@ -3063,6 +3074,39 @@
     "pidTuningNotchFilterHelp": {
         "message": "陷波滤波器有一个中心频率和一个截止频率。过滤器频率设置是中心对称的。中心频率是过滤器的中心，截止频率是陷波滤波器开始的位置。例如：当设置截止频率为160和中心频率为260时，它意味着滤波范围是160-360Hz，并且中心频率附近获得最多的抑制。"
     },
+    "pidTuningDynamicNotchFilterGroup": {
+        "message": "动态陷波滤波器"
+    },
+    "pidTuningDynamicNotchFilterHelp": {
+        "message": "动态陷波滤波器将跟踪电机噪音频率，并并根据其频率在中间放置一个或两个陷波滤波器过滤器，"
+    },
+    "pidTuningDynamicNotchFilterDisabledWarning": {
+        "message": "<strong>注意:<\/strong> 动态陷波滤波器已关闭。为了配置和使用它，请在$t(configurationFeatures.message)选择$t(tabConfiguration.message)以开启“动态陷波滤波器”功能"
+    },
+    "pidTuningDynamicNotchRange": {
+        "message": "动态陷波滤波器范围"
+    },
+    "pidTuningDynamicNotchWidthPercent": {
+        "message": "动态陷波滤波器宽度百分比"
+    },
+    "pidTuningDynamicNotchQ": {
+        "message": "动态陷波滤波器Q"
+    },
+    "pidTuningDynamicNotchMinHz": {
+        "message": "动态陷波滤波器最低频率"
+    },
+    "pidTuningDynamicNotchRangeHelp": {
+        "message": "动态陷波滤波器有三个频率范围可供运行：LOW(80-330hz) 用于6英寸及以上的低速巡航机，MEDIU(140-550hz) 用于常见的5英寸飞行器，HIGH(230-800hz) 用于电机转速较高的2.5-3英寸的飞行器。AUTO 选项将会使用陀螺仪低通滤波器1最高截止频率范围来决定频率范围。"
+    },
+    "pidTuningDynamicNotchWidthPercentHelp": {
+        "message": "这设置了两个动态陷波滤波器之间的宽度。设置为0将禁用第二个动态陷波滤波器，并减少滤波延迟，但是它可能会使电机温度更高。"
+    },
+    "pidTuningDynamicNotchQHelp": {
+        "message": "Q调整了动态陷波滤波器的宽度。更高的值将使其变得更窄、更精准，较低的值将使其变得更宽、更宽泛。将Q调到很低将会带来很大的滤波器延迟。"
+    },
+    "pidTuningDynamicNotchMinHzHelp": {
+        "message": "定义动态陷波滤波器最低中心频率，动态陷波滤波器不会低于此值运行。"
+    },
     "pidTuningLowpassFilterHelp": {
         "message": "低通滤波器有两个类型：静态和动态。设定低通滤波器时同一时刻只能启用一个类型（静态或动态）。静态滤波器需要预先定义一个滤波器开始工作的截止频率。动态滤波器则通过设置最低和最高值来定义一个截止范围。截止频率跟随油门摇杆在最低和最高范围内移动。"
     },
@@ -4601,6 +4645,66 @@
     },
     "osdButtonSaved": {
         "message": "已保存"
+    },
+    "vtxFrequencyChannel": {
+        "message": "直接输入频率",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxSelectedMode": {
+        "message": "选择模式",
+        "description": "Title for the actual mode header of the VTX"
+    },
+    "vtxActualState": {
+        "message": "当前值",
+        "description": "Title for the actual values header of the VTX"
+    },
+    "vtxType_1": {
+        "message": "RTC607",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_3": {
+        "message": "SmartAudio",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_4": {
+        "message": "Tramp",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_255": {
+        "message": "未知",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxBand_0": {
+        "message": "无",
+        "description": "Text of one of the options for the band field of the VTX tab"
+    },
+    "vtxChannel_0": {
+        "message": "无",
+        "description": "Text of one of the options for the channel field of the VTX tab"
+    },
+    "vtxPower_0": {
+        "message": "无",
+        "description": "Text of one of the options for the power field of the VTX tab"
+    },
+    "vtxFrequency": {
+        "message": "频率",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxTablePowerLevelsValue": {
+        "message": "值",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleFactory": {
+        "message": "生产商",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxButtonSave": {
+        "message": "保存",
+        "description": "Save button in the VTX tab"
+    },
+    "vtxButtonSaved": {
+        "message": "已保存",
+        "description": "Saved action button in the VTX tab"
     },
     "mainHelpArmed": {
         "message": "电机解锁"
