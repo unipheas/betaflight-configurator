@@ -4686,13 +4686,49 @@
         "message": "无",
         "description": "Text of one of the options for the power field of the VTX tab"
     },
+    "vtxPower_X": {
+        "message": "级别{{powerLevel}}",
+        "description": "Text of one of the options for the power field of the VTX tab"
+    },
     "vtxFrequency": {
         "message": "频率",
         "description": "Text of one of the fields of the VTX tab"
     },
+    "vtxDeviceReady": {
+        "message": "设备准备就绪",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPower": {
+        "message": "功率",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPitMode": {
+        "message": "维修站模式(Pit Mode)",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPitModeFrequency": {
+        "message": "Pit模式频率",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxLowPowerDisarmOption_0": {
+        "message": "关闭",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxLowPowerDisarmOption_1": {
+        "message": "开启",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
     "vtxTablePowerLevelsValue": {
         "message": "值",
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleName": {
+        "message": "名称",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleLetter": {
+        "message": "字母",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
     },
     "vtxTableBandTitleFactory": {
         "message": "生产商",
@@ -4849,6 +4885,12 @@
     },
     "onboardLoggingRateOfLogging": {
         "message": "黑匣子记录速率"
+    },
+    "onboardLoggingDebugMode": {
+        "message": "黑盒调试模式"
+    },
+    "onboardLoggingDebugModeUnknown": {
+        "message": "未知模式"
     },
     "onboardLoggingSerialLogger": {
         "message": "外接串口日志记录设备"
