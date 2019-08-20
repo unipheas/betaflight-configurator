@@ -3737,12 +3737,6 @@
     "osdSetupCameraConnected": {
         "message": "摄像头已连接"
     },
-    "osdSetupCameraConnectedValueYes": {
-        "message": "是"
-    },
-    "osdSetupCameraConnectedValueNo": {
-        "message": "否认"
-    },
     "osdSetupResetText": {
         "message": "恢复 OSD 默认设置"
     },
