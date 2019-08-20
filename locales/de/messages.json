@@ -3586,12 +3586,6 @@
     "osdSetupCameraConnected": {
         "message": "Kamera verbunden"
     },
-    "osdSetupCameraConnectedValueYes": {
-        "message": "Ja"
-    },
-    "osdSetupCameraConnectedValueNo": {
-        "message": "Nein"
-    },
     "osdSetupResetText": {
         "message": "OSD auf Standardwerte zurücksetzen"
     },
