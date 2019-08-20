@@ -6,6 +6,14 @@
         "message": "crwdns5313:0crwdne5313:0",
         "description": "Title of the application window, usually not translated"
     },
+    "yes": {
+        "message": "crwdns9554:0crwdne9554:0",
+        "description": "General Yes message to be used across the application"
+    },
+    "no": {
+        "message": "crwdns9556:0crwdne9556:0",
+        "description": "General No message to be used across the application"
+    },
     "error": {
         "message": "crwdns8722:0{{errorMessage}}crwdne8722:0"
     },
@@ -273,6 +281,9 @@
     },
     "tabOsd": {
         "message": "crwdns5366:0crwdne5366:0"
+    },
+    "tabVtx": {
+        "message": "crwdns9558:0crwdne9558:0"
     },
     "tabPower": {
         "message": "crwdns5367:0crwdne5367:0"
@@ -3787,12 +3798,6 @@
     "osdSetupCameraConnected": {
         "message": "crwdns6227:0crwdne6227:0"
     },
-    "osdSetupCameraConnectedValueYes": {
-        "message": "crwdns6228:0crwdne6228:0"
-    },
-    "osdSetupCameraConnectedValueNo": {
-        "message": "crwdns6229:0crwdne6229:0"
-    },
     "osdSetupResetText": {
         "message": "crwdns6230:0crwdne6230:0"
     },
@@ -4657,6 +4662,214 @@
     },
     "osdButtonSaved": {
         "message": "crwdns8723:0crwdne8723:0"
+    },
+    "vtxHelp": {
+        "message": "crwdns9560:0crwdne9560:0",
+        "description": "Introduction message in the VTX tab"
+    },
+    "vtxMessageNotSupported": {
+        "message": "crwdns9562:0$t(tabPorts.message)crwdne9562:0",
+        "description": "Message to show when the VTX is not supported in the VTX tab"
+    },
+    "vtxMessageTableNotConfigured": {
+        "message": "crwdns9564:0$t(vtxSelectedMode.message)crwdne9564:0",
+        "description": "Message to show when the VTX is not supported in the VTX tab"
+    },
+    "vtxFrequencyChannel": {
+        "message": "crwdns9566:0crwdne9566:0",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxFrequencyChannelHelp": {
+        "message": "crwdns9568:0crwdne9568:0",
+        "description": "Help text for the frequency or channel select field of the VTX tab"
+    },
+    "vtxSelectedMode": {
+        "message": "crwdns9570:0crwdne9570:0",
+        "description": "Title for the actual mode header of the VTX"
+    },
+    "vtxActualState": {
+        "message": "crwdns9572:0crwdne9572:0",
+        "description": "Title for the actual values header of the VTX"
+    },
+    "vtxType": {
+        "message": "crwdns9574:0crwdne9574:0",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxType_0": {
+        "message": "crwdns9576:0crwdne9576:0",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_1": {
+        "message": "crwdns9578:0crwdne9578:0",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_3": {
+        "message": "crwdns9580:0crwdne9580:0",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_4": {
+        "message": "crwdns9582:0crwdne9582:0",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_255": {
+        "message": "crwdns9584:0crwdne9584:0",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxBand": {
+        "message": "crwdns9586:0crwdne9586:0",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxBandHelp": {
+        "message": "crwdns9588:0crwdne9588:0",
+        "description": "Help text for the band field of the VTX tab"
+    },
+    "vtxBand_0": {
+        "message": "crwdns9590:0crwdne9590:0",
+        "description": "Text of one of the options for the band field of the VTX tab"
+    },
+    "vtxBand_X": {
+        "message": "crwdns9592:0{{bandName}}crwdne9592:0",
+        "description": "Text of one of the options for the band field of the VTX tab"
+    },
+    "vtxChannel_0": {
+        "message": "crwdns9594:0crwdne9594:0",
+        "description": "Text of one of the options for the channel field of the VTX tab"
+    },
+    "vtxChannel_X": {
+        "message": "crwdns9596:0{{channelName}}crwdne9596:0",
+        "description": "Text of one of the options for the channel field of the VTX tab"
+    },
+    "vtxPower_0": {
+        "message": "crwdns9598:0crwdne9598:0",
+        "description": "Text of one of the options for the power field of the VTX tab"
+    },
+    "vtxPower_X": {
+        "message": "crwdns9600:0{{powerLevel}}crwdne9600:0",
+        "description": "Text of one of the options for the power field of the VTX tab"
+    },
+    "vtxChannel": {
+        "message": "crwdns9602:0crwdne9602:0",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxChannelHelp": {
+        "message": "crwdns9604:0crwdne9604:0",
+        "description": "Help text for the channel field of the VTX tab"
+    },
+    "vtxFrequency": {
+        "message": "crwdns9606:0crwdne9606:0",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxFrequencyHelp": {
+        "message": "crwdns9608:0crwdne9608:0",
+        "description": "Help text for the frequency field of the VTX tab"
+    },
+    "vtxDeviceReady": {
+        "message": "crwdns9610:0crwdne9610:0",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPower": {
+        "message": "crwdns9612:0crwdne9612:0",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPowerHelp": {
+        "message": "crwdns9614:0$t(vtxPitMode.message)crwdnd9614:0$t(vtxLowPowerDisarm.message)crwdne9614:0",
+        "description": "Help text for the power field of the VTX tab"
+    },
+    "vtxPitMode": {
+        "message": "crwdns9616:0crwdne9616:0",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPitModeHelp": {
+        "message": "crwdns9618:0crwdne9618:0",
+        "description": "Help text for the pit mode field of the VTX tab"
+    },
+    "vtxPitModeFrequency": {
+        "message": "crwdns9620:0crwdne9620:0",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPitModeFrequencyHelp": {
+        "message": "crwdns9622:0crwdne9622:0",
+        "description": "Help text for the pit mode field of the VTX tab"
+    },
+    "vtxLowPowerDisarm": {
+        "message": "crwdns9624:0crwdne9624:0",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxLowPowerDisarmHelp": {
+        "message": "crwdns9626:0crwdne9626:0",
+        "description": "Help text for the low power disarm field of the VTX tab"
+    },
+    "vtxLowPowerDisarmOption_0": {
+        "message": "crwdns9628:0crwdne9628:0",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxLowPowerDisarmOption_1": {
+        "message": "crwdns9630:0crwdne9630:0",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxLowPowerDisarmOption_2": {
+        "message": "crwdns9632:0crwdne9632:0",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxTable": {
+        "message": "crwdns9634:0crwdne9634:0",
+        "description": "Text of the header of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevels": {
+        "message": "crwdns9636:0crwdne9636:0",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsHelp": {
+        "message": "crwdns9638:0crwdne9638:0",
+        "description": "Help for the number of power levels field of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsTableHelp": {
+        "message": "crwdns9640:0$t(vtxTablePowerLevelsValue.message)crwdnd9640:0$t(vtxTablePowerLevelsLabel.message)crwdne9640:0",
+        "description": "Help for the table of power levels (value-label) that appears in the VTX tab"
+    },
+    "vtxTablePowerLevelsValue": {
+        "message": "crwdns9642:0crwdne9642:0",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsLabel": {
+        "message": "crwdns9644:0crwdne9644:0",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBands": {
+        "message": "crwdns9646:0crwdne9646:0",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableChannels": {
+        "message": "crwdns9648:0crwdne9648:0",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandsChannelsHelp": {
+        "message": "crwdns9650:0crwdne9650:0",
+        "description": "Help for the number of bands and channels field of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleName": {
+        "message": "crwdns9652:0crwdne9652:0",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleLetter": {
+        "message": "crwdns9654:0crwdne9654:0",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleFactory": {
+        "message": "crwdns9656:0crwdne9656:0",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandsChannelsTableHelp": {
+        "message": "crwdns9658:0$t(vtxTableBandTitleName.message)crwdnd9658:0$t(vtxTableBandTitleLetter.message)crwdnd9658:0$t(vtxTableBandTitleFactory.message)crwdne9658:0",
+        "description": "Help for the table of bands-channels that appears in the VTX tab"
+    },
+    "vtxButtonSave": {
+        "message": "crwdns9660:0crwdne9660:0",
+        "description": "Save button in the VTX tab"
+    },
+    "vtxButtonSaved": {
+        "message": "crwdns9662:0crwdne9662:0",
+        "description": "Saved action button in the VTX tab"
     },
     "mainHelpArmed": {
         "message": "crwdns6314:0crwdne6314:0"
