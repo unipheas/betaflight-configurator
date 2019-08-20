@@ -3777,12 +3777,6 @@
     "osdSetupCameraConnected": {
         "message": "카메라 연결됨"
     },
-    "osdSetupCameraConnectedValueYes": {
-        "message": "예"
-    },
-    "osdSetupCameraConnectedValueNo": {
-        "message": "아니오"
-    },
     "osdSetupResetText": {
         "message": "OSD를 기본값으로 초기화"
     },
