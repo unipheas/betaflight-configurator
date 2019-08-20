@@ -3505,12 +3505,6 @@
     "osdSetupCameraConnected": {
         "message": "Kamera pieslēgta"
     },
-    "osdSetupCameraConnectedValueYes": {
-        "message": "Jā"
-    },
-    "osdSetupCameraConnectedValueNo": {
-        "message": "Nē"
-    },
     "osdSetupResetText": {
         "message": "Atiestatīt OSD uz noklusējuma"
     },
