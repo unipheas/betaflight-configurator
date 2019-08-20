@@ -3551,12 +3551,6 @@
     "osdSetupCameraConnected": {
         "message": "Camera Connessa"
     },
-    "osdSetupCameraConnectedValueYes": {
-        "message": "Si"
-    },
-    "osdSetupCameraConnectedValueNo": {
-        "message": "No"
-    },
     "osdSetupResetText": {
         "message": "ripristina impostazioni predefinite OSD"
     },
