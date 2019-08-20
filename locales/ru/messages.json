@@ -3446,12 +3446,6 @@
     "osdSetupCameraConnected": {
         "message": "Камера подключена"
     },
-    "osdSetupCameraConnectedValueYes": {
-        "message": "Да"
-    },
-    "osdSetupCameraConnectedValueNo": {
-        "message": "Нет"
-    },
     "osdSetupResetText": {
         "message": "Сбросить OSD до начального"
     },
