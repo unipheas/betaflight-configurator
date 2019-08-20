@@ -62,6 +62,19 @@
     "analyticsOptOut": {
         "message": "No participar en la recogida anónima de datos estadísticos"
     },
+    "language_changed": {
+        "message": "Cambio de idioma guardado"
+    },
+    "language_choice_message": {
+        "message": "Cambiar idioma:",
+        "description": "Try and be brief"
+    },
+    "language_default": {
+        "message": "Predeterminado del Sistema"
+    },
+    "language_default_pretty": {
+        "message": "Predeterminado del Sistema ($t(detectedLanguage))"
+    },
     "sensorDataFlashNotFound": {
         "message": "Memoria flash<br>no disponible",
         "description": "Text of the dataflash image in the header of the page."
@@ -147,6 +160,12 @@
     },
     "tabLanding": {
         "message": "Bienvenido"
+    },
+    "tabChangelog": {
+        "message": "Novedades"
+    },
+    "tabPrivacyPolicy": {
+        "message": "Política de Privacidad"
     },
     "tabHelp": {
         "message": "Documentación y Soporte"
@@ -285,6 +304,9 @@
     },
     "stm32LocalErase": {
         "message": "Ejecutando borrado local ..."
+    },
+    "stm32InvalidHex": {
+        "message": "Hex no válido"
     },
     "stm32Erase": {
         "message": "Borrando ..."
@@ -2980,6 +3002,39 @@
     "pidTuningNotchFilterHelp": {
         "message": "El Filtro Notch tiene un Centro y un Corte. El filtro es simétrico. La Frecuencia Central es el centro del filtro y la Frecuencia de Corte es donde el filtro Notch empieza. Por ejemplo con una Frecuencia de Corte de 160 y una Frecuencia Central de 260 el rango es 160-360Hz con la mayor atenuación en torno al centro"
     },
+    "pidTuningDynamicNotchFilterGroup": {
+        "message": "Filtro Notch Dinámico"
+    },
+    "pidTuningDynamicNotchFilterHelp": {
+        "message": "El Filtro Notch Dinámico localiza la frecuencia de los picos de ruido producidos por los motores y sitúa uno o dos filtros Notch sobre esa frecuencia."
+    },
+    "pidTuningDynamicNotchFilterDisabledWarning": {
+        "message": "<strong>Atención:<\/strong> El Filtro Notch Dinámico está desactivado. Para poder usarlo y configurarlo, activa la funcionalidad 'DYNAMIC_FILTER' en la sección '$t(configurationFeatures.message)' de la pestaña '$t(tabConfiguration.message)'."
+    },
+    "pidTuningDynamicNotchRange": {
+        "message": "Filtro Notch Dinámico Rango"
+    },
+    "pidTuningDynamicNotchWidthPercent": {
+        "message": "Filtro Notch Dinámico Porcentaje de Ancho"
+    },
+    "pidTuningDynamicNotchQ": {
+        "message": "Filtro Notch Dinámico Q"
+    },
+    "pidTuningDynamicNotchMinHz": {
+        "message": "Filtro Notch Dinámico Min [Hz]"
+    },
+    "pidTuningDynamicNotchRangeHelp": {
+        "message": "El Filtro Notch Dinámico tiene tres rangos de frecuencias en las que puede operar: LOW (80-300Hz) para quads con pocas revoluciones como 6\" o más, MEDIUM (140-550Hz) para un quad normal de 5\", HIGH (230-800Hz) para quads de altas revoluciones como por ejemplo 2,5\"-3\". La opción AUTO selecciona el rango dependiendo del valor de la frecuencia de corte máxima del filtro Giro Paso Bajo 1 Dinámico."
+    },
+    "pidTuningDynamicNotchWidthPercentHelp": {
+        "message": "Este valor selecciona el ancho entre dos Filtros Notch Dinámicos. Un valor de 0 desactiva el segundo Filtro Notch Dinámico y reduce el retraso producido por el filtro, sin embargo puede producir que la temperatura de los motores sean más altas."
+    },
+    "pidTuningDynamicNotchQHelp": {
+        "message": "El factor Q ajusta como de estrechos o anchos son los Filtros Notch Dinámicos. Valores más altos lo hacen estrecho y más preciso y valores más bajos lo hacen más ancho y extenso. Un valor muy bajo aumenta considerablemente el retraso producido por el filtro."
+    },
+    "pidTuningDynamicNotchMinHzHelp": {
+        "message": "Define la mínima frecuencia para el centro del Filtro Notch Dinámica por debajo de la cual el filtro no entrará."
+    },
     "pidTuningLowpassFilterHelp": {
         "message": "Los Filtros Paso Bajo pueden tener dos variantes: estático y dinámico. Para un determinado número de filtro paso bajo sólo uno puede estar activado a la vez (estático o dinámico). El estático sólo tiene un Corte que define de alguna manera dónde empieza el filtro. El dinámico define valores mínimos y máximos, que es el rango dónde se sitúa el Corte. Este Corte se mueve entre el mínimo y el máximo a la vez que mueves la palanca de acelerador."
     },
@@ -3072,6 +3127,9 @@
     },
     "pidTuningItermRelaxTypeOptionSetpoint": {
         "message": "Valor objetivo"
+    },
+    "pidTuningItermRelaxCutoff": {
+        "message": "Corte:"
     },
     "pidTuningAbsoluteControlGain": {
         "message": "Control Absoluto"
@@ -3650,12 +3708,6 @@
     },
     "osdSetupCameraConnected": {
         "message": "Cámara Conectada"
-    },
-    "osdSetupCameraConnectedValueYes": {
-        "message": "Si"
-    },
-    "osdSetupCameraConnectedValueNo": {
-        "message": "No"
     },
     "osdSetupResetText": {
         "message": "Reiniciar OSD a valores por defecto"
@@ -4665,6 +4717,12 @@
     },
     "onboardLoggingRateOfLogging": {
         "message": "Frecuencia de muestreo"
+    },
+    "onboardLoggingDebugMode": {
+        "message": "Modo de depuración de la Caja Negra"
+    },
+    "onboardLoggingDebugModeUnknown": {
+        "message": "DESCONOCIDO"
     },
     "onboardLoggingSerialLogger": {
         "message": "Dispositivo de registro externo"
