@@ -2030,12 +2030,6 @@
     "osdSetupCameraConnected": {
         "message": "Kamera Csatlakoztatva"
     },
-    "osdSetupCameraConnectedValueYes": {
-        "message": "Igen"
-    },
-    "osdSetupCameraConnectedValueNo": {
-        "message": "Nem"
-    },
     "osdSetupResetText": {
         "message": "OSD vissza alapértelmezettre"
     },
