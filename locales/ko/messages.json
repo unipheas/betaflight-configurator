@@ -629,7 +629,7 @@
         "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">베타플라이트 위키<\/a>"
     },
     "defaultSupport3": {
-        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell 베타플라이트 동영상<\/a><br \/><a href=\"https:\/\/www.youtube.com\/playlist?list=PLp92gAniAd2r2tY1b2xGnIKLQAbPiskQI\" target=\"_blank\">JJang FPV's 베타플라이트 설정 강의(동영상)<\/a>"
+        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell 베타플라이트 동영상<\/a><br \/><a href=\"https:\/\/www.youtube.com\/playlist?list=PLp92gAniAd2r2tY1b2xGnIKLQAbPiskQI\" target=\"_blank\">JJang FPV's 베타플라이트 설정 강의(유튜브)<\/a>"
     },
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
