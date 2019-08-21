@@ -275,6 +275,9 @@
     "tabOsd": {
         "message": "OSD"
     },
+    "tabVtx": {
+        "message": "영상 송신기"
+    },
     "tabPower": {
         "message": "파워 & 배터리"
     },
@@ -4649,6 +4652,158 @@
     },
     "osdButtonSaved": {
         "message": "저장됨"
+    },
+    "vtxHelp": {
+        "message": "여기서 당신의 영상 송신기 (VTX) 에 대한 값들을 설정할 수 있습니다. 비행 컨트롤러와 VTX가 지원하는 경우 VTX 표를 포함한 전송 값을 참조하고 구성하십시오.",
+        "description": "Introduction message in the VTX tab"
+    },
+    "vtxMessageNotSupported": {
+        "message": "<span class=\"message-negative\">주의:<\/span> 당신의 VTX가 설정되지 않았거나 지원되지 않습니다. 따라서 여기서 VTX 값을 수정할 수 없습니다. 이는 비행 컨트롤러가 트램프 또는 스마트오디오와 같은 일부 프로토콜을 사용하여 VTX에 연결되고 필요한 경우 $t(tabPorts.message) 탭에서 올바르게 구성된 경우에만 가능합니다.",
+        "description": "Message to show when the VTX is not supported in the VTX tab"
+    },
+    "vtxMessageTableNotConfigured": {
+        "message": "<span class=\"message-negative\">주의:<\/span> $t(vtxSelectedMode.message) 필드를 사용하려면 먼저 아래쪽에 VTX 표를 구성하고 저장하십시오.",
+        "description": "Message to show when the VTX is not supported in the VTX tab"
+    },
+    "vtxFrequencyChannel": {
+        "message": "직접 주파수 입력",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxFrequencyChannelHelp": {
+        "message": "이 기능을 활성화하면 컨피규레이터에서 상습 밴드\/채널을 대신하여 주파수를 선택할 수 있습니다. 이 기능이 작동하려면 VTX가 이 기능을 지원해야 합니다.",
+        "description": "Help text for the frequency or channel select field of the VTX tab"
+    },
+    "vtxSelectedMode": {
+        "message": "선택된 모드",
+        "description": "Title for the actual mode header of the VTX"
+    },
+    "vtxActualState": {
+        "message": "현재 값",
+        "description": "Title for the actual values header of the VTX"
+    },
+    "vtxType": {
+        "message": "VTX 형식",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxType_0": {
+        "message": "지원되지 않음",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_1": {
+        "message": "RTC607",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_3": {
+        "message": "스마트오디오",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_4": {
+        "message": "트램프",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_255": {
+        "message": "알 수 없음",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxBand": {
+        "message": "밴드",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxBandHelp": {
+        "message": "여기서 당신의 VTX를 위한 밴드를 선택할 수 있습니다.",
+        "description": "Help text for the band field of the VTX tab"
+    },
+    "vtxBand_0": {
+        "message": "없음",
+        "description": "Text of one of the options for the band field of the VTX tab"
+    },
+    "vtxBand_X": {
+        "message": "밴드 {{bandName}}",
+        "description": "Text of one of the options for the band field of the VTX tab"
+    },
+    "vtxChannel_0": {
+        "message": "없음",
+        "description": "Text of one of the options for the channel field of the VTX tab"
+    },
+    "vtxChannel_X": {
+        "message": "채널 {{channelName}}",
+        "description": "Text of one of the options for the channel field of the VTX tab"
+    },
+    "vtxPower_0": {
+        "message": "없음",
+        "description": "Text of one of the options for the power field of the VTX tab"
+    },
+    "vtxPower_X": {
+        "message": "레벨 {{powerLevel}}",
+        "description": "Text of one of the options for the power field of the VTX tab"
+    },
+    "vtxChannel": {
+        "message": "채널",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxChannelHelp": {
+        "message": "여기서 당신의 VTX를 위한 채널을 선택할 수 있습니다.",
+        "description": "Help text for the channel field of the VTX tab"
+    },
+    "vtxFrequency": {
+        "message": "주파수",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxFrequencyHelp": {
+        "message": "여기서 지원될 경우 당신의 VTX에 대한 주파수를 선택할 수 있습니다.",
+        "description": "Help text for the frequency field of the VTX tab"
+    },
+    "vtxDeviceReady": {
+        "message": "디바이스 준비",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPower": {
+        "message": "출력",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPowerHelp": {
+        "message": "이것은 VTX에 대해 선택된 출력입니다. $t(vtxPitMode.message) 또는 $t(vtxLowPowerDisarm.message)를 사용하도록 설정한 경우 수정될 수 있습니다.",
+        "description": "Help text for the power field of the VTX tab"
+    },
+    "vtxPitMode": {
+        "message": "Pit 모드",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPitModeHelp": {
+        "message": "활성화되면 VTX는 다른 조종사를 방해하지 않고 쿼드가 벤치에 있도록 매우 낮은 출력 모드로 진입합니다. 보통 이 모드의 범위는 5m 미만입니다.<br><br>노트: 스마트오디오와 같은 일부 프로토콜은 전원을 켠 후 소프트웨어를 통해 Pit 모드를 활성화할 수 없습니다.'",
+        "description": "Help text for the pit mode field of the VTX tab"
+    },
+    "vtxPitModeFrequency": {
+        "message": "Pit 모드 주파수",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPitModeFrequencyHelp": {
+        "message": "Pit 모드가 활성화된 경우 변경되는 주파수.",
+        "description": "Help text for the pit mode field of the VTX tab"
+    },
+    "vtxLowPowerDisarm": {
+        "message": "디스아밍시 낮은 출력",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxLowPowerDisarmHelp": {
+        "message": "활성화되면, VTX는 디스아밍시 사용 가능한 최저 출력을 사용합니다 (페일세이프가 발생한 경우는 제외).",
+        "description": "Help text for the low power disarm field of the VTX tab"
+    },
+    "vtxLowPowerDisarmOption_0": {
+        "message": "끄기",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxLowPowerDisarmOption_1": {
+        "message": "켜기",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxTable": {
+        "message": "VTX 표",
+        "description": "Text of the header of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandsChannelsTableHelp": {
+        "message": "이 표는 VTX에 사용할 수 있는 모든 주파수를 나타냅니다. 당신은 여러 개의 밴드를 가질 수 있으며, 각 밴드에 대해 다음과 같이 구성해야 합니다:<br><b>- $t(vtxTableBandTitleName.message)<\/b> BOSCAM_A, FATSHARK 또는 RACEBAND와 같은 밴드에 할당할 이름.<br><b>- $t(vtxTableBandTitleLetter.message):<\/b> 밴드를 가리키는 짧은 글자.<br><b>- $t(vtxTableBandTitleFactory.message):<\/b> 이것은 그것이 공장 밴드인지를 나타냅니다. 활성화 된 경우 베타플라이트는 VTX에 밴드와 채널 번호를 전송합니다. 그런 다음 VTX는 빌트인 주파수 표를 사용하고 여기에 구성된 주파수는 OSD 및 기타 장소에서만 값을 표시합니다. 활성화 되지 않은 경우, 베타플라이트는 여기에 구성된 실제 주파수를 VTX에 전송합니다.<br><b>- 주파수:<\/b> 이 밴드의 주파수.<br><br>당신 나라에서는 모든 주파수가 합법적인 것은 아니라는 것을 기억하십시오. 당신은 그것을 비활성화 할 때 사용할 수 없는 주파수의 인덱스에 <b>0<\/b>의 값을 넣어야 합니다.",
+        "description": "Help for the table of bands-channels that appears in the VTX tab"
     },
     "mainHelpArmed": {
         "message": "모터 아밍"
