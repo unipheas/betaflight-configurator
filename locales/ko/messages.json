@@ -1,4 +1,12 @@
 {
+    "yes": {
+        "message": "예",
+        "description": "General Yes message to be used across the application"
+    },
+    "no": {
+        "message": "아니오",
+        "description": "General No message to be used across the application"
+    },
     "error": {
         "message": "오류: {{errorMessage}}"
     },
