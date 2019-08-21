@@ -4790,20 +4790,76 @@
         "description": "Help text for the low power disarm field of the VTX tab"
     },
     "vtxLowPowerDisarmOption_0": {
-        "message": "끄기",
+        "message": "꺼짐",
         "description": "One of the options for the Low Power Disarm mode of the VTX"
     },
     "vtxLowPowerDisarmOption_1": {
-        "message": "켜기",
+        "message": "켜짐",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxLowPowerDisarmOption_2": {
+        "message": "첫 번째 아밍까지 켜짐",
         "description": "One of the options for the Low Power Disarm mode of the VTX"
     },
     "vtxTable": {
         "message": "VTX 표",
         "description": "Text of the header of the VTX Table element in the VTX tab"
     },
+    "vtxTablePowerLevels": {
+        "message": "출력 레벨 수",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsHelp": {
+        "message": "이것은 당신의 VTX에서 지원되는 출력 레벨의 수를 정의합니다.",
+        "description": "Help for the number of power levels field of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsTableHelp": {
+        "message": "이 표는 VTX에 사용할 수 있는 다양한 출력 값을 나타냅니다. 그것들은 두 가지로 구분됩니다: <br><b>- $t(vtxTablePowerLevelsValue.message):<\/b> 각 출력 레벨은 하드웨어 제조업체에서 정의한 값을 요구합니다. 제조업체에 정확한 값을 문의하거나 VTX 표의 베타플라이트 위키에 문의하여 샘플을 확보하십시오. <br><b>- $t(vtxTablePowerLevelsLabel.message):<\/b> 각 출력 레벨 값에 대해 원하는 라벨을 여기에 붙일 수 있습니다. 숫자(25, 200, 600, 1.2), 문자(OFF, MIN, MAX) 또는 이들의 조합이 될 수 있습니다. <br><br>당신은 <b>반드시<\/b> 당신의 나라에서 합법적인 출력 레벨을 구성해야 합니다.",
+        "description": "Help for the table of power levels (value-label) that appears in the VTX tab"
+    },
+    "vtxTablePowerLevelsValue": {
+        "message": "값",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsLabel": {
+        "message": "라벨",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBands": {
+        "message": "밴드 수",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableChannels": {
+        "message": "밴드의 채널 수",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandsChannelsHelp": {
+        "message": "이것은 당신의 VTX에 대해 원하는 밴드 수와 밴드의 채널 수를 정의합니다.",
+        "description": "Help for the number of bands and channels field of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleName": {
+        "message": "이름",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleLetter": {
+        "message": "문자",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleFactory": {
+        "message": "공장",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
     "vtxTableBandsChannelsTableHelp": {
         "message": "이 표는 VTX에 사용할 수 있는 모든 주파수를 나타냅니다. 당신은 여러 개의 밴드를 가질 수 있으며, 각 밴드에 대해 다음과 같이 구성해야 합니다:<br><b>- $t(vtxTableBandTitleName.message)<\/b> BOSCAM_A, FATSHARK 또는 RACEBAND와 같은 밴드에 할당할 이름.<br><b>- $t(vtxTableBandTitleLetter.message):<\/b> 밴드를 가리키는 짧은 글자.<br><b>- $t(vtxTableBandTitleFactory.message):<\/b> 이것은 그것이 공장 밴드인지를 나타냅니다. 활성화 된 경우 베타플라이트는 VTX에 밴드와 채널 번호를 전송합니다. 그런 다음 VTX는 빌트인 주파수 표를 사용하고 여기에 구성된 주파수는 OSD 및 기타 장소에서만 값을 표시합니다. 활성화 되지 않은 경우, 베타플라이트는 여기에 구성된 실제 주파수를 VTX에 전송합니다.<br><b>- 주파수:<\/b> 이 밴드의 주파수.<br><br>당신 나라에서는 모든 주파수가 합법적인 것은 아니라는 것을 기억하십시오. 당신은 그것을 비활성화 할 때 사용할 수 없는 주파수의 인덱스에 <b>0<\/b>의 값을 넣어야 합니다.",
         "description": "Help for the table of bands-channels that appears in the VTX tab"
+    },
+    "vtxButtonSave": {
+        "message": "저장",
+        "description": "Save button in the VTX tab"
+    },
+    "vtxButtonSaved": {
+        "message": "저장됨",
+        "description": "Saved action button in the VTX tab"
     },
     "mainHelpArmed": {
         "message": "모터 아밍"
@@ -4948,6 +5004,9 @@
     },
     "onboardLoggingRateOfLogging": {
         "message": "블랙박스 로그기록 속도"
+    },
+    "onboardLoggingDebugMode": {
+        "message": "블랙박스 디버그 모드"
     },
     "onboardLoggingSerialLogger": {
         "message": "외부 시리얼 로그기록 장치"
