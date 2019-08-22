@@ -556,7 +556,7 @@
         "message": "EEPROM <span class=\"message-positive\">저장됨<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "<strong>Betaflight - Configurator<\/strong>에 오신 것을 환영합니다.<br>당신의 비행 컨트롤러를 쉽게 업데이트, 설정, 튜닝하기 위한 목적으로 디자인 된 도구입니다."
+        "message": "<strong>Betaflight - Configurator<\/strong>에 오신 것을 환영합니다.<br>이 유틸리티는 비행 컨트롤러의 업데이트, 구성 및 튜닝을 간소화하도록 설계되었습니다."
     },
     "defaultWelcomeHead": {
         "message": "하드웨어"
