@@ -1,4 +1,12 @@
 {
+    "yes": {
+        "message": "はい",
+        "description": "General Yes message to be used across the application"
+    },
+    "no": {
+        "message": "いいえ",
+        "description": "General No message to be used across the application"
+    },
     "error": {
         "message": "エラー: {{errorMessage}}"
     },
@@ -202,6 +210,9 @@
     },
     "tabOsd": {
         "message": "OSD"
+    },
+    "tabVtx": {
+        "message": "映像伝送用送信機"
     },
     "tabPower": {
         "message": "電源・バッテリー"
@@ -767,11 +778,11 @@
         "description": "Message that pops up to describe the PARALYZE arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipGPS": {
-        "message": "GPSレスキューモードは設定されていますが、必要な衛星数が未確定です",
+        "message": "GPSレスキューモードが設定されていますが、必要となる衛星数が補足不足です",
         "description": "Message that pops up to describe the GPS arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRESC": {
-        "message": "「GPSレスキュー」スイッチが有効になりました",
+        "message": "【GPS レスキュー】スイッチが有効になりました",
         "description": "Message that pops up to describe the RESC arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRPMFILTER": {
@@ -1126,7 +1137,7 @@
         "message": "バッテリーが少ないときの警告ビープ音 (リピート)"
     },
     "beeperGPS_STATUS": {
-        "message": "ビープ回数でGPS衛星の検出数を示す"
+        "message": "ビープ回数でGPS衛星の捕捉数を示します"
     },
     "beeperRX_SET": {
         "message": "ビープをAUXチャンネルに設定しているときのビープ音"
@@ -1207,7 +1218,7 @@
         "message": "伝送速度"
     },
     "configurationGPSubxSbas": {
-        "message": "地上支援タイプ"
+        "message": "衛星支援タイプ"
     },
     "configurationGPSAutoBaud": {
         "message": "自動伝送速度設定"
@@ -2038,10 +2049,10 @@
         "message": "3次元測位"
     },
     "gpsFixTrue": {
-        "message": "<span class=\"text\">True<\/span>"
+        "message": "<span class=\"text\">正常<\/span>"
     },
     "gpsFixFalse": {
-        "message": "<span class=\"text\">False<\/span>"
+        "message": "<span class=\"text\">不良<\/span>"
     },
     "gpsAltitude": {
         "message": "高度:"
@@ -2934,7 +2945,7 @@
         "message": "コンパス \/ ヘッディング"
     },
     "pidTuningGps": {
-        "message": "GPSナビゲーション"
+        "message": "GPS ナビゲーション"
     },
     "pidTuningStrength": {
         "message": "強度"
@@ -3231,31 +3242,31 @@
         "message": "GPS レスキュー"
     },
     "failsafeGpsRescueItemAngle": {
-        "message": "アングル"
+        "message": "帰還時 最大傾斜角 アングル"
     },
     "failsafeGpsRescueItemInitialAltitude": {
-        "message": "初期高度 (メートル)"
+        "message": "基準高度 (メートル)"
     },
     "failsafeGpsRescueItemDescentDistance": {
-        "message": "降下距離 (メートル)"
+        "message": "降下開始距離 (メートル)"
     },
     "failsafeGpsRescueItemGroundSpeed": {
-        "message": "地上速度 (メートル\/秒)"
+        "message": "帰還時 速度 (m\/s)"
     },
     "failsafeGpsRescueItemThrottleMin": {
-        "message": "スロットル最小値"
+        "message": "帰還時 スロットル最小値"
     },
     "failsafeGpsRescueItemThrottleMax": {
-        "message": "スロットル最大値"
+        "message": "帰還時 スロットル最大値"
     },
     "failsafeGpsRescueItemThrottleHover": {
-        "message": "スロットルホバー"
+        "message": "帰還時 スロットル ホバリング値"
     },
     "failsafeGpsRescueItemMinSats": {
-        "message": "受信衛星 最小値"
+        "message": "GPS 衛星捕捉数 最小値"
     },
     "failsafeGpsRescueItemSanityChecks": {
-        "message": "正常チェック"
+        "message": "健全性チェック"
     },
     "failsafeGpsRescueItemSanityChecksOff": {
         "message": "OFF"
@@ -3860,7 +3871,7 @@
         "description": "One of the elements of the OSD"
     },
     "osdDescElementGPSSats": {
-        "message": "GPSの有効衛星数"
+        "message": "GPS 有効衛星捕捉数"
     },
     "osdTextElementGPSLon": {
         "message": "GPS 経度",
@@ -4504,14 +4515,14 @@
         "message": "ローンチコントロールモードが有効となったときの警告"
     },
     "osdWarningTextGpsRescueUnavailable": {
-        "message": "GPSレスキュー利用不可",
+        "message": "GPS レスキュー利用不可",
         "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningGpsRescueUnavailable": {
         "message": "GPS レスキューが利用できず、有効にならないときに警告"
     },
     "osdWarningTextGpsRescueDisabled": {
-        "message": "GPSレスキュー無効",
+        "message": "GPS レスキュー無効",
         "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningGpsRescueDisabled": {
@@ -4573,6 +4584,214 @@
     },
     "osdButtonSaved": {
         "message": "保存しました"
+    },
+    "vtxHelp": {
+        "message": "ここでは映像伝送用送信機 (VTX) の値を設定できます。フライトコントローラとVTXがサポートしている場合、VTXテーブルを含む伝送値を参照して設定できます。",
+        "description": "Introduction message in the VTX tab"
+    },
+    "vtxMessageNotSupported": {
+        "message": "<span class=\"message-negative\">注意:<\/span> VTXが設定されていないかサポートされていません。フライトコントローラはTrampやSmartAudio等のプロトコルを使用してVTXと接続しており、必要に応じて、$t(tabPorts.message)タブで設定を修正する必要があります。",
+        "description": "Message to show when the VTX is not supported in the VTX tab"
+    },
+    "vtxMessageTableNotConfigured": {
+        "message": "<span class=\"message-negative\">注意:<\/span> $t(vtxSelectedMode.message) フィールドを使用する前に一番下にあるVTXテーブルを設定し保存する必要があります。",
+        "description": "Message to show when the VTX is not supported in the VTX tab"
+    },
+    "vtxFrequencyChannel": {
+        "message": "周波数を直接入力してください",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxFrequencyChannelHelp": {
+        "message": "これを有効にするとBetaflight Configuratorで通常のバンド\/チャンネルの代わりに周波数を選択できます。これを機能させるにはVTXがこの機能をサポートしている必要があります。",
+        "description": "Help text for the frequency or channel select field of the VTX tab"
+    },
+    "vtxSelectedMode": {
+        "message": "モード選択",
+        "description": "Title for the actual mode header of the VTX"
+    },
+    "vtxActualState": {
+        "message": "現在値",
+        "description": "Title for the actual values header of the VTX"
+    },
+    "vtxType": {
+        "message": "VTXタイプ",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxType_0": {
+        "message": "非サポート",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_1": {
+        "message": "RTC607",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_3": {
+        "message": "SmartAudio",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_4": {
+        "message": "Tramp",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_255": {
+        "message": "不明",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxBand": {
+        "message": "バンド",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxBandHelp": {
+        "message": "ここでVTXバンドを選択します",
+        "description": "Help text for the band field of the VTX tab"
+    },
+    "vtxBand_0": {
+        "message": "なし",
+        "description": "Text of one of the options for the band field of the VTX tab"
+    },
+    "vtxBand_X": {
+        "message": "バンド {{bandName}}",
+        "description": "Text of one of the options for the band field of the VTX tab"
+    },
+    "vtxChannel_0": {
+        "message": "なし",
+        "description": "Text of one of the options for the channel field of the VTX tab"
+    },
+    "vtxChannel_X": {
+        "message": "チャンネル {{channelName}}",
+        "description": "Text of one of the options for the channel field of the VTX tab"
+    },
+    "vtxPower_0": {
+        "message": "なし",
+        "description": "Text of one of the options for the power field of the VTX tab"
+    },
+    "vtxPower_X": {
+        "message": "レベル {{powerLevel}}",
+        "description": "Text of one of the options for the power field of the VTX tab"
+    },
+    "vtxChannel": {
+        "message": "チャンネル",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxChannelHelp": {
+        "message": "ここでVTXチャンネルを選択します",
+        "description": "Help text for the channel field of the VTX tab"
+    },
+    "vtxFrequency": {
+        "message": "周波数",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxFrequencyHelp": {
+        "message": "サポートされている場合、VTX周波数をここで選択します",
+        "description": "Help text for the frequency field of the VTX tab"
+    },
+    "vtxDeviceReady": {
+        "message": "デバイス 準備完了",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPower": {
+        "message": "送信出力",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPowerHelp": {
+        "message": "これはVTXで選択した送信出力で $t(vtxPitMode.message) または $t(vtxLowPowerDisarm.message) が有効な場合に変更できます",
+        "description": "Help text for the power field of the VTX tab"
+    },
+    "vtxPitMode": {
+        "message": "ピットモード",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPitModeHelp": {
+        "message": "有効にすると、VTXは非常に低い送信出力モードになり、他のパイロットを邪魔することなく機体をピットで電源ONすることができます。通常このモードでの有効範囲は5m未満です。<br><br>注: SmartAudio等の一部のプロトコルは、電源投入後ソフト的にピットモードを有効にすることはできません。",
+        "description": "Help text for the pit mode field of the VTX tab"
+    },
+    "vtxPitModeFrequency": {
+        "message": "ピットモード周波数",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPitModeFrequencyHelp": {
+        "message": "有効にしたときのピットモードでの変更周波数",
+        "description": "Help text for the pit mode field of the VTX tab"
+    },
+    "vtxLowPowerDisarm": {
+        "message": "ディスアーム時 最小送信出力",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxLowPowerDisarmHelp": {
+        "message": "有効にすると、VTXはディスアーム時に使用可能な最小送信出力を使用します。(フェイルセーフが発生した場合を除く)",
+        "description": "Help text for the low power disarm field of the VTX tab"
+    },
+    "vtxLowPowerDisarmOption_0": {
+        "message": "OFF",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxLowPowerDisarmOption_1": {
+        "message": "ON",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxLowPowerDisarmOption_2": {
+        "message": "初回アーム時まで",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxTable": {
+        "message": "VTXテーブル",
+        "description": "Text of the header of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevels": {
+        "message": "送信出力レベル値",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsHelp": {
+        "message": "VTXでサポートされる送信出力レベルの数値を定義します",
+        "description": "Help for the number of power levels field of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsTableHelp": {
+        "message": "このテーブルはVTXに使用できる送信出力のさまざまな値を表しており、2つに分かれています: <br><b>$t(vtxTablePowerLevelsValue.message):<\/b> ハードウェア製造元による各送信出力レベルには定義された値が必要です。正しい値については製造元に問い合わせるか、Betaflight wikiのVTXテーブルを参照してサンプルを入手してください。<br><b>$t(vtxTablePowerLevelsLabel.message):<\/b> 送信出力レベル毎に、ここへラベルを貼ることができます。数値 (25, 200, 600, 1.2)、文字列 (OFF, MIN, MAX)、またはそれらの組み合わせを指定できます。<br><br>あなたの国で合法となる送信出力レベル<b>のみ<\/b>を設定しなければなりません。",
+        "description": "Help for the table of power levels (value-label) that appears in the VTX tab"
+    },
+    "vtxTablePowerLevelsValue": {
+        "message": "値",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsLabel": {
+        "message": "ラベル",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBands": {
+        "message": "バンド数",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableChannels": {
+        "message": "バンド別チャンネル数",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandsChannelsHelp": {
+        "message": "VTXに必要なバンド毎のチャネル数を定義します。",
+        "description": "Help for the number of bands and channels field of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleName": {
+        "message": "名称",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleLetter": {
+        "message": "略称",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleFactory": {
+        "message": "工場出荷時",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandsChannelsTableHelp": {
+        "message": "次の表は、VTXで使用できるすべての周波数を表しています。複数バンドを保持、各バンドに対して設定する必要があります:<br><b>- $t(vtxTableBandTitleName.message):<\/b> BOSCAM_A、FATSHARK、RACEBAND等、これらバンドに割り当てる名称です。<br><b>- $t(vtxTableBandTitleLetter.message):<\/b> バンドを表す略称です。<br><b>- $t(vtxTableBandTitleFactory.message):<\/b> これは工場出荷時バンドかどうかを示します。有効にすると、BetaflightはVTXにバンドとチャンネル番号を送信します。次にVTXは組み込みの周波数テーブルを使用し、ここで設定された周波数はOSDおよび他の場所で値を表示するためだけのものとなります。有効になっていない場合、Betaflightはここで設定した実際の周波数をVTXに送信します。<br><b>- 周波数:<\/b> このバンドの周波数です。<br><br>すべての周波数があなたの国で合法であるとは限らないことに注意してください。無効とするためには、使用できない各周波数インデックスに<b>ゼロ<\/b>の値を設定する必要があります。",
+        "description": "Help for the table of bands-channels that appears in the VTX tab"
+    },
+    "vtxButtonSave": {
+        "message": "保存",
+        "description": "Save button in the VTX tab"
+    },
+    "vtxButtonSaved": {
+        "message": "保存しました",
+        "description": "Saved action button in the VTX tab"
     },
     "mainHelpArmed": {
         "message": "モーターアーミング"
