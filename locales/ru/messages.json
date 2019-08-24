@@ -62,6 +62,13 @@
     "analyticsOptOut": {
         "message": "Отказ от анонимной коллекции статистических данных"
     },
+    "language_choice_message": {
+        "message": "Изменить язык:",
+        "description": "Try and be brief"
+    },
+    "language_default": {
+        "message": "По умолчанию"
+    },
     "sensorDataFlashNotFound": {
         "message": "Отсутствует <br>модуль памяти",
         "description": "Text of the dataflash image in the header of the page."
@@ -219,6 +226,12 @@
     },
     "logActionShow": {
         "message": "Показать недавние действия"
+    },
+    "serialErrorFrameError": {
+        "message": "Ошибка последовательного соединения: неверный кадр"
+    },
+    "serialErrorParityError": {
+        "message": "Ошибка последовательного соединения: неверная четность"
     },
     "serialPortOpened": {
         "message": "Сериний порт <span class=\"message-positive\">успешно<\/span> открыт. ID порта: $1"
@@ -482,6 +495,9 @@
     "defaultDonateText": {
         "message": "<p><strong>Betaflight<\/strong> является прошивкой для полётных контроллеров <strong>с открытым исходным кодом<\/strong> и доступна абсолютно бесплатно <strong>без гарантии<\/strong> для всех пользователей.<\/p><p>Если вы нашли Betaflight или Betaflight конфигуратор полезными, пожалуйста<strong>поддержите<\/strong> разработку пожертвованием.<\/p>"
     },
+    "defaultDonateBottom": {
+        "message": "<p>Если вы хотите финансово помогать на постоянной основе, вы можете стать нашим покровителем на $t(patreonLink.message).<\/p>"
+    },
     "defaultDonate": {
         "message": "Пожертвовать"
     },
@@ -683,6 +699,10 @@
         "message": "Взлет с полосы переключен",
         "description": "Message that pops up to describe the RUNAWAY_TAKEOFF arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCRASH": {
+        "message": "Отключен из-за обнаружения аварии",
+        "description": "Message that pops up to describe the CRASH arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "Канал газа слишком высок",
         "description": "Message that pops up to describe the THROTTLE arming disable flag"
@@ -738,6 +758,14 @@
     "initialSetupArmingDisableFlagsTooltipRESC": {
         "message": "Переключатель 'GPS Rescue' активирован",
         "description": "Message that pops up to describe the RESC arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRPMFILTER": {
+        "message": "Фильтрация на основе RPM включена, но один или более регуляторов моторов не выдают верную DSHOT телеметрию. Проверьте, что регуляторы имеют поддержку двусторонней DSHOT телеметрии и установлена необходимая прошивка для её поддержки.",
+        "description": "Message that pops up to describe the RPMFILTER arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
+        "message": "Изменения в конфигурации требуют перезагрузки",
+        "description": "Message that pops up to describe the REBOOT_REQD arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "Один из других флагов дизарм активен при арминге",
@@ -796,6 +824,9 @@
     },
     "featureSERVO_TILT": {
         "message": "Серво-подвес"
+    },
+    "featureSERVO_TILTTip": {
+        "message": "Эта функция включает режим CAMSTUB, который может быть использован для удерживания в двух осях при помощи акселерометра"
     },
     "featureSOFTSERIAL": {
         "message": "Включить серийный порт основанный на CPU"
@@ -958,6 +989,12 @@
     },
     "configurationSensorGyroToUse": {
         "message": "ГИРО\/АКСЕЛ"
+    },
+    "configurationSensorGyroToUseNotFound": {
+        "message": "Предупреждение: Не найден Гиро\/Акксел"
+    },
+    "configurationSensorGyroToUseFirst": {
+        "message": "Первый"
     },
     "configurationSensorGyroToUseSecond": {
         "message": "Второй"
@@ -1142,6 +1179,9 @@
     "configurationLoopTimeHelp": {
         "message": "<strong>Примечание:<\/strong> Убедитесь, что Ваш FC способен работать на этих скоростях! Проверьте ЦП и стабильность времени цикла. Эти изменения могут потребовать подстройки PID. Совет: Отключите Акселерометр и другие сенсоры для повышения производительности."
     },
+    "configurationLoopTimeNo32KhzHelp": {
+        "message": "$t(configurationLoopTimeHelp.message)<br><strong>Примечание по 32 кГц дискретизации гироскопа:<\/strong> Поддержа режима 32 кГц дискретизации была добавлена в Betaflight как экспериментальная опция. За те годы, что он был доступен, он никогда не показывал, что у него есть какое-либо преимущество перед режимом гироскопической дискретизации 8 кГц, из-за его восприимчивости к вибрациям и высокого уровня шума, который требует агрессивной фильтрации, вызывая задержки в контуре управления. По этой причине, <strong>поддержка режима дискретизации гироскопа 32 кГц выброшена<\/strong> в Betaflight 4.0."
+    },
     "configurationGPS": {
         "message": "GPS"
     },
@@ -1306,6 +1346,10 @@
     "pidTuningAntiGravityThres": {
         "message": "Порог Anti Gravity"
     },
+    "pidTuningDMinHelp": {
+        "message": "D Мин. Позволяет получить более низкий уровень D в обычном полете и более высокий уровень для быстрых маневров, которые могут привести к перерегулированию, например, кувыркам и кренам. Это также поднимает D во время мытья пропеллера. У аппарата будет динамический D Term, варьирующийся от D Min (при нормальном полете) до стандартного D (при быстром крене и флипах). Нулевое значение отключит эту функцию. Усиление определяет, насколько сильно D увеличивается во время быстрых движений стиков. Расширение ускоряет наступление усиливающего эффекта. Это может быть полезно, если у вас есть выбросы с очень высокой скоростью смещения на очень отзывчивых квадрокоптерах.",
+        "description": "Help message for D Min feature"
+    },
     "pidTuningDMin": {
         "message": "D Мин",
         "description": "Table header of the D Min feature in the PIDs tab"
@@ -1325,6 +1369,10 @@
     "pidTuningDMinGain": {
         "message": "Амплитуда",
         "description": "Gain of the D Min feature"
+    },
+    "pidTuningDMinAdvance": {
+        "message": "Улучшение",
+        "description": "Advane of the D Min feature"
     },
     "pidTuningPidSettings": {
         "message": "Настройки PID-контроллера"
@@ -1575,6 +1623,9 @@
     "tuningHelp": {
         "message": "<b>Советы по настройке<\/b><br \/><span class=\"message-negative\">Важно:<\/span> После настройки фильтров, во время первых полётов, убедитесь, что моторы не перегреваются. Более высокое значение фильтра может улучшить стабильность полёта, но, также, вносит больше шумов в моторы, что может вызвать их нагрев.<br>Значение по умолчанию 100 Гц является оптимальным, но для более шумных аппаратов вы можете снизить значение Dterm-фильтра до 50 Гц и, возможно, также понизить значение фильтра гироскопа."
     },
+    "filterWarning": {
+        "message": "<span class=\"message-negative\"><b>Предупреждение:<\/b><\/span> Количество используемой вами фильтрации опасно мало. Это может сделать аппарат тяжелым в управлении и в результате может привести к улетанию. Настоятельно рекомендуется <b>включить не менее одного Gyro Dynamic Lowpass или Gyro Lowpass 1 и не менее одного D Term Dynamic Lowpass или D Term Lowpass 1<\/b>."
+    },
     "receiverThrottleMid": {
         "message": "Газ Серед."
     },
@@ -1659,6 +1710,9 @@
     "receiverMspEnableButton": {
         "message": "Включить управление"
     },
+    "auxiliaryHelp": {
+        "message": "Настройте режимы здесь, используя комбинацию диапазонов и \/ или ссылки на другие режимы (ссылки поддерживаются в BF 4.0 и более поздних версиях). Используйте <strong> диапазоны <\/strong>, чтобы определить переключатели на вашем передатчике и соответствующие режимы. Канал приемника, который дает показание в диапазоне Мин. \/ Макс., активирует режим. Используйте <strong> ссылку <\/strong>, чтобы активировать режим, когда активирован другой режим. <strong> Исключения: <\/strong> ARM не может быть связан с другим режимом или из него, режимы не могут быть связаны с другими режимами, которые настроены с помощью ссылки (связанных ссылок). Несколько диапазонов \/ ссылок могут быть использованы для активации любого режима. Если для режима определено несколько диапазонов \/ ссылок, для каждого из них можно установить значение <strong> И <\/strong> или <strong> ИЛИ <\/strong>. Режим будет активирован, когда: <br \/> - ВСЕ <strong> И <\/strong> диапазоны \/ ссылки активны; ИЛИ <br \/> - хотя бы одна <strong> ИЛИ <\/strong> зона \/ ссылка активна. <br \/> <br \/> Не забудьте сохранить настройки, нажав кнопку Сохранить."
+    },
     "auxiliaryToggleUnused": {
         "message": "Скрыть неиспользуемые режимы"
     },
@@ -1688,6 +1742,15 @@
     },
     "auxiliaryModeLogicAND": {
         "message": "И"
+    },
+    "adjustmentsHelp": {
+        "message": "Установка нас троечных переключателей. Смотри 'in-flight adjustments' секцию руководства. Изменение этих настроек автоматически не сохраняется. Там 4 слота. Каждый переключатель используемый одновременно требует исключительного использования слота."
+    },
+    "adjustmentSlotsHelp": {
+        "message": "Каждый переключатель, используемый для одновременной настройки, требует эксклюзивного использования слота."
+    },
+    "adjustmentsExamples": {
+        "message": "Примеры:"
     },
     "adjustmentsColumnEnable": {
         "message": "Если включено"
@@ -2127,6 +2190,15 @@
     "sensorsDebugTitle": {
         "message": "Отладка"
     },
+    "cliInfo": {
+        "message": "<strong>Прим.:<\/strong> Выход из вкладки CLI или нажатие Отключить <strong>автоматически<\/strong> пошлёт команду\"<strong>выход<\/strong>\" в полетный контроллер. С последней прошивкой это вызовет его <strong>перезагрузку<\/strong> и сохраненные изменения будут <strong>потеряны<\/strong>.<p><strong><span class=\"message-negative\">Предупреждение:<\/span><\/strong> Некоторые команды в CLI могут привести к отправке произвольных сигналов на двигатели. И может привести к их запуску, если подключена батарея. Поэтому настоятельно рекомендуется убедиться, что <strong>батарея не подключена, прежде чем вводить команды в CLI<\/strong>."
+    },
+    "cliInputPlaceholder": {
+        "message": "Напишите вашу команду здесь. Нажмите Tab для АвтоДополнения."
+    },
+    "cliInputPlaceholderBuilding": {
+        "message": "Пожалуйста подождите пока идет построение кэша АвтоДополнения ..."
+    },
     "cliEnter": {
         "message": "Обнаружен переход в режим командной строки"
     },
@@ -2144,6 +2216,18 @@
     },
     "cliCopySuccessful": {
         "message": "Скопировано!"
+    },
+    "cliLoadFromFileBtn": {
+        "message": "Загрузить из файла"
+    },
+    "cliConfirmSnippetDialogTitle": {
+        "message": "Просмотр загруженных команд"
+    },
+    "cliConfirmSnippetNote": {
+        "message": "<strong>Примечание<\/strong>: Вы можете просматривать и редактировать команды перед выполнением."
+    },
+    "cliConfirmSnippetBtn": {
+        "message": "Выполнить"
     },
     "loggingNote": {
         "message": "Информация будет логироваться в эту закладку <span class=\"message-negative\">только<\/span>, покидая эту закладку будет <span class=\"message-negative\">отменено<\/span> логировние и приложение вернется в нормальное <strong>\"конфигуратор\"<\/strong> состояние.<br \/> Вы вольны выбрать глобальный период обновления, информация будет записана в лог файл каждые <strong>1<\/strong> секунд по соображениям производительности."
@@ -2234,6 +2318,9 @@
     },
     "dataflashButtonSaveFileDeprecated": {
         "message": "Сохранить в файл... (устарело)"
+    },
+    "dataflashSaveFileDepreciationHint": {
+        "message": "Сохранение журналов черного ящика из конфигуратора происходит медленно и с возможными ошибками. Рекомендуется вместо этого использовать '<b>$t(onboardLoggingRebootMscText.message)<\/b> для включения режима передачи данных и доступа к вашему полетному контроллеру как к устройству хранения для загрузки файлов журнала."
     },
     "dataflashButtonErase": {
         "message": "Стереть флэш"
@@ -2462,6 +2549,9 @@
     },
     "firmwareFlasherFirmwareLocalLoaded": {
         "message": "Загружена локальная прошивка: ($1 bytes)"
+    },
+    "firmwareFlasherFirmwareOnlineLoaded": {
+        "message": "Загружена онлайн прошивка: ($1 bytes)"
     },
     "firmwareFlasherHexCorrupted": {
         "message": "HEX-файл поврежден"
@@ -2858,6 +2948,15 @@
     "pidTuningGyroLowpassType": {
         "message": "Gyro Lowpass 1 тип фильтра"
     },
+    "pidTuningGyroLowpassDynMinFrequency": {
+        "message": "Gyro Lowpass 1 Dynamic мин. частота среза [Hz]"
+    },
+    "pidTuningGyroLowpassDynMaxFrequency": {
+        "message": "Gyro Lowpass 1 Dynamic макс. частота среза [Hz]"
+    },
+    "pidTuningGyroLowpassDynType": {
+        "message": "Gyro Lowpass 1 Dynamic тип фильтра"
+    },
     "pidTuningGyroLowpass2Frequency": {
         "message": "Gyro Lowpass 2 частота среза [Hz]"
     },
@@ -2882,6 +2981,9 @@
     "pidTuningNotchFilterHelp": {
         "message": "Notch Filter имеет центр и частоту среза. Фильтр симметричный. Центральная частота есть центр фильтра и частота среза в которой Notch filter начинается. Например Notch с частотой среза 160 и центром 260 это значит, что диапазон составляет 160-360 для наибольшего затухания вокруг центра"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "Фильтры нижних частот бывают статическими и динамическими. Каждый отдельный фильтр может быть или статическим или динамическим. В статическом есть только значение Cutoff, частота среза, и подавляются все частоты входного сигнала выше этой частоты. В динамическом определены 2 частоты среза (Min и Max). Значение частоты среза внутри этого диапазона определяется динамически с движением стика газа."
+    },
     "pidTuningFilterSettings": {
         "message": "Настройки фильтра в зависимости от выбранного профиля"
     },
@@ -2896,6 +2998,18 @@
     },
     "pidTuningDTermLowpass2Frequency": {
         "message": "D Term Lowpass 2 частота среза [Hz]"
+    },
+    "pidTuningDTermLowpass2Type": {
+        "message": "D Term Lowpass 2 тип фильтра"
+    },
+    "pidTuningDTermLowpassDynMinFrequency": {
+        "message": "D Term Lowpass 1 Dynamic мин. Частота среза [Hz]"
+    },
+    "pidTuningDTermLowpassDynMaxFrequency": {
+        "message": "D Term Lowpass 1 Dynamic макс. частота среза [Hz]"
+    },
+    "pidTuningDTermLowpassDynType": {
+        "message": "D Term Lowpass 1 Dynamic тип фильтра"
     },
     "pidTuningDTermNotchFiltersGroup": {
         "message": "D Term Notch фильтр"
@@ -2977,6 +3091,9 @@
     },
     "pidTuningIntegratedYaw": {
         "message": "Интегрированное рыскание"
+    },
+    "pidTuningIntegratedYawCaution": {
+        "message": "<span class=\"message-negative\"> Внимание<\/span>:Если вы включите эту функцию, вы соответственно должны настроить YAW PID соответственно. Более детально <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Integrated-Yaw\" target=\"_blank\">тут<\/a>"
     },
     "configHelp2": {
         "message": "Произвольное вращение платы в градусах, для разрешения установки в другом направлении \/ вверх ногами \/ повернутое и т. д. При работе с внешними датчиками используется выравнивание датчиков (Gyro, Acc, Mag), чтобы определить положение датчика независимо от ориентации платы. "
@@ -3155,11 +3272,47 @@
     "powerBatteryWarning": {
         "message": "Предупреждать, если напряжение на банке"
     },
+    "powerCalibrationManagerButton": {
+        "message": "Калибровка"
+    },
+    "powerCalibrationManagerTitle": {
+        "message": "Менеджер Калибровок"
+    },
+    "powerCalibrationManagerHelp": {
+        "message": "Для калибровки используйте мультиметр и имерьте текущие напряжение и ток (с подключенной батареей). Затем введите полученные значения ниже. Далее, не отключая батарею, нажмите [Calibrate]."
+    },
+    "powerCalibrationManagerNote": {
+        "message": "<strong>Примечание:<\/strong> Перед калибровкой шкал убедитесь, что значения делителя и множителя для напряжения и значение смещения для амплитуды установлены правильно.<br>Если оставить значения 0, калибровка не произойдет.<\/br><strong>Не забудьте снять пропеллеры перед подключением батареи!<\/strong>"
+    },
+    "powerCalibrationManagerWarning": {
+        "message": "<span class=\"message-negative\">Предупреждение:<\/span> Батарея <span class=\"message-negative\">не подключена<\/span> или источники измерения напряжения и тока <span class=\"message-negative\">настроены неверно<\/span>. Убедитесь, что датчики напряжения и\/или тока отображают значение выше 0. Иначе калибровка с помощью этого инструмента невозможна."
+    },
+    "powerCalibrationManagerSourceNote": {
+        "message": "<span class=\"message-negative\">Предупреждение:<\/span> Выбор источников измерения напряжения и\/или тока <strong>был изменён но, не сохранён<\/strong>. Выберите правильные источники измерений и сохраните их до того, как начнете их калибровать."
+    },
+    "powerCalibrationSave": {
+        "message": "Откалибровать"
+    },
+    "powerCalibrationApply": {
+        "message": "Применить калибровку"
+    },
+    "powerCalibrationDiscard": {
+        "message": "Отменить калибровку"
+    },
+    "powerCalibrationConfirmHelp": {
+        "message": "Здесь отображаются вновь откалиброванные шкалы. <br>После применения они возымеют действие, но <strong>не сохранятся<\/strong>.<\/br> <br>После сохранения убедитесь, что новое напряжение и ток верны.<\/br>"
+    },
     "powerVoltageHead": {
         "message": "Датчик напряжения"
     },
     "powerVoltageValue": {
         "message": "$1 V"
+    },
+    "powerVoltageCalibration": {
+        "message": "Измеренное напряжение"
+    },
+    "powerVoltageCalibratedScale": {
+        "message": "Откалиброванная шкала напряжения:"
     },
     "powerAmperageValue": {
         "message": "$1 A"
@@ -3302,6 +3455,9 @@
     "powerAmperageOffset": {
         "message": "Смещение [mA]"
     },
+    "powerAmperageCalibration": {
+        "message": "Измеренный ток"
+    },
     "powerBatteryHead": {
         "message": "Батарея"
     },
@@ -3331,6 +3487,9 @@
     },
     "osdSetupTitle": {
         "message": "OSD"
+    },
+    "osdSetupPreviewHelp": {
+        "message": "<strong>Примечание:<\/strong> OSD предпросмотр может отображаться не тем шрифтом, который установлен в полётном контроллере."
     },
     "osdSetupUnsupportedNote1": {
         "message": "Ваш полётный контроллер не отвечает на команды OSD. Возможно, это означает, что в него не встроен Betaflight OSD."
@@ -3365,11 +3524,35 @@
         "message": "OSD Profile {{profileNumber}}",
         "description": "Content of the selector for the OSD Profile in the preview"
     },
+    "osdSetupPreviewSelectFontElement": {
+        "message": "Шрифт {{fontName}}",
+        "description": "Content of the selector for the OSD Font in the preview"
+    },
     "osdSetupVideoFormatTitle": {
         "message": "Формат видео"
     },
+    "osdSetupVideoFormatOptionAuto": {
+        "message": "Авто",
+        "description": "Option for the video format in the OSD"
+    },
+    "osdSetupVideoFormatOptionPal": {
+        "message": "PAL",
+        "description": "Option for the video format in the OSD"
+    },
+    "osdSetupVideoFormatOptionNtsc": {
+        "message": "NTSC",
+        "description": "Option for the video format in the OSD"
+    },
     "osdSetupUnitsTitle": {
         "message": "Единицы измерения"
+    },
+    "osdSetupUnitsOptionImperial": {
+        "message": "Имперские",
+        "description": "Option for the units system used in the OSD"
+    },
+    "osdSetupUnitsOptionMetric": {
+        "message": "Метрические",
+        "description": "Option for the units system used in the OSD"
     },
     "osdSetupTimersTitle": {
         "message": "Таймеры"
@@ -3394,6 +3577,10 @@
     },
     "osdSetupFontPresetsSelector": {
         "message": "Выберете предустановленный шрифт:"
+    },
+    "osdSetupFontPresetsSelectorCustomOption": {
+        "message": "Пользовательский шрифт",
+        "description": "Option to show as selected when the user selects a custom local font"
     },
     "osdSetupFontPresetsSelectorOr": {
         "message": "или"
@@ -3428,6 +3615,12 @@
     "osdSetupUploadFont": {
         "message": "Загрузить шрифт"
     },
+    "osdSetupUploadingFont": {
+        "message": "Загрузка..."
+    },
+    "osdSetupUploadingFontEnd": {
+        "message": "Загрудить все {{length}} символы в OSD"
+    },
     "osdSetupSave": {
         "message": "Сохранить"
     },
@@ -3452,95 +3645,261 @@
     "osdSetupButtonReset": {
         "message": "Сбросить настройки"
     },
+    "osdTextElementMainBattVoltage": {
+        "message": "Напряжение батареи",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementMainBattVoltage": {
         "message": "Мгновенное (дискретное) значение напряжения аккумулятора (замигает, если значение будет ниже заданного порога тревоги)"
+    },
+    "osdTextElementRssiValue": {
+        "message": "Значение RSSI",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRssiValue": {
         "message": "Мгновенное (дискретное) значение RSSI (замигает, если значение будет ниже заданного порога тревоги)"
     },
+    "osdTextElementTimer": {
+        "message": "Таймер",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementTimer": {
+        "message": "Таймер полета"
+    },
+    "osdTextElementThrottlePosition": {
+        "message": "Положение газа",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementThrottlePosition": {
         "message": "Значение канала газа"
+    },
+    "osdTextElementCpuLoad": {
+        "message": "Загрузка ЦПУ",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementCpuLoad": {
+        "message": "Текущая загрузка ЦПУ"
+    },
+    "osdTextElementVtxChannel": {
+        "message": "Канал VTX",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementVtxChannel": {
+        "message": "Текущие канал и мощность VTX"
+    },
+    "osdTextElementVoltageWarning": {
+        "message": "Предупреждения о напряжении батареи",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementVoltageWarning": {
+        "message": "Показывает предупреждение, когда напряжение находится ниже аварийного значения"
+    },
+    "osdTextElementArmed": {
+        "message": "Включён",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementArmed": {
         "message": "Текстовое сообщение арминга"
     },
+    "osdTextElementDisarmed": {
+        "message": "Выключен",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementDisarmed": {
         "message": "Индикатор \"disarmed\" в виде текста"
+    },
+    "osdTextElementCrosshairs": {
+        "message": "Прицел",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementCrosshairs": {
         "message": "Перекрестие в центре экрана"
     },
+    "osdTextElementArtificialHorizon": {
+        "message": "Искусственный горизонт",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementArtificialHorizon": {
         "message": "Графический индикатор искусственного горизонта"
+    },
+    "osdTextElementHorizonSidebars": {
+        "message": "Боковые панели искуственного горизонта",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementHorizonSidebars": {
         "message": "Вертикальные линии по бокам индикатора искусственного горизонта"
     },
+    "osdTextElementCurrentDraw": {
+        "message": "Отображение тока батареи",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCurrentDraw": {
         "message": "Мгновенное (дискретное) значение тока аккумулятора"
+    },
+    "osdTextElementMahDrawn": {
+        "message": "Текущая ёмкость батареи",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMahDrawn": {
         "message": "Израсходованная ёмкость аккумулятора"
     },
+    "osdTextElementCraftName": {
+        "message": "Позывной пилота",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCraftName": {
         "message": "Позывной пилота, установленный во вкладке \"Конфигурация\""
+    },
+    "osdTextElementAltitude": {
+        "message": "Высота",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementAltitude": {
         "message": "Текущая высота (замигает, если значение будет ниже заданного порога тревоги)"
     },
+    "osdTextElementOnTime": {
+        "message": "Время работы",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementOnTime": {
         "message": "Общее время которое судно было запитано"
+    },
+    "osdTextElementFlyTime": {
+        "message": "Время полета",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementFlyTime": {
         "message": "Общее время которое судно было в арминге в текщем цикле мощности (мигает когда ниже порога тревоги)"
     },
+    "osdTextElementFlyMode": {
+        "message": "Режим полёта",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementFlyMode": {
         "message": "Текущий режим полета"
+    },
+    "osdTextElementGPSSpeed": {
+        "message": "Скорость по GPS",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementGPSSpeed": {
         "message": "Скорость, полученная по данным GPS"
     },
+    "osdTextElementGPSSats": {
+        "message": "Спутники GPS",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementGPSSats": {
         "message": "Число пойманных спутников"
+    },
+    "osdTextElementGPSLon": {
+        "message": "Долгота GPS",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementGPSLon": {
+        "message": "Координация долготы GPS"
+    },
+    "osdTextElementGPSLat": {
+        "message": "Широта GPS",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementGPSLat": {
+        "message": "Координация GPS широты"
+    },
+    "osdTextElementDebug": {
+        "message": "Отладка",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementDebug": {
         "message": "Показывать Debug-переменные"
     },
+    "osdTextElementPIDRoll": {
+        "message": "PID крена",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDRoll": {
         "message": "PID-коэффициенты по оси Roll"
+    },
+    "osdTextElementPIDPitch": {
+        "message": "PID тангажа",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDPitch": {
         "message": "PID-коэффициенты по оси Pitch"
     },
+    "osdTextElementPIDYaw": {
+        "message": "PID рысканья",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDYaw": {
         "message": "PID-коэффициенты по оси Yaw"
+    },
+    "osdTextElementPower": {
+        "message": "Мощность",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPower": {
         "message": "Мгновенное (дискретное) значение потребляемой мощности"
     },
+    "osdTextElementPIDRateProfile": {
+        "message": "Профиль: PID и рэйты",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementPIDRateProfile": {
         "message": "Отобразить номера профилей для PID-ов и rate-ов"
+    },
+    "osdTextElementBatteryWarning": {
+        "message": "Предупреждение батареи",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementBatteryWarning": {
         "message": "Предупреждающий текст который появляется когда напряжение батареи падает ниже предупреждающего порога"
     },
+    "osdTextElementAvgCellVoltage": {
+        "message": "Среднее напряжение ячейки батареи",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementAvgCellVoltage": {
         "message": "Среднее напряжение на банке (напряжение аккумулятора \/ число банок)"
+    },
+    "osdTextElementPitchAngle": {
+        "message": "Угол: тангаж",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementPitchAngle": {
         "message": "Угол наклона по тангажу (pitch) в градусах"
     },
+    "osdTextElementRollAngle": {
+        "message": "Угол: крен",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementRollAngle": {
         "message": "Угол наклона по крену (roll) в градусах"
+    },
+    "osdTextElementMainBattUsage": {
+        "message": "Расход батареи",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMainBattUsage": {
         "message": "Отобразить израсходованную ёмкость батареи в виде шкалы"
     },
+    "osdTextElementArmedTime": {
+        "message": "Таймер: время работы",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementArmedTime": {
         "message": "Момент когда судно было последний раз в арминге"
     },
+    "osdTextElementHomeDirection": {
+        "message": "Направление домой",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementHomeDirection": {
         "message": "Стрелка, показывающая направление к месту взлёта"
+    },
+    "osdTextElementHomeDistance": {
+        "message": "Расстояние до дома",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementHomeDistance": {
         "message": "Расстояние до места взлёта (в футах или в метрах в зависимости от настроек единиц измерения)"
@@ -3554,14 +3913,30 @@
     "osdDescElementCompassBar": {
         "message": "Отображет шкалу компаса, показывающего текущее направление"
     },
+    "osdTextElementWarnings": {
+        "message": "Предупреждения",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementWarnings": {
         "message": "Показывать тревоги (напр., о низком заряде), предупреждения (напр., причины: почему не армится, критич. низкий заряд), а также визуально отображать сигнал с пищалки (в виде 4-х мигающих звёздочек)."
+    },
+    "osdTextElementEscTemperature": {
+        "message": "Температура ESC-и",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementEscTemperature": {
         "message": "Температура, полученная с телеметрии от ESC"
     },
+    "osdTextElementEscRpm": {
+        "message": "ESC RPM",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementEscRpm": {
         "message": "Скорость оборотов, полученная из телеметрии от ESC"
+    },
+    "osdTextElementRemaningTimeEstimate": {
+        "message": "Таймер: оставшееся расчетное время",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementRemaningTimeEstimate": {
         "message": "Расчётное время до полного разряда батареи"
@@ -3572,32 +3947,72 @@
     "osdDescElementAdjustmentRange": {
         "message": "В настоящее время активные регулировки диапазона параметров и значения"
     },
+    "osdTextElementTimer1": {
+        "message": "Таймер 1",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementTimer1": {
         "message": "Показать значение таймера 1"
+    },
+    "osdTextElementTimer2": {
+        "message": "Таймер 2",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementTimer2": {
         "message": "Показать значение таймера 2"
     },
+    "osdTextElementCoreTemperature": {
+        "message": "Температура ядра",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCoreTemperature": {
         "message": "Температура ядра STM32 MCU"
+    },
+    "osdTextAntiGravity": {
+        "message": "Анти-Гравитация",
+        "description": "One of the elements of the OSD"
     },
     "osdDescAntiGravity": {
         "message": "Включает индикатор когда режим антигравити активен"
     },
+    "osdTextGForce": {
+        "message": "Сила притяжения",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescGForce": {
         "message": "Показывает как много G-силы судно испытывает"
+    },
+    "osdTextElementMotorDiag": {
+        "message": "Диагностика моторов",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementMotorDiag": {
         "message": "Показывает график работы каждого мотора"
     },
+    "osdTextElementLogStatus": {
+        "message": "Статус журнала черного ящика",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementLogStatus": {
         "message": "BlackBox номер и предупреждения"
+    },
+    "osdTextElementFlipArrow": {
+        "message": "Направление переворота после падения",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementFlipArrow": {
         "message": "Стрелка показывает в какой стороне двигатели в режиме черепахи"
     },
+    "osdTextElementLinkQuality": {
+        "message": "Качество подключения",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementLinkQuality": {
         "message": "Альтернативный индикатор основанный на потере кадров - использовать с осторожностью"
+    },
+    "osdTextElementFlightDist": {
+        "message": "Расстояние полёта",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementFlightDist": {
         "message": "Пройденное расстояние за этот полет."
@@ -3608,11 +4023,37 @@
     "osdDescElementStickOverlayRight": {
         "message": "Схема положения для правого стика передатчика."
     },
+    "osdTextElementDisplayName": {
+        "message": "Имя дисплея",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementDisplayName": {
         "message": "Показываемое имя для установки показываемого имени в интерфейсе командной строки"
     },
     "osdDescElementEscRpmFreq": {
         "message": "Частота RPM, сообщаемая телеметрией регуляторов оборотов"
+    },
+    "osdTextElementPidProfileName": {
+        "message": "Профиль: имя PID профиля",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementPidProfileName": {
+        "message": "Отображает имя текущего PID профиля"
+    },
+    "osdTextElementOsdProfileName": {
+        "message": "Профиль: имя профиля OSD",
+        "description": "One of the elements of the OSD"
+    },
+    "osdDescElementOsdProfileName": {
+        "message": "Название профиля OSD, установленное в переменных CLI \"osd_profile_1_name\", \"osd_profile_2_name\" и \"osd_profile_3_name\""
+    },
+    "osdTextElementRssiDbmValue": {
+        "message": "Значение dBm RSSI",
+        "description": "One of the elements of the OSD"
+    },
+    "osdTextElementUnknown": {
+        "message": "Неизвестно ($1)",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementUnknown": {
         "message": "Неизвестный элемент (детали будут добавлены в будущих выпусках)"
@@ -3641,6 +4082,10 @@
     "osdDescStatEndBattery": {
         "message": "Напряжение батареи во время дизарма"
     },
+    "osdTextStatFlyTime": {
+        "message": "Полное время полёта",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatFlyTime": {
         "message": "Общее время которое судно было в режиме арминга в текущем цикле питания"
     },
@@ -3650,11 +4095,23 @@
     "osdDescStatMaxDistance": {
         "message": "Максимальное расстояние от места взлёта"
     },
+    "osdTextStatBlackboxLogNumber": {
+        "message": "Номер черного ящика",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatBlackboxLogNumber": {
         "message": "Номер лога для этого полета в черном ящике"
     },
+    "osdTextStatTimer1": {
+        "message": "Таймер 1",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatTimer1": {
         "message": "Значение таймера 1 во время дизарма"
+    },
+    "osdTextStatTimer2": {
+        "message": "Таймер 2",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatTimer2": {
         "message": "Значение таймера 2 во время дизарма"
@@ -3662,11 +4119,23 @@
     "osdDescStatRtcDateTime": {
         "message": "Дата и время аппаратных часов"
     },
+    "osdTextStatBattery": {
+        "message": "Напряжение батареи",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatBattery": {
         "message": "Напряжение батареи в реальном времени"
     },
+    "osdTextStatGForce": {
+        "message": "Максимальное сила G",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatGForce": {
         "message": "Максимальная G-сила испытываемая судном"
+    },
+    "osdTextStatEscTemperature": {
+        "message": "Максимальная температура ESC-и",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatEscTemperature": {
         "message": "Максимальная температура ESC"
@@ -3677,11 +4146,59 @@
     "osdDescStatMinLinkQuality": {
         "message": "Альтернативный минимальный индикатор качества основанный на потере кадров"
     },
+    "osdTextStatFlightDistance": {
+        "message": "Расстояние полёта",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatFlightDistance": {
         "message": "Общее расстояние, пройденное за время полета"
     },
     "osdDescStatMaxFFT": {
         "message": "Пиковая частота FFT"
+    },
+    "osdTextStatTotalFlights": {
+        "message": "Общее количество вылетов",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
+    "osdDescStatTotalFlights": {
+        "message": "Общее количество полетов"
+    },
+    "osdTextStatTotalFlightTime": {
+        "message": "Полное время полёта",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
+    "osdDescStatTotalFlightTime": {
+        "message": "Общее время проведенное в полете"
+    },
+    "osdTextStatTotalFlightDistance": {
+        "message": "Полное расстояние полёта",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
+    "osdDescStatTotalFlightDistance": {
+        "message": "Общая пройденная дистанция"
+    },
+    "osdTextStatMinRssiDbm": {
+        "message": "Мин. дБм RSSI",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
+    "osdDescStatMinRssiDbm": {
+        "message": "Мин. значение дБм RSSI"
+    },
+    "osdTextStatUnknown": {
+        "message": "Неизвестно ($1)",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
+    "osdDescStatUnknown": {
+        "message": "Неизвесные данные (будут добавлены в следующих релизах)"
+    },
+    "osdDescribeFontVersion1": {
+        "message": "Версия шрифта: 1 (Betaflight 4.0 и старше)"
+    },
+    "osdDescribeFontVersion2": {
+        "message": "Версия шрифта: 2 (Betaflight 4.1 и новее)"
+    },
+    "osdDescribeFontVersionCUSTOM": {
+        "message": "Версия шрифта: пользовательский"
     },
     "osdTimerSource": {
         "message": "Источник:"
@@ -3689,11 +4206,39 @@
     "osdTimerSourceTooltip": {
         "message": "Выберете источник таймера, это управляет продолжительностью\/событием измерений этого таймера"
     },
+    "osdTimerSourceOptionOnTime": {
+        "message": "Время работы",
+        "description": "One of the options for the source timer. This options shows the amount of time has passed since the battery was plugged"
+    },
+    "osdTimerSourceOptionTotalArmedTime": {
+        "message": "Полный период работы",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed since the battery was plugged"
+    },
+    "osdTimerSourceOptionLastArmedTime": {
+        "message": "Время последнего арма",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed the latest time"
+    },
+    "osdTimerSourceOptionOnArmTime": {
+        "message": "Время включения\/арма",
+        "description": "One of the options for the source timer. This option shows On time when craft is disarmed, and Armed time when armed"
+    },
     "osdTimerPrecision": {
         "message": "Точность:"
     },
     "osdTimerPrecisionTooltip": {
         "message": "Выберите точность таймера, с этой точностью будет отображаться время в отчётах"
+    },
+    "osdTimerPrecisionOptionSecond": {
+        "message": "Секунд",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionHundredth": {
+        "message": "Сотни",
+        "description": "Selectable option for the precision of the timer in the OSD"
+    },
+    "osdTimerPrecisionOptionTenth": {
+        "message": "Десятки",
+        "description": "Selectable option for the precision of the timer in the OSD"
     },
     "osdTimerAlarm": {
         "message": "Тревога:"
@@ -3701,44 +4246,132 @@
     "osdTimerAlarmTooltip": {
         "message": "Выберите порог тревоги для таймера в минутах, если время превысит это значение - элемент OSD будет мигать. Если выставить значение 0, то таймер будет отключён"
     },
+    "osdTimerAlarmOptionRssi": {
+        "message": "RSSI",
+        "description": "Text of the RSSI alarm"
+    },
+    "osdTimerAlarmOptionCapacity": {
+        "message": "Ёмкость",
+        "description": "Text of the capacity alarm"
+    },
+    "osdTimerAlarmOptionAltitude": {
+        "message": "Высота",
+        "description": "Text of the altitude alarm"
+    },
+    "osdWarningTextArmingDisabled": {
+        "message": "Arming выключен",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningArmingDisabled": {
         "message": "Отобразить самые основные причины не-арминг"
+    },
+    "osdWarningTextBatteryNotFull": {
+        "message": "Батарея недозаряжена",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningBatteryNotFull": {
         "message": "Тревога когда подключенная батарея не полностью заряжена"
     },
+    "osdWarningTextBatteryWarning": {
+        "message": "Предупреждение батареи",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningBatteryWarning": {
         "message": "Тревога когда напряжение батареи падает ниже предупреждающего порога"
+    },
+    "osdWarningTextBatteryCritical": {
+        "message": "Критически низкий заряд батареи",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningBatteryCritical": {
         "message": "Тревога когда напряжение батареи падает ниже минимального среднего для каждой банки"
     },
+    "osdWarningTextVisualBeeper": {
+        "message": "Визуальный бипер",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningVisualBeeper": {
         "message": "Визуализировать звуковой сигнал зуммера (в виде 4 звёздочек)"
+    },
+    "osdWarningTextCrashFlipMode": {
+        "message": "Режим переворота после падения",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningCrashFlipMode": {
         "message": "Отображать предупреждение, если активирован режим черепахи (режим переворота)"
     },
+    "osdWarningTextEscFail": {
+        "message": "Ошибка ESC-и",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningEscFail": {
         "message": "Перечисляет список с ЭСК\/двигатели, которые не удавшиеся (об\/мин или температура находятся вне настроенного порогового значения)"
+    },
+    "osdWarningTextCoreTemperature": {
+        "message": "Температура ядра",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningCoreTemperature": {
         "message": "Предупреждает, когда температура MCU превышает настроенный порог"
     },
+    "osdWarningTextRcSmoothingFailure": {
+        "message": "Ошибка сглаживания RC",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningRcSmoothingFailure": {
         "message": "Предупреждает когда инициализация RC не работает (нарушена)"
+    },
+    "osdWarningTextFailsafe": {
+        "message": "Failsafe",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningFailsafe": {
         "message": "Предупреждает когда происходит failsafe"
     },
+    "osdWarningTextLaunchControl": {
+        "message": "Контроль взлета",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningLaunchControl": {
         "message": "Предупреждает, когда Режим контроля запуска активирован"
+    },
+    "osdWarningTextGpsRescueUnavailable": {
+        "message": "GPS-возврат невозможен",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningGpsRescueUnavailable": {
         "message": "Предупреждает, когда GPS не доступен и не может быть активирован"
     },
+    "osdWarningTextGpsRescueDisabled": {
+        "message": "GPS-возврат отключен",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
     "osdWarningGpsRescueDisabled": {
         "message": "Предупреждает, когда GPS отключён"
+    },
+    "osdWarningTextRSSI": {
+        "message": "RSSI",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
+    "osdWarningRSSI": {
+        "message": "Предупреждение, когда сигнал RSSI низкий"
+    },
+    "osdWarningTextLinkQuality": {
+        "message": "Качество подключения",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
+    "osdWarningLinkQuality": {
+        "message": "Предупреждение, когда качество связи низкое"
+    },
+    "osdWarningTextRssiDbm": {
+        "message": "RSSI дБм",
+        "description": "One of the warnings that can be selected to be shown in the OSD"
+    },
+    "osdWarningRssiDbm": {
+        "message": "Предупреждение, когда сигнал RSSI низкий"
+    },
+    "osdWarningTextUnknown": {
+        "message": "Неизвестно ($1)"
     },
     "osdWarningUnknown": {
         "message": "Неизвестное предупреждение (детали буду добавлены в будущем выпуске)"
@@ -3964,5 +4597,11 @@
     },
     "flashTab": {
         "message": "Обновить прошивку"
+    },
+    "cliAutoComplete": {
+        "message": "Расширенная автозаполнение CLI"
+    },
+    "darkTheme": {
+        "message": "Включить темную тему"
     }
 }
