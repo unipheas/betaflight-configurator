@@ -1301,9 +1301,6 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">la modifica del controllore dei PID è disabilitata - puoi modificarli tramite CLI.<\/span> hai un Firmware con versione delle API <span class=\"message-negative\">$1<\/span>, ma questa funzionalità richiede <span class=\"message-positive\">$2<\/span>."
     },
-    "pidTuningSubTabPid": {
-        "message": "Impostazioni PID"
-    },
     "pidTuningSubTabFilter": {
         "message": "Impostazioni Filtri"
     },
@@ -1316,9 +1313,6 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Impostazioni controller PID indipendenti dal profilo"
     },
-    "pidTuningAntiGravityMode": {
-        "message": "Modo Anti Gravity"
-    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "Liscio",
         "description": "One of the modes of anti gravity"
@@ -1327,27 +1321,9 @@
         "message": "Passo",
         "description": "One of the modes of anti gravity"
     },
-    "pidTuningAntiGravityGain": {
-        "message": "Guadagno Anti Gravità"
-    },
-    "pidTuningAntiGravityThres": {
-        "message": "Soglia Anti Gravità"
-    },
     "pidTuningDMin": {
         "message": "D min",
         "description": "Table header of the D Min feature in the PIDs tab"
-    },
-    "pidTuningDMinRoll": {
-        "message": "Roll",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinPitch": {
-        "message": "Pitch",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinYaw": {
-        "message": "Yaw",
-        "description": "Axis to apply D Min feature"
     },
     "pidTuningDMinGain": {
         "message": "Guadagno",
@@ -1355,7 +1331,7 @@
     },
     "pidTuningDMinAdvance": {
         "message": "Avanzamento",
-        "description": "Advane of the D Min feature"
+        "description": "Advance of the D Min feature"
     },
     "pidTuningPidSettings": {
         "message": "Impostazioni del controller PID"
@@ -1521,9 +1497,6 @@
     },
     "pidTuningFilterFrequency": {
         "message": "Frequenza"
-    },
-    "pidTuningRatesCurve": {
-        "message": "Velocità"
     },
     "throttle": {
         "message": "Gas"
@@ -2973,9 +2946,6 @@
     "pidTuningItermRelax": {
         "message": "I Term Relax"
     },
-    "pidTuningItermRelaxAxes": {
-        "message": "Assi:"
-    },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "RP"
     },
@@ -2987,9 +2957,6 @@
     },
     "pidTuningItermRelaxAxesOptionRPYInc": {
         "message": "RPY (solo incremento)"
-    },
-    "pidTuningItermRelaxType": {
-        "message": "Tipo:"
     },
     "pidTuningItermRelaxTypeOptionGyro": {
         "message": "Gyro"
@@ -4528,12 +4495,6 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>Filtro Leggero per Giroscopio :<\/b> Filtro Passbasso per giroscopio. Usa valori bassi per un filtraggio maggiore.<br><b>Filtro D Term:<\/b> Filtro Passabasso per Dterm. Può influire sul tuning di D. Usa valori bassi per un filtraggio maggiore. <br><b>Filtro Yaw:<\/b> Filtra il comando yaw. Può aiutare nei setup con asse orizzontale rumoroso"
-    },
-    "pidTuningPidTuningTip": {
-        "message": "<b>Proporzionale:<\/b> Noterai un forte resistenza ad ogni tentativo di muovere il MultiRotore<br><b>Integrale:<\/b> Aumenta la capacità di mantenere la posizione iniziale e riduce il drift, ma aumenta anche il ritardo nel ritornare nella posizione iniziale.<br><b>Derivativo:<\/b> Aumenta la velocità di recupero delle deviazioni, ma aumenta il rumore<br><b>Rates e Expo<\/b>: Determina il funzionamento dei tuoi stick usando questi parametri. Usa il modello 3D per trovare le tue impostazioni preferite"
-    },
-    "pidTuningPidTuningTipFeedforward": {
-        "message": "<b>Proporzionale:<\/b> Noterai una forte forza resistente ad ogni tentativo di muovere il MultiRotore <br><b>Integrale:<\/b> Aumenta l'abilità di mantenere complessivamente la posizione iniziale e di ridurre lo sbando, ma aumenta anche il ritardo nel tornare nella posizione iniziale.<br><b>Derivativo:<\/b> Migliora la velocità alla quale le deviazioni sono corrette, ma aumenta il rumore di fondo<br><b>Feedforward:<\/b>Solitamente il PID controller reagisce al errore. Il Feedforward anticipa l'errore basato sull'input degli stick, fornendo maggior reattività al quadricottero.<br><b>Rates and Expo<\/b>: Determina il funzionamento dei tuoi sticks usando questi parametri. Usa il grafico e il modello interattivo 3D per trovare le tue impostazioni preferite"
     },
     "pidTuningRatesTip": {
         "message": "Gioca con i \"rates\" e verifica come influiscono sulla curva dello stick"
