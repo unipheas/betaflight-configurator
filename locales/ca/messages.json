@@ -1082,9 +1082,6 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">Canviant el controlador PID a deshabilitat - ho pots canviar pel CLI.<\/span> Tens un firmware amb versió API <span class=\"message-negative\">$1<\/span>, però aquesta funcionalitat requereix <span class=\"message-positive\">$2<\/span>."
     },
-    "pidTuningSubTabPid": {
-        "message": "Configuració de PIDs"
-    },
     "pidTuningSubTabFilter": {
         "message": "Configuració de Filtres"
     },
@@ -1096,12 +1093,6 @@
     },
     "pidTuningNonProfilePidSettings": {
         "message": "Ajustament de PIDs independent del perfil"
-    },
-    "pidTuningAntiGravityGain": {
-        "message": "Guany Anti Gravity"
-    },
-    "pidTuningAntiGravityThres": {
-        "message": "Llindar Anti Gravity"
     },
     "pidTuningPidSettings": {
         "message": "Ajustament del Controlador de PIDs"
@@ -1180,9 +1171,6 @@
     },
     "pidTuningFilterFrequency": {
         "message": "Frequència"
-    },
-    "pidTuningRatesCurve": {
-        "message": "Rates"
     },
     "throttle": {
         "message": "Throttle"
@@ -3216,9 +3204,6 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>Gyro Soft Filter:<\/b> Lowpass filterper al giroscopi. Fes servir un valor menor per a filtrar més.<br><b>D Term Filter:<\/b> Lowpass filter per Dterm. Por afectar a l'ajustament de la D. Fes servir un valor menor per a filtrar més. <br><b>Yaw Filter:<\/b> Filtra la sortida de yaw. Pot ser d'ajuda per a configuracions amb l'eix de yaw amb soroll."
-    },
-    "pidTuningPidTuningTip": {
-        "message": "<b>Proporcional:<\/b> Notaràs un forta resistència a qualsevol intent de moure el multi<br><b>Integral:<\/b> Incrementa l'habilitat de mantenir la posició i redueix el drift, però també incrementa el retard per a tornar a la posició inicial.<br><b>Derivativa:<\/b> Millora la velocitat en que són corregides les desviacions, però incrementa el soroll<br><b>Rates i Expo<\/b>: Determina el tacte dels sticks basat en aquests paràmetres. Utilitza el model 3D per a trobar els teus ajustaments preferits."
     },
     "pidTuningRatesTip": {
         "message": "Juga amb els rates i mira com afecten a la corba del valor de l'stick"
