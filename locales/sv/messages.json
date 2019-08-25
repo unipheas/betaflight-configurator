@@ -1393,9 +1393,6 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">Inte möjligt att ändra PID-kontroller - du kan ändra den via CLI.<\/span>  Din firmware har API-version <span class=\"message-negative\">$1<\/span>, men denna funktion kräver <span class=\"message-positive\">$2<\/span>."
     },
-    "pidTuningSubTabPid": {
-        "message": "PID-inställningar"
-    },
     "pidTuningSubTabFilter": {
         "message": "Filter-inställningar"
     },
@@ -1408,9 +1405,6 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Profiloberoende PID-kontrollerinställningar"
     },
-    "pidTuningAntiGravityMode": {
-        "message": "Antigravitations-läge"
-    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "Utjämnat",
         "description": "One of the modes of anti gravity"
@@ -1419,31 +1413,9 @@
         "message": "Steg",
         "description": "One of the modes of anti gravity"
     },
-    "pidTuningAntiGravityGain": {
-        "message": "Anti Gravity-ökning"
-    },
-    "pidTuningAntiGravityThres": {
-        "message": "Antigravitations-tröskel"
-    },
-    "pidTuningDMinHelp": {
-        "message": "D Min ger möjlighet att ha en lägre nivå av D under normal flygning och en högre nivå för snabba manövrer där man riskerar att ta i för mycket, som flippar och rollar. Den ökar också D vid propellerströmmar. Farkosten kommer att ha en dynamisk D Term som varierar mellan D Min (vid normal flygning) och standard-D (vid snabba rollar och flippar). Värdet noll stänger av funktionen. Ökningen bestämmer hur mycket D förstärks under snabba styrspaksrörelser. Advance får förstärkningseffekten att börja tidigare. Detta kan vara bra om du får för höga utslag vid snabba flippar på extra responsiva quadar.",
-        "description": "Help message for D Min feature"
-    },
     "pidTuningDMin": {
         "message": "D Min",
         "description": "Table header of the D Min feature in the PIDs tab"
-    },
-    "pidTuningDMinRoll": {
-        "message": "Roll",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinPitch": {
-        "message": "Looping",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinYaw": {
-        "message": "Gir",
-        "description": "Axis to apply D Min feature"
     },
     "pidTuningDMinGain": {
         "message": "Ökning",
@@ -1451,7 +1423,7 @@
     },
     "pidTuningDMinAdvance": {
         "message": "Advance",
-        "description": "Advane of the D Min feature"
+        "description": "Advance of the D Min feature"
     },
     "pidTuningPidSettings": {
         "message": "PID-kontrollerinställningar"
@@ -1629,9 +1601,6 @@
     },
     "pidTuningFilterFrequency": {
         "message": "Frekvens"
-    },
-    "pidTuningRatesCurve": {
-        "message": "Rates"
     },
     "throttle": {
         "message": "Trottel"
@@ -3168,9 +3137,6 @@
     "pidTuningItermRelaxHelp": {
         "message": "Begränsar ackumuleringen av I Term när snabba rörelser inträffar. Detta hjälper särskilt till med att reducera tillbakastuds vid slutet av rollar och andra snabba rörelser. Du kan välja vilka axlar detta ska aktiveras på, och om den snabba rörelsen ska upptäckas av gyron eller setpointen (spaken)."
     },
-    "pidTuningItermRelaxAxes": {
-        "message": "Axlar:"
-    },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "RP"
     },
@@ -3183,17 +3149,11 @@
     "pidTuningItermRelaxAxesOptionRPYInc": {
         "message": "RPY (endast ökning)"
     },
-    "pidTuningItermRelaxType": {
-        "message": "Typ:"
-    },
     "pidTuningItermRelaxTypeOptionGyro": {
         "message": "Gyro"
     },
     "pidTuningItermRelaxTypeOptionSetpoint": {
         "message": "Setpoint"
-    },
-    "pidTuningItermRelaxCutoff": {
-        "message": "Cutoff:"
     },
     "pidTuningAbsoluteControlGain": {
         "message": "Absolut kontroll"
@@ -4754,12 +4714,6 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>Gyro Soft Filter:<\/b> Lågpassfilter för gyro. Använd ett lägre värde för ökad filtrering.<br><b>D Term Filter:<\/b> Lågpassfilter för Dterm. Kan påverka D tuning. Använd ett lägre värde för ökad filtrering. <br><b>Gir-filter:<\/b> Filtrerar gir-output. Det kan hjälpa system med brus i gir-axeln."
-    },
-    "pidTuningPidTuningTip": {
-        "message": "<b>Proportionell:<\/b> En mycket stark motkraft märks vid alla försök att flytta multirotorn<br><b>Integral:<\/b> Ökar förmågan att hålla det initiala läget och minska avdrift, men ökar också fördröjningen för att återvända till initalt läge<br><b>Derivativ:<\/b> Ger en snabbare återhämtning från avvikelser, men ökar bruset<br><b>Rates och Expo<\/b>: Bestäm spakkänslan baserat på dessa parametrar. Använd grafen och live 3D-modellen för att hitta din favoritinställning för rate"
-    },
-    "pidTuningPidTuningTipFeedforward": {
-        "message": "<b>Proportionell:<\/b> En mycket stark motkraft märks vid alla försök att flytta multirotorn<br><b>Integration:<\/b> Ökar förmågan att hålla det initiala läget och minska avdrift, men ökar också fördröjningen för att återvända till initalt läge<br><b>Derivering:<\/b> Ger en snabbare återhämtning från avvikelser, men ökar brus<br><b>Framkoppling (Feedforward):<\/b><br> Normalt reagerar PID-kontrollern på avvikelsen. Framkoppling förutser avvikelsen baserat på spakens läge, och gör multirotorn mer responsiv.<b>Rates och Expo<\/b>: Bestäm spakkänslan baserat på dessa parametrar. Använd grafen och live 3D-modellen för att hitta din favoritinställning för rate"
     },
     "pidTuningRatesTip": {
         "message": "Testa olika rate-värden och se hur de påverkar spakkurvan"
