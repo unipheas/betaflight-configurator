@@ -209,6 +209,12 @@
     "deviceRebooting": {
         "message": "기기 - <span class=\"message-negative\">재부팅<\/span>"
     },
+    "deviceRebooting_flashBootloader": {
+        "message": "기기 - <span class=\"message-negative\">플래시 부트로더로 재부팅<\/span>"
+    },
+    "deviceRebooting_romBootloader": {
+        "message": "기기 - <span class=\"message-negative\">롬 부트로더로 재부팅<\/span>"
+    },
     "deviceReady": {
         "message": "기기 - <span class=\"message-positive\">준비<\/span>"
     },
@@ -352,6 +358,12 @@
     },
     "stm32UsbDfuNotFound": {
         "message": "USB DFU 발견되지 않음"
+    },
+    "stm32RebootingToBootloader": {
+        "message": "부트로더로 재부팅 초기화중 ..."
+    },
+    "stm32RebootingToBootloaderFailed": {
+        "message": "부트로더로 기기 재부팅: 실패"
     },
     "stm32TimedOut": {
         "message": "STM32 - 시간초과, 프로그래밍: 실패"
@@ -1408,9 +1420,6 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">PID 변경 컨트롤러가 비활성화됨 - 당신은 CLI를 통하여 변경할 수 있습니다.<\/span> 당신은 API 버전  <span class=\"message-negative\">$1<\/span>의 펌웨어를 가지고 있으나, 이 기능은  <span class=\"message-positive\">$2<\/span>를 필요로 합니다."
     },
-    "pidTuningSubTabPid": {
-        "message": "PID 설정"
-    },
     "pidTuningSubTabFilter": {
         "message": "필터 설정"
     },
@@ -1423,9 +1432,6 @@
     "pidTuningNonProfilePidSettings": {
         "message": "프로파일 독립적 PID 컨트롤러 설정"
     },
-    "pidTuningAntiGravityMode": {
-        "message": "안티 그래비티 모드"
-    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "스무드",
         "description": "One of the modes of anti gravity"
@@ -1434,31 +1440,9 @@
         "message": "스텝",
         "description": "One of the modes of anti gravity"
     },
-    "pidTuningAntiGravityGain": {
-        "message": "안티 그래비티 게인"
-    },
-    "pidTuningAntiGravityThres": {
-        "message": "안티 그래비티 임계값"
-    },
-    "pidTuningDMinHelp": {
-        "message": "D 최소는 일반 비행에서 D보다 낮은 수준을 가질 수 있는 방법과 플립이나 롤링과 같이 오버슈트를 일으킬 수 있는 빠른 기동을 위한 높은 수준을 제공합니다. 그것은 또한 프롭워시 동안 D를 끌어올립니다. 기체는 D 최소(정상 비행 중) 에서 표준 D(고속 롤링 및 플립 사용) 까지 다양한 동적 D텀을 가질 것입니다. 값이 0이면 기능이 비활성화됩니다. 게인은 퀵 스틱 입력 시 D가 얼마나 강하게 상승되는지를 결정합니다. 가속은 부스트 효과의 시작 속도를 높입니다. 이것은 매우 반응에 민감한 쿼드에서 매우 높은 비율의 플립으로 오버슈트를 했을 때 도움이 될 수 있습니다.",
-        "description": "Help message for D Min feature"
-    },
     "pidTuningDMin": {
         "message": "D 최소",
         "description": "Table header of the D Min feature in the PIDs tab"
-    },
-    "pidTuningDMinRoll": {
-        "message": "롤",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinPitch": {
-        "message": "피치",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinYaw": {
-        "message": "요",
-        "description": "Axis to apply D Min feature"
     },
     "pidTuningDMinGain": {
         "message": "게인",
@@ -1466,7 +1450,7 @@
     },
     "pidTuningDMinAdvance": {
         "message": "가속",
-        "description": "Advane of the D Min feature"
+        "description": "Advance of the D Min feature"
     },
     "pidTuningPidSettings": {
         "message": "PID 컨트롤러 설정"
@@ -1644,9 +1628,6 @@
     },
     "pidTuningFilterFrequency": {
         "message": "주파수"
-    },
-    "pidTuningRatesCurve": {
-        "message": "레이트"
     },
     "throttle": {
         "message": "스로틀"
@@ -3183,9 +3164,6 @@
     "pidTuningItermRelaxHelp": {
         "message": "빠른 움직임이 일어날 때 I 텀의 축적을 제한합니다. 이것은 특히 롤의 끝과 다른 빠른 움직임에서 바운스백을 줄이는 데 도움이 됩니다. 이 기능이 활성화된 축을 선택할 수 있으며, 자이로 또는 설정점(스틱)을 사용하여 빠른 이동을 감지할 수 있습니다."
     },
-    "pidTuningItermRelaxAxes": {
-        "message": "축:"
-    },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "RP"
     },
@@ -3198,17 +3176,11 @@
     "pidTuningItermRelaxAxesOptionRPYInc": {
         "message": "RPY (증가만)"
     },
-    "pidTuningItermRelaxType": {
-        "message": "유형:"
-    },
     "pidTuningItermRelaxTypeOptionGyro": {
         "message": "자이로"
     },
     "pidTuningItermRelaxTypeOptionSetpoint": {
         "message": "설정점"
-    },
-    "pidTuningItermRelaxCutoff": {
-        "message": "컷오프:"
     },
     "pidTuningAbsoluteControlGain": {
         "message": "절대 제어"
@@ -4977,12 +4949,6 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>자이로 소프트 필터:<\/b> 자이로에 대한 저역통과 필터. 더 많은 필터링을 위해 더 낮은 값을 사용하십시오.<br><b>D텀 필터:<\/b> D텀 저역통과 필터. D 튜닝에 영향을 미칠 수 있습니다. 더 많은 필터링을 위해 더 낮은 값을 사용하십시오. <br><b>요 필터:<\/b>요출력을 필터링합니다. 그것은 노이즈가 있는 요 축을 가진 설정에 도움을 줄 수 있습니다."
-    },
-    "pidTuningPidTuningTip": {
-        "message": "<b>비례:<\/b> 멀티로터를 움직이려고 시도 할 때 매우 강한 저항력을 느낄 것입니다.<br><b>적분:<\/b> 전체 초기 위치를 유지하는 능력을 증가시키고 드리프트를 줄이지만, 초기 위치로 복귀 할 때 지연을 증가시킵니다.<br><b>미분:<\/b> 편차가 회복되는 속도를 향상 시키지만, 노이즈를 증가시킵니다.<br><b>레이트 및 Expo<\/b>: 이 파라미터를 기반으로 스틱 느낌을 결정하십시오. 그래프 및 실시간 3D 모델을 사용하여 원하는 레이트 설정을 찾으십시오."
-    },
-    "pidTuningPidTuningTipFeedforward": {
-        "message": "<b>비례:<\/b> 멀티로터를 움직이려고 시도 할 때 매우 강한 저항력을 느낄 것입니다.<br><b>적분:<\/b> 전체 초기 위치를 유지하는 능력을 증가시키고 드리프트를 줄이지만, 초기 위치로 복귀 할 때 지연을 증가시킵니다.<br><b>미분:<\/b> 편차가 회복되는 속도를 향상 시키지만, 노이즈를 증가시킵니다.<br><b>피드포워드:<\/b> 일반적으로 PID 컨트롤러는 오류에 대해 반응합니다. 피드포워드는 스틱 입력을 기반으로 오류를 예상하고, 쿼드에 응답을 줍니다.<br><b>레이트 및 Expo<\/b>: 이 파라미터를 기반으로 스틱 느낌을 결정하십시오. 그래프 및 실시간 3D 모델을 사용하여 원하는 레이트 설정을 찾으십시오."
     },
     "pidTuningRatesTip": {
         "message": "특정 레이트로 플레이하고 이들이 스틱 커브에 어떻게 영향을 주는지 봅니다."
