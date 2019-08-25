@@ -1160,9 +1160,6 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">Perubahan PID dinonaktifkan - anda bisa mengubahnya melalui CLI.<\/span> Anda mempunyai firmware dengan versi API <span class = \"message-negative\">$1<\/span>, namun Fungsi ini memerlukan <span class=\"message-positive\">$2<\/span>."
     },
-    "pidTuningSubTabPid": {
-        "message": "Pengaturan PID"
-    },
     "pidTuningSubTabFilter": {
         "message": "Pengaturan Filter"
     },
@@ -1175,9 +1172,6 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Pengaturan PID yang independen dari profile"
     },
-    "pidTuningAntiGravityMode": {
-        "message": "Mode Anti Gravity"
-    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "Smooth",
         "description": "One of the modes of anti gravity"
@@ -1185,12 +1179,6 @@
     "pidTuningAntiGravityModeOptionStep": {
         "message": "Step",
         "description": "One of the modes of anti gravity"
-    },
-    "pidTuningAntiGravityGain": {
-        "message": "Gain Anti Gravity"
-    },
-    "pidTuningAntiGravityThres": {
-        "message": "Threshold Anti Gravity"
     },
     "pidTuningPidSettings": {
         "message": "Pengaturan Kontrol PID"
@@ -1368,9 +1356,6 @@
     },
     "pidTuningFilterFrequency": {
         "message": "Frekuensi"
-    },
-    "pidTuningRatesCurve": {
-        "message": "Rate"
     },
     "throttle": {
         "message": "Throttle"
@@ -2778,9 +2763,6 @@
     "pidTuningItermRelaxHelp": {
         "message": "Membatasi akumulasi I Term ketika bergerak cepat. Membantu untuk mengurangi efek bouncing pada akhir roll dan manuver lainnya. Anda dapet memilih di sumbu mana yang aktif, dan pilihan untuk deteksi pergerakan cepat menggunakan Gyro atau Setpoint (stick)."
     },
-    "pidTuningItermRelaxAxes": {
-        "message": "Sumbu:"
-    },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "RP"
     },
@@ -2792,9 +2774,6 @@
     },
     "pidTuningItermRelaxAxesOptionRPYInc": {
         "message": "RPY (hanya penambahan)"
-    },
-    "pidTuningItermRelaxType": {
-        "message": "Tipe:"
     },
     "pidTuningItermRelaxTypeOptionGyro": {
         "message": "Gyro"
@@ -3668,12 +3647,6 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>Gyro Soft Filter:<\/b> Filter lowpass untuk gyro. Gunakan nilai yang lebih rendah untuk penyaringan yang lebih banyak.<br><b>Filter Istilah D:<\/b> Filter lowpass untuk Dterm. Dapat mempengaruhi D tuning. Gunakan nilai yang lebih rendah untuk penyaringan yang lebih banyak.<br><b>Filter Yaw:<\/b> Filter menguap output. Ini bisa membantu dalam setup dengan sumbu yaw yang berisik."
-    },
-    "pidTuningPidTuningTip": {
-        "message": "<b>Proporsional:<\/b> Anda akan merasakan resistensi yang kuat saat mencoba memindahkan MutiRotor<br><b> Integral:<\/b> Meningkatkan kemampuan untuk mempertahankan posisi awal dan mengurangi drift, tetapi juga akan menambah waktu yang diperlukan untuk kembali ke posisi awal.<br><b>Derivatif:<\/b> Menambah kecepatan kembali ke posisi awal, tetapi meningkatkan noise<br><b>Rate dan Expo<\/b>: Tentukan respon stick anda berdasarkan parameter-parameter ini. Gunakan grafik dan model 3D yang berfungsi untuk menemukan pengaturan favorit anda"
-    },
-    "pidTuningPidTuningTipFeedforward": {
-        "message": "<b>Proporsional:<\/b> Anda akan merasakan resistensi yang kuat saat mencoba memindahkan MutiRotor<br><b>Integral:<\/b> Meningkatkan kemampuan untuk mempertahankan posisi awal dan mengurangi drift, tetapi juga akan menambah waktu yang diperlukan untuk kembali ke posisi awal.<br><b>Derivatif:<\/b> Menambah kecepatan kembali ke posisi awal, tetapi meningkatkan noise<br><b>Feedforward:<\/b> Umumnya pengaturan PID bereaksi terhadap error. Feedforward mengoreksi error berdasarkan masukan dari stick, menghasilkan quad yang responsif.<br><b>Rate dan Expo<\/b>: Tentukan respon stick anda berdasarkan parameter-parameter ini. Gunakan grafik dan model 3D yang berfungsi untuk menemukan pengaturan favorit anda"
     },
     "pidTuningRatesTip": {
         "message": "Bermain dengan rate dan lihat pengaruhnya pada kurva stik"
