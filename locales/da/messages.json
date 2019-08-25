@@ -1163,9 +1163,6 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">Ændring af PID-controller er deaktiveret - du kan ændre den via CLI.<\/span> Du har firmware med API-version <span class=\"message-negative\">$1<\/span>, men denne funktionalitet kræver <span class=\"message-positive\">$2<\/span>."
     },
-    "pidTuningSubTabPid": {
-        "message": "PID-indstillinger"
-    },
     "pidTuningSubTabFilter": {
         "message": "Filterindstillinger"
     },
@@ -1178,9 +1175,6 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Profiluafhængige PID-controller indstillinger"
     },
-    "pidTuningAntiGravityMode": {
-        "message": "Anti-tyngdekrafttilstand"
-    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "Glidende",
         "description": "One of the modes of anti gravity"
@@ -1189,31 +1183,9 @@
         "message": "Trin",
         "description": "One of the modes of anti gravity"
     },
-    "pidTuningAntiGravityGain": {
-        "message": "Anti Gravity Gain"
-    },
-    "pidTuningAntiGravityThres": {
-        "message": "Anti-tyngdekraftgrænse"
-    },
-    "pidTuningDMinHelp": {
-        "message": "D Min muliggør et lavere D-niveau under normal flyvning og et højere niveau for hurtige manøvrer, som kan forårsage overskridelse, såsom flips og rolls. Det forøger også D under prop wash. Fartøjet vil have en dynamisk D-periode, der varierer fra D Min (under normal flyvning) til standard D (under hurtig rolls og flips). En værdi på nul vil deaktivere funktionen. Gain bestemmer, hvor kraftigt D boostes under hurtige pindinput. Advance accelererer effektueringen af boost-effekten. Dette kan være nyttigt, hvis du har overdrevet nogle højhastigheds-flips på meget responsive quad'er.",
-        "description": "Help message for D Min feature"
-    },
     "pidTuningDMin": {
         "message": "D Min",
         "description": "Table header of the D Min feature in the PIDs tab"
-    },
-    "pidTuningDMinRoll": {
-        "message": "Roll",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinPitch": {
-        "message": "Pitch",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinYaw": {
-        "message": "Yaw",
-        "description": "Axis to apply D Min feature"
     },
     "pidTuningDMinGain": {
         "message": "Gain",
@@ -1368,9 +1340,6 @@
     },
     "pidTuningFilterFrequency": {
         "message": "Frekvens"
-    },
-    "pidTuningRatesCurve": {
-        "message": "Rates"
     },
     "throttle": {
         "message": "Gas"
