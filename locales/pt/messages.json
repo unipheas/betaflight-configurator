@@ -1277,9 +1277,6 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">Alterações no controlador PID desabilitado - você pode mudar isso na Linha de comandos (CLI).<\/span>  Seu firmware está com a API versão <span class=\"message-negative\">$1<\/span>, mas esta funcionalidade requer a versão <span class=\"message-positive\">$2<\/span>."
     },
-    "pidTuningSubTabPid": {
-        "message": "Configurar PID"
-    },
     "pidTuningSubTabFilter": {
         "message": "Configurar Filtro"
     },
@@ -1292,9 +1289,6 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Configurar controlador PID independente do perfil"
     },
-    "pidTuningAntiGravityMode": {
-        "message": "Modo Antigravidade"
-    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "Suave",
         "description": "One of the modes of anti gravity"
@@ -1303,31 +1297,9 @@
         "message": "Degrau",
         "description": "One of the modes of anti gravity"
     },
-    "pidTuningAntiGravityGain": {
-        "message": "Ganho Antigravidade"
-    },
-    "pidTuningAntiGravityThres": {
-        "message": "Limiar Antigravidade"
-    },
-    "pidTuningDMinHelp": {
-        "message": "D Mínimo é uma forma de utilizar um valor menor para o termo D durante um voo normal e um valor maior para manobras rápidas que podem causar movimentos exagerados, como flips e rolls. Isto também aumenta o valor do termo D quando houver turbulência nas hélices. A aeronave terá um termo D dinâmico, entre o D Mínimo (durante voo normal) e o D normal (durante manobras rápidas). Um valor igual a 0 irá desativar a função. O <strong>Ganho<\/strong> determina o quanto o termo D será aumentado durante os movimentos rápidos do stick. O <strong>Avanço<\/strong> acelera o início do efeito de impulso. Isto pode ser útil se sua aeronave for extremamente rápida, causando movimentos exagerados no final das manobras.",
-        "description": "Help message for D Min feature"
-    },
     "pidTuningDMin": {
         "message": "D Mínimo",
         "description": "Table header of the D Min feature in the PIDs tab"
-    },
-    "pidTuningDMinRoll": {
-        "message": "Roll",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinPitch": {
-        "message": "Pitch",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinYaw": {
-        "message": "Yaw",
-        "description": "Axis to apply D Min feature"
     },
     "pidTuningDMinGain": {
         "message": "Ganho",
@@ -1335,7 +1307,7 @@
     },
     "pidTuningDMinAdvance": {
         "message": "Avanço",
-        "description": "Advane of the D Min feature"
+        "description": "Advance of the D Min feature"
     },
     "pidTuningPidSettings": {
         "message": "Configurar controlador PID"
@@ -1513,9 +1485,6 @@
     },
     "pidTuningFilterFrequency": {
         "message": "Frequência"
-    },
-    "pidTuningRatesCurve": {
-        "message": "Taxas"
     },
     "throttle": {
         "message": "Acelerador"
@@ -2980,9 +2949,6 @@
     "pidTuningItermRelaxHelp": {
         "message": "Limita o valor do Termo I quando a aeronave se move rapidamente (modo gyro) ou quando o piloto faz movimento rápidos nos sticks (modo setpoint). Isso melhora a estabilidade logo após um giro (flip ou roll) ou outros movimentos rápidos. Você pode escolher os eixos que esta opção irá afetar. Na versão 3.4 é recomendado todos os eixos (RPY), na versão 3.5 normalmente é necessário somente nos eixos Roll e Pitch (RP)."
     },
-    "pidTuningItermRelaxAxes": {
-        "message": "Eixos:"
-    },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "RP"
     },
@@ -2994,9 +2960,6 @@
     },
     "pidTuningItermRelaxAxesOptionRPYInc": {
         "message": "RPY (Somente incremento)"
-    },
-    "pidTuningItermRelaxType": {
-        "message": "Modo:"
     },
     "pidTuningItermRelaxTypeOptionGyro": {
         "message": "Gyro"
@@ -3939,12 +3902,6 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>Filtro Soft para o Giroscópio:<\/b> Um filtro Lowpass para o Giroscópio. Use valores mais baixos para filtrar mais.<br><b>Filtro do Termo D:<\/b> Filtro Lowpass para o termo D. Pode afetar a afinação do D. Use valores mais baixos para filtrar mais.<br><b>Filtro Yaw:<\/b> Filtra a saída do Yaw. Pode ajudar nas aeronaves com ruídos no eixo Yaw."
-    },
-    "pidTuningPidTuningTip": {
-        "message": "<b>Proporcional:<\/b> Força da resistência ao tentar mover o multirotor em qualquer direção<br><b>Integral:<\/b> Aumenta a habilidade de manter a posição inicial e reduz o drift, mas também aumenta o atraso para retornar à posição inicial.<br><b>Derivativo:<\/b> Melhora a velocidade de recuperação dos desvios, mas também aumenta o ruído<br><b>Taxas e Expo:<\/b> Determine a sensação dos sticks baseado nestes parâmetros. Use o gráfico e modelo 3D para encontrar suas configurações preferidas"
-    },
-    "pidTuningPidTuningTipFeedforward": {
-        "message": "<b>Proporcional:<\/b> Força da aeronave para manter sua posição, aumenta sua resistência sobre qualquer tentativa de mover a aeronave<br><b>Integral:<\/b> Aumenta a habilidade de manter a posição inicial e reduz a deriva, mas também aumenta o atraso até retornar à posição inicial.<br><b>Derivativo:<\/b> Melhora a velocidade em que desvios são corrigidos, mas aumenta o ruído.<br><b>Feedforward:<\/b> Geralmente o controlador PID reage somente a erros, o Feedforward antecipa esse erro com base nos movimentos dos sticks, melhorando a velocidade de resposta da aeronave.<br><b>Taxas e Expo:<\/b>Determine a sensação dos sticks com esses parâmetros, use o gráfico e o modelo 3D para deixar de sua maneira predileta"
     },
     "pidTuningRatesTip": {
         "message": "Modifique as taxas e veja como elas afetam a curva do stick"
