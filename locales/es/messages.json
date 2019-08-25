@@ -1340,9 +1340,6 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">Cambio de controlador PID desactivado - puedes cambiarlo a través de CLI.<\/span>  Tienes firmware con versión de API <span class=\"message-negative\">$1<\/span>, pero esta funcionalidad requiere <span class=\"message-positive\">$2<\/span>."
     },
-    "pidTuningSubTabPid": {
-        "message": "Ajustes PID"
-    },
     "pidTuningSubTabFilter": {
         "message": "Ajustes de Filtros"
     },
@@ -1355,9 +1352,6 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Ajustes de PID independientes del Perfil"
     },
-    "pidTuningAntiGravityMode": {
-        "message": "Modo Anti Gravedad"
-    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "Suavizado",
         "description": "One of the modes of anti gravity"
@@ -1366,31 +1360,9 @@
         "message": "Intervalo",
         "description": "One of the modes of anti gravity"
     },
-    "pidTuningAntiGravityGain": {
-        "message": "Ganancia Anti Gravedad"
-    },
-    "pidTuningAntiGravityThres": {
-        "message": "Umbral Anti Gravedad"
-    },
-    "pidTuningDMinHelp": {
-        "message": "D Min proporciona una manera de tener un valor más bajo de D en vuelo normal y un valor más alto para maniobras rápidas que podrían sufrir un sobre movimiento, como flips y rolls. También aumenta D durante las turbulencias. La aeronave tendrá un Término D dinámico que variará entre D Min (en vuelo normal) y la D estándar (en rolls y flips rápidos). Un valor de cero desactiva la característica. La Ganancia determina como de fuerte es el incremento de D durante el movimiento rápido de las palancas. El Avance acelera la aparición del efecto incremento. Esto puede ser útil si tiene exceso de sobre movimiento en giros con una tasa muy alta en quads muy reactivos.",
-        "description": "Help message for D Min feature"
-    },
     "pidTuningDMin": {
         "message": "D Min",
         "description": "Table header of the D Min feature in the PIDs tab"
-    },
-    "pidTuningDMinRoll": {
-        "message": "Roll",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinPitch": {
-        "message": "Pitch",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinYaw": {
-        "message": "Yaw",
-        "description": "Axis to apply D Min feature"
     },
     "pidTuningDMinGain": {
         "message": "Ganancia",
@@ -1398,7 +1370,7 @@
     },
     "pidTuningDMinAdvance": {
         "message": "Avance",
-        "description": "Advane of the D Min feature"
+        "description": "Advance of the D Min feature"
     },
     "pidTuningPidSettings": {
         "message": "Ajustes del Controlador PID"
@@ -1576,9 +1548,6 @@
     },
     "pidTuningFilterFrequency": {
         "message": "Frecuencia"
-    },
-    "pidTuningRatesCurve": {
-        "message": "Tasas"
     },
     "throttle": {
         "message": "Acelerador"
@@ -3115,9 +3084,6 @@
     "pidTuningItermRelaxHelp": {
         "message": "Limita la acumulación del término I cuando hay movimientos rápidos. Esto ayuda especialmente a reducir el rebote al final the rolls y otros movimientos rápidos. Puedes elegir en que ejes está activo, y si la detección del movimiento rápido se hace usando el Giro o el Valor objetivo (mando)."
     },
-    "pidTuningItermRelaxAxes": {
-        "message": "Ejes:"
-    },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "RP"
     },
@@ -3130,17 +3096,11 @@
     "pidTuningItermRelaxAxesOptionRPYInc": {
         "message": "RPY (sólo incremento)"
     },
-    "pidTuningItermRelaxType": {
-        "message": "Tipo:"
-    },
     "pidTuningItermRelaxTypeOptionGyro": {
         "message": "Giro"
     },
     "pidTuningItermRelaxTypeOptionSetpoint": {
         "message": "Valor objetivo"
-    },
-    "pidTuningItermRelaxCutoff": {
-        "message": "Corte:"
     },
     "pidTuningAbsoluteControlGain": {
         "message": "Control Absoluto"
@@ -4909,12 +4869,6 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>Filtro Soft del Giro:<\/b> Filtro paso bajo para el giro. Usa un valor más bajo para mayor filtrado.<br><b>Filtro D Term:<\/b> Filtro paso bajo para Dterm. Puede afectar al ajuste de D . Usa un valor más bajo para mayor filtrado. <br><b>Filtro Yaw:<\/b> Filtra la salida de yaw. Puede ayudar en configuraciones con eje yaw ruidoso."
-    },
-    "pidTuningPidTuningTip": {
-        "message": "<b>Proporcional:<\/b> Notarás una fuerte resistencia a cualquier intento de mover el MultiRotor<br><b>Integral:<\/b> Incrementa la habilidad de mantener la posición inicial general y reduce la deriva, pero también incrementa el retraso para volver a la posición inicial.<br><b>Derivativo:<\/b> Mejora la velocidad a la que se recuperan las desviaciones, pero incrementa el ruido<br><b>Tasas y Expo<\/b>: Determina las sensaciones con las palancas basadas en estos parámetros. Usa el gráfico y el modelo 3D en vivo para encontrar tus ajustes de tasas favorito"
-    },
-    "pidTuningPidTuningTipFeedforward": {
-        "message": "<b>Proporcional:<\/b> Notarás una fuerte resistencia a cualquier intento de mover el MultiRotor<br><b>Integral:<\/b> Incrementa la habilidad de mantener la posición inicial general y reduce la deriva, pero también incrementa el retraso para volver a la posición inicial.<br><b>Derivativo:<\/b> Mejora la velocidad a la que se recuperan las desviaciones, pero incrementa el ruido<br><b>Prealimentación:<\/b> Normalmente el controlador PID reacciona al error. La Prealimentación anticipa el error basándose en la entrada de los mandos, mejorando el tiempo de respuesta del quad.<br><b>Tasas y Expo<\/b>: Determina las sensaciones con las palancas basadas en estos parámetros. Usa el gráfico y el modelo 3D en vivo para encontrar tus ajustes de tasas favorito"
     },
     "pidTuningRatesTip": {
         "message": "Juega con las tasas y mira como afectan a la curva de las palancas"
