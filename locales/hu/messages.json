@@ -917,9 +917,6 @@
     "pidTuningRateProfileOption": {
         "message": "Rate profil $1"
     },
-    "pidTuningSubTabPid": {
-        "message": "PID Beállítások"
-    },
     "pidTuningSubTabFilter": {
         "message": "Filter Beállítások"
     },
@@ -931,9 +928,6 @@
     },
     "pidTuningNonProfilePidSettings": {
         "message": "Profil független PID Kontroller Beállítások"
-    },
-    "pidTuningAntiGravityThres": {
-        "message": "Anti-gravitációs küszöb"
     },
     "pidTuningPidSettings": {
         "message": "PID Kontroller Beállítások"
