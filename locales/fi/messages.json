@@ -1013,9 +1013,6 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">PID-ohjaimen muuttaminen estetty - voit muuttaa sitä CLI-toiminnon kautta.<\/span> Laiteohjelmistosi API-versio on: <span class=\"message-negative\">$1<\/span>, mutta tämä toiminnallisuus vaatii: <span class=\"message-positive\">$2<\/span>."
     },
-    "pidTuningSubTabPid": {
-        "message": "PID-asetukset"
-    },
     "pidTuningSubTabFilter": {
         "message": "Suodattimen asetukset"
     },
@@ -1027,12 +1024,6 @@
     },
     "pidTuningNonProfilePidSettings": {
         "message": "Profiilista riippumattomat PID-ohjaimen asetukset"
-    },
-    "pidTuningAntiGravityGain": {
-        "message": "Anti-Gravity voimakkuus"
-    },
-    "pidTuningAntiGravityThres": {
-        "message": "Anti-Gravity kynnysarvo"
     },
     "pidTuningPidSettings": {
         "message": "PID-ohjaimen asetukset"
@@ -1111,9 +1102,6 @@
     },
     "pidTuningFilterFrequency": {
         "message": "Taajuus"
-    },
-    "pidTuningRatesCurve": {
-        "message": "Suhteet (rates)"
     },
     "throttle": {
         "message": "Kaasu"
