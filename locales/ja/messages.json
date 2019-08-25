@@ -145,6 +145,12 @@
     "deviceRebooting": {
         "message": "デバイス - <span class=\"message-negative\">再起動中<\/span>"
     },
+    "deviceRebooting_flashBootloader": {
+        "message": "デバイス - <span class=\"message-negative\">FLASH ブートローダーから再起動<\/span>"
+    },
+    "deviceRebooting_romBootloader": {
+        "message": "デバイス - <span class=\"message-negative\">ROM ブートローダーから再起動<\/span>"
+    },
     "deviceReady": {
         "message": "デバイス - <span class=\"message-positive\">準備完了<\/span>"
     },
@@ -288,6 +294,12 @@
     },
     "stm32UsbDfuNotFound": {
         "message": "USBデバイスがDFUモードになっていません"
+    },
+    "stm32RebootingToBootloader": {
+        "message": "ブートローダーの再起動を開始しています..."
+    },
+    "stm32RebootingToBootloaderFailed": {
+        "message": "ブートローダーからデバイスの再起動: 失敗"
     },
     "stm32TimedOut": {
         "message": "STM32 - タイムアウトになりました。処理: 失敗"
@@ -1341,7 +1353,10 @@
         "message": "<span class=\"message-negative\">PID制御の変更が無効 - CLIにより変更できます。<\/span> このファームウェアはAPIバージョン<span class=\"message-negative\">$1<\/span>ですが、この機能には<span class=\"message-positive\">$2<\/span>が必要です。"
     },
     "pidTuningSubTabPid": {
-        "message": "PID設定"
+        "message": "PIDプロファイルの設定"
+    },
+    "pidTuningSubTabRates": {
+        "message": "レートプロファイル設定"
     },
     "pidTuningSubTabFilter": {
         "message": "フィルター設定"
@@ -1355,8 +1370,12 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Profile毎のPID値 制御設定"
     },
+    "pidTuningAntiGravity": {
+        "message": "アンチグラビティ"
+    },
     "pidTuningAntiGravityMode": {
-        "message": "Anti Gravity 反重力 モード"
+        "message": "モード",
+        "description": "Anti Gravity mode selection parameter"
     },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "スムーズ",
@@ -1367,30 +1386,22 @@
         "description": "One of the modes of anti gravity"
     },
     "pidTuningAntiGravityGain": {
-        "message": "Anti Gravity 反重力 強さ"
+        "message": "強さ[ゲイン]",
+        "description": "Anti Gravity Gain Parameter"
     },
     "pidTuningAntiGravityThres": {
-        "message": "Anti Gravity 反重力 しきい値"
+        "message": "しきい値",
+        "description": "Anti Gravity Threshold Parameter"
     },
-    "pidTuningDMinHelp": {
-        "message": "【D値 最小】は通常飛行ではより低い値のD値とし、フリップやロールのようにオーバーシュートを引き起こす可能性のあるプロップウォッシュの際にD値を上昇させます。この機体は、D値 最小 (通常飛行) から標準 D値 (素早いロールやフリップアクション) の間で変化する動的なD値です。0値はこの機能を無効にします。ゲインは、素早いスティック入力時にD値がどの程度強くブーストされるかを決定します。アドバンスはブースト効果の開始スピードを上げます。非常に反応の速い機体で高速フリップアクションでオーバーシュートしてしまう場合、この機能が役立ちます。",
-        "description": "Help message for D Min feature"
+    "pidTuningAntiGravityHelp": {
+        "message": "アンチグラビティは、スロットルの素早い変化が検出されるとI値をブーストします。 強さを大きくすると、スロットルを操作したときに安定性と姿勢保持が向上します。"
     },
     "pidTuningDMin": {
         "message": "D値最小",
         "description": "Table header of the D Min feature in the PIDs tab"
     },
-    "pidTuningDMinRoll": {
-        "message": "Roll",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinPitch": {
-        "message": "Pitch",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinYaw": {
-        "message": "Yaw",
-        "description": "Axis to apply D Min feature"
+    "pidTuningDMinDisabledNote": {
+        "message": "<strong>注:<\/strong> D Min機能は無効になり、そのパラメーターは非表示になります。D Min機能を使用するには $t(pidTuningPidSettings.message) で有効にしてください。"
     },
     "pidTuningDMinGain": {
         "message": "ゲイン",
@@ -1398,7 +1409,11 @@
     },
     "pidTuningDMinAdvance": {
         "message": "アドバンス",
-        "description": "Advane of the D Min feature"
+        "description": "Advance of the D Min feature"
+    },
+    "pidTuningDMinHelp": {
+        "message": "D Minは、通常の飛行ではD値のレベルを低くし、フリップやロールのようなオーバーシュートを引き起こすような素早い操縦が必要な場合には、D値のレベルを高くする機能を提供します。またD値を上げ過ぎるとプロップウォッシュとなり、値をゼロにすると機能が無効になります。強さ[Gain] は、D値が最大値に到達する速度を調整し、それによりジャイロに基づき、鋭い動きとプロップウォッシュ状態が決まります。Advanceは、ジャイロの代わりにセットポイントを使用して鋭い動きが決まり、D値を素早く上昇させます。",
+        "description": "D Min feature helpicon message"
     },
     "pidTuningPidSettings": {
         "message": "PIDコントローラ設定"
@@ -1541,6 +1556,9 @@
     "pidTuningRatesPreview": {
         "message": "レートプレビュー"
     },
+    "pidTuningRatesTuningHelp": {
+        "message": "<b>レートとExpo<\/b>: これらのパラメータに基づいてスティック感覚を決定します。グラフと3Dモデルを使用して、お気に入りのレート設定を見つけてください。"
+    },
     "pidTuningRcExpo": {
         "message": "RC Expo"
     },
@@ -1549,6 +1567,9 @@
     },
     "pidTuningTPABreakPoint": {
         "message": "TPA 区切り点"
+    },
+    "pidTuningThrottleCurvePreview": {
+        "message": "スロットルカーブ プレビュー"
     },
     "pidTuningThrottleLimitType": {
         "message": "スロットルリミット"
@@ -1578,7 +1599,7 @@
         "message": "周波数"
     },
     "pidTuningRatesCurve": {
-        "message": "レート"
+        "message": "レート プレビュー"
     },
     "throttle": {
         "message": "スロットル"
@@ -3116,7 +3137,8 @@
         "message": "速い動きが起きたときのI値の蓄積を制限します。これは特に、ロールやその他の高速動作の終了時にバウンスバックを減らすのに役立ちます。これが有効であると、ジャイロまたはセットポイント (スティック) を使用して速い動きが検出された場合は、値を選択できます。"
     },
     "pidTuningItermRelaxAxes": {
-        "message": "軸:"
+        "message": "軸",
+        "description": "Iterm Relax Axes selection"
     },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "RP"
@@ -3131,7 +3153,8 @@
         "message": "RPY (インクリメントのみ)"
     },
     "pidTuningItermRelaxType": {
-        "message": "タイプ:"
+        "message": "タイプ",
+        "description": "Iterm Relax Type selection"
     },
     "pidTuningItermRelaxTypeOptionGyro": {
         "message": "ジャイロ"
@@ -3140,7 +3163,8 @@
         "message": "セットポイント"
     },
     "pidTuningItermRelaxCutoff": {
-        "message": "カットオフ:"
+        "message": "カットオフ",
+        "description": "Cutoff value of the I Term Relax"
     },
     "pidTuningAbsoluteControlGain": {
         "message": "アブソリュート コントロール"
@@ -4070,11 +4094,11 @@
         "message": "STM32 MCUコア温度"
     },
     "osdTextAntiGravity": {
-        "message": "Anti Gravity",
+        "message": "アンチグラビティ",
         "description": "One of the elements of the OSD"
     },
     "osdDescAntiGravity": {
-        "message": "Anti Gravity機能がオンの時、インジケーターを有効にします。"
+        "message": "アンチグラビティ機能がオンの時、インジケーターを有効にします。"
     },
     "osdTextGForce": {
         "message": "G Force",
@@ -4892,6 +4916,13 @@
     "pidTuningRateProfileTip": {
         "message": "1つのProfileにつき最大3つの異なるRateprofileをフライトコントローラに保存することができます。Rateprofileには、RCレート、レート、RC Expo、スロットル、およびTPAの設定が含まれます。 [調整] タブの [Rateprofile選択] の3POSスイッチを設定することで、Rateprofileの切り替えが可能です。"
     },
+    "pidTuningRateSetup": {
+        "message": "基本\/アクロ レート"
+    },
+    "pidTuningRateSetupHelp": {
+        "message": "これらの値を調整してレートを設定します。RC Rateを使用すると全体の最大レートが上がり、Super Rateを使用するとスティック移動の終端に高いレートを設定することができ、RC Expoを使用すると中央のスティック位置は滑らかになります。",
+        "description": "Rate table helpicon message"
+    },
     "pidTuningDelta": {
         "message": "D値 メソッド"
     },
@@ -4911,10 +4942,13 @@
         "message": "<b>ジャイロフィルター:<\/b> ジャイロのローパスフィルターです。より多くフィルタリングするには低い値を使用します。 <br><b>D値フィルター:<\/b> D値のローパスフィルターです。 D値のチューニングに反映されます。より多くフィルタリングするには低い値を使用します。<br><b>ヨーフィルター:<\/b> ヨー出力をフィルタリングします。ノイズの多いヨー軸設定に効果が表れます。"
     },
     "pidTuningPidTuningTip": {
-        "message": "<b>Proportional [比例制御]:<\/b> マルチローターを飛行させた際の現在のエラー量に比例し、出力を制御するパラメータですが、値を高くすると非常に強い抵抗力も出てしまいます。<br><b>Integral [積分制御]:<\/b> P値が出す補正値を修正します。初期位置を保持し、ドリフトの低減効果を高めますが、値を高くした場合、機体の傾きが初期位置へ戻る際の遅延も増加させてしまいます。<br><b>Derivative [微分制御]:<\/b> P値、I値が出す補正値で修正できない場合、未来予測を含めて補正します。急激な挙動の追従をする際の偏差として値を高くした場合、偏差回復の速度は向上しますが、ノイズは増加してしまいます。<br><b>レート・Expo:<\/b> これらのパラメータに基づいて、スティックのフィーリングを決定します。グラフとLive 3Dモデルを使用して、お気に入りのレート設定を見つけましょう。"
+        "message": "<b>Proportional [比例制御]:<\/b> マルチローターを動かそうとした際、非常に強い抵抗力が出てきます。<br><b>Integral [積分制御]:<\/b> 全体的な初期位置を保持し、ドリフトの低減効果を高めますが、初期位置へ戻る際の遅延も増加させてしまいます。<br><b>Derivative [微分制御]:<\/b> 偏差回復の速度は向上しますが、ノイズは増加してしまいます。"
     },
     "pidTuningPidTuningTipFeedforward": {
-        "message": "<b>Proportional [比例制御]:<\/b> マルチローターを飛行させた際の現在のエラー量に比例し、出力を制御するパラメータですが、値を高くすると非常に強い抵抗力も出てしまいます。<br><b>Integral [積分制御]:<\/b> P値が出す補正値を修正します。初期位置を保持し、ドリフトの低減効果を高めますが、値を高くした場合、機体の傾きが初期位置へ戻る際の遅延も増加させてしまいます。<br><b>Derivative [微分制御]:<\/b> P値、I値が出す補正値で修正できない場合、未来予測を含めて補正します。急激な挙動の追従をする際の偏差として値を高くした場合、偏差回復の速度は向上しますが、ノイズは増加してしまいます。<br><b>フィードフォワード:<\/b> 通常PIDコントローラはエラーに反応します。フィードフォワードはスティック入力に基づいてエラーを予測し、機体に応答性を与えます。<br><b>レート・Expo:<\/b> これらのパラメータに基づいて、スティックのフィーリングを決定します。グラフとLive 3Dモデルを使用して、お気に入りのレート設定を見つけましょう。"
+        "message": "<b>Proportional [比例制御]:<\/b> マルチローターを動かそうとした際、非常に強い抵抗力が出てきます。<br><b>Integral [積分制御]:<\/b> 全体的な初期位置を保持し、ドリフトの低減効果を高めますが、初期位置へ戻る際の遅延も増加させてしまいます。<br><b>Derivative [微分制御]:<\/b> 偏差回復の速度は向上しますが、ノイズは増加してしまいます。<br><b>Feedforward [フィードフォワード]:<\/b> 通常、PIDコントローラはエラーに反応します。フィードフォワードは、スティック入力に基づいてエラーを予測し、機体への応答性を与えます。"
+    },
+    "pidTuningPidTuningTipDMin": {
+        "message": "<b>Proportional [比例制御]:<\/b> マルチローターを動かそうとした際、非常に強い抵抗力が出てきます。<br><b>Integral [積分制御]:<\/b> 全体的な初期位置を保持し、ドリフトの低減効果を高めますが、初期位置へ戻る際の遅延も増加させてしまいます。<br><b>Derivative [微分制御]:<\/b> 偏差回復の速度は向上しますが、ノイズは増加してしまいます。<br><b>Feedforward [フィードフォワード]:<\/b> 通常、PIDコントローラはエラーに反応します。フィードフォワードは、スティック入力に基づいてエラーを予測し、機体への応答性を与えます。<br><b>D Min:<\/b> D Minは、通常の飛行ではD値のレベルを低くし、フリップやロールのようなオーバーシュートを引き起こすような素早い操縦が必要な場合にはD値のレベルを高くする機能を提供します。またD値を上げ過ぎるとプロップウォッシュとなり、値をゼロにすると機能が無効になります。"
     },
     "pidTuningRatesTip": {
         "message": "レートを調整し、スティックカーブに対しどのように影響するかを確認して下さい"
