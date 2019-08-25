@@ -216,6 +216,12 @@
     "deviceRebooting": {
         "message": "crwdns5346:0crwdne5346:0"
     },
+    "deviceRebooting_flashBootloader": {
+        "message": "crwdns9664:0crwdne9664:0"
+    },
+    "deviceRebooting_romBootloader": {
+        "message": "crwdns9666:0crwdne9666:0"
+    },
     "deviceReady": {
         "message": "crwdns5347:0crwdne5347:0"
     },
@@ -359,6 +365,12 @@
     },
     "stm32UsbDfuNotFound": {
         "message": "crwdns5389:0crwdne5389:0"
+    },
+    "stm32RebootingToBootloader": {
+        "message": "crwdns9668:0crwdne9668:0"
+    },
+    "stm32RebootingToBootloaderFailed": {
+        "message": "crwdns9670:0crwdne9670:0"
     },
     "stm32TimedOut": {
         "message": "crwdns5390:0crwdne5390:0"
@@ -1419,7 +1431,10 @@
         "message": "crwdns5679:0$1crwdnd5679:0$2crwdne5679:0"
     },
     "pidTuningSubTabPid": {
-        "message": "crwdns5680:0crwdne5680:0"
+        "message": "crwdns9672:0crwdne9672:0"
+    },
+    "pidTuningSubTabRates": {
+        "message": "crwdns9674:0crwdne9674:0"
     },
     "pidTuningSubTabFilter": {
         "message": "crwdns5681:0crwdne5681:0"
@@ -1433,8 +1448,12 @@
     "pidTuningNonProfilePidSettings": {
         "message": "crwdns5684:0crwdne5684:0"
     },
+    "pidTuningAntiGravity": {
+        "message": "crwdns9676:0crwdne9676:0"
+    },
     "pidTuningAntiGravityMode": {
-        "message": "crwdns8817:0crwdne8817:0"
+        "message": "crwdns9678:0crwdne9678:0",
+        "description": "Anti Gravity mode selection parameter"
     },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "crwdns8818:0crwdne8818:0",
@@ -1445,30 +1464,22 @@
         "description": "One of the modes of anti gravity"
     },
     "pidTuningAntiGravityGain": {
-        "message": "crwdns5685:0crwdne5685:0"
+        "message": "crwdns9680:0crwdne9680:0",
+        "description": "Anti Gravity Gain Parameter"
     },
     "pidTuningAntiGravityThres": {
-        "message": "crwdns5686:0crwdne5686:0"
+        "message": "crwdns9682:0crwdne9682:0",
+        "description": "Anti Gravity Threshold Parameter"
     },
-    "pidTuningDMinHelp": {
-        "message": "crwdns9044:0crwdne9044:0",
-        "description": "Help message for D Min feature"
+    "pidTuningAntiGravityHelp": {
+        "message": "crwdns9684:0crwdne9684:0"
     },
     "pidTuningDMin": {
         "message": "crwdns9046:0crwdne9046:0",
         "description": "Table header of the D Min feature in the PIDs tab"
     },
-    "pidTuningDMinRoll": {
-        "message": "crwdns9048:0crwdne9048:0",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinPitch": {
-        "message": "crwdns9050:0crwdne9050:0",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinYaw": {
-        "message": "crwdns9052:0crwdne9052:0",
-        "description": "Axis to apply D Min feature"
+    "pidTuningDMinDisabledNote": {
+        "message": "crwdns9686:0$t(pidTuningPidSettings.message)crwdne9686:0"
     },
     "pidTuningDMinGain": {
         "message": "crwdns9054:0crwdne9054:0",
@@ -1476,7 +1487,11 @@
     },
     "pidTuningDMinAdvance": {
         "message": "crwdns9056:0crwdne9056:0",
-        "description": "Advane of the D Min feature"
+        "description": "Advance of the D Min feature"
+    },
+    "pidTuningDMinHelp": {
+        "message": "crwdns9688:0crwdne9688:0",
+        "description": "D Min feature helpicon message"
     },
     "pidTuningPidSettings": {
         "message": "crwdns5687:0crwdne5687:0"
@@ -1619,6 +1634,9 @@
     "pidTuningRatesPreview": {
         "message": "crwdns5707:0crwdne5707:0"
     },
+    "pidTuningRatesTuningHelp": {
+        "message": "crwdns9690:0crwdne9690:0"
+    },
     "pidTuningRcExpo": {
         "message": "crwdns5708:0crwdne5708:0"
     },
@@ -1627,6 +1645,9 @@
     },
     "pidTuningTPABreakPoint": {
         "message": "crwdns5710:0crwdne5710:0"
+    },
+    "pidTuningThrottleCurvePreview": {
+        "message": "crwdns9692:0crwdne9692:0"
     },
     "pidTuningThrottleLimitType": {
         "message": "crwdns8898:0crwdne8898:0"
@@ -1656,7 +1677,7 @@
         "message": "crwdns5712:0crwdne5712:0"
     },
     "pidTuningRatesCurve": {
-        "message": "crwdns5713:0crwdne5713:0"
+        "message": "crwdns9694:0crwdne9694:0"
     },
     "throttle": {
         "message": "crwdns5714:0crwdne5714:0"
@@ -3194,7 +3215,8 @@
         "message": "crwdns8792:0crwdne8792:0"
     },
     "pidTuningItermRelaxAxes": {
-        "message": "crwdns8793:0crwdne8793:0"
+        "message": "crwdns9696:0crwdne9696:0",
+        "description": "Iterm Relax Axes selection"
     },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "crwdns8794:0crwdne8794:0"
@@ -3209,7 +3231,8 @@
         "message": "crwdns8797:0crwdne8797:0"
     },
     "pidTuningItermRelaxType": {
-        "message": "crwdns8798:0crwdne8798:0"
+        "message": "crwdns9698:0crwdne9698:0",
+        "description": "Iterm Relax Type selection"
     },
     "pidTuningItermRelaxTypeOptionGyro": {
         "message": "crwdns8799:0crwdne8799:0"
@@ -3218,7 +3241,8 @@
         "message": "crwdns8800:0crwdne8800:0"
     },
     "pidTuningItermRelaxCutoff": {
-        "message": "crwdns9480:0crwdne9480:0"
+        "message": "crwdns9700:0crwdne9700:0",
+        "description": "Cutoff value of the I Term Relax"
     },
     "pidTuningAbsoluteControlGain": {
         "message": "crwdns8801:0crwdne8801:0"
@@ -4970,6 +4994,13 @@
     "pidTuningRateProfileTip": {
         "message": "crwdns6346:0crwdne6346:0"
     },
+    "pidTuningRateSetup": {
+        "message": "crwdns9702:0crwdne9702:0"
+    },
+    "pidTuningRateSetupHelp": {
+        "message": "crwdns9704:0crwdne9704:0",
+        "description": "Rate table helpicon message"
+    },
     "pidTuningDelta": {
         "message": "crwdns6347:0crwdne6347:0"
     },
@@ -4989,10 +5020,13 @@
         "message": "crwdns6352:0crwdne6352:0"
     },
     "pidTuningPidTuningTip": {
-        "message": "crwdns6353:0crwdne6353:0"
+        "message": "crwdns9706:0crwdne9706:0"
     },
     "pidTuningPidTuningTipFeedforward": {
-        "message": "crwdns8823:0crwdne8823:0"
+        "message": "crwdns9708:0crwdne9708:0"
+    },
+    "pidTuningPidTuningTipDMin": {
+        "message": "crwdns9710:0crwdne9710:0"
     },
     "pidTuningRatesTip": {
         "message": "crwdns6354:0crwdne6354:0"
