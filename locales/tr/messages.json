@@ -584,9 +584,6 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\"> PID kontrolörü değiştirme devre dışı bırakıldı - CLI ile değiştirebilirsiniz.<\/span> API sürümü <span class=\"message-negative\">$1<\/span> olan yazılıma sahipsiniz, ama bu fonksiyonlar <span class=\"message-positive\">$2<\/span>'ye ihtiyaç duyar."
     },
-    "pidTuningSubTabPid": {
-        "message": "PID Ayarları"
-    },
     "pidTuningSubTabFilter": {
         "message": "Filtre Ayarları"
     },
@@ -595,12 +592,6 @@
     },
     "pidTuningHideUnusedPids": {
         "message": "Kullanılmayan PID'leri gizle"
-    },
-    "pidTuningAntiGravityGain": {
-        "message": "Yer çekimine karşı kazanç"
-    },
-    "pidTuningAntiGravityThres": {
-        "message": "Yerçekimine karşı dengeleyici"
     },
     "receiverRcInterpolation": {
         "message": "RC interpolasyonu"
@@ -664,9 +655,6 @@
     },
     "pidTuningFilterFrequency": {
         "message": "Frekans"
-    },
-    "pidTuningRatesCurve": {
-        "message": "Oranlar"
     },
     "throttle": {
         "message": "Kısmak"
@@ -1956,8 +1944,5 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>Cayro Yumuşak Filtresi:<\/b> Cayro için alçak geçiren filtre. Daha fazla filtreleme için daha düşük değeri kullanın.<br><b>D terimi Filtresi:<\/b> D terimi için alçak geçiren filtre. D ayarını etkileyebilir. Daha fazla filtreleme için daha düşük değeri kullanın. <br><b>Sapma Filtresi:<\/b> sapma çıkışlarını filtreler. Gürültülü sapma ekseninin kurulumlarında yardımcı olabilir."
-    },
-    "pidTuningPidTuningTip": {
-        "message": "<b>Orantılı:<\/b> MultiRotor'u hareket ettirme girişimlerine karşı çok güçlü bir direnç fark edeceksiniz <br><b>Integral:<\/b> Genel başlangıç ​​pozisyonunu tutma ve sürüklenmeyi azaltma yeteneğini arttırma, aynı zamanda başlangıç ​​konumuna geri dönme gecikmesini de arttırma. <br><b>Türev:<\/b> Sapmaların saptanma hızını artırır, ancak gürültüyü artırır<br><b>Oranlar ve Açıklama<\/b>: Bu parametrelere dayanarak uçak kumanda çubuğu hissinizi belirleyin. Favori oran ayarınızı bulmak için grafiği ve canlı 3D modeli kullanın"
     }
 }
