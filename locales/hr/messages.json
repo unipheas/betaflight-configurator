@@ -1291,9 +1291,6 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">Mijenjanje postavki PID kontrolera onemogućeno - možete ih mijenjati kroz CLI.<\/span> Firmware koji koristite ima API verziju<span class=\"message-negative\">$1<\/span>, ali ova mogućnost zahtijeva verziju <span class=\"message-positive\">$2<\/span>."
     },
-    "pidTuningSubTabPid": {
-        "message": "PID Postavke"
-    },
     "pidTuningSubTabFilter": {
         "message": "Postavke filtera"
     },
@@ -1306,9 +1303,6 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Profilno neovisne postavke PID kontrolera"
     },
-    "pidTuningAntiGravityMode": {
-        "message": "Anti Gravity način rada"
-    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "Glatko",
         "description": "One of the modes of anti gravity"
@@ -1317,31 +1311,9 @@
         "message": "Korak",
         "description": "One of the modes of anti gravity"
     },
-    "pidTuningAntiGravityGain": {
-        "message": "Anti Gravity gain"
-    },
-    "pidTuningAntiGravityThres": {
-        "message": "Anti Gravity prag"
-    },
-    "pidTuningDMinHelp": {
-        "message": "D Min omogućuje da imate nižu razinu D u normalnom letu, a višu razinu kada radite brze pokrete u kojima je D jako potreban, poput flipova i rollova. Isto tako D se povećava kod prop washa. Letjelica će imati dinamički D Term koji varira između D Min(tijekom normalnog leta) i standardnog D (kod flipova i rollova). Kada unesete vrijednost 0 ova opcija se onemogućuje. Gain određuje koliko jako se D pojačava kod brzih pokreta. Advance ubrzava primjenu samog pojačanja.",
-        "description": "Help message for D Min feature"
-    },
     "pidTuningDMin": {
         "message": "D Min",
         "description": "Table header of the D Min feature in the PIDs tab"
-    },
-    "pidTuningDMinRoll": {
-        "message": "Roll",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinPitch": {
-        "message": "Pitch",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinYaw": {
-        "message": "Yaw",
-        "description": "Axis to apply D Min feature"
     },
     "pidTuningDMinGain": {
         "message": "Gain",
@@ -1349,7 +1321,7 @@
     },
     "pidTuningDMinAdvance": {
         "message": "Advance",
-        "description": "Advane of the D Min feature"
+        "description": "Advance of the D Min feature"
     },
     "pidTuningPidSettings": {
         "message": "Postavke PID kontrolera"
@@ -1527,9 +1499,6 @@
     },
     "pidTuningFilterFrequency": {
         "message": "Frekvencija"
-    },
-    "pidTuningRatesCurve": {
-        "message": "Rate krivulja"
     },
     "throttle": {
         "message": "Gas\/Throttle krivulja"
@@ -3021,9 +2990,6 @@
     "pidTuningItermRelaxHelp": {
         "message": "Ograničava akumulaciju I Terma kod brzih pokreta. Ovo pomaže smanjiti bounceback na kraju rollova i drugih brzih pokreta. Možete odabrati za koje osi se ovo primjenjuje, i prepoznaju li se brzi pokreti koristeći žiroskop ili određenu razinu kontrole."
     },
-    "pidTuningItermRelaxAxes": {
-        "message": "Osi:"
-    },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "RP"
     },
@@ -3035,9 +3001,6 @@
     },
     "pidTuningItermRelaxAxesOptionRPYInc": {
         "message": "RPY (increment only)"
-    },
-    "pidTuningItermRelaxType": {
-        "message": "Vrsta:"
     },
     "pidTuningItermRelaxTypeOptionGyro": {
         "message": "Žiro"
@@ -4572,12 +4535,6 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>Gyro Soft Filter:<\/b> Lowpass filter žiroskopa. Koristite niže vrijednosti za više filtriranja.<br><b>D Term Filter:<\/b> Lowpass filter za Dterm. Može utjecati na D term tuning. Koristite niže vrijednosti za više filtriranja. <br><b>Yaw Filter:<\/b> Filtrira yaw izlaz. Može pomoći na letjelicama koje imaju šum na yaw osi."
-    },
-    "pidTuningPidTuningTip": {
-        "message": "<b>Proporcionalno:<\/b> Osjetit ćete jaku silu otpora ako pokušate pomaknuti letjelicu. <br><b>Integrirano:<\/b> Povećava mogućnost letjelica da drži inicjalnu poziciju i smanji pomicanje, ali povećava kašnjenje kod vraćanja u inicijalnu poziciju.<br><b>Derivacijski:<\/b> Poboljšava brzinu oporavka od devijacija, ali povećava šum<br><b>Rateovi i Expo<\/b>: Određuju osjećaj kontrola prema ovim vrijednostima. Koristite graf i 3d prikaz modela kako biste pronašli najbolje rate postavke"
-    },
-    "pidTuningPidTuningTipFeedforward": {
-        "message": "<b>Proporcionalno:<\/b> Osjetit ćete jaku silu otpora ako pokušate pomaknuti letjelicu. <br><b>Integrirano:<\/b> Povećava mogućnost letjelica da drži inicjalnu poziciju i smanji pomicanje, ali povećava kašnjenje kod vraćanja u inicijalnu poziciju.<br><b>Derivacijski:<\/b> Poboljšava brzinu oporavka od devijacija, ali povećava šum<br><b>Feedforward:<\/b> Obično PID kontroler reagira na pogrešku. Feedforward predviđa pogrešku na temelju kontrola koje dajete, dajući bolji odziv i kontrolu letjelici.<br><b>Rateovi i Expo<\/b>: Određuju osjećaj kontrola prema ovim vrijednostima. Koristite graf i 3d prikaz modela kako biste pronašli najbolje rate postavke"
     },
     "pidTuningRatesTip": {
         "message": "Testirajte rateove i vidite kako oni mijenjaju krivulju"
