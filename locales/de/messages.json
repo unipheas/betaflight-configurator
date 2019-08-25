@@ -1288,9 +1288,6 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">Changing PID controller disabled - you can change it via the CLI.<\/span> You have firmware with API version <span class=\"message-negative\">$1<\/span>, but this functionality requires requires <span class=\"message-positive\">$2<\/span>."
     },
-    "pidTuningSubTabPid": {
-        "message": "PID Einstellungen"
-    },
     "pidTuningSubTabFilter": {
         "message": "Filter Einstellungen"
     },
@@ -1303,9 +1300,6 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Pofilunabhänige PID Controller Einstellungen"
     },
-    "pidTuningAntiGravityMode": {
-        "message": "Anti Gravity Modus"
-    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "weich",
         "description": "One of the modes of anti gravity"
@@ -1314,31 +1308,9 @@
         "message": "Stufe",
         "description": "One of the modes of anti gravity"
     },
-    "pidTuningAntiGravityGain": {
-        "message": "Anti Gravity Stärke"
-    },
-    "pidTuningAntiGravityThres": {
-        "message": "Anti Gravity Schwellwert"
-    },
-    "pidTuningDMinHelp": {
-        "message": "D Min bietet eine Möglichkeit, ein geringeres D im Normalflug zu haben und ein höheres D für schnelle Manöver wie Flips und Rollen, bei denen es zum Überschwingen kommen kann. Es hebt D auch während Propwash an. Der Kopter hat dadurch einen dynamischen D-Wert, variierend von D Min (bei normalem Flug) bis Standard D (während schneller Rollen und Flips). Ein Wert von Null deaktiviert die Funktion. Die Verstärkung bestimmt, wie stark D während schnellen Stick-Bewegungen erhöht wird. Die Vorhaltezeit definiert, mit welcher Verzögerung der Boost-Effekt einsetzt. Dies kann hilfreich sein, wenn sensible Quads Überschwinger bei sehr schnellen Flips haben.",
-        "description": "Help message for D Min feature"
-    },
     "pidTuningDMin": {
         "message": "D Min",
         "description": "Table header of the D Min feature in the PIDs tab"
-    },
-    "pidTuningDMinRoll": {
-        "message": "Roll",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinPitch": {
-        "message": "Pitch",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinYaw": {
-        "message": "Yaw",
-        "description": "Axis to apply D Min feature"
     },
     "pidTuningDMinGain": {
         "message": "Verstärkung",
@@ -1346,7 +1318,7 @@
     },
     "pidTuningDMinAdvance": {
         "message": "Vorhaltezeit",
-        "description": "Advane of the D Min feature"
+        "description": "Advance of the D Min feature"
     },
     "pidTuningPidSettings": {
         "message": "PID Kontroller EInstellungen"
@@ -1524,9 +1496,6 @@
     },
     "pidTuningFilterFrequency": {
         "message": "Frequenz"
-    },
-    "pidTuningRatesCurve": {
-        "message": "Rates"
     },
     "throttle": {
         "message": "Gas"
@@ -3018,9 +2987,6 @@
     "pidTuningItermRelaxHelp": {
         "message": "Schränkt die Wirkung von I-Term bei schnelle Bewegungen ein. Das hilft \"Bounceback\" am Ende von schnellen Rollen und Bewegungen zu reduzieren. Die aktiven Achsen, als auch die Feedforward Methode bei schnelle Knüppelbewegungen, können gewählt werden."
     },
-    "pidTuningItermRelaxAxes": {
-        "message": "Achsen:"
-    },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "RP (roll+pitch)"
     },
@@ -3032,9 +2998,6 @@
     },
     "pidTuningItermRelaxAxesOptionRPYInc": {
         "message": "RPY (nur inkrementell)"
-    },
-    "pidTuningItermRelaxType": {
-        "message": "Typ:"
     },
     "pidTuningItermRelaxTypeOptionGyro": {
         "message": "Gyro"
@@ -4047,12 +4010,6 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>Gyro Soft Filter:<\/b> Tiefpassfilter für Gyro. Kleinerer Wert für mehr Filterung.<br><b>D-Term Filter:<\/b> Tiefpassfilter für D-Term. Beeinflusst D-Tuning. Kleiner Wert für mehr Filterung.<br><b>Yaw Filter:<\/b> Filtert Yaw-Werte. Kann bei Setups mit viel Rauschen auf der Yaw-Achse helfen."
-    },
-    "pidTuningPidTuningTip": {
-        "message": "<b>Proportional:<\/b> Du bemerkst eine sehr starke Widerstandskraft gegen Bewegen des MultiRotors<br><b>Integral:<\/b> Verbessert die Fähigkeit Position zu halten und Drift zu reduzieren, aber erhöht auch die Verzögerungszeit, um zur ursprünglichen Position zurück zu kehren.<br><b>Derivative:<\/b> Verbessert die Geschwindigkeit, mit der Abweichungen korrigiert werden, aber erhöht Störungen<br><b>Rates und Expo<\/b>: Bestimme Dein Stick Gefühl nach diesen Parametern. Nutze die Grafik und das animierte 3D Modell, um Deine bevorzugte Einstellung zu finden"
-    },
-    "pidTuningPidTuningTipFeedforward": {
-        "message": "<b>Proportional:<\/b> Bewirkt eine sehr starke Widerstandskraft gegen Versuchen den Multirotor zu bewegen.<br><b>Integral:<\/b> Verbessert die Fähigkeit die Position zu halten und den Drift zu reduzieren, aber erhöht auch die Verzögerung, um zur ursprünglichen Position zurück zu kehren.<br><b>Derivative:<\/b> Verbessert die Geschwindigkeit, mit der Abweichungen korrigiert werden, aber erhöht Störungen<br><b>Feedforward:<\/b> Normal reagiert der PID Controller nur auf Fehlerwerte. Feedforward ahnt die Fehlerwerte basierend auf den Stickeingaben voraus, was in mehr Reaktionsfreudigkeit resultiert.<br><b>Rates und Expo<\/b>: Bestimme dein Stick Gefühl mit diesen Parametern. Nutze die Grafik und das animierte 3D Modell, um Deine bevorzugte Einstellung zu finden"
     },
     "pidTuningRatesTip": {
         "message": "Verändere die Raten und schau, wie sie sich auf die Steuerkurve auswirken"
