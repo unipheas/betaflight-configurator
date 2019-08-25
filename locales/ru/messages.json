@@ -1314,9 +1314,6 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">Менять PID-контроллер запрещено, но его можно поменять в командной строке.<\/span>  Ваша прошивка поддерживает конфигуратор версии <span class=\"message-negative\">$1<\/span>, а этот функционал требует версию прошивки <span class=\"message-positive\">$2<\/span>."
     },
-    "pidTuningSubTabPid": {
-        "message": "PID-настройки"
-    },
     "pidTuningSubTabFilter": {
         "message": "Настройки фильтров"
     },
@@ -1329,9 +1326,6 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Настройки PID-контроллера, независящие от настройки профиля"
     },
-    "pidTuningAntiGravityMode": {
-        "message": "Anti Gravity режим"
-    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "Гладкая",
         "description": "One of the modes of anti gravity"
@@ -1340,31 +1334,9 @@
         "message": "Шаг",
         "description": "One of the modes of anti gravity"
     },
-    "pidTuningAntiGravityGain": {
-        "message": "Коэффициент Anti Gravity"
-    },
-    "pidTuningAntiGravityThres": {
-        "message": "Порог Anti Gravity"
-    },
-    "pidTuningDMinHelp": {
-        "message": "D Мин. Позволяет получить более низкий уровень D в обычном полете и более высокий уровень для быстрых маневров, которые могут привести к перерегулированию, например, кувыркам и кренам. Это также поднимает D во время мытья пропеллера. У аппарата будет динамический D Term, варьирующийся от D Min (при нормальном полете) до стандартного D (при быстром крене и флипах). Нулевое значение отключит эту функцию. Усиление определяет, насколько сильно D увеличивается во время быстрых движений стиков. Расширение ускоряет наступление усиливающего эффекта. Это может быть полезно, если у вас есть выбросы с очень высокой скоростью смещения на очень отзывчивых квадрокоптерах.",
-        "description": "Help message for D Min feature"
-    },
     "pidTuningDMin": {
         "message": "D Мин",
         "description": "Table header of the D Min feature in the PIDs tab"
-    },
-    "pidTuningDMinRoll": {
-        "message": "Крен",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinPitch": {
-        "message": "Тангаж",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinYaw": {
-        "message": "Рыскание",
-        "description": "Axis to apply D Min feature"
     },
     "pidTuningDMinGain": {
         "message": "Амплитуда",
@@ -1372,7 +1344,7 @@
     },
     "pidTuningDMinAdvance": {
         "message": "Улучшение",
-        "description": "Advane of the D Min feature"
+        "description": "Advance of the D Min feature"
     },
     "pidTuningPidSettings": {
         "message": "Настройки PID-контроллера"
@@ -1550,9 +1522,6 @@
     },
     "pidTuningFilterFrequency": {
         "message": "Частота"
-    },
-    "pidTuningRatesCurve": {
-        "message": "Rates"
     },
     "throttle": {
         "message": "Газ"
@@ -3050,9 +3019,6 @@
     "pidTuningItermRelaxHelp": {
         "message": "Ограничивает накопление I составляющей, когда происходят быстрые движения. Это специально позволяет уменьшить отскоки в конце переворотов и других быстрых движений. Вы можете выбрать активные оси, если быстрое движение определено, используя гироскоп или Setpoint (стика)."
     },
-    "pidTuningItermRelaxAxes": {
-        "message": "Oси:"
-    },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "RP"
     },
@@ -3064,9 +3030,6 @@
     },
     "pidTuningItermRelaxAxesOptionRPYInc": {
         "message": "RPY (только увеличения)"
-    },
-    "pidTuningItermRelaxType": {
-        "message": "Тип:"
     },
     "pidTuningItermRelaxTypeOptionGyro": {
         "message": "Гиро"
@@ -4522,12 +4485,6 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>Gyro сглаж. фильтр:<\/b> Фильтр нижних частот для гироскопа. Чем ниже значение, тем больше фильтрация. <br><b>D Term фильтр:<\/b> Фильтр нижних частот для параметра D (в PID-ах). Может повлиять на настройку D. Чем ниже значение, тем больше фильтрация. <br><b>Yaw-фильтр:<\/b> Фильтрует рыскание (yaw). Может помочь в аппаратурах с шумными стиками по yaw."
-    },
-    "pidTuningPidTuningTip": {
-        "message": "<b>Proportional:<\/b> Увеличивает сопротивление к воздействию внешних факторов, сдвигающих коптер<br><b>Integral:<\/b> Увеличивает способность удерживать общее начальное положение и уменьшает дрейф, но также увеличивает задержку при возврате в исходное положение. <br><b>Derivative:<\/b> Увеличивает скорость установления в заданный угол наклона, но увеличивает шум. <br><b>Rates и Expo<\/b>: Определяют чувствительность стиков. Используйте график и 3D модель, чтобы настроить чувствительность на свой вкус"
-    },
-    "pidTuningPidTuningTipFeedforward": {
-        "message": "<b>Пропорциональная:<\/b> Увеличивает сопротивление к воздействию внешних факторов, сдвигающих коптер<br><b>Интегральная:<\/b> Увеличивает способность удерживать общее начальное положение и уменьшает дрейф, но также увеличивает задержку при возврате в исходное положение. <br><b>Дифференциальная:<\/b> улучшает скорость, с которой восстанавливаются отклонения, но увеличивает шум<br><b>Feedforward:<\/b> Обычно ПИД-регулятор реагирует на ошибку. Функция Feedforward ожидает ошибки, основанной на вводе стика, обеспечивая отзывчивость квадрокоптера<br><b>Rates и Expo<\/b>: Определяют чувствительность стиков. Используйте график и 3D модель, чтобы настроить чувствительность на свой вкус"
     },
     "pidTuningRatesTip": {
         "message": "Меняя rates вы можете увидеть их влияние на график стиков"
