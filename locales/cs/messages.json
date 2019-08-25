@@ -992,9 +992,6 @@
     "pidTuningRateProfileOption": {
         "message": "Profil poměrů $1"
     },
-    "pidTuningSubTabPid": {
-        "message": "Nastavení PID"
-    },
     "pidTuningSubTabFilter": {
         "message": "Nastavení filtrů"
     },
@@ -1004,9 +1001,6 @@
     "pidTuningHideUnusedPids": {
         "message": "Skrýt nepoužívané PID"
     },
-    "pidTuningAntiGravityMode": {
-        "message": "Režim anti gravitace"
-    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "Plynulá",
         "description": "One of the modes of anti gravity"
@@ -1014,12 +1008,6 @@
     "pidTuningAntiGravityModeOptionStep": {
         "message": "Kroková",
         "description": "One of the modes of anti gravity"
-    },
-    "pidTuningAntiGravityGain": {
-        "message": "Síla antigravitace"
-    },
-    "pidTuningAntiGravityThres": {
-        "message": "Limit antigravitace"
     },
     "receiverRcSmoothing": {
         "message": "Vyhlazování vstupů příjmače"
@@ -1092,9 +1080,6 @@
     },
     "pidTuningFilterFrequency": {
         "message": "Frekvence"
-    },
-    "pidTuningRatesCurve": {
-        "message": "Poměry"
     },
     "throttle": {
         "message": "Plyn"
