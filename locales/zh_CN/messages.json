@@ -1404,9 +1404,6 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">禁止切换 PID 控制器 -  你可以通过CLI 来调整。<\/span> 当前固件 API 版本为 <span class=\"message-negative\">$1<\/span>，而此功能需要版本 <span class=\"message-positive\">$2<\/span>。"
     },
-    "pidTuningSubTabPid": {
-        "message": "PID 设置"
-    },
     "pidTuningSubTabFilter": {
         "message": "滤波器设置"
     },
@@ -1419,9 +1416,6 @@
     "pidTuningNonProfilePidSettings": {
         "message": "独立于配置文件的PID控制器设置"
     },
-    "pidTuningAntiGravityMode": {
-        "message": "反重力模式"
-    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "平滑",
         "description": "One of the modes of anti gravity"
@@ -1430,31 +1424,9 @@
         "message": "阶跃",
         "description": "One of the modes of anti gravity"
     },
-    "pidTuningAntiGravityGain": {
-        "message": "反重力增益"
-    },
-    "pidTuningAntiGravityThres": {
-        "message": "反重力阈值"
-    },
-    "pidTuningDMinHelp": {
-        "message": "D Min使得飞机可以在正常飞行过程中保持较低水平的D；而在可能导致过冲的高速特技动作，比如翻滚和滚转时提高D。它也会在发生洗桨时提高D。飞机的D项会在D Min(正常飞行时) 到标准D(快速翻滚和滚转时) 内动态变化。将增益设置为0将禁用该功能。增益决定了快速打杆时的D的增强强度。高级设置则加速了D的增强效果。这可以帮你解决在高Rate和响应迅速的飞机上的一些过冲现象。",
-        "description": "Help message for D Min feature"
-    },
     "pidTuningDMin": {
         "message": "D Min",
         "description": "Table header of the D Min feature in the PIDs tab"
-    },
-    "pidTuningDMinRoll": {
-        "message": "Roll",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinPitch": {
-        "message": "Pitch",
-        "description": "Axis to apply D Min feature"
-    },
-    "pidTuningDMinYaw": {
-        "message": "Yaw",
-        "description": "Axis to apply D Min feature"
     },
     "pidTuningDMinGain": {
         "message": "增益（Gain）",
@@ -1462,7 +1434,7 @@
     },
     "pidTuningDMinAdvance": {
         "message": "高级",
-        "description": "Advane of the D Min feature"
+        "description": "Advance of the D Min feature"
     },
     "pidTuningPidSettings": {
         "message": "PID 控制器设置"
@@ -1640,9 +1612,6 @@
     },
     "pidTuningFilterFrequency": {
         "message": "频率"
-    },
-    "pidTuningRatesCurve": {
-        "message": "Rates"
     },
     "throttle": {
         "message": "油门曲线"
@@ -3179,9 +3148,6 @@
     "pidTuningItermRelaxHelp": {
         "message": "在快速移动时限制 I 值的积累。这特别有助于降低翻滚等快速移动的末期的反弹。你可以选择该功能生效的轴向，以及快速移动的判断依据是陀螺仪还是设定点（摇杆）。"
     },
-    "pidTuningItermRelaxAxes": {
-        "message": "轴："
-    },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "RP"
     },
@@ -3194,17 +3160,11 @@
     "pidTuningItermRelaxAxesOptionRPYInc": {
         "message": "RPY (仅增量)"
     },
-    "pidTuningItermRelaxType": {
-        "message": "类型："
-    },
     "pidTuningItermRelaxTypeOptionGyro": {
         "message": "陀螺仪"
     },
     "pidTuningItermRelaxTypeOptionSetpoint": {
         "message": "设定点"
-    },
-    "pidTuningItermRelaxCutoff": {
-        "message": "截止频率:"
     },
     "pidTuningAbsoluteControlGain": {
         "message": "绝对控制"
@@ -4873,12 +4833,6 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>陀螺仪软件滤波器：<\/b> 陀螺仪的低通滤波。更低的数字会提供更多的过滤效果。<br><b>D Term 滤波器：<\/b>Dterm 低通滤波器。会影响D值的调参，更低的数字会提供更多的过滤效果。 <br><b>方向滤波器：<\/b> 对方向输出进行滤波。对方向轴震动或者噪声很严重的情况会有帮助。"
-    },
-    "pidTuningPidTuningTip": {
-        "message": "<b>比例 P:<\/b> 数值越大，飞机会输出越大力量来抵消外力引起的移动，过大会引起震荡 <br><b>积分 I:<\/b>数值越大，对保持飞机姿态更好。但是也会增加飞机到达预定角度时间。<br><b>导数 D:<\/b> 增加回中时间，但是也会增加噪声<br><b>Rates and Expo<\/b>: Rates 和expo 影响摇杆手感。参考图表和实时3D模型预览来找到你喜欢的设定。"
-    },
-    "pidTuningPidTuningTipFeedforward": {
-        "message": "<b>比例 P:<\/b> 数值越大，飞机会输出越大力量来抵消外力引起的移动，过大会引起震荡 <br><b>积分 I:<\/b>数值越大，对保持飞机姿态更好。但是也会增加飞机到达预定角度时间。<br><b>导数 D:<\/b> 增加回中时间，但是也会增加噪声<br><b>前馈:<\/b> 通常PID响应误差值。前馈则基于摇杆输入来预测误差，提高飞机的响应。<br><b>Rates and Expo<\/b>: Rates 和expo 影响摇杆手感。参考图表和实时3D模型预览来找到你喜欢的设定。"
     },
     "pidTuningRatesTip": {
         "message": "尝试不同的rates并观察它如何影响摇杆曲线"
