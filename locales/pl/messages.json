@@ -1152,9 +1152,6 @@
     "portsFunction_LIDAR_TF": {
         "message": "Benewake LIDAR"
     },
-    "pidTuningSubTabPid": {
-        "message": "Ustawienia PID"
-    },
     "pidTuningSubTabFilter": {
         "message": "Ustawienia filtrów"
     },
