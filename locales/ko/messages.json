@@ -1420,6 +1420,12 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">PID 변경 컨트롤러가 비활성화됨 - 당신은 CLI를 통하여 변경할 수 있습니다.<\/span> 당신은 API 버전  <span class=\"message-negative\">$1<\/span>의 펌웨어를 가지고 있으나, 이 기능은  <span class=\"message-positive\">$2<\/span>를 필요로 합니다."
     },
+    "pidTuningSubTabPid": {
+        "message": "PID 프로파일 설정"
+    },
+    "pidTuningSubTabRates": {
+        "message": "레이트프로파일 설정"
+    },
     "pidTuningSubTabFilter": {
         "message": "필터 설정"
     },
@@ -1432,6 +1438,13 @@
     "pidTuningNonProfilePidSettings": {
         "message": "프로파일 독립적 PID 컨트롤러 설정"
     },
+    "pidTuningAntiGravity": {
+        "message": "안티 그라비티"
+    },
+    "pidTuningAntiGravityMode": {
+        "message": "모드",
+        "description": "Anti Gravity mode selection parameter"
+    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "스무드",
         "description": "One of the modes of anti gravity"
@@ -1440,9 +1453,23 @@
         "message": "스텝",
         "description": "One of the modes of anti gravity"
     },
+    "pidTuningAntiGravityGain": {
+        "message": "게인",
+        "description": "Anti Gravity Gain Parameter"
+    },
+    "pidTuningAntiGravityThres": {
+        "message": "임계값",
+        "description": "Anti Gravity Threshold Parameter"
+    },
+    "pidTuningAntiGravityHelp": {
+        "message": "안티 그라비티는 빠른 스로틀 변화가 감지될 때 I 텀을 증가시킵니다. 더 높은 게인 값은 당신이 스로틀을 펌핑할 때 안정성과 더 나은 자세 유지력을 제공합니다."
+    },
     "pidTuningDMin": {
-        "message": "D 최소",
+        "message": "D 최소값",
         "description": "Table header of the D Min feature in the PIDs tab"
+    },
+    "pidTuningDMinDisabledNote": {
+        "message": "<strong>노트:<\/strong> D 최소값 기능이 비활성화되고 매개변수가 숨겨집니다. D 최소값을 사용하려면 $t(pidTuningPidSettings.message)에서 활성화하십시오."
     },
     "pidTuningDMinGain": {
         "message": "게인",
@@ -1451,6 +1478,10 @@
     "pidTuningDMinAdvance": {
         "message": "가속",
         "description": "Advance of the D Min feature"
+    },
+    "pidTuningDMinHelp": {
+        "message": "D 최소값은 보통 비행 시 D 레벨이 더 낮고, 플립이나 롤과 같이 오버슈트를 일으킬 수 있는 빠른 기동을 위한 더 높은 레벨의 방법을 제공합니다. 그것은 또한 프롭워시가 생길 때 D를 데려옵니다. 게인은 D가 최대값에 도달하는 속도를 조정하고 자이로에 기반하여 날카로운 움직임과 프로프워시 이벤트를 결정합니다. 고급은 자이로 대신 설정점을 사용하여 날카로운 움직임을 결정함으로써 D를 더 일찍 상승시킵니다.",
+        "description": "D Min feature helpicon message"
     },
     "pidTuningPidSettings": {
         "message": "PID 컨트롤러 설정"
@@ -1593,6 +1624,9 @@
     "pidTuningRatesPreview": {
         "message": "레이트 미리보기"
     },
+    "pidTuningRatesTuningHelp": {
+        "message": "<b>레이트와 엑스포<\/b>: 이 매개변수에 따라 스틱 느낌을 결정하십시오. 그래프와 라이브 3D 모델을 사용하여 당신이 원하는 레이트 설정을 찾으세요."
+    },
     "pidTuningRcExpo": {
         "message": "RC Expo"
     },
@@ -1601,6 +1635,9 @@
     },
     "pidTuningTPABreakPoint": {
         "message": "TPA 브레이크포인트"
+    },
+    "pidTuningThrottleCurvePreview": {
+        "message": "스로틀 곡선 미리보기"
     },
     "pidTuningThrottleLimitType": {
         "message": "스로틀 제한"
@@ -1628,6 +1665,9 @@
     },
     "pidTuningFilterFrequency": {
         "message": "주파수"
+    },
+    "pidTuningRatesCurve": {
+        "message": "레이트 미리보기"
     },
     "throttle": {
         "message": "스로틀"
@@ -3164,6 +3204,10 @@
     "pidTuningItermRelaxHelp": {
         "message": "빠른 움직임이 일어날 때 I 텀의 축적을 제한합니다. 이것은 특히 롤의 끝과 다른 빠른 움직임에서 바운스백을 줄이는 데 도움이 됩니다. 이 기능이 활성화된 축을 선택할 수 있으며, 자이로 또는 설정점(스틱)을 사용하여 빠른 이동을 감지할 수 있습니다."
     },
+    "pidTuningItermRelaxAxes": {
+        "message": "축",
+        "description": "Iterm Relax Axes selection"
+    },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "RP"
     },
@@ -3176,11 +3220,19 @@
     "pidTuningItermRelaxAxesOptionRPYInc": {
         "message": "RPY (증가만)"
     },
+    "pidTuningItermRelaxType": {
+        "message": "형식",
+        "description": "Iterm Relax Type selection"
+    },
     "pidTuningItermRelaxTypeOptionGyro": {
         "message": "자이로"
     },
     "pidTuningItermRelaxTypeOptionSetpoint": {
         "message": "설정점"
+    },
+    "pidTuningItermRelaxCutoff": {
+        "message": "컷오프",
+        "description": "Cutoff value of the I Term Relax"
     },
     "pidTuningAbsoluteControlGain": {
         "message": "절대 제어"
@@ -4932,6 +4984,13 @@
     "pidTuningRateProfileTip": {
         "message": "프로파일 당 최대 3개의 다른 레이트 프로파일을 비행 컨트롤러에 저장할 수 있습니다. 레이트 프로프일에는 'RC 레이트', '레이트', 'RC Expo', '스로틀'및 'TPA'에 대한 설정이 포함됩니다. '조정' 탭에서 '레이트 프로파일 선택'을 위한 3가지 위치 스위치를 설정하여 비행 중 레이트 프로파일 간을 전환 할 수 있습니다."
     },
+    "pidTuningRateSetup": {
+        "message": "기본\/아크로 레이트"
+    },
+    "pidTuningRateSetupHelp": {
+        "message": "이 값을 조정하여 레이트를 설정하십시오. RC 레이트를 사용하여 전체적으로 최대 속도를 높이고, 슈퍼 레이트를 사용하여 스틱 이동 끝에 더 높은 속도를 가지며, RC 엑스포를 사용하여 중간 스틱을 매끄럽게 느끼게 하십시오.",
+        "description": "Rate table helpicon message"
+    },
     "pidTuningDelta": {
         "message": "미분 방법"
     },
@@ -4949,6 +5008,15 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>자이로 소프트 필터:<\/b> 자이로에 대한 저역통과 필터. 더 많은 필터링을 위해 더 낮은 값을 사용하십시오.<br><b>D텀 필터:<\/b> D텀 저역통과 필터. D 튜닝에 영향을 미칠 수 있습니다. 더 많은 필터링을 위해 더 낮은 값을 사용하십시오. <br><b>요 필터:<\/b>요출력을 필터링합니다. 그것은 노이즈가 있는 요 축을 가진 설정에 도움을 줄 수 있습니다."
+    },
+    "pidTuningPidTuningTip": {
+        "message": "<b>비례:<\/b> 멀티로터를 움직이려고 시도 할 때 매우 강한 저항력을 느낄 것입니다.<br><b>적분:<\/b> 전체 초기 위치를 유지하는 능력을 증가시키고 드리프트를 줄이지만, 초기 위치로 복귀 할 때 지연을 증가시킵니다.<br><b>미분:<\/b> 편차가 회복되는 속도를 향상 시키지만, 노이즈를 증가시킵니다."
+    },
+    "pidTuningPidTuningTipFeedforward": {
+        "message": "<b>비례:<\/b> 멀티로터를 움직이려고 시도 할 때 매우 강한 저항력을 느낄 것입니다.<br><b>적분:<\/b> 전체 초기 위치를 유지하는 능력을 증가시키고 드리프트를 줄이지만, 초기 위치로 복귀 할 때 지연을 증가시킵니다.<br><b>미분:<\/b> 편차가 회복되는 속도를 향상 시키지만, 노이즈를 증가시킵니다.<br><b>피드포워드:<\/b> 일반적으로 PID 컨트롤러는 오류에 대해 반응합니다. 피드포워드는 스틱 입력을 기반으로 오류를 예상하고, 쿼드에 응답을 줍니다."
+    },
+    "pidTuningPidTuningTipDMin": {
+        "message": "<b>비례:<\/b> 멀티로터를 움직이려고 시도 할 때 매우 강한 저항력을 느낄 것입니다.<br><b>적분:<\/b> 전체 초기 위치를 유지하는 능력을 증가시키고 드리프트를 줄이지만, 초기 위치로 복귀 할 때 지연을 증가시킵니다.<br><b>미분:<\/b> 편차가 회복되는 속도를 향상 시키지만, 노이즈를 증가시킵니다.<br><b>피드포워드:<\/b> 일반적으로 PID 컨트롤러는 오류에 대해 반응합니다. 피드포워드는 스틱 입력을 기반으로 오류를 예상하고, 쿼드에 응답을 줍니다.<br><b>D 최소값:<\/b> D 최소값은 보통 비행 시 D 레벨이 더 낮고, 플립이나 롤과 같이 오버슈트를 일으킬 수 있는 빠른 기동을 위한 더 높은 레벨의 방법을 제공합니다. 그것은 또한 프롭워시가 생길 때 D를 데려옵니다. 값이 0이면 기능이 비활성화됩니다."
     },
     "pidTuningRatesTip": {
         "message": "특정 레이트로 플레이하고 이들이 스틱 커브에 어떻게 영향을 주는지 봅니다."
