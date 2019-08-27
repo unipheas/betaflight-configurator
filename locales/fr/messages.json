@@ -1,4 +1,12 @@
 {
+    "yes": {
+        "message": "Oui",
+        "description": "General Yes message to be used across the application"
+    },
+    "no": {
+        "message": "Non",
+        "description": "General No message to be used across the application"
+    },
     "error": {
         "message": "Erreur : {{errorMessage}}"
     },
@@ -201,6 +209,12 @@
     "deviceRebooting": {
         "message": "Périphérique - <span class=\"message-negative\">redémarrage<\/span>"
     },
+    "deviceRebooting_flashBootloader": {
+        "message": "Périphérique - <span class=\"message-negative\">Redémarrage en FLASH BOOTLOADER<\/span>"
+    },
+    "deviceRebooting_romBootloader": {
+        "message": "Périphérique - <span class=\"message-negative\">Redémarrage en ROM BOOTLOADER<\/span>"
+    },
     "deviceReady": {
         "message": "Périphérique - <span class=\"message-positive\">Prêt<\/span>"
     },
@@ -266,6 +280,9 @@
     },
     "tabOsd": {
         "message": "OSD"
+    },
+    "tabVtx": {
+        "message": "Émetteur vidéo"
     },
     "tabPower": {
         "message": "Alimentation et batterie"
@@ -341,6 +358,12 @@
     },
     "stm32UsbDfuNotFound": {
         "message": "DFU USB non détecté"
+    },
+    "stm32RebootingToBootloader": {
+        "message": "Redémarrer en mode bootloader ..."
+    },
+    "stm32RebootingToBootloaderFailed": {
+        "message": "Redémarrage en mode bootloader : ECHEC"
     },
     "stm32TimedOut": {
         "message": "STM32 - Temps alloué dépassé, Programmation: ÉCHOUÉ"
@@ -1393,6 +1416,12 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">Changement de contrôleur PID désactivé - mais possible en CLI.<\/span> Votre microprogramme dispose de l'API version <span class=\"message-negative\">$1<\/span>, cette fonctionnalité nécessite la version <span class=\"message-positive\">$2<\/span>."
     },
+    "pidTuningSubTabPid": {
+        "message": "Paramètres PID du profil"
+    },
+    "pidTuningSubTabRates": {
+        "message": "Paramètres Rates du profil"
+    },
     "pidTuningSubTabFilter": {
         "message": "Réglages filtres"
     },
@@ -1405,6 +1434,13 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Paramètres du contrôleur PID independants du profil"
     },
+    "pidTuningAntiGravity": {
+        "message": "Anti Gravity"
+    },
+    "pidTuningAntiGravityMode": {
+        "message": "Mode",
+        "description": "Anti Gravity mode selection parameter"
+    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "Souple",
         "description": "One of the modes of anti gravity"
@@ -1413,9 +1449,23 @@
         "message": "Seuil",
         "description": "One of the modes of anti gravity"
     },
+    "pidTuningAntiGravityGain": {
+        "message": "Gain",
+        "description": "Anti Gravity Gain Parameter"
+    },
+    "pidTuningAntiGravityThres": {
+        "message": "Seuil",
+        "description": "Anti Gravity Threshold Parameter"
+    },
+    "pidTuningAntiGravityHelp": {
+        "message": "L'Anti Gravity augmente le I term lors des poussées de gaz rapides. Une valeur élevée procure plus de stabilité et de tenue."
+    },
     "pidTuningDMin": {
         "message": "D Min",
         "description": "Table header of the D Min feature in the PIDs tab"
+    },
+    "pidTuningDMinDisabledNote": {
+        "message": "<strong>Note :<\/strong> La fonctionnalité D Min est désactivée et ses paramètres sont cachés. Pour utiliser D Min, veuillez l'activer dans $t(pidTuningPidSettings.message)."
     },
     "pidTuningDMinGain": {
         "message": "Gain",
@@ -1424,6 +1474,10 @@
     "pidTuningDMinAdvance": {
         "message": "Avance",
         "description": "Advance of the D Min feature"
+    },
+    "pidTuningDMinHelp": {
+        "message": "D Min permet d'avoir un niveau inférieur de D en vol normal et un niveau plus élevé pour les manœuvres rapides qui pourraient causer des overshoots, notamment sur les flips et les rolls. Il augmente également D pendant le propwash. Gain ajuste la vitesse à laquelle D atteint sa valeur maximale et est basé sur le gyro pour déceler les manoeuvres violentes et les propwash. Avance déclenche le D plus tôt en utilisant le setpoint au lieu du gyro pour déterminer les manoeuvres violentes.",
+        "description": "D Min feature helpicon message"
     },
     "pidTuningPidSettings": {
         "message": "Réglages du Contrôleur PID"
@@ -1566,6 +1620,9 @@
     "pidTuningRatesPreview": {
         "message": "Prévisualisation des Rates"
     },
+    "pidTuningRatesTuningHelp": {
+        "message": "<b>Rates et Expo<\/b>: Agit sur l'action des sticks. Utilisez les graph et le modèle live 3D pour trouver vos rates."
+    },
     "pidTuningRcExpo": {
         "message": "RC Expo"
     },
@@ -1574,6 +1631,9 @@
     },
     "pidTuningTPABreakPoint": {
         "message": "TPA Breakpoint"
+    },
+    "pidTuningThrottleCurvePreview": {
+        "message": "Aperçu de la courbe des Gaz"
     },
     "pidTuningThrottleLimitType": {
         "message": "Limite Gaz"
@@ -1601,6 +1661,9 @@
     },
     "pidTuningFilterFrequency": {
         "message": "Fréquence"
+    },
+    "pidTuningRatesCurve": {
+        "message": "Aperçu des Rates"
     },
     "throttle": {
         "message": "Gaz"
@@ -3134,6 +3197,10 @@
     "pidTuningItermRelaxHelp": {
         "message": "Limite l'accumulation de I Term sur des mouvements rapides. Ceci aide à réduire les rebonds en fin de rolls et autres manœuvres rapides. Vous pouvez choisir les axes pour lesquels l'option sera active et si les manœuvres rapides sont détectées par le Gyro ou les Setpoint (sticks)."
     },
+    "pidTuningItermRelaxAxes": {
+        "message": "Axes",
+        "description": "Iterm Relax Axes selection"
+    },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "RP"
     },
@@ -3146,11 +3213,19 @@
     "pidTuningItermRelaxAxesOptionRPYInc": {
         "message": "RPY (incrémente seulement)"
     },
+    "pidTuningItermRelaxType": {
+        "message": "Type",
+        "description": "Iterm Relax Type selection"
+    },
     "pidTuningItermRelaxTypeOptionGyro": {
         "message": "Gyro"
     },
     "pidTuningItermRelaxTypeOptionSetpoint": {
         "message": "Setpoint"
+    },
+    "pidTuningItermRelaxCutoff": {
+        "message": "Coupure",
+        "description": "Cutoff value of the I Term Relax"
     },
     "pidTuningAbsoluteControlGain": {
         "message": "Contrôle absolu"
@@ -4595,6 +4670,214 @@
     "osdButtonSaved": {
         "message": "Enregistré"
     },
+    "vtxHelp": {
+        "message": "Vous pouvez configurer ici les valeurs de votre Emetteur vidéo (VTX). Vous pouvez consulter et configurer les valeurs d'émission, y compris les Tables VTX si le contrôleur de vol et l'Emetteur VTX le supportent",
+        "description": "Introduction message in the VTX tab"
+    },
+    "vtxMessageNotSupported": {
+        "message": "<span class=\"message-negative\">Attention :<\/span> Votre VTX n'est pas configuré ou non pris en charge. Vous ne pouvez donc pas modifier les valeurs VTX. Cela n'est possible que si le contrôleur de vol communique avec le VTX en utilisant un protocole comme Tramp ou SmartAudio et est correctement configuré dans l'onglet $t(tabPorts.message) si nécessaire.",
+        "description": "Message to show when the VTX is not supported in the VTX tab"
+    },
+    "vtxMessageTableNotConfigured": {
+        "message": "<span class=\"message-negative\">Attention :<\/span> Vous devez configurer et enregistrer la table VTX en bas AVANT de pouvoir utiliser les champs $t(vtxSelectedMode.message).",
+        "description": "Message to show when the VTX is not supported in the VTX tab"
+    },
+    "vtxFrequencyChannel": {
+        "message": "Saisir la fréquence directement",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxFrequencyChannelHelp": {
+        "message": "Si vous activez ceci, le Configurateur vous permettra de choisir une fréquence à la place de la bande \/ du canal habituel. Votre VTX doit prendre en charge cette fonctionnalité.",
+        "description": "Help text for the frequency or channel select field of the VTX tab"
+    },
+    "vtxSelectedMode": {
+        "message": "Choisir le mode",
+        "description": "Title for the actual mode header of the VTX"
+    },
+    "vtxActualState": {
+        "message": "Valeur actuelle",
+        "description": "Title for the actual values header of the VTX"
+    },
+    "vtxType": {
+        "message": "Type VTX",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxType_0": {
+        "message": "Non pris en charge",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_1": {
+        "message": "RTC607",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_3": {
+        "message": "SmartAudio",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_4": {
+        "message": "Tramp",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_255": {
+        "message": "Inconnu",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxBand": {
+        "message": "Bande",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxBandHelp": {
+        "message": "Vous pouvez choisir ici la bande de votre VTX",
+        "description": "Help text for the band field of the VTX tab"
+    },
+    "vtxBand_0": {
+        "message": "Aucune",
+        "description": "Text of one of the options for the band field of the VTX tab"
+    },
+    "vtxBand_X": {
+        "message": "Bande {{bandName}}",
+        "description": "Text of one of the options for the band field of the VTX tab"
+    },
+    "vtxChannel_0": {
+        "message": "Aucun",
+        "description": "Text of one of the options for the channel field of the VTX tab"
+    },
+    "vtxChannel_X": {
+        "message": "Canal {{channelName}}",
+        "description": "Text of one of the options for the channel field of the VTX tab"
+    },
+    "vtxPower_0": {
+        "message": "Aucune",
+        "description": "Text of one of the options for the power field of the VTX tab"
+    },
+    "vtxPower_X": {
+        "message": "Niveau {{powerLevel}}",
+        "description": "Text of one of the options for the power field of the VTX tab"
+    },
+    "vtxChannel": {
+        "message": "Canal",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxChannelHelp": {
+        "message": "Vous pouvez choisir ici le canal de votre VTX",
+        "description": "Help text for the channel field of the VTX tab"
+    },
+    "vtxFrequency": {
+        "message": "Fréquence",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxFrequencyHelp": {
+        "message": "Vous pouvez choisir ici la fréquence de votre VTX si prise en charge",
+        "description": "Help text for the frequency field of the VTX tab"
+    },
+    "vtxDeviceReady": {
+        "message": "Périphérique - Prêt",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPower": {
+        "message": "Puissance",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPowerHelp": {
+        "message": "Puissance sélectionnée sur le VTX. Elle peut être modifiée si le $t(vtxPitMode.message) ou le $t(vtxLowPowerDisarm.message) est activé",
+        "description": "Help text for the power field of the VTX tab"
+    },
+    "vtxPitMode": {
+        "message": "Pit Mode",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPitModeHelp": {
+        "message": "Quand activé, le VTX entre en mode très faible puissance afin de permettre de laisser le quad allumé sur le banc sans déranger les autres pilotes. Habituellement, la portée de ce mode est inférieure à 5 m.<br><br>NOTE : Certains protocoles, comme SmartAudio, ne peuvent pas activer le mode Pit de manière logicielle, après la mise en route.\"",
+        "description": "Help text for the pit mode field of the VTX tab"
+    },
+    "vtxPitModeFrequency": {
+        "message": "Fréquence du mode Pit",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPitModeFrequencyHelp": {
+        "message": "Fréquence à laquelle passe le mode Pit change une fois activé.",
+        "description": "Help text for the pit mode field of the VTX tab"
+    },
+    "vtxLowPowerDisarm": {
+        "message": "Faible puissance d'émission lors du désarmement",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxLowPowerDisarmHelp": {
+        "message": "Lorsque activé, le VTX utilise la puissance la plus basse disponible lors du désarmement (sauf en cas failsafe).",
+        "description": "Help text for the low power disarm field of the VTX tab"
+    },
+    "vtxLowPowerDisarmOption_0": {
+        "message": "Off",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxLowPowerDisarmOption_1": {
+        "message": "On",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxLowPowerDisarmOption_2": {
+        "message": "On jusqu'au premier armement",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxTable": {
+        "message": "Table VTX",
+        "description": "Text of the header of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevels": {
+        "message": "Nombre de niveaux de puissance",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsHelp": {
+        "message": "Ceci définit le nombre de niveaux de puissance pris en charge par votre VTX",
+        "description": "Help for the number of power levels field of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsTableHelp": {
+        "message": "Ce tableau représente les différentes valeurs de puissance qui peuvent être utilisées pour le VTX. Elles sont réparties en deux sections: <br><b>- $t(vtxTablePowerLevelsValue.message) :<\/b> chaque niveau d'alimentation nécessite une valeur définie par le fabricant matériel. Demandez à votre fabricant la valeur correcte ou consultez le wiki Betaflight sur les Tables VTX pour obtenir des exemples. <br><b>- $t(vtxTablePowerLevelsLabel.message) :<\/b> vous pouvez mettre ici l'étiquette que vous voulez pour chaque niveau d'alimentation. Des chiffres (25, 200, 600, 1.2), des lettres (OFF, MIN, MAX) ou un mélange des deux. <br><br>Vous devez configurer <b>uniquement<\/b> les niveaux de puissance autorisés dans votre pays.",
+        "description": "Help for the table of power levels (value-label) that appears in the VTX tab"
+    },
+    "vtxTablePowerLevelsValue": {
+        "message": "Valeur",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsLabel": {
+        "message": "Désignation",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBands": {
+        "message": "Nombre de bandes",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableChannels": {
+        "message": "Nombre de canaux par bande",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandsChannelsHelp": {
+        "message": "Définit le nombre de bandes et le nombre de canaux par bande que vous voulez sur votre VTX.",
+        "description": "Help for the number of bands and channels field of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleName": {
+        "message": "Nom",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleLetter": {
+        "message": "Lettre",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleFactory": {
+        "message": "Usine",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandsChannelsTableHelp": {
+        "message": "Ce tableau montre toutes les fréquences qui peuvent être utilisées sur votre VTX. Vous pouvez avoir plusieurs bandes et pour chacune d'entre elle, vous devez configurer :<br><b>- $t(vtxTableBandTitleName.message) :<\/b> Le nom de la bande, comme BOSCAM_A, FATSHARK ou RACEBAND.<br><b>- $t(vtxTableBandTitleLetter.message) :<\/b> Lettre courte qui fait référence a la bande.<br><b>- $t(vtxTableBandTitleFactory.message) :<\/b> Indique s'il s'agit d'une bande d'usine. Si activé, Betaflight envoie au VTX la bande et le numéro du canal. Le VTX utilisera ensuite sa table de fréquence intégrée, les fréquences configurées ne servent qu'à être affichées dans l'OSD et dans divers champs. Si non activé, Betaflight enverra au VTX la fréquence réelle configurée ici.<br><b>- Fréquences :<\/b> Fréquences pour cette bande.<br><br>N'oubliez pas que toutes les fréquences ne sont pas légales dans votre pays. Vous devez mettre une valeur de <b>zéro<\/b> à chaque index de fréquence que vous n'êtes pas autorisé à utiliser afin de le désactiver.",
+        "description": "Help for the table of bands-channels that appears in the VTX tab"
+    },
+    "vtxButtonSave": {
+        "message": "Enregistrer",
+        "description": "Save button in the VTX tab"
+    },
+    "vtxButtonSaved": {
+        "message": "Enregistré",
+        "description": "Saved action button in the VTX tab"
+    },
     "mainHelpArmed": {
         "message": "Moteur armé"
     },
@@ -4694,6 +4977,13 @@
     "pidTuningRateProfileTip": {
         "message": "Jusqu'à 3 profils de RATE peuvent être stockés sur le contrôleur de vol. Les profils de RATE incluent les paramètres pour 'RC Rate', 'Rate', 'RC Expo', 'Throttle' et 'TPA'. La commutation entre les profils de RATE est possible en vol, en configurant un commutateur à 3 positions pour la «Sélection du profil de RATE» dans l'onglet «Réglages»."
     },
+    "pidTuningRateSetup": {
+        "message": "Rates Basic\/Acro"
+    },
+    "pidTuningRateSetupHelp": {
+        "message": "Agit sur les Rates. RC Rate augmente le niveau global maximum des Rates, Super Rate augmente les Rates sur la fin de la course du stick, RC Expo adoucit la courbe vers le milieu de course du stick.",
+        "description": "Rate table helpicon message"
+    },
     "pidTuningDelta": {
         "message": "Méthode dérivative"
     },
@@ -4711,6 +5001,15 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>Filtre Gyro:<\/b> Filtre passe-bas sur le gyro. Baisser la valeur pour augmenter le filtre.<br><b>Filtre D Term:<\/b> Filtre passe-bas sur le Dterm. Cela peut affecter le tuning du D. Baisser la valeur pour augmenter le filtre.<br><b>Filtre Yaw:<\/b> Filtre sur la sortie du yaw. Cela peut aider sur les configurations qui ont du bruit sur l'axe du yaw."
+    },
+    "pidTuningPidTuningTip": {
+        "message": "<b>Proportionnelle:<\/b> Vous sentirez une forte résistance lorsque vous essaierez de faire bouger le drone<br><b>Intégrale:<\/b> Augmente la capacité à tenir la position initiale et réduit le dérapage, mais augmente aussi le délai pour revenir à la position initiale.<br><b>Dérivée:<\/b> Améliore la vitesse à laquelle les écarts sont récupérés, mais augmente le bruit."
+    },
+    "pidTuningPidTuningTipFeedforward": {
+        "message": "<b>Proportionnelle:<\/b> Vous sentirez une forte résistance lorsque vous essaierez de faire bouger le drone<br><b>Intégrale:<\/b> Augmente la capacité à tenir la position initiale et réduit le dérapage, mais augmente aussi le délai pour revenir à la position initiale.<br><b>Dérivée:<\/b> Améliore la vitesse à laquelle les écarts sont récupérés, mais augmente le bruit.<br><b>FeedForward:<\/b> Normalement le contrôleur PID se base sur les erreurs. FeedForward anticipe les erreurs en se basant sur les valeurs des sticks, et rend le quad plus réactif."
+    },
+    "pidTuningPidTuningTipDMin": {
+        "message": "<b>Proportionnelle:<\/b> Vous sentirez une forte résistance lorsque vous essaierez de faire bouger le drone<br><b>Intégrale:<\/b> Augmente la capacité à tenir la position initiale et réduit le dérapage, mais augmente aussi le délai pour revenir à la position initiale.<br><b>Dérivée:<\/b> Améliore la vitesse à laquelle les écarts sont récupérés, mais augmente le bruit.<br><b>FeedForward:<\/b> Normalement le contrôleur PID se base sur les erreurs. FeedForward anticipe les erreurs en se basant sur les valeurs des sticks, et rend le quad plus réactif.<br><b>D Min:<\/b>D Min permet d'avoir un niveau inférieur de D en vol normal et un niveau plus élevé pour les manœuvres rapides qui pourraient causer des overshoots, notamment sur les flips et les rolls. Il augmente également D pendant le propwash. Mettre la valeur à zéro désactive la fonctionnalité."
     },
     "pidTuningRatesTip": {
         "message": "Jouer avec les rates et voir comment ça affecte la courbe des commandes"
