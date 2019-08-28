@@ -4609,10 +4609,6 @@
     "osdButtonSaved": {
         "message": "保存しました"
     },
-    "vtxHelp": {
-        "message": "ここでは映像伝送用送信機 (VTX) の値を設定できます。フライトコントローラとVTXがサポートしている場合、VTXテーブルを含む伝送値を参照して設定できます。",
-        "description": "Introduction message in the VTX tab"
-    },
     "vtxMessageNotSupported": {
         "message": "<span class=\"message-negative\">注意:<\/span> VTXが設定されていないかサポートされていません。フライトコントローラはTrampやSmartAudio等のプロトコルを使用してVTXと接続しており、必要に応じて、$t(tabPorts.message)タブで設定を修正する必要があります。",
         "description": "Message to show when the VTX is not supported in the VTX tab"
@@ -4768,10 +4764,6 @@
     "vtxTablePowerLevelsHelp": {
         "message": "VTXでサポートされる送信出力レベルの数値を定義します",
         "description": "Help for the number of power levels field of the VTX Table element in the VTX tab"
-    },
-    "vtxTablePowerLevelsTableHelp": {
-        "message": "このテーブルはVTXに使用できる送信出力のさまざまな値を表しており、2つに分かれています: <br><b>$t(vtxTablePowerLevelsValue.message):<\/b> ハードウェア製造元による各送信出力レベルには定義された値が必要です。正しい値については製造元に問い合わせるか、Betaflight wikiのVTXテーブルを参照してサンプルを入手してください。<br><b>$t(vtxTablePowerLevelsLabel.message):<\/b> 送信出力レベル毎に、ここへラベルを貼ることができます。数値 (25, 200, 600, 1.2)、文字列 (OFF, MIN, MAX)、またはそれらの組み合わせを指定できます。<br><br>あなたの国で合法となる送信出力レベル<b>のみ<\/b>を設定しなければなりません。",
-        "description": "Help for the table of power levels (value-label) that appears in the VTX tab"
     },
     "vtxTablePowerLevelsValue": {
         "message": "値",
