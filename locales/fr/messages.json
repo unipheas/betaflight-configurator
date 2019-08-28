@@ -4670,10 +4670,6 @@
     "osdButtonSaved": {
         "message": "Enregistré"
     },
-    "vtxHelp": {
-        "message": "Vous pouvez configurer ici les valeurs de votre Emetteur vidéo (VTX). Vous pouvez consulter et configurer les valeurs d'émission, y compris les Tables VTX si le contrôleur de vol et l'Emetteur VTX le supportent",
-        "description": "Introduction message in the VTX tab"
-    },
     "vtxMessageNotSupported": {
         "message": "<span class=\"message-negative\">Attention :<\/span> Votre VTX n'est pas configuré ou non pris en charge. Vous ne pouvez donc pas modifier les valeurs VTX. Cela n'est possible que si le contrôleur de vol communique avec le VTX en utilisant un protocole comme Tramp ou SmartAudio et est correctement configuré dans l'onglet $t(tabPorts.message) si nécessaire.",
         "description": "Message to show when the VTX is not supported in the VTX tab"
@@ -4829,10 +4825,6 @@
     "vtxTablePowerLevelsHelp": {
         "message": "Ceci définit le nombre de niveaux de puissance pris en charge par votre VTX",
         "description": "Help for the number of power levels field of the VTX Table element in the VTX tab"
-    },
-    "vtxTablePowerLevelsTableHelp": {
-        "message": "Ce tableau représente les différentes valeurs de puissance qui peuvent être utilisées pour le VTX. Elles sont réparties en deux sections: <br><b>- $t(vtxTablePowerLevelsValue.message) :<\/b> chaque niveau d'alimentation nécessite une valeur définie par le fabricant matériel. Demandez à votre fabricant la valeur correcte ou consultez le wiki Betaflight sur les Tables VTX pour obtenir des exemples. <br><b>- $t(vtxTablePowerLevelsLabel.message) :<\/b> vous pouvez mettre ici l'étiquette que vous voulez pour chaque niveau d'alimentation. Des chiffres (25, 200, 600, 1.2), des lettres (OFF, MIN, MAX) ou un mélange des deux. <br><br>Vous devez configurer <b>uniquement<\/b> les niveaux de puissance autorisés dans votre pays.",
-        "description": "Help for the table of power levels (value-label) that appears in the VTX tab"
     },
     "vtxTablePowerLevelsValue": {
         "message": "Valeur",
