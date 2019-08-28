@@ -1505,6 +1505,14 @@
     "receiverRcSmoothingManual": {
         "message": "crwdns8835:0crwdne8835:0"
     },
+    "receiverRcSmoothingAutoSmoothness": {
+        "message": "crwdns9716:0crwdne9716:0",
+        "description": "Auto Smoothness parameter for RC smoothing"
+    },
+    "receiverRcSmoothingAutoSmoothnessHelp": {
+        "message": "crwdns9718:0crwdne9718:0",
+        "description": "Auto Smoothness parameter help message"
+    },
     "receiverRcDerivativeTypeSelect": {
         "message": "crwdns8836:0crwdne8836:0"
     },
@@ -4688,7 +4696,7 @@
         "message": "crwdns8723:0crwdne8723:0"
     },
     "vtxHelp": {
-        "message": "crwdns9560:0crwdne9560:0",
+        "message": "crwdns9712:0crwdne9712:0",
         "description": "Introduction message in the VTX tab"
     },
     "vtxMessageNotSupported": {
@@ -4848,7 +4856,7 @@
         "description": "Help for the number of power levels field of the VTX Table element in the VTX tab"
     },
     "vtxTablePowerLevelsTableHelp": {
-        "message": "crwdns9640:0$t(vtxTablePowerLevelsValue.message)crwdnd9640:0$t(vtxTablePowerLevelsLabel.message)crwdne9640:0",
+        "message": "crwdns9714:0$t(vtxTablePowerLevelsValue.message)crwdnd9714:0$t(vtxTablePowerLevelsLabel.message)crwdne9714:0",
         "description": "Help for the table of power levels (value-label) that appears in the VTX tab"
     },
     "vtxTablePowerLevelsValue": {
