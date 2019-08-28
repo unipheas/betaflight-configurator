@@ -353,6 +353,12 @@
     "stm32UsbDfuNotFound": {
         "message": "未找到 USB DFU"
     },
+    "stm32RebootingToBootloader": {
+        "message": "重新启动并进入bootloader ..."
+    },
+    "stm32RebootingToBootloaderFailed": {
+        "message": "重启设备并进入bootloader：失败"
+    },
     "stm32TimedOut": {
         "message": "STM32 - 超时，烧录失败"
     },
@@ -1404,6 +1410,12 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">禁止切换 PID 控制器 -  你可以通过CLI 来调整。<\/span> 当前固件 API 版本为 <span class=\"message-negative\">$1<\/span>，而此功能需要版本 <span class=\"message-positive\">$2<\/span>。"
     },
+    "pidTuningSubTabPid": {
+        "message": "PID 配置文件设置"
+    },
+    "pidTuningSubTabRates": {
+        "message": "Rate 配置文件设置"
+    },
     "pidTuningSubTabFilter": {
         "message": "滤波器设置"
     },
@@ -1416,6 +1428,13 @@
     "pidTuningNonProfilePidSettings": {
         "message": "独立于配置文件的PID控制器设置"
     },
+    "pidTuningAntiGravity": {
+        "message": "反重力"
+    },
+    "pidTuningAntiGravityMode": {
+        "message": "模式",
+        "description": "Anti Gravity mode selection parameter"
+    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "平滑",
         "description": "One of the modes of anti gravity"
@@ -1423,6 +1442,14 @@
     "pidTuningAntiGravityModeOptionStep": {
         "message": "阶跃",
         "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityGain": {
+        "message": "增益（Gain）",
+        "description": "Anti Gravity Gain Parameter"
+    },
+    "pidTuningAntiGravityThres": {
+        "message": "阈值",
+        "description": "Anti Gravity Threshold Parameter"
     },
     "pidTuningDMin": {
         "message": "D Min",
@@ -1447,6 +1474,10 @@
     },
     "receiverRcSmoothingManual": {
         "message": "手动"
+    },
+    "receiverRcSmoothingAutoSmoothness": {
+        "message": "自动平滑",
+        "description": "Auto Smoothness parameter for RC smoothing"
     },
     "receiverRcDerivativeTypeSelect": {
         "message": "导数截止类型"
@@ -1586,6 +1617,9 @@
     "pidTuningTPABreakPoint": {
         "message": "TPA 起始点"
     },
+    "pidTuningThrottleCurvePreview": {
+        "message": "油门曲线预览"
+    },
     "pidTuningThrottleLimitType": {
         "message": "油门限制"
     },
@@ -1612,6 +1646,9 @@
     },
     "pidTuningFilterFrequency": {
         "message": "频率"
+    },
+    "pidTuningRatesCurve": {
+        "message": "Rate预览"
     },
     "throttle": {
         "message": "油门曲线"
@@ -3148,6 +3185,10 @@
     "pidTuningItermRelaxHelp": {
         "message": "在快速移动时限制 I 值的积累。这特别有助于降低翻滚等快速移动的末期的反弹。你可以选择该功能生效的轴向，以及快速移动的判断依据是陀螺仪还是设定点（摇杆）。"
     },
+    "pidTuningItermRelaxAxes": {
+        "message": "轴",
+        "description": "Iterm Relax Axes selection"
+    },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "RP"
     },
@@ -3160,11 +3201,19 @@
     "pidTuningItermRelaxAxesOptionRPYInc": {
         "message": "RPY (仅增量)"
     },
+    "pidTuningItermRelaxType": {
+        "message": "类型",
+        "description": "Iterm Relax Type selection"
+    },
     "pidTuningItermRelaxTypeOptionGyro": {
         "message": "陀螺仪"
     },
     "pidTuningItermRelaxTypeOptionSetpoint": {
         "message": "设定点"
+    },
+    "pidTuningItermRelaxCutoff": {
+        "message": "截止频率",
+        "description": "Cutoff value of the I Term Relax"
     },
     "pidTuningAbsoluteControlGain": {
         "message": "绝对控制"
@@ -4609,9 +4658,17 @@
     "osdButtonSaved": {
         "message": "已保存"
     },
+    "vtxMessageNotSupported": {
+        "message": "<span class=\"message-negative\">注意:<\/span>您的图传未配置或不支持。所以您不能在此修改图传值。只有当图传使用Tramp或SmartAudio等协议，连接到飞行控制器，并在$t(tabPorts.message)页面中正确配置后，才可以使用。",
+        "description": "Message to show when the VTX is not supported in the VTX tab"
+    },
     "vtxFrequencyChannel": {
         "message": "直接输入频率",
         "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxFrequencyChannelHelp": {
+        "message": "如果您启用此功能，配置器将会让您直接选择特定频率而不是常见的频段\/频道。为了使其工作，您的图传必须支持此功能。",
+        "description": "Help text for the frequency or channel select field of the VTX tab"
     },
     "vtxSelectedMode": {
         "message": "选择模式",
@@ -4645,12 +4702,28 @@
         "message": "未知",
         "description": "Text for one of the types of the VTX type in VTX tab"
     },
+    "vtxBand": {
+        "message": "频段",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxBandHelp": {
+        "message": "你可以为你的图传选择频段",
+        "description": "Help text for the band field of the VTX tab"
+    },
     "vtxBand_0": {
         "message": "无",
         "description": "Text of one of the options for the band field of the VTX tab"
     },
+    "vtxBand_X": {
+        "message": "频段{{bandName}}",
+        "description": "Text of one of the options for the band field of the VTX tab"
+    },
     "vtxChannel_0": {
         "message": "无",
+        "description": "Text of one of the options for the channel field of the VTX tab"
+    },
+    "vtxChannel_X": {
+        "message": "频道{{channelName}}",
         "description": "Text of one of the options for the channel field of the VTX tab"
     },
     "vtxPower_0": {
@@ -4661,9 +4734,21 @@
         "message": "级别{{powerLevel}}",
         "description": "Text of one of the options for the power field of the VTX tab"
     },
+    "vtxChannel": {
+        "message": "频道",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxChannelHelp": {
+        "message": "你可以为你的图传选择频道",
+        "description": "Help text for the channel field of the VTX tab"
+    },
     "vtxFrequency": {
         "message": "频率",
         "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxFrequencyHelp": {
+        "message": "您可以在此为您的图传选择它所支持的频率",
+        "description": "Help text for the frequency field of the VTX tab"
     },
     "vtxDeviceReady": {
         "message": "设备准备就绪",
@@ -4677,9 +4762,25 @@
         "message": "维修站模式(Pit Mode)",
         "description": "Text of one of the fields of the VTX tab"
     },
+    "vtxPitModeHelp": {
+        "message": "启用时，图传将进入功率极低的模式，可以在不影响其他飞行员的情况下对飞行器进行维修。通常来说，此模式的有效范围小于5米。<br><br>注意: 一些协议，如SmartAudio，无法通过软件开启Pit模式。",
+        "description": "Help text for the pit mode field of the VTX tab"
+    },
     "vtxPitModeFrequency": {
         "message": "Pit模式频率",
         "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxPitModeFrequencyHelp": {
+        "message": "当启用Pit模式时所改变的频率",
+        "description": "Help text for the pit mode field of the VTX tab"
+    },
+    "vtxLowPowerDisarm": {
+        "message": "低功率解锁",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxLowPowerDisarmHelp": {
+        "message": "启用后，图传将在上锁后保持最低功率(除非触发了失控保护)",
+        "description": "Help text for the low power disarm field of the VTX tab"
     },
     "vtxLowPowerDisarmOption_0": {
         "message": "关闭",
@@ -4689,6 +4790,18 @@
         "message": "开启",
         "description": "One of the options for the Low Power Disarm mode of the VTX"
     },
+    "vtxLowPowerDisarmOption_2": {
+        "message": "保持直至解锁",
+        "description": "One of the options for the Low Power Disarm mode of the VTX"
+    },
+    "vtxTablePowerLevels": {
+        "message": "功率等级数量",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsHelp": {
+        "message": "它定义了您的VTX所支持的功率的数量",
+        "description": "Help for the number of power levels field of the VTX Table element in the VTX tab"
+    },
     "vtxTablePowerLevelsValue": {
         "message": "值",
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
@@ -4696,6 +4809,18 @@
     "vtxTablePowerLevelsLabel": {
         "message": "标签",
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBands": {
+        "message": "频段数量",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableChannels": {
+        "message": "按频段显示频道数",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandsChannelsHelp": {
+        "message": "这定义了您希望使用的图传的的频段和频道数量。",
+        "description": "Help for the number of bands and channels field of the VTX Table element in the VTX tab"
     },
     "vtxTableBandTitleName": {
         "message": "名称",
@@ -4708,6 +4833,10 @@
     "vtxTableBandTitleFactory": {
         "message": "生产商",
         "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandsChannelsTableHelp": {
+        "message": "该表表示可用于图传的所有频率。 您可以拥有多个频段并且您必须配置每个频段的：<br><b>- $t(vtxTableBandTitleName.message)：<\/b> 您需要为此频段分配名称，例如BOSCAM_A、FATHARK 或 RACEDAND。<br><b>- $t(vtxTableBandTitleLetter.message):<\/b> 该频段的缩写。<br><b>- $t(vtxTableBandTitleFactory.message):<\/b> 这指示它是否是工厂频段。 如果启用，Betaflight会将频段及频道号码发送到图传。 图传将使用内置频率表，在此配置的频率值仅在OSD 内和其他地方显示。 如果不启用，Betaflight将向图传发送在此配置的真正的频率值。<br><b>- 频率：<\/b> 此波段频率。<br><br>记住，并非所有频率在您的国家都是合法的。 您必须将不使用的频率上的值设置为 <b>0<\/b>。",
+        "description": "Help for the table of bands-channels that appears in the VTX tab"
     },
     "vtxButtonSave": {
         "message": "保存",
@@ -4815,6 +4944,9 @@
     },
     "pidTuningRateProfileTip": {
         "message": "飞控可以保存3个不同的Rate配置文件。 Rate配置文件包括：RC rate， Rate，RC expo，油门和TPA。 配置文件可以通过遥控摇杆命令来回切换（具体操作参阅网上教程）。也可以通过一个3段的开关来选择不同的配置文件。"
+    },
+    "pidTuningRateSetup": {
+        "message": "基本\/手动 Rate"
     },
     "pidTuningDelta": {
         "message": "导数"
