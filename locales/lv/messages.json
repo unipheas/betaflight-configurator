@@ -289,6 +289,9 @@
     "stm32UsbDfuNotFound": {
         "message": "USB DFU nav atrasts"
     },
+    "stm32RebootingToBootloader": {
+        "message": "Inicializē restartu uz bootlouderi..."
+    },
     "stm32TimedOut": {
         "message": "STM32 - laiks beidzies, programmēšana: NEIZDEVĀS"
     },
@@ -724,6 +727,10 @@
     "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
         "message": "Aizbēgšanas novēršana ir aktivizējusies",
         "description": "Message that pops up to describe the RUNAWAY_TAKEOFF arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCRASH": {
+        "message": "Deaktivējies pie avārijas detektēšanas",
+        "description": "Message that pops up to describe the CRASH arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "Droseles kanālā pārāk augsts līmenis",
@@ -1336,6 +1343,9 @@
     "pidTuningUpgradeFirmwareToChangePidController": {
         "message": "<span class=\"message-negative\">PID kontroliera maiņa ir atslēgta  - jūs to varat nomainīt iekš CLI.<\/span>  Jums ir programmatūra ar API versiju <span class=\"message-negative\">$1<\/span>, bet šai funkcionalitātei nepieciešama <span class=\"message-positive\">$2<\/span>."
     },
+    "pidTuningSubTabPid": {
+        "message": "PID profila iestatījumi"
+    },
     "pidTuningSubTabFilter": {
         "message": "Filtra Iestatījumi"
     },
@@ -1348,6 +1358,13 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Profila neatkarīga PID kontroliera iestatījumi"
     },
+    "pidTuningAntiGravity": {
+        "message": "Antigravitācija"
+    },
+    "pidTuningAntiGravityMode": {
+        "message": "Režīms",
+        "description": "Anti Gravity mode selection parameter"
+    },
     "pidTuningAntiGravityModeOptionSmooth": {
         "message": "Gluds",
         "description": "One of the modes of anti gravity"
@@ -1355,6 +1372,14 @@
     "pidTuningAntiGravityModeOptionStep": {
         "message": "Solis",
         "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityGain": {
+        "message": "Pastiprinājums",
+        "description": "Anti Gravity Gain Parameter"
+    },
+    "pidTuningAntiGravityThres": {
+        "message": "Slieksnis",
+        "description": "Anti Gravity Threshold Parameter"
     },
     "pidTuningDMin": {
         "message": "D Min",
@@ -3059,6 +3084,10 @@
     "pidTuningItermRelaxHelp": {
         "message": "Limitē I Term akumulāciju, kad notiek straujas kustības. Tas īpaši palīdz samazināt atlēcienus pie roll un citu ātru kustību beigām. Jūs varat izvēlēties uz kurām asīm tas ir aktīvs, un ar ko tiek detektētas ātrās kustības ar žiroskopu vai vadības sviru iestatījumiem."
     },
+    "pidTuningItermRelaxAxes": {
+        "message": "Asis",
+        "description": "Iterm Relax Axes selection"
+    },
     "pidTuningItermRelaxAxesOptionRP": {
         "message": "RP"
     },
@@ -3071,11 +3100,19 @@
     "pidTuningItermRelaxAxesOptionRPYInc": {
         "message": "RPY (tikai pieaugums)"
     },
+    "pidTuningItermRelaxType": {
+        "message": "Tips",
+        "description": "Iterm Relax Type selection"
+    },
     "pidTuningItermRelaxTypeOptionGyro": {
         "message": "Žiro"
     },
     "pidTuningItermRelaxTypeOptionSetpoint": {
         "message": "Iestatījums"
+    },
+    "pidTuningItermRelaxCutoff": {
+        "message": "Nogriešana",
+        "description": "Cutoff value of the I Term Relax"
     },
     "pidTuningAbsoluteControlGain": {
         "message": "Absolūtā kontrole"
@@ -3901,6 +3938,10 @@
     "osdDescElementNumericalVario": {
         "message": "Vertikāla ātruma numerālais rādījums (var būt pēdas vai metri atkarībā no iestatītās mērvienības sistēma)"
     },
+    "osdTextElementCompassBar": {
+        "message": "Kompasa josla",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementCompassBar": {
         "message": "Kompasa grafiskā josla, kas norāda patreizējo debespusi"
     },
@@ -4012,8 +4053,16 @@
     "osdDescElementFlightDist": {
         "message": "Šī lidojuma distance."
     },
+    "osdTextElementStickOverlayLeft": {
+        "message": "Sviras kreisais overleijs",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementStickOverlayLeft": {
         "message": "Raidītāja kreisās vadības sviras pozīcijas overlais."
+    },
+    "osdTextElementStickOverlayRight": {
+        "message": "Sviras labais overleijs",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementStickOverlayRight": {
         "message": "Raidītāja labās vadības sviras pozīcijas overlais."
@@ -4191,6 +4240,10 @@
     },
     "osdTextStatTotalFlightTime": {
         "message": "Kopējais lidojuma laiks",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
+    "osdTextStatTotalFlightDistance": {
+        "message": "Kopējā lidojuma distance",
         "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdTextStatMinRssiDbm": {
@@ -4382,6 +4435,10 @@
         "message": "Izvēlētais režīms",
         "description": "Title for the actual mode header of the VTX"
     },
+    "vtxActualState": {
+        "message": "Strāvas vērtība",
+        "description": "Title for the actual values header of the VTX"
+    },
     "vtxType": {
         "message": "VTX tips",
         "description": "Text of one of the fields of the VTX tab"
@@ -4409,6 +4466,10 @@
     "vtxBand": {
         "message": "Josla",
         "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxBandHelp": {
+        "message": "Šeit jūs varat izvēlēties joslu priekš jūsu VTX",
+        "description": "Help text for the band field of the VTX tab"
     },
     "vtxBand_0": {
         "message": "Neviens",
@@ -4438,9 +4499,17 @@
         "message": "Kanāls",
         "description": "Text of one of the fields of the VTX tab"
     },
+    "vtxChannelHelp": {
+        "message": "Šeit jūs varat izvēlēties kanālu priekš jūsu VTX",
+        "description": "Help text for the channel field of the VTX tab"
+    },
     "vtxFrequency": {
         "message": "Frekvence",
         "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxFrequencyHelp": {
+        "message": "Šeit jūs varat izvēlēties frekvenci priekš jūsu VTX",
+        "description": "Help text for the frequency field of the VTX tab"
     },
     "vtxDeviceReady": {
         "message": "Ierīce gatava",
@@ -4454,6 +4523,18 @@
         "message": "Pit režīms",
         "description": "Text of one of the fields of the VTX tab"
     },
+    "vtxPitModeFrequency": {
+        "message": "Pit režīma frekvence",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxLowPowerDisarm": {
+        "message": "Zemās jauda deaktivēšana",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxLowPowerDisarmHelp": {
+        "message": "Kad aktivizēts, VTX lieto zemāko pieejamo raidīšanas jaudu kad ir deaktivēts (izņemot ja ir failsafe gadījums).",
+        "description": "Help text for the low power disarm field of the VTX tab"
+    },
     "vtxLowPowerDisarmOption_0": {
         "message": "Off",
         "description": "One of the options for the Low Power Disarm mode of the VTX"
@@ -4465,6 +4546,10 @@
     "vtxTable": {
         "message": "VTX tabula",
         "description": "Text of the header of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevels": {
+        "message": "Jaudas līmeņu skaits",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
     },
     "vtxTablePowerLevelsValue": {
         "message": "Vērtība",
@@ -4600,6 +4685,13 @@
     },
     "pidTuningRateProfileTip": {
         "message": "Līdz pat 3 atšķirīgiem ātrumprofiliem uz katru profilu var tik glabāti uz lidojuma kontrolieriem. Ātrumprofili iekļauj sevī iestatījumus priekš 'RC ātrumi', 'Ātrumi', 'RC Ekspo', 'Drosele' un 'TPA'. Pārslēgšanas starp ātrumprofiliem ir iespējama lidojuma laikā, uzstādot 3 pozīciju slēdzi priekš 'Ātrumu profila izvēle' iekš 'Korekcijas' cilnes."
+    },
+    "pidTuningRateSetup": {
+        "message": "Pamata\/Akro ātrumi"
+    },
+    "pidTuningRateSetupHelp": {
+        "message": "Pieregulējiet šīs vērtības, lai uzstādītu ātrumus. Lietojiet RC ātrumus, lai palielinātu maksimālo ātrumu kopumā, lietojiet Super ātrumu, lai iegūtu augstākus ātrumus vadības sviru gājiena beigās, lietojiet RC Expo, lai padarītu vadības sviru centru gludāku.",
+        "description": "Rate table helpicon message"
     },
     "pidTuningDelta": {
         "message": "Derivative metode"
