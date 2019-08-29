@@ -948,7 +948,7 @@
         "message": "オンスクリーンディスプレイ"
     },
     "featureVTX": {
-        "message": "ビデオ送信機"
+        "message": "映像伝送用送信機"
     },
     "featureANTI_GRAVITY": {
         "message": "スロットル可変時における一時的なI値のブースト"
@@ -1426,6 +1426,14 @@
     },
     "receiverRcSmoothingManual": {
         "message": "手動"
+    },
+    "receiverRcSmoothingAutoSmoothness": {
+        "message": "オートスムーズ",
+        "description": "Auto Smoothness parameter for RC smoothing"
+    },
+    "receiverRcSmoothingAutoSmoothnessHelp": {
+        "message": "オートスムーズ演算を調整します。10はデフォルトでの滑らかさと遅延の比率です。数値を増加させると、RC入力がより滑らかとなり、遅延も追加されます。これは、信頼性の低いRC接続や映画のようなフライトに役立ちます。<br>数値が50に近づくと、入力遅延が顕著になりますので注意してください。<br>TXおよびRXに電力が供給されている間にCLIコマンドrc_smoothing_infoを使用して、自動計算されたRCスムージング カットオフを確認します。 ",
+        "description": "Auto Smoothness parameter help message"
     },
     "receiverRcDerivativeTypeSelect": {
         "message": "D値 カットオフ タイプ"
@@ -3634,7 +3642,7 @@
         "description": "Content of the selector for the OSD Font in the preview"
     },
     "osdSetupVideoFormatTitle": {
-        "message": "ビデオ形式"
+        "message": "映像形式"
     },
     "osdSetupVideoFormatOptionAuto": {
         "message": "Auto",
@@ -3739,7 +3747,7 @@
         "message": "お知らせ"
     },
     "osdSetupVideoMode": {
-        "message": "ビデオモード"
+        "message": "映像モード"
     },
     "osdSetupCameraConnected": {
         "message": "カメラが接続されました"
@@ -3786,7 +3794,7 @@
         "message": "現在のCPU使用率"
     },
     "osdTextElementVtxChannel": {
-        "message": "受信機チャンネル",
+        "message": "VTX チャンネル",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementVtxChannel": {
@@ -4583,7 +4591,7 @@
         "message": "OSDを有効、または無効にします。"
     },
     "osdSectionHelpVideoMode": {
-        "message": "カメラのビデオモードを設定します。(通常、カメラの出力形式と一致するように設定するのが難しい場合は自動のままとして下さい。)"
+        "message": "カメラの映像モードを設定します。(通常、カメラの出力形式と一致するように設定するのが難しい場合は自動のままとして下さい。)"
     },
     "osdSectionHelpUnits": {
         "message": "数値に対する単位を設定します。"
@@ -4608,6 +4616,10 @@
     },
     "osdButtonSaved": {
         "message": "保存しました"
+    },
+    "vtxHelp": {
+        "message": "ここでは映像伝送用送信機 (VTX) の値を設定できます。フライトコントローラとVTXがサポートしている場合、VTXテーブルを含む伝送値を表示および変更できます。",
+        "description": "Introduction message in the VTX tab"
     },
     "vtxMessageNotSupported": {
         "message": "<span class=\"message-negative\">注意:<\/span> VTXが設定されていないかサポートされていません。フライトコントローラはTrampやSmartAudio等のプロトコルを使用してVTXと接続しており、必要に応じて、$t(tabPorts.message)タブで設定を修正する必要があります。",
@@ -4764,6 +4776,10 @@
     "vtxTablePowerLevelsHelp": {
         "message": "VTXでサポートされる送信出力レベルの数値を定義します",
         "description": "Help for the number of power levels field of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsTableHelp": {
+        "message": "このテーブルはVTXに使用できる送信出力のさまざまな値を表しており、大きく2つに分かれています:<br><b>- $t(vtxTablePowerLevelsValue.message):<\/b> \n各送信出力レベルには、ハードウェアの製造元にて定義された値が必要です。\n製造元に正しい値を問い合わせるか、Betaflight wikiのVTXテーブルを参照してサンプルを入手してください。<br><b>- $t(vtxTablePowerLevelsLabel.message):<\/b>各送信出力レベル毎に、ここに必要なラベルを設定することができます。 数値 (25, 200, 600, 1.2) 、文字 (OFF, MIN, MAX)、またはそれらの組み合わせを指定します。<br><br>あなたの国で合法となる送信出力レベル<b>のみ\/ b>を設定しなければなりません。",
+        "description": "Help for the table of power levels (value-label) that appears in the VTX tab"
     },
     "vtxTablePowerLevelsValue": {
         "message": "値",
