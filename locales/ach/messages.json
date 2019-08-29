@@ -2275,6 +2275,22 @@
     "motorsSensorAccelSelect": {
         "message": "crwdns5885:0crwdne5885:0"
     },
+    "motorsTelemetryHelp": {
+        "message": "crwdns9720:0crwdne9720:0",
+        "description": "Help text for the telemetry values in the motors tab."
+    },
+    "motorsRPM": {
+        "message": "crwdns9722:0{{motorsRpmValue}}crwdne9722:0",
+        "description": "To put under the motors in the motors tab. KEEP IT SHORT or not translate. Keep the letters as prefix. Shows the RPM of the motor if telemetry is available."
+    },
+    "motorsRPMError": {
+        "message": "crwdns9724:0{{motorsErrorValue}}crwdne9724:0",
+        "description": "To put under the motors in the motors tab. KEEP IT SHORT or not translate. Shows the error of motor telemetry if available."
+    },
+    "motorsESCTemperature": {
+        "message": "crwdns9726:0{{motorsESCTempValue}}crwdne9726:0",
+        "description": "To put under the motors in the motors tab. KEEP IT SHORT or not translate. Shows the ESC temperature if available."
+    },
     "motorsMaster": {
         "message": "crwdns5886:0crwdne5886:0"
     },
