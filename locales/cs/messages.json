@@ -106,7 +106,7 @@
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusSonar": {
-        "message": "Sonar \/ Dálkoměr"
+        "message": "Sonar / Dálkoměr"
     },
     "sensorStatusSonarShort": {
         "message": "Sonar",
@@ -116,16 +116,16 @@
         "message": "Zobrazit oznámení o aktualizacích pro nestabilní verze konfigurátoru"
     },
     "configuratorUpdateNotice": {
-        "message": "Používáte zastaralou verzi <b>Konfigurátoru Betaflight<\/b>.<br> Verze <b>$1<\/b> je k dispozici online, navštivte <a href=\"$2\" target=\"_blank\">stránku vydavatele<\/a> ke stažení a instalaci nejnovější verze s opravami a vylepšeními.<br>Před aktualizací zavřete okno konfigurátoru."
+        "message": "Používáte zastaralou verzi <b>Konfigurátoru Betaflight</b>.<br> Verze <b>$1</b> je k dispozici online, navštivte <a href=\"$2\" target=\"_blank\">stránku vydavatele</a> ke stažení a instalaci nejnovější verze s opravami a vylepšeními.<br>Před aktualizací zavřete okno konfigurátoru."
     },
     "configuratorUpdateWebsite": {
         "message": "Jít na stránku vydavatele programu"
     },
     "deviceRebooting": {
-        "message": "Zařízení - <span class=\"message-negative\">restartuje se<\/span>"
+        "message": "Zařízení - <span class=\"message-negative\">restartuje se</span>"
     },
     "deviceReady": {
-        "message": "Zařízení - <span class=\"message-positive\">připraveno<\/span>"
+        "message": "Zařízení - <span class=\"message-positive\">připraveno</span>"
     },
     "backupFileIncompatible": {
         "message": "Záložní soubor byl vytvořen pro předchozí verzi konfigurátoru a je nekompatibilní s touto verzí konfigurátoru. Omlouváme se"
@@ -221,34 +221,34 @@
         "message": "Zobrazit log"
     },
     "serialPortOpened": {
-        "message": "Sériový port <span class=\"message-positive\">úspěšně<\/span> připojen s ID: $1"
+        "message": "Sériový port <span class=\"message-positive\">úspěšně</span> připojen s ID: $1"
     },
     "serialPortOpenFail": {
-        "message": "<span class=\"message-negative\">Nepodařilo se<\/span> připojit sériový port"
+        "message": "<span class=\"message-negative\">Nepodařilo se</span> připojit sériový port"
     },
     "serialPortClosedOk": {
-        "message": "Sériový port <span class=\"message-positive\">úspěšně<\/span> odpojen"
+        "message": "Sériový port <span class=\"message-positive\">úspěšně</span> odpojen"
     },
     "serialPortClosedFail": {
-        "message": "<span class=\"message-negative\">Nepodařilo se<\/span> odpojit sériový port"
+        "message": "<span class=\"message-negative\">Nepodařilo se</span> odpojit sériový port"
     },
     "serialUnrecoverable": {
-        "message": "Nezotavitelné <span class=\"message-negative\">selhání<\/span> sériového připojení, odpojuji..."
+        "message": "Nezotavitelné <span class=\"message-negative\">selhání</span> sériového připojení, odpojuji..."
     },
     "usbDeviceOpened": {
-        "message": "USB zařízení <span class=\"message-positive\">úspěšně<\/span> připojeno s ID: $1"
+        "message": "USB zařízení <span class=\"message-positive\">úspěšně</span> připojeno s ID: $1"
     },
     "usbDeviceOpenFail": {
-        "message": "<span class=\"message-negative\">Nepodařilo se<\/span> připojit USB zařízení!"
+        "message": "<span class=\"message-negative\">Nepodařilo se</span> připojit USB zařízení!"
     },
     "usbDeviceClosed": {
-        "message": "USB zařízení <span class=\"message-positive\">úspěšně<\/span> odpojeno"
+        "message": "USB zařízení <span class=\"message-positive\">úspěšně</span> odpojeno"
     },
     "usbDeviceCloseFail": {
-        "message": "<span class=\"message-negative\">Nepodařilo se<\/span> odpojit USB zařízení"
+        "message": "<span class=\"message-negative\">Nepodařilo se</span> odpojit USB zařízení"
     },
     "usbDeviceUdevNotice": {
-        "message": "Jsou <strong>udev pravidla<\/strong> správně nainstalovány? Pokyny naleznete v dokumentaci"
+        "message": "Jsou <strong>udev pravidla</strong> správně nainstalovány? Pokyny naleznete v dokumentaci"
     },
     "stm32UsbDfuNotFound": {
         "message": "USB DFU nenalezeno"
@@ -314,19 +314,19 @@
         "message": "Chyba při inicializaci rutiny pro vypnutí ochrany"
     },
     "noConfigurationReceived": {
-        "message": "Během <span class=\"message-negative\">10 vteřin<\/span> nebyla přijata žádná konfigurace, komunikace <span class=\"message-negative\">selhala<\/span>"
+        "message": "Během <span class=\"message-negative\">10 vteřin</span> nebyla přijata žádná konfigurace, komunikace <span class=\"message-negative\">selhala</span>"
     },
     "firmwareVersionNotSupported": {
-        "message": "Tato verze firmwaru <span class=\"message-negative\">není podporována<\/span>. Prosím upgradujte na firmware, který podporuje API ve verzi <strong>$1<\/strong> nebo vyšší. Použijte CLI pro zálohování před aktualizací firmwaru. Postup pro CLI zálohu\/obnovení je v dokumentaci.<br \/>Alternativně můžete použít starší verzi konfigurátoru, pokud nejste připraveni firmware aktualizovat."
+        "message": "Tato verze firmwaru <span class=\"message-negative\">není podporována</span>. Prosím upgradujte na firmware, který podporuje API ve verzi <strong>$1</strong> nebo vyšší. Použijte CLI pro zálohování před aktualizací firmwaru. Postup pro CLI zálohu/obnovení je v dokumentaci.<br />Alternativně můžete použít starší verzi konfigurátoru, pokud nejste připraveni firmware aktualizovat."
     },
     "firmwareTypeNotSupported": {
-        "message": "Firmware nezaložený na Cleanflight\/Betaflight <span class=\"message-negative\">není podporován<\/span>, pouze v CLI režimu."
+        "message": "Firmware nezaložený na Cleanflight/Betaflight <span class=\"message-negative\">není podporován</span>, pouze v CLI režimu."
     },
     "firmwareUpgradeRequired": {
-        "message": "Firmware na tomto zařízení vyžaduje aktualizaci na novější verzi. Použijte CLI režim pro zálohování před instalací. Procedura CLI zálohování a obnovení je popsána v dokumentaci.<br \/>Můžete také stáhnout starší verzi konfigurátoru, pokud nechcete provést aktualizaci."
+        "message": "Firmware na tomto zařízení vyžaduje aktualizaci na novější verzi. Použijte CLI režim pro zálohování před instalací. Procedura CLI zálohování a obnovení je popsána v dokumentaci.<br />Můžete také stáhnout starší verzi konfigurátoru, pokud nechcete provést aktualizaci."
     },
     "infoVersions": {
-        "message": "Spuštěno - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Konfigurátor: <strong>{{configuratorVersion}}<\/strong>",
+        "message": "Spuštěno - OS: <strong>{{operatingSystem}}</strong>, Chrome: <strong>{{chromeVersion}}</strong>, Konfigurátor: <strong>{{configuratorVersion}}</strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
     "buildServerLoaded": {
@@ -339,7 +339,7 @@
         "message": "Načteny informace o verzi pro $1 z GitHubu."
     },
     "releaseCheckFailed": {
-        "message": "<b>GitHub požadavek na verzi $1 selhal, používám informace z mezipaměti. Důvod: <code>$2<\/code><\/b>"
+        "message": "<b>GitHub požadavek na verzi $1 selhal, používám informace z mezipaměti. Důvod: <code>$2</code></b>"
     },
     "releaseCheckCached": {
         "message": "Používám informace z mezipaměti pro verzi $1."
@@ -348,46 +348,46 @@
         "message": "Nejsou dostupné žádné informace o verzi $1."
     },
     "tabSwitchConnectionRequired": {
-        "message": "Je potřeba se <strong>připojit<\/strong> než budete moci zobrazit některou ze záložek."
+        "message": "Je potřeba se <strong>připojit</strong> než budete moci zobrazit některou ze záložek."
     },
     "tabSwitchWaitForOperation": {
-        "message": "Momentálně tuto akci <span class=\"message-negative\">nelze provést<\/span>, prosím vyčkejte na dokončení současné operace ..."
+        "message": "Momentálně tuto akci <span class=\"message-negative\">nelze provést</span>, prosím vyčkejte na dokončení současné operace ..."
     },
     "tabSwitchUpgradeRequired": {
-        "message": "Před použitím záložky $1 musíte <strong>aktualizovat<\/strong> firmware na nejnovější verzi Betaflight."
+        "message": "Před použitím záložky $1 musíte <strong>aktualizovat</strong> firmware na nejnovější verzi Betaflight."
     },
     "firmwareVersion": {
-        "message": "Verze firmwaru: <strong>$1<\/strong>"
+        "message": "Verze firmwaru: <strong>$1</strong>"
     },
     "apiVersionReceived": {
-        "message": "MultiWii API verze: <strong>$1<\/strong>"
+        "message": "MultiWii API verze: <strong>$1</strong>"
     },
     "uniqueDeviceIdReceived": {
-        "message": "Jedinečné ID zařízení: <strong>0x$1<\/strong>"
+        "message": "Jedinečné ID zařízení: <strong>0x$1</strong>"
     },
     "craftNameReceived": {
-        "message": "Jméno letounu: <strong>$1<\/strong>"
+        "message": "Jméno letounu: <strong>$1</strong>"
     },
     "armingDisabled": {
-        "message": "<strong>Odjištění zakázáno<\/strong>"
+        "message": "<strong>Odjištění zakázáno</strong>"
     },
     "armingEnabled": {
-        "message": "<strong>Odjištění povoleno<\/strong>"
+        "message": "<strong>Odjištění povoleno</strong>"
     },
     "runawayTakeoffPreventionDisabled": {
-        "message": "<strong>Předejití nekontrolovanému vzletu dočasně vypnuto<\/strong>"
+        "message": "<strong>Předejití nekontrolovanému vzletu dočasně vypnuto</strong>"
     },
     "runawayTakeoffPreventionEnabled": {
-        "message": "<strong>Ochrana proti nekontrolovanému startu zapnuta<\/strong>"
+        "message": "<strong>Ochrana proti nekontrolovanému startu zapnuta</strong>"
     },
     "boardInfoReceived": {
-        "message": "Deska: <strong>$1<\/strong>, verze: <strong>$2<\/strong>"
+        "message": "Deska: <strong>$1</strong>, verze: <strong>$2</strong>"
     },
     "buildInfoReceived": {
-        "message": "Aktuálně používaný firmware vydán: <strong>$1<\/strong>"
+        "message": "Aktuálně používaný firmware vydán: <strong>$1</strong>"
     },
     "fcInfoReceived": {
-        "message": "Info o řídící jednotce, identifikátor: <strong>$1<\/strong>, verze: <strong>$2<\/strong>"
+        "message": "Info o řídící jednotce, identifikátor: <strong>$1</strong>, verze: <strong>$2</strong>"
     },
     "versionLabelTarget": {
         "message": "Cíl"
@@ -429,16 +429,16 @@
         "message": "Prosím, použijte utilitu pro flashování firmwaru pro přístup k DFU zařízením"
     },
     "dfu_erased_kilobytes": {
-        "message": "<span class=\"message-positive\">Úspěšně<\/span> vymazáno $1 kB paměti"
+        "message": "<span class=\"message-positive\">Úspěšně</span> vymazáno $1 kB paměti"
     },
     "dfu_device_flash_info": {
         "message": "Detekováno zařízení s celkovou velikostí paměti $1 KiB"
     },
     "dfu_error_image_size": {
-        "message": "<span class=\"message-negative\">Chyba<\/span>: Načtená bitová kopie je větší než velikost dostupné paměti na čipu! Bitová kopie: $1 KiB, limit = $2 KiB"
+        "message": "<span class=\"message-negative\">Chyba</span>: Načtená bitová kopie je větší než velikost dostupné paměti na čipu! Bitová kopie: $1 KiB, limit = $2 KiB"
     },
     "eeprom_saved_ok": {
-        "message": "EEPROM <span class=\"message-positive\">uložena<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">uložena</span>"
     },
     "defaultWelcomeIntro": {
         "message": "Vítejte v <strong>Betaflight Konfigurátoru<strong>, nástroji pro snadnou aktualizaci, nastavení a laďení vašeho FC."
@@ -447,16 +447,16 @@
         "message": "Hardware"
     },
     "defaultWelcomeText": {
-        "message": "Tato aplikace podporuje jakýkoli hardware, na kterém běží Betaflight. Podívejte se do záložky Aktualizace firmware pro zobrazení podporovaného HW.<br><br><a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\"> Stáhnout Betaflight Blackbox Viewer<\/a><br \/><br \/>Firmware můžete stáhnout <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">zde<\/a><br \/><br \/>Aktuální <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\"> ovladače CP210x<\/a> stáhnete <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">zde<\/a><br \/>Aktuální <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">ovladače STM USB VCP<\/a> stáhnete <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">zde<\/a><br \/>Aktuální <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> pro instalaci ovladačů USB stáhnete <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">zde<\/a><br \/>"
+        "message": "Tato aplikace podporuje jakýkoli hardware, na kterém běží Betaflight. Podívejte se do záložky Aktualizace firmware pro zobrazení podporovaného HW.<br><br><a href=\"https://github.com/betaflight/blackbox-log-viewer/releases\" target=\"_blank\"> Stáhnout Betaflight Blackbox Viewer</a><br /><br />Firmware můžete stáhnout <a href=\"https://github.com/betaflight/betaflight\" title=\"www.github.com\" target=\"_blank\">zde</a><br /><br />Aktuální <a href=\"http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx\" title=\"http://www.silabs.com\" target=\"_blank\"> ovladače CP210x</a> stáhnete <a href=\"http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx\" title=\"http://www.silabs.com\" target=\"_blank\">zde</a><br />Aktuální <a href=\"http://www.st.com/web/en/catalog/tools/PF257938\" title=\"http://www.st.com\" target=\"_blank\">ovladače STM USB VCP</a> stáhnete <a href=\"http://www.st.com/web/en/catalog/tools/PF257938\" title=\"http://www.st.com\" target=\"_blank\">zde</a><br />Aktuální <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">Zadig</a> pro instalaci ovladačů USB stáhnete <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">zde</a><br />"
     },
     "defaultContributingHead": {
         "message": "Spolupráce"
     },
     "defaultContributingText": {
-        "message": "Pokud chcete pomoci udělat Betaflight ještě lepším, můžete přispět mnoha způsoby:<br \/><ul><li>Odpovídáním na otázky ostatních uživatelů na fórech a IRC.<\/li><li>Přispěním do kódu pro firmware a konfigurátor - nové funkce, opravy, vylepšení<\/li><li>Testováním <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">nových funkcí\/oprav<\/a> a zpětnou vazbou.<\/li><li>Pomáháním s <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">problémy a komentováním požadavků na nové funkce<\/a>.<\/li><li>Spoluprací na <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">překladu konfigurátoru<\/a> do vašeho jazyka.<\/li><li><\/li><\/ul>"
+        "message": "Pokud chcete pomoci udělat Betaflight ještě lepším, můžete přispět mnoha způsoby:<br /><ul><li>Odpovídáním na otázky ostatních uživatelů na fórech a IRC.</li><li>Přispěním do kódu pro firmware a konfigurátor - nové funkce, opravy, vylepšení</li><li>Testováním <a href=\"https://github.com/Betaflight/betaflight/pulls\" target=\"_blank\">nových funkcí/oprav</a> a zpětnou vazbou.</li><li>Pomáháním s <a href=\"https://github.com/betaflight/betaflight/issues\" target=\"_blank\">problémy a komentováním požadavků na nové funkce</a>.</li><li>Spoluprací na <a href=\"https://crowdin.com/project/betaflight-configurator\" target=\"_blank\">překladu konfigurátoru</a> do vašeho jazyka.</li><li></li></ul>"
     },
     "defaultFacebookText": {
-        "message": "Máme také <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">Facebook skupinu<\/a>.<br \/>Připojte se a můžete si přečíst novinky o Betaflightu, nechat si poradit s konfigurací, nebo se jen tak připojit do komunity pilotů."
+        "message": "Máme také <a href=\"https://www.facebook.com/groups/betaflightgroup/\" target=\"_blank\">Facebook skupinu</a>.<br />Připojte se a můžete si přečíst novinky o Betaflightu, nechat si poradit s konfigurací, nebo se jen tak připojit do komunity pilotů."
     },
     "defaultChangelogHead": {
         "message": "Konfigurátor - Seznam změn"
@@ -465,7 +465,7 @@
         "message": "Aktualizace firmwaru"
     },
     "defaultDonateHead": {
-        "message": "Poznámka k Open Source \/ sponzorským darům"
+        "message": "Poznámka k Open Source / sponzorským darům"
     },
     "defaultDonate": {
         "message": "Přispějte"
@@ -474,16 +474,16 @@
         "message": "Sponzoři"
     },
     "defaultDocumentationHead": {
-        "message": "Dokumentace \/ Manuál"
+        "message": "Dokumentace / Manuál"
     },
     "defaultDocumentation": {
-        "message": "Dokumentace k Betaflightu je dostupná v poznámkách k verzím a na wiki.<br \/><br \/>"
+        "message": "Dokumentace k Betaflightu je dostupná v poznámkách k verzím a na wiki.<br /><br />"
     },
     "defaultDocumentation1": {
-        "message": "Betaflight wiki je skvělým zdrojem informací, můžete ji nalézt <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">zde<\/a>."
+        "message": "Betaflight wiki je skvělým zdrojem informací, můžete ji nalézt <a href=\"https://github.com/betaflight/betaflight/wiki\" target=\"_blank\">zde</a>."
     },
     "defaultDocumentation2": {
-        "message": "Poznámky k verzím firmwaru můžete nalézt na GitHubu na stránce <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">Releases<\/a>."
+        "message": "Poznámky k verzím firmwaru můžete nalézt na GitHubu na stránce <a href=\"https://github.com/Betaflight/Betaflight/releases\" target=\"_blank\">Releases</a>."
     },
     "defaultSupportHead": {
         "message": "Podpora"
@@ -495,37 +495,37 @@
         "message": "Vývojář"
     },
     "defaultSupport": {
-        "message": "Pro pomoc a radu si nejprve projděte fóra nebo kontaktujte svého dodavatele.<br \/><br \/>"
+        "message": "Pro pomoc a radu si nejprve projděte fóra nebo kontaktujte svého dodavatele.<br /><br />"
     },
     "defaultSupport1": {
-        "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">vlákno na RC Groups<\/a>"
+        "message": "<a href=\"http://www.rcgroups.com/forums/showthread.php?t=2464844&page=1\" target=\"_blank\">vlákno na RC Groups</a>"
     },
     "defaultSupport2": {
-        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Betaflight Wiki<\/a>"
+        "message": "<a href=\"http://betaflight.info\" target=\"_blank\">Betaflight Wiki</a>"
     },
     "defaultSupport3": {
-        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Videa o Betaflightu od Joshuy Bardwella<\/a>"
+        "message": "<a href=\"https://www.youtube.com/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Videa o Betaflightu od Joshuy Bardwella</a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+        "message": "<a href=\"https://github.com/Betaflight\" target=\"_blank\">GitHub</a>"
     },
     "defaultSupport5": {
-        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Vývojáři Betaflight na Slacku<\/a>"
+        "message": "<a href=\"https://slack.betaflight.com\" target=\"_blank\">Vývojáři Betaflight na Slacku</a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
-        "message": "<span class=\"message-negative\">Funkce zálohování a obnovení zakázána.<\/span> Používáte firmware s API verzí <span class=\"message-negative\">$1<\/span>, záloha a obnovení vyžadují <span class=\"message-positive\">$2<\/span>. Prosím zálohujte Vaší konfiguraci pomocí CLI a přečtěte si dokumentaci Betaflight pro další postup."
+        "message": "<span class=\"message-negative\">Funkce zálohování a obnovení zakázána.</span> Používáte firmware s API verzí <span class=\"message-negative\">$1</span>, záloha a obnovení vyžadují <span class=\"message-positive\">$2</span>. Prosím zálohujte Vaší konfiguraci pomocí CLI a přečtěte si dokumentaci Betaflight pro další postup."
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Kalibrovat akcelerometr"
     },
     "initialSetupCalibrateAccelText": {
-        "message": "Položte řídící jednotku nebo dron na <strong>vodorovný<\/strong> povrch, spusťte kalibraci a zajistěte, aby během kalibrace nedošlo k jejich pohybu"
+        "message": "Položte řídící jednotku nebo dron na <strong>vodorovný</strong> povrch, spusťte kalibraci a zajistěte, aby během kalibrace nedošlo k jejich pohybu"
     },
     "initialSetupButtonCalibrateMag": {
         "message": "Kalibrovat magnetometr"
     },
     "initialSetupCalibrateMagText": {
-        "message": "Otočte multikoptérou alespoň o <strong>360<\/strong> stupňů ve všech osách, máte na to 30 sekund"
+        "message": "Otočte multikoptérou alespoň o <strong>360</strong> stupňů ve všech osách, máte na to 30 sekund"
     },
     "initialSetupButtonCalibratingText": {
         "message": "Kalibruje se..."
@@ -534,7 +534,7 @@
         "message": "Resetovat nastavení"
     },
     "initialSetupResetText": {
-        "message": "Obnovit <strong>výchozí<\/strong> nastavení"
+        "message": "Obnovit <strong>výchozí</strong> nastavení"
     },
     "initialSetupButtonBackup": {
         "message": "Zálohovat"
@@ -543,19 +543,19 @@
         "message": "Obnovit"
     },
     "initialSetupButtonRebootBootloader": {
-        "message": "Aktivovat Boot Loader \/ DFU"
+        "message": "Aktivovat Boot Loader / DFU"
     },
     "initialSetupBackupRestoreText": {
-        "message": "<strong>Zálohujte<\/strong> si Vaše nastavení pro případ nehody, nastavení <strong>CLI<\/strong> <span class=\"message-negative\">není<\/span> zahrnuto - Pro zahrnutí použijte příkaz 'diff all' v CLI."
+        "message": "<strong>Zálohujte</strong> si Vaše nastavení pro případ nehody, nastavení <strong>CLI</strong> <span class=\"message-negative\">není</span> zahrnuto - Pro zahrnutí použijte příkaz 'diff all' v CLI."
     },
     "initialSetupRebootBootloaderText": {
-        "message": "Restartujte do <strong> boot loader \/ DFU<\/strong> režimu."
+        "message": "Restartujte do <strong> boot loader / DFU</strong> režimu."
     },
     "initialSetupBackupSuccess": {
-        "message": "Záloha <span class=\"message-positive\">úspěšně<\/span> uložena"
+        "message": "Záloha <span class=\"message-positive\">úspěšně</span> uložena"
     },
     "initialSetupRestoreSuccess": {
-        "message": "Konfigurace <span class=\"message-positive\">úspěšně<\/span> obnovena"
+        "message": "Konfigurace <span class=\"message-positive\">úspěšně</span> obnovena"
     },
     "initialSetupButtonResetZaxis": {
         "message": "Reset osy Z, posun: 0 stupňů"
@@ -654,19 +654,19 @@
         "message": "Kalibrace akcelerometru zahájena"
     },
     "initialSetupAccelCalibEnded": {
-        "message": "Kalibrace akcelerometru <span class=\"message-positive\">dokončena<\/span>"
+        "message": "Kalibrace akcelerometru <span class=\"message-positive\">dokončena</span>"
     },
     "initialSetupMagCalibStarted": {
         "message": "Kalibrace magnetometru zahájena"
     },
     "initialSetupMagCalibEnded": {
-        "message": "Kalibrace magnetometru <span class=\"message-positive\">dokončena<\/span>"
+        "message": "Kalibrace magnetometru <span class=\"message-positive\">dokončena</span>"
     },
     "initialSetupSettingsRestored": {
-        "message": "<strong>Výchozí hodnoty<\/strong> byly obnoveny"
+        "message": "<strong>Výchozí hodnoty</strong> byly obnoveny"
     },
     "initialSetupEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">uložena<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">uložena</span>"
     },
     "featureNone": {
         "message": "&lt;Vyber Jedno&gt;"
@@ -735,7 +735,7 @@
         "message": "Podpora SPI RX"
     },
     "featureESC_SENSOR": {
-        "message": "Použít KISS\/BLHeli_32 ESC telemetrii jako senzor"
+        "message": "Použít KISS/BLHeli_32 ESC telemetrii jako senzor"
     },
     "featureCHANNEL_FORWARDING": {
         "message": "Předat aux kanály servo výstupům"
@@ -783,10 +783,10 @@
         "message": "RSSI (síla signálu)"
     },
     "configurationEscFeatures": {
-        "message": "ESC\/nastavení motorů"
+        "message": "ESC/nastavení motorů"
     },
     "configurationFeaturesHelp": {
-        "message": "<strong>Poznámka:<\/strong> ne všechny kombinace jsou letuschopné. Když systém FC zjistí, že je konfigurace špatná, nastavení bude resetováno.<br \/><strong>Poznámka:<\/strong> Nastavte porty <span class=\"message-negative\">před<\/span> povolením funkcí, které je budou používat."
+        "message": "<strong>Poznámka:</strong> ne všechny kombinace jsou letuschopné. Když systém FC zjistí, že je konfigurace špatná, nastavení bude resetováno.<br /><strong>Poznámka:</strong> Nastavte porty <span class=\"message-negative\">před</span> povolením funkcí, které je budou používat."
     },
     "configurationBoardAlignment": {
         "message": "Orientace desky a senzorů"
@@ -843,7 +843,7 @@
         "message": "Nastavení ESC Dshot bzučáku"
     },
     "configurationDshotBeaconTone": {
-        "message": "Použít motory\/ESC jako bzučák"
+        "message": "Použít motory/ESC jako bzučák"
     },
     "configurationBeeper": {
         "message": "Nastavení bzučáku"
@@ -879,16 +879,16 @@
         "message": "Pípání, když je páka držena v pozici zajištění dronu"
     },
     "configuration3d": {
-        "message": "Funkce pro 3D ESC\/Motor"
+        "message": "Funkce pro 3D ESC/Motor"
     },
     "configurationSystem": {
         "message": "Konfigurace systému"
     },
     "configurationCalculatedCyclesSec": {
-        "message": "Cyklů\/s [Hz]"
+        "message": "Cyklů/s [Hz]"
     },
     "configurationLoopTimeHelp": {
-        "message": "<strong>Poznámka:<\/strong> Ujistěte se, že FC zvládne fungovat na takové frekvenci! Ověřte stabilitu provozu. Změna může vyžadovat úpravu PID hodnot. TIP: zakažte akcelerometr a další senzory pro zvýšení výkonu CPU."
+        "message": "<strong>Poznámka:</strong> Ujistěte se, že FC zvládne fungovat na takové frekvenci! Ověřte stabilitu provozu. Změna může vyžadovat úpravu PID hodnot. TIP: zakažte akcelerometr a další senzory pro zvýšení výkonu CPU."
     },
     "configurationGPS": {
         "message": "GPS"
@@ -912,7 +912,7 @@
         "message": "Identifikátor"
     },
     "portsConfiguration": {
-        "message": "Konfigurace\/MSP"
+        "message": "Konfigurace/MSP"
     },
     "portsSerialRx": {
         "message": "Sériový Rx"
@@ -927,13 +927,13 @@
         "message": "Periferie"
     },
     "portsHelp": {
-        "message": "<strong>Poznámka:<\/strong> ne všechny kombinace jsou letuschopné. Když systém řídící jednotky zjistí, že je konfigurace neplatná, nastavení bude resetováno."
+        "message": "<strong>Poznámka:</strong> ne všechny kombinace jsou letuschopné. Když systém řídící jednotky zjistí, že je konfigurace neplatná, nastavení bude resetováno."
     },
     "portsMSPHelp": {
-        "message": "<strong>Poznámka:<\/strong> <span class=\"message-negative\">Nezakazujte<\/span> MSP na prvním sériovém protu, pokud nevíte, co děláte. Pro opravu může být nutné přeinstalování firmware a všechna nastavení by byla resetována."
+        "message": "<strong>Poznámka:</strong> <span class=\"message-negative\">Nezakazujte</span> MSP na prvním sériovém protu, pokud nevíte, co děláte. Pro opravu může být nutné přeinstalování firmware a všechna nastavení by byla resetována."
     },
     "portsFirmwareUpgradeRequired": {
-        "message": "Upgrade firmware <span class=\"message-negative\">vyžadován<\/span>. Nastavení sériových portů u firmware &lt; 1.8.0 není podporované."
+        "message": "Upgrade firmware <span class=\"message-negative\">vyžadován</span>. Nastavení sériových portů u firmware &lt; 1.8.0 není podporované."
     },
     "portsButtonSave": {
         "message": "Uložit a restartovat"
@@ -1061,7 +1061,7 @@
         "message": "RC poměr"
     },
     "pidTuningMaxVel": {
-        "message": "Max rychlost [°\/s]"
+        "message": "Max rychlost [°/s]"
     },
     "pidTuningRate": {
         "message": "Poměr"
@@ -1217,10 +1217,10 @@
         "message": "Pouze hexadecimální znaky, 0-9, A-F"
     },
     "transponderHelp1": {
-        "message": "Konfigurace kódu odpovídače.  Poznámka: Pouze platné kódy budou rozpoznány závodními časomírami.  Platné kódy odpovídače lze najít na <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a>."
+        "message": "Konfigurace kódu odpovídače.  Poznámka: Pouze platné kódy budou rozpoznány závodními časomírami.  Platné kódy odpovídače lze najít na <a href=\"http://seriouslypro.com/transponder-codes\" target=\"_blank\">Seriously Pro</a>."
     },
     "transponderHelp2": {
-        "message": "Více informací naleznete na webu <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer<\/a>"
+        "message": "Více informací naleznete na webu <a href=\"http://www.arcitimer.com/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer</a>"
     },
     "transponderDataHelp3": {
         "message": "Vyberte ERLT ID 0-63"
@@ -1232,10 +1232,10 @@
         "message": "Uložit a restartovat"
     },
     "transponderDataInvalid": {
-        "message": "Data odpovídače jsou <span class=\"message-negative\">neplatná<\/span>"
+        "message": "Data odpovídače jsou <span class=\"message-negative\">neplatná</span>"
     },
     "transponderEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">uložena<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">uložena</span>"
     },
     "servosFirmwareUpgradeRequired": {
         "message": "Serva vyžadují firmware &gt; 1.10.0."
@@ -1352,10 +1352,10 @@
         "message": "gyroskop"
     },
     "motorsNotice": {
-        "message": "<strong>Upozornění před testem motorů\/odjištěním:<\/strong><br \/>Posunutím sliderů nebo odjištěním dronu způsobíte <strong>roztočení motorů<\/strong>.<br \/>Abyste předešli zraněním, <strong class=\"message-negative\">sundejte VŠECHNY vrtule<\/strong>, než použijete tuto funkci.<br \/>Zapnutím módu testu motorů se dočasně vypne funkce pro ochranu před nekontrolovaným startem, aby se mohly spustit motory bez vrtulí.<br \/>"
+        "message": "<strong>Upozornění před testem motorů/odjištěním:</strong><br />Posunutím sliderů nebo odjištěním dronu způsobíte <strong>roztočení motorů</strong>.<br />Abyste předešli zraněním, <strong class=\"message-negative\">sundejte VŠECHNY vrtule</strong>, než použijete tuto funkci.<br />Zapnutím módu testu motorů se dočasně vypne funkce pro ochranu před nekontrolovaným startem, aby se mohly spustit motory bez vrtulí.<br />"
     },
     "motorsEnableControl": {
-        "message": "<strong>Rozumím rizikům<\/strong>, všechny vrtule jsem sundal - chci začít testovat motory."
+        "message": "<strong>Rozumím rizikům</strong>, všechny vrtule jsem sundal - chci začít testovat motory."
     },
     "sensorsRefresh": {
         "message": "Obnovit:"
@@ -1406,7 +1406,7 @@
         "message": "Vymaže všechna data uložená na desce."
     },
     "firmwareFlasherManualBaudDescription": {
-        "message": "Manuální výběr přenosové rychlosti pro desky, které nepodporují výchozí rychlost, nebo pro instalaci přes Bluetooth. <br \/><span class=\"message-negative\">Poznámka:<\/span> Nepoužívá se, pokud se instaluje přes USB DFU režim"
+        "message": "Manuální výběr přenosové rychlosti pro desky, které nepodporují výchozí rychlost, nebo pro instalaci přes Bluetooth. <br /><span class=\"message-negative\">Poznámka:</span> Nepoužívá se, pokud se instaluje přes USB DFU režim"
     },
     "firmwareFlasherShowDevelopmentReleases": {
         "message": "Zobrazit nestabilní verze"
@@ -1445,10 +1445,10 @@
         "message": "AUX 4"
     },
     "pidTuningBasic": {
-        "message": "Základní\/Acro"
+        "message": "Základní/Acro"
     },
     "pidTuningLevel": {
-        "message": "Acro\/Horizont"
+        "message": "Acro/Horizont"
     },
     "pidTuningHorizon": {
         "message": "Horizont"
@@ -1538,7 +1538,7 @@
         "message": "Režim velkokapacitní paměti"
     },
     "onboardLoggingMscNote": {
-        "message": "Restartujte do <strong>režimu velkokapacitní paměti (MSC)<\/strong>. Po aktivaci MSC režimu bude karta vložená ve vašem FC připojena k PC jako flashdisk. Poté si můžete stáhnout soubory záznamů stáhnout do PC. Až budete mít záznamy stažené, bezpečně odpojte jednotku od Windows a restartujte FC pro vypnutí MSC režimu."
+        "message": "Restartujte do <strong>režimu velkokapacitní paměti (MSC)</strong>. Po aktivaci MSC režimu bude karta vložená ve vašem FC připojena k PC jako flashdisk. Poté si můžete stáhnout soubory záznamů stáhnout do PC. Až budete mít záznamy stažené, bezpečně odpojte jednotku od Windows a restartujte FC pro vypnutí MSC režimu."
     },
     "onboardLoggingMscNotReady": {
         "message": "Zařízení není připravené, není možné aktivovat režim velkokapacitní paměti."
