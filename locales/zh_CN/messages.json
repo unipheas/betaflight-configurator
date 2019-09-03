@@ -1472,11 +1472,11 @@
         "description": "Gain of the D Min feature"
     },
     "pidTuningDMinAdvance": {
-        "message": "高级",
+        "message": "超前",
         "description": "Advance of the D Min feature"
     },
     "pidTuningDMinHelp": {
-        "message": "D Min可以在正常飞行过程中衰减D值，同时对于可能会使系统产生过冲的快速翻滚和快速打杆行为，它可以增加D值。它也会在发生洗桨时提高D值。调整增益(Gain) 可以调整D到达最高值的速度，同时基于陀螺仪数据来确定快速移动与洗桨事件。高级(Advance) 将在发生快速移动时，根据设定点数据(而不是陀螺仪数据) 更早地增大D值。",
+        "message": "D Min可以在正常飞行过程中衰减D值；同时对于可能会使系统产生过冲的快速翻滚和快速打杆行为，它可以增加D值。它也会在发生洗桨时提高D值。调整增益(Gain) 可以调整D到达最高值的速度，同时它基于陀螺仪数据来确定快速移动与洗桨事件。超前(Advance) 将在发生快速移动时，根据设定点数据(而不是陀螺仪数据) 更早地增大D值。",
         "description": "D Min feature helpicon message"
     },
     "pidTuningPidSettings": {
@@ -3168,10 +3168,10 @@
         "message": "D Term 低通滤波器1类型"
     },
     "pidTuningDTermLowpassFrequency": {
-        "message": "D Term 低通1截止频率 [Hz]"
+        "message": "D Term 低通滤波器1截止频率 [Hz]"
     },
     "pidTuningDTermLowpass2Frequency": {
-        "message": "D Term 低通2截止频率 [Hz]"
+        "message": "D Term 低通滤波器2截止频率 [Hz]"
     },
     "pidTuningDTermLowpass2Type": {
         "message": "D Term 低通滤波器2类型"
@@ -4698,7 +4698,7 @@
         "message": "已保存"
     },
     "vtxHelp": {
-        "message": "您可以在此配置您的图传(VTX) 值。如果飞行控制器和图传支持，您可以查看并更改飞控所传输的值，包括图传表。",
+        "message": "您可以在此配置您的图传(VTX) 参数。如果飞行控制器和图传支持，您可以查看并更改飞控向图传传输的内容，包括图传表。",
         "description": "Introduction message in the VTX tab"
     },
     "vtxMessageNotSupported": {
@@ -4818,11 +4818,11 @@
         "description": "Help text for the pit mode field of the VTX tab"
     },
     "vtxPitModeFrequency": {
-        "message": "Pit模式频率",
+        "message": "维修站模式频率",
         "description": "Text of one of the fields of the VTX tab"
     },
     "vtxPitModeFrequencyHelp": {
-        "message": "当启用Pit模式时所改变的频率",
+        "message": "当启用维修站模式时所使用的频率",
         "description": "Help text for the pit mode field of the VTX tab"
     },
     "vtxLowPowerDisarm": {
@@ -4850,7 +4850,7 @@
         "description": "Text of the header of the VTX Table element in the VTX tab"
     },
     "vtxTablePowerLevels": {
-        "message": "功率等级数量",
+        "message": "功率级别数量",
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
     },
     "vtxTablePowerLevelsHelp": {
@@ -4874,7 +4874,7 @@
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
     },
     "vtxTableChannels": {
-        "message": "按频段显示频道数",
+        "message": "频段内的频道数",
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
     },
     "vtxTableBandsChannelsHelp": {
@@ -4890,11 +4890,11 @@
         "description": "Text of one of the titles of the VTX Table element in the VTX tab"
     },
     "vtxTableBandTitleFactory": {
-        "message": "生产商",
+        "message": "工厂模式",
         "description": "Text of one of the titles of the VTX Table element in the VTX tab"
     },
     "vtxTableBandsChannelsTableHelp": {
-        "message": "该表表示可用于图传的所有频率。 您可以拥有多个频段并且您必须配置每个频段的：<br><b>- $t(vtxTableBandTitleName.message)：</b> 您需要为此频段分配名称，例如BOSCAM_A、FATHARK 或 RACEDAND。<br><b>- $t(vtxTableBandTitleLetter.message):</b> 该频段的缩写。<br><b>- $t(vtxTableBandTitleFactory.message):</b> 这指示它是否是工厂频段。 如果启用，Betaflight会将频段及频道号码发送到图传。 图传将使用内置频率表，在此配置的频率值仅在OSD 内和其他地方显示。 如果不启用，Betaflight将向图传发送在此配置的真正的频率值。<br><b>- 频率：</b> 此波段频率。<br><br>记住，并非所有频率在您的国家都是合法的。 您必须将不使用的频率上的值设置为 <b>0</b>。",
+        "message": "该表表示可用于图传的所有频率。 您可以拥有多个频段并且您必须配置每个频段的：<br><b>- $t(vtxTableBandTitleName.message)：</b> 您需要为此频段分配名称，例如BOSCAM_A、FATHARK 或 RACEDAND。<br><b>- $t(vtxTableBandTitleLetter.message):</b> 该频段的缩写。<br><b>- $t(vtxTableBandTitleFactory.message):</b> 这指示它是否是工厂模式频段。 如果启用，Betaflight会将频段及频道号码发送到图传。 图传将使用内置频率表，在此配置的频率值仅在OSD 内和其他地方显示。 如果不启用，Betaflight将向图传发送在此配置的真正的频率值。<br><b>- 频率：</b> 此波段频率。<br><br>记住，并非所有频率在您的国家都是合法的。 您必须将不使用的频率上的值设置为 <b>0</b>。",
         "description": "Help for the table of bands-channels that appears in the VTX tab"
     },
     "vtxButtonSave": {
