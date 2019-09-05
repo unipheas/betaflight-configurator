@@ -57,22 +57,22 @@
         "message": "GPS"
     },
     "sensorStatusSonar": {
-        "message": "Szonár \/ Távolságmérő"
+        "message": "Szonár / Távolságmérő"
     },
     "checkForConfiguratorUnstableVersions": {
         "message": "Értesíts a konfigurátor instabil frissítéseiről"
     },
     "configuratorUpdateNotice": {
-        "message": "A <b>Betaflight Konfigurátor<\/b> elavult változatát használja.<br><b>1$<\/b> verzió elérhető online a <a href=\"$2\" target=\"_blank\"> Betaflight letöltések oldalán<\/a> a legfrissebb javításokkal és fejlesztésekkel. <br>Kérjük, zárja be a konfigurátor ablakot frissítése előtt."
+        "message": "A <b>Betaflight Konfigurátor</b> elavult változatát használja.<br><b>1$</b> verzió elérhető online a <a href=\"$2\" target=\"_blank\"> Betaflight letöltések oldalán</a> a legfrissebb javításokkal és fejlesztésekkel. <br>Kérjük, zárja be a konfigurátor ablakot frissítése előtt."
     },
     "configuratorUpdateWebsite": {
         "message": "A Legfrissebb Verzió Weboldalára"
     },
     "deviceRebooting": {
-        "message": "Eszköz - <span class=\"message-negative\">Újraindítás<\/span>"
+        "message": "Eszköz - <span class=\"message-negative\">Újraindítás</span>"
     },
     "deviceReady": {
-        "message": "Eszköz - <span class=\"message-positive\">Kész<\/span>"
+        "message": "Eszköz - <span class=\"message-positive\">Kész</span>"
     },
     "configMigrationFrom": {
         "message": "Generált konfigurációs fájl migrálása: $1"
@@ -159,34 +159,34 @@
         "message": "Napló megjelenítése"
     },
     "serialPortOpened": {
-        "message": "Soros port <span class=\"message-positive\">sikeresen<\/span> megnyitva, ID: $1"
+        "message": "Soros port <span class=\"message-positive\">sikeresen</span> megnyitva, ID: $1"
     },
     "serialPortOpenFail": {
-        "message": "Soros port megnyitása <span class=\"message-negative\">nem sikerült<\/span>"
+        "message": "Soros port megnyitása <span class=\"message-negative\">nem sikerült</span>"
     },
     "serialPortClosedOk": {
-        "message": "Soros port <span class=\"message-positive\">sikeresen<\/span> bezárva"
+        "message": "Soros port <span class=\"message-positive\">sikeresen</span> bezárva"
     },
     "serialPortClosedFail": {
-        "message": "Soros port bezárása <span class=\"message-negative\">nem sikerült<\/span>"
+        "message": "Soros port bezárása <span class=\"message-negative\">nem sikerült</span>"
     },
     "serialUnrecoverable": {
-        "message": "Helyrehozhatatlan <span class=\"message-negative\">hiba<\/span> történt a soros konnektoron, szetkapcsolódunk...."
+        "message": "Helyrehozhatatlan <span class=\"message-negative\">hiba</span> történt a soros konnektoron, szetkapcsolódunk...."
     },
     "usbDeviceOpened": {
-        "message": "USB eszköz <span class=\"message-positive\">sikeresen<\/span> megnyitva, ID: $1"
+        "message": "USB eszköz <span class=\"message-positive\">sikeresen</span> megnyitva, ID: $1"
     },
     "usbDeviceOpenFail": {
-        "message": "<span class=\"message-negative\">Nem sikerült<\/span> megnyitni az USB eszközt!"
+        "message": "<span class=\"message-negative\">Nem sikerült</span> megnyitni az USB eszközt!"
     },
     "usbDeviceClosed": {
-        "message": "USB eszköz <span class=\"message-positive\">sikeresen<\/span> bezárva"
+        "message": "USB eszköz <span class=\"message-positive\">sikeresen</span> bezárva"
     },
     "usbDeviceCloseFail": {
-        "message": "<span class=\"message-negative\">Nem sikerült<\/span> bezárni az USB eszközt"
+        "message": "<span class=\"message-negative\">Nem sikerült</span> bezárni az USB eszközt"
     },
     "usbDeviceUdevNotice": {
-        "message": "Jol vannak az <strong>udev szabályok<\/strong> felinstalálva? A tennivalókért lásd a dokumnentációt"
+        "message": "Jol vannak az <strong>udev szabályok</strong> felinstalálva? A tennivalókért lásd a dokumnentációt"
     },
     "stm32UsbDfuNotFound": {
         "message": "USB DFU nem fellelhető"
@@ -246,16 +246,16 @@
         "message": "A védelem eltávolítását nem sikerült megkezdeni"
     },
     "noConfigurationReceived": {
-        "message": "Nem érkezett konfiguráció <span class=\"message-negative\">10 másodpercen<\/span> belül, a kommunikáció <span class=\"message-negative\">sikertelen<\/span>"
+        "message": "Nem érkezett konfiguráció <span class=\"message-negative\">10 másodpercen</span> belül, a kommunikáció <span class=\"message-negative\">sikertelen</span>"
     },
     "firmwareVersionNotSupported": {
-        "message": "A firmware verzió nem <span class=\"message-negative\">támogatott<\/span>. Frissítse olyanra, ami támogatja legalább a <strong>$1<\/strong> API verziót. Használja a CLI-t biztonsági mentés készítésére égetés előtt. A CLI biztonsági mentés\/visszatöltés leírását a dokumentációban találja.<br \/>Ha nem akar frissíteni, használja a konfigurátor egy régebbi verzióját."
+        "message": "A firmware verzió nem <span class=\"message-negative\">támogatott</span>. Frissítse olyanra, ami támogatja legalább a <strong>$1</strong> API verziót. Használja a CLI-t biztonsági mentés készítésére égetés előtt. A CLI biztonsági mentés/visszatöltés leírását a dokumentációban találja.<br />Ha nem akar frissíteni, használja a konfigurátor egy régebbi verzióját."
     },
     "firmwareTypeNotSupported": {
-        "message": "Nincs - CLI mód kivételével a Cleanflight\/Betaflight firmware <span class=\"message-negative\">nem támogatott<\/span>."
+        "message": "Nincs - CLI mód kivételével a Cleanflight/Betaflight firmware <span class=\"message-negative\">nem támogatott</span>."
     },
     "firmwareUpgradeRequired": {
-        "message": "Az eszközön található firmware-t frissíteni kell. Használja a CLI-t biztonsági mentés készítésére égetés előtt. A CLI biztonsági mentés\/visszatöltés leírását a dokumentációban találja.<br \/>Ha nem akar frissíteni, használja a konfigurátor egy régebbi verzióját."
+        "message": "Az eszközön található firmware-t frissíteni kell. Használja a CLI-t biztonsági mentés készítésére égetés előtt. A CLI biztonsági mentés/visszatöltés leírását a dokumentációban találja.<br />Ha nem akar frissíteni, használja a konfigurátor egy régebbi verzióját."
     },
     "releaseCheckLoaded": {
         "message": "$1 Verzióinformáció betöltése GitHub-ról."
@@ -267,40 +267,40 @@
         "message": "Nem áll rendelkezésre verzióinformáció a $1-hez."
     },
     "tabSwitchConnectionRequired": {
-        "message": "<strong>Csatlakoztatnia<\/strong> kell, mielőtt bármelyik fület megtekinthetné."
+        "message": "<strong>Csatlakoztatnia</strong> kell, mielőtt bármelyik fület megtekinthetné."
     },
     "tabSwitchWaitForOperation": {
-        "message": "Pillanatnyilag <span class=\"message-negative\">nem<\/span> végrehajtható, várjon, míg az aktuális művelet befejeződik..."
+        "message": "Pillanatnyilag <span class=\"message-negative\">nem</span> végrehajtható, várjon, míg az aktuális művelet befejeződik..."
     },
     "tabSwitchUpgradeRequired": {
-        "message": "A  $1 fül használata előtt <strong>frissítenie<\/strong> kell a Betaflight legfrissebb verziójára."
+        "message": "A  $1 fül használata előtt <strong>frissítenie</strong> kell a Betaflight legfrissebb verziójára."
     },
     "firmwareVersion": {
-        "message": "Firmware verzió: <strong>$1<\/strong>"
+        "message": "Firmware verzió: <strong>$1</strong>"
     },
     "apiVersionReceived": {
-        "message": "MultiWii API verzió: <strong>$1<\/strong>"
+        "message": "MultiWii API verzió: <strong>$1</strong>"
     },
     "uniqueDeviceIdReceived": {
-        "message": "Egyedi eszköz azonosító: <strong>0x$1<\/strong>"
+        "message": "Egyedi eszköz azonosító: <strong>0x$1</strong>"
     },
     "craftNameReceived": {
-        "message": "Eszköz neve: <strong>$1<\/strong>"
+        "message": "Eszköz neve: <strong>$1</strong>"
     },
     "armingDisabled": {
-        "message": "<strong>Élesítés Kikapcsolva<\/strong>"
+        "message": "<strong>Élesítés Kikapcsolva</strong>"
     },
     "armingEnabled": {
-        "message": "<strong>Élesítés Bekapcsolva<\/strong>"
+        "message": "<strong>Élesítés Bekapcsolva</strong>"
     },
     "boardInfoReceived": {
-        "message": "Csipp: <strong>$1<\/strong>, verzió: <strong>$2<\/strong>"
+        "message": "Csipp: <strong>$1</strong>, verzió: <strong>$2</strong>"
     },
     "buildInfoReceived": {
-        "message": "Használt firmware kiadási dátuma: <strong>$1<\/strong>"
+        "message": "Használt firmware kiadási dátuma: <strong>$1</strong>"
     },
     "fcInfoReceived": {
-        "message": "Repülésirányító információ, identifikátor: <strong>$1<\/strong>, verzió: <strong>$2<\/strong>"
+        "message": "Repülésirányító információ, identifikátor: <strong>$1</strong>, verzió: <strong>$2</strong>"
     },
     "versionLabelTarget": {
         "message": "Célhardwer"
@@ -342,10 +342,10 @@
         "message": "Kérjük használja a Firmware Égetőt, hogy hozzáférjen a DFU eszközökhöz"
     },
     "eeprom_saved_ok": {
-        "message": "EEPROM <span class=\"message-positive\">elmentve<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">elmentve</span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Üdvözöljük a <strong>Betaflight konfigurátor<\/strong>-ban, ami leegyszerűsíti a repülésirányító frissítését, beállítását és finomhangolását."
+        "message": "Üdvözöljük a <strong>Betaflight konfigurátor</strong>-ban, ami leegyszerűsíti a repülésirányító frissítését, beállítását és finomhangolását."
     },
     "defaultWelcomeHead": {
         "message": "Hardver"
@@ -354,7 +354,7 @@
         "message": "Hozzájárult"
     },
     "defaultContributingText": {
-        "message": "Ha azt szeretne hozzájárulni, hogy a Betaflight még jobb legyen, több módon is segíthet, például <br\/><ul><li>más felhasználók kérdéseinke megválaszolásával a fórumokon és az IRC csatornán.<\/li><li>Firmware és konfigurátor forráskód írásával - új funkciók, javítások, fejlesztések<\/li><li><a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">Új funkciók, javítások<\/a> tesztelésével.<\/li><li><a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\"> Hibák, vagy kérések<\/a> kommentálásával.<\/li><li><a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">A konfigurátor fordításával.<\/a><\/li><li><\/li><\/ul>"
+        "message": "Ha azt szeretne hozzájárulni, hogy a Betaflight még jobb legyen, több módon is segíthet, például <br/><ul><li>más felhasználók kérdéseinke megválaszolásával a fórumokon és az IRC csatornán.</li><li>Firmware és konfigurátor forráskód írásával - új funkciók, javítások, fejlesztések</li><li><a href=\"https://github.com/Betaflight/betaflight/pulls\" target=\"_blank\">Új funkciók, javítások</a> tesztelésével.</li><li><a href=\"https://github.com/betaflight/betaflight/issues\" target=\"_blank\"> Hibák, vagy kérések</a> kommentálásával.</li><li><a href=\"https://crowdin.com/project/betaflight-configurator\" target=\"_blank\">A konfigurátor fordításával.</a></li><li></li></ul>"
     },
     "defaultChangelogHead": {
         "message": "Konfigurátor - Változtatásnapló"
@@ -369,16 +369,16 @@
         "message": "Szponzorok"
     },
     "defaultDocumentationHead": {
-        "message": "Dokumentáció \/ Kézikönyv"
+        "message": "Dokumentáció / Kézikönyv"
     },
     "defaultDocumentation": {
-        "message": "A Betaflight dokumentáció rendelkezésre áll, a verzióinfirmációk közt és a wiki-n.<br\/><br\/>"
+        "message": "A Betaflight dokumentáció rendelkezésre áll, a verzióinfirmációk közt és a wiki-n.<br/><br/>"
     },
     "defaultDocumentation1": {
-        "message": "A <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">Betaflight wiki<\/a> nagyszerű információforrás."
+        "message": "A <a href=\"https://github.com/betaflight/betaflight/wiki\" target=\"_blank\">Betaflight wiki</a> nagyszerű információforrás."
     },
     "defaultDocumentation2": {
-        "message": "A firmware kiadási megjegyzései a <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">Githubon<\/a> olvashatóak."
+        "message": "A firmware kiadási megjegyzései a <a href=\"https://github.com/Betaflight/Betaflight/releases\" target=\"_blank\">Githubon</a> olvashatóak."
     },
     "defaultSupportHead": {
         "message": "Támogatás"
@@ -390,22 +390,22 @@
         "message": "Fejlesztő"
     },
     "defaultSupport1": {
-        "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">RC Groups thread<\/a>"
+        "message": "<a href=\"http://www.rcgroups.com/forums/showthread.php?t=2464844&page=1\" target=\"_blank\">RC Groups thread</a>"
     },
     "defaultSupport2": {
-        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Betaflight Wiki<\/a>"
+        "message": "<a href=\"http://betaflight.info\" target=\"_blank\">Betaflight Wiki</a>"
     },
     "defaultSupport3": {
-        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Betaflight Videói<\/a>"
+        "message": "<a href=\"https://www.youtube.com/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Betaflight Videói</a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+        "message": "<a href=\"https://github.com/Betaflight\" target=\"_blank\">GitHub</a>"
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Gyorsulásmérő kalibrálása"
     },
     "initialSetupCalibrateAccelText": {
-        "message": "Helyezze a csippet, vagy vázat <strong>vízszintes<\/strong> felületre, folytassa a kalibrációt, biztosítsa, hogy az egység a kalibráció ideje alatt nem mozdul el"
+        "message": "Helyezze a csippet, vagy vázat <strong>vízszintes</strong> felületre, folytassa a kalibrációt, biztosítsa, hogy az egység a kalibráció ideje alatt nem mozdul el"
     },
     "initialSetupButtonCalibrateMag": {
         "message": "Magnetométer kalibrálása"
@@ -417,7 +417,7 @@
         "message": "Beállítások visszaállítása"
     },
     "initialSetupResetText": {
-        "message": "Beállítások visszaállítása <strong>alapértelmezettre<\/strong>"
+        "message": "Beállítások visszaállítása <strong>alapértelmezettre</strong>"
     },
     "initialSetupButtonBackup": {
         "message": "Biztonsági Mentés"
@@ -426,10 +426,10 @@
         "message": "Visszaállítás"
     },
     "initialSetupBackupSuccess": {
-        "message": "Biztonsági másolat <span class=\"message-positive\">sikeresen<\/span> elmentve"
+        "message": "Biztonsági másolat <span class=\"message-positive\">sikeresen</span> elmentve"
     },
     "initialSetupRestoreSuccess": {
-        "message": "Beállítások <span class=\"message-positive\">sikeresen<\/span> visszaállítva"
+        "message": "Beállítások <span class=\"message-positive\">sikeresen</span> visszaállítva"
     },
     "initialSetupButtonResetZaxis": {
         "message": "Z tengely visszaállítása, elhajlás: 0 fok"
@@ -531,19 +531,19 @@
         "message": "Gyorsulásmérő kalibrációja megkezdődött"
     },
     "initialSetupAccelCalibEnded": {
-        "message": "Gyorsulásmérő kalibrációja <span class=\"message-positive\">befejeződött<\/span>"
+        "message": "Gyorsulásmérő kalibrációja <span class=\"message-positive\">befejeződött</span>"
     },
     "initialSetupMagCalibStarted": {
         "message": "Magnetométer kalibrációja megkezdődött"
     },
     "initialSetupMagCalibEnded": {
-        "message": "Magnetométer kalibrációja <span class=\"message-positive\">befejeződött<\/span>"
+        "message": "Magnetométer kalibrációja <span class=\"message-positive\">befejeződött</span>"
     },
     "initialSetupSettingsRestored": {
-        "message": "Beállítások visszaállítva <strong>alapértelmezettre<\/strong>"
+        "message": "Beállítások visszaállítva <strong>alapértelmezettre</strong>"
     },
     "initialSetupEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">elmentve<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">elmentve</span>"
     },
     "featureNone": {
         "message": "&lt;Kiválasztani&gt;"
@@ -621,7 +621,7 @@
         "message": "SPI RX támogatás"
     },
     "featureESC_SENSOR": {
-        "message": "KISS\/BLHeli_32 ESC telemetria használata szenzorként"
+        "message": "KISS/BLHeli_32 ESC telemetria használata szenzorként"
     },
     "featureCHANNEL_FORWARDING": {
         "message": "AUX csatornák továbbítása a szervó kimenetre"
@@ -651,7 +651,7 @@
         "message": "Failsafe Engedélyezése"
     },
     "featureFAILSAFETip": {
-        "message": "<strong>Megjegyzés:<\/strong> Ha a 2. Failsafe Stádium LE VAN TILTVA, az alapértelmezett <strong>Auto<\/strong> beállítás kerül használatba a felhasználó által definiált chatornabeállítások (Roll, Pitch, Yaw and Throttle) helyett."
+        "message": "<strong>Megjegyzés:</strong> Ha a 2. Failsafe Stádium LE VAN TILTVA, az alapértelmezett <strong>Auto</strong> beállítás kerül használatba a felhasználó által definiált chatornabeállítások (Roll, Pitch, Yaw and Throttle) helyett."
     },
     "featureFAILSAFEOldTip": {
         "message": "Failsafe beállítás alkalmazása szignálvesztés esetén"
@@ -681,13 +681,13 @@
         "message": "RSSI (Jel Erősség)"
     },
     "configurationEscFeatures": {
-        "message": "ESC\/Motor Funkciók"
+        "message": "ESC/Motor Funkciók"
     },
     "configurationSpiRxHelp": {
-        "message": "<strong>Megjegyzés:<\/strong> Az SPI RX szolgáltató csak akkor működik, ha a szükséges hardver be van építve, vagy SPI buszon csatlakoztatva."
+        "message": "<strong>Megjegyzés:</strong> Az SPI RX szolgáltató csak akkor működik, ha a szükséges hardver be van építve, vagy SPI buszon csatlakoztatva."
     },
     "configurationOtherFeaturesHelp": {
-        "message": "<strong>Megjegyzés:<\/strong> Nem minden repülésirányító támogat minden funkcionalitást. Ha egy bekapcsolt funkció inaktív marad a 'Mentés és Újraindítás' gomb megnyomása után, akkor azt nem támogatja az irányító."
+        "message": "<strong>Megjegyzés:</strong> Nem minden repülésirányító támogat minden funkcionalitást. Ha egy bekapcsolt funkció inaktív marad a 'Mentés és Újraindítás' gomb megnyomása után, akkor azt nem támogatja az irányító."
     },
     "configurationBoardAlignment": {
         "message": "Csipp és Szenzor Hangolás"
@@ -753,7 +753,7 @@
         "message": "Csipog, ha az adó kikapcsolt, vagy a elvesztette a kapcsolatot  (folytatja, míg az adás vissza nem tér)"
     },
     "beeperRX_LOST_LANDING": {
-        "message": "SOS jelet Csipog, ha élesítve van, és az adó kikapcsolt, vagy a elvesztette a kapcsolatot  (automatikus landolás\/biztosítás)"
+        "message": "SOS jelet Csipog, ha élesítve van, és az adó kikapcsolt, vagy a elvesztette a kapcsolatot  (automatikus landolás/biztosítás)"
     },
     "beeperDISARMING": {
         "message": "Csipog a repülésirányító biztosításánál"
@@ -789,7 +789,7 @@
         "message": "Csipog, ha a feketedoboz törlése befejeződött"
     },
     "configuration3d": {
-        "message": "3D ESC\/Motor Funkciók"
+        "message": "3D ESC/Motor Funkciók"
     },
     "configuration3dDeadbandLow": {
         "message": "3D Holtsáv Alsó"
@@ -807,7 +807,7 @@
         "message": "Repülésirányító Ciklushossz"
     },
     "configurationCalculatedCyclesSec": {
-        "message": "Ciklus\/Sec [Hz]"
+        "message": "Ciklus/Sec [Hz]"
     },
     "configurationGPS": {
         "message": "GPS"
@@ -831,7 +831,7 @@
         "message": "SPI Busz Vevő Szolgáltató"
     },
     "configurationEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">elmentve<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">elmentve</span>"
     },
     "configurationButtonSave": {
         "message": "Mentés és Újraindítás"
@@ -840,7 +840,7 @@
         "message": "Identifikátor"
     },
     "portsConfiguration": {
-        "message": "Konfiguráció\/MSP"
+        "message": "Konfiguráció/MSP"
     },
     "portsSerialRx": {
         "message": "Soros Rx"
@@ -855,13 +855,13 @@
         "message": "Perifériák"
     },
     "portsHelp": {
-        "message": "<strong>Megjegyzés:<\/strong> nem minden kombináció érvényes. Ha a repulésirányító firmware ilyen helyzetet érzékel, a soros port beállításai visszaállítódnak."
+        "message": "<strong>Megjegyzés:</strong> nem minden kombináció érvényes. Ha a repulésirányító firmware ilyen helyzetet érzékel, a soros port beállításai visszaállítódnak."
     },
     "portsMSPHelp": {
-        "message": "<strong>Megjegyzés:<\/strong> <span class=\"message-negative\">NE<\/span> kapcsolja ki az MSP-t az első soros porton, kivéve, ha pontosan tudja mit csinál. A konfigurációk újraírására, vagy törlésére kényszerülhet, ha megteszi."
+        "message": "<strong>Megjegyzés:</strong> <span class=\"message-negative\">NE</span> kapcsolja ki az MSP-t az első soros porton, kivéve, ha pontosan tudja mit csinál. A konfigurációk újraírására, vagy törlésére kényszerülhet, ha megteszi."
     },
     "portsFirmwareUpgradeRequired": {
-        "message": "Firmware frissítés <span class=\"message-negative\">szükséges<\/span>. A soros port beállítása &lt; 1.8.0 firmware-ben nem támogatott."
+        "message": "Firmware frissítés <span class=\"message-negative\">szükséges</span>. A soros port beállítása &lt; 1.8.0 firmware-ben nem támogatott."
     },
     "portsButtonSave": {
         "message": "Mentés és Újraindítás"
@@ -963,7 +963,7 @@
         "message": "RC Rate"
     },
     "pidTuningMaxVel": {
-        "message": "Max Seb. [fok\/s]"
+        "message": "Max Seb. [fok/s]"
     },
     "pidTuningRate": {
         "message": "Rate"
@@ -1020,16 +1020,16 @@
         "message": "Alapértelmezett profilértékek beolvasása"
     },
     "pidTuningReceivedProfile": {
-        "message": "Repülésirányító Profil: <strong class=\"message-positive\">$1<\/strong>"
+        "message": "Repülésirányító Profil: <strong class=\"message-positive\">$1</strong>"
     },
     "pidTuningLoadedProfile": {
-        "message": "Beolvasott Profil: <strong class=\"message-positive\">$1<\/strong>"
+        "message": "Beolvasott Profil: <strong class=\"message-positive\">$1</strong>"
     },
     "pidTuningDataRefreshed": {
-        "message": "PID adatok <strong>frissítve<\/strong>"
+        "message": "PID adatok <strong>frissítve</strong>"
     },
     "pidTuningEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">elmentve<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">elmentve</span>"
     },
     "receiverThrottleMid": {
         "message": "Gázkar MID"
@@ -1071,10 +1071,10 @@
         "message": "Frissítés"
     },
     "receiverDataRefreshed": {
-        "message": "RC Hangolási adatok <strong>frissítve<\/strong>"
+        "message": "RC Hangolási adatok <strong>frissítve</strong>"
     },
     "receiverEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">elmentve<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">elmentve</span>"
     },
     "receiverModelPreview": {
         "message": "Előnézet"
@@ -1089,7 +1089,7 @@
         "message": "Mentés"
     },
     "auxiliaryEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">elmentve<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">elmentve</span>"
     },
     "auxiliaryAutoChannelSelect": {
         "message": "AUTO"
@@ -1137,7 +1137,7 @@
         "message": "Mentés"
     },
     "adjustmentsEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">elmentve<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">elmentve</span>"
     },
     "transponderType0": {
         "message": "Nincs"
@@ -1164,7 +1164,7 @@
         "message": "Mentés és Újraindítás"
     },
     "transponderEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">elmentve<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">elmentve</span>"
     },
     "servosName": {
         "message": "Név"
@@ -1191,7 +1191,7 @@
         "message": "Normál"
     },
     "servosEepromSave": {
-        "message": "EEPROM <span class=\"message-positive\">elmentve<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">elmentve</span>"
     },
     "gpsHead": {
         "message": "GPS"
@@ -1203,10 +1203,10 @@
         "message": "3D Fix:"
     },
     "gpsFixTrue": {
-        "message": "<span class=\"fixtrue\">Igaz<\/span>"
+        "message": "<span class=\"fixtrue\">Igaz</span>"
     },
     "gpsFixFalse": {
-        "message": "<span class=\"fixfalse\">Hamis<\/span>"
+        "message": "<span class=\"fixfalse\">Hamis</span>"
     },
     "gpsAltitude": {
         "message": "Magasság:"
@@ -1326,7 +1326,7 @@
         "message": "Debug"
     },
     "sensorsGyroTitle": {
-        "message": "Giroszkóp - fok\/s"
+        "message": "Giroszkóp - fok/s"
     },
     "sensorsAccelTitle": {
         "message": "Gyorsulásmérő - g"
@@ -1368,10 +1368,10 @@
         "message": "Naplózás Leállítása"
     },
     "loggingBack": {
-        "message": "Naplózás Elhagyása \/ Lekapcsolódás"
+        "message": "Naplózás Elhagyása / Lekapcsolódás"
     },
     "loggingErrorNotConnected": {
-        "message": "Először <strong>kapcsolódnia<\/strong> kell"
+        "message": "Először <strong>kapcsolódnia</strong> kell"
     },
     "loggingErrorLogFile": {
         "message": "Válasszon naplófájlt"
@@ -1380,7 +1380,7 @@
         "message": "Válasszon legalább egy naplózandó tulajdonságot"
     },
     "loggingAutomaticallyRetained": {
-        "message": "Előző naplófájl automatikusan betöltve: <strong>$1<\/strong>"
+        "message": "Előző naplófájl automatikusan betöltve: <strong>$1</strong>"
     },
     "blackboxNotSupported": {
         "message": "A repülésirányító  (flight controller) firmware nem támogatja a Feketedoboz (Blackbox) naplózást."
@@ -1467,7 +1467,7 @@
         "message": "Verzióinformáció"
     },
     "firmwareFlasherReleaseName": {
-        "message": "Név\/Verzió:"
+        "message": "Név/Verzió:"
     },
     "firmwareFlasherReleaseVersionUrl": {
         "message": "A kiadott verziókhoz"
@@ -1488,7 +1488,7 @@
         "message": "Bináris:"
     },
     "firmwareFlasherReleaseStatusReleaseCandidate": {
-        "message": "<span class=\"message-negative\">FONTOS: Ez a egy release candidate firmwareverzió. Kérjük, azonnal jelentsen bármilyen tapasztalt poblémát.<\/span>"
+        "message": "<span class=\"message-negative\">FONTOS: Ez a egy release candidate firmwareverzió. Kérjük, azonnal jelentsen bármilyen tapasztalt poblémát.</span>"
     },
     "firmwareFlasherReleaseFileUrl": {
         "message": "Manuális letöltés."
@@ -1542,7 +1542,7 @@
         "message": "Betöltés ..."
     },
     "firmwareFlasherOptionLabelSelectFirmware": {
-        "message": "Válasszon Firmware-t \/ Csippet"
+        "message": "Válasszon Firmware-t / Csippet"
     },
     "firmwareFlasherOptionLabelSelectBoard": {
         "message": "Válasszon Csippet"
@@ -1584,22 +1584,22 @@
         "message": "HEX fájl sérültnek tűnik"
     },
     "firmwareFlasherRemoteFirmwareLoaded": {
-        "message": "<span class=\"message-positive\">Távoli firmware betöltve, égetésre kész<\/span>"
+        "message": "<span class=\"message-positive\">Távoli firmware betöltve, égetésre kész</span>"
     },
     "firmwareFlasherFailedToLoadOnlineFirmware": {
         "message": "Távoli firmware betöltése nem sikerült"
     },
     "firmwareFlasherNoFirmwareSelected": {
-        "message": "<b>Nincs kiválasztva firmware a betöltéshez<\/b>"
+        "message": "<b>Nincs kiválasztva firmware a betöltéshez</b>"
     },
     "firmwareFlasherNoValidPort": {
-        "message": "<span class=\"message-negative\">Válasszon érvényes soros portot<\/span>"
+        "message": "<span class=\"message-negative\">Válasszon érvényes soros portot</span>"
     },
     "ledStripButtonSave": {
         "message": "Mentés"
     },
     "ledStripEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">elmentve<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">elmentve</span>"
     },
     "ledStripFunctionSection": {
         "message": "LEF Funkciók"
@@ -1722,7 +1722,7 @@
         "message": "AUX 16"
     },
     "pidTuningMag": {
-        "message": "Magnetométer\/Irány"
+        "message": "Magnetométer/Irány"
     },
     "pidTuningGps": {
         "message": "GPS Navigáció"
@@ -1743,7 +1743,7 @@
         "message": "Érzékenyskég"
     },
     "failsafeFeaturesHelpOld": {
-        "message": "A Failsafe beállítások jelentősen megváltoztak. Használjon Betaflight <strong>v1.12.0+<\/strong> verziót az irányítópanel aktiválásához."
+        "message": "A Failsafe beállítások jelentősen megváltoztak. Használjon Betaflight <strong>v1.12.0+</strong> verziót az irányítópanel aktiválásához."
     },
     "failsafeRxMinUsecItem": {
         "message": "Minimum hossz"
@@ -1938,7 +1938,7 @@
         "message": "$1 mAh"
     },
     "powerAmperageScale": {
-        "message": "Skála [1\/10th mV\/A]"
+        "message": "Skála [1/10th mV/A]"
     },
     "powerBatteryHead": {
         "message": "Akkumulátor"
@@ -2094,7 +2094,7 @@
         "message": "Pillanatnyi áramfelvétel"
     },
     "osdDescElementAvgCellVoltage": {
-        "message": "Átlag cellafeszültség (akkumulátor feszültség \/ cellaszám)"
+        "message": "Átlag cellafeszültség (akkumulátor feszültség / cellaszám)"
     },
     "osdDescElementPitchAngle": {
         "message": "Hosszdőlésszög fokokban"
@@ -2190,7 +2190,7 @@
         "message": "Failsafe Mód"
     },
     "configurationEscProtocol": {
-        "message": "ESC\/Motor protokol"
+        "message": "ESC/Motor protokol"
     },
     "configurationUnsyncedPWMFreq": {
         "message": "Motor PWM frekvnecia"
