@@ -4723,6 +4723,10 @@
         "message": "crwdns9564:0$t(vtxSelectedMode.message)crwdne9564:0",
         "description": "Message to show when the VTX is not supported in the VTX tab"
     },
+    "vtxMessageVerifyTable": {
+        "message": "crwdns9728:0$t(vtxButtonSave.message)crwdne9728:0",
+        "description": "Message to show when the VTX Table has been loaded from a external source"
+    },
     "vtxFrequencyChannel": {
         "message": "crwdns9566:0crwdne9566:0",
         "description": "Text of one of the fields of the VTX tab"
@@ -4910,6 +4914,30 @@
     "vtxTableBandsChannelsTableHelp": {
         "message": "crwdns9658:0$t(vtxTableBandTitleName.message)crwdnd9658:0$t(vtxTableBandTitleLetter.message)crwdnd9658:0$t(vtxTableBandTitleFactory.message)crwdne9658:0",
         "description": "Help for the table of bands-channels that appears in the VTX tab"
+    },
+    "vtxSavedFileOk": {
+        "message": "crwdns9730:0crwdne9730:0",
+        "description": "Message in the GUI log when the VTX Config file is saved"
+    },
+    "vtxSavedFileKo": {
+        "message": "crwdns9732:0crwdne9732:0",
+        "description": "Message in the GUI log when the VTX Config file is saved"
+    },
+    "vtxLoadFileOk": {
+        "message": "crwdns9734:0crwdne9734:0",
+        "description": "Message in the GUI log when the VTX Config file is loaded"
+    },
+    "vtxLoadFileKo": {
+        "message": "crwdns9736:0crwdne9736:0",
+        "description": "Message in the GUI log when the VTX Config file is loaded"
+    },
+    "vtxButtonSaveFile": {
+        "message": "crwdns9738:0crwdne9738:0",
+        "description": "Save to file button in the VTX tab"
+    },
+    "vtxButtonLoadFile": {
+        "message": "crwdns9740:0crwdne9740:0",
+        "description": "Load to file button in the VTX tab"
     },
     "vtxButtonSave": {
         "message": "crwdns9660:0crwdne9660:0",
