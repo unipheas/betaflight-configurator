@@ -106,7 +106,7 @@
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusSonar": {
-        "message": "Sonar \/ Czujnik odległości"
+        "message": "Sonar / Czujnik odległości"
     },
     "sensorStatusSonarShort": {
         "message": "Sonar",
@@ -116,16 +116,16 @@
         "message": "Pokaż powiadomienia o aktualizacji dla niestabilnych wersji konfiguratora."
     },
     "configuratorUpdateNotice": {
-        "message": "Używasz starszej wersji <b>Betaflight Configurator<\/b>. <br>Nowa wersja <b>$1<\/b> jest dostępna. Odwiedź <a href=\"$2\" target=\"_blank\">stronę z aktualizacjami<\/a> aby pobrać najnowszą wersję.<br>Proszę zamknij konfigurator, zanim zaczniesz aktualizację."
+        "message": "Używasz starszej wersji <b>Betaflight Configurator</b>. <br>Nowa wersja <b>$1</b> jest dostępna. Odwiedź <a href=\"$2\" target=\"_blank\">stronę z aktualizacjami</a> aby pobrać najnowszą wersję.<br>Proszę zamknij konfigurator, zanim zaczniesz aktualizację."
     },
     "configuratorUpdateWebsite": {
         "message": "Idź do strony z aktualizacjami"
     },
     "deviceRebooting": {
-        "message": "Urządzenie - <span class=\"message-negative\">Restartowanie<\/span>"
+        "message": "Urządzenie - <span class=\"message-negative\">Restartowanie</span>"
     },
     "deviceReady": {
-        "message": "Urządzenie - <span class=\"message-positive\">Gotowe<\/span>"
+        "message": "Urządzenie - <span class=\"message-positive\">Gotowe</span>"
     },
     "backupFileIncompatible": {
         "message": "Przepraszamy. Plik kopii zapasowej był wygenerowany przez poprzednią wersję konfiguratora i nie jest kompatybilny z bieżącą wersją."
@@ -221,34 +221,34 @@
         "message": "Pokaż logi"
     },
     "serialPortOpened": {
-        "message": "Port <span class=\"message-positive\">został otwarty<\/span> z ID: $1"
+        "message": "Port <span class=\"message-positive\">został otwarty</span> z ID: $1"
     },
     "serialPortOpenFail": {
-        "message": "<span class=\"message-negative\">Nie udało się<\/span> otworzyć portu."
+        "message": "<span class=\"message-negative\">Nie udało się</span> otworzyć portu."
     },
     "serialPortClosedOk": {
-        "message": "Port został <span class=\"message-positive\">prawidłowo<\/span> zamknięty."
+        "message": "Port został <span class=\"message-positive\">prawidłowo</span> zamknięty."
     },
     "serialPortClosedFail": {
-        "message": "<span class=\"message-negative\">Nie udało się<\/span> zamknąć portu."
+        "message": "<span class=\"message-negative\">Nie udało się</span> zamknąć portu."
     },
     "serialUnrecoverable": {
-        "message": "<span class=\"message-negative\">Błąd<\/span> połączenia szeregowego, rozłączanie..."
+        "message": "<span class=\"message-negative\">Błąd</span> połączenia szeregowego, rozłączanie..."
     },
     "usbDeviceOpened": {
-        "message": "Połączenie z urządzeniem USB <span class=\"message-positive\">zostało otwarte<\/span> z ID: $1"
+        "message": "Połączenie z urządzeniem USB <span class=\"message-positive\">zostało otwarte</span> z ID: $1"
     },
     "usbDeviceOpenFail": {
-        "message": "<span class=\"message-negative\">Nie udało się<\/span> otworzyć połączenia z urządzeniem USB!"
+        "message": "<span class=\"message-negative\">Nie udało się</span> otworzyć połączenia z urządzeniem USB!"
     },
     "usbDeviceClosed": {
-        "message": "Połączenie z urządzeniem USB zostało <span class=\"message-positive\">prawidłowo<\/span> zamknięte."
+        "message": "Połączenie z urządzeniem USB zostało <span class=\"message-positive\">prawidłowo</span> zamknięte."
     },
     "usbDeviceCloseFail": {
-        "message": "<span class=\"message-negative\">Nie udało się<\/span> zamknąć połączenia z urządzeniem USB"
+        "message": "<span class=\"message-negative\">Nie udało się</span> zamknąć połączenia z urządzeniem USB"
     },
     "usbDeviceUdevNotice": {
-        "message": "Czy zasady <strong>udev<\/strong> są zainstalowane prawidłowo? Aby znaleźć instrukcje przeczytaj dokumentację."
+        "message": "Czy zasady <strong>udev</strong> są zainstalowane prawidłowo? Aby znaleźć instrukcje przeczytaj dokumentację."
     },
     "stm32UsbDfuNotFound": {
         "message": "Nie znaleziono USB DFU"
@@ -323,19 +323,19 @@
         "message": "Nie udało się uruchomić procedury odbezpieczania"
     },
     "noConfigurationReceived": {
-        "message": "Nie otrzymano konfiguracji przez <span class=\"message-negative\">10 sekund<\/span>, komunikacja <span class=\"message-negative\">zawiodła<\/span>."
+        "message": "Nie otrzymano konfiguracji przez <span class=\"message-negative\">10 sekund</span>, komunikacja <span class=\"message-negative\">zawiodła</span>."
     },
     "firmwareVersionNotSupported": {
-        "message": "Ta wersja oprogramowania kontrolera <span class=\"message-negative\">nie jest wspierana<\/span>. Proszę uaktualnij oprogramowanie do wersji, która wspiera API <strong>$1<\/strong>, lub wyższej. Użyj CLI, aby zgrać bieżącą konfigurację. Opis zgrywania\/przywrócenia konfiguracji opisany jest w dokumentacji.<br \/>Możesz także pobrać starszą wersję konfiguratora, jeżeli nie chcesz aktualizować oprogramowania kontrolera lotu."
+        "message": "Ta wersja oprogramowania kontrolera <span class=\"message-negative\">nie jest wspierana</span>. Proszę uaktualnij oprogramowanie do wersji, która wspiera API <strong>$1</strong>, lub wyższej. Użyj CLI, aby zgrać bieżącą konfigurację. Opis zgrywania/przywrócenia konfiguracji opisany jest w dokumentacji.<br />Możesz także pobrać starszą wersję konfiguratora, jeżeli nie chcesz aktualizować oprogramowania kontrolera lotu."
     },
     "firmwareTypeNotSupported": {
-        "message": "Oprogramowanie nie będące Cleanflight\/Betaflight <span class=\"message-negative\">nie jest wspierane<\/span>, z wyjątkiem trybu CLI."
+        "message": "Oprogramowanie nie będące Cleanflight/Betaflight <span class=\"message-negative\">nie jest wspierane</span>, z wyjątkiem trybu CLI."
     },
     "firmwareUpgradeRequired": {
-        "message": "Oprogramowanie tego kontrolera lotu wymaga aktualizacji do nowszej wersji. Użyj CLI, aby zgrać bieżącą konfigurację. Opis zgrywania\/przywrócenia konfiguracji opisany jest w dokumentacji.<br \/>Możesz także pobrać starszą wersję konfiguratora, jeżeli nie chcesz aktualizować oprogramowania kontrolera lotu."
+        "message": "Oprogramowanie tego kontrolera lotu wymaga aktualizacji do nowszej wersji. Użyj CLI, aby zgrać bieżącą konfigurację. Opis zgrywania/przywrócenia konfiguracji opisany jest w dokumentacji.<br />Możesz także pobrać starszą wersję konfiguratora, jeżeli nie chcesz aktualizować oprogramowania kontrolera lotu."
     },
     "infoVersions": {
-        "message": "Działający - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Konfigurator: <strong>{{configuratorVersion}}<\/strong>",
+        "message": "Działający - OS: <strong>{{operatingSystem}}</strong>, Chrome: <strong>{{chromeVersion}}</strong>, Konfigurator: <strong>{{configuratorVersion}}</strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
     "buildServerLoaded": {
@@ -348,7 +348,7 @@
         "message": "Załadowano informację o wersji $1 z GitHub'a."
     },
     "releaseCheckFailed": {
-        "message": "<b>Zapytanie do GitHub'a dla wersji $1 nie udało się, używam zapamiętanych wcześniej informacji. Powód: <code>$2<\/code><\/b>"
+        "message": "<b>Zapytanie do GitHub'a dla wersji $1 nie udało się, używam zapamiętanych wcześniej informacji. Powód: <code>$2</code></b>"
     },
     "releaseCheckCached": {
         "message": "Używam zapamiętanych wcześniej informacji dla $1 wersji."
@@ -357,46 +357,46 @@
         "message": "Informacje o wersji $1 są niedostępne."
     },
     "tabSwitchConnectionRequired": {
-        "message": "Musisz się <strong>połączyć<\/strong> żeby móc zobaczyć jakąkolwiek zakładkę."
+        "message": "Musisz się <strong>połączyć</strong> żeby móc zobaczyć jakąkolwiek zakładkę."
     },
     "tabSwitchWaitForOperation": {
-        "message": "<span class=\"message-negative\">Nie możesz<\/span> wykonać tego teraz, zaczekaj aż obecna operacja się zakończy ..."
+        "message": "<span class=\"message-negative\">Nie możesz</span> wykonać tego teraz, zaczekaj aż obecna operacja się zakończy ..."
     },
     "tabSwitchUpgradeRequired": {
-        "message": "Aby zobaczyć zakładkę $1 musisz <strong>zaktualizować<\/strong> oprogramowanie kontrolera lotu do najnowszej wersji."
+        "message": "Aby zobaczyć zakładkę $1 musisz <strong>zaktualizować</strong> oprogramowanie kontrolera lotu do najnowszej wersji."
     },
     "firmwareVersion": {
-        "message": "Wersja oprogramowania FC: <strong>$1<\/strong>"
+        "message": "Wersja oprogramowania FC: <strong>$1</strong>"
     },
     "apiVersionReceived": {
-        "message": "Wersja MultiWii API: <strong>$1<\/strong>"
+        "message": "Wersja MultiWii API: <strong>$1</strong>"
     },
     "uniqueDeviceIdReceived": {
-        "message": "Unikatowy ID urządzenia: <strong>0x$1<\/strong>"
+        "message": "Unikatowy ID urządzenia: <strong>0x$1</strong>"
     },
     "craftNameReceived": {
-        "message": "Nazwa modelu: <strong>$1<\/strong>"
+        "message": "Nazwa modelu: <strong>$1</strong>"
     },
     "armingDisabled": {
-        "message": "<strong>Uzbrajanie nieaktywne<\/strong>"
+        "message": "<strong>Uzbrajanie nieaktywne</strong>"
     },
     "armingEnabled": {
-        "message": "<strong>Uzbrajanie aktywne<\/strong>"
+        "message": "<strong>Uzbrajanie aktywne</strong>"
     },
     "runawayTakeoffPreventionDisabled": {
-        "message": "<strong>Zabezpieczenie przed ucieczką tymczasowo wyłączone<\/strong>"
+        "message": "<strong>Zabezpieczenie przed ucieczką tymczasowo wyłączone</strong>"
     },
     "runawayTakeoffPreventionEnabled": {
         "message": "Zabezpieczenie przed ucieczką włączone"
     },
     "boardInfoReceived": {
-        "message": "Płytka: <strong>$1<\/strong>, wersja: <strong>$2<\/strong>"
+        "message": "Płytka: <strong>$1</strong>, wersja: <strong>$2</strong>"
     },
     "buildInfoReceived": {
-        "message": "Używane oprogramowanie kontrolera lotu z dnia: <strong>$1<\/strong>"
+        "message": "Używane oprogramowanie kontrolera lotu z dnia: <strong>$1</strong>"
     },
     "fcInfoReceived": {
-        "message": "Informacje o kontrolerze lotu - identyfikator: <strong>$1<\/strong>, wersja: <strong>$2<\/strong>"
+        "message": "Informacje o kontrolerze lotu - identyfikator: <strong>$1</strong>, wersja: <strong>$2</strong>"
     },
     "versionLabelTarget": {
         "message": "Urządzenie docelowe"
@@ -438,34 +438,34 @@
         "message": "Prosimy użyć zakładki \"Wgrywanie oprogramowania\" aby połączyć się z urządzeniami w trybie DFU."
     },
     "dfu_erased_kilobytes": {
-        "message": "<span class=\"message-positive\">Prawidłowo<\/span> wyczyszczono $1 kB pamięci FLASH."
+        "message": "<span class=\"message-positive\">Prawidłowo</span> wyczyszczono $1 kB pamięci FLASH."
     },
     "dfu_device_flash_info": {
         "message": "Wykryto urządzenie z całkowitym rozmiarem pamięci flash $1 KiB"
     },
     "dfu_error_image_size": {
-        "message": "<span class=\"message-negative\">Błąd<\/span>: Dostarczony obraz jest większy niż ilość miejsca dostępna w pamięci flash! Obraz: $1 KiB, limit = $2 KiB"
+        "message": "<span class=\"message-negative\">Błąd</span>: Dostarczony obraz jest większy niż ilość miejsca dostępna w pamięci flash! Obraz: $1 KiB, limit = $2 KiB"
     },
     "eeprom_saved_ok": {
-        "message": "<span class=\"message-positive\">Zapisano<\/span> zmiany w EEPROM"
+        "message": "<span class=\"message-positive\">Zapisano</span> zmiany w EEPROM"
     },
     "defaultWelcomeIntro": {
-        "message": "Witaj w <strong>Betaflight - Configurator<\/strong>, narzędziu stworzonym by uprościć aktualizację, konfigurację i regulację Twojego kontrolera lotu."
+        "message": "Witaj w <strong>Betaflight - Configurator</strong>, narzędziu stworzonym by uprościć aktualizację, konfigurację i regulację Twojego kontrolera lotu."
     },
     "defaultWelcomeHead": {
         "message": "Sprzęt"
     },
     "defaultWelcomeText": {
-        "message": "Aplikacja wspiera wszystkie kontrolery lotu które mogą współpracować z Betaflight. Sprawdź kartę \"Wgrywanie oprogramowania\" aby zobaczyć listę wszystkich kompatybilnych urządzeń.<br><br><a href=\"https:\/\/chrome.google.com\/webstore\/detail\/betaflight-blackbox-explo\/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Pobierz Betaflight Blackbox<\/a><br \/><br \/>Kody źródłowe oprogramowania dostępne do pobrania <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">tutaj<\/a>.<br \/>Najnowsze oprogramowanie FC znajdziesz <a href=\"https:\/\/github.com\/betaflight\/betaflight\/releases\" title=\"www.github.com\" target=\"_blank\">tutaj<\/a><br \/><br \/>Najnowsze <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">sterowniki CP210x<\/a> można pobrać <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">tutaj<\/a>.<br \/>Najnowsze <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">sterowniki STM USB VCP<\/a> można pobrać <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">tutaj<\/a>.<br \/>Najnowszy program <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> do instalacji sterowników USB w Windows można pobrać <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">tutaj<\/a>.<br \/>"
+        "message": "Aplikacja wspiera wszystkie kontrolery lotu które mogą współpracować z Betaflight. Sprawdź kartę \"Wgrywanie oprogramowania\" aby zobaczyć listę wszystkich kompatybilnych urządzeń.<br><br><a href=\"https://chrome.google.com/webstore/detail/betaflight-blackbox-explo/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Pobierz Betaflight Blackbox</a><br /><br />Kody źródłowe oprogramowania dostępne do pobrania <a href=\"https://github.com/betaflight/betaflight\" title=\"www.github.com\" target=\"_blank\">tutaj</a>.<br />Najnowsze oprogramowanie FC znajdziesz <a href=\"https://github.com/betaflight/betaflight/releases\" title=\"www.github.com\" target=\"_blank\">tutaj</a><br /><br />Najnowsze <a href=\"http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx\" title=\"http://www.silabs.com\" target=\"_blank\">sterowniki CP210x</a> można pobrać <a href=\"http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx\" title=\"http://www.silabs.com\" target=\"_blank\">tutaj</a>.<br />Najnowsze <a href=\"http://www.st.com/web/en/catalog/tools/PF257938\" title=\"http://www.st.com\" target=\"_blank\">sterowniki STM USB VCP</a> można pobrać <a href=\"http://www.st.com/web/en/catalog/tools/PF257938\" title=\"http://www.st.com\" target=\"_blank\">tutaj</a>.<br />Najnowszy program <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">Zadig</a> do instalacji sterowników USB w Windows można pobrać <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">tutaj</a>.<br />"
     },
     "defaultContributingHead": {
         "message": "Współtworzenie"
     },
     "defaultContributingText": {
-        "message": "Jeżeli chcesz pomóc w rozwoju Betaflight, możesz to zrobić na wiele sposobów, np.:<br \/><ul><li>Odpowiadając na pytania innych użytkowników na forach i IRC,<\/li><li>Współtworząc kod oprogramowania FC i konfiguratora - nowe funkcjonalności, poprawki, ulepszenia,<\/li><li>Testując <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">nowe funkcjonalności\/poprawki<\/a>.<\/li><li>Pomagając w <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">problemach (GitHub Issues) i komentując zgłaszane funkcjonalności (feature requests)<\/a>.<\/li><li>Współpracując w <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">tłumaczeniu konfiguratora<\/a> na Twój język.<\/li><li><\/li><\/ul>"
+        "message": "Jeżeli chcesz pomóc w rozwoju Betaflight, możesz to zrobić na wiele sposobów, np.:<br /><ul><li>Odpowiadając na pytania innych użytkowników na forach i IRC,</li><li>Współtworząc kod oprogramowania FC i konfiguratora - nowe funkcjonalności, poprawki, ulepszenia,</li><li>Testując <a href=\"https://github.com/Betaflight/betaflight/pulls\" target=\"_blank\">nowe funkcjonalności/poprawki</a>.</li><li>Pomagając w <a href=\"https://github.com/betaflight/betaflight/issues\" target=\"_blank\">problemach (GitHub Issues) i komentując zgłaszane funkcjonalności (feature requests)</a>.</li><li>Współpracując w <a href=\"https://crowdin.com/project/betaflight-configurator\" target=\"_blank\">tłumaczeniu konfiguratora</a> na Twój język.</li><li></li></ul>"
     },
     "defaultFacebookText": {
-        "message": "Mamy również <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">Grupa Facebook<\/a>.<br \/>Dołącz do nas aby porozmawiać o Betaflight, spytać o konfiguracje lub po prostu spędzić czas z innymi pilotami."
+        "message": "Mamy również <a href=\"https://www.facebook.com/groups/betaflightgroup/\" target=\"_blank\">Grupa Facebook</a>.<br />Dołącz do nas aby porozmawiać o Betaflight, spytać o konfiguracje lub po prostu spędzić czas z innymi pilotami."
     },
     "defaultChangelogHead": {
         "message": "Wykaz zmian w konfiguratorze"
@@ -474,10 +474,10 @@
         "message": "Wgrywanie oprogramowania"
     },
     "defaultDonateHead": {
-        "message": "Open Source \/ Informacja o darowiznach"
+        "message": "Open Source / Informacja o darowiznach"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Betaflight<\/strong> to oprogramowanie kontrolera lotu które jest <strong>open source<\/strong> i jest dostępne bez opłat, <strong>bez gwarancji<\/strong> dla wszystkich użytkowników.<\/p><p>Jeśli uważasz Betaflight lub Konfigurator Betaflight za przydatne, proszę rozważ <strong>wsparcie<\/strong> ich rozwoju przez darowiznę.<\/p>"
+        "message": "<p><strong>Betaflight</strong> to oprogramowanie kontrolera lotu które jest <strong>open source</strong> i jest dostępne bez opłat, <strong>bez gwarancji</strong> dla wszystkich użytkowników.</p><p>Jeśli uważasz Betaflight lub Konfigurator Betaflight za przydatne, proszę rozważ <strong>wsparcie</strong> ich rozwoju przez darowiznę.</p>"
     },
     "defaultDonate": {
         "message": "Dotacja"
@@ -486,16 +486,16 @@
         "message": "Sponsorzy"
     },
     "defaultDocumentationHead": {
-        "message": "Dokumentacja \/ Instrukcja"
+        "message": "Dokumentacja / Instrukcja"
     },
     "defaultDocumentation": {
-        "message": "Dokumentacja Betaflight dostępna jest w notatkach do wydania i wiki.<br \/><br \/>"
+        "message": "Dokumentacja Betaflight dostępna jest w notatkach do wydania i wiki.<br /><br />"
     },
     "defaultDocumentation1": {
-        "message": "Betaflight wiki jest świetnym źródłem informacji i może być znalezione <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">tutaj<\/a>."
+        "message": "Betaflight wiki jest świetnym źródłem informacji i może być znalezione <a href=\"https://github.com/betaflight/betaflight/wiki\" target=\"_blank\">tutaj</a>."
     },
     "defaultDocumentation2": {
-        "message": "Notatki do wydania oprogramowania FC mogą być przeczytane na stronie <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">GitHub releases<\/a>."
+        "message": "Notatki do wydania oprogramowania FC mogą być przeczytane na stronie <a href=\"https://github.com/Betaflight/Betaflight/releases\" target=\"_blank\">GitHub releases</a>."
     },
     "defaultSupportHead": {
         "message": "Wsparcie"
@@ -507,37 +507,37 @@
         "message": "Twórca"
     },
     "defaultSupport": {
-        "message": "Aby uzyskać pomoc, przeszukaj fora i wiki lub skontaktuj się z twoim dostawcą.<br \/><br \/>"
+        "message": "Aby uzyskać pomoc, przeszukaj fora i wiki lub skontaktuj się z twoim dostawcą.<br /><br />"
     },
     "defaultSupport1": {
-        "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">Wątek na RC Groups<\/a>"
+        "message": "<a href=\"http://www.rcgroups.com/forums/showthread.php?t=2464844&page=1\" target=\"_blank\">Wątek na RC Groups</a>"
     },
     "defaultSupport2": {
-        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Betaflight Wiki<\/a>"
+        "message": "<a href=\"http://betaflight.info\" target=\"_blank\">Betaflight Wiki</a>"
     },
     "defaultSupport3": {
-        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Filmy o Betaflight autorstwa Joshua Bardwell <\/a>"
+        "message": "<a href=\"https://www.youtube.com/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Filmy o Betaflight autorstwa Joshua Bardwell </a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+        "message": "<a href=\"https://github.com/Betaflight\" target=\"_blank\">GitHub</a>"
     },
     "defaultSupport5": {
-        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Developerzy Betaflight na slack'u<\/a>"
+        "message": "<a href=\"https://slack.betaflight.com\" target=\"_blank\">Developerzy Betaflight na slack'u</a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
-        "message": "<span class=\"message-negative\">Zapis i odtwarzanie konfiguracji jest wyłączone.<\/span> Posiadasz oprogramowanie FC z API w wersji <span class=\"message-negative\">$1<\/span>. Zapis i odtwarzanie konfiguracji wymaga wersji<span class=\"message-positive\">$2<\/span>. Prosimy, zapisz swoją konfigurację za pomocą CLI. Opis procedury znajdziesz w dokumentacji Betaflight."
+        "message": "<span class=\"message-negative\">Zapis i odtwarzanie konfiguracji jest wyłączone.</span> Posiadasz oprogramowanie FC z API w wersji <span class=\"message-negative\">$1</span>. Zapis i odtwarzanie konfiguracji wymaga wersji<span class=\"message-positive\">$2</span>. Prosimy, zapisz swoją konfigurację za pomocą CLI. Opis procedury znajdziesz w dokumentacji Betaflight."
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Kalibracja akcelerometru"
     },
     "initialSetupCalibrateAccelText": {
-        "message": "Połóż płytkę FC lub ramę na <strong>płaskiej<\/strong> powierzchni i kontynuuj kalibrację. Zwróć uwagę by płytka\/rama nie ruszała się podczas trwania kaliblracji."
+        "message": "Połóż płytkę FC lub ramę na <strong>płaskiej</strong> powierzchni i kontynuuj kalibrację. Zwróć uwagę by płytka/rama nie ruszała się podczas trwania kaliblracji."
     },
     "initialSetupButtonCalibrateMag": {
         "message": "Kalibracja magnetometru"
     },
     "initialSetupCalibrateMagText": {
-        "message": "Obróć drona przynajmniej <strong>360<\/strong> stopni wokół każdej osi obrotu, masz 30 sekund aby wykonać to zadanie."
+        "message": "Obróć drona przynajmniej <strong>360</strong> stopni wokół każdej osi obrotu, masz 30 sekund aby wykonać to zadanie."
     },
     "initialSetupButtonCalibratingText": {
         "message": "Kalibracja..."
@@ -546,7 +546,7 @@
         "message": "Resetuj ustawienia"
     },
     "initialSetupResetText": {
-        "message": "Przywróć ustawienia <strong>domyślne<\/strong>."
+        "message": "Przywróć ustawienia <strong>domyślne</strong>."
     },
     "initialSetupButtonBackup": {
         "message": "Zapisz kopię zapasową."
@@ -555,19 +555,19 @@
         "message": "Przywróć kopię zapasową."
     },
     "initialSetupButtonRebootBootloader": {
-        "message": "Aktywacja Boot Loader'a \/ DFU"
+        "message": "Aktywacja Boot Loader'a / DFU"
     },
     "initialSetupBackupRestoreText": {
-        "message": "<strong>Utwórz kopię zapasową<\/strong> swojej konfiguracji na wypadek utraty, <strong>Ustawienia CLI<\/strong> <span class=\"message-negative\">nie są<\/span> uwzględniane - użyj do tego komendy 'diff all' w CLI."
+        "message": "<strong>Utwórz kopię zapasową</strong> swojej konfiguracji na wypadek utraty, <strong>Ustawienia CLI</strong> <span class=\"message-negative\">nie są</span> uwzględniane - użyj do tego komendy 'diff all' w CLI."
     },
     "initialSetupRebootBootloaderText": {
-        "message": "Ponowne uruchomienie do <strong>boot loader'a \/ DFU<\/strong>."
+        "message": "Ponowne uruchomienie do <strong>boot loader'a / DFU</strong>."
     },
     "initialSetupBackupSuccess": {
-        "message": "Kopia zapasowa została <span class=\"message-positive\">zapisana<\/span>."
+        "message": "Kopia zapasowa została <span class=\"message-positive\">zapisana</span>."
     },
     "initialSetupRestoreSuccess": {
-        "message": "Kopia zapasowa została <span class=\"message-positive\">przywrócona<\/span>."
+        "message": "Kopia zapasowa została <span class=\"message-positive\">przywrócona</span>."
     },
     "initialSetupButtonResetZaxis": {
         "message": "Resetuj oś Z, położenie: 0 stopni"
@@ -751,19 +751,19 @@
         "message": "Kalibracja akcelerometru uruchomiona"
     },
     "initialSetupAccelCalibEnded": {
-        "message": "Kalibracja akcelerometru <span class=\"message-positive\">zakończona<\/span>"
+        "message": "Kalibracja akcelerometru <span class=\"message-positive\">zakończona</span>"
     },
     "initialSetupMagCalibStarted": {
         "message": "Kalibracja magnetometru uruchomiona"
     },
     "initialSetupMagCalibEnded": {
-        "message": "Kalibracja magnetometru <span class=\"message-positive\">zakończona<\/span>"
+        "message": "Kalibracja magnetometru <span class=\"message-positive\">zakończona</span>"
     },
     "initialSetupSettingsRestored": {
-        "message": "Ustawienia przywrócone do <strong>domyślnych<\/strong>"
+        "message": "Ustawienia przywrócone do <strong>domyślnych</strong>"
     },
     "initialSetupEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">zapisany<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">zapisany</span>"
     },
     "featureNone": {
         "message": "&lt;Wybierz jeden&gt;"
@@ -844,7 +844,7 @@
         "message": "Wsparcie SPI RX"
     },
     "featureESC_SENSOR": {
-        "message": "Użyj telemetrii KISS\/BlHeli_32 jako czujnika."
+        "message": "Użyj telemetrii KISS/BlHeli_32 jako czujnika."
     },
     "featureCHANNEL_FORWARDING": {
         "message": "Prześlij wartość kanału AUX do wyjść serwomechanizmów"
@@ -913,13 +913,13 @@
         "message": "RSSI jest wskaźnikiem siły sygnału i jest bardzo pomocna gdy Twój dron odlatuje z zasięgu lub występują zakłócenia sygnału."
     },
     "configurationEscFeatures": {
-        "message": "Ustawienia ESC\/Silników"
+        "message": "Ustawienia ESC/Silników"
     },
     "configurationSerialRXHelp": {
-        "message": "<strong>Uwaga:<\/strong> Gdy używasz odbiornika typu RX_SERIAL, pamiętaj o skonfigurowaniu portu (w zakładce Porty) i wybraniu rodzaju sygnału odbiornika."
+        "message": "<strong>Uwaga:</strong> Gdy używasz odbiornika typu RX_SERIAL, pamiętaj o skonfigurowaniu portu (w zakładce Porty) i wybraniu rodzaju sygnału odbiornika."
     },
     "configurationSpiRxHelp": {
-        "message": "<strong>Uwaga:<\/strong> Odbiornik typu SPI RX będzie działa tylko gdy odbiornik jest zintegrowany z FC lub jest podłączony do magistrali SPI."
+        "message": "<strong>Uwaga:</strong> Odbiornik typu SPI RX będzie działa tylko gdy odbiornik jest zintegrowany z FC lub jest podłączony do magistrali SPI."
     },
     "configurationBoardAlignment": {
         "message": "Ułożenie płytki i czujników"
@@ -937,10 +937,10 @@
         "message": "Ułożenie żyroskopu"
     },
     "configurationSensorGyroToUse": {
-        "message": "GYRO\/ACCEL"
+        "message": "GYRO/ACCEL"
     },
     "configurationSensorGyroToUseNotFound": {
-        "message": "Ostrzeżenie: Nie znaleziono Gyro\/Accel"
+        "message": "Ostrzeżenie: Nie znaleziono Gyro/Accel"
     },
     "configurationSensorGyroToUseFirst": {
         "message": "Pierwszy"
@@ -988,7 +988,7 @@
         "message": "Kierunek silników jest odwrócony"
     },
     "configurationReverseMotorSwitchHelp": {
-        "message": "Ta opcja konfiguruje mikser aby wyczekiwał że kierunek silnika zostanie odwrócony a śmigła odpowiedni założone.<strong>Ostrzeżenie:<\/strong> Nie zmienia to kierunku silnika. Użyj narzędzia do konfiguracji twoich ESC lub zamień kolejność przewodów silnika aby to osiągnąć. Upewnij się również bez założonych śmigieł czy silniki kręcą się w kierunku jak na diagramie powyżej przed próbą uzbrajania."
+        "message": "Ta opcja konfiguruje mikser aby wyczekiwał że kierunek silnika zostanie odwrócony a śmigła odpowiedni założone.<strong>Ostrzeżenie:</strong> Nie zmienia to kierunku silnika. Użyj narzędzia do konfiguracji twoich ESC lub zamień kolejność przewodów silnika aby to osiągnąć. Upewnij się również bez założonych śmigieł czy silniki kręcą się w kierunku jak na diagramie powyżej przed próbą uzbrajania."
     },
     "configurationAutoDisarmDelay": {
         "message": "Rozbrojenie silników po ustawionym czasie [sekundy] (Wymaga uruchomienia MOTOR_STOP)"
@@ -1021,7 +1021,7 @@
         "message": "Zapikaj gdy nadajnik RC jest wyłączony lub nie ma zasięgu (powtarzaj dopóki nadajnik nie jest ok)"
     },
     "beeperRX_LOST_LANDING": {
-        "message": "Emituje sygnał SOS gdy jest uzbrojony a nadajnik RC jest wyłączony lub nie ma zasięgu (automatyczne lądowanie\/rozbrajanie)"
+        "message": "Emituje sygnał SOS gdy jest uzbrojony a nadajnik RC jest wyłączony lub nie ma zasięgu (automatyczne lądowanie/rozbrajanie)"
     },
     "beeperDISARMING": {
         "message": "Zapikaj przy rozbrajaniu kontrolera lotu"
@@ -1045,13 +1045,13 @@
         "message": "Kalibracja akcelerometru podczas lotu nie powiodła się"
     },
     "configuration3d": {
-        "message": "Ustawienia ESC\/Silników do lotów 3D"
+        "message": "Ustawienia ESC/Silników do lotów 3D"
     },
     "configurationSystem": {
         "message": "Konfiguracja systemu"
     },
     "configurationCalculatedCyclesSec": {
-        "message": "Cykle\/Sekundy [Hz]"
+        "message": "Cykle/Sekundy [Hz]"
     },
     "configurationGPS": {
         "message": "GPS"
@@ -1066,7 +1066,7 @@
         "message": "Rodzaj sygnału odbiornika SPI"
     },
     "configurationEepromSaved": {
-        "message": "Pamięć EEPROM <span class=\"message-positive\">zapisana<\/span>"
+        "message": "Pamięć EEPROM <span class=\"message-positive\">zapisana</span>"
     },
     "configurationButtonSave": {
         "message": "Zapisz i zrestartuj"
@@ -1075,7 +1075,7 @@
         "message": "Identyfikator"
     },
     "portsConfiguration": {
-        "message": "Konfiguracja\/MSP"
+        "message": "Konfiguracja/MSP"
     },
     "portsSerialRx": {
         "message": "Serial Rx"
