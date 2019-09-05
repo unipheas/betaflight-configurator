@@ -106,7 +106,7 @@
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
     "sensorStatusSonar": {
-        "message": "Sonar\/Afstandsmåler"
+        "message": "Sonar/Afstandsmåler"
     },
     "sensorStatusSonarShort": {
         "message": "Sonar",
@@ -116,16 +116,16 @@
         "message": "Vis opdateringsadviseringer for ustabile versioner af konfiguratoren"
     },
     "configuratorUpdateNotice": {
-        "message": "Du benytter en forældet version af <b>Betaflight Configurator<\/b>.<br>Version <b>$1<\/b> er tilgængelig online, så besøg <a href=\"$2\" target=\"_blank\">udgivelsessiden<\/a> for at downloade og installere den seneste version med fejlrettelser og forbedringer.<br>Luk konfiguratorvinduet inden opdatering."
+        "message": "Du benytter en forældet version af <b>Betaflight Configurator</b>.<br>Version <b>$1</b> er tilgængelig online, så besøg <a href=\"$2\" target=\"_blank\">udgivelsessiden</a> for at downloade og installere den seneste version med fejlrettelser og forbedringer.<br>Luk konfiguratorvinduet inden opdatering."
     },
     "configuratorUpdateWebsite": {
         "message": "Åbn udgivelseswebsted"
     },
     "deviceRebooting": {
-        "message": "Enhed - <span class=\"message-negative\">Genstarter<\/span>"
+        "message": "Enhed - <span class=\"message-negative\">Genstarter</span>"
     },
     "deviceReady": {
-        "message": "Enhed - <span class=\"message-positive\">Klar<\/span>"
+        "message": "Enhed - <span class=\"message-positive\">Klar</span>"
     },
     "backupFileIncompatible": {
         "message": "Beklager, sikkerhedskopifilen er genereret for en tidligere version af konfiguratoren og er inkompatibel med denne version af konfiguratoren"
@@ -221,34 +221,34 @@
         "message": "Vis log"
     },
     "serialPortOpened": {
-        "message": "Serielport <span class=\"message-positive\">åbnet<\/span> med ID: $1"
+        "message": "Serielport <span class=\"message-positive\">åbnet</span> med ID: $1"
     },
     "serialPortOpenFail": {
-        "message": "<span class=\"message-negative\">Mislykkedes<\/span> at åbne serielport"
+        "message": "<span class=\"message-negative\">Mislykkedes</span> at åbne serielport"
     },
     "serialPortClosedOk": {
-        "message": "Serielport <span class=\"message-positive\">lukket<\/span>"
+        "message": "Serielport <span class=\"message-positive\">lukket</span>"
     },
     "serialPortClosedFail": {
-        "message": "<span class=\"message-negative\">Mislykkedes<\/span> at lukke serielport"
+        "message": "<span class=\"message-negative\">Mislykkedes</span> at lukke serielport"
     },
     "serialUnrecoverable": {
-        "message": "Uoprettelig <span class=\"message-negative\">fejl<\/span> i serielforbindelse, frakobler..."
+        "message": "Uoprettelig <span class=\"message-negative\">fejl</span> i serielforbindelse, frakobler..."
     },
     "usbDeviceOpened": {
-        "message": "USB-enhed <span class=\"message-positive\">åbnet<\/span> med ID: $1"
+        "message": "USB-enhed <span class=\"message-positive\">åbnet</span> med ID: $1"
     },
     "usbDeviceOpenFail": {
-        "message": "<span class=\"message-negative\">Mislykkedes<\/span> at åbne USB-enhed!"
+        "message": "<span class=\"message-negative\">Mislykkedes</span> at åbne USB-enhed!"
     },
     "usbDeviceClosed": {
-        "message": "USB-enhed <span class=\"message-positive\">lukket<\/span>"
+        "message": "USB-enhed <span class=\"message-positive\">lukket</span>"
     },
     "usbDeviceCloseFail": {
-        "message": "<span class=\"message-negative\">Mislykkedes<\/span> at lukke USB-enhed"
+        "message": "<span class=\"message-negative\">Mislykkedes</span> at lukke USB-enhed"
     },
     "usbDeviceUdevNotice": {
-        "message": "Er <strong>udev-regler<\/strong> korrekt installeret? Se doks for instruktioner"
+        "message": "Er <strong>udev-regler</strong> korrekt installeret? Se doks for instruktioner"
     },
     "stm32UsbDfuNotFound": {
         "message": "USB DFU ikke fundet"
@@ -299,7 +299,7 @@
         "message": "Læsebeskyttelse inaktiv"
     },
     "stm32ReadProtected": {
-        "message": "Board synes læsbeskyttet. Afbeskytter. Afbryd ikke\/fjern ikke stikket!"
+        "message": "Board synes læsbeskyttet. Afbeskytter. Afbryd ikke/fjern ikke stikket!"
     },
     "stm32UnprotectSuccessful": {
         "message": "Beskyttelse fjernet."
@@ -308,44 +308,44 @@
         "message": "HANDLING KRÆVES: Frakobl og tilkobl flight controller i DFU-tilstand for at forsøge gen-flashning!"
     },
     "infoVersions": {
-        "message": "Kører - OS: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
+        "message": "Kører - OS: <strong>{{operatingSystem}}</strong>, Chrome: <strong>{{chromeVersion}}</strong>, Configurator: <strong>{{configuratorVersion}}</strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
     "buildServerLoaded": {
         "message": "Indlæst builds-information for $1 fra build-server."
     },
     "tabSwitchConnectionRequired": {
-        "message": "Du skal <strong>oprette forbindelse<\/strong>, inden du kan se faner."
+        "message": "Du skal <strong>oprette forbindelse</strong>, inden du kan se faner."
     },
     "tabSwitchWaitForOperation": {
-        "message": "Du <span class=\"message-negative\">kan ikke<\/span> gøre dette lige nu, afvent aktuel operations færdiggørelse..."
+        "message": "Du <span class=\"message-negative\">kan ikke</span> gøre dette lige nu, afvent aktuel operations færdiggørelse..."
     },
     "tabSwitchUpgradeRequired": {
-        "message": "Du skal <strong>opgradere<\/strong> din firmware til seneste version af Betaflight, inden du kan benytte $1-fanen."
+        "message": "Du skal <strong>opgradere</strong> din firmware til seneste version af Betaflight, inden du kan benytte $1-fanen."
     },
     "firmwareVersion": {
-        "message": "Firmware-version: <strong>$1<\/strong>"
+        "message": "Firmware-version: <strong>$1</strong>"
     },
     "apiVersionReceived": {
-        "message": "MultiWii API-version: <strong>$1<\/strong>"
+        "message": "MultiWii API-version: <strong>$1</strong>"
     },
     "uniqueDeviceIdReceived": {
-        "message": "Unik enheds-ID: <strong>0x$1<\/strong>"
+        "message": "Unik enheds-ID: <strong>0x$1</strong>"
     },
     "armingDisabled": {
-        "message": "<strong>Indkobling deaktiveret<\/strong>"
+        "message": "<strong>Indkobling deaktiveret</strong>"
     },
     "armingEnabled": {
-        "message": "<strong>Indkobling aktiveret<\/strong>"
+        "message": "<strong>Indkobling aktiveret</strong>"
     },
     "boardInfoReceived": {
-        "message": "Board: <strong>$1<\/strong>, version: <strong>$2<\/strong>"
+        "message": "Board: <strong>$1</strong>, version: <strong>$2</strong>"
     },
     "buildInfoReceived": {
-        "message": "Kørende firmware udgivet: <strong>$1<\/strong>"
+        "message": "Kørende firmware udgivet: <strong>$1</strong>"
     },
     "fcInfoReceived": {
-        "message": "Flight controller info, identifikator: <strong>$1<\/strong>, version: <strong>$2<\/strong>"
+        "message": "Flight controller info, identifikator: <strong>$1</strong>, version: <strong>$2</strong>"
     },
     "versionLabelTarget": {
         "message": "Mål"
@@ -381,19 +381,19 @@
         "message": "Benyt Firmware Flasher for at tilgå DFU-enheder"
     },
     "dfu_erased_kilobytes": {
-        "message": "$1 kB af flash <span class=\"message-positive\">slettet<\/span>"
+        "message": "$1 kB af flash <span class=\"message-positive\">slettet</span>"
     },
     "dfu_error_image_size": {
-        "message": "<span class=\"message-negative\">Fejl<\/span>: Billede er større end tilgængelig flash på chippen! Billede: $1 KiB, grænse = $2 KiB"
+        "message": "<span class=\"message-negative\">Fejl</span>: Billede er større end tilgængelig flash på chippen! Billede: $1 KiB, grænse = $2 KiB"
     },
     "eeprom_saved_ok": {
-        "message": "EEPROM <span class=\"message-positive\">gemt<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">gemt</span>"
     },
     "defaultWelcomeHead": {
         "message": "Hardware"
     },
     "defaultWelcomeText": {
-        "message": "Programmet understøtter al hardware, der kan køre Betaflight. Tjek flash-fanen for en fuld hardwareoversigt.<br><br> <a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\"> Download Betaflight Blackbox Log Viser<\/a><br \/><br \/>Firmware-kildekoden kan downloades <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">hér<\/a><br \/><br \/>Seneste <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210x-drivere<\/a> kan downloades <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">hér<\/a><br \/>Seneste <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCP-drivere<\/a> kan downloades <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">hér<\/a><br \/>Seneste <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> USB-driverinstallation til Windows kan downloades <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">hér<\/a><br \/>"
+        "message": "Programmet understøtter al hardware, der kan køre Betaflight. Tjek flash-fanen for en fuld hardwareoversigt.<br><br> <a href=\"https://github.com/betaflight/blackbox-log-viewer/releases\" target=\"_blank\"> Download Betaflight Blackbox Log Viser</a><br /><br />Firmware-kildekoden kan downloades <a href=\"https://github.com/betaflight/betaflight\" title=\"www.github.com\" target=\"_blank\">hér</a><br /><br />Seneste <a href=\"http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx\" title=\"http://www.silabs.com\" target=\"_blank\">CP210x-drivere</a> kan downloades <a href=\"http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx\" title=\"http://www.silabs.com\" target=\"_blank\">hér</a><br />Seneste <a href=\"http://www.st.com/web/en/catalog/tools/PF257938\" title=\"http://www.st.com\" target=\"_blank\">STM USB VCP-drivere</a> kan downloades <a href=\"http://www.st.com/web/en/catalog/tools/PF257938\" title=\"http://www.st.com\" target=\"_blank\">hér</a><br />Seneste <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">Zadig</a> USB-driverinstallation til Windows kan downloades <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">hér</a><br />"
     },
     "defaultContributingHead": {
         "message": "Bidrag"
@@ -402,7 +402,7 @@
         "message": "Firmware-flasher"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Betaflight<\/strong> er en <strong>open source<\/strong> flight controller-software og er tilgængelig uden beregning og <strong>uden garanty<\/strong> for alle brugere.<\/p><p>Hvis du fandt Betaflight eller Betaflight-konfiguratoren nyttig, så overvej venligst at <strong>støtte<\/strong> udviklingen ved at donere.<\/p>"
+        "message": "<p><strong>Betaflight</strong> er en <strong>open source</strong> flight controller-software og er tilgængelig uden beregning og <strong>uden garanty</strong> for alle brugere.</p><p>Hvis du fandt Betaflight eller Betaflight-konfiguratoren nyttig, så overvej venligst at <strong>støtte</strong> udviklingen ved at donere.</p>"
     },
     "defaultDonate": {
         "message": "Donere"
@@ -411,7 +411,7 @@
         "message": "Sponsorer"
     },
     "defaultDocumentation2": {
-        "message": "Udgivelsesnotaterne til firmwaren kan læses på GitHub-udgivelsessiden <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">hér<\/a>."
+        "message": "Udgivelsesnotaterne til firmwaren kan læses på GitHub-udgivelsessiden <a href=\"https://github.com/Betaflight/Betaflight/releases\" target=\"_blank\">hér</a>."
     },
     "defaultSupportHead": {
         "message": "Support"
@@ -423,22 +423,22 @@
         "message": "Udvikler"
     },
     "defaultSupport": {
-        "message": "For support bedes du først søge i fora og wiki eller kontakte sælgeren.<br \/><br \/>"
+        "message": "For support bedes du først søge i fora og wiki eller kontakte sælgeren.<br /><br />"
     },
     "defaultSupport1": {
-        "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">RC-gruppetråde<\/a>"
+        "message": "<a href=\"http://www.rcgroups.com/forums/showthread.php?t=2464844&page=1\" target=\"_blank\">RC-gruppetråde</a>"
     },
     "defaultSupport2": {
-        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Betaflight Wiki<\/a>"
+        "message": "<a href=\"http://betaflight.info\" target=\"_blank\">Betaflight Wiki</a>"
     },
     "defaultSupport3": {
-        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Betaflight-videoer<\/a>"
+        "message": "<a href=\"https://www.youtube.com/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Betaflight-videoer</a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+        "message": "<a href=\"https://github.com/Betaflight\" target=\"_blank\">GitHub</a>"
     },
     "initialSetupCalibrateMagText": {
-        "message": "Bevæg indenfor 30 sek. multirotoren mindst <strong>360<\/strong> grader i alle dens rotationsakser"
+        "message": "Bevæg indenfor 30 sek. multirotoren mindst <strong>360</strong> grader i alle dens rotationsakser"
     },
     "initialSetupButtonCalibratingText": {
         "message": "Kalibrerér..."
@@ -447,7 +447,7 @@
         "message": "Nulstil Indstillinger"
     },
     "initialSetupResetText": {
-        "message": "Gendan til <strong>standardindstillinger<\/strong>"
+        "message": "Gendan til <strong>standardindstillinger</strong>"
     },
     "initialSetupButtonBackup": {
         "message": "Sikkerhedskopiér"
@@ -456,19 +456,19 @@
         "message": "Gendan"
     },
     "initialSetupButtonRebootBootloader": {
-        "message": "Aktivér Boot Loader\/DFU"
+        "message": "Aktivér Boot Loader/DFU"
     },
     "initialSetupBackupRestoreText": {
-        "message": "<strong>Sikkerhedskopiér<\/strong> din opsætning i tilfælde af uheld. <strong>CLI-indstillinger<\/strong> medtages <span class=\"message-negative\">ikke<\/span> - benyt kommandoen 'diff all' i CLI til dette."
+        "message": "<strong>Sikkerhedskopiér</strong> din opsætning i tilfælde af uheld. <strong>CLI-indstillinger</strong> medtages <span class=\"message-negative\">ikke</span> - benyt kommandoen 'diff all' i CLI til dette."
     },
     "initialSetupRebootBootloaderText": {
-        "message": "Reboot til <strong>boot loader-\/DFU-tilstand<\/strong>."
+        "message": "Reboot til <strong>boot loader-/DFU-tilstand</strong>."
     },
     "initialSetupBackupSuccess": {
-        "message": "Sikkerhedskopi er <span class=\"message-positive\">gemt<\/span>"
+        "message": "Sikkerhedskopi er <span class=\"message-positive\">gemt</span>"
     },
     "initialSetupRestoreSuccess": {
-        "message": "Opsætning blev <span class=\"message-positive\">gendannet<\/span>"
+        "message": "Opsætning blev <span class=\"message-positive\">gendannet</span>"
     },
     "initialSetupButtonResetZaxis": {
         "message": "Nulstil Z-akse, forskydn.: 0 gr"
@@ -610,7 +610,7 @@
         "description": "Message that pops up to describe the CLI arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
-        "message": "CMS (opsætningsmenu) er Aktiv - via OSD\/anden skærm -",
+        "message": "CMS (opsætningsmenu) er Aktiv - via OSD/anden skærm -",
         "description": "Message that pops up to describe the CMS_MENU arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
@@ -660,16 +660,16 @@
         "message": "Accelerometerkalibrering startet"
     },
     "initialSetupAccelCalibEnded": {
-        "message": "Accelerometerkalibrering <span class=\"message-positive\">færdig<\/span>"
+        "message": "Accelerometerkalibrering <span class=\"message-positive\">færdig</span>"
     },
     "initialSetupMagCalibStarted": {
         "message": "Magnetometerkalibrering startet"
     },
     "initialSetupMagCalibEnded": {
-        "message": "Magnetometerkalibrering <span class=\"message-positive\">færdig<\/span>"
+        "message": "Magnetometerkalibrering <span class=\"message-positive\">færdig</span>"
     },
     "initialSetupEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">gemt<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">gemt</span>"
     },
     "featureNone": {
         "message": "&lt;Vælg en&gt;"
@@ -744,7 +744,7 @@
         "message": "SPI RX-understøttelse"
     },
     "featureESC_SENSOR": {
-        "message": "Benyt KISS\/BLHeli_32 ESC-telemetri som sensor"
+        "message": "Benyt KISS/BLHeli_32 ESC-telemetri som sensor"
     },
     "featureCHANNEL_FORWARDING": {
         "message": "Videresend aux-kanaler til servoudgange"
@@ -783,7 +783,7 @@
         "message": "Aktivér Failsafe"
     },
     "featureFAILSAFETip": {
-        "message": "<strong>Bemærk:<\/strong> Når Triin 2 er DEAKTIVERET, benyttes fejlsikringsindstillingen <strong>Auto<\/strong> for alle flykanalerne (Roll, Pitch, Yaw og Gas) i stedet for brugerindstillingerne."
+        "message": "<strong>Bemærk:</strong> Når Triin 2 er DEAKTIVERET, benyttes fejlsikringsindstillingen <strong>Auto</strong> for alle flykanalerne (Roll, Pitch, Yaw og Gas) i stedet for brugerindstillingerne."
     },
     "featureFAILSAFEOldTip": {
         "message": "Anvend Fejlsikringsindstillinger ved RX-signaltab"
@@ -816,19 +816,19 @@
         "message": "RSSI er en måling af signalstyrke og er meget praktisk for at vide, hvornår dit fly når uden for rækkevidde eller udsættes for RF-interferens."
     },
     "configurationEscFeatures": {
-        "message": "ESC-\/Motorfunktioner"
+        "message": "ESC-/Motorfunktioner"
     },
     "configurationFeaturesHelp": {
-        "message": "<strong>Bemærk:<\/strong> Ikke alle funktionskombinationer fungerer. Opdager flight controller-firmwaren ugyldige funktionskombinationer, deaktiveres modstridende funktioner.<br \/><strong>Bemærk:<\/strong> Opsæt serielporte <span class=\"message-negative\">inden<\/span> aktivering af funktioner, som skal benytter portene."
+        "message": "<strong>Bemærk:</strong> Ikke alle funktionskombinationer fungerer. Opdager flight controller-firmwaren ugyldige funktionskombinationer, deaktiveres modstridende funktioner.<br /><strong>Bemærk:</strong> Opsæt serielporte <span class=\"message-negative\">inden</span> aktivering af funktioner, som skal benytter portene."
     },
     "configurationSerialRXHelp": {
-        "message": "<strong>Bemærk:<\/strong> Husk at opsætte en serielport (via fanen Porte) og vælg en Serielmodtagerleverandør, når RX_SERIAL-funktionen benyttes."
+        "message": "<strong>Bemærk:</strong> Husk at opsætte en serielport (via fanen Porte) og vælg en Serielmodtagerleverandør, når RX_SERIAL-funktionen benyttes."
     },
     "configurationSpiRxHelp": {
-        "message": "<strong>Note:<\/strong> SPI RX-leverandøren vil kun fungere, hvis den nødvendige hardware er on-board eller tilsluttet en SPI-bus."
+        "message": "<strong>Note:</strong> SPI RX-leverandøren vil kun fungere, hvis den nødvendige hardware er on-board eller tilsluttet en SPI-bus."
     },
     "configurationOtherFeaturesHelp": {
-        "message": "<strong>Bemærk:<\/strong> Ikke alle funktioner understøttes af alle flight controllere. Aktiveres en bestemt funktion, og er den derefter deaktiveret, når du har valgt \"Gem og genstart\", er funktionen uunderstøttet af boardet."
+        "message": "<strong>Bemærk:</strong> Ikke alle funktioner understøttes af alle flight controllere. Aktiveres en bestemt funktion, og er den derefter deaktiveret, når du har valgt \"Gem og genstart\", er funktionen uunderstøttet af boardet."
     },
     "configurationBoardAlignment": {
         "message": "Board- og Sensorjustering"
@@ -846,10 +846,10 @@
         "message": "GYRO-justering"
     },
     "configurationSensorGyroToUse": {
-        "message": "GYRO\/ACCEL"
+        "message": "GYRO/ACCEL"
     },
     "configurationSensorGyroToUseNotFound": {
-        "message": "Advarsel: Ingen Gyro\/Acc fundet"
+        "message": "Advarsel: Ingen Gyro/Acc fundet"
     },
     "configurationSensorGyroToUseFirst": {
         "message": "Første"
@@ -897,7 +897,7 @@
         "message": "Motorretning er vendt om"
     },
     "configurationReverseMotorSwitchHelp": {
-        "message": "Denne mulighed opsætter mixeren til at forvente, at motorretningen skal vendes, og at propellerne er tilsvarende monteret. <strong>Advarsel:<\/strong> Dette vender ikke motorretningen. Brug opsætningssværktøjet til dine ESC'er eller skift ESC-motorledningsrækkefølgen for at opnå dette. Tjek også, uden propeller, at dine motorer roterer i retningerne vist i diagrammet ovenfor, inden du forsøger at indkoble."
+        "message": "Denne mulighed opsætter mixeren til at forvente, at motorretningen skal vendes, og at propellerne er tilsvarende monteret. <strong>Advarsel:</strong> Dette vender ikke motorretningen. Brug opsætningssværktøjet til dine ESC'er eller skift ESC-motorledningsrækkefølgen for at opnå dette. Tjek også, uden propeller, at dine motorer roterer i retningerne vist i diagrammet ovenfor, inden du forsøger at indkoble."
     },
     "configurationAutoDisarmDelay": {
         "message": "Afkobl motorer jf. opsat forsinkelse [seconds] (Kræver MOTOR_STOP-funktion)"
@@ -939,7 +939,7 @@
         "message": "Beacon-tone"
     },
     "configurationDshotBeaconHelp": {
-        "message": "Dshot-beacon'et benytter ESC'erne og motorerne til lydafgivelse. Dette betyder, at Dshot-beacon'et ikke kan benyttes, når motorerne roterer. Fra Betaflight 3.4: Forsøges der indkoblet, mens Dshot-beacon'et er aktivt, forekommer en 2 sekunders forsinkelse efter den seneste Dshot beacon-tone, inden fartøjet indkobles. Dette forhindrer Dshot-beacon funktionen i at forstyrre Dshot-indkoblingskommandoerne. <br\/><strong>Advarsel:<\/strong> Når aktiveret, sender Dshot-beacon'et strøm gennem motorerne, hvilket kan resultere i for høj varmeudvikling og beskadigelse af motorer og\/eller ESC'er, hvis beacon-styrken er for høj. Benyt BLHeli Configurator eller BLHeli Suite til at justere og teste beacon-styrken."
+        "message": "Dshot-beacon'et benytter ESC'erne og motorerne til lydafgivelse. Dette betyder, at Dshot-beacon'et ikke kan benyttes, når motorerne roterer. Fra Betaflight 3.4: Forsøges der indkoblet, mens Dshot-beacon'et er aktivt, forekommer en 2 sekunders forsinkelse efter den seneste Dshot beacon-tone, inden fartøjet indkobles. Dette forhindrer Dshot-beacon funktionen i at forstyrre Dshot-indkoblingskommandoerne. <br/><strong>Advarsel:</strong> Når aktiveret, sender Dshot-beacon'et strøm gennem motorerne, hvilket kan resultere i for høj varmeudvikling og beskadigelse af motorer og/eller ESC'er, hvis beacon-styrken er for høj. Benyt BLHeli Configurator eller BLHeli Suite til at justere og teste beacon-styrken."
     },
     "configurationBeeper": {
         "message": "Bipperopsætning"
@@ -1008,7 +1008,7 @@
         "message": "Bip når indkoblet og rc smooting ikke har initialiseret filtre"
     },
     "configuration3d": {
-        "message": "3D ESC\/Motorfunktioner"
+        "message": "3D ESC/Motorfunktioner"
     },
     "configuration3dDeadbandLow": {
         "message": "3D Deadband Lav"
@@ -1029,7 +1029,7 @@
         "message": "Flight Controller Loop-tid"
     },
     "configurationLoopTimeNo32KhzHelp": {
-        "message": "$t(configurationLoopTimeHelp.message)<br><strong>Note til 32 kHz gyro samplingtilstand:<\/strong> Understøttelse af 32 kHz gyro samplingtilstand blev tilføjet Betaflight som en eksperimentel funktion. I de år den var tilgængelig, har den aldrig vist sig at have nogen fordel ift. 8 kHz gyro samplingtilstanden grundet dens vibrationsfølsomhed og høje støjniveau, som kræver aggressiv filtrering med forsinkelser i kontrolløkken til følge. Af denne grund er <strong>understøttelse af 32 kHz gyro samplingtilstand droppet<\/strong> i Betaflight 4.0."
+        "message": "$t(configurationLoopTimeHelp.message)<br><strong>Note til 32 kHz gyro samplingtilstand:</strong> Understøttelse af 32 kHz gyro samplingtilstand blev tilføjet Betaflight som en eksperimentel funktion. I de år den var tilgængelig, har den aldrig vist sig at have nogen fordel ift. 8 kHz gyro samplingtilstanden grundet dens vibrationsfølsomhed og høje støjniveau, som kræver aggressiv filtrering med forsinkelser i kontrolløkken til følge. Af denne grund er <strong>understøttelse af 32 kHz gyro samplingtilstand droppet</strong> i Betaflight 4.0."
     },
     "configurationGPS": {
         "message": "GPS"
@@ -1050,7 +1050,7 @@
         "message": "Auto-opsætn."
     },
     "configurationGPSHelp": {
-        "message": "<strong>Bemærk:<\/strong> Husk at opsætte en Serielport (via fanen Porte) ved brug af GPS-funktion."
+        "message": "<strong>Bemærk:</strong> Husk at opsætte en Serielport (via fanen Porte) ved brug af GPS-funktion."
     },
     "configurationSerialRX": {
         "message": "Serielmodtagerleverandør"
@@ -1059,7 +1059,7 @@
         "message": "SPI-busmodtagerleverandør"
     },
     "configurationEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">gemt<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">gemt</span>"
     },
     "configurationButtonSave": {
         "message": "Gem og Genstart"
@@ -1068,7 +1068,7 @@
         "message": "Identifikator"
     },
     "portsConfiguration": {
-        "message": "Opsætning\/MSP"
+        "message": "Opsætning/MSP"
     },
     "portsSerialRx": {
         "message": "Seriel-Rx"
@@ -1083,13 +1083,13 @@
         "message": "Tilbehør"
     },
     "portsHelp": {
-        "message": "<strong>Bemærk:<\/strong> Ikke alle kombinationer er gyldige. Når flight controller-firmwaren opdager dette, nulstilles serielportopsætningen."
+        "message": "<strong>Bemærk:</strong> Ikke alle kombinationer er gyldige. Når flight controller-firmwaren opdager dette, nulstilles serielportopsætningen."
     },
     "portsMSPHelp": {
-        "message": "<strong>Bemærk:<\/strong> Deaktivér <span class=\"message-negative\">IKKE<\/span> MSP på den første serielport med mindre du ved, hvad du gør. Du skal måske gen-flashe og slette opsætningen i så tilfælde."
+        "message": "<strong>Bemærk:</strong> Deaktivér <span class=\"message-negative\">IKKE</span> MSP på den første serielport med mindre du ved, hvad du gør. Du skal måske gen-flashe og slette opsætningen i så tilfælde."
     },
     "portsFirmwareUpgradeRequired": {
-        "message": "Firmware-opgradering <span class=\"message-negative\">nødvendig<\/span>.  Serielportopsætning understøttes ikke af firmware &lt; 1.8.0."
+        "message": "Firmware-opgradering <span class=\"message-negative\">nødvendig</span>.  Serielportopsætning understøttes ikke af firmware &lt; 1.8.0."
     },
     "portsButtonSave": {
         "message": "Gem og Genstart"
@@ -1161,7 +1161,7 @@
         "message": "Benewake LIDAR"
     },
     "pidTuningUpgradeFirmwareToChangePidController": {
-        "message": "<span class=\"message-negative\">Ændring af PID-controller er deaktiveret - du kan ændre den via CLI.<\/span> Du har firmware med API-version <span class=\"message-negative\">$1<\/span>, men denne funktionalitet kræver <span class=\"message-positive\">$2<\/span>."
+        "message": "<span class=\"message-negative\">Ændring af PID-controller er deaktiveret - du kan ændre den via CLI.</span> Du har firmware med API-version <span class=\"message-negative\">$1</span>, men denne funktionalitet kræver <span class=\"message-positive\">$2</span>."
     },
     "pidTuningSubTabFilter": {
         "message": "Filterindstillinger"
@@ -1261,7 +1261,7 @@
         "message": "RC-interpolation"
     },
     "receiverRcInterpolationHelp": {
-        "message": "RC TX-\/RX-systemer er ikke så hurtige som PID-loops. Det betyder, at en PID-loop har huller i informationsstrømmen fra RC-systemer. Denne indstilling muliggør interpolering af RC-inpout på de tidspunkter, hvor der ikke modtages RC-frames. Muligheden giver også renere P- og D-adfærd, da kontrolinput ikke sker rykvist."
+        "message": "RC TX-/RX-systemer er ikke så hurtige som PID-loops. Det betyder, at en PID-loop har huller i informationsstrømmen fra RC-systemer. Denne indstilling muliggør interpolering af RC-inpout på de tidspunkter, hvor der ikke modtages RC-frames. Muligheden giver også renere P- og D-adfærd, da kontrolinput ikke sker rykvist."
     },
     "receiverRcInterpolationIntervalHelp": {
         "message": "Interpoleringsinterval i millisekunder ved manuel RC-interpolationstilstand"
@@ -1300,10 +1300,10 @@
         "message": "Med denne parameter kan D Setpoint reduceres tæt ved pindenes centerpositioner, hvilket betyder en mere glidene afslutning på flips og rolls.<br> Værdien repræsenterer et punkt af pindudslaget: 0 - pind centreret, 1 - fuldt udslag. Når pinden er over dette punkt, holdes Setpoint-vægtningen konstant på den opsattte værdi. Når pinden er placeret under dette punkt, reduceres Setpoint-vægtningen proportionalt og når 0 ved pindens centerposition. <br> Værdien 1 giver maksimal udjævningseffekt, mens værdien 0 holder Setpoint-vægtningen på den opsatte værdi over hele pindområdet."
     },
     "pidTuningDtermSetpointHelp": {
-        "message": "Denne parameter afgør pindaccelerationseffekt indenfor en afledt komponent.<br> Værdien 0 modsvarer den gamle målemetode, hvor D kun sporer gyro, mens værdien 1 modsvarer den gamle fejlmetode med samme gyro- og pindsporingsforhold.<br> Lavere værdi modsvarer langsommere\/jævnere pindrespons, mens højere værdi giver øget pindaccelerationsrespons.<br> Bemærk, at RC-interpolation ambefales aktiveret ved højere værdier for at forhindre støj fra bratte kontrolpulser."
+        "message": "Denne parameter afgør pindaccelerationseffekt indenfor en afledt komponent.<br> Værdien 0 modsvarer den gamle målemetode, hvor D kun sporer gyro, mens værdien 1 modsvarer den gamle fejlmetode med samme gyro- og pindsporingsforhold.<br> Lavere værdi modsvarer langsommere/jævnere pindrespons, mens højere værdi giver øget pindaccelerationsrespons.<br> Bemærk, at RC-interpolation ambefales aktiveret ved højere værdier for at forhindre støj fra bratte kontrolpulser."
     },
     "pidTuningDtermSetpointTransitionWarning": {
-        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):<\/strong> Brug af en D Setpoint-overgang højere end 0 og lavere end 0.1 frarådes kraftigt, da dette kan medføre ustabilitet samt reduceret pindrespons, når pindene krydser centerpositionerne.<\/span>"
+        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):</strong> Brug af en D Setpoint-overgang højere end 0 og lavere end 0.1 frarådes kraftigt, da dette kan medføre ustabilitet samt reduceret pindrespons, når pindene krydser centerpositionerne.</span>"
     },
     "pidTuningProportional": {
         "message": "Proportional"
@@ -1330,7 +1330,7 @@
         "message": "SKALERING"
     },
     "pidTuningThrottleLimitTypeTip": {
-        "message": "Vælg gasbegrænsningstypen. <b>FRA<\/b> deaktiverer funktionen, <b>SKALÉR<\/b> inddeler gasområdet fra 0 til den valgte procentdel ift. hele gaspindområdet, <b>CLIP<\/b> indstiller en maks. gasprocentdel og pindudslag, udover hvilken der ikke vil være nogen yderligere effekt"
+        "message": "Vælg gasbegrænsningstypen. <b>FRA</b> deaktiverer funktionen, <b>SKALÉR</b> inddeler gasområdet fra 0 til den valgte procentdel ift. hele gaspindområdet, <b>CLIP</b> indstiller en maks. gasprocentdel og pindudslag, udover hvilken der ikke vil være nogen yderligere effekt"
     },
     "pidTuningThrottleLimitPercentTip": {
         "message": "Opsætter ønsket gasbegrænsningsprocent. Indstilling til 100% deaktiverer funktionen."
@@ -1387,22 +1387,22 @@
         "message": "Standard profilværdier indlæst."
     },
     "pidTuningLoadedProfile": {
-        "message": "Indlæst Profil: <strong class=\"message-positive\">$1<\/strong>"
+        "message": "Indlæst Profil: <strong class=\"message-positive\">$1</strong>"
     },
     "pidTuningLoadedRateProfile": {
-        "message": "Indlæst Rate-profil: <strong class=\"message-positive\">$1<\/strong>"
+        "message": "Indlæst Rate-profil: <strong class=\"message-positive\">$1</strong>"
     },
     "pidTuningDataRefreshed": {
-        "message": "PID-data <strong>opfrisket<\/strong>"
+        "message": "PID-data <strong>opfrisket</strong>"
     },
     "pidTuningEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">gemt<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">gemt</span>"
     },
     "receiverHelp": {
-        "message": "Læs Modtagerkapitlet i dokumentationen. Opsæt serielport (om nødvendigt), modtagertilstand (seriel\/ppm\/pwm), leverandør (til serielmodtagere), bind modtager, opsæt kanallayout, opsæt kanalendepunkter\/område på TX, så alle kanaler går fra ~ 1.000 til ~ 2.000. Opsæt midterpunkt (standard 1.500), trim-kanaler til 1.500, opsæt stick deadband, bekræft adfærd, når TX er slukket eller uden for rækkevidde.<br \/><span class=\"message-negative\">VIGTIGT:<\/span> Før du flyver, læs Failsafe-kapitlet i dokumentation og opsæt fejlsikring."
+        "message": "Læs Modtagerkapitlet i dokumentationen. Opsæt serielport (om nødvendigt), modtagertilstand (seriel/ppm/pwm), leverandør (til serielmodtagere), bind modtager, opsæt kanallayout, opsæt kanalendepunkter/område på TX, så alle kanaler går fra ~ 1.000 til ~ 2.000. Opsæt midterpunkt (standard 1.500), trim-kanaler til 1.500, opsæt stick deadband, bekræft adfærd, når TX er slukket eller uden for rækkevidde.<br /><span class=\"message-negative\">VIGTIGT:</span> Før du flyver, læs Failsafe-kapitlet i dokumentation og opsæt fejlsikring."
     },
     "filterWarning": {
-        "message": "<span class=\"message-negative\"><b>Advarsel:<\/b><\/span> Mængden af anvendt filtrering er farligt lav. Dette vil sandsynligvis gøre fartøjet svært at håndtere, og det kan resultere i flyaways. Det anbefales kraftigt at <b>aktivere mindst ét Gyro Dynamic Lowpass eller Gyro Lowpass 1 filter og mindst ét D Term Dynamic Lowpass eller D Term Lowpass 1 filter<\/b>."
+        "message": "<span class=\"message-negative\"><b>Advarsel:</b></span> Mængden af anvendt filtrering er farligt lav. Dette vil sandsynligvis gøre fartøjet svært at håndtere, og det kan resultere i flyaways. Det anbefales kraftigt at <b>aktivere mindst ét Gyro Dynamic Lowpass eller Gyro Lowpass 1 filter og mindst ét D Term Dynamic Lowpass eller D Term Lowpass 1 filter</b>."
     },
     "receiverThrottleMid": {
         "message": "Throttle MID"
@@ -1414,7 +1414,7 @@
         "message": "'Pind Lav'-tærskel"
     },
     "receiverHelpStickMin": {
-        "message": "Maks. værdi (i μs) for at en pind registreres som lav\/venstre kommandoinput (MIN_CHECK)."
+        "message": "Maks. værdi (i μs) for at en pind registreres som lav/venstre kommandoinput (MIN_CHECK)."
     },
     "receiverStickCenter": {
         "message": "Pindcenter"
@@ -1426,7 +1426,7 @@
         "message": "'Pind Høj'-tærskel"
     },
     "receiverHelpStickMax": {
-        "message": "Minimumsværdien (i μs) for at en pind registreres som høj\/højre for kommandoinput (MAX_CHECK)."
+        "message": "Minimumsværdien (i μs) for at en pind registreres som høj/højre for kommandoinput (MAX_CHECK)."
     },
     "receiverDeadband": {
         "message": "RC Deadband"
@@ -1438,13 +1438,13 @@
         "message": "Yaw Deadband"
     },
     "receiverHelpYawDeadband": {
-        "message": "Disse er værdier (i μs) af, hvor meget RC-input kan afvige, før det anses som gyldigt. For sendere med output-fluktueringer, kan denne værdi øges, hvis RC-inpur splætter i tomgang. <strong>Denne indstilling gælder kun Yaw.<\/strong>"
+        "message": "Disse er værdier (i μs) af, hvor meget RC-input kan afvige, før det anses som gyldigt. For sendere med output-fluktueringer, kan denne værdi øges, hvis RC-inpur splætter i tomgang. <strong>Denne indstilling gælder kun Yaw.</strong>"
     },
     "recevier3dDeadbandThrottle": {
         "message": "3D Gas Deadband"
     },
     "receiverHelp3dDeadbandThrottle": {
-        "message": "Disse er værdier (i μs). For at udvide den neutrale zone, forøg værdien. <strong>Denne indstilling gælder kun 3D-gas.<\/strong>"
+        "message": "Disse er værdier (i μs). For at udvide den neutrale zone, forøg værdien. <strong>Denne indstilling gælder kun 3D-gas.</strong>"
     },
     "receiverChannelMap": {
         "message": "Kanalkort"
@@ -1474,16 +1474,16 @@
         "message": "Styrpinde"
     },
     "receiverDataRefreshed": {
-        "message": "RC-tuningdata <strong>opfrisket<\/strong>"
+        "message": "RC-tuningdata <strong>opfrisket</strong>"
     },
     "receiverEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">gemt<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">gemt</span>"
     },
     "receiverModelPreview": {
         "message": "Forh.visning"
     },
     "receiverMspWarningText": {
-        "message": "Disse pinde tillader indkobling og test af Betaflight, uden en sender\/modtager er til stede. Bemærk, <strong>at denne funktion ikke er beregnet til flyvning, og propeller må ikke monteres.<\/strong><br><br>Denne funktion garanterer ikke pålidelig kontrol med dit fartøj. <strong>Alvorlig skade vil sandsynligvis opstå, hvis propellerne er påsat.<\/strong>"
+        "message": "Disse pinde tillader indkobling og test af Betaflight, uden en sender/modtager er til stede. Bemærk, <strong>at denne funktion ikke er beregnet til flyvning, og propeller må ikke monteres.</strong><br><br>Denne funktion garanterer ikke pålidelig kontrol med dit fartøj. <strong>Alvorlig skade vil sandsynligvis opstå, hvis propellerne er påsat.</strong>"
     },
     "receiverMspEnableButton": {
         "message": "Aktivér kontroller"
@@ -1507,7 +1507,7 @@
         "message": "Gem"
     },
     "auxiliaryEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">gemt<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">gemt</span>"
     },
     "auxiliaryAutoChannelSelect": {
         "message": "AUTO"
@@ -1657,7 +1657,7 @@
         "message": "Gem"
     },
     "adjustmentsEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">gemt<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">gemt</span>"
     },
     "transponderNotSupported": {
         "message": "Din flight controller-firmware understøtter ikke transponderfunktionalitet."
@@ -1702,16 +1702,16 @@
         "message": "Kun hexadecimale cifre, 0-9, A-F"
     },
     "transponderHelp1": {
-        "message": "Opsæt din transponderkode hér. Bemærk: Kun gyldige koder bliver genkendt af konkurrencetidtagningssystemer. Gyldige transponderkoder kan fås fra <a href=\"http:\/\/seriouslypro.com\/transponder-codes\" target=\"_blank\">Seriously Pro<\/a>."
+        "message": "Opsæt din transponderkode hér. Bemærk: Kun gyldige koder bliver genkendt af konkurrencetidtagningssystemer. Gyldige transponderkoder kan fås fra <a href=\"http://seriouslypro.com/transponder-codes\" target=\"_blank\">Seriously Pro</a>."
     },
     "transponderHelp2": {
-        "message": "For yderligere information besøg <a href=\"http:\/\/www.arcitimer.com\/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer-webstedet<\/a>"
+        "message": "For yderligere information besøg <a href=\"http://www.arcitimer.com/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer-webstedet</a>"
     },
     "transponderDataHelp3": {
         "message": "Vælg ERLT ID 0-63"
     },
     "transponderHelp3": {
-        "message": "For yderligere information besøg <a href=\"https:\/\/github.com\/polyvision\/EasyRaceLapTimer\" title=\"aRCiTimer\" target=\"_blank\">EasyRaceLapTimer-webstedet<\/a>"
+        "message": "For yderligere information besøg <a href=\"https://github.com/polyvision/EasyRaceLapTimer\" title=\"aRCiTimer\" target=\"_blank\">EasyRaceLapTimer-webstedet</a>"
     },
     "transponderButtonSave": {
         "message": "Gem"
@@ -1720,10 +1720,10 @@
         "message": "Gem og Genstart"
     },
     "transponderDataInvalid": {
-        "message": "Transponderdata er <span class=\"message-negative\">ugyldig<\/span>"
+        "message": "Transponderdata er <span class=\"message-negative\">ugyldig</span>"
     },
     "transponderEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">gemt<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">gemt</span>"
     },
     "servosFirmwareUpgradeRequired": {
         "message": "Servoer kræver firmware &gt;= 1.10.0 og målunderstøttelse."
@@ -1765,7 +1765,7 @@
         "message": "Omvendt"
     },
     "servosEepromSave": {
-        "message": "EEPROM <span class=\"message-positive\">gemt<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">gemt</span>"
     },
     "gpsHead": {
         "message": "GPS"
@@ -1783,10 +1783,10 @@
         "message": "3D-fiksering:"
     },
     "gpsFixTrue": {
-        "message": "<span class=\"text\">Sand<\/span>"
+        "message": "<span class=\"text\">Sand</span>"
     },
     "gpsFixFalse": {
-        "message": "<span class=\"text\">Falsk<\/span>"
+        "message": "<span class=\"text\">Falsk</span>"
     },
     "gpsAltitude": {
         "message": "Højde:"
@@ -1906,13 +1906,13 @@
         "message": "Master"
     },
     "motorsNotice": {
-        "message": "<strong>Motortesttilstand\/Indkoblingsnotits:<\/strong><br\/>Bevæges skyderne eller indkobles dit fartøj med senderen,<strong>forøges<\/strong> motoromdrejningerne.<br\/>For at forhindre personskade, så <strong class=\"message-negative\">afmontér ALLE propeller<\/strong>, før brug af denne funktion.<br\/>Aktivering af motortesttilstand vil også midlertidigt deaktivere Runaway Takeoff-beskyttelsen, for at hindre den i at afkoble fartøjet ved værkstedsaftestning uden propeller.<br\/>"
+        "message": "<strong>Motortesttilstand/Indkoblingsnotits:</strong><br/>Bevæges skyderne eller indkobles dit fartøj med senderen,<strong>forøges</strong> motoromdrejningerne.<br/>For at forhindre personskade, så <strong class=\"message-negative\">afmontér ALLE propeller</strong>, før brug af denne funktion.<br/>Aktivering af motortesttilstand vil også midlertidigt deaktivere Runaway Takeoff-beskyttelsen, for at hindre den i at afkoble fartøjet ved værkstedsaftestning uden propeller.<br/>"
     },
     "motorsEnableControl": {
-        "message": "<strong>Jeg forstår risikoen,<\/strong> propellerne er fjernet - aktivér motorkontrol og indkobling, og deaktivér Runaway Takeoff-beskyttelse."
+        "message": "<strong>Jeg forstår risikoen,</strong> propellerne er fjernet - aktivér motorkontrol og indkobling, og deaktivér Runaway Takeoff-beskyttelse."
     },
     "sensorsInfo": {
-        "message": "Husk at samtidig brug af hurtige opdateringsintervaller og generering af flere grafer er ressourcekrævende og vil opbruge batteriet hurtigere på f.eks. en laptop.<br\/>Det anbefales kun at generere grafer for sensorer af interesse og under brug af rimelig opdateringsintervaller."
+        "message": "Husk at samtidig brug af hurtige opdateringsintervaller og generering af flere grafer er ressourcekrævende og vil opbruge batteriet hurtigere på f.eks. en laptop.<br/>Det anbefales kun at generere grafer for sensorer af interesse og under brug af rimelig opdateringsintervaller."
     },
     "sensorsRefresh": {
         "message": "Opfrisk:"
@@ -1939,7 +1939,7 @@
         "message": "Fejlfinding"
     },
     "sensorsGyroTitle": {
-        "message": "Gyroskop - gr\/s"
+        "message": "Gyroskop - gr/s"
     },
     "sensorsAccelTitle": {
         "message": "Accelerometer - g"
@@ -1957,7 +1957,7 @@
         "message": "Fejlfinding"
     },
     "firmwareFlasherPreviousDevice": {
-        "message": "Detekteret: <strong>$1<\/strong> - tidligere enhed flashes stadig, gentilslut og forsøg igen"
+        "message": "Detekteret: <strong>$1</strong> - tidligere enhed flashes stadig, gentilslut og forsøg igen"
     },
     "ledStripModeColorsModeDisarmed": {
         "message": "Afkoblet",
@@ -1974,13 +1974,13 @@
         "message": "Denne funktion løser nogle af $t(pidTuningItermRotation.message) underliggende problemer og erstatter den forhåbentlig på et tidspunkt. Denne funktion akkumulerer den absolutte gyrofejl i quadkoordinater og indfører en proportionalkorrektion i setpoint. For at det skal fungere, skal AirMode og $t(pidTuningItermRelax.message) aktiveres (for $t(pidTuningItermRelaxAxesOptionRP.message)). Kombineres denne funktion med $t(pidTuningIntegratedYaw.message), kan du sætte $t(pidTuningItermRelax.message) aktiveret for $t(pidTuningItermRelaxAxesOptionRPY.message)."
     },
     "failsafeFeaturesHelpOld": {
-        "message": "Failsafe-opsætning er ændret betydeligt. Benyt Betaflight <strong>v1.12.0+<\/strong> for at aktivere det forbedrede opsætningspanel."
+        "message": "Failsafe-opsætning er ændret betydeligt. Benyt Betaflight <strong>v1.12.0+</strong> for at aktivere det forbedrede opsætningspanel."
     },
     "failsafePaneTitleOld": {
         "message": "Modtager-failsafe"
     },
     "failsafeFeaturesHelpNew": {
-        "message": "Failsafe har to trin. <strong>Trin 1<\/strong> tilgås, når en flykanal har en ugyldig pulslængde, modtageren rapporterer fejlsikret tilstand eller der intet signal er fra modtageren, hvorefter kanalreserveindstillingerne for <span class=\"message- negativ\">alle kanaler<\/span> anvendes, og en lille mængde tid afsættes for at muliggøre gendannelse. <strong>Trin 2<\/strong> tilgås, når fejltilstanden, mens fartøjet er <span class=\"message-negative\">indkoblet<\/span>, varer længere end den opsattee Guard-tid, og her forbliver alle kanaler på den anvendte kanalreserveindstilling, medmindre den tilsidesættes af den valgte procedure.<br \/><strong>Bemærk:<\/strong> Inden Trin 1 tilgås, anvendes kanalreserveindstillingerne også på individuelle AUX-kanaler, som har ugyldige impulser."
+        "message": "Failsafe har to trin. <strong>Trin 1</strong> tilgås, når en flykanal har en ugyldig pulslængde, modtageren rapporterer fejlsikret tilstand eller der intet signal er fra modtageren, hvorefter kanalreserveindstillingerne for <span class=\"message- negativ\">alle kanaler</span> anvendes, og en lille mængde tid afsættes for at muliggøre gendannelse. <strong>Trin 2</strong> tilgås, når fejltilstanden, mens fartøjet er <span class=\"message-negative\">indkoblet</span>, varer længere end den opsattee Guard-tid, og her forbliver alle kanaler på den anvendte kanalreserveindstilling, medmindre den tilsidesættes af den valgte procedure.<br /><strong>Bemærk:</strong> Inden Trin 1 tilgås, anvendes kanalreserveindstillingerne også på individuelle AUX-kanaler, som har ugyldige impulser."
     },
     "failsafePulsrangeTitle": {
         "message": "Gyldig Pulse Range-indstillinger"
@@ -1998,7 +1998,7 @@
         "message": "Kanal Fallback-indstillinger"
     },
     "failsafeChannelFallbackSettingsHelp": {
-        "message": "Disse indstillinger anvendes på ugyldige individuelle AUX-kanaler eller på alle kanaler, når disse overgår til Trin 1. <strong>Bemærk:<\/strong> Værdierne gemmes i trin på 25 mikrosek, så små ændringer forsvinder"
+        "message": "Disse indstillinger anvendes på ugyldige individuelle AUX-kanaler eller på alle kanaler, når disse overgår til Trin 1. <strong>Bemærk:</strong> Værdierne gemmes i trin på 25 mikrosek, så små ændringer forsvinder"
     },
     "failsafeStageTwoSettingsTitle": {
         "message": "Trin 2 - Indstillinger"
@@ -2043,7 +2043,7 @@
         "message": "Nedstigningsdistance (meter)"
     },
     "failsafeGpsRescueItemGroundSpeed": {
-        "message": "Jordhastighed (meter\/sekund)"
+        "message": "Jordhastighed (meter/sekund)"
     },
     "failsafeGpsRescueItemThrottleMin": {
         "message": "Gas minimum"
@@ -2076,7 +2076,7 @@
         "message": "Failsafe-kontakthandling"
     },
     "failsafeSwitchModeHelp": {
-        "message": "Denne indstilling afgør, hvad der sker, når Failsafe aktiveres via AUX-knappen:<br\/><strong>Trin 1<\/strong> aktiverer Trin 1 Failsafe, der er nyttig til at simulere den nøjagtige fejlsikringsadfærd ved signaltab.<br\/><strong>Trin 2<\/strong> overspringer Trin 1 og aktiverer omgående Trin 2-proceduren <br\/><strong>Kill<\/strong>, der straks afkobler (fartøjet havarerer)"
+        "message": "Denne indstilling afgør, hvad der sker, når Failsafe aktiveres via AUX-knappen:<br/><strong>Trin 1</strong> aktiverer Trin 1 Failsafe, der er nyttig til at simulere den nøjagtige fejlsikringsadfærd ved signaltab.<br/><strong>Trin 2</strong> overspringer Trin 1 og aktiverer omgående Trin 2-proceduren <br/><strong>Kill</strong>, der straks afkobler (fartøjet havarerer)"
     },
     "failsafeSwitchOptionStage1": {
         "message": "Trin 1"
