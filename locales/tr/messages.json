@@ -77,10 +77,10 @@
         "message": "Yayın Web Sitesine gidin"
     },
     "deviceRebooting": {
-        "message": "Cihaz - <span class=\"message-negative\">Yeniden yükleniyor<\/span>"
+        "message": "Cihaz - <span class=\"message-negative\">Yeniden yükleniyor</span>"
     },
     "deviceReady": {
-        "message": "Cihaz - <span class=\"message-positive\"> Hazır <\/span>"
+        "message": "Cihaz - <span class=\"message-positive\"> Hazır </span>"
     },
     "backupFileIncompatible": {
         "message": "Sağlanan yedekleme dosyası yapılandırıcının önceki sürümü için oluşturulmuş ve yapılandırıcı bu sürüm ile uyumlu değildir. Üzgünüm"
@@ -92,35 +92,35 @@
         "message": "Yazılım Yükleyici"
     },
     "serialPortOpenFail": {
-        "message": "Seri bağlantı noktası <span class=\"message-negative\">açılamadı<\/span>"
+        "message": "Seri bağlantı noktası <span class=\"message-negative\">açılamadı</span>"
     },
     "serialPortClosedOk": {
-        "message": "Seri bağlantı noktası <span class=\"message-positive\">başarıyla<\/span> kapandı"
+        "message": "Seri bağlantı noktası <span class=\"message-positive\">başarıyla</span> kapandı"
     },
     "serialPortClosedFail": {
-        "message": "Seri bağlantı noktası <span class=\"message-negative\">kapanamadı<\/span>"
+        "message": "Seri bağlantı noktası <span class=\"message-negative\">kapanamadı</span>"
     },
     "serialUnrecoverable": {
-        "message": "Seri bağlantıda giderilemeyen <span class=\"message-negative\">hata<\/span>, bağlantı kesiliyor..."
+        "message": "Seri bağlantıda giderilemeyen <span class=\"message-negative\">hata</span>, bağlantı kesiliyor..."
     },
     "usbDeviceUdevNotice": {
-        "message": "<strong> udev kuralları <\/strong> doğru olarak yüklendi mi? Talimatlar için dokümanlara bakınız"
+        "message": "<strong> udev kuralları </strong> doğru olarak yüklendi mi? Talimatlar için dokümanlara bakınız"
     },
     "firmwareVersionNotSupported": {
-        "message": "Bu donanım yazılımı <span class=\"message-negative\">desteklenmiyor<\/span>. Lütfen api sürüm <strong>$1<\/strong> veya üstünü destekleyen donanım yazılımına yükseltin. Yanıp sönmeden önce yedeklemek için CLI kullanın. CLI yedekleme\/geri kazanma prosedürü dökümanın içindedir.<br \/> Yükseltmeye hazır değilseniz, alternatif olarak eski sürüm bir yapılandırıcıyı indirip kullanabilirsiniz."
+        "message": "Bu donanım yazılımı <span class=\"message-negative\">desteklenmiyor</span>. Lütfen api sürüm <strong>$1</strong> veya üstünü destekleyen donanım yazılımına yükseltin. Yanıp sönmeden önce yedeklemek için CLI kullanın. CLI yedekleme/geri kazanma prosedürü dökümanın içindedir.<br /> Yükseltmeye hazır değilseniz, alternatif olarak eski sürüm bir yapılandırıcıyı indirip kullanabilirsiniz."
     },
     "firmwareTypeNotSupported": {
-        "message": "CLI modu dışında, Cleanfight\/Betafight dışındaki yazılımlar <span class=\"message-negative\">desteklenmez<\/span>."
+        "message": "CLI modu dışında, Cleanfight/Betafight dışındaki yazılımlar <span class=\"message-negative\">desteklenmez</span>."
     },
     "infoVersions": {
-        "message": "Çalışan İşletim Sistemi: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Yapılandırıcı: <strong>{{configuratorVersion}}<\/strong>",
+        "message": "Çalışan İşletim Sistemi: <strong>{{operatingSystem}}</strong>, Chrome: <strong>{{chromeVersion}}</strong>, Yapılandırıcı: <strong>{{configuratorVersion}}</strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
     "releaseCheckFailed": {
-        "message": "<b>$1 sürümü için GitHub sorgusu başarısız oldu, önbellek bilgileri kullanılıyor. Sebep: <code>$2<\/code><\/b>"
+        "message": "<b>$1 sürümü için GitHub sorgusu başarısız oldu, önbellek bilgileri kullanılıyor. Sebep: <code>$2</code></b>"
     },
     "craftNameReceived": {
-        "message": "İsim yarat:<strong>$1<\/strong>"
+        "message": "İsim yarat:<strong>$1</strong>"
     },
     "versionLabelConfigurator": {
         "message": "Yapılandırıcı"
@@ -135,22 +135,22 @@
         "message": "CPU Yükü: $1%"
     },
     "dfu_erased_kilobytes": {
-        "message": "$1 kB flaş <span class=\"message-positive\">başarıyla<\/span> silindi"
+        "message": "$1 kB flaş <span class=\"message-positive\">başarıyla</span> silindi"
     },
     "dfu_device_flash_info": {
         "message": "Toplam flaş boyutu $1 KiB olan cihaz algılandı"
     },
     "dfu_error_image_size": {
-        "message": "<span class=\"message-negative\">Hata<\/span>: Verilen görüntü çipteki mevcut flaştan daha büyük!\nGörüntü: $1 KiB, sınır = $2 KiB"
+        "message": "<span class=\"message-negative\">Hata</span>: Verilen görüntü çipteki mevcut flaştan daha büyük!\nGörüntü: $1 KiB, sınır = $2 KiB"
     },
     "eeprom_saved_ok": {
-        "message": "EEPROM <span class=\"message-positive\">kaydedildi<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">kaydedildi</span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Uçuş denetleyicinizi güncellemek, yapılandırmak ve ayarlamayı basitleştirmek için tasarlanmış yardımcı bir program olan <strong> Betaflight - Configurator <\/strong> 'a hoş geldiniz."
+        "message": "Uçuş denetleyicinizi güncellemek, yapılandırmak ve ayarlamayı basitleştirmek için tasarlanmış yardımcı bir program olan <strong> Betaflight - Configurator </strong> 'a hoş geldiniz."
     },
     "defaultContributingText": {
-        "message": "Betaflight'ı daha da güzel yapmak için bir çok yoldan yardımcı olabilirsiniz. Bunlardan bazıları: <br \/><ul> IRC de forumlarda diğer kullanıcıların sorularını yanıtlamak. <\/li><li> Yapılandırıcı ve donanın yazılımı kodlarına katkıla bulunmak- yeni özellikler, düzeltmeler, geliştirmeler<\/li><li> <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">Yeni özellikleri <\/a> test etmek ve geri dönüt vermek. <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\"><li>İstenen özellikler hakkında durumlara ve yorumlara <\/a> yardım etmek. <\/li> <li> <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\"> ile işbirliği yaparak yapılandırıcı uygulamasını <\/a> kendi dilinize çevirmek<\/li><li><\/li><\/ul>"
+        "message": "Betaflight'ı daha da güzel yapmak için bir çok yoldan yardımcı olabilirsiniz. Bunlardan bazıları: <br /><ul> IRC de forumlarda diğer kullanıcıların sorularını yanıtlamak. </li><li> Yapılandırıcı ve donanın yazılımı kodlarına katkıla bulunmak- yeni özellikler, düzeltmeler, geliştirmeler</li><li> <a href=\"https://github.com/Betaflight/betaflight/pulls\" target=\"_blank\">Yeni özellikleri </a> test etmek ve geri dönüt vermek. <a href=\"https://github.com/betaflight/betaflight/issues\" target=\"_blank\"><li>İstenen özellikler hakkında durumlara ve yorumlara </a> yardım etmek. </li> <li> <a href=\"https://crowdin.com/project/betaflight-configurator\" target=\"_blank\"> ile işbirliği yaparak yapılandırıcı uygulamasını </a> kendi dilinize çevirmek</li><li></li></ul>"
     },
     "defaultChangelogHead": {
         "message": "Yapılandırıcı - Değişiklikler"
@@ -159,22 +159,22 @@
         "message": "Aygıt yazılım sinyali"
     },
     "defaultDonateHead": {
-        "message": "Açık Kaynak \/ Bağış Bildirimi"
+        "message": "Açık Kaynak / Bağış Bildirimi"
     },
     "defaultSponsorsHead": {
         "message": "Sponsorlar"
     },
     "defaultDocumentationHead": {
-        "message": "Dökümantasyon \/ Manuel"
+        "message": "Dökümantasyon / Manuel"
     },
     "defaultDocumentation": {
-        "message": "Betaflight dökümantasyonu sürüm notlarında ve wikide mevcuttur.<br \/><br \/>"
+        "message": "Betaflight dökümantasyonu sürüm notlarında ve wikide mevcuttur.<br /><br />"
     },
     "defaultDocumentation1": {
-        "message": "Betaflight wiki bilgi için oldukça iyi bir kaynaktır, <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">buradan<\/a> bulunabilir."
+        "message": "Betaflight wiki bilgi için oldukça iyi bir kaynaktır, <a href=\"https://github.com/betaflight/betaflight/wiki\" target=\"_blank\">buradan</a> bulunabilir."
     },
     "defaultDocumentation2": {
-        "message": "Donanım yazılımının sürüm notları GitHub sürüm sayfasından okunabilir,<a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">buradan<\/a>."
+        "message": "Donanım yazılımının sürüm notları GitHub sürüm sayfasından okunabilir,<a href=\"https://github.com/Betaflight/Betaflight/releases\" target=\"_blank\">buradan</a>."
     },
     "defaultSupportHead": {
         "message": "Destek"
@@ -186,46 +186,46 @@
         "message": "Geliştirici"
     },
     "defaultSupport": {
-        "message": "Destek için ilk olarak forumlarda ve wiki'de arama yapın veya satıcınızla görüşün.<br \/><br \/>"
+        "message": "Destek için ilk olarak forumlarda ve wiki'de arama yapın veya satıcınızla görüşün.<br /><br />"
     },
     "defaultSupport1": {
-        "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">RC Grupları konusu<\/a>"
+        "message": "<a href=\"http://www.rcgroups.com/forums/showthread.php?t=2464844&page=1\" target=\"_blank\">RC Grupları konusu</a>"
     },
     "defaultSupport2": {
-        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Betaflight Wiki<\/a>"
+        "message": "<a href=\"http://betaflight.info\" target=\"_blank\">Betaflight Wiki</a>"
     },
     "defaultSupport3": {
-        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Betaflight Videoları<\/a>"
+        "message": "<a href=\"https://www.youtube.com/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Betaflight Videoları</a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+        "message": "<a href=\"https://github.com/Betaflight\" target=\"_blank\">GitHub</a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
-        "message": "<span class=\"message-negative\">Yedekleme ve geri yükleme fonksiyonları devre dışı bırakıldı.<\/span> API sürümü <span class=\"message-negative\">$1<\/span> donanım yazılına sahipsiniz, yedekleme ve geri yükleme <span class=\"message-positive\">$2<\/span>'yi gerektirir. Lütfen ayarlarınızı CLI ile yedekleyin, prosedür için Betaflight dökümantasyonuna bakın."
+        "message": "<span class=\"message-negative\">Yedekleme ve geri yükleme fonksiyonları devre dışı bırakıldı.</span> API sürümü <span class=\"message-negative\">$1</span> donanım yazılına sahipsiniz, yedekleme ve geri yükleme <span class=\"message-positive\">$2</span>'yi gerektirir. Lütfen ayarlarınızı CLI ile yedekleyin, prosedür için Betaflight dökümantasyonuna bakın."
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "İvme Ölçer Kalibrasyonu"
     },
     "initialSetupCalibrateAccelText": {
-        "message": "Panoyu veya çerçeveyi <strong>düzeltilmiş<\/strong> yüzeye koyun, kalibrasyonla devam edin, kalibrasyon periyodu boyunca platformun hareket etmediğinden emin olun"
+        "message": "Panoyu veya çerçeveyi <strong>düzeltilmiş</strong> yüzeye koyun, kalibrasyonla devam edin, kalibrasyon periyodu boyunca platformun hareket etmediğinden emin olun"
     },
     "initialSetupButtonCalibrateMag": {
         "message": "Manyetometre Kalibrasyonu"
     },
     "initialSetupCalibrateMagText": {
-        "message": "Multirotoru tüm dönme eksenlerinde en az <strong>360<\/strong> derece hareket ettirin, bu işlemi gerçekleştirmek için 30 saniyeniz var"
+        "message": "Multirotoru tüm dönme eksenlerinde en az <strong>360</strong> derece hareket ettirin, bu işlemi gerçekleştirmek için 30 saniyeniz var"
     },
     "initialSetupButtonCalibratingText": {
         "message": "Kalibrasyon yapılıyor..."
     },
     "initialSetupResetText": {
-        "message": "Ayarları <strong>varsayılan<\/strong> a geri getir"
+        "message": "Ayarları <strong>varsayılan</strong> a geri getir"
     },
     "initialSetupBackupSuccess": {
-        "message": "Yedekleme <span class=\"message-positive\">başarıyla<\/span> kaydedildi"
+        "message": "Yedekleme <span class=\"message-positive\">başarıyla</span> kaydedildi"
     },
     "initialSetupRestoreSuccess": {
-        "message": "Yapılandırma <span class=\"message-positive\">başarıyla<\/span> geri yüklendi"
+        "message": "Yapılandırma <span class=\"message-positive\">başarıyla</span> geri yüklendi"
     },
     "initialSetupButtonResetZaxis": {
         "message": "Z eksenini sıfırla, dengeleme değeri: 0 derece"
@@ -294,10 +294,10 @@
         "message": "$1 derece"
     },
     "initialSetupMagCalibEnded": {
-        "message": "Manyetometre kalibrasyonu <span class=\"message-positive\">tamamlandı<\/span>"
+        "message": "Manyetometre kalibrasyonu <span class=\"message-positive\">tamamlandı</span>"
     },
     "initialSetupEepromSaved": {
-        "message": "EEPROM<span class=\"message-positive\">kaydedildi<\/span>"
+        "message": "EEPROM<span class=\"message-positive\">kaydedildi</span>"
     },
     "featureNone": {
         "message": "&lt;Birini seç&gt;"
@@ -315,7 +315,7 @@
         "message": "SPI RX desteği"
     },
     "featureESC_SENSOR": {
-        "message": "Sensör olarak KISS\/BLHeli_32 ESC telemetrisini kullan"
+        "message": "Sensör olarak KISS/BLHeli_32 ESC telemetrisini kullan"
     },
     "featureOSD": {
         "message": "Ekran görünümünde"
@@ -324,7 +324,7 @@
         "message": "Failsafe'i etkinleştir"
     },
     "featureFAILSAFETip": {
-        "message": "<strong>Not:<\/strong> Evre 2 DEVRE DIŞI BIRAKILDIĞINDA, tüm uçuş kanalları (Roll, Pitch, Yaw ve boğaz) için kullanıcı ayarları yerine geri çekilme <strong>Otomatik<\/strong> ayarı kullanılır."
+        "message": "<strong>Not:</strong> Evre 2 DEVRE DIŞI BIRAKILDIĞINDA, tüm uçuş kanalları (Roll, Pitch, Yaw ve boğaz) için kullanıcı ayarları yerine geri çekilme <strong>Otomatik</strong> ayarı kullanılır."
     },
     "featureFAILSAFEOldTip": {
         "message": "RX sinyal kaybında Failsafe ayarlarını uygula"
@@ -357,19 +357,19 @@
         "message": "RSSI bir sinyal gücü ölçümüdür ve oldukça kullanışlıdır, bu sayede uçağınızın menzilden ne zaman çıktığını veya RF engeline maruz kalıp kalmadığını bilebilirsiniz."
     },
     "configurationEscFeatures": {
-        "message": "ESC\/Motor Özellikleri"
+        "message": "ESC/Motor Özellikleri"
     },
     "configurationFeaturesHelp": {
-        "message": "<strong>Not:<\/strong> Tüm kombinasyonlar geçerli değildir. Uçuş kontrolör yazılımı geçersiz özellik kombinasyonları tespit ederse, çakışan özellikler devre dışı bırakılacaktır.<br \/><strong>Not:<\/strong> Portları kullanacak özelliklerin etkinleştirilmesinden <span class=\"message-negative\">önce<\/span> seri portları ayarlayın."
+        "message": "<strong>Not:</strong> Tüm kombinasyonlar geçerli değildir. Uçuş kontrolör yazılımı geçersiz özellik kombinasyonları tespit ederse, çakışan özellikler devre dışı bırakılacaktır.<br /><strong>Not:</strong> Portları kullanacak özelliklerin etkinleştirilmesinden <span class=\"message-negative\">önce</span> seri portları ayarlayın."
     },
     "configurationSerialRXHelp": {
-        "message": "<strong>Not:<\/strong> RX_SERIAL özelliğini kullanırken bir seri bağlantı noktasını (portlar bölümünden) ayarlamayı ve bir Seri Alıcı Sağlayıcı seçmeyi unutmayın."
+        "message": "<strong>Not:</strong> RX_SERIAL özelliğini kullanırken bir seri bağlantı noktasını (portlar bölümünden) ayarlamayı ve bir Seri Alıcı Sağlayıcı seçmeyi unutmayın."
     },
     "configurationSpiRxHelp": {
-        "message": "<strong>Not:<\/strong> SPI RX sağlayıcısı sadece donanım panelebağlıyken veya bir SPI veri yoluna bağlıyken çalışacaktır."
+        "message": "<strong>Not:</strong> SPI RX sağlayıcısı sadece donanım panelebağlıyken veya bir SPI veri yoluna bağlıyken çalışacaktır."
     },
     "configurationOtherFeaturesHelp": {
-        "message": "<strong>Not:<\/strong>Tüm özellikler tüm uçuş kontrolörleri tarafından desteklenmez. Spesifik bir özelliği aktif ederseniz ve 'Kaydet ve Yeniden Başlat' tuşuna tıkladıktan sonra devre dışı bırakırsanız, bu bu özelliğin panelinizde desteklenmeyeceği anlamına gelir."
+        "message": "<strong>Not:</strong>Tüm özellikler tüm uçuş kontrolörleri tarafından desteklenmez. Spesifik bir özelliği aktif ederseniz ve 'Kaydet ve Yeniden Başlat' tuşuna tıkladıktan sonra devre dışı bırakırsanız, bu bu özelliğin panelinizde desteklenmeyeceği anlamına gelir."
     },
     "configurationBoardAlignment": {
         "message": "Panel ve Sensör Hizalama"
@@ -453,7 +453,7 @@
         "message": "TX kapatıldığında veya sinyal kaybedildiğinde bip sesi ver ( TX düzelene kadar tekrar et)"
     },
     "beeperRX_LOST_LANDING": {
-        "message": "Yüklüyken ve TX kapatıldığında veya sinyal kaybolduğunda SOS bip sesi ver (otomatik iniş\/otomatik boşaltım)"
+        "message": "Yüklüyken ve TX kapatıldığında veya sinyal kaybolduğunda SOS bip sesi ver (otomatik iniş/otomatik boşaltım)"
     },
     "beeperDISARMING": {
         "message": "Uçuş kumandasını devre dışı bırakırken bip sesi ver"
@@ -480,16 +480,16 @@
         "message": "3D Deadband Boğazı"
     },
     "configurationCalculatedCyclesSec": {
-        "message": "Döngü\/Saniye [Hz]"
+        "message": "Döngü/Saniye [Hz]"
     },
     "configurationLoopTimeHelp": {
-        "message": "<strong>Not:<\/strong> FC nizin bu hızlarda çalışabildiğinden emin olun! CPU ve döngü zamanı kararlılığını kontrol edin. Bunu değiştirmek PID'yi yeniden ayarlamayı gerektirebilir. İPUCU: Daha fazla performans almak için ivme ölçeri ve diğer sensörleri devre dışı bırakın."
+        "message": "<strong>Not:</strong> FC nizin bu hızlarda çalışabildiğinden emin olun! CPU ve döngü zamanı kararlılığını kontrol edin. Bunu değiştirmek PID'yi yeniden ayarlamayı gerektirebilir. İPUCU: Daha fazla performans almak için ivme ölçeri ve diğer sensörleri devre dışı bırakın."
     },
     "configurationGPSBaudrate": {
         "message": "Baud Hızı"
     },
     "configurationGPSHelp": {
-        "message": "<strong>Not:<\/strong> GPS özelliğini kullanırken bir seri portu(Portlar sekmesinden) ayarlamayı unutmayın."
+        "message": "<strong>Not:</strong> GPS özelliğini kullanırken bir seri portu(Portlar sekmesinden) ayarlamayı unutmayın."
     },
     "configurationSerialRX": {
         "message": "Seri Alıcı Sağlayıcısı"
@@ -498,13 +498,13 @@
         "message": "SPI Bus Alıcı Sağlayıcısı"
     },
     "configurationEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">kaydedildi<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">kaydedildi</span>"
     },
     "configurationButtonSave": {
         "message": "Kaydet ve Yeniden başlat"
     },
     "portsConfiguration": {
-        "message": "Yapılandırma\/MSP"
+        "message": "Yapılandırma/MSP"
     },
     "portsSerialRx": {
         "message": "Seri Rx"
@@ -516,13 +516,13 @@
         "message": "Çevre birimleri"
     },
     "portsHelp": {
-        "message": "<strong>Not:<\/strong> tüm kombinasyonlar geçerli değildir. Donanım yazılımı bunu algıladığında seri port ayarları sıfırlanacaktır."
+        "message": "<strong>Not:</strong> tüm kombinasyonlar geçerli değildir. Donanım yazılımı bunu algıladığında seri port ayarları sıfırlanacaktır."
     },
     "portsMSPHelp": {
-        "message": "<strong>Not:<\/strong> Ne yaptığınızı bilmiyorsanız ilk seri porttaki MSP'yi devre dışı <span class=\"message-negative\">BIRAKMAYIN<\/span>. Eğer yaparsanız ayarlarınızı yeniden silmeniz ve ayarlamanız gerekebilir."
+        "message": "<strong>Not:</strong> Ne yaptığınızı bilmiyorsanız ilk seri porttaki MSP'yi devre dışı <span class=\"message-negative\">BIRAKMAYIN</span>. Eğer yaparsanız ayarlarınızı yeniden silmeniz ve ayarlamanız gerekebilir."
     },
     "portsFirmwareUpgradeRequired": {
-        "message": "Donanım yazılımı güncellemesi <span class=\"message-negative\">gereklidir<\/span>. Yazılım 1.8.0'ın seri port ayarları desteklenmez."
+        "message": "Donanım yazılımı güncellemesi <span class=\"message-negative\">gereklidir</span>. Yazılım 1.8.0'ın seri port ayarları desteklenmez."
     },
     "portsButtonSave": {
         "message": "Kaydet ve Yeniden Başlat"
@@ -582,7 +582,7 @@
         "message": "Benewake LIDAR"
     },
     "pidTuningUpgradeFirmwareToChangePidController": {
-        "message": "<span class=\"message-negative\"> PID kontrolörü değiştirme devre dışı bırakıldı - CLI ile değiştirebilirsiniz.<\/span> API sürümü <span class=\"message-negative\">$1<\/span> olan yazılıma sahipsiniz, ama bu fonksiyonlar <span class=\"message-positive\">$2<\/span>'ye ihtiyaç duyar."
+        "message": "<span class=\"message-negative\"> PID kontrolörü değiştirme devre dışı bırakıldı - CLI ile değiştirebilirsiniz.</span> API sürümü <span class=\"message-negative\">$1</span> olan yazılıma sahipsiniz, ama bu fonksiyonlar <span class=\"message-positive\">$2</span>'ye ihtiyaç duyar."
     },
     "pidTuningSubTabFilter": {
         "message": "Filtre Ayarları"
@@ -615,7 +615,7 @@
         "message": "Bu parametre ile, D Ayar Noktası Ağırlığı, çubukların ortasında azaltılır ve bu da çevirme ve ruloların daha pürüzsüz bir şekilde bitmesine yol açar. <br> Değer, bir çubuk saptırma noktasını temsil eder: 0 - merkezli çubuk, 1 - tam sapma. Sopa bu noktanın üzerinde olduğunda, Ayar Noktası Ağırlığı yapılandırılmış değerinde sabit tutulur. Çubuk bu noktanın altına yerleştirildiğinde, Ayar Noktası Ağırlığı orantılı olarak azaltılır ve çubuk merkezi konumunda 0'a ulaşır. <br>1 değeri, maksimum yumuşatma efekti verirken, 0 değeri, Ayar Noktası Ağırlığını yapılandırılmış değerin tamamında sabit tutar sopa aralığı."
     },
     "pidTuningDtermSetpointHelp": {
-        "message": "Bu parametre, türev bileşen içindeki uçak kumanda çubuğunun hızlandırıcı etkisini belirler.<br> 0 değeri, D değerinin yalnızca cayroyu izlediği eski Ölçüm metoduna eşitken, 1 değeri, eşit cayro ve uçak kumanda çubuğunun izleme oranın eşit olduğu eski Hata metoduna eşittir.<br> Daha düşük değer daha yavaş\/daha yumuşak çubuk tepkisine eşitken, daha yüksek değer daha fazla çubuk ivme tepkisi sağlar.<br> Denetim tekmelerinin gürültü yapmasını önlemek için radyo kontrol enterpolasyonunun daha yüksek değerlerle etkinleştirilmesi önerildiğini not edin."
+        "message": "Bu parametre, türev bileşen içindeki uçak kumanda çubuğunun hızlandırıcı etkisini belirler.<br> 0 değeri, D değerinin yalnızca cayroyu izlediği eski Ölçüm metoduna eşitken, 1 değeri, eşit cayro ve uçak kumanda çubuğunun izleme oranın eşit olduğu eski Hata metoduna eşittir.<br> Daha düşük değer daha yavaş/daha yumuşak çubuk tepkisine eşitken, daha yüksek değer daha fazla çubuk ivme tepkisi sağlar.<br> Denetim tekmelerinin gürültü yapmasını önlemek için radyo kontrol enterpolasyonunun daha yüksek değerlerle etkinleştirilmesi önerildiğini not edin."
     },
     "pidTuningProportional": {
         "message": "Orantılı"
@@ -630,7 +630,7 @@
         "message": "RC oranı"
     },
     "pidTuningMaxVel": {
-        "message": "Maksimum hız [derece\/s]"
+        "message": "Maksimum hız [derece/s]"
     },
     "pidTuningRate": {
         "message": "Oran"
@@ -702,28 +702,28 @@
         "message": "Varsayılan profil değerleri yüklendi."
     },
     "pidTuningReceivedProfile": {
-        "message": "Uçuş kontrolörü bu profile ayarlandı: <strong class=\"message-positive\">$1<\/strong>"
+        "message": "Uçuş kontrolörü bu profile ayarlandı: <strong class=\"message-positive\">$1</strong>"
     },
     "pidTuningReceivedRateProfile": {
-        "message": "Uçuş kontrolörü bu oran profile ayarlandı:<strong class=\"message-positive\">$1<\/strong>"
+        "message": "Uçuş kontrolörü bu oran profile ayarlandı:<strong class=\"message-positive\">$1</strong>"
     },
     "pidTuningLoadedProfile": {
-        "message": "Profil yüklendi:<strong class=\"message-positive\">$1<\/strong>"
+        "message": "Profil yüklendi:<strong class=\"message-positive\">$1</strong>"
     },
     "pidTuningLoadedRateProfile": {
-        "message": "Oran profili yüklendi: <strong class=\"message-positive\">$1<\/strong>"
+        "message": "Oran profili yüklendi: <strong class=\"message-positive\">$1</strong>"
     },
     "pidTuningDataRefreshed": {
-        "message": "PID verisi <strong>yenilendi<\/strong>"
+        "message": "PID verisi <strong>yenilendi</strong>"
     },
     "pidTuningEepromSaved": {
-        "message": "EEPROM<span class=\"message-positive\">kaydedildi<\/span>"
+        "message": "EEPROM<span class=\"message-positive\">kaydedildi</span>"
     },
     "receiverHelp": {
-        "message": "Lütfen belgelerin alıcı bölümünü okuyun. Vericide tüm kanalların ~1000'den ~2000'e gitmesi için, seri portu (gerekirse), alıcı modu (seri\/ppm\/pwm), tedarikçiyi (seri alıcılar için) yapılandır, alıcıyı bağla, kanal haritasını ayarla, kanal sonlandırma noktalarını\/aralığını yapılandır. Orta noktayı (varsayılan 1500) ayarlayın, kanalları 1500'e ayarlayın, uçak kumanda çubuğunun ölü bantını yapılandırın, TX (verici) kapalıyken veya aralık dışında olduğunda davranışını doğrulayın. <br \/><span class=\"message-negative\">ÖNEMLİ:<\/span> Uçmadan önce, belgelerin arıza güvencesi bölümünü okuyun ve arıza güvencesini yapılandırın."
+        "message": "Lütfen belgelerin alıcı bölümünü okuyun. Vericide tüm kanalların ~1000'den ~2000'e gitmesi için, seri portu (gerekirse), alıcı modu (seri/ppm/pwm), tedarikçiyi (seri alıcılar için) yapılandır, alıcıyı bağla, kanal haritasını ayarla, kanal sonlandırma noktalarını/aralığını yapılandır. Orta noktayı (varsayılan 1500) ayarlayın, kanalları 1500'e ayarlayın, uçak kumanda çubuğunun ölü bantını yapılandırın, TX (verici) kapalıyken veya aralık dışında olduğunda davranışını doğrulayın. <br /><span class=\"message-negative\">ÖNEMLİ:</span> Uçmadan önce, belgelerin arıza güvencesi bölümünü okuyun ve arıza güvencesini yapılandırın."
     },
     "tuningHelp": {
-        "message": "<b>Ayarlama ipuçları<\/b><br \/><span class=\"message-negative\">ÖNEMLİ:<\/span> İlk uçuşlarda motor sıcaklıklarını doğrulamak önemlidir. Filtre değeri yükseldikçe uçabilir, fakat motorlardan daha fazla ses alınır.<br>. Varsayılan 100Hz değeri en iyisidir, ama gürültü ayarlayıcıları için Dterm filtresini ve ek olarak muhtemelen cyro filtresini 50 Hz'e indirmeyi deneyebilirsiniz."
+        "message": "<b>Ayarlama ipuçları</b><br /><span class=\"message-negative\">ÖNEMLİ:</span> İlk uçuşlarda motor sıcaklıklarını doğrulamak önemlidir. Filtre değeri yükseldikçe uçabilir, fakat motorlardan daha fazla ses alınır.<br>. Varsayılan 100Hz değeri en iyisidir, ama gürültü ayarlayıcıları için Dterm filtresini ve ek olarak muhtemelen cyro filtresini 50 Hz'e indirmeyi deneyebilirsiniz."
     },
     "receiverThrottleMid": {
         "message": "MID i kıs"
@@ -735,7 +735,7 @@
         "message": "'Stick Low' Eşiği"
     },
     "receiverHelpStickMin": {
-        "message": "Komut girişi (MIN_CHECK) için düşük \/ sol olarak tanınabilecek bir çubuk için maksimum değer ( us'de)."
+        "message": "Komut girişi (MIN_CHECK) için düşük / sol olarak tanınabilecek bir çubuk için maksimum değer ( us'de)."
     },
     "receiverStickCenter": {
         "message": "Çubuk Merkezi"
@@ -744,7 +744,7 @@
         "message": "'Stick High' Eşiği"
     },
     "receiverHelpStickMax": {
-        "message": "Komut girişi (MAX_CHECK) için yüksek \/ sağ olarak tanınabilecek bir çubuk için minimum değer (us'de)."
+        "message": "Komut girişi (MAX_CHECK) için yüksek / sağ olarak tanınabilecek bir çubuk için minimum değer (us'de)."
     },
     "receiverDeadband": {
         "message": "RC ölü bandı"
@@ -780,16 +780,16 @@
         "message": "Kontrol Çubukları"
     },
     "receiverDataRefreshed": {
-        "message": "RC Ayarlama verisi <strong>yenilendi<\/strong>"
+        "message": "RC Ayarlama verisi <strong>yenilendi</strong>"
     },
     "receiverEepromSaved": {
-        "message": "EEPROM<span class=\"message-positive\">kaydedildi<\/span>"
+        "message": "EEPROM<span class=\"message-positive\">kaydedildi</span>"
     },
     "receiverModelPreview": {
         "message": "Ön izleme"
     },
     "receiverMspWarningText": {
-        "message": "Bu çubuklar Betaflight'ın bir verici veya alıcı mevcut olmadan silahlandırılmasını ve test edilmesini sağlar. Buna rağmen, <strong>bu özellik uçuş için değildir ve pervaneler takılmamalıdır. <\/strong><br><br> Bu özellik, aracınızın güvenilir kontrolünü garanti etmez. <strong>Pervaneler üstünde bırakıldığında ciddi yaralanmalara neden olabilir.<\/strong>"
+        "message": "Bu çubuklar Betaflight'ın bir verici veya alıcı mevcut olmadan silahlandırılmasını ve test edilmesini sağlar. Buna rağmen, <strong>bu özellik uçuş için değildir ve pervaneler takılmamalıdır. </strong><br><br> Bu özellik, aracınızın güvenilir kontrolünü garanti etmez. <strong>Pervaneler üstünde bırakıldığında ciddi yaralanmalara neden olabilir.</strong>"
     },
     "receiverMspEnableButton": {
         "message": "Denetimler etkin"
@@ -927,7 +927,7 @@
         "message": "Kaydet"
     },
     "adjustmentsEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">kaydedildi<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">kaydedildi</span>"
     },
     "transponderConfigurationType": {
         "message": "Transponder tipi"
@@ -975,10 +975,10 @@
         "message": "Kaydet ve Yeniden Başlat"
     },
     "transponderDataInvalid": {
-        "message": "Transponder verisi <span class=\"message-negative\">geçersiz<\/span>"
+        "message": "Transponder verisi <span class=\"message-negative\">geçersiz</span>"
     },
     "transponderEepromSaved": {
-        "message": "EEPROM <span class=\"message-positive\">kaydedildi<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">kaydedildi</span>"
     },
     "servosFirmwareUpgradeRequired": {
         "message": "Servolar yazılım &gt;= 1.10.0 ı ve hedes desteği gerektirir."
@@ -1008,7 +1008,7 @@
         "message": "Kaydet"
     },
     "servosEepromSave": {
-        "message": "EEPROM <span class=\"message-positive\">kaydedildi<\/span>"
+        "message": "EEPROM <span class=\"message-positive\">kaydedildi</span>"
     },
     "gpsHead": {
         "message": "GPS"
@@ -1023,10 +1023,10 @@
         "message": "3D ayarı:"
     },
     "gpsFixTrue": {
-        "message": "<span class=\"fixtrue\">Doğru<\/span>"
+        "message": "<span class=\"fixtrue\">Doğru</span>"
     },
     "gpsFixFalse": {
-        "message": "<span class=\"fixfalse\">Yanlış<\/span>"
+        "message": "<span class=\"fixfalse\">Yanlış</span>"
     },
     "gpsAltitude": {
         "message": "Rakım:"
@@ -1113,10 +1113,10 @@
         "message": "Ana"
     },
     "motorsNotice": {
-        "message": "<strong>Motor Test Modu \/ Yükleme Bildirimi:<\/strong><br \/>Kaydırıcıları hareket ettirmek veya aracınızı verici ile yüklemek motorların <strong>dönmesine<\/strong> sebep olacaktır. Yaralanmayı engellemek için bu özelliği kullanmadan önce <strong class=\"message-negative\"> TÜM pervaneleri kaldırın<\/strong>.<br \/> Motor test modunun etkinleştirilmesi, pervanesiz bench testi yaparken uçağın yüklenmesini engellemek için, Kaçak Kalkış Önleme'yi geçici olarak devre dışı bırakacaktır.<br \/>"
+        "message": "<strong>Motor Test Modu / Yükleme Bildirimi:</strong><br />Kaydırıcıları hareket ettirmek veya aracınızı verici ile yüklemek motorların <strong>dönmesine</strong> sebep olacaktır. Yaralanmayı engellemek için bu özelliği kullanmadan önce <strong class=\"message-negative\"> TÜM pervaneleri kaldırın</strong>.<br /> Motor test modunun etkinleştirilmesi, pervanesiz bench testi yaparken uçağın yüklenmesini engellemek için, Kaçak Kalkış Önleme'yi geçici olarak devre dışı bırakacaktır.<br />"
     },
     "motorsEnableControl": {
-        "message": "<strong>Riskleri anladım<\/strong>, pervaneler kaldırıldı- motor kontrolü ve yükleme etkinleştirildi, ve Kaçak Kalkış Önleme devre dışı bırakıldı."
+        "message": "<strong>Riskleri anladım</strong>, pervaneler kaldırıldı- motor kontrolü ve yükleme etkinleştirildi, ve Kaçak Kalkış Önleme devre dışı bırakıldı."
     },
     "sensorsRefresh": {
         "message": "Yenile:"
@@ -1143,7 +1143,7 @@
         "message": "Hata ayıklama"
     },
     "sensorsGyroTitle": {
-        "message": "Jiroskop - derece\/saniye"
+        "message": "Jiroskop - derece/saniye"
     },
     "sensorsAccelTitle": {
         "message": "İvme Ölçer - g"
@@ -1170,7 +1170,7 @@
         "message": "Dosyaya Kaydet"
     },
     "loggingNote": {
-        "message": "Veri <span class=\"message-negative\">sadece<\/span> bu sekmede kaydedilecek, bu sekmeden ayrılmak kaydetmeyi <span class=\"message-negative\"> iptal edecek<\/span> ve uygulama normal <strong>\"yapılandırıcı\"<\/strong> durumuna geri dönecektir. <br \/>Genel güncelleme periyodunu seçmekte özgürsünüz, performans sebepleriyle, veri her <strong>1<\/strong> saniyede günlük dosyasına yazılacaktır."
+        "message": "Veri <span class=\"message-negative\">sadece</span> bu sekmede kaydedilecek, bu sekmeden ayrılmak kaydetmeyi <span class=\"message-negative\"> iptal edecek</span> ve uygulama normal <strong>\"yapılandırıcı\"</strong> durumuna geri dönecektir. <br />Genel güncelleme periyodunu seçmekte özgürsünüz, performans sebepleriyle, veri her <strong>1</strong> saniyede günlük dosyasına yazılacaktır."
     },
     "loggingSamplesSaved": {
         "message": "Örnekler Kaydedildi:"
@@ -1188,10 +1188,10 @@
         "message": "Günlük tutmayı bırak"
     },
     "loggingBack": {
-        "message": "Günlük tutmadan çık \/ bağlantıyı kes"
+        "message": "Günlük tutmadan çık / bağlantıyı kes"
     },
     "loggingErrorNotConnected": {
-        "message": "Önce <strong>bağlanmanız<\/strong> gerekir"
+        "message": "Önce <strong>bağlanmanız</strong> gerekir"
     },
     "loggingErrorLogFile": {
         "message": "Lütfen günlük tutma dosyası seçin"
@@ -1200,7 +1200,7 @@
         "message": "Günlük tutmak için en azından bir özellik seçin"
     },
     "loggingAutomaticallyRetained": {
-        "message": "Önceki günlük dosyaları otomatik olarak yüklendi:<strong>$1<\/strong>"
+        "message": "Önceki günlük dosyaları otomatik olarak yüklendi:<strong>$1</strong>"
     },
     "blackboxNotSupported": {
         "message": "Uçuş kontrolörünüzün yazılımı Kara kutu günlük kaydını desteklemiyor."
@@ -1239,7 +1239,7 @@
         "message": "Sürüm bilgisi"
     },
     "firmwareFlasherReleaseName": {
-        "message": "İsim\/Sürüm:"
+        "message": "İsim/Sürüm:"
     },
     "firmwareFlasherReleaseVersionUrl": {
         "message": "Sürüm sayfasını ziyaret edin."
@@ -1257,13 +1257,13 @@
         "message": "Hedef:"
     },
     "firmwareFlasherReleaseStatusReleaseCandidate": {
-        "message": "<span class=\"message-negative\">ÖNEMLİ: Bu donanım sürümü şuan bir sürüm adayı olarak işaretlenmiştir. Lütfen herhangi bir sorunu hemen bildirin.<\/span>"
+        "message": "<span class=\"message-negative\">ÖNEMLİ: Bu donanım sürümü şuan bir sürüm adayı olarak işaretlenmiştir. Lütfen herhangi bir sorunu hemen bildirin.</span>"
     },
     "firmwareFlasherReleaseFileUrl": {
         "message": "El ile indir."
     },
     "firmwareFlasherTargetWarning": {
-        "message": "<span class=\"message-negative\">ÖNEMLİ<\/span>: Hedefinize uygun bir dosyayı flaşladığınuzdan emin olun. Yanlış bir hedef için bir ikilik flaşlamak <span class=\"message-negative\">kötü<\/span> şeylerin olmasına sebep olabilir."
+        "message": "<span class=\"message-negative\">ÖNEMLİ</span>: Hedefinize uygun bir dosyayı flaşladığınuzdan emin olun. Yanlış bir hedef için bir ikilik flaşlamak <span class=\"message-negative\">kötü</span> şeylerin olmasına sebep olabilir."
     },
     "firmwareFlasherPath": {
         "message": "Yol:"
@@ -1293,7 +1293,7 @@
         "message": "Bağlantı noktası"
     },
     "firmwareFlasherManualBaudDescription": {
-        "message": "Paneller için baud hızının el ile seçilmesi varsayılan hızı veya bluetooth ile flaşlamayı desteklemez.<br \/><span class=\"message-negative\">Not:<\/span> USB DFU ile gönderildiğinde kullanılmaz"
+        "message": "Paneller için baud hızının el ile seçilmesi varsayılan hızı veya bluetooth ile flaşlamayı desteklemez.<br /><span class=\"message-negative\">Not:</span> USB DFU ile gönderildiğinde kullanılmaz"
     },
     "firmwareFlasherBaudRate": {
         "message": "Baud hızı"
@@ -1302,7 +1302,7 @@
         "message": "Yükleniyor ..."
     },
     "firmwareFlasherOptionLabelSelectFirmware": {
-        "message": "Bir Aygıt Yazılımı \/ Panel seçin"
+        "message": "Bir Aygıt Yazılımı / Panel seçin"
     },
     "firmwareFlasherOptionLabelSelectBoard": {
         "message": "Bir panel seçin"
@@ -1329,13 +1329,13 @@
         "message": "Karıştır:"
     },
     "firmwareFlasherWarningText": {
-        "message": "Lütfen <strong>Betaflight dışı<\/strong> donanımları bu yazılım flaşçısıyla <span class=\"message-negative\">flaşlamayın<\/span>.<br \/>Flaşlama işlemi sırasında bilgisayarınızı <strong>kapatmayın<\/strong> veya panelinizin <strong>bağlantısını<\/strong><span class=\"message-negative\">kesmeyin<\/span>.<br \/><br \/><strong>Not:<\/strong> STM 32 bootlader programı ROM da yüklüdür, tuğlalaşamaz.<br \/><strong>Not:<\/strong>Siz Yazılım flaşçısının içindeyken <span class=\"message-negative\">Otomatik-Bağlanma<\/span> her zaman devre dışı bırakılır.<br \/><strong>Not:<\/strong>Yedekleme aldığınızdan emin olun, bazı yükseltme\/düşürme işlemleri tüm ayarlarınızı yok edecektir.<br \/><strong>Not:<\/strong> Flaşlama sorunları yaşıyorsanız ilk olarak <strong>FC nizdeki tüm kabloları sökmeyi deneyin<strong>, ardından yeniden başlatın, chrome', sürücüleri güncelleyin.<br \/><strong>Not:<\/strong> Doğrudan doğruya USB soketleriyle bağlanmış panelleri (yeni panellerin çoğu) flaşlarken, Betaflight kullanma klavuzundaki UBS flaşlama bölümünü okuduğunuzdan ve doğru yazılım ve sürücüleri yüklediğinizden emin olun"
+        "message": "Lütfen <strong>Betaflight dışı</strong> donanımları bu yazılım flaşçısıyla <span class=\"message-negative\">flaşlamayın</span>.<br />Flaşlama işlemi sırasında bilgisayarınızı <strong>kapatmayın</strong> veya panelinizin <strong>bağlantısını</strong><span class=\"message-negative\">kesmeyin</span>.<br /><br /><strong>Not:</strong> STM 32 bootlader programı ROM da yüklüdür, tuğlalaşamaz.<br /><strong>Not:</strong>Siz Yazılım flaşçısının içindeyken <span class=\"message-negative\">Otomatik-Bağlanma</span> her zaman devre dışı bırakılır.<br /><strong>Not:</strong>Yedekleme aldığınızdan emin olun, bazı yükseltme/düşürme işlemleri tüm ayarlarınızı yok edecektir.<br /><strong>Not:</strong> Flaşlama sorunları yaşıyorsanız ilk olarak <strong>FC nizdeki tüm kabloları sökmeyi deneyin<strong>, ardından yeniden başlatın, chrome', sürücüleri güncelleyin.<br /><strong>Not:</strong> Doğrudan doğruya USB soketleriyle bağlanmış panelleri (yeni panellerin çoğu) flaşlarken, Betaflight kullanma klavuzundaki UBS flaşlama bölümünü okuduğunuzdan ve doğru yazılım ve sürücüleri yüklediğinizden emin olun"
     },
     "firmwareFlasherRecoveryHead": {
-        "message": "<strong>Kurtarma \/ Kayıp iletişimi<\/strong>"
+        "message": "<strong>Kurtarma / Kayıp iletişimi</strong>"
     },
     "firmwareFlasherRecoveryText": {
-        "message": "Eğer panelinizle olan iletişimi kaybettiyseniz, iletişimi kurtarmak için bu adımları takip edin: <ul><li> Gücü kapatın <\/li><li>yı Aktifleştirin 'Yeniden Başlatma sekansı yok', aktifleştirin 'Tüm çipi sil'.<\/li><li> BOOT pinlerini bağlayın veya BOOT tuşuna basılı tutun.<\/li><li>Gücü açın (eğer doğru yapılırsa aktif LED YANMAYACAK)<\/li><li> Gerekliyse tüm STM32 sürücüleri ve Zadig'i yükleyin (Betaflight kullanma klavuzunun <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB flaşlama<\/a> kısmına bakın)<\/li><li>Yapılandırıcıyı kapatın, Çalışan tüm chrome örneklerini kapatın, tüm Chrome uygulamalarını kapatın, Yapılandırıcı baştan başlatın.<\/li><li>Eğer FC'nizde varsa BOOT düğmesini bırakın.<\/li><li>Doğru yazılımla flaşlamak(Eğer FC'nizin kullanma klavuzunda belirtilmişse elle yapılandırılmış baud hızı kullanarak).<\/li>Gücü kapatın.<\/li><li>BOOT bağlantı kablolarını kaldırın.<\/li><li>Gücü açın(aktif LED yanıp sönmeli).<\/li><li>Normal şekilde bağlayın.<\/li><\/ul>"
+        "message": "Eğer panelinizle olan iletişimi kaybettiyseniz, iletişimi kurtarmak için bu adımları takip edin: <ul><li> Gücü kapatın </li><li>yı Aktifleştirin 'Yeniden Başlatma sekansı yok', aktifleştirin 'Tüm çipi sil'.</li><li> BOOT pinlerini bağlayın veya BOOT tuşuna basılı tutun.</li><li>Gücü açın (eğer doğru yapılırsa aktif LED YANMAYACAK)</li><li> Gerekliyse tüm STM32 sürücüleri ve Zadig'i yükleyin (Betaflight kullanma klavuzunun <a href=\"https://github.com/betaflight/betaflight/wiki/Installing-Betaflight\"target=\"_blank\">USB flaşlama</a> kısmına bakın)</li><li>Yapılandırıcıyı kapatın, Çalışan tüm chrome örneklerini kapatın, tüm Chrome uygulamalarını kapatın, Yapılandırıcı baştan başlatın.</li><li>Eğer FC'nizde varsa BOOT düğmesini bırakın.</li><li>Doğru yazılımla flaşlamak(Eğer FC'nizin kullanma klavuzunda belirtilmişse elle yapılandırılmış baud hızı kullanarak).</li>Gücü kapatın.</li><li>BOOT bağlantı kablolarını kaldırın.</li><li>Gücü açın(aktif LED yanıp sönmeli).</li><li>Normal şekilde bağlayın.</li></ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "Yazılım flaşlayıcısından çıkın"
@@ -1347,34 +1347,34 @@
         "message": "HEX dosyası bozuk olarak görünüyor"
     },
     "firmwareFlasherRemoteFirmwareLoaded": {
-        "message": "<span class=\"message-positive\">Uzaktan Yazılım yüklendi, flaşlanmaya hazır<\/span>"
+        "message": "<span class=\"message-positive\">Uzaktan Yazılım yüklendi, flaşlanmaya hazır</span>"
     },
     "firmwareFlasherFailedToLoadOnlineFirmware": {
         "message": "Uzaktan yazılım yüklenemedi"
     },
     "firmwareFlasherNoFirmwareSelected": {
-        "message": "<b>Yüklemek için yazılım seçilmedi<\/b>"
+        "message": "<b>Yüklemek için yazılım seçilmedi</b>"
     },
     "firmwareFlasherNoValidPort": {
-        "message": "<span class=\"message-negative\">Lütfen geçerli bir seri bağlantı noktası seçin<\/span>"
+        "message": "<span class=\"message-negative\">Lütfen geçerli bir seri bağlantı noktası seçin</span>"
     },
     "firmwareFlasherWritePermissions": {
-        "message": "Bu dosya için <span class=\"message-negative\">yazma izniniz<\/span> yok"
+        "message": "Bu dosya için <span class=\"message-negative\">yazma izniniz</span> yok"
     },
     "firmwareFlasherFlashTrigger": {
-        "message": "Tespit edildi <strong>$1<\/strong>- bağlantı kurulduğunda flaş tetikleniyor"
+        "message": "Tespit edildi <strong>$1</strong>- bağlantı kurulduğunda flaş tetikleniyor"
     },
     "firmwareFlasherPreviousDevice": {
-        "message": "Tespit edildi:<strong>$1<\/strong> - önceki cihaz hala flaşlanıyor, lütfen yeniden denemek için tekrar takın"
+        "message": "Tespit edildi:<strong>$1</strong> - önceki cihaz hala flaşlanıyor, lütfen yeniden denemek için tekrar takın"
     },
     "ledStripHelp": {
-        "message": "Uçuş kontrolörü şerit üzerindeki tekli LEDlerin renklerini ve etkilerini kontrol edebilir.<br \/>LEDleri şebekede yapılandırın, kablolama düzenini yapılandırın ardından uçağınıza LEDleri şebeke pozisyonlarına göre ekleyin. Tel sıra numarası olmayan LEDler kaydedilmeyecektir.<br \/>HSV değerlerini düzenlemek için bir renge çift tıklayın."
+        "message": "Uçuş kontrolörü şerit üzerindeki tekli LEDlerin renklerini ve etkilerini kontrol edebilir.<br />LEDleri şebekede yapılandırın, kablolama düzenini yapılandırın ardından uçağınıza LEDleri şebeke pozisyonlarına göre ekleyin. Tel sıra numarası olmayan LEDler kaydedilmeyecektir.<br />HSV değerlerini düzenlemek için bir renge çift tıklayın."
     },
     "ledStripButtonSave": {
         "message": "Kaydet"
     },
     "ledStripEepromSaved": {
-        "message": "EEPROM<span class=\"message-positive\">kaydedildi<\/span>"
+        "message": "EEPROM<span class=\"message-positive\">kaydedildi</span>"
     },
     "ledStripVtxOverlay": {
         "message": "VTX (Vidyo vericisi) (renkleri atamak için vtx frekansını kullanır)"
@@ -1517,7 +1517,7 @@
         "message": "AUX 16"
     },
     "pidTuningBasic": {
-        "message": "Temel\/Yükseklik"
+        "message": "Temel/Yükseklik"
     },
     "pidTuningYawJumpPrevention": {
         "message": "Rotadan çıkmayı engelle"
@@ -1532,13 +1532,13 @@
         "message": "RC Expoyu hesaplarken kullanılan üs. Betaflight 3.0'dan önceki sürümlerde değer 3 olarak sabitlenmiştir."
     },
     "pidTuningLevel": {
-        "message": "Açı\/Ufuk"
+        "message": "Açı/Ufuk"
     },
     "pidTuningAltitude": {
-        "message": "Barometre & Sonar\/Yükseklik"
+        "message": "Barometre & Sonar/Yükseklik"
     },
     "pidTuningMag": {
-        "message": "Manyometre\/Başlık"
+        "message": "Manyometre/Başlık"
     },
     "pidTuningGps": {
         "message": "GPS Navigasyonu"
@@ -1571,16 +1571,16 @@
         "message": "Vbat PID dengelemesi"
     },
     "configHelp2": {
-        "message": "İsteğe bağlı pano dönüşü dereceleri, yanlamasına\/ alt üst \/ döndürülerek vb takılmasına izin verilir. Harici sensörler çalıştığında sensör konumunu pano yönünden bağımsız olarak tanımlamak için sensör hizalamalarını (Jiroskop, hızlanma, büyüklük) kullanın. "
+        "message": "İsteğe bağlı pano dönüşü dereceleri, yanlamasına/ alt üst / döndürülerek vb takılmasına izin verilir. Harici sensörler çalıştığında sensör konumunu pano yönünden bağımsız olarak tanımlamak için sensör hizalamalarını (Jiroskop, hızlanma, büyüklük) kullanın. "
     },
     "failsafeFeaturesHelpOld": {
-        "message": "Failsafe yapılandırması önemli ölçüde değişti. Gelişmiş yapılandırma panelini aktif etmek için Betaflight <strong>v1.12.0+<\/strong>'yı kullanın."
+        "message": "Failsafe yapılandırması önemli ölçüde değişti. Gelişmiş yapılandırma panelini aktif etmek için Betaflight <strong>v1.12.0+</strong>'yı kullanın."
     },
     "failsafePaneTitleOld": {
         "message": "Failsafe alıcısı"
     },
     "failsafeFeaturesHelpNew": {
-        "message": "Failsafe iki aşamadan oluşur. Bir uçuş kanalı geçersiz bir darbe uzunluğuna sahip olduğunda <strong>Aşama 1<\/strong> 'e girilir, alıcı failsafe modunu bildirir veya alıcıdan hiçbir sinyal gelmez, kanal geri çekilme ayarları <span class=\"message-negative\">tüm kanallara<\/span> uygulanır ve kurtarma işlemine izin vermek için kısa bir zaman verilir. Uçak <span class=\"message-negative\">silahlandırılmışken<\/span> hata durumu ayarlanmış koruma zamanından daha uzun olduğu zaman <strong>aşama 2<\/strong> ye girilir, seçilen prosedür tarafından geçersiz kılınmadığı sürece, tüm kanallar uygulanan kanal geri çekilme ayarında kalır.<br \/><strong>Not:<\/strong> Aşama 1 e girmeden önce, kanal geri çekilme ayarı, geçersiz darbelere sahip AUX kanallarına da tek tek uygulanır."
+        "message": "Failsafe iki aşamadan oluşur. Bir uçuş kanalı geçersiz bir darbe uzunluğuna sahip olduğunda <strong>Aşama 1</strong> 'e girilir, alıcı failsafe modunu bildirir veya alıcıdan hiçbir sinyal gelmez, kanal geri çekilme ayarları <span class=\"message-negative\">tüm kanallara</span> uygulanır ve kurtarma işlemine izin vermek için kısa bir zaman verilir. Uçak <span class=\"message-negative\">silahlandırılmışken</span> hata durumu ayarlanmış koruma zamanından daha uzun olduğu zaman <strong>aşama 2</strong> ye girilir, seçilen prosedür tarafından geçersiz kılınmadığı sürece, tüm kanallar uygulanan kanal geri çekilme ayarında kalır.<br /><strong>Not:</strong> Aşama 1 e girmeden önce, kanal geri çekilme ayarı, geçersiz darbelere sahip AUX kanallarına da tek tek uygulanır."
     },
     "failsafePulsrangeTitle": {
         "message": "Geçerli darbe aralığı ayarları"
@@ -1598,7 +1598,7 @@
         "message": "Kanal önbellek ayarları"
     },
     "failsafeChannelFallbackSettingsHelp": {
-        "message": "Bu ayarlar, geçersiz bireysel AUX kanallarına veya evre 1'e girerken tüm kanallara uygulanır. <strong>Not:<\/strong> değerler 25 usec'lik adımlarla kaydedilir, bu nedenle küçük değişiklikler kaybolur"
+        "message": "Bu ayarlar, geçersiz bireysel AUX kanallarına veya evre 1'e girerken tüm kanallara uygulanır. <strong>Not:</strong> değerler 25 usec'lik adımlarla kaydedilir, bu nedenle küçük değişiklikler kaybolur"
     },
     "failsafeChannelFallbackSettingsAuto": {
         "message": "Otomatik sağa ve sola yatmak, ileri geri hareket ve kuyruk dönüşü ve düşük gaz anlamına gelmektedir.\nTutuş alınan son iyi değerleri korumak anlamına gelmektedir"
@@ -1640,13 +1640,13 @@
         "message": "İniş"
     },
     "failsafeKillSwitchHelp": {
-        "message": "Seçilen arıza güvencesi prosedürünü atlayarak, arıza güvencesi anahtarını (Modlar Sekmesi) doğrudan acil anahtarı yapmak için bu seçeneği ayarlayın. <strong>Not:<\/strong> AÇIK konumda, silahlandırılma arıza güvenceli acil anahtarıyla engellenir"
+        "message": "Seçilen arıza güvencesi prosedürünü atlayarak, arıza güvencesi anahtarını (Modlar Sekmesi) doğrudan acil anahtarı yapmak için bu seçeneği ayarlayın. <strong>Not:</strong> AÇIK konumda, silahlandırılma arıza güvenceli acil anahtarıyla engellenir"
     },
     "powerButtonSave": {
         "message": "Kaydet"
     },
     "powerFirmwareUpgradeRequired": {
-        "message": "Aygıt yazılımı yükseltmesi <span class=\"message-negative\">gereklidir<\/span>. API &lt; 1.33.0 (Betaflight yayın &lt;=3.17) kullanarak pil\/amper\/voltaj yapılandırmaları desteklenmiyor."
+        "message": "Aygıt yazılımı yükseltmesi <span class=\"message-negative\">gereklidir</span>. API &lt; 1.33.0 (Betaflight yayın &lt;=3.17) kullanarak pil/amper/voltaj yapılandırmaları desteklenmiyor."
     },
     "powerBatteryVoltageMeterSource": {
         "message": "Gerilim ölçer kaynağı"
@@ -1769,7 +1769,7 @@
         "message": "Kapasite (mAh)"
     },
     "osdSetupUnsupportedNote2": {
-        "message": "Bazı uçuş kumandalarının yerleşik <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a> ile yanıp sönebilen ve yapılandırılabilen <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a>'si bulunduğunu not edin, buna rağmen MinimOSD bu arayüz üzerinden yapılandırılamaz."
+        "message": "Bazı uçuş kumandalarının yerleşik <a href=\"https://github.com/ShikOfTheRa/scarab-osd/releases/latest\" target='_blank'>scarab-osd</a> ile yanıp sönebilen ve yapılandırılabilen <a href=\"https://www.youtube.com/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD</a>'si bulunduğunu not edin, buna rağmen MinimOSD bu arayüz üzerinden yapılandırılamaz."
     },
     "osdSetupVideoFormatTitle": {
         "message": "Video formatı"
@@ -1922,10 +1922,10 @@
         "message": "Kameranın beklenen video modunu ayarlayın (bu tipik olarak otomatik bırakılabilir, eğer zorluklarla karşılaşırsanız kameranın çıkışıyla eşleşecek şekilde ayarlayın)."
     },
     "configurationEscProtocolHelp": {
-        "message": "Motor protokolünü seçin. <br>Protokolün ESC'niz tarafından desteklendiğini doğruladığınızdan emin olun, bu bilgiler üreticilerin web sitesinde olmalıdır. <br> <b>Pek çok ESC'nin desteği olmadığı için DSHOT900 ve DSHOT1200'yi kullanırken dikkatli olun!<\/b>"
+        "message": "Motor protokolünü seçin. <br>Protokolün ESC'niz tarafından desteklendiğini doğruladığınızdan emin olun, bu bilgiler üreticilerin web sitesinde olmalıdır. <br> <b>Pek çok ESC'nin desteği olmadığı için DSHOT900 ve DSHOT1200'yi kullanırken dikkatli olun!</b>"
     },
     "configurationPidProcessDenomHelp": {
-        "message": "PID döngüsünün maksimum frekansı, güncellemelerin seçilen ESC\/motor protokolü tarafından gönderilebilecek azami frekansla sınırlanır."
+        "message": "PID döngüsünün maksimum frekansı, güncellemelerin seçilen ESC/motor protokolü tarafından gönderilebilecek azami frekansla sınırlanır."
     },
     "configurationGyroUse32kHzHelp": {
         "message": "32 kHz cayro güncelleme frekansı ancak, cayro çipi onu destekliyorsa (şu an MPU6500, MPU9250 ve SPI üzerinden bağlıysa ICM20xxx) mümkündür. Şüpheniz varsa, aracınızın özelliklerine bakın."
@@ -1934,15 +1934,15 @@
         "message": "Araç, belirtilen derece sayısından fazla eğilmişse, SİLAHLANDIRILMAZ. Sadece ivme ölçer etkinleştirilirse geçerlidir. 180'e ayarlamak etkili bir şekilde kontrol işlemini devre dışı bırakacaktır"
     },
     "pidTuningProfileTip": {
-        "message": "Uçuş denetleyicisinde 3'e kadar (bazı kontrolörler için 2) farklı Pid profilleri saklanabilir. Pid profilleri, bu sekmede pid, d ayar noktası ve açı\/ufuk ayarlarını içerir. Sahaya girdikten sonra, profiller arasında geçiş yapmak için basit uçak kumanda çubuğu komutları (çevrim içi talimatlara bakın) kullanılabilir."
+        "message": "Uçuş denetleyicisinde 3'e kadar (bazı kontrolörler için 2) farklı Pid profilleri saklanabilir. Pid profilleri, bu sekmede pid, d ayar noktası ve açı/ufuk ayarlarını içerir. Sahaya girdikten sonra, profiller arasında geçiş yapmak için basit uçak kumanda çubuğu komutları (çevrim içi talimatlara bakın) kullanılabilir."
     },
     "pidTuningDeltaTip": {
-        "message": "<b>Hatadan Türev<\/b> daha doğrudan çubuk tepkisi verir ve çoğunlukla Yarış için tercih edilir.<br><br><b>Ölçümden Türev<\/b> serbest uçuş için daha kullanışlı olan daha yumuşak çubuk tepkisi sağlar"
+        "message": "<b>Hatadan Türev</b> daha doğrudan çubuk tepkisi verir ve çoğunlukla Yarış için tercih edilir.<br><br><b>Ölçümden Türev</b> serbest uçuş için daha kullanışlı olan daha yumuşak çubuk tepkisi sağlar"
     },
     "pidTuningPidControllerTip": {
-        "message": "<b>Legacy vs Betaflight (reel sayı):<\/b> PID ölçekleme ve PID mantığı tamamen aynıdır. Tekrar ayarlamak gerekli değildir. Legacy tamsayı matematik tabanlı temel PID denetleyicisi olan, eski evrim geçirmiş yeniden yazılmış betaflighttır. Betaflight PID denetleyicisi kayan nokta matematiği kullanıyor ve multirotor uygulamaları için özel olarak tasarlanmış pek çok yeni özelliği var <br><b> Reel sayı vs Tam sayı:<\/b> PID ölçekleme ve PID mantığı tamamen aynıdır. Tekrar ayarlamak gerekli değildir. F1 panolarında yerleşik FPU yoktur ve kayan nokta matematiği CPU yükünü arttırır ve tam sayı matematiği performansı geliştirir ancak kayan nokta matematiği biraz daha fazla hassasiyet kazanabilir."
+        "message": "<b>Legacy vs Betaflight (reel sayı):</b> PID ölçekleme ve PID mantığı tamamen aynıdır. Tekrar ayarlamak gerekli değildir. Legacy tamsayı matematik tabanlı temel PID denetleyicisi olan, eski evrim geçirmiş yeniden yazılmış betaflighttır. Betaflight PID denetleyicisi kayan nokta matematiği kullanıyor ve multirotor uygulamaları için özel olarak tasarlanmış pek çok yeni özelliği var <br><b> Reel sayı vs Tam sayı:</b> PID ölçekleme ve PID mantığı tamamen aynıdır. Tekrar ayarlamak gerekli değildir. F1 panolarında yerleşik FPU yoktur ve kayan nokta matematiği CPU yükünü arttırır ve tam sayı matematiği performansı geliştirir ancak kayan nokta matematiği biraz daha fazla hassasiyet kazanabilir."
     },
     "pidTuningFilterTip": {
-        "message": "<b>Cayro Yumuşak Filtresi:<\/b> Cayro için alçak geçiren filtre. Daha fazla filtreleme için daha düşük değeri kullanın.<br><b>D terimi Filtresi:<\/b> D terimi için alçak geçiren filtre. D ayarını etkileyebilir. Daha fazla filtreleme için daha düşük değeri kullanın. <br><b>Sapma Filtresi:<\/b> sapma çıkışlarını filtreler. Gürültülü sapma ekseninin kurulumlarında yardımcı olabilir."
+        "message": "<b>Cayro Yumuşak Filtresi:</b> Cayro için alçak geçiren filtre. Daha fazla filtreleme için daha düşük değeri kullanın.<br><b>D terimi Filtresi:</b> D terimi için alçak geçiren filtre. D ayarını etkileyebilir. Daha fazla filtreleme için daha düşük değeri kullanın. <br><b>Sapma Filtresi:</b> sapma çıkışlarını filtreler. Gürültülü sapma ekseninin kurulumlarında yardımcı olabilir."
     }
 }
