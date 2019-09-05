@@ -3068,16 +3068,16 @@
         "message": "<strong>Atención:</strong> El Filtro Notch Dinámico está desactivado. Para poder usarlo y configurarlo, activa la funcionalidad 'DYNAMIC_FILTER' en la sección '$t(configurationFeatures.message)' de la pestaña '$t(tabConfiguration.message)'."
     },
     "pidTuningDynamicNotchRange": {
-        "message": "Filtro Notch Dinámico Rango"
+        "message": "Giro Filtro Notch Dinámico Rango"
     },
     "pidTuningDynamicNotchWidthPercent": {
-        "message": "Filtro Notch Dinámico Porcentaje de Ancho"
+        "message": "Giro Filtro Notch Dinámico Ancho [Porcentaje]"
     },
     "pidTuningDynamicNotchQ": {
-        "message": "Filtro Notch Dinámico Q"
+        "message": "Giro Filtro Notch Dinámico Q"
     },
     "pidTuningDynamicNotchMinHz": {
-        "message": "Filtro Notch Dinámico Min [Hz]"
+        "message": "Giro Filtro Notch Dinámico Min [Hz]"
     },
     "pidTuningDynamicNotchRangeHelp": {
         "message": "El Filtro Notch Dinámico tiene tres rangos de frecuencias en las que puede operar: LOW (80-300Hz) para quads con pocas revoluciones como 6\" o más, MEDIUM (140-550Hz) para un quad normal de 5\", HIGH (230-800Hz) para quads de altas revoluciones como por ejemplo 2,5\"-3\". La opción AUTO selecciona el rango dependiendo del valor de la frecuencia de corte máxima del filtro Giro Paso Bajo 1 Dinámico."
@@ -3089,7 +3089,7 @@
         "message": "El factor Q ajusta como de estrechos o anchos son los Filtros Notch Dinámicos. Valores más altos lo hacen estrecho y más preciso y valores más bajos lo hacen más ancho y extenso. Un valor muy bajo aumenta considerablemente el retraso producido por el filtro."
     },
     "pidTuningDynamicNotchMinHzHelp": {
-        "message": "Define la mínima frecuencia para el centro del Filtro Notch Dinámica por debajo de la cual el filtro no entrará."
+        "message": "Define la mínima frecuencia para el centro del Filtro Notch Dinámico por debajo de la cual el filtro no entrará."
     },
     "pidTuningLowpassFilterHelp": {
         "message": "Los Filtros Paso Bajo pueden tener dos variantes: estático y dinámico. Para un determinado número de filtro paso bajo sólo uno puede estar activado a la vez (estático o dinámico). El estático sólo tiene un Corte que define de alguna manera dónde empieza el filtro. El dinámico define valores mínimos y máximos, que es el rango dónde se sitúa el Corte. Este Corte se mueve entre el mínimo y el máximo a la vez que mueves la palanca de acelerador."
@@ -4645,6 +4645,10 @@
         "message": "<span class=\"message-negative\">Atención:</span> Necesitas configurar y guardar PRIMERO la Tabla VTX de abajo antes de que puedas hacer uso de los campos de $t(vtxSelectedMode.message).",
         "description": "Message to show when the VTX is not supported in the VTX tab"
     },
+    "vtxMessageVerifyTable": {
+        "message": "<span class=\"message-negative\">Atención:</span> Los valores de la tabla VTX han sido cargados, pero aún no se han enviado al controlador de vuelo. Debes verificar y modificar los valores para asegurarte de que son válidos y legales en tu país y luego pulsar el botón $t(vtxButtonSave.message) para enviarlos en el controlador de vuelo.",
+        "description": "Message to show when the VTX Table has been loaded from a external source"
+    },
     "vtxFrequencyChannel": {
         "message": "Introducir frecuencia directamente",
         "description": "Text of one of the fields of the VTX tab"
@@ -4832,6 +4836,30 @@
     "vtxTableBandsChannelsTableHelp": {
         "message": "Esta tabla representa todas las frecuencias que pueden ser utilizadas por tu VTX. Puedes tener diferentes bandas y por cada banda debes configurar:<br><b>- $t(vtxTableBandTitleName.message):</b> Nombre que quieres asignar a esa banda, como BOSCAM_A, FATSHARK o RACEBAND.<br><b>- $t(vtxTableBandTitleLetter.message):</b> Letra corta que referencia a la banda.<br><b>- $t(vtxTableBandTitleFactory.message):</b> Esto indica que es una banda de fábrica. Si se activa Betaflight sólo envía al VTX una banda y un número de canal. El VTX usará su tabla de frecuencias preconfigurada y las frecuencias configuradas aquí sólo se utilizarán para mostrar el valor en el OSD y en otros lugares. Si no está activado, entonces Betaflight enviará al VTX la frecuencia real configurada aquí.<br><b>- Frecuencias:</b> Frecuencias para esta banda.<br><br>Recuerda que no todas las frecuencias son legales en tu país. Debes poner un valor de <b>cero</b> en cada índice de frecuencia que no estés autorizado a utilizar para desactivarlo.",
         "description": "Help for the table of bands-channels that appears in the VTX tab"
+    },
+    "vtxSavedFileOk": {
+        "message": "Archivo de Configuración VTX <span class=\"message-positive\">guardado</span>",
+        "description": "Message in the GUI log when the VTX Config file is saved"
+    },
+    "vtxSavedFileKo": {
+        "message": "<span class=\"message-negative\">Error</span> al guardar el archivo de Configuración VTX",
+        "description": "Message in the GUI log when the VTX Config file is saved"
+    },
+    "vtxLoadFileOk": {
+        "message": "Archivo de Configuración VTX <span class=\"message-positive\">cargado</span>",
+        "description": "Message in the GUI log when the VTX Config file is loaded"
+    },
+    "vtxLoadFileKo": {
+        "message": "<span class=\"message-negative\">Error</span> al cargar el archivo de Configuración VTX",
+        "description": "Message in the GUI log when the VTX Config file is loaded"
+    },
+    "vtxButtonSaveFile": {
+        "message": "Guardar en archivo",
+        "description": "Save to file button in the VTX tab"
+    },
+    "vtxButtonLoadFile": {
+        "message": "Cargar desde archivo",
+        "description": "Load to file button in the VTX tab"
     },
     "vtxButtonSave": {
         "message": "Guardar",
