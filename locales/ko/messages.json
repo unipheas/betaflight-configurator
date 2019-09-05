@@ -4713,6 +4713,10 @@
         "message": "<span class=\"message-negative\">주의:</span> $t(vtxSelectedMode.message) 필드를 사용하려면 먼저 아래쪽에 VTX 표를 구성하고 저장하십시오.",
         "description": "Message to show when the VTX is not supported in the VTX tab"
     },
+    "vtxMessageVerifyTable": {
+        "message": "<span class=\"message-negative\">주의:</span> VTX 표의 값이 로드되었지만, 아직 비행 컨트롤러에 저장되지 않았습니다. 해당 값이 당신의 국가에서 유효하고 합법적인지 확인하고 수정해야 하며, $t(vtxButtonSave.message) 버튼을 눌러 비행 컨트롤러에 저장해야 합니다.",
+        "description": "Message to show when the VTX Table has been loaded from a external source"
+    },
     "vtxFrequencyChannel": {
         "message": "직접 주파수 입력",
         "description": "Text of one of the fields of the VTX tab"
@@ -4900,6 +4904,30 @@
     "vtxTableBandsChannelsTableHelp": {
         "message": "이 표는 VTX에 사용할 수 있는 모든 주파수를 나타냅니다. 당신은 여러 개의 밴드를 가질 수 있으며, 각 밴드에 대해 다음과 같이 구성해야 합니다:<br><b>- $t(vtxTableBandTitleName.message)</b> BOSCAM_A, FATSHARK 또는 RACEBAND와 같은 밴드에 할당할 이름.<br><b>- $t(vtxTableBandTitleLetter.message):</b> 밴드를 가리키는 짧은 글자.<br><b>- $t(vtxTableBandTitleFactory.message):</b> 이것은 그것이 공장 밴드인지를 나타냅니다. 활성화 된 경우 베타플라이트는 VTX에 밴드와 채널 번호를 전송합니다. 그런 다음 VTX는 빌트인 주파수 표를 사용하고 여기에 구성된 주파수는 OSD 및 기타 장소에서만 값을 표시합니다. 활성화 되지 않은 경우, 베타플라이트는 여기에 구성된 실제 주파수를 VTX에 전송합니다.<br><b>- 주파수:</b> 이 밴드의 주파수.<br><br>당신 나라에서는 모든 주파수가 합법적인 것은 아니라는 것을 기억하십시오. 당신은 그것을 비활성화 할 때 사용할 수 없는 주파수의 인덱스에 <b>0</b>의 값을 넣어야 합니다.",
         "description": "Help for the table of bands-channels that appears in the VTX tab"
+    },
+    "vtxSavedFileOk": {
+        "message": "VTX 환경설정 파일 <span class=\"message-positive\">저장됨</span>",
+        "description": "Message in the GUI log when the VTX Config file is saved"
+    },
+    "vtxSavedFileKo": {
+        "message": "VTX 환경설정 파일을 저장하는 동안 <span class=\"message-negative\">오류</span> 발생",
+        "description": "Message in the GUI log when the VTX Config file is saved"
+    },
+    "vtxLoadFileOk": {
+        "message": "VTX 환경설정 파일 <span class=\"message-positive\">로드됨</span>",
+        "description": "Message in the GUI log when the VTX Config file is loaded"
+    },
+    "vtxLoadFileKo": {
+        "message": "VTX 환경설정 파일을 로딩하는 동안 <span class=\"message-negative\">오류</span> 발생",
+        "description": "Message in the GUI log when the VTX Config file is loaded"
+    },
+    "vtxButtonSaveFile": {
+        "message": "파일로 저장",
+        "description": "Save to file button in the VTX tab"
+    },
+    "vtxButtonLoadFile": {
+        "message": "파일로부터 불러오기",
+        "description": "Load to file button in the VTX tab"
     },
     "vtxButtonSave": {
         "message": "저장",
