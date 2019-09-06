@@ -347,13 +347,13 @@
         "message": "処理: 失敗"
     },
     "stm32AddressLoadFailed": {
-        "message": "オプションバイトセクターのアドレスの読込みに失敗しました。読取り保護が原因の可能性があります。"
+        "message": "オプションバイトセクターのアドレスのロードに失敗しました。読取り保護が原因の可能性があります。"
     },
     "stm32AddressLoadSuccess": {
-        "message": "オプションバイトセクターのアドレスの読込みに成功しました。"
+        "message": "オプションバイトセクターのアドレスのロードに成功しました。"
     },
     "stm32AddressLoadUnknown": {
-        "message": "オプションバイトセクターのアドレスの呼出しが原因不明のエラーで失敗しました。中止しています。"
+        "message": "オプションバイトセクターのアドレスのロードが原因不明のエラーで失敗しました。中止しています。"
     },
     "stm32NotReadProtected": {
         "message": "読取り保護が有効ではありません"
@@ -399,7 +399,7 @@
         "message": "$1 開発情報のキャッシュを参照します。"
     },
     "releaseCheckLoaded": {
-        "message": "$1 GitHubより、リリース情報を受信しました。"
+        "message": "$1 GitHubよりリリース情報が読み込まれました。"
     },
     "releaseCheckFailed": {
         "message": "<b>GitHub情報 $1リリースの読込みに失敗した為、キャッシュ情報を使用します。理由: <code>$2</code></b>"
@@ -1661,10 +1661,10 @@
         "message": "Rateprofileをセット:<strong class=\"message-positive\">$1</strong>"
     },
     "pidTuningLoadedProfile": {
-        "message": "Profileの読出し:<strong class=\"message-positive\">$1</strong>"
+        "message": "Profileをロードしました:<strong class=\"message-positive\">$1</strong>"
     },
     "pidTuningLoadedRateProfile": {
-        "message": "Rateprofileの読出し:<strong class=\"message-positive\">$1</strong>"
+        "message": "Rateprofileをロードしました:<strong class=\"message-positive\">$1</strong>"
     },
     "pidTuningDataRefreshed": {
         "message": "PIDデータ <strong>更新しました</strong>"
@@ -2295,10 +2295,10 @@
         "message": "コピー完了！"
     },
     "cliLoadFromFileBtn": {
-        "message": "ファイルから読み込みます"
+        "message": "ファイルからロード"
     },
     "cliConfirmSnippetDialogTitle": {
-        "message": "読み込んだコマンドを確認します"
+        "message": "ロードしたコマンドを確認します"
     },
     "cliConfirmSnippetNote": {
         "message": "<strong>備考</strong>: 実行前にコマンドを確認及び編集することができます。"
@@ -2622,13 +2622,13 @@
         "message": "ファームフラッシャーより退避"
     },
     "firmwareFlasherFirmwareNotLoaded": {
-        "message": "ファームウェアが読込まれていません"
+        "message": "ファームウェアがロードできません"
     },
     "firmwareFlasherFirmwareLocalLoaded": {
-        "message": "読込まれたローカル ファームウェア: ($1 bytes)"
+        "message": "ロードされたローカル ファームウェア: ($1 bytes)"
     },
     "firmwareFlasherFirmwareOnlineLoaded": {
-        "message": "読込済みオンラインファーム: ($1 bytes)"
+        "message": "ロードされたオンラインファームウェア: ($1 bytes)"
     },
     "firmwareFlasherHexCorrupted": {
         "message": "HEXファイルが破損しているようです"
@@ -2637,7 +2637,14 @@
         "message": "<span class=\"message-positive\">リモートファームウェアがロードされ、書換え準備ができました</span>"
     },
     "firmwareFlasherFailedToLoadOnlineFirmware": {
-        "message": "リモートファームウェアの読込みに失敗しました"
+        "message": "リモートファームウェアのロードに失敗しました"
+    },
+    "firmwareFlasherFailedToLoadUnifiedConfig": {
+        "message": "{{remote_file}} リモート設定のロードに失敗しました"
+    },
+    "firmwareFlasherLegacyLabel": {
+        "message": "{{target}} (レガシー)",
+        "description": "If we have a Unified target and a old style target available, we are labeling the older one"
     },
     "firmwareFlasherNoFirmwareSelected": {
         "message": "<b>ロードするファームウェア 未選択</b>"
@@ -4645,6 +4652,10 @@
         "message": "<span class=\"message-negative\">注意:</span> $t(vtxSelectedMode.message) フィールドを使用する前に一番下にあるVTXテーブルを設定し保存する必要があります。",
         "description": "Message to show when the VTX is not supported in the VTX tab"
     },
+    "vtxMessageVerifyTable": {
+        "message": "<span class=\"message-negative\">注意:</span> VTXテーブル値はロードされましたが、フライトコントローラにはまだ保存されていません。値を確認および変更し、その地域にて利用周波数が使用可能であることを確認し $t(vtxButtonSave.message) ボタンを押してフライトコントローラに保存する必要があります。",
+        "description": "Message to show when the VTX Table has been loaded from a external source"
+    },
     "vtxFrequencyChannel": {
         "message": "周波数を直接入力してください",
         "description": "Text of one of the fields of the VTX tab"
@@ -4832,6 +4843,30 @@
     "vtxTableBandsChannelsTableHelp": {
         "message": "次の表は、VTXで使用できるすべての周波数を表しています。複数バンドを保持、各バンドに対して設定する必要があります:<br><b>- $t(vtxTableBandTitleName.message):</b> BOSCAM_A、FATSHARK、RACEBAND等、これらバンドに割り当てる名称です。<br><b>- $t(vtxTableBandTitleLetter.message):</b> バンドを表す略称です。<br><b>- $t(vtxTableBandTitleFactory.message):</b> これは工場出荷時バンドかどうかを示します。有効にすると、BetaflightはVTXにバンドとチャンネル番号を送信します。次にVTXは組み込みの周波数テーブルを使用し、ここで設定された周波数はOSDおよび他の場所で値を表示するためだけのものとなります。有効になっていない場合、Betaflightはここで設定した実際の周波数をVTXに送信します。<br><b>- 周波数:</b> このバンドの周波数です。<br><br>すべての周波数があなたの国で合法であるとは限らないことに注意してください。無効とするためには、使用できない各周波数インデックスに<b>ゼロ</b>の値を設定する必要があります。",
         "description": "Help for the table of bands-channels that appears in the VTX tab"
+    },
+    "vtxSavedFileOk": {
+        "message": "VTX設定ファイルを<span class=\"message-positive\">保存しました</span>",
+        "description": "Message in the GUI log when the VTX Config file is saved"
+    },
+    "vtxSavedFileKo": {
+        "message": "VTX設定ファイルの保存中に<span class=\"message-negative\">エラーが発生しました</span>",
+        "description": "Message in the GUI log when the VTX Config file is saved"
+    },
+    "vtxLoadFileOk": {
+        "message": "VTX設定ファイルを<span class=\"message-positive\">ロードしました</span>",
+        "description": "Message in the GUI log when the VTX Config file is loaded"
+    },
+    "vtxLoadFileKo": {
+        "message": "VTX設定ファイルのロード中に<span class=\"message-negative\">エラーが発生しました</span>",
+        "description": "Message in the GUI log when the VTX Config file is loaded"
+    },
+    "vtxButtonSaveFile": {
+        "message": "ファイルへ保存",
+        "description": "Save to file button in the VTX tab"
+    },
+    "vtxButtonLoadFile": {
+        "message": "ファイルからロード",
+        "description": "Load to file button in the VTX tab"
     },
     "vtxButtonSave": {
         "message": "保存",
