@@ -2707,6 +2707,13 @@
     "firmwareFlasherFailedToLoadOnlineFirmware": {
         "message": "원격지원 펌웨어 로드 실패"
     },
+    "firmwareFlasherFailedToLoadUnifiedConfig": {
+        "message": "{{remote_file}} 에 대한 원격 설정 로드 실패"
+    },
+    "firmwareFlasherLegacyLabel": {
+        "message": "{{target}} (레거시)",
+        "description": "If we have a Unified target and a old style target available, we are labeling the older one"
+    },
     "firmwareFlasherNoFirmwareSelected": {
         "message": "<b>로드 할 펌웨어가 선택되지 않았습니다.</b>"
     },
