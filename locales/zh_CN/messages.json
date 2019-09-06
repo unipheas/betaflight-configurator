@@ -2703,6 +2703,13 @@
     "firmwareFlasherFailedToLoadOnlineFirmware": {
         "message": "加载固件失败"
     },
+    "firmwareFlasherFailedToLoadUnifiedConfig": {
+        "message": "无法加载{{remote_file}} 的远程配置"
+    },
+    "firmwareFlasherLegacyLabel": {
+        "message": "{{target}} (旧格式)",
+        "description": "If we have a Unified target and a old style target available, we are labeling the older one"
+    },
     "firmwareFlasherNoFirmwareSelected": {
         "message": "<b>没有找到选择的固件</b>"
     },
@@ -4896,6 +4903,22 @@
     "vtxTableBandsChannelsTableHelp": {
         "message": "该表表示可用于图传的所有频率。 您可以拥有多个频段并且您必须配置每个频段的：<br><b>- $t(vtxTableBandTitleName.message)：</b> 您需要为此频段分配名称，例如BOSCAM_A、FATHARK 或 RACEDAND。<br><b>- $t(vtxTableBandTitleLetter.message):</b> 该频段的缩写。<br><b>- $t(vtxTableBandTitleFactory.message):</b> 这指示它是否是工厂模式频段。 如果启用，Betaflight会将频段及频道号码发送到图传。 图传将使用内置频率表，在此配置的频率值仅在OSD 内和其他地方显示。 如果不启用，Betaflight将向图传发送在此配置的真正的频率值。<br><b>- 频率：</b> 此波段频率。<br><br>记住，并非所有频率在您的国家都是合法的。 您必须将不使用的频率上的值设置为 <b>0</b>。",
         "description": "Help for the table of bands-channels that appears in the VTX tab"
+    },
+    "vtxSavedFileOk": {
+        "message": "图传配置文件<span class=\"message-positive\">已保存</span>",
+        "description": "Message in the GUI log when the VTX Config file is saved"
+    },
+    "vtxLoadFileOk": {
+        "message": "图传配置文件<span class=\"message-positive\">已加载</span>",
+        "description": "Message in the GUI log when the VTX Config file is loaded"
+    },
+    "vtxButtonSaveFile": {
+        "message": "保存到文件",
+        "description": "Save to file button in the VTX tab"
+    },
+    "vtxButtonLoadFile": {
+        "message": "从文件加载",
+        "description": "Load to file button in the VTX tab"
     },
     "vtxButtonSave": {
         "message": "保存",
