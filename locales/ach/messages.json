@@ -2717,6 +2717,13 @@
     "firmwareFlasherFailedToLoadOnlineFirmware": {
         "message": "crwdns6009:0crwdne6009:0"
     },
+    "firmwareFlasherFailedToLoadUnifiedConfig": {
+        "message": "crwdns9742:0{{remote_file}}crwdne9742:0"
+    },
+    "firmwareFlasherLegacyLabel": {
+        "message": "crwdns9744:0{{target}}crwdne9744:0",
+        "description": "If we have a Unified target and a old style target available, we are labeling the older one"
+    },
     "firmwareFlasherNoFirmwareSelected": {
         "message": "crwdns6010:0crwdne6010:0"
     },
