@@ -2639,6 +2639,13 @@
     "firmwareFlasherFailedToLoadOnlineFirmware": {
         "message": "Error al cargar el firmware remoto"
     },
+    "firmwareFlasherFailedToLoadUnifiedConfig": {
+        "message": "Error al cargar configuración remota para {{remote_file}}"
+    },
+    "firmwareFlasherLegacyLabel": {
+        "message": "{{target}} (Obsoleto)",
+        "description": "If we have a Unified target and a old style target available, we are labeling the older one"
+    },
     "firmwareFlasherNoFirmwareSelected": {
         "message": "<b>No se ha seleccionado ningún firmware para cargar</b>"
     },
