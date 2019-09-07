@@ -1338,6 +1338,9 @@
     "portsHelp": {
         "message": "<strong>Note:</strong> toutes les options ne sont pas valides. Si le contrôleur détecte une erreur les ports série seront réinitialisés aux valeurs par défaut."
     },
+    "portsVtxTableNotSet": {
+        "message": "<span class=\"message-negative\">ATTENTION :</span> La table VTX n'a pas été correctement configurée et sans elle le contrôle VTX ne sera pas possible. Veuillez configurer la table VTX dans l'onglet $t(tabVtx.message)."
+    },
     "portsMSPHelp": {
         "message": "<strong>Note:</strong> NE <span class=\"message-negative\">PAS</span> désactiver MSP sur le premier port série sauf si vous savez exactement ce que vous faites. Vous pourriez être obligé de reflasher entièrement ."
     },
@@ -1475,10 +1478,6 @@
         "message": "Avance",
         "description": "Advance of the D Min feature"
     },
-    "pidTuningDMinHelp": {
-        "message": "D Min permet d'avoir un niveau inférieur de D en vol normal et un niveau plus élevé pour les manœuvres rapides qui pourraient causer des overshoots, notamment sur les flips et les rolls. Il augmente également D pendant le propwash. Gain ajuste la vitesse à laquelle D atteint sa valeur maximale et est basé sur le gyro pour déceler les manoeuvres violentes et les propwash. Avance déclenche le D plus tôt en utilisant le setpoint au lieu du gyro pour déterminer les manoeuvres violentes.",
-        "description": "D Min feature helpicon message"
-    },
     "pidTuningPidSettings": {
         "message": "Réglages du Contrôleur PID"
     },
@@ -1490,6 +1489,14 @@
     },
     "receiverRcSmoothingManual": {
         "message": "Manuel"
+    },
+    "receiverRcSmoothingAutoSmoothness": {
+        "message": "Lissage Automatique",
+        "description": "Auto Smoothness parameter for RC smoothing"
+    },
+    "receiverRcSmoothingAutoSmoothnessHelp": {
+        "message": "Ajuste le smoothing Auto, 10 est le ratio de lissage par défaut. Augmenter ce nombre lisse plus les entrées RC et ajouter de la latence. Ca peut être utile pour les connections RC peu fiables ou les vols cinematiques.<br>Prudence, avec des valeurs proches de 50, la latence se fait bien ressentir.<br>Utiliser la commande CLI rc_smoothing_info avec le TX et le RX alimentés afin de voir les cutoff calculés automatiquement et appliqués au RC Smoothing.",
+        "description": "Auto Smoothness parameter help message"
     },
     "receiverRcDerivativeTypeSelect": {
         "message": "Type de Cutoff de dérivée"
@@ -1829,6 +1836,10 @@
     },
     "auxiliaryMax": {
         "message": "Maximum"
+    },
+    "auxiliaryDisabled": {
+        "message": "(DÉSACTIVÉ)",
+        "descripton": "Text to add to the ARM mode (maybe others in the future) in the MODES TAB when it has been disabled for some external reason"
     },
     "auxiliaryAddRange": {
         "message": "Ajouter une plage"
@@ -2249,6 +2260,22 @@
     },
     "motorsSensorAccelSelect": {
         "message": "accel"
+    },
+    "motorsTelemetryHelp": {
+        "message": "Ces données sont les informations de télémétries reçues des ESC, si disponible. Il est possible d'afficher la vitesse de rotation des moteurs (en tours par minute : RPM), le taux d'erreur du lien de télémétrie et la température des ESC.",
+        "description": "Help text for the telemetry values in the motors tab."
+    },
+    "motorsRPM": {
+        "message": "R: {{motorsRpmValue}}",
+        "description": "To put under the motors in the motors tab. KEEP IT SHORT or not translate. Keep the letters as prefix. Shows the RPM of the motor if telemetry is available."
+    },
+    "motorsRPMError": {
+        "message": "E: {{motorsErrorValue}}%",
+        "description": "To put under the motors in the motors tab. KEEP IT SHORT or not translate. Shows the error of motor telemetry if available."
+    },
+    "motorsESCTemperature": {
+        "message": "T: {{motorsESCTempValue}}&deg;C",
+        "description": "To put under the motors in the motors tab. KEEP IT SHORT or not translate. Shows the ESC temperature if available."
     },
     "motorsMaster": {
         "message": "Maître"
@@ -2675,6 +2702,13 @@
     },
     "firmwareFlasherFailedToLoadOnlineFirmware": {
         "message": "Erreur de chargement du microprogramme"
+    },
+    "firmwareFlasherFailedToLoadUnifiedConfig": {
+        "message": "Échec de chargement de la configuration distante pour {{remote_file}}"
+    },
+    "firmwareFlasherLegacyLabel": {
+        "message": "{{target}} (Legacy)",
+        "description": "If we have a Unified target and a old style target available, we are labeling the older one"
     },
     "firmwareFlasherNoFirmwareSelected": {
         "message": "<b>Aucun microprogramme choisi</b>"
@@ -4670,6 +4704,10 @@
     "osdButtonSaved": {
         "message": "Enregistré"
     },
+    "vtxHelp": {
+        "message": "Permet de renseigner les valeurs pour votre Emetteur vidéo (VTX). Vous pouvez consulter et configurer les valeurs d'émission, y compris les Tables VTX si le contrôleur de vol et l'Emetteur VTX le supportent",
+        "description": "Introduction message in the VTX tab"
+    },
     "vtxMessageNotSupported": {
         "message": "<span class=\"message-negative\">Attention :</span> Votre VTX n'est pas configuré ou non pris en charge. Vous ne pouvez donc pas modifier les valeurs VTX. Cela n'est possible que si le contrôleur de vol communique avec le VTX en utilisant un protocole comme Tramp ou SmartAudio et est correctement configuré dans l'onglet $t(tabPorts.message) si nécessaire.",
         "description": "Message to show when the VTX is not supported in the VTX tab"
@@ -4677,6 +4715,10 @@
     "vtxMessageTableNotConfigured": {
         "message": "<span class=\"message-negative\">Attention :</span> Vous devez configurer et enregistrer la table VTX en bas AVANT de pouvoir utiliser les champs $t(vtxSelectedMode.message).",
         "description": "Message to show when the VTX is not supported in the VTX tab"
+    },
+    "vtxMessageVerifyTable": {
+        "message": "<span class=\"message-negative\">Attention:</span> Les valeurs de la table VTX ont été chargées, mais pas encore stockées dans le contrôleur de vol. Vous devez vérifier et modifier les valeurs pour être sûr qu'elles sont valides et légales dans votre pays et puis cliquer sur le bouton $t(vtxButtonSave.message) pour les stocker dans le contrôleur de vol.",
+        "description": "Message to show when the VTX Table has been loaded from a external source"
     },
     "vtxFrequencyChannel": {
         "message": "Saisir la fréquence directement",
@@ -4826,6 +4868,10 @@
         "message": "Ceci définit le nombre de niveaux de puissance pris en charge par votre VTX",
         "description": "Help for the number of power levels field of the VTX Table element in the VTX tab"
     },
+    "vtxTablePowerLevelsTableHelp": {
+        "message": "Ce tableau représente les différentes valeurs de puissance qui peuvent être utilisées pour le VTX. Elles sont réparties en deux sections: <br><b>- $t(vtxTablePowerLevelsValue.message) :</b> chaque niveau d'alimentation nécessite une valeur définie par le fabricant du matériel. Demandez au fabricant la valeur correcte ou consultez le wiki Betaflight sur les Tables VTX pour obtenir des exemples. <br><b>- $t(vtxTablePowerLevelsLabel.message) :</b> vous pouvez mettre ici l'étiquette que vous voulez pour chaque niveau d'alimentation. Des chiffres (25, 200, 600, 1.2), des lettres (OFF, MIN, MAX) ou un mélange des deux. <br><br>Vous devez configurer <b>uniquement</b> les niveaux de puissance autorisés dans votre pays.",
+        "description": "Help for the table of power levels (value-label) that appears in the VTX tab"
+    },
     "vtxTablePowerLevelsValue": {
         "message": "Valeur",
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
@@ -4861,6 +4907,30 @@
     "vtxTableBandsChannelsTableHelp": {
         "message": "Ce tableau montre toutes les fréquences qui peuvent être utilisées sur votre VTX. Vous pouvez avoir plusieurs bandes et pour chacune d'entre elle, vous devez configurer :<br><b>- $t(vtxTableBandTitleName.message) :</b> Le nom de la bande, comme BOSCAM_A, FATSHARK ou RACEBAND.<br><b>- $t(vtxTableBandTitleLetter.message) :</b> Lettre courte qui fait référence a la bande.<br><b>- $t(vtxTableBandTitleFactory.message) :</b> Indique s'il s'agit d'une bande d'usine. Si activé, Betaflight envoie au VTX la bande et le numéro du canal. Le VTX utilisera ensuite sa table de fréquence intégrée, les fréquences configurées ne servent qu'à être affichées dans l'OSD et dans divers champs. Si non activé, Betaflight enverra au VTX la fréquence réelle configurée ici.<br><b>- Fréquences :</b> Fréquences pour cette bande.<br><br>N'oubliez pas que toutes les fréquences ne sont pas légales dans votre pays. Vous devez mettre une valeur de <b>zéro</b> à chaque index de fréquence que vous n'êtes pas autorisé à utiliser afin de le désactiver.",
         "description": "Help for the table of bands-channels that appears in the VTX tab"
+    },
+    "vtxSavedFileOk": {
+        "message": "Fichier de configuration VTX <span class=\"message-positive\">sauvegardé</span>",
+        "description": "Message in the GUI log when the VTX Config file is saved"
+    },
+    "vtxSavedFileKo": {
+        "message": "<span class=\"message-negative\">Erreur</span> lors de la sauvegarde du fichier de Config VTX",
+        "description": "Message in the GUI log when the VTX Config file is saved"
+    },
+    "vtxLoadFileOk": {
+        "message": "Fichier de configuration VTX <span class=\"message-positive\">chargé</span>",
+        "description": "Message in the GUI log when the VTX Config file is loaded"
+    },
+    "vtxLoadFileKo": {
+        "message": "<span class=\"message-negative\">Erreur</span> lors du chargement du fichier de Config VTX",
+        "description": "Message in the GUI log when the VTX Config file is loaded"
+    },
+    "vtxButtonSaveFile": {
+        "message": "Enregistrer sous",
+        "description": "Save to file button in the VTX tab"
+    },
+    "vtxButtonLoadFile": {
+        "message": "Charger à partir du fichier",
+        "description": "Load to file button in the VTX tab"
     },
     "vtxButtonSave": {
         "message": "Enregistrer",
@@ -4993,15 +5063,6 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>Filtre Gyro:</b> Filtre passe-bas sur le gyro. Baisser la valeur pour augmenter le filtre.<br><b>Filtre D Term:</b> Filtre passe-bas sur le Dterm. Cela peut affecter le tuning du D. Baisser la valeur pour augmenter le filtre.<br><b>Filtre Yaw:</b> Filtre sur la sortie du yaw. Cela peut aider sur les configurations qui ont du bruit sur l'axe du yaw."
-    },
-    "pidTuningPidTuningTip": {
-        "message": "<b>Proportionnelle:</b> Vous sentirez une forte résistance lorsque vous essaierez de faire bouger le drone<br><b>Intégrale:</b> Augmente la capacité à tenir la position initiale et réduit le dérapage, mais augmente aussi le délai pour revenir à la position initiale.<br><b>Dérivée:</b> Améliore la vitesse à laquelle les écarts sont récupérés, mais augmente le bruit."
-    },
-    "pidTuningPidTuningTipFeedforward": {
-        "message": "<b>Proportionnelle:</b> Vous sentirez une forte résistance lorsque vous essaierez de faire bouger le drone<br><b>Intégrale:</b> Augmente la capacité à tenir la position initiale et réduit le dérapage, mais augmente aussi le délai pour revenir à la position initiale.<br><b>Dérivée:</b> Améliore la vitesse à laquelle les écarts sont récupérés, mais augmente le bruit.<br><b>FeedForward:</b> Normalement le contrôleur PID se base sur les erreurs. FeedForward anticipe les erreurs en se basant sur les valeurs des sticks, et rend le quad plus réactif."
-    },
-    "pidTuningPidTuningTipDMin": {
-        "message": "<b>Proportionnelle:</b> Vous sentirez une forte résistance lorsque vous essaierez de faire bouger le drone<br><b>Intégrale:</b> Augmente la capacité à tenir la position initiale et réduit le dérapage, mais augmente aussi le délai pour revenir à la position initiale.<br><b>Dérivée:</b> Améliore la vitesse à laquelle les écarts sont récupérés, mais augmente le bruit.<br><b>FeedForward:</b> Normalement le contrôleur PID se base sur les erreurs. FeedForward anticipe les erreurs en se basant sur les valeurs des sticks, et rend le quad plus réactif.<br><b>D Min:</b>D Min permet d'avoir un niveau inférieur de D en vol normal et un niveau plus élevé pour les manœuvres rapides qui pourraient causer des overshoots, notamment sur les flips et les rolls. Il augmente également D pendant le propwash. Mettre la valeur à zéro désactive la fonctionnalité."
     },
     "pidTuningRatesTip": {
         "message": "Jouer avec les rates et voir comment ça affecte la courbe des commandes"
