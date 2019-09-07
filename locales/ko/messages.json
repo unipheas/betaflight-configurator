@@ -568,7 +568,7 @@
         "message": "EEPROM <span class=\"message-positive\">저장됨</span>"
     },
     "defaultWelcomeIntro": {
-        "message": "<strong>Betaflight - Configurator</strong>에 오신 것을 환영합니다.<br>이 유틸리티는 비행 컨트롤러의 업데이트, 구성 및 튜닝을 간소화하도록 설계되었습니다."
+        "message": "<strong>베타플라이트 - 컨피규레이터</strong>에 오신 것을 환영합니다.<br>이 유틸리티는 비행 컨트롤러의 업데이트, 구성 및 튜닝을 간소화하도록 설계되었습니다."
     },
     "defaultWelcomeHead": {
         "message": "하드웨어"
@@ -1342,6 +1342,9 @@
     "portsHelp": {
         "message": "<strong>노트:</strong> 모든 조합이 유효하지는 않습니다. 비행 컨트롤러 펌웨어가 이를 감지하면 시리얼 포트 환경설정이 재설정됩니다."
     },
+    "portsVtxTableNotSet": {
+        "message": "<span class=\"message-negative\">경고:</span> VTX 테이블이 올바르게 설정되지 않았으며, 그것이 없으면 VTX 제어가 불가능합니다. VTX 테이블을 $t(tabVtx.message) 탭에서 설정하십시오."
+    },
     "portsMSPHelp": {
         "message": "<strong>노트:</strong> 당신이 하는 일을 모르는 경우 첫 번째 시리얼 포트의 MSP를 비활성화 하지  <span class=\"message-negative\">마십시오</span>. 만약 그렇게 할 경우 펌웨어 플래싱을 다시 하고 환경설정을 지워야 할 수도 있습니다."
     },
@@ -1478,10 +1481,6 @@
     "pidTuningDMinAdvance": {
         "message": "가속",
         "description": "Advance of the D Min feature"
-    },
-    "pidTuningDMinHelp": {
-        "message": "D 최소값은 보통 비행 시 D 레벨이 더 낮고, 플립이나 롤과 같이 오버슈트를 일으킬 수 있는 빠른 기동을 위한 더 높은 레벨의 방법을 제공합니다. 그것은 또한 프롭워시가 생길 때 D를 데려옵니다. 게인은 D가 최대값에 도달하는 속도를 조정하고 자이로에 기반하여 날카로운 움직임과 프로프워시 이벤트를 결정합니다. 고급은 자이로 대신 설정점을 사용하여 날카로운 움직임을 결정함으로써 D를 더 일찍 상승시킵니다.",
-        "description": "D Min feature helpicon message"
     },
     "pidTuningPidSettings": {
         "message": "PID 컨트롤러 설정"
@@ -1844,6 +1843,10 @@
     },
     "auxiliaryMax": {
         "message": "최대값"
+    },
+    "auxiliaryDisabled": {
+        "message": "(사용불가)",
+        "descripton": "Text to add to the ARM mode (maybe others in the future) in the MODES TAB when it has been disabled for some external reason"
     },
     "auxiliaryAddRange": {
         "message": "범위 추가"
@@ -4709,7 +4712,7 @@
         "message": "저장됨"
     },
     "vtxHelp": {
-        "message": "여기서 영상송신기 (VTX) 의 값을 구성할 수 있습니다. 비행 컨트롤러와 VTX가 지원하는 경우, VTX 표를 포함한 전송 값을 보고 변경할 수 있습니다.",
+        "message": "여기서 영상송신기 (VTX) 의 값을 구성할 수 있습니다. 비행 컨트롤러와 VTX가 지원하는 경우, VTX 테이블을 포함한 전송 값을 보고 변경할 수 있습니다.",
         "description": "Introduction message in the VTX tab"
     },
     "vtxMessageNotSupported": {
@@ -4717,11 +4720,11 @@
         "description": "Message to show when the VTX is not supported in the VTX tab"
     },
     "vtxMessageTableNotConfigured": {
-        "message": "<span class=\"message-negative\">주의:</span> $t(vtxSelectedMode.message) 필드를 사용하려면 먼저 아래쪽에 VTX 표를 구성하고 저장하십시오.",
+        "message": "<span class=\"message-negative\">주의:</span> $t(vtxSelectedMode.message) 필드를 사용하려면 먼저 아래쪽에 VTX 테이블을 구성하고 저장하십시오.",
         "description": "Message to show when the VTX is not supported in the VTX tab"
     },
     "vtxMessageVerifyTable": {
-        "message": "<span class=\"message-negative\">주의:</span> VTX 표의 값이 로드되었지만, 아직 비행 컨트롤러에 저장되지 않았습니다. 해당 값이 당신의 국가에서 유효하고 합법적인지 확인하고 수정해야 하며, $t(vtxButtonSave.message) 버튼을 눌러 비행 컨트롤러에 저장해야 합니다.",
+        "message": "<span class=\"message-negative\">주의:</span> VTX 테이블의 값이 로드되었지만, 아직 비행 컨트롤러에 저장되지 않았습니다. 해당 값이 당신의 국가에서 유효하고 합법적인지 확인하고 수정해야 하며, $t(vtxButtonSave.message) 버튼을 눌러 비행 컨트롤러에 저장해야 합니다.",
         "description": "Message to show when the VTX Table has been loaded from a external source"
     },
     "vtxFrequencyChannel": {
@@ -4861,7 +4864,7 @@
         "description": "One of the options for the Low Power Disarm mode of the VTX"
     },
     "vtxTable": {
-        "message": "VTX 표",
+        "message": "VTX 테이블",
         "description": "Text of the header of the VTX Table element in the VTX tab"
     },
     "vtxTablePowerLevels": {
@@ -4873,7 +4876,7 @@
         "description": "Help for the number of power levels field of the VTX Table element in the VTX tab"
     },
     "vtxTablePowerLevelsTableHelp": {
-        "message": "이 표는 VTX에 사용할 수 있는 다양한 출력 값을 나타냅니다. 그것들은 두 가지로 나뉩니다: <br><b>- $t(vtxTablePowerLevelsValue.message):</b> 각 출력 레벨은 하드웨어 제조업체에서 정의한 값을 요구합니다. 제조업체에 정확한 값을 문의하거나 VTX 표의 베타플라이트 위키에 문의하여 샘플을 확보하십시오. <br><b>- $t(vtxTablePowerLevelsLabel.message):</b> 각 출력 레벨 값에 대해 원하는 라벨을 여기에 붙일 수 있습니다. 숫자(25, 200, 600, 1.2), 문자(OFF, MIN, MAX) 또는 이들의 조합이 될 수 있습니다. <br><br>당신은 당신의 국가에서 합법적인 출력 레벨을 <b>반드시</b> 구성해야 합니다.",
+        "message": "이 표는 VTX에 사용할 수 있는 다양한 출력 값을 나타냅니다. 그것들은 두 가지로 나뉩니다: <br><b>- $t(vtxTablePowerLevelsValue.message):</b> 각 출력 레벨은 하드웨어 제조업체에서 정의한 값을 요구합니다. 제조업체에 정확한 값을 문의하거나 VTX 테이블의 베타플라이트 위키에 문의하여 샘플을 확보하십시오. <br><b>- $t(vtxTablePowerLevelsLabel.message):</b> 각 출력 레벨 값에 대해 원하는 라벨을 여기에 붙일 수 있습니다. 숫자(25, 200, 600, 1.2), 문자(OFF, MIN, MAX) 또는 이들의 조합이 될 수 있습니다. <br><br>당신은 당신의 국가에서 합법적인 출력 레벨을 <b>반드시</b> 구성해야 합니다.",
         "description": "Help for the table of power levels (value-label) that appears in the VTX tab"
     },
     "vtxTablePowerLevelsValue": {
@@ -4909,7 +4912,7 @@
         "description": "Text of one of the titles of the VTX Table element in the VTX tab"
     },
     "vtxTableBandsChannelsTableHelp": {
-        "message": "이 표는 VTX에 사용할 수 있는 모든 주파수를 나타냅니다. 당신은 여러 개의 밴드를 가질 수 있으며, 각 밴드에 대해 다음과 같이 구성해야 합니다:<br><b>- $t(vtxTableBandTitleName.message)</b> BOSCAM_A, FATSHARK 또는 RACEBAND와 같은 밴드에 할당할 이름.<br><b>- $t(vtxTableBandTitleLetter.message):</b> 밴드를 가리키는 짧은 글자.<br><b>- $t(vtxTableBandTitleFactory.message):</b> 이것은 그것이 공장 밴드인지를 나타냅니다. 활성화 된 경우 베타플라이트는 VTX에 밴드와 채널 번호를 전송합니다. 그런 다음 VTX는 빌트인 주파수 표를 사용하고 여기에 구성된 주파수는 OSD 및 기타 장소에서만 값을 표시합니다. 활성화 되지 않은 경우, 베타플라이트는 여기에 구성된 실제 주파수를 VTX에 전송합니다.<br><b>- 주파수:</b> 이 밴드의 주파수.<br><br>당신 나라에서는 모든 주파수가 합법적인 것은 아니라는 것을 기억하십시오. 당신은 그것을 비활성화 할 때 사용할 수 없는 주파수의 인덱스에 <b>0</b>의 값을 넣어야 합니다.",
+        "message": "이 테이블은 VTX에 사용할 수 있는 모든 주파수를 나타냅니다. 당신은 여러 개의 밴드를 가질 수 있으며, 각 밴드에 대해 다음과 같이 구성해야 합니다:<br><b>- $t(vtxTableBandTitleName.message)</b> BOSCAM_A, FATSHARK 또는 RACEBAND와 같은 밴드에 할당할 이름.<br><b>- $t(vtxTableBandTitleLetter.message):</b> 밴드를 가리키는 짧은 글자.<br><b>- $t(vtxTableBandTitleFactory.message):</b> 이것은 그것이 공장 밴드인지를 나타냅니다. 활성화 된 경우 베타플라이트는 VTX에 밴드와 채널 번호를 전송합니다. 그런 다음 VTX는 빌트인 주파수 표를 사용하고 여기에 구성된 주파수는 OSD 및 기타 장소에서만 값을 표시합니다. 활성화 되지 않은 경우, 베타플라이트는 여기에 구성된 실제 주파수를 VTX에 전송합니다.<br><b>- 주파수:</b> 이 밴드의 주파수.<br><br>당신 나라에서는 모든 주파수가 합법적인 것은 아니라는 것을 기억하십시오. 당신은 그것을 비활성화 할 때 사용할 수 없는 주파수의 인덱스에 <b>0</b>의 값을 넣어야 합니다.",
         "description": "Help for the table of bands-channels that appears in the VTX tab"
     },
     "vtxSavedFileOk": {
@@ -5067,15 +5070,6 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>자이로 소프트 필터:</b> 자이로에 대한 저역통과 필터. 더 많은 필터링을 위해 더 낮은 값을 사용하십시오.<br><b>D텀 필터:</b> D텀 저역통과 필터. D 튜닝에 영향을 미칠 수 있습니다. 더 많은 필터링을 위해 더 낮은 값을 사용하십시오. <br><b>요 필터:</b>요출력을 필터링합니다. 그것은 노이즈가 있는 요 축을 가진 설정에 도움을 줄 수 있습니다."
-    },
-    "pidTuningPidTuningTip": {
-        "message": "<b>비례:</b> 멀티로터를 움직이려고 시도 할 때 매우 강한 저항력을 느낄 것입니다.<br><b>적분:</b> 전체 초기 위치를 유지하는 능력을 증가시키고 드리프트를 줄이지만, 초기 위치로 복귀 할 때 지연을 증가시킵니다.<br><b>미분:</b> 편차가 회복되는 속도를 향상 시키지만, 노이즈를 증가시킵니다."
-    },
-    "pidTuningPidTuningTipFeedforward": {
-        "message": "<b>비례:</b> 멀티로터를 움직이려고 시도 할 때 매우 강한 저항력을 느낄 것입니다.<br><b>적분:</b> 전체 초기 위치를 유지하는 능력을 증가시키고 드리프트를 줄이지만, 초기 위치로 복귀 할 때 지연을 증가시킵니다.<br><b>미분:</b> 편차가 회복되는 속도를 향상 시키지만, 노이즈를 증가시킵니다.<br><b>피드포워드:</b> 일반적으로 PID 컨트롤러는 오류에 대해 반응합니다. 피드포워드는 스틱 입력을 기반으로 오류를 예상하고, 쿼드에 응답을 줍니다."
-    },
-    "pidTuningPidTuningTipDMin": {
-        "message": "<b>비례:</b> 멀티로터를 움직이려고 시도 할 때 매우 강한 저항력을 느낄 것입니다.<br><b>적분:</b> 전체 초기 위치를 유지하는 능력을 증가시키고 드리프트를 줄이지만, 초기 위치로 복귀 할 때 지연을 증가시킵니다.<br><b>미분:</b> 편차가 회복되는 속도를 향상 시키지만, 노이즈를 증가시킵니다.<br><b>피드포워드:</b> 일반적으로 PID 컨트롤러는 오류에 대해 반응합니다. 피드포워드는 스틱 입력을 기반으로 오류를 예상하고, 쿼드에 응답을 줍니다.<br><b>D 최소값:</b> D 최소값은 보통 비행 시 D 레벨이 더 낮고, 플립이나 롤과 같이 오버슈트를 일으킬 수 있는 빠른 기동을 위한 더 높은 레벨의 방법을 제공합니다. 그것은 또한 프롭워시가 생길 때 D를 데려옵니다. 값이 0이면 기능이 비활성화됩니다."
     },
     "pidTuningRatesTip": {
         "message": "특정 레이트로 플레이하고 이들이 스틱 커브에 어떻게 영향을 주는지 봅니다."
