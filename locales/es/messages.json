@@ -1274,6 +1274,9 @@
     "portsHelp": {
         "message": "<strong>Nota:</strong> no todas las combinaciones son válidas. Cuando el controlador de vuelo detecta esto la configuración del puerto serie es reiniciada."
     },
+    "portsVtxTableNotSet": {
+        "message": "<span class=\"message-negative\">Atención:</span> La Tabla VTX no ha sido configurada correctamente y sin ella el control del VTX no es posible. Por favor configura la Tabla VTX en la pestaña $t(tabVtx.message)."
+    },
     "portsMSPHelp": {
         "message": "<strong>Nota:</strong> <span class=\"message-negative\">NO</span> desactives MSP en el primer puerto serie a menos que sepas lo que estás haciendo. Puede que tengas que reinstalar y borrar la configuración si lo haces."
     },
@@ -1410,10 +1413,6 @@
     "pidTuningDMinAdvance": {
         "message": "Avance",
         "description": "Advance of the D Min feature"
-    },
-    "pidTuningDMinHelp": {
-        "message": "D Min proporciona una manera de tener un nivel inferior de D en vuelo normal y un nivel más alto para maniobras rápidas que puedan causar sobregiro, como flips y rolls. También incrementa D en las turbulencias. La Ganancia ajusta como de rápido llega D hasta su valor máximo y se basa en el giro para determinar los eventos con movimientos rápidos o turbulencias. El avance hace que D se incremente antes usando el punto objetivo del giro para determinar movimientos bruscos.",
-        "description": "D Min feature helpicon message"
     },
     "pidTuningPidSettings": {
         "message": "Ajustes del Controlador PID"
@@ -1776,6 +1775,10 @@
     },
     "auxiliaryMax": {
         "message": "Máx"
+    },
+    "auxiliaryDisabled": {
+        "message": "(DESACTIVADO)",
+        "descripton": "Text to add to the ARM mode (maybe others in the future) in the MODES TAB when it has been disabled for some external reason"
     },
     "auxiliaryAddRange": {
         "message": "Añadir Rango"
@@ -4999,15 +5002,6 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>Filtro Soft del Giro:</b> Filtro paso bajo para el giro. Usa un valor más bajo para mayor filtrado.<br><b>Filtro D Term:</b> Filtro paso bajo para Dterm. Puede afectar al ajuste de D . Usa un valor más bajo para mayor filtrado. <br><b>Filtro Yaw:</b> Filtra la salida de yaw. Puede ayudar en configuraciones con eje yaw ruidoso."
-    },
-    "pidTuningPidTuningTip": {
-        "message": "<b>Proporcional:</b> Notarás una fuerte resistencia a cualquier intento de mover la aeronave<br><b>Integral:</b> Incrementa la habilidad de mantener la posición inicial general y reduce la deriva, pero también incrementa el retraso para volver a la posición inicial.<br><b>Derivativo:</b> Mejora la velocidad a la que se recuperan las desviaciones, pero incrementa el ruido."
-    },
-    "pidTuningPidTuningTipFeedforward": {
-        "message": "<b>Proporcional:</b> Notarás una fuerte resistencia a cualquier intento de mover la aeronave<br><b>Integral:</b> Incrementa la habilidad de mantener la posición inicial general y reduce la deriva, pero también incrementa el retraso para volver a la posición inicial.<br><b>Derivativo:</b> Mejora la velocidad a la que se recuperan las desviaciones, pero incrementa el ruido<br><b>Prealimentación:</b> Normalmente el controlador PID reacciona al error. La Prealimentación anticipa el error basándose en la entrada de los mandos, mejorando el tiempo de respuesta del quad."
-    },
-    "pidTuningPidTuningTipDMin": {
-        "message": "<b>Proporcional:</b> Notarás una fuerte resistencia a cualquier intento de mover la aeronave<br><b>Integral:</b> Incrementa la habilidad de mantener la posición inicial general y reduce la deriva, pero también incrementa el retraso para volver a la posición inicial.<br><b>Derivativo:</b> Mejora la velocidad a la que se recuperan las desviaciones, pero incrementa el ruido<br><b>Prealimentación:</b> Normalmente el controlador PID reacciona al error. La Prealimentación anticipa el error basándose en la entrada de los mandos, mejorando el tiempo de respuesta del quad.<br><b>D Min</b>: Proporciona una forma de tener un bajo nivel de D in vuelo normal y un nivel más alto en maniobras rápidas que pueden causar sobre giros, como flips y rolls. También incrementa D durante turbulencias. Un valor de cero desactiva la funcionalidad."
     },
     "pidTuningRatesTip": {
         "message": "Juega con las tasas y mira como afectan a la curva de las palancas"
