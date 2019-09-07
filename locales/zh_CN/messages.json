@@ -1338,6 +1338,9 @@
     "portsHelp": {
         "message": "<strong>注意：</strong> 不是所有的组合都是有效的，如果飞控检查到某组合不能同时工作，对应串口的设置将会被重置。"
     },
+    "portsVtxTableNotSet": {
+        "message": "<span class=\"message-negative\">警告: </span>图传表尚未正确设置，图传控制功能不可用。请在$t(tabVtx.message)选项卡内配置图传表。"
+    },
     "portsMSPHelp": {
         "message": "<strong>注意：</strong> <span class=\"message-negative\">不要</span> 关闭第一个串口的MSP选项。否则你可能要重新烧录固件并清空（丢失）所有设置。"
     },
@@ -1474,10 +1477,6 @@
     "pidTuningDMinAdvance": {
         "message": "超前",
         "description": "Advance of the D Min feature"
-    },
-    "pidTuningDMinHelp": {
-        "message": "D Min可以在正常飞行过程中衰减D值；同时对于可能会使系统产生过冲的快速翻滚和快速打杆行为，它可以增加D值。它也会在发生洗桨时提高D值。调整增益(Gain) 可以调整D到达最高值的速度，同时它基于陀螺仪数据来确定快速移动与洗桨事件。超前(Advance) 将在发生快速移动时，根据设定点数据(而不是陀螺仪数据) 更早地增大D值。",
-        "description": "D Min feature helpicon message"
     },
     "pidTuningPidSettings": {
         "message": "PID 控制器设置"
@@ -1840,6 +1839,10 @@
     },
     "auxiliaryMax": {
         "message": "最大"
+    },
+    "auxiliaryDisabled": {
+        "message": "(已禁用)",
+        "descripton": "Text to add to the ARM mode (maybe others in the future) in the MODES TAB when it has been disabled for some external reason"
     },
     "auxiliaryAddRange": {
         "message": "添加范围"
@@ -4716,6 +4719,10 @@
         "message": "<span class=\"message-negative\">注意:</span>在使用$t(vtxSelectedMode.message)之前，必须先在下面配置并保存图传表",
         "description": "Message to show when the VTX is not supported in the VTX tab"
     },
+    "vtxMessageVerifyTable": {
+        "message": "<span class=\"message-negative\">注意:</span>图传表内容已加载，但尚未存储至飞行控制器。您必须验证和修改部分数值，以确保其在您的国家有效且合法，然后点击$t(vtxButtonSave.message)按钮来将其储存至飞行控制器上。",
+        "description": "Message to show when the VTX Table has been loaded from a external source"
+    },
     "vtxFrequencyChannel": {
         "message": "直接输入频率",
         "description": "Text of one of the fields of the VTX tab"
@@ -4908,8 +4915,16 @@
         "message": "图传配置文件<span class=\"message-positive\">已保存</span>",
         "description": "Message in the GUI log when the VTX Config file is saved"
     },
+    "vtxSavedFileKo": {
+        "message": "<span class=\"message-negative\">错误</span>加载图传配置文件",
+        "description": "Message in the GUI log when the VTX Config file is saved"
+    },
     "vtxLoadFileOk": {
         "message": "图传配置文件<span class=\"message-positive\">已加载</span>",
+        "description": "Message in the GUI log when the VTX Config file is loaded"
+    },
+    "vtxLoadFileKo": {
+        "message": "<span class=\"message-negative\">错误</span>加载图传配置文件",
         "description": "Message in the GUI log when the VTX Config file is loaded"
     },
     "vtxButtonSaveFile": {
@@ -5051,15 +5066,6 @@
     },
     "pidTuningFilterTip": {
         "message": "<b>陀螺仪软件滤波器：</b> 陀螺仪的低通滤波。更低的数字会提供更多的过滤效果。<br><b>D Term 滤波器：</b>Dterm 低通滤波器。会影响D值的调参，更低的数字会提供更多的过滤效果。 <br><b>方向滤波器：</b> 对方向输出进行滤波。对方向轴震动或者噪声很严重的情况会有帮助。"
-    },
-    "pidTuningPidTuningTip": {
-        "message": "<b>比例(P):</b>数值越大，飞行器会输出的用以抵消外部扰动引起的晃动的力量越大。<br><b>积分(I):</b>数值越大，飞行器越容易保持姿态，但是也会增加飞行器到达预定角速度的时间。<br><b>微分(D):</b>增加回中时间，但是也会增加噪声。"
-    },
-    "pidTuningPidTuningTipFeedforward": {
-        "message": "<b>比例(P):</b>数值越大，飞行器会输出的用以抵消外部扰动引起的晃动的力量越大。<br><b>积分(I):</b>数值越大，飞行器越容易保持姿态，但是也会增加飞行器到达预定角速度的时间。<br><b>微分(D):</b>增加回中时间，但是也会增加噪声。<br><b>前馈(F):</b>通常来说PID控制器会对误差值做出响应。前馈则基于摇杆输入来预测误差的变化，提高飞行器的响应性。"
-    },
-    "pidTuningPidTuningTipDMin": {
-        "message": "<b>比例(P):</b>数值越大，飞行器会输出的用以抵消外部扰动引起的晃动的力量越大。<br><b>积分(I):</b>数值越大，飞行器越容易保持姿态，但是也会增加飞行器到达预定角速度的时间。<br><b>微分(D):</b>增加回中时间，但是也会增加噪声。<br><b>前馈(F):</b>通常来说PID控制器会对误差值做出响应。前馈则基于摇杆输入来预测误差的变化，提高飞行器的响应性。<br><b>D Min:</b>D Min可以在正常飞行过程中衰减D值，同时对于可能会使系统产生过冲的快速翻滚和快速打杆行为，它可以增加D值。它也会在发生洗桨时提高D值。"
     },
     "pidTuningRatesTip": {
         "message": "尝试不同的rates并观察它如何影响摇杆曲线"
