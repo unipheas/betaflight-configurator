@@ -3050,6 +3050,9 @@
     "pidTuningGyroLowpass2Type": {
         "message": "Giro Paso Bajo 2 Tipo de Filtro"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "Los Filtros Paso Bajo pueden tener dos variantes: estático y dinámico. Para un determinado número de filtro paso bajo sólo uno puede estar activado a la vez (estático o dinámico). El estático sólo tiene un Corte que define de alguna manera dónde empieza el filtro. El dinámico define valores mínimos y máximos, que es el rango dónde se sitúa el Corte. Este Corte se mueve entre el mínimo y el máximo a la vez que mueves la palanca de acelerador."
+    },
     "pidTuningGyroNotchFiltersGroup": {
         "message": "Filtros Notch del Giro"
     },
@@ -3100,9 +3103,6 @@
     },
     "pidTuningDynamicNotchMinHzHelp": {
         "message": "Define la mínima frecuencia para el centro del Filtro Notch Dinámico por debajo de la cual el filtro no entrará."
-    },
-    "pidTuningLowpassFilterHelp": {
-        "message": "Los Filtros Paso Bajo pueden tener dos variantes: estático y dinámico. Para un determinado número de filtro paso bajo sólo uno puede estar activado a la vez (estático o dinámico). El estático sólo tiene un Corte que define de alguna manera dónde empieza el filtro. El dinámico define valores mínimos y máximos, que es el rango dónde se sitúa el Corte. Este Corte se mueve entre el mínimo y el máximo a la vez que mueves la palanca de acelerador."
     },
     "pidTuningFilterSettings": {
         "message": "Ajustes de Filtros dependientes del Perfil"
