@@ -3111,6 +3111,9 @@
     "pidTuningGyroLowpass2Type": {
         "message": "Type de filtre gyro passe-bas 2"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "Les filtres passe-bas peuvent avoir deux variantes : statique et dynamique. Un seul des nombres définit pour chacun des filtres passe-bas est utilisé (statique ou dynamique). Le statique est un seuil de coupure à partir duquel le filtre commence. Le dynamique définit un min et max, la plage dans laquelle la coupure sera placée. Cette plage de coupure varie entre le min et le max en même temps que vous bougez le stick des gaz."
+    },
     "pidTuningGyroNotchFiltersGroup": {
         "message": "Filtres gyro Notch"
     },
@@ -3161,9 +3164,6 @@
     },
     "pidTuningDynamicNotchMinHzHelp": {
         "message": "Définit la fréquence minimum du centre du Notch Dynamique, valeur en dessous de laquelle le Notch Dynamique n'interviendra pas."
-    },
-    "pidTuningLowpassFilterHelp": {
-        "message": "Les filtres passe-bas peuvent avoir deux variantes : statique et dynamique. Un seul des nombres définit pour chacun des filtres passe-bas est utilisé (statique ou dynamique). Le statique est un seuil de coupure à partir duquel le filtre commence. Le dynamique définit un min et max, la plage dans laquelle la coupure sera placée. Cette plage de coupure varie entre le min et le max en même temps que vous bougez le stick des gaz."
     },
     "pidTuningFilterSettings": {
         "message": "Réglages filtres liés au profile"
