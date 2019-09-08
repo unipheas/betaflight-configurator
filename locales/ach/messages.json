@@ -1169,6 +1169,18 @@
     "configurationDigitalIdlePercentHelp": {
         "message": "crwdns5604:0crwdne5604:0"
     },
+    "configurationMotorPoles": {
+        "message": "crwdns9808:0crwdne9808:0",
+        "description": "One of the fields of the ESC/Motor configuration"
+    },
+    "configurationMotorPolesLong": {
+        "message": "crwdns9810:0$t(configurationMotorPoles.message)crwdne9810:0",
+        "description": "One of the fields of the ESC/Motor configuration"
+    },
+    "configurationMotorPolesHelp": {
+        "message": "crwdns9812:0crwdne9812:0",
+        "description": "Help text for the Motor poles field of the ESC/Motor configuration"
+    },
     "configurationThrottleMinimum": {
         "message": "crwdns5605:0crwdne5605:0"
     },
@@ -3244,6 +3256,9 @@
     "pidTuningGyroLowpass2Type": {
         "message": "crwdns8737:0crwdne8737:0"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "crwdns9026:0crwdne9026:0"
+    },
     "pidTuningGyroNotchFiltersGroup": {
         "message": "crwdns8738:0crwdne8738:0"
     },
@@ -3295,8 +3310,29 @@
     "pidTuningDynamicNotchMinHzHelp": {
         "message": "crwdns9548:0crwdne9548:0"
     },
-    "pidTuningLowpassFilterHelp": {
-        "message": "crwdns9026:0crwdne9026:0"
+    "pidTuningRpmFilterGroup": {
+        "message": "crwdns9814:0crwdne9814:0",
+        "description": "Header text for the RPM Filter group"
+    },
+    "pidTuningRpmFilterHelp": {
+        "message": "crwdns9816:0$t(configurationMotorPoles.message)crwdnd9816:0$t(tabConfiguration.message)crwdne9816:0",
+        "description": "Header text for the RPM Filter group"
+    },
+    "pidTuningRpmHarmonics": {
+        "message": "crwdns9818:0crwdne9818:0",
+        "description": "Text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmHarmonicsHelp": {
+        "message": "crwdns9820:0crwdne9820:0",
+        "description": "Help text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmMinHz": {
+        "message": "crwdns9822:0[Hz]crwdne9822:0",
+        "description": "Text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmMinHzHelp": {
+        "message": "crwdns9824:0crwdne9824:0",
+        "description": "Help text for one of the parameters of the RPM Filter"
     },
     "pidTuningFilterSettings": {
         "message": "crwdns8744:0crwdne8744:0"
@@ -5093,6 +5129,14 @@
     },
     "configurationUnsyncedPWMFreq": {
         "message": "crwdns6320:0crwdne6320:0"
+    },
+    "configurationDshotBidir": {
+        "message": "crwdns9826:0crwdne9826:0",
+        "description": "Feature for the ESC/Motor"
+    },
+    "configurationDshotBidirHelp": {
+        "message": "crwdns9828:0crwdne9828:0",
+        "description": "Description of the Bidirectional DShot feature of the ESC/Motor"
     },
     "configurationGyroSyncDenom": {
         "message": "crwdns6321:0crwdne6321:0"
