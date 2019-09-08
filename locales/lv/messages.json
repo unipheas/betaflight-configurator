@@ -2976,6 +2976,9 @@
     "pidTuningGyroLowpass2Type": {
         "message": "Žiroskopa zemfrekvenču 2 filtra tips"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "Zemfrekvenču filtri var būt divu tipu: statiski un dinamiski. Dēļ ierobežotā zemfrekvenču filtra skaita tikai viens (statisks vai dinamisks) var tikt ieslēgts vienlaicīgi. Statiskajam ir tikai nogriešanas frekvence, kas ir vērtība kas nosaka vietu kur sākās filtrs. Dinamiskais nosaka minimālo un maksimālo vērtību, kas ir diapazons kurā uzstādās nogriešanas frekvence. Šī nogriešana pārvietojas no min līdz maks vienlaicīgi, kad jūs pārvietojat droseli sviru."
+    },
     "pidTuningGyroNotchFiltersGroup": {
         "message": "Žiroskopa joslas filtrs"
     },
@@ -3014,9 +3017,6 @@
     },
     "pidTuningDynamicNotchMinHz": {
         "message": "Dinamiskais joslas min Hz"
-    },
-    "pidTuningLowpassFilterHelp": {
-        "message": "Zemfrekvenču filtri var būt divu tipu: statiski un dinamiski. Dēļ ierobežotā zemfrekvenču filtra skaita tikai viens (statisks vai dinamisks) var tikt ieslēgts vienlaicīgi. Statiskajam ir tikai nogriešanas frekvence, kas ir vērtība kas nosaka vietu kur sākās filtrs. Dinamiskais nosaka minimālo un maksimālo vērtību, kas ir diapazons kurā uzstādās nogriešanas frekvence. Šī nogriešana pārvietojas no min līdz maks vienlaicīgi, kad jūs pārvietojat droseli sviru."
     },
     "pidTuningFilterSettings": {
         "message": "Profila atkarīgo filtru iestatījumi"
