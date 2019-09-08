@@ -2990,6 +2990,9 @@
     "pidTuningGyroLowpass2Type": {
         "message": "Tipo 2 filtro passa-basso del giroscopio"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "I filtri Lowpass possono avere due varianti: statico e dinamico. Per un determinato numero di filtro Lowpass, solo uno (statico o dinamico) può essere abilitato allo stesso tempo. Lo statico ha solo un Cutoff che è un valore che definisce in qualche modo dove inizia il filtro. Il dinamico definisce un valore minimo e massimo, ovvero l'intervallo in cui viene inserito il Cutoff. Questo Cutoff si sposta da min a max contemporaneamente al muovimento degli stick del gas."
+    },
     "pidTuningGyroNotchFiltersGroup": {
         "message": "Filtri Notch del giroscopio"
     },
@@ -3013,9 +3016,6 @@
     },
     "pidTuningDynamicNotchQ": {
         "message": "Notch dinamico Q"
-    },
-    "pidTuningLowpassFilterHelp": {
-        "message": "I filtri Lowpass possono avere due varianti: statico e dinamico. Per un determinato numero di filtro Lowpass, solo uno (statico o dinamico) può essere abilitato allo stesso tempo. Lo statico ha solo un Cutoff che è un valore che definisce in qualche modo dove inizia il filtro. Il dinamico definisce un valore minimo e massimo, ovvero l'intervallo in cui viene inserito il Cutoff. Questo Cutoff si sposta da min a max contemporaneamente al muovimento degli stick del gas."
     },
     "pidTuningFilterSettings": {
         "message": "Impostazioni filtro profilo dipendente"
