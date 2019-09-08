@@ -2862,6 +2862,9 @@
     "pidTuningGyroLowpass2Type": {
         "message": "Gyro - Lowpass 2 - Tipo do filtro"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "Os filtros Lowpass (Passa Baixa) têm dois tipos: Estático e dinâmico. Para cada filtro lowpass, somente um dos dois tipos pode estar ativo. O tipo estático tem uma única frequência de corte que determina o começo do filtro. O tipo dinâmico define um valor máximo e mínimo, a frequência de corte é então posicionada entre esses valores de acordo o movimento do Stick do Acelerador."
+    },
     "pidTuningGyroNotchFiltersGroup": {
         "message": "Filtros Notch (Rejeita Faixa) do GIROSCÓPIO"
     },
@@ -2879,9 +2882,6 @@
     },
     "pidTuningNotchFilterHelp": {
         "message": "O filtro Notch tem duas frequências, a de centro e a de corte.<br>O filtro é simétrico.<br>A frequência de corte é onde o filtro começa e a frequência central é o centro do filtro. Por exemplo, configurando o corte em 160Hz e o centro em 260Hz indica que o filtro irá afetar as frequências de 160Hz a 360Hz, com a maior atenuação no centro"
-    },
-    "pidTuningLowpassFilterHelp": {
-        "message": "Os filtros Lowpass (Passa Baixa) têm dois tipos: Estático e dinâmico. Para cada filtro lowpass, somente um dos dois tipos pode estar ativo. O tipo estático tem uma única frequência de corte que determina o começo do filtro. O tipo dinâmico define um valor máximo e mínimo, a frequência de corte é então posicionada entre esses valores de acordo o movimento do Stick do Acelerador."
     },
     "pidTuningFilterSettings": {
         "message": "Configurações de filtros por perfil"
