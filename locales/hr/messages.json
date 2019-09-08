@@ -2903,6 +2903,9 @@
     "pidTuningGyroLowpass2Type": {
         "message": "Gyro Lowpass 2 vrsta filtera"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "Lowpass filteri imaju dvije varijante: statički i dinamički. Za određeni lowpass filter samo jedan (statički ili dinamički) može biti omogućen i isto vrijeme. Statički ima samo cutoff što je vrijednost koja određuje gdje filter započinje. Dinamički ima raspon od min do max vrijednosti, u tom se rasponu nalazi cutoff i on se pomiče u tom rasponu kako se mijenja gas/throttle."
+    },
     "pidTuningGyroNotchFiltersGroup": {
         "message": "Gyro Notch Filteri"
     },
@@ -2920,9 +2923,6 @@
     },
     "pidTuningNotchFilterHelp": {
         "message": "Notch filter ima centar i cutoff. Filter je simetričan. Centralna frekvencija je centar filtera a cutoff frekvencije je gdje notch filter započinje. Na primjer sa notch cutoffom 160 i notch centrom na 260, znači da je raspon 160-360Hz sa najviše atenuacije oko centra"
-    },
-    "pidTuningLowpassFilterHelp": {
-        "message": "Lowpass filteri imaju dvije varijante: statički i dinamički. Za određeni lowpass filter samo jedan (statički ili dinamički) može biti omogućen i isto vrijeme. Statički ima samo cutoff što je vrijednost koja određuje gdje filter započinje. Dinamički ima raspon od min do max vrijednosti, u tom se rasponu nalazi cutoff i on se pomiče u tom rasponu kako se mijenja gas/throttle."
     },
     "pidTuningFilterSettings": {
         "message": "Profilno ovisne postavke filtera"
