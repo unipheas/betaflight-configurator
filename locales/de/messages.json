@@ -2900,6 +2900,9 @@
     "pidTuningGyroLowpass2Type": {
         "message": "Gyro Lowpass 2 Filter Type"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "Die Lowpass Filter können zwei Ausprägungen haben: statisch und dynamisch. Nur eine der beiden Varianten kann für einen funktionsfähigen Lowpass Filter aktiviert sein. Der Statische definiert einen Wert, bei dem die Filterung beginnt. Der Dynamische definiert Min- und Maxwerte, zwischen denen die Filterung patziert wird. Diese bewegt sich dann mit der Gashebelstellung in diesem Korridor."
+    },
     "pidTuningGyroNotchFiltersGroup": {
         "message": "Gyro Notch Filter"
     },
@@ -2917,9 +2920,6 @@
     },
     "pidTuningNotchFilterHelp": {
         "message": "The Notch Filter has a Center and a Cutoff. The filter is symmetrical. The Center Frequency is the center of the filter and the Cutoff Frequency is where Notch filter starts. For example with Notch Cutoff of 160 and Notch Center of 260 it means the range is 160-360Hz with most attenuation around center"
-    },
-    "pidTuningLowpassFilterHelp": {
-        "message": "Die Lowpass Filter können zwei Ausprägungen haben: statisch und dynamisch. Nur eine der beiden Varianten kann für einen funktionsfähigen Lowpass Filter aktiviert sein. Der Statische definiert einen Wert, bei dem die Filterung beginnt. Der Dynamische definiert Min- und Maxwerte, zwischen denen die Filterung patziert wird. Diese bewegt sich dann mit der Gashebelstellung in diesem Korridor."
     },
     "pidTuningFilterSettings": {
         "message": "Profilabhängige Filtereinstellungen"
