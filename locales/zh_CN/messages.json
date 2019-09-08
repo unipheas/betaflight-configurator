@@ -3114,6 +3114,9 @@
     "pidTuningGyroLowpass2Type": {
         "message": "陀螺仪低通滤波器2类型"
     },
+    "pidTuningLowpassFilterHelp": {
+        "message": "低通滤波器有两个类型：静态和动态。设定低通滤波器时同一时刻只能启用一个类型（静态或动态）。静态滤波器需要预先定义一个滤波器开始工作的截止频率。动态滤波器则通过设置最低和最高值来定义一个截止范围。截止频率跟随油门摇杆在最低和最高范围内移动。"
+    },
     "pidTuningGyroNotchFiltersGroup": {
         "message": "陀螺仪陷波滤波器"
     },
@@ -3164,9 +3167,6 @@
     },
     "pidTuningDynamicNotchMinHzHelp": {
         "message": "定义动态陷波滤波器最低中心频率，动态陷波滤波器不会低于此值运行。"
-    },
-    "pidTuningLowpassFilterHelp": {
-        "message": "低通滤波器有两个类型：静态和动态。设定低通滤波器时同一时刻只能启用一个类型（静态或动态）。静态滤波器需要预先定义一个滤波器开始工作的截止频率。动态滤波器则通过设置最低和最高值来定义一个截止范围。截止频率跟随油门摇杆在最低和最高范围内移动。"
     },
     "pidTuningFilterSettings": {
         "message": "配置文件关联的滤波器设置"
