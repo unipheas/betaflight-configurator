@@ -1482,6 +1482,10 @@
         "message": "가속",
         "description": "Advance of the D Min feature"
     },
+    "pidTuningDMinFeatureHelp": {
+        "message": "D 최소값은 정상적인 비행에서 낮은 수준의 D값을 가지며, 플립이나 롤과 같이 오버슈트를 일으킬 수 있는 빠른 기동을 위한 더 높은 수준의 방법을 제공합니다. 그것은 또한 프롭워시가 생길 때 D를 올려줍니다. 게인은 D가 최대값에 도달하는 속도를 조정하고 자이로를 기반으로 하여 날카로운 움직임과 프롭워시 이벤트를 결정합니다. 가속은 날카로운 움직임을 결정하기 위하여 자이로 대신 설정점을 사용해 D를 더 빨리 올려줍니다.",
+        "description": "D Min feature helpicon message"
+    },
     "pidTuningPidSettings": {
         "message": "PID 컨트롤러 설정"
     },
