@@ -1158,6 +1158,18 @@
     "configurationDigitalIdlePercentHelp": {
         "message": "这里的”怠速“指按百分比算的油门值。当飞控解锁并且油门在最低位时，该数值会被发送到电调。增加这个百分比可增加怠速时电机的转速。"
     },
+    "configurationMotorPoles": {
+        "message": "电机极数",
+        "description": "One of the fields of the ESC/Motor configuration"
+    },
+    "configurationMotorPolesLong": {
+        "message": "$t(configurationMotorPoles.message)(电机转子上的磁铁数量)",
+        "description": "One of the fields of the ESC/Motor configuration"
+    },
+    "configurationMotorPolesHelp": {
+        "message": "此选项用于设置一些功能，比如说RPM滤波器。<br><br>它表示电机转子上的磁铁数量。<b>不要计算</b>绕组所在的定子数量。典型的5寸机的电机有14个磁铁，较小的飞机比如说3寸或更小的飞机电机通常有12个磁铁。",
+        "description": "Help text for the Motor poles field of the ESC/Motor configuration"
+    },
     "configurationThrottleMinimum": {
         "message": "最小油门（解锁时飞控输出给电调的最低油门数值）"
     },
@@ -1606,11 +1618,23 @@
     "pidTuningIntegral": {
         "message": "Integral"
     },
+    "pidTuningIntegralHelp": {
+        "message": "控制飞机保持整体设定点位置的力度的强弱。<br>类似 P 值的行为，但更针对长期的因素例如飞机的重心偏移或者外界侵扰（风力影响）。<br><br>更高的增益提供更紧凑的行迹（如连续过弯时），但也会让飞机对摇杆响应显得有些僵硬。<br>如果相对于 D 值太高可能会导致低频抖动。",
+        "description": "Integral Term helpicon message on PID table titlebar"
+    },
     "pidTuningDerivative": {
         "message": "Derivative"
     },
+    "pidTuningDerivativeHelp": {
+        "message": "控制缓冲任何移动的阻尼的强弱。对摇杆控制的移动，D 值会缓冲控制。对外界侵扰（洗桨或阵风）D 值会缓冲侵扰。<br><br>更高的增益提供更多的阻尼，减少 P 值和 FF 造成的过冲。<br>然而 D 值对陀螺仪的高频振动非常敏感（噪音会被指数级放大）。<br><br>如果 D 增益太高或陀螺仪噪音没有被妥善滤波处理（见滤波页），高频噪音会导致电机过热甚至烧毁。<br><br>把 D 指想象成车辆上的避震器，但是具有会放大高频陀螺仪噪音的不利特性。",
+        "description": "Derivative Term helpicon message on PID table titlebar"
+    },
     "pidTuningFeedforward": {
         "message": "Feedforward"
+    },
+    "pidTuningFeedforwardHelp": {
+        "message": "是一个基于摇杆输入的推动增益。FF 帮助 P 值来推动飞机更快响应摇杆的移动。<br><br>P 值基于摇杆的设定点（度/秒）和陀螺仪读数的当前滚转速率（度/秒）之间的差异来推动飞机。FF 只基于摇杆的移动来推动飞机。<br><br>更高的增益值可以使飞机感觉更贴手。<br>太高的值会导致过冲，电机发热量增加和电机饱和（电机无法跟上期望的速率）。<br>较低或零值可使飞机手感更为平滑。",
+        "description": "Feedforward Term helpicon message on PID table titlebar"
     },
     "pidTuningRcRate": {
         "message": "RC Rate"
@@ -3090,6 +3114,86 @@
     "pidTuningNonProfileFilterSettings": {
         "message": "独立于配置文件的滤波器设置"
     },
+    "pidTuningFilterSlidersHelp": {
+        "message": "调整飞机陀螺仪和 D 值滤波的滑块。<br><br>更多的滤波提供更平滑的飞行，但同时也增加陀螺仪信号到达 PID 循环的延迟（相位延迟），降低洗桨处理能力和摇杆的响应手感，甚至导致飞机抖动。<br><br>更少的滤波降低陀螺仪信号延迟，但会因为 D 值响应更高频的电机震动而增加电机发热。<br>另外，如果滤波太少，会损害飞行性能表现（更差的信噪比）。",
+        "description": "Overall helpicon message for filter tuning sliders"
+    },
+    "pidTuningSliderLowFiltering": {
+        "message": "更少滤波",
+        "description": "Filter tuning slider low header"
+    },
+    "pidTuningSliderDefaultFiltering": {
+        "message": "默认滤波",
+        "description": "Filter tuning slider default header"
+    },
+    "pidTuningSliderHighFiltering": {
+        "message": "更多滤波",
+        "description": "Filter tuning slider high header"
+    },
+    "pidTuningGyroFilterSlider": {
+        "message": "陀螺仪滤波器乘数:",
+        "description": "Gyro filter tuning slider label"
+    },
+    "pidTuningGyroFilterSliderHelp": {
+        "message": "按比例互相调整默认的陀螺仪低通滤波器。陀螺仪滤波发生在 PID 循环之前。<br>不同级别飞机通常的电机噪音范围：<br><br>6寸及以上飞机通常在100hz 到330hz 之间<br>5寸机通常在220hz 到500hz<br>3寸及以下飞机通常在300hz 到850hz<br><br>通常建议移动滑块使得陀螺仪动态低通滤波器1的最小/最大范围囊括上述范围。<br>如果追求更平滑的飞行风格，可以加强滤波。而要更暴力的飞行风格则减轻滤波。<br><br>减少滤波时，务必注意不要太过激进导致飞机暴走或烧毁电机。<br>注意：机架的共振，坏的轴承和受损的螺旋桨都会导致你需要更多的滤波。",
+        "description": "Gyro filtering tuning slider helpicon message"
+    },
+    "pidTuningDTermFilterSlider": {
+        "message": "D Term 滤波器乘数:",
+        "description": "D Term filter tuning slider label"
+    },
+    "pidTuningDTermFilterSliderHelp": {
+        "message": "按比例互相调整默认的陀螺仪低通滤波器。因为对噪音最为敏感，且可以成指数级放大高频噪声， D 值且只有 D 值滤波是发生在 PID 循环之后。<br><br>通常会需要配合陀螺仪滤波器一起移动 D 值滤波器滑块，来使D 值滤波器的截止频率明确低于电机噪音频率。<br>这也是默认设置的滑块比例。",
+        "description": "D Term filtering tuning slider helpicon message"
+    },
+    "pidTuningSliderEnableButton": {
+        "message": "开启滑块",
+        "description": "Button label for enabling sliders"
+    },
+    "pidTuningSliderLow": {
+        "message": "低",
+        "description": "Tuning Slider Low header"
+    },
+    "pidTuningSliderDefault": {
+        "message": "默认",
+        "description": "Tuning Slider Default header"
+    },
+    "pidTuningSliderHigh": {
+        "message": "高",
+        "description": "Tuning Slider High header"
+    },
+    "pidTuningMasterSlider": {
+        "message": "主乘数:",
+        "description": "Master tuning slider label"
+    },
+    "pidTuningPDRatioSlider": {
+        "message": "PD 平衡：",
+        "description": "PD balance tuning slider label"
+    },
+    "pidTuningPDGainSlider": {
+        "message": "P和D增益:",
+        "description": "P and D gain tuning slider label"
+    },
+    "pidTuningResponseSlider": {
+        "message": "摇杆响应增益:",
+        "description": "Response tuning slider label"
+    },
+    "pidTuningMasterSliderHelp": {
+        "message": "通常来讲因为较低的动力/重量比，较大的飞机会需要较高的 PID 值。<br><br>而较小的飞机（微型机）因为较高的动力/重量比通常需要较低的 PID 值。<br><br>动力比约低的飞机需要越高的值，动力比越高的飞机需要的值越低。",
+        "description": "Master gain tuning slider helpicon message"
+    },
+    "pidTuningPDRatioSliderHelp": {
+        "message": "较低的 PD 配比会降低整体的响应度但同时也会降低翻转时候的快速回弹。<br><br> 较高的 PD 配比提供较快的整体响应和更佳的洗桨处理。然而如果 PD 配比太高，在翻转时候会产生快速回弹，且在洗桨时遭遇更多抖动。",
+        "description": "PD balance tuning slider helpicon message"
+    },
+    "pidTuningPDGainSliderHelp": {
+        "message": "较低的P和D值有助于电机保持凉爽，但会遭遇更多的洗桨震动。太低值可能导致飞机不稳定。<br><br>P和D 值配合减少洗桨。<br><br>更高的值会增加电机发热，并可能会因较高的 D 值而增加平稳往前飞时的抖动。",
+        "description": "P and D gain tuning slider helpicon message"
+    },
+    "pidTuningResponseSliderHelp": {
+        "message": "较低的值会恶化摇杆响应，且可能在翻转的尾声产生慢速回弹（I-term windup）。<br><br>较高的值在快速移动时会有更好的摇杆响应。然而，过高的值会导致过冲和翻转尾声的快速回弹。",
+        "description": "Stick response gain tuning slider helpicon message"
+    },
     "pidTuningGyroLowpassFiltersGroup": {
         "message": "陀螺仪低通滤波器"
     },
@@ -3167,6 +3271,14 @@
     },
     "pidTuningDynamicNotchMinHzHelp": {
         "message": "定义动态陷波滤波器最低中心频率，动态陷波滤波器不会低于此值运行。"
+    },
+    "pidTuningRpmFilterGroup": {
+        "message": "陀螺仪RPM滤波器",
+        "description": "Header text for the RPM Filter group"
+    },
+    "pidTuningRpmHarmonics": {
+        "message": "陀螺仪RPM滤波器谐波数量",
+        "description": "Text for one of the parameters of the RPM Filter"
     },
     "pidTuningFilterSettings": {
         "message": "配置文件关联的滤波器设置"
