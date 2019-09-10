@@ -648,7 +648,7 @@
         "message": "フェイルセーフ:"
     },
     "initialSetupMinCommand": {
-        "message": "最小スティック値"
+        "message": "スティック最小値:"
     },
     "initialSetupBatteryHead": {
         "message": "バッテリー"
@@ -1092,7 +1092,19 @@
         "message": "モーターアイドルスロットル値 [percent]"
     },
     "configurationDigitalIdlePercentHelp": {
-        "message": "機体がアームし、スロットルスティックが最小位置にあるときにESCに送信される最大スロットルの [アイドル\n値] です。より安定したアイドリング速度を得るためにパーセント値を増加させて下さい。"
+        "message": "機体がアームし、スロットルスティックが最小位置にあるときにESCに送信される最大スロットルの [アイドル値] です。より安定したアイドリング速度を得るためにパーセント値を増加させて下さい。"
+    },
+    "configurationMotorPoles": {
+        "message": "モーター極数",
+        "description": "One of the fields of the ESC/Motor configuration"
+    },
+    "configurationMotorPolesLong": {
+        "message": "$t(configurationMotorPoles.message) (モーター内の磁石の数)",
+        "description": "One of the fields of the ESC/Motor configuration"
+    },
+    "configurationMotorPolesHelp": {
+        "message": "この設定はRPMフィルターなどの一部の機能に使用されます。<br><br>モーター外装[ベル] にある磁石の数を示します。巻線されている<b>ステーターをカウントしないでください。</b>典型的な5インチモーターには14個の磁石が、3インチ以下のような小さいモーターには通常12個の磁石があります。",
+        "description": "Help text for the Motor poles field of the ESC/Motor configuration"
     },
     "configurationThrottleMinimum": {
         "message": "最小スロットル値 (アーム時の最小ESC値)"
@@ -1104,7 +1116,7 @@
         "message": "最大スロットル値 (アーム時の最大ESC値)"
     },
     "configurationThrottleMinimumCommand": {
-        "message": "最小スティック値 (ディスアーム時のESC値)"
+        "message": "スティック最小値 (ディスアーム時のESC値)"
     },
     "configurationThrottleMinimumCommandHelp": {
         "message": "これは機体がディスアームされたときにESCに送信される値です。この値をモーターを停止させる値に設定して下さい。(殆どのESCは1000)"
@@ -1274,6 +1286,9 @@
     "portsHelp": {
         "message": "<strong>注:</strong> 全ての組み合わせが有効であるとは限りません。フライトコントローラのファームウェアはこれを検出し、シリアル ポートの設定がリセットされます。"
     },
+    "portsVtxTableNotSet": {
+        "message": "<span class=\"message-negative\">警告:</span> VTXテーブルは正しく設定されておらず、VTXテーブルがないとVTXを制御できません。$t(tabVtx.message)タブでVTXテーブルを設定してください。"
+    },
     "portsMSPHelp": {
         "message": "<strong>注:</strong> 確実に設定内容を把握しない限り、最初のシリアルポートでMSPを<span class=\"message-negative\">無効にしないで</span>下さい。行った場合、ファームウェアの再フラッシュが必要になり、全ての設定が消去される場合があります。"
     },
@@ -1404,12 +1419,20 @@
         "message": "<strong>注:</strong> D Min機能は無効になり、そのパラメーターは非表示になります。D Min機能を使用するには $t(pidTuningPidSettings.message) で有効にしてください。"
     },
     "pidTuningDMinGain": {
-        "message": "ゲイン",
+        "message": "強さ[ゲイン]",
         "description": "Gain of the D Min feature"
     },
     "pidTuningDMinAdvance": {
-        "message": "アドバンス",
+        "message": "詳細設定",
         "description": "Advance of the D Min feature"
+    },
+    "pidTuningDMinFeatureHelp": {
+        "message": "D Minは、通常の飛行ではD値のレベルを低くし、フリップやロールなどオーバーシュートを引き起こすような素早い操縦が必要な場合には、D値のレベルを高くする機能を提供します。またD値を上げ過ぎるとプロップウォッシュとなります。強さ[Gain] は、D値が最大値に到達する速度を調整し、それによりジャイロに基づき、鋭い動きとプロップウォッシュ状態が決まります。Advanceは、ジャイロの代わりにセットポイントを使用して鋭い動きが決まり、D値を素早く上昇させます。",
+        "description": "D Min feature helpicon message"
+    },
+    "pidTuningDMinHelp": {
+        "message": "通常の直進飛行での減衰の強さ (D値) を制御します。<br>D_minを有効にすると、飛行中に有効なD値の強さを可変させます。通常の直進飛行では、以下の強さのD_min値となります。機敏な挙動またはプロップウォッシュが発生した際、有効なDerivative[微分制御] の強さは左に指定されたD値ゲインまで上昇します。<br><br>機敏なスティック入力の場合は完全なD値ゲインが得られますが、プロップウォッシュ時は一部のD値ゲインしか有効になりません。<br>D_Minの強さ[ゲイン] と詳細設定を調整して、ブーストの感度とタイミングを制御しましょう。",
+        "description": "D Min helpicon message on PID table titlebar"
     },
     "pidTuningPidSettings": {
         "message": "PIDコントローラ設定"
@@ -1528,7 +1551,7 @@
         "message": "このパラメータを使用すると、D値セットポイントの影響力をスティック中央近くで減らすことができ、その結果フリップおよびロール時のエンドアクションがスムーズになります。<br> この値はスティック偏向点を表します。0-スティック中心、1-完全偏向です。スティックがその値を上回ると、設定値の影響力は一定に保たれます。スティックがその値以下に位置すると、設定値の影響力は比例して減少し、スティックの中心位置で0になります。<br> 1の値はスムージング効果を最大にし、0の値はスティック範囲全体にわたって設定値に固定します。"
     },
     "pidTuningDtermSetpointHelp": {
-        "message": "このパラメータは、D値におけるスティック加速効果を決定します。<br> 0の値はD値がジャイロのみを追従した古い測定方式、1の値はジャイロとスティック操作範囲を追従した古いエラー検出方式と同一です。<br>低い値は、ゆっくり / スムースなスティックレスポンスに、高い値はスティック加速レスポンスとなります。<br>RC補間は、制御キックバックノイズを発生しないよう高めの値にすることを推奨します。"
+        "message": "このパラメータは、D値におけるスティック加速効果を決定します。<br> 0の値はD値がジャイロのみを追従した古い測定方式、1の値はジャイロとスティック操作範囲を追従した古いエラー検出方式と同一です。<br>低い値は、ゆっくり / スムースなスティック応答に、高い値は素早いスティック応答となります。<br>RC補間は、制御キックバックノイズを発生しないよう高めの値にすることを推奨します。"
     },
     "pidTuningDtermSetpointTransitionWarning": {
         "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message):</strong> 0より大きく0.1より小さいD値セットポイントの設定はしないで下さい。スティックが中心を横切るときに不安定となり、スティック応答性が低下する可能性があります。</span>"
@@ -1536,14 +1559,30 @@
     "pidTuningProportional": {
         "message": "Proportional"
     },
+    "pidTuningProportionalHelp": {
+        "message": "機体がスティックに対してどのくらい厳密に追従するか (セットポイント) の強さを制御します。<br><br>値[ゲイン] を大きくするとスティックに対する追従が厳密になりますが、微分制御 (D値) に比例し値が高過ぎるとオーバーシュートを引き起こすことがあります。P値に関しては自動車でいうサスペンションのスプリングとお考えください。",
+        "description": "Proportional Term helpicon message on PID table titlebar"
+    },
     "pidTuningIntegral": {
         "message": "Integral"
+    },
+    "pidTuningIntegralHelp": {
+        "message": "機体がセットポイントの全体位置をどれだけしっかり保持するかの強度を制御します。<br>これは比例に似ていますが、重心のオフセット (CoG) または持続的な外部の影響 (定常風) など、機体に対するより長いバイアスのためとなります。< br><br>ゲインを高くすると、より厳密な追従が可能となりますが (例:スイープターン)、指示したスティック入力に対して機体挙動は硬く感じることとなるでしょう。<br>D値に比例して極端に値が高いと、遅い振動を引き起こす場合があります。",
+        "description": "Integral Term helpicon message on PID table titlebar"
     },
     "pidTuningDerivative": {
         "message": "Derivative"
     },
+    "pidTuningDerivativeHelp": {
+        "message": "機体のあらゆる動きに対する減衰の強さを制御します。スティックの動きに対し、命令によりD値を減衰させます。外部からの影響 (プロップウォッシュまたは突風) の場合、D値にてその影響を減少させることができます。<br><br>ゲインを高くすると減衰が大きくなり、P値およびFF値によるオーバーシュートが減少します。<br>ただし、D値はジャイロにおける高周波振動に非常に敏感です。(ノイズ | \n10倍から100倍へ拡大)<br><br>D値ゲインが高すぎる場合、またはジャイロノイズが適切にフィルター処理されていない場合、高周波ノイズによりモーターが発熱し、モーターが焼損する可能性があります。(フィルタータブ参照) <br><br>D値は自動車のサスペンションのショックアブソーバーとお考えください。ただし高周波ジャイロノイズを増幅させてしまうという、固有のマイナス特性があります。",
+        "description": "Derivative Term helpicon message on PID table titlebar"
+    },
     "pidTuningFeedforward": {
         "message": "Feedforward"
+    },
+    "pidTuningFeedforwardHelp": {
+        "message": "スティック入力に基づく (スプリングのような) 追加設定項目です。FFは機体へのスティック操作の命令によりP値をよりプッシュする効果があります。<br><br>P値は命令されたセットポイント (角度/秒) と現在の角速度のジャイロ読取値 (角度/秒) の差異を基としてプッシュします。FFは、スティック可変のみに基づいてプッシュします。<br><br>値 (ゲイン) が高いほど、スティック入力に対する機体の応答がより機敏になります。<br>値が高すぎると、オーバーシュート、モーター熱の増加、モーターの飽和が発生する可能性があります。(モーターが指定した変化率に追従できない場合) <br>値を低くまたはゼロ (0) にすると、スティック入力に対する応答が遅くなりスムーズな反応となります。",
+        "description": "Feedforward Term helpicon message on PID table titlebar"
     },
     "pidTuningRcRate": {
         "message": "RC Rate"
@@ -1772,6 +1811,10 @@
     },
     "auxiliaryMax": {
         "message": "最大"
+    },
+    "auxiliaryDisabled": {
+        "message": "(無効)",
+        "descripton": "Text to add to the ARM mode (maybe others in the future) in the MODES TAB when it has been disabled for some external reason"
     },
     "auxiliaryAddRange": {
         "message": "範囲追加"
@@ -3019,6 +3062,98 @@
     "pidTuningNonProfileFilterSettings": {
         "message": "Profile毎のPID制御設定"
     },
+    "pidTuningFilterSlidersHelp": {
+        "message": "機体におけるジャイロとD値フィルターを調整するスライダーです。<br><br>より多くのフィルターを使用すると、スムーズな飛行が可能になりますが、PIDループへのジャイロ信号の遅延 (位相遅延) も増加します。ハンドリング、スティック応答、に影響し、過度な値の場合は振動を引き起こす可能性があります。<br><br>フィルタリング減少させると、ジャイロ信号の遅延も減少しますが、D値が高周波モーターの振動 (ノイズ) に反応するため、モーターの温度が上昇する可能性があります。<br>さらにフィルタリングが過度に低い場合は、飛行性能が低下します。 (信号における雑音が高くなる)",
+        "description": "Overall helpicon message for filter tuning sliders"
+    },
+    "pidTuningSliderLowFiltering": {
+        "message": "フィルター減少",
+        "description": "Filter tuning slider low header"
+    },
+    "pidTuningSliderDefaultFiltering": {
+        "message": "フィルター初期値",
+        "description": "Filter tuning slider default header"
+    },
+    "pidTuningSliderHighFiltering": {
+        "message": "フィルター増加",
+        "description": "Filter tuning slider high header"
+    },
+    "pidTuningGyroFilterSlider": {
+        "message": "ジャイロフィルター乗算値:",
+        "description": "Gyro filter tuning slider label"
+    },
+    "pidTuningGyroFilterSliderHelp": {
+        "message": "デフォルトのジャイロローパスフィルターを互いに比例して増減します。ジャイロフィルタリングは、PIDループの前に適用されます。<br>クワッドコプタークラス毎の一般的なモーターノイズ範囲:<br><br>6インチ以上 - 通常100hz〜330hz以内<br>5インチ - 通常220hz～500hz以内<br>3インチ以下&Whoop - 通常300hz～850hz以内<br><br>通常、動的ジャイロローパスフィルター1の最小/最大カットオフ範囲が上記をカバーするようにスライダーを設定します。<br>ただし、よりスムーズな飛行を実現するには、スライダーで [詳細フィルタリング] を使用します。 より積極的なフィルター調整を行うには、スライダーの [フィルター減少] を使用します。<br><br>フィルタリング減少により、モーターの飛び散りや焼損の原因となるような過激な設定にならないよう注意してください。<br>フレームの共振の問題、ベアリングの不良、プロペラによる掻き乱しなど、更にフィルタリングが必要になる場合もありますのでご注意ください。",
+        "description": "Gyro filtering tuning slider helpicon message"
+    },
+    "pidTuningDTermFilterSlider": {
+        "message": "D値フィルター乗算値:",
+        "description": "D Term filter tuning slider label"
+    },
+    "pidTuningDTermFilterSliderHelp": {
+        "message": "デフォルトのD値ローパスフィルターを互いに比例し増減します。<br>D値フィルタリングは、PIDループの後にD値にのみ適用されます。これは、D値がノイズに最も敏感なものあり、高周波ノイズを10倍から100倍以上増幅できてしまうためです。<br><br>一般に、ジャイロフィルターのスライダーでD値フィルタースライダーを上へ移動します。より厳密なD値フィルタリングを行うため、D値フィルターのカットオフをモーターノイズ範囲よりも十分に低くしたい場合、ジャイロフィルター乗算値を使用してジャイロ信号全体に適用します。<br>推奨される差分は、デフォルト値およびスライダーのスケーリングに組み込まれています。",
+        "description": "D Term filtering tuning slider helpicon message"
+    },
+    "pidTuningPidSlidersHelp": {
+        "message": "機体の飛行特性 (PID値) を調整するスライダー<br><br>基準乗算値: PID値の間における比例差を保持しながら、すべての(上記) PID値[ゲイン] を増減します。<br><br>PD値バランス: P値とD値 (スプリング [p-term] およびショックアブソーバー [d-term]) 間のバランス (比率\\比例差) を調整します。<br><br>PD値: PID制御の強さを増やす (または減らす) ために、P&D値ゲインを一緒に増減します。(2つの間の比率 (バランス) を保持します) <br><brスティック応答: フィードフォワード値を増減して、機体のスティック応答感覚を制御します。",
+        "description": "Overall helpicon message for PID tuning sliders"
+    },
+    "pidTuningSliderHighWarning": {
+        "message": "<span class=\"message-negative\">警告:</span> このスライダーの高い値を適用すると、ふらついた飛行やモーターの損傷、または安全でない機体の挙動が発生する場合があります。注意して実施してください。",
+        "description": "Warning shown when tuning slider are above safe limits"
+    },
+    "pidTuningSlidersDisabled": {
+        "message": "<strong>注:</strong> 値が手動で変更されたため、スライダーは無効になっています。『$t(pidTuningSliderEnableButton.message)』ボタンをクリックすると再び有効となります。これにより値がリセットされ、保存されていない変更は失われます。",
+        "description": "Tuning sliders disabled note when manual changes are detected"
+    },
+    "pidTuningSliderEnableButton": {
+        "message": "スライダー有効",
+        "description": "Button label for enabling sliders"
+    },
+    "pidTuningSliderLow": {
+        "message": "低",
+        "description": "Tuning Slider Low header"
+    },
+    "pidTuningSliderDefault": {
+        "message": "初期値",
+        "description": "Tuning Slider Default header"
+    },
+    "pidTuningSliderHigh": {
+        "message": "高",
+        "description": "Tuning Slider High header"
+    },
+    "pidTuningMasterSlider": {
+        "message": "基準乗算値:",
+        "description": "Master tuning slider label"
+    },
+    "pidTuningPDRatioSlider": {
+        "message": "PD値 バランス:",
+        "description": "PD balance tuning slider label"
+    },
+    "pidTuningPDGainSlider": {
+        "message": "P値 D値 強さ:",
+        "description": "P and D gain tuning slider label"
+    },
+    "pidTuningResponseSlider": {
+        "message": "スティック応答 強さ:",
+        "description": "Response tuning slider label"
+    },
+    "pidTuningMasterSliderHelp": {
+        "message": "一般に機体が大きくなればなるほど、電力対重量の比率が低くなるため、PID値を高くする必要があります。<br><br>小さい機体 (マイクロ機等) は、一般に電力対重量比が高いため、PID値を低くする必要があります。<br><br>PID値の高い値は電力対重量比の低い機体、低い値は、比率の高い機体用となります。",
+        "description": "Master gain tuning slider helpicon message"
+    },
+    "pidTuningPDRatioSliderHelp": {
+        "message": "PD値バランスが低いと全体的な応答が低下しますが、フリップまたはロール後の素早いバウンスバックの確率も減少します。<br><br>PD値バランスが高いほど、応答が速くなり、プロップウォッシュ時の処理が向上します。ただし、PD値バランスが高すぎるとフリップまたはロール後に振動が発生し、プロップウォッシュ時の振動が長くなります。",
+        "description": "PD balance tuning slider helpicon message"
+    },
+    "pidTuningPDGainSliderHelp": {
+        "message": "P値とD値の値[ゲイン] が低いと、モーターは冷却されますが、プロップウォッシュ振動が大きくなります。値が低すぎると機体が不安定になる場合があります。<br><br>P値とD値は連動してプロップウォッシュを減らします。<br><br>値を大きくするとモーターの熱が増加し、D値ゲインが高くなるため、スムーズな直進飛行中に振動が増加する場合があります。",
+        "description": "P and D gain tuning slider helpicon message"
+    },
+    "pidTuningResponseSliderHelp": {
+        "message": "値を低くするとスティック応答が悪くなり、フリップまたはロールの終わりでゆっくりとバウンスバックする場合があります。(I値ワインドアップ) <br><br>値を大きくすると、機敏な挙動となりスティック応答が良くなります。ただし値が高すぎると、オーバーシュートが発生し、フリップまたはロールの終わりに高速で跳ね返る可能性があります。",
+        "description": "Stick response gain tuning slider helpicon message"
+    },
     "pidTuningGyroLowpassFiltersGroup": {
         "message": "ジャイロ ローパスフィルター"
     },
@@ -3044,7 +3179,7 @@
         "message": "ジャイロ ローパス2 フィルタータイプ"
     },
     "pidTuningLowpassFilterHelp": {
-        "message": "ローパスフィルタには静的・動的の2種類があります。設定したローパスフィルタ番号に対し、常に有効となるのは (静的または動的) どちらか1つです。静的カットオフは、フィルタ開始位置をいずれかの方法で定義します。動的カットオフは、最小値と最大値、つまりカットオフ有効範囲を定義します。このカットオフは、スロットルスティックを動かすのと同時に最小から最大へ変位します。"
+        "message": "ローパスフィルターには静的・動的の2種類があります。設定したローパスフィルター番号に対し、常に有効となるのは (静的または動的) どちらか1つです。静的カットオフは、フィルタ開始位置をいずれかの方法で定義します。動的カットオフは、最小値と最大値、つまりカットオフ有効範囲を定義します。このカットオフは、スロットルスティックを動かすのと同時に最小から最大へ変位します。"
     },
     "pidTuningGyroNotchFiltersGroup": {
         "message": "ジャイロ ノッチフィルター"
@@ -3096,6 +3231,30 @@
     },
     "pidTuningDynamicNotchMinHzHelp": {
         "message": "その値以下でダイナミックノッチが遷移しない最低ダイナミックノッチ中心周波数を定義します。"
+    },
+    "pidTuningRpmFilterGroup": {
+        "message": "ジャイロRPMフィルター",
+        "description": "Header text for the RPM Filter group"
+    },
+    "pidTuningRpmFilterHelp": {
+        "message": "RPMフィルタリングは、ジャイロノッチフィルターのバンク[グループ化] であり、RPMテレメトリーデータを使用して、高い精度でモーターノイズを除去します。<br><br><b><span class=\"message-positive\">重要:</span> ESCは双方向DShotプロトコルをサポートする必要があり、このフィルターが機能するには $t(tabConfiguration.message) タブの $t(configurationMotorPoles.message) 値が正しくなければなりません。</b>",
+        "description": "Header text for the RPM Filter group"
+    },
+    "pidTuningRpmHarmonics": {
+        "message": "ジャイロRPMフィルター 高調波数",
+        "description": "Text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmHarmonicsHelp": {
+        "message": "モーターあたりの高調波の数を示します。値3 (ほとんどの機体に推奨) は、各軸のモーター毎に合計36ノッチの3ノッチフィルターを生成します。1つは基本モーター周波数で、2つはその基本周波数の倍数の高調波となります。",
+        "description": "Help text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmMinHz": {
+        "message": "ジャイロRPMフィルター 周波数最小値 [Hz]",
+        "description": "Text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmMinHzHelp": {
+        "message": "RPMフィルターで使用される周波数最小値。",
+        "description": "Help text for one of the parameters of the RPM Filter"
     },
     "pidTuningFilterSettings": {
         "message": "Profile毎のフィルター設定"
@@ -3950,21 +4109,21 @@
         "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDRoll": {
-        "message": "ロール軸 PIDゲイン"
+        "message": "Roll軸 PID値の強さ"
     },
     "osdTextElementPIDPitch": {
         "message": "PID ピッチ",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDPitch": {
-        "message": "ピッチ軸 PIDゲイン"
+        "message": "Pitch軸 PID値の強さ"
     },
     "osdTextElementPIDYaw": {
         "message": "PID ヨー",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDYaw": {
-        "message": "ヨー軸 PIDゲイン"
+        "message": "Yaw軸 PIDの強さ"
     },
     "osdTextElementPower": {
         "message": "電源",
@@ -4893,6 +5052,14 @@
     "configurationUnsyncedPWMFreq": {
         "message": "モーターPWM 周波数"
     },
+    "configurationDshotBidir": {
+        "message": "双方向DShot (ESCファームウェアサポートが必要)",
+        "description": "Feature for the ESC/Motor"
+    },
+    "configurationDshotBidirHelp": {
+        "message": "有効にすると、DSHOTプロトコルはRPMフィルターおよびその他の機能に必要な情報をESCから直接受信できます。<br><br>これにはBLHELI_S上のjflight.netのJESCファームウェアまたは最新のBLHELI_32ファームウェアが必要です。",
+        "description": "Description of the Bidirectional DShot feature of the ESC/Motor"
+    },
     "configurationGyroSyncDenom": {
         "message": "ジャイロ 演算周波数"
     },
@@ -4988,7 +5155,7 @@
         "message": "測定"
     },
     "pidTuningDeltaTip": {
-        "message": "<b>エラー D値メソッド</b>は、より直接的なスティックレスポンスを提供し、ほぼレース向けとなります。 <br><br><b>測定 D値メソッド</b>は、よりスムーズなスティックレスポンスを提供し、フリースタイル時により有用なものとなります。"
+        "message": "<b>エラー D値メソッド</b>は、より直接的なスティック応答を提供し、ほぼレース向けとなります。 <br><br><b>測定 D値メソッド</b>は、よりスムーズなスティック応答を提供し、フリースタイル時により有用なものとなります。"
     },
     "pidTuningPidControllerTip": {
         "message": "<b>Legacy vs Betaflight (float):</b> PIDスケーリングとPIDロジックはまったく同じ仕様です。必ずしも再調整は必要ありません。Legacyは、整数演算に基づく基本的なPIDコントローラである旧ベータ版の進化型演算方式です。 Betaflight PIDコントローラは浮動小数点演算を使用し、マルチローター用に特別に設計された多くの新機能を備えています。<br><b>Float vs Integer:</b> PIDスケーリングとPIDロジックはまったく同じ仕様です。再調整は必要ありません。F1ボードにはオンボードFPUがないため、浮動小数点演算によってCPU負荷が増加するため、整数演算にて性能が向上しますが、浮動小数点演算の方がわずかに精度が向上します。"
