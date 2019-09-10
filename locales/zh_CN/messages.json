@@ -1490,6 +1490,14 @@
         "message": "超前",
         "description": "Advance of the D Min feature"
     },
+    "pidTuningDMinFeatureHelp": {
+        "message": "D Min 提供了一个方法，使飞机在正常飞行中可以维持一个较低的 D 值，又可以在如翻转等快速动作时提高到一个较高的值来抑制过冲。它也会在发生洗桨时提高D值。调整增益(Gain) 可以调整 D 到达最高值的速度，同时它基于陀螺仪数据来确定快速移动与洗桨事件。超前(Advance) 通过使用设定点而不是陀螺仪来判定快速移动的方法来更早地提高 D 值。",
+        "description": "D Min feature helpicon message"
+    },
+    "pidTuningDMinHelp": {
+        "message": "控制正常前进飞行中的阻尼(D-term)。<br>当 D_Min 开启后，D 增益的有效值将在飞行中实时变化。在正常前进飞行中，有效值将是下方所设置的 D_min 增益。当发生快速移动或洗桨时，D 增益的有效值将会提高至左侧指定的 D 值。<br><br>当出现非常迅速的摇杆输入时，D 增益将升高至最大值，但在洗桨时仅会升高至一部分。<br>调整 D_Min 增益和超前以控制增益增大的敏感性和时机。",
+        "description": "D Min helpicon message on PID table titlebar"
+    },
     "pidTuningPidSettings": {
         "message": "PID 控制器设置"
     },
@@ -1614,6 +1622,10 @@
     },
     "pidTuningProportional": {
         "message": "Proportional"
+    },
+    "pidTuningProportionalHelp": {
+        "message": "控制飞行器如何紧凑跟踪摇杆(设定点)。<br><br> 更高的值(增益) 将提供更紧凑的跟踪效果，但如果与D的比例过高则有可能导致过冲。将 P-term 视为汽车上的弹簧。",
+        "description": "Proportional Term helpicon message on PID table titlebar"
     },
     "pidTuningIntegral": {
         "message": "Integral"
@@ -3146,6 +3158,18 @@
         "message": "按比例互相调整默认的陀螺仪低通滤波器。因为对噪音最为敏感，且可以成指数级放大高频噪声， D 值且只有 D 值滤波是发生在 PID 循环之后。<br><br>通常会需要配合陀螺仪滤波器一起移动 D 值滤波器滑块，来使D 值滤波器的截止频率明确低于电机噪音频率。<br>这也是默认设置的滑块比例。",
         "description": "D Term filtering tuning slider helpicon message"
     },
+    "pidTuningPidSlidersHelp": {
+        "message": "滑块来调整飞行器飞行特性(PID增益)<br><br>主乘数: 保持各参数增益比例差别的同时升高或降低(以上) 所有 PID 增益。<br><br>PD平衡: 调整 P和D( \"弹簧\" [p-term] 和 \"缓冲\" [d-term]) 之间的平衡(比率\\比例差别)。<br><br>PD增益: 同时增加或降低 P&D 的增益——保持两者间的比率(平衡)——以适配高(或低) PID 权重。<br><br>摇杆响应增益: 提高或降低前馈增益，以控制对飞行器的摇杆响应感。",
+        "description": "Overall helpicon message for PID tuning sliders"
+    },
+    "pidTuningSliderHighWarning": {
+        "message": "<span class=\"message-negative\">小心</span>: 将滑块推高至这么高将导致起飞暴走、电机损坏或飞行器出现其他不安全的行为。请谨慎行事。",
+        "description": "Warning shown when tuning slider are above safe limits"
+    },
+    "pidTuningSlidersDisabled": {
+        "message": "<strong>注意:</strong>滑块已禁用，因为已手动更改数值。电机$t(pidTuningSliderEnableButton.message)按钮将再次激活它们。这将重置数值，任何未保存的更改都将丢失。",
+        "description": "Tuning sliders disabled note when manual changes are detected"
+    },
     "pidTuningSliderEnableButton": {
         "message": "开启滑块",
         "description": "Button label for enabling sliders"
@@ -3276,9 +3300,25 @@
         "message": "陀螺仪RPM滤波器",
         "description": "Header text for the RPM Filter group"
     },
+    "pidTuningRpmFilterHelp": {
+        "message": "RPM 滤波器是运行在陀螺仪上的一组陷波滤波器，它使用 RPM 回传数据以手术级精度来移除电机噪声。<br><br><b><span class=\"message-positive\">重要</span>:电调必须支持双向 Dshot 协议，$t(tabConfiguration.message)页面内$t(configurationMotorPoles.message)的值必须正确，这样滤波器才可以工作。</b>",
+        "description": "Header text for the RPM Filter group"
+    },
     "pidTuningRpmHarmonics": {
         "message": "陀螺仪RPM滤波器谐波数量",
         "description": "Text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmHarmonicsHelp": {
+        "message": "每个电机的谐波数量。3(推荐适用于大多数飞行器) 将会对每个电机在每个轴上生成3个陷波器，共计36个陷波器。一个基于电机基波频率，另两个基于基波频率整数倍的谐波频率。",
+        "description": "Help text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmMinHz": {
+        "message": "陀螺仪 RPM 滤波器最小频率[Hz]",
+        "description": "Text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmMinHzHelp": {
+        "message": "RPM 滤波器所使用的最小频率。",
+        "description": "Help text for one of the parameters of the RPM Filter"
     },
     "pidTuningFilterSettings": {
         "message": "配置文件关联的滤波器设置"
@@ -5075,6 +5115,14 @@
     },
     "configurationUnsyncedPWMFreq": {
         "message": "电机PWM 频率"
+    },
+    "configurationDshotBidir": {
+        "message": "双向 DSHOT (需要支持的电调固件)",
+        "description": "Feature for the ESC/Motor"
+    },
+    "configurationDshotBidirHelp": {
+        "message": "启用后 DSHOT 协议将直接接受来自电调的信息，这些信息将被 RPM 滤波器和其他功能所使用。<br><br>需要从 jflight.net 获取适用于 BLHELI_S 电调的 JESC 固件或使用最新的 BLHELI_32 固件。",
+        "description": "Description of the Bidirectional DShot feature of the ESC/Motor"
     },
     "configurationGyroSyncDenom": {
         "message": "陀螺仪更新频率"
