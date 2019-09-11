@@ -767,9 +767,6 @@
     "featureRX_SPI": {
         "message": "Dukungan RX SPI"
     },
-    "featureESC_SENSOR": {
-        "message": "Gunakan telemetri ESC KISS/BLHeli_32 sebagai sensor"
-    },
     "featureCHANNEL_FORWARDING": {
         "message": "Meneruskan saluran aux ke output servo"
     },
@@ -2127,9 +2124,6 @@
     },
     "firmwareFlasherReleaseDate": {
         "message": "Tanggal:"
-    },
-    "firmwareFlasherReleaseStatus": {
-        "message": "Status:"
     },
     "firmwareFlasherReleaseTarget": {
         "message": "Target:"
