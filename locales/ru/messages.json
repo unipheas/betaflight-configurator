@@ -885,9 +885,6 @@
     "featureRX_SPI": {
         "message": "Поддержка SPI RX"
     },
-    "featureESC_SENSOR": {
-        "message": "Использовать телеметрию KISS/BLHeli_32 ESC в качестве датчиков"
-    },
     "featureCHANNEL_FORWARDING": {
         "message": "Перенос aux каналов на серво выходы"
     },
@@ -2356,9 +2353,6 @@
     },
     "firmwareFlasherReleaseDate": {
         "message": "Дата:"
-    },
-    "firmwareFlasherReleaseStatus": {
-        "message": "Состояние:"
     },
     "firmwareFlasherReleaseTarget": {
         "message": "Объект:"
