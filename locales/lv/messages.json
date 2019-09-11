@@ -914,9 +914,6 @@
     "featureRX_SPI": {
         "message": "SPI RX atbalsts"
     },
-    "featureESC_SENSOR": {
-        "message": "Pielietot KISS/BLHeli_32 ESC telemetriju kā sensorus"
-    },
     "featureCHANNEL_FORWARDING": {
         "message": "Novirzīt aux kanālus uz servo izvadi"
     },
@@ -2400,9 +2397,6 @@
     },
     "firmwareFlasherReleaseDate": {
         "message": "Datums:"
-    },
-    "firmwareFlasherReleaseStatus": {
-        "message": "Stāvoklis:"
     },
     "firmwareFlasherReleaseTarget": {
         "message": "Mērķis:"
