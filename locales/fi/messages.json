@@ -665,9 +665,6 @@
     "featureRX_SPI": {
         "message": "SPI RX tuki"
     },
-    "featureESC_SENSOR": {
-        "message": "Käytä KISS/BLHeli_32 ESC telemetriaa sensorina"
-    },
     "featureCHANNEL_FORWARDING": {
         "message": "Lähetä AUX kanavat eteenpäin servoulostuloille"
     },
@@ -1810,9 +1807,6 @@
     },
     "firmwareFlasherReleaseDate": {
         "message": "Päiväm.:"
-    },
-    "firmwareFlasherReleaseStatus": {
-        "message": "Tila:"
     },
     "firmwareFlasherReleaseTarget": {
         "message": "Kohde:"
