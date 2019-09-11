@@ -926,9 +926,6 @@
     "featureRX_SPI": {
         "message": "Soporte de receptores SPI"
     },
-    "featureESC_SENSOR": {
-        "message": "Usar telemetría KISS/BLHeli_32 ESC como sensor"
-    },
     "featureCHANNEL_FORWARDING": {
         "message": "Enviar os canles aux ás saídas de servos."
     },
@@ -2441,9 +2438,6 @@
     },
     "firmwareFlasherReleaseDate": {
         "message": "Data:"
-    },
-    "firmwareFlasherReleaseStatus": {
-        "message": "Estado:"
     },
     "firmwareFlasherReleaseTarget": {
         "message": "Placa:"
