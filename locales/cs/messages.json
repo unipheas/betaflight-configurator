@@ -734,9 +734,6 @@
     "featureRX_SPI": {
         "message": "Podpora SPI RX"
     },
-    "featureESC_SENSOR": {
-        "message": "Použít KISS/BLHeli_32 ESC telemetrii jako senzor"
-    },
     "featureCHANNEL_FORWARDING": {
         "message": "Předat aux kanály servo výstupům"
     },
