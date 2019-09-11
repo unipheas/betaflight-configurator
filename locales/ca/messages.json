@@ -722,9 +722,6 @@
     "featureRX_SPI": {
         "message": "Suporta SPI RX"
     },
-    "featureESC_SENSOR": {
-        "message": "Usa telemetria KISS/BLHELI_32 ESC com a sensor"
-    },
     "featureCHANNEL_FORWARDING": {
         "message": "Enviar canals auxiliars a sortides servo"
     },
@@ -1918,9 +1915,6 @@
     },
     "firmwareFlasherReleaseDate": {
         "message": "Data:"
-    },
-    "firmwareFlasherReleaseStatus": {
-        "message": "Estat:"
     },
     "firmwareFlasherReleaseTarget": {
         "message": "Target:"
