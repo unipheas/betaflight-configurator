@@ -314,9 +314,6 @@
     "featureRX_SPI": {
         "message": "SPI RX desteği"
     },
-    "featureESC_SENSOR": {
-        "message": "Sensör olarak KISS/BLHeli_32 ESC telemetrisini kullan"
-    },
     "featureOSD": {
         "message": "Ekran görünümünde"
     },
@@ -1249,9 +1246,6 @@
     },
     "firmwareFlasherReleaseDate": {
         "message": "Tarih:"
-    },
-    "firmwareFlasherReleaseStatus": {
-        "message": "Durum:"
     },
     "firmwareFlasherReleaseTarget": {
         "message": "Hedef:"
