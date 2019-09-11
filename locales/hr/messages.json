@@ -862,9 +862,6 @@
     "featureRX_SPI": {
         "message": "SPI RX podrška"
     },
-    "featureESC_SENSOR": {
-        "message": "Koristi KISS/BLHeli_32 ESC telemetriju kao senzor"
-    },
     "featureCHANNEL_FORWARDING": {
         "message": "Proslijedi Aux kanale na izlaze servo motora"
     },
@@ -2327,9 +2324,6 @@
     },
     "firmwareFlasherReleaseDate": {
         "message": "Datum:"
-    },
-    "firmwareFlasherReleaseStatus": {
-        "message": "Stanje:"
     },
     "firmwareFlasherReleaseTarget": {
         "message": "Target:"
