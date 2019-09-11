@@ -992,7 +992,7 @@
         "message": "SPI RX 지원"
     },
     "featureESC_SENSOR": {
-        "message": "KISS/BLHeli_32 ESC 텔레메트리를 센서로 사용"
+        "message": "<b>별도의 선에</b> KISS/BLHeli_32 ESC 텔레메트리 사용"
     },
     "featureCHANNEL_FORWARDING": {
         "message": "AUX 채널을 서보 출력으로 사용"
@@ -1161,6 +1161,18 @@
     },
     "configurationDigitalIdlePercentHelp": {
         "message": "이것은 기체가 아밍되고 스로틀 스틱이 최소 위치에 있을 때 ESC로 보내지는 최대 스로틀의 '공회전'값 입니다. 더 많은 공회전 속도를 얻으려면 퍼센트 값을 늘리십시오."
+    },
+    "configurationMotorPoles": {
+        "message": "모터 폴수",
+        "description": "One of the fields of the ESC/Motor configuration"
+    },
+    "configurationMotorPolesLong": {
+        "message": "$t(configurationMotorPoles.message) (모터 벨의 자석 수)",
+        "description": "One of the fields of the ESC/Motor configuration"
+    },
+    "configurationMotorPolesHelp": {
+        "message": "이 설정은 RPM 필터와 같은 일부 기능에 사용됩니다.<br><br>모터의 벨에 있는 자석의 수를 나타냅니다. 권선이 있는 곳에 위치한 <b>스테이터의 수를 카운트하지 마세요</b>. 일반적인 5\" 모터는 14개의 자석을 가지고 있으며, 3\"와 같은 작은 모터는 보통 12개의 자석을 가지고 있습니다.",
+        "description": "Help text for the Motor poles field of the ESC/Motor configuration"
     },
     "configurationThrottleMinimum": {
         "message": "최소 스로틀 (아밍시 가장 낮은 ESC 값)"
@@ -1486,6 +1498,10 @@
         "message": "D 최소값은 정상적인 비행에서 낮은 수준의 D값을 가지며, 플립이나 롤과 같이 오버슈트를 일으킬 수 있는 빠른 기동을 위한 더 높은 수준의 방법을 제공합니다. 그것은 또한 프롭워시가 생길 때 D를 올려줍니다. 게인은 D가 최대값에 도달하는 속도를 조정하고 자이로를 기반으로 하여 날카로운 움직임과 프롭워시 이벤트를 결정합니다. 가속은 날카로운 움직임을 결정하기 위하여 자이로 대신 설정점을 사용해 D를 더 빨리 올려줍니다.",
         "description": "D Min feature helpicon message"
     },
+    "pidTuningDMinHelp": {
+        "message": "정상 전진 비행 시 감쇠 강도(D-텀) 를 제어합니다.<br>D_최소값을 활성화하면 비행 중 능동형 D-게인이 변화합니다. 정상적인 전진 비행에서 그것은 D_최소값 이하에 있습니다. 급격한 움직임이나 프롭워시 중에는 능동형 D-게인은 좌측에 명시된 D 게인을 증가시킵니다.<br><br>날카로운 스틱 입력에서 완전한 D 게인에 도달하지만, 일부분만 프롭워시 동안에 도달합니다.<br>게인 부스트 민감도 및 타이밍을 제어하기 위해 D_최소값 게인과 가속을 조정하십시오.",
+        "description": "D Min helpicon message on PID table titlebar"
+    },
     "pidTuningPidSettings": {
         "message": "PID 컨트롤러 설정"
     },
@@ -1611,14 +1627,30 @@
     "pidTuningProportional": {
         "message": "P(비례)"
     },
+    "pidTuningProportionalHelp": {
+        "message": "기계가 스틱을 얼마나 단단히 추적하는지(설정점) 의 강도를 제어합니다.<br><br>더 높은 값(게인) 은 더 엄격한 추적을 제공하지만, D (D-텀) 에 비례하여 너무 높을 경우 오버슈트를 일으킬 수 있습니다. P-텀을 자동차의 스프링이라고 생각하세요.",
+        "description": "Proportional Term helpicon message on PID table titlebar"
+    },
     "pidTuningIntegral": {
         "message": "I(적분)"
+    },
+    "pidTuningIntegralHelp": {
+        "message": "기계가 설정점의 전체 위치를 얼마나 단단히 고정하는지의 강도를 제어합니다.<br>P와 유사하지만, 무게중심(CoG)의 옵셋이나 지속적인 외부 영향 (안정된 바람)과 같이 기체에서 더 긴 편차를 가지는 경우를 위해 설정합니다.<br><br>더 높은 게인은 더 엄격한 추적을 제공하지만(예: 완만한 회전시), 명령을 준 스틱 입력에 대해 기체가 뻣뻣한 느낌을 줄 수 있습니다.<br>D-텀에 비례하여 극히 높으면 느린 진동을 일으킬 수 있습니다.",
+        "description": "Integral Term helpicon message on PID table titlebar"
     },
     "pidTuningDerivative": {
         "message": "D(미분)"
     },
+    "pidTuningDerivativeHelp": {
+        "message": "기체의 어떤 움직임에도 감쇠의 강도를 제어합니다. 스틱이 움직일 때, D-텀은 명령을 감쇠시킵니다. 외부 영향(프롭위시 또는 풍력) 의 경우 D-텀은 그러한 영향을 감쇠합니다.<br><br>높은 게인은 더 많은 감쇠를 제공하고 P-텀과 FF에 의한 오버슈트를 감소시킵니다.<br>단, D-텀은 자이로 고주파 진동(노이즈 | 10배에서 100배까지 확대) 에 민감합니다.<br><br>D-게인이 너무 높거나 자이로 노이즈가 잘 필터링되지 않을 경우 고주파 노이즈로 모터 열과 소실 현상이 발생할 수 있습니다(필터 탭 참조).<br><br>D-텀을 당신의 자동차에서 쇼크 업소버로 생각하되, 고주파 자이로 노이즈 확대라는 부정적 고유 속성으로 생각해 보십시오.",
+        "description": "Derivative Term helpicon message on PID table titlebar"
+    },
     "pidTuningFeedforward": {
         "message": "피드포워드"
+    },
+    "pidTuningFeedforwardHelp": {
+        "message": "스틱 입력에 기초한 추가 푸시 항목(스프링) FF는 P-텀이 명령을 준 스틱 움직임에 비례하여 기체를 밀도록 도와줍니다.<br><br>P-텀은 명령을 준 설정점(도/초) 과 현재 회전 속도(도/초) 의 자이로 판독값 사이의 차이를 기반으로 밀어줍니다. 반면 FF는 명령을 준 스틱의 변화만을 기반으로 밀어줍니다.<br><br>값(게인) 이 높을수록 스틱 입력에 대한 기계 반응이 더 날카로워집니다.<br>너무 높은 값은 일부 오버슈트, 모터 열 증가, 모터 포화(모터가 원하는 변화율을 따라가지 못하는 경우) 가 발생할 수 있습니다.<br>낮은 값 또는 (0) 값은 스틱 입력에 대해 더 느리고 부드러운 반응을 일으킵니다.",
+        "description": "Feedforward Term helpicon message on PID table titlebar"
     },
     "pidTuningRcRate": {
         "message": "RC 레이트"
@@ -2540,9 +2572,6 @@
     "firmwareFlasherReleaseDate": {
         "message": "일자:"
     },
-    "firmwareFlasherReleaseStatus": {
-        "message": "상태:"
-    },
     "firmwareFlasherReleaseTarget": {
         "message": "타겟:"
     },
@@ -2572,6 +2601,9 @@
     },
     "firmwareFlasherLoadFirmwareFile": {
         "message": "펌웨어 파일을 로드하십시오."
+    },
+    "firmwareFlasherLoadedConfig": {
+        "message": "타겟이 로드되었습니다, 펌웨어 파일을 로드하십시오."
     },
     "firmwareFlasherNoReboot": {
         "message": "재부팅 절차 없음"
@@ -3098,6 +3130,98 @@
     "pidTuningNonProfileFilterSettings": {
         "message": "프로파일 독립적 필터 설정"
     },
+    "pidTuningFilterSlidersHelp": {
+        "message": "쿼드 자이로 및 D-텀 필터링을 조정하는 슬라이더입니다.<br><br>많은 필터링은 더 부드러운 비행을 제공하지만, PID 루프에 대한 자이로 신호 지연(위상 지연) 을 증가시켜 공격적 비행 성능, 프롭워시 핸들링, 스틱 반응에 나쁜 결과를 초래할 수 있으며, 과도할 경우 진동을 일으킬 수 있습니다.<br><br>적은 필터링은 자이로 신호 지연을 감소시키지만, 고주파 모터 진동(노이즈) 에 대한 D-텀 반응으로 모터 온도를 높일 수 있습니다.<br>또한 필터링이 지나치게 낮으면 비행성능 저하(노이즈 대 신호비 상승) 를 초래할 수 있습니다.",
+        "description": "Overall helpicon message for filter tuning sliders"
+    },
+    "pidTuningSliderLowFiltering": {
+        "message": "적은 필터링",
+        "description": "Filter tuning slider low header"
+    },
+    "pidTuningSliderDefaultFiltering": {
+        "message": "기본 필터링",
+        "description": "Filter tuning slider default header"
+    },
+    "pidTuningSliderHighFiltering": {
+        "message": "많은 필터링",
+        "description": "Filter tuning slider high header"
+    },
+    "pidTuningGyroFilterSlider": {
+        "message": "자이로 필터 승수:",
+        "description": "Gyro filter tuning slider label"
+    },
+    "pidTuningGyroFilterSliderHelp": {
+        "message": "기본 자이로 저역통과 필터를 각각에 비례하여 올리거나 낮춥니다. 자이로 필터링은 PID 루프 전에 적용됩니다.<br>쿼드 규격별 일반적인 모터 노이즈 범위:<br><br>6\"+ 쿼드 - 일반적으로 100hz ~ 330hz<br>5\" 쿼드 - 일반적으로 220hz ~ 500hz<br>후프부터 3\" 쿼드 - 일반적으로 300hz ~ 850hz<br><br>일반적으로, 슬라이더를 자이로 저역통과 1 다이나믹 최소/최대 컷오프 범위가 위의 내용을 포함하도록 설정하십시오.<br>그러나, 부드러운 비행을 위해서는 슬라이더에 많은 필터링을 사용하세요. 보다 적극적인 필터 튜닝을 얻으려면 슬라이더에서 적은 필터링을 사용하십시오.<br><br>적은 필터링에서 기체가 멀리 날아가거나 모터가 타는 것을 발생시킬 수 있으므로 과격한 행동을 취하지 않도록 주의하십시오.<br>참고로 프레임 공진 문제, 잘못된 베어링, 그리고 박살난 프롭은 더 많은 필터링을 필요로 합니다.",
+        "description": "Gyro filtering tuning slider helpicon message"
+    },
+    "pidTuningDTermFilterSlider": {
+        "message": "D 텀 필터 승수:",
+        "description": "D Term filter tuning slider label"
+    },
+    "pidTuningDTermFilterSliderHelp": {
+        "message": "기본 D-텀 저역통과 필터를 각각에 비례하여 올리거나 내리십시오.<br>D-텀 필터링은 노이즈에 가장 민감한 항목으로서 고주파 노이즈를 10배에서 100배 이상 증폭시킬 수 있으므로 D-텀에 한하여 PID 루프 이후에 적용됩니다.<br><br>일반적으로 D-텀 필터 슬라이더를 자이로 필터 슬라이더와 함께 올립니다. 강한 D-텀 필터링을 위해 모터 노이즈 범위보다 훨씬 낮은 D-텀 필터 컷오프를 선택한 다음 자이로 필터 승수를 사용하여 전체 자이로 신호에 적용하세요.<br>권장 D값은 기본과 슬라이더 스케일링에 내장되어 있습니다.",
+        "description": "D Term filtering tuning slider helpicon message"
+    },
+    "pidTuningPidSlidersHelp": {
+        "message": "쿼드 비행 특성(PID 게인) 을 조정하는 슬라이더<br><br>마스터 승수: (위의) 모든 PID 게인이 게인 사이의 비례적 차이를 유지하도록 증가시키거나 감소시킵니다.<br><br>PD 밸런스: P와 D텀('스프링' [p-term] 과 '쇽 옵져버' [d-term]) 사이의 균형(비율 \\ 비례 차이) 을 조정합니다.<br><br>PD 게인: P&D 게인을 함께 증가 또는 감소합니다 - 더 많은 (또는 적은) PID 제어 권한을 위하여 둘 사이의 비율(밸런스) 를 유지합니다.<br><br>스틱 반응 게인: 피드포워드 게인을 올리거나 낮추어 쿼드의 스틱 반응 감각을 제어합니다.",
+        "description": "Overall helpicon message for PID tuning sliders"
+    },
+    "pidTuningSliderHighWarning": {
+        "message": "<span class=\"message-negative\">주의</span>: 슬라이더를 이렇게 높게 밀면 기체가 멀리 날아가거나, 모터 손상 또는 안전하지 않은 기체 동작이 발생할 수 있습니다. 신중하게 진행하십시오.",
+        "description": "Warning shown when tuning slider are above safe limits"
+    },
+    "pidTuningSlidersDisabled": {
+        "message": "<strong>노트:</strong> 값이 수동으로 변경되었기 때문에 슬라이더가 비활성화됩니다. '$t(pidTuningSliderEnableButton.message)' 버튼을 클릭하면 그것들이 다시 활성화됩니다. 이는 값이 재설정되고 저장되지 않은 변경 사항이 손실될 것입니다.",
+        "description": "Tuning sliders disabled note when manual changes are detected"
+    },
+    "pidTuningSliderEnableButton": {
+        "message": "슬라이더 사용",
+        "description": "Button label for enabling sliders"
+    },
+    "pidTuningSliderLow": {
+        "message": "낮음",
+        "description": "Tuning Slider Low header"
+    },
+    "pidTuningSliderDefault": {
+        "message": "기본",
+        "description": "Tuning Slider Default header"
+    },
+    "pidTuningSliderHigh": {
+        "message": "높음",
+        "description": "Tuning Slider High header"
+    },
+    "pidTuningMasterSlider": {
+        "message": "마스터 승수:",
+        "description": "Master tuning slider label"
+    },
+    "pidTuningPDRatioSlider": {
+        "message": "PD 밸런스:",
+        "description": "PD balance tuning slider label"
+    },
+    "pidTuningPDGainSlider": {
+        "message": "P & D 게인:",
+        "description": "P and D gain tuning slider label"
+    },
+    "pidTuningResponseSlider": {
+        "message": "스틱 반응 게인:",
+        "description": "Response tuning slider label"
+    },
+    "pidTuningMasterSliderHelp": {
+        "message": "일반적으로 큰 쿼드는 낮은 전력 대 중량비로 인해 더 높은 PID 게인을 필요로 합니다.<br><br>소형 쿼드(마이크로) 는 일반적으로 높은 전력 대 중량비로 인해 더 낮은 PID 게인을 필요로 합니다.<br><br>더 높은 값은 낮은 권한의 쿼드에 대한 값입니다. 더 낮은 값은 높은 권한의 쿼드에 대한 값입니다.",
+        "description": "Master gain tuning slider helpicon message"
+    },
+    "pidTuningPDRatioSliderHelp": {
+        "message": "낮은 PD 밸런스는 전반적인 반응이 낮아지지만 플립 또는 롤 후 빠른 바운스백의 가능성도 감소합니다.<br><br>높은 PD 밸런스는 빠른 반응과 더 나은 프롭워시 핸들링을 제공합니다. 그러나, PD 밸런스가 너무 높으면 플립 또는 롤 후에 진동이 발생하고 프롭워시 중에 진동이 확장됩니다.",
+        "description": "PD balance tuning slider helpicon message"
+    },
+    "pidTuningPDGainSliderHelp": {
+        "message": "낮은 P와 D 게인은 모터를 차갑게하는 결과를 가져오지만 프롭워시 진동이 더 커지는 결과를 가져옵니다. 너무 낮은 값은 쿼드를 불안정하게 할 수 있습니다.<br><br>P와 D 텀은 프롭워시를 줄이기 위해 함께 작동합니다.<br><br>값이 높을수록 모터 열이 증가하며 높은 D 텀 게인으로 인해 부드러운 전진 비행 중에 진동이 증가할 수 있습니다.",
+        "description": "P and D gain tuning slider helpicon message"
+    },
+    "pidTuningResponseSliderHelp": {
+        "message": "값이 낮으면 스틱 반응이 나빠지고 플립 또는 롤 끝에 느린 바운스백을 가져올 수 있습니다 (I-텀 윈드업).<br><br>값이 높으면 날카로운 움직임에 더 나은 스틱 반응을 보일 것입니다. 그러나, 너무 높은 값은 플립 또는 롤 끝에 오버슈트와 빠른 바운스백을 일으킬 수 있습니다.",
+        "description": "Stick response gain tuning slider helpicon message"
+    },
     "pidTuningGyroLowpassFiltersGroup": {
         "message": "자이로 저역통과 필터"
     },
@@ -3175,6 +3299,30 @@
     },
     "pidTuningDynamicNotchMinHzHelp": {
         "message": "다이나믹 노치가 내려가지 않는 가장 낮은 다이나믹 노치 중심 주파수를 정의합니다."
+    },
+    "pidTuningRpmFilterGroup": {
+        "message": "자이로 RPM 필터",
+        "description": "Header text for the RPM Filter group"
+    },
+    "pidTuningRpmFilterHelp": {
+        "message": "RPM 필터링은 자이로에 있는 노치 필터의 한 묶음으로, RPM 텔레메트리 데이터를 사용하여 수술 정밀도로 모터 노이즈를 제거합니다.<br><br><b><span class=\"message-positive\">중요</span>: ESC는 양방향 DShot 프로토콜을 지원해야 하며 이 필터가 작동하려면 $t(tabConfiguration.message) 탭의 $t(configurationMotorPoles.message) 값이 정확해야 합니다.</b>",
+        "description": "Header text for the RPM Filter group"
+    },
+    "pidTuningRpmHarmonics": {
+        "message": "자이로 RPM 필터 하모닉 수",
+        "description": "Text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmHarmonicsHelp": {
+        "message": "모터당 하모닉의 수입니다. 3(대부분 쿼드에 권장) 의 값은 각 축에 대해 모터당 3개의 노치 필터를 생성하여, 총 36개의 노치를 생성합니다. 기본 모터 주파수에서 1개, 기본 주파수의 배수에서 2개의 하모닉으로 구성됩니다.",
+        "description": "Help text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmMinHz": {
+        "message": "자이로 RPM 필터 최소 주파수 [Hz]",
+        "description": "Text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmMinHzHelp": {
+        "message": "RPM 필터로 사용되어질 최소 주파수",
+        "description": "Help text for one of the parameters of the RPM Filter"
     },
     "pidTuningFilterSettings": {
         "message": "프로파일 종속 필터 설정"
@@ -4971,6 +5119,14 @@
     },
     "configurationUnsyncedPWMFreq": {
         "message": "모터 PWM 주파수"
+    },
+    "configurationDshotBidir": {
+        "message": "양방향 DShot (ESC 펌웨어 지원을 필요로 함)",
+        "description": "Feature for the ESC/Motor"
+    },
+    "configurationDshotBidirHelp": {
+        "message": "활성화된 경우 DSHOT 프로토콜은 RPM 필터 및 기타 기능에 필요한 정보를 ESC로부터 직접 수신할 수 있습니다.<br><br>이를 위해서는 jflight.net의 BLHELI_S 또는 최신 BLHELI_32 펌웨어가 필요합니다.",
+        "description": "Description of the Bidirectional DShot feature of the ESC/Motor"
     },
     "configurationGyroSyncDenom": {
         "message": "자이로 업데이트 주파수"
