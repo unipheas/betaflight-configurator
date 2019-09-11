@@ -987,9 +987,6 @@
     "featureRX_SPI": {
         "message": "SPI 接收机支持"
     },
-    "featureESC_SENSOR": {
-        "message": "使用 KISS/BLHELI_32 电调的传感器"
-    },
     "featureCHANNEL_FORWARDING": {
         "message": "转发 Aux 通道信号到舵机输出"
     },
@@ -2567,9 +2564,6 @@
     },
     "firmwareFlasherReleaseDate": {
         "message": "日期："
-    },
-    "firmwareFlasherReleaseStatus": {
-        "message": "状态："
     },
     "firmwareFlasherReleaseTarget": {
         "message": "飞控目标"
