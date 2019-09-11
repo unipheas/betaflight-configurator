@@ -843,9 +843,6 @@
     "featureRX_SPI": {
         "message": "Wsparcie SPI RX"
     },
-    "featureESC_SENSOR": {
-        "message": "Użyj telemetrii KISS/BlHeli_32 jako czujnika."
-    },
     "featureCHANNEL_FORWARDING": {
         "message": "Prześlij wartość kanału AUX do wyjść serwomechanizmów"
     },
