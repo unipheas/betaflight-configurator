@@ -743,9 +743,6 @@
     "featureRX_SPI": {
         "message": "SPI RX-understøttelse"
     },
-    "featureESC_SENSOR": {
-        "message": "Benyt KISS/BLHeli_32 ESC-telemetri som sensor"
-    },
     "featureCHANNEL_FORWARDING": {
         "message": "Videresend aux-kanaler til servoudgange"
     },
