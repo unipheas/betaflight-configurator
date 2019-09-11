@@ -923,9 +923,6 @@
     "featureRX_SPI": {
         "message": "SPI受信サポート"
     },
-    "featureESC_SENSOR": {
-        "message": "センサーとしてKISS/BLHeli_32 ESCを使用"
-    },
     "featureCHANNEL_FORWARDING": {
         "message": "AUXチャンネルをサーボ出力に転送"
     },
@@ -2503,9 +2500,6 @@
     },
     "firmwareFlasherReleaseDate": {
         "message": "日付:"
-    },
-    "firmwareFlasherReleaseStatus": {
-        "message": "状態:"
     },
     "firmwareFlasherReleaseTarget": {
         "message": "Target:"
