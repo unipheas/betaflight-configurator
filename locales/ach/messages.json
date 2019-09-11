@@ -999,7 +999,7 @@
         "message": "crwdns5554:0crwdne5554:0"
     },
     "featureESC_SENSOR": {
-        "message": "crwdns5555:0crwdne5555:0"
+        "message": "crwdns9830:0crwdne9830:0"
     },
     "featureCHANNEL_FORWARDING": {
         "message": "crwdns5556:0crwdne5556:0"
@@ -2582,9 +2582,6 @@
     "firmwareFlasherReleaseDate": {
         "message": "crwdns5959:0crwdne5959:0"
     },
-    "firmwareFlasherReleaseStatus": {
-        "message": "crwdns5960:0crwdne5960:0"
-    },
     "firmwareFlasherReleaseTarget": {
         "message": "crwdns5961:0crwdne5961:0"
     },
@@ -2614,6 +2611,9 @@
     },
     "firmwareFlasherLoadFirmwareFile": {
         "message": "crwdns5970:0crwdne5970:0"
+    },
+    "firmwareFlasherLoadedConfig": {
+        "message": "crwdns9832:0crwdne9832:0"
     },
     "firmwareFlasherNoReboot": {
         "message": "crwdns5971:0crwdne5971:0"
