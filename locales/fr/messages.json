@@ -987,9 +987,6 @@
     "featureRX_SPI": {
         "message": "SPI RX"
     },
-    "featureESC_SENSOR": {
-        "message": "Utiliser les capteurs de télémétrie KISS/BLHeli_32 ESC"
-    },
     "featureCHANNEL_FORWARDING": {
         "message": "Faire passer les voies aux en sorties de type servo"
     },
@@ -2528,9 +2525,6 @@
     },
     "firmwareFlasherReleaseDate": {
         "message": "Date:"
-    },
-    "firmwareFlasherReleaseStatus": {
-        "message": "Etat:"
     },
     "firmwareFlasherReleaseTarget": {
         "message": "Cible:"
