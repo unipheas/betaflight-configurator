@@ -988,7 +988,7 @@
         "message": "SPI RX-stöd"
     },
     "featureESC_SENSOR": {
-        "message": "Använd KISS/BLHeli_32 ESC-telemetri som sensor"
+        "message": "Använd KISS/BLHeli_32 ESC-telemetri <b>över en separat kabel</b>"
     },
     "featureCHANNEL_FORWARDING": {
         "message": "Vidarebefodra aux-kanaler till servoutgångar"
@@ -2515,9 +2515,6 @@
     "firmwareFlasherReleaseDate": {
         "message": "Datum:"
     },
-    "firmwareFlasherReleaseStatus": {
-        "message": "Tillstånd:"
-    },
     "firmwareFlasherReleaseTarget": {
         "message": "Mål:"
     },
@@ -2884,7 +2881,7 @@
         "description": "One of the modes in Led Strip"
     },
     "ledStripWiringMode": {
-        "message": "Ledningsordningsläge",
+        "message": "Kabelordningsläge",
         "description": "One of the wiring modes in Led Strip"
     },
     "ledStripWiringClearControl": {
@@ -2896,7 +2893,7 @@
         "description": "Control button in the wiring modes in Led Strip"
     },
     "ledStripWiringMessage": {
-        "message": "LED:er utan ordningsnummer kommer inte att sparas.",
+        "message": "LED:er utan kabelordningsnummer kommer inte att sparas.",
         "description": "Message in the wiring modes in Led Strip"
     },
     "ledStripVtxFunction": {
