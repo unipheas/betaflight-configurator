@@ -620,9 +620,6 @@
     "featureRX_SPI": {
         "message": "SPI RX támogatás"
     },
-    "featureESC_SENSOR": {
-        "message": "KISS/BLHeli_32 ESC telemetria használata szenzorként"
-    },
     "featureCHANNEL_FORWARDING": {
         "message": "AUX csatornák továbbítása a szervó kimenetre"
     },
@@ -1477,9 +1474,6 @@
     },
     "firmwareFlasherReleaseDate": {
         "message": "Dátum:"
-    },
-    "firmwareFlasherReleaseStatus": {
-        "message": "Állapot:"
     },
     "firmwareFlasherReleaseTarget": {
         "message": "Célhardwer:"
