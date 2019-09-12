@@ -4795,10 +4795,6 @@
     "osdButtonSaved": {
         "message": "Guardado"
     },
-    "vtxHelp": {
-        "message": "Aquí puedes configurar los valores para tu Transmisor de Video (VTX). Puedes consultar y configurar los valores de la transmisión incluyendo las Tablas VTX si el controlador de vuelo y el VTX lo soportan",
-        "description": "Introduction message in the VTX tab"
-    },
     "vtxMessageNotSupported": {
         "message": "<span class=\"message-negative\">Atención:</span> Tu VTX no está configurado o no está soportado. Por lo tanto no puedes modificar los valores del VTX desde aquí. Esto sólo sería posible si el controlador de vuelo está conectado al VTX usando algún tipo de protocolo como Tramp o SmartAudio y está correctamente configurado en la pestaña $t(tabPorts.message) si fuera necesario.",
         "description": "Message to show when the VTX is not supported in the VTX tab"
