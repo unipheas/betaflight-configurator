@@ -4874,7 +4874,7 @@
         "message": "crwdns8723:0crwdne8723:0"
     },
     "vtxHelp": {
-        "message": "crwdns9712:0crwdne9712:0",
+        "message": "crwdns9834:0$t(vtxButtonLoadFile.message)crwdnd9834:0$t(vtxButtonSave.message)crwdne9834:0",
         "description": "Introduction message in the VTX tab"
     },
     "vtxMessageNotSupported": {
