@@ -4789,10 +4789,6 @@
     "osdButtonSaved": {
         "message": "保存しました"
     },
-    "vtxHelp": {
-        "message": "ここでは映像伝送用送信機 (VTX) の値を設定できます。フライトコントローラとVTXがサポートしている場合、VTXテーブルを含む伝送値を表示および変更できます。",
-        "description": "Introduction message in the VTX tab"
-    },
     "vtxMessageNotSupported": {
         "message": "<span class=\"message-negative\">注意:</span> VTXが設定されていないかサポートされていません。フライトコントローラはTrampやSmartAudio等のプロトコルを使用してVTXと接続しており、必要に応じて、$t(tabPorts.message)タブで設定を修正する必要があります。",
         "description": "Message to show when the VTX is not supported in the VTX tab"
