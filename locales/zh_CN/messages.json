@@ -987,6 +987,9 @@
     "featureRX_SPI": {
         "message": "SPI 接收机支持"
     },
+    "featureESC_SENSOR": {
+        "message": "使用<b>专线</b>回传KISS/BLHeli_32电调遥测数据"
+    },
     "featureCHANNEL_FORWARDING": {
         "message": "转发 Aux 通道信号到舵机输出"
     },
@@ -1123,7 +1126,7 @@
         "message": "加速度计横滚微调"
     },
     "configurationAccelTrimPitch": {
-        "message": "加速度俯仰微调"
+        "message": "加速度计俯仰微调"
     },
     "configurationArming": {
         "message": "解锁"
@@ -1516,7 +1519,7 @@
         "description": "Auto Smoothness parameter help message"
     },
     "receiverRcDerivativeTypeSelect": {
-        "message": "导数截止类型"
+        "message": "导数 (Derivative) 截止类型"
     },
     "receiverRcInputTypeSelect": {
         "message": "输入截止类型"
@@ -1540,16 +1543,16 @@
         "message": "适用平滑的通道"
     },
     "rcSmoothingDerivativeTypeHelp": {
-        "message": "用于定点导数的滤波方法的类型。大多数用户应该使用默认的 \"BIQUAD\" 值，因为它在平滑和延迟之间提供了良好的平衡。\"PT1\" 稍微减少了延迟，但提供的平滑程度也较低。"
+        "message": "用于设定点导数信号的滤波方法的类型。大多数用户应该使用默认的 \"BIQUAD\" ，因为它在平滑和延迟之间提供了良好的平衡。\"PT1\" 稍微减少了延迟，但提供的平滑程度也较低。"
     },
     "rcSmoothingInputTypeHelp": {
-        "message": "用于输入的滤波方法的类型。大多数用户应该使用默认的 \"BIQUAD\" 值，因为它在平滑和延迟之间提供了良好的平衡。\"PT1\" 稍微减少了延迟，但提供的平滑程度也较低。"
+        "message": "用于输入信号的滤波方法的类型。大多数用户应该使用默认的 \"BIQUAD\" ，因为它在平滑和延迟之间提供了良好的平衡。\"PT1\" 稍微减少了延迟，但提供的平滑程度也较低。"
     },
     "receiverRcSmoothingInputManual": {
         "message": "选择输入滤波器截止频率是自动计算的（推荐）还是由用户手动选择。对于可能在飞行中发生变化的接收机协议，比如Crossfire，不建议使用 \"手动\"。"
     },
     "receiverRcSmoothingDerivativeManual": {
-        "message": "选择定点导数滤波器截止频率是自动计算的（推荐）还是由用户手动选择。对于可能在飞行中发生变化的接收机协议，比如Crossfire，不建议使用 \"手动\"。"
+        "message": "选择设定点导数滤波器截止频率是自动计算的（推荐）还是由用户手动选择。对于可能在飞行中发生变化的接收机协议，比如Crossfire，不建议使用 \"手动\"。"
     },
     "receiverRcSmoothingInputHz": {
         "message": "输入截止频率"
@@ -1561,7 +1564,7 @@
         "message": "输入滤波器类型"
     },
     "receiverRcDerivativeType": {
-        "message": "Derivative 滤波器类型"
+        "message": "导数 (Derivative) 滤波器类型"
     },
     "receiverRcSmoothingDerivativeTypeOff": {
         "message": "关闭"
@@ -1769,7 +1772,7 @@
         "message": "EEPROM <span class=\"message-positive\">已保存</span>"
     },
     "receiverHelp": {
-        "message": "请阅读文档的接收机部分。 按需配置好串口、接收机模式（serial/ppm/pwm），接收机厂商，对频好接收机，设置好通道映射，配置通道的最小最大值范围让它们可以覆盖1000到2000。设置中位值（默认1500），微调通道到1500，配置摇杆死区，确认当遥控器关闭或超出范围时接收机的行为（失控保护）。<br /><span class=\"message-negative\">重要：</span> 飞行前阅读文档的失控保护章解并且配置好失控保护。"
+        "message": "请阅读文档的接收机部分。 按需配置好串口、接收机模式（serial/ppm/pwm），接收机协议，对频好接收机，设置好通道映射，配置通道的最小最大值范围让它们可以覆盖1000到2000。设置中位值（默认1500），微调通道到1500，配置摇杆死区，确认当遥控器关闭或超出范围时接收机的行为（失控保护）。<br /><span class=\"message-negative\">重要：</span> 飞行前阅读文档的失控保护章解并且配置好失控保护。"
     },
     "tuningHelp": {
         "message": "<b> 调校技巧</b><br /><span class=\"message-negative\">重要：</span>调校后的初次飞行需注意电机温度。滤波值越高，飞行效果可能越好，但也会导致更多的信号“噪音”进入电机。<br>100Hz 是默认较佳的数值，但对震动较严重的情况，你可以尝试把 Dterm 和 Gyro 滤波器降低到50Hz。"
@@ -2595,6 +2598,9 @@
     "firmwareFlasherLoadFirmwareFile": {
         "message": "请载入固件文件"
     },
+    "firmwareFlasherLoadedConfig": {
+        "message": "已加载目标，请加载固件文件"
+    },
     "firmwareFlasherNoReboot": {
         "message": "无重启序列"
     },
@@ -3161,7 +3167,7 @@
         "description": "Warning shown when tuning slider are above safe limits"
     },
     "pidTuningSlidersDisabled": {
-        "message": "<strong>注意:</strong>滑块已禁用，因为已手动更改数值。电机$t(pidTuningSliderEnableButton.message)按钮将再次激活它们。这将重置数值，任何未保存的更改都将丢失。",
+        "message": "<strong>注意:</strong>滑块已禁用，因为已手动更改数值。点击$t(pidTuningSliderEnableButton.message)按钮将再次激活它们。这将重置数值，任何未保存的更改都将丢失。",
         "description": "Tuning sliders disabled note when manual changes are detected"
     },
     "pidTuningSliderEnableButton": {
@@ -3185,7 +3191,7 @@
         "description": "Master tuning slider label"
     },
     "pidTuningPDRatioSlider": {
-        "message": "PD 平衡：",
+        "message": "PD 平衡:",
         "description": "PD balance tuning slider label"
     },
     "pidTuningPDGainSlider": {
@@ -4160,7 +4166,7 @@
         "description": "One of the elements of the OSD"
     },
     "osdDescElementDebug": {
-        "message": "调试用变量"
+        "message": "调试变量"
     },
     "osdTextElementPIDRoll": {
         "message": "PID roll",
@@ -4191,7 +4197,7 @@
         "message": "实时功率消耗"
     },
     "osdTextElementPIDRateProfile": {
-        "message": "配置文件： PID 和 rate",
+        "message": "配置文件: PID 和 rate",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementPIDRateProfile": {
@@ -4212,14 +4218,14 @@
         "message": "平均单芯电压 （电池总电压 / 芯数）"
     },
     "osdTextElementPitchAngle": {
-        "message": "角度：pitch",
+        "message": "角度: pitch",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementPitchAngle": {
         "message": "俯仰角度数字"
     },
     "osdTextElementRollAngle": {
-        "message": "角度：roll",
+        "message": "角度: roll",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementRollAngle": {
@@ -4233,7 +4239,7 @@
         "message": "图形化显示电池用量"
     },
     "osdTextElementArmedTime": {
-        "message": "计时器：解锁时间",
+        "message": "计时器: 解锁时间",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementArmedTime": {
@@ -4296,7 +4302,7 @@
         "message": "电调回传电机转速"
     },
     "osdTextElementRemaningTimeEstimate": {
-        "message": "计时器：预估剩余时间",
+        "message": "计时器: 预估剩余时间",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementRemaningTimeEstimate": {
@@ -4415,21 +4421,21 @@
         "message": "电调回传电机转速频率"
     },
     "osdTextElementRateProfileName": {
-        "message": "配置文件：Rate 配置名称",
+        "message": "配置文件: Rate 配置名称",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementRateProfileName": {
         "message": "显示当前 Rate 配置名称"
     },
     "osdTextElementPidProfileName": {
-        "message": "配置文件：PID 配置名称",
+        "message": "配置文件: Rate 配置名称",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementPidProfileName": {
         "message": "显示当前 PID 配置文件名称"
     },
     "osdTextElementOsdProfileName": {
-        "message": "配置文件：OSD 配置名称",
+        "message": "配置文件: OSD 配置名称",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementOsdProfileName": {
@@ -4852,10 +4858,6 @@
     },
     "osdButtonSaved": {
         "message": "已保存"
-    },
-    "vtxHelp": {
-        "message": "您可以在此配置您的图传(VTX) 参数。如果飞行控制器和图传支持，您可以查看并更改飞控向图传传输的内容，包括图传表。",
-        "description": "Introduction message in the VTX tab"
     },
     "vtxMessageNotSupported": {
         "message": "<span class=\"message-negative\">注意:</span>您的图传未配置或不支持。所以您不能在此修改图传值。只有当图传使用Tramp或SmartAudio等协议，连接到飞行控制器，并在$t(tabPorts.message)页面中正确配置后，才可以使用。",
