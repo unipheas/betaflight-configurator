@@ -1713,6 +1713,10 @@
     "tuningHelp": {
         "message": "<b>Consejos para ajustar</b><br /><span class=\"message-negative\">IMPORTANTE:</span> Es importante verificar las temperaturas de los motores durante los primeros vuelos. Cuanto más alto sea el valor del filtro puede que vuele mejor, pero más ruido llegará a los motores. <br>El valor por defecto de 100Hz es óptimo, pero para montajes más ruidosos puedes probar a bajar el filtro D Term a 50Hz y posiblemente también el filtro del giro."
     },
+    "tuningHelpSliders": {
+        "message": "<span class=\"message-negative\">IMPORTANTE:</span> Recomendamos usar los deslizadores para cambiar lo ajustes de los filtros. Mueve ambos deslizadores juntos.<br>Es mejor hacer cambios relativamente pequeños y probar el vuelo después de cada cambio. Verifica la temperatura de los motores detenidamente antes de hacer más cambios.<br>Menos filtrado (deslizadores hacia la derecha, valores de corte más altos) mejora el comportamiento ante turbulencias, pero deja pasar más ruido hacia los motores, haciendo que se calienten, incluso hasta el punto de quemarlos. Menos filtrado es posible en la mayoría de montajes limpios o si el filtro RPM está activado.<br>Raramente filtrados altos o bajos pueden producir que se vaya volando al armar. Los valores por defecto son seguros para los típicos quads de 5\".<br><strong>Nota:</strong> Cambiar perfiles sólo modifica los ajustes de filtrado del Término D. Los ajustes de filtros del giro son los mismos para todos los perfiles.",
+        "description": "Filter tuning subtab note"
+    },
     "filterWarning": {
         "message": "<span class=\"message-negative\"><b>Atención:</b></span> La cantidad de filtrado que estás usando es peligrosamente baja. Esto puede hacer que la aeronave sea difícil de controlar, y puede que se vaya volando. Es altamente recomendable que <b>actives al menos uno de los Giro Paso Bajo Dinámico o el Giro Paso Bajo 1 y al menos uno de los D Term Paso Bajo 1 Dinámico o D Term Paso Bajo 1</b>."
     },
@@ -4794,6 +4798,10 @@
     },
     "osdButtonSaved": {
         "message": "Guardado"
+    },
+    "vtxHelp": {
+        "message": "Aquí puedes configurar los valores para tu Transmisor de Video (VTX). Puedes ver y cambiar los valores para la transmisión, incluyendo las Tablas VTX, si el controlador de vuelo y el VTX lo soportan.<br>Para configurar tu VTX sigue los siguientes pasos:<br>1. Ve a <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/betaflight/betaflight/wiki/VTX-tables\">esta página</a>;<br>2. Encuentra el archivo de configuración VTX apropiado para tu país y tu modelo de VTX y descárgalo;<br>3. Pulsa abajo en '$t(vtxButtonLoadFile.message)', selecciona el archivo de configuración VTX, cárgalo;<br>4. Verifica que los ajustes son correctos;<br>5. Pulsa '$t(vtxButtonSave.message)' para almacenar los valores VTX en el controlador de vuelo.",
+        "description": "Introduction message in the VTX tab"
     },
     "vtxMessageNotSupported": {
         "message": "<span class=\"message-negative\">Atención:</span> Tu VTX no está configurado o no está soportado. Por lo tanto no puedes modificar los valores del VTX desde aquí. Esto sólo sería posible si el controlador de vuelo está conectado al VTX usando algún tipo de protocolo como Tramp o SmartAudio y está correctamente configurado en la pestaña $t(tabPorts.message) si fuera necesario.",
