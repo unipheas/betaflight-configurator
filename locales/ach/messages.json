@@ -1791,6 +1791,10 @@
     "tuningHelp": {
         "message": "crwdns6388:0crwdne6388:0"
     },
+    "tuningHelpSliders": {
+        "message": "crwdns9836:0crwdne9836:0",
+        "description": "Filter tuning subtab note"
+    },
     "filterWarning": {
         "message": "crwdns9092:0crwdne9092:0"
     },
