@@ -3092,10 +3092,6 @@
         "message": "機体の飛行特性 (PID値) を調整するスライダー<br><br>基準乗算値: PID値の間における比例差を保持しながら、すべての(上記) PID値[ゲイン] を増減します。<br><br>PD値バランス: P値とD値 (スプリング [p-term] およびショックアブソーバー [d-term]) 間のバランス (比率\\比例差) を調整します。<br><br>PD値: PID制御の強さを増やす (または減らす) ために、P&D値ゲインを一緒に増減します。(2つの間の比率 (バランス) を保持します) <br><brスティック応答: フィードフォワード値を増減して、機体のスティック応答感覚を制御します。",
         "description": "Overall helpicon message for PID tuning sliders"
     },
-    "pidTuningSliderHighWarning": {
-        "message": "<span class=\"message-negative\">警告:</span> このスライダーの高い値を適用すると、ふらついた飛行やモーターの損傷、または安全でない機体の挙動が発生する場合があります。注意して実施してください。",
-        "description": "Warning shown when tuning slider are above safe limits"
-    },
     "pidTuningSlidersDisabled": {
         "message": "<strong>注:</strong> 値が手動で変更されたため、スライダーは無効になっています。『$t(pidTuningSliderEnableButton.message)』ボタンをクリックすると再び有効となります。これにより値がリセットされ、保存されていない変更は失われます。",
         "description": "Tuning sliders disabled note when manual changes are detected"
