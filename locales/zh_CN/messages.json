@@ -3162,10 +3162,6 @@
         "message": "滑块来调整飞行器飞行特性(PID增益)<br><br>主乘数: 保持各参数增益比例差别的同时升高或降低(以上) 所有 PID 增益。<br><br>PD平衡: 调整 P和D( \"弹簧\" [p-term] 和 \"缓冲\" [d-term]) 之间的平衡(比率\\比例差别)。<br><br>PD增益: 同时增加或降低 P&D 的增益——保持两者间的比率(平衡)——以适配高(或低) PID 权重。<br><br>摇杆响应增益: 提高或降低前馈增益，以控制对飞行器的摇杆响应感。",
         "description": "Overall helpicon message for PID tuning sliders"
     },
-    "pidTuningSliderHighWarning": {
-        "message": "<span class=\"message-negative\">小心</span>: 将滑块推高至这么高将导致起飞暴走、电机损坏或飞行器出现其他不安全的行为。请谨慎行事。",
-        "description": "Warning shown when tuning slider are above safe limits"
-    },
     "pidTuningSlidersDisabled": {
         "message": "<strong>注意:</strong>滑块已禁用，因为已手动更改数值。点击$t(pidTuningSliderEnableButton.message)按钮将再次激活它们。这将重置数值，任何未保存的更改都将丢失。",
         "description": "Tuning sliders disabled note when manual changes are detected"
