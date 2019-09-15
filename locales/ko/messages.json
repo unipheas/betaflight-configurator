@@ -49,6 +49,9 @@
     "close": {
         "message": "닫기"
     },
+    "cancel": {
+        "message": "취소"
+    },
     "autoConnectEnabled": {
         "message": "자동-연결: 활성화됨 - 새로운 포트가 감지되면 컨피규레이터가 자동으로 연결을 시도합니다."
     },
@@ -448,6 +451,12 @@
     },
     "firmwareUpgradeRequired": {
         "message": "이 기기의 펌웨어는 최신 버전으로 업그레이드해야합니다. 플래시하기 전에 CLI를 사용하여 백업하십시오. CLI 백업/복원 절차는 문서를 참고하십시오. <br />또는 업그레이드 준비가 되지 않은 경우 이전 버전의 컨피규레이터를 다운로드하여 사용하십시오."
+    },
+    "resetToCustomDefaultsDialog": {
+        "message": "이 보드에 대한 사용자 정의 기본값이 있습니다. 일반적으로 보드는 사용자 정의 기본값을 적용하지 않으면 제대로 작동하지 않습니다.<br />이 보드에 대한 사용자 정의 기본값을 적용하시겠습니까?"
+    },
+    "resetToCustomDefaultsAccept": {
+        "message": "사용자 정의 기본값 적용"
     },
     "infoVersions": {
         "message": "운영-OS: <strong>{{operatingSystem}}</strong>, 크롬: <strong>{{chromeVersion}}</strong>, 컨피규레이터: <strong>{{configuratorVersion}}</strong>",
@@ -3170,8 +3179,8 @@
         "message": "쿼드 비행 특성(PID 게인) 을 조정하는 슬라이더<br><br>마스터 승수: (위의) 모든 PID 게인이 게인 사이의 비례적 차이를 유지하도록 증가시키거나 감소시킵니다.<br><br>PD 밸런스: P와 D텀('스프링' [p-term] 과 '쇽 옵져버' [d-term]) 사이의 균형(비율 \\ 비례 차이) 을 조정합니다.<br><br>PD 게인: P&D 게인을 함께 증가 또는 감소합니다 - 더 많은 (또는 적은) PID 제어 권한을 위하여 둘 사이의 비율(밸런스) 를 유지합니다.<br><br>스틱 반응 게인: 피드포워드 게인을 올리거나 낮추어 쿼드의 스틱 반응 감각을 제어합니다.",
         "description": "Overall helpicon message for PID tuning sliders"
     },
-    "pidTuningSliderHighWarning": {
-        "message": "<span class=\"message-negative\">주의</span>: 슬라이더를 이렇게 높게 밀면 기체가 멀리 날아가거나, 모터 손상 또는 안전하지 않은 기체 동작이 발생할 수 있습니다. 신중하게 진행하십시오.",
+    "pidTuningSliderWarning": {
+        "message": "<span class=\"message-negative\">주의</span>: 현재 슬라이더 위치는 기체가 멀리 날아가거나, 모터 손상 또는 안전하지 않은 기체 동작이 발생할 수 있습니다. 신중하게 진행하십시오.",
         "description": "Warning shown when tuning slider are above safe limits"
     },
     "pidTuningSlidersDisabled": {
@@ -3181,6 +3190,10 @@
     "pidTuningSliderEnableButton": {
         "message": "슬라이더 사용",
         "description": "Button label for enabling sliders"
+    },
+    "pidTuningSlidersNonExpertMode": {
+        "message": "<strong>노트:</strong> 당신이 전문가 모드가 아니므로 슬라이더 범위가 제한됩니다. 이 범위는 대부분의 빌드와 초보자에게 적합합니다.",
+        "description": "Sliders restricted message"
     },
     "pidTuningSliderLow": {
         "message": "낮음",
@@ -5087,6 +5100,14 @@
         "message": "VTX 환경설정 파일을 로딩하는 동안 <span class=\"message-negative\">오류</span> 발생",
         "description": "Message in the GUI log when the VTX Config file is loaded"
     },
+    "vtxLoadClipboardOk": {
+        "message": "VTX 환경설정 정보가 클립보드로부터 <span class=\"message-positive\">로드됨</span>",
+        "description": "Message in the GUI log when the VTX Config file is pasted from clipboard"
+    },
+    "vtxLoadClipboardKo": {
+        "message": "VTX 환경설정 정보를 클립보드로부터 로딩중 <span class=\"message-negative\">오류</span>가 발생하였습니다. 내용이 올바르지 않을 것입니다.",
+        "description": "Message in the GUI log when the VTX Config file is pasted from clipboard"
+    },
     "vtxButtonSaveFile": {
         "message": "파일로 저장",
         "description": "Save to file button in the VTX tab"
@@ -5094,6 +5115,10 @@
     "vtxButtonLoadFile": {
         "message": "파일로부터 불러오기",
         "description": "Load to file button in the VTX tab"
+    },
+    "vtxButtonLoadClipboard": {
+        "message": "클립보드로부터 로드",
+        "description": "Paste from clipboard button in the VTX tab"
     },
     "vtxButtonSave": {
         "message": "저장",
