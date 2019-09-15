@@ -56,6 +56,9 @@
     "close": {
         "message": "crwdns5323:0crwdne5323:0"
     },
+    "cancel": {
+        "message": "crwdns9848:0crwdne9848:0"
+    },
     "autoConnectEnabled": {
         "message": "crwdns5324:0crwdne5324:0"
     },
@@ -455,6 +458,12 @@
     },
     "firmwareUpgradeRequired": {
         "message": "crwdns5416:0crwdne5416:0"
+    },
+    "resetToCustomDefaultsDialog": {
+        "message": "crwdns9850:0crwdne9850:0"
+    },
+    "resetToCustomDefaultsAccept": {
+        "message": "crwdns9852:0crwdne9852:0"
     },
     "infoVersions": {
         "message": "crwdns8710:0{{operatingSystem}}crwdnd8710:0{{chromeVersion}}crwdnd8710:0{{configuratorVersion}}crwdne8710:0",
@@ -3180,8 +3189,8 @@
         "message": "crwdns9778:0[p-term]crwdnd9778:0[d-term]crwdne9778:0",
         "description": "Overall helpicon message for PID tuning sliders"
     },
-    "pidTuningSliderHighWarning": {
-        "message": "crwdns9780:0crwdne9780:0",
+    "pidTuningSliderWarning": {
+        "message": "crwdns9838:0crwdne9838:0",
         "description": "Warning shown when tuning slider are above safe limits"
     },
     "pidTuningSlidersDisabled": {
@@ -3191,6 +3200,10 @@
     "pidTuningSliderEnableButton": {
         "message": "crwdns9784:0crwdne9784:0",
         "description": "Button label for enabling sliders"
+    },
+    "pidTuningSlidersNonExpertMode": {
+        "message": "crwdns9840:0crwdne9840:0",
+        "description": "Sliders restricted message"
     },
     "pidTuningSliderLow": {
         "message": "crwdns9786:0crwdne9786:0",
@@ -5097,6 +5110,14 @@
         "message": "crwdns9736:0crwdne9736:0",
         "description": "Message in the GUI log when the VTX Config file is loaded"
     },
+    "vtxLoadClipboardOk": {
+        "message": "crwdns9842:0crwdne9842:0",
+        "description": "Message in the GUI log when the VTX Config file is pasted from clipboard"
+    },
+    "vtxLoadClipboardKo": {
+        "message": "crwdns9844:0crwdne9844:0",
+        "description": "Message in the GUI log when the VTX Config file is pasted from clipboard"
+    },
     "vtxButtonSaveFile": {
         "message": "crwdns9738:0crwdne9738:0",
         "description": "Save to file button in the VTX tab"
@@ -5104,6 +5125,10 @@
     "vtxButtonLoadFile": {
         "message": "crwdns9740:0crwdne9740:0",
         "description": "Load to file button in the VTX tab"
+    },
+    "vtxButtonLoadClipboard": {
+        "message": "crwdns9846:0crwdne9846:0",
+        "description": "Paste from clipboard button in the VTX tab"
     },
     "vtxButtonSave": {
         "message": "crwdns9660:0crwdne9660:0",
