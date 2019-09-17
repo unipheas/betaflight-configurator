@@ -2349,9 +2349,6 @@
     "cliLoadFromFileBtn": {
         "message": "Cargar desde archivo"
     },
-    "cliConfirmSnippetDialogTitle": {
-        "message": "Revisar los comandos cargados"
-    },
     "cliConfirmSnippetNote": {
         "message": "<strong>Nota</strong>: puedes revisar y editar los comandos antes de su ejecución."
     },
