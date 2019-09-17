@@ -2400,9 +2400,6 @@
     "cliLoadFromFileBtn": {
         "message": "从文件加载"
     },
-    "cliConfirmSnippetDialogTitle": {
-        "message": "查看已加载的命令"
-    },
     "cliConfirmSnippetNote": {
         "message": "<strong>注意</strong>: 您可以在执行前查看和编辑命令。"
     },
