@@ -2411,7 +2411,7 @@
         "message": "Charger à partir du fichier"
     },
     "cliConfirmSnippetDialogTitle": {
-        "message": "Réviser les commandes chargées"
+        "message": "Fichier chargé <strong>{{fileName}}</strong>. Vérifier les commandes chargées"
     },
     "cliConfirmSnippetNote": {
         "message": "<strong>Note</strong>: Vous pouvez revoir et modifier les commandes avant l'exécution."
@@ -3651,6 +3651,9 @@
     },
     "powerCalibrationManagerSourceNote": {
         "message": "<span class=\"message-negative\">Attention :</span> Les sources de mesure des tension et/ou d'ampérage <strong>ont été modifiées mais non enregistrées.</strong> Veuillez définir les bonnes sources de mesures et les enregistrer avant de procéder à l'étalonnage."
+    },
+    "powerCalibrationManagerConfirmationTitle": {
+        "message": "Confirmation du gestionnaire de calibrage"
     },
     "powerCalibrationSave": {
         "message": "Calibrer"
