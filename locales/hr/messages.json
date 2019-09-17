@@ -2157,9 +2157,6 @@
     "cliLoadFromFileBtn": {
         "message": "Učitaj iz datoteke"
     },
-    "cliConfirmSnippetDialogTitle": {
-        "message": "Pregledaj učitane komande"
-    },
     "cliConfirmSnippetNote": {
         "message": "<strong>Napomena</strong>: Možete vidjeti i uređivati komande prije izvršavanja."
     },
