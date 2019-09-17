@@ -2428,7 +2428,7 @@
         "message": "crwdns9112:0crwdne9112:0"
     },
     "cliConfirmSnippetDialogTitle": {
-        "message": "crwdns9114:0crwdne9114:0"
+        "message": "crwdns9854:0{{fileName}}crwdne9854:0"
     },
     "cliConfirmSnippetNote": {
         "message": "crwdns9116:0crwdne9116:0"
@@ -3668,6 +3668,9 @@
     },
     "powerCalibrationManagerSourceNote": {
         "message": "crwdns9164:0crwdne9164:0"
+    },
+    "powerCalibrationManagerConfirmationTitle": {
+        "message": "crwdns9856:0crwdne9856:0"
     },
     "powerCalibrationSave": {
         "message": "crwdns9166:0crwdne9166:0"
