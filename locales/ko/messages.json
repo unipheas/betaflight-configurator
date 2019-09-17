@@ -2418,7 +2418,7 @@
         "message": "파일로부터 불러오기"
     },
     "cliConfirmSnippetDialogTitle": {
-        "message": "로드된 명령 검토"
+        "message": "파일 <strong>{{fileName}}</strong> 로드됨. 로드된 명령어를 검토하세요."
     },
     "cliConfirmSnippetNote": {
         "message": "<strong>노트</strong>: 실행하기 전에 명령을 검토하고 편집할 수 있습니다."
@@ -3658,6 +3658,9 @@
     },
     "powerCalibrationManagerSourceNote": {
         "message": "<span class=\"message-negative\">경고:</span> 전압과/또는 전류 측정소스가 <strong>변경되었지만 저장되지 않았습니다.</strong> 교정을 시도하기 전에 올바른 측정소스를 설정하고 저장하세요."
+    },
+    "powerCalibrationManagerConfirmationTitle": {
+        "message": "교정 관리자 확인"
     },
     "powerCalibrationSave": {
         "message": "교정"
