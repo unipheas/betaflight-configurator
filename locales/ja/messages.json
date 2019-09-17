@@ -2333,9 +2333,6 @@
     "cliLoadFromFileBtn": {
         "message": "ファイルからロード"
     },
-    "cliConfirmSnippetDialogTitle": {
-        "message": "ロードしたコマンドを確認します"
-    },
     "cliConfirmSnippetNote": {
         "message": "<strong>備考</strong>: 実行前にコマンドを確認及び編集することができます。"
     },
