@@ -2271,9 +2271,6 @@
     "cliLoadFromFileBtn": {
         "message": "Lectura dende arquivo"
     },
-    "cliConfirmSnippetDialogTitle": {
-        "message": "Revisar os comandos gardados"
-    },
     "cliConfirmSnippetNote": {
         "message": "<strong>Nota</strong>: Voste pode editar e revisar os comandos anates da súa execución."
     },
