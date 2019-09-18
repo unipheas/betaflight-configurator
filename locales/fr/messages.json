@@ -4169,14 +4169,14 @@
         "description": "One of the elements of the OSD"
     },
     "osdDescElementGPSLon": {
-        "message": "Coordonnées de Longitude GPS"
+        "message": "Longitude GPS"
     },
     "osdTextElementGPSLat": {
         "message": "Latitude GPS",
         "description": "One of the elements of the OSD"
     },
     "osdDescElementGPSLat": {
-        "message": "Coordonnées de latitude GPS"
+        "message": "Latitude GPS"
     },
     "osdTextElementDebug": {
         "message": "Débogage",
