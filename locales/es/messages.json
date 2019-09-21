@@ -2349,6 +2349,9 @@
     "cliLoadFromFileBtn": {
         "message": "Cargar desde archivo"
     },
+    "cliConfirmSnippetDialogTitle": {
+        "message": "Cargado archivo <strong>{{fileName}}</strong>. Revisa los comandos cargados"
+    },
     "cliConfirmSnippetNote": {
         "message": "<strong>Nota</strong>: puedes revisar y editar los comandos antes de su ejecución."
     },
@@ -3587,6 +3590,9 @@
     },
     "powerCalibrationManagerSourceNote": {
         "message": "<span class=\"message-negative\">Atención:</span> Los orígenes de los sensores de voltaje y/o corriente <strong>han cambiado pero no han sido salvados.</strong> Por favor configura los orígenes de los sensores correctamente y guárdalo antes de intentar calibrar."
+    },
+    "powerCalibrationManagerConfirmationTitle": {
+        "message": "Confirmación de Asistente de Calibración"
     },
     "powerCalibrationSave": {
         "message": "Calibrar"
