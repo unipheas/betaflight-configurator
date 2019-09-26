@@ -7,6 +7,15 @@
         "message": "아니오",
         "description": "General No message to be used across the application"
     },
+    "on": {
+        "message": "켜기"
+    },
+    "off": {
+        "message": "끄기"
+    },
+    "auto": {
+        "message": "자동"
+    },
     "error": {
         "message": "오류: {{errorMessage}}"
     },
