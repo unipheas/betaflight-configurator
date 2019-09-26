@@ -7,6 +7,15 @@
         "message": "No",
         "description": "General No message to be used across the application"
     },
+    "on": {
+        "message": "Activado"
+    },
+    "off": {
+        "message": "Desactivado"
+    },
+    "auto": {
+        "message": "Auto"
+    },
     "error": {
         "message": "Error: {{errorMessage}}"
     },
@@ -5077,6 +5086,9 @@
     },
     "configurationEscProtocolHelp": {
         "message": "Elige tu protocolo para el motor.<br>Asegúrate de verificar en las características de tu ESC que protocolos soporta. <br><b>¡Cuidado si seleccionas DSHOT900 o DSHOT1200 ya que la mayoría de ESCs no lo soportan!</b>"
+    },
+    "configurationEscProtocolHelpNoDSHOT1200": {
+        "message": "Elige tu protocolo para el motor.<br>Asegúrate de verificar que el protocolo está soportado por tu ESC, esta información la podrás encontrar en la web del fabricante."
     },
     "configurationunsyndePwm": {
         "message": "Velocidad PWM del motor independiente de velocidad PID"
