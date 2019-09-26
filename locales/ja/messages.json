@@ -7,6 +7,15 @@
         "message": "いいえ",
         "description": "General No message to be used across the application"
     },
+    "on": {
+        "message": "ON"
+    },
+    "off": {
+        "message": "OFF"
+    },
+    "auto": {
+        "message": "自動"
+    },
     "error": {
         "message": "エラー: {{errorMessage}}"
     },
@@ -1512,7 +1521,7 @@
         "message": "D値 フィルタータイプ"
     },
     "receiverRcSmoothingDerivativeTypeOff": {
-        "message": "オフ"
+        "message": "OFF"
     },
     "receiverRcSmoothingChannel": {
         "message": "スムージングチャンネル"
@@ -1527,7 +1536,7 @@
         "message": "ミリ秒単位での手動RC補間モードにおける補間間隔"
     },
     "receiverRcInterpolationOff": {
-        "message": "オフ"
+        "message": "OFF"
     },
     "receiverRcSmoothingType": {
         "message": "スムージングタイプ"
@@ -1630,7 +1639,7 @@
         "message": "スロットルリミット %"
     },
     "pidTuningThrottleLimitTypeOff": {
-        "message": "オフ"
+        "message": "OFF"
     },
     "pidTuningThrottleLimitTypeScale": {
         "message": "スケール"
@@ -3843,7 +3852,7 @@
         "message": "映像形式"
     },
     "osdSetupVideoFormatOptionAuto": {
-        "message": "Auto",
+        "message": "自動",
         "description": "Option for the video format in the OSD"
     },
     "osdSetupVideoFormatOptionPal": {
