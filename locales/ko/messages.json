@@ -5155,6 +5155,9 @@
     "configurationEscProtocolHelp": {
         "message": "모터 프로토콜을 선택하십시오. <br>프로토콜이 ESC에서 지원되는지 확인하십시오. 이 정보는 제조업체 웹사이트에 있습니다. <br> <b>DSHOT900과 DSHOT1200을 지원하는 ESC가 많지 않으므로 주의하십시오!</b>"
     },
+    "configurationEscProtocolHelpNoDSHOT1200": {
+        "message": "모터 프로토콜을 선택하십시오. <br>프로토콜이 ESC에서 지원되는지 확인하십시오. 이 정보는 제조업체 웹사이트에 있습니다."
+    },
     "configurationunsyndePwm": {
         "message": "모터 PWM 속도가 PID 속도로부터 분리됨"
     },
