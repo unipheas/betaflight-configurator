@@ -5087,6 +5087,9 @@
     "configurationEscProtocolHelp": {
         "message": "モータープロトコルを選択して下さい。<br>プロトコルがESCによってサポートされていることを確認して下さい。この情報はメーカーのWebサイトを確認して下さい。<br> <b>DSHOT900とDSHOT1200は、現在それほど多くのESCをサポートしていないため、使用の際はご注意下さい！</b>"
     },
+    "configurationEscProtocolHelpNoDSHOT1200": {
+        "message": "モータープロトコルを選択してください。<br>そのプロトコルがESC側でサポートされているかを確認してください。サポート情報はメーカーのWebサイトをご覧ください。"
+    },
     "configurationunsyndePwm": {
         "message": "PIDからモーターPWMを分離"
     },
