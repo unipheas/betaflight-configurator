@@ -7,6 +7,15 @@
         "message": "Ne",
         "description": "General No message to be used across the application"
     },
+    "on": {
+        "message": "Uključeno"
+    },
+    "off": {
+        "message": "Isključeno"
+    },
+    "auto": {
+        "message": "Automatski"
+    },
     "error": {
         "message": "Greška: {{errorMessage}}"
     },
@@ -372,6 +381,9 @@
     },
     "firmwareUpgradeRequired": {
         "message": "Firmware na ovom uređaju potrebno je ažurirati na noviju verziju. Koristite CLI za stvaranje sigurnosne kopije prije ažuriranja. CLI procedura za sigurnosnu kopiju je u dokumentaciji. <br />U suprotnom, preuzmite i koristite stariju verziju konfiguratora ako niste spremni za ažuriranje firmwarea."
+    },
+    "resetToCustomDefaultsAccept": {
+        "message": "Primijeni prilagođene tvorničke postavke"
     },
     "infoVersions": {
         "message": "Koristi se - OS: <strong>{{operatingSystem}}</strong>, Chrome: <strong>{{chromeVersion}}</strong>, Konfigurator: <strong>{{configuratorVersion}}</strong>",
@@ -1544,6 +1556,9 @@
     },
     "pidTuningTPABreakPoint": {
         "message": "TPA točka prijeloma"
+    },
+    "pidTuningThrottleCurvePreview": {
+        "message": "Prikaz krivulje gasa/throttlea"
     },
     "pidTuningThrottleLimitType": {
         "message": "Način limitiranja gasa/throttlea"
@@ -2989,6 +3004,14 @@
         "message": "Više filtriranja",
         "description": "Filter tuning slider high header"
     },
+    "pidTuningGyroFilterSlider": {
+        "message": "Žiro Filter Množitelj:",
+        "description": "Gyro filter tuning slider label"
+    },
+    "pidTuningDTermFilterSlider": {
+        "message": "D Term Filter Množitelj:",
+        "description": "D Term filter tuning slider label"
+    },
     "pidTuningSliderEnableButton": {
         "message": "Omogući klizače",
         "description": "Button label for enabling sliders"
@@ -3008,6 +3031,14 @@
     "pidTuningMasterSlider": {
         "message": "Glavni Množitelj:",
         "description": "Master tuning slider label"
+    },
+    "pidTuningPDRatioSlider": {
+        "message": "PD Balans:",
+        "description": "PD balance tuning slider label"
+    },
+    "pidTuningPDGainSlider": {
+        "message": "P i D gain:",
+        "description": "P and D gain tuning slider label"
     },
     "pidTuningGyroLowpassFiltersGroup": {
         "message": "Gyro Lowpass Filteri"
@@ -3053,6 +3084,25 @@
     },
     "pidTuningNotchFilterHelp": {
         "message": "Notch filter ima centar i cutoff. Filter je simetričan. Centralna frekvencija je centar filtera a cutoff frekvencije je gdje notch filter započinje. Na primjer sa notch cutoffom 160 i notch centrom na 260, znači da je raspon 160-360Hz sa najviše atenuacije oko centra"
+    },
+    "pidTuningDynamicNotchFilterGroup": {
+        "message": "Dinamički gyro notch filter"
+    },
+    "pidTuningRpmFilterGroup": {
+        "message": "Gyro RPM Filter",
+        "description": "Header text for the RPM Filter group"
+    },
+    "pidTuningRpmHarmonics": {
+        "message": "Gyro RPM Filter broj harmonija",
+        "description": "Text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmMinHz": {
+        "message": "Gyro RPM Filter minimalna frekvencija [Hz]",
+        "description": "Text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmMinHzHelp": {
+        "message": "Minimalna frekvencija koja će biti korištena za RPM filtriranje.",
+        "description": "Help text for one of the parameters of the RPM Filter"
     },
     "pidTuningFilterSettings": {
         "message": "Profilno ovisne postavke filtera"
@@ -4561,6 +4611,18 @@
     "osdButtonSaved": {
         "message": "Spremljeno"
     },
+    "vtxFrequencyChannel": {
+        "message": "Unesi frekvenciju direktno",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxSelectedMode": {
+        "message": "Odabrani način rada",
+        "description": "Title for the actual mode header of the VTX"
+    },
+    "vtxActualState": {
+        "message": "Aktualna vrijednost",
+        "description": "Title for the actual values header of the VTX"
+    },
     "vtxType": {
         "message": "VTX tip",
         "description": "Text of one of the fields of the VTX tab"
@@ -4683,6 +4745,10 @@
     },
     "vtxTableBandTitleLetter": {
         "message": "Slovo",
+        "description": "Text of one of the titles of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandTitleFactory": {
+        "message": "Tvorničke",
         "description": "Text of one of the titles of the VTX Table element in the VTX tab"
     },
     "vtxButtonSaveFile": {
