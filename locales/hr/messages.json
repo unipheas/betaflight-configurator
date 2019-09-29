@@ -2218,9 +2218,6 @@
     "sensorsMagSelect": {
         "message": "Magnetometar"
     },
-    "sensorsBaroSelect": {
-        "message": "Barometar"
-    },
     "sensorsSonarSelect": {
         "message": "Sonar"
     },
@@ -2235,9 +2232,6 @@
     },
     "sensorsMagTitle": {
         "message": "Magnetometar - Ga"
-    },
-    "sensorsBaroTitle": {
-        "message": "Barometar - metri"
     },
     "sensorsSonarTitle": {
         "message": "Sonar - cm"
@@ -2427,9 +2421,6 @@
     },
     "firmwareFlasherReleaseSummaryHead": {
         "message": "Informacije o izdanju"
-    },
-    "firmwareFlasherReleaseName": {
-        "message": "Ime/Verzija:"
     },
     "firmwareFlasherReleaseVersionUrl": {
         "message": "Posjetite stranicu izdanja."
