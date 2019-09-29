@@ -1130,9 +1130,6 @@
     "sensorsMagSelect": {
         "message": "Manyetometre"
     },
-    "sensorsBaroSelect": {
-        "message": "Barometre"
-    },
     "sensorsSonarSelect": {
         "message": "Sonar"
     },
@@ -1147,9 +1144,6 @@
     },
     "sensorsMagTitle": {
         "message": "Manyetometre - Ga"
-    },
-    "sensorsBaroTitle": {
-        "message": "Barometre - metre"
     },
     "sensorsSonarTitle": {
         "message": "Sonar - santimetre"
@@ -1234,9 +1228,6 @@
     },
     "firmwareFlasherReleaseSummaryHead": {
         "message": "Sürüm bilgisi"
-    },
-    "firmwareFlasherReleaseName": {
-        "message": "İsim/Sürüm:"
     },
     "firmwareFlasherReleaseVersionUrl": {
         "message": "Sürüm sayfasını ziyaret edin."
