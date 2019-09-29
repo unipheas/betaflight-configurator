@@ -2301,9 +2301,6 @@
     "sensorsMagSelect": {
         "message": "コンパス"
     },
-    "sensorsBaroSelect": {
-        "message": "気圧センサー"
-    },
     "sensorsSonarSelect": {
         "message": "ソナー 超音波距離センサー"
     },
@@ -2318,9 +2315,6 @@
     },
     "sensorsMagTitle": {
         "message": "コンパス - Ga"
-    },
-    "sensorsBaroTitle": {
-        "message": "気圧センサー - meters"
     },
     "sensorsSonarTitle": {
         "message": "ソナー - cm"
@@ -2513,9 +2507,6 @@
     },
     "firmwareFlasherReleaseSummaryHead": {
         "message": "リリース情報"
-    },
-    "firmwareFlasherReleaseName": {
-        "message": "名前 / Version:"
     },
     "firmwareFlasherReleaseVersionUrl": {
         "message": "リリースページを参照下さい。"
