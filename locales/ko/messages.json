@@ -2369,9 +2369,6 @@
     "sensorsMagSelect": {
         "message": "자력계"
     },
-    "sensorsBaroSelect": {
-        "message": "기압계"
-    },
     "sensorsSonarSelect": {
         "message": "초음파"
     },
@@ -2386,9 +2383,6 @@
     },
     "sensorsMagTitle": {
         "message": "자력계 - Ga"
-    },
-    "sensorsBaroTitle": {
-        "message": "기압계 - m(미터)"
     },
     "sensorsSonarTitle": {
         "message": "초음파 - cm"
@@ -2582,8 +2576,11 @@
     "firmwareFlasherReleaseSummaryHead": {
         "message": "릴리즈 정보"
     },
-    "firmwareFlasherReleaseName": {
-        "message": "이름/버전:"
+    "firmwareFlasherReleaseManufacturer": {
+        "message": "제조사"
+    },
+    "firmwareFlasherReleaseVersion": {
+        "message": "버전:"
     },
     "firmwareFlasherReleaseVersionUrl": {
         "message": "릴리즈 페이지를 방문하십시오."
