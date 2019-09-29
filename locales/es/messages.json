@@ -2301,8 +2301,8 @@
     "sensorsMagSelect": {
         "message": "Magnetómetro"
     },
-    "sensorsBaroSelect": {
-        "message": "Barómetro"
+    "sensorsAltitudeSelect": {
+        "message": "Altitud"
     },
     "sensorsSonarSelect": {
         "message": "Sonar"
@@ -2319,8 +2319,11 @@
     "sensorsMagTitle": {
         "message": "Magnetómetro - Ga"
     },
-    "sensorsBaroTitle": {
-        "message": "Barómetro - metros"
+    "sensorsAltitudeTitle": {
+        "message": "Altitud - metros"
+    },
+    "sensorsAltitudeHint": {
+        "message": "La altitud se calcula combinando la salida del barómetro (si está disponible) con la salida de altitud del GPS (si está disponible). Si hay un GPS conectado y el GPS está fijado, mientras esté desarmado se mostrará la altitud absoluta sobre el nivel del mar. Cuando esté armado, se mostrará la altitud relativa a la posición en la que se armó."
     },
     "sensorsSonarTitle": {
         "message": "Sonar - cm"
@@ -2514,8 +2517,11 @@
     "firmwareFlasherReleaseSummaryHead": {
         "message": "Info de la versión"
     },
-    "firmwareFlasherReleaseName": {
-        "message": "Nombre/Version:"
+    "firmwareFlasherReleaseManufacturer": {
+        "message": "Fabricante:"
+    },
+    "firmwareFlasherReleaseVersion": {
+        "message": "Versión:"
     },
     "firmwareFlasherReleaseVersionUrl": {
         "message": "Visitar página de versiones."
@@ -2693,6 +2699,14 @@
     },
     "firmwareFlasherHexCorrupted": {
         "message": "El archivo HEX parece estar corrupto"
+    },
+    "firmwareFlasherConfigCorrupted": {
+        "message": "Archivo de configuración corrupto, aceptado ASCII (caracteres 0-255)",
+        "description": "shown in the progress bar at the bottom, be brief"
+    },
+    "firmwareFlasherConfigCorruptedLogMessage": {
+        "message": "Archivo de configuración corrupto, aceptado ASCII (caracteres 0-255), sólo se admiten caracteres fuera de este rango para los comentarios",
+        "description": "shown in the log, more wordy"
     },
     "firmwareFlasherRemoteFirmwareLoaded": {
         "message": "<span class=\"message-positive\">Firmware remoto cargado, listo para instalar</span>"
