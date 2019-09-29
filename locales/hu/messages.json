@@ -1313,9 +1313,6 @@
     "sensorsMagSelect": {
         "message": "Magntométer"
     },
-    "sensorsBaroSelect": {
-        "message": "Barométer"
-    },
     "sensorsSonarSelect": {
         "message": "Szonár"
     },
@@ -1330,9 +1327,6 @@
     },
     "sensorsMagTitle": {
         "message": "Magnetométer - Ga"
-    },
-    "sensorsBaroTitle": {
-        "message": "Barométer - méterek"
     },
     "sensorsSonarTitle": {
         "message": "Szonár - cm"
@@ -1462,9 +1456,6 @@
     },
     "firmwareFlasherReleaseSummaryHead": {
         "message": "Verzióinformáció"
-    },
-    "firmwareFlasherReleaseName": {
-        "message": "Név/Verzió:"
     },
     "firmwareFlasherReleaseVersionUrl": {
         "message": "A kiadott verziókhoz"
