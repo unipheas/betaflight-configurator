@@ -2129,9 +2129,6 @@
     "sensorsMagSelect": {
         "message": "Магнитометр"
     },
-    "sensorsBaroSelect": {
-        "message": "Барометр"
-    },
     "sensorsSonarSelect": {
         "message": "Сонар"
     },
@@ -2146,9 +2143,6 @@
     },
     "sensorsMagTitle": {
         "message": "Магнитометр - Ga"
-    },
-    "sensorsBaroTitle": {
-        "message": "Барометр - метры"
     },
     "sensorsSonarTitle": {
         "message": "Сонар - см"
@@ -2338,9 +2332,6 @@
     },
     "firmwareFlasherReleaseSummaryHead": {
         "message": "Информация о выпуске"
-    },
-    "firmwareFlasherReleaseName": {
-        "message": "Название/Версия:"
     },
     "firmwareFlasherReleaseVersionUrl": {
         "message": "Перейти на страницу релиза."
