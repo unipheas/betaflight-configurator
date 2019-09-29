@@ -1619,9 +1619,6 @@
     "sensorsMagSelect": {
         "message": "Magnetometri"
     },
-    "sensorsBaroSelect": {
-        "message": "Barometri"
-    },
     "sensorsSonarSelect": {
         "message": "Kaikuluotain"
     },
@@ -1636,9 +1633,6 @@
     },
     "sensorsMagTitle": {
         "message": "Magnetometri - Gaussia"
-    },
-    "sensorsBaroTitle": {
-        "message": "Barometri - metriä"
     },
     "sensorsSonarTitle": {
         "message": "Kaikuluotain - cm"
@@ -1795,9 +1789,6 @@
     },
     "firmwareFlasherReleaseSummaryHead": {
         "message": "Julkaisutiedot"
-    },
-    "firmwareFlasherReleaseName": {
-        "message": "Nimi/Versio:"
     },
     "firmwareFlasherReleaseVersionUrl": {
         "message": "Vieraile julkaisusivulla."
