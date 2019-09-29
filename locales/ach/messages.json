@@ -2379,8 +2379,8 @@
     "sensorsMagSelect": {
         "message": "crwdns5894:0crwdne5894:0"
     },
-    "sensorsBaroSelect": {
-        "message": "crwdns5895:0crwdne5895:0"
+    "sensorsAltitudeSelect": {
+        "message": "crwdns9870:0crwdne9870:0"
     },
     "sensorsSonarSelect": {
         "message": "crwdns5896:0crwdne5896:0"
@@ -2397,8 +2397,11 @@
     "sensorsMagTitle": {
         "message": "crwdns5900:0crwdne5900:0"
     },
-    "sensorsBaroTitle": {
-        "message": "crwdns5901:0crwdne5901:0"
+    "sensorsAltitudeTitle": {
+        "message": "crwdns9872:0crwdne9872:0"
+    },
+    "sensorsAltitudeHint": {
+        "message": "crwdns9874:0crwdne9874:0"
     },
     "sensorsSonarTitle": {
         "message": "crwdns5902:0crwdne5902:0"
@@ -2592,8 +2595,11 @@
     "firmwareFlasherReleaseSummaryHead": {
         "message": "crwdns5955:0crwdne5955:0"
     },
-    "firmwareFlasherReleaseName": {
-        "message": "crwdns5956:0crwdne5956:0"
+    "firmwareFlasherReleaseManufacturer": {
+        "message": "crwdns9866:0crwdne9866:0"
+    },
+    "firmwareFlasherReleaseVersion": {
+        "message": "crwdns9868:0crwdne9868:0"
     },
     "firmwareFlasherReleaseVersionUrl": {
         "message": "crwdns5957:0crwdne5957:0"
@@ -2771,6 +2777,14 @@
     },
     "firmwareFlasherHexCorrupted": {
         "message": "crwdns6007:0crwdne6007:0"
+    },
+    "firmwareFlasherConfigCorrupted": {
+        "message": "crwdns9876:0crwdne9876:0",
+        "description": "shown in the progress bar at the bottom, be brief"
+    },
+    "firmwareFlasherConfigCorruptedLogMessage": {
+        "message": "crwdns9878:0crwdne9878:0",
+        "description": "shown in the log, more wordy"
     },
     "firmwareFlasherRemoteFirmwareLoaded": {
         "message": "crwdns6008:0crwdne6008:0"
