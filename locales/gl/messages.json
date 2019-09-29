@@ -2304,9 +2304,6 @@
     "sensorsMagSelect": {
         "message": "Magnetómetro"
     },
-    "sensorsBaroSelect": {
-        "message": "Barómetro"
-    },
     "sensorsSonarSelect": {
         "message": "Sonar"
     },
@@ -2321,9 +2318,6 @@
     },
     "sensorsMagTitle": {
         "message": "Magnetómetro - Ga"
-    },
-    "sensorsBaroTitle": {
-        "message": "Barómetro - metros"
     },
     "sensorsSonarTitle": {
         "message": "Sonar - cm"
@@ -2516,9 +2510,6 @@
     },
     "firmwareFlasherReleaseSummaryHead": {
         "message": "Información de versión"
-    },
-    "firmwareFlasherReleaseName": {
-        "message": "Nome/Versión:"
     },
     "firmwareFlasherReleaseVersionUrl": {
         "message": "Visitar páxina desta versión."
