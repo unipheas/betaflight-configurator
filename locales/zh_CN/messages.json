@@ -2365,8 +2365,8 @@
     "sensorsMagSelect": {
         "message": "磁场计"
     },
-    "sensorsBaroSelect": {
-        "message": "高度计"
+    "sensorsAltitudeSelect": {
+        "message": "高度"
     },
     "sensorsSonarSelect": {
         "message": "声呐"
@@ -2383,8 +2383,11 @@
     "sensorsMagTitle": {
         "message": "磁场计 - Ga"
     },
-    "sensorsBaroTitle": {
-        "message": "高度计 - 米"
+    "sensorsAltitudeTitle": {
+        "message": "高度 - 米"
+    },
+    "sensorsAltitudeHint": {
+        "message": "高度的计算方法是将气压计(如果可用) 的输出与 GPS(如果可用) 的高度输出结合起来。如果已连接到一个 GPS 模块且 GPS 模块定位成功后，则将在未解锁时显示相对于海平面的绝对高度。解锁后，显示相对于解锁时的相对高度。"
     },
     "sensorsSonarTitle": {
         "message": "声呐 - 厘米"
@@ -2578,8 +2581,11 @@
     "firmwareFlasherReleaseSummaryHead": {
         "message": "发布信息"
     },
-    "firmwareFlasherReleaseName": {
-        "message": "名称/版本："
+    "firmwareFlasherReleaseManufacturer": {
+        "message": "制造商:"
+    },
+    "firmwareFlasherReleaseVersion": {
+        "message": "版本:"
     },
     "firmwareFlasherReleaseVersionUrl": {
         "message": "访问发布信息页面"
@@ -2757,6 +2763,14 @@
     },
     "firmwareFlasherHexCorrupted": {
         "message": "HEX文件似乎已损坏"
+    },
+    "firmwareFlasherConfigCorrupted": {
+        "message": "配置文件似乎已损坏，ASCII(字符0-255) 码已接收",
+        "description": "shown in the progress bar at the bottom, be brief"
+    },
+    "firmwareFlasherConfigCorruptedLogMessage": {
+        "message": "配置文件似乎已损坏，ASCII(字符0-255) 码已接收，此范围外的字符将被作为注释",
+        "description": "shown in the log, more wordy"
     },
     "firmwareFlasherRemoteFirmwareLoaded": {
         "message": "<span class=\"message-positive\">固件加载成功，可供烧录</span>"
@@ -5150,6 +5164,9 @@
     },
     "configurationEscProtocolHelp": {
         "message": "选择电调协议。<br>请确认你的电调支持该协议，电调制造商应该有提供这些信息。<br> <b>选择 DSHOT900 或 DSHOT1200 时请注意，目前没有很多电调支持这个协议！</b>"
+    },
+    "configurationEscProtocolHelpNoDSHOT1200": {
+        "message": "选择您的电机协议。<br>请验证您的电调支持此协议，此信息应在制造商的网站上。"
     },
     "configurationunsyndePwm": {
         "message": "电机PWM速度独立于PID速度"
