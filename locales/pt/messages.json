@@ -49,6 +49,9 @@
     "close": {
         "message": "Fechar"
     },
+    "cancel": {
+        "message": "Cancelar"
+    },
     "autoConnectEnabled": {
         "message": "Auto-Conectar: Ativado - O Configurador tenta se conectar automaticamente assim que uma nova porta é detectada"
     },
@@ -2334,6 +2337,9 @@
     "cliLoadFromFileBtn": {
         "message": "Carregar do arquivo"
     },
+    "cliConfirmSnippetDialogTitle": {
+        "message": "O arquivo <strong>{{fileName}}</strong> foi carregado. Revise os comandos"
+    },
     "cliConfirmSnippetNote": {
         "message": "<strong>Nota:</strong> É possível ver e modificar os comandos antes de executar."
     },
@@ -2486,6 +2492,12 @@
     },
     "firmwareFlasherReleaseSummaryHead": {
         "message": "Notas de lançamento"
+    },
+    "firmwareFlasherReleaseManufacturer": {
+        "message": "Fabricante:"
+    },
+    "firmwareFlasherReleaseVersion": {
+        "message": "Versão:"
     },
     "firmwareFlasherReleaseVersionUrl": {
         "message": "Visite a página de lançamentos."
@@ -2663,6 +2675,14 @@
     },
     "firmwareFlasherHexCorrupted": {
         "message": "Parece que o arquivo HEX está corrompido"
+    },
+    "firmwareFlasherConfigCorrupted": {
+        "message": "O arquivo de configuração está corrompido, ASCII aceito (caracteres 0-255)",
+        "description": "shown in the progress bar at the bottom, be brief"
+    },
+    "firmwareFlasherConfigCorruptedLogMessage": {
+        "message": "O arquivo de configuração está corrompido, ASCII aceito (caracteres 0-255), caracteres fora desse valor são aceitos como comentários",
+        "description": "shown in the log, more wordy"
     },
     "firmwareFlasherRemoteFirmwareLoaded": {
         "message": "<span class=\"message-positive\">Firmware Remoto carregado, pronto para atualizar</span>"
@@ -3090,6 +3110,10 @@
         "message": "Sliders para ajustes das características de voo (Ganhos PID)<br><br>Multiplicador mestre: Aumenta ou diminui todos os ganhos PID (acima) mantendo a diferença proporcional entre os ganhos.<br><br>Equilíbrio PD: Ajusta o equilíbrio (razão / diferença proporcional) entre os Termos P e D ('a mola' [p-term] e o 'amortecedor' [d-term]).<br><br>Ganho PD: Aumenta ou diminui juntos os ganhos dos Termos P e D - mantendo a razão (balanço) entre os dois - para mais (ou menos) autoridade do controlador PID.<br><br>Ganho na resposta: Aumenta ou diminui o ganho do FeedForward para controlar a sensação de resposta dos sticks na aeronave.",
         "description": "Overall helpicon message for PID tuning sliders"
     },
+    "pidTuningSliderWarning": {
+        "message": "<span class=\"message-negative\">CUIDADO</span>: Os valores atuais dos sliders podem causar perda de controle, danos aos motores ou comportamento inseguro da aeronave. Prossiga com cuidado.",
+        "description": "Warning shown when tuning slider are above safe limits"
+    },
     "pidTuningSlidersDisabled": {
         "message": "<strong>Nota:</strong> Os sliders foram desativados por que os valores foram modificados manualmente. Pressionar o botão '$t(pidTuningSliderEnableButton.message)' irá ativa-los novamente. Isto porem irá reverter os valores e qualquer alteração não salva será perdida.",
         "description": "Tuning sliders disabled note when manual changes are detected"
@@ -3097,6 +3121,10 @@
     "pidTuningSliderEnableButton": {
         "message": "Habilitar Sliders",
         "description": "Button label for enabling sliders"
+    },
+    "pidTuningSlidersNonExpertMode": {
+        "message": "<strong>Nota:</strong> O alcance dos sliders está limitado porque você não está no modo avançado. Este intervalo é adequado para a maioria das aeronaves e para iniciantes.",
+        "description": "Sliders restricted message"
     },
     "pidTuningSliderLow": {
         "message": "Baixo",
@@ -3561,6 +3589,9 @@
     },
     "powerCalibrationManagerSourceNote": {
         "message": "<span class=\"message-negative\">Aviso:</span> Sensores de voltagem e/ou corrente <strong>foram alterados mas não foram salvos.</strong> Por favor, defina os sensores corretos e pressione salvar antes de tentar calibrar."
+    },
+    "powerCalibrationManagerConfirmationTitle": {
+        "message": "Confirmação do Gerenciador de Calibração"
     },
     "powerCalibrationSave": {
         "message": "Calibrar"
@@ -5003,6 +5034,14 @@
         "message": "<span class=\"message-negative\">Erro</span> ao carregar o arquivo de configuração do VTX",
         "description": "Message in the GUI log when the VTX Config file is loaded"
     },
+    "vtxLoadClipboardOk": {
+        "message": "Configuração do VTX foi <span class=\"message-positive\">carregado</span> da área de transferência",
+        "description": "Message in the GUI log when the VTX Config file is pasted from clipboard"
+    },
+    "vtxLoadClipboardKo": {
+        "message": "<span class=\"message-negative\">Erro</span> ao carregar a configuração do VTX da área de transferência. Verifique se o conteúdo está correto",
+        "description": "Message in the GUI log when the VTX Config file is pasted from clipboard"
+    },
     "vtxButtonSaveFile": {
         "message": "Salvar em um arquivo",
         "description": "Save to file button in the VTX tab"
@@ -5010,6 +5049,10 @@
     "vtxButtonLoadFile": {
         "message": "Carregar do arquivo",
         "description": "Load to file button in the VTX tab"
+    },
+    "vtxButtonLoadClipboard": {
+        "message": "Carregar da área de transferência",
+        "description": "Paste from clipboard button in the VTX tab"
     },
     "vtxButtonSave": {
         "message": "Salvar",
@@ -5033,6 +5076,9 @@
     },
     "configurationEscProtocolHelp": {
         "message": "Selecione o protocolo do seu motor. <br>Tenha a certeza de que o protocolo é suportado pelo seu ESC, esta informação deve estar disponível no site do fabricante. <br><b>Tenha cuidado ao usar DSHOT900 e DSHOT1200, uma vez que muitos ESCs não os suportam!</b>"
+    },
+    "configurationEscProtocolHelpNoDSHOT1200": {
+        "message": "Selecione o protocolo do seu motor. <br>Tenha a certeza de que o protocolo é suportado pelo seu ESC, esta informação deve estar disponível no site do fabricante."
     },
     "configurationunsyndePwm": {
         "message": "Velocidade do PWM do Motor independente da velocidade do PID"
