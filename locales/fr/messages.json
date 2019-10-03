@@ -7,6 +7,15 @@
         "message": "Non",
         "description": "General No message to be used across the application"
     },
+    "on": {
+        "message": "On"
+    },
+    "off": {
+        "message": "Off"
+    },
+    "auto": {
+        "message": "Auto"
+    },
     "error": {
         "message": "Erreur : {{errorMessage}}"
     },
@@ -2353,6 +2362,9 @@
     "sensorsMagSelect": {
         "message": "Magnétomètre"
     },
+    "sensorsAltitudeSelect": {
+        "message": "Altitude"
+    },
     "sensorsSonarSelect": {
         "message": "Sonar"
     },
@@ -2367,6 +2379,12 @@
     },
     "sensorsMagTitle": {
         "message": "Magnétomètre - Ga"
+    },
+    "sensorsAltitudeTitle": {
+        "message": "Altitude - mètres"
+    },
+    "sensorsAltitudeHint": {
+        "message": "L'altitude est calculée en combinant les données du baromètre (si disponibles) avec les données d'altitude du GPS (si disponibles). Si un GPS est présent et connecté aux satallites, l'altitude absolue au-dessus du niveau de la mer sera affichée lorsque l'appareil est désarmé. Lorsqu'il est armé, l'altitude relative à la position lors de l'armement sera affichée."
     },
     "sensorsSonarTitle": {
         "message": "Sonar - cm"
@@ -2560,6 +2578,12 @@
     "firmwareFlasherReleaseSummaryHead": {
         "message": "Informations de la version"
     },
+    "firmwareFlasherReleaseManufacturer": {
+        "message": "Fabricant :"
+    },
+    "firmwareFlasherReleaseVersion": {
+        "message": "Version :"
+    },
     "firmwareFlasherReleaseVersionUrl": {
         "message": "Aller sur la page des versions."
     },
@@ -2736,6 +2760,14 @@
     },
     "firmwareFlasherHexCorrupted": {
         "message": "Le fichier HEX semble corrompu"
+    },
+    "firmwareFlasherConfigCorrupted": {
+        "message": "Le fichier de configuration semble corrompu. ASCII accepté (caractères 0 - 255)",
+        "description": "shown in the progress bar at the bottom, be brief"
+    },
+    "firmwareFlasherConfigCorruptedLogMessage": {
+        "message": "Le fichier de configuration semble corrompu. ASCII accepté (caractères 0 - 255). Les caractères en-dehors de cette plage sont acceptés en commentaires",
+        "description": "shown in the log, more wordy"
     },
     "firmwareFlasherRemoteFirmwareLoaded": {
         "message": "<span class=\"message-positive\">Microprogramme chargé, prêt pour le flashage</span>"
@@ -5129,6 +5161,9 @@
     },
     "configurationEscProtocolHelp": {
         "message": "Sélectionnez votre protocole ESC. <br> Assurez-vous de vérifier que le protocole est pris en charge par votre ESC, cette information devrait être sur le site Web des fabricants. <br> <b> Soyez prudent en utilisant DSHOT900 et DSHOT1200 car peu d'ESC le supportent!</ b>"
+    },
+    "configurationEscProtocolHelpNoDSHOT1200": {
+        "message": "Sélectionnez votre protocole moteur. <br>Vérifiez bien que le protocole est pris en charge par votre ESC. Cette information devrait se trouver sur le site web du fabricant."
     },
     "configurationunsyndePwm": {
         "message": "Vitesse du moteur PWM séparée de la vitesse PID"
