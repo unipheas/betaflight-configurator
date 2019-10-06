@@ -3048,6 +3048,10 @@
         "message": "Больше фильтрации",
         "description": "Filter tuning slider high header"
     },
+    "pidTuningSlidersDisabled": {
+        "message": "<strong>Примечание:</strong> Слайдеры отключены, потому что значения были изменены вручную. Нажатие на кнопку '$t(pidTuningSliderEnableButton.message)' активирует их снова. Это сбросит значения и любые несохраненные изменения будут потеряны.",
+        "description": "Tuning sliders disabled note when manual changes are detected"
+    },
     "pidTuningSliderEnableButton": {
         "message": "Включить слайдеры",
         "description": "Button label for enabling sliders"
@@ -4603,6 +4607,38 @@
     "osdButtonSaved": {
         "message": "Сохранено"
     },
+    "vtxFrequencyChannel": {
+        "message": "Ввести частоту напрямую",
+        "description": "Text of one of the fields of the VTX tab"
+    },
+    "vtxSelectedMode": {
+        "message": "Выбранный режим",
+        "description": "Title for the actual mode header of the VTX"
+    },
+    "vtxActualState": {
+        "message": "Текущие значения",
+        "description": "Title for the actual values header of the VTX"
+    },
+    "vtxType_0": {
+        "message": "Не поддерживается",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_1": {
+        "message": "RTC607",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_3": {
+        "message": "SmartAudio",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_4": {
+        "message": "Tramp",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
+    "vtxType_255": {
+        "message": "Неизвестно",
+        "description": "Text for one of the types of the VTX type in VTX tab"
+    },
     "vtxDeviceReady": {
         "message": "Устройство готово",
         "description": "Text of one of the fields of the VTX tab"
@@ -4621,6 +4657,14 @@
     },
     "vtxTablePowerLevels": {
         "message": "Количество уровней мощности",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsValue": {
+        "message": "Значение",
+        "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTablePowerLevelsLabel": {
+        "message": "Метка",
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
     },
     "vtxSavedFileOk": {
