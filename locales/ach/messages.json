@@ -2652,6 +2652,9 @@
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "crwdns5972:0crwdne5972:0"
     },
+    "firmwareFlasherOnlineSelectBoardHint": {
+        "message": "crwdns9880:0crwdne9880:0"
+    },
     "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
         "message": "crwdns5973:0crwdne5973:0"
     },
