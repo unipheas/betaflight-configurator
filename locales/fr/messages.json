@@ -2635,6 +2635,9 @@
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "Sélectionnez votre carte pour voir les microprogrammes disponibles - Sélectionnez le microprogramme approprié à votre carte."
     },
+    "firmwareFlasherOnlineSelectBoardHint": {
+        "message": "Avec la version 4.1, Betaflight supporte les <strong>Cibles Unifiées</strong>. Le concept de Cibles Unifiées signifie que le même fichier .hex du firmware est utilisé pour toutes les cartes de même MCU (F4, F7). Un fichier de configuration spécifique à la carte est utilisé lors du flash de la Cible Unifiée.<br>Cette version de Betaflight Configurator permet le flash de Cibles Unifiées avec les fichiers de configuration propres à chaque carte en une seule étape. Les différents types de firmwares de chaque carte sont affichés dans le menu déroulant comme suit:<br><br><strong>&lt;nom de la carte&gt;</strong> ou<br><strong>&lt;nom de la carte&gt; (Legacy)</strong>:<br>Cible non Unifiée, ou version pre-4.1 du firmware pour Cible Unifiée.<br><br><strong>&lt;nom de la carte&gt; (&lt;manufacturer id&gt;)</strong>:<br>(4 caractères id fabricant)<br>Cible Unifiée.<br><br><strong>Veuillez utiliser les Cibles Unifiées lorsque disponibles.</strong> Si vous rencontrez des problèmes lors de l'utilisation de Cibles Unifiées, veuillez signaler le<a href=\"https://github.com/betaflight/betaflight/issues\" target=\"_blank\" rel=\"noopener noreferrer\">problème</a> puis utiliser le firmware non unifié jusqu'à la résolution du problème."
+    },
     "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
         "message": "Sélectionnez la version du microprogramme pour votre carte."
     },
