@@ -10,6 +10,15 @@
         "message": "Nein",
         "description": "General No message to be used across the application"
     },
+    "on": {
+        "message": "Ein"
+    },
+    "off": {
+        "message": "Aus"
+    },
+    "auto": {
+        "message": "Auto"
+    },
     "error": {
         "message": "Fehler: {{errorMessage}}"
     },
@@ -51,6 +60,9 @@
     },
     "close": {
         "message": "Schließen"
+    },
+    "cancel": {
+        "message": "Abbrechen"
     },
     "autoConnectEnabled": {
         "message": "automatisch Verbinden: aktiv. Der Konfigurator versucht sich wieder zu verbinden, wenn ein neuer Port erkannt wird."
@@ -381,6 +393,12 @@
     },
     "firmwareTypeNotSupported": {
         "message": "Nicht Betaflight/Cleanfight Firmware wird <span class=\"message-negative\">nicht unterstützt</span> mit Ausnahme vom CLI Modus."
+    },
+    "resetToCustomDefaultsDialog": {
+        "message": "Es sind benutzerdefinierte Standards für diesen Flightcontroller verfügbar. Normalerweise funktioniert ein Flightcontroller nicht ordnungsgemäß, wenn keine benutzerdefinierten Standardeinstellungen angewendet werden. <br /> Möchten sie die benutzerdefinierten Standardeinstellungen anwenden?"
+    },
+    "resetToCustomDefaultsAccept": {
+        "message": "Benutzerdefinierte Standardwerte anwenden"
     },
     "infoVersions": {
         "message": "Betriebssystem: <strong>{{operatingSystem}}</strong>, Chrome: <strong>{{chromeVersion}}</strong>, Konfigurator: <strong>{{configuratorVersion}}</strong>",
@@ -920,6 +938,9 @@
     "featureRX_SPI": {
         "message": "SPI Empfänger"
     },
+    "featureESC_SENSOR": {
+        "message": "Benutze KISS/BLHeli_32 ESC Telemetrie <b>über einen separates Kabel</b>"
+    },
     "featureCHANNEL_FORWARDING": {
         "message": "AUX Kanäle als Servo Ausgang weiterleiten"
     },
@@ -1091,6 +1112,14 @@
     "configurationMotorPoles": {
         "message": "Motor Pole",
         "description": "One of the fields of the ESC/Motor configuration"
+    },
+    "configurationMotorPolesLong": {
+        "message": "$t(configurationMotorPoles.message) (Anzahl Magnete an der Motorglocke)",
+        "description": "One of the fields of the ESC/Motor configuration"
+    },
+    "configurationMotorPolesHelp": {
+        "message": "Diese Einstellung wird für einige Funktionen wie den RPM-Filter verwendet.<br><br>repräsentiert die Anzahl der Magnete auf der Glocke des Motors. <b>Zähle NICHT die Statoren</b> wo die Windungen sind. Typische 5\" Motoren haben 14 Magnete, kleinere wie 3\" oder weniger haben normalerweise 12 Magnete.",
+        "description": "Help text for the Motor poles field of the ESC/Motor configuration"
     },
     "configurationThrottleMinimum": {
         "message": "Minimum Gas (kleinster Wert für die Regler falls gearmt)"
@@ -2241,6 +2270,9 @@
     "sensorsMagSelect": {
         "message": "Magnetometer"
     },
+    "sensorsAltitudeSelect": {
+        "message": "Flughöhe"
+    },
     "sensorsSonarSelect": {
         "message": "Sonar"
     },
@@ -2255,6 +2287,12 @@
     },
     "sensorsMagTitle": {
         "message": "Magnetometer - Ga"
+    },
+    "sensorsAltitudeTitle": {
+        "message": "Flughöhe - Meter"
+    },
+    "sensorsAltitudeHint": {
+        "message": "Die Flughöhe wird berechnet, indem die Ausgabe des Barometers (falls verfügbar) mit der Höhenausgabe des GPS (falls verfügbar) kombiniert wird. Wenn ein GPS angeschlossen ist und das GPS eine Fixierung hat, wird die absolute Höhe über dem Meeresspiegel angezeigt, wenn die Drohne entschärft ist. Im scharfen Zustand wird die Höhe relativ zur Position angezeigt, wo die Drohne scharfgeschaltet wurde."
     },
     "sensorsSonarTitle": {
         "message": "Sonar - CM"
@@ -2291,6 +2329,9 @@
     },
     "cliLoadFromFileBtn": {
         "message": "Aus Datei laden"
+    },
+    "cliConfirmSnippetDialogTitle": {
+        "message": "Datei <strong>{{fileName}}</strong> geladen. Überprüfe die geladenen Befehle"
     },
     "cliConfirmSnippetNote": {
         "message": "<strong>Hinweis</strong>: Du kannst Befehle vor der Ausführung überprüfen und bearbeiten."
@@ -2445,6 +2486,12 @@
     "firmwareFlasherReleaseSummaryHead": {
         "message": "Update Info"
     },
+    "firmwareFlasherReleaseManufacturer": {
+        "message": "Hersteller:"
+    },
+    "firmwareFlasherReleaseVersion": {
+        "message": "Version:"
+    },
     "firmwareFlasherReleaseVersionUrl": {
         "message": "Bitte Download Seite besuchen"
     },
@@ -2483,6 +2530,9 @@
     },
     "firmwareFlasherLoadFirmwareFile": {
         "message": "Bitte lade eine Firmware-Datei"
+    },
+    "firmwareFlasherLoadedConfig": {
+        "message": "Ziel geladen, bitte Firmware-Datei laden"
     },
     "firmwareFlasherNoReboot": {
         "message": "Keine Reboot-Sequenz"
@@ -2618,6 +2668,14 @@
     },
     "firmwareFlasherHexCorrupted": {
         "message": "HEX-Datei scheint fehlerhaft zu sein"
+    },
+    "firmwareFlasherConfigCorrupted": {
+        "message": "Die Konfigurationsdatei scheint beschädigt zu sein, ASCII akzeptiert (Zeichen 0-255)",
+        "description": "shown in the progress bar at the bottom, be brief"
+    },
+    "firmwareFlasherConfigCorruptedLogMessage": {
+        "message": "Die Konfigurationsdatei scheint beschädigt zu sein, ASCII akzeptiert (Zeichen 0-255), Zeichen außerhalb dieses Bereichs sind als Kommentare erlaubt",
+        "description": "shown in the log, more wordy"
     },
     "firmwareFlasherRemoteFirmwareLoaded": {
         "message": "<span class=\"message-positive\">Online-Firmware geladen, bereit zum flashen</span>"
@@ -3025,6 +3083,34 @@
         "message": "Gyro-Filter Multiplikator:",
         "description": "Gyro filter tuning slider label"
     },
+    "pidTuningDTermFilterSlider": {
+        "message": "D-Wert Filter Multiplikator:",
+        "description": "D Term filter tuning slider label"
+    },
+    "pidTuningDTermFilterSliderHelp": {
+        "message": "Erhöht oder reduziert die Standard D-term Tiefpass Filter im Verhältnis zu einander.<br>Die D-term Filterung wird nach der PID-Schleife NUR auf den D-term angewendet, da es der empfindlichste Anteil für Rauschen ist und hohes Frequenz-Rauschen um den Faktor 10 - 100 verstärken kann.<br><br>Allgemein sollte man den D-term Filter Schieberegler mit dem Gyro Filter Schieberegler nach oben bewegen. Für härtere D-term Filterung sollte man die D-term Filter-Grenzfrequenz weiter unter dem Motorgeräuschbereich ansetzen, als die Grenzfrequenz, die auf dem gesamten Gyro-Signal mit dem Gyro Filter Multiplikator angewendet wird.<br>Das empfohlene Differenzial ist in die Standardskalierung und Schieberegler eingebaut.",
+        "description": "D Term filtering tuning slider helpicon message"
+    },
+    "pidTuningPidSlidersHelp": {
+        "message": "Schieberegler, um die Flugchrakteristik des Quadrocopters (PID Verstärkungen) anzupassen<br><br>Hauptmultiplikator: Erhöht oder verringert alle PID-Verstärkungen (oben) und hält den proportionalen Unterschied zwischen den Verstärkungen.<br><br>PD Balance: Legt das Gleichgewicht (Verhältnis \\ proportionaler Unterschied) zwischen den P- und D-Anteilen ('die Feder' [p-term] und 'Stoßabsorber' [d-term]) fest.<br><br>PD Verstärkung: Erhöht oder verringert die P&D Verstärkung und hält das Verhältnis (Gleichgewicht) zwischen beiden - für mehr (oder weniger) PID-Kontrollauthorität.<br><br>Stick Reaktionsverstärkung: Erhöht oder verringert die FeedForward-Verstärkung, um das Stick Reaktionsgefühl des Quads anzupassen.",
+        "description": "Overall helpicon message for PID tuning sliders"
+    },
+    "pidTuningSliderWarning": {
+        "message": "<span class=\"message-negative\">ACHTUNG</span>: Aktuelle Schieberegler-Positionen können \"flyaways\", Motorschäden oder unsicheres Multikopterverhalten verursachen. Bitte Vorsicht.",
+        "description": "Warning shown when tuning slider are above safe limits"
+    },
+    "pidTuningSlidersDisabled": {
+        "message": "<strong>Hinweis:</strong> Die Schieberegler sind deaktiviert, da die Werte manuell geändert wurden. Klicken Sie auf die Schaltfläche '$t(pidTuningSliderEnableButton.message)' um sie wieder zu aktivieren. Dies wird die Werte zurücksetzen und alle ungespeicherten Änderungen werden verloren gehen.",
+        "description": "Tuning sliders disabled note when manual changes are detected"
+    },
+    "pidTuningSliderEnableButton": {
+        "message": "Schieberegler aktivieren",
+        "description": "Button label for enabling sliders"
+    },
+    "pidTuningSlidersNonExpertMode": {
+        "message": "<strong>Hinweis:</strong> Der Schiebereglerbereich ist eingeschränkt, da du nicht im Expertenmodus bist. Dieser Bereich sollte für die meisten Modelle und Anfänger geeignet sein.",
+        "description": "Sliders restricted message"
+    },
     "pidTuningSliderLow": {
         "message": "Gering",
         "description": "Tuning Slider Low header"
@@ -3049,9 +3135,25 @@
         "message": "P und D Verstärkung:",
         "description": "P and D gain tuning slider label"
     },
+    "pidTuningResponseSlider": {
+        "message": "Steuerknüppel Reaktionsverstärkung:",
+        "description": "Response tuning slider label"
+    },
     "pidTuningMasterSliderHelp": {
         "message": "Generell brauchen größere Quads höhere PID Werte aufgrund eines niedrigeren Power zu Gewicht Verhältnisses.<br><br>Kleinere Quads (Micros) brauchen generell niedrigere PID Werte aufgrund eines höheren Power zu Gewicht Verhältnisses. <br><br>Höhere Werte sind für leistungsschwächere Quads. Kleinere Werte sind für leistungsstärkere Quads.",
         "description": "Master gain tuning slider helpicon message"
+    },
+    "pidTuningPDRatioSliderHelp": {
+        "message": "Eine geringere PD-Balance führt zu einer geringeren Gesamtreaktion, reduziert aber auch die Möglichkeit eines schnellen Bounceback nach einem Flip oder Roll. <br><br> Eine höhere PD-Balance bietet eine schnellere Reaktion und ein besseres Propwash-Handling. Eine zu hohe PD-Balance führt jedoch zu Schwingungen nach einem Flip oder Roll und erhöhte Schwingungen während des Propwashes.",
+        "description": "PD balance tuning slider helpicon message"
+    },
+    "pidTuningPDGainSliderHelp": {
+        "message": "Niedrige P- und D Verstärkung sorgt für kühlere Motoren, kann aber zu mehr Propwash-Schwingungen führen. Ein zu niedriger Wert kann dazu führen, dass der Quad instabil wird.<br><br>P- und D-Werte arbeiten zusammen, um Propwash zu reduzieren.<br><br>Höhere Werte erhöhen die Motorwärme und könnten, aufgrund der höheren D-Wert-Verstärkung, die Schwingungen während des sanften Vorwärts-Fluges erhöhen.",
+        "description": "P and D gain tuning slider helpicon message"
+    },
+    "pidTuningResponseSliderHelp": {
+        "message": "Niedrigere Werte verschlechtern die Knüppel-Reaktion und können zu einem langsamen Abprall am Ende eines Überschlages oder Rolle (I-Wert-Windup) führen.<br><br> Höherer Wert haben eine bessere Knüppel-Reaktion für scharfe Bewegungen. Zu hohe Werte können jedoch zu Überschwingen und schnellem Abprall am Ende eines Überschlages oder Rolle führen.",
+        "description": "Stick response gain tuning slider helpicon message"
     },
     "pidTuningGyroLowpassFiltersGroup": {
         "message": "Gyro Lowpass Filter"
@@ -3130,6 +3232,30 @@
     },
     "pidTuningDynamicNotchMinHzHelp": {
         "message": "Definiert die niedrigste dynamische Notch-Mittenfrequenz, unter welche die dynamische Notch nicht gehen wird."
+    },
+    "pidTuningRpmFilterGroup": {
+        "message": "Gyro RPM Filter",
+        "description": "Header text for the RPM Filter group"
+    },
+    "pidTuningRpmFilterHelp": {
+        "message": "RPM-Filterung ist eine Reihe von Gyro Notch-Filter, die die RPM-Telemetrie verwenden, um Motorvibrationen zu entfernen.<br><br><b><span class=\"message-positive\">WICHTIG</span>: Der ESC muss das Bidirektionale DShot-Protokoll und den Wert des $t(configurationMotorPoles.message) im Reiter $t(tabConfiguration.message) korrekt eingestellt haben, damit der Filter funktioniert.</b>",
+        "description": "Header text for the RPM Filter group"
+    },
+    "pidTuningRpmHarmonics": {
+        "message": "Gyro RPM Filter Harmonie Anzahl",
+        "description": "Text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmHarmonicsHelp": {
+        "message": "Anzahl der Oberwellen pro Motor. Ein Wert von 3 (empfohlen für die meisten Quads) erzeugt 3 Notch-Filter pro Motor für jede Achse, insgesamt 36 Notches. Eine bei der Grundmotorfrequenz und zwei Oberwellen bei Vielfachen dieser Grundfrequenz.",
+        "description": "Help text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmMinHz": {
+        "message": "Gyro RPM Filter Minimale Frequenz [Hz]",
+        "description": "Text for one of the parameters of the RPM Filter"
+    },
+    "pidTuningRpmMinHzHelp": {
+        "message": "Minimale Frequenz, die vom RPM-Filter verwendet wird.",
+        "description": "Help text for one of the parameters of the RPM Filter"
     },
     "pidTuningFilterSettings": {
         "message": "Profilabhängige Filtereinstellungen"
@@ -3448,6 +3574,9 @@
     },
     "powerCalibrationManagerSourceNote": {
         "message": "<span class=\"message-negative\">Warnung:</span> Spannungs- und/oder Strom-Messquellen <strong>wurden geändert, aber nicht gespeichert.</strong> Bitte stelle die richtigen Messquellen ein und speichere sie, bevor du versuchst zu Kalibrieren."
+    },
+    "powerCalibrationManagerConfirmationTitle": {
+        "message": "Kalibrierungsmanager Bestätigung"
     },
     "powerCalibrationSave": {
         "message": "Kalibriere"
@@ -3888,6 +4017,10 @@
     "osdDescElementArtificialHorizon": {
         "message": "grafischer künstlicher Horizont"
     },
+    "osdTextElementHorizonSidebars": {
+        "message": "Künstlicher Horizont Seitenleisten",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementHorizonSidebars": {
         "message": "Sidebars neben dem künstlichen Horizont"
     },
@@ -4044,6 +4177,10 @@
     },
     "osdDescElementMainBattUsage": {
         "message": "Graphische Darstellung des Batteriefüllstandes"
+    },
+    "osdTextElementArmedTime": {
+        "message": "Timer: gearmte Zeit",
+        "description": "One of the elements of the OSD"
     },
     "osdDescElementArmedTime": {
         "message": "Vergangene Zeit seit dem letzten Armen"
@@ -4466,6 +4603,18 @@
         "message": "eingeschaltet - Zeit",
         "description": "One of the options for the source timer. This options shows the amount of time has passed since the battery was plugged"
     },
+    "osdTimerSourceOptionTotalArmedTime": {
+        "message": "Gesamte gearmte Zeit",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed since the battery was plugged"
+    },
+    "osdTimerSourceOptionLastArmedTime": {
+        "message": "Letzte gearmte Zeit",
+        "description": "One of the options for the source timer. This options shows the amount of time the craft was armed the latest time"
+    },
+    "osdTimerSourceOptionOnArmTime": {
+        "message": "An/gearmte Zeit",
+        "description": "One of the options for the source timer. This option shows On time when craft is disarmed, and Armed time when armed"
+    },
     "osdTimerPrecision": {
         "message": "Genauigkeit:"
     },
@@ -4658,6 +4807,10 @@
         "message": "<span class=\"message-negative\">Achtung:</span> Du musst die VTX-Tabelle unten ZUERST konfigurieren und speichern, bevor du die $t(vtxSelectedMode.message) Felder verwenden kannst.",
         "description": "Message to show when the VTX is not supported in the VTX tab"
     },
+    "vtxMessageVerifyTable": {
+        "message": "<span class=\"message-negative\">Achtung:</span> Die Werte des VTX-Table wurden geladen, aber noch nicht auf dem Flugcontroller gespeichert. Sie müssen die Werte überprüfen und ändern, um sicherzustellen, dass sie in deinem Land gültig und legal sind und dann auf den $t(vtxButtonSave.message) Button drücken, um sie auf dem Flugcontroller zu speichern.",
+        "description": "Message to show when the VTX Table has been loaded from a external source"
+    },
     "vtxFrequencyChannel": {
         "message": "Frequenz direkt eingeben",
         "description": "Text of one of the fields of the VTX tab"
@@ -4724,6 +4877,10 @@
     },
     "vtxPower_0": {
         "message": "Kein",
+        "description": "Text of one of the options for the power field of the VTX tab"
+    },
+    "vtxPower_X": {
+        "message": "Leistungsstufen {{powerLevel}}",
         "description": "Text of one of the options for the power field of the VTX tab"
     },
     "vtxChannel": {
@@ -4858,6 +5015,14 @@
         "message": "<span class=\"message-negative\">Fehler</span> beim Laden der VTX Konfiguration",
         "description": "Message in the GUI log when the VTX Config file is loaded"
     },
+    "vtxLoadClipboardOk": {
+        "message": "VTX Konfigurationsinfo aus Zwischenablage <span class=\"message-positive\">geladen</span>",
+        "description": "Message in the GUI log when the VTX Config file is pasted from clipboard"
+    },
+    "vtxLoadClipboardKo": {
+        "message": "<span class=\"message-negative\">Fehler</span> beim Laden der VTX Config-Informationen aus der Zwischenablage. Vielleicht sind die Inhalte nicht korrekt",
+        "description": "Message in the GUI log when the VTX Config file is pasted from clipboard"
+    },
     "vtxButtonSaveFile": {
         "message": "In Datei speichern",
         "description": "Save to file button in the VTX tab"
@@ -4865,6 +5030,10 @@
     "vtxButtonLoadFile": {
         "message": "Aus Datei laden",
         "description": "Load to file button in the VTX tab"
+    },
+    "vtxButtonLoadClipboard": {
+        "message": "Aus Zwischenablage laden",
+        "description": "Paste from clipboard button in the VTX tab"
     },
     "vtxButtonSave": {
         "message": "Speichern",
@@ -4889,11 +5058,22 @@
     "configurationEscProtocolHelp": {
         "message": "Auswahl des Motor-Protokolls.<br>Bitte sicherstellen dass die Regler dies auch unterstützen. Im Zweifelsfall Dokumentation der Regler heranziehen.<br><b>Achtung bei Dshot900 oder Dshot1200, noch nicht viele Regler unterstützen diese Protokolle.</b>"
     },
+    "configurationEscProtocolHelpNoDSHOT1200": {
+        "message": "Wählen Sie Ihr Motorprotokoll. <br>Stellen Sie sicher, dass das Protokoll von Ihrem ESC unterstützt wird. Diese Information sollte auf der Website des Herstellers zu finden sein."
+    },
     "configurationunsyndePwm": {
         "message": "Motor PWM Geschwindigkeit unabhängig vom PID Controller"
     },
     "configurationUnsyncedPWMFreq": {
         "message": "Motor PWM Frequenz"
+    },
+    "configurationDshotBidir": {
+        "message": "Bidirektionales DShot (benötigt unterstützte ESC Firmware)",
+        "description": "Feature for the ESC/Motor"
+    },
+    "configurationDshotBidirHelp": {
+        "message": "Wenn aktiviert, kann das DSHOT-Protokoll direkt Daten vom ESC empfangen, die von dem RPM-Filter und anderen Funktionen benötigt werden.<br><br>Dies erfordert die JESC-Firmware von jflight.net für BLHELI_S oder die neueste BLHELI_32 Firmware.",
+        "description": "Description of the Bidirectional DShot feature of the ESC/Motor"
     },
     "configurationGyroSyncDenom": {
         "message": "Gyro Update Frequenz"
