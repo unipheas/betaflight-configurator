@@ -898,6 +898,10 @@
         "message": "crwdns9184:0crwdne9184:0",
         "description": "Message that pops up to describe the REBOOT_REQD arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipDSHOT_BBANG": {
+        "message": "crwdns9882:0crwdne9882:0",
+        "description": "Message that pops up to describe the DSHOT_BBANG arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "crwdns8986:0crwdne8986:0",
         "description": "Message that pops up to describe the ARM_SWITCH arming disable flag"
