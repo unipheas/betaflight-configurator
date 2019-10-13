@@ -5044,7 +5044,7 @@
         "description": "Text of one of the fields of the VTX tab"
     },
     "vtxPitModeHelp": {
-        "message": "crwdns9618:0crwdne9618:0",
+        "message": "crwdns9884:0crwdne9884:0",
         "description": "Help text for the pit mode field of the VTX tab"
     },
     "vtxPitModeFrequency": {
@@ -5108,7 +5108,7 @@
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
     },
     "vtxTableBandsChannelsHelp": {
-        "message": "crwdns9650:0crwdne9650:0",
+        "message": "crwdns9886:0crwdne9886:0",
         "description": "Help for the number of bands and channels field of the VTX Table element in the VTX tab"
     },
     "vtxTableBandTitleName": {
