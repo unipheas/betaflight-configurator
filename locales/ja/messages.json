@@ -4965,10 +4965,6 @@
         "message": "ピットモード",
         "description": "Text of one of the fields of the VTX tab"
     },
-    "vtxPitModeHelp": {
-        "message": "有効にすると、VTXは非常に低い送信出力モードになり、他のパイロットを邪魔することなく機体をピットで電源ONすることができます。通常このモードでの有効範囲は5m未満です。<br><br>注: SmartAudio等の一部のプロトコルは、電源投入後ソフト的にピットモードを有効にすることはできません。",
-        "description": "Help text for the pit mode field of the VTX tab"
-    },
     "vtxPitModeFrequency": {
         "message": "ピットモード周波数",
         "description": "Text of one of the fields of the VTX tab"
@@ -5028,10 +5024,6 @@
     "vtxTableChannels": {
         "message": "バンド別チャンネル数",
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
-    },
-    "vtxTableBandsChannelsHelp": {
-        "message": "VTXに必要なバンド毎のチャネル数を定義します。",
-        "description": "Help for the number of bands and channels field of the VTX Table element in the VTX tab"
     },
     "vtxTableBandTitleName": {
         "message": "名称",
