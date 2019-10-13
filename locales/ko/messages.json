@@ -5034,7 +5034,7 @@
         "description": "Text of one of the fields of the VTX tab"
     },
     "vtxPitModeHelp": {
-        "message": "활성화되면 VTX는 다른 조종사를 방해하지 않고 쿼드가 벤치에 있도록 매우 낮은 출력 모드로 진입합니다. 보통 이 모드의 범위는 5m 미만입니다.<br><br>노트: 스마트오디오와 같은 일부 프로토콜은 전원을 켠 후 소프트웨어를 통해 Pit 모드를 활성화할 수 없습니다.'",
+        "message": "활성화되면 VTX는 다른 조종사를 방해하지 않고 쿼드가 벤치에 있도록 매우 낮은 출력 모드로 진입합니다. 보통 이 모드의 범위는 5m 미만입니다.<br><br>노트: 스마트오디오와 같은 일부 프로토콜은 전원을 켠 후 소프트웨어를 통해 Pit 모드를 활성화할 수 없습니다.",
         "description": "Help text for the pit mode field of the VTX tab"
     },
     "vtxPitModeFrequency": {
