@@ -4965,10 +4965,6 @@
         "message": "Modo Pit",
         "description": "Text of one of the fields of the VTX tab"
     },
-    "vtxPitModeHelp": {
-        "message": "Cuando está activado, el VTX entra en un modo de muy baja energía para permitir que el quad esté en el banco de pruebas sin molestar a otros pilotos. Generalmente el rango de este modo es inferior a 5m.<br><br>NOTA: Algunos protocolos, como SmartAudio, no pueden activar el Modo Pit vía software después de encendido.",
-        "description": "Help text for the pit mode field of the VTX tab"
-    },
     "vtxPitModeFrequency": {
         "message": "Frecuencia del Modo Pit",
         "description": "Text of one of the fields of the VTX tab"
@@ -5028,10 +5024,6 @@
     "vtxTableChannels": {
         "message": "Número de canales por banda",
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
-    },
-    "vtxTableBandsChannelsHelp": {
-        "message": "Esto define el número de bandas y el número de canales por banda que quieres para tu VTX.",
-        "description": "Help for the number of bands and channels field of the VTX Table element in the VTX tab"
     },
     "vtxTableBandTitleName": {
         "message": "Nombre",
