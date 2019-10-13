@@ -4961,10 +4961,6 @@
         "message": "Modo Pit",
         "description": "Text of one of the fields of the VTX tab"
     },
-    "vtxPitModeHelp": {
-        "message": "Quando ativado, o VTX entra em um estado de baixa potência para que possa deixar a aeronave no banco sem perturbar os outros pilotos. Geralmente o alcance deste modo é menor do que 5m.<br><br>Nota: Alguns protocolos, como o SmartAudio não podem ativar o Modo Pit por software após ser ligado.",
-        "description": "Help text for the pit mode field of the VTX tab"
-    },
     "vtxPitModeFrequency": {
         "message": "Frequência do modo Pit",
         "description": "Text of one of the fields of the VTX tab"
@@ -5024,10 +5020,6 @@
     "vtxTableChannels": {
         "message": "Quantidade de canais por banda",
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
-    },
-    "vtxTableBandsChannelsHelp": {
-        "message": "Define a quantidade desejada de bandas e de canais por banda para o VTX.",
-        "description": "Help for the number of bands and channels field of the VTX Table element in the VTX tab"
     },
     "vtxTableBandTitleName": {
         "message": "Nome",
