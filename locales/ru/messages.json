@@ -4230,6 +4230,10 @@
     "osdDescElementDisplayName": {
         "message": "Отображать имя, которое установлено консольной командой \"display_name\""
     },
+    "osdTextElementEscRpmFreq": {
+        "message": "Частота вращения, полученная от ESC",
+        "description": "One of the elements of the OSD"
+    },
     "osdDescElementEscRpmFreq": {
         "message": "Частота RPM, сообщаемая телеметрией регуляторов оборотов"
     },
@@ -4394,8 +4398,16 @@
     "osdDescStatEscTemperature": {
         "message": "Максимальная температура ESC"
     },
+    "osdTextStatEscRpm": {
+        "message": "Максимальный RPM ESC",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
+    },
     "osdDescStatEscRpm": {
         "message": "Максимальные обороты ESC"
+    },
+    "osdTextStatMinLinkQuality": {
+        "message": "Минимальное качество связи",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMinLinkQuality": {
         "message": "Альтернативный минимальный индикатор качества основанный на потере кадров"
@@ -4406,6 +4418,10 @@
     },
     "osdDescStatFlightDistance": {
         "message": "Общее расстояние, пройденное за время полета"
+    },
+    "osdTextStatMaxFFT": {
+        "message": "максимум FFT",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     },
     "osdDescStatMaxFFT": {
         "message": "Пиковая частота FFT"
