@@ -5029,10 +5029,6 @@
         "message": "维修站模式(Pit Mode)",
         "description": "Text of one of the fields of the VTX tab"
     },
-    "vtxPitModeHelp": {
-        "message": "启用时，图传将进入功率极低的模式，可以在不影响其他飞行员的情况下对飞行器进行维修。通常来说，此模式的有效范围小于5米。<br><br>注意: 一些协议，如SmartAudio，无法通过软件开启Pit模式。",
-        "description": "Help text for the pit mode field of the VTX tab"
-    },
     "vtxPitModeFrequency": {
         "message": "维修站模式频率",
         "description": "Text of one of the fields of the VTX tab"
@@ -5092,10 +5088,6 @@
     "vtxTableChannels": {
         "message": "频段内的频道数",
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
-    },
-    "vtxTableBandsChannelsHelp": {
-        "message": "这定义了您希望使用的图传的的频段和频道数量。",
-        "description": "Help for the number of bands and channels field of the VTX Table element in the VTX tab"
     },
     "vtxTableBandTitleName": {
         "message": "名称",
