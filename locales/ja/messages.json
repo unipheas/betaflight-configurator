@@ -1449,11 +1449,11 @@
         "description": "Advance of the D Min feature"
     },
     "pidTuningDMinFeatureHelp": {
-        "message": "D Minは、通常の飛行ではD値のレベルを低くし、フリップやロールなどオーバーシュートを引き起こすような素早い操縦が必要な場合には、D値のレベルを高くする機能を提供します。またD値を上げ過ぎるとプロップウォッシュとなります。強さ[Gain] は、D値が最大値に到達する速度を調整し、それによりジャイロに基づき、鋭い動きとプロップウォッシュ状態が決まります。Advanceは、ジャイロの代わりにセットポイントを使用して鋭い動きが決まり、D値を素早く上昇させます。",
+        "message": "D値最小[D_Min] は、通常の飛行ではD値のレベルを低くし、フリップやロールなどオーバーシュートを引き起こすような素早い操縦が必要な場合には、D値のレベルを高くする機能を提供します。またD値を上げ過ぎるとプロップウォッシュとなります。強さ[ゲイン] は、D値が最大値に到達する速度を調整し、それによりジャイロに基づき、鋭い動きとプロップウォッシュ状態が決まります。詳細設定は、ジャイロの代わりにセットポイントを使用して鋭い動きが決まり、D値を素早く上昇させます。",
         "description": "D Min feature helpicon message"
     },
     "pidTuningDMinHelp": {
-        "message": "通常の直進飛行での減衰の強さ (D値) を制御します。<br>D_minを有効にすると、飛行中に有効なD値の強さを可変させます。通常の直進飛行では、以下の強さのD_min値となります。機敏な挙動またはプロップウォッシュが発生した際、有効なDerivative[微分制御] の強さは左に指定されたD値ゲインまで上昇します。<br><br>機敏なスティック入力の場合は完全なD値ゲインが得られますが、プロップウォッシュ時は一部のD値ゲインしか有効になりません。<br>D_Minの強さ[ゲイン] と詳細設定を調整して、ブーストの感度とタイミングを制御しましょう。",
+        "message": "通常の直進飛行での減衰の強さ (D値) を制御します。<br>D_Minを有効にすると、飛行中に有効なD値の強さを可変させます。通常の直進飛行では、以下の強さのD_Min値となります。機敏な挙動またはプロップウォッシュが発生した際、有効なDerivative[微分制御] の強さは左に指定されたD値ゲインまで上昇します。<br><br>機敏なスティック入力の場合は完全なD値ゲインが得られますが、プロップウォッシュ時は一部のD値ゲインしか有効になりません。<br>D_Minの強さ[ゲイン] と詳細設定を調整して、ブーストの感度とタイミングを制御しましょう。",
         "description": "D Min helpicon message on PID table titlebar"
     },
     "pidTuningPidSettings": {
@@ -4965,6 +4965,10 @@
         "message": "ピットモード",
         "description": "Text of one of the fields of the VTX tab"
     },
+    "vtxPitModeHelp": {
+        "message": "有効にすると、VTXは非常に低い送信出力モードになり、他パイロットを邪魔することなく機体をピットで電源を入れることができます。通常このモードでの有効範囲は5m未満です。<br><br>注: SmartAudio等の一部のプロトコルは、電源投入後ソフト的にピットモードを有効にすることができません。",
+        "description": "Help text for the pit mode field of the VTX tab"
+    },
     "vtxPitModeFrequency": {
         "message": "ピットモード周波数",
         "description": "Text of one of the fields of the VTX tab"
@@ -5024,6 +5028,10 @@
     "vtxTableChannels": {
         "message": "バンド別チャンネル数",
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandsChannelsHelp": {
+        "message": "これにより、VTXに必要なバンド数とバンド別チャンネル数が定義されます。",
+        "description": "Help for the number of bands and channels field of the VTX Table element in the VTX tab"
     },
     "vtxTableBandTitleName": {
         "message": "名称",
