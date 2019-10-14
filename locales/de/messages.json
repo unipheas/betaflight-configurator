@@ -4843,7 +4843,7 @@
         "message": "Gespeichert"
     },
     "vtxHelp": {
-        "message": "Hier können die Werte des Video Transmitter (VTX) konfiguriert werden. Es kann die Übertragungswerte, einschließlich der VTX-Tables, angezeigt und geändert werden, wenn der Flugcontroller und der VTX ihn unterstützen.<br>Um den VTX einzurichten, folge diesen Schritten:<br>. Gehe zu <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/betaflight/betaflight/wiki/VTX-tables\">dieser</a> Seite;<br>2. Finde die passende VTX Konfigurationsdatei für das Land in dem die Drohne betrieben wird und das VTX Protokoll und lade sie herunter;<br>3. Klicke unten auf '$t(vtxButtonLoadFile.message)', wähle die VTX Konfigurationsdatei und lade sie;<br>4. Überprüfe, ob die Einstellungen korrekt sind;<br>5. Klicke auf '$t(vtxButtonSave.message)' um die VTX-Einstellungen auf dem Flugcontroller zu speichern.",
+        "message": "Hier können die Werte des Video Transmitter (VTX) konfiguriert werden. Es kann die Übertragungswerte, einschließlich der VTX-Tables, angezeigt und geändert werden, wenn der Flugcontroller und der VTX ihn unterstützen.<br>Um den VTX einzurichten, folge diesen Schritten:<br>1. Gehe zu <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/betaflight/betaflight/wiki/VTX-tables\">dieser</a> Seite;<br>2. Finde die passende VTX Konfigurationsdatei für das Land in dem die Drohne betrieben wird und das VTX Protokoll und lade sie herunter;<br>3. Klicke unten auf '$t(vtxButtonLoadFile.message)', wähle die VTX Konfigurationsdatei und lade sie;<br>4. Überprüfe, ob die Einstellungen korrekt sind;<br>5. Klicke auf '$t(vtxButtonSave.message)' um die VTX-Einstellungen auf dem Flugcontroller zu speichern.",
         "description": "Introduction message in the VTX tab"
     },
     "vtxMessageNotSupported": {
@@ -4962,6 +4962,10 @@
         "message": "Pit-Modus",
         "description": "Text of one of the fields of the VTX tab"
     },
+    "vtxPitModeHelp": {
+        "message": "Wenn aktiviert, schaltet der VTX beim anschalten der Drohne in einen sehr niedrigen Leistungsmodus, damit andere Piloten nicht gestört werden. Der Sendebereich in diesem Modus beträgt gewöhnlich weniger als 5 m.<br><br>HINWEIS: Einige Protokolle wie SmartAudio können den Pit Mode nach dem Einschalten nicht über die Software aktivieren.",
+        "description": "Help text for the pit mode field of the VTX tab"
+    },
     "vtxPitModeFrequency": {
         "message": "Pit-Modus Frequenz",
         "description": "Text of one of the fields of the VTX tab"
@@ -5021,6 +5025,10 @@
     "vtxTableChannels": {
         "message": "Anzahl der Kanäle pro Band",
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
+    },
+    "vtxTableBandsChannelsHelp": {
+        "message": "Definiert die Anzahl der Bänder und der Kanäle pro Band, die für den VTX konfiguriert werden.",
+        "description": "Help for the number of bands and channels field of the VTX Table element in the VTX tab"
     },
     "vtxTableBandTitleName": {
         "message": "Name",
