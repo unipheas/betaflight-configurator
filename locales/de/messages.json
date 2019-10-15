@@ -942,9 +942,6 @@
     "featureRX_SPI": {
         "message": "SPI Empfänger"
     },
-    "featureESC_SENSOR": {
-        "message": "Benutze KISS/BLHeli_32 ESC Telemetrie <b>über einen separates Kabel</b>"
-    },
     "featureCHANNEL_FORWARDING": {
         "message": "AUX Kanäle als Servo Ausgang weiterleiten"
     },
