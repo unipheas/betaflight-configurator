@@ -942,6 +942,9 @@
     "featureRX_SPI": {
         "message": "SPI Empfänger"
     },
+    "featureESC_SENSOR": {
+        "message": "KISS/BLHeli_32 ESC Telemetrie <b>über eine separate Leitung</b> verwenden"
+    },
     "featureCHANNEL_FORWARDING": {
         "message": "AUX Kanäle als Servo Ausgang weiterleiten"
     },
@@ -2573,7 +2576,7 @@
         "message": "Wähle deinen FC, um online verfügbare Firmware-Versionen zu sehen. Wähle dann die richtige Firmware für deinen FC."
     },
     "firmwareFlasherOnlineSelectBoardHint": {
-        "message": "Beginnend mit Betaflight 4.1, setzt Betaflight Unterstützung für <strong>Unified Targets</strong>ein. Das Konzept von Unified Targets bedeutet, dass die gleiche Firmware .hex-Datei für alle Boards mit der gleichen MCU (F4, F7) verwendet werden kann. Damit die verschiedenen Boards mit derselben Firmware arbeiten können, wird neben der Firmware eine spezifische Konfigurationsdatei geladen, wenn ein Unified Target gebrannt wird.<br>Diese Version von Betaflight-Konfigurator unterstützt das Flashen von Unified Targets mit den jeweiligen Board-spezifischen Konfigurationen in einem Schritt. Die verschiedenen Firmware-Typen, die für jedes Board verfügbar sind, werden wie folgt angezeigt:<br><br><strong>&lt;board name&gt;</strong> oder<br><strong>&lt;board name&gt; (Legacy)</strong>:<br>Kein Unified Target oder Pre-4.1 Versionen der Firmware für Unified Targets.<br><br><strong>&lt;board name&gt; (&lt;manufacturer id&gt;)</strong>:<br>(4-Zeichen-Hersteller-Id)<br>Unified Target.<br><br><strong>Wenn verfügbar, bitte das Unified Target verwenden.</strong> Wenn es Probleme mit einem Unified Target gibt, öffne bitte ein <a href=\"https://github.com/betaflight/betaflight/issues\" target=\"_blank\" rel=\"noopener noreferrer\">Ticket</a> und verwende vorübergehend das (Legacy) Target, bis das Problem gelöst ist."
+        "message": "Beginnend mit Betaflight 4.1, setzt Betaflight Unterstützung für <strong>Unified Targets</strong> ein. Das Konzept von Unified Targets bedeutet, dass die gleiche Firmware .hex-Datei für alle Boards mit der gleichen MCU (F4, F7) verwendet werden kann. Damit die verschiedenen Boards mit derselben Firmware arbeiten können, wird neben der Firmware eine spezifische Konfigurationsdatei geladen, wenn ein Unified Target gebrannt wird.<br>Diese Version von Betaflight-Konfigurator unterstützt das Flashen von Unified Targets mit den jeweiligen Board-spezifischen Konfigurationen in einem Schritt. Die verschiedenen Firmware-Typen, die für jedes Board verfügbar sind, werden wie folgt angezeigt:<br><br><strong>&lt;board name&gt;</strong> oder<br><strong>&lt;board name&gt; (Legacy)</strong>:<br>Kein Unified Target oder Pre-4.1 Versionen der Firmware für Unified Targets.<br><br><strong>&lt;board name&gt; (&lt;manufacturer id&gt;)</strong>:<br>(4-Zeichen-Hersteller-Id)<br>Unified Target.<br><br><strong>Wenn verfügbar, bitte das Unified Target verwenden.</strong> Wenn es Probleme mit einem Unified Target gibt, öffne bitte ein <a href=\"https://github.com/betaflight/betaflight/issues\" target=\"_blank\" rel=\"noopener noreferrer\">Ticket</a> und verwende vorübergehend das (Legacy) Target, bis das Problem gelöst ist."
     },
     "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
         "message": "Wähle die Firmware-Version für deinen FC."
