@@ -160,6 +160,9 @@
     "deviceRebooting_flashBootloader": {
         "message": "Устройство - <span class=\"message-negative\">Перезагрузка для прошивки бутлоадера</span>"
     },
+    "deviceRebooting_romBootloader": {
+        "message": "Устройство - <span class=\"message-negative\">Перезагрузка для загрузки бутлоадера</span>"
+    },
     "deviceReady": {
         "message": "Устройство - <span class=\"message-positive\">Готово</span>"
     },
@@ -303,6 +306,9 @@
     },
     "stm32UsbDfuNotFound": {
         "message": "USB DFU не найден"
+    },
+    "stm32RebootingToBootloader": {
+        "message": "Перезапуск в режим загрузчика..."
     },
     "stm32RebootingToBootloaderFailed": {
         "message": "Перезапуск в режим загрузчика: ОШИБКА"
@@ -2612,7 +2618,7 @@
         "message": "Загружаеться..."
     },
     "firmwareFlasherFlashFirmware": {
-        "message": "Загрузить прошивку"
+        "message": "Прошить прошивку"
     },
     "firmwareFlasherGithubInfoHead": {
         "message": "GitHub Firmware инфо"
