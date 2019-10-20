@@ -1,0 +1,127 @@
+{
+    "yes": {
+        "message": "Bai",
+        "description": "General Yes message to be used across the application"
+    },
+    "no": {
+        "message": "Ez",
+        "description": "General No message to be used across the application"
+    },
+    "on": {
+        "message": "Piztuta"
+    },
+    "off": {
+        "message": "Itzalita"
+    },
+    "auto": {
+        "message": "Automatikoa"
+    },
+    "error": {
+        "message": "Error: {{errorMessage}}"
+    },
+    "errorTitle": {
+        "message": "Akatsa"
+    },
+    "warningTitle": {
+        "message": "Kontuz"
+    },
+    "noticeTitle": {
+        "message": "Oharra"
+    },
+    "options_title": {
+        "message": "Aplikazioaren ezarpenak"
+    },
+    "connect": {
+        "message": "Konektatu"
+    },
+    "connecting": {
+        "message": "Konektatzen"
+    },
+    "disconnect": {
+        "message": "Deskonektatu"
+    },
+    "portsSelectManual": {
+        "message": "Aukera manuala"
+    },
+    "portOverrideText": {
+        "message": "Ataka:"
+    },
+    "autoConnect": {
+        "message": "Automatikoki konektatu"
+    },
+    "close": {
+        "message": "Itxi"
+    },
+    "cancel": {
+        "message": "Ezeztatu"
+    },
+    "language_choice_message": {
+        "message": "Hizkuntza aldatu:",
+        "description": "Try and be brief"
+    },
+    "sensorStatusGyro": {
+        "message": "Giroskopoa"
+    },
+    "sensorStatusGyroShort": {
+        "message": "Giro",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusAccel": {
+        "message": "Azelerometroa"
+    },
+    "sensorStatusAccelShort": {
+        "message": "Azel",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "tabLanding": {
+        "message": "Ongi Etorri"
+    },
+    "tabSetup": {
+        "message": "Konfigurazioa"
+    },
+    "tabConfiguration": {
+        "message": "Konfigurazioa"
+    },
+    "tabPorts": {
+        "message": "Atakak"
+    },
+    "tabOsd": {
+        "message": "OSD"
+    },
+    "tabVtx": {
+        "message": "Bideo igorlea"
+    },
+    "tabGPS": {
+        "message": "GPS"
+    },
+    "tabMotorTesting": {
+        "message": "Motoreak"
+    },
+    "tabLedStrip": {
+        "message": "LED Zerrenda"
+    },
+    "tabRawSensorData": {
+        "message": "Sensoreak"
+    },
+    "tabCLI": {
+        "message": "CLI"
+    },
+    "tabOnboardLogging": {
+        "message": "Blackbox"
+    },
+    "tabAuxiliary": {
+        "message": "Moduak"
+    },
+    "versionLabelConfigurator": {
+        "message": "Konfiguratzailea"
+    },
+    "notifications_click_here_to_start_app": {
+        "message": "Klikatu hemen aplikazioa hasteko"
+    },
+    "initialSetupBatteryHead": {
+        "message": "Bateria"
+    },
+    "initialSetupInfoHead": {
+        "message": "Informazioa"
+    }
+}
