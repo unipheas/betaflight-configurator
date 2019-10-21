@@ -17,16 +17,22 @@
         "message": "Automatikoa"
     },
     "error": {
-        "message": "Error: {{errorMessage}}"
+        "message": "Errore: {{errorMessage}}"
     },
     "errorTitle": {
-        "message": "Akatsa"
+        "message": "Errore"
     },
     "warningTitle": {
         "message": "Kontuz"
     },
     "noticeTitle": {
         "message": "Oharra"
+    },
+    "operationNotSupported": {
+        "message": "Zure hardware ez du lan hau onartzen."
+    },
+    "storageDeviceNotReady": {
+        "message": "Biltegiratzeko gailua ez dago prest. MikroSD txartelaren kasuan, ziurtatu hegaldi kontrolatzaileak behar bezala aitortzen duela."
     },
     "options_title": {
         "message": "Aplikazioaren ezarpenak"
@@ -55,9 +61,47 @@
     "cancel": {
         "message": "Ezeztatu"
     },
+    "autoConnectEnabled": {
+        "message": "Konexio automatikoa: gaituta - Konfiguratzaileak ataka berria hautematen denean automatikoki konektatzen saiatzen da"
+    },
+    "autoConnectDisabled": {
+        "message": "Konexio automatikoa: desgaituta - Erabiltzaileak serieko portu egokia hautatu behar du eta \"Konektatu\" botoia sakatu behar du"
+    },
+    "expertMode": {
+        "message": "Adituen modua"
+    },
+    "expertModeDescription": {
+        "message": "Erakutsi eraikinik gabeko eta balizko ezegonkorrak"
+    },
+    "permanentExpertMode": {
+        "message": "Aditu modua etengabe gaitu"
+    },
+    "rememberLastTab": {
+        "message": "Gogoratu azken fitxa konektatuan"
+    },
+    "analyticsOptOut": {
+        "message": "Ez parte hartu datu estatistikoen bilduma anonimoan"
+    },
+    "language_changed": {
+        "message": "Hizkuntza aldaketa gorde da"
+    },
     "language_choice_message": {
         "message": "Hizkuntza aldatu:",
         "description": "Try and be brief"
+    },
+    "language_default": {
+        "message": "Sistema lehenetsia"
+    },
+    "language_default_pretty": {
+        "message": "Sistema lehenetsia ($t(detectedLanguage))"
+    },
+    "sensorDataFlashNotFound": {
+        "message": "Flash memoria <br> ez dago erabilgarri",
+        "description": "Text of the dataflash image in the header of the page."
+    },
+    "sensorDataFlashFreeSpace": {
+        "message": "Flash memoria: espazio librea",
+        "description": "Text of the dataflash image in the header of the page."
     },
     "sensorStatusGyro": {
         "message": "Giroskopoa"
@@ -73,11 +117,90 @@
         "message": "Azel",
         "description": "Text of the image in the top sensors icons. Please keep it short."
     },
+    "sensorStatusMag": {
+        "message": "Magnetometroa"
+    },
+    "sensorStatusMagShort": {
+        "message": "Mag",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusBaro": {
+        "message": "Barometroa"
+    },
+    "sensorStatusBaroShort": {
+        "message": "Baro",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusGPS": {
+        "message": "GPSa"
+    },
+    "sensorStatusGPSShort": {
+        "message": "GPSa",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "sensorStatusSonar": {
+        "message": "Sonar / Telemetroa"
+    },
+    "sensorStatusSonarShort": {
+        "message": "Sonar",
+        "description": "Text of the image in the top sensors icons. Please keep it short."
+    },
+    "checkForConfiguratorUnstableVersions": {
+        "message": "Erakutsi konfiguratzailearen bertsio ezegonkorretarako eguneratze jakinarazpenak"
+    },
+    "configuratorUpdateNotice": {
+        "message": "<b>Betaflight Configurator</b> ren bertsio zaharkitua erabiltzen ari zara. Kaixo, <br>Bertsio<b>$1</b> da eskuragarri online, bisitatu <a href=\"$2\"target=\"_blank\">oharra orriaren</a>konponketak eta hobekuntzak azken bertsioa deskargatu eta instalatu. <br>Itxi konfiguratzailearen leihoa eguneratu aurretik."
+    },
+    "configuratorUpdateWebsite": {
+        "message": "Bertsio agirien webgunera joan"
+    },
+    "deviceRebooting": {
+        "message": "Device - <span class=\"message-negative\">Abiarazten</span>"
+    },
+    "deviceRebooting_flashBootloader": {
+        "message": "Device - <span class=\"message-negative\">FLASH BOOTLOADERrera abiarazten</span>"
+    },
+    "deviceRebooting_romBootloader": {
+        "message": "Gailua - <span class=\"message-negative\">ROM BOOTLOADERrera abiarazten</span>"
+    },
+    "deviceReady": {
+        "message": "Device - <span class=\"message-positive\">Prest</span>"
+    },
+    "backupFileIncompatible": {
+        "message": "Barkatu, baina, BACKUPa aurreko bertsiorako egina dago eta bertsio honekin ez du balio"
+    },
+    "backupFileUnmigratable": {
+        "message": "Barkatu, baina, BACKUPa aurreko bertsioak egina dago eta ezin da bertsio honetan erabili."
+    },
+    "configMigrationFrom": {
+        "message": "$1 -kin egindako configurazioa eguneratzen"
+    },
+    "configMigratedTo": {
+        "message": "$1 -kin egindako configurazioa eguneratua"
+    },
+    "configMigrationSuccessful": {
+        "message": "$1 -kin egindako configurazioa eguneratua eta ipinita"
+    },
+    "tabFirmwareFlasher": {
+        "message": "FIRMWARE FLASHeatzailea"
+    },
     "tabLanding": {
         "message": "Ongi Etorri"
     },
+    "tabChangelog": {
+        "message": "Aldaketak"
+    },
+    "tabPrivacyPolicy": {
+        "message": "Pribautasun Agiriak"
+    },
+    "tabHelp": {
+        "message": "Dokumentazioa eta laguntza"
+    },
     "tabSetup": {
         "message": "Konfigurazioa"
+    },
+    "tabSetupOSD": {
+        "message": "OSD konfigurazioa"
     },
     "tabConfiguration": {
         "message": "Konfigurazioa"
@@ -85,11 +208,32 @@
     "tabPorts": {
         "message": "Atakak"
     },
+    "tabPidTuning": {
+        "message": "PID Egokitzea"
+    },
+    "tabReceiver": {
+        "message": "Hargailua"
+    },
+    "tabModeSelection": {
+        "message": "Modu Haukerak"
+    },
+    "tabServos": {
+        "message": "Serboak"
+    },
+    "tabFailsafe": {
+        "message": "Salbuztea"
+    },
+    "tabTransponder": {
+        "message": "Laizterketarako Erantzungailua"
+    },
     "tabOsd": {
         "message": "OSD"
     },
     "tabVtx": {
         "message": "Bideo igorlea"
+    },
+    "tabPower": {
+        "message": "Energia eta Bateria"
     },
     "tabGPS": {
         "message": "GPS"
@@ -106,11 +250,219 @@
     "tabCLI": {
         "message": "CLI"
     },
+    "tabLogging": {
+        "message": "Loturako Erregistroa"
+    },
     "tabOnboardLogging": {
         "message": "Blackbox"
     },
+    "tabAdjustments": {
+        "message": "Egokitzeak"
+    },
     "tabAuxiliary": {
         "message": "Moduak"
+    },
+    "logActionHide": {
+        "message": "Log-ak Eskutatzea"
+    },
+    "logActionShow": {
+        "message": "Log-ak Erakutsi"
+    },
+    "serialErrorFrameError": {
+        "message": "Serie Konexioaren errorea: Sarrera txarra"
+    },
+    "serialErrorParityError": {
+        "message": "Serie Konexioaren errorea: Parekotasun txarra"
+    },
+    "serialPortOpened": {
+        "message": "Serie Ataka <span class=\"message-positive\">arrakastaz</span> irekia ID: $1 -rekin"
+    },
+    "serialPortOpenFail": {
+        "message": "Serieko ataka irekitzerakoan <span class=\"message-negative\">huts</span>"
+    },
+    "serialPortClosedOk": {
+        "message": "Serieko ataka <span class=\"message-positive\">arrakastaz</span> itxita"
+    },
+    "serialPortClosedFail": {
+        "message": "Serieko ataka izterakoan <span class=\"message-negative\">huts</span>"
+    },
+    "serialUnrecoverable": {
+        "message": "<span class=\"message-negative\">Huts</span> berreskuraezina serieko loturarekin, deskonektatzen..."
+    },
+    "usbDeviceOpened": {
+        "message": "USB gailua <span class=\"message-positive\">arrakaztaz</span> irekia ID: $1 -rekin"
+    },
+    "usbDeviceOpenFail": {
+        "message": "USB gailua irekitzerakoan<span class=\"message-negative\">huts</span>!"
+    },
+    "usbDeviceClosed": {
+        "message": "USB gailua <span class=\"message-positive\">arrakaztaz</span> itxia"
+    },
+    "usbDeviceCloseFail": {
+        "message": "Serieko ataka izterakoan <span class=\"message-negative\">huts</span>"
+    },
+    "usbDeviceUdevNotice": {
+        "message": "<strong>Udev arauak</strong> behar bezala instalatu dira? Ikusi argibideak lortzeko"
+    },
+    "stm32UsbDfuNotFound": {
+        "message": "USB gailuaren DFU-a ez topatua"
+    },
+    "stm32RebootingToBootloader": {
+        "message": "BOOTLOADERaren berrabiaketa hasten ..."
+    },
+    "stm32RebootingToBootloaderFailed": {
+        "message": "BOOTLOADERerako ailuaren berrabiaketa: HUTS"
+    },
+    "stm32TimedOut": {
+        "message": "STM32 - Demboraz kampo, programazioa: HUTS"
+    },
+    "stm32WrongResponse": {
+        "message": "STM32 Arremanak huts, erantzun txarra, esperokoa: $1 (0x$2) heldutakoa: $3 (0x$4)"
+    },
+    "stm32ContactingBootloader": {
+        "message": "BOOTLOADERrarekin harremanak hasten ..."
+    },
+    "stm32ContactingBootloaderFailed": {
+        "message": "BOOTLOADERrarekin harremanak huts"
+    },
+    "stm32ResponseBootloaderFailed": {
+        "message": "BOOTLOADERekiko harremanak erantzun gabe, programazioa: HUTS"
+    },
+    "stm32GlobalEraseExtended": {
+        "message": "CHIPa guztiz ezabatzen (Guztiz-guztiko ezabaketa) ..."
+    },
+    "stm32LocalEraseExtended": {
+        "message": "CHIPa gainetik ezabatzen (Guzti-guztiko ezabaketa) ..."
+    },
+    "stm32GlobalErase": {
+        "message": "CHIPa guztiz ezabatzen ..."
+    },
+    "stm32LocalErase": {
+        "message": "CHIPa gainetik ezabatzen ..."
+    },
+    "stm32InvalidHex": {
+        "message": "Baliogabeko HEXa"
+    },
+    "stm32Erase": {
+        "message": "Ezabatzen ..."
+    },
+    "stm32Flashing": {
+        "message": "FLASHeatzen ..."
+    },
+    "stm32Verifying": {
+        "message": "Egiaztatzen ..."
+    },
+    "stm32ProgrammingSuccessful": {
+        "message": "Programatzen: ARRAKAZTAZ"
+    },
+    "stm32ProgrammingFailed": {
+        "message": "Programatzen: HUTS"
+    },
+    "stm32AddressLoadFailed": {
+        "message": "Byten Sectoreerako Aukeren helbide-karga huts egin du. Oso litekeena da irakurtzeko babesa izatea."
+    },
+    "stm32AddressLoadSuccess": {
+        "message": "Byten Sectoreerako Aukeren helbide-kargatua arrakaztaz."
+    },
+    "stm32AddressLoadUnknown": {
+        "message": "Byten Sectoreerako Aukeren helbide-karga huts egin du errore ezezagun batengatik. Bertan behera uzten."
+    },
+    "stm32NotReadProtected": {
+        "message": "Irakurtzeko babesa itzalita"
+    },
+    "stm32ReadProtected": {
+        "message": "Taula irakurtzeko babesa piztuta. Babeza kentzen. Ez deskonektatu!"
+    },
+    "stm32UnprotectSuccessful": {
+        "message": "Babeza kendua arrakaztaz."
+    },
+    "stm32UnprotectUnplug": {
+        "message": "AKZIO BEHARREZKOA: Deskonektatu eta berriro konektatu hegaldi-kontroladorea DFU moduan, berriro FLASHeatzeko!"
+    },
+    "stm32UnprotectFailed": {
+        "message": "Babeza kentzerakoan HUTS egin du"
+    },
+    "stm32UnprotectInitFailed": {
+        "message": "HUTS Babeza kentzen asterakoan"
+    },
+    "noConfigurationReceived": {
+        "message": "Ez zaio heldu konfigurazioa <span class=\"message-negative\">10 segunduko</span> epean, komunikazioa <span class=\"message-negative\">HUTS</span> egin du"
+    },
+    "firmwareVersionNotSupported": {
+        "message": "Firmware bertsio hau <span class=\"message-negative\">EZ dago onartua</span>. Mezedez firmwarea eguneratu, API bertsioa <strong>$1</strong> edo berriagora. CLI-a erabili backupa egiteko flasheatu aurretik. CLI backupa gorde edo beripintzeko modua dokumentazioan aurkitu dezakezu.<br />Baita ere Konfiguratzailearen aurreko bertsio bat dezkargatu eta erabili dezakezu ezin baduzu edo ez bazaude eguneratzeko prest."
+    },
+    "firmwareTypeNotSupported": {
+        "message": "Cleanflight/Betaflight-EZ firmwareak <span class=\"message-negative\">ez dira onartzen</span>, CLI moduan ez bada."
+    },
+    "firmwareUpgradeRequired": {
+        "message": "Firmware bertsio hau EZ dago onartua. Mezedez firmwarea eguneratu, API bertsioa edo berriagora. CLI-a erabili backupa egiteko flasheatu aurretik. CLI backupa gorde edo beripintzeko modua dokumentazioan aurkitu dezakezu. <br/>Baita ere Konfiguratzailearen aurreko bertsio bat dezkargatu eta erabili dezakezu ezin baduzu edo ez bazaude eguneratzeko prest."
+    },
+    "resetToCustomDefaultsDialog": {
+        "message": "Lehenetsi pertsonalizatuak daude eskuragarri kontrolatzaile honetarako. Normalki, kontrolatzailea ez da behar bezela ibiliko ez badinba zaizkiao bere lehenetsi pertsonalizatuak ipintzen.<br />Nahi duzu kontroladore honi bere lehenetsi pertsonalizatuak ipintzea?"
+    },
+    "resetToCustomDefaultsAccept": {
+        "message": "Aplikatu lehenetsi pertsonalizatua"
+    },
+    "infoVersions": {
+        "message": "Sistema Eragilea: <strong>{{operatingSystem}}</strong>, Chrome: <strong>{{chromeVersion}}</strong>, Konfiguratzailea: <strong>{{configuratorVersion}}</strong>",
+        "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
+    },
+    "buildServerLoaded": {
+        "message": "Kargatutako bertsioaren informazioa $1 -rentzat bertsio zerbidoreetatik."
+    },
+    "buildServerLoadFailed": {
+        "message": "<b>$1 bertsioen zerbitzariaren kontsultak huts egin du, cachean oinarritutako informazioa erabiliz. Arrazoia: <code>$2</code></b>"
+    },
+    "buildServerUsingCached": {
+        "message": "$1 -rako aurrememorian dauden konpilazioen informazioa erabiltzen."
+    },
+    "releaseCheckLoaded": {
+        "message": "$1 -aren bertsioen informazioa GitHub-etik kargatuta."
+    },
+    "releaseCheckFailed": {
+        "message": "<b>$1 bertsioen zerbitzariaren kontsultak huts egin du, cachean oinarritutako informazioa erabiliz. Arrazoia: <code>$2</code></b>"
+    },
+    "releaseCheckCached": {
+        "message": "$1 -aren aurretik gordetako bertsioen informazioa erabiltzen."
+    },
+    "releaseCheckNoInfo": {
+        "message": "$1 -rako bertsioen informazioa ez dago eskuragarri."
+    },
+    "tabSwitchConnectionRequired": {
+        "message": "Aurretik <strong>Konektatu</strong> behar zara, edozein atal ikusi ahal izateko."
+    },
+    "tabSwitchWaitForOperation": {
+        "message": "Eragiketa hau <span class=\"message-negative\">Ezin duzu</span> egin momentu honetan. Mesedez, itxaron uneko eragiketa amaitu arte..."
+    },
+    "tabSwitchUpgradeRequired": {
+        "message": "Zure \"Firmware\"-a Betafligth-eko azkenengo bertsiora <strong>eguneratu</strong> behar duzu $1 fitxa erabili ahal izateko."
+    },
+    "firmwareVersion": {
+        "message": "\"Firmware\"-n Bertsioa: <strong>$1</strong>"
+    },
+    "apiVersionReceived": {
+        "message": "MultiWii API bertsioa: <strong>$1</strong>"
+    },
+    "uniqueDeviceIdReceived": {
+        "message": "Gailuaren ID bakarra: <strong>=x$1</strong>"
+    },
+    "craftNameReceived": {
+        "message": "Aireontziaren izena:<strong>$1</strong>"
+    },
+    "armingDisabled": {
+        "message": "<strong>Armatua desgaitua</strong>"
+    },
+    "armingEnabled": {
+        "message": "<strong>Armatua gaitua</strong>"
+    },
+    "runawayTakeoffPreventionDisabled": {
+        "message": "<strong>Kontrolik gabeko aireratze prebentzio sistema, aldi baterako desgaitua</strong>"
+    },
+    "runawayTakeoffPreventionEnabled": {
+        "message": "<strong>Kontrolik gabeko aireratze prebentzio sistema aktibatuta</strong>"
+    },
+    "boardInfoReceived": {
+        "message": "Plaka:<strong>$1</strong>, bertsioa: <strong>$2</strong>"
     },
     "versionLabelConfigurator": {
         "message": "Konfiguratzailea"
@@ -123,5 +475,56 @@
     },
     "initialSetupInfoHead": {
         "message": "Informazioa"
+    },
+    "initialSetupAccelCalibStarted": {
+        "message": "Azelerometroaren kalibrazioa hasi da"
+    },
+    "initialSetupAccelCalibEnded": {
+        "message": "Zelerometroaren kalibrazioa <span class=\"message-positive\">amaitu da</span>"
+    },
+    "initialSetupMagCalibStarted": {
+        "message": "Magnetometroaren kalibrazioa hasi da"
+    },
+    "initialSetupMagCalibEnded": {
+        "message": "Magnetometroaren kalibrazioa <span class=\"message-positive\">amaitu da</span>"
+    },
+    "initialSetupSettingsRestored": {
+        "message": "<strong>Lehenetsita</strong> ezarpenak ezarrita"
+    },
+    "initialSetupEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">gordeta</span>"
+    },
+    "featureNone": {
+        "message": "&lt;Bat aukeratu&gt;"
+    },
+    "featureDISPLAYTip": {
+        "message": "Funtzio hau gaituta badago eta bistaratzeko gailurik ez dago konektatuta (edo bistaratzeko gailua ez dago piztuta), gutxi gorabehera 10 segunduko atzerapena egongo da hegaldi kontroladorearen berrabiarazi bakoitzean."
+    },
+    "featureTRANSPONDER": {
+        "message": "Laizterketarako Erantzungailua"
+    },
+    "configurationArmingHelp": {
+        "message": "Armatze-aukera batzuek azelerometroa gaituta izatea eskatzen dute"
+    },
+    "configurationMagDeclination": {
+        "message": "Magnetometroaren deklinabidea [deg]"
+    },
+    "configurationReverseMotorSwitch": {
+        "message": "Motorren norabidea alderantzizkoa da"
+    },
+    "configurationAutoDisarmDelay": {
+        "message": "Desarmatu motorrak ezarritako atzerapenaren ondoren [seconds] (MOTOR_STOP funtzioa behar du)"
+    },
+    "configurationDisarmKillSwitch": {
+        "message": "Desarmatu motorrak throttle balioa edozein dela ere (ARM moduen fitxan konfiguratuta dagoenean AUX kanalaren bidez)"
+    },
+    "configurationDisarmKillSwitchHelp": {
+        "message": "Armagintza beti ezgaitzen da throttle txikia ez denean. Kontuz ibili hegan egitean etengailu batekin nahi gabe desarmatu baitaiteke aukera hau aktibatua badago."
+    },
+    "configurationDigitalIdlePercent": {
+        "message": "Motorraren Throttle Inaktiboaren balioa [percent]"
+    },
+    "transponderInformation": {
+        "message": "Transponders sistemek lasterketen antolatzaileek zure bueltak kronometratzea ahalbidetzen dute. Transpondorea aireontziari egokituta dago eta aireontziak denbora-atea pasatzen duenean pista-alboko hartzaileak zure kodea erregistratzen du eta buelta denbora grabatzen du. IR oinarritutako transponder bat egokitzean zure hegazkinetik pista-alboko hargailuetara zuzentzen dela ziurtatu behar duzu, eta argi-izpiak zure egitura, bateria-uhalak, kableak, helizeak eta abar ez duela oztopatzen."
     }
 }
