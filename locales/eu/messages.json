@@ -464,11 +464,110 @@
     "boardInfoReceived": {
         "message": "Plaka:<strong>$1</strong>, bertsioa: <strong>$2</strong>"
     },
+    "buildInfoReceived": {
+        "message": "<strong>$1</strong> -an argitaratutako Firmware-a exekutatzen"
+    },
+    "fcInfoReceived": {
+        "message": "Hegaldiaren kontroladorearen informazioa, identifikatzailea: <strong>$1</strong>, bertsioa:<strong>$2</strong>"
+    },
+    "versionLabelTarget": {
+        "message": "Target"
+    },
+    "versionLabelFirmware": {
+        "message": "Firmware"
+    },
     "versionLabelConfigurator": {
         "message": "Konfiguratzailea"
     },
+    "notifications_app_just_updated_to_version": {
+        "message": "Aplikazioa:$1 bertsiora eguneratu da"
+    },
     "notifications_click_here_to_start_app": {
         "message": "Klikatu hemen aplikazioa hasteko"
+    },
+    "statusbar_port_utilization": {
+        "message": "Atakaren erabilera:"
+    },
+    "statusbar_usage_download": {
+        "message": "D: $1%"
+    },
+    "statusbar_usage_upload": {
+        "message": "U: $1%"
+    },
+    "statusbar_packet_error": {
+        "message": "Pakete errorea:"
+    },
+    "statusbar_i2c_error": {
+        "message": "I2C errorea:"
+    },
+    "statusbar_cycle_time": {
+        "message": "Zikloaren denbora:"
+    },
+    "statusbar_cpu_load": {
+        "message": "CPU karga: $1%"
+    },
+    "dfu_connect_message": {
+        "message": "Mesedez, Firmware Flasher erabili DFU gailuak sartzeko"
+    },
+    "dfu_erased_kilobytes": {
+        "message": "$1 kB flash memoria <span class=\"message-positive\">arrakastaz</span> ezabatuta"
+    },
+    "dfu_device_flash_info": {
+        "message": "Gailua detektatuta $1 KiB flash tamaina osoarekin"
+    },
+    "dfu_error_image_size": {
+        "message": "<span class=\"message-negative\">Errorea</span>: Emandako irudia, Chipan erabilgarri dagoen Flash memoria baino handiagoa da! Irudia:$1 KiB, limitea = $2 KiB"
+    },
+    "eeprom_saved_ok": {
+        "message": "EEPROM <span class=\"message-positive\">gordeta</span>"
+    },
+    "defaultWelcomeIntro": {
+        "message": "Ongi etorri <strong>Betaflight-Konfiguratzailea</strong> ra, zure hegaldi kontroladorea eguneratu, konfiguratu eta sintonizatzeko diseinatutako tresna."
+    },
+    "defaultWelcomeHead": {
+        "message": "Hardware"
+    },
+    "defaultWelcomeText": {
+        "message": "Aplikazioa Betafligth exekutatu ahal duen Hardware guztia jasatzen du. Begiratu Firmware Instalaketa Atala, Hardware guztiaren zerrenda eukiteko.<br><br><a href=\"https://github.com/betaflight/blackbox-log-viewer/releases\" target=\"_blank\"> Beherakargatu Betafligth BlackBox Log Viewer</a><br /><br />Firmwarearen Iturri-kodea <a href=\"https://github.com/betaflight/betaflight\" title=\"www.github.com\" target=\"_blank\">Hemendik </a> Beherakargatu ahal da.<br /><br />Azkenengo <a href=\"http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx\" title=\"http://www.silabs.com\" target=\"_blank\">CP210x Driver-ak</a> <a href=\"http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx\" title=\"http://www.silabs.com\" target=\"_blank\">Hemendik </a>Beherakargatu ahal dira. Azkenengo <a href=\"http://www.st.com/web/en/catalog/tools/PF257938\"title=\"http://www.st.com\" target=\"_blank\"> STM USB VCP Driver-ak </a><a href=\"http://www.st.com/web/en/catalog/tools/PF257938\" title=\"http://www.st.com\" target=\"_blank\">Hemendik </a> Beherakargatu ahal dira. Azkenengo <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">Zadig </a> USB Driver instalazioa Windowserako <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">Hemendik </a>beherakargatu ahal dira"
+    },
+    "defaultContributingHead": {
+        "message": "Hartu parte"
+    },
+    "defaultContributingText": {
+        "message": "Betafligth hobetzen lagundu nahi baduzu, era desberdinetan lagundu dezakezu.<br /><ul><li>beste erabiltzaile batzuen galdereei erantzuten gure Foruetan eta IRC-an</li><li>Gure Firmware eta configurator kodearekin laguntzen - Ezaugarri berriak, konponketak, hobespenak </li><li> Testeatzen <a href=\"https://github.com/Betaflight/betaflight/pulls\" target=\"_blank\"> Ezaugarri berriak/konponketak </a> eta zure iritzia emoten.</li><li>Arazoak eta ezaugarrien eskakizunak</a> komentatzen. </li><li>Kolaboratu<a href=\"https://crowdin.com/project/betaflight-configurator\" target=\"_blank\"> Itzultzen Configurator aplikazioa</a> zure Hizkuntzara.</li></ul>"
+    },
+    "defaultFacebookText": {
+        "message": "<a href=\"https://www.facebook.com/groups/betaflightgroup/\" target=\"_blank\">Facebook Talde</a> bat badaukagu.<br />Egin zaitez jarraitzaile Betafligth-i buruz hitz egiteko leku bat eukitzeko, konfigurazio galderak egiteko edota beste pilotuekin hitz egiteko."
+    },
+    "defaultChangelogHead": {
+        "message": "Configurator - Aldaketen zerrenda"
+    },
+    "defaultButtonFirmwareFlasher": {
+        "message": "Firmware Flasheatzailea"
+    },
+    "defaultDonateHead": {
+        "message": "Kode Irekia / dohaintza abisua"
+    },
+    "defaultDonateText": {
+        "message": "<p><strong>Betafligth</strong><strong> Kode irekiko</strong>, egaldi kontroladore softwarea da eta eskuragarri dago dohainik, <strong>berme barik</strong> erabiltzaile guztientzako.</p><p> Betafligth edo Betafligth configurator, erabilgarri aurkitu baduzu, mesedez kontuan euki <strong>laguntzea</strong> bere garapenera, dohaintza bat emoten.</p>"
+    },
+    "defaultDonateBottom": {
+        "message": "<p>Era erregular baten ekonomikoki laguntzeko idea baduzu, kontuan euki beharko zenuen \"Patron\" bilakatzea gure Patreon portalean $t(patreonLink.message)</p>"
+    },
+    "defaultDonate": {
+        "message": "Dohanintza eman"
+    },
+    "defaultSponsorsHead": {
+        "message": "Babesleak"
+    },
+    "defaultDocumentationHead": {
+        "message": "Dokumentazioa / Eskuliburua"
+    },
+    "defaultDocumentation": {
+        "message": "Betafligth-eko dokumentazioa, bertsio oharretan eta Wiki-an eskuragarri dago.<br /><br />"
+    },
+    "defaultDocumentation1": {
+        "message": "Betafligth Wika-a ikaragarrizko informazio iturria da. <a href=\"https://github.com/betaflight/betaflight/wiki\" target=\"_blank\"> Hemen </a>aurkitu dezakezu."
     },
     "initialSetupBatteryHead": {
         "message": "Bateria"
@@ -503,6 +602,105 @@
     "featureTRANSPONDER": {
         "message": "Laizterketarako Erantzungailua"
     },
+    "featureFAILSAFE": {
+        "message": "Gaitu Failsafe 2garren maila"
+    },
+    "featureFAILSAFEOld": {
+        "message": "Failsafe gaitu"
+    },
+    "featureFAILSAFEOldTip": {
+        "message": "Failsafe ezarpenak aplikatu RX seinalea galtzean"
+    },
+    "configurationFeatureEnabled": {
+        "message": "Gaituta"
+    },
+    "configurationFeatureName": {
+        "message": "Ezaugarria"
+    },
+    "configurationFeatureDescription": {
+        "message": "Deskribapena"
+    },
+    "configurationMixer": {
+        "message": "Nahastailea"
+    },
+    "configurationFeatures": {
+        "message": "Beste ezaugarri batzuk"
+    },
+    "configurationReceiver": {
+        "message": "Hargailua"
+    },
+    "configurationReceiverMode": {
+        "message": "Hartzaile modua"
+    },
+    "configurationRSSI": {
+        "message": "RSSI (seinalearen indarra)"
+    },
+    "configurationRSSIHelp": {
+        "message": "RSSI seinalearen indarraren neurketa da eta oso erabilgarria da, aireontziak noiz irtengo diren barrutitik kanpora edo RF interferentziak jasaten ari den jakiteko."
+    },
+    "configurationEscFeatures": {
+        "message": "ESC/Motorren ezaugarriak"
+    },
+    "configurationSerialRXHelp": {
+        "message": "<strong>Oharra:</strong> Gogoratu Ataka Serial bat konfiguratu behar duzula (ataka fitxen bidez) eta aukeratu Serial Hartzaile hornitzailea RX_SERIAL funtzioa erabiltzen duzunean."
+    },
+    "configurationSpiRxHelp": {
+        "message": "<strong>Oharra:</strong> SPI RX hornitzaileak funtzionatuko du beharrezko hardwarea taula gainean badago edo SPI bus batera konektatuta badago."
+    },
+    "configurationBoardAlignment": {
+        "message": "Taula eta sentsoreen lerrokatzea"
+    },
+    "configurationBoardAlignmentRoll": {
+        "message": "Roll graduak"
+    },
+    "configurationBoardAlignmentPitch": {
+        "message": "Pitch graduak"
+    },
+    "configurationBoardAlignmentYaw": {
+        "message": "Yaw graduak"
+    },
+    "configurationSensorAlignmentGyro": {
+        "message": "GIRO Lerrokatzea"
+    },
+    "configurationSensorGyroToUse": {
+        "message": "GIRO/AZEL"
+    },
+    "configurationSensorGyroToUseNotFound": {
+        "message": "Abisua: ez da Giro/Azel aurkitu"
+    },
+    "configurationSensorGyroToUseFirst": {
+        "message": "Lehen"
+    },
+    "configurationSensorGyroToUseSecond": {
+        "message": "Bigarren"
+    },
+    "configurationSensorGyroToUseBoth": {
+        "message": "Biek"
+    },
+    "configurationSensorAlignmentGyro1": {
+        "message": "Lehenego GIRO"
+    },
+    "configurationSensorAlignmentGyro2": {
+        "message": "Bigarren GIRO"
+    },
+    "configurationSensorAlignmentAcc": {
+        "message": "AZEL Lerrokatzea"
+    },
+    "configurationSensorAlignmentMag": {
+        "message": "MAG Lerrokatzea"
+    },
+    "configurationSensorAlignmentDefaultOption": {
+        "message": "Lehenetsia"
+    },
+    "configurationAccelTrims": {
+        "message": "Trimatu azelerometroa"
+    },
+    "configurationAccelTrimRoll": {
+        "message": "Azelerometroaren Roll Trim"
+    },
+    "configurationAccelTrimPitch": {
+        "message": "Azelerometroaren Pitch Trim"
+    },
     "configurationArmingHelp": {
         "message": "Armatze-aukera batzuek azelerometroa gaituta izatea eskatzen dute"
     },
@@ -524,7 +722,65 @@
     "configurationDigitalIdlePercent": {
         "message": "Motorraren Throttle Inaktiboaren balioa [percent]"
     },
+    "configurationMotorPoles": {
+        "message": "Motorren zutoinak",
+        "description": "One of the fields of the ESC/Motor configuration"
+    },
     "transponderInformation": {
         "message": "Transponders sistemek lasterketen antolatzaileek zure bueltak kronometratzea ahalbidetzen dute. Transpondorea aireontziari egokituta dago eta aireontziak denbora-atea pasatzen duenean pista-alboko hartzaileak zure kodea erregistratzen du eta buelta denbora grabatzen du. IR oinarritutako transponder bat egokitzean zure hegazkinetik pista-alboko hargailuetara zuzentzen dela ziurtatu behar duzu, eta argi-izpiak zure egitura, bateria-uhalak, kableak, helizeak eta abar ez duela oztopatzen."
+    },
+    "loggingStop": {
+        "message": "Erregistroa gelditu"
+    },
+    "loggingBack": {
+        "message": "Erregistroa utxi/deskonektatu"
+    },
+    "loggingErrorNotConnected": {
+        "message": "Lehenengo <strong>konektatu</strong> behar duzu"
+    },
+    "loggingErrorLogFile": {
+        "message": "Mesedez, aukeratu erregistro fitxategia"
+    },
+    "loggingErrorOneProperty": {
+        "message": "Mesedez, aukeratu gutxienez propietate bat erregistratzeko"
+    },
+    "loggingAutomaticallyRetained": {
+        "message": "Aurreko erregistro fitxategia automatikoki kargatu da: <strong>$1</strong>"
+    },
+    "blackboxNotSupported": {
+        "message": "Zure hegaldiaren kontroladorearen firmwareak ez du Blackbox erregistroa onartzen."
+    },
+    "blackboxMaybeSupported": {
+        "message": "Hegaldiaren kontroladorearen firmwarea oso zaharra da fitxa hau onartzeko, edo Blackbox funtzioa desgaituta dago Konfigurazio fitxan."
+    },
+    "blackboxConfiguration": {
+        "message": "Blackbox konfigurazioa"
+    },
+    "blackboxButtonSave": {
+        "message": "Gorde eta berrabiarazi"
+    },
+    "blackboxLoggingNone": {
+        "message": "Ez dago erregistratzen"
+    },
+    "blackboxLoggingFlash": {
+        "message": "Flash Integratua"
+    },
+    "blackboxLoggingSdCard": {
+        "message": "SD txartela"
+    },
+    "blackboxLoggingSerial": {
+        "message": "Serial ataka"
+    },
+    "dataflashUsedSpace": {
+        "message": "Erabilitako espazioa"
+    },
+    "dataflashUnavSpace": {
+        "message": "Erabilgarri espazioa"
+    },
+    "dataflashNote": {
+        "message": "Hegaldien erregistroak, zure hegaldia kontroladorearen flash memoria integratuan gorde daitezke."
+    },
+    "dataflashNotPresentNote": {
+        "message": "Zure hegaldi kontrolatzaileak ez dauka flash integratuta erabilgarri."
     }
 }
