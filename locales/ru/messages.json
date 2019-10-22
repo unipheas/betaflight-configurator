@@ -823,6 +823,10 @@
         "message": "Изменения в конфигурации требуют перезагрузки",
         "description": "Message that pops up to describe the REBOOT_REQD arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipACC_CALIB": {
+        "message": "Акселерометр не откалиброван и включены функции, которые зависят от него. Откалибровуйте акселерометр.",
+        "description": "Message that pops up to describe the ACC_CALIB arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "Один из других флагов дизарм активен при арминге",
         "description": "Message that pops up to describe the ARM_SWITCH arming disable flag"
@@ -3103,6 +3107,14 @@
     "pidTuningResponseSlider": {
         "message": "Коэффициент реакции на движения стиков:",
         "description": "Response tuning slider label"
+    },
+    "pidTuningMasterSliderHelp": {
+        "message": "В целом, большие квадрокоптеры требуют более высоких коэффициентов PID из-за низкого отношения мощности к весу.<br /><br />Маленькие (микро) квадрокоптеры обычно требует пониженных коэффициентов PID из-за высокого отношения мощности к весу.<br /><br />Высокие значения PID предназначены для менее чувствительных к изменению газа квадрокоптеров и наоборот, низкие значения PID  - для более чувствительных квадрокоптеров.",
+        "description": "Master gain tuning slider helpicon message"
+    },
+    "pidTuningResponseSliderHelp": {
+        "message": "Низкие значения ухудшат реакцию на движения стиков и могут привести к медленному отскоку назад в конце флипа или ролла (I-term windup).<br><br>Высокие значения повысят отзывчивость на резкие движения стиков. Однако слишком высокие значения могут вызвать проскакивание квада и быстрый отскок назад в конце флипа или ролла.",
+        "description": "Stick response gain tuning slider helpicon message"
     },
     "pidTuningGyroLowpassFiltersGroup": {
         "message": "Гиро низкочастотные фильтры"
