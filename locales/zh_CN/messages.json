@@ -2495,9 +2495,6 @@
     "blackboxLoggingSerial": {
         "message": "串口"
     },
-    "serialLoggingSupportedNote": {
-        "message": "你可以用过串口外接记录设备来记录日志（例如Openlog）。需要在串口设置页设置相应的串口。"
-    },
     "sdcardNote": {
         "message": "飞行数据可以保存到板载的SD卡槽。"
     },
