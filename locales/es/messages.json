@@ -2435,9 +2435,6 @@
     "blackboxLoggingSerial": {
         "message": "Puerto Serie"
     },
-    "serialLoggingSupportedNote": {
-        "message": "Puedes registrar en un dispositivo externo (como OpenLog o compatible) usando un puerto serie. Configura el puerto en el apartado Puertos."
-    },
     "sdcardNote": {
         "message": "Puedes grabar registros de vuelo en la tarjeta SD de tu controlador de vuelo."
     },
