@@ -2502,9 +2502,6 @@
     "blackboxLoggingSerial": {
         "message": "Porto Serie"
     },
-    "serialLoggingSupportedNote": {
-        "message": "Pode conectarse a un dispositivo de rexistro externo (como un clon OpenLog ou compatible) usando un porto serie. Configure o porto na pestana Ports."
-    },
     "sdcardNote": {
         "message": "Os rexistros de voos pódense gravar no slot para tarxetas SD do controlador de voo."
     },
