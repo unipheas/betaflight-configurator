@@ -2287,9 +2287,6 @@
     "blackboxLoggingSerial": {
         "message": "Seriālais ports"
     },
-    "serialLoggingSupportedNote": {
-        "message": "Jūs varat žurnalēt uz ārējās žurnalēšanas ierīces (tādas kā OpenLog vai saderīga klona) lietojot seriālo portu. Konfigurējat portu Porti cilnē."
-    },
     "sdcardNote": {
         "message": "Lidojuma žurnāli var tikt saglabāti jūsu lidojuma kontroliela esošajā SD kartē."
     },
