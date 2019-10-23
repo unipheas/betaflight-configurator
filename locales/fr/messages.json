@@ -2492,9 +2492,6 @@
     "blackboxLoggingSerial": {
         "message": "Port série"
     },
-    "serialLoggingSupportedNote": {
-        "message": "Vous pouvez logger sur un périphérique externe (tel un OpenLog ou clone compatible) en utilisant un port série. Configurez le port via l'onglet Ports."
-    },
     "sdcardNote": {
         "message": "Les logs de vol peuvent être enregistrés sur la carte SD du contrôleur de vol."
     },
