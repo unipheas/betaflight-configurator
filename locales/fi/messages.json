@@ -1706,9 +1706,6 @@
     "blackboxLoggingSerial": {
         "message": "Sarjaportti"
     },
-    "serialLoggingSupportedNote": {
-        "message": "Voit tallentaa lokia ulkoiselle laitteelle (esim. OpenLog tai yhteensopiva klooni) käyttäen sarjaporttia. Määritä sarjaportti Portit-välilehdellä."
-    },
     "sdcardNote": {
         "message": "Lennon lokitiedostot voidaan tallentaa lento-ohjaimesi SD-korttipaikan kautta."
     },
