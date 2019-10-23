@@ -569,11 +569,125 @@
     "defaultDocumentation1": {
         "message": "Betafligth Wika-a ikaragarrizko informazio iturria da. <a href=\"https://github.com/betaflight/betaflight/wiki\" target=\"_blank\"> Hemen </a>aurkitu dezakezu."
     },
+    "defaultDocumentation2": {
+        "message": "Firmwarearentzako oharrak GitHub-en bertsioen orrian irakur daitezke <a href=\"https://github.com/Betaflight/Betaflight/releases\" target=\"_blank\">hemen</a>."
+    },
+    "defaultSupportHead": {
+        "message": "Laguntza"
+    },
+    "defaultSupportSubline1": {
+        "message": "Laguntza iturriak"
+    },
+    "defaultSupportSubline2": {
+        "message": "Garatzailea"
+    },
+    "defaultSupport": {
+        "message": "Laguntza lortzeko mesedez, bilatu foro eta wikian edo jarri harremanetan saltzaileekin. <br/> <br/>"
+    },
+    "defaultSupport1": {
+        "message": "<a href=\"http://www.rcgroups.com/forums/showthread.php?t=2464844&page=1\" target=\"_blank\">RC Groups haria</a>"
+    },
+    "defaultSupport2": {
+        "message": "<a href=\"http://betaflight.info\" target=\"_blank\">Betaflight Wiki-a</a>"
+    },
+    "defaultSupport3": {
+        "message": "<a href=\"https://www.youtube.com/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Betaflight bideoak</a>"
+    },
+    "defaultSupport4": {
+        "message": "<a href=\"https://github.com/Betaflight\" target=\"_blank\">Github</a>"
+    },
+    "defaultSupport5": {
+        "message": "<a href=\"https://slack.betaflight.com\" target=\"_blank\">Betaflight garatzaileak Slack-en</a>"
+    },
+    "initialSetupButtonCalibrateAccel": {
+        "message": "Azelerometroa kalibratu"
+    },
+    "initialSetupButtonCalibrateMag": {
+        "message": "Magnetometroa kalibratu"
+    },
+    "initialSetupButtonCalibratingText": {
+        "message": "Kalibratzen..."
+    },
+    "initialSetupButtonReset": {
+        "message": "Ezarpenak berrezarri"
+    },
+    "initialSetupResetText": {
+        "message": "Ezarpenak <strong>lehenetsita</strong> ezarri"
+    },
+    "initialSetupButtonBackup": {
+        "message": "Segurtasun kopia"
+    },
+    "initialSetupButtonRestore": {
+        "message": "Berreskuratu"
+    },
+    "initialSetupButtonRebootBootloader": {
+        "message": "Boot Loader / DFU aktibatu"
+    },
+    "initialSetupRebootBootloaderText": {
+        "message": "<strong>Boot loader / DFU</strong> moduan berrabiarazi."
+    },
+    "initialSetupBackupSuccess": {
+        "message": "Babeskopia <span class=\"message-positive\">arrakastaz</span> gordeta"
+    },
+    "initialSetupRestoreSuccess": {
+        "message": "Konfigurazioa <span class=\"message-positive\">arraskataz</span> leheneratua"
+    },
+    "initialSetupMixerHead": {
+        "message": "Nahaste-mota"
+    },
+    "initialSetupThrottleHead": {
+        "message": "Throttle ezarpenak"
+    },
+    "initialSetupMinimum": {
+        "message": "Minimoa:"
+    },
+    "initialSetupMaximum": {
+        "message": "Maximoa:"
+    },
+    "initialSetupFailsafe": {
+        "message": "Failsafe:"
+    },
+    "initialSetupMinCommand": {
+        "message": "MinCommand:"
+    },
     "initialSetupBatteryHead": {
         "message": "Bateria"
     },
+    "initialSetupAccelTrimsHead": {
+        "message": "Azelerometroaren trimak"
+    },
+    "initialSetupPitch": {
+        "message": "Pitch:"
+    },
+    "initialSetupRoll": {
+        "message": "Roll:"
+    },
+    "initialSetupMagHead": {
+        "message": "Magnetometroa"
+    },
+    "initialSetupDeclination": {
+        "message": "Deklinazioa:"
+    },
     "initialSetupInfoHead": {
         "message": "Informazioa"
+    },
+    "initialSetupBattery": {
+        "message": "Bateriaren tentsioa:"
+    },
+    "initialSetupBatteryValue": {
+        "message": "$1 V"
+    },
+    "initialSetupBatteryMahValue": {
+        "message": "$1 mAh"
+    },
+    "initialSetupBatteryAValue": {
+        "message": "$1 A"
+    },
+    "initialSetupRSSI": {
+        "message": "RSSI:"
+    },
+    "initialSetupRSSIValue": {
+        "message": "$1 %"
     },
     "initialSetupAccelCalibStarted": {
         "message": "Azelerometroaren kalibrazioa hasi da"
@@ -726,8 +840,115 @@
         "message": "Motorren zutoinak",
         "description": "One of the fields of the ESC/Motor configuration"
     },
+    "pidTuningShowAllPids": {
+        "message": "PID guztiak erakutsi"
+    },
+    "pidTuningHideUnusedPids": {
+        "message": "Erabili gabeko PIDak ezkutatu"
+    },
+    "pidTuningNonProfilePidSettings": {
+        "message": "Profilaren PID ezarpen independenteak"
+    },
+    "pidTuningAntiGravity": {
+        "message": "Anti Gravity"
+    },
+    "pidTuningAntiGravityMode": {
+        "message": "Modua",
+        "description": "Anti Gravity mode selection parameter"
+    },
+    "pidTuningAntiGravityModeOptionSmooth": {
+        "message": "Smooth",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityModeOptionStep": {
+        "message": "Etapa",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityGain": {
+        "message": "Irabazia",
+        "description": "Anti Gravity Gain Parameter"
+    },
+    "pidTuningAntiGravityThres": {
+        "message": "Muga",
+        "description": "Anti Gravity Threshold Parameter"
+    },
     "transponderInformation": {
         "message": "Transponders sistemek lasterketen antolatzaileek zure bueltak kronometratzea ahalbidetzen dute. Transpondorea aireontziari egokituta dago eta aireontziak denbora-atea pasatzen duenean pista-alboko hartzaileak zure kodea erregistratzen du eta buelta denbora grabatzen du. IR oinarritutako transponder bat egokitzean zure hegazkinetik pista-alboko hargailuetara zuzentzen dela ziurtatu behar duzu, eta argi-izpiak zure egitura, bateria-uhalak, kableak, helizeak eta abar ez duela oztopatzen."
+    },
+    "transponderConfiguration3": {
+        "message": "ERLT Konfigurazioa"
+    },
+    "transponderData1": {
+        "message": "Datuak"
+    },
+    "transponderData2": {
+        "message": "Transponder IDa"
+    },
+    "transponderData3": {
+        "message": "Transponder IDa"
+    },
+    "transponderDataHelp1": {
+        "message": "Zenbaki hexadekimalak bakarrik, 0-9, AF"
+    },
+    "transponderHelp1": {
+        "message": "Hemen konfiguratu zure transpondedore kodea. Oharra: lasterketen krono-sistemek bakarrik aitortuko dituzte baliozko kodeak. Baliozko transpondedor kodeak <a href=\"http://seriouslypro.com/transponder-codes\" target=\"_blank\">Seriously Pro</a> bidez lor daitezke."
+    },
+    "transponderHelp2": {
+        "message": "Informazio gehiago nahi izanez gero, <a href=\"http://www.arcitimer.com/\" title=\"aRCiTimer\" target=\"_blank\">aRCiTimer web-orrira</a> joan"
+    },
+    "transponderDataHelp3": {
+        "message": "ERLT ID 0-63 aukeratu"
+    },
+    "transponderHelp3": {
+        "message": "Informazio gehiago <a href=\"https://github.com/polyvision/EasyRaceLapTimer\" title=\"aRCiTimer\" target=\"_blank\">EasyRaceLapTimer web-orrian</a>"
+    },
+    "transponderButtonSave": {
+        "message": "Gorde"
+    },
+    "transponderButtonSaveReboot": {
+        "message": "Gorde eta berrabiarazi"
+    },
+    "transponderDataInvalid": {
+        "message": "Transpondedore datuak <span class=\"message-negative\">baliogabeak dira</span>"
+    },
+    "transponderEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">gorde</span>"
+    },
+    "servosFirmwareUpgradeRequired": {
+        "message": "Serboek &gt;=1.10.0. firmwarea eta kontroladoreak onartzea behar du."
+    },
+    "servosChangeDirection": {
+        "message": "Egokitzeko, aldatu TX norabidea"
+    },
+    "servosName": {
+        "message": "Izena"
+    },
+    "servosMid": {
+        "message": "MID"
+    },
+    "servosMin": {
+        "message": "MIN"
+    },
+    "servosMax": {
+        "message": "MAX"
+    },
+    "servosButtonSave": {
+        "message": "Gorde"
+    },
+    "servosReverse": {
+        "message": "Alderantzikatu"
+    },
+    "servosEepromSave": {
+        "message": "EEPROM <span class=\"message-positive\">gorde</span>"
+    },
+    "gpsHead": {
+        "message": "GPSa"
+    },
+    "gpsMapHead": {
+        "message": "GPSaren uneko kokapena"
+    },
+    "gpsMapMessage1": {
+        "message": "Mesedez, egiaztatu zure Interneteko konexioa"
     },
     "loggingStop": {
         "message": "Erregistroa gelditu"
