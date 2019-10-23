@@ -1814,9 +1814,6 @@
     "blackboxLoggingSerial": {
         "message": "Port Sèrie"
     },
-    "serialLoggingSupportedNote": {
-        "message": "Pots enregistrar a un dispositiu de registre extern (com ara un OpenLog o clon compatible) utilitzant un serial port. Configura el port a la pestanya de Ports."
-    },
     "sdcardNote": {
         "message": "Els teus logs de vol es poden gravar al port SD de la controladora."
     },
