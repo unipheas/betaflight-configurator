@@ -2332,9 +2332,6 @@
     "blackboxLoggingSerial": {
         "message": "Serijski port"
     },
-    "serialLoggingSupportedNote": {
-        "message": "Možete zapisivati na vanjski uređaj zapisivanja (kao što je OpenLog ili kompatibilni klon) koristeći serijski port. Konfigurirajte port na kartici za portove."
-    },
     "sdcardNote": {
         "message": "Zapisi leta mogu se snimiti na SD karticu u slotu na kontroleru leta."
     },
