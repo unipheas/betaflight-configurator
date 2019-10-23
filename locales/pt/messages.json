@@ -2427,9 +2427,6 @@
     "blackboxLoggingSerial": {
         "message": "Porta Serial"
     },
-    "serialLoggingSupportedNote": {
-        "message": "Você pode fazer o log em um dispositivo externo (como o OpenLog ou clone compatível) utilizando a porta serial. Configure a porta na aba de Portas."
-    },
     "sdcardNote": {
         "message": "Logs de voo podem ser salvos no Cartão SD a bordo do seu controlador de voo."
     },
