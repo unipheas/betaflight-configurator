@@ -2372,9 +2372,6 @@
     "blackboxLoggingSerial": {
         "message": "Porta seriale"
     },
-    "serialLoggingSupportedNote": {
-        "message": "Puoi registrare i dati su un supporto esterno  (come un OpenLog o clone compatibile) tramite una porta seriale. Configura la porta nella scheda Porte."
-    },
     "sdcardNote": {
         "message": "I registri di volo possono essere memorizzati sulla scheda SD inserita nell'apposito alloggiamento sul controllore di volo."
     },
