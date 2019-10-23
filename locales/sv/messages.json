@@ -2404,9 +2404,6 @@
     "blackboxLoggingSerial": {
         "message": "Serieport"
     },
-    "serialLoggingSupportedNote": {
-        "message": "Du kan logga till en extern loggningsenhet (t ex en OpenLog eller kompatible klon) genom att använda en seriell port. Konfigurera porten på fliken Portar."
-    },
     "sdcardNote": {
         "message": "Flygloggar kan sparas till din flygkontrollers inbyggda SD-kortplats."
     },
