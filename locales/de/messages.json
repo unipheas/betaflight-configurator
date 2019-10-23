@@ -2428,9 +2428,6 @@
     "blackboxLoggingSerial": {
         "message": "Serieller Port"
     },
-    "serialLoggingSupportedNote": {
-        "message": "Das Speichern der Logs ist auf einem externen Gerät (z.B. OpenLog) möglich. Dazu bitte den Anschluss im \"Anschlüsse Tab\" konfigurieren."
-    },
     "sdcardNote": {
         "message": "Fluglogs können auf der SD Karte gespeichert werden."
     },
