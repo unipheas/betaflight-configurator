@@ -2023,9 +2023,6 @@
     "blackboxLoggingSerial": {
         "message": "Port Serial"
     },
-    "serialLoggingSupportedNote": {
-        "message": "Anda bisa login ke perangkat logging eksternal (seperti OpenLog atau yg kompatibel) dengan menggunakan port serial. Konfigurasikan port pada tab ports."
-    },
     "sdcardNote": {
         "message": "Log penerbangan dapat di rekam ke slot kartu SD pada FC anda."
     },
