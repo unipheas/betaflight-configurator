@@ -1375,9 +1375,6 @@
     "blackboxLoggingNone": {
         "message": "Bez záznamu"
     },
-    "serialLoggingSupportedNote": {
-        "message": "Můžete se připojit k externímu logovacímu zařízení (jako OpenLog, nebo kompatibilní klon) přes sériový port. Nastavte tento port v konfiguraci portů."
-    },
     "sdcardNote": {
         "message": "Záznamy z letů můžou být uloženy na SD kartu vloženou ve vašem FC."
     },
