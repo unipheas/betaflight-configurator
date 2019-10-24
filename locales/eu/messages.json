@@ -710,6 +710,21 @@
     "featureNone": {
         "message": "&lt;Bat aukeratu&gt;"
     },
+    "featureSERVO_TILT": {
+        "message": "Serbo ginbala"
+    },
+    "featureSERVO_TILTTip": {
+        "message": "Ezaugarri honek CAMSTAB modua gaitzen du, azelerometroa erabiliz bi ardatz egonkor eduki ahal du"
+    },
+    "featureSOFTSERIAL": {
+        "message": "CPU oinarritutako serial atakak gaitu"
+    },
+    "featureSOFTSERIALTip": {
+        "message": "Atakak konfiguratu fitxan gaitu ondoren."
+    },
+    "featureGPS": {
+        "message": "Nabigazioa eta telemetriarako GPSa"
+    },
     "featureDISPLAYTip": {
         "message": "Funtzio hau gaituta badago eta bistaratzeko gailurik ez dago konektatuta (edo bistaratzeko gailua ez dago piztuta), gutxi gorabehera 10 segunduko atzerapena egongo da hegaldi kontroladorearen berrabiarazi bakoitzean."
     },
@@ -871,6 +886,27 @@
     "pidTuningAntiGravityThres": {
         "message": "Muga",
         "description": "Anti Gravity Threshold Parameter"
+    },
+    "rcSmoothingInputTypeHelp": {
+        "message": "Sarrerarako erabiltzen den iragazketa metodoa. Erabiltzaile gehienek \"BIQUAD\" balioa erabili behar dute, leuntasunaren eta atzerapenaren arteko oreka ona ematen duelako. \"PT1\" atzerapena apur bat murrizten du baina leuntze gutxiago ematen du."
+    },
+    "receiverRcSmoothingInputHz": {
+        "message": "Sarrerra-ebaketaren maiztasuna"
+    },
+    "receiverRcSmoothingDerivativeCutoff": {
+        "message": "Eratorritako ebaketa maistazuna"
+    },
+    "receiverRcSmoothingDerivativeTypeOff": {
+        "message": "Itzalita"
+    },
+    "receiverRcSmoothingChannel": {
+        "message": "Kanalak leundu egin dira"
+    },
+    "receiverRcInterpolation": {
+        "message": "RC Interpolazioa"
+    },
+    "receiverRcInterpolationHelp": {
+        "message": "RC TX / RX sistemak ez dira PID begiztak bezain azkarrak. Horrek esan nahi du PID begiak RC sistemetatik informazio korrontearen hutsuneak dituela. Aukera honek RC sarrera interpolatzea ahalbidetzen du RC markoak jasotzen ez diren garaietan. Baita ere P eta D portaera garbiagoa eskaintzen du, kontrol sarreran arrapalak ez daudelako."
     },
     "transponderInformation": {
         "message": "Transponders sistemek lasterketen antolatzaileek zure bueltak kronometratzea ahalbidetzen dute. Transpondorea aireontziari egokituta dago eta aireontziak denbora-atea pasatzen duenean pista-alboko hartzaileak zure kodea erregistratzen du eta buelta denbora grabatzen du. IR oinarritutako transponder bat egokitzean zure hegazkinetik pista-alboko hargailuetara zuzentzen dela ziurtatu behar duzu, eta argi-izpiak zure egitura, bateria-uhalak, kableak, helizeak eta abar ez duela oztopatzen."
