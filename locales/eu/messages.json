@@ -599,11 +599,17 @@
     "defaultSupport5": {
         "message": "<a href=\"https://slack.betaflight.com\" target=\"_blank\">Betaflight garatzaileak Slack-en</a>"
     },
+    "initialSetupBackupAndRestoreApiVersion": {
+        "message": "<span class=\"message-negative\">Backupak eta leheneratzea funtzioak itzalita daude.</span> Zuk daukazun firmwarearen API bertsioa <span class=\"message-negative\">$1</span>, Backupa eta leheneratzea beharrezkoak dira<span class=\"message-positive\">$2</span>.  Mezedez, gorde zure backupa CLI-re bitartez, begiratu Betaflight-ren dokumentazioa jakiteko nola egin."
+    },
     "initialSetupButtonCalibrateAccel": {
         "message": "Azelerometroa kalibratu"
     },
     "initialSetupButtonCalibrateMag": {
         "message": "Magnetometroa kalibratu"
+    },
+    "initialSetupCalibrateMagText": {
+        "message": "Mugi multirotorea gutxienez <strong>360</strong> gradu rotazio eje guztietan, 30 segundu dituzu hau egiteko"
     },
     "initialSetupButtonCalibratingText": {
         "message": "Kalibratzen..."
@@ -653,6 +659,15 @@
     "initialSetupBatteryHead": {
         "message": "Bateria"
     },
+    "initialSetupMinCellV": {
+        "message": "Zeldako gutxienezko boltaia:"
+    },
+    "initialSetupMaxCellV": {
+        "message": "Zeldako gehienezko boltaia:"
+    },
+    "initialSetupVoltageScale": {
+        "message": "Boltai eskala:"
+    },
     "initialSetupAccelTrimsHead": {
         "message": "Azelerometroaren trimak"
     },
@@ -688,6 +703,30 @@
     },
     "initialSetupRSSIValue": {
         "message": "$1 %"
+    },
+    "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
+        "message": "Ez da giroa detektatu",
+        "description": "Message that pops up to describe the NO_GYRO arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipFAILSAFE": {
+        "message": "Failsafe aktibatua",
+        "description": "Message that pops up to describe the FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
+        "message": "Throttle kanala oso altua dago",
+        "description": "Message that pops up to describe the THROTTLE arming disable flag"
+    },
+    "initialSetupGPSHead": {
+        "message": "GPSa"
+    },
+    "initialSetupInstrumentsHead": {
+        "message": "Instrumentuak"
+    },
+    "initialSetupButtonSave": {
+        "message": "Gorde"
+    },
+    "initialSetupModel": {
+        "message": "$1: modeloa"
     },
     "initialSetupAccelCalibStarted": {
         "message": "Azelerometroaren kalibrazioa hasi da"
@@ -725,11 +764,29 @@
     "featureGPS": {
         "message": "Nabigazioa eta telemetriarako GPSa"
     },
+    "featureSONAR": {
+        "message": "Sonarra"
+    },
     "featureDISPLAYTip": {
         "message": "Funtzio hau gaituta badago eta bistaratzeko gailurik ez dago konektatuta (edo bistaratzeko gailua ez dago piztuta), gutxi gorabehera 10 segunduko atzerapena egongo da hegaldi kontroladorearen berrabiarazi bakoitzean."
     },
+    "featureBLACKBOX": {
+        "message": "Kaxa beltzeko hegaldi datu gordailua"
+    },
+    "featureRX_SPI": {
+        "message": "SPI RX onartzen du"
+    },
     "featureTRANSPONDER": {
         "message": "Laizterketarako Erantzungailua"
+    },
+    "featureAIRMODE": {
+        "message": "Airmode etengabe gaitu"
+    },
+    "featureOSD": {
+        "message": "Informazioa Paintailan"
+    },
+    "featureVTX": {
+        "message": "Bideo igorlea"
     },
     "featureFAILSAFE": {
         "message": "Gaitu Failsafe 2garren maila"
