@@ -224,7 +224,7 @@
         "message": "Salbuztea"
     },
     "tabTransponder": {
-        "message": "Laizterketarako Erantzungailua"
+        "message": "Laizterketarako Transpondedorea"
     },
     "tabOsd": {
         "message": "OSD"
@@ -605,6 +605,9 @@
     "initialSetupButtonCalibrateAccel": {
         "message": "Azelerometroa kalibratu"
     },
+    "initialSetupCalibrateAccelText": {
+        "message": "Kontroladoreak edo markoa gainazale <strong>berdintutan</strong> jarri, jarraitu kalibrazioarekin, ziurtatu plataforma ez dela kalibrazio aldian mugitzen"
+    },
     "initialSetupButtonCalibrateMag": {
         "message": "Magnetometroa kalibratu"
     },
@@ -629,6 +632,9 @@
     "initialSetupButtonRebootBootloader": {
         "message": "Boot Loader / DFU aktibatu"
     },
+    "initialSetupBackupRestoreText": {
+        "message": "<strong> Babeskopia </strong> zure konfigurazioa istripu baten kasuan, <strong> CLI</strong> ezarpenak <span class=\"message-negative\"> ez daude </span> barne - erabili CLI 'diff all' komandoa horretarako."
+    },
     "initialSetupRebootBootloaderText": {
         "message": "<strong>Boot loader / DFU</strong> moduan berrabiarazi."
     },
@@ -637,6 +643,12 @@
     },
     "initialSetupRestoreSuccess": {
         "message": "Konfigurazioa <span class=\"message-positive\">arraskataz</span> leheneratua"
+    },
+    "initialSetupButtonResetZaxis": {
+        "message": "Berrezarri Z ardatza, desplazatu: 0 gradu"
+    },
+    "initialSetupButtonResetZaxisValue": {
+        "message": "Berrezarri Z ardatza, desplazatua: $1 gradu"
     },
     "initialSetupMixerHead": {
         "message": "Nahaste-mota"
@@ -660,10 +672,10 @@
         "message": "Bateria"
     },
     "initialSetupMinCellV": {
-        "message": "Zeldako gutxienezko boltaia:"
+        "message": "Zeldako gutxienezko tentsioa:"
     },
     "initialSetupMaxCellV": {
-        "message": "Zeldako gehienezko boltaia:"
+        "message": "Zeldako gehienezko tentsioa:"
     },
     "initialSetupVoltageScale": {
         "message": "Boltai eskala:"
@@ -692,6 +704,12 @@
     "initialSetupBatteryValue": {
         "message": "$1 V"
     },
+    "initialSetupDrawn": {
+        "message": "Kontsumo ahalmena:"
+    },
+    "initialSetupDrawing": {
+        "message": "Korronte kontzumitua:"
+    },
     "initialSetupBatteryMahValue": {
         "message": "$1 mAh"
     },
@@ -704,6 +722,15 @@
     "initialSetupRSSIValue": {
         "message": "$1 %"
     },
+    "initialSetupArmingDisableFlags": {
+        "message": "Armatua desgaitua:"
+    },
+    "initialSetupArmingAllowed": {
+        "message": "Armatuak Baimendu"
+    },
+    "initialSetupArmingDisableFlagsTooltip": {
+        "message": "Armagabetzea zergatik ez den onartzen adierazten duten banderola zerrenda. Banderaren gainetik pasatu sagua, edo Wikian sartu ('Sekuentzia Armatu eta Segurtasuna' orria) informazio gehiago lortzeko."
+    },
     "initialSetupArmingDisableFlagsTooltipNO_GYRO": {
         "message": "Ez da giroa detektatu",
         "description": "Message that pops up to describe the NO_GYRO arming disable flag"
@@ -712,9 +739,93 @@
         "message": "Failsafe aktibatua",
         "description": "Message that pops up to describe the FAILSAFE arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipRX_FAILSAFE": {
+        "message": "Ez da hartzaile seinalerik hautematen",
+        "description": "Message that pops up to describe the RX_FAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOXFAILSAFE": {
+        "message": "'FAILSAFE' botoia aktibatuta zegoen",
+        "description": "Message that pops up to describe the BOXFAILSAFE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRUNAWAY_TAKEOFF": {
+        "message": "Runway Takeoff prevention piztu da",
+        "description": "Message that pops up to describe the RUNAWAY_TAKEOFF arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCRASH": {
+        "message": "Desarmatu egin da istripuen detekzioaren bidez",
+        "description": "Message that pops up to describe the CRASH arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "Throttle kanala oso altua dago",
         "description": "Message that pops up to describe the THROTTLE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipANGLE": {
+        "message": "Aireontzia ez da nahiko zuzena",
+        "description": "Message that pops up to describe the ANGLE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
+        "message": "Laster armatuta piztu ondoren",
+        "description": "Message that pops up to describe the BOOT_GRACE_TIME arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipNOPREARM": {
+        "message": "Prearm botoia ez dago aktibatuta edo ez da desarmatu ondoren desgaitu",
+        "description": "Message that pops up to describe the NOPREARM arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipLOAD": {
+        "message": "Sistemaren karga handiegia da hegaldi seguruetarako",
+        "description": "Message that pops up to describe the LOAD arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
+        "message": "Sentsoreen kalibrazioa martxan dago",
+        "description": "Message that pops up to describe the CALIBRATING arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCLI": {
+        "message": "CLI aktiboa",
+        "description": "Message that pops up to describe the CLI arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
+        "message": "CMS (konfiguratzeko menua) aktiboa da - OSD edo beste pantailetan zehar -",
+        "description": "Message that pops up to describe the CMS_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipOSD_MENU": {
+        "message": "OSD menua aktiboa da",
+        "description": "Message that pops up to describe the OSD_MENU arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBST": {
+        "message": "Black Sheep Telemetry gailua (TBS Core Pro adibidez) desarmatu egin da eta armatzea eragozten du",
+        "description": "Message that pops up to describe the BST arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipMSP": {
+        "message": "MSP konexioa aktiboa da, seguruenik Betaflight Configurator honekin",
+        "description": "Message that pops up to describe the MSP arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipPARALYZE": {
+        "message": "Paralyze modua aktibatu da",
+        "description": "Message that pops up to describe the PARALYZE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipGPS": {
+        "message": "GPS erreskate modua konfiguratuta dago baina beharrezko satelite kopurua ez da ezarri",
+        "description": "Message that pops up to describe the GPS arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRESC": {
+        "message": "' GPS Rescue' etengailua aktibatuta zegoen",
+        "description": "Message that pops up to describe the RESC arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipRPMFILTER": {
+        "message": "RPM iragazkia gaituta dago, baina ESC bat edo gehiago ez dira DSHOT telemetria baliozkoak hornitzen. Egiaztatu ESC- ak gai direla eta beharrezko firmware instalatua DSHOT telemetria bidirekzionala laguntzeko.",
+        "description": "Message that pops up to describe the RPMFILTER arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
+        "message": "Konfigurazio aldaketeen ondoren berrabiarazi behar da",
+        "description": "Message that pops up to describe the REBOOT_REQD arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipDSHOT_BBANG": {
+        "message": "DSHOT bitbanged ez da behar bezala funtzionatzen eta motorrak ezin dira kontrolatu. Litekeena da hegaldiaren kontroladorean gaitutako beste funtzio batzuekin tenporizadore baten gatazka.",
+        "description": "Message that pops up to describe the DSHOT_BBANG arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipACC_CALIB": {
+        "message": "Azelerometroa ez da kalibratu eta haren mende dauden funtzioak gaituta daude. Azelerometroa kalibratu.",
+        "description": "Message that pops up to describe the ACC_CALIB arming disable flag"
     },
     "initialSetupGPSHead": {
         "message": "GPSa"
@@ -727,6 +838,9 @@
     },
     "initialSetupModel": {
         "message": "$1: modeloa"
+    },
+    "initialSetupAttitude": {
+        "message": "$1 gradu"
     },
     "initialSetupAccelCalibStarted": {
         "message": "Azelerometroaren kalibrazioa hasi da"
@@ -749,6 +863,21 @@
     "featureNone": {
         "message": "&lt;Bat aukeratu&gt;"
     },
+    "featureRX_PPM": {
+        "message": "PPM RX sarrera"
+    },
+    "featureVBAT": {
+        "message": "Bateria tentsioaren jarraipena"
+    },
+    "featureINFLIGHT_ACC_CAL": {
+        "message": "Hegaldi-mailaren kalibrazioa"
+    },
+    "featureRX_SERIAL": {
+        "message": "Serial-oinarrituta hartzailea (SPEKSAT, SBUS, SUMD)"
+    },
+    "featureMOTOR_STOP": {
+        "message": "Ez biratu motorrak armatzerakoan"
+    },
     "featureSERVO_TILT": {
         "message": "Serbo ginbala"
     },
@@ -767,26 +896,71 @@
     "featureSONAR": {
         "message": "Sonarra"
     },
+    "featureTELEMETRY": {
+        "message": "Telemetria irteera"
+    },
+    "featureCURRENT_METER": {
+        "message": "Bateria tentsioaren jarraipena"
+    },
+    "feature3D": {
+        "message": "3D modua (ESC aldakorrekin erabiltzeko)"
+    },
+    "featureRX_PARALLEL_PWM": {
+        "message": "PWM RX sarrera (kanal bakoitzeko kable bat)"
+    },
+    "featureRX_MSP": {
+        "message": "MSP RX sarrera (MSP atakaren kontrola)"
+    },
+    "featureRSSI_ADC": {
+        "message": "RSSI analogikoaren sarrera"
+    },
+    "featureDISPLAY": {
+        "message": "OLED Pantaila"
+    },
     "featureDISPLAYTip": {
         "message": "Funtzio hau gaituta badago eta bistaratzeko gailurik ez dago konektatuta (edo bistaratzeko gailua ez dago piztuta), gutxi gorabehera 10 segunduko atzerapena egongo da hegaldi kontroladorearen berrabiarazi bakoitzean."
+    },
+    "featureONESHOT125": {
+        "message": "ONESHOT ESC-Euskarri"
+    },
+    "featureONESHOT125Tip": {
+        "message": "Gaitu aurretik, deskonektatu hegaldiaren bateria eta helizeak kendu."
     },
     "featureBLACKBOX": {
         "message": "Kaxa beltzeko hegaldi datu gordailua"
     },
+    "featureBLACKBOXTip": {
+        "message": "Gaitu ondoren, kutxa beltzaren atala konfiguratu."
+    },
     "featureRX_SPI": {
         "message": "SPI RX onartzen du"
     },
+    "featureESC_SENSOR": {
+        "message": "KISS/BLHeli_32 ESC telemetria <b>beste kable baten gainean</b> erabili"
+    },
     "featureTRANSPONDER": {
-        "message": "Laizterketarako Erantzungailua"
+        "message": "Laizterketarako Transpondedorea"
+    },
+    "featureTRANSPONDERTip": {
+        "message": "Gaitu ondoren, laizterketarako transpondedore atala konfiguratu."
     },
     "featureAIRMODE": {
         "message": "Airmode etengabe gaitu"
+    },
+    "featureSUPEREXPO_RATES": {
+        "message": "Super Expo tasak"
+    },
+    "featureSDCARD": {
+        "message": "SDTxartela-euskarri (erregistratzeko)"
     },
     "featureOSD": {
         "message": "Informazioa Paintailan"
     },
     "featureVTX": {
         "message": "Bideo igorlea"
+    },
+    "featureDYNAMIC_FILTER": {
+        "message": "Giro iragazketa dinamikoa"
     },
     "featureFAILSAFE": {
         "message": "Gaitu Failsafe 2garren maila"
@@ -887,6 +1061,9 @@
     "configurationAccelTrimPitch": {
         "message": "Azelerometroaren Pitch Trim"
     },
+    "configurationArming": {
+        "message": "Armatua"
+    },
     "configurationArmingHelp": {
         "message": "Armatze-aukera batzuek azelerometroa gaituta izatea eskatzen dute"
     },
@@ -911,6 +1088,25 @@
     "configurationMotorPoles": {
         "message": "Motorren zutoinak",
         "description": "One of the fields of the ESC/Motor configuration"
+    },
+    "configurationMotorPolesLong": {
+        "message": "$t(configurationMotorPoles.message) (motorren kanpaiako iman kopurua)",
+        "description": "One of the fields of the ESC/Motor configuration"
+    },
+    "configurationThrottleMaximum": {
+        "message": "Throttle maximoa (ESC gehienezko balioa armatuta)"
+    },
+    "configurationThrottleMinimumCommand": {
+        "message": "Gutxieneko komandoa (ESC balioa desarmatzen denean)"
+    },
+    "configurationDshotBeeper": {
+        "message": "Dshot balizaren konfigurazioa"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "Dshot baliza erabili (motorren bipak abisuak emateko erabili)"
+    },
+    "configurationDshotBeaconTone": {
+        "message": "Balizaren tonua"
     },
     "pidTuningShowAllPids": {
         "message": "PID guztiak erakutsi"
@@ -966,7 +1162,7 @@
         "message": "RC TX / RX sistemak ez dira PID begiztak bezain azkarrak. Horrek esan nahi du PID begiak RC sistemetatik informazio korrontearen hutsuneak dituela. Aukera honek RC sarrera interpolatzea ahalbidetzen du RC markoak jasotzen ez diren garaietan. Baita ere P eta D portaera garbiagoa eskaintzen du, kontrol sarreran arrapalak ez daudelako."
     },
     "transponderInformation": {
-        "message": "Transponders sistemek lasterketen antolatzaileek zure bueltak kronometratzea ahalbidetzen dute. Transpondorea aireontziari egokituta dago eta aireontziak denbora-atea pasatzen duenean pista-alboko hartzaileak zure kodea erregistratzen du eta buelta denbora grabatzen du. IR oinarritutako transponder bat egokitzean zure hegazkinetik pista-alboko hargailuetara zuzentzen dela ziurtatu behar duzu, eta argi-izpiak zure egitura, bateria-uhalak, kableak, helizeak eta abar ez duela oztopatzen."
+        "message": "Transponder sistemek lasterketen antolatzaileek zure bueltak kronometratzea ahalbidetzen dute. Transpondorea aireontziari egokituta dago eta aireontziak denbora-atea pasatzen duenean pista-alboko hartzaileak zure kodea erregistratzen du eta buelta denbora grabatzen du. IR oinarritutako transponder bat egokitzean zure hegazkinetik pista-alboko hargailuetara zuzentzen dela ziurtatu behar duzu, eta argi-izpiak zure egitura, bateria-uhalak, kableak, helizeak eta abar ez duela oztopatzen."
     },
     "transponderConfiguration3": {
         "message": "ERLT Konfigurazioa"
