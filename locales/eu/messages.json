@@ -1112,6 +1112,129 @@
     "configurationDshotBeaconTone": {
         "message": "Balizaren tonua"
     },
+    "configurationBeeper": {
+        "message": "Beeper-en konfigurazioa"
+    },
+    "beeperGYRO_CALIBRATED": {
+        "message": "Soinua ateratzen du giroa kalibratu denean"
+    },
+    "beeperRX_LOST": {
+        "message": "Soinua ateratzen du TX itzalita edo seinalea galdu duelako(errepikatuko da TX ondo egon arte)"
+    },
+    "beeperRX_LOST_LANDING": {
+        "message": "SOS soinua ateratzen du armatuta eta TX itzalita edo seinalea galtzen duenean (lurreratzea / desarmatzea automatikoa)"
+    },
+    "beeperDISARMING": {
+        "message": "Bip soinua hegaldi kontroladorea desarmatzerakoan"
+    },
+    "beeperARMING": {
+        "message": "Bip soinua hegaldi kontroladorea armatzerakoan"
+    },
+    "beeperBAT_CRIT_LOW": {
+        "message": "Abisua luzeagoak errepikatzen ditu bateria kritikoa denean(errepikatu)"
+    },
+    "beeperBAT_LOW": {
+        "message": "Abisua soinuak errepikatzen dira bateria gutxi dagoenean(errepikatu)"
+    },
+    "configurationButtonSave": {
+        "message": "Gorde eta berrabiarazi"
+    },
+    "portsIdentifier": {
+        "message": "Identifikatzailea"
+    },
+    "portsConfiguration": {
+        "message": "MSP/Konfigurazioa"
+    },
+    "portsSerialRx": {
+        "message": "Serial Rx"
+    },
+    "portsSensorIn": {
+        "message": "Sentsorearen sarrera"
+    },
+    "portsTelemetryOut": {
+        "message": "Telemetria irteera"
+    },
+    "portsPeripherals": {
+        "message": "Periferikoak"
+    },
+    "portsHelp": {
+        "message": "<strong>Oharra:</strong> Konbinazio guztiek ez dira balio. Hegaldi-kontroladoreak hori hautematen duenean, serie atakaren konfigurazioa berrabiarazten da."
+    },
+    "portsVtxTableNotSet": {
+        "message": "<span class=\"message-negative\">KONTUZ:</span> VTX taula ez da behar bezala konfiguratu eta hori gabe VTX kontrola ezin da erabili. Mesedez VTX taula konfiguratu $t(tabVtx.message) fitxan."
+    },
+    "portsFirmwareUpgradeRequired": {
+        "message": "Firmware-aren bertsioa berritzea <span class=\"message-negative\">beharrezkoa</span> da. &lt; 1.8.0 Firmwarearean Serial ataka konfigurazioak  ez  dira onartzen."
+    },
+    "portsButtonSave": {
+        "message": "Gorde eta berrabiarazi"
+    },
+    "portsTelemetryDisabled": {
+        "message": "Desgaitua"
+    },
+    "portsFunction_MSP": {
+        "message": "MSP"
+    },
+    "portsFunction_GPS": {
+        "message": "GPSa"
+    },
+    "portsFunction_TELEMETRY_FRSKY": {
+        "message": "FrSky"
+    },
+    "portsFunction_TELEMETRY_HOTT": {
+        "message": "HoTT"
+    },
+    "portsFunction_TELEMETRY_LTM": {
+        "message": "LTM"
+    },
+    "portsFunction_TELEMETRY_MAVLINK": {
+        "message": "MAVLink"
+    },
+    "portsFunction_TELEMETRY_MSP": {
+        "message": "MSP"
+    },
+    "portsFunction_TELEMETRY_SMARTPORT": {
+        "message": "SmartPort"
+    },
+    "portsFunction_TELEMETRY_IBUS": {
+        "message": "iBUS"
+    },
+    "portsFunction_TELEMETRY_JETIXBUS": {
+        "message": "JETIXBUS"
+    },
+    "portsFunction_TELEMETRY_CRSF": {
+        "message": "CRSF"
+    },
+    "portsFunction_TELEMETRY_SRXL": {
+        "message": "SRXL"
+    },
+    "portsFunction_ESC_SENSOR": {
+        "message": "ESC"
+    },
+    "portsFunction_RX_SERIAL": {
+        "message": "Serial RX"
+    },
+    "portsFunction_BLACKBOX": {
+        "message": "Kutxa beltzaren erregistroa"
+    },
+    "portsFunction_TBS_SMARTAUDIO": {
+        "message": "VTX (TBS SmartAudio)"
+    },
+    "portsFunction_IRC_TRAMP": {
+        "message": "VTX (IRC Tramp)"
+    },
+    "portsFunction_RUNCAM_DEVICE_CONTROL": {
+        "message": "Kamera (RunCam Protokoloa)"
+    },
+    "pidTuningProfileOption": {
+        "message": "$1 profila"
+    },
+    "pidTuningRateProfileOption": {
+        "message": "$1 rate profila"
+    },
+    "portsFunction_LIDAR_TF": {
+        "message": "LIDAR Benewake"
+    },
     "pidTuningShowAllPids": {
         "message": "PID guztiak erakutsi"
     },
