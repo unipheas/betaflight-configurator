@@ -824,6 +824,10 @@
         "message": "Bitbanged DSHOT funktioniert nicht richtig und die Motoren können nicht gesteuert werden. Wahrscheinlich wird das durch einen Timer-Konflikt mit anderen Funktionen, die auf dem Flugcontroller aktiviert sind, verursacht.",
         "description": "Message that pops up to describe the DSHOT_BBANG arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipACC_CALIB": {
+        "message": "Der Beschleunigungssensor wurde nicht kalibriert und es sind Funktionen aktiviert, die darauf basieren. Kalibrieren Sie den Beschleunigungssensor.",
+        "description": "Message that pops up to describe the ACC_CALIB arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "Einer der anderen 'Disarm-Flags' ist aktiv während des Armings",
         "description": "Message that pops up to describe the ARM_SWITCH arming disable flag"
@@ -2427,6 +2431,9 @@
     },
     "blackboxLoggingSerial": {
         "message": "Serieller Port"
+    },
+    "serialLoggingSupportedNote": {
+        "message": "Das Speichern der Logs ist auf einem externen Gerät (z.B. OpenLager), mittels seriellem Port möglich. Dazu bitte den Anschluss im \"Anschlüsse Tab\" konfigurieren."
     },
     "sdcardNote": {
         "message": "Fluglogs können auf der SD Karte gespeichert werden."
@@ -4838,10 +4845,6 @@
     },
     "osdButtonSaved": {
         "message": "Gespeichert"
-    },
-    "vtxHelp": {
-        "message": "Hier können die Werte des Video Transmitter (VTX) konfiguriert werden. Es kann die Übertragungswerte, einschließlich der VTX-Tables, angezeigt und geändert werden, wenn der Flugcontroller und der VTX ihn unterstützen.<br>Um den VTX einzurichten, folge diesen Schritten:<br>1. Gehe zu <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/betaflight/betaflight/wiki/VTX-tables\">dieser</a> Seite;<br>2. Finde die passende VTX Konfigurationsdatei für das Land in dem die Drohne betrieben wird und das VTX Protokoll und lade sie herunter;<br>3. Klicke unten auf '$t(vtxButtonLoadFile.message)', wähle die VTX Konfigurationsdatei und lade sie;<br>4. Überprüfe, ob die Einstellungen korrekt sind;<br>5. Klicke auf '$t(vtxButtonSave.message)' um die VTX-Einstellungen auf dem Flugcontroller zu speichern.",
-        "description": "Introduction message in the VTX tab"
     },
     "vtxMessageNotSupported": {
         "message": "<span class=\"message-negative\">Achtung:</span> Dein VTX ist nicht konfiguriert oder nicht unterstützt. Dadurch kannst du die VTX-Werte von hier aus nicht ändern. Dies ist nur möglich, wenn der Flugcontroller mit einem Protokoll wie Tramp oder SmartAudio verbunden ist und in der Registerkarte $t(tabPorts.message) korrekt konfiguriert ist.",
