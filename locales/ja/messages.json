@@ -4849,10 +4849,6 @@
     "osdButtonSaved": {
         "message": "保存しました"
     },
-    "vtxHelp": {
-        "message": "ここで映像伝送用送信機 (VTX) の値を設定します。フライトコントローラとVTXがサポートしている場合、VTXテーブルを含む送信値を表示および変更できます。<br>VTXを設定するには次の手順となります。<br>1. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/betaflight/betaflight/wiki/VTX-tables\">このページ</a>に進みます;<br>2. 地域およびVTXモデルに適した設定ファイルを見つけてダウンロードします;<br>3.『 $t(vtxButtonLoadFile.message) 』をクリックして、VTX設定ファイルを選択し、ロードしてください;<br>4. 正しく設定されていることを確認してください;<br>5.『 \n $t(vtxButtonSave.message) 』をクリックし、フライトコントローラにVTX設定を保存します。",
-        "description": "Introduction message in the VTX tab"
-    },
     "vtxMessageNotSupported": {
         "message": "<span class=\"message-negative\">注意:</span> VTXが設定されていないかサポートされていません。フライトコントローラはTrampやSmartAudio等のプロトコルを使用してVTXと接続しており、必要に応じて、$t(tabPorts.message)タブで設定を修正する必要があります。",
         "description": "Message to show when the VTX is not supported in the VTX tab"
