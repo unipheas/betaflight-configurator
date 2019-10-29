@@ -4910,10 +4910,6 @@
     "osdButtonSaved": {
         "message": "Gardado"
     },
-    "vtxHelp": {
-        "message": "Aquí pode configurar os valores do seu transmisor de vídeo (VTX). Pode ver e cambiar os valores de transmisión, incluídas as táboas VTX, se o controlador de voo e a VTX o admiten.<br>Para configurar o VTX, siga os seguintes pasos:<br>1. Vaia a<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/betaflight/betaflight/wiki/VTX-tables\"> esta páxina;</a><br> 2. Busque o ficheiro de configuración VTX adecuado para o seu país e o seu modelo VTX e descárgueo;<br>3. Faga clic en '$t(vtxButtonLoadFile.message)' embaixo, seleccione o ficheiro de configuración VTX, cargueo;<br>4. Asegúrese de que a configuración sexa correcta;<br>5. Faga clic en '$t(vtxButtonSave.message)' para almacenar a configuración da VTX no controlador de voo.",
-        "description": "Introduction message in the VTX tab"
-    },
     "vtxMessageNotSupported": {
         "message": "<span class=\"message-negative\">Atención:</span>O seu VTX non está configurado ou non é compatible. Polo tanto, non pode modificar os valores VTX desde aquí. Isto só será posible se o controlador de voo está unido ó VTX usando algún protocolo como Tramp ou SmartAudio e está configurado correctamente na pestana $t(tabPorts.message) se fose necesario.",
         "description": "Message to show when the VTX is not supported in the VTX tab"
