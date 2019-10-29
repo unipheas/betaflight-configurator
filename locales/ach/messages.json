@@ -4932,7 +4932,7 @@
         "message": "crwdns8723:0crwdne8723:0"
     },
     "vtxHelp": {
-        "message": "crwdns9834:0$t(vtxButtonLoadFile.message)crwdnd9834:0$t(vtxButtonSave.message)crwdne9834:0",
+        "message": "crwdns9894:0$t(vtxButtonLoadFile.message)crwdnd9894:0$t(vtxButtonSave.message)crwdnd9894:0$t(vtxButtonSaveLua.message)crwdne9894:0",
         "description": "Introduction message in the VTX tab"
     },
     "vtxMessageNotSupported": {
@@ -5162,6 +5162,14 @@
     "vtxButtonSaveFile": {
         "message": "crwdns9738:0crwdne9738:0",
         "description": "Save to file button in the VTX tab"
+    },
+    "vtxButtonSaveLua": {
+        "message": "crwdns9896:0crwdne9896:0",
+        "description": "Save Lua script button in the VTX tab"
+    },
+    "vtxLuaFileHelp": {
+        "message": "crwdns9898:0$t(vtxButtonSaveLua.message)crwdne9898:0",
+        "description": "Tooltip message for the Save Lua script button in the VTX tab"
     },
     "vtxButtonLoadFile": {
         "message": "crwdns9740:0crwdne9740:0",
