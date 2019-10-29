@@ -891,6 +891,10 @@
         "message": "Bitbanged Dshot 无法正常工作，无法正常控制电机。可能是由于在飞控上启用了其他功能造成了定时器冲突。",
         "description": "Message that pops up to describe the DSHOT_BBANG arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipACC_CALIB": {
+        "message": "启用了依赖加速度计的功能，但是它还未被校准。请校准加速度计。",
+        "description": "Message that pops up to describe the ACC_CALIB arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "解锁时有一个阻止解锁的标志处于活跃状态",
         "description": "Message that pops up to describe the ARM_SWITCH arming disable flag"
@@ -2494,6 +2498,9 @@
     },
     "blackboxLoggingSerial": {
         "message": "串口"
+    },
+    "serialLoggingSupportedNote": {
+        "message": "你可以用过串口外接记录设备来记录日志（例如 OpenLager）。需要在串口设置页设置相应的串口。"
     },
     "sdcardNote": {
         "message": "飞行数据可以保存到板载的SD卡槽。"
@@ -4907,7 +4914,7 @@
         "message": "已保存"
     },
     "vtxHelp": {
-        "message": "您可以在此配置图传(VTX) 的值。如果飞行控制器和图传支持相应功能，则您可以查看和更改传输值(包括图传表) 。<br>请按以下步骤操作以配置您的图传: <br>1. 前往<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/betaflight/betaflight/wiki/VTX-tables\">这个</a>页面；<br>2. 找到适用于您所在国家/地区以及您的图传型号的图传配置文件并下载；<br>3. 点击下方的“$t(vtxButtonLoadFile.message)”，选择图传配置文件并加载；<br>4. 验证这些设置正确无误；<br>5. 点击“$t(vtxButtonSave.message)”以将图传配置存储在飞行控制器上。",
+        "message": "这里可以定义图传用到的值。如果你的图传支持，你可以查看和修改发送功率和图传表。<br>按以下步骤设置你的图传：<br>1. 打开<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/betaflight/betaflight/wiki/VTX-tables\">这个</a>页面；<br>2. 找到并下载适合你的图传型号和所在地区的图传配置文件；<br>3. 点击下方'$t(vtxButtonLoadFile.message)'，选择并加载图传配置文件；<br>4. 确认设置正确；<br>5. 点击'$t(vtxButtonSave.message)'保存图传设置到飞控。<br>6. （可选）点击'$t(vtxButtonSaveLua.message)'保存 Lua 配置文件供 Betaflight Lua 脚本使用。（在<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/betaflight/betaflight-tx-lua-scripts/\">这里</a>查看更多。）",
         "description": "Introduction message in the VTX tab"
     },
     "vtxMessageNotSupported": {
@@ -5086,6 +5093,10 @@
         "message": "频段内的频道数",
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
     },
+    "vtxTableBandsChannelsHelp": {
+        "message": "这里定义你希望图传用到的 band 数量和 channel 数量。",
+        "description": "Help for the number of bands and channels field of the VTX Table element in the VTX tab"
+    },
     "vtxTableBandTitleName": {
         "message": "名称",
         "description": "Text of one of the titles of the VTX Table element in the VTX tab"
@@ -5129,6 +5140,14 @@
     "vtxButtonSaveFile": {
         "message": "保存到文件",
         "description": "Save to file button in the VTX tab"
+    },
+    "vtxButtonSaveLua": {
+        "message": "保存 Lua 脚本",
+        "description": "Save Lua script button in the VTX tab"
+    },
+    "vtxLuaFileHelp": {
+        "message": "'$t(vtxButtonSaveLua.message)' 可以为你保存一个包含了图传表配置的名为<i>飞机名称</i>.lua 的文件可供 Betaflight Lua 脚本使用。（在<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/betaflight/betaflight-tx-lua-scripts/\">这里</a>查看更多。）",
+        "description": "Tooltip message for the Save Lua script button in the VTX tab"
     },
     "vtxButtonLoadFile": {
         "message": "从文件加载",
