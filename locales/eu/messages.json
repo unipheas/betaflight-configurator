@@ -1235,6 +1235,15 @@
     "portsFunction_LIDAR_TF": {
         "message": "LIDAR Benewake"
     },
+    "pidTuningSubTabPid": {
+        "message": "PID profilaren ezarpenak"
+    },
+    "pidTuningSubTabRates": {
+        "message": "Rate profilaren ezarpenak"
+    },
+    "pidTuningSubTabFilter": {
+        "message": "Iragazkiak"
+    },
     "pidTuningShowAllPids": {
         "message": "PID guztiak erakutsi"
     },
@@ -1266,6 +1275,55 @@
     "pidTuningAntiGravityThres": {
         "message": "Muga",
         "description": "Anti Gravity Threshold Parameter"
+    },
+    "pidTuningAntiGravityHelp": {
+        "message": "Anti Gravity-ak I terminoa hobetzen du throttle aldaketa azkarrak hautematen direnean. Balio altuagoak egonkortasuna ematen du eta jarrera mantentzen du azeleragailua azkarrago mugitzen duzunean."
+    },
+    "pidTuningDMin": {
+        "message": "D Min",
+        "description": "Table header of the D Min feature in the PIDs tab"
+    },
+    "pidTuningDMinDisabledNote": {
+        "message": "<strong>Oharra </strong> D Min funtzioa desgaituta dago eta haren parametroak ezkutatuta daude. D Min erabiltzeko, aktibatu hemen $t(pidTuningPidSettings.message)."
+    },
+    "pidTuningDMinGain": {
+        "message": "Irabazia",
+        "description": "Gain of the D Min feature"
+    },
+    "pidTuningDMinAdvance": {
+        "message": "Aurreratua",
+        "description": "Advance of the D Min feature"
+    },
+    "pidTuningPidSettings": {
+        "message": "PID kontroladorearen ezarpenak"
+    },
+    "receiverRcSmoothing": {
+        "message": "RC Leuntzea"
+    },
+    "receiverRcSmoothingAuto": {
+        "message": "Auto"
+    },
+    "receiverRcSmoothingManual": {
+        "message": "Eskuz"
+    },
+    "receiverRcSmoothingAutoSmoothness": {
+        "message": "Leuntze automatikoa",
+        "description": "Auto Smoothness parameter for RC smoothing"
+    },
+    "receiverRcDerivativeTypeSelect": {
+        "message": "Deribatuaren ebaki mota"
+    },
+    "receiverRcInputTypeSelect": {
+        "message": "Sarrerako ebaki mota"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "Interpolazioa"
+    },
+    "receiverRcSmoothingFilter": {
+        "message": "Iragazkia"
+    },
+    "receiverRcSmoothingTypeHelp": {
+        "message": "Erabilitako RC leuntze mota"
     },
     "rcSmoothingInputTypeHelp": {
         "message": "Sarrerarako erabiltzen den iragazketa metodoa. Erabiltzaile gehienek \"BIQUAD\" balioa erabili behar dute, leuntasunaren eta atzerapenaren arteko oreka ona ematen duelako. \"PT1\" atzerapena apur bat murrizten du baina leuntze gutxiago ematen du."
