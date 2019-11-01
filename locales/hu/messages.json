@@ -487,6 +487,9 @@
     "defaultDonateHead": {
         "message": "Nyílt Forráskód / Adomány Értesítés"
     },
+    "defaultDonateBottom": {
+        "message": "<p>Ha gyakran szeretnél pénzzel támogatni minket, akkor gondolkozhatnál azon, hogy szeretnél-e a patreon-unk lenni $t(patreonLink.message).</p>"
+    },
     "defaultDonate": {
         "message": "Adományozás"
     },
