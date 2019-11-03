@@ -831,6 +831,10 @@
         "message": "Azelerometroa ez da kalibratu eta haren mende dauden funtzioak gaituta daude. Azelerometroa kalibratu.",
         "description": "Message that pops up to describe the ACC_CALIB arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
+        "message": "Desarmatzeko beste banderietako bat gaituta zegoen armatzerakoan",
+        "description": "Message that pops up to describe the ARM_SWITCH arming disable flag"
+    },
     "initialSetupGPSHead": {
         "message": "GPSa"
     },
@@ -897,6 +901,9 @@
     "featureGPS": {
         "message": "Nabigazioa eta telemetriarako GPSa"
     },
+    "featureGPSTip": {
+        "message": "Lehenik eta behin konfiguratu atakaren agertokia"
+    },
     "featureSONAR": {
         "message": "Sonarra"
     },
@@ -917,6 +924,9 @@
     },
     "featureRSSI_ADC": {
         "message": "RSSI analogikoaren sarrera"
+    },
+    "featureLED_STRIP": {
+        "message": "RGB coloreko LED zerrenda euskarria dago"
     },
     "featureDISPLAY": {
         "message": "OLED Pantaila"
@@ -941,6 +951,9 @@
     },
     "featureESC_SENSOR": {
         "message": "KISS/BLHeli_32 ESC telemetria <b>beste kable baten gainean</b> erabili"
+    },
+    "featureCHANNEL_FORWARDING": {
+        "message": "Birbidali aux kanalak serbo irteeretara"
     },
     "featureTRANSPONDER": {
         "message": "Laizterketarako Transpondedorea"
