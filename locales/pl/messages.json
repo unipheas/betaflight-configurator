@@ -57,13 +57,13 @@
         "message": "Uruchom Tryb Eksperta na stałe"
     },
     "rememberLastTab": {
-        "message": "Otwórz ostatnią kartę po połączeniu"
+        "message": "Po wykryciu połączenia otwórz ostatnio używaną kartę"
     },
     "analyticsOptOut": {
         "message": "Zrezygnuj z anonimowego zbierania danych statystycznych"
     },
     "sensorDataFlashNotFound": {
-        "message": "Nie znaleziono <br>czipu DataFlash",
+        "message": "Nie znaleziono <br>czipu układu scalonego",
         "description": "Text of the dataflash image in the header of the page."
     },
     "sensorDataFlashFreeSpace": {
@@ -146,7 +146,7 @@
         "message": "Wgrywanie oprogramowania"
     },
     "tabLanding": {
-        "message": "Witaj"
+        "message": "Powitalnia"
     },
     "tabHelp": {
         "message": "Dokumentacja i pomoc"
@@ -199,14 +199,11 @@
     "tabRawSensorData": {
         "message": "Czujniki"
     },
-    "tabCLI": {
-        "message": "CLI"
-    },
     "tabLogging": {
         "message": "Logowanie powiązane"
     },
     "tabOnboardLogging": {
-        "message": "Czarna skrzynka"
+        "message": "Blackbox"
     },
     "tabAdjustments": {
         "message": "Regulacja"
@@ -680,6 +677,10 @@
         "message": "Zabezpieczenie przed ucieczką podczas startu zostało wyzwolone",
         "description": "Message that pops up to describe the RUNAWAY_TAKEOFF arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipCRASH": {
+        "message": "Rozbrojony przez wykrycie wypadku",
+        "description": "Message that pops up to describe the CRASH arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
         "message": "Kanał przepustnicy ma zbyt wysoką wartość",
         "description": "Message that pops up to describe the THROTTLE arming disable flag"
@@ -687,6 +688,10 @@
     "initialSetupArmingDisableFlagsTooltipANGLE": {
         "message": "Dron nie jest (wystarczająco) wypoziomowany",
         "description": "Message that pops up to describe the ANGLE arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipBOOT_GRACE_TIME": {
+        "message": "Uzbrajanie zbyt wcześnie po włączeniu zasilania",
+        "description": "Message that pops up to describe the BOOT_GRACE_TIME arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipLOAD": {
         "message": "Obciążenie systemu jest zbyt wysokie, aby zapewnić bezpieczny lot",
@@ -697,7 +702,7 @@
         "description": "Message that pops up to describe the CALIBRATING arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCLI": {
-        "message": "CLI jest aktywne",
+        "message": "Wiersz poleceń - aktywny",
         "description": "Message that pops up to describe the CLI arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipCMS_MENU": {
@@ -1012,22 +1017,19 @@
         "message": "Ustawienia buzzer'a"
     },
     "beeperGYRO_CALIBRATED": {
-        "message": "Zapikaj po skalibrowaniu żyroskopu"
-    },
-    "beeperRX_LOST": {
-        "message": "Zapikaj gdy nadajnik RC jest wyłączony lub nie ma zasięgu (powtarzaj dopóki nadajnik nie jest ok)"
+        "message": "Sygnał dźwiękowy po skalibrowaniu żyroskopu"
     },
     "beeperRX_LOST_LANDING": {
         "message": "Emituje sygnał SOS gdy jest uzbrojony a nadajnik RC jest wyłączony lub nie ma zasięgu (automatyczne lądowanie/rozbrajanie)"
     },
     "beeperDISARMING": {
-        "message": "Zapikaj przy rozbrajaniu kontrolera lotu"
+        "message": "Sygnał dźwiękowy podczas rozbrojenia kontrolera lotu"
     },
     "beeperARMING": {
-        "message": "Zapikaj przy uzbrajaniu kontrolera lotu"
+        "message": "Sygnał dzwiękowy podczas uzbrojenia kontrolera lotu"
     },
     "beeperARMING_GPS_FIX": {
-        "message": "Emituje specjalny dźwięk gdy FC jest uzbrajany i ma GPS fix'a"
+        "message": "Emituje specjalny sygnał dźwiękowy gdy kontroler lotu jest uzbrajany i GPS ma fix'a"
     },
     "beeperBAT_CRIT_LOW": {
         "message": "Dłuższe piknięcia gdy poziom baterii jest krytycznie niski (powtarzane)"
@@ -1035,11 +1037,32 @@
     "beeperBAT_LOW": {
         "message": "Ostrzegawcze piknięcia gdy poziom naładowania baterii spada (powtarzane)"
     },
+    "beeperGPS_STATUS": {
+        "message": "Liczba sygnałów dźwiękowych określa ile satelitów GPS zostało znalezionych"
+    },
+    "beeperRX_SET": {
+        "message": "Sygnał dźwiękowy, gdy dla dodatkowego kanału ustawiony jest sygnał dźwiękowy"
+    },
     "beeperACC_CALIBRATION": {
         "message": "Potwierdzenie zakończenia kalibracji akcelerometru podczas lotu"
     },
     "beeperACC_CALIBRATION_FAIL": {
         "message": "Kalibracja akcelerometru podczas lotu nie powiodła się"
+    },
+    "beeperARMED": {
+        "message": "Ostrzegawcze sygnały dźwiękowe gdy kontroler lotu jest uzbrojony a silniki są wyłączone podczas bezczynności (sygnały będą powtarzane dopóki kontroler lotu nie zostanie rozbrojony lub do momętu gdy przepustnica zostanie podniesiona)"
+    },
+    "beeperSYSTEM_INIT": {
+        "message": "Sygnał dźwiękowy podczas Inicjalizacji, emitowany gdy kontroler lotu jest włączony"
+    },
+    "beeperUSB": {
+        "message": "Sygnał dźwiękowy gdy kontroler lotu jest zasilany z USB. Wyłącz tą opcje jeśli nie chcesz słyszeć buzzer'a podczas pracy nad dronem"
+    },
+    "beeperCRASH_FLIP": {
+        "message": "Sygnał dzwiękowy gdy tryb crash flip jest aktywny"
+    },
+    "beeperRC_SMOOTHING_INIT_FAIL": {
+        "message": "Sygnał dzwiękowy gdy uzbrojono a wygładzanie rc nie zainicjowało filtrów"
     },
     "configuration3d": {
         "message": "Ustawienia ESC/Silników do lotów 3D"
@@ -1259,6 +1282,30 @@
     },
     "receiverModelPreview": {
         "message": "Podgląd"
+    },
+    "blackboxConfiguration": {
+        "message": "Konfiguracja rejestratora lotów"
+    },
+    "serialLoggingSupportedNote": {
+        "message": "Możesz podłączyć się do zewnętrznego urządzenia rejestrującego (takiego jak OpenLager) używając portu szeregowego. Skonfiguruj port w zakładce portów."
+    },
+    "sdcardNote": {
+        "message": "Parametry lotu mogą być zapisywane na karcie SD w slocie twojego kontrolera lotów."
+    },
+    "dataflashNote": {
+        "message": "Parametry lotu mogą być zapisywane na wbudowanym chipie w kontrolerze lotu."
+    },
+    "firmwareFlasherOnlineSelectBuildType": {
+        "message": "Wybierz typ build'u żeby zobaczyć dostępne płytki."
+    },
+    "firmwareFlasherOnlineSelectBoardDescription": {
+        "message": "Wybierz swój kontroler lotu, aby zobaczyć dostępne wersje oprogramowania online. Wybierz odpowiednie oprogramowanie dla twojego kontrolera lotu."
+    },
+    "mainHelpArmed": {
+        "message": "Uzbrojenie silników"
+    },
+    "onboardLoggingOnboardSDCard": {
+        "message": "Pokładowa karta SD"
     },
     "flashTab": {
         "message": "Aktualizuj oprogramowanie"
