@@ -1,4 +1,21 @@
 {
+    "yes": {
+        "message": "Tak",
+        "description": "General Yes message to be used across the application"
+    },
+    "no": {
+        "message": "Nie",
+        "description": "General No message to be used across the application"
+    },
+    "on": {
+        "message": "Wł"
+    },
+    "off": {
+        "message": "Wył"
+    },
+    "auto": {
+        "message": "Auto"
+    },
     "error": {
         "message": "Błąd: {{errorMessage}}"
     },
@@ -41,6 +58,9 @@
     "close": {
         "message": "Zamknij"
     },
+    "cancel": {
+        "message": "Anuluj"
+    },
     "autoConnectEnabled": {
         "message": "Automatyczne połączenie: Włączone - Konfigurator automatycznie spróbuje połączyć się, gdy wykryje nowy port."
     },
@@ -61,6 +81,19 @@
     },
     "analyticsOptOut": {
         "message": "Zrezygnuj z anonimowego zbierania danych statystycznych"
+    },
+    "language_changed": {
+        "message": "Zapisano zmianę języka"
+    },
+    "language_choice_message": {
+        "message": "Zmień język:",
+        "description": "Try and be brief"
+    },
+    "language_default": {
+        "message": "Domyślne ustawienie systemowe"
+    },
+    "language_default_pretty": {
+        "message": "Domyślne ustawienie systemowe ($t(detectedLanguage))"
     },
     "sensorDataFlashNotFound": {
         "message": "Nie znaleziono <br>czipu układu scalonego",
@@ -124,6 +157,12 @@
     "deviceRebooting": {
         "message": "Urządzenie - <span class=\"message-negative\">Restartowanie</span>"
     },
+    "deviceRebooting_flashBootloader": {
+        "message": "Urządzenie - <span class=\"message-negative\">Restartowanie do FLASH BOOTLOADER</span>"
+    },
+    "deviceRebooting_romBootloader": {
+        "message": "Urządzenie - <span class=\"message-negative\">Ponowne uruchomienie do ROM BOOTLOADER</span>"
+    },
     "deviceReady": {
         "message": "Urządzenie - <span class=\"message-positive\">Gotowe</span>"
     },
@@ -147,6 +186,12 @@
     },
     "tabLanding": {
         "message": "Powitalnia"
+    },
+    "tabChangelog": {
+        "message": "Wykaz zmian"
+    },
+    "tabPrivacyPolicy": {
+        "message": "Polityka Prywatności"
     },
     "tabHelp": {
         "message": "Dokumentacja i pomoc"
@@ -184,6 +229,9 @@
     "tabOsd": {
         "message": "OSD"
     },
+    "tabVtx": {
+        "message": "Nadajnik wideo"
+    },
     "tabPower": {
         "message": "Zasilanie i bateria"
     },
@@ -198,6 +246,9 @@
     },
     "tabRawSensorData": {
         "message": "Czujniki"
+    },
+    "tabCLI": {
+        "message": "CLI"
     },
     "tabLogging": {
         "message": "Logowanie powiązane"
@@ -216,6 +267,12 @@
     },
     "logActionShow": {
         "message": "Pokaż logi"
+    },
+    "serialErrorFrameError": {
+        "message": "Błąd połączenia szeregowego: zła ramka"
+    },
+    "serialErrorParityError": {
+        "message": "Błąd połączenia szeregowego: zła parzystość"
     },
     "serialPortOpened": {
         "message": "Port <span class=\"message-positive\">został otwarty</span> z ID: $1"
@@ -250,6 +307,9 @@
     "stm32UsbDfuNotFound": {
         "message": "Nie znaleziono USB DFU"
     },
+    "stm32RebootingToBootloader": {
+        "message": "Inicjowanie restartu do bootloadera..."
+    },
     "stm32TimedOut": {
         "message": "STM32 - czas oczekiwania upłynął, programowanie nie udało się."
     },
@@ -276,6 +336,9 @@
     },
     "stm32LocalErase": {
         "message": "Uruchamianie szybkiego czyszczenia pamięci FLASH ..."
+    },
+    "stm32InvalidHex": {
+        "message": "Nieprawidłowy hex"
     },
     "stm32Erase": {
         "message": "Czyszczenie ..."
@@ -331,12 +394,21 @@
     "firmwareUpgradeRequired": {
         "message": "Oprogramowanie tego kontrolera lotu wymaga aktualizacji do nowszej wersji. Użyj CLI, aby zgrać bieżącą konfigurację. Opis zgrywania/przywrócenia konfiguracji opisany jest w dokumentacji.<br />Możesz także pobrać starszą wersję konfiguratora, jeżeli nie chcesz aktualizować oprogramowania kontrolera lotu."
     },
+    "resetToCustomDefaultsDialog": {
+        "message": "Dostępne są niestandardowe ustawienia domyślne dla tego kontrolera lotu. Zwykle kontroler nie będzie działać poprawnie, chyba że zostaną zastosowane niestandardowe ustawienia domyślne. <br /> Czy chcesz zastosować niestandardowe ustawienia domyślne dla tego kontrolera?"
+    },
+    "resetToCustomDefaultsAccept": {
+        "message": "Zastosuj niestandardowe ustawienia domyślne"
+    },
     "infoVersions": {
         "message": "Działający - OS: <strong>{{operatingSystem}}</strong>, Chrome: <strong>{{chromeVersion}}</strong>, Konfigurator: <strong>{{configuratorVersion}}</strong>",
         "description": "Message that appears in the GUI log panel indicating operating system, Chrome version and Configurator version"
     },
     "buildServerLoaded": {
         "message": "Załadowano informacje o kompilacji $1 z serwera."
+    },
+    "buildServerLoadFailed": {
+        "message": "<b>Zapytanie do GitHub'a dla wersji $1 nie udało się. Zostaną użyte zapamiętane wcześniej informacje. Powód: <code>$2</code></b>"
     },
     "buildServerUsingCached": {
         "message": "Użycie informacji o kompilacji z bufora dla $1."
@@ -475,6 +547,9 @@
     },
     "defaultDonateText": {
         "message": "<p><strong>Betaflight</strong> to oprogramowanie kontrolera lotu które jest <strong>open source</strong> i jest dostępne bez opłat, <strong>bez gwarancji</strong> dla wszystkich użytkowników.</p><p>Jeśli uważasz Betaflight lub Konfigurator Betaflight za przydatne, proszę rozważ <strong>wsparcie</strong> ich rozwoju przez darowiznę.</p>"
+    },
+    "defaultDonateBottom": {
+        "message": "<p>Jeśli chcesz wnosić wkład finansowy na bieżąco, powinieneś rozważyć możliwość zostania naszym patronem $t(patreonLink.message).</p>"
     },
     "defaultDonate": {
         "message": "Dotacja"
@@ -733,6 +808,18 @@
         "message": "Włączono przełącznik „GPS Rescue”",
         "description": "Message that pops up to describe the RESC arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipRPMFILTER": {
+        "message": "Filtrowanie w oparciu o RPM jest włączone ale jedno lub więcej ESC nie dostarcza odpowiedniego sygnału telemetrii DSHOT. Sprawdź czy ESC są odpowiednie i mają zainstalowane wymagane oprogramowanie wspierające dwukierunkową telemetrię DSHOT.",
+        "description": "Message that pops up to describe the RPMFILTER arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
+        "message": "Zmiana w konfiguracji wymaga ponownego uruchomienia",
+        "description": "Message that pops up to describe the REBOOT_REQD arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipDSHOT_BBANG": {
+        "message": "Komunikacja DSHOT nie działa poprawnie i nie można kontrolować silników. Prawdopodobnie jest to spowodowane przez konflikt z innymi funkcjami włączonymi w kontrolerze lotu.",
+        "description": "Message that pops up to describe the DSHOT_BBANG arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "Jedna z pozostałych flag rozbrojenia jest aktywna podczas uzbrajania",
         "description": "Message that pops up to describe the ARM_SWITCH arming disable flag"
@@ -791,6 +878,9 @@
     "featureSERVO_TILT": {
         "message": "Servo gimbal"
     },
+    "featureSERVO_TILTTip": {
+        "message": "Ta funkcja włącza tryb CAMSTAB, którego można użyć do utrzymania maksymalnie dwóch osi za pomocą akcelerometru"
+    },
     "featureSOFTSERIAL": {
         "message": "Uruchom SerialPort'y bazujące na CPU"
     },
@@ -847,6 +937,9 @@
     },
     "featureRX_SPI": {
         "message": "Wsparcie SPI RX"
+    },
+    "featureESC_SENSOR": {
+        "message": "Użyj telemetrii KISS/BLHeli_32 ESC <b> na osobnym przewodzie</b>"
     },
     "featureCHANNEL_FORWARDING": {
         "message": "Prześlij wartość kanału AUX do wyjść serwomechanizmów"
@@ -917,11 +1010,17 @@
     "configurationEscFeatures": {
         "message": "Ustawienia ESC/Silników"
     },
+    "configurationFeaturesHelp": {
+        "message": "<strong>Uwaga:</strong> Nie wszystkie kombinacje funkcji są poprawne. Jeśli oprogramowanie kontrolera lotu wykryje konflikt funkcji, zostanie ona wyłączona.<br /><strong>Uwaga:</strong> Skonfiguruj port <span class=\"message-negative\">przez</span> włączenie funkcji która będzie go wykorzystywać."
+    },
     "configurationSerialRXHelp": {
         "message": "<strong>Uwaga:</strong> Gdy używasz odbiornika typu RX_SERIAL, pamiętaj o skonfigurowaniu portu (w zakładce Porty) i wybraniu rodzaju sygnału odbiornika."
     },
     "configurationSpiRxHelp": {
         "message": "<strong>Uwaga:</strong> Odbiornik typu SPI RX będzie działa tylko gdy odbiornik jest zintegrowany z FC lub jest podłączony do magistrali SPI."
+    },
+    "configurationOtherFeaturesHelp": {
+        "message": "<strong>Uwaga:</strong> Nie każda funkcja jest obsługiwana przez każdy kontroler lotu. Jeśli włączysz daną funkcje a po wciśnięciu 'Zapisz i zrestartuj' nie zostanie ona wyłączona to oznacza że funkcja ta jest nieobsługiwana przez twój kontroler lotu."
     },
     "configurationBoardAlignment": {
         "message": "Ułożenie płytki i czujników"
@@ -1007,17 +1106,49 @@
     "configurationDigitalIdlePercentHelp": {
         "message": "Jest to wartość 'bezczynności\" wyrażana jako procent maksymalnej wartości przepustnicy wysyłanej do ESC kiedy dron jest uzbrojony i drążek przepustnicy jest w najniższym położeniu. Zwiększ liczbę procentów aby uzyskać większą prędkość podczas 'bezczynności'."
     },
+    "configurationMotorPoles": {
+        "message": "Bieguny silnika",
+        "description": "One of the fields of the ESC/Motor configuration"
+    },
+    "configurationMotorPolesLong": {
+        "message": "$t(configurationMotorPoles.message) (liczba magnesów na dzwonku silnika)",
+        "description": "One of the fields of the ESC/Motor configuration"
+    },
     "configurationThrottleMinimum": {
         "message": "Minimum przepustnicy (Najniższa wartość ESC gdy uzbrojony)"
     },
     "configurationThrottleMinimumHelp": {
         "message": "Jest to wartość 'bezczynności', która jest wysyłana do ESC, gdy dron jest uzbrojony i drążek przepustnicy jest w najniższym położeniu. Zwiększ wartość aby uzyskać większą prędkość obrotową. Zwiększ wartość w przypadku desynchronizacji!"
     },
+    "configurationThrottleMaximum": {
+        "message": "Maksymalna wartość przepustnicy (Kiedy ESC jest uzbrojone)"
+    },
+    "configurationThrottleMinimumCommand": {
+        "message": "Minimalna wartość przepustnicy( kiedy ESC jest rozbrojone)"
+    },
+    "configurationThrottleMinimumCommandHelp": {
+        "message": "Jest to wartość wysyłana do ESC, w chwili rozbrojenia modelu. Ustaw tę wartość aby zatrzymać silniki (1000 dla większości układów ESC)."
+    },
+    "configurationDshotBeeper": {
+        "message": "Konfiguracja sygnału radiowego Dshot"
+    },
+    "configurationUseDshotBeeper": {
+        "message": "Użyj sygnału radiowego Dhsot (Pozwala użyć silników do generowania sygnału dzwiękowego gdy rozbrojony)"
+    },
+    "configurationDshotBeaconTone": {
+        "message": "Sygnał Radiowy"
+    },
+    "configurationDshotBeaconHelp": {
+        "message": "Sygnał radiowy Dshot wykorzstuje układy ESC i silniki do generowania dźwięku. Oznacza to, że protokół Dshot nie może być użyty podczas gdy silniki są uruchomione. W Betaflight 3.4 i nowszych, gdy próbuje się uzbroić silniki występuje opóźnienie o 2 sekundy, zanim jednostka zostanie uzbrojona. Ma to zapobiec przed zakłóceniem funkcji sygnału radiowego Dshot podczas wysyłania sygnału</strong> wysyłanego podczas uzbrajania. <br/> <strong> Ostrzeżenie: </strong> Ponieważ sygnał Dshot przepływa przez silniki, gdy są aktywne, może to spowodować nadmierne nagrzewanie i uszkodzenie silników lub układów ESC, jeśli siła sygnału ostrzegawczego jest ustawiona zbyt wysoko. Użyj BLHeli Configurator lub BLHeli Suite, aby wyregulować i przetestować siłę sygnału."
+    },
     "configurationBeeper": {
         "message": "Ustawienia buzzer'a"
     },
     "beeperGYRO_CALIBRATED": {
         "message": "Sygnał dźwiękowy po skalibrowaniu żyroskopu"
+    },
+    "beeperRX_LOST": {
+        "message": "Sygnał dźwiękowy gdy nadajnik RC wyłączy się lub gdy straci zasięg (sygnał powtarzany do chwili gdy problemy z nadajnikiem nie miną)"
     },
     "beeperRX_LOST_LANDING": {
         "message": "Emituje sygnał SOS gdy jest uzbrojony a nadajnik RC jest wyłączony lub nie ma zasięgu (automatyczne lądowanie/rozbrajanie)"
@@ -1049,6 +1180,9 @@
     "beeperACC_CALIBRATION_FAIL": {
         "message": "Kalibracja akcelerometru podczas lotu nie powiodła się"
     },
+    "beeperREADY_BEEP": {
+        "message": "Wydaj dźwięk kiedy GPS namierzony i gotowy"
+    },
     "beeperARMED": {
         "message": "Ostrzegawcze sygnały dźwiękowe gdy kontroler lotu jest uzbrojony a silniki są wyłączone podczas bezczynności (sygnały będą powtarzane dopóki kontroler lotu nie zostanie rozbrojony lub do momętu gdy przepustnica zostanie podniesiona)"
     },
@@ -1057,6 +1191,9 @@
     },
     "beeperUSB": {
         "message": "Sygnał dźwiękowy gdy kontroler lotu jest zasilany z USB. Wyłącz tą opcje jeśli nie chcesz słyszeć buzzer'a podczas pracy nad dronem"
+    },
+    "beeperBLACKBOX_ERASE": {
+        "message": "Sygnał dźwiękowy po zakończeniu wymazywania blackbox'a"
     },
     "beeperCRASH_FLIP": {
         "message": "Sygnał dzwiękowy gdy tryb crash flip jest aktywny"
@@ -1067,17 +1204,32 @@
     "configuration3d": {
         "message": "Ustawienia ESC/Silników do lotów 3D"
     },
+    "configuration3dNeutral": {
+        "message": "Neutralny 3D"
+    },
     "configurationSystem": {
         "message": "Konfiguracja systemu"
     },
     "configurationCalculatedCyclesSec": {
         "message": "Cykle/Sekundy [Hz]"
     },
+    "configurationLoopTimeHelp": {
+        "message": "<strong>Uwaga:</strong> Upewnij się że twój kontroler lotu może działać z taką prędkością! Sprawdź CPU i stabilność czasu cyklu. Zmiana tego może wymagać ponownego ustawienia PID. Porada: Wyłącz akcelerometr i inne czujniki aby zyskać na wydajności."
+    },
+    "configurationLoopTimeNo32KhzHelp": {
+        "message": "$ t (configurationLoopTimeHelp.message) <br> <strong> Uwaga na temat trybu próbkowania żyroskopu 32 kHz: </strong> Wsparcie dla 32kHz zostało dodane do Betaflight jako eksperymentalną funkcja. Przez lata dostępności nie wykazała żadnej przewagi nad próbkowaniem 8kHz, ze względu podatności na wibracje i wysoki poziom zakłuceń, które wymagały agresywnego filtrowania, powodując opóźnienia w pętli sterowania. Z tego powodu zrezygnowano z obsługi <strong> próbkowania żyroskopu 32 kHz </strong> w Betaflight 4.0."
+    },
     "configurationGPS": {
         "message": "GPS"
     },
     "configurationGPSProtocol": {
         "message": "Protokół"
+    },
+    "configurationGPSubxSbas": {
+        "message": "Typ pomocy naziemnej"
+    },
+    "configurationGPSAutoConfig": {
+        "message": "Auto konfiguracja"
     },
     "configurationSerialRX": {
         "message": "Rodzaj sygnału odbiornika"
@@ -1108,6 +1260,15 @@
     },
     "portsPeripherals": {
         "message": "Peryferia"
+    },
+    "portsHelp": {
+        "message": "<strong> Uwaga: </strong> nie wszystkie kombinacje są poprawne. Po wykryciu tego przez oprogramowanie  kontrolera lotu konfiguracja portu szeregowego zostanie zresetowana."
+    },
+    "portsMSPHelp": {
+        "message": "<strong> Uwaga: </strong> Nie włączaj <span class = \"message-negative\"> NIE </span> wyłączaj MSP na pierwszym porcie szeregowym, chyba że wiesz co robisz. W takim przypadku konieczne może być ponowne flashowanie i przywrócenie poprzednich ustawień."
+    },
+    "portsFirmwareUpgradeRequired": {
+        "message": "Aktualizacja oprogramowania<span class=\"message-negative\">wymagana</span>. Konfiguracja oprogramowania portów szeregowych &lt; 1.8.0 nie jest obsługiwana."
     },
     "portsButtonSave": {
         "message": "Zapisz i zrestartuj"
@@ -1157,6 +1318,9 @@
     "portsFunction_RX_SERIAL": {
         "message": "Serial RX"
     },
+    "portsFunction_BLACKBOX": {
+        "message": "Zapisywanie Blackbox"
+    },
     "portsFunction_TBS_SMARTAUDIO": {
         "message": "VTX (TBS SmartAudio)"
     },
@@ -1169,8 +1333,17 @@
     "pidTuningProfileOption": {
         "message": "Profil $1"
     },
+    "pidTuningRateProfileOption": {
+        "message": "Rateprofile $1"
+    },
     "portsFunction_LIDAR_TF": {
         "message": "Benewake LIDAR"
+    },
+    "pidTuningUpgradeFirmwareToChangePidController": {
+        "message": "<span class = \"message-negative\"> Wyłączono zmianę kontroli PID - możesz to zmienić za pomocą wiersza poleceń. </span> Masz oprogramowanie w wersji API <span class = \"message-negative\">$1</span>, ale ta funkcja wymaga <span class = \"message-Positive\">$2</span>."
+    },
+    "pidTuningSubTabPid": {
+        "message": "Ustawienia profilu PID"
     },
     "pidTuningSubTabFilter": {
         "message": "Ustawienia filtrów"
@@ -1184,6 +1357,48 @@
     "pidTuningNonProfilePidSettings": {
         "message": "Ustawienia regulatora PID niezależne od profilu"
     },
+    "pidTuningAntiGravity": {
+        "message": "Anti Gravity"
+    },
+    "pidTuningAntiGravityMode": {
+        "message": "Tryb",
+        "description": "Anti Gravity mode selection parameter"
+    },
+    "pidTuningAntiGravityModeOptionSmooth": {
+        "message": "Gładki",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityModeOptionStep": {
+        "message": "Skokowy",
+        "description": "One of the modes of anti gravity"
+    },
+    "pidTuningAntiGravityGain": {
+        "message": "Wzmocnienie",
+        "description": "Anti Gravity Gain Parameter"
+    },
+    "pidTuningAntiGravityThres": {
+        "message": "Próg",
+        "description": "Anti Gravity Threshold Parameter"
+    },
+    "pidTuningDMinDisabledNote": {
+        "message": "<strong> Uwaga: </strong> funkcja D Min jest wyłączona, a jej parametry są ukryte. Aby użyć funkcji D Min, włącz ją w $t(pidTuningPidSettings.message)."
+    },
+    "pidTuningDMinGain": {
+        "message": "Wzmocnienie",
+        "description": "Gain of the D Min feature"
+    },
+    "pidTuningDMinAdvance": {
+        "message": "Wyprzedzenie",
+        "description": "Advance of the D Min feature"
+    },
+    "pidTuningDMinFeatureHelp": {
+        "message": "D Min umożliwia osiągnięcie niższego poziomu D w normalnym locie i wyższego poziomu w przypadku szybkich manewrów, które mogą powodować przewrócenie modelu takie jak flipy i beczki, podnosi on również D podczas naporu powietrza na ster kierunku podczas lotu. Maximum dostosowuje D do maksymalnej wartości i opiera się na wskazaniach żyroskopu aby określić agresywność manewrów. Wyprzedzenie sprawia, że ​​D używa wartości określonej wcześniej przez użytkownika, zamiast żyroskopu do określania ostrych manewrów.",
+        "description": "D Min feature helpicon message"
+    },
+    "pidTuningDMinHelp": {
+        "message": "Kontroluje siłę tłumienia (D-term) w normalnym locie do przodu. <br> Przy włączonym D_min, podczas lotu zmienia się aktywność D. W normalnym locie do przodu następuje przyrost wartości D_min. Podczas agresywnych manewrów lub podczas podmuchów powietrza na ster kierunku, aktywny zysk D zwiększa się do wartości określonych po lewej stronie. <br><br> Pełne zyski są osiągane przy ostrym wychyleniu drążka, ale tylko częściowe są osiągane podczas podmuchów powietrza na ster kierunku. <br> Dostosuj wzmocnienie i przyspieszenie D_Min, aby kontrolować czułość i czas wzmocnienia.",
+        "description": "D Min helpicon message on PID table titlebar"
+    },
     "pidTuningPidSettings": {
         "message": "Ustawienia regulatora PID"
     },
@@ -1196,11 +1411,58 @@
     "receiverRcSmoothingManual": {
         "message": "Ręcznie"
     },
+    "receiverRcSmoothingAutoSmoothness": {
+        "message": "Auto wygładzenie",
+        "description": "Auto Smoothness parameter for RC smoothing"
+    },
+    "receiverRcSmoothingAutoSmoothnessHelp": {
+        "message": "Dostosowuje obliczenia Automatycznego wygładzania, 10 jest domyślnym współczynnikiem wygładzania do opóźnienia. Zwiększenie liczby uczyni wejścia RC bardziej gładkimi, jednocześnie dodając opóźnienie. Może to być przydatne w przypadku niepewnych połączeniach RC lub latania z kamerą w celu kręcenia filmów. <br> Uważaj na liczby zbliżające się do 50, opóźnienie wejściowe stanie się zauważalne. <br> Użyj polecenia: rc_smoothing_info w wierszu poleceń, gdy TX i RX są zasilane, aby zobaczyć automatycznie obliczone wygładzanie RC. ",
+        "description": "Auto Smoothness parameter help message"
+    },
+    "receiverRcDerivativeTypeSelect": {
+        "message": "Rodzaj odcięcia"
+    },
+    "receiverRcSmoothingInterpolation": {
+        "message": "Interpolacja"
+    },
     "receiverRcSmoothingFilter": {
         "message": "Filtr"
     },
+    "receiverRcSmoothingTypeHelp": {
+        "message": "Typ wykorzystywanego wygładzania RC"
+    },
+    "rcSmoothingInputCutoffHelp": {
+        "message": "Częstotliwość odcięcia w Hz używana przez filtr wejściowy. Stosowanie niższych wartości spowoduje płynniejsze wejście i jest bardziej odpowiednie dla protokołów wolniejszego odbiornika. Większość użytkowników powinna zostawić to na 0 co odpowiada \"Auto\"."
+    },
+    "rcSmoothingDerivativeCutoffHelp": {
+        "message": "Częstotliwość odcięcia w Hz wykorzystywana przez filtr wartości zadanej. Zastosowanie niższych wartości spowoduje płynniejsze wejście i będzie bardziej odpowiednie dla wolniejszych protokołów odbiornika. Większość użytkowników powinna pozostawić wartość 0 odpowiadającą „Auto”."
+    },
+    "rcSmoothingChannelsSmoothedHelp": {
+        "message": "Kanały do których odnosi się wygładzanie"
+    },
+    "rcSmoothingDerivativeTypeHelp": {
+        "message": "Rodzaj metody filtrowania stosowanej do dopochodnych filtra wartości zadanej. Większość użytkowników powinna używać domyślnej wartości „BIQUAD”, ponieważ zapewnia ona równowagę między płynnością a opóźnieniem. „PT1” nieznacznie zmniejsza opóźnienie, ale zapewnia mniej wygładzania."
+    },
+    "rcSmoothingInputTypeHelp": {
+        "message": "Rodzaj metody filtrowania zastosowany dla danych wejściowych. Większość użytkowników powinna używać domyślnej wartości „BIQUAD”, ponieważ zapewnia ona równowagę między płynnością a opóźnieniem. „PT1” nieznacznie zmniejsza opóźnienie, ale zapewnia mniej wygładzania."
+    },
+    "receiverRcSmoothingInputManual": {
+        "message": "Wybiera, czy częstotliwość odcięcia filtra wejściowego jest automatycznie obliczana (zalecane) czy wybierana ręcznie przez użytkownika. Używanie \"Ręcznego\" nie jest zalecane dla protokołów odbiorników, takich jak Crossfire które mogą zmieniać się w locie."
+    },
+    "receiverRcSmoothingInputHz": {
+        "message": "Wejściowa częstotliwość odcięcia"
+    },
+    "receiverRcSmoothingDerivativeCutoff": {
+        "message": "Pochodna częstotliwość odcięcia"
+    },
     "receiverRcInterpolationOff": {
         "message": "Wyłączony"
+    },
+    "receiverRcSmoothingType": {
+        "message": "Typ wygładzania"
+    },
+    "receiverRcInterpolationDefault": {
+        "message": "Wstępne"
     },
     "receiverRcInterpolationAuto": {
         "message": "Automatycznie"
@@ -1208,11 +1470,55 @@
     "receiverRcInterpolationManual": {
         "message": "Ręcznie"
     },
+    "receiverRcInterpolationInterval": {
+        "message": "Interwał interpolacji RC [ms]"
+    },
+    "pidTuningProportional": {
+        "message": "Proporcjonalny"
+    },
+    "pidTuningIntegral": {
+        "message": "Zintegruj"
+    },
+    "pidTuningIntegralHelp": {
+        "message": "Kontroluje siłę tego, jak mocno maszyna utrzymuje ogólną pozycję. <br> Podobne do ustawień Proporcjonalnych, ale w przypadku błędów w konstrukcji modelu, takich jak przesunięty środek ciężkości (CoG) lub stały wpływ zewnętrzny (wiatr). <br><br> Wyższe wartości zapewniają lepszą kontrolę (np. podczas pokonywania zakrętów), ale mogą sprawić, że model będzie sztywny i będzie reagował na polecenia drążka w sposób ociężały. <br> Jeśli jest bardzo wysoka proporcjonalnie do D-term, może powodować powolne oscylacje.",
+        "description": "Integral Term helpicon message on PID table titlebar"
+    },
+    "pidTuningDerivative": {
+        "message": "Pochodna"
+    },
+    "pidTuningDerivativeHelp": {
+        "message": "Kontroluje z jaką siłą odbywać ma się korekta ruch drona przy KAŻDEJ zmianie kierunku. Kiedy drążki są poruszane, D-term tłumi polecenie. W przypadku wpływu zewnętrznego ( dryfowanie  lub porywy wiatru) D-term tłumi wpływ. <br> <br> Wyższe wzmocnienie zapewnia większe tłumienie i zmniejsza nadmiar P-term i FF. <br> D-term jest BARDZO wrażliwy na wibracje wysokiej częstotliwości które zakłócają  pracę żyroskopu  (zakłócenia zwiększają się od 10 do 100x). <br> <br> Wibracje o wysokiej częstotliwości mogą powodować grzanie się silników co może doprowadzić do ich zniszczenia, jeśli wzmocnienie D jest zbyt wysokie lub wibracje żyroskopowe  nie są dobrze filtrowane (patrz w zakładce Filtr). <br> <br> D-term jest podobny do amortyzatora, ale ma negatywną właściwość wzmacniania szumu żyroskopowego wysokiej częstotliwości.",
+        "description": "Derivative Term helpicon message on PID table titlebar"
+    },
+    "pidTuningFeedforward": {
+        "message": "Feedforward"
+    },
+    "pidTuningRcRate": {
+        "message": "RC Rate"
+    },
+    "pidTuningMaxVel": {
+        "message": "Max prędkość [stopnie/s]"
+    },
+    "pidTuningRate": {
+        "message": "Rate"
+    },
+    "pidTuningSuperRate": {
+        "message": "Super Rate"
+    },
+    "pidTuningRatesPreview": {
+        "message": "Podgląd Rate"
+    },
+    "pidTuningRcExpo": {
+        "message": "RC Expo"
+    },
     "pidTuningTPA": {
         "message": "TPA"
     },
     "pidTuningTPABreakPoint": {
         "message": "Punkt przerwania TPA"
+    },
+    "pidTuningThrottleCurvePreview": {
+        "message": "Podgląd krzywej przepustnicy"
     },
     "pidTuningThrottleLimitType": {
         "message": "Limit przepustnicy"
@@ -1222,6 +1528,30 @@
     },
     "pidTuningThrottleLimitTypeOff": {
         "message": "Wył"
+    },
+    "pidTuningThrottleLimitTypeScale": {
+        "message": "SKALA"
+    },
+    "pidTuningThrottleLimitTypeClip": {
+        "message": "OGRANICZ"
+    },
+    "pidTuningThrottleLimitTypeTip": {
+        "message": "Wybierz rodzaj ograniczenia przepustnicy. <b> WYŁĄCZ</b> wyłącza tę funkcję, <b> SKALA </b> zmieni czułość przepustnicy z 0 na wybraną wartość, w całym zakresie przepustnicy, <b> OGRARICZ/b> ustawi czułość przepustnicy w taki sposób że wychylenie drążka powyżej określonej wartości nie będzie miało dodatkowego efektu"
+    },
+    "pidTuningThrottleLimitPercentTip": {
+        "message": "Ustaw żądany procentowy limit przepustnicy. Ustawienie na 100% wyłącza tą funkcję."
+    },
+    "pidTuningFilter": {
+        "message": "Filtr"
+    },
+    "pidTuningFilterFrequency": {
+        "message": "Częstotliwość"
+    },
+    "pidTuningRatesCurve": {
+        "message": "Podgląd Rate"
+    },
+    "throttle": {
+        "message": "Throttle"
     },
     "pidTuningButtonSave": {
         "message": "Zapisz"
@@ -1235,11 +1565,20 @@
     "pidTuningControllerHead": {
         "message": "Regulator PID"
     },
+    "pidTuningCopyProfile": {
+        "message": "Skopiuj wartości z profilu"
+    },
+    "pidTuningCopyRateProfile": {
+        "message": "Skopiuj wartości z rate profilu"
+    },
     "dialogCopyProfileText": {
         "message": "Skopiuj wartości z obecnego profilu do"
     },
     "dialogCopyRateProfileText": {
         "message": "Skopiuj wartości z obecnego profilu rate'ów do"
+    },
+    "dialogCopyProfileTitle": {
+        "message": "Skopiuj wartości z profilu"
     },
     "dialogCopyProfileNote": {
         "message": "Wszystkie wartości w profilu docelowym zostaną wymazane i nadpisane"
@@ -1255,6 +1594,57 @@
     },
     "pidTuningProfileReset": {
         "message": "Załaduj domyślne wartości w profilu."
+    },
+    "pidTuningReceivedProfile": {
+        "message": "Profil kontrolera lotu: <strong class=\"message-positive\">$1</strong>"
+    },
+    "pidTuningReceivedRateProfile": {
+        "message": "Profil Rate kontrolera lotu: <strong class=\"message-positive\">$1</strong>"
+    },
+    "pidTuningLoadedProfile": {
+        "message": "Załadowany profil: <strong class=\"message-positive\">$1</strong>"
+    },
+    "pidTuningLoadedRateProfile": {
+        "message": "Profil Rate załadowany: <strong class=\"message-positive\">$1</strong>"
+    },
+    "pidTuningDataRefreshed": {
+        "message": "Dane PID <strong>Odświeżone </strong>"
+    },
+    "pidTuningEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">zapisano</span>"
+    },
+    "receiverHelp": {
+        "message": "Proszę przeczytać rozdział dokumentacji dotyczący odbiornika. Skonfiguruj port szeregowy (jeśli jest wymagany), tryb odbiornika (szeregowy / ppm / pwm), dostawcę (dla odbiorników szeregowych), przypisz odbiornik, ustaw kanały, skonfiguruj punkty końcowe / zakres kanału w TX, tak aby wszystkie kanały przechodziły od ~ 1000 do ~ 2000. Ustaw punkt środkowy (domyślnie 1500), skonfiguruj strefę nieczułości drążka, sprawdź zachowanie, gdy TX jest wyłączony lub poza zasięgiem. <br /> <span class = \"message-negative\"> WAŻNE: </span> Przed lotem przeczytaj rozdział dokumentacji dotyczącej bezpieczeństwa i konfiguracji bezpieczeństwa."
+    },
+    "receiverThrottleMid": {
+        "message": "Przepustnica MID"
+    },
+    "receiverThrottleExpo": {
+        "message": "Przepustnica EXPO"
+    },
+    "receiverStickMin": {
+        "message": "Drążek w niskiej pozycji"
+    },
+    "receiverHelpStickMin": {
+        "message": "Maksymalna wartość drążka (przepustnicy) która ma być rozpoznana jako najnisza (MIN_CHECK)."
+    },
+    "receiverStickCenter": {
+        "message": "Drążek po środku"
+    },
+    "receiverStickMax": {
+        "message": "Ogranicz 'Wysokość drążka'"
+    },
+    "receiverHelpStickMax": {
+        "message": "Minimalna wartość drążka (przepustnicy) która ma być rozpoznana jako najwysza (MAX_CHECK)."
+    },
+    "receiverDeadband": {
+        "message": "Strefa nieczułości RC"
+    },
+    "receiverYawDeadband": {
+        "message": "Strefa nieczułości Yaw"
+    },
+    "recevier3dDeadbandThrottle": {
+        "message": "Strefa Nieczułości Przepustnicy"
     },
     "receiverChannelMap": {
         "message": "Mapa kanałów"
@@ -1280,8 +1670,23 @@
     "receiverButtonRefresh": {
         "message": "Odśwież"
     },
+    "receiverButtonSticks": {
+        "message": "Kontrola drążkiem"
+    },
+    "receiverDataRefreshed": {
+        "message": "Dane dostrajania RC <strong>odświeżone</strong>"
+    },
+    "receiverEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">zapisano</span>"
+    },
     "receiverModelPreview": {
         "message": "Podgląd"
+    },
+    "receiverMspWarningText": {
+        "message": "Te drążki umożliwiają uzbrojenie i testowanie Betaflight bez obecności nadajnika lub odbiornika. Jednak <strong> ta funkcja nie jest przeznaczona do lotów i śmigła powinny być zdemontowane. </strong> <br> <br> Ta funkcja nie gwarantuje niezawodnej kontroli nad modelem. <strong> Jeśli nie zdemontujesz śmigieł mogą one spowodować tobie lub osobą w pobliżu poważne obrażenia</strong>"
+    },
+    "receiverMspEnableButton": {
+        "message": "Włacz kontrolę"
     },
     "blackboxConfiguration": {
         "message": "Konfiguracja rejestratora lotów"
@@ -1301,8 +1706,23 @@
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "Wybierz swój kontroler lotu, aby zobaczyć dostępne wersje oprogramowania online. Wybierz odpowiednie oprogramowanie dla twojego kontrolera lotu."
     },
+    "firmwareFlasherOptionLoading": {
+        "message": "Wczytywanie ..."
+    },
+    "osdSetupStatsTitle": {
+        "message": "Statystyki po locie"
+    },
+    "osdSetupVtxTitle": {
+        "message": "Ustawienia VTX"
+    },
+    "osdSetupCraftNameTitle": {
+        "message": "Nazwa modelu"
+    },
     "mainHelpArmed": {
         "message": "Uzbrojenie silników"
+    },
+    "configurationPidProcessDenomHelp": {
+        "message": "Maksymalna częstotliwość pętli PID jest ograniczona maksymalną częstotliwością z jaką zmiany mogą być wysyłane przez wybrany protokół ESC/silnik."
     },
     "onboardLoggingOnboardSDCard": {
         "message": "Pokładowa karta SD"
