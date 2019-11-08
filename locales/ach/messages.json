@@ -1358,6 +1358,22 @@
     "configurationGPSAutoConfig": {
         "message": "crwdns5644:0crwdne5644:0"
     },
+    "configurationGPSGalileo": {
+        "message": "crwdns9900:0crwdne9900:0",
+        "description": "Option to use Galileo in the GPS configuration"
+    },
+    "configurationGPSGalileoHelp": {
+        "message": "crwdns9902:0crwdne9902:0",
+        "description": "Help text for the option to use Galileo in the GPS configuration"
+    },
+    "configurationGPSHomeOnce": {
+        "message": "crwdns9904:0crwdne9904:0",
+        "description": "Option to set the Home Point with the first arm only, not with each arm in the GPS Configuration"
+    },
+    "configurationGPSHomeOnceHelp": {
+        "message": "crwdns9906:0crwdne9906:0",
+        "description": "Help text for the option to set the Home Point with the first arm only, not with each arm in the GPS Configuration"
+    },
     "configurationGPSHelp": {
         "message": "crwdns5645:0crwdne5645:0"
     },
