@@ -1276,6 +1276,22 @@
     "configurationGPSAutoConfig": {
         "message": "自動設定"
     },
+    "configurationGPSGalileo": {
+        "message": "Galileoを使用",
+        "description": "Option to use Galileo in the GPS configuration"
+    },
+    "configurationGPSGalileoHelp": {
+        "message": "有効にすると、QZSSシステム (日本) が無効となりGalileoシステム (ヨーロッパ) に置き換えられます。",
+        "description": "Help text for the option to use Galileo in the GPS configuration"
+    },
+    "configurationGPSHomeOnce": {
+        "message": "ホームポイントを初回のみ設定",
+        "description": "Option to set the Home Point with the first arm only, not with each arm in the GPS Configuration"
+    },
+    "configurationGPSHomeOnceHelp": {
+        "message": "有効にすると、バッテリーが接続された後の初回アーム時のみ、ホームポイントとして設定されます。有効でない場合、機体がアームするたびに、ホームポイントが更新されます。",
+        "description": "Help text for the option to set the Home Point with the first arm only, not with each arm in the GPS Configuration"
+    },
     "configurationGPSHelp": {
         "message": "<strong>注:</strong> GPSを使う場合、シリアルポート ([ポート] タブ) の設定を忘れずに行ってください。"
     },
