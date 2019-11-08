@@ -1276,6 +1276,22 @@
     "configurationGPSAutoConfig": {
         "message": "Configuración Auto"
     },
+    "configurationGPSGalileo": {
+        "message": "Usar Galileo",
+        "description": "Option to use Galileo in the GPS configuration"
+    },
+    "configurationGPSGalileoHelp": {
+        "message": "Si se activa, se elimina el sistema QZSS (Japonés) y lo reemplaza por el sistema Galileo (Europeo).",
+        "description": "Help text for the option to use Galileo in the GPS configuration"
+    },
+    "configurationGPSHomeOnce": {
+        "message": "Establecer Punto Origen sólo una vez",
+        "description": "Option to set the Home Point with the first arm only, not with each arm in the GPS Configuration"
+    },
+    "configurationGPSHomeOnceHelp": {
+        "message": "Cuando se activa, sólo el primer armado después de que la batería se conecte será usado como punto origen. Si no se activa, cada vez que la aeronave se arme, el punto origen será actualizado.",
+        "description": "Help text for the option to set the Home Point with the first arm only, not with each arm in the GPS Configuration"
+    },
     "configurationGPSHelp": {
         "message": "<strong>Nota:</strong> Recuerda configurar un Puerto Serie (en el apartado Puertos) cuando uses la funcionalidad GPS."
     },
