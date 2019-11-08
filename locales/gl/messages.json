@@ -118,6 +118,10 @@
         "message": "Español",
         "description": "Don't translate!!!"
     },
+    "language_eu": {
+        "message": "Euskera",
+        "description": "Don't translate!!!"
+    },
     "language_fr": {
         "message": "Français",
         "description": "Don't translate!!!"
@@ -898,6 +902,14 @@
         "message": "Un cambio na configuración require un reinicio",
         "description": "Message that pops up to describe the REBOOT_REQD arming disable flag"
     },
+    "initialSetupArmingDisableFlagsTooltipDSHOT_BBANG": {
+        "message": "Bitbanged DSHOT non está funcionando correctamente e os motores non se poden controlar. Probablemente esté causado por un conflito temporal con outras funcións habilitadas no controlador de voo.",
+        "description": "Message that pops up to describe the DSHOT_BBANG arming disable flag"
+    },
+    "initialSetupArmingDisableFlagsTooltipACC_CALIB": {
+        "message": "Non se calibrou o acelerómetro e están habilitadas funcións que dependen del. Calibre o acelerómetro.",
+        "description": "Message that pops up to describe the ACC_CALIB arming disable flag"
+    },
     "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
         "message": "Unha das outras sinais de desarmado está activa ao armar",
         "description": "Message that pops up to describe the ARM_SWITCH arming disable flag"
@@ -1342,6 +1354,22 @@
     },
     "configurationGPSAutoConfig": {
         "message": "Configuración automática"
+    },
+    "configurationGPSGalileo": {
+        "message": "Usa Galileo",
+        "description": "Option to use Galileo in the GPS configuration"
+    },
+    "configurationGPSGalileoHelp": {
+        "message": "Cando está habilitado, elimina o sistema QZSS (xaponés) e substitúeo polo sistema Galileo (europeo).",
+        "description": "Help text for the option to use Galileo in the GPS configuration"
+    },
+    "configurationGPSHomeOnce": {
+        "message": "Estableza o punto de inicio unha vez",
+        "description": "Option to set the Home Point with the first arm only, not with each arm in the GPS Configuration"
+    },
+    "configurationGPSHomeOnceHelp": {
+        "message": "Se está activado, só se empregará o primeiro armado despois de conectar a batería como punto de inicio. Se non está activado, cada vez que o quad estea armado, o punto de inicio actualizarase.",
+        "description": "Help text for the option to set the Home Point with the first arm only, not with each arm in the GPS Configuration"
     },
     "configurationGPSHelp": {
         "message": "<strong> Nota: </strong> non esqueza configurar un porto serie (a través da pestana Ports) cando use a función GPS."
@@ -2502,6 +2530,9 @@
     "blackboxLoggingSerial": {
         "message": "Porto Serie"
     },
+    "serialLoggingSupportedNote": {
+        "message": "Pode iniciar sesión nun dispositivo de rexistro externo (como un OpenLager) mediante un porto serie. Configure o porto na lapela Portos."
+    },
     "sdcardNote": {
         "message": "Os rexistros de voos pódense gravar no slot para tarxetas SD do controlador de voo."
     },
@@ -2645,6 +2676,9 @@
     },
     "firmwareFlasherOnlineSelectBoardDescription": {
         "message": "Elixa a súa placa para poder ver as versións de firmware dispoñibles en linea - Seleccione a versión correcta de firmware apropiada para a súa controladora."
+    },
+    "firmwareFlasherOnlineSelectBoardHint": {
+        "message": "A partir de Betaflight 4.1, Betaflight está a introducir soporte para <strong>Obxectivos unificados</strong>. O concepto de obxectivos unificados significa que o mesmo ficheiro .hex de firmware pode usarse para todas as placas usando o mesmo MCU (F4, F7). Para que as distintas placas funcionen co mesmo firmware, desenvólvese un ficheiro de configuración específico xunto ao firmware cando se flaxea un Obxectivo unificado.<br>Esta versión do configurador Betaflight admite o flaxeo de obxectivos unificados coas respectivas configuracións de placa nun só paso. Os distintos tipos de firmware dispoñibles para cada placa móstranse no menú despregable do seguinte xeito:<br><br><strong>&lt;board name&gt;</strong> or<br><strong>&lt;board name&gt; (Legacy)</strong>:<br>Obxectivo non unificado ou versións pre-4.1 do firmware para Unidades de destino.<br><br><strong>&lt;board name&gt; (&lt;manufacturer id&gt;)</strong>:<br>(Identificador do fabricante de 4 caracteres)<br>Obxectivo unificado.<br><br><strong> Utilice obxectivos unificados onde estea dispoñible. </strong> Se atopa problemas usando un destino unificado, abra un <a href=\"https://github.com/betaflight/betaflight/issues\"target=\"_blank\"rel=\"noopener noreferrer\">asunto</a> e despois use o destino non unificado ata que o problema sexa resolto."
     },
     "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
         "message": "Elixa a versión de firmware para a súa controladora."
@@ -4910,6 +4944,10 @@
     "osdButtonSaved": {
         "message": "Gardado"
     },
+    "vtxHelp": {
+        "message": "Aquí pode configurar os valores do seu transmisor de vídeo (VTX). Pode ver e cambiar os valores de transmisión, incluídas as táboas VTX, se o controlador de voo e o VTX o admiten.<br>Para configurar o VTX, siga os seguintes pasos:<br>1. Vaia a esta páxina<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/betaflight/betaflight/wiki/VTX-tables\"></a>; <br> 2. Busque o ficheiro de configuración VTX adecuado para o seu país e o seu modelo VTX e descárgueo; <br> 3. Faga clic en '$t(vtxButtonLoadFile.message)' embaixo, seleccione o ficheiro de configuración VTX, cargueo; <br> 4. Asegúrese de que a configuración sexa correcta; <br> 5. Faga clic en '$t(vtxButtonSave.message)' para almacenar a configuración VTX no controlador de voo. <br> 6. Opcionalmente fai clic en \"$t(vtxButtonSaveLua.message)\" para gardar un ficheiro de configuración lua que pode usar cos scripts lua betaflight (Ver máis <a target=\"_ blank\"rel = \"noopener noreferrer\" href=\"https://github.com/betaflight/betaflight-tx-lua-scripts/\"> aquí </a>.)",
+        "description": "Introduction message in the VTX tab"
+    },
     "vtxMessageNotSupported": {
         "message": "<span class=\"message-negative\">Atención:</span>O seu VTX non está configurado ou non é compatible. Polo tanto, non pode modificar os valores VTX desde aquí. Isto só será posible se o controlador de voo está unido ó VTX usando algún protocolo como Tramp ou SmartAudio e está configurado correctamente na pestana $t(tabPorts.message) se fose necesario.",
         "description": "Message to show when the VTX is not supported in the VTX tab"
@@ -5026,6 +5064,10 @@
         "message": "Pit Mode",
         "description": "Text of one of the fields of the VTX tab"
     },
+    "vtxPitModeHelp": {
+        "message": "Se está habilitado, o VTX entra nun modo de pouca potencia para deixar que o quad estea no banco sen perturbar a outros pilotos. O rango deste modo normalmente é inferior a 5 metros. <br><br> NOTA: Algúns protocolos, como SmartAudio, non poden habilitar o modo Pit a través de software despois do acendido.",
+        "description": "Help text for the pit mode field of the VTX tab"
+    },
     "vtxPitModeFrequency": {
         "message": "Frecuencia do Pit Mode",
         "description": "Text of one of the fields of the VTX tab"
@@ -5086,6 +5128,10 @@
         "message": "Número de canles por banda",
         "description": "Text of one of the fields of the VTX Table element in the VTX tab"
     },
+    "vtxTableBandsChannelsHelp": {
+        "message": "Isto define o número de bandas e o número de canles por banda que desexa para o seu VTX.",
+        "description": "Help for the number of bands and channels field of the VTX Table element in the VTX tab"
+    },
     "vtxTableBandTitleName": {
         "message": "Nome",
         "description": "Text of one of the titles of the VTX Table element in the VTX tab"
@@ -5129,6 +5175,14 @@
     "vtxButtonSaveFile": {
         "message": "Gardar nun arquivo",
         "description": "Save to file button in the VTX tab"
+    },
+    "vtxButtonSaveLua": {
+        "message": "Gardar Lua script",
+        "description": "Save Lua script button in the VTX tab"
+    },
+    "vtxLuaFileHelp": {
+        "message": "O botón '$t(vtxButtonSaveLua.message)' permitiralle gardar un ficheiro <i>Nome piloto</i>.lua que contén a configuración da táboa vtx que se pode usar cos scripts lua beta. (Ver máis <a target=\"_blank\" rel=\"noopener noreferrer\"href=\"https://github.com/betaflight/betaflight-tx-lua-scripts/\"> aquí </a>.)",
+        "description": "Tooltip message for the Save Lua script button in the VTX tab"
     },
     "vtxButtonLoadFile": {
         "message": "Cargar dende arquivo",
