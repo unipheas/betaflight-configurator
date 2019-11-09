@@ -389,13 +389,13 @@
         "message": "Nie otrzymano konfiguracji przez <span class=\"message-negative\">10 sekund</span>, komunikacja <span class=\"message-negative\">zawiodła</span>."
     },
     "firmwareVersionNotSupported": {
-        "message": "Ta wersja oprogramowania kontrolera <span class=\"message-negative\">nie jest wspierana</span>. Proszę uaktualnij oprogramowanie do wersji, która wspiera API <strong>$1</strong>, lub wyższej. Użyj CLI, aby zgrać bieżącą konfigurację. Opis zgrywania/przywrócenia konfiguracji opisany jest w dokumentacji.<br />Możesz także pobrać starszą wersję konfiguratora, jeżeli nie chcesz aktualizować oprogramowania kontrolera lotu."
+        "message": "Ta wersja oprogramowania kontrolera <span class=\"message-negative\">nie jest wspierana</span>. Proszę uaktualnij oprogramowanie do wersji, która wspiera API <strong>$1</strong>, lub wyższej. Użyj CLI, aby zgrać bieżącą konfigurację. Opis zgrywania/przywrócenia konfiguracji opisany jest w dokumentacji.<br />Możesz nieże pobrać starszą wersję konfiguratora, jeżeli nie chcesz aktualizować oprogramowania kontrolera lotu."
     },
     "firmwareTypeNotSupported": {
         "message": "Oprogramowanie nie będące Cleanflight/Betaflight <span class=\"message-negative\">nie jest wspierane</span>, z wyjątkiem trybu CLI."
     },
     "firmwareUpgradeRequired": {
-        "message": "Oprogramowanie tego kontrolera lotu wymaga aktualizacji do nowszej wersji. Użyj CLI, aby zgrać bieżącą konfigurację. Opis zgrywania/przywrócenia konfiguracji opisany jest w dokumentacji.<br />Możesz także pobrać starszą wersję konfiguratora, jeżeli nie chcesz aktualizować oprogramowania kontrolera lotu."
+        "message": "Oprogramowanie tego kontrolera lotu wymaga aktualizacji do nowszej wersji. Użyj CLI, aby zgrać bieżącą konfigurację. Opis zgrywania/przywrócenia konfiguracji opisany jest w dokumentacji.<br />Możesz nieże pobrać starszą wersję konfiguratora, jeżeli nie chcesz aktualizować oprogramowania kontrolera lotu."
     },
     "resetToCustomDefaultsDialog": {
         "message": "Dostępne są niestandardowe ustawienia domyślne dla tego kontrolera lotu. Zwykle kontroler nie będzie działać poprawnie, chyba że zostaną zastosowane niestandardowe ustawienia domyślne. <br /> Czy chcesz zastosować niestandardowe ustawienia domyślne dla tego kontrolera?"
@@ -528,7 +528,7 @@
         "message": "Sprzęt"
     },
     "defaultWelcomeText": {
-        "message": "Aplikacja wspiera wszystkie kontrolery lotu które mogą współpracować z Betaflight. Sprawdź kartę \"Wgrywanie oprogramowania\" aby zobaczyć listę wszystkich kompatybilnych urządzeń.<br><br><a href=\"https://chrome.google.com/webstore/detail/betaflight-blackbox-explo/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Pobierz Betaflight Blackbox</a><br /><br />Kody źródłowe oprogramowania dostępne do pobrania <a href=\"https://github.com/betaflight/betaflight\" title=\"www.github.com\" target=\"_blank\">tutaj</a>.<br />Najnowsze oprogramowanie FC znajdziesz <a href=\"https://github.com/betaflight/betaflight/releases\" title=\"www.github.com\" target=\"_blank\">tutaj</a><br /><br />Najnowsze <a href=\"http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx\" title=\"http://www.silabs.com\" target=\"_blank\">sterowniki CP210x</a> można pobrać <a href=\"http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx\" title=\"http://www.silabs.com\" target=\"_blank\">tutaj</a>.<br />Najnowsze <a href=\"http://www.st.com/web/en/catalog/tools/PF257938\" title=\"http://www.st.com\" target=\"_blank\">sterowniki STM USB VCP</a> można pobrać <a href=\"http://www.st.com/web/en/catalog/tools/PF257938\" title=\"http://www.st.com\" target=\"_blank\">tutaj</a>.<br />Najnowszy program <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">Zadig</a> do instalacji sterowników USB w Windows można pobrać <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">tutaj</a>.<br />"
+        "message": "Aplikacja wspiera wszystkie kontrolery lotu które mogą współpracować z Betaflight. Sprawdź kartę \"Wgrywania oprogramowania\" aby zobaczyć listę wszystkich kompatybilnych urządzeń.<br><br><a href=\"https://chrome.google.com/webstore/detail/betaflight-Rejestrator lotów -explo/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Pobierz Betaflight Blackbox</a><br /><br />Kody źródłowe oprogramowania dostępne do pobrania <a href=\"https://github.com/betaflight/betaflight\" title=\"www.github.com\" target=\"_blank\">tutaj</a>.<br />Najnowsze oprogramowanie FC znajdziesz <a href=\"https://github.com/betaflight/betaflight/releases\" title=\"www.github.com\" target=\"_blank\">tutaj</a><br /><br />Najnowsze <a href=\"http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx\" title=\"http://www.silabs.com\" target=\"_blank\">sterowniki CP210x</a> można pobrać <a href=\"http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx\" title=\"http://www.silabs.com\" target=\"_blank\">tutaj</a>.<br />Najnowsze <a href=\"http://www.st.com/web/en/catalog/tools/PF257938\" title=\"http://www.st.com\" target=\"_blank\">sterowniki STM USB VCP</a> można pobrać <a href=\"http://www.st.com/web/en/catalog/tools/PF257938\" title=\"http://www.st.com\" target=\"_blank\">tutaj</a>.<br />Najnowszy program <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">Zadig</a> do instalacji sterowników USB w Windows można pobrać <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">tutaj</a>.<br />"
     },
     "defaultContributingHead": {
         "message": "Współtworzenie"
@@ -582,7 +582,7 @@
         "message": "Twórca"
     },
     "defaultSupport": {
-        "message": "Aby uzyskać pomoc, przeszukaj fora i wiki lub skontaktuj się z twoim dostawcą.<br /><br />"
+        "message": "Aby uzyskać pomoc, przeszukaj fora i wiki lub skonnietuj się z twoim dostawcą.<br /><br />"
     },
     "defaultSupport1": {
         "message": "<a href=\"http://www.rcgroups.com/forums/showthread.php?t=2464844&page=1\" target=\"_blank\">Wątek na RC Groups</a>"
@@ -1129,7 +1129,7 @@
         "description": "One of the fields of the ESC/Motor configuration"
     },
     "configurationMotorPolesHelp": {
-        "message": "To ustawienie jest używane dla niektórych funkcji, takich jak filtr RPM.<br><br>Przedstawia liczbę magnesów na dzwonku silnika. <b>nie liczy statorów</b>, gdzie znajdują się uzwojenia. Typowe silniki 5\" mają 14 magnesów, mniejsze takie jak 3\" lub mniej mają zazwyczaj 12 magnesów.",
+        "message": "To ustawienie jest używane dla niektórych funkcji, nieich jak filtr RPM.<br><br>Przedstawia liczbę magnesów na dzwonku silnika. <b>nie liczy statorów</b>, gdzie znajdują się uzwojenia. Typowe silniki 5\" mają 14 magnesów, mniejsze nieie jak 3\" lub mniej mają zazwyczaj 12 magnesów.",
         "description": "Help text for the Motor poles field of the ESC/Motor configuration"
     },
     "configurationThrottleMinimum": {
@@ -1214,7 +1214,7 @@
         "message": "Sygnał dźwiękowy gdy kontroler lotu jest zasilany z USB. Wyłącz tą opcje jeśli nie chcesz słyszeć buzzer'a podczas pracy nad dronem"
     },
     "beeperBLACKBOX_ERASE": {
-        "message": "Sygnał dźwiękowy po zakończeniu wymazywania blackbox'a"
+        "message": "Sygnał dźwiękowy po zakończeniu wymazywania Rejestrator lotów"
     },
     "beeperCRASH_FLIP": {
         "message": "Sygnał dzwiękowy gdy tryb crash flip jest aktywny"
@@ -1253,7 +1253,7 @@
         "message": "Cykle/Sekundy [Hz]"
     },
     "configurationLoopTimeHelp": {
-        "message": "<strong>Uwaga:</strong> Upewnij się że twój kontroler lotu może działać z taką prędkością! Sprawdź CPU i stabilność czasu cyklu. Zmiana tego może wymagać ponownego ustawienia PID. Porada: Wyłącz akcelerometr i inne czujniki aby zyskać na wydajności."
+        "message": "<strong>Uwaga:</strong> Upewnij się że twój kontroler lotu może działać z nieą prędkością! Sprawdź CPU i stabilność czasu cyklu. Zmiana tego może wymagać ponownego ustawienia PID. Porada: Wyłącz akcelerometr i inne czujniki aby zyskać na wydajności."
     },
     "configurationLoopTimeNo32KhzHelp": {
         "message": "$ t (configurationLoopTimeHelp.message) <br> <strong> Uwaga na temat trybu próbkowania żyroskopu 32 kHz: </strong> Wsparcie dla 32kHz zostało dodane do Betaflight jako eksperymentalną funkcja. Przez lata dostępności nie wykazała żadnej przewagi nad próbkowaniem 8kHz, ze względu podatności na wibracje i wysoki poziom zakłuceń, które wymagały agresywnego filtrowania, powodując opóźnienia w pętli sterowania. Z tego powodu zrezygnowano z obsługi <strong> próbkowania żyroskopu 32 kHz </strong> w Betaflight 4.0."
@@ -1275,6 +1275,18 @@
     },
     "configurationGPSAutoConfig": {
         "message": "Auto konfiguracja"
+    },
+    "configurationGPSGalileo": {
+        "message": "Użyj Galileo",
+        "description": "Option to use Galileo in the GPS configuration"
+    },
+    "configurationGPSGalileoHelp": {
+        "message": "Po włączeniu, usuwany jest system nawigacji QZSS (japoński) a zastępuje go system Galileo (europejski).",
+        "description": "Help text for the option to use Galileo in the GPS configuration"
+    },
+    "configurationGPSHomeOnceHelp": {
+        "message": "Po włączeniu tej opcji pierwsze uzbrojenie drona po podłączeniu bateri będzie używane na stałe jako punkt początkowy. Jeśli opcja ta nie zostanie aktywowana to za każdym razem, gdy dron zostanie uzbrojony, punkt początkowy zostanie zaktualizowany.",
+        "description": "Help text for the option to set the Home Point with the first arm only, not with each arm in the GPS Configuration"
     },
     "configurationGPSHelp": {
         "message": "<strong>Uwaga:</strong> Pamiętaj, aby skonfigurować port szeregowy (poprzez zakładkę portów) podczas korzystania z funkcji GPS."
@@ -1316,7 +1328,7 @@
         "message": "<span class=\"message-negative\"> OSTRZEŻENIE:</span> Tabela VTX nie została poprawnie skonfigurowana i bez niej sterowanie VTX nie będzie możliwe. Proszę ustawić tabelę VTX w zakładce $t(tabVtx.message)."
     },
     "portsMSPHelp": {
-        "message": "<strong> Uwaga: </strong> Nie włączaj <span class = \"message-negative\"> NIE </span> wyłączaj MSP na pierwszym porcie szeregowym, chyba że wiesz co robisz. W takim przypadku konieczne może być ponowne flashowanie i przywrócenie poprzednich ustawień."
+        "message": "<strong> Uwaga: </strong> Nie włączaj <span class = \"message-negative\"> NIE </span> wyłączaj MSP na pierwszym porcie szeregowym, chyba że wiesz co robisz. W nieim przypadku konieczne może być ponowne flashowanie i przywrócenie poprzednich ustawień."
     },
     "portsFirmwareUpgradeRequired": {
         "message": "Aktualizacja oprogramowania<span class=\"message-negative\">wymagana</span>. Konfiguracja oprogramowania portów szeregowych &lt; 1.8.0 nie jest obsługiwana."
@@ -1368,9 +1380,6 @@
     },
     "portsFunction_RX_SERIAL": {
         "message": "Serial RX"
-    },
-    "portsFunction_BLACKBOX": {
-        "message": "Zapisywanie Blackbox"
     },
     "portsFunction_TBS_SMARTAUDIO": {
         "message": "VTX (TBS SmartAudio)"
@@ -1453,7 +1462,7 @@
         "description": "Advance of the D Min feature"
     },
     "pidTuningDMinFeatureHelp": {
-        "message": "D Min umożliwia osiągnięcie niższego poziomu D w normalnym locie i wyższego poziomu w przypadku szybkich manewrów, które mogą powodować przewrócenie modelu takie jak flipy i beczki, podnosi on również D podczas naporu powietrza na ster kierunku podczas lotu. Maximum dostosowuje D do maksymalnej wartości i opiera się na wskazaniach żyroskopu aby określić agresywność manewrów. Wyprzedzenie sprawia, że ​​D używa wartości określonej wcześniej przez użytkownika, zamiast żyroskopu do określania ostrych manewrów.",
+        "message": "D Min umożliwia osiągnięcie niższego poziomu D w normalnym locie i wyższego poziomu w przypadku szybkich manewrów, które mogą powodować przewrócenie modelu nieie jak flipy i beczki, podnosi on również D podczas naporu powietrza na ster kierunku podczas lotu. Maximum dostosowuje D do maksymalnej wartości i opiera się na wskazaniach żyroskopu aby określić agresywność manewrów. Wyprzedzenie sprawia, że ​​D używa wartości określonej wcześniej przez użytkownika, zamiast żyroskopu do określania ostrych manewrów.",
         "description": "D Min feature helpicon message"
     },
     "pidTuningDMinHelp": {
@@ -1511,7 +1520,7 @@
         "message": "Rodzaj metody filtrowania zastosowany dla danych wejściowych. Większość użytkowników powinna używać domyślnej wartości „BIQUAD”, ponieważ zapewnia ona równowagę między płynnością a opóźnieniem. „PT1” nieznacznie zmniejsza opóźnienie, ale zapewnia mniej wygładzania."
     },
     "receiverRcSmoothingInputManual": {
-        "message": "Wybiera, czy częstotliwość odcięcia filtra wejściowego jest automatycznie obliczana (zalecane) czy wybierana ręcznie przez użytkownika. Używanie \"Ręcznego\" nie jest zalecane dla protokołów odbiorników, takich jak Crossfire które mogą zmieniać się w locie."
+        "message": "Wybiera, czy częstotliwość odcięcia filtra wejściowego jest automatycznie obliczana (zalecane) czy wybierana ręcznie przez użytkownika. Używanie \"Ręcznego\" nie jest zalecane dla protokołów odbiorników, nieich jak Crossfire które mogą zmieniać się w locie."
     },
     "receiverRcSmoothingInputHz": {
         "message": "Wejściowa częstotliwość odcięcia"
@@ -1535,7 +1544,7 @@
         "message": "Interpolacja RC"
     },
     "receiverRcInterpolationHelp": {
-        "message": "Systemy RC TX/RX nie są tak szybkie jak pętle PID. Oznacza to, że pętla PID ma luki w strumieniu informacji z systemów RC. Opcja ta umożliwia interpolację danych wejścowych z odbiornika w czasie, gdy nie odebrano danych. Opcja ta zapewnia również bardziej płynne zachowanie P i D, ponieważ nie ma skoków wartości w danych wejściowych dzięki interpolacji."
+        "message": "Systemy RC TX/RX nie są nie szybkie jak pętle PID. Oznacza to, że pętla PID ma luki w strumieniu informacji z systemów RC. Opcja ta umożliwia interpolację danych wejścowych z odbiornika w czasie, gdy nie odebrano danych. Opcja ta zapewnia również bardziej płynne zachowanie P i D, ponieważ nie ma skoków wartości w danych wejściowych dzięki interpolacji."
     },
     "receiverRcInterpolationIntervalHelp": {
         "message": "Interwał interpolacji w milisekundach (dla ręcznych ustawień interpolacji)"
@@ -1565,7 +1574,7 @@
         "message": "Zintegruj"
     },
     "pidTuningIntegralHelp": {
-        "message": "Kontroluje siłę tego, jak mocno maszyna utrzymuje ogólną pozycję. <br> Podobne do ustawień Proporcjonalnych, ale w przypadku błędów w konstrukcji modelu, takich jak przesunięty środek ciężkości (CoG) lub stały wpływ zewnętrzny (wiatr). <br><br> Wyższe wartości zapewniają lepszą kontrolę (np. podczas pokonywania zakrętów), ale mogą sprawić, że model będzie sztywny i będzie reagował na polecenia drążka w sposób ociężały. <br> Jeśli jest bardzo wysoka proporcjonalnie do D-term, może powodować powolne oscylacje.",
+        "message": "Kontroluje siłę tego, jak mocno maszyna utrzymuje ogólną pozycję. <br> Podobne do ustawień Proporcjonalnych, ale w przypadku błędów w konstrukcji modelu, nieich jak przesunięty środek ciężkości (CoG) lub stały wpływ zewnętrzny (wiatr). <br><br> Wyższe wartości zapewniają lepszą kontrolę (np. podczas pokonywania zakrętów), ale mogą sprawić, że model będzie sztywny i będzie reagował na polecenia drążka w sposób ociężały. <br> Jeśli jest bardzo wysoka proporcjonalnie do D-term, może powodować powolne oscylacje.",
         "description": "Integral Term helpicon message on PID table titlebar"
     },
     "pidTuningDerivative": {
@@ -1621,7 +1630,7 @@
         "message": "OGRANICZ"
     },
     "pidTuningThrottleLimitTypeTip": {
-        "message": "Wybierz rodzaj ograniczenia przepustnicy. <b> WYŁĄCZ</b> wyłącza tę funkcję, <b> SKALA </b> zmieni czułość przepustnicy z 0 na wybraną wartość, w całym zakresie przepustnicy, <b> OGRARICZ/b> ustawi czułość przepustnicy w taki sposób że wychylenie drążka powyżej określonej wartości nie będzie miało dodatkowego efektu"
+        "message": "Wybierz rodzaj ograniczenia przepustnicy. <b> WYŁĄCZ</b> wyłącza tę funkcję, <b> SKALA </b> zmieni czułość przepustnicy z 0 na wybraną wartość, w całym zakresie przepustnicy, <b> OGRARICZ/b> ustawi czułość przepustnicy w niei sposób że wychylenie drążka powyżej określonej wartości nie będzie miało dodatkowego efektu"
     },
     "pidTuningThrottleLimitPercentTip": {
         "message": "Ustaw żądany procentowy limit przepustnicy. Ustawienie na 100% wyłącza tą funkcję."
@@ -1699,7 +1708,7 @@
         "message": "EEPROM <span class=\"message-positive\">zapisano</span>"
     },
     "receiverHelp": {
-        "message": "Proszę przeczytać rozdział dokumentacji dotyczący odbiornika. Skonfiguruj port szeregowy (jeśli jest wymagany), tryb odbiornika (szeregowy / ppm / pwm), dostawcę (dla odbiorników szeregowych), przypisz odbiornik, ustaw kanały, skonfiguruj punkty końcowe / zakres kanału w TX, tak aby wszystkie kanały przechodziły od ~ 1000 do ~ 2000. Ustaw punkt środkowy (domyślnie 1500), skonfiguruj strefę nieczułości drążka, sprawdź zachowanie, gdy TX jest wyłączony lub poza zasięgiem. <br /> <span class = \"message-negative\"> WAŻNE: </span> Przed lotem przeczytaj rozdział dokumentacji dotyczącej bezpieczeństwa i konfiguracji bezpieczeństwa."
+        "message": "Proszę przeczytać rozdział dokumentacji dotyczący odbiornika. Skonfiguruj port szeregowy (jeśli jest wymagany), tryb odbiornika (szeregowy / ppm / pwm), dostawcę (dla odbiorników szeregowych), przypisz odbiornik, ustaw kanały, skonfiguruj punkty końcowe / zakres kanału w TX, nie aby wszystkie kanały przechodziły od ~ 1000 do ~ 2000. Ustaw punkt środkowy (domyślnie 1500), skonfiguruj strefę nieczułości drążka, sprawdź zachowanie, gdy TX jest wyłączony lub poza zasięgiem. <br /> <span class = \"message-negative\"> WAŻNE: </span> Przed lotem przeczytaj rozdział dokumentacji dotyczącej bezpieczeństwa i konfiguracji bezpieczeństwa."
     },
     "receiverThrottleMid": {
         "message": "Przepustnica MID"
@@ -2358,7 +2367,7 @@
         "message": "Port szeregowy"
     },
     "serialLoggingSupportedNote": {
-        "message": "Możesz podłączyć się do zewnętrznego urządzenia rejestrującego (takiego jak OpenLager) używając portu szeregowego. Skonfiguruj port w zakładce portów."
+        "message": "Możesz podłączyć się do zewnętrznego urządzenia rejestrującego (nieiego jak OpenLager) używając portu szeregowego. Skonfiguruj port w zakładce portów."
     },
     "sdcardNote": {
         "message": "Parametry lotu mogą być zapisywane na karcie SD w slocie twojego kontrolera lotów."
@@ -2397,7 +2406,7 @@
         "message": "Potwierdź kasowanie pamięci"
     },
     "dataflashConfirmEraseNote": {
-        "message": "Spowoduje to wymazanie logów i wszystkich innych danych znajdujących się na chipie. Powinno to potrwać około 20 sekund, jesteś pewny?"
+        "message": "Spowoduje to wymazywanie logów i wszystkich innych danych znajdujących się na chipie. Powinno to potrwać około 20 sekund, jesteś pewny?"
     },
     "dataflashSavingTitle": {
         "message": "Zapisywanie danych do pliku"
@@ -3034,7 +3043,7 @@
         "description": "Gyro filter tuning slider label"
     },
     "pidTuningGyroFilterSliderHelp": {
-        "message": "Proporcjonalne zwiększanie lub zmniejszanie wszystkich domyślnych ustawień filtru dolnoprzepustowego. Filtrowanie żyroskopu następuje przed pętlą PID.<br>Główny zakres szumu silnikowego dla wielowirnikowców klasy:<br><br>6\"+ w zakresie 100 Hz do 330 Hz <br> 5\" w zakresie 220 Hz do 500 Hz <br> Do 3\" w zakresie 300 Hz do 850 Hz<br><br>Generalnie chcesz ustawić suwak regulacji filtru Dolnoprzepustowego 1 dla dynamicznej częstotliwości odcięcia Max/Min tak aby pokryć zakres powyżej.<br> Więc, dla płynniejszego lotu użyj mocniejszego filtrowania na tym suwaku. Aby uzyskać bardziej agresywne dostrojenie, użyj mniejszych wartości na suwaku.<br><br> W przypadku słabej filtracji należy być ostrożnym ponieważ dynamiczne wysterowanie może powodować grzanie się lub palenie silników. <br> Zauważ, że czynniki takie jak rezonans ramy, wyeksploatowane łożyska czy bicie śmigieł będą argumentem do użycia większych współczynników filtrowania.",
+        "message": "Proporcjonalne zwiększanie lub zmniejszanie wszystkich domyślnych ustawień filtru dolnoprzepustowego. Filtrowanie żyroskopu następuje przed pętlą PID.<br>Główny zakres szumu silnikowego dla wielowirnikowców klasy:<br><br>6\"+ w zakresie 100 Hz do 330 Hz <br> 5\" w zakresie 220 Hz do 500 Hz <br> Do 3\" w zakresie 300 Hz do 850 Hz<br><br>Generalnie chcesz ustawić suwak regulacji filtru Dolnoprzepustowego 1 dla dynamicznej częstotliwości odcięcia Max/Min nie aby pokryć zakres powyżej.<br> Więc, dla płynniejszego lotu użyj mocniejszego filtrowania na tym suwaku. Aby uzyskać bardziej agresywne dostrojenie, użyj mniejszych wartości na suwaku.<br><br> W przypadku słabej filtracji należy być ostrożnym ponieważ dynamiczne wysterowanie może powodować grzanie się lub palenie silników. <br> Zauważ, że czynniki nieie jak rezonans ramy, wyeksploatowane łożyska czy bicie śmigieł będą argumentem do użycia większych współczynników filtrowania.",
         "description": "Gyro filtering tuning slider helpicon message"
     },
     "pidTuningDTermFilterSlider": {
