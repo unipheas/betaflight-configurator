@@ -1,4 +1,11 @@
 {
+    "translation_version": {
+        "message": "0"
+    },
+    "windowTitle": {
+        "message": "Betaflight Konfiguratzailea",
+        "description": "Title of the application window, usually not translated"
+    },
     "yes": {
         "message": "Bai",
         "description": "General Yes message to be used across the application"
@@ -976,6 +983,9 @@
     "featureVTX": {
         "message": "Bideo igorlea"
     },
+    "featureANTI_GRAVITY": {
+        "message": "Aldi baterako I-Term balioa handitu azelerazio aldaketa handietan"
+    },
     "featureDYNAMIC_FILTER": {
         "message": "Giro iragazketa dinamikoa"
     },
@@ -984,6 +994,9 @@
     },
     "featureFAILSAFEOld": {
         "message": "Failsafe gaitu"
+    },
+    "featureFAILSAFETip": {
+        "message": "<strong>Oharra:</strong> 2. fasea desgaituta dagoenean, <strong>Auto</strong> sintonizazio ezarpena erabiliko da erabiltzailearen ezarpenen ordez kanal guztietan (Roll, Pitch, Yaw eta Throttle)."
     },
     "featureFAILSAFEOldTip": {
         "message": "Failsafe ezarpenak aplikatu RX seinalea galtzean"
@@ -1018,11 +1031,17 @@
     "configurationEscFeatures": {
         "message": "ESC/Motorren ezaugarriak"
     },
+    "configurationFeaturesHelp": {
+        "message": "<strong>Oharra:</strong> Funtzioen konbinazio guztiak ez dira baliozkoak. Hegaldien kontrolatzaileen firmwareak funtzio baliogabeen konbinazio baliogabeak hautematendituenean, desgaitu egingo dira. <br/><strong>Oharra:</strong>  Serial atakak konfiguratu <span class=\"message-negative\">lehenik eta behin</span> atakak behan duen funtzioa gaitzeko."
+    },
     "configurationSerialRXHelp": {
         "message": "<strong>Oharra:</strong> Gogoratu Ataka Serial bat konfiguratu behar duzula (ataka fitxen bidez) eta aukeratu Serial Hartzaile hornitzailea RX_SERIAL funtzioa erabiltzen duzunean."
     },
     "configurationSpiRxHelp": {
         "message": "<strong>Oharra:</strong> SPI RX hornitzaileak funtzionatuko du beharrezko hardwarea taula gainean badago edo SPI bus batera konektatuta badago."
+    },
+    "configurationOtherFeaturesHelp": {
+        "message": "<strong>Oharra:</strong> Aukera guztiak ez dira kontrolatzaile guztiek onartzen. Aukera jakin bat gaitzen baduzu eta 'Gorde eta berrabiarazi' sakatu ondoren itzaltzen bada, aukera hau ez da zure kontroladorean onartzen."
     },
     "configurationBoardAlignment": {
         "message": "Taula eta sentsoreen lerrokatzea"
@@ -1090,6 +1109,9 @@
     "configurationReverseMotorSwitch": {
         "message": "Motorren norabidea alderantzizkoa da"
     },
+    "configurationReverseMotorSwitchHelp": {
+        "message": "Aukera honek nahasgailua motorraren norabidea alderantzikatu eta haizeak horren arabera egon dadin konfiguratzen du. <strong>Oharra:</strong> Horrek ez du motorraren norabidea alderantzikatzen. Erabili zure ESCetarako konfigurazio-tresna edo aldatu ESC - motorren kableatua hori lortzeko. Era berean, ziurtatu zure motorrak goiko diagraman agertzen diren norabideetan biratzen ari direla egiaztatzen armatzen saiatu aurretik."
+    },
     "configurationAutoDisarmDelay": {
         "message": "Desarmatu motorrak ezarritako atzerapenaren ondoren [seconds] (MOTOR_STOP funtzioa behar du)"
     },
@@ -1110,11 +1132,24 @@
         "message": "$t(configurationMotorPoles.message) (motorren kanpaiako iman kopurua)",
         "description": "One of the fields of the ESC/Motor configuration"
     },
+    "configurationMotorPolesHelp": {
+        "message": "Ezarpen hau ezaugarri batzuetarako erabiltzen da, adibidez, RPM iragazkiarako. <br> <br>Motorraren kanpaian dauden iman kopurua adierazten du.<b>Ez zenbatu Statoreak</b> 5 \"motor tipikoek 14 iman dituzte, 3\" edo gutxiago bezalako txikiek 12 iman izaten dituzte normalean.",
+        "description": "Help text for the Motor poles field of the ESC/Motor configuration"
+    },
+    "configurationThrottleMinimum": {
+        "message": "Throttle minimoa (ESCren balio txikiena armatuta dagoenean)"
+    },
+    "configurationThrottleMinimumHelp": {
+        "message": "Aireontzia armatuta eta throttle gutxieneko egoeran dagoenean ESCra bidaltzen duten balio 'inaktiboa' da. Handitu balioa abiadura gehiago lortzeko. Handitu balioa desinkronizazio kasuan ere!"
+    },
     "configurationThrottleMaximum": {
         "message": "Throttle maximoa (ESC gehienezko balioa armatuta)"
     },
     "configurationThrottleMinimumCommand": {
         "message": "Gutxieneko komandoa (ESC balioa desarmatzen denean)"
+    },
+    "configurationThrottleMinimumCommandHelp": {
+        "message": "ESCri bidaltzen zaion balioa Aireontzia desarmatuta dagoenean. Ezarri motorra geldirik egoteko baliora(1000 ESC gehienentzat)."
     },
     "configurationDshotBeeper": {
         "message": "Dshot balizaren konfigurazioa"
