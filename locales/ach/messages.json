@@ -3621,8 +3621,29 @@
     "failsafeGpsRescueItemThrottleHover": {
         "message": "crwdns8886:0crwdne8886:0"
     },
+    "failsafeGpsRescueItemAscendRate": {
+        "message": "crwdns9908:0crwdne9908:0"
+    },
+    "failsafeGpsRescueItemDescendRate": {
+        "message": "crwdns9910:0crwdne9910:0"
+    },
     "failsafeGpsRescueItemMinSats": {
         "message": "crwdns8888:0crwdne8888:0"
+    },
+    "failsafeGpsRescueItemAllowArmingWithoutFix": {
+        "message": "crwdns9912:0crwdne9912:0"
+    },
+    "failsafeGpsRescueItemAltitudeMode": {
+        "message": "crwdns9914:0crwdne9914:0"
+    },
+    "failsafeGpsRescueItemAltitudeModeMaxAlt": {
+        "message": "crwdns9916:0crwdne9916:0"
+    },
+    "failsafeGpsRescueItemAltitudeModeFixedAlt": {
+        "message": "crwdns9918:0crwdne9918:0"
+    },
+    "failsafeGpsRescueItemAltitudeModeCurrentAlt": {
+        "message": "crwdns9920:0crwdne9920:0"
     },
     "failsafeGpsRescueItemSanityChecks": {
         "message": "crwdns8890:0crwdne8890:0"
