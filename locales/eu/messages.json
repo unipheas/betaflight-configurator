@@ -261,7 +261,7 @@
         "message": "Loturako Erregistroa"
     },
     "tabOnboardLogging": {
-        "message": "Blackbox"
+        "message": "Kutxabeltza"
     },
     "tabAdjustments": {
         "message": "Egokitzeak"
@@ -948,7 +948,7 @@
         "message": "Gaitu aurretik, deskonektatu hegaldiaren bateria eta helizeak kendu."
     },
     "featureBLACKBOX": {
-        "message": "Kaxa beltzeko hegaldi datu gordailua"
+        "message": "Kutxa beltzeko hegaldi datu gordailua"
     },
     "featureBLACKBOXTip": {
         "message": "Gaitu ondoren, kutxa beltzaren atala konfiguratu."
@@ -1124,6 +1124,9 @@
     "configurationDigitalIdlePercent": {
         "message": "Motorraren Throttle Inaktiboaren balioa [percent]"
     },
+    "configurationDigitalIdlePercentHelp": {
+        "message": "Aireontzia armatuta dagoenean eta azeleragailua gutxieneko egoeran dagoen ESCetara bidaltzen den gehienezko azeleragailuaren ehuneko gisa da. Abiadura handiagoa lortzeko ehunekoa handitu dezakezu aktibo dagoenean."
+    },
     "configurationMotorPoles": {
         "message": "Motorren zutoinak",
         "description": "One of the fields of the ESC/Motor configuration"
@@ -1160,6 +1163,9 @@
     "configurationDshotBeaconTone": {
         "message": "Balizaren tonua"
     },
+    "configurationDshotBeaconHelp": {
+        "message": "Dshot balizak ESCak eta motorrak erabiltzen ditu soinua sortzeko. Horrek esan nahi du Dshot baliza ezin dela erabili motorrak biratzen ari direnean. Betaflight 3.4 eta hurrengoetan, Dshot baliza aktibo dagoen bitartean armatzen saiatzean, Dshot balizaren azken tonuaren ondoren 2 segundoko eten bat dago armatu aurretik. Hau egin behar da Dshot balizaren funtzionaltasunak armagabetzean bidaltzen diren Dshot komandoak oztopatzeko. <br/><strong>Arreta:</strong> Dshot baliza korrontea igaroko denez, balizaren intentsitatea altua bada ere, motorra / elektrikoa gehiegi berotu edo kalteak eragin ditzake. Erabil ezazu BLHeli konfiguratzailea edo BLHeli kit-a balizaren indarra doitzeko eta probatzeko."
+    },
     "configurationBeeper": {
         "message": "Beeper-en konfigurazioa"
     },
@@ -1178,11 +1184,80 @@
     "beeperARMING": {
         "message": "Bip soinua hegaldi kontroladorea armatzerakoan"
     },
+    "beeperARMING_GPS_FIX": {
+        "message": "Soinu berezia kontroladorea armatzerakoan eta GPS konexiorik badago"
+    },
     "beeperBAT_CRIT_LOW": {
         "message": "Abisua luzeagoak errepikatzen ditu bateria kritikoa denean(errepikatu)"
     },
     "beeperBAT_LOW": {
         "message": "Abisua soinuak errepikatzen dira bateria gutxi dagoenean(errepikatu)"
+    },
+    "beeperGPS_STATUS": {
+        "message": "Erabili bip soinuak zenbat satelite GPS aurkitu diren adierazteko"
+    },
+    "beeperRX_SET": {
+        "message": "Bip soinua aux kanal bat bip egiteko ezarrita dagoenean"
+    },
+    "beeperACC_CALIBRATION": {
+        "message": "Azelerometroaren kalibrazioa hegan berretsi da"
+    },
+    "beeperACC_CALIBRATION_FAIL": {
+        "message": "Azelerometroaren kalibrazioa huts"
+    },
+    "beeperREADY_BEEP": {
+        "message": "Dei soinua GPS-a prest dagoenean"
+    },
+    "beeperDISARM_REPEAT": {
+        "message": "Bip soinuak palanka desarmatuta dagoen bitartean"
+    },
+    "beeperARMED": {
+        "message": "Abisu soinua kontroladoreak motor inaktiboekin armatuta dagoenean (errepikatu plaka desarmatu arte edo abiadura handitu arte)"
+    },
+    "beeperSYSTEM_INIT": {
+        "message": "Hasierako soinua kontroladorea piztean"
+    },
+    "beeperUSB": {
+        "message": "Segitu soinua hegaldiaren kontroladorea USB bidez elikatzen denean. Desgaitu hau lantokiko soinuak nahi ez badituzu"
+    },
+    "beeperBLACKBOX_ERASE": {
+        "message": "Soinua, kutxabeltza ezabaketa amaitzen denean"
+    },
+    "beeperCAM_CONNECTION_OPEN": {
+        "message": "Soinua eman, 5 tekla kamera kontrolean sartzean"
+    },
+    "beeperCAM_CONNECTION_CLOSE": {
+        "message": "Soinua eman, 5 tekla kamera kontroletik irtetean"
+    },
+    "beeperRC_SMOOTHING_INIT_FAIL": {
+        "message": "Soinua eman armatuta dagoenean eta rc leuntzeak ez ditu iragazkiak hasieratu"
+    },
+    "configuration3d": {
+        "message": "3D ESC/Motorren ezaugarriak"
+    },
+    "configuration3dDeadbandLow": {
+        "message": "3D Deadband balio txikia"
+    },
+    "configuration3dDeadbandHigh": {
+        "message": "3D Deadband balio handia"
+    },
+    "configuration3dNeutral": {
+        "message": "3D Neutroa"
+    },
+    "configuration3dDeadbandThrottle": {
+        "message": "Azeleragailuaren 3D Deadband"
+    },
+    "configurationSystem": {
+        "message": "Sistemaren ezarpenak"
+    },
+    "configurationLoopTime": {
+        "message": "Hegaldi-kontroladorearen ziklo denbora"
+    },
+    "configurationCalculatedCyclesSec": {
+        "message": "Zikloak/seg [Hz]"
+    },
+    "configurationLoopTimeHelp": {
+        "message": "<strong>Oharra:</strong> Ziurtatu zure FC abiadura horietan funtzionatzeko gai dela! Egiaztatu CPU eta Ziklo denboraren egonkortasuna. Aldatzean, beharrezkoa izango da PID berrezartzea. OHARRA: Errendimendu gehiago lortzeko, desgaitu azelerometroa eta bestelako sentsoreak."
     },
     "configurationButtonSave": {
         "message": "Gorde eta berrabiarazi"
@@ -1263,7 +1338,7 @@
         "message": "Serial RX"
     },
     "portsFunction_BLACKBOX": {
-        "message": "Kutxa beltzaren erregistroa"
+        "message": "Kutxa-beltzaren erregistroa"
     },
     "portsFunction_TBS_SMARTAUDIO": {
         "message": "VTX (TBS SmartAudio)"
@@ -1497,7 +1572,7 @@
         "message": "Hegaldiaren kontroladorearen firmwarea oso zaharra da fitxa hau onartzeko, edo Blackbox funtzioa desgaituta dago Konfigurazio fitxan."
     },
     "blackboxConfiguration": {
-        "message": "Blackbox konfigurazioa"
+        "message": "Kutxabeltza konfigurazioa"
     },
     "blackboxButtonSave": {
         "message": "Gorde eta berrabiarazi"
@@ -1525,5 +1600,9 @@
     },
     "dataflashNotPresentNote": {
         "message": "Zure hegaldi kontrolatzaileak ez dauka flash integratuta erabilgarri."
+    },
+    "osdTextStatBlackbox": {
+        "message": "Kutxabeltza: erabilitako espazioa",
+        "description": "One of the statistics that can be shown at the end of the flight in the OSD"
     }
 }
