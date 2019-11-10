@@ -3516,7 +3516,7 @@
         "message": "Dejar caer"
     },
     "failsafeProcedureItemSelect4": {
-        "message": "Rescate GPS"
+        "message": "GPS Rescate"
     },
     "failsafeGpsRescueItemAngle": {
         "message": "Ángulo"
@@ -3539,8 +3539,29 @@
     "failsafeGpsRescueItemThrottleHover": {
         "message": "Acelerador flotar"
     },
+    "failsafeGpsRescueItemAscendRate": {
+        "message": "Velocidad de ascenso (metros/segundo)"
+    },
+    "failsafeGpsRescueItemDescendRate": {
+        "message": "Velocidad de descenso (metros/segundo)"
+    },
     "failsafeGpsRescueItemMinSats": {
         "message": "Satélites mínimos"
+    },
+    "failsafeGpsRescueItemAllowArmingWithoutFix": {
+        "message": "Permitir armar sin satélites fijados - <span class=\"message-negative\">ADVERTENCIA: el GPS Rescate no estará disponible</span>"
+    },
+    "failsafeGpsRescueItemAltitudeMode": {
+        "message": "Modo altitud"
+    },
+    "failsafeGpsRescueItemAltitudeModeMaxAlt": {
+        "message": "Altitud máxima"
+    },
+    "failsafeGpsRescueItemAltitudeModeFixedAlt": {
+        "message": "Altitud fija"
+    },
+    "failsafeGpsRescueItemAltitudeModeCurrentAlt": {
+        "message": "Altitud actual"
     },
     "failsafeGpsRescueItemSanityChecks": {
         "message": "Controles de corrección"
@@ -4799,14 +4820,14 @@
         "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningGpsRescueUnavailable": {
-        "message": "Avisa cuando el Rescate GPS no está disponible y no puede ser activado"
+        "message": "Avisa cuando el GPS Rescate no está disponible y no puede ser activado"
     },
     "osdWarningTextGpsRescueDisabled": {
         "message": "GPS Rescate: desactivado",
         "description": "One of the warnings that can be selected to be shown in the OSD"
     },
     "osdWarningGpsRescueDisabled": {
-        "message": "Avisa cuando el Rescate GPS está desactivado"
+        "message": "Avisa cuando el GPS Rescate está desactivado"
     },
     "osdWarningTextRSSI": {
         "message": "RSSI",
