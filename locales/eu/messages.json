@@ -1223,6 +1223,9 @@
     "beeperBLACKBOX_ERASE": {
         "message": "Soinua, kutxabeltza ezabaketa amaitzen denean"
     },
+    "beeperCRASH_FLIP": {
+        "message": "Soinu bat dortoka modua gaituta dagoenean"
+    },
     "beeperCAM_CONNECTION_OPEN": {
         "message": "Soinua eman, 5 tekla kamera kontrolean sartzean"
     },
@@ -1258,6 +1261,49 @@
     },
     "configurationLoopTimeHelp": {
         "message": "<strong>Oharra:</strong> Ziurtatu zure FC abiadura horietan funtzionatzeko gai dela! Egiaztatu CPU eta Ziklo denboraren egonkortasuna. Aldatzean, beharrezkoa izango da PID berrezartzea. OHARRA: Errendimendu gehiago lortzeko, desgaitu azelerometroa eta bestelako sentsoreak."
+    },
+    "configurationGPSProtocol": {
+        "message": "Protokoloa"
+    },
+    "configurationGPSBaudrate": {
+        "message": "Baudrate"
+    },
+    "configurationGPSubxSbas": {
+        "message": "Lurreko Laguntza Mota"
+    },
+    "configurationGPSAutoBaud": {
+        "message": "Auto Baud"
+    },
+    "configurationGPSAutoConfig": {
+        "message": "Konfigurazio automatikoa"
+    },
+    "configurationGPSGalileo": {
+        "message": "Galileo erabili",
+        "description": "Option to use Galileo in the GPS configuration"
+    },
+    "configurationGPSGalileoHelp": {
+        "message": "Gaituta dagoenean, QZSS sistema kentzen du (japoniarra) eta Galileo sistemarengandik (Europatarra) ordezkatzen du.",
+        "description": "Help text for the option to use Galileo in the GPS configuration"
+    },
+    "configurationGPSHomeOnce": {
+        "message": "Hasierako puntua behin bakarrik ezarri",
+        "description": "Option to set the Home Point with the first arm only, not with each arm in the GPS Configuration"
+    },
+    "configurationGPSHomeOnceHelp": {
+        "message": "Gaituta dagoenean, bateria konektatu ondorengo lehenengo besoa bakarrik erabiliko da etxeko puntu gisarako. Gaituta ez bada, aireontxia armatuta dagoen bakoitzean, etxeko puntua eguneratuko da.",
+        "description": "Help text for the option to set the Home Point with the first arm only, not with each arm in the GPS Configuration"
+    },
+    "configurationGPSHelp": {
+        "message": "<strong>Oharra:</strong> Gogoratu Serial ataka bat konfiguratu (ataka fitxen bidez) GPS funtzioaerabiltzen duzunean."
+    },
+    "configurationSerialRX": {
+        "message": "Serie hartzailea hornitzailea"
+    },
+    "configurationSpiRX": {
+        "message": "SPI Bus Hartzaileen Hornitzailea"
+    },
+    "configurationEepromSaved": {
+        "message": "EEPROM <span class=\"message-positive\">gorde</span>"
     },
     "configurationButtonSave": {
         "message": "Gorde eta berrabiarazi"
