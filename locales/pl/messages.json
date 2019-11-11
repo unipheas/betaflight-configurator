@@ -32,7 +32,7 @@
         "message": "Operacja nie jest obsługiwana przez urządzenie."
     },
     "storageDeviceNotReady": {
-        "message": "Urządzenie pamięci nie jest gotowe. W przypadku karty microSD upewnij się, że jest prawidłowo rozpoznawana przez kontroler lotu."
+        "message": "Urządzenie pamięci masowej nie jest gotowe. W przypadku karty microSD upewnij się, że jest prawidłowo rozpoznawana przez kontroler lotu."
     },
     "options_title": {
         "message": "Ustawienia aplikacji"
