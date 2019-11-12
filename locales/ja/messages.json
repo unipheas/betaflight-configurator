@@ -3539,8 +3539,29 @@
     "failsafeGpsRescueItemThrottleHover": {
         "message": "帰還時 スロットル ホバリング値"
     },
+    "failsafeGpsRescueItemAscendRate": {
+        "message": "上昇レート (m/s)"
+    },
+    "failsafeGpsRescueItemDescendRate": {
+        "message": "下降レート (m/s)"
+    },
     "failsafeGpsRescueItemMinSats": {
         "message": "GPS 衛星捕捉数 最小値"
+    },
+    "failsafeGpsRescueItemAllowArmingWithoutFix": {
+        "message": "修正せずにアーム許可 - <span class=\"message-negative\">警告: GPSレスキューは利用できません</span>"
+    },
+    "failsafeGpsRescueItemAltitudeMode": {
+        "message": "高度維持モード"
+    },
+    "failsafeGpsRescueItemAltitudeModeMaxAlt": {
+        "message": "最大高度"
+    },
+    "failsafeGpsRescueItemAltitudeModeFixedAlt": {
+        "message": "指定高度"
+    },
+    "failsafeGpsRescueItemAltitudeModeCurrentAlt": {
+        "message": "現在高度"
     },
     "failsafeGpsRescueItemSanityChecks": {
         "message": "健全性チェック"
