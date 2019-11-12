@@ -423,7 +423,7 @@
         "message": "<b>Zapytanie do GitHub'a dla wersji $1 nie udało się, używam zapamiętanych wcześniej informacji. Powód: <code>$2</code></b>"
     },
     "releaseCheckCached": {
-        "message": "Używam zapamiętanych wcześniej informacji dla $1 wersji."
+        "message": "Użyto wcześniej zapamiętanych informacji dla $1 wersji."
     },
     "releaseCheckNoInfo": {
         "message": "Informacje o wersji $1 są niedostępne."
@@ -3131,6 +3131,9 @@
     },
     "pidTuningDTermLowpassFiltersGroup": {
         "message": "Filtry D Term dolnoprzepustowe"
+    },
+    "pidTuningDTermLowpassType": {
+        "message": "Typ 1 Filtra dolnoprzepustowego D Term"
     },
     "pidTuningVbatPidCompensation": {
         "message": "Kompensacja PID na podstawie Vbat"
