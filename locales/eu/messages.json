@@ -547,7 +547,7 @@
         "message": "<a href=\"https://www.facebook.com/groups/betaflightgroup/\" target=\"_blank\">Facebook Talde</a> bat badaukagu.<br />Egin zaitez jarraitzaile Betafligth-i buruz hitz egiteko leku bat eukitzeko, konfigurazio galderak egiteko edota beste pilotuekin hitz egiteko."
     },
     "defaultChangelogHead": {
-        "message": "Configurator - Aldaketen zerrenda"
+        "message": "Konfiguratzailea - Aldaketen zerrenda"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "Firmware Flasheatzailea"
@@ -1262,6 +1262,9 @@
     "configurationLoopTimeHelp": {
         "message": "<strong>Oharra:</strong> Ziurtatu zure FC abiadura horietan funtzionatzeko gai dela! Egiaztatu CPU eta Ziklo denboraren egonkortasuna. Aldatzean, beharrezkoa izango da PID berrezartzea. OHARRA: Errendimendu gehiago lortzeko, desgaitu azelerometroa eta bestelako sentsoreak."
     },
+    "configurationGPS": {
+        "message": "GPSa"
+    },
     "configurationGPSProtocol": {
         "message": "Protokoloa"
     },
@@ -1494,6 +1497,12 @@
     "receiverRcSmoothingTypeHelp": {
         "message": "Erabilitako RC leuntze mota"
     },
+    "rcSmoothingChannelsSmoothedHelp": {
+        "message": "Leuntzea aplikatzeko kanalak"
+    },
+    "rcSmoothingDerivativeTypeHelp": {
+        "message": "Ezarpen-metodoaren deribaziorako erabiltzen den iragazketa-metodoa. Erabiltzaile gehienek \"BIQUAD\" balio lehenetsia erabili behar dute leuntasunaren eta atzerapenaren arteko oreka ona ematen duelako. \"PT1\" atzerapen apur bat murrizten du baina leuntze gutxiago ematen du."
+    },
     "rcSmoothingInputTypeHelp": {
         "message": "Sarrerarako erabiltzen den iragazketa metodoa. Erabiltzaile gehienek \"BIQUAD\" balioa erabili behar dute, leuntasunaren eta atzerapenaren arteko oreka ona ematen duelako. \"PT1\" atzerapena apur bat murrizten du baina leuntze gutxiago ematen du."
     },
@@ -1502,6 +1511,12 @@
     },
     "receiverRcSmoothingDerivativeCutoff": {
         "message": "Eratorritako ebaketa maistazuna"
+    },
+    "receiverRcInputType": {
+        "message": "Sarrera iragazki mota"
+    },
+    "receiverRcDerivativeType": {
+        "message": "Deribatuaren iragazki mota"
     },
     "receiverRcSmoothingDerivativeTypeOff": {
         "message": "Itzalita"
@@ -1514,6 +1529,75 @@
     },
     "receiverRcInterpolationHelp": {
         "message": "RC TX / RX sistemak ez dira PID begiztak bezain azkarrak. Horrek esan nahi du PID begiak RC sistemetatik informazio korrontearen hutsuneak dituela. Aukera honek RC sarrera interpolatzea ahalbidetzen du RC markoak jasotzen ez diren garaietan. Baita ere P eta D portaera garbiagoa eskaintzen du, kontrol sarreran arrapalak ez daudelako."
+    },
+    "receiverRcInterpolationIntervalHelp": {
+        "message": "Interpolazio-tartea eskuzko RC interpolazio moduarako milisegundotan"
+    },
+    "receiverRcInterpolationOff": {
+        "message": "Desgaitua"
+    },
+    "receiverRcSmoothingType": {
+        "message": "Leuntzeko Mota"
+    },
+    "receiverRcInterpolationDefault": {
+        "message": "Aurrez ezarrita"
+    },
+    "receiverRcInterpolationAuto": {
+        "message": "Auto"
+    },
+    "receiverRcInterpolationManual": {
+        "message": "Manuala"
+    },
+    "receiverRcInterpolationInterval": {
+        "message": "RC Interpolazio Interbaloa [ms]"
+    },
+    "pidTuningFeedforwardTransition": {
+        "message": "Feed-forward trantsizioa"
+    },
+    "pidTuningDtermSetpointTransition": {
+        "message": "D setpoint trantsizioa"
+    },
+    "pidTuningDtermSetpoint": {
+        "message": "D setpoint pisua"
+    },
+    "pidTuningDtermSetpointTransitionWarning": {
+        "message": "<span class=\"message-negative\"><strong>$t(warningTitle.message): </strong>Ezda gomendagarria 0 Setpoint-en trantsizioa 0 eta 0.1 baino txikiagoa. Hori egitean, ezegonkortasuna eta makilen erantzuna murriztea eragin dezakete, makilek erdiko puntua zeharkatzen duten bitartean.</span>"
+    },
+    "pidTuningProportional": {
+        "message": "Proportzionala (P)"
+    },
+    "pidTuningIntegral": {
+        "message": "Integrala (I)"
+    },
+    "pidTuningDerivative": {
+        "message": "Deribatiboa (D)"
+    },
+    "pidTuningFeedforward": {
+        "message": "Prealimentazioa (F)"
+    },
+    "pidTuningRcRate": {
+        "message": "RC Tasa"
+    },
+    "pidTuningMaxVel": {
+        "message": "Max Abi [gradu/s]"
+    },
+    "pidTuningRate": {
+        "message": "Tasa"
+    },
+    "pidTuningSuperRate": {
+        "message": "Super tasa"
+    },
+    "pidTuningRatesPreview": {
+        "message": "Tarifen aurrebista"
+    },
+    "pidTuningRcExpo": {
+        "message": "RC Expo"
+    },
+    "pidTuningTPA": {
+        "message": "TPA"
+    },
+    "pidTuningTPABreakPoint": {
+        "message": "TPA etendura"
     },
     "transponderInformation": {
         "message": "Transponder sistemek lasterketen antolatzaileek zure bueltak kronometratzea ahalbidetzen dute. Transpondorea aireontziari egokituta dago eta aireontziak denbora-atea pasatzen duenean pista-alboko hartzaileak zure kodea erregistratzen du eta buelta denbora grabatzen du. IR oinarritutako transponder bat egokitzean zure hegazkinetik pista-alboko hargailuetara zuzentzen dela ziurtatu behar duzu, eta argi-izpiak zure egitura, bateria-uhalak, kableak, helizeak eta abar ez duela oztopatzen."
