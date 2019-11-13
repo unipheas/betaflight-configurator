@@ -377,7 +377,7 @@
         "message": "Usunięcie zabezpieczenia powiodło się."
     },
     "stm32UnprotectUnplug": {
-        "message": "WYMAGANE DZIAŁANIE UŻYTKOWNIKA: Aby spróbować wgrać oprogramowanie ponownie odłącz i podłącz kontroler lotu w trybie DFU!"
+        "message": "WYMAGANE DZIAŁANIE UŻYTKOWNIKA: Aby spróbować wgrać oprogramowanieponownie odłącz i podłącz kontroler lotu w trybie DFU!"
     },
     "stm32UnprotectFailed": {
         "message": "Nie udało się odbezpieczyć płytki"
@@ -389,7 +389,7 @@
         "message": "Nie otrzymano konfiguracji przez <span class=\"message-negative\">10 sekund</span>, komunikacja <span class=\"message-negative\">zawiodła</span>."
     },
     "firmwareVersionNotSupported": {
-        "message": "Ta wersja oprogramowania kontrolera <span class=\"message-negative\">nie jest wspierana</span>. Proszę uaktualnij oprogramowanie do wersji, która wspiera API <strong>$1</strong>, lub wyższej. Użyj CLI, aby zgrać bieżącą konfigurację. Opis zgrywania/przywrócenia konfiguracji opisany jest w dokumentacji.<br />Możesz nieże pobrać starszą wersję konfiguratora, jeżeli nie chcesz aktualizować oprogramowania kontrolera lotu."
+        "message": "Ta wersja oprogramowania kontrolera <span class=\"message-negative\">nie jest wspierana</span>. Proszę uaktualnij oprogramowaniedo wersji, która wspiera API <strong>$1</strong>, lub wyższej. Użyj CLI, aby zgrać bieżącą konfigurację. Opis zgrywania/przywrócenia konfiguracji opisany jest w dokumentacji.<br />Możesz nieże pobrać starszą wersję konfiguratora, jeżeli nie chcesz aktualizować oprogramowania kontrolera lotu."
     },
     "firmwareTypeNotSupported": {
         "message": "Oprogramowanie nie będące Cleanflight/Betaflight <span class=\"message-negative\">nie jest wspierane</span>, z wyjątkiem trybu CLI."
@@ -435,7 +435,7 @@
         "message": "<span class=\"message-negative\">Nie możesz</span> wykonać tego teraz, zaczekaj aż obecna operacja się zakończy ..."
     },
     "tabSwitchUpgradeRequired": {
-        "message": "Aby zobaczyć zakładkę $1 musisz <strong>zaktualizować</strong> oprogramowanie kontrolera lotu do najnowszej wersji."
+        "message": "Aby zobaczyć zakładkę $1 musisz <strong>zaktualizować</strong> oprogramowaniekontrolera lotu do najnowszej wersji."
     },
     "firmwareVersion": {
         "message": "Wersja oprogramowania FC: <strong>$1</strong>"
@@ -465,7 +465,7 @@
         "message": "Płytka: <strong>$1</strong>, wersja: <strong>$2</strong>"
     },
     "buildInfoReceived": {
-        "message": "Używane oprogramowanie kontrolera lotu z dnia: <strong>$1</strong>"
+        "message": "Używane oprogramowaniekontrolera lotu z dnia: <strong>$1</strong>"
     },
     "fcInfoReceived": {
         "message": "Informacje o kontrolerze lotu - identyfikator: <strong>$1</strong>, wersja: <strong>$2</strong>"
@@ -528,7 +528,7 @@
         "message": "Sprzęt"
     },
     "defaultWelcomeText": {
-        "message": "Aplikacja wspiera wszystkie kontrolery lotu które mogą współpracować z Betaflight. Sprawdź kartę \"Wgrywania oprogramowania\" aby zobaczyć listę wszystkich kompatybilnych urządzeń.<br><br><a href=\"https://chrome.google.com/webstore/detail/betaflight-Rejestrator lotów -explo/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Pobierz Betaflight Blackbox</a><br /><br />Kody źródłowe oprogramowania dostępne do pobrania <a href=\"https://github.com/betaflight/betaflight\" title=\"www.github.com\" target=\"_blank\">tutaj</a>.<br />Najnowsze oprogramowanie FC znajdziesz <a href=\"https://github.com/betaflight/betaflight/releases\" title=\"www.github.com\" target=\"_blank\">tutaj</a><br /><br />Najnowsze <a href=\"http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx\" title=\"http://www.silabs.com\" target=\"_blank\">sterowniki CP210x</a> można pobrać <a href=\"http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx\" title=\"http://www.silabs.com\" target=\"_blank\">tutaj</a>.<br />Najnowsze <a href=\"http://www.st.com/web/en/catalog/tools/PF257938\" title=\"http://www.st.com\" target=\"_blank\">sterowniki STM USB VCP</a> można pobrać <a href=\"http://www.st.com/web/en/catalog/tools/PF257938\" title=\"http://www.st.com\" target=\"_blank\">tutaj</a>.<br />Najnowszy program <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">Zadig</a> do instalacji sterowników USB w Windows można pobrać <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">tutaj</a>.<br />"
+        "message": "Aplikacja wspiera wszystkie kontrolery lotu które mogą współpracować z Betaflight. Sprawdź kartę \"Wgrywania oprogramowania\" aby zobaczyć listę wszystkich kompatybilnych urządzeń.<br><br><a href=\"https://chrome.google.com/webstore/detail/betaflight-Rejestrator lotów -explo/canpiagfkeefejklcojkhojdijglnghc\" target=\"_blank\"> Pobierz Betaflight Blackbox</a><br /><br />Kody źródłowe oprogramowania dostępne do pobrania <a href=\"https://github.com/betaflight/betaflight\" title=\"www.github.com\" target=\"_blank\">tutaj</a>.<br />Najnowsze oprogramowanieFC znajdziesz <a href=\"https://github.com/betaflight/betaflight/releases\" title=\"www.github.com\" target=\"_blank\">tutaj</a><br /><br />Najnowsze <a href=\"http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx\" title=\"http://www.silabs.com\" target=\"_blank\">sterowniki CP210x</a> można pobrać <a href=\"http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx\" title=\"http://www.silabs.com\" target=\"_blank\">tutaj</a>.<br />Najnowsze <a href=\"http://www.st.com/web/en/catalog/tools/PF257938\" title=\"http://www.st.com\" target=\"_blank\">sterowniki STM USB VCP</a> można pobrać <a href=\"http://www.st.com/web/en/catalog/tools/PF257938\" title=\"http://www.st.com\" target=\"_blank\">tutaj</a>.<br />Najnowszy program <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">Zadig</a> do instalacji sterowników USB w Windows można pobrać <a href=\"http://zadig.akeo.ie/\" title=\"http://zadig.akeo.ie\" target=\"_blank\">tutaj</a>.<br />"
     },
     "defaultContributingHead": {
         "message": "Współtworzenie"
@@ -549,7 +549,7 @@
         "message": "Open Source / Informacja o darowiznach"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Betaflight</strong> to oprogramowanie kontrolera lotu które jest <strong>open source</strong> i jest dostępne bez opłat, <strong>bez gwarancji</strong> dla wszystkich użytkowników.</p><p>Jeśli uważasz Betaflight lub Konfigurator Betaflight za przydatne, proszę rozważ <strong>wsparcie</strong> ich rozwoju przez darowiznę.</p>"
+        "message": "<p><strong>Betaflight</strong> to oprogramowaniekontrolera lotu które jest <strong>open source</strong> i jest dostępne bez opłat, <strong>bez gwarancji</strong> dla wszystkich użytkowników.</p><p>Jeśli uważasz Betaflight lub Konfigurator Betaflight za przydatne, proszę rozważ <strong>wsparcie</strong> ich rozwoju przez darowiznę.</p>"
     },
     "defaultDonateBottom": {
         "message": "<p>Jeśli chcesz wnosić wkład finansowy na bieżąco, powinieneś rozważyć możliwość zostania naszym patronem $t(patreonLink.message).</p>"
@@ -600,7 +600,7 @@
         "message": "<a href=\"https://slack.betaflight.com\" target=\"_blank\">Developerzy Betaflight na slack'u</a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
-        "message": "<span class=\"message-negative\">Zapis i odtwarzanie konfiguracji jest wyłączone.</span> Posiadasz oprogramowanie FC z API w wersji <span class=\"message-negative\">$1</span>. Zapis i odtwarzanie konfiguracji wymaga wersji<span class=\"message-positive\">$2</span>. Prosimy, zapisz swoją konfigurację za pomocą CLI. Opis procedury znajdziesz w dokumentacji Betaflight."
+        "message": "<span class=\"message-negative\">Zapis i odtwarzanie konfiguracji jest wyłączone.</span> Posiadasz oprogramowanieFC z API w wersji <span class=\"message-negative\">$1</span>. Zapis i odtwarzanie konfiguracji wymaga wersji<span class=\"message-positive\">$2</span>. Prosimy, zapisz swoją konfigurację za pomocą CLI. Opis procedury znajdziesz w dokumentacji Betaflight."
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Kalibracja akcelerometru"
@@ -816,7 +816,7 @@
         "description": "Message that pops up to describe the RESC arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipRPMFILTER": {
-        "message": "Filtrowanie w oparciu o RPM jest włączone ale jedno lub więcej ESC nie dostarcza odpowiedniego sygnału telemetrii DSHOT. Sprawdź czy ESC są odpowiednie i mają zainstalowane wymagane oprogramowanie wspierające dwukierunkową telemetrię DSHOT.",
+        "message": "Filtrowanie w oparciu o RPM jest włączone ale jedno lub więcej ESC nie dostarcza odpowiedniego sygnału telemetrii DSHOT. Sprawdź czy ESC są odpowiednie i mają zainstalowane wymagane oprogramowaniewspierające dwukierunkową telemetrię DSHOT.",
         "description": "Message that pops up to describe the RPMFILTER arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
@@ -1025,7 +1025,7 @@
         "message": "Ustawienia ESC/Silników"
     },
     "configurationFeaturesHelp": {
-        "message": "<strong>Uwaga:</strong> Nie wszystkie kombinacje funkcji są poprawne. Jeśli oprogramowanie kontrolera lotu wykryje konflikt funkcji, zostanie ona wyłączona.<br /><strong>Uwaga:</strong> Skonfiguruj port <span class=\"message-negative\">przez</span> włączenie funkcji która będzie go wykorzystywać."
+        "message": "<strong>Uwaga:</strong> Nie wszystkie kombinacje funkcji są poprawne. Jeśli oprogramowaniekontrolera lotu wykryje konflikt funkcji, zostanie ona wyłączona.<br /><strong>Uwaga:</strong> Skonfiguruj port <span class=\"message-negative\">przez</span> włączenie funkcji która będzie go wykorzystywać."
     },
     "configurationSerialRXHelp": {
         "message": "<strong>Uwaga:</strong> Gdy używasz odbiornika typu RX_SERIAL, pamiętaj o skonfigurowaniu portu (w zakładce Porty) i wybraniu rodzaju sygnału odbiornika."
@@ -1322,7 +1322,7 @@
         "message": "Peryferia"
     },
     "portsHelp": {
-        "message": "<strong> Uwaga: </strong> nie wszystkie kombinacje są poprawne. Po wykryciu tego przez oprogramowanie  kontrolera lotu konfiguracja portu szeregowego zostanie zresetowana."
+        "message": "<strong> Uwaga: </strong> nie wszystkie kombinacje są poprawne. Po wykryciu tego przez oprogramowanie kontrolera lotu konfiguracja portu szeregowego zostanie zresetowana."
     },
     "portsVtxTableNotSet": {
         "message": "<span class=\"message-negative\"> OSTRZEŻENIE:</span> Tabela VTX nie została poprawnie skonfigurowana i bez niej sterowanie VTX nie będzie możliwe. Proszę ustawić tabelę VTX w zakładce $t(tabVtx.message)."
@@ -1400,7 +1400,7 @@
         "message": "Benewake LIDAR"
     },
     "pidTuningUpgradeFirmwareToChangePidController": {
-        "message": "<span class = \"message-negative\"> Wyłączono zmianę kontroli PID - możesz to zmienić za pomocą wiersza poleceń. </span> Masz oprogramowanie w wersji API <span class = \"message-negative\">$1</span>, ale ta funkcja wymaga <span class = \"message-Positive\">$2</span>."
+        "message": "<span class = \"message-negative\"> Wyłączono zmianę kontroli PID - możesz to zmienić za pomocą wiersza poleceń. </span> Masz oprogramowaniew wersji API <span class = \"message-negative\">$1</span>, ale ta funkcja wymaga <span class = \"message-Positive\">$2</span>."
     },
     "pidTuningSubTabPid": {
         "message": "Ustawienia profilu PID"
@@ -1976,7 +1976,7 @@
         "message": "EEPROM <span class=\"message-positive\">zapisana</span>"
     },
     "transponderNotSupported": {
-        "message": "Firmowe oprogramowanie kontrolera lotu nie obsługuje funkcji transpondera."
+        "message": "Firmowe oprogramowaniekontrolera lotu nie obsługuje funkcji transpondera."
     },
     "transponderInformation": {
         "message": "Systemy transponderów pozwalają organizatorom wyścigu mierzyć czas Twoich okrążeń. Transponder jest zamontowany na twoim modelu, kiedy twój model mija bramkę pomiaru czasu, odbiornik przytorowy rejestruje numer startowy i czas okrążenia. Instalując transponder na podczerwień, należy upewnić się, że wiązka podczerwieni jest skierowana na zewnątrz modelu w kierunku odbiorników przytorowych, oraz że  nie jest zasłonięta przez kadłub, paski akumulatora, kable, śmigła itp."
@@ -2508,13 +2508,13 @@
         "message": "Wybierz typ build'u żeby zobaczyć dostępne płytki."
     },
     "firmwareFlasherOnlineSelectBoardDescription": {
-        "message": "Wybierz swój kontroler lotu, aby zobaczyć dostępne wersje oprogramowania online. Wybierz odpowiednie oprogramowanie dla twojego kontrolera lotu."
+        "message": "Wybierz swój kontroler lotu, aby zobaczyć dostępne wersje oprogramowania online. Wybierz odpowiednie oprogramowaniedla twojego kontrolera lotu."
     },
     "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
         "message": "Wybierz wersję oprogramowania dla swojej płytki."
     },
     "firmwareFlasherFlashOnConnect": {
-        "message": "Flash w momęcie połączenia"
+        "message": "Wgraj w momęcie połączenia"
     },
     "firmwareFlasherFlashOnConnectDescription": {
         "message": "Próba automatycznego flashowania płytki (uruchamiana przez nowo wykryty port szeregowy)."
@@ -2529,7 +2529,7 @@
         "message": "Użyj oprogramowania twórcy programu"
     },
     "firmwareFlasherFlashDevelopmentFirmwareDescription": {
-        "message": "Wgraj najnowsze (nietestowane) oprogramowanie programistyczne."
+        "message": "Wgraj najnowsze (nietestowane) oprogramowanieprogramistyczne."
     },
     "firmwareFlasherManualPort": {
         "message": "Port"
@@ -2577,10 +2577,10 @@
         "message": "Wybierz wersję oprogramowania dla"
     },
     "firmwareFlasherButtonLoadLocal": {
-        "message": "Załaduj oprogramowanie [Local]"
+        "message": "Załaduj oprogramowanie[Local]"
     },
     "firmwareFlasherButtonLoadOnline": {
-        "message": "Załaduj oprogramowanie [Online]"
+        "message": "Załaduj oprogramowanie[Online]"
     },
     "firmwareFlasherButtonDownloading": {
         "message": "Pobieranie..."
@@ -2607,7 +2607,7 @@
         "message": "Wiadomość:"
     },
     "firmwareFlasherWarningText": {
-        "message": "Postępuj według wytycznych <span class = \"message-negative\"> nie </span> spróbuj flashować sprzęt <strong> inny niż Betaflight </strong> z pomocą tego oprogramowania. <br /> Do <span class = \"message-negative\" > nie </span> <strong> odłączaj </strong> płytki lub <strong> wyłączaj </strong> komputea podczas flashowania. <br /> <br /> <strong> Uwaga: </strong> bootloader STM32 jest przechowywany w ROM-ie, nie może być blokowany. <br /> <strong> Uwaga: </strong> <span class = \"message-negative\"> Automatyczne połączenie </span> jest zawsze wyłączone, gdy jesteś w trybie wgrywania oprogramowania. <br /> <strong> Uwaga: </strong> upewnij się, że masz kopię zapasową; niektóre aktualizacje mogą usunąć twoją konfigurację. <br /> <strong> Uwaga: </strong> jeśli masz problemy z wyrywaniem oprogramowania<strong> spróbuj odłączyć wszystkie kable od kontrolera lotu </strong> spróbuj ponownie uruchomić komputer, zaktualizuj chrome, uaktualnij sterowniki. <br /> <strong> Uwaga: </strong> Podczas wgrywania oprogramowania do płytek bezpośrednio podłączonych do gniazd USB (większość nowszych płytek) upewnij się, że przeczytałeś sekcję Wgrywanie oprogramowania w instrukcji Betaflight i zainstalowałeś odpowiednie oprogramowanie i sterowniki"
+        "message": "Postępuj według wytycznych <span class = \"message-negative\"> nie </span> spróbuj flashować sprzęt <strong> inny niż Betaflight </strong> z pomocą tego oprogramowania. <br /> Do <span class = \"message-negative\" > nie </span> <strong> odłączaj </strong> płytki lub <strong> wyłączaj </strong> komputea podczas flashowania. <br /> <br /> <strong> Uwaga: </strong> bootloader STM32 jest przechowywany w ROM-ie, nie może być blokowany. <br /> <strong> Uwaga: </strong> <span class = \"message-negative\"> Automatyczne połączenie </span> jest zawsze wyłączone, gdy jesteś w trybie wgrywania oprogramowania. <br /> <strong> Uwaga: </strong> upewnij się, że masz kopię zapasową; niektóre aktualizacje mogą usunąć twoją konfigurację. <br /> <strong> Uwaga: </strong> jeśli masz problemy z wyrywaniem oprogramowania<strong> spróbuj odłączyć wszystkie kable od kontrolera lotu </strong> spróbuj ponownie uruchomić komputer, zaktualizuj chrome, uaktualnij sterowniki. <br /> <strong> Uwaga: </strong> Podczas wgrywania oprogramowania do płytek bezpośrednio podłączonych do gniazd USB (większość nowszych płytek) upewnij się, że przeczytałeś sekcję Wgrywanie oprogramowania w instrukcji Betaflight i zainstalowałeś odpowiednie oprogramowaniei sterowniki"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>Odzyskiwanie / Utracono komunikacje</strong>"
@@ -2622,7 +2622,7 @@
         "message": "Załadowane lokalne oprogramowanie: ($1 bajtów)"
     },
     "firmwareFlasherFirmwareOnlineLoaded": {
-        "message": "Załaduj oprogramowanie ze strony online: ($1 bytes)"
+        "message": "Załaduj oprogramowanieze strony online: ($1 bytes)"
     },
     "firmwareFlasherHexCorrupted": {
         "message": "Plik HEX wydaje się być uszkodzony"
@@ -2649,7 +2649,7 @@
         "description": "If we have a Unified target and a old style target available, we are labeling the older one"
     },
     "firmwareFlasherNoFirmwareSelected": {
-        "message": "<b>Nie wybrano firmware do załadowania</b>"
+        "message": "<b>Nie wybrano oprogramowaniedo załadowania</b>"
     },
     "firmwareFlasherNoValidPort": {
         "message": "<span class=\"message-negative\">Wybierz prawidłowy port szeregowy</span>"
@@ -4058,7 +4058,7 @@
         "message": "Częstotliwość PWM silnika"
     },
     "configurationDshotBidir": {
-        "message": "Dwukierunkowy DShot (wymaga aby oprogramowanie ESC wspierało tą funkcje)",
+        "message": "Dwukierunkowy DShot (wymaga aby oprogramowanieESC wspierało tą funkcje)",
         "description": "Feature for the ESC/Motor"
     },
     "configurationGyroSyncDenom": {
@@ -4225,7 +4225,7 @@
         "message": "TRYB ZMIANY KAMERY"
     },
     "flashTab": {
-        "message": "Aktualizuj oprogramowanie"
+        "message": "Aktualizuj Fc"
     },
     "cliAutoComplete": {
         "message": "Zaawansowane autouzupełnianie wiersza poleceń"
