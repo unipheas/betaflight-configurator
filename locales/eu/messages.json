@@ -1590,6 +1590,9 @@
     "pidTuningRatesPreview": {
         "message": "Tarifen aurrebista"
     },
+    "pidTuningRatesTuningHelp": {
+        "message": "<b>Tasak eta Expo</b>: Zehaztu ezazu kontrol sentimendua parametro hauetan oinarrituta kontroletan. Erabili grafikoa eta 3D zuzeneko eredua zure gogoko tasaren ezarpenak aurkitzeko."
+    },
     "pidTuningRcExpo": {
         "message": "RC Expo"
     },
@@ -1598,6 +1601,63 @@
     },
     "pidTuningTPABreakPoint": {
         "message": "TPA etendura"
+    },
+    "pidTuningThrottleCurvePreview": {
+        "message": "Azeleragailu kurbaren aurrebista"
+    },
+    "pidTuningThrottleLimitType": {
+        "message": "Azeleragailuaren muga"
+    },
+    "pidTuningThrottleLimitPercent": {
+        "message": "Azeleragailuaren muga %"
+    },
+    "pidTuningThrottleLimitTypeOff": {
+        "message": "DESGAITUA"
+    },
+    "pidTuningThrottleLimitTypeScale": {
+        "message": "ESKALATU"
+    },
+    "pidTuningThrottleLimitTypeClip": {
+        "message": "LABURTU"
+    },
+    "pidTuningThrottleLimitTypeTip": {
+        "message": "Hautatu azeleragailu-muga mota. <b>DESGAITU</b>funtzioa desgaitzen du, <b>ESKALATU</b> k azeleragailuaren tartea 0-tik hautatutako portzentajea eraldatuko du bide osoa erabiliz, <b>LABURTU</b> gehienezko azeleragailuaren ehunekoa ezarriko du eta eragin gehigarririk ez duen gainetik dagoen ibilbidea"
+    },
+    "pidTuningThrottleLimitPercentTip": {
+        "message": "Ezarri nahi duzun throttle mugaren ehunekoa. 100% ezarrita funtzioa ezgaitzen du."
+    },
+    "pidTuningFilter": {
+        "message": "Iragazkia"
+    },
+    "pidTuningFilterFrequency": {
+        "message": "Frekuentzia"
+    },
+    "pidTuningRatesCurve": {
+        "message": "Tasaren aurrebista"
+    },
+    "throttle": {
+        "message": "Throttle"
+    },
+    "pidTuningButtonSave": {
+        "message": "Gorde"
+    },
+    "pidTuningButtonRefresh": {
+        "message": "Berritu"
+    },
+    "pidTuningProfileHead": {
+        "message": "Profila"
+    },
+    "pidTuningControllerHead": {
+        "message": "PID kontroladorea"
+    },
+    "pidTuningCopyProfile": {
+        "message": "Profilaren balioak kopiatu"
+    },
+    "pidTuningCopyRateProfile": {
+        "message": "Profilaren balioak kopiatu"
+    },
+    "dialogCopyProfileText": {
+        "message": "Kopiatu hemen uneko profilaren balioak"
     },
     "transponderInformation": {
         "message": "Transponder sistemek lasterketen antolatzaileek zure bueltak kronometratzea ahalbidetzen dute. Transpondorea aireontziari egokituta dago eta aireontziak denbora-atea pasatzen duenean pista-alboko hartzaileak zure kodea erregistratzen du eta buelta denbora grabatzen du. IR oinarritutako transponder bat egokitzean zure hegazkinetik pista-alboko hargailuetara zuzentzen dela ziurtatu behar duzu, eta argi-izpiak zure egitura, bateria-uhalak, kableak, helizeak eta abar ez duela oztopatzen."
